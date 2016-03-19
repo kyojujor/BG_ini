@@ -1,0 +1,2396 @@
+﻿		
+//---------------------------------------------------------		
+//--------------------------注意---------------------------		
+//---------------------------------------------------------		
+//请各个系统提示信息放在对应的位置，ID严格遵循各系统的规则		
+//---------------------------------------------------------		
+//操作方式：ctrl+F，搜索对应系统名
+		
+//----------------------系统名一览------------------------------------------------
+	
+//角色系统；经验通用；体力值通用；道具使用限制通用；货币获得消耗；道具获得消耗使用		
+//技能获得消失；成就；NPC事件；修理；背包；战斗；坐骑；副本；新手副本引导；任务；道具		
+//商店；技能；拾取；仓库；技能快捷栏；好友；聊天栏；组队团队；交易；拍卖行；邮件		
+//宠物；队伍招募；黑市；请求；请求限制；称号；道具绑定；大地图；战场；竞技场；登陆		
+//工会；触发器；商城；生活职业；能量井；能量井战场；提示信息；PVP任务、每日引导；互
+
+//斥活动、放逐之地系统、系统功能开放提示、VIP；奖励衰减；副本门召唤；自动寻路；	
+
+//运营后台处理提示；系统设置；安全模式；交通工具；场景
+
+//黑金集市；网吧特权；战斗统计；容器操作；阵营战；载具权限；个人载具
+	
+//--------------------------------------------------------------------------------	
+		
+		
+		
+BG_9=<font color='#ffdbd6'>[系统]</font>		
+// 角色系统 		
+sys_role_0001=<font color='#ffff00'>成功升至{@0:数值}级</font>		
+sys_role_0002=当前等级已达满级		
+sys_role_0003=未转职，升级将无法获得属性点	
+sys_role_0004=转职条件不满足	
+sys_role_0005=已完成转职	
+sys_role_0006=转职失败		
+sys_role_0007=增加了{@0:数值}点[{@1:属性}]		
+sys_role_0008=<font color='#ffff00'>成功进阶为：{@0:职业名}</font>		
+sys_role_0009=此物品无法装备		
+sys_role_0010=没有定义此装备类型		
+sys_role_0011=此处无法装备该物品	
+sys_role_0012=变身状态下，无法进行此操作		
+sys_role_0013=技能释放中，无法更换装备		
+sys_role_0014=不能装备到主手		
+sys_role_0015=不能装备到副手		
+sys_role_0016=背包空间不足，无法卸下武器		
+sys_role_0017=无法卸下武器		
+sys_role_0018=死亡状态无法更换装备		
+sys_role_0020=无法装备布甲		
+sys_role_0021=无法装备皮甲		
+sys_role_0022=无法装备中甲		
+sys_role_0023=无法装备重甲		
+sye_role_0024=当前状态无法跳跃		
+sye_role_0025=当前状态无法使用技能		
+sye_role_0026=当前状态无法召唤坐骑		
+sye_role_0027=当前状态无法发起决斗		
+sye_role_0028=战斗中，无法休息	
+sys_role_0029=能量晶体数量不足，无法使用		
+sys_role_0030=能量晶体类型不符		
+sys_role_0031=能量盾已改造至满级
+sys_role_0032=金钱不足，无法改造
+sys_role_0033=所需物品不足，无法改造
+sys_role_0034=黑金不足，无法改造
+sys_role_0035=当天普通改造次数已达上限，无法改造
+sys_role_0048=背包空间不足，转职失败		
+sys_role_0049=操作失败		
+sys_role_0050=<a href="item,{@0:player},{@1:configID},{@2:uID}" style="HLStypeGoodsLevel{@3:colorLv}">[{@4:道具名称}]</a>装备成功		
+sys_role_0061=该部位无法装备{@0:武器握持类型}{@1:武器类型}		
+sys_role_0062=装备副手武器失败		
+sys_role_0063=尚未装备能量盾，充能失败		
+sys_role_0064=能量值已达上限，充能失败		
+sys_role_0065=该部位无法装备主手武器		
+sys_role_0066=该部位无法装备副手武器		
+sys_role_0067=装备损坏，请及时修理
+sys_role_0068=装备耐久过低，请及时修理
+sys_role_0069=脱离卡点冷却中
+sys_role_0070=黑金不足，无法强化
+sys_role_0071=本职业推荐{@0:装备}，该装备不适合
+sys_role_0072=当前状态，无法使用宝箱
+		
+		
+//经验通用		
+sys_exp_0001=<font color='#79e879'>获得经验{@0:数值}</font>		
+sys_exp_0002=<font color='#fc7d4b'>失去经验{@0:数值}</font>           
+
+//荣誉值通用
+sys_honor_0001=<font color='#79e879'>获得荣誉值{@0:数值}</font>
+sys_honor_0002=<font color='#ffff00'>恭喜，你的军阶提升至{@0:军阶}</font>
+
+//声望值通用
+sys_force_0001=你在{@0:ForceName}处的声望到达{@1:RelationName}
+sys_force_0002=你在{@0:ForceName}处的声望提高了{@1:change_value}点
+sys_force_0003=你在{@0:ForceName}处的声望减少了{@1:change_value}点
+
+//资金通用		
+sys_capital_0001=点券不足	
+sys_capital_0002=点券扣除失败
+sys_capital_0003=系统异常
+sys_capital_0004=点券异常			
+sys_capital_0005=非法资金类型
+sys_capital_0006=非法资金数量
+sys_capital_0007=资金功能关闭
+sys_capital_0008=安全时间财产保护
+sys_capital_0009=扣除点券异步处理
+sys_capital_0010={@0:capital}超过玩家自设每日消耗上限
+sys_capital_0011={@0:capital}不足
+sys_capital_0012={@0:capital}超过系统每日消费上限
+sys_capital_0013={@0:capital}不可用黑金抵用
+sys_capital_0014=抵用所需黑金不足
+sys_capital_0015=抵用所需黑金超过玩家自设每日消耗上限
+sys_capital_0016=服务器资金异常
+sys_capital_0017={@0:capital}未定义携带最大值
+sys_capital_0018={@0:capital}当前值为负，非法值
+sys_capital_0019=点券不可增加
+sys_capital_0020={@0:capital}超出携带上限
+sys_capital_0021=<font color='#79e879'>获得{@0:value} {@1:capital}</font>
+sys_capital_0022=<font color='#fc7d4b'>失去{@0:value} {@1:capital}</font>
+sys_capital_0023=今日{@0:capital}获得超过上限
+sys_capital_0024=抵用所需黑金超过系统每日消费上限
+
+//体力值通用
+sys_phys_0001=<font color='#79e879'>获得体力值{@0:数值}</font>
+		
+//道具使用限制通用		
+sys_itemlimit_0001=耐久度为0
+sys_itemlimit_0002=该道具今日使用次数已达上限，不可再使用		
+		
+//货币获得消耗		
+sys_gold_0001=<font color='#79e879'>获得{@money}</font>           
+sys_gold_0002=<font color='#fc7d4b'>失去{@money}</font>           
+sys_gold_0003={@0:Jin}金	
+sys_gold_0004={@0:Yin}银	
+sys_gold_0005={@0:Tong}铜	
+sys_gold_0006=消耗：	         
+sys_gold_0007={@0:HeiJin}点券		
+sys_gold_0008=金钱不足		  
+sys_gold_0009=点券不足，请及时充值		
+sys_gold_0010=携带金钱已达上限		
+sys_gold_0011={@0:Jin}金		
+sys_gold_0012={@0:Yin}银		
+sys_gold_0013={@0:Tong}铜
+sys_gold_0014=<font color='#79e879'>获得猎杀点数{@0:hunt}</font>
+sys_gold_0015=<font color='#79e879'>获得英勇点数{@0:hunt}</font>
+sys_gold_0016=<font color='#fc7d4b'>消耗猎杀点数{@0:hunt}</font>	
+sys_gold_0017=<font color='#fc7d4b'>消耗英勇点数{@0:hunt}</font>
+sys_gold_0018=<font color='#fc7d4b'>消耗斩首荣誉勋章{@0:hunt}</font>
+sys_gold_0019=<font color='#ffcc99'>{@0:Dian}点</font>	
+sys_gold_0020=<font color='#79e879'>获得{@0:Dian}点</font>		
+sys_gold_0021=<font color='#fc7d4b'>消耗{@0:Num}黑金</font>
+sys_gold_0022=<font color='#fc7d4b'>消耗贡献度{@0:hunt}</font>
+sys_gold_0024=该货币超过上限，无法继续获得
+sys_gold_0025=今日金钱获得超过上限
+sys_gold_0026=<font color='#79e879'>获得斩首荣誉勋章{@0:hunt}</font>
+
+
+//道具获得消耗使用		
+sys_useitem_0001=<font color='#79e879'>获得</font><a href="item,{@0:name},{@5:configID},{@1:道具ID}" style="HLStypeGoodsLevel{@2:colorLv}">[{@3:道具名称}]</a><font color='#79e879'>×{@4:amount}</font>	
+sys_useitem_0002=<font color='#fc7d4b'>消耗</font><a style="HLStypeGoodsLevel{@0:colorLv}">[{@1:道具}]</a><font color='#fc7d4b'>×{@2:num}</font>	
+sys_useitem_0003=<font color='#fc7d4b'>缺少</font><a style="HLStypeGoodsLevel{@0:colorLv}">[{@1:道具}]</a><font color='#fc7d4b'>×{@2:num}</font>		
+sys_useitem_0004=<font color='#fc7d4b'>出售</font><a style="HLStypeGoodsLevel{@0:colorLv}">[{@1:道具}]</a><font color='#fc7d4b'>×{@2:num}</font>		
+sys_useitem_0005=<font color='#79e879'>使用</font><a style="HLStypeGoodsLevel{@0:colorLv}">[{@1:道具}]</a><font color='#79e879'>×{@2:num}</font>	
+sys_useitem_0006=<a style="HLStypeGoodsLevel{@0:colorLv}">[{@1:道具}]</a>使用成功	
+sys_useitem_0007=<a style="HLStypeGoodsLevel{@0:colorLv}">[{@1:道具}]</a>使用失败	
+sys_useitem_0009=<font color='#fc7d4b'>失去</font><a style="HLStypeGoodsLevel{@0:colorLv}">[{@1:道具}]</a><font color='#fc7d4b'>×{@2:amount}</font>		
+sys_useitem_0010=<font color='#fc7d4b'>当前任务需要消耗</font><a style="HLStypeGoodsLevel{@0:colorLv}">[{@1:道具}]</a><font color='#fc7d4b'>×{@2:num}</font><font color='#fc7d4b'>个</font>	
+sys_useitem_0011=<font color='#fc7d4b'>当前任务扣除</font><a style="HLStypeGoodsLevel{@0:colorLv}">[{@1:道具}]</a><font color='#fc7d4b'>×{@2:num}</font><font color='#fc7d4b'>个</font>
+sys_useitem_0012=<font color='#79e879'>获得[{@0:configID}]×{@1:amount}</font>	
+
+//技能获得消失		
+sys_skillpanel_0001=装备技能：{@0:技能}		
+sys_skillpanel_0002=卸载技能：{@0:技能}		
+sys_skillpanel_0003=激活技能：{@0:技能}		
+sys_skillpanel_0004=获得技能：{@0:技能}		
+sys_skillpanel_0008=此栏位不能放该技能
+sys_skillpanel_0009=此栏位不能放该物品	
+sys_skillpanel_0014=等级不够，技能升级失败	
+sys_skillpanel_0015=金钱不足，技能升级失败		
+sys_skillpanel_0016=<font color='#ffff00'>技能升级成功</font>		
+sys_skillpanel_0017=技能升级失败		
+sys_skillpanel_0022=成功装备{@0:等级}技能{@1:技能名}		
+sys_skillpanel_0023=装备失败，高阶技能装备数量已满		
+sys_skillpanel_0024=装备失败，中阶技能装备数量已满		
+sys_skillpanel_0025=装备失败，角色可装备技能数量已满		
+sys_skillpanel_0027=初阶		
+sys_skillpanel_0028=中阶		
+sys_skillpanel_0029=高阶		
+sys_skillpanel_0032=[{@0:等级}技能]{@1:技能名}已解锁		
+sys_skillpanel_0033=[系统]:获得技能：{@0:技能}		
+sys_skillpanel_0034=战斗状态下无法装备技能
+sys_skillpanel_0035=战斗状态下无法卸载技能
+sys_skillpanel_0037=[{@0:技能名}]技能可升至[{@1:等级}]级
+sys_skillpanel_0038={@0:}技能升级成功，扣除{@1:}金{@2:}银{@3:}铜
+sys_skillpanel_0039={@0:}技能升级成功，扣除{@1:}黑金
+		
+		
+//成就		
+sys_achieve_0001={@0:名称}获得了成就[{@1:成就标题}]		
+sys_achieve_0002={@0:名称}获得了隐藏成就[{@1:成就标题}]		
+sys_achieve_0003={@0:名称}获得了唯一成就[{@1:成就标题}]		
+sys_achieve_0004=隐藏成就[{@0:成就标题}]解锁		
+		
+//NPC事件		
+sys_npc_0001=第{@0:time_no}波怪物开始刷新          
+sys_npc_0002=当前采集人数已到达上限，无法进行采集           
+sys_npc_0003=守卫出现
+sys_npc_0004=阵营不符
+sys_npc_0005=已有该物品，无法再次获得
+sys_npc_0006=成功拾取物品[{@0:item}]
+sys_npc_0007=身上没有炸弹
+sys_npc_0008=雕像身上没有炸弹
+sys_npc_0009=雕像已被安装炸弹
+sys_npc_0010=目标正在忙碌中
+
+//修理		
+sys_repair_0001=修理<a href="item,{@0:name},{@4:configID},{@1:道具ID}" style="HLStypeGoodsLevel{@2:colorLv}">[{@3:道具名称}]</a>成功	
+sys_repair_0002=共修理{@0:数量}件装备		
+sys_repair_0003=此物品不需要修理		
+sys_repair_0004=修理配置异常		        
+sys_repair_0005=未找到商店的配置		
+sys_repair_0006=没有需要修理的物品		
+		
+//背包		
+sys_bag_0001=背包空间不足		
+sys_bag_0002=背包的空间扩大了		
+sys_bag_0003=背包拆卸成功，背包空间变小了		
+sys_bag_0004=替换失败		
+sys_bag_0006=成功扩展背包槽位		
+sys_bag_0009=无法获得更多物品		
+sys_bag_0010=背包已满		
+sys_bag_0011=整理物品的频率太快，请稍等片刻		
+sys_bag_0012=不能拆卸至此位置		
+sys_bag_0013=所需黑金不足
+sys_bag_0014=装备背包后可解锁
+sys_bag_0015=背包中没有杂物		
+		
+		
+		
+//战斗		
+sys_fight_0001=当前区域禁止攻击其他玩家	             
+sys_fight_0002=当前区域禁止战斗		             
+sys_fight_0003=目标所在区域禁止战斗		     
+sys_fight_0004=金钱不足，无法在该复活点复活		
+sys_fight_0006=死亡状态，无法执行此操作		      
+sys_fight_0007=正在战斗中，请先脱离战斗		
+sys_fight_0008=战斗中无法进行此操作		
+sys_fight_0009=<font color='#ffff00'>选择了杀戮模式</font>		 
+sys_fight_0010=<font color='#ffff00'>选择了和平模式</font>		 
+sys_fight_0011=<font color='#ffff00'>通缉状态解除</font>	         
+sys_fight_0012=你在与[{@0:name}]的切磋中稍逊半筹		
+sys_fight_0013=身上装备的耐久度降低：{@0:count}%		
+sys_fight_0014=你在与[{@0:name}]的决斗中获胜		
+sys_fight_0015=你与[{@0:name}]的实力在伯仲之间		
+sys_fight_0033=正在战斗中，无法返回角色选择		
+sys_fight_0034=正在战斗中，无法退出游戏		       
+sys_fight_0035=决斗中，无法发出决斗申请		       
+sys_fight_0036=[{@0:name}]在决斗中，无法发出决斗申请	     
+sys_fight_0037=决斗即将开始，倒计时{@time3}		
+sys_fight_0038=决斗开始		                         
+sys_fight_0039=已超出决斗范围，{@time3}后将判定你在决斗中失败		
+sys_fight_0040=[{@0:name}]在与[{@1:name}]的决斗中获胜	           
+sys_fight_0041=[{@0:name}]与[{@1:name}]在决斗中打成平手		    
+sys_fight_0042=战斗中禁止决斗		
+sys_fight_0043=当前区域禁止决斗		 
+sys_fight_0044=请耐心等待回应		
+sys_fight_0045=决斗即将开始，你要小心了		
+sys_fight_0046=我会小心的		
+sys_fight_0047=你在被邀请状态中，无法发出申请		
+sys_fight_0048=对方在被邀请状态中，无法向他发出申请		
+sys_fight_0050=你犯了谋杀罪		
+sys_fight_0051=你因恶意攻击而被临时通缉		      
+sys_fight_0052=一分钟内没有持续恶意攻击行为，临时通缉状态解除		
+sys_fight_0053=<font color='#ffff00'>成功复活</font>		   
+sys_fight_0054=战斗中禁止切换PVP模式		
+sys_fight_0055=未脱离战斗，无法复活
+sys_fight_0056=复活冷却中，请稍后再尝试
+sys_fight_0057=与[{@0:name}]的距离太远，请接近到{@1:float}米以内再发起切磋请求				
+
+sys_fight_0061=在飞行坐骑上不能发起决斗
+sys_fight_0062=对方在飞行坐骑上不能发起决斗
+sys_fight_0063=你的能量盾损失了{@0:能量值}点能量值
+
+sys_redname_0001=红名状态，禁止该操作
+sys_redname_0002=红名状态：{@0:title}
+sys_redname_0003=您将会被卫兵攻击
+sys_redname_0004=红名状态，强制进入和平模式		
+sys_redname_0005=禁止与红名玩家切磋
+sys_redname_0006=禁止与红名玩家交易
+sys_redname_0007=红名状态：无法攻击，或被攻击
+sys_redname_0008=小心！死亡后会入狱！
+		
+//坐骑		
+sys_mount_0001=[{@0:name}]正在处理申请上坐骑请求，不能发出请求		
+sys_mount_0002=[{@0:name}]正在处理邀请上坐骑请求，不能发出请求		
+sys_mount_0003=距离太远，请在5米之内进行坐骑申请，当前距离为{@0:ToInt}米		
+sys_mount_0004=距离太远		
+sys_mount_0005=不在队伍中，无法上坐骑		
+sys_mount_0006=等级不足，请升至[{@0:name}]级		
+sys_mount_0007=骑术等级不够，无法上载具		
+sys_mount_0008=种族不符合，无法上载具		
+sys_mount_0009=阵营不符合，无法上载具		
+sys_mount_0010=职业不符合，无法上载具		
+sys_mount_0011=战斗中，不能下载具		
+sys_mount_0012=不能在水中唤出载具		
+sys_mount_0013=已经在载具上了		
+sys_mount_0014=在坐骑上，不能使用技能		
+sys_mount_0015=道具正在使用，不能移动		
+sys_mount_0016=变身状态不能上载具		
+sys_mount_0017=当前道具已经在坐骑栏中		
+sys_mount_0018=骑乘状态不能使用该道具		
+sys_mount_0019=骑乘状态不能上战斗载具		
+sys_mount_0020=已经有人在控制了		
+sys_mount_0021=当前状态不能找出载具		
+sys_mount_0022=枪手模式，无法上载具		
+sys_mount_0023=区域限制，无法上载具		
+sys_mount_0024=不能上载具		
+sys_mount_0025=区域限制，无法骑乘
+sys_mount_0026=当前状态无法上坐骑		
+sys_mount_0027=正在使用交通工具，无法骑乘		
+sys_mount_0028=操作失败，你正在战斗中		
+sys_mount_0029=已经在坐骑上了		
+sys_mount_0030=不能使用该道具		
+sys_mount_0031=不能骑乘		
+sys_mount_0032=当前状态禁止骑乘		
+sys_mount_0033=已装备到坐骑栏，按C到坐骑栏使用		
+sys_mount_0034=枪手模式，无法骑乘	
+sys_mount_0035=<br><font color='#00ff00'><右键点击下载具></font>		
+sys_mount_0036=<br><font color='#00ff00'><右键点击将其移下载具></font>		
+sys_mount_0037=<br><font color='#00ff00'><右键点击申请上载具></font>		
+sys_mount_0038=<br><font color='#00ff00'><右键点击下坐骑></font>		
+sys_mount_0039=<br><font color='#00ff00'><右键点击将其移下坐骑></font>		
+sys_mount_0040=<br><font color='#00ff00'><没有操作权限></font>		
+sys_mount_0041=<br><font color='#00ff00'><右键点击申请上坐骑></font>		
+sys_mount_0042=<br><font color='#00ff00'><该坐骑正在使用></font>		
+sys_mount_0043=<br><font color='#00ff00'><骑乘状态，无法进行采集></font>		
+sys_mount_0044=<br><font color='#00ff00'><骑乘状态，无法拾取></font>		
+sys_mount_0045=未接取任务无法骑乘载具
+sys_mount_0046=无法再次乘坐飞行载具		
+sys_mount_0047=载具被击毁，无法再次乘坐
+sys_mount_0048=空气稀薄，无法上升
+sys_mount_0049=战场内不能骑马
+sys_mount_0050=正在使用技能，无法使用交通工具
+sys_mount_0051=试炼之地无法骑乘坐骑
+sys_mount_0052=骑乘人数已满，操作失败
+sys_mount_0053=你已经在坐骑上，操作失败
+sys_mount_0054=[{@0:name}]已经在坐骑上，操作失败
+sys_mount_0055=区域限制，无法骑乘陆地坐骑
+sys_mount_0056=区域限制，无法骑乘水中坐骑
+sys_mount_0057=区域限制，无法骑乘空中坐骑
+		
+//副本		
+sys_clone_0001=<font color='#ffff00'>已进入副本: {@0}   副本模式: {@1}</font>		
+sys_clone_0003=系统将在{@time4}后重置副本，请离开副本		
+sys_clone_0004=<font color='#ffff00'>成功选择副本难度为：{@0:副本难度}</font>		
+sys_clone_0005=副本中还有玩家，无法重置		              
+sys_clone_0006=当前副本无法手动重置，请等待系统重置		
+sys_clone_0007=当前队伍类型不是团队, 无法进入团队副本
+sys_clone_0008=所要传送的场景{@0:场景号}号不存在					
+sys_clone_0012=阵营不符，无法进入	   
+sys_clone_0013=[{@0:cloneName}]副本禁止单人进入		
+sys_clone_0014=[{@0:cloneName}]副本禁止小队进入		
+sys_clone_0015=[{@0:cloneName}]副本禁止团队进入		
+sys_clone_0016=[{@0:cloneName}]副本禁止红名玩家进入		
+sys_clone_0017=战斗中，无法进入副本		     
+sys_clone_0018=副本限制时间即将结束，60秒后副本自动关闭		
+sys_clone_0019=已经退出队伍，将在60秒后传出副本				
+sys_clone_0022=[{@0:name}]重置了副本[{@1:clone_name}]				
+sys_clone_0025=<font color='#ffff00'>[{@0:name}]重置成功</font>		
+sys_clone_0026=[{@0:name}]副本需要[{@1:levelMin}]级至[{@2:levelMax}]级，你的等级不符合，无法进入		
+sys_clone_0027=[{@0:name}]副本需要[{@1:levelMin}]级以上的玩家进入，你的等级不足，无法进入		
+sys_clone_0028=本次副本结束，欢迎再次挑战               
+sys_clone_0029=副本次数扣除1次		   
+sys_clone_0030=尚有有队员正在战斗中，无法进入副本				
+sys_clone_0033=[{@0:name}]副本没有[{@1:name}]模式					
+sys_clone_0037=[{@0:}]开启了[{@1:}]副本-[{@2:}]			
+sys_clone_0039=背包空间不足，无法打开宝箱                       
+sys_clone_0040=副本中不允许存在两个队伍，将在10秒后传出副本       
+sys_clone_0043=当前副本可进入次数为0
+sys_clone_0046={@0:}副本只允许{@1:}人团队进入                   
+sys_clone_0047=你所在公会没有占领指定能量井，无法进入该副本        
+sys_clone_0048=你没有加入公会，无法进入该副本             
+sys_clone_0049=本周副本挑战次数已用完               
+sys_clone_0050=你已有该副本进度，无法进入              
+sys_clone_0051=副本人数已满，无法进入		
+sys_clone_0052=只能队长重置副本		
+sys_clone_0053=只能团长重置副本		
+sys_clone_0054=此副本不允许手动重置，请等待系统重置	
+sys_clone_0055=必须重置副本才可以进入
+sys_clone_0056=副本"{@0:cloneName}"将会在{@1:time}分钟之后销毁	
+//新手副本引导		
+sys_leadscene_0001=副本即将结束，你将要被传出		
+sys_leadscene_0002=背包空间不足，奖励已发送到邮箱		
+		
+		
+		
+		
+//任务		
+sys_quest_0001=成功接受任务：[{@0:名称}]		
+sys_quest_0002=任务列表已满，无法接受更多任务		
+sys_quest_0003=背包空间不足，无法获得任务物品		
+sys_quest_0004=无法获得任务物品		
+sys_quest_0005=成功提交任务：[{@0:名称}]		
+sys_quest_0006=背包空间不足，无法领取奖励		
+sys_quest_0007=无法领取奖励		
+sys_quest_0008=你必须选择一件任务奖励物品		
+sys_quest_0009=任务：[{@0:名称}]可提交		
+sys_quest_0010=击杀[{@0:名称}]成功，还剩{@1:数量}个		
+sys_quest_0011=还需要击杀{@0:数量}个		
+sys_quest_0012=还需要击杀{@0:数量}个玩家		
+sys_quest_0013=不是对该NPC使用		
+sys_quest_0014=你离使用的地方还有一段距离		
+sys_quest_0015=不是在本场景使用该道具		
+sys_quest_0016=还需要收集{@0:数量}个[{@1:物品}]		
+sys_quest_0017=成功删除任务：[{@0:名称}]		
+sys_quest_0018=此任务无法与其他玩家共享	
+sys_quest_0019=你没有队友，无法共享任务		
+sys_quest_0020=[{@0:名称}]正在共享任务，无法共享新任务		
+sys_quest_0021=[{@0:名称}]无法共享新任务		
+sys_quest_0022=[{@0:名称}]无法接受你共享的任务		
+sys_quest_0023=[{@0:名称}]接受了你共享的[{@1:名称}]任务		
+sys_quest_0024=此任务不可放弃		
+sys_quest_0025=同一时间只能接取一个护送任务		
+sys_quest_0026=与护送目标距离太远，请迅速靠近，任务即将失败		
+sys_quest_0027=与护送目标距离过远，任务失败，请放弃后重新接取	        
+sys_quest_0028=你离目标已经很近了		
+sys_quest_0029=你寻找的目标不在该场景           
+sys_quest_0030=副本场景已满，请稍后再接取           
+sys_quest_0031=任务失败，请放弃后重新接取               
+sys_quest_0032=护送目标死亡，任务失败，请放弃后重新接取
+sys_quest_0033=缺少道具，无法进行操作
+sys_quest_0034=距离接取任务NPC过远
+sys_CashTicket_0001=<font color='#79e879'>获得黑金{@0:CashTicket}</font>
+sys_CashTicket_0002=<font color='#fc7d4b'>消耗黑金{@0:CashTicket}</font>
+sys_HuntPoint_0001=<font color='#79e879'>获得猎杀点数{@0:HuntPoint}</font>
+sys_HuntPoint_0002=<font color='#fc7d4b'>消耗猎杀点数{@0:HuntPoint}</font>
+sys_HeroicPoint_0001=<font color='#79e879'>获得英勇点数{@0:HeroicPoint}</font>
+sys_HeroicPoint_0002=<font color='#fc7d4b'>消耗英勇点数{@0:HeroicPoint}</font>
+		
+		
+//道具		
+sys_item_0001=装备唯一            
+sys_item_0002=等级不符            
+sys_item_0003=职业不符            
+sys_item_0004=阵营不符            
+sys_item_0005=道具冷却中，无法使用[{@0:name}]              
+sys_item_0006=当前状态，无法使用此物品               
+sys_item_0007=[{@0:name}]无法被删除             
+sys_item_0008=无法获得更多此类物品              
+sys_item_0009=获取物品失败                         
+sys_item_0010=所需物品数量不足或处于锁定状态            
+sys_item_0011=<font color='#ffff00'>打孔成功</font>                     
+sys_item_0012=此物品不能打孔              
+sys_item_0013=打孔失败              
+sys_item_0014=<font color='#ffff00'>合成成功</font>            
+sys_item_0015=合成失败              
+sys_item_0016=合成失败，物品损坏              
+sys_item_0017=镶嵌孔数量已达到上限              
+sys_item_0018=其他动作进行中              
+sys_item_0019=操作被中断              
+sys_item_0020=此物品无法存储到仓库              
+sys_item_0021=此处无法装备该物品              
+sys_item_0022=背包中还有物品，请先取出              
+sys_item_0023=强化失败              
+sys_item_0024=<font color='#ffff00'>强化成功</font>              
+sys_item_0025=材料不可用               
+sys_item_0026=材料放置错误               
+sys_item_0027=无法丢弃               
+sys_item_0028=此物品被锁定               
+sys_item_0029=此物品不能被移动               
+sys_item_0030=无法进行当前操作               
+sys_item_0031=此背包不能被移动               
+sys_item_0032=您的请求已发送，请耐心等待！               
+sys_item_0033=距离目标太远，无法使用               
+sys_item_0034=金钱不足               
+sys_item_0035=<font color='#ffff00'>合成开始，请耐心等待</font>                 
+sys_item_0036=合成被取消               
+sys_item_0037=合成被中断               
+sys_item_0038=<font color='#ffff00'>打孔开始，请耐心等待</font>                 
+sys_item_0039=打孔被取消               
+sys_item_0040=打孔被中断               
+sys_item_0041=<font color='#ffff00'>强化开始，请耐心等待</font>                 
+sys_item_0042=强化被取消               
+sys_item_0043=强化被中断               
+sys_item_0044=种族不符                 
+sys_item_0045=此物品不能用于合成            
+sys_item_0046=相同装备才能用于合成           
+sys_item_0047=<font color='#ffff00'>充能开始，请耐心等待</font>             
+sys_item_0048=充能被取消           
+sys_item_0049=充能被中断           
+sys_item_0050=开通失败             
+sys_item_0051=需要去商城购买         
+sys_item_0052=<font color='#ffff00'>转换成功</font>                  
+sys_item_0053=转换花费：              
+sys_item_0054=物品已绑定              
+sys_item_0055=操作过于频繁，请{@time3}后重新尝试
+sys_item_0056=超出使用范围
+sys_item_0057=<font color='#ffff00'>蓄能开始，请耐心等待</font>
+sys_item_0060=合成条件不满足
+sys_item_0062=<font color='#ffff00'>宝石镶嵌成功</font>
+sys_item_0063=<font color='#ffff00'>宝石摘取成功</font>
+sys_item_0064=无法参与继承
+sys_item_0065=<font color='#ffff00'>继承成功：{@0:强化等级}星</font>
+sys_item_0066=无法参与合成
+sys_item_0067=此物品无法强化
+sys_item_0068=金钱不足，无法还原
+sys_item_0069=你的装备已达到最高等级
+sys_item_0070=你的装备已达到最高等级，不可进行强化
+sys_item_0071=材料不足，无法进行完美合成
+sys_item_0073=此物品已过期，无法使用
+sys_item_0074=<font color='#ffff00'>放入成功</font>
+sys_item_0076=<font color='#ffff00'>保存成功</font>
+sys_item_0077=<font color='#ffff00'>退回成功</font>
+sys_item_0079=你的等级不够
+sys_item_0081=需要开通VIP服务
+sys_item_0082={@0:装备}合成了新的属性
+sys_item_0083={@0:原因}，禁言{@1:time}分钟
+sys_item_0084=该种类宝石已存在，无法再镶嵌
+sys_item_0085=合成结束
+sys_item_0086=条件不符，无法重铸            
+sys_item_0087=请选择属性                    
+sys_item_0088=<font color='#ffff00'>开启中（ESC键关闭）</font>
+sys_item_0089=<font color='#ffff00'>充能成功</font>
+sys_item_0090=[{@0:物品名称}]已过期，请注意
+sys_item_0091=暂时无法使用
+sys_item_0092=当前状态，无法合成宝石
+sys_item_0093=<font color='#00FF00'>? ? ?(未知属性)</font>
+sys_item_0094=确认删除
+sys_item_0095=物品？删除后任务可能将无法完成
+sys_item_0096=已装备该技能，同类效果不叠加
+sys_item_0097=背包中没有此物品
+sys_item_0098=不可合成
+sys_item_0099=黑金不足
+sys_item_0100={@0:道具}能使用所有交易方式
+sys_item_0101={@0:道具}只能通过面对面交易方式交易,拍卖交易和邮寄交易方式交易
+sys_item_0102={@0:道具}只能通过面对面交易方式交易,拍卖交易和工会方式交易
+sys_item_0103={@0:道具}只能通过面对面交易和拍卖交易
+sys_item_0104={@0:道具}只能通过面对面交易方式交易,邮寄交易方式交易和工会方式交易
+sys_item_0105={@0:道具}只能通过面对面交易和邮寄交易方式交易
+sys_item_0106={@0:道具}只能通过面对面交易和工会方式交易
+sys_item_0107={@0:道具}只能通过面对面交易方式交易
+sys_item_0108={@0:道具}只能通过拍卖交易,邮寄交易方式交易和工会方式交易
+sys_item_0109={@0:道具}只能通过拍卖交易和邮寄交易方式交易
+sys_item_0110={@0:道具}只能通过拍卖交易和工会方式交易
+sys_item_0111={@0:道具}只能通过拍卖交易
+sys_item_0112={@0:道具}只能通过邮寄交易方式交易和工会方式交易
+sys_item_0113={@0:道具}只能通过邮寄交易方式交易
+sys_item_0114={@0:道具}只能通过工会方式交易
+sys_item_0115={@0:道具}不能使用任何一种交易方式
+sys_item_0116=武器
+sys_item_0117=防具
+sys_item_0118=饰物
+sys_item_0119=单手剑
+sys_item_0120=匕首
+sys_item_0121=水晶球
+sys_item_0122=长柄武器
+sys_item_0123=盾
+sys_item_0124=魔棒
+sys_item_0125=弓
+sys_item_0126=弩
+sys_item_0127=投掷
+sys_item_0128=标枪
+sys_item_0129=枪刃
+sys_item_0130=手枪
+sys_item_0131=枪
+sys_item_0132=法杖
+sys_item_0133=飞刀
+sys_item_0134=扳手
+sys_item_0135=能量球
+sys_item_0136=图腾
+sys_item_0137=魔瓶
+sys_item_0138=双刃剑
+sys_item_0139=双手剑
+sys_item_0140=单手斧
+sys_item_0141=双手斧
+sys_item_0142=单手锤
+sys_item_0143=双手锤
+sys_item_0144=上衣
+sys_item_0145=腰带
+sys_item_0146=帽子
+sys_item_0147=手套
+sys_item_0148=裤子
+sys_item_0149=护腕
+sys_item_0150=鞋子
+sys_item_0151=戒指
+sys_item_0152=背饰
+sys_item_0153=项链
+sys_item_0154=披风
+sys_item_0155=能量盾
+sys_item_0156=剑
+sys_item_0157=双手法杖
+sys_item_0158=双手枪
+sys_item_0159=对不起，搜索结果为空
+sys_item_0160=星级无法降低，继承失败
+sys_item_0201=挖掘
+sys_item_0202=挖掘成功
+sys_item_0203=挖掘失败
+sys_item_0204=背包空间不足,不可挖掘操作
+sys_item_0205=<藏宝图>已开启
+sys_item_0206=<藏宝图>未开启
+tips_item_type_300=藏宝图
+sys_talk_0116=<font color='#fc7d4b'>失去</font>[{@0:道具}]<font color='#fc7d4b'>×{@1:num}消耗{@money}</font>
+sys_talk_0117=<font color='#fc7d4b'>失去</font>[{@0:道具}]<font color='#fc7d4b'>×{@1:num}消耗{@2:黑金}黑金</font>
+sys_talk_0118=<font color='#fc7d4b'>消耗{@0:Num}黑金</font>
+sys_item_0207=请先放入主装备
+sys_item_0208=这不是宝石！
+sys_item_0209=条件不符合
+sys_item_0210=使用次数已达上限
+sys_item_0211=通缉值为0，无法使用
+sys_item_0212=部位不符合，无法充能
+sys_item_0213=装备等级太低，无法充能
+sys_item_0214=道具使用被打断
+sys_item_0215=请放入相同种类的宝石
+sys_item_0216=不能对耐久度为0的装备进行充能
+//商店		
+sys_shop_0001=此物品无法出售			
+sys_shop_0004=背包空间不足，购买失败	    	
+sys_shop_0005=<font color='#ffff00'>购买成功</font>		         
+sys_shop_0006=一次最多只能购买{@0:ToInt}个{@1:} 			
+sys_shop_0008=此物品只能购买{@0:ToInt}个	 	
+sys_shop_0009=此物品不需要修理		                
+sys_shop_0010=没有需要修理的物品		
+sys_shop_0011=当前没有达到购买此物品的条件		
+sys_shop_0012=此物品处于购买冷却中		
+sys_shop_0013=此物品已售完		
+sys_shop_0014=此物品唯一				
+sys_shop_0016=此物品不可叠加					
+sys_shop_0019=距离目标太远		
+sys_shop_0020=未找到指定物品		
+sys_shop_0021=只能出售背包中的物品		
+sys_shop_0022=物品数量不足		
+sys_shop_0023=未找到指定背包		
+sys_shop_0024=物品耐久度为0，无法出售		
+sys_shop_0025=贡献度不够，无法购买              
+sys_shop_0026=货币不足                          
+sys_shop_0027=<font color='#ffff00'>修理成功</font>	                 
+sys_shop_0028=? ? ?(未知属性)	
+sys_shop_0029=黑金不足
+sys_shop_0030=点券不足
+sys_shop_0031=本源不足
+sys_shop_0032=猎杀点数不足
+sys_shop_0033=斩首荣誉勋章不足
+sys_shop_0034=英勇点数不足
+sys_shop_0035=工会贡献点不足
+sys_shop_0036=能量井贡献点不足
+sys_shop_0037=商店Npc不存在
+sys_bg_charge=<font color='#fc7d4b'>消耗点券{@0:点券}</font>           
+		
+		
+		
+//技能		
+sys_skill_0000=技能尚未解锁		
+sys_skill_0003=当前状态不符		
+sys_skill_0005=此技能无法在当前场景施放		
+sys_skill_0008=此技能无法在当前事件中施放		
+sys_skill_0009=技能冷却中		
+sys_skill_0010=没有此技能               
+sys_skill_0011=此技能无法在当前区域施放			
+sys_skill_0012=技能施放失败		
+sys_skill_0013=面向错误		       
+sys_skill_0015=你的机甲生命值不足	
+sys_skill_0016=目标已死亡		
+sys_skill_0017=技能使用失败		
+sys_skill_0018=弹药不足		        
+sys_skill_0019=当前武器无法使用此技能		
+sys_skill_0020=生命不足		
+sys_skill_0021=魔法不足		
+sys_skill_0022=能量不足		
+sys_skill_0023=怒气不足		
+sys_skill_0024=精神能量不足		
+sys_skill_0026=此技能不能在空中施放		
+sys_skill_0027=此技能只能在空中施放	
+sys_skill_0028=BUFF属性不满足		
+sys_skill_0029=先祖之力不足		
+sys_skill_0030=你需要一个目标		
+sys_skill_0031=暂时无法使用技能		
+sys_skill_0033=其他技能正在施放中	
+sys_skill_0034=没有子弹		        
+sys_skill_0035=没有该子弹弹夹		
+sys_skill_0036=枪手模式才能使用该技能		
+sys_skill_0039=没有远程武器		
+sys_skill_0040=躲闪值不足		
+sys_skill_0041=刀锋之灵冷却中		
+sys_skill_0044=目标被保护中		
+sys_skill_0045=怒气不足		
+sys_skill_0046=条件不满足，无法释放		
+sys_skill_0047=[{@0:技能名称}]已被融合，将自动卸载	
+sys_skill_0048=此技能处于锁定状态，无法融合		
+sys_skill_0049=普通攻击表里面没有这个技能		
+sys_skill_0050=[{@:属性值}]不能满足要求		
+sys_skill_0051=的		
+sys_skill_0052=你		
+sys_skill_0053=此技能不能在水下使用		
+sys_skill_0054=此技能只能在水下使用		
+sys_skill_0055=移动中不能使用此技能		
+sys_skill_0056=施放被打断
+sys_skill_0057=无法对该目标使用
+sys_skill_0058=当前状态，无法使用
+sys_skill_0059=目标当前状态无法使用
+sys_skill_0060=当前状态无法释放技能，请稍后尝试
+sys_skill_0061=目标必须是自己
+sys_skill_0062=目标不能是自己
+sys_skill_0063=当前场景无法使用
+sys_skill_0064=身上有炸弹不能潜行
+sys_skill_0065=战场倒计时暂时不能使用
+sys_skill_0066=弹药填充中
+sys_skill_0091=此技能无法作用于目标类型		       
+sys_skill_0092=此玩家		                       
+sys_skill_0093=此技能无法作用于{@1:目标类型}		
+sys_skill_0094=此NPC		
+sys_skill_0095=正在使用技能，无法躲闪		
+sys_skill_0240=你靠的太近了		
+sys_skill_0241=你离的太远了		
+sys_skill_0242=请面对你的目标		
+sys_skill_0244=目标不在你的视野内		
+sys_skill_0245=目标不在技能释放有效范围内		
+sys_skill_0246=目标位置太高                     
+sys_skill_0247=目标位置太低	
+sys_skill_0260=技能使用目标必须是自己		
+sys_skill_0262=技能使用目标必须是宠物		
+sys_skill_0263=技能使用目标必须是宠物的主人		
+sys_skill_0264=技能使用目标必须是选择对象		
+sys_skill_0265=技能使用目标必须是自己或选择对象		
+sys_skill_0270=技能使用目标必须是玩家	
+sys_skill_0271=技能使用目标必须是NPC		
+sys_skill_0272=技能使用目标必须是玩家或NPC      
+sys_skill_0273=技能无法作用于此类NPC		
+sys_skill_0280=技能使用目标必须是敌对阵营		
+sys_skill_0281=技能使用目标必须是同一阵营		
+sys_skill_0282=技能使用目标必须是队友		
+sys_skill_0283=技能使用目标必须是公会成员		
+sys_skill_0284=你无法攻击{@0:目标类型}		
+sys_skill_0285=不能对自己使用		        
+sys_skill_0290=必须在目标的正面使用		
+sys_skill_0291=必须在目标的后面使用		
+sys_skill_0292=技能使用目标必须是指定的宠物		
+sys_skill_0295=目标不满足技能要求               
+sys_skill_0296=需要装备武器	
+sys_skill_0297=处于保护状态中
+sys_skill_0298=冷却中，无法切换快捷栏
+sys_skill_0299=此快捷栏尚未解锁
+sys_skill_0300=技能使用中，无法切换快捷栏		
+		
+		
+//拾取		
+sys_pickup_0001=<a href="chat,{@0:投掷者}" style="HLStype18">[{@0:投掷者}]</a>放弃：<a href="item,{@4:npc},{@5:configID},{@1:道具ID}" style="HLStypeGoodsLevel{@2:colorLv}">[{@3:道具名称}]</a>		
+sys_pickup_0002=你放弃:<a href="item,{@3:npc},{@4:configID},{@0:道具ID}" style="HLStypeGoodsLevel{@1:colorLv}">[{@2:道具名称}]</a>			
+sys_pickup_0005=<a href="chat,{@0:投掷者}" style="HLStype18">[{@0:投掷者}]</a>需求<a href="item,{@0:投掷者},{@5:configID},{@1:道具ID}" style="HLStypeGoodsLevel{@2:colorLv}">[{@3:道具名称}]</a>抛出：{@4:点数}	
+sys_pickup_0006=<a href="chat,{@0:投掷者}" style="HLStype18">[{@0:投掷者}]</a>贪婪<a href="item,{@0:投掷者},{@5:configID},{@1:道具ID}" style="HLStypeGoodsLevel{@2:colorLv}">[{@3:道具名称}]</a>抛出：{@4:点数}	
+sys_pickup_0007=<a href="chat,{@0:投掷者}" style="HLStype18">[{@0:投掷者}]</a>拾取<a href="item,{@0:投掷者},{@5:configID},{@1:道具ID}" style="HLStypeGoodsLevel{@2:colorLv}">[{@3:道具名称}]</a>×{@4:amount}		
+sys_pickup_0008=此物品需要通过投掷骰子获得，不能直接拾取	
+sys_pickup_0009=当前区域未找到[{@0:name}]，物品分配失败		
+sys_pickup_0010=<a href="chat,{@0:name}" style="HLStype18">[{@0:name}]</a>不是队伍成员，物品分配失败		
+sys_pickup_0011=<a href="chat,{@0:name}" style="HLStype18">[{@0:name}]</a>的		
+sys_pickup_0012=<a href="chat,{@0:name}" style="HLStype18">[{@0:name}]</a>的背包空间不足	
+sys_pickup_0013=队长<a href="chat,{@0:队长}" style="HLStype18">[{@0:队长}]</a>将<a href="item,{@5:获得者},{@6:configID},{@1:道具ID}" style="HLStypeGoodsLevel{@2:colorLv}">[{@3:道具名称}]</a>{@4:amount}件分配给<a href="chat,{@5:获得者}" style="HLStype18">[{@5:获得者}]</a>		
+sys_pickup_0015=<a href="chat,{@0:获得者}" style="HLStype18">[{@0:获得者}]</a>		
+sys_pickup_0016=<a href="chat,{@0:获得者}" style="HLStype18">[{@0:获得者}]</a>获得:<a href="item,{@0:name},{@5:configID},{@1:道具ID}" style="HLStypeGoodsLevel{@2:colorLv}">[{@3:道具名称}]</a>×{@4:amount}		
+sys_pickup_0018=<a href="chat,{@0:name}" style="HLStype18">[{@0:name}]</a>的掷骰时间结束	           
+sys_pickup_0019=[{@0:获得者}]拥有拾取权		
+sys_pickup_0020=<a href="chat,{@0:获得者}" style="HLStype18">[{@0:获得者}]</a>通过掷骰成功获得[{@1:道具}]，背包已满清理后自行拾取	
+sys_pickup_0021=你通过掷骰成功获得[{@0:道具名}]，背包已满清理后自行拾取
+sys_pickup_0022=<a href="chat,{@0:投掷者}" style="HLStype18">[{@0:投掷者}]</a>对<a href="item,{@4:npc},{@5:configID},{@1:道具ID}" style="HLStypeGoodsLevel{@2:colorLv}">[{@3:道具名称}]</a>选择了需求
+sys_pickup_0023=你对<a href="item,{@3:npc},{@4:configID},{@0:道具ID}" style="HLStypeGoodsLevel{@1:colorLv}">[{@2:道具名称}]</a>选择了需求		
+sys_pickup_0025=此队员没有参加战斗，无法分配给他		
+sys_pickup_0026=此物品需要队长分配，无法拾取		     
+sys_pickup_0027=<a href="chat,{@0:投掷者}" style="HLStype18">[{@0:投掷者}]</a>对<a href="item,{@4:npc},{@5:configID},{@1:道具ID}" style="HLStypeGoodsLevel{@2:colorLv}">[{@3:道具名称}]</a>选择了贪婪 		
+sys_pickup_0028=你对<a href="item,{@3:npc},{@4:configID},{@0:道具ID}" style="HLStypeGoodsLevel{@1:colorLv}">[{@2:道具名称}]</a>选择了贪婪		
+sys_pickup_0029=这不是你的东西		
+		
+		
+		
+//仓库		
+sys_depot_0001=仓库已满，无法存储更多物品		
+sys_depot_0002=你已经成功提取：{@money}                 
+sys_depot_0003=你已经成功存储：{@money}                 
+sys_depot_0004=此物品无法存储		             
+sys_depot_0005=你的仓库的空间扩大了		
+sys_depot_0006=你的仓库空间变小了		
+sys_depot_0007=背包中有道具，请清理		
+sys_depot_0008=仓库空间不足		
+sys_depot_0009=扩展槽位已满		
+sys_depot_0010=<a style="HLStypeGoodsLevel{@0:colorLv}">[{@1:道具}]</a>使用失败，扩展槽位已满		
+sys_depot_0011=<font color='#ffff00'>成功扩展仓库槽位</font>		
+sys_depot_0012=<a style="HLStypeGoodsLevel{@0:colorLv}">[{@1:道具}]</a><font color='#ffff00'>使用成功，成功扩展仓库槽位</font>		
+sys_depot_0013=存储失败		
+sys_depot_0014=金钱不足，存储失败		
+sys_depot_0015=此物品不可以移动		
+sys_depot_0016=此物品已被锁定		
+sys_depot_0017=物品锁定无法被替换		
+sys_depot_0018=金钱存储已达上限，存储失败
+sys_depot_0019=	装备背包后可解锁
+		
+//技能快捷栏		
+sys_Shortcut_0001=快捷栏已经锁定，请先解锁		
+sys_Shortcut_0002=此技能不能放入快捷栏		
+sys_Shortcut_0003=此物品不能放入快捷栏		
+sys_Shortcut_0004=普通攻击技能专用		
+sys_Shortcut_0005=普通攻击技能无法移除	
+sys_Shortcut_0006=职业技能无法移除		
+sys_Shortcut_0007=武器技能无法移除		
+sys_Shortcut_0008=此技能无法移除	        
+sys_Shortcut_0009=<font color='#ffff00'>快捷栏已锁定</font>
+sys_Shortcut_0010=<font color='#ffff00'>快捷栏已解锁</font>	
+		
+//好友		
+sys_friend_0001=玩家[{@0:名称}]已下线		  
+sys_friend_0002=玩家[{@0:名称}]不存在		
+sys_friend_0003=无法将自己加为好友		
+sys_friend_0004=无法将自己加入陌生人		
+sys_friend_0005=无法将自己加入黑名单		
+sys_friend_0006=无法将自己加为仇敌		
+sys_friend_0007=已在好友表中		
+sys_friend_0008=已在陌生人表中		
+sys_friend_0009=已在黑名单表中	
+sys_friend_0010=已在仇敌表中		
+sys_friend_0011=好友上限已满		
+sys_friend_0012=你将[{@0:name}]从好友列表中删除		
+sys_friend_0013=[{@0:name}]将你从好友列表中删除		
+sys_friend_0014=对方已在好友列表中，无需再次申请		
+sys_friend_0015=对方在黑名单之中，无法发出好友请求，请先从黑名单中删除对方		
+sys_friend_0018=对方已经将你加入黑名单，无法发出请求...		
+sys_friend_0019=敌对阵营，无法添加好友			
+sys_friend_0022=对方的好友上限已满		
+sys_friend_0023=[{@0:name}]请求添加你为好友		
+sys_friend_0024=你与[{@0:name}]成为好友		
+sys_friend_0025=[{@0:name}]拒绝了你的好友申请			
+sys_friend_0027=你的仇敌[{@0:name}]请求添加加你为好友		
+sys_friend_0028=此玩家不在仇敌列表中		
+sys_friend_0029=黑名单上线已满		
+sys_friend_0030=仇敌上线已满		
+sys_friend_0031=你的好友[{@0:name}]上线了		
+sys_friend_0032=你的好友[{@0:name}]下线了		
+sys_friend_0033=将[{@0:name}]加入黑名单		
+sys_friend_0034=将[{@0:name}]添加为仇敌		
+sys_friend_0035=你的仇人[{@0:name}]上线了		
+sys_friend_0036=你的仇人[{@0:name}]下线了		
+sys_friend_0037=你所在的区域禁止使用此功能
+sys_friend_0038=目标所在区域禁止使用此功能
+sys_friend_0039=你不是VIP用户
+sys_friend_0040=敌对阵营，无法加入黑名单
+sys_friend_0041=消耗:{@money}
+sys_friend_0042=消耗:{@0:value}黑金
+sys_friend_0043=金钱不足
+sys_friend_0044=黑金不足
+sys_friend_0045=物品数量不足
+sys_friend_0046=无法关注不在线好友
+		
+		
+		
+//聊天栏		
+sys_talk_0002=对方把你加入了黑名单		
+sys_talk_0003=目标不存在，或已下线		
+sys_talk_0004=对方把你加入了黑名单，无法与其交易           		
+sys_talk_0005=对方把你加入了黑名单，无法与其决斗		
+sys_talk_0006=对方把你加入了黑名单，无法邀请入队		
+sys_talk_0007=对方把你加入了黑名单，无法加入队伍		
+sys_talk_0008=对方把你加入了黑名单，无法邀请上坐骑		
+sys_talk_0009=对方把你加入了黑名单，无法邀请群聊		
+sys_talk_0010=对方把你加入了黑名单，无法邀请入会		
+sys_talk_0011=对方把你加入了黑名单，无法请求上坐骑		
+sys_talk_0012=对方把你加入了黑名单，无法邀请上载具		
+sys_talk_0013=对方把你加入了黑名单，无法请求上载具		
+sys_talk_0014=对方把你加入了黑名单，无法向其请求入会	
+sys_talk_0015=敌对阵营，无法聊天		
+sys_talk_0016=<font color='#ffff00'>创建聊天室成功</font>		
+sys_talk_0017=人数已满		
+sys_talk_0018=目标已在聊天室中	           
+sys_talk_0019=[{@0:name}]拒绝了邀请	   	
+sys_talk_0020=[{@0:name}]屏蔽了邀请		
+sys_talk_0021=[{@0:name}]加入了聊天室		
+sys_talk_0022=[{@0:name}]离开了聊天室		
+sys_talk_0023=你被[{@0:name}]请出了聊天室[{@1:聊天室主题}]		
+sys_talk_0024=[{@0:name}]被[{@1:name}]请出了聊天室		
+sys_talk_0025=[{@0:name}]将[{@1:name}]提升为管理员		
+sys_talk_0026=[{@0:name}]撤消了管理员[{@1:name}]		
+sys_talk_0027=聊天室已解散		                        
+sys_talk_0028=加入聊天室[{@0:聊天室主题}]		
+sys_talk_0029=退出聊天室[{@0:聊天室主题}]		
+sys_talk_0030=敌对阵营，无法发出邀请		
+sys_talk_0031=邀请[{@0:name}]失败		
+sys_talk_0032=请输入聊天室名		
+sys_talk_0033=名称不能为空		
+sys_talk_0034=邀请对象不能为自己		
+sys_talk_0035=无法与自己进行密聊		
+sys_talk_0036=超过3个聊天表情，发送失败		
+sys_talk_0037=超过3个超链接，发送失败
+sys_talk_0038=<font color='#fc7d4b'>失去</font><a style="HLStypeGoodsLevel{@0:colorLv}">[{@1:道具}]</a><font color='#fc7d4b'>×{@2:num} 消耗{@money}</font>
+sys_talk_0039=语句中有敏感词汇，请重新输入
+sys_talk_0040=<font color='#fc7d4b'>失去</font><a style="HLStypeGoodsLevel{@0:colorLv}">[{@1:道具}]</a><font color='#fc7d4b'>×{@2:num} 消耗{@2:黑金}黑金</font>
+sys_talk_0041=名称重复
+sys_talk_0042=字数超限，创建失败
+sys_talk_0043=[{@0:等级}]级后可以使用[{@1:频道}]频道	
+sys_talk_0044=输入超链接已经达到上限
+sys_talk_0045=不能举报自己
+sys_talk_0046=该物品不存在
+		
+//组队团队		
+sys_team_0001=你已经在团队中，无法发出申请	      
+sys_team_0002=你没有招收队员权利，无法发出组队邀请	      	
+sys_team_0003=队伍已满，组队邀请失败			      
+sys_team_0004=[{@0:name}]已经是队伍成员，无需发出组队邀请		      
+sys_team_0005=玩家[{@0:name}]不存在或不在线，邀请失败		
+sys_team_0006=当前区域禁止组队			      
+sys_team_0007=你邀请的人数已经达到上限，无法发出邀请	  	      
+sys_team_0008=[{@0:name}]不在线，组队失败		
+sys_team_0009=[{@0:name}]是敌对阵营，组队邀请失败		
+sys_team_0010=[{@0:name}]已经在其他队伍中，组队邀请失败		
+sys_team_0013=[{@0:name}]在其他队伍中，加入队伍失败		
+sys_team_0014=你的队伍已满，无法发出组队邀请		        
+sys_team_0015=[{@0:name}]队伍已满，加入队伍失败		
+sys_team_0016=对方队伍已满，组队邀请失败		
+sys_team_0017=对方团队拒绝了个人申请		
+sys_team_0018=对方团队拒绝了队伍申请		
+sys_team_0019=你的队伍不是团队，无法向[{@0:name}]的队伍发出邀请组队		
+sys_team_0021=[{@0:name}]不在团队中，不能发出申请组队		
+sys_team_0022=你的团队空位不足			      
+sys_team_0023=你的团队没有足够的空队或者预留位，不能发出小队邀请	
+sys_team_0024=[{@0:name}]团队中没有空的小队，申请失败		
+sys_team_0025=[{@0:name}]队伍中没有足够的空位，申请失败		
+sys_team_0026=你没有这个权利		
+sys_team_0027=对方处于离线状态，邀请组队失败		
+sys_team_0030=成功任命<a href="chat,{@0:name}" style="HLStype18">[{@0:name}]</a>为小队长		
+sys_team_0031=成功将队长移交给<a href="chat,{@0:name}" style="HLStype18">[{@0:name}]</a>		
+sys_team_0032=成功将团长移交给<a href="chat,{@0:name}" style="HLStype18">[{@0:name}]</a>		
+sys_team_0033=[{@0:name}]不在线，移交失败		
+sys_team_0034=发布招募信息太过频繁，请稍候尝试		
+sys_team_0035=你的等级不满足对方的招募要求，不能发出申请		
+sys_team_0036=此招募信息已失效		
+sys_team_0037=请输入队伍信息		
+sys_team_0038=成员发生战斗无法改变物品分配品质		
+sys_team_0039=成员发生战斗无法改变物品分配方式		
+sys_team_0040=队伍的分配品质下限为<font color='#ffffff'>白色品质</font>		
+sys_team_0041=队伍的分配品质下限为<font color='#46fd15'>绿色品质</font>		
+sys_team_0042=队伍的分配品质下限为<font color='#3CA0FF'>蓝色品质</font>		
+sys_team_0043=队伍的分配品质下限为<font color='#8650c7'>紫色品质</font>		
+sys_team_0044=队伍的分配品质下限为<font color='#ee7728'>橙色品质</font>		
+sys_team_0045=队伍的分配方式：自由分配		
+sys_team_0046=队伍的分配方式：队伍分配		
+sys_team_0047=队伍的分配方式：队长分配		
+sys_team_0049=你成为队长		
+sys_team_0050=<a href="chat,{@0:name}" style="HLStype18">[{@0:name}]</a>成为队长
+sys_team_0051=你成为团长		
+sys_team_0052=<a href="chat,{@0:name}" style="HLStype18">[{@0:name}]</a>成为团长	
+sys_team_0053=你成为小队长
+sys_team_0054=<a href="chat,{@0:name}" style="HLStype18">[{@0:name}]</a>成为小队长	
+sys_team_0055=你被解除了团长的职位		
+sys_team_0056=[{@0:name}]被解除了团长的职位		
+sys_team_0057=小队中只有你一人，小队离开失败		
+sys_team_0058=组建队伍成功		
+sys_team_0059=加入队伍成功
+sys_team_0060=<a href="chat,{@0:name}" style="HLStype18">[{@0:name}]</a>加入队伍	
+sys_team_0061=<a href="chat,{@0:name}" style="HLStype18">[{@0:name}]</a>离开队伍	
+sys_team_0062=队长将<a href="chat,{@0:name}" style="HLStype18">[{@0:name}]</a>从队伍中踢出		
+sys_team_0063=队长将你从队伍中踢出		
+sys_team_0064=队伍解散		
+sys_team_0065=你退出了队伍		
+sys_team_0066=你被解除了小队长的职位		
+sys_team_0067=<a href="chat,{@0:name}" style="HLStype18">[{@0:name}]</a>被解除了小队长的职位		
+sys_team_0068=组建团队成功		
+sys_team_0069=加入团队成功
+sys_team_0070=<a href="chat,{@0:name}" style="HLStype18">[{@0:name}]</a>加入团队	
+sys_team_0071=<a href="chat,{@0:name}" style="HLStype18">[{@0:name}]</a>离开团队		
+sys_team_0072=团长将[{@0:name}]从团队中踢出		
+sys_team_0073=团长将你从团队中踢出	
+sys_team_0074=团队解散		
+sys_team_0075=你退出了团队		
+sys_team_0076=队长掉线了，5分钟后系统将自动移交队长		
+sys_team_0077=团长掉线了，5分钟后系统将自动移交团长		
+sys_team_0078=小队长掉线了，5分钟后系统将自动移交小队长		
+sys_team_0079=正在进行准备确认，请耐心等待结果出来之后再试		
+sys_team_0080=此次准备确认有[{@0:num}]人完成准备，[{@1:num}]人未完成准备		
+sys_team_0081=团队的分配品质下限为<font color='#ffffff'>白色品质</font>		
+sys_team_0082=团队的分配品质下限为<font color='#46fd15'>绿色品质</font>		
+sys_team_0083=团队的分配品质下限为<font color='#3CA0FF'>蓝色品质</font>		
+sys_team_0084=团队的分配品质下限为<font color='#8650c7'>紫色品质</font>		
+sys_team_0085=团队的分配品质下限为<font color='#ee7728'>橙色品质</font>		
+sys_team_0086=团队的分配方式：自由分配		
+sys_team_0087=团队的分配方式：团队分配		
+sys_team_0088=团队的分配方式：团长分配		
+sys_team_0090=队长<a href="chat,{@0:队长}" style="HLStype18">[{@0:队长}]</a>将<a href="item,{@5:获得者},{@6:configID},{@1:道具ID}" style="HLStypeGoodsLevel{@2:colorLv}">[{@3:道具名称}]</a>{@4:amount}件分配给<a href="chat,{@5:获得者}" style="HLStype18">[{@5:获得者}]</a>		
+sys_team_0091=团长<a href="chat,{@0:团长}" style="HLStype18">[{@0:团长}]</a>将<a href="item,{@5:获得者},{@6:configID},{@1:道具ID}" style="HLStypeGoodsLevel{@2:colorLv}">[{@3:道具名称}]</a>{@4:amount}件分配给<a href="chat,{@5:获得者}" style="HLStype18">[{@5:获得者}]</a>		
+sys_team_0092=只有队长拥有场景标记权限		
+sys_team_0094=队伍副本难度为：{@0:副本难度}		
+sys_team_0095=请填写你的招募信息	
+sys_team_0096=点券不足，无法召唤队友
+sys_team_0097=战斗中，无法召唤队友
+sys_team_0098=召唤队友请求成功，等待答复
+sys_team_0099=队友未理睬你的召唤请求
+sys_team_0100=队友拒绝了你的召唤请求
+sys_team_0101=目标所在区域无法进行召唤
+sys_team_0102=当前所在区域无法进行召唤
+sys_team_0103=对方已拥有队伍，无法发出组队邀请
+sys_team_0104=[{@0:name}]已经是队伍成员，组队失败
+sys_team_0105=目标当前状态无法进行召唤
+sys_team_0106=当前状态无法进行召唤
+sys_team_0107=对方背包已满，无法分配
+sys_team_0108=对方在其他副本中，无法发出组队请求
+sys_team_0109=对方在新手副本中，无法发出组队请求
+sys_team_0110=新手副本中，禁止组队
+sys_team_0111=[{@0:name}]已经在队伍中，不能发出组队邀请
+sys_team_0112=对方已经在队伍中，不能发出组队邀请
+sys_team_0113=系统未能扣除金钱，操作失败
+sys_team_0114=系统未能扣除黑金，操作失败
+sys_team_0115=系统未能扣除物品，操作失败
+sys_team_0116=正在召唤中，请等待
+sys_team_0117=能量井副本不能使用召唤功能
+sys_team_0118=你已经在队伍中，不能接受他人的邀请
+
+		
+//交易		
+sys_trade_0001=请求交易失败		
+sys_trade_0002=交易栏未锁定，无法交易		
+sys_trade_0003=对方交易栏未锁定，无法交易			
+sys_trade_0005=<font color='#ffff00'>交易成功</font>		
+sys_trade_0006=等待对方确认交易		
+sys_trade_0007=锁定状态无法设置         
+sys_trade_0008=金钱数量非法无法完成交易		
+sys_trade_0009=此物品不可交易           
+sys_trade_0010=物品已经被加工，解锁后可再重新加工		
+sys_trade_0011=对方取消了交易		
+sys_trade_0012=交易失败		
+sys_trade_0013=无法同时与多人交易		
+sys_trade_0014=对方正在交易中		
+sys_trade_0015=距离太远，请在20米之内进行交易，当前距离为{@0:ToInt}米		
+sys_trade_0016=对方处于战斗状态，无法进行交易		
+sys_trade_0017=对方已经死亡，无法进行交易		
+sys_trade_0018=战斗状态，无法进行交易		
+sys_trade_0019=死亡状态，无法进行交易		
+sys_trade_0020=开始交易		
+sys_trade_0021=对象已下线或不在当前场景		
+sys_trade_0022=对方处于战斗状态，交易中断		
+sys_trade_0023=进入战斗状态，交易中断		
+sys_trade_0024=对方已经死亡，交易中断		
+sys_trade_0025=你已经死亡，交易中断		
+sys_trade_0026=已达金钱携带上限，交易失败		
+sys_trade_0027=对方已达金钱携带上限，交易失败		
+sys_trade_0028=背包空间不足，交易失败		
+sys_trade_0029=对方背包空间不足，交易失败		
+sys_trade_0030=[{@0:name}]正在接受其他交易请求，申请失败          
+sys_trade_0031=竞技场中，禁止交易		
+sys_trade_0032=<font color='#fc7d4b'>消耗{@0:Num}黑金</font>
+sys_trade_0033=<font color='#79e879'>实际获得{@0:Num}黑金</font>
+sys_trade_0034=<font color='#fc7d4b'>系统扣税{@0:Num}黑金</font>	
+		
+//拍卖行
+sys_ah_error_001=参数个数、类型不匹配
+sys_ah_error_002=无效的参数
+sys_ah_error_003=未找到指定物品 	
+sys_ah_error_004=请先选择一件物品
+sys_ah_error_005=操作太频繁，请稍后再试
+sys_ah_error_006=拍卖行改版中，功能暂时无法使用！
+sys_ah_error_007=无效的物品UID
+
+sys_ah_error_020=[异常]保管费为负数
+sys_ah_error_021=[异常]存在相同的物品UID
+sys_ah_error_022=[异常]寄售数量为0
+sys_ah_error_023=物品数量不足
+sys_ah_error_024=起拍价未设置
+sys_ah_error_025=起拍价必须小于一口价
+sys_ah_error_026=金币不足，无法支付保管费	
+sys_ah_error_027=不能取消他人寄售的物品
+sys_ah_error_028=该物品已有人出价，不能取消寄售
+sys_ah_error_029=物品不能交易
+sys_ah_error_030=绑定物品，不可交易
+sys_ah_error_031=寄售物品数量已达上限，无法继续寄售
+
+sys_ah_error_040=出价不能小于起拍价
+sys_ah_error_041=出价不能小于最低出价
+sys_ah_error_042=价格不能超过货币携带上限
+sys_ah_error_043=黑金不足，无法竞拍
+sys_ah_error_044=不能竞拍自己寄售的物品
+sys_ah_error_045=相同帐号下的角色不能互相竞拍
+sys_ah_error_046=你已是当前最高出价者
+sys_ah_error_047=此物品只能一口价购买
+sys_ah_error_048=此物品只能竞价
+sys_ah_error_049=无法支付黑金
+
+sys_ah_error_060=等级区间应从低到高
+sys_ah_error_061=[异常]无效的排序方式
+sys_ah_error_062=请先选择要搜索的物品类别
+sys_ah_error_063=[异常]无效的页数
+sys_ah_error_064=[异常]无效的属性搜索类型
+
+sys_ah_001=<font color='#ffff00'>物品寄售成功</font>
+sys_ah_002=你取消了[{@0:name}]的寄售，请到邮箱查收。
+sys_ah_003=你对[{@0:config_id}]的出价被超过，你的出价金额已返还至邮箱，请注意查收。
+sys_ah_004=<font color='#ffff00'>物品竞拍成功</font>
+sys_ah_005=你竞拍的[{@0:config_id}]已被其他玩家买下，你的出价金额已返还至邮箱，请注意查收。
+sys_ah_006=[{@0:name}]已被你买下，请到邮箱查收。
+sys_ah_007=你寄售的[{@0:name}]已被人买下。
+sys_ah_008=你寄售的[{@0:name}]已经到期，请到邮箱查收
+sys_ah_009=请选择物品类别后再进行搜索
+
+//求购行
+sys_asktobuy_010=挂单成功
+sys_asktobuy_011=你取消了[{@0:name}]的挂单，预存费已返还至邮箱，请注意查收
+
+sys_asktobuy_020=你对[{@0:name}]的求购有人响应，成功购买到{@1:num}个
+sys_asktobuy_021=你出售了{@1:num}个[{@0:name}]，获得{@2:num}黑金
+
+sys_asktobuy_090=你对[{@0:name}]的挂单已到期，剩余预存费已返还至邮箱，请注意查收。
+
+sys_asktobuy_error_001=参数个数、类型不匹配
+sys_asktobuy_error_002=无效的挂单
+sys_asktobuy_error_003=未找到指定挂单
+sys_asktobuy_error_004=请先选择要求购的物品
+sys_asktobuy_error_005=未找到指定物品
+sys_asktobuy_error_006=物品已绑定
+sys_asktobuy_error_007=物品已锁定
+sys_asktobuy_error_008=无效的物品等级
+sys_asktobuy_error_009=无效的物品品质
+
+sys_asktobuy_error_020=求购数量已达上限，无法继续求购
+sys_asktobuy_error_021=无法取消别人的求购挂单
+sys_asktobuy_error_024=请输入求购数量
+sys_asktobuy_error_025=请输入求购单价
+sys_asktobuy_error_026=无效的求购附加属性类型
+
+sys_asktobuy_error_040=不能对自己的挂单进行出售
+sys_asktobuy_error_041=不能对同帐号的挂单进行出售
+sys_asktobuy_error_042=无效的出售数量
+sys_asktobuy_error_043=不能快捷出售装备类物品
+sys_asktobuy_error_044=未满足附加属性条件
+sys_asktobuy_error_045=未找到符合挂单条件的物品
+sys_asktobuy_error_046=不是挂单要的物品
+
+sys_asktobuy_error_060=[异常]无效的页号
+sys_asktobuy_error_061=[异常]无效的排序主key
+sys_asktobuy_error_062=操作太频繁，请稍后再试
+
+//邮件		
+sys_mail_0001=<font color='#ffff00'>发送成功</font> 		
+sys_mail_0002=对方邮箱已满	
+sys_mail_0003=发送失败		
+sys_mail_0004=你的信箱即将到达上限，请尽快清理	
+sys_mail_0005=目标名不能为空		
+sys_mail_0006=目标不存在		
+sys_mail_0007=主题不能为空		
+sys_mail_0008=金钱不足		
+sys_mail_0009=你有新信件		
+sys_mail_0010=你收到退信（超时）		
+sys_mail_0011=你收到退信（对方拒收）		
+sys_mail_0012=你收到退信（对方邮箱已满）		
+sys_mail_0013=你收到系统信件		
+sys_mail_0014=此物品不可邮寄		
+sys_mail_0015=尚有金钱附件未提取		
+sys_mail_0016=尚有物品附件未提取		
+sys_mail_0017=尚有付费邮件未处理		
+sys_mail_0018=尚有邮件未阅读		
+sys_mail_0019=邮件附件超出长度		
+sys_mail_0020=死亡状态，无法邮寄信件		
+sys_mail_0021=当前区域，无法邮寄信件		
+sys_mail_0022=无法给自己寄信		
+sys_mail_0023=<font color='#ffff00'>退信成功</font> 		
+sys_mail_0024=退信失败		
+sys_mail_0025=此物品无法交易		
+sys_mail_0026=物品锁定，无法移动		
+sys_mail_0027=黑金不足，无法支付		
+sys_mail_0028=敌对阵营，无法邮寄		
+sys_mail_0029=输入黑金过大，不允许发送		
+sys_mail_0030=付费邮件，黑金不能为0		
+sys_mail_0031=付费邮件，物品不能为空		
+sys_mail_0032=内容超出长度                      
+sys_mail_0033=邮费：{@money}                
+sys_mail_0034=成功邮寄黑金：{@0:value}
+sys_mail_0035=付费：{@0:value}黑金
+sys_mail_0036=黑金不足	
+sys_mail_0037=<font color='#79e879'>获得{@0:value}黑金(扣税{@1:value})</font>
+sys_mail_0038=<font color='#79e879'>获得{@0:value}黑金</font>
+sys_mail_0039=当前状态无法召唤
+sys_mail_0040=退件成功
+		
+//宠物		
+sys_Pet_0005=剩余点数不够，机体改造失败		
+sys_Pet_0006=金钱不足，机体改造失败		
+sys_Pet_0007=<font color='#ffff00'>机体改造成功</font>		
+sys_Pet_0008=<font color='#ffff00'>机体重置成功</font>		
+sys_Pet_0009=宠物已被召唤，无法再次召唤		
+sys_Pet_0012=当前职业不能解散宠物		
+sys_Pet_0013=宠物[{@0: pet_name}]职业不匹配，无法进行召唤		
+sys_Pet_0014=宠物[{@0: pet_name}]性别不匹配，无法进行召唤		
+sys_Pet_0015=宠物[{@0: pet_name}]阵营不匹配，无法进行召唤		
+sys_Pet_0016=宠物[{@0: pet_name}]种族不匹配，无法进行召唤		
+sys_Pet_0017=点券不足，初始化失败		
+sys_Pet_0018=无法攻击此目标		
+sys_Pet_0019=捕获成功，你获得物品[{@0: pet_item_name}]		
+sys_Pet_0023=怪物等级高于自己三级以上，捕获失败		
+sys_Pet_0024=怪物血量超过50%，捕获失败		
+sys_Pet_0025=怪物血量太多，捕获失败		
+sys_Pet_0026=怪物血量较多，捕获失败		
+sys_Pet_0027=怪物血量多，捕获失败		
+sys_Pet_0030=请选择一个目标		
+sys_Pet_0031=锁定攻击目标错误, 无法使用宠物攻击指令		
+sys_Pet_0032=距离太远, 无法攻击		
+sys_Pet_0033=[{@0:player_job}]职业没有[{@0:item_config_id}]装备不能吸魂		
+sys_Pet_0034=吸魂成功，获得[{@0:pet_config_id}]		
+sys_Pet_0035=距离过远，不可以追击		
+sys_Pet_0039=点券不足，术式法阵保存失败		
+sys_Pet_0040=当前系别兽魂仍然处于召唤状态，无法更改系别	            
+sys_Pet_0041=请选择正确的宠物对象		
+sys_Pet_0042=<font color='#ffff00'>当前系别更换成功</font>		
+sys_Pet_0043=<font color='#ffff00'>释放成功</font>		
+sys_Pet_0044=<font color='#ffff00'>冻结成功</font>		
+sys_Pet_0045=宠物技能使用对象不存在，不能使用宠物技能		
+sys_Pet_0046=宠物名称为空，不能打开机体强化界面		
+sys_Pet_0047=交通工具上不能召唤宠物		
+sys_Pet_0048=未穿上相应的职业装备，无法召唤		
+sys_Pet_0049=没有可改造的宠物，请先召唤宠物	
+sys_Pet_0050=死亡时，不能执行此操作		
+sys_Pet_0051=[{@0:pet_config_id}]添加成功	
+sys_Pet_0052=你成功获得宠物[{@0:pet_config_id}]		
+sys_Pet_0053=你已经获得了[{@0:pet_config_id}]，不能重复添加		
+sys_Pet_0054=你已经拥有了观赏宠物[{@0:pet_config_id}]，不能重复添加		
+sys_Pet_0055=<font color='#ffff00'>术式法阵保存成功</font>		
+sys_Pet_0056=<font color='#ffff00'>魔物强化成功</font>		
+sys_Pet_0057=请不要输入非法字符		
+sys_Pet_0058=<font color='#ffff00'>改名成功</font>		
+		
+		
+		
+//队伍招募				
+sys_enlist_0003=此招募信息等级限制为[{@0:lowlv}]，你的等级不满足		
+sys_enlist_0004=搜索最小等级必须不大于最大等级，请重新输入		
+sys_enlist_0005=等级需要从低到高，请重新输入		
+sys_enlist_0006=请输入队伍信息		
+sys_enlist_0007=队伍已满，无法再添加队友		
+sys_enlist_0008=没有适合你当前等级的副本		
+sys_enlist_0009=没有适合你当前等级的战场 		
+sys_enlist_0010=没有符合你要求的招募信息 
+sys_enlist_0011=你输入的最小等级不符合副本的等级限制，将进行自动匹配
+sys_enlist_0012=没有符合你要求的冒险
+		
+		
+//黑市		
+sys_black market_0001=此物品不可交易		
+sys_black market_0002=此物品已绑定		
+sys_black market_0003=只能寄售背包中的物品		
+sys_black market_0004=物品叠加数至少为1		
+sys_black market_0005=起拍价和一口价至少要设定一个		
+sys_black market_0006=起拍价不能大于一口价		
+sys_black market_0007=定价不能超过货币携带上限		
+sys_black market_0008=没有足够的金钱支付保管费		
+sys_black market_0009=物品数量不足，无法寄售		
+sys_black market_0010=寄售失败		
+sys_black market_0011=背包中物品数量不足		
+sys_black market_0012=<font color='#ffff00'>寄售成功</font>		
+sys_black market_0013=未找到指定物品		
+sys_black market_0014=你不能取消[{@0:name}]的寄售		
+sys_black market_0015=你取消了[{@0:name}]的寄售		
+sys_black market_0016=不能取消其他玩家的寄售		
+sys_black market_0017=不能竞拍自己寄售的物品		
+sys_black market_0018=你已是当前最高出价者		
+sys_black market_0019=此物品只能一口价购买		
+sys_black market_0020=请先选择一件物品		
+sys_black market_0021=出价不能小于起拍价		
+sys_black market_0022=出价不能小于最低出价		
+sys_black market_0023=点券不足		
+sys_black market_0024=不能竞拍同帐号寄售的物品		
+sys_black market_0025=此物品只能竞拍，不能一口价		
+sys_black market_0026=竞拍失败		
+sys_black market_0027=<font color='#ffff00'>竞拍成功</font>		
+sys_black market_0028=你已成功买下[{@0:name}]		
+sys_black market_0031=此物品已经绑定，不可交易		
+sys_black market_0032=请设置物品的拍卖价格		
+sys_black market_0033=一口价必须高于起拍价				
+sys_black market_0035=你没有足够的点券		
+sys_black market_0036=你的出价不足		
+sys_black market_0037=<font color='#ffff00'>成功参与竞拍</font>		
+sys_black market_0038=你的出价被人超过，请在黑市账单中提取竞拍点券		
+sys_black market_0039=你的包裹已满，交易物品将在30分钟后邮寄给你		
+sys_black market_0040=只能对已绑定装备使用		
+sys_black market_0041=背包已满，无法粘贴黑市标签		
+		
+		
+		
+		
+//请求		
+sys_request_0001=向[{@0:name}]发出{@1:type}请求，请等待回应		
+sys_request_0002={@0:type}请求失败，<a href="chat,{@1:name}" style="HLStype18">[{@1:name}]</a>拒绝了你的请求		
+sys_request_0003=你拒绝了[{@0:名称}]的{@1:type}请求		
+sys_request_0004={@0:type}请求失败，<a href="chat,{@1:name}" style="HLStype18">[{@1:name}]</a>已下线	
+sys_request_0005=<font color="#ffffff">[好友]</font>		
+sys_request_0006=<font color="#ffffff">[陌生人]</font>		
+sys_request_0007=<font color="#ffffff">[仇敌]</font>			
+sys_request_0010={@0:type}请求失败，<a href="chat,{@1:name}" style="HLStype18">[{@1:name}]</a>未理睬你的请求		
+sys_request_0011=你未理睬[{@0:名称}]的{@1:type}请求				
+sys_request_0013={@0:type}请求失败，[{@1:名称}]已下线		
+sys_request_0015={@0:type}正在处理群聊邀请，请等待		
+sys_request_0016=[{@0:名称}]离开当前场景，无法处理请求		
+sys_request_0017=[{@0:名称}]等级不够，无法上坐骑		
+sys_request_0018=你等级不够，无法上坐骑		
+sys_request_0019=请求失败		
+sys_request_0020=[{@0:name}]离开当前场景，{@1:type}请求失败		
+sys_request_0029={@0:type}请求失败，<a href="chat,{@1:name}" style="HLStype18">[{@1:name}]</a>不存在或已下线	
+sys_request_0030=对方处于决斗状态，请求失败
+sys_request_0031=决斗状态中，无法发出请求	
+sys_request_0032=对方不在线，无法查看信息		
+		
+		
+//请求限制		
+sys_request_limit_0001 = 对方已开启禁止交易功能，无法交易		
+sys_request_limit_0002 = 对方已开启禁止决斗功能，无法决斗		
+sys_request_limit_0003 = 对方已开启禁止组队功能，无法组队		
+		
+		
+		
+		
+//称号		
+sys_title_0001=<font color='#ffff00'>恭喜，你获得一个新称号: {@0:title_name}</font>	
+sys_title_0002=称号超出使用级别		
+sys_title_0003=当前称号已经超出使用级别，将自动取消使用
+sys_title_0004=<font color='#ffff00'>启用称号: {@0:title_name}</font>				
+		
+		
+//道具绑定		
+sys_band_0001=绑定装备		
+sys_band_0002=绑定成功		
+sys_band_0003=绑定失败		
+sys_band_0004=已经绑定了		
+		
+		
+		
+//大地图		
+sys_map_0001=无法找到你要查找的NPC信息		
+sys_map_0002=传送到{@0:地名}({@1:x坐标}{@2:z坐标})？		
+sys_map_0003={@0:地点名}界碑
+sys_map_0004=<font color='#ffff00'>你激活了{@0:传送点}界碑</font>
+sys_map_0005=传送冷却中
+sys_map_0006=对不起，你查找的信息不存在
+sys_map_0007=对不起，你在载具上，无法传送
+sys_map_0008=对不起，你在交通工具上，无法传送
+sys_map_0009=对不起，你处于战斗状态，无法传送
+sys_map_0010=对不起，你的命名已重复，请重新命名
+sys_map_0011=对不起，你不符合该能量井身份，无法传送
+sys_map_0012=对不起，不同场景之间无法使用界碑传送
+sys_map_0014=传送消耗不足，传送失败
+		
+		
+//战场		
+sys_battlawar_0001=没有对应的战场		
+sys_battlawar_0002=你的等级没有达到战场要求		
+sys_battlawar_0003=战场申请失败		
+sys_battlawar_0004=战场申请成功	
+sys_battlawar_0005=战场已关闭		
+sys_battlawar_0006=退出战场排队		
+sys_battlawar_0007=你已加入战场排队，无法重复申请	
+sys_battlawar_0008=战场稍后开启，请耐心等待		
+sys_battlawar_0009=你已申请过该战场		
+sys_battlawar_0010=无法同时申请多个战场			
+sys_battlawar_0012=尚有队员不在当前场景		
+sys_battlawar_0013=队友已参加战场		
+sys_battlawar_0014=队友处于逃跑状态，申请失败	
+sys_battlawar_0015=当前队伍中{@0:playername}所在等级段和队长不符，无法报名同一个战场	
+sys_battlawar_0016=队友已申请战场或达到申请上限		
+sys_battlawar_0017=逃离战场状态，15分钟内无法再次申请	
+sys_battlawar_0018=你不是队长，无法申请队伍加入		
+sys_battlawar_0019=你还没有队伍，无法申请队伍加入		
+sys_battlawar_0020=你已经举报过此人，无法再次举报		
+sys_battlawar_0021=你已被多人举报，强制离开战场		
+sys_battlawar_0022=正在战斗中，操作失败		
+sys_battlawar_0023=死亡状态禁止加入战场		
+sys_battlawar_0024=得分		
+sys_battlawar_0025=团队击杀		
+sys_battlawar_0026=敌军总击杀		
+sys_battlawar_0027=你已加入战场排队，无法重复申请		
+sys_battlawar_0029=副本中无法申请加入战场
+sys_battlawar_0030=竞技场中无法申请加入战场
+sys_battlawar_0031=竞技场排队中，无法申请加入战场
+sys_battlawar_0032=尚有队员在副本中，无法申请队伍加入战场
+sys_battlawar_0033=尚有队员在竞技场中，无法申请队伍加入战场
+sys_battlawar_0034=尚有队员在竞技场排队中，无法申请队伍加入战场
+sys_battlawar_0035=旅行中无法进入战场，请稍后再试
+sys_battlawar_0036=载具上无法进入战场
+sys_battlawar_0037=坐骑上无法进入战场
+sys_battlawar_0038=您今日获取英勇点数奖励超过上限，不再获得奖励
+sys_battlawar_0039=您今日获取金钱奖励超过上限，不再获得奖励
+sys_battlawar_0040=您今日获取经验奖励已达上限，不再获得奖励
+		
+		
+		
+//竞技场
+sys_arena_cantmove=准备状态，无法移动
+sys_arena_0000=已经成功退出排队
+sys_arena_0001=战队名已存在，无法创建战队
+sys_arena_0002=战队名过长或过短，无法创建战队
+sys_arena_0003=已有同模式的战队存在，无法创建战队		
+sys_arena_0004=你的金钱不足，无法创建战队	
+sys_arena_0005=你的等级不足[@0:等级}]级，无法创建战队
+sys_arena_0006=<font color='#ffff00'>创建战队[{@0:战队名}]成功</font>
+sys_arena_0007=<font color='#ffff00'>解散战队[{@0:战队名}]成功</font>
+sys_arena_0008=[{@0:玩家名}]不存在或者已下线
+sys_arena_0009=[{@0:玩家名}]已经下线了
+sys_arena_0010=[{@0:玩家名}]拒绝加入战队[{@1:战队名}]
+sys_arena_0011=[{@0:玩家名}]同意加入战队[{@1:战队名}]
+sys_arena_0012=[{@0:玩家名}]不满足加入战队[{@1:战队名}]的条件
+sys_arena_0013=你是队长，无法退出战队[{@1:战队名}]
+sys_arena_0014=你已经是战队[{@0:战队名}]的队长了
+sys_arena_0015=[{@0:玩家名}]加入了战队[{@1:战队名}]
+sys_arena_0016=[{@0:玩家名}]离开了战队[{@1:战队名}]
+sys_arena_0017=[{@0:玩家名}]被移出战队[{@1:战队名}]
+sys_arena_0018=[{@0:玩家名}]成为了战队[{@1:战队名}]的队长
+sys_arena_0019=现在不是竞技场开放的时间
+sys_arena_0020=你处于战斗状态中，无法进入竞技场
+sys_arena_0021=你处于死亡状态中，无法进入竞技场
+sys_arena_0022=你的等级不足[@0:等级}]级，无法排入竞技场等待列表
+sys_arena_0023=你处于队伍中，无法以个人名义排入竞技场等待列表
+sys_arena_0024=你已排入战场等待列表或已进入战场内，无法排入竞技场等待列表
+sys_arena_0025=你拥有的道具[{@0:道具名}]数量不足，无法创建战队
+sys_arena_0026=你已排入竞技场等待列表或已进入竞技场内，无法再次排入竞技场等待列表
+sys_arena_0027=你不是队伍的队长，无法以战队名义排入竞技场等待列表
+sys_arena_0028=你的队伍人数与当前竞技场模式不符合，无法排入竞技场等待列表
+sys_arena_0029=你的队伍中有成员不是所属战队的成员，无法排入竞技场等待列表
+sys_arena_0030=你的队伍中有成员不满足竞技场排队要求，排队失败
+sys_arena_0031=你已成功排入竞技场等待列表
+sys_arena_0032=你或你所在队伍成功退出竞技场等待列表
+sys_arena_0033=竞技场战斗开始
+sys_arena_0034=等待超时，排队失败
+sys_arena_0035=竞技场战斗结束
+sys_arena_0036=战队名不合法，无法创建战队
+sys_arena_0037=你在竞技场排队或在竞技场内，暂时无法离开战队[{@0:战队名}]！
+sys_arena_0038=[{@0:玩家名}]在竞技场排队或在竞技场内，无法移除战队[{@1:战队名}]
+sys_arena_0039=您当前在竞技场中，无法骑乘坐骑
+sys_arena_0040=您当前在交通工具上，无法进入竞技场。
+sys_arena_0041=对不起，您已经报名竞技场，无法多次报名。
+sys_arena_0042=对不起，您已经报名竞技场，无法多次报名。
+sys_arena_0043=战斗开始，技能冷却已经清除。
+sys_arena_0044=竞技场赛季未开启，无法进入竞技场。
+sys_arena_0066=战队已加入排队
+sys_arena_0089=对不起，您处于竞技场逃跑状态，暂时无法继续报名。
+sys_arena_0090=由于双方阵营人数不均等，竞技场将在{@0:time}秒后关闭。
+sys_arena_0091=点击即可报名
+sys_arena_0092=竞技场准备状态，无法移动
+
+sys_arena_0100=你已经有战队，无法再次申请
+sys_arena_0101=<font color='#ffff00'>移除成员成功</font>
+sys_arena_0102=你已经被移出战队
+sys_arena_0103=你已经向该战队发出过申请
+sys_arena_0104=<font color='#ffff00'>战队申请成功</font>
+sys_arena_0105=退出排队
+sys_arena_0106=移出战队失败
+sys_arena_0107=移交战队队长失败
+sys_arena_0108=战队[{@0:战队名}]人数已满
+sys_arena_0109=退出战队
+sys_arena_0110=你的战队已解散，请重新创建或加入战队
+sys_arena_0111=你不是战队成员，无法进行战队申请
+sys_arena_0112=有队员不在附近，无法进行战队的申请
+sys_arena_0113=竞技场未到开放时间，无法排队
+sys_arena_0114=太神奇了！{@0:player}在竞技场已经获得了1500分！
+sys_arena_0115=不可思议！{@0:player}在竞技场已经获得了3000分！
+sys_arena_0116=令人振奋！{@0:player}在竞技场已经获得了5000分！
+sys_arena_0117=<font color='#ffff00'>移交战队队长成功</font>
+sys_arena_0118=你被任命为战队队长
+sys_arena_0119={@0:玩家名}已加入其它战队
+sys_arena_0120=加入了战队[{@0:战队名}]
+sys_arena_0121={@0:player}击杀了{@1:player}，获得了第一滴血！
+sys_arena_0122={@0:player}击杀了{@1:player}，获得了{@2:number}连杀！
+sys_arena_0123={@0:player}击杀了{@1:player}，终结了对手的{@2:number}连杀！
+sys_arena_0124=还有谁能停止他的脚步？{@0:player}在竞技场已经获得了10000分！
+sys_arena_0125=巅峰之路已经开启！{@0:player}在竞技场已经获得了20000分！
+sys_arena_0126=无法阻挡，这是成神的节奏！{@0:player}在竞技场已经获得了50000分！
+sys_arena_0127=光芒万丈，神一样的存在！{@0:player}在竞技场已经获得了100000分！
+sys_arena_0200=你处于交通工具上，无法进入竞技场
+
+//工会		
+sys_guild_0001=<font color='#ffff00'>存放物品成功</font>		
+sys_guild_0002=<font color='#ffff00'>提取物品成功</font>		
+sys_guild_0003=此物品已被取出		
+sys_guild_0004=数量错误，提取物品失败		
+sys_guild_0005=金钱不能为零		
+sys_guild_0006=数量错误，提取金钱失败	
+sys_guild_0007=你向公会仓库内存入<a style="HLStypeGoodsLevel{@0:colorLv}">[{@1:道具}]</a>×{@2:amount}成功		
+sys_guild_0008=你向公会仓库内存入<a style="HLStypeGoodsLevel{@0:colorLv}">[{@1:道具}]</a>×{@2:amount}失败		
+sys_guild_0009=你从公会仓库内取出<a style="HLStypeGoodsLevel{@0:colorLv}">[{@1:道具}]</a>×{@2:amount}成功		
+sys_guild_0010=你从公会仓库内取出<a style="HLStypeGoodsLevel{@0:colorLv}">[{@1:道具}]</a>×{@2:amount}失败		
+sys_guild_0011=<font color='#ffff00'>仓库刷新成功</font>		
+sys_guild_0012=存放物品失败		
+sys_guild_0013=取出的物品数量不能小于1		
+sys_guild_0014=要取的物品不存在		
+sys_guild_0015=仓库已经满		
+sys_guild_0016=你目前没有权限从仓库提取物品		
+sys_guild_0017=你目前没有权限在仓库存放物品		
+sys_guild_0018=绑定物品无法存入仓库		
+sys_guild_0019=当前格子的物品已经改变		
+sys_guild_0020=拆分的物品不能进行替换		
+sys_guild_0021=你目前没有取钱权限		
+sys_guild_0022=你目前没有存钱权限		
+sys_guild_0023=当前仓库物品已改变，请重新刷新后尝试		
+sys_guild_0024=你向仓库存入{@money}	
+sys_guild_0025=你从仓库取出{@money}
+sys_guild_0027=仓库资金已达到上限，存入失败
+sys_guild_0028=仓库资金为0，提取失败
+sys_guild_2001=你已经是公会成员，无法创建公会		
+sys_guild_2002=公会[{@0:position}][{@1:玩家}]上线了
+sys_guild_2003=公会[{@0:position}][{@1:玩家}]下线了
+sys_guild_2004=你已经在一个公会中，无法创建公会		
+sys_guild_2005=公会名称包含非法字符，创建失败		
+sys_guild_2006=公会名称最大为{@0:字母长度}个字母或{@1:汉字长度}个汉字		
+sys_guild_2007=<font color='#ffff00'>[{@0:name}]成功创建公会：[{@1:guild}]</font>	
+sys_guild_2008=名称已重复，请重新命名		
+sys_guild_2010=其他操作正在处理中，请耐心等待		
+sys_guild_2011=创建公会		
+sys_guild_2012=加入公会		
+sys_guild_2013=响应公会		
+sys_guild_2014=解散公会		
+sys_guild_2015=停止解散公会		
+sys_guild_2016=成功加入公会[{@0:guild}]		
+sys_guild_2017=[{@0:guild}]公会拒绝了你的申请		
+sys_guild_2018=玩家[{@0:player}]不在线，无法操作		
+sys_guild_2019=玩家[{@0:player}]已经加入其它公会		
+sys_guild_2020=你没有权限进行该操作		
+sys_guild_2021=请退出你当前所在公会后，重新申请加入此公会		
+sys_guild_2023=公会不存在		
+sys_guild_2024=你已经向公会[{@0:guild}]发出申请，请等待
+sys_guild_2025=<font color='#ffff00'>公告发布成功</font>		
+sys_guild_2026=公告发布失败		
+sys_guild_2027=没有加入公会，无法操作		
+sys_guild_2028=<font color='#ffff00'>招募玩家[{@0:player}]发送成功，请等待</font>	
+sys_guild_2029=玩家[{@0:player}]已有公会，无法招募		
+sys_guild_2030=玩家[{@0:player}]拒绝了你的招募		
+sys_guild_2031=获取公会数据失败		
+sys_guild_2032=<font color='#ffff00'>设置职位权限成功</font>		
+sys_guild_2033=设置职位权限失败		
+sys_guild_2034=<font color='#ffff00'>调整职位级别成功</font>		
+sys_guild_2035=调整职位级别失败		
+sys_guild_2036=会长不能退出公会，请先转让给其他成员再退出		
+sys_guild_2037=退出公会成功		
+sys_guild_2038=退出公会失败		
+sys_guild_2039=[{@0:player}]退出公会		
+sys_guild_2040=玩家[{@0:player}]不是公会成员		
+sys_guild_2041=不能修改职位比自己高的成员		
+sys_guild_2042=不能修改到比自己高的职位		
+sys_guild_2043=<font color='#ffff00'>修改[{@0:player}]职位成功</font>		
+sys_guild_2044=修改[{@0:player}]职位失败		
+sys_guild_2045=[{@0:player}]修改了你的职位		
+sys_guild_2046=公会解散时间已到，公会解散		
+sys_guild_2047=你已经加入公会[{@0:guild}]，无法再加入其他公会		
+sys_guild_2048=你已经响应过公会[{@0:guild}]，请先取消响应		
+sys_guild_2049=已经响应过本公会，不需要重复响应		
+sys_guild_2050=你所在的公会[{@0:guild}]已解散		
+sys_guild_2051=公会[{@0:guild}]创建失败		
+sys_guild_2052=你已响应过公会[{@0:guild}]，不能创建公会		
+sys_guild_2053=玩家[{@0:player}]不在你的公会里面		
+sys_guild_2054=不是会长不能转让会长		
+sys_guild_2055=会长职位转让给[{@0:player}]		
+sys_guild_2056=转让会长失败		
+sys_guild_2057=玩家[{@0:player}]被踢出公会		
+sys_guild_2058=踢出人员失败		
+sys_guild_2059=你被踢出公会		
+sys_guild_2060=[{@0:player}]取消了公会解散		
+sys_guild_2061=公会将在{@time5}后被解散，公会正、副会可在倒计时内前往公会管理员处取消解散		
+sys_guild_2062=解散公会		
+sys_guild_2063=公会公告[{@0:player}]：{@1:notice}		
+sys_guild_2064=公会名称不能为空		
+sys_guild_2065=会长已经开始解散公会，公会正、副会长可在24小时内前往公会管理员处停止解散		
+sys_guild_2066=无权将此成员踢出公会		
+sys_guild_2067=会长禁止退出公会		
+sys_guild_2068=申请者已经加入公会		
+sys_guild_2069=此公会不存在或已经在解散中		
+sys_guild_2070=屏蔽职位成功		
+sys_guild_2071=<font color='#ffff00'>你的公会已经解散</font>		
+sys_guild_2072=会长无法把会长职务转让给自己		
+sys_guild_2073=[{@0:player}]加入公会		
+sys_guild_2074=[{@0:player}]申请加入公会		
+sys_guild_2075=会长职位只能转让		
+sys_guild_2076=调整[{@0:player}]职位为{@1:职位}成功		
+sys_guild_2077=你所邀请的对象不存在或不在线	
+sys_guild_2078=对方为敌对阵营，邀请失败		
+sys_guild_2079=开始招募成员		
+sys_guild_2080=停止招募成员		
+sys_guild_2081=公会远程招募开启		
+sys_guild_2082=公会远程招募停止		
+sys_guild_2083=取消申请加入[{@0:公会名}]公会		
+sys_guild_2084=成功申请加入[{@0:公会名}]公会，请等待答复		
+sys_guild_2085=你刚退出一个公会，请等待{@time5}后再申请
+sys_guild_2086=[{@0:被邀请的玩家名}]刚退出一个公会，请等待{@time5}后再邀请
+sys_guild_2087=你申请的公会没有开启远程成员招募		
+sys_guild_2088=公会仓库		
+sys_guild_2089=邀请失败，[{@0:玩家名}]已经有公会了		
+sys_guild_2090=你当前正在申请加入[{@1:guild}]公会，请先取消该申请，再重新申请加入[{@0:guild}]公会		
+sys_guild_2091=公会成员[{@0:玩家名}]上线了		
+sys_guild_2092=你的等级未达到20级，无法创建公会		
+sys_guild_2093=创建公会需要资金不足		
+sys_guild_2094=<font color='#ffff00'>成功加入公会[{@0:公会名}]</font>		
+sys_guild_2095=欢迎[{@0:玩家名}]加入公会		
+sys_guild_2096=成功退出公会[{@0:公会名}]		
+sys_guild_2097=公会人数已经达到上限		
+sys_guild_2098=邀请玩家[{@0:玩家名}]成功，等待对方答复		
+sys_guild_2099=获取公会数据失败		
+sys_guild_2100=你在公会中的职位已被改变		
+sys_guild_2101=[{@0:玩家名}]成为{@1:职位}		
+sys_guild_2102=邀请失败，[{@0:玩家名}]已经有公会了		
+sys_guild_2103=创建公会所需的资金不足		
+sys_guild_2104=公会等级达到人数上限，接收成员失败		
+sys_guild_2105=已经被对方邀请，不能申请		
+sys_guild_2106=金钱不能为负		
+sys_guild_2107=携带金钱不足，存入失败		
+sys_guild_2108=此职位人数已满		
+sys_guild_2109=玩家已经申请过，不能邀请		
+sys_guild_2110=无法邀请自己		
+sys_guild_2111=[{@0:player}]改变了[{@1:player}]的职位		
+sys_guild_2112=邀请[{@0:玩家名}]失败，对方不满足加入公会的条件		
+sys_guild_2113=邀请[{@0:玩家名}]失败，对方已申请其他公会		
+sys_guild_2114=无法同时申请众多公会
+sys_guild_2115=公会人数已满，加入失败
+sys_guild_2116=加入玩家[{@0:玩家名}]失败，对方已经加入了其他公会
+sys_guild_2117=该公会正在邀请你加入，请处理邀请操作后再次申请
+sys_guild_2118=[{@0:player}]已经没有权利邀请玩家加入公会
+sys_guild_2119=你已经没有权利邀请玩家加入公会
+sys_guild_2120=你的等级未达到5级，无法开启排行榜！
+sys_guild_2121=[{@0:公会}]收到了你对他们表示友好的信息。
+sys_guild_2122=[{@0:公会}]收到了你对他们表示不满的信息。
+sys_guild_2123=请注意！你所在的公会引起了[{@0:公会}]的不满。
+sys_guild_2124=[{@0:公会}]对你所在的公会产生了好感。
+sys_guild_2125=[{@0:公会}]和[{@1:公会}]的高层经过一致协商，为了各自的利益，决定组成联盟关系。
+sys_guild_2126=[{@0:公会}]高层经过协定，为了确保自己公会的利益，决定向[{@1:公会}]发起对抗。
+sys_guild_2127=对不起，你无法单方面解除此对抗协议。
+sys_guild_2128=对不起，你所带的金币不足。
+sys_guild_2129=操作失败，对抗公会数量已达上限！
+sys_guild_2130=操作失败，联盟公会数量已达上限！
+sys_guild_2131=操作失败，无法转让给离线会员，请再次选择其他会员。
+sys_guild_2132=对方拒绝了你的转让会长申请，转让失败。
+sys_guild_2133=公会关系请求已经发送，请耐心等待对方回复。
+sys_guild_2134=	[{@0:公会}]解除了跟你所在公会的联盟关系。
+sys_guild_2135=	[{@0:公会}]解除了跟你所在公会的敌对关系。
+sys_guild_2136=	[{@0:公会}]和[{@1:公会}]的高层因为某些利益的冲突，决定解散他们的联盟关系。
+sys_guild_2137=	[{@0:公会}]和[{@1:公会}]的高层似乎找到了利益的共同点，决定化干戈为玉帛，消除了敌对关系。
+sys_guild_2138=操作过于频繁，请稍后重新尝试
+sys_guild_2139=你还有一条公会关系请求尚未处理，请处理之后再进行此操作。
+
+
+//触发器		
+sys_event_0001=前方水潭暗流涌动，看似有些猫腻！		
+sys_event_0002=障碍物已被破坏		
+sys_event_0004=副本已结束，请通过传送门离开副本！		
+sys_event_0005=哈里克能量殆尽，急需充能		
+sys_event_0006=哈里克能量超载，进入失控状态		
+sys_event_0007=哈里克充能成功，能量重新分配		
+sys_event_0008=指挥官——阿加伦隆出现		
+sys_event_0009=已触发警报，请立即破坏警报器		
+sys_event_0010=警报器被摧毁		
+sys_event_0011=大门已打开，可继续前往下个区域		
+sys_event_0012=小心头顶		
+sys_event_0013=保护指挥官		
+sys_event_0014=从西边通道偷袭叛军后方
+sys_event_0015=游踪按下了什么东西		
+sys_event_0016=控制台上绿灯亮了起来		
+sys_event_0017=隧道尽头有响动，过去看看发生了什么事
+sys_event_0018=大门后出现了大量叛军！小心			
+		
+		
+		
+//留用，勿删		
+0={@0:text}		
+		
+		
+		
+//商城		
+sys_store_0001=物品[{@0:item}]即将到期，请尽快提取		
+sys_store_0002=物品[{@0:item}]已经到期		
+sys_store_0003=赠送信息不完整，无法赠送		
+sys_store_0004=此玩家不存在，赠送物品失败		
+sys_store_0005=点券或金钱不足，购买失败		
+sys_store_0006=背包和商城物品栏已满，无法购买		
+sys_store_0007=没有找到此物品，无法收藏		
+sys_store_0008=没有找到此物品，无法购买		
+sys_store_0009=背包空间不足，道具[{@0:item} X {@1:num}]放入商城物品栏，请去商城“我的物品”提取		
+sys_store_0010=[{@0:name}]通过邮件赠送给你[{@1:item} X {@2:num}]，注意查收		
+sys_store_0011=赠送[{@0:item} X {@1:num}]失败	
+sys_store_0012=购买[{@0:item} X {@1:num}]失败	
+sys_store_0013=获得[{@0:item}]X {@1:num}
+sys_store_0014=存放空间不足，[{@0:item} X {@1:num}]已通过邮件发送给你		
+sys_store_0015=成功赠送[{@0:item}] X {@1:num}给[{@2:name}]		
+sys_store_0016=成功提取[{@0:item}] X {@1:num}物品		
+sys_store_0017=背包已满，无法继续提取		
+sys_store_0018=此物品已提取		
+sys_store_0019=背包已满，无法提取[{@0:item}]		
+sys_store_0020=成功提取[{@0:item}]物品		
+sys_store_0021=购物车已满，无法继续添加		
+sys_store_0022=收藏成功！请点击"查看收藏"按钮进行查看
+sys_store_0023=没有找到你要查找的商城物品
+sys_store_0024=赠送内容填写字数过多，无法发送	
+		
+		
+		
+//生活职业		
+sys_lifejob_0001=<font color='#ffff00'>学习锻造师成功</font>		
+sys_lifejob_0002=<font color='#ffff00'>学习裁缝成功</font>		
+sys_lifejob_0003=<font color='#ffff00'>学习炼金师成功</font>		
+sys_lifejob_0004=<font color='#ffff00'>学习珠宝匠成功</font>		
+sys_lifejob_0005=<font color='#ffff00'>学习铸甲师成功</font>		
+sys_lifejob_0006=学习锻造师失败，你已经学习其他生活职业了		
+sys_lifejob_0007=学习裁缝失败，你已经学习其他生活职业了		
+sys_lifejob_0008=学习炼金师失败，你已经学习其他生活职业了		
+sys_lifejob_0009=学习珠宝匠失败，你已经学习其他生活职业了		
+sys_lifejob_0010=学习铸甲师失败，你已经学习其他生活职业了		
+sys_lifejob_0011=学习锻造师失败，当前背包金钱不足		
+sys_lifejob_0012=学习裁缝失败，当前背包金钱不足		
+sys_lifejob_0013=学习炼金师失败，当前背包金钱不足		
+sys_lifejob_0014=学习珠宝匠失败，当前背包金钱不足		
+sys_lifejob_0015=学习铸甲师失败，当前背包金钱不足		
+sys_lifejob_0016=配方学习失败，请先学习对应生活职业		
+sys_lifejob_0017=配方学习失败，所需要的熟练度不足			
+sys_lifejob_0018=你学会了新的配方:[{@0:配方名}]	
+sys_lifejob_0019=放弃[{@0:职业}]成功	
+sys_lifejob_0020=你已经学会了此配方，不需要重复学习		
+sys_lifejob_0021=制造失败：请到指定区域制造		
+sys_lifejob_0022=制造失败：当前体力值不足		
+sys_lifejob_0023=你尚未学习任何生活职业		
+sys_lifejob_0024=<font color='#ffff00'>[{@0:职业}]提升到{@1:等级}级</font>		
+sys_lifejob_0025=角色无法在当前的状态下制造		
+sys_lifejob_0026=制造被打断		
+sys_lifejob_0027=角色等级不足，无法学习该生活职业
+sys_lifejob_0028=角色等级不足，生活职业熟练度上限无法提升
+sys_lifejob_0029=领悟到了新的配方：[{@0:配方名}]		
+sys_lifejob_0030=制造失败：此配方处于冷却中		
+sys_lifejob_0031=配方研究失败：研究所需要的配方不足		
+sys_lifejob_0032=配方研究失败：你的[{@0:职业}]等级不够
+sys_lifejob_0033=制造失败，请按“Z”将武器收至背后	
+sys_lifejob_0034=此道具不可以被分解
+sys_lifejob_0035=分解失败，此物品无法被分解		
+sys_lifejob_0037=分解失败：当前状态无法分解	
+sys_lifejob_0038=你打断了制造			
+sys_lifejob_0039=正在制作	
+sys_lifejob_0040=当前状态不符	
+		
+		
+//能量井		
+sys_energywell_0001=<font color='#ffff00'>提交牌子成功，恭喜你居民等级提高到[{@0:身份等级}]</font>		
+sys_energywell_0002=提交牌子成功		
+sys_energywell_0003=牌子类型错误		
+sys_energywell_0004=道具不足		
+sys_energywell_0005=牌子数量不够		
+sys_energywell_0006=系统错误		
+sys_energywell_0007=开通成功		
+		
+sys_energywell_0101=放弃能量井居民身份成功		
+sys_energywell_0102=放弃能量井居民身份失败		
+sys_energywell_0103=你已经是当前能量井居民了		
+sys_energywell_0104=还不是居民，不能升级居民身份		
+sys_energywell_0105=此功能赞未开放		
+sys_energywell_0106=确定消耗{@0:}个牌子开通此能量井的居民身份么		
+sys_energywell_0107=确定消耗{@0:}点券开通居民身份么		
+sys_energywell_0108=金钱不足		
+		
+sys_energywell_0201=你所选的装备类型不对		
+sys_energywell_0202=你选取的道具类型不对		
+sys_energywell_0203=你的身份条件不符合		
+sys_energywell_0204=能量井等级不够		
+sys_energywell_0205=你的等级不够		
+sys_energywell_0206=此功能暂未开放		
+
+sys_energywell_0301=充能开始，请耐心等待
+sys_energywell_0302=充能被取消
+sys_energywell_0303=充能被中断
+sys_energywell_0304=充能失败，材料不足
+sys_energywell_0305=充能失败，装备等级不足
+sys_energywell_0306=充能失败，声望不满足
+sys_energywell_0307=当前状态不可进行
+
+sys_energywell_0400=本公会占领的[{@0:ew_name}]开启了[{@1:carrier_name}]的制造
+sys_energywell_0401=本公会占领的[{@0:ew_name}]取消了[{@1:carrier_name}]的制造
+sys_energywell_0402=本公会占领的[{@0:ew_name}]对[{@1:carrier_name}]的制造已完成
+sys_energywell_0403=[{@0:playerName}]领取了本公会占领的[{@1:ew_name}]的[{@2:carrier_name}]。
+sys_energywell_0404=捐献成功
+sys_energywell_0405=[{@0:ew_name}]所属公会以[{@1:price}]的价格收购 [{@2:mat_name}][{@3:mat_num}]个
+sys_energywell_0406=当前状态下不能进行操作
+sys_energywell_0407=[{@0:材料名}]收购完成
+sys_energywell_0408=成功出售[{@0:材料名}][{@1:数量}]个
+sys_energywell_0409=收购信息失效请刷新
+sys_energywell_0410=你的所有收购订单被取消，剩余黑金已通过邮件寄送，请注意及时查收
+sys_energywell_0411=已成功花费[{@0:黑金}]黑金收购[{@1:材料名}][{@2:数量}]个，退还[{@3:剩余黑金}]黑金
+sys_energywell_0412=出售失败，材料通过邮件给你寄回
+sys_energywell_0413=该材料正在收购，请先取消订单
+sys_energywell_0414=你所收购的材料订单已被取消，剩余黑金正在给你寄送，请及时查收。
+
+sys_energywell_0450=参数错误
+sys_energywell_0451=数据表不存在
+sys_energywell_0460=载具制造条件限制不满足
+sys_energywell_0461=停车位制造条件不满足
+sys_energywell_0496=您不是占领该能量井公会的会长或副会长
+sys_energywell_0497=能量井仓库材料不足
+sys_energywell_0498=能量井仓库黑金不足
+sys_energywell_0499=没有空闲的生产线
+sys_energywell_0500=黑金不足或处在安全时间内
+sys_energywell_0501=您已经成功缩短制造时间
+
+sys_energywell_0550=<font color='#79e879'>获得{@0:名称}名望值{@1:数值}</font>
+sys_energywell_0551=<font color='#79e879'>获得贡献度{@0:数值}</font>
+sys_energywell_0552=未占领{@0:名称}，无法对载具进行上锁
+sys_energywell_0553=已被其他玩家上锁，无法对该载具进行上锁
+sys_energywell_0554=骑士点数不足，无法对该载具进行上锁
+sys_energywell_0555=不是自己的载具，无法维修
+sys_energywell_0556=骑士点数不足，无法维修
+sys_energywell_0557=未拥有该载具的骑乘权限，无法骑乘该载具
+sys_energywell_0558=金钱不足，购买骑士点数失败
+sys_energywell_0559=成功购买{@0:数值}骑士点数
+sys_energywell_0560=名望等级不足
+sys_energywell_0561=背包空间不足，无法领取令牌
+sys_energywell_0562=每天只能领取一次令牌，今天已经领取
+sys_energywell_0563=背包内尚有令牌未使用，无法领取
+sys_energywell_0564=成功锁定{@0:名称}的{@1:名称}载具使用权{@2:数值}小时，扣除{@3:数值}骑士点数
+sys_energywell_0565=未开启自动维修，无法进行载具维修
+sys_energywell_0566=已开启自动维修，载具维修中
+sys_energywell_0567=离开载具维修点，停止载具维修
+sys_energywell_0568=消耗{@0:数值}骑士点数，回复{@1:数值}%的血量和{@2:数值}%能量
+sys_energywell_0569=<font color='#ffff00'>成功领取{@0:数值}个{@1:名称}</font>
+sys_energywell_0570 = 载具被{@0:玩家名}锁定，无法骑乘
+sys_energywell_0571 = 载具被{@0:玩家名}偷盗，无法骑乘
+sys_energywell_0572 = 距离载具太远，无法骑乘
+sys_energywell_0573=您的阵营与当前能量井的阵营不同，不能捐献材料
+sys_energywell_0574=载具{@0:载具名}没有损耗，无需修理
+sys_energywell_0575 = 使用{@0:名称}获得{@1:数值}骑士点数
+sys_energywell_0576 = 载具正在调配中，无法骑乘
+sys_energywell_0577 = 载具已调配，不能重复操作
+sys_energywell_0578 = 不是自己的载具，无法解锁
+sys_energywell_0579 = 距离载具太远，无法解锁
+sys_energywell_0580 = 附近没有你上锁的载具
+sys_energywell_0581 = 已经停了载具
+sys_energywell_0582 = 已申请解散公会，无法参与能量井公会战
+sys_energywell_0583 = 已占领能量井或参与能量井公会战，无法解散公会
+sys_energywell_0584 =能量井载具召回成功
+sys_energywell_0585 =没有召回权限
+sys_energywell_0586 =载具停在车库中，无法召回
+sys_energywell_0587=骑士点数不足
+sys_energywell_0588=停车位满血不需要修理
+sys_energywell_0589=开始维修停车位
+sys_energywell_0590=已经有停车位在维修
+sys_energywell_0591=所选停车位未建设
+sys_energywell_0592={@0:}需要{@1:}个，材料不足，无法维修停车位
+sys_energywell_0593=解锁载具成功
+sys_energywell_0594=停车位停靠成功
+sys_energywell_0595=停车位取车成功
+sys_energywell_0596=停车位里没有载具
+sys_energywell_0597=停靠的载具不属于你
+sys_energywell_0598=载具在特殊场景中无法召回
+sys_energywell_0599=载具在战斗状态无法召回
+
+//能量井战场
+//通告(旧能量井战场)
+sys_ewbattlewar_0001={@0:能量井}能量井争夺战报名开始
+sys_ewbattlewar_0002=距{@0:能量井}能量井争夺战开始还有10分钟，请做好准备
+sys_ewbattlewar_0003=距{@0:能量井}能量井争夺战开始还有5分钟，请做好准备
+sys_ewbattlewar_0004={@0:能量井}能量井争夺战已经开始
+sys_ewbattlewar_0005={@0:能量井}能量井争夺战已经结束，恭喜{@1:公会1}获得{@2:区域}占有权，{@3:公会2}获得{@4:区域}占有权，{@5:公会3}获得{@6:区域}占有权
+sys_ewbattlewar_0006={@0:门}被摧毁
+sys_ewbattlewar_0007={@0:冲车}被摧毁，2分钟后刷新
+sys_ewbattlewar_0008={@0:能量柱}已被摧毁，{@1:公会}暂时获得{@2:区域}占有权，新能量柱将重新生成
+sys_ewbattlewar_0009={@0:攻方装置}被摧毁
+
+
+//提示信息（旧能量井战场）
+sys_ewbattlewar_0010={@0:门}已被冲车袭击，请支援
+sys_ewbattlewar_0011={@0:门}已承受大量伤害，请尽快守护
+sys_ewbattlewar_0012={@0:门}血量不足一半，加速进攻
+sys_ewbattlewar_0013={@0:门}即将被摧毁，请火速支援
+sys_ewbattlewar_0014={@0:门}即将被摧毁，请加大火力进攻
+sys_ewbattlewar_0015={@0:能量柱}已经遭受攻击，请支援
+sys_ewbattlewar_0016={@0:能量柱}已经承受大量伤害，请尽快守护
+sys_ewbattlewar_0017={@0:能量柱}血量不足一半，请加大火力进攻
+sys_ewbattlewar_0018={@0:能量柱}即将被摧毁，请火速支援
+sys_ewbattlewar_0019={@0:能量柱}即将被摧毁，胜利就在前方
+sys_ewbattlewar_0020={@0:攻方装置}已被袭击，请注意防守
+sys_ewbattlewar_0021={@0:攻方装置}已承受大量伤害，请注意防守
+sys_ewbattlewar_0022={@0:攻方装置}已经血量不足一半，进攻是最好的防守
+sys_ewbattlewar_0023={@0:攻方装置}即将被摧毁，请火速支援
+sys_ewbattlewar_0024={@0:攻方装置}即将被摧毁，胜利就在前方
+sys_ewbattlewar_0025={@0:能量柱}剩余血量:{@1:剩余血量}%
+sys_ewbattlewar_0026=对{@0:能量柱}造成伤害的前三名工会
+sys_ewbattlewar_0027=1:{@0:工会名}({@1:伤害量})	
+sys_ewbattlewar_0028=2:{@0:工会名}({@1:伤害量})	
+sys_ewbattlewar_0029=3:{@0:工会名}({@1:伤害量})	
+sys_ewbattlewar_0030={@0:攻方装置}一旦被摧毁,能量井争夺战将提前结束.
+sys_ewbattlewar_0031=1:暂无公会
+sys_ewbattlewar_0032=2:暂无公会
+sys_ewbattlewar_0033=3:暂无公会
+sys_ewbattlewar_0034=该能量柱为{@0:攻方装置}占领.
+sys_ewbattlewar_0035={@0:名称}已经开启，欢迎玩家进入挑战。
+sys_ewbattlewar_0036={@0:名称}未开启，不能报名
+sys_ewbattlewar_0037=已经达到人数上限
+sys_ewbattlewar_0038={@0:名称}能量井资源战已经报过名了
+sys_ewbattlewar_0039={@0:名称}能量井资源战报名成功
+sys_ewbattlewar_0040={@0:名称}能量井资源战退出报名成功
+sys_ewbattlewar_0041=守方公会已经达到人数上限
+sys_ewbattlewar_0042=无公会
+sys_ewbattlewar_0043=进入等级:
+sys_ewbattlewar_0044=开启时间:
+sys_ewbattlewar_0045={@0:等级}级
+sys_ewbattlewar_0046=每周{@0:周几} {@1:几点}:{@2:几分}--{@3:结束几点}:{@4:结束几分}
+
+sys_ewbattlewar_0047={@0:战场名称}
+sys_ewbattlewar_0048={@0:战场名称}(战场未开启)
+
+
+//通告（新能量井战场）
+sys_ewbattlewar_0301=能量井公会战宣战开始，各公会会长可以进行能量井的宣战
+sys_ewbattlewar_0302=能量井公会战宣战结束
+sys_ewbattlewar_0303=能量井公会战载具调配已开启，宣战成功的公会会长可进行载具调配
+sys_ewbattlewar_0304=能量井公会战载具调配结束
+sys_ewbattlewar_0305=能量井公会战报名开始
+sys_ewbattlewar_0306=距能量井公会战开始还有10分钟，请做好准备
+sys_ewbattlewar_0307=距能量井公会战开始还有5分钟，请做好准备
+sys_ewbattlewar_0308=能量井公会战已经开始
+sys_ewbattlewar_0309={@0:能量井}能量井争夺战已经结束，胜利方为{@1:公会1}
+sys_ewbattlewar_0310={@0:门}被摧毁
+sys_ewbattlewar_0311={@0:能量柱}已被摧毁，{@1:公会}暂时获得{@2:能量柱}占有权，新能量柱将重新生成
+
+//提示信息（新能量井战场）
+sys_ewbattlewar_0101=请您先选择要宣战的能量井
+sys_ewbattlewar_0102=您只能向本阵营的能量井宣战
+sys_ewbattlewar_0103=您不能向本公会的能量井宣战
+sys_ewbattlewar_0104=您只能向一个能量井宣战
+sys_ewbattlewar_0105=对不起，您的宣战竞标价低于当前竞标价
+sys_ewbattlewar_0106=您的宣战竞标价低于当前竞标价，请重新竞标
+sys_ewbattlewar_0107=对不起，您没有足够的金额
+sys_ewbattlewar_0108=对不起，该能量井已有更高的竞标价，请刷新后竞标
+sys_ewbattlewar_0109=竞标时间已结束
+sys_ewbattlewar_0110=恭喜您，竞标成功
+sys_ewbattlewar_0111=您所竞标的{@0：能量井}失败，系统已将黑金返还到您的背包中，请注意查收
+sys_ewbattlewar_0112=请您先选择载具要前往的能量井
+sys_ewbattlewar_0113=您所在的公会未参与此次战斗，请确认无误后再试
+sys_ewbattlewar_0114=您调配的载具数量过多，请减少后再试
+sys_ewbattlewar_0115=您没有足够的金额
+sys_ewbattlewar_0116=载具调配时间已结束
+sys_ewbattlewar_0117=请您先选择要参加的能量井战场
+sys_ewbattlewar_0118=您未加入公会或您所在的公会未参与此次战斗，请确认无误后再试
+sys_ewbattlewar_0119=恭喜您，报名成功
+sys_ewbattlewar_0120=您的等级不能进入该战场
+sys_ewbattlewar_0121=您的通缉值超过100，不能进入该战场
+sys_ewbattlewar_0122=报名人数已达上限
+sys_ewbattlewar_0123=该战场已结束
+sys_ewbattlewar_0124={@0:门}已被袭击，请支援
+sys_ewbattlewar_0125={@0:门}已承受大量伤害，请尽快守护
+sys_ewbattlewar_0126={@0:门}血量不足一半，加速进攻
+sys_ewbattlewar_0127={@0:门}即将被摧毁，请火速支援
+sys_ewbattlewar_0128={@0:门}即将被摧毁，请加大火力进攻
+sys_ewbattlewar_0129={@0:门}已被袭击，请支援
+sys_ewbattlewar_0130={@0:门}已承受大量伤害，请尽快守护
+sys_ewbattlewar_0131={@0:门}血量不足一半，加速进攻
+sys_ewbattlewar_0132={@0:门}即将被摧毁，请火速支援
+sys_ewbattlewar_0133={@0:门}即将被摧毁，请加大火力进攻
+sys_ewbattlewar_0310={@0:门}被摧毁
+sys_ewbattlewar_0134={@0:能量柱}已经遭受攻击，请支援
+sys_ewbattlewar_0135={@0:能量柱}已经承受大量伤害，请尽快守护
+sys_ewbattlewar_0136={@0:能量柱}血量不足一半，请加大火力进攻
+sys_ewbattlewar_0137={@0:能量柱}即将被摧毁，请火速支援
+sys_ewbattlewar_0138={@0:能量柱}即将被摧毁，胜利就在前方
+sys_ewbattlewar_0139={@0:能量柱}已经遭受攻击，请支援
+sys_ewbattlewar_0140={@0:能量柱}已经承受大量伤害，请尽快守护
+sys_ewbattlewar_0141={@0:能量柱}血量不足一半，请加大火力进攻
+sys_ewbattlewar_0142={@0:能量柱}即将被摧毁，请火速支援
+sys_ewbattlewar_0143={@0:能量柱}即将被摧毁，胜利就在前方
+sys_ewbattlewar_0144={@0:能量柱}血量剩余一半
+sys_ewbattlewar_0145={@0:能量柱}即将被摧毁
+sys_ewbattlewar_0146=购买成功，载具已调入能量井战场
+sys_ewbattlewar_0147=对不起，您没有足够的金额
+sys_ewbattlewar_0148=对不起，进攻方人数已达上限
+sys_ewbattlewar_0149=对不起，防守方人数已达上限
+sys_ewbattlewar_0150=对不起，载具购买失败
+sys_ewbattlewar_0151=已占领能量井，无法购买载具
+sys_ewbattlewar_0152=能量井公会战进入准备阶段，非参战公会和无公会玩家可以进行报名
+
+//冒险		
+sys_pvptask_0000=成功接受[{@0:任务名}]
+sys_pvptask_0001=操作失败
+sys_pvptask_0002=你已处于冒险中，无法重复参加
+sys_pvptask_0004=次数已满
+sys_pvptask_0005=阵营不符合
+sys_pvptask_0006=种族不符合
+sys_pvptask_0007=等级不符合
+sys_pvptask_0008=金钱不足
+sys_pvptask_0009=任务未完成无法提交
+sys_pvptask_0010=任务失败无法提交
+sys_pvptask_0011=任务奖励已领取无法提交
+sys_pvptask_0012=背包空间不足
+sys_pvptask_0015=传送道具不足，传送失败
+sys_pvptask_0016=你已放弃[{@0:任务名}]
+sys_pvptask_0018=完成[{@0:任务名}]任务		
+sys_pvptask_0019=[{@0:任务名}]任务超时		
+sys_pvptask_0020=<font color='#ffff00'>成功获得物品</font>		
+sys_pvptask_0021=你已被识破，身份暴露，状态解除后才能再次伪装
+sys_pvptask_0022=进入伪装状态	
+sys_pvptask_0023=目标没有你需要的东西		
+sys_pvptask_0024=处于伪装状态时，无法使用自身技能		
+sys_pvptask_0025=你已死亡，冒险失败	
+sys_pvptask_0026=任务完成
+sys_pvptask_0027=你好友[{@0:player}]的影子正在被攻击		
+sys_pvptask_0028=影子在[{@0:scene}]场景({@1:x},{@2:z})出现	
+sys_pvptask_0029=暂无生成影子的合适对象
+sys_pvptask_0034=冒险期间无法进入副本
+sys_pvptask_0035=冒险期间无法进入竞技场
+sys_pvptask_0036=冒险期间无法进入战场
+sys_pvptask_0037=特殊场景无法参加冒险
+sys_pvptask_0038=竞技场排队中无法参加冒险
+sys_pvptask_0039=战场排队中无法参加冒险
+sys_pvptask_0040=影子被击杀，任务失败
+sys_pvptask_0041=只有普通场景才能参加冒险		
+sys_pvptask_0042=竞技场排队中无法参加冒险
+sys_pvptask_0043=战场排队中无法接取参加冒险
+sys_pvptask_0044=当前状态无法进行参加冒险		
+sys_pvptask_0045=只能对联络员使用
+sys_pvptask_0046=你已死亡，无法接取
+sys_pvptask_0047=你已死亡，无法传送
+sys_pvptask_0048=你已收集了足够的物品
+sys_pvptask_0049=请先在冒险面板中接取[{@0:任务名}]
+sys_pvptask_0050=任务冷却中
+sys_pvptask_0051=你已处于伪装状态中，无需再次伪装
+sys_pvptask_0052=战斗中无法进行伪装
+sys_pvptask_0053=暂无防御载具可供使用
+sys_pvptask_0054=冒险未开启不能使用
+sys_pvptask_0055=没有进行伪装，无法使用行动技能
+sys_pvptask_0056=只能对可疑的人使用
+sys_pvptask_0063=你的影子已被盯上了，请暂时不要进行其他冒险
+sys_pvptask_0064=非和平状态，不能快速传送
+sys_pvptask_0065=战斗状态，不能放弃任务
+sys_pvptask_0066=伪装已被识破，短时间内无法再次伪装
+sys_pvptask_0067=当前任务已失败，请重新接取[{@0:任务名}]任务
+sys_pvptask_0101=<font color='#ffff00'>护送成功</font>		
+sys_pvptask_0102=玩家死亡，护送失败		
+sys_pvptask_0103=你距离护送物资太远，护送即将失败！
+sys_pvptask_0104=你距离护送物资太远，护送失败！
+sys_pvptask_0105=<font color='#ffff00'>开始护送物资</font>		
+sys_pvptask_0106=你所护送的物资正遭受攻击！
+sys_pvptask_0107=玩家等级达到20级时，将开启冒险。
+sys_pvptask_0109=空袭冒险尚未开启，无法接取任务
+sys_pvptask_0110=收集
+sys_pvptask_0111=当前场景无法使用快速传送功能
+sys_pvptask_0112=5分钟之内无法再次参加冒险
+sys_pvptask_0113=没有好友可以求助
+sys_pvptask_0114=没有好友可以呼救
+sys_pvptask_0115=<font color='#ffff00'>已向好友发送求助信息</font>
+sys_pvptask_0116=<font color='#ffff00'>已向好友发送呼救信息</font>
+sys_pvptask_0117=影子消失，威胁解除
+sys_pvptask_0118=功能暂未开放，敬请期待
+sys_pvptask_0119=当前状态，无法放弃冒险
+sys_pvptask_0120=当前状态，无法快速传送
+sys_pvptask_0121=监狱中无法打开冒险界面
+sys_pvptask_0122=通缉中或者罪犯状态不能参加冒险
+sys_pvptask_0123=在传送状态下，无法排队战场
+sys_pvptask_0124=在传送状态下，无法参加竞技场
+sys_pvptask_0125=在传送状态下，无法使用界碑
+sys_pvptask_0126=在传送状态下，无法使用交通工具
+sys_pvptask_0127=在传送状态下，无法使用快速传送
+sys_pvptask_0128=传送中，无法返回角色选择
+sys_pvptask_0129=传送中，无法退出游戏
+sys_pvptask_0130=你已离开任务限制区域，伪装状态已解除
+sys_pvptask_0131=当前状态无法前往帮助好友
+sys_pvptask_0132=当前状态无法使用界碑
+sys_pvptask_0133=传送中，无法参加冒险
+sys_pvptask_0134=当前状态，无法参加冒险
+sys_pvptask_0135=当前状态，无法求助
+
+
+sys_pvptask_0136=您帮助好友成功
+sys_pvptask_0137=您帮助好友失败
+sys_pvptask_0138=您帮助好友成功
+sys_pvptask_0139=您帮助好友失败
+sys_pvptask_0140=请在影子所在区域请求好友帮助
+sys_pvptask_0141=战场中无法参加冒险
+sys_pvptask_0142=你已经在冒险中，不能再保护影子
+sys_pvptask_0143=你正在帮助好友保护替身，不能参加冒险
+sys_pvptask_0144=你正在帮助好友刺杀替身，不能参加冒险
+sys_pvptask_0145=您的好友已得到足够的帮助
+
+sys_pvptask_0150=必须是队长才能开启试炼场冒险
+sys_pvptask_0151=必须组队才能进入试炼场冒险
+sys_pvptask_0152={@0:leader}的小队完成了第{@1:section}阶段
+sys_pvptask_0153=试炼场冒险进入时间已经过，不能进入
+sys_pvptask_0154=需要先开启试练场
+sys_pvptask_0155=还有小队成员未参加冒险
+
+sys_pvptask_0160=赛马活动报名时间已经过，不能进入
+sys_pvptask_0161=赛马活动未开启
+sys_pvptask_0162=不是你需要经过的赛道，请按顺序赛道比赛
+sys_pvptask_0163=成功到达赛道路点，请前往下一个路点
+sys_pvptask_0164=刺探状态下不能使用生活职业
+
+sys_pvptask_0170=<font color='#ffff00'>成功复活，但变得虚弱了</font>
+sys_pvptask_0171=<font color='#ffff00'>你已达到{@0:level}级，即将从试炼场的第{@1:section}波开始介入战斗</font>
+
+sys_pvptask_0175=载具塔防报名成功
+sys_pvptask_0176=载具塔防报名失败
+sys_pvptask_0177=你已申请投降，请等待对方确认
+sys_pvptask_0178=投降失败，对方拒绝你的请求
+sys_pvptask_0179=报名人数已满
+sys_pvptask_0180=该赛道报名人数已满，请选择其他赛道
+ 
+//每日引导		
+sys_leadplayer_0001=<font color='#ffff00'>活跃度奖励被激活，请点击领取</font>		
+sys_leadplayer_0002=今日活跃度已达上限		
+sys_leadplayer_0003=奖励已经领取
+sys_leadplayer_0004=推荐数量不足，无法刷新	
+sys_leadplayer_0005=死亡状态，无法领取奖励          
+sys_leadplayer_0006=需要{@0:value}活跃度
+sys_leadplayer_0007=金钱不足，无法刷新
+sys_leadplayer_0008=扣除：{@money}
+	
+
+
+//互斥活动
+sys_campaigntips_0001={@0},{@1}
+
+sys_campaigntips_0101=在战场排队中
+sys_campaigntips_0102=在战场中
+sys_campaigntips_0103=在竞技场排队中
+sys_campaigntips_0104=在竞技场中
+sys_campaigntips_0105=在副本中
+sys_campaigntips_0106=通缉中 
+sys_campaigntips_0107=监狱中 
+sys_campaigntips_0108=冒险中
+sys_campaigntips_0109=能量井战场中
+
+
+sys_campaigntips_0201=无法排队战场
+sys_campaigntips_0202=无法进入战场
+sys_campaigntips_0203=无法再排队竞技场
+sys_campaigntips_0204=无法进入竞技场
+sys_campaigntips_0205=无法进入副本
+sys_campaigntips_0208=无法参加冒险
+sys_campaigntips_0209=无法参加能量井战场
+
+sys_campaigntips_0301=尚有队员在战场排队中
+sys_campaigntips_0302=尚有队员在战场中
+sys_campaigntips_0303=尚有队员在竞技场排队中
+sys_campaigntips_0304=尚有队员在竞技场中
+sys_campaigntips_0305=尚有队员在副本中
+sys_campaigntips_0306=尚有队员在通缉中 
+sys_campaigntips_0307=尚有队员在监狱中
+sys_campaigntips_0308=尚有队员在冒险中
+
+
+
+//放逐之地系统
+sys_exile_0001=封停时间还未结束
+sys_exile_0002=关押时间还未结束
+sys_exile_0003=你无法使用贿赂
+sys_exile_0004=你没有足够的点券
+sys_exile_0010=你的功能已被限制
+
+
+
+//系统功能开放提示
+sys_openprompt_0001=你已达到{@0:等级}级，{@1:系统名称}系统已开放
+
+//VIP
+sys_vip_0001=你成功开通30天VIP服务，VIP持续至{@0:到期时间}
+sys_vip_0002=你成功续费30天VIP服务，VIP持续至{@0:到期时间}
+sys_vip_003=你已开通VIP服务，请点击VIP按钮查询特权
+sys_vip_004=你已获得VIP道具，请注意使用
+sys_vip_0003=你的VIP服务已到期，请及时开通
+sys_vip_0004=你的VIP服务剩余时间已不足3天，请及时续费
+sys_vip_0005=礼包领取成功，请打开背包查看
+
+
+//奖励衰减
+sys_battle_0001=今天参加战场超过{@0:次数}次，战场奖励发放减少
+sys_eventment_0002=今天参加事件超过{@0:次数}次，事件奖励发放减少
+sys_eventment_0003=等级过低，事件奖励发放减少
+sys_battle_0002=今天参加竞技场超过{@0:次数}次，竞技场奖励发放减少
+
+//副本门召唤
+sys_clone_summon_0001=你没有召唤权限
+sys_clone_summon_0002=当前区域禁止召唤		
+sys_clone_summon_0003=[{@0:name}]副本需要[{@1:levelMin}]级至[{@2:levelMax}]级，你的等级不符合，无法发起召唤		
+sys_clone_summon_0004=[{@0:name}]副本需要[{@1:levelMin}]级以上的玩家进入，你的等级不足，无法发起召唤
+sys_clone_summon_0006=当前区域无法被召唤
+sys_clone_summon_0007=当前状态无法被召唤
+sys_clone_summon_0008=[{@0:name}]副本需要[{@1:levelMin}]级至[{@2:levelMax}]级，[{@3:name}]的等级不符合，无法被召唤		
+sys_clone_summon_0009=[{@0:name}]副本需要[{@1:levelMin}]级以上的玩家进入，[{@2:name}]的等级不足，无法被召唤
+sys_clone_summon_00010=你周围没有可以召唤的副本门
+sys_clone_summon_00011=[{@0:name}]所在区域无法进行召唤
+sys_clone_summon_00012=[{@0:name}]所处状态无法进行召唤
+sys_clone_summon_00013=召唤操作过于频繁，请稍后再试 
+sys_clone_summon_00014=玩家[{@0:name}]已经离线，无法召唤 
+sys_clone_summon_00015=玩家[{@0:name}]拒绝了你的召唤请求 
+sys_clone_summon_00016=玩家[{@0:name}]未理睬你的召唤请求 
+sys_clone_summon_00017=战斗状态，无法被召唤
+sys_clone_summon_00018=玩家[{@0:name}]处于战斗状态，不能被召唤
+sys_clone_summon_00019=死亡状态无法被召唤
+sys_clone_summon_00020=玩家[{@0:name}]处于死亡状态，不能被召唤
+sys_clone_summon_00021=乘骑状态无法被召唤
+sys_clone_summon_00022=玩家[{@0:name}]处于乘骑状态，不能被召唤
+sys_clone_summon_00023=骑乘状态无法被召唤，请先下坐骑
+sys_clone_summon_00024=死亡状态无法被召唤，请先复活
+sys_clone_summon_00026=敌对阵营，无法召唤
+sys_clone_summon_00025=战斗状态无法被召唤，脱离战斗后方可被召唤
+sys_clone_summon_00027=玩家[{@0:name}]所在场景不能被召唤
+sys_clone_summon_00028=你已离开召唤范围，操作失败
+sys_clone_summon_00029=玩家[{@0:name}]正在进行冒险活动，无法被召唤
+
+//自动寻路
+sys_xunlu_0001=该目标点无法自动通行，请按键盘“M”打开地图确认目标
+sys_xunlu_0002=该目标点无法自动通行，请按键盘“M”打开地图确认目标
+sys_xunlu_0003=该目标点无法自动通行，请按键盘“M”打开地图确认目标
+sys_xunlu_0004=该目标点无法自动通行，请按键盘“M”打开地图确认目标
+sys_xunlu_0005=该目标点无法自动通行，请按键盘“M”打开地图确认目标
+sys_xunlu_0006=该目标点无法自动通行，请按键盘“M”打开地图确认目标
+sys_xunlu_0007=该目标点无法自动通行，请按键盘“M”打开地图确认目标
+
+//运营后台处理提示
+sys_yunyinghoutai_0001=目前该功能暂不可使用，官方正在紧急处理中，给您造成的不便，敬请见谅
+sys_yunyinghoutai_0002=禁言中，剩余时间{@0:time}分钟
+sys_yunyinghoutai_0003=领取奖励通知
+sys_yunyinghoutai_0004=请返回到人物选择界面，选择您希望领奖的角色进入游戏。到领奖NPC处领取奖励（蒸汽阵营请到鲁尔勒（87，-58），十锤城（-1069,1830）；奇幻阵营请到朝日圣地（3550,666），黎明港（-5993,5195）。）该奖励每个账号只能领取一次。
+sys_yunyinghoutai_0005=运营奖励
+sys_yunyinghoutai_0006=感谢您的支持。
+sys_yunyinghoutai_0007=领取奖励
+
+//系统设置
+sys_config_HidePlayer_1 = 已开启周围玩家屏蔽模式
+sys_config_HidePlayer_0 = 已关闭周围玩家屏蔽模式
+
+//安全模式
+sys_safemode_0001=你的财产受到保护，该行为被禁止！
+sys_safemode_0002=您已成功修改安全时间
+sys_safemode_0003=已修改安全时间，当前安全时间到期后方生效
+sys_safemode_0004=您已成功修改财产安全密码
+sys_safemode_0005=两次输入的密码不一致
+sys_safemode_0006=密码不能为空
+sys_safemode_0007=密码输入不正确
+sys_safemode_0008=修改财产安全密码失败 	
+sys_safemode_0009=密码长度必须在6-12位之间，密码设置失败！
+sys_safemode_0010=临时解锁成功，你在本次登录时所有的财产保护不生效
+sys_safemode_0011=上次离线的时间：{@0:year}年{@1:month}月{@2:day}日 {@3:hour1}{@4:hour2}:{@5:min1}{@6:min2}
+sys_safemode_0012=上次登陆的IP地址：{@0:ip}
+sys_safemode_0013=你的行为受到安全时间保护，该行为被禁止！
+sys_safemode_0014=在安全时间保护期间，你无法接受别人的交易请求！
+sys_safemode_0015=修改财产保护成功！
+
+//交通工具
+sys_traffic_0001=当前状态，无法使用交通工具
+sys_traffic_0002=当前状态，无法完成此操作
+sys_traffic_0003=赛马冒险中，无法使用交通工具
+
+//黑金消费
+sys_charge_0001=存档成功
+sys_charge_0002=购买成功
+sys_charge_0003=删除成功
+sys_charge_0004=存档过于频繁，稍后再试
+
+//场景
+sys_scene_0001=目标场景人数已满，无法传送
+
+
+//黑金集市
+sys_webe_001=该道具不可进行平台寄售交易
+sys_webe_002=该道具已绑定,不可交易
+sys_webe_003=该道具在锁定中,不可交易
+sys_webe_004=该道具在锁定中,不可交易
+sys_webe_005=该道具是时限类道具,不可交易
+sys_webe_006=物品数据量过大，目前无法寄售！
+sys_webe_007=寄售将花费<img src="gui\common\money\yb.png"  valign="center" />{@0:str}，是否确定？
+sys_webe_008=寄售成功后请在官方网页平台设置寄售价格
+sys_webe_009=本次寄售手续费：{@0:num}
+sys_webe_101=连接寄卖服务器失败
+sys_webe_102=异步处理中
+sys_webe_103=找不到交易容器
+sys_webe_104=你的黑金不够交手续费,操作失败
+sys_webe_105=[{@0:item}]异常,不可出售
+sys_webe_106=删除[{@0:item}]失败
+sys_webe_107=没有任何可交易的物品
+sys_webe_108=锁定物品失败
+sys_webe_109=发送消息失败
+sys_webe_110=资金不能使用
+sys_webe_201=连接超时
+sys_webe_202=锁定失败
+sys_webe_301=你已成功寄卖[{@0:num}]黑金, 请到官网上设定价格.
+sys_webe_302=你已成功寄卖[{@0:config}] X {@1:num}, 请到官网上设定价格.
+sys_webe_303=寄卖[{@0:$}]失败, 黑金已通过邮件退还中, 请注意查收
+sys_webe_304=寄卖失败, [{@0:config}] X {@1:num}通过邮件退还中, 请注意查收
+sys_webe_401=从现金交易平台购买银子成功, 已给你寄到邮件中[{@0:$}], 请注意查收
+sys_webe_402=交易成功, [{@0:config}] X {@1:num}已通过邮件寄给您, 请注意查收
+sys_webe_403=你已成功寄卖[{@0:$}], 请到官网上设定价格.
+sys_webe_404=你已成功寄卖[{@0:config}] X {@1:num}, 请到官网上设定价格.
+sys_webe_501=从现金交易平台下架成功, 已给你寄到邮件中[{@0:$}], 请注意查收
+sys_webe_502=下架成功, [{@0:config}] X {@1:num}已通过邮件寄还中, 请注意查收
+
+
+//网吧特权
+sys_netbar_no_bag=包裹满
+sys_netbar_get_wnNoRight = 当前您所处环境不是蜗牛特权网吧，无法领取奖励
+sys_netbar_get_wnGot = 当天您已经领取了蜗牛特权网吧奖励，不可重复领取
+sys_netbar_get_wnGetting = 您已成功领取了蜗牛网吧特权奖励
+sys_netbar_get_sdNoRight = 当前您所处环境不是盛大特权网吧，无法领取奖励
+sys_netbar_get_sdGot=当天您已经领取了盛大特权网吧奖励，不可重复领取
+sys_netbar_get_sdGetting = 您已成功领取了盛大网吧特权奖励
+
+//战斗统计
+sys_recount_0001=数据总量:{@0:}
+sys_recount_0002=每秒统计:{@0:}
+sys_recount_0003=团队比例:{@0:}%
+sys_recount_0004=操作过于频繁请稍后再试
+sys_recount_0005=【伤害输出】{@0:名次}.
+sys_recount_0006=【伤害承受】{@0:名次}.
+sys_recount_0007=【治疗】{@0:名次}.
+sys_recount_0008=【死亡】{@0:名次}.
+sys_recount_0009=({@0:职业}—{@1:名字})
+
+//容器操作
+sys_moveitem_0001=拖拽未允许
+sys_moveitemlock_0001=弱关联未允许
+
+//阵营战
+pvp_ewbattlewar_0001=能量井阵营争夺战开启
+pvp_ewbattlewar_0002={@0:能量井}向{@1:能量井}宣战
+pvp_ewbattlewar_0003=距{@0:能量井}阵营争夺战开启还有5分钟
+pvp_ewbattlewar_0004={@0:能量井}阵营争夺战开始
+pvp_ewbattlewar_0005={@0:能量井}阵营争夺战已结束
+pvp_ewbattlewar_0006={@0:玩家名字}给予{@1:npc}致命一击，{@2:阵营}方获得胜利
+pvp_ewbattlewar_0007={@0:阵营}方防守胜利
+pvp_ewbattlewar_0008={@0:npc}已经遭受攻击，请支援
+pvp_ewbattlewar_0009={@0:npc}已经承受大量伤害，请尽快守护
+pvp_ewbattlewar_0010={@0:npc}血量不足一半，请加大火力进攻
+pvp_ewbattlewar_0011={@0:npc}即将死亡，请火速支援
+pvp_ewbattlewar_0012={@0:npc}即将被杀死，胜利就在前方
+pvp_ewbattlewar_0013=攻方
+pvp_ewbattlewar_0014=守方
+pvp_ewbattlewar_0015=阵营争夺战
+pvp_ewbattlewar_0016=排名信息
+pvp_ewbattlewar_0017=您的阵营:
+pvp_ewbattlewar_0018=剩余时间:
+pvp_ewbattlewar_0019=任务完成数量
+pvp_ewbattlewar_0020=击杀了玩家：{@:0}
+pvp_ewbattlewar_0021=被玩家：{@:0}击杀
+pvp_ewbattlewar_0022=摧毁一辆载具
+pvp_ewbattlewar_0023=载具被摧毁
+pvp_ewbattlewar_0024=蒸汽方的伤害量已经超过奇幻方5%
+pvp_ewbattlewar_0025=奇幻方的伤害量已经超过蒸汽方5%
+pvp_ewbattlewar_0026=小时
+
+
+//载具权限
+sys_energywell_0600=[{@0:玩家}]修改了{@1:载具}{@2:载具}{@3:载具}{@4:载具}的使用权限
+sys_energywell_0601=小型战争机械
+sys_energywell_0602=中型战争机械
+sys_energywell_0603=大型战争机械
+sys_energywell_0604=复式战争机械
+sys_energywell_0605=你不是会长不能设置{@0:}的使用权限
+sys_energywell_0606={@0:}使用权限还原成功
+sys_energywell_0607=你没有权限使用该{@0:}
+sys_energywell_0608=你没有权限{@0:}该{@1:}
+sys_energywell_0609={@0:}没有{@1:}，无法{@2:}
+sys_energywell_0610=没有符合停车位类型的{@0:}
+sys_energywell_0611={@0:}所有{@1:}扣除{@2:}骑士点数
+sys_energywell_0612=没有{@0:}需要{@1:}
+sys_energywell_0615=战争机械
+sys_energywell_0616=战斗骑兽
+sys_energywell_0617=上锁
+sys_energywell_0618=烙印
+sys_energywell_0619=维修
+sys_energywell_0620=治疗
+sys_energywell_0621=维修完毕
+sys_energywell_0622=你向{@0:能量井}捐献了{@1:}黑金
+sys_energywell_0623=你领取了{@0:能量井}{@1:}黑金福利
+sys_energywell_0624=目前不能领取福利
+
+//个人载具
+sys_personalcarrier_0001=未找到载具制造配置
+sys_personalcarrier_0002=未找到材料消耗配置
+sys_personalcarrier_0003=材料不足
+sys_personalcarrier_0004=载具制造限制条件不满足
+sys_personalcarrier_0005=载具序列号已存在
+sys_personalcarrier_0006=黑金不足
+sys_personalcarrier_0007=军阶不足
+sys_personalcarrier_0008=操作太频繁
+sys_personalcarrier_0009=已有载具在出发了
+sys_personalcarrier_0010=只能同时驾驶一辆个人载具，无法继续出发
+sys_personalcarrier_0011=没有此载具
+sys_personalcarrier_0012=车库已经满了
+sys_personalcarrier_0013=处于战斗中无法停靠载具
+sys_personalcarrier_0014=载具停靠成功
+sys_personalcarrier_0015=你的个人载具已经成功取出
+ui_energy_base_xhqs=驯化骑兽
+ui_energy_base_zlgh=占领公会:{@0:}
+
+//有偿捐献界面
+sys_donate_0001=材料捐献
+sys_donate_0002=占领公会
+sys_donate_0003=求购数量
+sys_donate_0004=求购单价
+sys_donate_0005=捐献数量
+sys_donate_0006=确认操作
+sys_donate_0007=材料收购管理
+sys_donate_0008=刷新
+sys_donate_0009=贡献度:
+ui_energy_donate_limit=本日捐献已经达到上限，继续捐献将不再获得贡献度。是否继续？
+ui_energy_base_zygl=资源管理
+
+//材料收购管理界面
+sys_main_0001=材料收购管理
+sys_main_0002=收购材料
+sys_main_0003=查看收购
+sys_main_0004=材料
+sys_main_0005=收购单价
+sys_main_0006=收购数量
+sys_main_0007=所需金额
+sys_main_0008=确认操作
+sys_main_0009=收购
+sys_main_0010=取消收购
+sys_main_0011=携带黑金:

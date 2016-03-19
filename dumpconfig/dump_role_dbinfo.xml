@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2010 (http://www.altova.com) by hahah (memem) -->
+<table name="nx_role_dumpinfo" primary="role_name" index="role_uid">
+	<property desc="玩家名" col="role_name" dbtype="nvarchar" type="prop" prop="Name" child="" createsql="role_name varchar(32) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL"/>
+	<property desc="UID" col="role_uid" dbtype="varchar" type="prop" prop="Uid" child="" createsql="role_uid varchar(32) CHARACTER SET utf8 COLLATE utf8_bin NULL"/>
+	<property desc="帐号" col="role_account" dbtype="varchar" type="prop" prop="Account" child="" createsql="role_account varchar(32) CHARACTER SET utf8 COLLATE utf8_bin NULL"/>
+	<property desc="创建时间" col="create_time" dbtype="datetime" type="prop" prop="CreateTime" child="" createsql="create_time datetime NULL"/>
+	<property desc="删除时间" col="delete_time" dbtype="datetime" type="default" prop="1" child="" createsql="delete_time datetime NULL"/>
+	<property desc="是否删除" col="deleted" dbtype="int" type="default" prop="0" child="" createsql="deleted int NULL"/>
+	<property desc="总在线时长" col="total_sec" dbtype="int" type="prop" prop="TotalSec" child="" createsql="total_sec int NULL"/>
+	<property desc="性别" col="sex" dbtype="int" type="prop" prop="Sex" child="" createsql="sex int NULL"/>
+	<property desc="阵营" col="camp" dbtype="int" type="prop" prop="Camp" child="" createsql="camp int NULL"/>
+	<property desc="种族" col="race" dbtype="int" type="prop" prop="Race" child="" createsql="race int NULL"/>
+	<property desc="职业" col="job" dbtype="int" type="prop" prop="Job" child="" createsql="job int NULL"/>
+	<property desc="等级" col="level" dbtype="int" type="prop" prop="Level" child="" createsql="level int NULL"/>
+	<property desc="实力" col="fight_power" dbtype="int" type="prop" prop="FightPower" child="" createsql="fight_power int NULL"/>
+	<property desc="公会" col="guild" dbtype="nvarchar" type="prop" prop="GuildName" child="" createsql="guild varchar(32) CHARACTER SET utf8 COLLATE utf8_bin NULL"/>
+	<property desc="货币表" col="money_rec" dbtype="varchar" type="record" prop="capital_rec" createsql="money_rec varchar(4096) CHARACTER SET utf8 COLLATE utf8_bin NULL"/>
+</table>

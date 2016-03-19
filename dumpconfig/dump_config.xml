@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2010 (http://www.altova.com) by hahah (memem) -->
+<config>
+	<diction path="dumpconfig\diction\"/>
+	<!-- 一些静态的sql配置  path 对应于Res的目录 table 为数据库中的表格名称 -->
+	<static>
+		<sql path="dumpconfig\game_enum.sql"/>
+		<sql path="dumpconfig\ratio_action.sql"/>
+		<sql path="dumpconfig\dump_res.sql"/>
+		<!--sql path="dumpconfig\static_pack.sql"/-->
+	</static>
+	<logdefine path="ini\logdefine.xml"/>
+	<!--
+		path:要转储的文件名 或 目录
+		bfile:是文件 还是 目录
+		type:类型
+		type definition:
+			1  道具
+			5  普通任务
+			7  场景
+			8  技能
+			14 NPC
+			15 配置包
+			17 普通怪掉落
+	-->
+	<move>
+		<!--道具-->
+		<file bfile="1" type="1" table="nx_res_dumpinfo" path="ini/Item/Equipment.xml"/>
+		<file bfile="1" type="1" table="nx_res_dumpinfo" path="ini/Item/ItemUse.xml"/>
+		<file bfile="1" type="1" table="nx_res_dumpinfo" path="ini/Item/ItemPetUse.xml"/>
+		<file bfile="1" type="1" table="nx_res_dumpinfo" path="ini/Item/ItemMountUse.xml"/>
+		<file bfile="1" type="1" table="nx_res_dumpinfo" path="ini/Item/Material.xml"/>
+		<file bfile="1" type="1" table="nx_res_dumpinfo" path="ini/Item/Weapon.xml"/>
+        <file bfile="1" type="1" table="nx_res_dumpinfo" path="ini/Item/Rune.xml"/>
+        <file bfile="1" type="1" table="nx_res_dumpinfo" path="ini/Item/TaskItemUse.xml"/>
+        <file bfile="1" type="1" table="nx_res_dumpinfo" path="ini/Item/TaskMaterial.xml"/>
+		<!--!任务-->
+		<file bfile="1" type="5" table="nx_res_dumpinfo" path="ini/Quest/Quest.xml"/>
+		<!--!场景-->
+		<file bfile="1" type="7" table="nx_res_dumpinfo" path="scenes.ini"/>
+		<!--技能-->
+		<file bfile="1" type="8" table="nx_res_dumpinfo" path="ini/Skill/ZQPlayerSkill/Skill_Main_ZQPlayer.xml"/>
+		<file bfile="1" type="8" table="nx_res_dumpinfo" path="ini/Skill/TestSkill/Skill_Main_Test.xml"/>
+		<file bfile="1" type="8" table="nx_res_dumpinfo" path="ini/Skill/SpecialSkill/Skill_Main_Special.xml"/>
+		<file bfile="1" type="8" table="nx_res_dumpinfo" path="ini/Skill/QHPlayerSkill/Skill_Main_QHPlayer.xml"/>
+		<file bfile="1" type="8" table="nx_res_dumpinfo" path="ini/Skill/OtherSkill/Skill_Main_Other.xml"/>
+		<file bfile="1" type="8" table="nx_res_dumpinfo" path="ini/Skill/NpcSkill/Skill_Main_Npc.xml"/>
+		<file bfile="1" type="8" table="nx_res_dumpinfo" path="ini/Skill/FBNpcBSkill/Skill_Main_FBNpcB.xml"/>
+		<file bfile="1" type="8" table="nx_res_dumpinfo" path="ini/Skill/FBNpcASkill/Skill_Main_FBNpcA.xml"/>
+		<!-- PVP任务 -->
+		<file bfile="1" type="10" table="nx_res_dumpinfo" path="ini/PVPTask/PVPTask.xml"/>
+		<!--NPC!-->
+		<file bfile="1" type="14" table="nx_res_dumpinfo" path="ini/Npc/path_config.xml"/>
+		<!--!静态数据包!-->
+		<file bfile="1" type="15" table="nx_res_dumpinfo" path="ini/Rule/static_data.xml"/>
+		<!--!掉落包!-->
+		<file bfile="1" type="17" table="nx_res_dumpinfo" path="ini/Drop/World_Drop_Simple.xml"/>
+		<file bfile="1" type="17" table="nx_res_dumpinfo" path="ini/Drop/Spec_Drop_Simple.xml"/>
+		<!--复活点-->
+		<file bfile="1" type="19" table="nx_res_dumpinfo" path="location.xml"/>
+	</move>
+</config>

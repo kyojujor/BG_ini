@@ -1,0 +1,1739 @@
+﻿
+Feral_00001=练习的灵魂容器
+Breaker_00001=练习的魔法手
+Alche_00001=学徒法阵
+Mage_00001=练习的元素之灵
+Mask_00001A=秘术纹章：血红
+Mask_00002A=秘术纹章：黑暗
+Mask_00003A=秘术纹章：紫纹
+Glasses_00001A=猎火战狼
+Glasses_00002A=机器人玩偶
+Glasses_00003A=魔宠
+Badge_00001A=惩罚之链
+Badge_00002A=绕臂弹夹链
+Badge_00003A=小型机械护手
+ElfGold_00001A=元素之灵
+ElfGold_00002A=圣光之澜
+ElfGold_00003A=贤者之魂 
+SoulGold_00001A=灵魂本源：刚毅熊魂
+SoulGold_00002A=灵魂本源：蛮牛人之魂
+SoulGold_00003A=灵魂本源：野性狼魂
+MagicHandGold_00001A=魔法手：刀锋之灵
+MagicHandGold_00002A=魔法手：兽魂之光
+MagicHandGold_00003A=魔法手：魔法之触
+MagicAreaGold_00001A=背篓：之芒
+MagicAreaGold_00002A=背篓：治愈之触
+MagicAreaGold_00003A=背篓：变换之光
+desc_Glasses_00001A=<font color="#FFFF00">器械铸构我们坚实的未来</font>
+desc_Glasses_00002A=<font color="#FFFF00">未来需要我们用双手来构造</font>
+desc_Glasses_00003A=<font color="#FFFF00">当我们变成主流的时候就是你们的祭日</font>
+desc_Badge_00003A=<font color="#FFFF00">永恒的力量永远无法琢磨</font>
+desc_ElfGold_00001A=<font color="#FFFF00">圣殿法师领悟元素的奥秘，将各种元素的精华融合黑金的能量，凝聚成元素之灵 ，以提升自己的魔法能力</font>
+desc_ElfGold_00002A=<font color="#FFFF00">平衡法师具备强大的辅助和治疗能力，他们将各种治疗和精华方式进行融合提炼 ，炼聚成圣光之心，提升自己的治疗能力</font>
+desc_ElfGold_00003A=<font color="#FFFF00">流浪法师在长久的历练当中，收集众多被他击败的智者和法师的魂魄，凝练成为 贤者之魂，让流浪法师的能力更加强大</font>
+desc_SoulGold_00001A=<font color="#FFFF00">熊人的力量充斥我的灵魂</font>
+desc_SoulGold_00002A=<font color="#FFFF00">蛮牛人的坚实充斥我的灵魂</font>
+desc_SoulGold_00003A=<font color="#FFFF00">狼的野性充斥我的灵魂</font>
+desc_MagicHandGold_00001A=<font color="#FFFF00">恶魔之手终将扼住敌人的咽喉</font>
+desc_MagicHandGold_00002A=<font color="#FFFF00">自然女神永远守护着你</font>
+desc_MagicHandGold_00003A=<font color="#FFFF00">世界终将由我们来主宰</font>
+desc_MagicAreaGold_00001A=<font color="#FFFF00">如果我愿意，我可以支配世间一切</font>
+desc_MagicAreaGold_00002A=<font color="#FFFF00">生命的咏叹由我们的双手来传唱</font>
+desc_MagicAreaGold_00003A=<font color="#FFFF00">神圣的能量掌控于我手</font>
+desc_Inqui_00001=<font color="#FFFF00">坚定的力量深锁我心</font>
+desc_Tech_00001=<font color="#FFFF00">忠实的伙伴跟随着你</font>
+desc_Mystic_00001=<font color="#FFFF00">崇高的魔法充斥我们的心灵</font>
+desc_Mech_00001=<font color="#FFFF00">荣誉的见证是我征程的开始</font>
+desc_Feral_00001=<font color="#FFFF00">远行漂泊的灵魂，归来吧</font>
+desc_Breaker_00001=<font color="#FFFF00">魔法的力量掌控于我手</font>
+desc_Alche_00001=<font color="#FFFF00">魔能的力量灌注我心</font>
+desc_Mage_00001=<font color="#FFFF00">元素之灵伴随着你</font>
+desc_Mask_00001A=<font color="#FFFF00">唯有诅咒的力量才是永恒的真理</font>
+desc_Mask_00002A=<font color="#FFFF00">死神的咏叹终会降临</font>
+desc_Mask_00003A=<font color="#FFFF00">生命的礼赞即将来临</font>
+desc_Badge_00001A=<font color="#FFFF00">荣耀需要自己的双手来掌控</font>
+desc_Badge_00002A=<font color="#FFFF00">每一颗子弹都是给予对手的救赎</font>
+bx_qianghua=强化材料测试宝箱
+desc_bx_qianghua=<font color="#FFFF00">强化材料专用测试宝箱，里面包含了一些强化材料</font>
+ui_buyShop_qh_zc_01=<font color="#003366">奇幻测试装备</font>
+ui_buyShop_zq_zc_01=<font color="#003366">蒸汽测试装备</font>
+tips_itemtype_129=<font color="#ffffff">装甲武器</font>
+tips_itemtype_138=<font color="#ffffff">徽章</font>
+tips_itemtype_151=<font color="#ffffff">装甲改装件</font>
+tips_itemtype_152=<font color="#ffffff">头部改装件</font>
+tips_itemtype_153=<font color="#ffffff">胸部改装件</font>
+tips_itemtype_154=<font color="#ffffff">腰部改装件</font>
+tips_itemtype_155=<font color="#ffffff">腿部改装件</font>
+tips_itemtype_156=<font color="#ffffff">动力改装件</font>
+inq_cloth_0001=仲裁者衣服
+inq_pants_0001=仲裁者裤子
+inq_shoes_0001=仲裁者鞋子
+inq_badge_0001=仲裁者胸章
+inq_hand_0001=仲裁者手套
+inq_hat_0001=仲裁者帽子
+alc_cloth_0001=元素法师衣服
+alc_pants_0001=元素法师裤子
+alc_shoes_0001=元素法师鞋子
+alc_hand_0001=元素法师手套
+alc_hat_0001=元素法师帽子
+wit_cloth_0001=猎魔人衣服
+wit_pants_0001=猎魔人裤子
+wit_shoes_0001=猎魔人鞋子
+wit_hand_0001=猎魔人手套
+wit_hat_0001=猎魔人帽子
+mys_cloth_0001=秘法师衣服
+mys_pants_0001=秘法师裤子
+mys_shoes_0001=秘法师鞋子
+mys_hand_0001=秘法师手套
+mys_hat_0001=秘法师帽子
+tec_cloth_0001=蒸汽学徒衣服
+tec_pants_0001=蒸汽学徒裤子
+tec_shoes_0001=蒸汽学徒鞋子
+tec_hand_0001=蒸汽学徒手套
+tec_hat_0001=蒸汽学徒帽子
+sha_cloth_0001=野性守护者衣服
+sha_pants_0001=野性守护者裤子
+sha_shoes_0001=野性守护者鞋子
+sha_hand_0001=野性守护者手套
+sha_hat_0001=野性守护者帽子
+mage_cloth_0001=魔法师衣服
+mage_pants_0001=魔法师裤子
+mage_shoes_0001=魔法师鞋子
+mage_hand_0001=魔法师手套
+mage_hat_0001=魔法师帽子
+mec_cloth_0001=麦克骑士衣服
+mec_pants_0001=麦克骑士裤子
+mec_shoes_0001=麦克骑士鞋子
+mec_hand_0001=麦克骑士手套
+mec_hat_0001=麦克骑士帽子
+zq_fashion_cloth_0001=蒸汽法师时装衣服
+zq_fashion_hat_0001=蒸汽法师时装帽子
+zq_guid_cloth_0001=蒸汽工会装衣服
+mys_cloth_0002=秘法师衣服
+mys_pants_0002=秘法师裤子
+mys_shoes_0002=秘法师鞋子
+mys_hand_0002=秘法师手套
+mys_hat_0002=秘法师帽子
+inq_cloth_0002=仲裁者衣服
+inq_pants_0002=仲裁者裤子
+inq_shoes_0002=仲裁者鞋子
+inq_hand_0002=仲裁者手套
+inq_hat_0002=仲裁者新手装帽子
+mage_cloth_0002=元素法师袍子
+mage_pants_0002=元素法师裤子
+mage_shoes_0002=元素法师鞋子
+mage_hand_0002=元素法师手套
+mage_hat_0002=元素法师帽子
+wit_cloth_0002=猎魔人衣服
+wit_pants_0002=猎魔人裤子
+wit_shoes_0002=猎魔人鞋子
+wit_hand_0002=猎魔人手套
+wit_hat_0002=猎魔人帽子
+desc_inq_cloth_0001=<font color="#939301">仲裁者新手装必备衣服</font>
+desc_inq_pants_0001=<font color="#939301">仲裁者新手装必备裤子</font>
+desc_inq_shoes_0001=<font color="#939301">仲裁者新手装必备鞋子</font>
+desc_inq_badge_0001=<font color="#939301">仲裁者必备胸章</font>
+desc_inq_hand_0001=<font color="#939301">仲裁者新手装必备手套</font>
+desc_inq_hat_0001=<font color="#939301">仲裁者新手装必备帽子</font>
+desc_inq_cloth_0002=<font color="#939301">仲裁者新手装必备衣服</font>
+desc_inq_pants_0002=<font color="#939301">仲裁者新手装必备裤子</font>
+desc_inq_shoes_0002=<font color="#939301">仲裁者新手装必备鞋子</font>
+desc_inq_hand_0002=<font color="#939301">仲裁者新手装必备手套</font>
+desc_inq_hat_0002=<font color="#939301">仲裁者新手装必备帽子</font>
+desc_alc_cloth_0001=<font color="#939301">元素法师新手装必备衣服</font>
+desc_alc_pants_0001=<font color="#939301">元素法师新手装必备裤子</font>
+desc_alc_shoes_0001=<font color="#939301">元素法师新手装必备鞋子</font>
+desc_alc_hand_0001=<font color="#939301">元素法师新手装必备手套</font>
+desc_alc_hat_0001=<font color="#939301">元素法师新手装必备帽子</font>
+desc_wit_cloth_0001=<font color="#939301">猎魔人新手装必备衣服</font>
+desc_wit_pants_0001=<font color="#939301">猎魔人新手装必备裤子</font>
+desc_wit_shoes_0001=<font color="#939301">猎魔人新手装必备鞋子</font>
+desc_wit_hand_0001=<font color="#939301">猎魔人新手装必备手套</font>
+desc_wit_hat_0001=<font color="#939301">猎魔人新手装必备帽子</font>
+desc_wit_cloth_0002=<font color="#939301">猎魔人新手装必备衣服</font>
+desc_wit_pants_0002=<font color="#939301">猎魔人新手装必备裤子</font>
+desc_wit_shoes_0002=<font color="#939301">猎魔人新手装必备鞋子</font>
+desc_wit_hand_0002=<font color="#939301">猎魔人新手装必备手套</font>
+desc_wit_hat_0002=<font color="#939301">猎魔人新手装必备帽子</font>
+desc_mys_cloth_0001=<font color="#939301">秘法师新手装必备衣服</font>
+desc_mys_pants_0001=<font color="#939301">秘法师新手装必备裤子</font>
+desc_mys_shoes_0001=<font color="#939301">秘法师新手装必备鞋子</font>
+desc_mys_hand_0001=<font color="#939301">秘法师新手装必备手套</font>
+desc_mys_hat_0001=<font color="#939301">秘法师新手装必备帽子</font>
+desc_mys_cloth_0002=<font color="#939301">秘法师新手装必备衣服</font>
+desc_mys_pants_0002=<font color="#939301">秘法师新手装必备裤子</font>
+desc_mys_shoes_0002=<font color="#939301">秘法师新手装必备鞋子</font>
+desc_mys_hand_0002=<font color="#939301">秘法师新手装必备手套</font>
+desc_mys_hat_0002=<font color="#939301">秘法师新手装必备帽子</font>
+desc_tec_cloth_0001=<font color="#939301">蒸汽学徒新手装必备衣服</font>
+desc_tec_pants_0001=<font color="#939301">蒸汽学徒新手装必备裤子</font>
+desc_tec_shoes_0001=<font color="#939301">蒸汽学徒新手装必备鞋子</font>
+desc_tec_hand_0001=<font color="#939301">蒸汽学徒新手装必备手套</font>
+desc_tec_hat_0001=<font color="#939301">蒸汽学徒新手装必备帽子</font>
+desc_sha_cloth_0001=<font color="#939301">野性守护者新手装必备衣服</font>
+desc_sha_pants_0001=<font color="#939301">野性守护者新手装必备裤子</font>
+desc_sha_shoes_0001=<font color="#939301">野性守护者新手装必备鞋子</font>
+desc_sha_hand_0001=<font color="#939301">野性守护者新手装必备手套</font>
+desc_sha_hat_0001=<font color="#939301">野性守护者新手装必备帽子</font>
+desc_mage_cloth_0001=<font color="#939301">魔法师新手装必备衣服</font>
+desc_mage_pants_0001=<font color="#939301">魔法师新手装必备裤子</font>
+desc_mage_shoes_0001=<font color="#939301">魔法师新手装必备鞋子</font>
+desc_mage_hand_0001=<font color="#939301">魔法师新手装必备手套</font>
+desc_mage_hat_0001=<font color="#939301">魔法师新手装必备帽子</font>
+desc_mage_cloth_0002=<font color="#939301">元素法师新手装必备衣服</font>
+desc_mage_pants_0002=<font color="#939301">元素法师新手装必备裤子</font>
+desc_mage_shoes_0002=<font color="#939301">元素法师新手装必备鞋子</font>
+desc_mage_hand_0002=<font color="#939301">元素法师新手装必备手套</font>
+desc_mage_hat_0002=<font color="#939301">元素法师新手装必备帽子</font>
+desc_mec_cloth_0001=<font color="#939301">麦克骑士新手装必备衣服</font>
+desc_mec_pants_0001=<font color="#939301">麦克骑士新手装必备裤子</font>
+desc_mec_shoes_0001=<font color="#939301">麦克骑士新手装必备鞋子</font>
+desc_mec_hand_0001=<font color="#939301">麦克骑士新手装必备手套</font>
+desc_mec_hat_0001=<font color="#939301">麦克骑士新手装必备帽子</font>
+desc_zq_fashion_cloth_0001=<font color="#939301">蒸汽法师流行服饰</font>
+desc_zq_fashion_hat_0001=<font color="#939301">蒸汽法师时装流行帽子</font>
+desc_zq_guid_cloth_0001=<font color="#939301">蒸汽工会装流行衣服</font>
+qh1d_01=奇幻测试第一套上衣
+qh1d_02=奇幻测试第一套手套
+qh1d_03=奇幻测试第一套下装
+qh1d_04=奇幻测试第一套靴子
+qh1d_05=奇幻测试第一套帽子
+qh2c_01=奇幻测试第二套上衣
+qh2c_02=奇幻测试第二套手套
+qh2c_03=奇幻测试第二套下装
+qh2c_04=奇幻测试第二套靴子
+qh2c_05=奇幻测试第二套帽子
+qh2d_01=奇幻测试第三套上衣
+qh2d_02=奇幻测试第三套手套
+qh2d_03=奇幻测试第三套下装
+qh2d_04=奇幻测试第三套靴子
+qh2d_05=奇幻测试第三套帽子
+qh3a_01=奇幻测试第四套上衣
+qh3a_02=奇幻测试第四套手套
+qh3a_03=奇幻测试第四套下装
+qh3a_04=奇幻测试第四套靴子
+qh3a_05=奇幻测试第四套帽子
+qh3d_01=奇幻测试第五套上衣
+qh3d_02=奇幻测试第五套手套
+qh3d_03=奇幻测试第五套下装
+qh3d_04=奇幻测试第五套靴子
+qh3d_05=奇幻测试第五套帽子
+qh5a_01=奇幻测试第六套上衣
+qh5a_02=奇幻测试第六套手套
+qh5a_03=奇幻测试第六套下装
+qh5a_04=奇幻测试第六套靴子
+qh5a_05=奇幻测试第六套帽子
+zq1d_01=蒸汽测试第一套上衣
+zq1d_02=蒸汽测试第一套手套
+zq1d_03=蒸汽测试第一套下装
+zq1d_04=蒸汽测试第一套靴子
+zq1d_05=蒸汽测试第一套帽子
+zq2b_01=蒸汽测试第二套上衣
+zq2b_02=蒸汽测试第二套手套
+zq2b_03=蒸汽测试第二套下装
+zq2b_04=蒸汽测试第二套靴子
+zq2b_05=蒸汽测试第二套帽子
+zq2d_01=蒸汽测试第三套上衣
+zq2d_02=蒸汽测试第三套手套
+zq2d_03=蒸汽测试第三套下装
+zq2d_04=蒸汽测试第三套靴子
+zq2d_05=蒸汽测试第三套帽子
+zq3b_01=蒸汽测试第四套上衣
+zq3b_02=蒸汽测试第四套手套
+zq3b_03=蒸汽测试第四套下装
+zq3b_04=蒸汽测试第四套靴子
+zq3b_05=蒸汽测试第四套帽子
+zq3d_01=蒸汽测试第五套上衣
+zq3d_02=蒸汽测试第五套手套
+zq3d_03=蒸汽测试第五套下装
+zq3d_04=蒸汽测试第五套靴子
+zq3d_05=蒸汽测试第五套帽子
+zq4a_01=蒸汽测试第六套上衣
+zq4a_02=蒸汽测试第六套手套
+zq4a_03=蒸汽测试第六套下装
+zq4a_04=蒸汽测试第六套靴子
+zq4a_05=蒸汽测试第六套帽子
+BX_XQ_0001A=蒸汽10级布甲绿色宝箱
+BX_XQ_0002A=蒸汽10级皮甲绿色宝箱
+BX_XQ_0003A=蒸汽10级中甲绿色宝箱
+BX_XQ_0004A=蒸汽10级重甲绿色宝箱
+BX_XQ_0005A=奇幻10级布甲绿色宝箱
+BX_XQ_0006A=奇幻10级皮甲绿色宝箱
+BX_XQ_0007A=奇幻10级中甲绿色宝箱
+BX_XQ_0008A=奇幻10级重甲绿色宝箱
+BX_XQ_0009A=10级武器饰品披风绿色宝箱
+BX_XQ_0010A=蒸汽16级布甲绿色宝箱
+BX_XQ_0011A=蒸汽16级皮甲绿色宝箱
+BX_XQ_0012A=蒸汽16级中甲绿色宝箱
+BX_XQ_0013A=蒸汽16级重甲绿色宝箱
+BX_XQ_0014A=奇幻16级布甲绿色宝箱
+BX_XQ_0015A=奇幻16级皮甲绿色宝箱
+BX_XQ_0016A=奇幻16级中甲绿色宝箱
+BX_XQ_0017A=奇幻16级重甲绿色宝箱
+BX_XQ_0018A=16级武器饰品风绿色宝箱
+BX_XQ_0019A=蒸汽16级皮甲绿色宝箱
+BX_XQ_0020A=奇幻16级皮甲绿色宝箱
+BX_XQ_0021A=16级武器饰品披风绿色宝箱
+BX_XQ_0022A=蒸汽23级布甲蓝色宝箱
+BX_XQ_0023A=蒸汽23级皮甲蓝色宝箱
+BX_XQ_0024A=蒸汽23级中甲蓝色宝箱
+BX_XQ_0025A=蒸汽23级重甲蓝色宝箱
+BX_XQ_0026A=奇幻23级布甲蓝色宝箱
+BX_XQ_0026B=奇幻23级皮甲蓝色宝箱
+BX_XQ_0026C=奇幻23级中甲蓝色宝箱
+BX_XQ_0026D=奇幻23级重甲蓝色宝箱
+BX_XQ_0026E=23级武器饰品披风蓝色宝箱
+BX_XQ_0027A=蒸汽30级布甲蓝色宝箱
+BX_XQ_0028A=蒸汽30级皮甲蓝色宝箱
+BX_XQ_0029A=蒸汽30级中甲蓝色宝箱
+BX_XQ_0030A=蒸汽30级重甲蓝色宝箱
+BX_XQ_0031A=奇幻30级布甲蓝色宝箱
+BX_XQ_0032A=奇幻30级皮甲蓝色宝箱
+BX_XQ_0033A=奇幻30级中甲蓝色宝箱
+BX_XQ_0034A=奇幻30级重甲蓝色宝箱
+BX_XQ_0035A=30级武器饰品披风蓝色宝箱
+BX_XQ_0036A=蒸汽35级布甲蓝色宝箱
+BX_XQ_0037A=蒸汽35级皮甲蓝色宝箱
+BX_XQ_0038A=蒸汽35级中甲蓝色宝箱
+BX_XQ_0039A=蒸汽35级重甲蓝色宝箱
+BX_XQ_0040A=奇幻35级布甲蓝色宝箱
+BX_XQ_0041A=奇幻35级皮甲蓝色宝箱
+BX_XQ_0042A=奇幻35级中甲蓝色宝箱
+BX_XQ_0043A=奇幻35级重甲蓝色宝箱
+BX_XQ_0044A=35级武器饰品披风蓝色宝箱
+BX_XQ_0045A=蒸汽40级布甲蓝色宝箱
+BX_XQ_0046A=蒸汽40级皮甲蓝色宝箱
+BX_XQ_0047A=蒸汽40级中甲蓝色宝箱
+BX_XQ_0048A=蒸汽40级重甲蓝色宝箱
+BX_XQ_0049A=奇幻40级布甲蓝色宝箱
+BX_XQ_0050A=奇幻40级皮甲蓝色宝箱
+BX_XQ_0051A=奇幻40级中甲蓝色宝箱
+BX_XQ_0052A=奇幻40级重甲蓝色宝箱
+BX_XQ_0053A=40级武器饰品披风蓝色宝箱
+bx_inq=仲裁者测试宝箱
+bx_wit=猎魔人测试宝箱
+bx_mage=魔法师测试宝箱
+desc_bx_inq=<font color="#FFFF00">仲裁者测试宝箱</font>
+desc_bx_wit=<font color="#FFFF00">猎魔人测试宝箱</font>
+desc_bx_mage=<font color="#FFFF00">魔法师测试宝箱</font>
+desc_BX_XQ_0001A=<font color="#FFFF00">蒸汽10级布甲绿色宝箱</font>
+desc_BX_XQ_0002A=<font color="#FFFF00">蒸汽10级皮甲绿色宝箱</font>
+desc_BX_XQ_0003A=<font color="#FFFF00">蒸汽10级中甲绿色宝箱</font>
+desc_BX_XQ_0004A=<font color="#FFFF00">蒸汽10级重甲绿色宝箱</font>
+desc_BX_XQ_0005A=<font color="#FFFF00">奇幻10级布甲绿色宝箱</font>
+desc_BX_XQ_0006A=<font color="#FFFF00">奇幻10级皮甲绿色宝箱</font>
+desc_BX_XQ_0007A=<font color="#FFFF00">奇幻10级中甲绿色宝箱</font>
+desc_BX_XQ_0008A=<font color="#FFFF00">奇幻10级重甲绿色宝箱</font>
+desc_BX_XQ_0009A=<font color="#FFFF00">10级武器饰品披风绿色宝箱</font>
+desc_BX_XQ_0010A=<font color="#FFFF00">蒸汽16级布甲绿色宝箱</font>
+desc_BX_XQ_0011A=<font color="#FFFF00">蒸汽16级皮甲绿色宝箱</font>
+desc_BX_XQ_0012A=<font color="#FFFF00">蒸汽16级中甲绿色宝箱</font>
+desc_BX_XQ_0013A=<font color="#FFFF00">蒸汽16级重甲绿色宝箱</font>
+desc_BX_XQ_0014A=<font color="#FFFF00">奇幻16级布甲绿色宝箱</font>
+desc_BX_XQ_0015A=<font color="#FFFF00">奇幻16级皮甲绿色宝箱</font>
+desc_BX_XQ_0016A=<font color="#FFFF00">奇幻16级中甲绿色宝箱</font>
+desc_BX_XQ_0017A=<font color="#FFFF00">奇幻16级重甲绿色宝箱</font>
+desc_BX_XQ_0018A=<font color="#FFFF00">16级武器饰品披风绿色宝箱</font>
+desc_BX_XQ_0019A=<font color="#FFFF00">蒸汽16级皮甲绿色宝箱</font>
+desc_BX_XQ_0020A=<font color="#FFFF00">奇幻16级皮甲绿色宝箱</font>
+desc_BX_XQ_0021A=<font color="#FFFF00">16级武器饰品披风绿色宝箱</font>
+desc_BX_XQ_0022A=<font color="#FFFF00">蒸汽23级布甲蓝色宝箱</font>
+desc_BX_XQ_0023A=<font color="#FFFF00">蒸汽23级皮甲蓝色宝箱</font>
+desc_BX_XQ_0024A=<font color="#FFFF00">蒸汽23级中甲蓝色宝箱</font>
+desc_BX_XQ_0025A=<font color="#FFFF00">蒸汽23级重甲蓝色宝箱</font>
+desc_BX_XQ_0026A=<font color="#FFFF00">奇幻23级布甲蓝色宝箱</font>
+desc_BX_XQ_0026B=<font color="#FFFF00">奇幻23级皮甲蓝色宝箱</font>
+desc_BX_XQ_0026C=<font color="#FFFF00">奇幻23级中甲蓝色宝箱</font>
+desc_BX_XQ_0026D=<font color="#FFFF00">奇幻23级重甲蓝色宝箱</font>
+desc_BX_XQ_0026E=<font color="#FFFF00">23级武器饰品披风蓝色宝箱</font>
+desc_BX_XQ_0027A=<font color="#FFFF00">蒸汽30级布甲蓝色宝箱</font>
+desc_BX_XQ_0028A=<font color="#FFFF00">蒸汽30级皮甲蓝色宝箱</font>
+desc_BX_XQ_0029A=<font color="#FFFF00">蒸汽30级中甲蓝色宝箱</font>
+desc_BX_XQ_0030A=<font color="#FFFF00">蒸汽30级重甲蓝色宝箱</font>
+desc_BX_XQ_0031A=<font color="#FFFF00">奇幻30级布甲蓝色宝箱</font>
+desc_BX_XQ_0032A=<font color="#FFFF00">奇幻30级皮甲蓝色宝箱</font>
+desc_BX_XQ_0033A=<font color="#FFFF00">奇幻30级中甲蓝色宝箱</font>
+desc_BX_XQ_0034A=<font color="#FFFF00">奇幻30级重甲蓝色宝箱</font>
+desc_BX_XQ_0035A=<font color="#FFFF00">30级武器饰品披风蓝色宝箱</font>
+desc_BX_XQ_0036A=<font color="#FFFF00">蒸汽35级布甲蓝色宝箱</font>
+desc_BX_XQ_0037A=<font color="#FFFF00">蒸汽35级皮甲蓝色宝箱</font>
+desc_BX_XQ_0038A=<font color="#FFFF00">蒸汽35级中甲蓝色宝箱</font>
+desc_BX_XQ_0039A=<font color="#FFFF00">蒸汽35级重甲蓝色宝箱</font>
+desc_BX_XQ_0040A=<font color="#FFFF00">奇幻35级布甲蓝色宝箱</font>
+desc_BX_XQ_0041A=<font color="#FFFF00">奇幻35级皮甲蓝色宝箱</font>
+desc_BX_XQ_0042A=<font color="#FFFF00">奇幻35级中甲蓝色宝箱</font>
+desc_BX_XQ_0043A=<font color="#FFFF00">奇幻35级重甲蓝色宝箱</font>
+desc_BX_XQ_0044A=<font color="#FFFF00">35级武器饰品披风蓝色宝箱</font>
+desc_BX_XQ_0045A=<font color="#FFFF00">蒸汽40级布甲蓝色宝箱</font>
+desc_BX_XQ_0046A=<font color="#FFFF00">蒸汽40级皮甲蓝色宝箱</font>
+desc_BX_XQ_0047A=<font color="#FFFF00">蒸汽40级中甲蓝色宝箱</font>
+desc_BX_XQ_0048A=<font color="#FFFF00">蒸汽40级重甲蓝色宝箱</font>
+desc_BX_XQ_0049A=<font color="#FFFF00">奇幻40级布甲蓝色宝箱</font>
+desc_BX_XQ_0050A=<font color="#FFFF00">奇幻40级皮甲蓝色宝箱</font>
+desc_BX_XQ_0051A=<font color="#FFFF00">奇幻40级中甲蓝色宝箱</font>
+desc_BX_XQ_0052A=<font color="#FFFF00">奇幻40级重甲蓝色宝箱</font>
+desc_BX_XQ_0053A=<font color="#FFFF00">40级武器饰品披风蓝色宝箱</font>
+BX_CF_3001=30级惩罚者宝箱
+BX_QS_3001=30级神枪手宝箱
+BX_ZX_3001=30级执行者宝箱
+BX_ZS_3001=30级咒术师宝箱
+BX_JS_3001=30级黑暗祭祀宝箱
+BX_NW_3001=30级女巫宝箱
+BX_DF_3001=30级刀锋战士宝箱
+BX_SL_3001=30级狩猎者宝箱
+BX_MJ_3001=30级魔剑士宝箱
+BX_SD_3001=30级圣殿法师宝箱
+BX_LL_3001=30级流浪法师宝箱
+BX_PH_3001=30级平衡法师宝箱
+BX_CF_4001=40级惩罚者宝箱
+BX_QS_4001=40级神枪手宝箱
+BX_ZX_4001=40级执行者宝箱
+BX_ZS_4001=40级咒术师宝箱
+BX_JS_4001=40级黑暗祭祀宝箱
+BX_NW_4001=40级女巫宝箱
+BX_DF_4001=40级刀锋战士宝箱
+BX_SL_4001=40级狩猎者宝箱
+BX_MJ_4001=40级魔剑士宝箱
+BX_SD_4001=40级圣殿法师宝箱
+BX_LL_4001=40级流浪法师宝箱
+BX_PH_4001=40级平衡法师宝箱
+BX_CF_3501=35级惩罚者宝箱
+BX_QS_3501=35级神枪手宝箱
+BX_ZX_3501=35级执行者宝箱
+BX_ZS_3501=35级咒术师宝箱
+BX_JS_3501=35级黑暗祭祀宝箱
+BX_NW_3501=35级女巫宝箱
+BX_DF_3501=35级刀锋战士宝箱
+BX_SL_3501=35级狩猎者宝箱
+BX_MJ_3501=35级魔剑士宝箱
+BX_SD_3501=35级圣殿法师宝箱
+BX_LL_3501=35级流浪法师宝箱
+BX_PH_3501=35级平衡法师宝箱
+Bx_zccs_001=第一名宝箱
+Bx_zccs_002=第二名宝箱
+Bx_zccs_003=第三名宝箱
+Bx_zccs_004=第四名宝箱
+Bx_zccs_005=第五名宝箱
+desc_Bx_zccs_001=<font color="#939301"></font>
+desc_Bx_zccs_002=<font color="#939301"></font>
+desc_Bx_zccs_003=<font color="#939301"></font>
+desc_Bx_zccs_004=<font color="#939301"></font>
+desc_Bx_zccs_005=<font color="#939301"></font>
+desc_BX_QHZB_4001=<font color="#939301"></font>
+desc_BX_QHZB_4002=<font color="#939302"></font>
+desc_BX_QHZB_4003=<font color="#939303"></font>
+desc_BX_QHZB_4004=<font color="#939304"></font>
+desc_BX_ZQZB_4001=<font color="#939305"></font>
+desc_BX_ZQZB_4002=<font color="#939306"></font>
+desc_BX_ZQZB_4003=<font color="#939307"></font>
+desc_BX_ZQZB_4004=<font color="#939308"></font>
+desc_BX_QHZB_2001=<font color="#939309"></font>
+desc_BX_QHZB_2002=<font color="#939310"></font>
+desc_BX_ZQZB_2001=<font color="#939311"></font>
+desc_BX_ZQZB_2002=<font color="#939312"></font>
+desc_BX_ZCWQ_0001=<font color="#939313"></font>
+desc_BX_ZCWQ_0002=<font color="#939314"></font>
+desc_BX_ZCWQ_0003=<font color="#939315"></font>
+desc_BX_ZCWQ_0004=<font color="#939316"></font>
+desc_BX_ZCWQ_0005=<font color="#939317"></font>
+desc_BX_ZCWQ_0006=<font color="#939318"></font>
+desc_BX_ZCWQ_0007=<font color="#939319"></font>
+desc_BX_ZCWQ_0008=<font color="#939320"></font>
+desc_BX_ZCWQ_0009=<font color="#939321"></font>
+desc_BX_ZCWQ_0010=<font color="#939322"></font>
+BX_CW_001A=蒸汽宠物宝箱
+BX_CW_002A=奇幻宠物宝箱
+BX_ZQ_001A=蒸汽坐骑宝箱
+BX_ZQ_002A=奇幻坐骑宝箱
+desc_BX_CW_001A=<font color="#939301"></font>
+desc_BX_CW_002A=<font color="#939301"></font>
+desc_BX_ZQ_001A=<font color="#939301"></font>
+desc_BX_ZQ_002A=<font color="#939301"></font>
+ui_buyShop_00009=<font color="#FFFFFF">护甲买卖</font>
+ui_buyShop_00010=<font color="#FFFFFF">武器买卖</font>
+ui_buyShop_00011=<font color="#FFFFFF">轻甲买卖</font>
+ui_buyShop_00012=<font color="#FFFFFF">重甲买卖</font>
+ui_buyShop_00013=<font color="#FFFFFF">武器买卖</font>
+ui_buyShop_00014=<font color="#FFFFFF">布甲买卖</font>
+ui_buyShop_00015=<font color="#FFFFFF">皮甲买卖</font>
+ui_buyShop_00016=<font color="#FFFFFF">中甲买卖</font>
+ui_buyShop_00017=<font color="#FFFFFF">重甲买卖</font>
+ui_buyShop_00018=<font color="#FFFFFF">首饰买卖</font>
+ui_buyShop_00019=<font color="#FFFFFF">游荡商店</font>
+ui_buyShop_00020=<font color="#FFFFFF">武器买卖</font>
+ui_buyShop_00021=<font color="#FFFFFF">轻甲买卖</font>
+ui_buyShop_00022=<font color="#FFFFFF">重甲买卖</font>
+ui_buyShop_00023=<font color="#FFFFFF">披风装甲买卖</font>
+ui_buynpc_qhm002_0004=<font color="#FFFFFF">护甲商</font>
+ui_buynpc_qhm002_0011=<font color="#FFFFFF">武器商</font>
+ui_buynpc_qhm002_0233=<font color="#FFFFFF">武器商</font>
+ui_buynpc_qhm002_0225=<font color="#FFFFFF">披风装甲商人</font>
+ui_buynpc_qhm002_0226=<font color="#FFFFFF">游荡商</font>
+ui_buynpc_qhm002_0227=<font color="#FFFFFF">护甲商</font>
+ui_buynpc_qhm002_0228=<font color="#FFFFFF">护甲商</font>
+ui_buynpc_qhm002_0229=<font color="#FFFFFF">重甲商</font>
+ui_buynpc_qhm002_0116=<font color="#FFFFFF">中甲商</font>
+ui_buynpc_qhm002_0114=<font color="#FFFFFF">护甲商</font>
+ui_buynpc_qhm002_0115=<font color="#FFFFFF">护甲商</font>
+ui_buynpc_qhm002_0230=<font color="#FFFFFF">护甲商</font>
+ui_buynpc_qhm002_0231=<font color="#FFFFFF">武器商</font>
+ui_buynpc_qhm002_0232=<font color="#FFFFFF">武器商</font>
+ui_buynpc_qhm002_0234=<font color="#FFFFFF">护甲商</font>
+ui_buynpc_zqm001_0155=<font color="#FFFFFF">护甲商</font>
+ui_buynpc_zqm001_0156=<font color="#FFFFFF">武器商</font>
+ui_buynpc_zqm001_0138=<font color="#FFFFFF">武器商</font>
+ui_buynpc_zqm001_0137=<font color="#FFFFFF">护甲商</font>
+ui_buynpc_zqm001_0136=<font color="#FFFFFF">游荡商</font>
+ui_buynpc_zqm001_0135=<font color="#FFFFFF">护甲商</font>
+ui_buynpc_zqm001_0134=<font color="#FFFFFF">护甲商</font>
+ui_buynpc_zqm001_0133=<font color="#FFFFFF">护甲商</font>
+ui_buynpc_zqm001_0121=<font color="#FFFFFF">中甲商</font>
+ui_buynpc_zqm001_0120=<font color="#FFFFFF">护甲商</font>
+ui_buynpc_zqm001_0119=<font color="#FFFFFF">护甲商</font>
+ui_buynpc_zqm001_0107=<font color="#FFFFFF">护甲商</font>
+ui_buynpc_zqm001_0095=<font color="#FFFFFF">武器商</font>
+ui_ah_menuitem=<font color="#003366">拍卖行</font>
+ui_pmhnpc_qh=<font color="#003366">奇幻拍卖行</font>
+ui_pmhnpc_zq=<font color="#003366">蒸汽拍卖行</font>
+ui_pmhnpc_zl=<font color="#003366">中立拍卖行</font>
+ui_buyShop_00024=<font color="#003366">武器商</font>
+ui_buyShop_00025=<font color="#003366">武器装甲商</font>
+ui_buyShop_00026=<font color="#003366">奇幻布甲买卖</font>
+ui_buy11092610062366=<font color="#003366">奇幻皮甲买卖</font>
+ui_buyShop_00028=<font color="#003366">奇幻中甲买卖</font>
+ui_buyShop_00030=<font color="#003366">蒸汽布甲买卖</font>
+ui_buyShop_00031=<font color="#003366">蒸汽皮甲买卖</font>
+ui_buyShop_00032=<font color="#003366">蒸汽中甲买卖</font>
+ui_buyShop_00033=<font color="#003366">蒸汽重甲买卖</font>
+ui_buyShop_00029=<font color="#003366">奇幻重甲买卖</font>
+ui_buyShop_00035=<font color="#003366">奇幻武器买卖</font>
+ui_buyShop_00034=<font color="#003366">奇幻材料买卖</font>
+ui_buyShop_00036=<font color="#003366">奇幻杂货买卖</font>
+ui_buyShop_00037=<font color="#003366">蒸汽材料买卖</font>
+ui_buyShop_00038=<font color="#003366">蒸汽武器买卖</font>
+ui_buyShop_00039=<font color="#003366">蒸汽杂货买卖</font>
+ui_buyShop_FZCL_001=<font color="#003366">材料商</font>
+ui_buyShop_SM_001=<font color="#003366">神秘商人</font>
+ui_buyShop_00574=<font color="#003366">宝物商</font>
+ui_buyShop_00570=<font color="#003366">武器商</font>
+ui_buyShop_00571=<font color="#003366">装备商</font>
+ui_buyShop_00572=<font color="#003366">杂货商</font>
+ui_buyShop_00573=<font color="#003366">材料商</font>
+ui_buyShop_00562=<font color="#003366">武器商</font>
+ui_buyShop_00563=<font color="#003366">护甲商</font>
+ui_buyShop_00564=<font color="#003366">护甲商</font>
+ui_buyShop_00565=<font color="#003366">杂货商</font>
+ui_buyShop_00566=<font color="#003366">材料商</font>
+ui_buyShop_00567=<font color="#003366">宝石商</font>
+ui_buyShop_00568=<font color="#003366">宠物商</font>
+ui_buyShop_00569=<font color="#003366">坐骑商</font>
+ui_buyShop_00557=<font color="#003366">杂货商</font>
+ui_buyShop_00558=<font color="#003366">药水商</font>
+ui_buyShop_00559=<font color="#003366">护甲商</font>
+ui_buyShop_00556=<font color="#003366">杂货商</font>
+ui_buyShop_00555=<font color="#003366">药水商</font>
+ui_buyShop_00554=<font color="#003366">武器商</font>
+ui_buyShop_00553=<font color="#003366">护甲商</font>
+ui_buyShop_00526=<font color="#003366">武器宝箱商</font>
+ui_buyShop_00527=<font color="#003366">武器宝箱商</font>
+ui_buyShop_00528=<font color="#003366">武器宝箱商</font>
+ui_buyShop_00529=<font color="#003366">武器宝箱商</font>
+ui_buyShop_00530=<font color="#003366">武器宝箱商</font>
+ui_buyShop_00531=<font color="#003366">武器宝箱商</font>
+ui_buyShop_00532=<font color="#003366">武器宝箱商</font>
+ui_buyShop_00533=<font color="#003366">护甲宝箱商</font>
+ui_buyShop_00534=<font color="#003366">护甲宝箱商</font>
+ui_buyShop_00535=<font color="#003366">护甲宝箱商</font>
+ui_buyShop_00536=<font color="#003366">护甲宝箱商</font>
+ui_buyShop_00537=<font color="#003366">护甲宝箱商</font>
+ui_buyShop_00538=<font color="#003366">护甲宝箱商</font>
+ui_buyShop_00539=<font color="#003366">护甲宝箱商</font>
+ui_buyShop_00540=<font color="#003366">护甲宝箱商</font>
+ui_buyShop_00541=<font color="#003366">护甲宝箱商</font>
+ui_buyShop_00542=<font color="#003366">护甲宝箱商</font>
+ui_buyShop_00543=<font color="#003366">护甲宝箱商</font>
+ui_buyShop_00544=<font color="#003366">护甲宝箱商</font>
+ui_buyShop_00545=<font color="#003366">药水宝箱商</font>
+ui_buyShop_00546=<font color="#003366">武器宝箱商</font>
+ui_buyShop_00547=<font color="#003366">武器宝箱商</font>
+ui_buyShop_00548=<font color="#003366">武器宝箱商</font>
+ui_buyShop_00549=<font color="#003366">武器宝箱商</font>
+ui_buyShop_00550=<font color="#003366">武器宝箱商</font>
+ui_buyShop_00551=<font color="#003366">武器宝箱商</font>
+ui_buyShop_00552=<font color="#003366">武器宝箱商</font>
+ui_buyShop_00486=<font color="#003366">药水商</font>
+ui_buyShop_00487=<font color="#003366">杂货商</font>
+ui_buyShop_00488=<font color="#003366">武器商</font>
+ui_buyShop_00489=<font color="#003366">护甲商</font>
+ui_buyShop_00490=<font color="#003366">护甲商</font>
+ui_buyShop_00491=<font color="#003366">药水商</font>
+ui_buyShop_00492=<font color="#003366">材料商</font>
+ui_buyShop_00493=<font color="#003366">杂货商</font>
+ui_buyShop_00494=<font color="#003366">坐骑商</font>
+ui_buyShop_00495=<font color="#003366">武器商</font>
+ui_buyShop_00496=<font color="#003366">护甲商</font>
+ui_buyShop_00497=<font color="#003366">护甲商</font>
+ui_buyShop_00498=<font color="#003366">药水商</font>
+ui_buyShop_00499=<font color="#003366">材料商</font>
+ui_buyShop_00500=<font color="#003366">杂货商</font>
+ui_buyShop_00501=<font color="#003366">装备商人</font>
+ui_buyShop_00502=<font color="#003366">药水商</font>
+ui_buyShop_00503=<font color="#003366">材料商</font>
+ui_buyShop_00504=<font color="#003366">杂货商</font>
+ui_buyShop_00505=<font color="#003366">商人</font>
+ui_buyShop_00459=<font color="#003366">武器商</font>
+ui_buyShop_00460=<font color="#003366">武器商</font>
+ui_buyShop_00461=<font color="#003366">武器商</font>
+ui_buyShop_00462=<font color="#003366">武器商</font>
+ui_buyShop_00463=<font color="#003366">武器商</font>
+ui_buyShop_00464=<font color="#003366">武器商</font>
+ui_buyShop_00465=<font color="#003366">武器商</font>
+ui_buyShop_00466=<font color="#003366">武器商</font>
+ui_buyShop_00467=<font color="#003366">装备商</font>
+ui_buyShop_00468=<font color="#003366">装备商</font>
+ui_buyShop_00469=<font color="#003366">装备商</font>
+ui_buyShop_00470=<font color="#003366">装备商</font>
+ui_buyShop_00471=<font color="#003366">装备商</font>
+ui_buyShop_00472=<font color="#003366">装备商</font>
+ui_buyShop_00473=<font color="#003366">装备商</font>
+ui_buyShop_00474=<font color="#003366">装备商</font>
+ui_buyShop_00475=<font color="#003366">装备商</font>
+ui_buyShop_00476=<font color="#003366">装备商</font>
+ui_buyShop_00477=<font color="#003366">装备商</font>
+ui_buyShop_00478=<font color="#003366">装备商</font>
+ui_buyShop_00479=<font color="#003366">装备商</font>
+ui_buyShop_00480=<font color="#003366">装备商</font>
+ui_buyShop_00042=<font color="#003366">药水商</font>
+ui_buyShop_00043=<font color="#003366">材料商</font>
+ui_buyShop_00044=<font color="#003366">杂货商</font>
+ui_buyShop_00045=<font color="#003366">药水商</font>
+ui_buyShop_00046=<font color="#003366">材料商</font>
+ui_buyShop_00047=<font color="#003366">杂货商</font>
+ui_buyShop_00048=<font color="#003366">药水商</font>
+ui_buyShop_00049=<font color="#003366">材料商</font>
+ui_buyShop_00050=<font color="#003366">杂货商</font>
+ui_buyShop_00051=<font color="#003366">旅行商</font>
+ui_buyShop_00052=<font color="#003366">旅行商</font>
+ui_buyShop_00053=<font color="#003366">旅行商</font>
+ui_buyShop_00054=<font color="#003366">药水商</font>
+ui_buyShop_00055=<font color="#003366">材料商</font>
+ui_buyShop_00056=<font color="#003366">杂货商</font>
+ui_buyShop_00057=<font color="#003366">旅行商</font>
+ui_buyShop_00058=<font color="#003366">旅行商</font>
+ui_buyShop_00059=<font color="#003366">旅行商</font>
+ui_buyShop_00060=<font color="#003366">药水商</font>
+ui_buyShop_00061=<font color="#003366">材料商</font>
+ui_buyShop_00062=<font color="#003366">杂货商</font>
+ui_buyShop_00063=<font color="#003366">药水商</font>
+ui_buyShop_00064=<font color="#003366">材料商</font>
+ui_buyShop_00065=<font color="#003366">杂货商</font>
+ui_buyShop_00066=<font color="#003366">药水商</font>
+ui_buyShop_00067=<font color="#003366">材料商</font>
+ui_buyShop_00068=<font color="#003366">杂货商</font>
+ui_buyShop_00069=<font color="#003366">药水商</font>
+ui_buyShop_00070=<font color="#003366">材料商</font>
+ui_buyShop_00071=<font color="#003366">杂货商</font>
+ui_buyShop_00072=<font color="#003366">旅行商</font>
+ui_buyShop_00073=<font color="#003366">旅行商</font>
+ui_buyShop_00074=<font color="#003366">旅行商</font>
+ui_buyShop_00075=<font color="#003366">材料商</font>
+ui_buyShop_00076=<font color="#003366">材料商</font>
+ui_buyShop_00077=<font color="#003366">杂货商</font>
+ui_buyShop_00078=<font color="#003366">旅行商</font>
+ui_buyShop_00079=<font color="#003366">旅行商</font>
+ui_buyShop_00080=<font color="#003366">旅行商</font>
+ui_buyShop_00081=<font color="#003366">药水商</font>
+ui_buyShop_00082=<font color="#003366">材料商</font>
+ui_buyShop_00083=<font color="#003366">杂货商</font>
+ui_buyShop_00084=<font color="#003366">武器商</font>
+ui_buyShop_00085=<font color="#003366">护甲商</font>
+ui_buyShop_00086=<font color="#003366">武器商</font>
+ui_buyShop_00087=<font color="#003366">护甲商</font>
+ui_buyShop_00088=<font color="#003366">护甲商</font>
+ui_buyShop_00089=<font color="#003366">武器商</font>
+ui_buyShop_00090=<font color="#003366">护甲商</font>
+ui_buyShop_00091=<font color="#003366">护甲商</font>
+ui_buyShop_00092=<font color="#003366">中甲商</font>
+ui_buyShop_00093=<font color="#003366">护甲商</font>
+ui_buyShop_00095=<font color="#003366">旅行商</font>
+ui_buyShop_00096=<font color="#003366">武器商</font>
+ui_buyShop_00097=<font color="#003366">护甲商</font>
+ui_buyShop_00098=<font color="#003366">护甲商</font>
+ui_buyShop_00099=<font color="#003366">旅行商</font>
+ui_buyShop_00100=<font color="#003366">武器商</font>
+ui_buyShop_00101=<font color="#003366">护甲商</font>
+ui_buyShop_00102=<font color="#003366">护甲商</font>
+ui_buyShop_00103=<font color="#003366">武器商</font>
+ui_buyShop_00104=<font color="#003366">护甲商</font>
+ui_buyShop_00105=<font color="#003366">武器商</font>
+ui_buyShop_00106=<font color="#003366">护甲商</font>
+ui_buyShop_00107=<font color="#003366">护甲商</font>
+ui_buyShop_00108=<font color="#003366">武器商</font>
+ui_buyShop_00109=<font color="#003366">护甲商</font>
+ui_buyShop_00110=<font color="#003366">护甲商</font>
+ui_buyShop_00111=<font color="#003366">中甲商</font>
+ui_buyShop_00112=<font color="#003366">护甲商</font>
+ui_buyShop_00114=<font color="#003366">旅行商</font>
+ui_buyShop_00115=<font color="#003366">武器商</font>
+ui_buyShop_00116=<font color="#003366">护甲商</font>
+ui_buyShop_00117=<font color="#003366">护甲商</font>
+ui_buyShop_00118=<font color="#003366">游荡商人</font>
+ui_buyShop_00119=<font color="#003366">武器商</font>
+ui_buyShop_00120=<font color="#003366">护甲商</font>
+ui_buyShop_00121=<font color="#003366">护甲商</font>
+ui_buyShop_00122=<font color="#003366">人类坐骑商</font>
+ui_buyShop_00123=<font color="#003366">矮人坐骑商</font>
+ui_buyShop_00124=<font color="#003366">血族坐骑商</font>
+ui_buyShop_00125=<font color="#003366">人类坐骑商</font>
+ui_buyShop_00126=<font color="#003366">野蛮人坐骑商</font>
+ui_buyShop_00127=<font color="#003366">猫人坐骑商</font>
+ui_buyShop_00128=<font color="#003366">中立坐骑商</font>
+ui_buyShop_00129=<font color="#003366">护甲商</font>
+ui_buyShop_00130=<font color="#003366">护甲商</font>
+ui_buyShop_00131=<font color="#003366">武器商</font>
+ui_buyShop_00132=<font color="#003366">药水商</font>
+ui_buyShop_00133=<font color="#003366">杂货商</font>
+ui_buyShop_00134=<font color="#003366">护甲商</font>
+ui_buyShop_00135=<font color="#003366">护甲商</font>
+ui_buyShop_00136=<font color="#003366">武器商</font>
+ui_buyShop_00137=<font color="#003366">药水商</font>
+ui_buyShop_00138=<font color="#003366">杂货商</font>
+ui_buyShop_00139=<font color="#003366">护甲商</font>
+ui_buyShop_00140=<font color="#003366">护甲商</font>
+ui_buyShop_00141=<font color="#003366">武器商</font>
+ui_buyShop_00142=<font color="#003366">药水商</font>
+ui_buyShop_00143=<font color="#003366">杂货商</font>
+ui_buyShop_00144=<font color="#003366">护甲商</font>
+ui_buyShop_00145=<font color="#003366">护甲商</font>
+ui_buyShop_00146=<font color="#003366">武器商</font>
+ui_buyShop_00147=<font color="#003366">药水商</font>
+ui_buyShop_00148=<font color="#003366">杂货商</font>
+ui_buyShop_00149=<font color="#003366">护甲商</font>
+ui_buyShop_00150=<font color="#003366">护甲商</font>
+ui_buyShop_00151=<font color="#003366">武器商</font>
+ui_buyShop_00152=<font color="#003366">药水商</font>
+ui_buyShop_00153=<font color="#003366">杂货商</font>
+ui_buyShop_00154=<font color="#003366">护甲商</font>
+ui_buyShop_00155=<font color="#003366">护甲商</font>
+ui_buyShop_00156=<font color="#003366">武器商</font>
+ui_buyShop_00157=<font color="#003366">药水商</font>
+ui_buyShop_00158=<font color="#003366">杂货商</font>
+ui_buyShop_00159=<font color="#003366">护甲商</font>
+ui_buyShop_00160=<font color="#003366">护甲商</font>
+ui_buyShop_00161=<font color="#003366">武器商</font>
+ui_buyShop_00162=<font color="#003366">药水商</font>
+ui_buyShop_00163=<font color="#003366">杂货商</font>
+ui_buyShop_00164=<font color="#003366">护甲商</font>
+ui_buyShop_00165=<font color="#003366">护甲商</font>
+ui_buyShop_00166=<font color="#003366">武器商</font>
+ui_buyShop_00167=<font color="#003366">药水商</font>
+ui_buyShop_00168=<font color="#003366">杂货商</font>
+ui_buyShop_00169=<font color="#003366">护甲商</font>
+ui_buyShop_00170=<font color="#003366">护甲商</font>
+ui_buyShop_00171=<font color="#003366">武器商</font>
+ui_buyShop_00172=<font color="#003366">药水商</font>
+ui_buyShop_00173=<font color="#003366">杂货商</font>
+ui_buyShop_00174=<font color="#003366">酒水商</font>
+ui_buyShop_00175=<font color="#003366">宝石商店</font>
+ui_buyShop_00176=<font color="#003366">宝石商店</font>
+ui_buyShop_00177=<font color="#003366">宝石商店</font>
+ui_buyShop_00178=<font color="#003366">宝石商店</font>
+ui_buyShop_00179=<font color="#003366">宝石商店</font>
+ui_buyShop_00180=<font color="#003366">宝石商店</font>
+ui_buyShop_00181=<font color="#003366">宝石商店</font>
+ui_buyShop_00182=<font color="#003366">宝石商店</font>
+ui_buyShop_00183=<font color="#003366">宝石商店</font>
+ui_buyShop_00184=<font color="#003366">宝石商店</font>
+ui_buyShop_00185=<font color="#003366">宝石商店</font>
+ui_buyShop_00186=<font color="#003366">宝石商店</font>
+ui_buyShop_00187=<font color="#003366">宝石商店</font>
+ui_buyShop_00188=<font color="#003366">宝石商店</font>
+ui_buyShop_00189=<font color="#003366">宝石商店</font>
+ui_buyShop_00190=<font color="#003366">宝箱商店</font>
+ui_buyShop_00191=<font color="#003366">宝箱商店</font>
+ui_buyShop_00192=<font color="#003366">武器商</font>
+ui_buyShop_00193=<font color="#003366">护甲商</font>
+ui_buyShop_00194=<font color="#003366">护甲商</font>
+ui_buyShop_00195=<font color="#003366">药水商</font>
+ui_buyShop_00196=<font color="#003366">杂货商</font>
+ui_buyShop_00197=<font color="#003366">宝石商</font>
+ui_buyShop_00198=<font color="#003366">坐骑商</font>
+ui_buyShop_00199=<font color="#003366">坐骑商</font>
+ui_buyShop_00200=<font color="#003366">宠物商</font>
+ui_buyShop_00201=<font color="#003366">宠物商</font>
+ui_buyShop_00202=<font color="#003366">武器商</font>
+ui_buyShop_00203=<font color="#003366">护甲商</font>
+ui_buyShop_00204=<font color="#003366">护甲商</font>
+ui_buyShop_00205=<font color="#003366">药水商</font>
+ui_buyShop_00206=<font color="#003366">杂货商</font>
+ui_buyShop_00207=<font color="#003366">宝石商</font>
+ui_buyShop_00208=<font color="#003366">特殊用品商</font>
+ui_buyShop_00209=<font color="#003366">装备宝箱商</font>
+ui_buyShop_00210=<font color="#003366">武器宝箱商</font>
+ui_buyShop_00211=<font color="#003366">装备宝箱商</font>
+ui_buyShop_00212=<font color="#003366">武器宝箱商</font>
+ui_buyShop_00213=<font color="#003366">武器宝箱商</font>
+ui_buyShop_00214=<font color="#003366">武器宝箱商</font>
+ui_buyShop_00215=<font color="#003366">套装宝箱商</font>
+ui_buyShop_00216=<font color="#003366">套装宝箱商</font>
+ui_buyShop_00217=<font color="#003366">套装宝箱商</font>
+ui_buyShop_00218=<font color="#003366">套装宝箱商</font>
+ui_buyShop_00219=<font color="#003366">武器商</font>
+ui_buyShop_00220=<font color="#003366">药水商</font>
+ui_buyShop_00221=<font color="#003366">护甲商</font>
+ui_buyShop_00222=<font color="#003366">护甲商</font>
+ui_buyShop_00223=<font color="#003366">杂货商</font>
+ui_buyShop_00224=<font color="#003366">流浪者</font>
+ui_buyShop_00225=<font color="#003366">护甲商</font>
+ui_buyShop_00226=<font color="#003366">药水商</font>
+ui_buyShop_00227=<font color="#003366">坐骑商</font>
+ui_buyShop_00228=<font color="#003366">材料商</font>
+ui_buyShop_00229=<font color="#003366">护甲商</font>
+ui_buyShop_00230=<font color="#003366">武器商</font>
+ui_buyShop_00231=<font color="#003366">首饰商</font>
+ui_buyShop_00232=<font color="#003366">杂货商</font>
+ui_buyShop_00233=<font color="#003366">流浪者</font>
+ui_buyShop_00234=<font color="#003366">武器商</font>
+ui_buyShop_00235=<font color="#003366">药水商</font>
+ui_buyShop_00236=<font color="#003366">药水商</font>
+ui_buyShop_00237=<font color="#003366">护甲商</font>
+ui_buyShop_00238=<font color="#003366">医药商</font>
+ui_buyShop_00239=<font color="#003366">军械商</font>
+ui_buyShop_00240=<font color="#003366">杂货商</font>
+ui_buyShop_00241=<font color="#003366">宠物商</font>
+ui_buyShop_00242=<font color="#003366">坐骑商</font>
+ui_buyShop_00243=<font color="#003366">护甲商</font>
+ui_buyShop_00244=<font color="#003366">武器商</font>
+ui_buyShop_00245=<font color="#003366">护甲商</font>
+ui_buyShop_00246=<font color="#003366">药水商</font>
+ui_buyShop_00247=<font color="#003366">杂货商</font>
+ui_buyShop_00248=<font color="#003366">材料商</font>
+ui_buyShop_00249=<font color="#003366">首饰商</font>
+ui_buyShop_00250=<font color="#003366">宝石商</font>
+ui_buyShop_00251=<font color="#003366">药水商</font>
+ui_buyShop_00252=<font color="#003366">武器商</font>
+ui_buyShop_00253=<font color="#003366">护甲商</font>
+ui_buyShop_00254=<font color="#003366">武器商</font>
+ui_buyShop_00255=<font color="#003366">护甲商</font>
+ui_buyShop_00256=<font color="#003366">药水商</font>
+ui_buyShop_00257=<font color="#003366">杂货商</font>
+ui_buyShop_00258=<font color="#003366">材料商</font>
+ui_buyShop_00261=<font color="#003366">蒸汽配方功能测试商店</font>
+ui_buyShop_00262=<font color="#003366">奇幻配方功能测试商店</font>
+ui_buyShop_00263=<font color="#003366">武器商</font>
+ui_buyShop_00264=<font color="#003366">药水商</font>
+ui_buyShop_00265=<font color="#003366">材料商</font>
+ui_buyShop_00266=<font color="#003366">武器商</font>
+ui_buyShop_00267=<font color="#003366">技能商</font>
+ui_buyShop_00268=<font color="#003366">材料商</font>
+ui_buyShop_00269=<font color="#003366">武器商</font>
+ui_buyShop_00270=<font color="#003366">技能商</font>
+ui_buyShop_00271=<font color="#003366">烹饪工坊</font>
+ui_buyShop_00272=<font color="#003366">缝纫工坊</font>
+ui_buyShop_00273=<font color="#003366">炼金工坊</font>
+ui_buyShop_00274=<font color="#003366">铁匠工坊</font>
+ui_buyShop_00275=<font color="#003366">公会商店</font>
+ui_buyShop_00276=<font color="#003366">宠物商</font>
+ui_buyShop_00277=<font color="#003366">坐骑商</font>
+ui_buyShop_00278=<font color="#003366">护甲商</font>
+ui_buyShop_00279=<font color="#003366">武器商</font>
+ui_buyShop_00280=<font color="#003366">药水商</font>
+ui_buyShop_00281=<font color="#003366">杂货商</font>
+ui_buyShop_00282=<font color="#003366">护甲商</font>
+ui_buyShop_00283=<font color="#003366">武器商</font>
+ui_buyShop_00284=<font color="#003366">护甲商</font>
+ui_buyShop_00285=<font color="#003366">药水商</font>
+ui_buyShop_00286=<font color="#003366">杂货商</font>
+ui_buyShop_00287=<font color="#003366">首饰商</font>
+ui_buyShop_00288=<font color="#003366">护甲商</font>
+ui_buyShop_00289=<font color="#003366">杂货商</font>
+ui_buyShop_00290=<font color="#003366">走私商</font>
+ui_buyShop_00291=<font color="#003366">旅行商人</font>
+ui_buyShop_00292=<font color="#003366">旅行商人</font>
+ui_buyShop_00293=<font color="#003366">护甲商</font>
+ui_buyShop_00294=<font color="#003366">护甲商</font>
+ui_buyShop_00295=<font color="#003366">补给官</font>
+ui_buyShop_00296=<font color="#003366">杂货商</font>
+ui_buyShop_00297=<font color="#003366">补给官</font>
+ui_buyShop_00298=<font color="#003366">药水商</font>
+ui_buyShop_00299=<font color="#003366">杂货商</font>
+ui_buyShop_00300=<font color="#003366">护甲商</font>
+ui_buyShop_00301=<font color="#003366">武器商</font>
+ui_buyShop_00302=<font color="#003366">药水商</font>
+ui_buyShop_00303=<font color="#003366">武器商</font>
+ui_buyShop_00304=<font color="#003366">武器商</font>
+ui_buyShop_00305=<font color="#003366">护甲商</font>
+ui_buyShop_00306=<font color="#003366">护甲商</font>
+ui_buyShop_00307=<font color="#003366">护甲商</font>
+ui_buyShop_00308=<font color="#003366">护甲商</font>
+ui_buyShop_00309=<font color="#003366">武器商</font>
+ui_buyShop_00310=<font color="#003366">护甲商</font>
+ui_buyShop_00311=<font color="#003366">护甲商</font>
+ui_buyShop_00312=<font color="#003366">药水商</font>
+ui_buyShop_00313=<font color="#003366">杂货商</font>
+ui_buyShop_00314=<font color="#003366">杂货商</font>
+ui_buyShop_00315=<font color="#003366">武器商</font>
+ui_buyShop_00316=<font color="#003366">护甲商</font>
+ui_buyShop_00317=<font color="#003366">护甲商</font>
+ui_buyShop_00318=<font color="#003366">材料商</font>
+ui_buyShop_00319=<font color="#003366">首饰商</font>
+ui_buyShop_00320=<font color="#003366">药水商</font>
+ui_buyShop_00321=<font color="#003366">杂货商</font>
+ui_buyShop_00322=<font color="#003366">坐骑商</font>
+ui_buyShop_00323=<font color="#003366">杂货商</font>
+ui_buyShop_00324=<font color="#003366">杂货商</font>
+ui_buyShop_00325=<font color="#003366">药水商</font>
+ui_buyShop_00326=<font color="#003366">杂货商</font>
+ui_buyShop_00327=<font color="#003366">药水商</font>
+ui_buyShop_00328=<font color="#003366">武器商</font>
+ui_buyShop_00329=<font color="#003366">护甲商</font>
+ui_buyShop_00330=<font color="#003366">护甲商</font>
+ui_buyShop_00331=<font color="#003366">材料商</font>
+ui_buyShop_00332=<font color="#003366">杂货商</font>
+ui_buyShop_00333=<font color="#003366">药水商</font>
+ui_buyShop_00334=<font color="#003366">武器商</font>
+ui_buyShop_00335=<font color="#003366">护甲商</font>
+ui_buyShop_00336=<font color="#003366">药水商</font>
+ui_buyShop_00337=<font color="#003366">杂货商</font>
+ui_buyShop_00338=<font color="#003366">药水商</font>
+ui_buyShop_00339=<font color="#003366">杂货商</font>
+ui_buyShop_00340=<font color="#003366">武器商</font>
+ui_buyShop_00341=<font color="#003366">杂货商</font>
+ui_buyShop_00342=<font color="#003366">护甲商</font>
+ui_buyShop_00343=<font color="#003366">护甲商</font>
+ui_buyShop_00344=<font color="#003366">材料商</font>
+ui_buyShop_00345=<font color="#003366">药水商</font>
+ui_buyShop_00346=<font color="#003366">药水商</font>
+ui_buyShop_00347=<font color="#003366">杂货商</font>
+ui_buyShop_00348=<font color="#003366">药水商</font>
+ui_buyShop_00349=<font color="#003366">杂货商</font>
+ui_buyShop_00350=<font color="#003366">武器商</font>
+ui_buyShop_00351=<font color="#003366">护甲商</font>
+ui_buyShop_00352=<font color="#003366">护甲商</font>
+ui_buyShop_00353=<font color="#003366">材料商</font>
+ui_buyShop_00354=<font color="#003366">首饰商</font>
+ui_buyShop_00355=<font color="#003366">杂货商</font>
+ui_buyShop_00356=<font color="#003366">药水商</font>
+ui_buyShop_00357=<font color="#003366">坐骑商</font>
+ui_buyShop_00358=<font color="#003366">宠物商</font>
+ui_buyShop_00359=<font color="#003366">护甲商</font>
+ui_buyShop_00360=<font color="#003366">药水商</font>
+ui_buyShop_00361=<font color="#003366">杂货商</font>
+ui_buyShop_00362=<font color="#003366">武器商</font>
+ui_buyShop_00363=<font color="#003366">护甲商</font>
+ui_buyShop_00364=<font color="#003366">首饰商</font>
+ui_buyShop_00365=<font color="#003366">护甲商</font>
+ui_buyShop_00366=<font color="#003366">杂货商</font>
+ui_buyShop_00367=<font color="#003366">药水商</font>
+ui_buyShop_00368=<font color="#003366">武器商</font>
+ui_buyShop_00369=<font color="#003366">武器商</font>
+ui_buyShop_00370=<font color="#003366">药水商</font>
+ui_buyShop_00371=<font color="#003366">杂货商</font>
+ui_buyShop_00372=<font color="#003366">材料商</font>
+ui_buyShop_00373=<font color="#003366">宝石商</font>
+ui_buyShop_00374=<font color="#003366">坐骑商</font>
+ui_buyShop_00375=<font color="#003366">宠物商</font>
+ui_buyShop_00376=<font color="#003366">武器商</font>
+ui_buyShop_00377=<font color="#003366">药水商</font>
+ui_buyShop_00378=<font color="#003366">护甲商</font>
+ui_buyShop_00379=<font color="#003366">护甲商</font>
+ui_buyShop_00380=<font color="#003366">药水商</font>
+ui_buyShop_00381=<font color="#003366">杂货商</font>
+ui_buyShop_00382=<font color="#003366">子弹商</font>
+ui_buyShop_00383=<font color="#003366">武器商</font>
+ui_buyShop_00384=<font color="#003366">护甲商</font>
+ui_buyShop_00385=<font color="#003366">护甲商</font>
+ui_buyShop_00386=<font color="#003366">材料商</font>
+ui_buyShop_00387=<font color="#003366">首饰商</font>
+ui_buyShop_00388=<font color="#003366">药水商</font>
+ui_buyShop_00389=<font color="#003366">杂货商</font>
+ui_buyShop_00390=<font color="#003366">坐骑商</font>
+ui_buyShop_00391=<font color="#003366">野外商</font>
+ui_buyShop_00392=<font color="#003366">武器商</font>
+ui_buyShop_00393=<font color="#003366">护甲商</font>
+ui_buyShop_00394=<font color="#003366">护甲商</font>
+ui_buyShop_00395=<font color="#003366">杂货商</font>
+ui_buyShop_00396=<font color="#003366">材料商</font>
+ui_buyShop_00397=<font color="#003366">药水商</font>
+ui_buyShop_00398=<font color="#003366">武器商</font>
+ui_buyShop_00399=<font color="#003366">护甲商</font>
+ui_buyShop_00400=<font color="#003366">护甲商</font>
+ui_buyShop_00401=<font color="#003366">杂货商</font>
+ui_buyShop_00402=<font color="#003366">材料商</font>
+ui_buyShop_00403=<font color="#003366">药水商</font>
+ui_buyShop_00404=<font color="#003366">杂货商</font>
+ui_buyShop_00405=<font color="#003366">药水商</font>
+ui_buyShop_00406=<font color="#003366">杂货商</font>
+ui_buyShop_00407=<font color="#003366">药水商</font>
+ui_buyShop_00408=<font color="#003366">杂货商</font>
+ui_buyShop_00409=<font color="#003366">药水商</font>
+ui_buyShop_00410=<font color="#003366">武器商</font>
+ui_buyShop_00411=<font color="#003366">护甲商</font>
+ui_buyShop_00412=<font color="#003366">护甲商</font>
+ui_buyShop_00413=<font color="#003366">材料商</font>
+ui_buyShop_00414=<font color="#003366">药水商</font>
+ui_buyShop_00415=<font color="#003366">杂货商</font>
+ui_buyShop_00416=<font color="#003366">武器商</font>
+ui_buyShop_00417=<font color="#003366">护甲商</font>
+ui_buyShop_00418=<font color="#003366">护甲商</font>
+ui_buyShop_00419=<font color="#003366">材料商</font>
+ui_buyShop_00420=<font color="#003366">杂货商</font>
+ui_buyShop_00421=<font color="#003366">药水商</font>
+ui_buyShop_00422=<font color="#003366">杂货商</font>
+ui_buyShop_00423=<font color="#003366">药水商</font>
+ui_buyShop_00424=<font color="#003366">杂货商</font>
+ui_buyShop_00425=<font color="#003366">药水商</font>
+ui_buyShop_00426=<font color="#003366">护甲商</font>
+ui_buyShop_00427=<font color="#003366">护甲商</font>
+ui_buyShop_00428=<font color="#003366">武器商</font>
+ui_buyShop_00429=<font color="#003366">药水商</font>
+ui_buyShop_00430=<font color="#003366">杂货商</font>
+ui_buyShop_00431=<font color="#003366">材料商</font>
+ui_buyShop_00432=<font color="#003366">首饰商</font>
+ui_buyShop_00433=<font color="#003366">宝石商</font>
+ui_buyShop_00434=<font color="#003366">宠物商</font>
+ui_buyShop_00435=<font color="#003366">坐骑商</font>
+ui_buyShop_00436=<font color="#003366">武器商</font>
+ui_buyShop_00437=<font color="#003366">武器商</font>
+ui_buyShop_00438=<font color="#003366">杂货商</font>
+ui_buyShop_00439=<font color="#003366">杂货商</font>
+ui_buyShop_00440=<font color="#003366">杂货商</font>
+ui_buyShop_00441=<font color="#003366">药水商</font>
+ui_buyShop_00442=<font color="#003366">药水商</font>
+ui_buyShop_00443=<font color="#003366">药水商</font>
+ui_buyShop_00444=<font color="#003366">材料商</font>
+ui_buyShop_00445=<font color="#003366">材料商</font>
+ui_buyShop_00446=<font color="#003366">首饰商</font>
+ui_buyShop_00447=<font color="#003366">护甲商</font>
+ui_buyShop_00448=<font color="#003366">护甲商</font>
+ui_buyShop_00449=<font color="#003366">护甲商</font>
+ui_buyShop_00450=<font color="#003366">护甲商</font>
+ui_buyShop_00451=<font color="#003366">坐骑商人</font>
+ui_buyShop_00452=<font color="#003366">坐骑商人</font>
+ui_buyShop_00453=<font color="#003366">游荡商人</font>
+ui_buyShop_00454=<font color="#003366">游荡商人</font>
+ui_buyShop_00455=<font color="#003366">宝石商</font>
+ui_buyShop_00456=<font color="#003366">宠物商</font>
+ui_buyShop_00457=<font color="#003366">首饰商</font>
+ui_buyShop_00259=<font color="#003366">杂货商</font>
+ui_buyShop_00260=<font color="#003366">药水商</font>
+ui_buyShop_00506=<font color="#003366">武器商</font>
+ui_buyShop_00507=<font color="#003366">药水商</font>
+ui_buyShop_00508=<font color="#003366">护甲商</font>
+ui_buyShop_00509=<font color="#003366">护甲商</font>
+ui_buyShop_00510=<font color="#003366">杂货商</font>
+ui_buyShop_00511=<font color="#003366">野外商人</font>
+ui_buyShop_00512=<font color="#003366">护甲商</font>
+ui_buyShop_00513=<font color="#003366">药水商</font>
+ui_buyShop_00514=<font color="#003366">坐骑商人</font>
+ui_buyShop_00515=<font color="#003366">材料商</font>
+ui_buyShop_00516=<font color="#003366">护甲商</font>
+ui_buyShop_00517=<font color="#003366">武器商</font>
+ui_buyShop_00518=<font color="#003366">首饰商</font>
+ui_buyShop_00519=<font color="#003366">杂货商</font>
+ui_buyShop_00520=<font color="#003366">野外商人</font>
+ui_buyShop_00521=<font color="#003366">武器商</font>
+ui_buyShop_00522=<font color="#003366">药水商</font>
+ui_buyShop_00523=<font color="#003366">药水商</font>
+ui_buyShop_00524=<font color="#003366">杂货商</font>
+ui_buyShop_00525=<font color="#003366">药水商</font>
+ui_buyShop_00575=<font color="#003366">武器商</font>
+ui_buyShop_00576=<font color="#003366">材料商</font>
+ui_buyShop_00577=<font color="#003366">装备商</font>
+ui_buyShop_00581=<font color="#003366">杂货商</font>
+ui_buyShop_00582=<font color="#003366">药水商</font>
+ui_buyShop_00595=<font color="#003366">武器商</font>
+ui_buyShop_00594=<font color="#003366">护甲商</font>
+ui_buyShop_00596=<font color="#003366">材料商</font>
+ui_buyShop_00597=<font color="#003366">杂货商</font>
+ui_buyShop_00587=<font color="#003366">武器商</font>
+ui_buyShop_00590=<font color="#003366">护甲商</font>
+ui_buyShop_00593=<font color="#003366">杂货商</font>
+ui_buyShop_00592=<font color="#003366">材料商</font>
+ui_buyShop_00589=<font color="#003366">杂货商</font>
+ui_buyShop_00588=<font color="#003366">材料商</font>
+ui_buyShop_00586=<font color="#003366">护甲商</font>
+ui_buyshop_00583=<font color="#003366">护甲商</font>
+ui_buyshop_00584=<font color="#003366">武器商</font>
+ui_buyshop_00585=<font color="#003366">杂货商</font>
+Qianghua_0001=锻造材料
+Qianghua_0002=珠宝材料
+Qianghua_0003=炼金材料
+Qianghua_0004=精工材料
+FZ_CS_0001=铜长枪
+FZ_CS_0002=铁长枪
+FZ_CS_0003=麻线团
+FZ_CS_0004=麻布卷
+FZ_CS_0005=小型治疗药水
+FZ_CS_0006=小型法力药水
+FZ_CS_0007=锋利孔雀石
+FZ_CS_0008=坚固孔雀石
+FZ_PF_0001=冶炼：铜矿
+FZ_PF_0002=冶炼：铁矿
+FZ_PF_0003=锻造：铜长枪
+FZ_PF_0004=锻造：铁枪
+FZ_PF_0005=生产：麻线团
+FZ_PF_0006=生产：麻布卷
+FZ_PF_0007=炼金：小型治疗药水
+FZ_PF_0008=炼金：小型法力药水
+FZ_PF_0009=珠宝加工：锋利孔雀石
+FZ_PF_0010=珠宝加工：坚固孔雀石
+FZ_PF_0011=机甲：UG-001载具
+Ks_00001=铜矿石
+Ks_00002=铁矿石
+Ks_00003=锡矿石
+Ks_00004=铅矿石
+Ks_00005=锌矿石
+Ks_00006=铝矿石
+Ks_00007=锰矿石
+Ks_00008=钠矿石
+Ks_00009=镁矿石
+Ks_00010=水银石
+Ks_00011=银矿石
+Ks_00012=金矿石
+Js_00001=铜
+Js_00002=铁
+Js_00003=锡
+Js_00004=铅
+Js_00005=锌
+Js_00006=铝
+Js_00007=锰
+Js_00008=钠
+Js_00009=镁
+Js_00010=汞
+Js_00011=银
+Js_00012=金
+Cy_00001=霜叶草
+Cy_00002=紫蝶兰
+Cy_00003=叶舌兰
+Cy_00004=遗忘花
+Cy_00005=夜光草
+Cy_00006=阴风藤
+Cy_00007=骑士花
+Cy_00008=泪海莲
+Cy_00009=美人花
+Cy_00010=忘情草
+Cy_00011=迷光花
+Cy_00012=龙血藤
+Bl_00001=麻线
+Bl_00002=麻布
+Bl_00003=粗麻线
+Bl_00004=粗麻布
+Bl_00005=棉线
+Bl_00006=棉布
+Bl_00007=厚棉线
+Bl_00008=厚棉布
+Bl_00009=丝线
+Bl_00010=丝绸
+Bl_00011=软丝线
+Bl_00012=软丝绸
+Bl_00013=麻线团
+Bl_00014=麻布卷
+Bl_00015=粗麻线团
+Bl_00016=粗麻布卷
+Bl_00017=棉线团
+Bl_00018=棉布卷
+Bl_00019=厚棉线团
+Bl_00020=厚棉布卷
+Bl_00021=丝线团
+Bl_00022=丝绸卷
+Bl_00023=软丝线团
+Bl_00024=软丝绸卷
+Ys_00001=孔雀石
+Ys_00002=绿泥石
+Ys_00003=虎眼石
+Ys_00004=散寒石
+Ys_00005=闪菱石
+Ys_00006=蓝宝石
+Ys_00007=橘榴石
+Ys_00008=碧洗石
+Ys_00009=尖晶石
+Ys_00010=朱砂石
+Ys_00011=白云石
+Ys_00012=青金石
+FZ_ZJ_001=机甲核心
+FZ_ZJ_002=机械手臂
+FZ_ZJ_003=科林火炮-UR型
+desc_FZ_ZJ_001=<font color="#FFFF00">制造一般载具所必须的配件，源机构出品</font>
+desc_FZ_ZJ_002=<font color="#FFFF00">金属打造的机械手臂，通常用于简单的载具制造</font>
+desc_FZ_ZJ_003=<font color="#FFFF00">火力专家科林早期设计的火炮，小巧便宜，性价比高，常用于简单载具的武装</font>
+desc_Ks_00001=<font color="#FFFF00"></font>
+desc_Ks_00002=<font color="#FFFF00"></font>
+desc_Ks_00003=<font color="#FFFF00"></font>
+desc_Ks_00004=<font color="#FFFF00"></font>
+desc_Ks_00005=<font color="#FFFF00"></font>
+desc_Ks_00006=<font color="#FFFF00"></font>
+desc_Ks_00007=<font color="#FFFF00"></font>
+desc_Ks_00008=<font color="#FFFF00"></font>
+desc_Ks_00009=<font color="#FFFF00"></font>
+desc_Ks_00010=<font color="#FFFF00"></font>
+desc_Ks_00011=<font color="#FFFF00"></font>
+desc_Ks_00012=<font color="#FFFF00"></font>
+desc_Js_00001=<font color="#FFFF00"></font>
+desc_Js_00002=<font color="#FFFF00"></font>
+desc_Js_00003=<font color="#FFFF00"></font>
+desc_Js_00004=<font color="#FFFF00"></font>
+desc_Js_00005=<font color="#FFFF00"></font>
+desc_Js_00006=<font color="#FFFF00"></font>
+desc_Js_00007=<font color="#FFFF00"></font>
+desc_Js_00008=<font color="#FFFF00"></font>
+desc_Js_00009=<font color="#FFFF00"></font>
+desc_Js_00010=<font color="#FFFF00"></font>
+desc_Js_00011=<font color="#FFFF00"></font>
+desc_Js_00012=<font color="#FFFF00"></font>
+desc_Cy_00001=<font color="#FFFF00"></font>
+desc_Cy_00002=<font color="#FFFF00"></font>
+desc_Cy_00003=<font color="#FFFF00"></font>
+desc_Cy_00004=<font color="#FFFF00"></font>
+desc_Cy_00005=<font color="#FFFF00"></font>
+desc_Cy_00006=<font color="#FFFF00"></font>
+desc_Cy_00007=<font color="#FFFF00"></font>
+desc_Cy_00008=<font color="#FFFF00"></font>
+desc_Cy_00009=<font color="#FFFF00"></font>
+desc_Cy_00010=<font color="#FFFF00"></font>
+desc_Cy_00011=<font color="#FFFF00"></font>
+desc_Cy_00012=<font color="#FFFF00"></font>
+desc_Bl_00001=<font color="#FFFF00"></font>
+desc_Bl_00002=<font color="#FFFF00"></font>
+desc_Bl_00003=<font color="#FFFF00"></font>
+desc_Bl_00004=<font color="#FFFF00"></font>
+desc_Bl_00005=<font color="#FFFF00"></font>
+desc_Bl_00006=<font color="#FFFF00"></font>
+desc_Bl_00007=<font color="#FFFF00"></font>
+desc_Bl_00008=<font color="#FFFF00"></font>
+desc_Bl_00009=<font color="#FFFF00"></font>
+desc_Bl_00010=<font color="#FFFF00"></font>
+desc_Bl_00011=<font color="#FFFF00"></font>
+desc_Bl_00012=<font color="#FFFF00"></font>
+desc_Bl_00013=<font color="#FFFF00"></font>
+desc_Bl_00014=<font color="#FFFF00"></font>
+desc_Bl_00015=<font color="#FFFF00"></font>
+desc_Bl_00016=<font color="#FFFF00"></font>
+desc_Bl_00017=<font color="#FFFF00"></font>
+desc_Bl_00018=<font color="#FFFF00"></font>
+desc_Bl_00019=<font color="#FFFF00"></font>
+desc_Bl_00020=<font color="#FFFF00"></font>
+desc_Bl_00021=<font color="#FFFF00"></font>
+desc_Bl_00022=<font color="#FFFF00"></font>
+desc_Bl_00023=<font color="#FFFF00"></font>
+desc_Bl_00024=<font color="#FFFF00"></font>
+desc_Ys_00001=<font color="#FFFF00"></font>
+desc_Ys_00002=<font color="#FFFF00"></font>
+desc_Ys_00003=<font color="#FFFF00"></font>
+desc_Ys_00004=<font color="#FFFF00"></font>
+desc_Ys_00005=<font color="#FFFF00"></font>
+desc_Ys_00006=<font color="#FFFF00"></font>
+desc_Ys_00007=<font color="#FFFF00"></font>
+desc_Ys_00008=<font color="#FFFF00"></font>
+desc_Ys_00009=<font color="#FFFF00"></font>
+desc_Ys_00010=<font color="#FFFF00"></font>
+desc_Ys_00011=<font color="#FFFF00"></font>
+desc_Ys_00012=<font color="#FFFF00"></font>
+desc_FZ_YC_0001Z=<font color="#FFFF00">基础强化石，与“装备强化石”组合可强化装备至4级</font>
+desc_FZ_YC_0002Z=<font color="#FFFF00">因花瓣向蝴蝶的翅膀而得名</font>
+desc_FZ_BL_0001Z=<font color="#FFFF00">强化晶石，与基础强化石组合可将装备从4级强化至7级</font>
+desc_FZ_BL_0002Z=<font color="#FFFF00">一块麻布</font>
+desc_FZ_BS_0001Z=<font color="#FFFF00">强化宝石，是装备从7级强化至10级的必备</font>
+desc_FZ_BS_0002Z=<font color="#FFFF00">宝石，通常与铁矿伴生</font>
+desc_FZ_CS_0001=<font color="#FFFF00">一杆普通的铜质长枪</font>
+desc_FZ_CS_0002=<font color="#FFFF00">一杆普通的铁质长枪</font>
+desc_FZ_CS_0003=<font color="#FFFF00">普通的麻线团，用于加工</font>
+desc_FZ_CS_0004=<font color="#FFFF00">普通的麻布卷，用于加工</font>
+desc_FZ_CS_0005=<font color="#FFFF00">回复20点生命</font>
+desc_FZ_CS_0006=<font color="#FFFF00">回复20点法力</font>
+desc_FZ_CS_0007=<font color="#FFFF00">可用来镶嵌的宝石，敏捷+3</font>
+desc_FZ_CS_0008=<font color="#FFFF00">可用来镶嵌的宝石，体质+4</font>
+desc_FZ_KW_0001Z=<font color="#FFFF00">大陆常见的铜矿石</font>
+desc_FZ_KW_0002Z=<font color="#FFFF00">大陆常见的铁矿石</font>
+desc_FZ_KW_0003=<font color="#FFFF00">经铜矿石冶炼而来，加工材料</font>
+desc_FZ_KW_0004=<font color="#FFFF00">经铁矿石冶炼而来，加工材料</font>
+FZ_KW_0001Z=铜矿石
+FZ_KW_0002Z=铁矿石
+FZ_KW_0003=铜块
+FZ_KW_0004=铁块
+FZ_BL_0001Z=装备强化晶石
+FZ_BL_0002Z=麻布
+FZ_BS_0001Z=装备强化宝石
+FZ_YC_0001Z=装备强化原石
+FZ_YC_0002Z=紫蝶兰
+FZ_BS_0002Z=绿泥石
+ZDCS_Cloth_A00025C1=蒸汽25蓝布甲
+ZDCS_Cloth_A00040C1=蒸汽40蓝布甲
+ZDCS_Cloth_A00040D1=蒸汽40紫布甲
+ZDCS_Hand_A00025C1=蒸汽25蓝布甲
+ZDCS_Hand_A00040C1=蒸汽40蓝布甲
+ZDCS_Hand_A00040D1=蒸汽40紫布甲
+ZDCS_Pants_A00025C1=蒸汽25蓝布甲
+ZDCS_Pants_A00040C1=蒸汽40蓝布甲
+ZDCS_Pants_A00040D1=蒸汽40紫布甲
+ZDCS_Shoes_A00025C1=蒸汽25蓝布甲
+ZDCS_Shoes_A00040C1=蒸汽40蓝布甲
+ZDCS_Shoes_A00040D1=蒸汽40紫布甲
+ZDCS_Hat_A00025C1=蒸汽25蓝布甲
+ZDCS_Hat_A00040C1=蒸汽40蓝布甲
+ZDCS_Hat_A00040D1=蒸汽40紫布甲
+ZDCS_Wrist_A00025C1=蒸汽25蓝布甲
+ZDCS_Wrist_A00040C1=蒸汽40蓝布甲
+ZDCS_Wrist_A00040D1=蒸汽40紫布甲
+ZDCS_Belt_A00025C1=蒸汽25蓝布甲
+ZDCS_Belt_A00040C1=蒸汽40蓝布甲
+ZDCS_Belt_A00040D1=蒸汽40紫布甲
+ZDCS_Cloth_B00025C1=蒸汽25蓝布甲
+ZDCS_Cloth_B00040C1=蒸汽40蓝布甲
+ZDCS_Cloth_B00040D1=蒸汽40紫布甲
+ZDCS_Hand_B00025C1=蒸汽25蓝布甲
+ZDCS_Hand_B00040C1=蒸汽40蓝布甲
+ZDCS_Hand_B00040D1=蒸汽40紫布甲
+ZDCS_Pants_B00025C1=蒸汽25蓝皮甲
+ZDCS_Pants_B00040C1=蒸汽40蓝皮甲
+ZDCS_Pants_B00040D1=蒸汽40紫皮甲
+ZDCS_Shoes_B00025C1=蒸汽25蓝皮甲
+ZDCS_Shoes_B00040C1=蒸汽40蓝皮甲
+ZDCS_Shoes_B00040D1=蒸汽40紫皮甲
+ZDCS_Hat_B00025C1=蒸汽25蓝皮甲
+ZDCS_Hat_B00040C1=蒸汽40蓝皮甲
+ZDCS_Hat_B00040D1=蒸汽40紫皮甲
+ZDCS_Wrist_B00025C1=蒸汽25蓝皮甲
+ZDCS_Wrist_B00040C1=蒸汽40蓝皮甲
+ZDCS_Wrist_B00040D1=蒸汽40紫皮甲
+ZDCS_Belt_B00025C1=蒸汽25蓝皮甲
+ZDCS_Belt_B00040C1=蒸汽40蓝皮甲
+ZDCS_Belt_B00040D1=蒸汽40紫皮甲
+ZDCS_Cloth_C00025C1=蒸汽25蓝皮甲
+ZDCS_Cloth_C00040C1=蒸汽40蓝皮甲
+ZDCS_Cloth_C00040D1=蒸汽40紫皮甲
+ZDCS_Hand_C00025C1=蒸汽25蓝皮甲
+ZDCS_Hand_C00040C1=蒸汽40蓝皮甲
+ZDCS_Hand_C00040D1=蒸汽40紫皮甲
+ZDCS_Pants_C00025C1=蒸汽25蓝皮甲
+ZDCS_Pants_C00040C1=蒸汽40蓝皮甲
+ZDCS_Pants_C00040D1=蒸汽40紫皮甲
+ZDCS_Shoes_C00025C1=蒸汽25蓝皮甲
+ZDCS_Shoes_C00040C1=蒸汽40蓝皮甲
+ZDCS_Shoes_C00040D1=蒸汽40紫皮甲
+ZDCS_Hat_C00025C1=蒸汽25蓝皮甲
+ZDCS_Hat_C00040C1=蒸汽40蓝皮甲
+ZDCS_Hat_C00040D1=蒸汽40紫皮甲
+ZDCS_Wrist_C00025C1=蒸汽25蓝皮甲
+ZDCS_Wrist_C00040C1=蒸汽40蓝皮甲
+ZDCS_Wrist_C00040D1=蒸汽40紫皮甲
+ZDCS_Belt_C00025C1=蒸汽25蓝皮甲
+ZDCS_Belt_C00040C1=蒸汽40蓝皮甲
+ZDCS_Belt_C00040D1=蒸汽40紫皮甲
+ZDCS_Cloth_D00025C1=蒸汽25蓝重甲
+ZDCS_Cloth_D00040C1=蒸汽40蓝重甲
+ZDCS_Cloth_D00040D1=蒸汽40紫重甲
+ZDCS_Hand_D00025C1=蒸汽25蓝重甲
+ZDCS_Hand_D00040C1=蒸汽40蓝重甲
+ZDCS_Hand_D00040D1=蒸汽40紫重甲
+ZDCS_Pants_D00025C1=蒸汽25蓝重甲
+ZDCS_Pants_D00040C1=蒸汽40蓝重甲
+ZDCS_Pants_D00040D1=蒸汽40紫重甲
+ZDCS_Shoes_D00025C1=蒸汽25蓝重甲
+ZDCS_Shoes_D00040C1=蒸汽40蓝重甲
+ZDCS_Shoes_D00040D1=蒸汽40紫重甲
+ZDCS_Hat_D00025C1=蒸汽25蓝重甲
+ZDCS_Hat_D00040C1=蒸汽40蓝重甲
+ZDCS_Hat_D00040D1=蒸汽40紫重甲
+ZDCS_Wrist_D00025C1=蒸汽25蓝重甲
+ZDCS_Wrist_D00040C1=蒸汽40蓝重甲
+ZDCS_Wrist_D00040D1=蒸汽40紫重甲
+ZDCS_Belt_D00025C1=蒸汽25蓝重甲
+ZDCS_Belt_D00040C1=蒸汽40蓝重甲
+ZDCS_Belt_D00040D1=蒸汽40紫重甲
+ZDCS_Mantle_00025C1=蒸汽25蓝披风
+ZDCS_Mantle_00040C1=蒸汽40蓝披风
+ZDCS_Mantle_00040D1=蒸汽40紫披风
+ZDCS_Cloth_A50025C1=奇幻25蓝布甲
+ZDCS_Cloth_A50040C1=奇幻40蓝布甲
+ZDCS_Cloth_A50040D1=奇幻40紫布甲
+ZDCS_Hand_A50025C1=奇幻25蓝布甲
+ZDCS_Hand_A50040C1=奇幻40蓝布甲
+ZDCS_Hand_A50040D1=奇幻40紫布甲
+ZDCS_Pants_A50025C1=奇幻25蓝布甲
+ZDCS_Pants_A50040C1=奇幻40蓝布甲
+ZDCS_Pants_A50040D1=奇幻40紫布甲
+ZDCS_Shoes_A50025C1=奇幻25蓝布甲
+ZDCS_Shoes_A50040C1=奇幻40蓝布甲
+ZDCS_Shoes_A50040D1=奇幻40紫布甲
+ZDCS_Hat_A50025C1=奇幻25蓝布甲
+ZDCS_Hat_A50040C1=奇幻40蓝布甲
+ZDCS_Hat_A50040D1=奇幻40紫布甲
+ZDCS_Wrist_A50025C1=奇幻25蓝布甲
+ZDCS_Wrist_A50040C1=奇幻40蓝布甲
+ZDCS_Wrist_A50040D1=奇幻40紫布甲
+ZDCS_Belt_A50025C1=奇幻25蓝布甲
+ZDCS_Belt_A50040C1=奇幻40蓝布甲
+ZDCS_Belt_A50040D1=奇幻40紫布甲
+ZDCS_Cloth_B50025C1=奇幻25蓝布甲
+ZDCS_Cloth_B50040C1=奇幻40蓝布甲
+ZDCS_Cloth_B50040D1=奇幻40紫布甲
+ZDCS_Hand_B50025C1=奇幻25蓝布甲
+ZDCS_Hand_B50040C1=奇幻40蓝布甲
+ZDCS_Hand_B50040D1=奇幻40紫布甲
+ZDCS_Pants_B50025C1=奇幻25蓝皮甲
+ZDCS_Pants_B50040C1=奇幻40蓝皮甲
+ZDCS_Pants_B50040D1=奇幻40紫皮甲
+ZDCS_Shoes_B50025C1=奇幻25蓝皮甲
+ZDCS_Shoes_B50040C1=奇幻40蓝皮甲
+ZDCS_Shoes_B50040D1=奇幻40紫皮甲
+ZDCS_Hat_B50025C1=奇幻25蓝皮甲
+ZDCS_Hat_B50040C1=奇幻40蓝皮甲
+ZDCS_Hat_B50040D1=奇幻40紫皮甲
+ZDCS_Wrist_B50025C1=奇幻25蓝皮甲
+ZDCS_Wrist_B50040C1=奇幻40蓝皮甲
+ZDCS_Wrist_B50040D1=奇幻40紫皮甲
+ZDCS_Belt_B50025C1=奇幻25蓝皮甲
+ZDCS_Belt_B50040C1=奇幻40蓝皮甲
+ZDCS_Belt_B50040D1=奇幻40紫皮甲
+ZDCS_Cloth_C50025C1=奇幻25蓝皮甲
+ZDCS_Cloth_C50040C1=奇幻40蓝皮甲
+ZDCS_Cloth_C50040D1=奇幻40紫皮甲
+ZDCS_Hand_C50025C1=奇幻25蓝皮甲
+ZDCS_Hand_C50040C1=奇幻40蓝皮甲
+ZDCS_Hand_C50040D1=奇幻40紫皮甲
+ZDCS_Pants_C50025C1=奇幻25蓝皮甲
+ZDCS_Pants_C50040C1=奇幻40蓝皮甲
+ZDCS_Pants_C50040D1=奇幻40紫皮甲
+ZDCS_Shoes_C50025C1=奇幻25蓝皮甲
+ZDCS_Shoes_C50040C1=奇幻40蓝皮甲
+ZDCS_Shoes_C50040D1=奇幻40紫皮甲
+ZDCS_Hat_C50025C1=奇幻25蓝皮甲
+ZDCS_Hat_C50040C1=奇幻40蓝皮甲
+ZDCS_Hat_C50040D1=奇幻40紫皮甲
+ZDCS_Wrist_C50025C1=奇幻25蓝皮甲
+ZDCS_Wrist_C50040C1=奇幻40蓝皮甲
+ZDCS_Wrist_C50040D1=奇幻40紫皮甲
+ZDCS_Belt_C50025C1=奇幻25蓝皮甲
+ZDCS_Belt_C50040C1=奇幻40蓝皮甲
+ZDCS_Belt_C50040D1=奇幻40紫皮甲
+ZDCS_Cloth_D50025C1=奇幻25蓝重甲
+ZDCS_Cloth_D50040C1=奇幻40蓝重甲
+ZDCS_Cloth_D50040D1=奇幻40紫重甲
+ZDCS_Hand_D50025C1=奇幻25蓝重甲
+ZDCS_Hand_D50040C1=奇幻40蓝重甲
+ZDCS_Hand_D50040D1=奇幻40紫重甲
+ZDCS_Pants_D50025C1=奇幻25蓝重甲
+ZDCS_Pants_D50040C1=奇幻40蓝重甲
+ZDCS_Pants_D50040D1=奇幻40紫重甲
+ZDCS_Shoes_D50025C1=奇幻25蓝重甲
+ZDCS_Shoes_D50040C1=奇幻40蓝重甲
+ZDCS_Shoes_D50040D1=奇幻40紫重甲
+ZDCS_Hat_D50025C1=奇幻25蓝重甲
+ZDCS_Hat_D50040C1=奇幻40蓝重甲
+ZDCS_Hat_D50040D1=奇幻40紫重甲
+ZDCS_Wrist_D50025C1=奇幻25蓝重甲
+ZDCS_Wrist_D50040C1=奇幻40蓝重甲
+ZDCS_Wrist_D50040D1=奇幻40紫重甲
+ZDCS_Belt_D50025C1=奇幻25蓝重甲
+ZDCS_Belt_D50040C1=奇幻40蓝重甲
+ZDCS_Belt_D50040D1=奇幻40紫重甲
+ZDCS_Mantle_50025C1=奇幻25蓝披风
+ZDCS_Mantle_50040C1=奇幻40蓝披风
+ZDCS_Mantle_50040D1=奇幻40紫披风
+ZDCS_Jewelry_00025C1=通用25蓝饰物
+ZDCS_Jewelry_00040C1=通用40蓝饰物
+ZDCS_Jewelry_00040D1=通用40紫饰物
+ZDCS_Ring_00025C1=通用25蓝戒指
+ZDCS_Ring_00040C1=通用40蓝戒指
+ZDCS_Ring_00040D1=通用40紫戒指
+ZDCS_Necklace_00025C1=通用25蓝项链
+ZDCS_Necklace_00040C1=通用40蓝项链
+ZDCS_Necklace_00040D1=通用40紫项链
+desc_ZDCS_Cloth_A00025C1=<font color="#939301"></font>
+desc_ZDCS_Cloth_A00040C1=<font color="#939301"></font>
+desc_ZDCS_Cloth_A00040D1=<font color="#939301"></font>
+desc_ZDCS_Hand_A00025C1=<font color="#939301"></font>
+desc_ZDCS_Hand_A00040C1=<font color="#939301"></font>
+desc_ZDCS_Hand_A00040D1=<font color="#939301"></font>
+desc_ZDCS_Pants_A00025C1=<font color="#939301"></font>
+desc_ZDCS_Pants_A00040C1=<font color="#939301"></font>
+desc_ZDCS_Pants_A00040D1=<font color="#939301"></font>
+desc_ZDCS_Shoes_A00025C1=<font color="#939301"></font>
+desc_ZDCS_Shoes_A00040C1=<font color="#939301"></font>
+desc_ZDCS_Shoes_A00040D1=<font color="#939301"></font>
+desc_ZDCS_Hat_A00025C1=<font color="#939301"></font>
+desc_ZDCS_Hat_A00040C1=<font color="#939301"></font>
+desc_ZDCS_Hat_A00040D1=<font color="#939301"></font>
+desc_ZDCS_Wrist_A00025C1=<font color="#939301"></font>
+desc_ZDCS_Wrist_A00040C1=<font color="#939301"></font>
+desc_ZDCS_Wrist_A00040D1=<font color="#939301"></font>
+desc_ZDCS_Belt_A00025C1=<font color="#939301"></font>
+desc_ZDCS_Belt_A00040C1=<font color="#939301"></font>
+desc_ZDCS_Belt_A00040D1=<font color="#939301"></font>
+desc_ZDCS_Cloth_B00025C1=<font color="#939301"></font>
+desc_ZDCS_Cloth_B00040C1=<font color="#939301"></font>
+desc_ZDCS_Cloth_B00040D1=<font color="#939301"></font>
+desc_ZDCS_Hand_B00025C1=<font color="#939301"></font>
+desc_ZDCS_Hand_B00040C1=<font color="#939301"></font>
+desc_ZDCS_Hand_B00040D1=<font color="#939301"></font>
+desc_ZDCS_Pants_B00025C1=<font color="#939301"></font>
+desc_ZDCS_Pants_B00040C1=<font color="#939301"></font>
+desc_ZDCS_Pants_B00040D1=<font color="#939301"></font>
+desc_ZDCS_Shoes_B00025C1=<font color="#939301"></font>
+desc_ZDCS_Shoes_B00040C1=<font color="#939301"></font>
+desc_ZDCS_Shoes_B00040D1=<font color="#939301"></font>
+desc_ZDCS_Hat_B00025C1=<font color="#939301"></font>
+desc_ZDCS_Hat_B00040C1=<font color="#939301"></font>
+desc_ZDCS_Hat_B00040D1=<font color="#939301"></font>
+desc_ZDCS_Wrist_B00025C1=<font color="#939301"></font>
+desc_ZDCS_Wrist_B00040C1=<font color="#939301"></font>
+desc_ZDCS_Wrist_B00040D1=<font color="#939301"></font>
+desc_ZDCS_Belt_B00025C1=<font color="#939301"></font>
+desc_ZDCS_Belt_B00040C1=<font color="#939301"></font>
+desc_ZDCS_Belt_B00040D1=<font color="#939301"></font>
+desc_ZDCS_Cloth_C00025C1=<font color="#939301"></font>
+desc_ZDCS_Cloth_C00040C1=<font color="#939301"></font>
+desc_ZDCS_Cloth_C00040D1=<font color="#939301"></font>
+desc_ZDCS_Hand_C00025C1=<font color="#939301"></font>
+desc_ZDCS_Hand_C00040C1=<font color="#939301"></font>
+desc_ZDCS_Hand_C00040D1=<font color="#939301"></font>
+desc_ZDCS_Pants_C00025C1=<font color="#939301"></font>
+desc_ZDCS_Pants_C00040C1=<font color="#939301"></font>
+desc_ZDCS_Pants_C00040D1=<font color="#939301"></font>
+desc_ZDCS_Shoes_C00025C1=<font color="#939301"></font>
+desc_ZDCS_Shoes_C00040C1=<font color="#939301"></font>
+desc_ZDCS_Shoes_C00040D1=<font color="#939301"></font>
+desc_ZDCS_Hat_C00025C1=<font color="#939301"></font>
+desc_ZDCS_Hat_C00040C1=<font color="#939301"></font>
+desc_ZDCS_Hat_C00040D1=<font color="#939301"></font>
+desc_ZDCS_Wrist_C00025C1=<font color="#939301"></font>
+desc_ZDCS_Wrist_C00040C1=<font color="#939301"></font>
+desc_ZDCS_Wrist_C00040D1=<font color="#939301"></font>
+desc_ZDCS_Belt_C00025C1=<font color="#939301"></font>
+desc_ZDCS_Belt_C00040C1=<font color="#939301"></font>
+desc_ZDCS_Belt_C00040D1=<font color="#939301"></font>
+desc_ZDCS_Cloth_D00025C1=<font color="#939301"></font>
+desc_ZDCS_Cloth_D00040C1=<font color="#939301"></font>
+desc_ZDCS_Cloth_D00040D1=<font color="#939301"></font>
+desc_ZDCS_Hand_D00025C1=<font color="#939301"></font>
+desc_ZDCS_Hand_D00040C1=<font color="#939301"></font>
+desc_ZDCS_Hand_D00040D1=<font color="#939301"></font>
+desc_ZDCS_Pants_D00025C1=<font color="#939301"></font>
+desc_ZDCS_Pants_D00040C1=<font color="#939301"></font>
+desc_ZDCS_Pants_D00040D1=<font color="#939301"></font>
+desc_ZDCS_Shoes_D00025C1=<font color="#939301"></font>
+desc_ZDCS_Shoes_D00040C1=<font color="#939301"></font>
+desc_ZDCS_Shoes_D00040D1=<font color="#939301"></font>
+desc_ZDCS_Hat_D00025C1=<font color="#939301"></font>
+desc_ZDCS_Hat_D00040C1=<font color="#939301"></font>
+desc_ZDCS_Hat_D00040D1=<font color="#939301"></font>
+desc_ZDCS_Wrist_D00025C1=<font color="#939301"></font>
+desc_ZDCS_Wrist_D00040C1=<font color="#939301"></font>
+desc_ZDCS_Wrist_D00040D1=<font color="#939301"></font>
+desc_ZDCS_Belt_D00025C1=<font color="#939301"></font>
+desc_ZDCS_Belt_D00040C1=<font color="#939301"></font>
+desc_ZDCS_Belt_D00040D1=<font color="#939301"></font>
+desc_ZDCS_Mantle_00025C1=<font color="#939301"></font>
+desc_ZDCS_Mantle_00040C1=<font color="#939301"></font>
+desc_ZDCS_Mantle_00040D1=<font color="#939301"></font>
+desc_ZDCS_Cloth_A50025C1=<font color="#939301"></font>
+desc_ZDCS_Cloth_A50040C1=<font color="#939301"></font>
+desc_ZDCS_Cloth_A50040D1=<font color="#939301"></font>
+desc_ZDCS_Hand_A50025C1=<font color="#939301"></font>
+desc_ZDCS_Hand_A50040C1=<font color="#939301"></font>
+desc_ZDCS_Hand_A50040D1=<font color="#939301"></font>
+desc_ZDCS_Pants_A50025C1=<font color="#939301"></font>
+desc_ZDCS_Pants_A50040C1=<font color="#939301"></font>
+desc_ZDCS_Pants_A50040D1=<font color="#939301"></font>
+desc_ZDCS_Shoes_A50025C1=<font color="#939301"></font>
+desc_ZDCS_Shoes_A50040C1=<font color="#939301"></font>
+desc_ZDCS_Shoes_A50040D1=<font color="#939301"></font>
+desc_ZDCS_Hat_A50025C1=<font color="#939301"></font>
+desc_ZDCS_Hat_A50040C1=<font color="#939301"></font>
+desc_ZDCS_Hat_A50040D1=<font color="#939301"></font>
+desc_ZDCS_Wrist_A50025C1=<font color="#939301"></font>
+desc_ZDCS_Wrist_A50040C1=<font color="#939301"></font>
+desc_ZDCS_Wrist_A50040D1=<font color="#939301"></font>
+desc_ZDCS_Belt_A50025C1=<font color="#939301"></font>
+desc_ZDCS_Belt_A50040C1=<font color="#939301"></font>
+desc_ZDCS_Belt_A50040D1=<font color="#939301"></font>
+desc_ZDCS_Cloth_B50025C1=<font color="#939301"></font>
+desc_ZDCS_Cloth_B50040C1=<font color="#939301"></font>
+desc_ZDCS_Cloth_B50040D1=<font color="#939301"></font>
+desc_ZDCS_Hand_B50025C1=<font color="#939301"></font>
+desc_ZDCS_Hand_B50040C1=<font color="#939301"></font>
+desc_ZDCS_Hand_B50040D1=<font color="#939301"></font>
+desc_ZDCS_Pants_B50025C1=<font color="#939301"></font>
+desc_ZDCS_Pants_B50040C1=<font color="#939301"></font>
+desc_ZDCS_Pants_B50040D1=<font color="#939301"></font>
+desc_ZDCS_Shoes_B50025C1=<font color="#939301"></font>
+desc_ZDCS_Shoes_B50040C1=<font color="#939301"></font>
+desc_ZDCS_Shoes_B50040D1=<font color="#939301"></font>
+desc_ZDCS_Hat_B50025C1=<font color="#939301"></font>
+desc_ZDCS_Hat_B50040C1=<font color="#939301"></font>
+desc_ZDCS_Hat_B50040D1=<font color="#939301"></font>
+desc_ZDCS_Wrist_B50025C1=<font color="#939301"></font>
+desc_ZDCS_Wrist_B50040C1=<font color="#939301"></font>
+desc_ZDCS_Wrist_B50040D1=<font color="#939301"></font>
+desc_ZDCS_Belt_B50025C1=<font color="#939301"></font>
+desc_ZDCS_Belt_B50040C1=<font color="#939301"></font>
+desc_ZDCS_Belt_B50040D1=<font color="#939301"></font>
+desc_ZDCS_Cloth_C50025C1=<font color="#939301"></font>
+desc_ZDCS_Cloth_C50040C1=<font color="#939301"></font>
+desc_ZDCS_Cloth_C50040D1=<font color="#939301"></font>
+desc_ZDCS_Hand_C50025C1=<font color="#939301"></font>
+desc_ZDCS_Hand_C50040C1=<font color="#939301"></font>
+desc_ZDCS_Hand_C50040D1=<font color="#939301"></font>
+desc_ZDCS_Pants_C50025C1=<font color="#939301"></font>
+desc_ZDCS_Pants_C50040C1=<font color="#939301"></font>
+desc_ZDCS_Pants_C50040D1=<font color="#939301"></font>
+desc_ZDCS_Shoes_C50025C1=<font color="#939301"></font>
+desc_ZDCS_Shoes_C50040C1=<font color="#939301"></font>
+desc_ZDCS_Shoes_C50040D1=<font color="#939301"></font>
+desc_ZDCS_Hat_C50025C1=<font color="#939301"></font>
+desc_ZDCS_Hat_C50040C1=<font color="#939301"></font>
+desc_ZDCS_Hat_C50040D1=<font color="#939301"></font>
+desc_ZDCS_Wrist_C50025C1=<font color="#939301"></font>
+desc_ZDCS_Wrist_C50040C1=<font color="#939301"></font>
+desc_ZDCS_Wrist_C50040D1=<font color="#939301"></font>
+desc_ZDCS_Belt_C50025C1=<font color="#939301"></font>
+desc_ZDCS_Belt_C50040C1=<font color="#939301"></font>
+desc_ZDCS_Belt_C50040D1=<font color="#939301"></font>
+desc_ZDCS_Cloth_D50025C1=<font color="#939301"></font>
+desc_ZDCS_Cloth_D50040C1=<font color="#939301"></font>
+desc_ZDCS_Cloth_D50040D1=<font color="#939301"></font>
+desc_ZDCS_Hand_D50025C1=<font color="#939301"></font>
+desc_ZDCS_Hand_D50040C1=<font color="#939301"></font>
+desc_ZDCS_Hand_D50040D1=<font color="#939301"></font>
+desc_ZDCS_Pants_D50025C1=<font color="#939301"></font>
+desc_ZDCS_Pants_D50040C1=<font color="#939301"></font>
+desc_ZDCS_Pants_D50040D1=<font color="#939301"></font>
+desc_ZDCS_Shoes_D50025C1=<font color="#939301"></font>
+desc_ZDCS_Shoes_D50040C1=<font color="#939301"></font>
+desc_ZDCS_Shoes_D50040D1=<font color="#939301"></font>
+desc_ZDCS_Hat_D50025C1=<font color="#939301"></font>
+desc_ZDCS_Hat_D50040C1=<font color="#939301"></font>
+desc_ZDCS_Hat_D50040D1=<font color="#939301"></font>
+desc_ZDCS_Wrist_D50025C1=<font color="#939301"></font>
+desc_ZDCS_Wrist_D50040C1=<font color="#939301"></font>
+desc_ZDCS_Wrist_D50040D1=<font color="#939301"></font>
+desc_ZDCS_Belt_D50025C1=<font color="#939301"></font>
+desc_ZDCS_Belt_D50040C1=<font color="#939301"></font>
+desc_ZDCS_Belt_D50040D1=<font color="#939301"></font>
+desc_ZDCS_Mantle_50025C1=<font color="#939301"></font>
+desc_ZDCS_Mantle_50040C1=<font color="#939301"></font>
+desc_ZDCS_Mantle_50040D1=<font color="#939301"></font>
+desc_ZDCS_Jewelry_00025C1=<font color="#939301"></font>
+desc_ZDCS_Jewelry_00040C1=<font color="#939301"></font>
+desc_ZDCS_Jewelry_00040D1=<font color="#939301"></font>
+desc_ZDCS_Ring_00025C1=<font color="#939301"></font>
+desc_ZDCS_Ring_00040C1=<font color="#939301"></font>
+desc_ZDCS_Ring_00040D1=<font color="#939301"></font>
+desc_ZDCS_Necklace_00025C1=<font color="#939301"></font>
+desc_ZDCS_Necklace_00040C1=<font color="#939301"></font>
+desc_ZDCS_Necklace_00040D1=<font color="#939301"></font>
+ZDCS_Sword_00025C=25蓝单手剑
+ZDCS_Sword_00040C=40蓝单手剑
+ZDCS_Staff_00025C=25蓝法杖
+ZDCS_Staff_00040C=40蓝法杖
+ZDCS_Runewand_00025C=25蓝魔棒
+ZDCS_Runewand_00040C=40蓝魔棒
+ZDCS_Gun_00025C=25蓝枪械
+ZDCS_Gun_00040C=40蓝枪械
+ZDCS_Claymore_00025C=25蓝双手剑
+ZDCS_Claymore_00040C=40蓝双手剑
+ZDCS_Shield_00025C=25蓝盾
+ZDCS_Shield_00040C=40蓝盾
+ZDCS_Magicbottle_00025C=25蓝魔瓶
+ZDCS_Magicbottle_00040C=40蓝魔瓶
+ZDCS_Dagger_00025C=25蓝匕首
+ZDCS_Dagger_00040C=40蓝匕首
+ZDCS_Poleaxe_00025C=25蓝双手斧
+ZDCS_Poleaxe_00040C=40蓝双手斧
+ZDCS_Sword_00040D=40紫单手剑
+ZDCS_Staff_00040D=40紫法杖
+ZDCS_Runewand_00040D=40紫魔棒
+ZDCS_Gun_00040D=40紫枪械
+ZDCS_Claymore_00040D=40紫双手剑
+ZDCS_Shield_00040D=40紫盾
+ZDCS_Magicbottle_00040D=40紫魔瓶
+ZDCS_Dagger_00040D=40紫匕首
+ZDCS_Poleaxe_00040D=40紫双手斧
+desc_ZDCS_Sword_00025C=<font color="#939301"></font>
+desc_ZDCS_Sword_00040C=<font color="#939301"></font>
+desc_ZDCS_Staff_00025C=<font color="#939301"></font>
+desc_ZDCS_Staff_00040C=<font color="#939301"></font>
+desc_ZDCS_Runewand_00025C=<font color="#939301"></font>
+desc_ZDCS_Runewand_00040C=<font color="#939301"></font>
+desc_ZDCS_Gun_00025C=<font color="#939301"></font>
+desc_ZDCS_Gun_00040C=<font color="#939301"></font>
+desc_ZDCS_Claymore_00025C=<font color="#939301"></font>
+desc_ZDCS_Claymore_00040C=<font color="#939301"></font>
+desc_ZDCS_Shield_00025C=<font color="#939301"></font>
+desc_ZDCS_Shield_00040C=<font color="#939301"></font>
+desc_ZDCS_Magicbottle_00025C=<font color="#939301"></font>
+desc_ZDCS_Magicbottle_00040C=<font color="#939301"></font>
+desc_ZDCS_Dagger_00025C=<font color="#939301"></font>
+desc_ZDCS_Dagger_00040C=<font color="#939301"></font>
+desc_ZDCS_Poleaxe_00025C=<font color="#939301"></font>
+desc_ZDCS_Poleaxe_00040C=<font color="#939301"></font>
+desc_ZDCS_Sword_00040D=<font color="#939301"></font>
+desc_ZDCS_Staff_00040D=<font color="#939301"></font>
+desc_ZDCS_Runewand_00040D=<font color="#939301"></font>
+desc_ZDCS_Gun_00040D=<font color="#939301"></font>
+desc_ZDCS_Claymore_00040D=<font color="#939301"></font>
+desc_ZDCS_Shield_00040D=<font color="#939301"></font>
+desc_ZDCS_Magicbottle_00040D=<font color="#939301"></font>
+desc_ZDCS_Dagger_00040D=<font color="#939301"></font>
+desc_ZDCS_Poleaxe_00040D=<font color="#939301"></font>
+bx_zdcs_001=蒸汽25蓝色布甲
+bx_zdcs_002=蒸汽40蓝色布甲
+bx_zdcs_003=蒸汽40紫色布甲
+bx_zdcs_004=蒸汽25蓝色皮甲
+bx_zdcs_005=蒸汽40蓝色皮甲
+bx_zdcs_006=蒸汽40紫色皮甲
+bx_zdcs_007=蒸汽25蓝色中甲
+bx_zdcs_008=蒸汽40蓝色中甲
+bx_zdcs_009=蒸汽40紫色中甲
+bx_zdcs_010=蒸汽25蓝色重甲
+bx_zdcs_011=蒸汽40蓝色重甲
+bx_zdcs_012=蒸汽40紫色重甲
+bx_zdcs_013=奇幻25蓝色布甲
+bx_zdcs_014=奇幻40蓝色布甲
+bx_zdcs_015=奇幻40紫色布甲
+bx_zdcs_016=奇幻25蓝色皮甲
+bx_zdcs_017=奇幻40蓝色皮甲
+bx_zdcs_018=奇幻40紫色皮甲
+bx_zdcs_019=奇幻25蓝色中甲
+bx_zdcs_020=奇幻40蓝色中甲
+bx_zdcs_021=奇幻40紫色中甲
+bx_zdcs_022=奇幻25蓝色重甲
+bx_zdcs_023=奇幻40蓝色重甲
+bx_zdcs_024=奇幻40紫色重甲
+bx_zdcs_025=25蓝色首饰
+bx_zdcs_026=40蓝色首饰
+bx_zdcs_027=40紫色首饰
+bx_zdcs_028=25蓝色武器
+bx_zdcs_029=40蓝色武器
+bx_zdcs_030=40紫色武器
+desc_bx_zdcs_001=<font color="#02e939"></font>
+desc_bx_zdcs_002=<font color="#02e939">
+desc_bx_zdcs_003=<font color="#02e939">
+desc_bx_zdcs_004=<font color="#02e939">
+desc_bx_zdcs_005=<font color="#02e939">
+desc_bx_zdcs_006=<font color="#02e939">
+desc_bx_zdcs_007=<font color="#02e939">
+desc_bx_zdcs_008=<font color="#02e939">
+desc_bx_zdcs_009=<font color="#02e939">
+desc_bx_zdcs_010=<font color="#02e939">
+desc_bx_zdcs_011=<font color="#02e939">
+desc_bx_zdcs_012=<font color="#02e939">
+desc_bx_zdcs_013=<font color="#02e939">
+desc_bx_zdcs_014=<font color="#02e939">
+desc_bx_zdcs_015=<font color="#02e939">
+desc_bx_zdcs_016=<font color="#02e939">
+desc_bx_zdcs_017=<font color="#02e939">
+desc_bx_zdcs_018=<font color="#02e939">
+desc_bx_zdcs_019=<font color="#02e939">
+desc_bx_zdcs_020=<font color="#02e939">
+desc_bx_zdcs_021=<font color="#02e939">
+desc_bx_zdcs_022=<font color="#02e939">
+desc_bx_zdcs_023=<font color="#02e939">
+desc_bx_zdcs_024=<font color="#02e939">
+desc_bx_zdcs_025=<font color="#02e939">
+desc_bx_zdcs_026=<font color="#02e939">
+desc_bx_zdcs_027=<font color="#02e939">
+desc_bx_zdcs_028=<font color="#02e939">
+desc_bx_zdcs_029=<font color="#02e939">
+desc_bx_zdcs_030=<font color="#02e939">

@@ -1,0 +1,99 @@
+﻿
+//系统邮件内容配置
+//<s> = "缩进符"  <br> = "换行符"  <center> .. </center> = "居中符"
+//服务器发送内容格式说明:如内容中有参数,按内容ID|参数1|参数2......发送,如参数为年月日,时分秒,物品超连接,普通物品名等,按以下格式发送
+//年月日:年;月;日(三个都必须填写)
+//时分秒:时:分:秒(三个都必须填写)
+//物品超连接:configid&uniqueid
+//普通物品名:*configid
+//金钱:$money(金钱数量,单位铜)
+//例:ui_jingpaichenggong_content|2012;8;27|14:15:23|Defensive_00008C&001-300-1345710591-0946|*Defensive_00008C|$30000|Defensive_00008C&001-300-1345710591-0946
+
+//拍卖行
+ui_letter_title_ah_consign_failure = 寄售失败
+ui_letter_title_ah_bid_failure = 竟拍失败
+ui_letter_title_ah_bid_success = 竟拍成功
+ui_letter_title_ah_sold_success = 拍卖成功
+ui_letter_title_ah_sold_failure = 拍卖到期
+ui_letter_title_ah_cancel_consign = 取消拍卖
+ui_letter_content_ah_consign_failure = <s>你于{@0:date}寄售{@1:goods}失败
+ui_letter_content_ah_bid_failure = <s>你于{@0:date}竟拍{@1:goods}失败
+ui_letter_content_ah_bid_down_item = <s>你于{@0:date}成功买下{@1:goods}<br><s>成交价:{@2:price}
+ui_letter_content_ah_sold = <s>你于{@0:date}售出{@1:goods}<br><s>成交价:{@2:price}<br><s>手续费:{@3:price}
+ui_letter_content_ah_timeout_unsold = <s>你于{@0:date}寄售的{@1:goods}物品到期
+ui_letter_content_ah_cancel_consign = <s>你于{@0:date}取消{@1:goods}的拍卖
+
+ui_jingpaichenggong_title=竟拍成功
+ui_jingpaichenggong_content=<s>你于{@0:date}竟拍的{@1:goods}物品成功<br><s>成交价:{@2:one_price}<br><s>手续费:{@3:two_price}
+ui_jingpaishibai_title=竟拍失败
+ui_jingpaishibai_content=<s>你于{@0:date}竟拍的{@1:goods}物品失败<br><s>起拍价:{@2:one_price}<br><s>一口价:{@3:two_price}
+ui_paimaidaoqi_title=拍卖到期
+ui_paimaidaoqi_content=<s>你于{@0:date}拍卖的{@1:goods}物品到期<br><s>起拍价:{@2:one_price}<br><s>一口价:{@3:two_price}
+ui_paimaichenggong_title=拍卖成功
+ui_paimaichenggong_content=<s>你于{@0:date}拍卖的{@1:goods}物品成功<br><s>成交价:{@2:one_price}<br><s>手续费:{@3:two_price}
+ui_quxiaopaimai_title=取消拍卖
+ui_quxiaopaimai_content=<s>你于{@0:date}拍卖的{@1:goods}物品取消<br><s>起拍价:{@2:one_price}<br><s>一口价:{@3:two_price}
+ui_battlewarprize_title=战场奖励
+ui_battlewarprize_content=<s>尊敬的勇士，鉴于您在{@0:name} 战场中的英勇表现，战场管理委员会决定给予嘉奖，请注意查收！
+
+ui_webchangepmail_title=集市交易
+ui_webchangepmail_content=<s>集市交易成功，您买的道具和黑金，请注意查收！
+
+ui_pvptaskprize_title=pvp活动特殊奖励
+ui_pvptaskprize_content=<s>尊敬的勇士，鉴于您在pvp活动中的英勇表现，pvp活动管理委员会决定给予特别嘉奖，请注意查收！
+ui_freshmanprize_title=通关奖励<扭曲空间>
+ui_freshmanprize_content=杀死扭曲空间的远古石魂，获得奖励
+ui_freshmanprize_title_1=通关奖励<阿萨雷的仓库>
+ui_freshmanprize_content_1=杀死阿萨雷的仓库的蒸汽人休斯，获得奖励
+ui_chargeshop_title={@0:name} 赠送给您的礼物，请接收！以下是附带的赠言：
+email-title=系统邮件
+email-content=<s>欢迎来到神奇大黑金世界，好看好玩都在黑金。
+
+//监狱专用
+ui_jianyu_in1_title=系统邮件
+ui_jianyu_in1_content=年轻人：<br><s>虽然这是在战争年代，但是恶意杀戮依然要承担后果。<br><s>这个地方是我们精心打造的一处世外之地，你能够在这里花点时间好好的反思一下。希望你能够在这里探索之余，找到我们隐藏在这里的秘密。<br><s>查询自己什么时候可以离开，可以找<font color="#ff0000">监察员</font>。<br><s>关押时间结束时可以去找<font color="#ff0000">向导</font>离开。<br><br>                      威廉·贝里克
+ui_jianyu_in2_title=系统邮件
+ui_jianyu_in2_content=年轻人：<br><s>虽然这是在战争年代，但是恶意杀戮依然要承担后果。<br><s>这个地方是我们精心打造的一处世外之地，你能够在这里花点时间好好的反思一下。希望你能够在这里探索之余，找到我们隐藏在这里的秘密。<br><s>查询自己什么时候可以离开，可以找<font color="#ff0000">监察员</font>。<br><s>关押时间结束时可以去找<font color="#ff0000">向导</font>离开。<br><br>                      布拉德·控魔
+ui_jianyu_in3_title=系统邮件
+ui_jianyu_in3_content=亲爱的玩家：<br><s>由于监测到你的角色具有使用外挂或利用bug的嫌疑，工作人员只能把你的角色调入到此处协助检查。如果你有异议，建议联系GM，或者去官网找客服申诉。<br><s>想要查询自己什么时候可以离开，你可以询问<font color="#ff0000">典狱官</font>。<br><s>冻结时间结束时你才可以去找<font color="#ff0000">向导</font>离开。<br><s><font color="#ff0000">你并不需要在线等待冻结时间的结束。</font><br><br>                《黑金》运营团队
+ui_jianyu_out1_title=系统邮件           
+ui_jianyu_out1_content=年轻人：<br><s>首先恭喜你终于可以离开这里了，现在可以随时去找<font color="#ff0000">向导</font>选择是否离开这里。不知你在这里是否探索到我们隐藏的秘密，嘿嘿，如果没有的话也没有关系。希望你这次离开之后，能够克已止怒，快乐游戏，冲动是魔鬼！<br><br>                      威廉·贝里克
+ui_jianyu_out2_title=系统邮件
+ui_jianyu_out2_content=年轻人：<br><s>首先恭喜你终于可以离开这里了，现在可以随时去找<font color="#ff0000">向导</font>选择是否离开这里。不知你在这里是否探索到我们隐藏的秘密，嘿嘿，如果没有的话也没有关系。希望你这次离开之后，能够克已止怒，快乐游戏，冲动是魔鬼！<br><br>                      布拉德·控魔
+ui_jianyu_out3_title=系统邮件
+ui_jianyu_out3_content=亲爱的玩家：<br><s>你的角色禁闭时间已经结束，现在可以随时去找<font color="#ff0000">向导</font>选择是否离开这里。希望你这次离开之后，珍惜自己的账号，正常游戏。<br><br><br>                《黑金》运营团队
+
+//能量井
+ui_letter_title_ew_cancel_produce = 取消载具制造
+ui_letter_content_ew_cancel_produce = <s>你于{@0:date}取消了{@1:ew_name}的{@2:carrier_name}的制造。
+Energywell_text_13=亲爱的玩家：<br><s>您宣战的能量井已有更高的竞标价，宣战金额被退回。<br><s>请注意查收。
+Energywell_text_14=亲爱的玩家：<br><s>您在公会战中的杰出表现，根据您的个人总评分发放奖励。<br><s>请注意查收。
+
+//求购行
+ui_letter_title_asktobuy_cancel_bill = 取消求购单
+ui_letter_title_asktobuy_bill_sold = 求购成功
+ui_letter_title_asktobuy_sell = 出售成功
+ui_letter_title_asktobuy_time_over = 求购单到期
+
+ui_letter_content_asktobuy_cancel_bill = <s>你于{@0:date}取消对{@1:goods}物品的求购<br><s>返还剩余预存费{@2:price}
+ui_letter_content_asktobuy_bill_sold = <s>你于{@0:date}以单价{@2:price}成功求购到{@1:goods}{@3:amount}个
+ui_letter_content_asktobuy_sell = <s>你于{@0:date}以单价{@2:price}成功出售{@1:goods}{@3:amount}个<br><s>成交价:{@4:profit}<br><s>手续费:{@5:fee}
+ui_letter_content_asktobuy_over_sell = <s>你于{@0:date}以单价{@2:price}成功出售{@1:goods}{@3:amount}个<br><s>返还剩余物品{@4:amount}个<br><s>成交价:{@5:profit}<br><s>手续费:{@6:fee}
+ui_letter_content_asktobuy_time_over = <s>你对{@1:goods}的求购已于{@0:date}到期<br><s>剩余求购量{@2:amount}个<br><s>返还剩余预存费{@3:price}
+
+//系统邮件来源定义
+ui_system_mail_source_0=系统
+ui_system_mail_source_1=黑金运营团队
+ui_system_mail_source_2=新手
+ui_system_mail_source_19=拍卖行
+ui_system_mail_source_22=求购行
+ui_system_mail_source_30=工厂实验室
+ui_system_mail_source_31=工厂车间
+ui_system_mail_source_40=工会
+ui_system_mail_source_50=战场委员会
+ui_system_mail_source_60=商城
+ui_system_mail_source_67=黑金集市
+
+//事件
+event_mail_title=黑金事件邮件
+event_mail_content=<s>亲爱的用户，您有来自黑金运营团队的邮件。由于您的背包已满，您在事件途中获得的道具，已发送到您的邮箱。在冒险途中注意经常清理背包才能收到事件的奖励哦。

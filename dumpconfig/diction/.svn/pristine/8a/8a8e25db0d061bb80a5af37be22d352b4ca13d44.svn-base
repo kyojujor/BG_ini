@@ -1,0 +1,5353 @@
+﻿
+//角色系统
+ui_main_funcmenu_role=角色(C)
+ui_show_role_prop=更多属性
+ui_hide_role_prop=隐藏
+ui_role_prop_info=角色属性
+ui_player_job_equ={@0:name}的职业装备
+ui_cur_equ_skill=当前装备技能：
+ui_cur_equ_normalskill=常规技能
+ui_cur_equ_specialskill=特殊技能
+ui_cur_job_equ=当前职业装：
+ui_canequ_weapon=可用武器：
+ui_canequ_armor=推荐装备：
+ui_canequ_weapon_1=单手剑
+ui_canequ_armor_1=中甲，重甲
+ui_canequ_weapon_2=单手锤，主手锤
+ui_canequ_armor_2=布甲，皮甲
+ui_canequ_weapon_3=双手法杖
+ui_canequ_armor_3=布甲，皮甲，中甲，重甲
+ui_canequ_weapon_4=单手剑
+ui_canequ_armor_4=布甲，皮甲，中甲，重甲
+ui_canequ_weapon_5=单手斧
+ui_canequ_armor_5=布甲，皮甲，中甲，重甲
+ui_canequ_weapon_6=单手剑
+ui_canequ_armor_6=中甲，重甲
+ui_canequ_weapon_7=魔棒
+ui_canequ_armor_7=布甲，皮甲，中甲，重甲
+ui_canequ_weapon_8=双手法杖
+ui_canequ_armor_8=布甲，皮甲
+ui_canequ_weapon_21=单手剑，盾
+ui_canequ_armor_21=重甲
+ui_canequ_weapon_22=长枪，双手枪
+ui_canequ_armor_22=中甲
+ui_canequ_weapon_23=匕首
+ui_canequ_armor_23=中甲
+ui_canequ_weapon_24=双手斧
+ui_canequ_armor_24=布甲，皮甲，中甲，重甲
+ui_canequ_weapon_25=双手枪
+ui_canequ_armor_25=布甲，皮甲，中甲，重甲
+ui_canequ_weapon_26=单手剑，盾
+ui_canequ_armor_26=布甲，皮甲，中甲，重甲
+ui_canequ_weapon_27=双手法杖，魔棒，魔瓶
+ui_canequ_armor_27=皮甲
+ui_canequ_weapon_28=双手法杖，魔棒，魔瓶
+ui_canequ_armor_28=布甲
+ui_canequ_weapon_29=双手法杖，魔棒，盾，魔瓶
+ui_canequ_armor_29=布甲
+ui_canequ_weapon_30=单手剑
+ui_canequ_armor_30=布甲，皮甲，中甲，重甲
+ui_canequ_weapon_31=单手剑
+ui_canequ_armor_31=布甲，皮甲，中甲，重甲
+ui_canequ_weapon_32=单手剑
+ui_canequ_armor_32=布甲，皮甲，中甲，重甲
+ui_canequ_weapon_33=单手斧，主手斧，盾
+ui_canequ_armor_33=布甲，皮甲，中甲，重甲
+ui_canequ_weapon_34=单手斧，主手斧，盾
+ui_canequ_armor_34=布甲，皮甲，中甲，重甲
+ui_canequ_weapon_35=单手斧，主手斧，盾
+ui_canequ_armor_35=布甲，皮甲，中甲，重甲
+ui_canequ_weapon_36=双手剑
+ui_canequ_armor_36=重甲
+ui_canequ_weapon_37=双手斧
+ui_canequ_armor_37=中甲
+ui_canequ_weapon_38=单手剑，盾
+ui_canequ_armor_38=重甲
+ui_canequ_weapon_39=双手法杖，主手魔棒，魔瓶
+ui_canequ_armor_39=布甲，皮甲，中甲，重甲
+ui_canequ_weapon_40=双手法杖，主手魔棒，魔瓶
+ui_canequ_armor_40=布甲，皮甲，中甲，重甲
+ui_canequ_weapon_41=弩
+ui_canequ_armor_41=布甲，皮甲，中甲，重甲
+ui_canequ_weapon_42=双手法杖，魔棒，魔瓶
+ui_canequ_armor_42=皮甲
+ui_canequ_weapon_43=双手法杖，魔棒，魔瓶
+ui_canequ_armor_43=布甲
+ui_canequ_weapon_44=双手法杖，魔棒，魔瓶
+ui_canequ_armor_44=布甲
+ui_role_desc_leftclick=
+ui_role_desc_rightclick=
+ui_role_Str=力量
+ui_role_Dex=敏捷
+ui_role_Ing=智力
+ui_role_Spi=精神
+ui_role_Sta=体质
+ui_role_Esth=感知
+ui_role_RMinPhyAttack=主手最小物理攻击力
+ui_role_RMaxPhyAttack=主手最大物理攻击力
+ui_role_LMinPhyAttack=副手最小物理攻击力
+ui_role_LMaxPhyAttack=副手最大物理攻击力
+ui_role_IntensityPhyAttack=物理强度
+ui_role_CritLevel=物理暴击
+ui_role_CritMulLevel=暴击倍率
+ui_role_PenetrateLevel=护甲穿透
+ui_role_AccurateLevel=物理精准
+ui_role_MinMagicAttack=主手最小法术攻击力
+ui_role_MaxMagicAttack=主手最大法术攻击力
+ui_role_IntensityMagicAttack=法术强度
+ui_role_MagCritLevel=法术暴击
+ui_role_MagPrecLevel=法术精准
+ui_role_Guard=护甲值
+ui_role_DefenseLevel=防御等级
+ui_role_DodgeLevel=物理闪避
+ui_role_MagdodgeLevel=法术躲避
+ui_role_AllResist=全抗性
+ui_role_Wind=风系抗性
+ui_role_WindAttack=风系攻击
+ui_role_Fire=火系抗性
+ui_role_FireAttack=火系攻击
+ui_role_Earth=土系抗性
+ui_role_EarthAttack=土系攻击
+ui_role_Lightning=雷系抗性
+ui_role_LightningAttack=雷系攻击
+ui_role_Water=水系抗性
+ui_role_WaterAttack=水系攻击
+ui_role_jzwlgj=物理攻击
+ui_role_fswlgj=法术攻击
+ui_role_shjc=神圣伤害
+ui_role_zljc=神圣治疗
+ui_role_sskx=神圣抗性
+ui_role_ElementDeepenLevel=元素加深
+ui_role_ElementResistLevel=元素减免
+ui_role_WeakdefVal=抵御值
+ui_role_FightPower=实力评分：
+ui_job_change=转职
+ui_job_change_Def=防御
+ui_job_change_Atk=攻击
+ui_job_change_Ctl=控制
+ui_job_change_Ast=辅助
+ui_job_change_Hold=续航
+ui_job_change_Sta=体质
+ui_job_change_choose=你可以进阶的职业：
+ui_notice_message = 血量不足10%，请注意
+ui_notice_message1 = 你的呼吸即将耗完，请注意
+ui_notice_message2 = 你正处于水下，血量正在减少，请赶快离开
+ui_tips_Wind=风系属性，影响角色风系攻击和风系抗性
+ui_tips_Fire=火系属性，影响角色火系攻击和火系抗性
+ui_tips_Earth=土系属性，影响角色土系攻击和土系抗性
+ui_tips_Water=水系属性，影响角色水系攻击和水系抗性
+ui_tips_Lightning=雷系属性，影响角色雷系攻击和雷系抗性
+ui_tips_Dark=暗系属性，影响角色暗系攻击和暗系抗性
+ui_role_info_base=基本
+ui_role_info_physical=物理
+ui_role_info_magic=法术
+ui_role_info_defence=防御
+ui_role_info_main=主属性加成
+ui_role_zhushuxing=主
+ui_zhuangbei=装备
+ui_rp_pagecontrol_repute=声望
+ui_pet_mount=坐骑
+ui_role_pet=宠物
+ui_player_title=称号
+ui_energy=能量罐
+ui_tips_Fingerring=<font color="#00FF00">戒指</font>
+ui_tips_Jewelry=<font color="#00FF00">饰品</font>
+ui_tips_Weapon=<font color="#00FF00">武器</font>
+ui_tips_Hat=<font color="#00FF00">头盔</font>
+ui_tips_Neck=<font color="#00FF00">项链</font>
+ui_tips_Cloth=<font color="#00FF00">上衣</font>
+ui_tips_Wrist=<font color="#00FF00">护腕</font>
+ui_tips_Gloves=<font color="#00FF00">手套</font>
+ui_tips_Pants=<font color="#00FF00">下装</font>
+ui_tips_Belt=<font color="#00FF00">腰带</font>
+ui_tips_Shoes=<font color="#00FF00">鞋子</font>
+ui_tips_Mantle=<font color="#00FF00">披风</font>
+ui_tips_EnergyCanUse=<font color="#019DBE"><右击鼠标可使用,对装备充能后会绑定该装备></font>
+ui_tips_EnergyPartLevel=<font color="#ffffff">装备等级:{@0:PartLevel}级</font>
+ui_tips_CanEnergy=是否对此装备进行充能
+ui_tips_ExchangeEnergy=是否覆盖装备原有充能
+relation_hated=仇恨
+relation_hostile=敌对
+relation_unfriendly=冷淡
+relation_neutral=中立
+relation_friendly=友善
+relation_honored=尊敬
+relation_revered=崇敬
+relation_exalted=崇拜
+race_1=布冯特人
+race_2=菲尔隆蒂加人
+race_3=洛格玛人
+race_4=尤图恩人
+race_5=野蛮人
+race_6=喀什人
+job_1=仲裁者
+job_2=蒸汽学徒
+job_3=秘法师
+job_4=麦克骑士
+job_5=野性守护者
+job_6=猎魔人
+job_7=炼金师
+job_8=元素法师
+job_21=惩罚者
+job_22=神枪手
+job_23=执行者
+job_24=器械师
+job_25=构造师
+job_26=异教徒
+job_27=咒术师
+job_28=黑暗祭司
+job_29=女巫
+job_30=泰坦骑士
+job_31=风暴骑士
+job_32=破碎骑士
+job_33=熊人
+job_34=蛮牛人
+job_35=狼人
+job_36=刀锋战士
+job_37=狩猎者
+job_38=魔剑士
+job_39=炼器师
+job_40=医师
+job_41=变能师
+job_42=圣殿法师
+job_43=平衡法师
+job_44=流浪法师
+ui_hp=生命：
+ui_mp=魔法：
+ui_rc=怒气：
+ui_av=精神能量：
+ui_ey=蒸汽能量：
+ui_fs=先祖之魂：
+ui_ae=机甲能量：
+ui_ah=机甲生命：
+ui_dp=组合动作：<br/>快速按动两次W键，朝正前方突进。<br/>快速按动两次S键，朝正后方急退。<br/>快速按动两次A（或Q）键，朝左边翻滚。<br/>快速按动两次D（或E）键，朝右边翻滚。<br/><br/>躲闪值：
+ui_gerenxinxi=个人信息
+ui_ji=级
+ui_g_pvp=pvp
+ui_pvp_tips=活动(P)
+ui_role_physicalvalue=体力值：<br/>生活职业制作功能需要消耗体力值。<br/>每天{@0:}将会恢复{@1:}点。<br/>在线期间，每{@time4}恢复{@2:}点。
+ui_fightpower=角色属性实力评分
+ui_sticktrans_1=角色脱离卡点
+ui_sticktrans_2=确定要使用脱离卡点功能么？
+ui_sticktrans_3=脱离卡点功能还需冷却
+ui_energysheild_01=确定要给该能量盾充能吗？
+ui_tips_skillupgrade=您有可升级的技能，点击打开技能界面进行升级
+
+//语言
+ui_ChineseS=简体中文
+ui_English=English
+ui_languagechangetips=该设置需重新启动客户端方可生效，是否重新启动？
+
+//转职
+ui_transjob_ok=确定转职
+ui_play_video=观赏视频
+ui_end_video=结束播放
+ui_transjob_0001=职业武器：
+ui_transjob_0002=职业高阶技能：
+ui_transjob_0003=点击打开转职界面
+ui_transjpb_ratio_1=防御
+ui_transjpb_ratio_2=攻击
+ui_transjpb_ratio_3=控制
+ui_transjpb_ratio_4=辅助
+ui_transjpb_ratio_5=续航
+ui_transjpb_ratio_6=范围
+ui_job_cant_trans=女巫仅限女性角色转职
+
+//战斗状态
+logicstate_0=普通状态
+logicstate_1=战斗状态
+logicstate_102=休息状态
+
+//荣誉
+ui_have_honor=还可以获得{@0:}点荣誉值
+ui_next_rank=下一级需要{@0:}点荣誉值
+rank=军阶：
+honor=荣誉值：
+rank_level_101=列兵
+rank_level_102=高阶步兵
+rank_level_103=士官长
+rank_level_104=少尉
+rank_level_105=上尉
+rank_level_106=少校
+rank_level_107=上校
+rank_level_108=少将
+rank_level_109=上将
+rank_level_110=大元帅
+rank_level_201=侦察兵
+rank_level_202=高阶步兵
+rank_level_203=军士长
+rank_level_204=军团卫士
+rank_level_205=一等卫士长
+rank_level_206=皇家骑士
+rank_level_207=骑士队长
+rank_level_208=将军
+rank_level_209=高阶督军
+rank_level_210=执政官
+
+//登陆
+ui_game_into=进入游戏
+ui_login_save=保存账号
+ui_login_set=游戏设置
+ui_login_exit=退出游戏
+ui_roles_delete=删除角色
+ui_roles_return=返回登录
+ui_create_Face=脸型
+ui_create_Hair=发型
+ui_create_Hat=发型
+ui_create_Beard=胡须
+ui_create_HairColor=毛发颜色
+ui_create_SkinColor=皮肤颜色
+ui_create_Tattoo=面纹
+ui_create_TattooColor=面纹颜色
+ui_create_ok=创建角色
+ui_create_back=返回
+ui_create_prew=上一步
+ui_create_next=下一步
+ui_createrolefailed=创建角色失败
+ui_exitingapp=正在退出程序…
+ui_runscriptok=运行脚本函数成功
+ui_runscriptno=无法运行脚本函数
+ui_exportappinfook=导出程序信息成功
+ui_exportappinfono=导出程序信息失败
+ui_connectserver=连接服务器...
+ui_connectservertimeout=连接服务器超时，结束获取服务器列表
+ui_connectserverfailed=连接服务器失败，结束获取服务器列表
+ui_connectionbreak=连接被断开，结束获取服务器列表
+ui_serverlisttimeout=等待服务器列表消息超时
+ui_closeconnection=断开当前连接...
+ui_connecttimeoutloginout=连接服务器超时，结束登录
+ui_connectfailedloginout=连接服务器失败，结束登录
+ui_connectbreakloginout=连接被断开，结束登录
+ui_login=登录...
+ui_logintimeoutloginout=登录超时，结束登录
+ui_loginerrorloginout=登录返回错误，结束登录
+ui_logincancel=取消登录
+ui_chooserole=选择人物...
+ui_chooseroletimeoutloginout=选择人物超时，结束登录
+ui_chooseroleerrorloginout=选择人物返回错误，结束登录
+ui_chooserolecancelloginout=取消选择人物，结束登录
+ui_chooseroleok=选择人物成功
+ui_deleterole=删除人物...
+ui_deleteroletimeout=删除人物超时
+ui_deleteroleerror=删除人物返回错误
+ui_canceldeleterole=取消删除人物
+ui_deleteroleok=删除人物成功
+ui_deleterole1=该角色为公会会长，请卸任后再删除角色
+ui_deleterole2=该角色为战队队长，请卸任后再删除角色
+ui_deleterole4=请输入“DELETE"删除角色
+ui_createrole=创建人物...
+ui_createroletimeout=创建人物超时
+ui_createroleerror=创建人物返回错误
+ui_cancelcreaterole=取消创建人物
+ui_createroleok=创建人物成功
+ui_arealoginout=服务器已满，创建人物后可能无法进入游戏
+ui_closeconsole=close - 关闭控制台
+ui_clearscreen=clear - 清除屏幕输出
+ui_exitgame=退出程序
+ui_runscript=run <脚本文件名> <函数名> - 运行脚本函数
+ui_doyouaccept=你是否要收:
+ui_asprentice=为徒？
+ui_badrolefirstname=角色的姓名不合法
+ui_namelenth_error=名字长度超过最大范围!
+ui_secondname_error=名字只能是汉字!
+ui_nosecondname=名字不能为空!
+ui_suretodeleterole=确定要删除此角色吗？
+ui_note_title=账号安全提示公告
+ui_wanfatixing=下次登录不再显示该信息
+ui_woniuke_cancel=取消
+ui_confirm_delete_chars=DELETE
+ui_mibao=请输入<font color="#ff6600">{@0:mibao}</font>格中的数字，三个矩阵格全部输入后点击确定按钮。如果您不慎输入了错误的数字，请点击清空按钮。
+ui_mibao_1=<font color="#ffcc00">您必须输入密码保护卡上的指定数字才能登陆游戏。</font>
+ui_mibao_2=密保登陆
+ui_mibao_qingkong=清空
+ui_mima_tips=密码输入错误已达10次，系统将帮您自动退出游戏！
+ui_create_camp_zq=艾森赫特王国
+ui_create_camp_qh=格兰蒂尔联盟
+ui_create_race_zqrl=布冯特人
+ui_create_race_xz=菲尔隆蒂加人
+ui_create_race_ar=洛格玛人
+ui_create_race_qhrl=尤图恩人
+ui_create_race_ymr=野蛮人
+ui_create_race_ks=喀什人
+ui_create_job=职业：
+ui_create_job_zcz=仲裁者
+ui_create_job_zqxt=蒸汽学徒
+ui_create_job_mfs=秘法师
+ui_create_job_mkqs=麦克骑士
+ui_create_job_yxshz=野性守护者
+ui_create_job_lmr=猎魔人
+ui_create_job_ljs=炼金师
+ui_create_job_fs=元素法师
+ui_create_job_male=男性
+ui_create_job_female=女性
+ui_create_job_waiguan=外观
+ui_create_job_faxing=发型
+ui_connect=连接服务器……
+ui_connect_timeout=连接服务器超时，结束登录
+ui_connect_failed=连接服务器失败，结束登录
+ui_connect_closed=连接被断开，结束登录
+ui_connect_cancel=取消连接
+ui_login_timeout=登录超时，结束登录
+ui_login_failed=登录返回错误，结束登录
+ui_login_cancel=取消登录
+ui_g_connect_server_failed=连接服务器失败
+ui_roleinfo_into=进入游戏
+ui_roleinfo_del=删除人物
+ui_roleinfo_back=返回
+ui_roleinfo_out=退出
+ui_qingshuruwenzi=请输入名字
+ui_choose_role=正在进入游戏世界……
+ui_choose_role_timeout=选择人物超时，结束登录
+ui_choose_role_failed=选择人物返回错误，结束登录
+ui_choose_role_cancel=取消选择人物，结束登录
+ui_net_close_reboot=重新登陆
+ui_delete_role=正在删除角色……
+ui_delete_role_timeout=删除人物超时
+ui_delete_role_failed=删除人物返回错误
+ui_delete_role_cancel=取消删除人物
+ui_create_role=正在创建角色……
+ui_create_role_timeout=创建人物超时
+ui_create_role_failed=创建人物返回错误
+ui_create_role_cancel=取消创建人物
+ui_create_role_so_long=角色名过长
+ui_net_close_info=<font color="#ff0000">网络已断开</font>，请检查后重新登陆!
+ui_notinputaccount=未输入帐号
+ui_notinputpassword=未输入密码
+ui_retry=重试
+ui_return=<font color="#FFFFFF">返回</font>
+ui_returndir=返回目录
+ui_return1=返回
+ui_norolename=未输入角色名称
+ui_notinputaccountlength=帐号长度过短
+ui_zhanghaobucunzai=帐号不存在
+ui_create_10000=账号
+ui_create_10001=密码
+ui_create_10002=点击创建角色
+ui_create_10003=所在场景：
+ui_create_10004=下一步
+ui_create_10005=阵营
+ui_create_10006=种族
+ui_create_10007=职业
+ui_create_10008=返回
+ui_create_10009=创建
+ui_create_10010=面部编辑
+ui_create_10011=头部
+ui_create_10012=头部宽度
+ui_create_10013=头部缩放
+ui_create_10014=头部厚度
+ui_create_10015=脸部
+ui_create_10016=脸部宽度
+ui_create_10017=脸部大小
+ui_create_10018=脸颊深度
+ui_create_10019=颧骨
+ui_create_10020=颧骨深度
+ui_create_10021=颧骨位置
+ui_create_10022=颧骨宽度
+ui_create_10023=颧骨大小
+ui_create_10024=眉毛
+ui_create_10025=眉毛形态
+ui_create_10026=眉毛角度
+ui_create_10027=眉弓厚度
+ui_create_10028=眉毛间距
+ui_create_10029=眉毛位置
+ui_create_10030=眼睛
+ui_create_10031=眼睛长度
+ui_create_10032=眼角高度
+ui_create_10033=眼睛角度
+ui_create_10034=眼睛大小
+ui_create_10035=眼睛间距
+ui_create_10036=鼻子
+ui_create_10037=鼻梁宽度
+ui_create_10038=鼻梁高度
+ui_create_10039=鼻头宽度
+ui_create_10040=鼻头角度
+ui_create_10041=鼻子宽度
+ui_create_10042=鼻子长度
+ui_create_10043=嘴巴
+ui_create_10044=嘴唇长度
+ui_create_10045=嘴唇位置
+ui_create_10046=上唇长度
+ui_create_10047=上唇厚度
+ui_create_10048=下唇长度
+ui_create_10049=下唇厚度
+ui_create_10050=下颚
+ui_create_10051=下颚宽度
+ui_create_10052=下颚位置
+ui_create_10053=下巴宽度
+ui_create_10054=下巴位置
+ui_create_10055=耳朵
+ui_create_10056=耳朵深度
+ui_create_10057=耳朵位置
+ui_create_10058=耳朵宽度
+ui_create_10059=耳朵大小
+ui_create_10060=个性设置
+ui_create_10061=细节编辑
+ui_create_10062=随机部位
+ui_create_10063=随机参数
+ui_create_10064=身体
+ui_create_10065=颈部长度
+ui_create_10066=颈部宽度
+ui_create_10067=肩膀宽度
+ui_create_10068=肩膀高度
+ui_create_10069=胸长
+ui_create_10070=胸围
+ui_create_10071=腰长
+ui_create_10072=腰围
+ui_create_10073=胸部大小
+ui_create_10074=手臂
+ui_create_10075=手臂长度
+ui_create_10076=大臂宽度
+ui_create_10077=小臂宽度
+ui_create_10078=手掌大小
+ui_create_10079=腿部
+ui_create_10080=腿部长度
+ui_create_10081=大腿宽度
+ui_create_10082=小腿宽度
+ui_create_10083=脚掌大小
+ui_create_10084=头部大小
+ui_create_replay=重播视频
+
+
+ui_funcconfig_set_0=摄象机平滑：勾选开启摄象机平滑模式
+ui_funcconfig_set_1=启用追尾模式：勾选开启摄像机追尾模式
+ui_funcconfig_set_2=左键关联摄像机：勾选开启左键可操作摄像机功能
+ui_funcconfig_set_3=摄像机最远距离：拖动滑块调整摄像机显示距离参数
+ui_funcconfig_set_4=摄像机偏移：拖动滑块调整摄像机偏移参数
+ui_funcconfig_set_5=摄像机跟随平滑：勾选开启摄像跟随平滑功能
+ui_funcconfig_set_6=目标锁定：勾选开启目标锁定功能
+ui_funcconfig_set_7=自动拾取：勾选开启自动拾取功能
+ui_funcconfig_set_8=显示目标基础信息框：勾选显示目标基础信息框
+ui_funcconfig_set_9=显示场景内所有NPC头像功能待确认
+ui_funcconfig_set_10=自动下马：勾选开启自动下马功能
+ui_funcconfig_set_11=枪手打开拾取界面功能待确认
+ui_funcconfig_set_12=隐藏披风：勾选隐藏玩家披风
+ui_funcconfig_set_13=隐藏头盔：勾选隐藏玩家头盔
+ui_funcconfig_set_14=屏蔽其他单位模型
+ui_funcconfig_set_15=其他玩家：勾选屏蔽其他玩家模型
+ui_funcconfig_set_16=其他玩家宠物：勾选屏蔽其他玩家宠物模型
+ui_funcconfig_set_17=自动添加仇人：勾选开启自动添加仇人功能
+ui_funcconfig_set_18=社交屏蔽功能
+ui_funcconfig_set_19=禁止组队：勾选屏蔽组队请求
+ui_funcconfig_set_20=禁止交易：勾选屏蔽交易请求
+ui_funcconfig_set_21=禁止决斗：勾选屏蔽决斗请求
+ui_funcconfig_set_22=开启上线提示
+ui_funcconfig_set_23=好友：勾选开启好友上线提示功能
+ui_funcconfig_set_24=公会成员：勾选开启公会成员上线提示功能
+ui_funcconfig_set_25=仇人：勾选开启仇人上线提示功能
+ui_funcconfig_set_26=屏蔽聊天框系统提示
+ui_funcconfig_set_27=其他功能
+ui_funcconfig_set_28=勾选：勾选开启跳跃锁定功能
+ui_funcconfig_set_29=关闭新手引导
+ui_funcconfig_set_30=追尾模式：
+ui_funcconfig_set_31=通过鼠标点击可移动角色
+ui_funcconfig_set_32=勾选开启自动寻路功能
+ui_funcconfig_set_33=自动修理：勾选开启自动修理功能
+ui_funcconfig_set_34=勾选开启小地图自动任务追踪
+ui_funcconfig_set_35=取消锁定后可自由调节界面位置
+ui_funcconfig_set_36=拖动滑块调整公共UI大小
+ui_funcconfig_set_37=勾选开启摄像机翻转功能
+ui_funcconfig_set_38=拖动滑块调整摄像机平移速度
+ui_funcconfig_set_39=拖动滑块调整头顶字体大小
+ui_funcconfig_set_40=拖动滑块调整信息框透明度
+ui_funcconfig_set_41=勾选开启矫正目标功能
+
+
+
+// 登陆---密保
+ui_too_many_ins=客户端已经开的太多了！ 
+ui_woniuke=牛盾
+ui_woniuke_key=请输入牛盾动态密码
+
+//登陆---小提示
+ui_notice_1=<center>您可以通过副本管理界面和副本宝典，查看副本的详细信息。</center>
+ui_notice_2=<center>装备损坏了可以在商店进行修理。精修理不会降低装备的耐久，但需要更多的费用。</center>
+ui_notice_3=<center>放弃生活职业需要去找生活职业训练师。</center>
+ui_notice_4=<center>右击玩家头像可以和其余玩家进行各种交互操作哦！</center>
+ui_notice_5=<center>在战场中击杀敌对阵营的玩家将获得额外的荣誉值。</center>
+ui_notice_6=<center>能量盾需要充能之后才能激活它的属性。</center>
+ui_notice_7=<center>转职时请慎重，一旦转职成功你将无法回头。</center>
+ui_notice_8=<center>研究配方会制造出更好的产物，同时消耗的材料也更加稀有。</center>
+ui_notice_9=<center>分解自己擅长制作的装备可以获得更多的分解材料。</center>
+ui_notice_10=<center>您可以通过竞技场、战场获得不菲的收益。</center>
+ui_notice_11=<center>恶意杀戮将会被流放。</center>
+ui_notice_12=<center>您可以通过竞技场、战场获得不菲的收益。</center>
+ui_notice_13=<center>惩罚者对重甲有额外的精通，可在技能界面查看。</center>
+ui_notice_14=<center>神枪手对中甲有额外的精通，可在技能界面查看。</center>
+ui_notice_15=<center>执行者对中甲有额外的精通，可在技能界面查看。</center>
+ui_notice_16=<center>咒术师对皮甲有额外的精通，可在技能界面查看。</center>
+ui_notice_17=<center>黑暗祭祀对布甲有额外的精通，可在技能界面查看。</center>
+ui_notice_18=<center>女巫对布甲有额外的精通，可在技能界面查看。</center>
+ui_notice_19=<center>刀锋战士对重甲有额外的精通，可在技能界面查看。</center>
+ui_notice_20=<center>狩猎者对中甲有额外的精通，可在技能界面查看。</center>
+ui_notice_21=<center>魔剑士对重甲有额外的精通，可在技能界面查看。</center>
+ui_notice_22=<center>圣殿法师对皮甲有额外的精通，可在技能界面查看。</center>
+ui_notice_23=<center>流浪法师对布甲有额外的精通，可在技能界面查看。</center>
+ui_notice_24=<center>平衡法师对布甲有额外的精通，可在技能界面查看。</center>
+ui_notice_25=<center></center>
+
+
+
+//任务
+ui_main_funcmenu_task=任务(L)
+ui_shenfen0008=放弃
+ui_quanbu=显示全部
+ui_finish=%(完成%)
+ui_canaccept=可承接
+ui_accepted=已承接
+ui_hasfinished=已完成
+ui_hasfailed=失败
+ui_cannotaccept=不可承接
+ui_husong=护送
+ui_taskprizemaohao=任务奖励：
+ui_taskacceptmaohao=任务承接 :
+ui_taskcommitmaohao=任务提交 :
+ui_spacefinished=<font color="#f6f400">(完成)</font>
+ui_spacefailed=<font color="#f6f400">(失败)</font>
+ui_spacecansubmit=<font color="#f6f400">(可提交)</font>
+ui_task_progress=任务进度:
+ui_task_submit=提交
+ui_task_submit_giveup=您确定删除当前进行的任务?
+ui_task_mission=任务
+ui_task_clone=副本
+ui_reset_clone=重置副本
+ui_hold_well=占领{@0:name}能量井
+ui_power_tips=所在公会占领以下能量柱其中之一,就可进入该副本
+ui_week_times=一周剩余挑战次数:{@0:times}次
+ui_vip_extra_times=(Vip增加{@0:times}次挑战)
+ui_enter_field_clone=你即将进入小队专属场景，是否进入
+ui_task_close=任务信息
+ui_task_describe=描述
+ui_task_teamshow=即将进行的团队任务为
+ui_task_iknow=我知道了
+ui_task_dx=单选
+ui_task_fjjl=附加奖励
+ui_task_jl=奖励
+ui_task_sj=随机
+ui_task_desc=描述
+ui_task_zx=(主线)
+ui_task_zhix=(支线)
+ui_task_world=(世界)
+ui_task_fb=(副本)
+ui_task_life=(生活)
+ui_task_daily=(日常)
+ui_task_team=(组队)
+ui_task_xunbao=(寻宝)
+ui_task_pingzei=(平贼)
+ui_task_gonghui=(公会)
+ui_task_jingying=(精英)
+ui_task_huodong=(活动)
+ui_task_zzxx=追踪筛选
+ui_task_cj=场景
+ui_task_dj=等级
+ui_task_hd=活动
+ui_task_fub=副本
+ui_task_rc=日常
+ui_task_xxms=显示模式
+ui_task_cg=常规
+ui_task_kp=宽屏
+ui_task_prize_accept=任务完成时,可从下列奖励中选择一样
+ui_task_choose=请从下列奖励中选择一样
+ui_task_hdjl=可获得下列所有道具
+ui_task_wchd=完成系列任务后还可以得到：
+ui_task_get_prize=可获得下列物品
+ui_task_prize_money=金钱:
+ui_task_prize_faculty=经验:
+ui_task_prize_repute=声望:
+ui_task_prize_phys=体力:
+ui_task_prize_hunt=猎杀:
+ui_task_prize_heroic=英勇:
+ui_task_prize_special=特殊奖励
+ui_task_prize_energywell=名望:
+ui_task_prize_item=道具
+ui_task_prize_random=随机奖励
+ui_task_prize_choose=可从下列物品中选择一样
+ui_task_prize_all=可获得下列所有道具
+ui_task_prize_other=基本奖励
+ui_task_jsrw=接受任务限制:
+ui_task_tjrw=提交任务限制:
+ui_day_task_can_receive=可承接
+ui_day_task_received=已承接
+ui_day_task_completed=已完成
+ui_day_task_faild=失败
+ui_day_task_cant_receive=不可承接
+ui_form_talk_receive_task=<font color="#00443F">接受任务</font>
+ui_form_talk_refuse=<font color="#00883F">拒绝接受</font>
+ui_form_talk_complete_task=<font color="#00883F">完成任务</font>
+ui_form_talk_progress=对话进度
+ui_form_talk_look_prize=察看奖励物品
+ui_form_talk_submit=确认
+ui_form_talk_leave=<font color="#660000">再见</font>
+ui_abandontask=放弃任务
+ui_share=共享
+ui_giveup=放弃
+ui_track=追踪
+ui_giveup_track=取消追踪
+ui_jishi_rwlb=任务日志
+ui_jishi_xsxs=显示线索
+ui_form_task_main_node=主线剧情
+ui_form_task_side_node=支线剧情
+ui_new_talk_upper_level = 上一层
+ui_new_talk_continue = 继续
+ui_new_talk_exit = 再见
+ui_new_talk_quest_decline = 返回
+ui_new_talk_quest_accept = 接受
+ui_new_talk_quest_submit = 完成任务
+ui_new_talk_quest_cancel = 取消
+ui_new_talk_quest_need_items = 需要物品：
+ui_new_talk_quest_title = 任务标题
+ui_new_talk_quest_goal = 任务目标
+ui_new_talk_quest_award = 奖励如下
+ui_new_talk_quest_award_exp = 经验：
+ui_new_talk_quest_award_money = 金钱：
+ui_new_talk_quest_award_repute = 声望：
+ui_new_talk_quest_award_phys = 体力：
+ui_new_talk_quest_award_hunt = 猎杀：
+ui_new_talk_quest_award_heroic = 英勇：
+ui_new_talk_quest_award_energywell = 名望：
+ui_new_talk_quest_award_items_to_select = 你可以从这些奖励品中选择一件：
+ui_new_talk_quest_award_select_item = （选择以下道具中的一件）
+ui_new_talk_quest_award_you_will_get = 你将得到：
+ui_new_talk_quest_award_you_will_also_get = 你还将得到：
+ui_new_talk_exception = 异常
+ui_quest_time_limit_title = 时限：
+ui_quest_time_limit_ERROR = 错误
+ui_task_0001 = 系列任务
+ui_task_0002 = 其余任务
+ui_task_0003 = 推荐任务
+ui_task_0004 = 已接任务数量：
+ui_task_0005 = 快速接受任务
+ui_task_0006 = 任务描述：
+ui_task_0007 = 任务目标：
+ui_task_0008 = 任务推荐等级：
+ui_task_0009 = 固定道具奖励：
+ui_task_0010 = 可选道具奖励：
+ui_task_0011 = 追踪
+ui_task_0012 = 共享
+ui_task_0013 = 快速提交
+ui_task_0014 = 放弃任务
+ui_task_quickaccept = 快捷接取后续任务，可直接打开Npc接受任务对话框
+ui_quest_new=1：任务日志中的推荐日志可以帮助您查看当前可接的任务哦。<br/>2：多多参与事件，能拿到不少经验！<br/>3：去挑战副本吧！战胜BOSS也能获得不菲经验。<br/>4：别忘了每天的活跃度奖励，可以领取大量经验哦！
+ui_quest_new_title=升级友情提示
+ui_task_0015=代金券奖励
+ui_task_0016 = 剧情概述：
+ui_task_0017 = 完成度：
+ui_task_0018 = 最终奖励：
+//pvp 任务
+ui_pvp_task_entry_practice = 进入试练场
+ui_pvp_task_practice = 开启试练任务
+ui_pvp_task_btn_title = 冒险
+ui_pvp_task_btn_daily = 今日活动
+ui_pvp_task_btn_quick_trans = 快速传送
+ui_pvp_task_btn_accept = 接受
+ui_pvp_task_btn_submit = 完成
+ui_pvp_task_btn_giveup = 退出
+ui_pvp_task_btn_surrender = 投降
+ui_pvp_task_lbl_time_left = 剩余时间:
+ui_pvp_task_practive_relive = 复活战斗
+ui_pvp_task_practive_leave = 结束离开
+ui_accept_convoy = 接受护送任务
+ui_pvp_task_descqh=终于有人来了，营地里有一批紧急物资需要立刻运送到前线去，但路上会有该死的艾森赫特王国军出现；伙计，能不能帮忙护送安全抵达？为了胜利，联盟绝对不会亏待你的！
+ui_pvp_task_desczq=终于有人来了，营地里有一批紧急物资需要立刻运送到前线去，但路上会有该死的格兰蒂尔联军出现，这位勇士，能不能请你帮忙护送安全抵达？当然，王国会支付给你丰厚的报酬！
+ui_pvp_task_kxqh=快乘骑火鹰前去摧毁对面的营地吧！
+ui_pvp_task_shilian=快开始试练吧！
+ui_convoy_goods = 的护送物资
+ui_pvp_doing = {@0:name}(进行中)
+ui_pvp_failed = <font color="#FF0000">{@0:name}(失败)</font>
+ui_pvp_cansubmit =<font color="#00FF00">{@0:name}(可递交)</font>
+ui_getaward = 领取奖励
+ui_reaccept = 重新接受
+ui_ask_help = 呼救
+ui_ask_kill = 求助
+ui_EWShop_00001=<font color="#FFFFFF">1号能量井</font>
+ui_EWShop_00002=<font color="#FFFFFF">克威尔郡能量井补给商</font>
+ui_PvpTaskShop_0001=<font color="#FFFFFF">道具兑换</font>
+ui_PvpTaskShop_0002=<font color="#FFFFFF">道具兑换</font>
+ui_shop_multi_sell_confirm = 您确定要出售{@0:name}{@1:num}个么？您将获得{@2:price_text}
+ui_shop_sell_confirm = 您确定要出售{@0:name}么？您将获得{@1:price_text}
+ui_shop_buy_confirm = 您确定要购买
+ui_plsinputitemtosell=请输入要出售
+ui_mawenhao=吗？
+ui_plsinputitemtobuy=请输入要购买
+ui_itemamount=的数量
+ui_trade_buy_title1=批量购买
+ui_trade_buy_count=数量
+ui_trade_buy_total=总计
+ui_trade_buy_all=全部
+ui_trade_buy_price=单价
+ui_trade_buy_ok=确定
+ui_trade_buy_cancel=取消
+ui_trade_buy=提示
+ui_trade_buy_input=请输入宝石的数量：
+ui_trade_buy_title=道具信息拉示标签
+ui_sellprice=商店售价
+ui_capability=容量
+ui_lostmoneyaftersale = ，您将失去金钱：
+ui_shop_gold = {@0:var}金
+ui_shop_silver = {@0:var}银
+ui_shop_copper = {@0:var}铜
+ui_shop_text_none = 无
+ui_geton_defend_carrier =乘坐空袭防御载具
+ui_geton_attack_carrier =我已经准备好了！
+pvp_task_ui_shili=当前艾森赫特王国方实力值为{@0:实力值}%，格兰蒂尔联盟方的实力值为{@1:实力值}%，己方实力值影响当天活动收益。
+pvp_task_ui_zqfennu =艾森赫特王国方当前愤怒值为{@0:愤怒值}，格兰蒂尔联盟方当前愤怒值为{@1:愤怒值}，己方愤怒值影响翌日活动次数上限。
+pvp_task_ui_qhfennu =艾森赫特王国方当前愤怒值为{@0:愤怒值}，格兰蒂尔联盟方当前愤怒值为{@1:愤怒值}，己方愤怒值影响翌日活动次数上限。
+ui_task_prize_pvppoint=英勇点数
+ui_ridebcpvpkx01=整装待发，长官！
+ui_task_chuangsong=<font color="#FF0000">传送将会记录当前的位置，任务完成、失败、放弃都将会被传送回该位置</font>
+ui_pvp_task_racetitle=请选择比赛场地
+ui_last_blood=剩余血量:
+ui_zhanling_nengliangzhu_ziji=该能量柱由己方占领
+ui_zhanling_nengliangzhu_diren=该能量柱由对方占领
+ui_fuhuodian_ziji=该复活点由己方占领
+ui_fuhuodian_diren=该复活点由对方占领
+ui_nengliangzhu_zhengduo=该能量柱双方正在争夺中
+ui_fuhuodian_zhengduo=该复活点双方正在争夺中
+
+
+// 商店
+ui_shop_repair_fee = 修理费用
+ui_shop_repair_n_need = 无需修理
+
+//103副本功能NPC菜单
+npc_FB103_0100=指挥官，我们是前来援助艾森赫特王国军的！
+npc_FB103_0101=请帮我们开启进入隧道的大门。
+npc_FB103_0102=知道了！
+npc_FB103_0103=明白！我们这就出发！
+npc_FB103_0104=额。。。怂了，休息会，搜索下周围。
+npc_FB103_0105=啥都木有找到，我们还是上吧！
+npc_FB103_0106=咱现在有两个人！冲吧！
+npc_FB103_0107=休整完毕！咱上吧
+npc_FB103_0108=额。。好吧，知道了
+npc_FB103_0109=我先去了！
+npc_FB103_0110=这个机器定有蹊跷！长官，你怎么看？
+npc_FB103_0111=把手指放上去
+
+//106场景功能NPC菜单
+npc_FB106_01=我准备好了。
+
+//116场景功能NPC菜单
+npc_FB116_01=我准备好了。
+
+//称号
+ui_title_filter_all=全部显示
+ui_title_filter_achieve=已获得
+ui_title_filter_unlock=已解锁
+ui_title_filter_lock=未解锁
+ui_title_btn_used=启用
+ui_title_btn_clear=清空
+ui_title_filter_show1=已获得
+ui_title_filter_show2=已解锁
+ui_title_filter_show3=已筛选
+ui_title_filter_show4=未解锁
+ui_title_filter_show5=已筛选
+ui_title_filter_show6=已筛选
+ui_title_filter_show7=全部
+ui_title_cancel=取消称号
+
+
+//技能界面
+ui_main_funcmenu_skill=技能(K)
+ui_tips_skill_space_0=<font color="#FFFF00">角色装备的主手武器在此处显示</font>
+ui_tips_skill_space_1=<font color="#FFFF00">角色装备的副手武器在此处显示</font>
+ui_tips_skill_space_2=<font color="#FFFF00">左键按住武器技能栏中的技能并拖动至此栏位,该技能将会在下方的快捷栏中显示</font>
+ui_tips_skill_space_3=<font color="#FFFF00">左键按住道具技能栏中的技能并拖动至此栏位,该技能将会在下方的快捷栏中显示</font>
+ui_tips_skill_space_4=<font color="#FFFF00">左键按住角色技能栏中的初阶技能并拖动至此栏位,该技能将会在下方的快捷栏中显示</font>
+ui_tips_skill_space_5=<font color="#FFFF00">左键按住角色技能栏中的初阶或中阶技能并拖动至此栏位,该技能将会在下方的快捷栏中显示</font>
+ui_tips_skill_space_6=<font color="#FFFF00">左键按住角色技能栏中的初阶、中阶或高阶技能并拖动至此栏位,该技能将会在下方的快捷栏中显示</font>
+ui_skill_lbl_title=技能
+ui_skill_lbl_title0=全部
+ui_skill_lbl_title1=通用技能
+ui_skill_lbl_title2=武器技能
+ui_skill_lbl_title3=道具技能
+ui_skill_lbl_title4=启用该方案
+ui_skill_btn_1=被动技能
+ui_skill_btn_2=特殊技能
+ui_skill_rbtncheck_1=初阶技能
+ui_skill_rbtncheck_2=中阶技能
+ui_skill_rbtncheck_3=高阶技能
+ui_skill_effect_1 =<font color='#0b53be'></font>被<br/>动<br/>技<br/>能
+ui_skill_effect_2 =<font color='#0b53be'></font>特<br/>殊<br/>技<br/>能
+ui_skill_lbl_title_L=所有技能
+ui_skill_lbl_title_R=角色当前装备的技能
+ui_skill_lbl_title_R0=预设1
+ui_skill_lbl_title_R1=预设2
+ui_mail_1=1
+ui_mail_2=2
+ui_mail_3=3
+ui_mail_4=4
+ui_mail_5=5
+ui_mail_6=6
+ui_mail_7=7
+ui_mail_8=8
+ui_mail_9=9
+ui_mail_10=0
+ui_skill_locked=<font color="#7f7f7f">({@0:等级}级可解锁)</font>
+ui_skill_equiped=<font color="#00ff00">(已装备)</font>
+ui_skill_unequiped=<font color="#ff0000">(未装备)</font>
+ui_mail_11=-
+ui_mail_12==
+ui_skill_0043=下次打开不再显示该信息
+ui_skill_0044=小提示
+ui_skill_0045=技能已升至最高级
+ui_skill_0046=升级需要
+ui_skill_0047=经验：
+ui_skill_0048=金钱：
+ui_skill_0049=黑金：
+ui_skill_0050=技能升级点数：
+ui_skill_0051=角色等级：
+ui_skill_0052=升级
+ui_skill_0053=提示：双击或拖动技能图标至快捷栏空位即可装备技能；当前技能升级点数为：
+ui_skill_0054=已装备
+ui_skill_0055=还可装备
+ui_skill_0056=个
+ui_skill_0057=1.初阶、中阶、高阶技能为主动释放的技能，左键按住技能图标拖动至快捷栏闪光处即可装备该技能或替换其他技能；右键单击技能图标表示装备该技能；左键单击技能图标表示对该技能进行升级操作。<br/>2.被动技能为角色自身拥有的技能，无法装备。<br/>3.特殊技能是指显示在快捷栏上方特殊技能栏中的技能，无法拖动，这些技能将自动装备在特殊技能栏中。<br/>4.角色最多装备6个技能，可装备1个高阶技能、2个中阶技能和3个初阶技能；在更高级技能没有全部装备的情况下，可以将剩下的可装备技能数量用低级技能代替。
+ui_jineng=技能
+ui_lb_showall=显示所有等级
+ui_skill_0058=确定要花费<font color='#00ff00'>{@2:资金}</font>将技能<font color='#2e8b57'>{@0:技能名}</font>升至第<font color='#ff0000'>{@1:等级}</font>级？
+ui_skill_0059= <font color='#ff0000'>{@0:等级}</font>技能已经没有可装备数量，继续装备此技能将会占用一个<font color='#ff0000'>{@1:等级}</font>技能的可装备的数量
+ui_skill_0060=是否用<font color='#ff0000'>{@0:等级}</font>技能<font color='#2e8b57'>{@1:技能名}</font>替换<font color='#ff0000'>{@2:等级}</font>技能<font color='#2e8b57'>{@3:技能名}</font>？
+ui_skill_info1=<font color="#00ff00">左键单击技能图标升级技能，右键单击技能图标装备技能</font>
+ui_skill_info2=<font color="#00ff00">该技能已升至最高级</font>
+ui_skilltype_unlock_01=必须消费{@0:num}黑金开启此技能栏
+ui_skilltype_unlock_02=完成任务{@0:num}开启此技能栏
+ui_skilltype_unlock_03=达到{@0:num}级后开启此技能栏
+ui_skilltype_unlock_01_1=确定要消费{@0:num}黑金来开启此技能栏？
+ui_skilltype_change_fail=当前状态无法切换技能栏
+ui_skilltype_save=保存
+ui_skilltype_edit=编辑
+ui_skilltype_01=快捷栏:方案一
+ui_skilltype_02=快捷栏:方案二
+ui_skilltype_03=快捷栏:方案三
+
+
+//技能
+ui_skill_shop_title=技能学习
+ui_skill_shop_learn=学习技能
+ui_skill_shop_limit1=等级需求：
+ui_skill_shop_limit2=需要消耗金钱：
+ui_skill_shop_limit3=需要学习技能：
+ui_skill_shop_limit4=学习需要条件：
+ui_skill_shop_desc=技能描述：
+ui_skill_shop_limit5=获得新技能
+
+//技能专精
+ui_skill_enhance_title=技能专精
+ui_skill_enhance_tips=1、拖到背包内符文至镶嵌槽进行镶嵌\n2、符文镶嵌成功后会激活使用时间，时间结束后符文会自动消失
+ui_skill_enhance_unlock=解锁：
+ui_skill_enhance_unlock_level=下个解锁等级：
+
+//NPC
+Monster=怪物
+ZhongLi=中立
+ui_obj_base_lbl_lvlname=等级：
+ui_obj_base_level_no = 未知
+ui_obj_base_lbl_giud=未加入公会
+ui_funcnpc = 功能NPC
+ui_belonging=参与分配
+
+//道具
+ui_stren_title=装备强化
+ui_stren_cailiao=材料强化
+ui_stren_heijing=黑金强化
+ui_stren_equip=装备
+ui_stren_ok=强化
+ui_inherit_enhance=强化继承
+ui_displace_select=黑金合成
+ui_compound_hecheng=合成
+ui_strenthen_fail=强化失败
+ui_strenthen_success=强化成功
+ui_xiaohao=强化消耗材料
+ui_compound_back=回退
+ui_compoundesc=1.需要两件相同的装备。<br/>2.主装备属性改变，副装备被摧毁。<br/>3.注意比对前后属性变化，保留你想要的。
+ui_compounddesc_jc=1.主装备继承副装备的强化星级。<br/>2.继承后副装备消失。<br/>3.武器只能继承武器，装备只能继承装备。
+ui_resetdesc=1.放入装备，选择重铸的属性。<br/>2.属性的数值会变大，也可能变小。<br/>3.绿色属性才能够重铸。
+ui_slot_dakong=打孔
+ui_slot=装备打孔
+ui_slot_select1 =黑金打孔
+ui_slot_select2 =道具打孔
+ui_strencailiao=材料
+ui_strendesc=强化说明：
+ui_strendesc1=1.放入装备，点击“开始强化”按钮。<br/>2.越好的装备需要越高级的强化材料。<br/>3.强化成功提升装备的星级。<br/>4.强化失败装备不会消失，掉级。<br/>5.装备的星级越高，附加属性增幅越高
+ui_slotdesc=打孔说明：
+ui_slotdesc1=1.打孔成功率为百分之百。<br/>2.白色装备与首饰披风能量盾等其他道具不可打孔。<br/>3.双手武器可打3个孔，单手武器与装备可打2个孔。
+ui_exchasedesc1=尝试组合不同宝石以获取奖励效果。
+ui_slot_equip=装备
+ui_strencancel=取消
+ui_stren=<FONT color="#003366">强化</FONT>
+ui_blackgold_acceleration=黑金加速
+ui_ticket_acceleration=点券加速
+ui_ticket_need=需要
+ui_last_used_count=本日剩余使用次数
+ui_tip_expendMoney=本次操作将消耗{@0:num}点券
+ui_cd=冷却倒计时
+BG_30066=<按住shift+左键点击打开镶嵌界面>
+BG_30018=<font color="#FFFF00">[{@0:道具名}]</font><font color="#FFFFFF">装备后将于你进行绑定,确定进行装备吗？</font>
+BG_30019=<font color="#FFFF00">[{@0:道具名}]</font><font color="#FFFFFF">拾取后将于你进行绑定,确定进行拾取吗？</font>
+ui_item_bind_title=装备绑定
+ui_item_bind_exe_ok=绑定
+ui_item_bind_description=你可以对装备进行绑定，绑定成功后您的装备会更安全。
+ui_compounditem_xuqiu=消耗：
+cur_equip=当前装备
+ui_stren_text1=成功几率：
+ui_stren_text2=消耗金钱：
+ui_stren_text3=完美强化
+ui_stren_text4=强化确认
+ui_stren_text5=成 功
+ui_stren_text6=失 败
+ui_stren_text7=消耗黑金
+ui_stren_ok_1=开始强化
+ui_inherit_Text1=此处配置说明信息
+ui_inherit_Text2=主装备
+ui_inherit_Text3=副装备
+ui_inherit_Text4=完美继承
+ui_inherit_Text5=消耗金钱：
+ui_inherit_Text6=开始继承
+ui_inherit_Text7=强化类型：
+ui_inherit_Text8=消耗材料：
+ui_inherit_Text9=☆合成：改变主装备属性，副装备会被摧毁
+ui_inherit_Text10=☆保存：主装备上保存新属性
+ui_inherit_Text11=☆回退：主装备上保存原属性
+ui_inherit_Text12=原属性
+ui_inherit_Text13=新属性
+ui_inherit_Text14=装备
+ui_inherit_Text15=消耗黑金：
+ui_onestar=1星
+ui_twostar=2星
+ui_threestar=3星
+ui_fourstar=4星
+ui_fivestar=5星
+ui_sixstar=6星
+ui_sevenstar=7星
+ui_eightstar=8星
+ui_ninestar=9星
+ui_tenstar=10星
+ui_stop=级后停止
+ui_enhance_perfect_tyep_1=普通强化
+ui_enhance_perfect_tyep_0=完美强化
+ui_enhance_bind_info_text_0_0=<center>强化前未绑定，强化后未绑定</center>
+ui_enhance_bind_info_text_0_1=<center>强化前未绑定，强化后绑定</center>
+ui_enhance_bind_info_text_1_1=<center>强化前绑定，强化后绑定</center>
+ui_compound_0001=装备合成
+ui_compound_0002=属性预览
+ui_compound_ts_text=输入想要合成的数量。
+ui_compound_jewel_text=1.三颗低级宝石合成一颗高级宝石。合成失败返还一颗材料宝石。<br/>2.每次合成消耗的宝石中有绑定的宝石则产出绑定宝石。<br/>3.连续合成将合成所有放入的宝石，按次收费。
+ui_enhance_conformity=装备强化
+ui_enhance_inconformity=<font color="#ff0000">装备强化(15级开启)</font>
+ui_inherit_conformity=强化继承
+ui_inherit_inconformity=<font color="#ff0000">强化继承(15级开启)</font>
+ui_enchase_compound=宝石合成
+ui_enchase_compound_limit=<font color="#ff0000">宝石合成(15级开启)</font>
+ui_compound=装备合成
+ui_compound_limit=<font color="#ff0000">装备合成(15级开启)</font>
+ui_slot_1=<font color="#ff0000">装备打孔(15级开启)</font>
+ui_inherit_pre_info=继承后【{@equip}】变为：{@0:}
+ui_inherit_lbl_info=副装备【{@equip}】将被销毁
+ui_add_prop=<center>{@equip}强化至{@0:}级属性加成</center>
+ui_floor=强化保护
+ui_choose_kept_type=请选择保护类型
+ui_material_protected=材料保护
+ui_blackgold_protected=黑金保护
+ui_none_protected=不使用保护
+ui_continue_enhance=连续强化
+ui_begin_continue_enhance=开始连续强化
+ui_continue_enhance_edit=连续强化设置
+ui_floor_kept=此次强化为强化保护，强化失败不会降星级
+ui_un_material=材料
+ui_system_tips=[系统]:
+ui_line=________________________________
+ui_stren_title_txt1=<center>非绑定材料不足，本次强化后装备状态将绑</center>
+ui_stren_title_txt2=1.铁矿石×100<br/>2.铜矿石×200<br/>3.铁矿石×100<br/>4.铜矿石×200<br/>5.铁矿石×100<br/>6.铜矿石×200<br/>7.铁矿石×100&lt;br/&gt;8.铜矿石×200<br/>9.铜矿石×200
+ui_blackglod_compound=黑金合成
+ui_common_compound=金币合成
+ui_title_compound=拖入想要合成的宝石
+ui_cl_compound=材料宝石
+ui_cc_compound=产出宝石
+ui_tuihuishuxing=回退到原属性
+ui_baocunshuxing=保存新的属性
+ui_equip_resource=装备来源
+ui_equip_quanlity=品质
+ui_equip_need_level=等级
+ui_equip_need_style=类型
+ui_equip_need_suit=套装
+ui_equip_need_research=搜索
+ui_equip_need_reset=重置
+ui_equip_need_name=装备名称
+ui_diyici_compound=点击您要合成的宝石
+ui_compound_hcq=合成前：
+ui_compound_hch=合成后：
+ui_item_hunter=开始寻宝后,藏宝图将与你绑定,是否开始寻宝？
+ui_item_cover=是否覆盖之前的寻宝
+ui_item_treasure_map=藏宝图
+ui_compound_tz=停止
+
+//副本
+ui_fbm001=余晖洞穴
+ui_fbm002=达戈菲尔黑金加工厂
+ui_fbm003=提奥迪亚副本
+ui_fbm004=雾月丛林黑雾洞
+ui_fbm005=安灼拉副本
+ui_fbm006=灰烬平原副本
+ui_fbm007=怒风群山副本
+ui_fbm008=噩梦环岛副本
+ui_fbm009=放逐之地副本1
+ui_fbm010=放逐之地副本2
+ui_fbm011=卡拉福德荒原副本
+ui_fbm012=艾利斯卡加南山脉1副本
+ui_fbm013=艾利斯卡加南山脉2副本
+ui_fbm014=达贡盆地1副本
+ui_fbm015=达贡盆地2副本
+ui_dota_0001=流浪群岛
+ui_dota_0002=收集灵魂：
+ui_dota_0003=收集<font color='#d20e06'>{@0:个数}</font>个灵魂
+ui_fuben_select_diff=选择副本难度
+ui_clone_manager_title=副本管理
+ui_clone_reset_more=更多
+ui_enter_clone=你所在的队伍已开启{@0:cloneName}副本，你是否进入?
+ui_clone_manager_name=副本名称
+ui_clone_manager_local=副本所在地
+ui_clone_manager_enter_times=进入次数
+ui_clone_manager_reset_time=重置时间
+ui_clone_manager_progress=副本进度
+ui_clone_manager_id=副本ID
+ui_clone_manager_member=参与人员
+ui_clone_count=副本结算
+ui_clone_now_module=当前模式:
+ui_clone_diff=副本难度:
+ui_clone_boos_drop=此BOSS有几率掉落
+ui_cost_time=副本耗时:
+ui_enter_level=进入级别
+ui_select_difficult=选择模式
+ui_easy=简单
+ui_difficult=困难
+ui_boss_drop=BOSS装备掉落
+ui_hero=英雄
+ui_history=史诗
+ui_easy_module=简单模式
+ui_difficult_module=困难模式
+ui_hero_module=英雄模式
+ui_history_module=史诗模式
+ui_player_name=角色名
+ui_kill_num=击杀怪物数
+ui_kill_boss=击杀BOSS数
+ui_damage=伤害输出
+ui_damage1=伤害输出:
+ui_bedamage=承受伤害:
+ui_killed=已击杀
+ui_unkilled=未击杀
+ui_getit=(未达成)
+ui_treat=治疗输出:
+ui_extra_warad=额外奖励
+ui_fuben_reset=重置普通副本
+ui_confim_reset=您确认要重置副本进度吗？
+ui_fuben0003={@0:天}天{@1:小时}小时{@2:分}分 后重置
+ui_fuben0004=普通副本
+ui_fuben0005=团队副本
+ui_fuben0006=重置所有普通副本
+ui_fuben0007=副本
+ui_fuben0008=确定要重置所有普通副本?
+ui_fuben0009=该副本已经有进度,是否同步?
+ui_fuben0010=传出副本时间:<br/>	      {@0:小时}小时{@1:分钟}分钟{@2:秒}秒
+ui_fuben0011=进度ID:{@0:副本进度}
+ui_fuben0012=需要人数{@0:人数}
+ui_fuben0067=打开副本管理
+ui_mount_round=第{@0:波数}波
+ui_clone_reset_notify=队长已重置{@0:cloneName}副本,你是否重置?
+ui_fuben0068=奖励查看
+ui_fuben0069=打开副本奖励
+ui_fuben0070=副本时间:
+ui_fuben0072=副本进度:
+ui_fuben0073=特殊要求:
+ui_fuben0074=副本Boss:
+ui_fuben0075=无限制时间
+ui_fuben0076=显示位置
+ui_difficulty=难度选择
+ui_fb_tadynpc01=开始挑战！
+ui_f100_npc001=带我们离开这里!
+ui_request_times_info_27 = <center>确认进入副本的剩余时间<font color="#{@0:color}">{@1:秒}</font>秒</center>
+ui_request_times_info_28 = <center>队友召唤剩余时间<font color="#{@0:color}">{@1:秒}</font>秒</center>
+ui_fuben0013=副本关闭时间:<br/>	      {@0:小时}小时{@1:分钟}分钟{@2:秒}秒
+ui_fuben0014=副本限制时间:<br/>       {@0:小时}小时{@1:分钟}分钟{@2:秒}秒
+ui_fuben0071={@0:小时}小时{@1:分钟}分钟{@2:秒}秒
+ui_fuben0015=上一页
+ui_fuben0016=下一页
+ui_array_money=传送将消耗金钱[{@0:money}],确定传送?
+ui_level_up = 级以上
+ui_level_clone=级副本
+ui_level_down = 级以下
+ui_look = 查看
+ui_check = 查
+ui_none=无
+ui_data=号
+ui_mouth=月
+ui_day = 日
+ui_difficult_0=<font color="#ffFfff">简单</font>
+ui_difficult_1=<font color="#0000ff">困难</font>
+ui_difficult_2=<font color="#FF00ff">英雄</font>
+ui_difficult_3=<font color="#FFFF00">史诗</font>
+ui_reset_by_hands=手动重置
+ui_member_list=人员列表
+ui_clone_no_limit=无限制
+ui_clone_single=个人
+ui_clone_team=组队
+ui_clone_bigTeam={@0:number}人团队
+ui_clone_single_team=个人和组队
+ui_clone_gingle_bigTeam=个人和团队
+ui_clone_team_bigTeam=组队和团队
+ui_fuben0017=信息
+ui_fuben0018=评分
+ui_fuben0019=评级
+ui_fuben0020=通关用时：
+ui_fuben0021=Boss用时：
+ui_fuben0022=死亡次数：
+ui_fuben0023=通关技巧：
+ui_fuben0024=BOSS耗时
+ui_fuben0025=伤害输出
+ui_fuben0026=治疗输出
+ui_fuben0027=承受伤害
+ui_fuben0028=死亡次数
+ui_fuben0029=详细数据
+ui_fuben0030=副本评分
+ui_fuben0031=进入等级：
+ui_fuben0032=副本模式：
+ui_fuben0033=进入权限：
+ui_fuben0034=完成次数：
+ui_fuben0035=副本入口：
+ui_fuben0036=重置时间：
+ui_fuben0037=进入条件
+ui_fuben0038=玩法介绍
+ui_fuben0039=等级
+ui_fuben0040=副本名称
+ui_fuben0041=模式
+ui_fuben0042=评分
+ui_fuben0043=详细信息
+ui_fuben0044=类型
+ui_fuben0045=当前副本
+ui_fuben0046=全部副本
+ui_fuben0047=通关记录
+ui_fuben0048=查看评分
+ui_fuben0049=角色名
+ui_fuben0050=职业
+ui_fuben0051=战斗力
+ui_fuben0052=所在场景
+ui_fuben0053=一键邀请组队
+ui_fuben0054=一键邀请群聊
+ui_clone_reset_progress=该副本已有{@0:}%进度<br/>       您确定要进入吗?
+ui_fuben0055=编号
+ui_fuben0056=Boss名称
+ui_fuben0057=状态
+ui_fuben0058=耗时
+ui_fuben0059=伤害输出量
+ui_fuben0060=治疗输出量
+ui_fuben0061=伤害承受量
+ui_fuben0062=请输入副本名称。。。
+ui_fuben0063=<center>这是一个神奇的boss</center>
+ui_fuben0064=<center>这是一个神奇的技能</center>
+ui_fuben0065=普通
+ui_fuben0066=BOSS掉落
+ui_fuben_refreshtime_front=每周星期
+ui_fuben_refreshtime_back=重置周次数
+ui_week_no_limit=一周剩余挑战次数:不限
+ui_count_down_time=传送倒计时:
+ui_clone_award=战利品
+ui_leave_at_once=立即离开副本
+
+
+//坐骑
+ui_pet_call=召唤
+ui_mount_page=第{@0:页数}页
+ui_mount_count1=您现在拥有的坐骑数:{@0:个数}个
+ui_mount_count2=您现在拥有的坐骑数:{@0:个数}个
+
+
+//载具
+ui_exit1=离开
+ui_bloodmaohao=生命值：
+ui_magic=魔法值：
+ui_zq_hp=完好度
+ui_zq_mp=油量
+ui_qh_hp=生命值
+ui_qh_mp=魔法值
+ui_carrier_count1=您现在拥有的载具数:{@0:个数}个
+ui_carrier_count2=您现在拥有的载具数:{@0:个数}个
+
+
+//工会
+ui_main_funcmenu_guild=公会(G)
+ui_guild_guild_name=公会名称
+ui_guild_member_count=公会人数
+ui_guild_captain_name=会长名称
+ui_guild_apply_state=申请状态
+ui_guild_cancel_apply=取消申请
+ui_guild_guild_apply=公会申请
+ui_no_guild_tips = <center>目前游戏中没有开启远程招募成员的公会！</center>
+ui_guild_apply_post_title={@}
+ui_guild_can_chat=公会频道聊天
+ui_guild_can_notice=修改公告
+ui_guild_official_set=官员设置
+ui_guild_pos_level1_name=会长
+ui_guild_pos_level2_name=副会长
+ui_guild_pos_level3_name=官员	
+ui_guild_main_text=公会
+ui_guild_capital=公会资金
+ui_guild_online=在线
+ui_guild_no_online=不在线
+ui_guild_authority=权限管理
+ui_guild_info=公会信息
+ui_guild_find=查找公会
+ui_guild_find1=查找
+ui_guild_relation=联盟和敌对
+ui_guild_energywell=能量井
+ui_guild_power=公会实力:
+ui_guild_energy_cap=公会能量井占领信息
+ui_union_guild=联盟公会
+ui_hostility_guild=敌对公会
+ui_union=联盟
+ui_hostility=敌对
+ui_guild_candidate=申请列表
+ui_guild_notice_head=公告
+ui_guild_notice_edit=编辑
+ui_guild_notice_publish=发布
+ui_guild_player_name=名字
+ui_guild_position=职位
+ui_guild_last_online=上次上线
+ui_guild_quit=退出公会
+ui_guild_request_date=申请时间
+ui_guild_accept=接受申请
+ui_guild_reject=拒绝申请
+ui_guild_name=公会名
+ui_guild_level_no=公会等级
+ui_guild_founder=公会创建人
+ui_guild_found_date=公会创建时间
+ui_guild_disband_confirm=你确认要解散公会吗？
+ui_guild_stop_disband_confirm=你确认要停止解散公会吗？
+ui_guild_recruit_agree=你是否确定开启公会成员远程招募？
+ui_guild_stoprecruit_agree=你是否确定停止公会成员远程招募？
+ui_guild_list=公会列表
+ui_guild_request_join=申请加入
+ui_guild_join=加入公会
+ui_request_join_guild=申请加入公会
+ui_request_cancel_apply_jion=取消申请加入公会
+ui_guild_request_intive=邀请加入公会
+ui_guild_modify_title = 修改
+ui_guild_member_no_title = 公会人数:
+ui_guild_capital_title = 公会资金:
+ui_guild_jianli=公会建立
+ui_creat_guild_pay=需要支付:{@0:金钱}金
+ui_affirm_pay=公会名称:{@0:公会名},确认创建并支付{@1:金钱}金
+ui_last_line_time=最后在线
+ui_guild_line_number=在线人数:
+ui_guild_apply_list=申请者列表
+ui_guild_manage=公会管理
+ui_guildnotice_edit=公告信息编辑
+ui_invite_organize_team=邀请组队
+ui_raise_position=提升职位
+ui_demotion_position=降低职位
+ui_delete_member=踢出公会
+ui_assignment_chairman=转让会长
+ui_g_name=名称
+ui_guild_set_power=权限设置
+ui_guild_position_name=职位名称：
+ui_guild_add_member=添加新成员
+ui_change_official=改变职位
+ui_guild_delete_member=踢出成员
+ui_guild_information_change=公会信息修改
+ui_guild_storage_deposit=公会仓库存放
+ui_guild_storage_take=公会仓库提取
+ui_guild_set_not_limit= 字数限制在20个
+ui_save=保存
+ui_guild_depot_title2=公会仓库
+ui_guild_depot_use_capacity=已使用容量：
+ui_guild_depot_capacity=总容量：
+ui_guild_depot_tidy=整理
+ui_guild_depot_refresh=刷新
+ui_guild_depot_set_capacity=升级
+ui_guild_depot_add_capital=存钱
+ui_guild_depot_sub_capital=取钱
+ui_guild_depot_capital_max=仓库资金上限:{@money}
+ui_guild_depot_record_item_in=<font color="#c66300">[{@0:times}]</font> <font color='#ffff00'>{@1:player}</font> 存入: <font color='#a6a600'>[{@2:itemname}]</font>X<font color='#00ff00'>{@3:num}</font>
+ui_guild_depot_record_item_out=<font color="#c66300">[{@0:times}]</font> <font color='#ffff00'>{@1:player}</font> <font color='#fa9b9b'>取出:</font> <font color='#a6a600'>[{@2:itemname}]</font>X<font color='#00ff00'>{@3:num}</font>
+ui_guild_depot_record_money_in=<font color="#c66300">[{@0:times}]</font> <font color='#ffff00'>{@1:player}</font> 存入: [{@2:num}]
+ui_guild_depot_record_money_out=<font color="#c66300">[{@0:times}]</font> <font color='#ffff00'>{@1:player}</font> <font color='#400040'>取出:</font> [{@2:num}]
+ui_guild_depot_record_title=公会仓库记录
+ui_guild_depot_record=记录
+ui_guild_publish=发布
+ui_guild_return=返回
+ui_guild_notice={@0:guild}公会欢迎您的加入。
+ui_guild_0001=只显示在线玩家
+ui_guild_0002=公会公告：
+ui_guild_0003=在线成员：
+ui_guild_0004=请输入邀请玩家的名字
+ui_guild_0005=好友列表
+ui_guild_0006=职位管理
+ui_guild_0007=发布公告
+ui_guild_0008=公会职位
+ui_guild_0009=会长权限
+ui_guild_0010=副会长权限
+ui_guild_0011=官员权限
+ui_guild_0012=精英权限
+ui_guild_0013=会员权限
+ui_guild_0014=增加成员
+ui_guild_0015=邀请玩家
+ui_guild_0016=精英
+ui_guild_0017=会员
+ui_guild_0018=不限
+ui_guild_0019=名
+ui_guild_0020=公告发布成功
+ui_guild_2112=公会列表
+ui_g_year=年
+ui_g_month=月前
+ui_g_day=日
+ui_g_day1=天
+ui_g_day2=天前
+ui_g_hour=小时
+ui_g_minute=分钟
+ui_g_second=秒
+ui_LH_name_empty=输入不能为空
+BG_125008=金钱不足，请重新输入
+BG_200001=公会名称包含非法字符，无法创建公会!
+BG_200002=公会名称最大为<font color='#ff0000'>{@0:长度}</font>个字符!
+ui_guild_ew_capture=能量井占领者
+ui_guild_ew_capture_null=能量井未占领
+ui_guild_ew_quanxian=能量井权限
+ui_guild_frame=边框
+ui_guild_frame_type=边框样式
+ui_guild_frame_color=边框颜色
+ui_guild_sign=标志
+ui_guild_sign_type=标志样式
+ui_guild_sign_color=标志颜色
+ui_guild_preview=预览
+ui_guild_sign_edit=公会界面编辑器
+ui_guild_0021=<font color='#ff0000'>{@0:公会}</font>公会对你所在的公会发起了对抗！
+ui_guild_0022=<font color='#ff0000'>{@0:公会}</font>公会向你所在的公会抛出了橄榄枝，希望两家公会能够结为联盟。
+ui_guild_0023=<font color='#ff0000'>{@0:公会}</font>公会觉得你所在的公会已经不能满足他们的利益需求，为此解除了你们的联盟关系。
+ui_guild_0024=<font color='#ff0000'>{@0:公会}</font>公会对你所在的公会产生了莫名的好感，为此他们解除了对抗警告。
+ui_guild_jianlilianmeng=建立联盟
+ui_guild_jianlididui=建立敌对
+ui_guild_jiechulianmeng=解除联盟
+ui_guild_jiechudidui=解除敌对
+ui_guild_reset=重置
+ui_guild_quit_leader={@0:name}希望你出任{@1:name}公会会长职务，是否接受委任？
+ui_guild_0025=公会标志
+ui_guild_0026=公会关系
+ui_guild_0027=公会名称
+ui_guild_0028=公会实力
+ui_guild_0029=公会人数
+ui_guild_0030=公会会长
+ui_guild_depot_record_time_out=<font color="#c66300">[{@0:times}]</font>  <font color='#a6a600'>[{@1:itemname}]</font>X<font color='#00ff00'>{@2:num}</font>过期销毁
+
+
+
+
+
+//DOTA竞技场
+ui_arenaplane_dota_queue=参加Dota竞技
+ui_arenaplane_dota_query=查询Dota竞技积分
+ui_menu_leavequeue_arenaplane=退出Dota竞技排队
+ui_menu_leavescene_arenaplane=退出Dota竞技
+
+//竞技场
+ui_jjc_cantmove=准备状态，无法移动
+ui_arena_type_1=1vs1
+ui_arena_type_2=2vs2
+ui_arena_type_3=3vs3
+ui_arena_type_4=4vs4
+ui_arena_type_5=5vs5
+ui_arena_0000=该功能暂未开放
+ui_arena_0001=是否确定要移除队员[{@0:玩家名}]？
+ui_arena_0002=是否确定要移交队长给[{@0:玩家名}]？
+ui_arena_0003=是否确定要解散战队？
+ui_arena_0004=是否确定要退出战队？
+ui_arena_0005=是否批准
+ui_arena_0006=批准
+ui_arena_0007=拒绝
+ui_arena_0008=准备时间：{@0:minut}分钟{@1:second}秒
+ui_arena_0009=结束时间：{@0:minut}分钟{@1:second}秒
+ui_arena_0010=竞技场英雄榜
+ui_arena_0011=英雄榜第一宝箱
+ui_arena_0012=英雄榜第二宝箱
+ui_arena_0013=英雄榜第三宝箱
+ui_arena_0014=英雄榜排名每隔5分钟刷新
+ui_arena_0015=5000名以外
+ui_arena_0016=奖励：
+ui_arena_0028=竞技人数
+ui_arena_0029=开放等级
+ui_arena_0030=竞技场介绍
+ui_arena_0031=暂无
+ui_arena_0032=金钱奖励：
+ui_arena_0033=经验奖励：
+ui_arena_0034=剩余时间：{@0:minut}分钟{@1:second}秒
+ui_arena_0035=胜利
+ui_arena_0036=失败
+ui_arena_0037=创建战队需要消耗道具：{@0:item}x{@1:count}金钱：{@money}
+ui_arena_0038=是否确定离开竞技场？中途离开竞技场将判定为失败。
+ui_arena_0039=个人模式竞技场信息
+ui_arena_0040=等级：
+ui_arena_0041=阵营：
+ui_arena_0042=职业：
+ui_arena_0043=战斗力：
+ui_arena_0044=角色竞技场属性
+ui_arena_0045=总积分：
+ui_arena_0157=本周积分：
+ui_arena_0046=参赛次数：
+ui_arena_0047=胜率：
+ui_arena_0048=胜负：
+ui_arena_0049=排名：
+ui_arena_0050=排名升降：
+ui_arena_0051=最多连胜：
+ui_arena_0052=竞技场商店
+ui_arena_0053=本赛季
+ui_arena_0054=竞技场名称
+ui_arena_0055=开启时间
+ui_arena_0056=报名
+ui_arena_0057=个人竞技场信息
+ui_arena_0058=加入战斗
+ui_arena_0059=退出排队
+ui_arena_0060=角色达20级之后，竞技场方可开放。
+ui_arena_0061=角色个人属性
+ui_arena_0062=等级：
+ui_arena_0063=阵营：
+ui_arena_0064=职业：
+ui_arena_0066=战队已加入排队
+ui_arena_0067=战队竞技场属性
+ui_arena_0070=角色名
+
+ui_arena_0071=积分奖励
+ui_arena_0072=英勇奖励
+ui_arena_0074=我的战绩
+ui_arena_0075=击杀：
+ui_arena_0076=死亡：
+ui_arena_0077=积分奖励：
+ui_arena_0078=英勇奖励：
+ui_arena_0079=奖励加成：
+
+ui_arena_0080=最多击杀：
+ui_arena_0081=积分+
+ui_arena_0082=最多伤害：
+ui_arena_0083=最多治疗：
+ui_arena_0084=战队
+ui_arena_0085=积分
+ui_arena_0086=伤害量：
+ui_arena_0087=治疗量：
+ui_arena_0088=至
+ui_arena_0089=进入排队
+ui_arena_0090=战队进入排队
+ui_arena_0091=未加入战队
+ui_arena_0092=创建战队
+
+ui_arena_0093=已排队成功，是否确认进入竞技场
+ui_arena_0094=进入竞技场
+ui_arena_0095=取消
+ui_arena_0096=离开竞技场
+ui_arena_0097=要创建的竞技场的名称
+ui_arena_0098=创建
+ui_arena_0099=加入战队
+ui_arena_0100=竞技场规则
+ui_arena_0101=个人模式
+ui_arena_0102=战队模式
+ui_arena_0103=战队申请
+ui_arena_0104=战队名称
+ui_arena_0105=战队人数
+ui_arena_0106=申请
+ui_arena_0107=申请加入
+ui_arena_0108=无队伍
+ui_arena_0109=竞技场
+ui_arena_0110=战队竞技场信息
+ui_arena_0111=战队模式竞技场信息
+ui_arena_0112=战队成员列表
+ui_arena_0113=战队成员
+ui_arena_0114=战队人数：
+ui_arena_0115=个人积分
+ui_arena_0116=个人胜率
+ui_arena_0117=参赛次数
+ui_arena_0118=是否在线
+ui_arena_0119=添加队员
+ui_arena_0120=移除队员
+ui_arena_0121=移交队长
+ui_arena_0122=解散战队
+ui_arena_0123=退出战队
+ui_arena_0124=是
+ui_arena_0125=否
+ui_arena_0126=击杀
+ui_arena_0127=伤害量
+ui_arena_0128=治疗量
+ui_arena_0129=竞技场统计
+ui_arena_0130=离开倒计时：{@0:minut}分钟{@1:second}秒
+ui_arena_0131=个人基本信息
+ui_arena_0132=点击打开竞技场统计界面
+ui_arena_0133=积分
+
+ui_arena_0140=个人榜单
+ui_arena_0141=战队榜单
+ui_arena_0142=第一名
+ui_arena_0143=第二名
+ui_arena_0144=第三名
+ui_arena_0145=我的排名:
+ui_arena_0146=我的积分:
+ui_arena_0147=我的奖励:
+ui_arena_0148=我的对手
+ui_arena_0149=竞技场英雄榜
+ui_arena_0150=排名
+ui_arena_0151=角色名
+ui_arena_0152=职业
+ui_arena_0153=积分
+ui_arena_0154=奖励
+ui_arena_0155=首页
+ui_arena_0156=末页
+
+
+ui_arena_rule_solo=1：报名后根据个人积分随机排队实力相近的人战斗。<br/>2：一次只能报名一个竞技场。<br/>3：未等竞技场结束就离开竞技场，将不获得任何奖励。<br/>4：竞技场内含有反隐黑金石，适当利用会对隐身职业起到意料之外的效果。<br/>5：比赛若是出现平局，将判断双方均为失败。<br/>6：可以在计时器边上通过图标来了解对方阵容。<br/>7：竞技场可无限制次数参加，但是每天10次以后，金钱和经验收益将降低。积分收益不影响。<br/>8：竞技场设立英雄榜，按周积分排名，根据排名获得奖励。每周一将周积分清零。
+ui_arena_rule_team=1：只在规定赛季开放，根据积分排行，每个赛季结束会发放奖励，同时清空该赛季积分。<br/>2：报名后根据战队积分随机排队战斗。<br/>3：一次只能报名一个竞技场。<br/>4：报名前必须进行战队成员之间的组队，由队伍的队长报名竞技场。同时人数符合竞技场人数要求。
+ui_main_funcmenu_arena_wait_time=竞技场排队等待时间：{@0:minut}分钟{@1:second}秒
+ui_main_funcmenu_arena_enter_time=竞技场进入剩余时间：{@0:minut}分钟{@1:second}秒
+
+
+
+
+//战场
+ui_main_funcmenu_battlewar_wait_time=战场排队等待时间：{@0:minut}分钟{@1:second}秒
+ui_main_funcmenu_battlewar_enter_time=战场游戏时间：{@0:minut}分钟{@1:second}秒
+ui_main_funcmenu_battlewar_equally_1_time=<br/>平均等待时间：{@0:minut}分钟{@1:second}秒<br/>
+ui_main_funcmenu_battlewar_equally_2_time=<br/>平均等待时间：不可预估<br/>
+ui_zhanchangtuichu=此时退出战场将被认定为失败！你确定要退出战场吗？
+ui_zhanchangtuichu_2=此时退出战场将不获得任何奖励！你确定要退出战场吗？
+ui_prize=战斗奖励
+ui_sucess=胜利奖励
+ui_fail=失败奖励
+ui_glory=荣誉值
+ui_hunt=猎杀点数
+ui_war=战场和竞技场
+ui_battle=战场
+ui_battle_fb=战场分副本
+ui_battle_tips=战场提示
+ui_battle_resource=战争资源
+ui_join_by_team=队伍加入
+ui_join_by_alone=个人加入
+ui_leave_queue=退出排队
+ui_leave_battlewar=离开战场
+ui_battel0=随机战场
+ui_battle_kill=士气
+ui_battle_arm=护甲值
+ui_reverse_timetitle_1=您将在
+ui_reverse_timetitle_2=秒后离开战场队列
+ui_battle_prosecute=举报玩家
+ui_getin_battel=进入战场
+ui_deny_getin=拒绝
+ui_battle_statistics=战场信息
+ui_personal_warinfo=个人信息
+ui_title_warinfo=信息
+ui_battle_ranking=排名
+ui_battle_name=昵称
+ui_battle_harms=伤害值
+ui_battle_cures=治愈量
+ui_battle_camp=阵营
+ui_battle_honour=荣誉值
+ui_battle_kill_die=击杀/死亡
+ui_battle_special=特殊
+ui_battle_all=全部
+ui_battle_zq=艾森赫特
+ui_battle_qh=格兰蒂尔
+ui_battle_zqnum=艾森赫特人数:
+ui_battle_qhnum=格兰蒂尔人数:
+ui_battle_introdeuce=战场介绍
+ui_battleground_0036=战场管理委员会
+ui_battleground_0037=胜利:荣誉值+{@0:value}
+ui_battleground_0038=失败:荣誉值+{@0:value}
+ui_battleground_0039=战场死亡提示
+ui_battleground_0040=战场复活提示
+ui_battleground_0041=复活
+ui_battleground_0042=艾利斯卡加德山脉战场
+ui_battleground_0043=死亡次数
+ui_battleground_0044=占领**据点
+ui_battleground_0045=最高多杀
+ui_battleground_0046=最高连斩
+ui_battleground_0047=胜利目标积分(0/1)
+ui_battle_001=战场排队中
+ui_battle_config=战场名称
+ui_battle_level=等级
+ui_battle_hunt=随机奖励（随机到本战场才发放）：
+
+
+//每日引导系统
+ui_meirimubiao=目标
+ui_meiriyindao=活跃度
+ui_meirileixing=类型
+ui_meiricishu=次数
+ui_dangqianhuoyuedu=当日活跃度
+ui_gaoejiaoli=高额奖励：
+ui_neirongjieshao=内容介绍：
+ui_tuijianrenwu=推荐任务
+ui_tuijianshijian=推荐事件
+ui_tuijianfuben=推荐副本
+ui_tuijianzhanchang=推荐战场
+ui_tuijianjingjichang=推荐竞技场
+ui_tuijianhuodong=推荐冒险
+ui_wanchengtuijian=完成推荐即可领取额外奖励
+ui_meirichakan=查看
+ui_meiriqingdianji=请点击
+ui_meiriyilingqu=已领取
+ui_meiriqing=请
+ui_meirituijianneirong=推荐内容
+ui_meirisxhdz=上限活跃度:
+ui_meirilxjyz=离线经验值:
+ui_meirituijian=推荐项目
+ui_meirirenwu=任务
+ui_meiripvprenwu=冒险任务
+ui_meirishijian=事件
+ui_meirizhanchang=战场
+ui_meirichakantuijianrenwu=查看推荐任务
+ui_meirichakanshijian=查看事件
+ui_meirizhanchangjiequ=战场界面参与
+ui_meirijingjichang=竞技场
+ui_meirijingjichangjiequ=竞技场界面参与
+ui_meirifubencanyu=副本界面参与
+ui_meirifuben=副本
+ui_meirijieshouren=接受人
+ui_meirilingqu=领取奖励
+ui_meirishuaxin=刷新
+ui_meiripvplingqu=冒险界面接取
+ui_meirishijianweizhi={@0:map}的附近
+ui_meirirenwumingcheng=任务名称
+ui_meirijiequren=接取人
+ui_meirihuoyuejiangli=活跃度奖励
+ui_meirixuyaohuoyuedu={@0:value}活跃度
+ui_meirixiaxianbuchang=下线补偿
+ui_meirixiaxian=下线{@0:time}分钟后开始积累
+ui_meirihuode=通过参与任务，事件，副本，<br>竞技场，战场来积攒活跃度。
+ui_meirijindutiao=<s><s><font color="#64c800">今日活跃度：{@0:value}</font><br>当今天活跃度达到{@1:value}时<br>可以激活宝箱，领取奖励。
+ui_meirijinrihuoyuedu=<font color="#64c800">今日活跃度：{@0:value}</font>
+ui_meirijinrihuoyueudsub=获得{@0:value}点活跃度，可激活第{@1:num}个金蛋，领取奖励。
+ui_meiripverenwuyiru=完成{@0:value}个任务
+ui_meiripvprenwuyiru=完成{@0:name}
+ui_meirifubenyiru={@0:value}
+ui_meirishijianyiru=完成{@0:value}个事件
+ui_meirizhanchangyiru={@0:value}
+ui_meirijingjichangyiru=竞技场的胜利
+ui_meiriweikaiqi=未开启
+ui_meiriwuxiao=....
+ui_meirifashengdi=发生地
+ui_jjchuoqushengli=在竞技场中获取胜利
+ui_shijian=事件
+ui_meirishuaxinxiaohao=刷新消耗{@0:value}
+ui_meirirenwukaiqi=任务功能未开启
+ui_meirishijiankaiqi=事件功能未开启
+ui_meirifubenkaiqi=副本功能未开启
+ui_meiripvprenwukaiqi=PVP任务功能未开启
+ui_meirizhanchangkaiqi=战场功能未开启
+ui_meirijingjichangkaiqi=竞技场功能未开启
+ui_meirilingqutips=推荐{@0:name}全部完成后，领取奖励。
+ui_meirilingqutips2=已领取，每日只能领取一次。
+ui_baoxiangkaiqi0=10级开启
+ui_baoxiangkaiqi1=18级开启
+ui_baoxiangkaiqi2=24级开启
+ui_baoxiangkaiqi3=30级开启
+ui_meirixiaxianbuchangtips=精力充沛中可额外获得的经验，等级越高，上限越高。
+ui_meiriyincang=隐藏
+ui_meiribox1=10级开启
+ui_meiribox2=18级开启
+ui_meiribox3=24级开启
+ui_meiribox4=30级开启
+ui_huoyuedujia=活跃度+{@0:value}
+ui_meirituijian_sm=若完成的是推荐目标，则有额外经验奖励。
+ui_meirizhuangtai=状态
+ui_wanchengjiangli=完成奖励
+ui_meiriweidaoda1=玩家达到10等级后，自动开启
+ui_meiriweidaoda2=玩家达到18等级后，自动开启
+ui_meiriweidaoda3=玩家达到24等级后，自动开启
+ui_meiriweidaoda4=玩家达到30等级后，自动开启
+ui_meirijiangli1=奖励大量金钱，经验。
+ui_meirijiangli2=奖励大量金钱，经验，神秘的宝物箱。
+ui_meirilingquguo=已领取，请明天继续加油完成活跃度!
+ui_meirifubenjiemian=副本界面查看
+ui_meiri_difficult_0=简单
+ui_meiri_difficult_1=困难
+ui_meiri_difficult_2=英雄
+ui_meiri_difficult_3=史诗
+ui_meiri_renwuyiwanjie=玩家当前任务已完结
+ui_meiri_shijianyiwanjie=玩家当前事件已完结
+ui_meiri_fubenyiwanjie=玩家当前副本已完结
+ui_meiri_zhanchangyiwanjie=玩家当前战场已完结
+ui_meiri_jingjichangyiwanjie=玩家当前竞技场已完结
+ui_meiri_maoxianyiwanjie=玩家当前冒险已完结
+ui_meiri_qiandao=签到
+ui_meiri_tuijian=推荐
+ui_meiri_boss=BOSS
+ui_meiri_zudui=发起组队
+ui_meiri_mingcheng=名称：
+ui_meiri_jiangli=奖励：
+ui_meiri_jieshao=介绍：
+ui_meiri_task_reward=<font color="#FF00FF ">大量经验</font>，金钱，生活用品
+ui_meiri_dengjifanwei=完成<font color="#FF00FF">{@0:value}~{@1:value}级的任务</font>，每个可获<font color="#FF00FF">5点活跃度</font>，每天可以获得5次。满足任务的完成条件，就能够完成任务。
+ui_meiri_event_reward=<font color="#FF00FF">大量经验</font>，金钱
+ui_meiri_event_introduce=参与并完成事件可以获得<font color="#FF00FF">5点活跃度</font>，每天可以获得5次。前去事件的发生地，就能够参与事件。
+ui_meiri_pvptask_reward=<font color="#FF00FF">英勇点数</font>，经验，金钱
+ui_meiri_batt_reward=<font color="#FF00FF">英勇点数</font>，经验，金钱
+ui_meiri_batt_introduce=在指定战场获胜，可以获得<font color="#FF00FF">30点活跃度</font>。每天可以获得1次。打开战场界面排队进入战场。
+ui_meiri_arena_reward=<font color="#FF00FF">英勇点数</font>，经验，金钱
+ui_meiri_arena_introduce=在竞技场中获胜，每场可以获得<font color="#FF00FF">5点活跃度</font>。每天可以获得2次。打开竞技场界面排队进入竞技场。
+ui_meiri_clone_reward=<font color="#FF00FF">极品装备</font>，经验，金钱
+ui_meiri_tuijianzhandouli=推荐战斗力：
+ui_meiri_day={@0:day}天
+ui_meiri_hour={@0:hour}小时
+ui_meiri_minute={@0:min}分钟
+ui_meiri_second={@0:sec}秒
+ui_meiri_chuxian=后出现
+ui_meiri_weizhi=达贡盆地某处
+ui_meiri_boss_place={@0:place}
+ui_meiri_weichuxian=未出现
+ui_meiri_weichufa=未触发
+ui_meiri_yishuaxin=已刷新
+ui_meiri_boss_level=等级：
+ui_meiri_boss_nama=名称：
+ui_meiri_boss_area=地点：
+ui_meiri_boss_reward=奖励：
+ui_meiri_zhuangtaishuoming=状态：
+ui_meiri_weishuaxin=未触发相关事件
+ui_meiri_yichuxian=BOSS已复活，已出现在地图上
+ui_meiri_shuaxing=事件刷新时间或BOSS复活时间
+ui_meiri_weichuxian=事件已触发，BOSS未复活
+ui_achieve_mubiao_02=<a href="chattype,1" style="chattype1">进入战役</a>
+ui_achieve_mubiao_03=<a href="chattype,1" style="chattype1">离开战役</a>
+
+
+//签到
+ui_qd_qiandaojiangli=签到奖励
+ui_qd_jinrijiangli=今天奖励
+ui_qd_mingrijiangli=明天奖励
+ui_qd_hourijiangli=后天奖励
+ui_qd_dianjilingqu=点击领取
+ui_qd_yilingqu=已领取
+ui_qd_exp={@0:value}点经验
+ui_qd_time={@0:min1}{@1:min2}:{@2:sec1}{@3:sec2}
+
+//背包
+ui_main_funcmenu_bag=背包(B)
+ui_open_bag=确认花费10点券开通商店连接
+ui_open_depot=确认花费10点券开通仓库连接
+ui_open_auth_link=确认使用快捷链接将
+ui_ext_bag_content_tip=确认花费{@0:price}点券开通此包裹栏？
+ui_ext_bag_failed=开通失败，点券不足
+ui_open_shop_fromBag_failed=开通失败，点券不足
+ui_open_depot_fromBag_failed=开通失败，点券不足
+ui_cash_ext_bag_content_tip=确认花费{@0:price}黑金开通此包裹栏？
+ui_cash_ext_bag_failed=开通失败，黑金不足
+ui_cash_open_shop_fromBag_failed=开通失败，黑金不足
+ui_cash_open_depot_fromBag_failed=开通失败，黑金不足
+ui_ext_bag_grid=是否开通追加包裹栏？
+ui_bag_title={@0:name}的背包
+ui_bag_arrange=整理
+ui_bag_split=拆分
+ui_bag_mall=点券
+ui_bag_voucher=人造黑金
+ui_bag_lock=锁定
+ui_bag_destroy=销毁
+ui_bag_setup=设置
+ui_bag_ding=金
+ui_bag_liang=银
+ui_bag_wen=铜
+ui_bag_config_compose=整合小包裹
+ui_bag_config_cols=列数
+ui_bank_ok=确认
+ui_bank_cancle=取消
+ui_bank_store=存款
+ui_bank_draw=取款
+ui_depot=仓库
+ui_depot_title={@0:name}的仓库
+ui_depot_search=搜索
+ui_depot_arrange=整理
+ui_depot_store=存储
+ui_depot_draw=提取
+ui_depot_quality_all=全部
+ui_depot_quality_white=白色
+ui_depot_quality_green=绿色
+ui_depot_quality_blue=蓝色
+ui_depot_quality_purple=紫色
+ui_depot_quality_orange=橙色
+ui_depot_quality_darkgold=暗金
+ui_depot_all=全部
+ui_depot_equip=装备
+ui_depot_minerals=矿产
+ui_depot_consume=消耗
+ui_depot_task=任务
+ui_depot_sundries=杂物
+ui_depot_material=材料
+ui_depot_ammunition=弹药
+ui_depot_mineral=矿产
+ui_depot_operation_cost_tip=是否花费50铜币使用快捷仓库功能？
+ui_money_not_enough_tip=金钱不足，移动失败
+ui_ext_depot_failed=开通失败，点券不足
+ui_mount_success=包裹装备成功
+ui_unmount_success=包裹卸载成功
+ui_confirm_destroyitem=确定需要删除此物品吗?
+ui_confirm_close_linkshop=是否关闭快速商店面板?
+ui_confirm_close_linkdepot=是否关闭快速仓库面板?
+ui_ticket_capital_tip=将花费{@0:ticket}点券
+ui_ticket_capital_tip_shop=是否花费{@0:ticket}点券打开商店链接？
+ui_ticket_capital_tip_depot=是否花费{@0:ticket}点券打开仓库链接？
+ui_ticket_capital_tip_bag=是否花费{@0:ticket}点券开启扩展背包栏？
+ui_cash_ticket_capital_tip=将花费{@0:ticket}黑金
+ui_cash_ticket_capital_shop=是否花费{@0:ticket}黑金打开商店链接？
+ui_cash_ticket_capital_depot=是否花费{@0:ticket}黑金打开仓库链接？
+ui_cash_ticket_capital_bag=是否花费{@0:ticket}黑金开启扩展背包栏？
+ui_jewel_capital_blackgold=批量合成宝石总共将会花费{@0:ticket}黑金
+ui_equip_compound_blackgold=合成装备将会花费{@0:ticket}黑金
+ui_inputbox_spititem=请输入拆分数量:(最大{@0:ToInt})
+ui_prevpage_k=　上一页
+ui_nextpage_k=　下一页
+ui_sns_mainpage=首页
+ui_lastpage=末页
+ui_shangcheng=商店
+ui_cangku=仓库
+ui_capital_display=在背包中显示
+ui_inputbox0001=确定要删除此物品吗？
+ui_inputbox0002=请输入“DELETE”点击“确定”按钮
+ui_bag_sell=出售杂物
+ui_shortcut_sell_sundries=是否出售所有杂物?
+
+
+
+//交通工具
+ui_trans=<font color="#003366">是的，我想要离开此地。</font>
+
+
+
+
+
+//仓库
+ui_prevpage=上一页
+ui_nextpage=下一页
+ui_storage_0001=个人仓库
+
+
+//充能界面
+ui_add_energy_reset=重置
+ui_add_energy_resetall=重置所有
+ui_add_energy_desc=<center>请选择你想要进行充能的部位与效果。</center>
+ui_add_energy=充能
+ui_add_keyenergy=一键充能
+ui_full_energy=蓄能
+ui_energy_null=（无）
+ui_old_property=原效果：
+ui_now_property=充能效果：
+ui_equip_level=需求装备等级：{@0:int}
+ui_need_renonw=需要名望：{@0:widestr}（{@1:}级）
+ui_need_material=需要材料：
+
+
+//宝石合成
+ui_e_compose_title=宝石合成
+ui_e_compose_sort1=名称
+ui_e_compose_sort2=等级
+ui_e_compose_sort3=数量
+ui_e_compose_sort4=状态
+ui_e_compose_sm=说明
+ui_e_compose_sm_enhance=<center>说明</center>
+ui_e_compose_type=合成类型
+ui_e_compose_bound=提取数量：
+ui_e_compose_unbound=未绑定
+ui_compose_count=合成次数：
+ui_e_compose_consume=消耗:
+ui_e_compose_start=开始合成
+ui_perfect_compose=完美合成
+ui_succeed_ply=成功机率
+ui_e_grow_result=产出宝石
+ui_e_clear_grid_btn=清空
+ui_e_compose_blackgold=黑金
+ui_e_compound_ccsl=产出数量：
+ui_e_compound_sbcs=失败次数：
+
+
+
+
+//宠物
+ui_hotel_bing = 确定绑定吗?
+ui_owner_pet = 的宠物
+ui_pet_fight=战斗
+ui_pet_watch=小伙伴
+ui_battle_carrier=的载具
+ui_owner_pet_1=携带数量:
+
+
+
+//战斗
+ui_g_pvp_relation=PVP：<br>（16级开放）<br>首次开启杀戮模式时，请先到“杀戮设置”中进行设置。
+ui_g_pvp_short_cut=pvp(;)
+ui_g_pvp_work=生效
+ui_g_pvp_cancel=取消
+ui_g_pvp_slaughter_protect=杀戮模式--保护对象
+ui_g_pvp_peace=和平模式
+ui_g_pvp_slaughter=杀戮模式
+ui_g_pvp_shane_protect=善恶保护
+ui_g_pvp_friend_protect=好友保护
+ui_g_pvp_guild_protect=公会保护
+ui_g_pvp_race_protect=种族保护
+ui_g_pvp_npc_protect=公会保护
+ui_g_pvp_teammate_protect=队友保护
+ui_g_pvp_npc_friend=npc保护
+ui_g_pvp_shane_tips=选中后，你不能攻击非红名玩家，非黄名的同阵营玩家
+ui_g_pvp_friend_tips=选中后，你不能攻击好友
+ui_g_pvp_guild_tips=选中后，你不能攻击同一公会的玩家
+ui_g_pvp_race_tips=选中后，你不能攻击同一种族的玩家
+ui_g_pvp_npc_tips=选中后，你不能攻击中立的NPC
+ui_g_pvp_teammate_tips=强制选中，你不能攻击同队伍的玩家
+ui_g_pvp_slaughter_set=杀戮设置
+ui_relive_skill_accept=接受
+ui_relive_skill_reject=拒绝
+ui_relive_be_skill=<font color="#ff0000">{@0:名字}</font>想要复活你
+ui_relive_charge=确定
+ui_relive_cd_die=<br>冷却中，剩余{@time3}
+ui_fuhuo0001=选择复活点
+ui_fuhuo0005=完美复活
+ui_perfect_pay=您没有足够的灵魂宝石，请至拍卖行收购，或者选择其他的复活方式
+ui_perfect_relive_tip=健康状态原地复活，需要消耗<font color="#ff0000">{@1:数量}{@0:物品}</font>
+ui_perfect_confirm=您是第一次使用完美复活，本复活方式需要消耗<font color="#ff0000">{@1:数量}个{@0:物品}</font>，您确定复活吗？以后使用同一复活方式，将不再提示
+ui_fuhuo0002=原地复活
+ui_local_relive_tip=受伤状态原地复活，需要消耗<font color="#ff0000"></font>
+ui_local_relive_new=<br>新手副本中可以免费原地复活
+ui_local_confirm=您是第一次使用原地复活，本复活方式需要消耗<font color="#ff0000">{@0:数量}</font>，您确定复活吗？以后使用同一复活方式，将不再提示
+ui_local_pay=您没有足够的金钱，请选择其他的复活方式
+ui_fuhuo0003=回城复活
+ui_city_relive_tip=受伤状态复活到当前场景中最近的城镇复活点
+ui_city_confirm=您是第一次使用回城复活，本复活方式需要消耗<font color="#ff0000">{@0:数量}</font>，您确定复活吗？以后使用同一复活方式，将不再提示
+ui_city_pay=您没有足够的点券，请充值，或者选择其他的复活方式
+ui_fuhuo0004=就近复活
+ui_near_relive_tip=受伤状态复活到当前场景中最近的野外复活点
+ui_relive_tips=您已经死亡，请选择复活方式
+ui_relive_tips_no_nearpos=副本BOSS战进行中，禁止使用就近复活
+ui_relive_times=剩余<font color="#ff0000">{@0:时间}</font>秒
+ui_relive_info=复活需要：<font color="#ff0000">{@0:物品}x{@1:数量}个</font>
+ui_cant_relive_info=没有足够道具或者点券，复活需要：<font color="#ff0000">{@0:物品}x{@1:数量}个</font>
+ui_role_pk=通缉值
+ui_role_tongjivalue=红名值：{@0:通缉值}/{@1:上限}<br>每次恶意杀死己方阵营玩家，会获得100点红名值惩罚。<br>红名值1~199：黄名状态。<br>红名值200~399：恶棍<br>红名值400~599：恶魔<br>红名值600~799：恶霸<br>红名值800~12500：罪大恶极
+ui_relive_default=默认
+ui_relive_practice_fight=你确定要复活继续战斗吗？
+ui_relive_practice_leave=你确定要复活离开试练场吗？
+ui_pvp_task_trackinfo_practice_relive=复活战斗将消耗<font color="#FAFA76">{@0:金钱}金币</font>并<font color="#FAFA76">变得虚弱</font>。结束离开可以领取奖励并传出试炼之地。
+
+//角色返回
+ui_suretoexitandrelogin=<center>你确定要返回角色选择吗？</center>
+ui_exitandrelogintime=<font color="#ff0000">{@0:时间}</font>秒后返回角色选择
+ui_suretoexitgame=<center>你确定要退出游戏吗？</center>
+ui_exitgametime=<font color="#ff0000">{@0:时间}</font>秒后退出游戏
+ui_exitgame_unlogin=您确定要退出游戏吗？
+ui_exit_roles_to_login=您确定要返回登陆界面吗？
+ui_exit_roles_to_pvp=本游戏区是自由对战模式，遵守游戏规则，可以获得畅快游戏体验。
+ui_exit_roles_to_pvpagree=同意自由对战
+
+//创建人物
+ui_createrole_gender_warning=请选择人物性别
+
+//好友
+ui_main_funcmenu_haoyou=社交(O)
+ui_friendratio=友好度
+ui_rank=等级
+ui_chouhenrank=仇恨度
+ui_haoyou=好友
+ui_blacknamelist=黑名单
+ui_choudi=仇敌
+ui_chaxun=查询
+ui_chuansong=传送
+ui_wufahuoqu=无法获取目标位置
+ui_chaxunxuyaowupin=查询仇敌需要消耗{@0:name}，是否继续吗?
+ui_chaxunshibai=查询失败，当前背包无[{@0:name}]，请到商场购买。
+ui_gaoweicaozuo=你与{@0:name}的好友度{@1:value},是否继续此操作?
+ui_buzaixian=该玩家不在线
+ui_chaxunjieguo={@0:name}在{@1:scene}附近活动
+ui_addblacklist=加为黑名单
+ui_sns_freind=好友
+ui_sns_enemy=仇人
+ui_blacklist=黑名单
+ui_secretchat=私聊
+ui_friendship=好友度
+ui_suozaidi=所在地
+ui_input=请输入名称
+ui_menu_remark=备注
+ui_friend_confirm=是否将{@0:name}拉入黑名单
+ui_enemy_confirm=是否将{@0:name}加入仇敌列表
+ui_beijisha_enemy_confirm={@0:name}将你杀死了，是否将其加为仇人?
+ui_jiaohu=交互
+ui_shejiao=社交
+ui_xianshizaixianhaoyou=只显示在线好友
+ui_beijishatishi=提示添加仇人
+ui_add=添加
+ui_delete=删除
+ui_g_job=职业
+ui_g_level=等级
+ui_g_power=实力
+ui_creat_name=姓名
+ui_guild_mem_count=人数
+ui_playerlink_jiaweihaoyou=加为好友
+ui_playerlink_shanchuhaoyou=删除好友
+ui_playerlink_yijiaoduizhang=移交队长
+ui_playerlink_kaichuduiyuan=开除队员
+ui_choudizaifujin=你的仇敌<font color="#ff0000">[{@0:name}]</font>在附近,请注意
+ui_choudichuansong=传送至{@0:name}处，需要花费{@1:value}点券，是否继续此操作？
+ui_enemyneedmoney={@0:value}
+ui_enemyneedblackgold={@0:value}
+ui_enemyneeditem=[{@0:name}]×{@1:value}
+
+
+//交易
+ui_wodewupin=我的物品
+ui_jinbi=金钱:
+ui_mubiaodengji=目标等级
+ui_mubiaozhiye=目标职业
+ui_self_money=对方只能收到
+ui_other_money=实际收入
+ui_jiaoyishui=交易税10%
+
+
+//聊天
+ui_pindao=频道
+ui_groupchat=群聊
+ui_notify_info=查看信息
+ui_notify_systeminfo=<font color='#ff0000'>[通告]</font>
+ui_notify_TipType_shijian=<font color='#ffdbd6'>[事件]:</font>
+ui_notify_TipType_huodong=<font color='#ffdbd6'>[冒险]:</font>
+ui_notify_TipType_fuben=<font color='#ffdbd6'>[副本]:</font>
+ui_notify_TipType_zhanchang=<font color='#ffdbd6'>[战场]:</font>
+ui_notify_TipType_nengliangjing=<font color='#ffdbd6'>[能量井]:</font>
+ui_notify_TipType_shijie=<font color='#ffdbd6'>[阵营]:</font>
+ui_notify_TipType_jingjichang=<font color='#ffdbd6'>[竞技场]:</font>
+ui_siliao=私聊
+ui_guild=公会
+ui_fujin=附近
+
+ui_chat_channel_zc=　战场  /z
+ui_chat_channel_bh=　公会  /g
+ui_chat_channel_bt=　团队  /t
+ui_chat_channel_dw=　队伍  /p
+ui_chat_channel_sj=　阵营  /w
+ui_chat_channel_cj=　区域  /r
+ui_chat_channel_hh=　喊话  /y
+ui_chat_channel_ml=　私聊  /m
+ui_chat_channel_fj=　附近  /s
+ui_chat_channel_jj=　竞技  /j
+ui_zonghe=综合
+ui_zhandou=战斗
+ui_xinjianxianshifengye=新建显示分页
+ui_chatroom_topic=请输入需要创建的聊天室主题
+ui_fa=发
+ui_chat_invite_group=邀请群聊
+ui_chat_exit_group=退出群聊
+ui_chatroom_image=表情
+ui_chatroom_min=最小化 
+ui_chat_channel_present = 清除当前窗口信息
+ui_chat_channel_channel = 清除指定频道信息
+ui_chat_channel_All = 清除所有频道信息
+ui_chatroom_0=[<a href="chat,{@0:name},{@2:camp}" style="chattype1">{@0:name}</a>]:{@1:content}
+ui_chatroom_1=<font color="#FFC000">{@0:content}</font> 
+ui_admin_elected=提升为管理员
+ui_admin_repeal=撤销管理员
+ui_reject_chatroom=请出聊天室
+ui_invite_member=请输入要邀请的聊天成员名
+ui_chat_sj_cant=世界频道使用限制
+ui_chat_times_err=<font color=\"#ff0000\">不能连续10次以上发送相同信息。</font>
+ui_menu_chat_setting=设置
+ui_menu_chat_new_page=新建分页
+ui_menu_chat_change_page_name=重命名
+ui_menu_chat_closepage=关闭分页
+ui_chat_close=聊天开关
+ui_chat_face=表情显示
+ui_chat_faces=表情
+ui_chat_throughout=始终显示频道栏
+ui_chat_floating=悬浮显示频道栏
+ui_chat_lock=锁定窗口，界面无法拖动
+ui_chat_unlock=解锁窗口，可拖动界面
+ui_chat_minimize=最小化
+ui_chat_maximum=最大化
+ui_chat_magic=魔法表情
+ui_chat_setting=设置
+ui_chat_todown=一拉到底
+ui_chat_transparence=调节默认透明度
+ui_chat_clear=清除窗口信息
+ui_chat_action=动作
+ui_chat_secret_input_name=输入姓名
+ui_scrit_char = 请输入要私聊的玩家
+ui_tip_list = 点击弹出下拉菜单
+ui_friends=好友
+ui_unfamiliar=陌生人
+ui_guild_number=公会成员
+ui_inputsubpagename=输入分页名：
+ui_add_friend_again = 该玩家已经是你的好友
+ui_chat_22_info =发布了招募信息:
+ui_face_1=闭嘴 /{@0:shortcut}
+ui_face_2=呆 /{@0:shortcut}
+ui_face_3=得意 /{@0:shortcut}
+ui_face_4=囧 /{@0:shortcut}
+ui_face_5=泪 /{@0:shortcut}
+ui_face_6=撇嘴 /{@0:shortcut}
+ui_face_7=色 /{@0:shortcut}
+ui_face_8=睡觉 /{@0:shortcut}
+ui_face_9=微笑 /{@0:shortcut}
+ui_face_10=斜线 /{@0:shortcut}
+ui_face_11=衰 /{@0:shortcut}
+ui_face_12=可怜 /{@0:shortcut}
+ui_face_13=伤心 /{@0:shortcut}
+ui_face_14=无言 /{@0:shortcut}
+ui_face_15=吓 /{@0:shortcut}
+ui_face_16=怒 /{@0:shortcut}
+ui_face_17=大怒 /{@0:shortcut}
+ui_face_18=杀 /{@0:shortcut}
+ui_face_19=无视 /{@0:shortcut}
+ui_face_20=哎？ /{@0:shortcut}
+ui_face_21=嗯？ /{@0:shortcut}
+ui_face_22=惊讶 /{@0:shortcut}
+ui_face_23=雷 /{@0:shortcut}
+ui_face_24=可爱 /{@0:shortcut}
+ui_face_25=调皮 /{@0:shortcut}
+ui_face_26=黑脸 /{@0:shortcut}
+ui_face_27=OTL /{@0:shortcut}
+ui_face_28=嘲讽 /{@0:shortcut}
+ui_face_29=阴险 /{@0:shortcut}
+ui_face_30=猥琐 /{@0:shortcut}
+ui_face_31=墙角 /{@0:shortcut}
+ui_face_32=装 /{@0:shortcut}
+ui_face_33=酷 /{@0:shortcut}
+ui_face_34=拽 /{@0:shortcut}
+ui_face_35=晕 /{@0:shortcut}
+ui_face_36=凸 /{@0:shortcut}
+ui_face_37=抽烟 /{@0:shortcut}
+ui_face_38=泪奔 /{@0:shortcut}
+ui_face_39=寒 /{@0:shortcut}
+ui_face_40=大寒 /{@0:shortcut}
+ui_face_41=碎碎念 /{@0:shortcut}
+ui_face_42=牙 /{@0:shortcut}
+ui_face_43=鬼脸 /{@0:shortcut}
+ui_face_44=捏脸 /{@0:shortcut}
+ui_face_45=殴 /{@0:shortcut}
+ui_face_46=隐 /{@0:shortcut}
+ui_face_47=嚼 /{@0:shortcut}
+ui_face_48=砸地 /{@0:shortcut}
+ui_face_49=挠脸 /{@0:shortcut}
+ui_face_50=呕吐 /{@0:shortcut}
+ui_face_51=喷 /{@0:shortcut}
+ui_face_52=口水 /{@0:shortcut}
+ui_face_53=擦汗 /{@0:shortcut}
+ui_face_54=骷髅 /{@0:shortcut}
+ui_face_55=敲桌 /{@0:shortcut}
+ui_face_56=困 /{@0:shortcut}
+ui_face_57=鼓掌 /{@0:shortcut}
+ui_face_58=哈欠 /{@0:shortcut}
+ui_face_59=柱 /{@0:shortcut}
+ui_face_60=茶 /{@0:shortcut}
+ui_face_61=路过 /{@0:shortcut}
+ui_face_62=吃 /{@0:shortcut}
+ui_face_63=吃饭 /{@0:shortcut}
+ui_face_64=泪 /{@0:shortcut}
+ui_face_65=抱抱 /{@0:shortcut}
+ui_face_66=打酱油 /{@0:shortcut}
+ui_face_67=点头 /{@0:shortcut}
+ui_face_68=摇头 /{@0:shortcut}
+ui_face_69=便便 /{@0:shortcut}
+ui_face_70=电话 /{@0:shortcut}
+ui_face_71=唱歌 /{@0:shortcut}
+ui_face_72=砸地 /{@0:shortcut}
+ui_face_73=拇指 /{@0:shortcut}
+ui_face_74=撞墙 /{@0:shortcut}
+ui_face_75=吐血 /{@0:shortcut}
+ui_face_76=闪人 /{@0:shortcut}
+ui_face_77=忙 /{@0:shortcut}
+ui_face_78=花 /{@0:shortcut}
+ui_face_79=黄瓜 /{@0:shortcut}
+ui_face_80=跳舞 /{@0:shortcut}
+ui_face_81=下线 /{@0:shortcut}
+ui_face_82=足球 /{@0:shortcut}
+ui_face_83=抓墙 /{@0:shortcut}
+ui_face_84=大笑 /{@0:shortcut}
+ui_input_name0001=输入名称：
+ui_confirm=确定
+ui_cancel=取消
+ui_minitip=提示
+ui_queding=确定
+ui_quxiao=取消
+ui_liaotiankongjian=聊天控件
+ui_WorldSpakeDialog_Text2 = {@0:name}<font color='#FFD700'>x1</font><font color="#FFFFFF">，是否现在到商城购买？</font>
+ui_WorldSpakeDialog_Text1 = <font color="#FFFFFF">消息发送失败。世界发言需要消耗:</font>
+ui_FACENUMBER_Text1 = 您的表情数量超过3个 请重新组织语言
+ui_FACENUMBER_Text2 = 您的超链接数量超过3个 请重新组织语言
+ui_chat_channel=频道
+ui_chat_channel_1=附近
+ui_chat_channel_2=区域
+ui_chat_channel_3=私聊
+ui_chat_channel_4=队伍
+ui_chat_channel_6=公会
+ui_chat_channel_9=阵营
+ui_chat_channel_13=战斗
+ui_chat_channel_16=组织
+ui_chat_channel_17=竞技
+ui_chat_channel_18=战场
+ui_chat_channel_20=团队
+ui_chat_channel_21=喊话
+ui_chat_channel_22=招募
+ui_chat_channel_50=系统
+ui_chat_zd=战斗
+ui_chat_1=<font color="#FFFFFF"></font><a href="chattype,1" style="chattype1"></a>[<a href="chat,{@0:name},{@2:camp}" style="chattype1">{@0:name}</a>]:{@1:content}
+ui_chat_2=<font color="#fcfcba"></font><a href="chattype,2" style="chattype2"></a>[<a href="chat,{@0:name}" style="chattype2">{@0:name}</a>]:{@1:content}
+ui_chat_3=<font color="#ff6dff"></font><a href="chattype,3" style="chattype3"></a>[<a href="chat,{@0:name}" style="chattype3">{@0:name}</a>]对你说:{@1:content}
+ui_chat_4=<font color="#ada6ff"></font><a href="chattype,4" style="chattype4"></a>[<a href="chat,{@0:name}" style="chattype4">{@0:name}</a>]:{@1:content}
+ui_chat_5=<font color="#46fd15"></font><a href="chattype,5" style="chattype5">[好友]</a>[<a href="chat,{@0:name}">{@0:name}</a>]:{@1:content}
+ui_chat_6=<font color="#39ff39"></font><a href="chattype,6" style="chattype6"></a>[<a href="chat,{@0:name}" style="chattype6">{@0:name}</a>]:{@1:content}
+ui_chat_9=<font color="#fafa76"></font><a href="chattype,9" style="chattype9"></a>[<a href="chat,{@0:name}" style="chattype9">{@0:name}</a>]:{@1:content}
+ui_chat_13=[系统]:{@0:content}
+ui_chat_14=<font color="#ffdbd6">{@0:content}</font>
+ui_chat_15=<font color="#ffdbd6">{@0:content}</font>
+ui_chat_17=<font color="#ff7900"></font><a href="chattype,17" style="chattype17">[竞技]</a>[<a href="chat,{@0:name}" style="chattype17">{@0:name}</a>]:{@1:content}
+ui_chat_18=<font color="#ff7900"></font><a href="chattype,18" style="chattype18"></a>[<a href="chat,{@0:name}"  style="chattype18">{@0:name}</a>]:{@1:content}
+ui_chat_20=<font color="#ff7900"></font><a href="chattype,20" style="chattype20"></a>[<a href="chat,{@0:name}" style="chattype20">{@0:name}</a>]:{@1:content}
+ui_chat_21=<font color="#ff4139"></font><a href="chattype,21" style="chattype21"></a>[<a href="chat,{@0:name},{@2:camp}" style="chattype21">{@0:name}</a>]:{@1:content}
+ui_chat_22=<a href="chat,{@0:name}" style="HLStype18">[{@0:name}]</a>{@1:content}
+ui_chat_103=<font color="#ff6dff"></font><a href="chattype,3" style="chattype3"></a>你对[<a href="chat,{@0:name}" style="chattype3">{@0:name}</a>]说:{@1:content}
+ui_chat_30=<font color="#64FAFF"></font><a href="chattype,4" style="chattype4">[队长]</a>[<a href="chat,{@0:name}" style="chattype4">{@0:name}</a>]:{@1:content}
+ui_chat_31=<font color="#3CA0FF"></font><a href="chattype,20" style="chattype20">[团长]</a>[<a href="chat,{@0:name}" style="chattype20">{@0:name}</a>]:{@1:content}
+ui_chat_32=<font color="#55D755"></font><a href="chattype,6" style="chattype6">[会长]</a>[<a href="chat,{@0:name}" style="chattype6">{@0:name}</a>]:{@1:content}
+ui_chat_200=<font color="#E61E1E"'>[错误]</font>{@0:content}
+ui_chat_300={@0:content}
+ui_menu_secret_chat=密语
+ui_menu_setsign=队伍目标标记
+ui_chat_PVPbtn = 与pvp有关战斗信息
+ui_chat_selfbtn = 与自己有关的战斗信息
+ui_chat_allbtn = 全部的战斗信息
+ui_chat_inputname2=非法字符 
+ui_chatroom_title=聊天室
+ui_notify_info_simp=简要信息
+ui_fa_tips=按Enter键发送消息
+ui_chat_self_tip=    自己
+ui_chat_pvp_tip=战争
+ui_chat_all_tip=全部
+ui_bourse_tip= 交易行
+
+
+
+//组队
+ui_main_funcmenu_largeteam=队伍
+ui_main_funcmenu_team=队伍(T)
+ui_g_sq=掷骰
+ui_zudui0051=选择小队
+ui_recruit=招募
+ui_suretodisbandteam=要解散队伍吗？
+ui_teamreadyaffirm=团长发起准备确认，是否准备？剩余<font color="#ff0000">{@time}</font>秒
+ui_captionsuretoquitteam=当前还有未处理的请求，确定要退出吗？
+ui_captionsuretochangeleader=当前还有未处理的请求，确定要移交吗？若继续，当前申请信息将被清空
+ui_invitesmlteamaffirm=<font color="#00ff00">{@0:Name}</font>处在<font color="#00ff00">{@1:Membs}</font>人的小队中，继续邀请将邀请整支小队，请问是否继续？
+ui_joinsmlteamaffirm=是否带领小队加入？
+ui_followsmlteamleave=您所在的小队的队长申请带领队伍离开团队，请问是否追随？
+ui_refresh=刷新
+ui_menu_create_team=创建队伍
+ui_menu_team_quality=品质要求
+ui_menu_team_allocate=分配方式
+ui_menu_team_leave=退出队伍
+ui_menu_bgteam_leave=退出团队
+ui_menu_small_team_leave=小队离开
+ui_menu_free_alloc=自由拾取
+ui_menu_turn_alloc=轮流拾取
+ui_menu_team_alloc=队伍拾取
+ui_menu_bgteam_alloc=团队拾取
+ui_menu_leader_alloc=队长拾取
+ui_menu_captain_alloc=团长拾取
+ui_menu_need_alloc=需求拾取
+ui_menu0001=拾取
+ui_menu0002=全部拾取
+ui_team_kickout=踢出队伍
+ui_bgteam_kickout=踢出团队
+ui_team_captain_change=移交队长
+ui_team_leader_change=任命小队长
+ui_team_captain1_change=移交团长
+ui_team_disband=解散队伍
+ui_bgteam_disband=解散团队
+ui_team_follow_captain=跟随队长
+ui_menu_quality_1=白色品质
+ui_menu_quality_2=绿色品质
+ui_menu_quality_3=蓝色品质
+ui_menu_quality_4=紫色品质
+ui_menu_quality_5=橙色品质
+ui_menu_exp_distribution=经验分配
+ui_menu_free_pick=自由拾取
+ui_menu_queue_pick=轮流拾取
+ui_menu_checkbag=打开包裹
+ui_team_quality=品质设置
+ui_menu_arena_team_leave_team=离开队伍
+ui_menu_arena_team_promote_leader=晋升为队长
+ui_menu_arena_team_remove_member=移除该队员
+ui_zudui0001=刷新
+ui_zudui0002=申请加入
+ui_zudui0003=邀请加入
+ui_zudui0004=开除队员
+ui_zudui0005=队长移交
+ui_zudui0006=离开队伍
+ui_zudui0007=解散队伍
+ui_zudui0008=发布
+ui_zudui0009=名字
+ui_zudui0010=等级
+ui_zudui0012=队伍分配：
+ui_zudui0013=自由拾取
+ui_zudui0014=队长分配
+ui_zudui0015=队伍分配
+ui_zudui0016=轮流拾取
+ui_zudui0017=组队
+ui_zudui0018=队伍
+ui_zudui0019=队伍招募
+ui_zudui0020=目标：
+ui_zudui0021=玩家信息
+ui_zudui0022=邀请加入
+ui_zudui0023=队伍招募
+ui_zudui0024=发起人
+ui_zudui0025=等级
+ui_zudui0026=级别
+ui_zudui0027=募集人数
+ui_zudui0028=队伍招募
+ui_zudui0029=取消招募
+ui_zudui0030=团队招募
+ui_zudui0060=等级要求
+ui_zudui0061=队伍上限
+ui_zudui0062=组队
+ui_zudui0063=队伍设置
+ui_zudui0064=场景标记
+ui_zudui0065=队伍成员
+ui_zudui0066=当前无队伍
+ui_zudui0067=刷新列表
+ui_zudui0068=团队公告
+ui_zudui0069=招募信息
+ui_zudui0070=团队招募
+ui_zudui0071=登录方式
+ui_zudui0072=目的
+ui_zudui0073=团队设置
+ui_zudui0074=团队成员
+ui_zudui0075=发布招募
+ui_zudui0076=招募申请
+ui_zudui0077=目的地
+ui_zudui0078=团队上限
+ui_zudui0079=搜索
+ui_leave_team_request=你确定离开当前队伍吗?
+ui_zuduineirong=内容
+ui_shenqingrudui=申请入队
+ui_shenqingrutuan=申请入团
+aim_1=副本
+aim_2=活动
+aim_3=竞技场
+aim_4=团战
+aim_5=休闲
+aim_6=战场
+aim_7=其他
+ui_loplayer=附近玩家
+ui_nearteam=附近队伍
+ui_neargroup=附近团队
+ui_addteam=组队邀请
+ui_leader=队长权限
+ui_shuaxin=刷新
+ui_duizhangfenpei=队长分配
+ui_tuanzhangfenpei=团长分配
+ui_zudui0031=队伍一
+ui_zudui0032=队伍二
+ui_zudui0033=队伍三
+ui_zudui0034=队伍四
+ui_zudui0035=队伍五
+ui_zudui0036=队伍六
+ui_zudui0037=队伍七
+ui_zudui0038=队伍八
+ui_zudui0039=团队
+ui_zudui0040=团队权限
+ui_zudui0041=团长移交
+ui_zudui0042=解散团队
+ui_zudui0043=开除团员
+ui_zudui0044=提升队长
+ui_zudui0045=提升助理
+ui_zudui0046=团队分配
+ui_zudui0047=队长分配
+ui_zudui0048=解除职位
+ui_zudui0050=显示全部
+ui_team_realse_work=解除职位
+ui_zudui0049=添加团员
+ui_group_discription=团队详情
+ui_team_discription=队伍详情
+ui_LargeTeam=团队
+ui_lgtm_create=转化团队
+ui_lgtm_invate=邀请入团
+ui_lgtm_ready=准备确认
+ui_lgtm_defuse_player=拒绝个人申请
+ui_lgtm_defuse_team=拒绝队伍申请
+ui_lgtm_tminfo=团队信息
+ui_lgtm_members=团队总人数：
+ui_lgtm_jobinfo=职业人数详情：
+ui_lgtm_null=空位
+ui_team1=队伍一
+ui_team2=队伍二
+ui_team3=队伍三
+ui_team4=队伍四
+ui_team5=队伍五
+ui_team_refuse1=拒绝个人申请
+ui_team_refuse2=拒绝队伍申请
+ui_g_close=取消
+ui_player=玩家
+ui_chongzhi1=重置
+ui_vacancy=空    缺
+ui_badrolename=名称中有非法词汇
+ui_need=需求
+ui_greed=贪婪
+ui_transmit=传送到<font color="#c66300">[{@0:name}]</font>身边需要消耗[{@1:id}]×1，是否继续吗? 
+ui_transmit_fail=传送失败，当前背包无[{@0:name}]，请到商场购买。
+ui_tips_team_leave=确定退出该队伍
+ui_tips_bgteam_leave=确定退出该团队
+ui_tips_change_bgteam=确定转化成团队
+ui_level=等级
+ui_job=职业
+ui_scene=所在地
+ui_sift=筛选
+ui_chengyuanliebiao=成员列表
+ui_summon_teammate=召唤
+
+ui_request_summon_teammate_null=是否发起<font color="#00ff00">[{@0:副本}副本]</font><font color="#00ff00">({@1:难度})</font>的队友召唤?
+ui_request_summon_teammate_money=是否发起<font color="#00ff00">[{@0:副本}副本]</font><font color="#00ff00">({@1:难度})</font>的队友召唤? 
+ui_request_summon_teammate_blackgold=是否发起<font color="#00ff00">[{@0:副本}副本]</font><font color="#00ff00">({@1:难度})</font>的队友召唤? 
+ui_request_summon_teammate_item=是否发起<font color="#00ff00">[{@0:副本}副本]</font><font color="#00ff00">({@1:难度})</font>的队友召唤?
+ui_response_summon_teammate=<font color="#ffff00">[{@0:name}]</font>召唤你至<font color="#00ff00">[{@1:clone}副本]</font><font color="#00ff00">({@2:difficulty})</font>,你是否接受?
+ui_request_summon_teammate_item_2 = {@0:物品}
+ui_large_captain=团长
+ui_large_leader=小队长
+ui_summon_tip=在副本门口20码内可使用召唤功能
+ui_normal_team_detail=点击此处显示队伍详情<br/>按T键显示队伍详情
+ui_large_team_detail=点击此处显示团队详情<br/>按T键显示团队详情
+ui_zhaohuan_tishi=你已经进入副本召唤范围，使用队伍界面上的召唤功能召唤队友
+
+//拍卖行
+ui_relive_ticket_pay=拍卖行
+ui_auctionhouse = 拍卖行
+ui_ah_tips = 拍卖行(I)
+ui_jiaoyihangmanager=交易行管理员
+ui_transaction_title=交易行
+ui_transaction_info1=物品搜索
+ui_transaction_info2=物品类别
+ui_transaction_info3=物品品质
+ui_transaction_info4=物品名称
+ui_transaction_info5=出售者
+ui_transaction_info6=等级
+ui_transaction_info7=级 ~
+ui_transaction_info8=级
+ui_transaction_info9=最高价格
+ui_transaction_info10=重 置
+ui_transaction_info11=搜 索
+ui_transaction_info12=物品寄售
+ui_transaction_info13=起拍价
+ui_transaction_info14=一口价
+ui_transaction_info15=保管费
+ui_transaction_info16=保管时间
+ui_transaction_info17=寄 售
+ui_transaction_info18=单组叠加
+ui_transaction_info19=出售组数
+ui_transaction_info20=搜索结果
+ui_transaction_info21=我的交易
+ui_transaction_info22=物品品质
+ui_transaction_info23=等级
+ui_transaction_info24=剩余时间
+ui_transaction_info25=当前价格
+ui_transaction_info26=关 闭
+ui_transaction_info27=取消拍卖
+ui_transaction_info28=自动竞价
+ui_transaction_info29=竞 价
+ui_transaction_info30=出价
+ui_transaction_info31=每次加价
+ui_transaction_info32=出价上限
+ui_transaction_info33=出价间隔
+ui_transaction_info34=取消自动
+ui_transaction_info35=当前价格
+ui_transaction_info36=竞价状态
+ui_transaction_info37=寄售状态
+ui_transaction_info38=属性需求(仅对装备有效）
+ui_qipaijia=起拍价:
+ui_yikoujia=一口价:
+ui_baoguanfei=保管费:
+ui_baoguanshijian=保管时间:
+ui_12hour=12小时
+ui_24hour=24小时
+ui_48hour=48小时
+ui_72hour=72小时
+ui_max=MAX
+ui_wupinjishou=物品寄售
+ui_auction_zq = 艾森赫特王国拍卖行
+ui_auction_qh = 格兰蒂尔联盟拍卖行
+ui_auction_zl = 中立拍卖行
+ui_auction_single_price = 物品单价：
+ui_auction_single_price_by_fixed = （单价由一口价计算得出）
+ui_auction_single_price_by_cur = （单价由当前价计算得出）
+ui_auction_consign_confirm = 交易成功将收取{@0:var}%的佣金
+ui_auction_consign_confirm_no_more = 下次不再提醒
+ui_auction_confirm_oneprice_bid = 确定一口价买下[<font color='{@0:color}'>{@1:name}</font>]么?
+ui_auction_confirm_end_autobid = 确定停止对[<font color='{@0:color}'>{@1:name}</font>]的自动竞价么?
+ui_auction_consign_keepingtime_hours = {@time5}
+ui_auction_search_unchosen = 请选择
+ui_auction_search_uninput = 请输入关键字
+ui_auction_in_searching = 物品搜索中，请稍后......
+
+ui_auction_search_itemtype_all = 全部
+ui_auction_search_itemtype_weapon = 武器
+ui_auction_search_itemtype_weapon_sword = 剑
+ui_auction_search_itemtype_weapon_dagger = 匕首
+ui_auction_search_itemtype_weapon_mace = 锤
+ui_auction_search_itemtype_weapon_axe = 斧
+ui_auction_search_itemtype_weapon_cry = 水晶球
+ui_auction_search_itemtype_weapon_spear = 长柄武器
+ui_auction_search_itemtype_weapon_shield = 盾
+ui_auction_search_itemtype_weapon_wand = 魔棒
+ui_auction_search_itemtype_weapon_bow = 弓
+ui_auction_search_itemtype_weapon_crossbow = 弩
+ui_auction_search_itemtype_weapon_gun = 枪械
+ui_auction_search_itemtype_weapon_staff = 法杖
+ui_auction_search_itemtype_weapon_bottle = 魔瓶
+
+ui_auction_search_itemtype_equip = 防具
+ui_auction_search_itemtype_equip_1 = 布甲
+ui_auction_search_itemtype_equip_belt_1 = 腰带（布甲）
+ui_auction_search_itemtype_equip_hat_1 = 头部（布甲）
+ui_auction_search_itemtype_equip_cloth_1 = 上衣（布甲）
+ui_auction_search_itemtype_equip_pants_1 = 裤子（布甲）
+ui_auction_search_itemtype_equip_shoes_1 = 鞋子（布甲）
+ui_auction_search_itemtype_equip_wrist_1 = 护腕（布甲）
+ui_auction_search_itemtype_equip_hand_1 = 手套（布甲）
+ui_auction_search_itemtype_equip_2 = 皮甲
+ui_auction_search_itemtype_equip_belt_2 = 腰带（皮甲）
+ui_auction_search_itemtype_equip_hat_2 = 头部（皮甲）
+ui_auction_search_itemtype_equip_cloth_2 = 上衣（皮甲）
+ui_auction_search_itemtype_equip_pants_2 = 裤子（皮甲）
+ui_auction_search_itemtype_equip_shoes_2 = 鞋子（皮甲）
+ui_auction_search_itemtype_equip_wrist_2 = 护腕（皮甲）
+ui_auction_search_itemtype_equip_hand_2 = 手套（皮甲）
+ui_auction_search_itemtype_equip_3 = 中甲
+ui_auction_search_itemtype_equip_belt_3 = 腰带（中甲）
+ui_auction_search_itemtype_equip_hat_3 = 头部（中甲）
+ui_auction_search_itemtype_equip_cloth_3 = 上衣（中甲）
+ui_auction_search_itemtype_equip_pants_3 = 裤子（中甲）
+ui_auction_search_itemtype_equip_shoes_3 = 鞋子（中甲）
+ui_auction_search_itemtype_equip_wrist_3 = 护腕（中甲）
+ui_auction_search_itemtype_equip_hand_3 = 手套（中甲）
+ui_auction_search_itemtype_equip_4 = 重甲
+ui_auction_search_itemtype_equip_belt_4 = 腰带（重甲）
+ui_auction_search_itemtype_equip_hat_4 = 头部（重甲）
+ui_auction_search_itemtype_equip_cloth_4 = 上衣（重甲）
+ui_auction_search_itemtype_equip_pants_4 = 裤子（重甲）
+ui_auction_search_itemtype_equip_shoes_4 = 鞋子（重甲）
+ui_auction_search_itemtype_equip_wrist_4 = 护腕（重甲）
+ui_auction_search_itemtype_equip_hand_4 = 手套（重甲）
+
+ui_auction_search_itemtype_decoration = 饰物
+ui_auction_search_itemtype_decoration_necklace = 项链
+ui_auction_search_itemtype_decoration_mantle = 披风
+ui_auction_search_itemtype_decoration_ring = 戒指
+ui_auction_search_itemtype_decoration_jewelry = 饰品
+ui_auction_search_itemtype_decoration_energy_shield = 能量盾
+
+ui_auction_search_itemtype_ride = 骑乘宠物
+ui_auction_search_itemtype_ride_carrier = 载具
+ui_auction_search_itemtype_ride_mount = 坐骑
+ui_auction_search_itemtype_ride_partner = 宠物
+
+ui_auction_search_itemtype_inlay = 镶嵌
+ui_auction_search_itemtype_inlay_blue = 蓝宝石
+ui_auction_search_itemtype_inlay_green = 绿宝石
+ui_auction_search_itemtype_inlay_yellow = 黄宝石
+ui_auction_search_itemtype_inlay_red = 红宝石
+ui_auction_search_itemtype_inlay_purple = 紫宝石
+
+ui_auction_search_itemtype_container = 容器
+ui_auction_search_itemtype_container_addbag = 背包
+
+ui_auction_search_itemtype_consumable = 消耗品
+ui_auction_search_itemtype_consumable_energy_crystal = 能量晶体
+ui_auction_search_itemtype_consumable_item = 消耗物品
+ui_auction_search_itemtype_consumable_energy = 能源
+ui_auction_search_itemtype_consumable_crystal = 晶体
+ui_auction_search_itemtype_consumable_box = 宝箱
+ui_auction_search_itemtype_potion_addhp = 回复药剂
+ui_auction_search_itemtype_potion_addmp = 传送卷轴
+
+ui_auction_search_itemtype_formula = 副职
+ui_auction_search_itemtype_formula1 = 随机配方
+ui_auction_search_itemtype_formula2 = 固定配方
+ui_auction_search_itemtype_formula_mineral = 矿石
+ui_auction_search_itemtype_formula_metal = 金属
+ui_auction_search_itemtype_formula_herb = 草药
+ui_auction_search_itemtype_formula_cloth = 布料
+ui_auction_search_itemtype_formula_ori_jewel = 珠宝原石
+
+ui_auction_search_itemtype_material = 材料
+
+ui_auction_search_itemtype_other_special_material = 特殊材料
+ui_auction_search_itemtype_other_material = 功能材料
+
+ui_auction_search_itemtype_other = 其他
+
+ui_auction_search_itemquality_all = 全部
+ui_auction_search_itemquality_0 = 全部
+ui_auction_search_itemquality_1 = 普通
+ui_auction_search_itemquality_2 = 优秀
+ui_auction_search_itemquality_3 = 精良
+ui_auction_search_itemquality_4 = 史诗
+ui_auction_search_itemquality_5 = 传说
+ui_auction_search_itemquality_6 = 暗金
+ui_auction_browse = 拍卖浏览
+ui_auction_my_consign = 我的寄售
+ui_auction_my_bid = 我的竞价
+ui_auction_text_hour = 小时
+ui_auction_text_minute = 分钟
+ui_auction_autobid_inverval_minutes = {@time4}
+ui_auction_autobid_inverval_hours = {@time5}
+ui_auction_search_helpinfo_your_price = 你的出价
+ui_auction_search_helpinfo_price_beaten = 出价被顶
+ui_auction_search_helpinfo_somebody_bid = 有人竞价
+ui_auction_search_helpinfo_nobody_bid = 无人问津
+ui_auction_search_helpinfo_sold = 已出售
+ui_auction_search_helpinfo_start_price = 起拍价
+ui_auction_search_helpinfo_cur_price = 当前出价
+ui_auction_item_name = 物品名称
+ui_auction_item_name_2x = 物品名称物品名称
+ui_auction_player_name = 玩家名称...
+ui_auction_fixed_price = 一口价
+ui_auction_consign = 寄售
+ui_auction_reset = 重置
+ui_auction_search = 搜索
+ui_auction_total_item_found = 共{@0:num}件
+ui_auction_pre_page = 上一页
+ui_auction_next_page = 下一页
+ui_auction_jump_page = 跳转
+ui_auction_refresh = 刷新
+ui_auction_is_waiting = 操作太频繁，请稍后再试
+ui_auction_please_choose_search_args = 请选择物品类别
+ui_auction_no_appoint_materials = 未找到指定物品
+ui_auction_no_my_consign_found = 未找到我的寄售记录
+ui_auction_no_my_bid_found = 未找到我的竞价记录
+ui_trade_state_soldout = 已售出
+ui_org_donate=捐献
+ui_org_donate_history=捐献记录
+
+//邮件
+ui_dailiren=代理人:
+ui_dailiyewi=代理业务:
+ui_camp0=黑市
+ui_camp1=艾森赫特王国
+ui_camp2=格兰蒂尔联盟
+ui_yinhangmanager=银行管理员
+ui_gerencangkubaoguan=个人仓库保管
+ui_cunrujinqian=存入金钱:
+ui_cunruwupin=存入物品:
+ui_cangkurongliang=仓库剩余容量:
+ui_qingxuanzeyewuleixing=请选择业务类型
+ui_chushoushuliang=出售数量:
+ui_openmail=打开邮件
+ui_weiyueduyoujian=您有{@0:name}封未阅读的邮件
+ui_jiajiyoujian=<font color="#ff0000">您有{@0:name}封未读的加急邮件</font>
+ui_dianjichakan=点击，查看
+ui_putongyoujian=普通邮件
+ui_fufeiyoujian=付费邮件
+ui_dailiyoujian=代理邮件
+ui_chaolianjie=超连接过多
+ui_qingxianfufei=请先付费！
+ui_laiziputongyoujian=来自{@0:name}的邮件:
+ui_laizifufeiyoujian=来自{@0:name}的付费邮件:
+ui_laizituijian=来自{@0:name}的退件:
+ui_laizifukuan=来自{@0:name}的付款邮件:
+ui_laizi=来自
+ui_deyoujian=的邮件:
+ui_deffyoujian=的付费邮件:
+ui_detjnizaigei=的退件
+ui_deyjzxiedao=的邮件中写道:
+ui_jinqianfujian=金钱附件:
+ui_nixuyaofukuanjine=所需支付:
+ui_shouxufei5=手续费{@0:value}% 向上取整
+ui_quedingfufei=你确定花费以下金额收取附件吗?
+ui_shouqufujianma=收取附件吗?
+ui_duifangfufeiqukuanjine=对方付费取件金额:
+ui_jinqianfujianweiqu=金钱附件未取出，确定删除吗？
+ui_wupinfujianweiqu=物品附件未取出，确定删除吗？
+ui_youjianweiyuedu=邮件未阅读，确定删除吗？
+ui_fuweiyoujianweichuli=付费邮件未处理，确定删除吗？
+ui_fufeiyoujianwufachuli=邮件未付费，无法收取附件
+ui_yifufei=(已付费)
+ui_dianjiqukuan=点击取款:
+ui_wupinfujian=物品附件:
+ui_mailtype_1=普通
+ui_mailtype_2=付费
+ui_mailtype_3=收款
+ui_mailtype_4=退件
+ui_mailtype_101=系统
+ui_youxiang=邮     箱
+ui_postmantalk_1=你有加急邮件
+ui_postmantalk_2=你怎么不拿信
+ui_postmantalk_3=阳光真强烈
+ui_postmantalk_4=你怎么还不拿信
+ui_postmantalk_5=世界真美好
+ui_postmantalk_6=你再不拿信我可就走了
+ui_postmantalk_7=宇宙真奇妙
+ui_qianshou=<font color="#003366">签收</font>
+ui_dakai=打开
+ui_jiaji=加急
+ui_quanxuan=全选
+ui_shouqufujian=收取附件
+ui_fajianren1=发件人
+ui_youjianleixing=邮件类型
+ui_shengyushijian1=剩余时间
+ui_youfei=邮费 :
+ui_neirong=内容 :
+ui_fasong=发送
+ui_fanhui=返回
+ui_yongjiu=永久
+ui_subjectmaohao=主　题：
+ui_sendermaohao=发件人：
+ui_receviermaohao=收信人：
+ui_holdermaohao=持　有：
+ui_capitalamount=金　额：
+ui_postcapital=寄送钱币
+ui_getcapital=付款收信
+ui_sns_mail=邮件
+ui_yueduyoujian=阅读邮件
+ui_tiquwupin=提取物品
+ui_shanchu=删除
+ui_huifu=回复
+ui_faxinren=发信人：
+ui_zhuti=主  题：
+ui_shoujianxiang=收件箱
+ui_fajianxiang=发件箱
+ui_fajianren=发件人:
+ui_shengyushijian=剩余时间:
+ui_dakaixinjian=打开信件
+ui_shanchuxinjian=删除信件
+ui_mail_qbsc=全部删除
+ui_emailsendbox=发件
+ui_emailrecvbox=收件
+ui_system_setting0029=选择
+ui_xiegang=/
+ui_jp_sc=删除
+ui_moneydisp=寄送黑金:
+ui_jisongwupin=寄送物品：
+ui_send=发送
+ui_hour=小时
+ui_returnletter=退信
+ui_g_backshop=取消锁定
+ui_mail_year=年
+ui_mail_month=月
+ui_mail_day=日
+ui_zhengqi_jiaji=花费更多邮费，把信件第一时间送到对方手中。
+ui_qihuan_jiaji=花费更多邮费，把信件第一时间送到对方手中。
+ui_faxinren_kong=收信人不能为空
+ui_zhuti_kong=主题不能为空
+ui_jinqianbuzu=金钱不足
+ui_heijinbuzu=黑金不足
+ui_fufeijine_kong=付费金额不能为空
+ui_wupin_kong=物品不能为空
+ui_main_youxiang=邮箱
+ui_system_mail_source_66=竞技场中心
+
+
+//黑市
+ui_black_market = 黑市
+ui_black_market_consign_mainform_title = 黑市挂单
+ui_black_market_my_csm = 我的挂单
+ui_black_market_csm = 挂 单
+ui_black_market_cancel_csm = 取消挂单
+ui_black_market_booth_fee = 使用黑市展位，费用：50
+ui_black_market_booth_next_time = 距离下批物品上架时间：
+ui_black_market_csm_rest_amount = 本时段总可挂单剩余
+ui_black_market_csm_rest_amount_tail = 件
+ui_black_market_bit_mainform_title = 黑 市
+ui_black_market_bit_hot_title = 热门推荐
+ui_black_market_seller_title = 出售者
+ui_black_market_pricenow_title = 当前价格
+ui_black_market_fixed_title = 一口价
+ui_black_market_bid_records = 货 架
+ui_black_market_bid_confirm = 确认出价
+ui_black_market_bid_cancel = 取消出价
+ui_black_market_csm_menu = <font color="#003366">黑市挂单</font>
+ui_black_market_show_menu = <font color="#003366">黑市竞价</font>
+ui_black_market_consign_confirm_lvl_0 = 确定寄售[<font color='#1F1F1F'>{@0:name}</font>]么？
+ui_black_market_consign_confirm_lvl_1 = 确定寄售[<font color='#FFFFFF'>{@0:name}</font>]么？
+ui_black_market_consign_confirm_lvl_2 = 确定寄售[<font color='#1FFF00'>{@0:name}</font>]么？
+ui_black_market_consign_confirm_lvl_3 = 确定寄售[<font color='#0070DD'>{@0:name}</font>]么？
+ui_black_market_consign_confirm_lvl_4 = 确定寄售[<font color='#A335EE'>{@0:name}</font>]么？
+ui_black_market_consign_confirm_lvl_5 = 确定寄售[<font color='#FF6C00'>{@0:name}</font>]么？
+ui_black_market_confirm_fixed_price_bid = 确认一口价买下[<font color='{@0:color}'>{@1:name}</font>]么？
+ui_black_market_next_time_section = 下个时段
+ui_black_market_reset_rec_func = 重置表功能
+ui_black_market_merchant = 黑市商人
+ui_black_market_letter_source = 黑市管理员
+ui_black_market_letter_title_bid_failure = 竟拍失败
+ui_black_market_letter_title_bid_down_item = 竞拍成功
+ui_black_market_letter_title_sold_out_item = 物品售出
+ui_black_market_letter_title_cancel_consign = 取消挂单
+ui_black_market_letter_title_unsold = 物品未售出
+ui_black_market_letter_content_type_bid_failure = <s>你于{@0:date}竟拍{@1:goods}失败
+ui_black_market_letter_content_type_bid_down_item = <s>你于{@0:date}成功买下{@1:goods}<br><s>你的出价:{@2:price}<br><s>手续费:{@3:price}
+ui_black_market_letter_content_type_cancel_consign = <s>你于{@0:date}取消{@1:goods}的挂单
+ui_black_market_letter_content_type_sold_out_item = <s>你挂单的{@1:goods}于{@0:date}成功售出<br><s>最终价格:{@2:price}<br><s>手续费:{@3:price}
+ui_black_market_letter_content_type_unsold = <s>你挂单的{@1:goods}于{@0:date}到期，无人问津
+ui_black_market_state_someone_bid = 有人竞价
+ui_black_market_state_nobody_bid = 无人问津
+ui_black_market_state_soldout = 已售出
+ui_black_market_state_your_price = 你的出价
+ui_black_market_state_price_beaten = 出价被顶
+
+
+
+//商城
+ui_blackgold_market=商城
+charge_sort_type_default=默认排序
+charge_sort_type_price=价格排序
+charge_sort_type_limitcount=限量排序
+ui_charge_search_text_default=请输入道具名...
+ui_charge_history=历史购买
+charge_page_num=当前页数：{@1:num}/总页数：{@0:num}
+charge_money_type_1=点券
+charge_money_type_2=金钱
+charge_buy_confirm_p1=您确认花费{@0:price}点券购买道具吗？
+charge_buy_confirm_p2=您确认花费{@money}金钱购买道具吗
+charge_buy_confirm_p3=您确认花费{@0:price}点券{@money}金钱购买道具码？
+charge_give_confirm_p1=您确认花费{@0:price}点券赠送道具吗？
+charge_give_confirm_p2=您确认花费{@money}金钱赠送道具吗？
+charge_give_confirm_p3=您确认花费{@0:price}点券{@money}金钱赠送道具码？
+charge_recharge_confirm=点券不足，请充值
+ui_ok=确认
+ui_charge_online=充值
+ui_charge_giveplayer_text_default=请输入好友名字
+ui_charge_givetitle_text_default=请输入主题
+ui_charge_givecontent_text_default=请输入赠言
+ui_market_cloth=时装
+ui_market_material=材料
+ui_market_mount=坐骑
+ui_market_pet=宠物
+ui_market_qizhen=奇珍异宝
+charge_time_limit_forever=永久
+charge_discount_type_1=原价
+charge_discount_type_2=打折
+charge_discount_type_3=直降
+charge_discount_type_4=秒杀
+charge_discount_type_5=限量
+ui_shop_sz_1=全部
+ui_shop_sz_2=热销
+ui_shop_sz_01=武器
+ui_shop_sz_02=上装
+ui_shop_sz_03=手套
+ui_shop_sz_04=下装
+ui_shop_sz_05=鞋子
+ui_shop_sz_06=头盔
+ui_shop_sz_07=护臂
+ui_shop_sz_08=腰带
+ui_shop_sz_09=披风
+ui_shop_sz_001=变身道具
+ui_shop_sz_0001=格兰蒂尔联盟坐骑
+ui_shop_sz_0002=艾森赫特王国坐骑
+ui_shop_sz_000001=VIP
+ui_shop_sz_000002=背包
+ui_shop_sz_000003=忏悔书
+ui_charge_shop_test1_1=排列顺序：
+ui_charge_shop_test1_2=我的物品
+ui_charge_shop_test1_3=全部提取
+ui_charge_shop_test1_4=总共24页，当前第18页
+ui_charge_shop_test1_5=搜索
+ui_charge_shop_test1_6=商城咨询：
+ui_charge_shop_test1_7=滚动咨询
+ui_charge_product_test2_1=商品名字最多十个字啊
+ui_charge_product_test2_2=币种
+ui_charge_product_test2_3=50%折扣
+ui_charge_product_test2_4=限量
+ui_charge_product_test2_5=赠送
+ui_charge_product_test2_6=购物车
+ui_charge_product_test2_7=购买
+ui_charge_product_test2_8=24小时
+ui_charge_try_test3_1=收藏
+ui_charge_try_test3_2=后退
+ui_charge_try_test3_3=还原
+ui_charge_try_test3_4=查看收藏
+ui_charge_try_test3_5=赠送试穿
+ui_charge_try_test3_6=购买试穿
+ui_charge_box_test4_1=商品名字最多十个字啊
+ui_charge_box_test4_2=剩余时间：29天
+ui_charge_box_test4_3=提取
+ui_charge_cart_test5_1=清空
+ui_charge_cart_test5_2=赠送
+ui_charge_cart_test5_3=购买
+ui_charge_cart_test5_4=点券充值
+ui_charge_cart_test5_5=购买总额：
+ui_charge_cart_test5_6=持有点券：
+ui_charge_give_test6_1=商城赠送邮件
+ui_charge_give_test6_2=赠送主题：
+ui_charge_give_test6_3=赠送对象：
+ui_charge_give_test6_4=好友列表
+ui_charge_bill_test7_1=购物清单
+ui_charge_bill_test7_2=总计金额：
+
+
+
+//请求
+ui_main_requestinfo_1_smlteam=<font color="#ffffff">[{@0:等级}级 {@1:种族} {@2:职业}]</font><font color="#ffff00">{@3:对方姓名}</font>申请加入您的队伍是否接受?
+ui_main_requestinfo_1_lgeteam=<font color="#ffffff">[{@0:等级}级 {@1:种族} {@2:职业}]</font><font color="#ffff00">{@3:对方姓名}</font>申请加入您的团队是否接受?
+ui_main_requestinfo_2=<font color="#ffff00">{@0:对方姓名}</font>向您请求交易,是否接受?
+ui_main_requestinfo_3=<font color="#ffff00">{@0:名字}</font>邀请您加入<font color="#ffffff">[{@1:公会名}]</font>公会,是否接受?
+ui_main_requestinfo_4=<font color="#ffffff">[{@0:等级}级 {@1:种族} {@2:职业}]</font><font color="#ffff00">{@3:名字}</font>请求将您加为好友，是否接受？
+ui_main_requestinfo_5={@0:对方姓名}将您加入黑名单！
+ui_main_requestinfo_15=<font color="#ffffff">[{@0:等级}级 {@1:种族} {@2:职业}]</font><font color="#ffff00">{@3:名字}</font>向您发出挑战,是否接受?
+ui_main_requestinfo_16_smlteam=<font color="#ffffff">[{@0:等级}级 {@1:种族} {@2:职业}]</font><font color="#ffff00">{@3:对方姓名}</font>邀请您加入队伍<font color="#ffffff">[{@4:当前人数}/5]</font>是否接受?
+ui_main_requestinfo_16_lgeteam=<font color="#ffffff">[{@0:等级}级 {@1:种族} {@2:职业}]</font><font color="#ffff00">{@3:对方姓名}</font>邀请您加入团队<font color="#ffffff">[{@4:当前人数}/25]</font>是否接受?
+ui_main_requestinfo_17_smlteam=<font color="#ffffff">[{@0:等级}级 {@1:职业}]</font><font color="#ffff00">{@2:对方姓名}</font>的团队<font color="#ffffff">[{@3:当前人数}/25]</font>邀请您的队伍加入团队是否接受?
+ui_main_requestinfo_18_smlteam=<font color="#ffff00">{@0:对方姓名}</font>带领小队申请加入您的团队是否接受?
+ui_main_requestinfo_21=<font color="#ffff00">{@0:对方姓名}</font>向您请求同乘是否接受?
+ui_main_requestinfo_22=<font color="#ffff00">{@0:对方姓名}</font>邀请您同乘,是否接受?
+ui_main_requestinfo_24=<font color="#ffff00">{@0:对方姓名}</font>向您请求同乘是否接受?
+ui_main_requestinfo_25=<font color="#ffff00">{@0:对方姓名}</font>邀请您同乘,是否接受?
+ui_main_requestinfo_26={@0:对方称呼}<font color="#ffff00">{@1:对方姓名}</font>向您邀请加入主题为<font color="#ffffff">[{@2:聊天室名称}]</font>的群聊,是否接受?
+ui_main_requestinfo_29={@0:公会}邀请你建立联盟关系,是否接受?
+ui_main_requestinfo_28=<font color="#ffff00">{@0:名字}</font>邀请您加入<font color="#ffffff">[{@1:竞技场战队}]</font>竞技场战队,是否接受?
+ui_main_requestinfo_100={@0:对方称呼}<font color="#ffff00">{@1:对方姓名}</font>向您邀请加入主题为<font color="#ffffff">[{@2:聊天室名称}]</font>的群聊,是否接受? 
+sys_request_0008=<font color="#ffffff">[{@0:等级}级 {@1:种族} {@2:职业}]</font><font color="#ffff00">{@3:对方姓名}</font>邀请您加入队伍是否接受?
+sys_request_0009=<font color="#ffffff">[{@0:等级}级 {@1:种族} {@2:职业}]</font><font color="#ffff00">{@3:对方姓名}</font>邀请您加入团队是否接受?
+ui_request_times_info_1_smlteam = <center>申请入队剩余时间<font color="#{@0:color}">{@time}</font></center>
+ui_request_times_info_1_lgeteam = <center>申请入团剩余时间<font color="#{@0:color}">{@time}</font></center>
+ui_request_times_info_2 = <center>邀请交易剩余时间<font color="#{@0:color}">{@time}</font></center>
+ui_request_times_info_3 = <center>邀请入会剩余时间<font color="#{@0:color}">{@time}</font></center>
+ui_request_times_info_4 = <center>邀请加好友剩余时间<font color="#{@0:color}">{@time}</font></center>
+ui_request_times_info_15 = <center>邀请挑战剩余时间<font color="#{@0:color}">{@time}</font></center>
+ui_request_times_info_16_smlteam = <center>邀请入队剩余时间<font color="#{@0:color}">{@time}</font></center>
+ui_request_times_info_16_lgeteam = <center>邀请入团剩余时间<font color="#{@0:color}">{@time}</font></center>
+ui_request_times_info_17 = <center>邀请入团剩余时间<font color="#{@0:color}">{@time}</font></center>
+ui_request_times_info_18 = <center>申请入团剩余时间<font color="#{@0:color}">{@time}</font></center>
+ui_request_times_info_21 = <center>向您请求同乘剩余时间<font color="#{@0:color}">{@time}</font></center>
+ui_request_times_info_22 = <center>邀请您同乘剩余时间<font color="#{@0:color}">{@time}</font></center>
+ui_request_times_info_24 = <center>向您请求同乘剩余时间<font color="#{@0:color}">{@time}</font></center>
+ui_request_times_info_25 = <center>邀请您同乘剩余时间<font color="#{@0:color}">{@time}</font></center>
+ui_request_times_info_26 = <center>邀请进入聊天室剩余时间<font color="#{@0:color}">{@time}</font></center>
+ui_request_times_info_29 = <center>建立联盟剩余时间<font color="#{@0:color}">{@time}</font></center>
+ui_smlteaminfo=等级<font color="#ff0000">{@0:level}</font>，职业[<font color="#ff0000">{@1:job}</font>],<font color="#9900CC">{@2:对方姓名}</font>
+BG_139007=<font color="#ffffff">[{@0:等级}级 {@1:种族} {@2:职业}]</font><font color="#ffff00">{@3:对方姓名}</font>邀请您加入队伍是否接受?
+BG_139008=<font color="#ffffff">[{@0:等级}级 {@1:种族} {@2:职业}]</font><font color="#ffff00">{@3:对方姓名}</font>邀请您加入团队是否接受?
+
+
+//右键菜单
+ui_lefttime=剩余时间<font color="#ff0000">{@0:时间}</font>秒
+ui_menu_follow=跟随
+ui_menu_team_invite=组队邀请
+ui_menu_team_request=组队申请
+ui_menu_team_join=请求加入
+ui_menu_friend_request=加为好友
+ui_menu_group_request=入帮邀请
+ui_menu_exchange_request=交易
+ui_menu_addto_blacklist=入黑名单
+ui_menu_copyname=复制名称
+ui_playerlink_qiaoqiaohua=私聊
+ui_playerlink_jiaoyi=交易
+ui_playerlink_juedou=决斗
+ui_playerlink_shenqingzudui=加入队伍
+ui_playerlink_fuzhinicheng=复制昵称
+ui_playerlink_yaoqingzudui=邀请入队
+ui_playerlink_chakanxinxi=查看
+ui_playerlink_shangzuoqi=邀请骑乘
+ui_jiaru=加入
+ui_zudui=组队
+ui_target_join_channel=邀请群聊
+ui_playerlink_ban_id=举报广告
+sys_menu_0001=加为好友
+sys_menu_0002=交易
+sys_menu_0003=群聊
+sys_menu_0004=决斗
+sys_menu_0005=邀请
+sys_menu_0006=加入
+sys_menu_0007=邀请上坐骑
+sys_menu_0008=申请上坐骑
+sys_menu_0009=邀请入会
+sys_menu_0010=申请入会
+sys_menu_0011=邀请群聊
+ui_pet_jiesan = 解散
+ui_pet_zhaohuan = 召唤
+ui_menu_tiny_info_close=关闭
+ui_menu_tiny_info_showgood=显示增益buffer
+ui_menu_tiny_info_showbad=显示减益buffer
+ui_menu_tiny_info_hide=不显示buffer
+ui_open_strengthen = 查看机体
+BG_139080=加为好友
+BG_139081=交易
+BG_139082=群聊
+BG_139083=决斗
+BG_139084=邀请
+BG_139085=加入
+BG_139086=邀请上坐骑
+BG_139087=申请上坐骑
+BG_139088=邀请入会
+BG_139089=申请入会
+BG_139090=邀请群聊
+BG_139091=邀请加入队伍
+BG_139092=邀请队伍加入团队
+BG_139093=申请队伍加入团队
+BG_139094=申请加入队伍
+BG_139095=邀请加入竞技场战队
+ui_menu_set_team_sign=目标标记
+ui_select_clone_difficulty=副本模式
+ui_chakan_notify=查看信息
+ui_chakan_name=角色:
+ui_chakan_level=等级:
+ui_chakan_job=职业:
+ui_chakan_camp=阵营:
+ui_chakan_race=种族:
+ui_chakan_force=实力评分:
+ui_chakan_rank=军阶:
+ui_playerlink_shenqingzuoqi=申请骑乘
+ui_guild_intive=邀请入会
+ui_guild_join1=申请入会
+
+//系统设置
+ui_system_change_texlevel=您的电脑可使用内存不足，为了您能流畅的游戏，系统已自动将贴图纹理等级降为中等！
+ui_main_funcmenu_system=系统设置(Esc)
+ui_system_option0001=系统设置
+ui_system_option0002=视频设置
+ui_system_option0003=音频设置
+ui_system_option0004=功能设置
+ui_system_jmsz=信息设置
+ui_system_option0008=自定义按键
+ui_system_option0007=返回角色选择
+ui_system_option0006=结束游戏
+ui_system_setting0030=简易配置
+ui_system_setting0031=低端配置
+ui_system_setting0032=中端配置
+ui_system_setting0033=高端配置
+ui_system_setting00331=优选配置
+ui_system_setting0034=自定义
+ui_system_setting0035=全屏泛光
+ui_system_setting0037=体积光照
+ui_system_setting0044=远景柔化
+ui_system_setting0045=多光源照明
+ui_system_setting0046=高动态范围
+ui_system_setting0047=阴影质量
+ui_system_setting0048=水面质量
+ui_system_setting0049=特效质量
+ui_secaijiaozheng=色彩矫正
+ui_huanjingzhedang=环境遮挡
+ui_yepianpinghua=叶片平滑
+ui_system_setting0053=FPS:
+ui_system_setting0002=窗口：
+ui_system_setting0003=分辨率
+ui_system_setting0005=抗锯齿
+ui_system_setting0006=窗口模式
+ui_system_setting0007=垂直同步
+ui_system_setting0050=广角模式
+ui_system_setting0051=硬件加速
+ui_system_setting0052=形态抗锯齿
+ui_gaodongtaifanweiguangzhao=高动态范围光照
+ui_system_setting0028=默认设置
+ui_system_setting0011=效果：
+ui_system_setting0012=视野范围
+ui_system_setting0018=各向异性过滤
+ui_system_setting0019=地表景观范围
+ui_system_setting0020=贴图清晰度
+ui_system_setting0021=地表景观密度
+ui_system_setting0022=纹理等级(最高级建议64位操作系统)
+ui_system_setting0023=音频：
+ui_system_music_0001=开启游戏音乐
+ui_system_music_0002=开启环境音效
+ui_system_music_0003=开启UI音效
+ui_system_music_0004=开启行为音效
+ui_system_music_0005=低
+ui_system_music_0006=高
+str_black_gold=点券
+str_no=否
+str_yes=是
+ui_system_view_selelct=操作模式
+ui_system_click_move=启用点击移动
+ui_system_dismount=自动下马
+ui_system_adjust_target=自动矫正目标
+ui_system_role_postion=摄像机偏移
+ui_system_cameradis=摄像机最远距离
+ui_system_cameraturnspeed=摄像机旋转速度
+ui_system_cameraoverturn=摄像机翻转
+ui_system_mouse_left=左键关联摄像机
+ui_system_smooth_camera=摄像机跟随平滑
+ui_system_camera_smooth=摄像机平滑
+ui_system_camera_follow_mode=启用追尾模式
+ui_system_camera_follow_mode_yes=是
+ui_system_camera_follow_mode_no=否
+ui_system_npc_base=显示目标基础信息框
+ui_system_headname=场景内所有NPC头像
+ui_system_locktarget=目标锁定
+ui_system_gun=枪手打开拾取界面
+ui_system_auto_pick=自动拾取
+ui_system_auto_findpath=自动寻路
+ui_system_auto_repair=自动修理
+ui_system_auto_tracequest=自动添加任务追踪
+ui_system_hide_equipment=隐藏角色装备显示
+ui_system_hide_pifeng=隐藏披风
+ui_system_hide_toukui=隐藏头盔
+ui_system_lock_jump=锁定跳跃方向
+ui_system_close_openprompt=关闭新手引导
+ui_system_close_openprompt1=不再提示
+ui_system_close_openprompt2=该窗口可在系统设置中重新启用
+ui_system_use_mousemove=鼠标点击移动角色
+ui_system_language=游戏版本切换
+ui_system_hide_other_module=屏蔽其他单位模型
+ui_system_hide_other_player=其他玩家
+ui_system_hide_other_player_pet=其他玩家宠物
+ui_system_hide_chat_sys_tip=屏蔽聊天框系统提示
+ui_system_show_chat_time=显示聊天时间
+ui_system_auto_add_enemy=自动添加仇人
+ui_system_contact_shield=社交屏蔽功能
+ui_system_forbid_team=禁止组队
+ui_system_forbid_trade=禁止交易
+ui_system_forbid_fight=禁止决斗
+ui_system_online_tip=开启上线提示
+ui_system_online_tip_friend=好友
+ui_system_online_tip_guild=公会成员
+ui_system_online_tip_enemy=仇人
+ui_system_target_fight_info=目标战斗信息
+ui_system_shifadutiao=目标施法读条
+ui_system_target_select_target=目标选中目标
+ui_system_target_frame_type=目标框血条样式
+ui_system_just_show_ratio=仅显示比例
+ui_system_just_show_num=仅显示数值
+ui_system_view_set=视角设置
+ui_system_func_set=功能设置
+ui_system_contact_set=社交设置
+ui_system_iface_set=界面自定义
+ui_system_uiscale=公共界面缩放
+ui_system_locked_ui=锁定公共界面
+ui_system_locked_ui_desc=点击[确认]按钮保存调整设置，点击[取消]按钮或ESC键取消当前设置
+ui_system_default_ui=公共界面还原默认位置
+ui_reset=重置
+ui_system_fight_zdxx=战斗信息
+ui_system_fight_mbsh=目标伤害
+ui_system_fight_mbxg=目标效果
+ui_system_fight_zqsh=周期性伤害
+ui_system_fight_cwsh=宠物伤害
+ui_system_fight_kqxx=开启浮动战斗信息
+ui_system_fight_dzw=躲避/招架/未命中
+ui_system_fight_smts=生命/法力过低提示
+ui_system_fight_jmsh=伤害减免
+ui_system_fight_nlhq=能量获取
+ui_system_fight_fjjn=方剂法术和技能
+ui_system_fight_ryhd=荣誉获得提示
+ui_system_fight_zlxm=友方治疗者姓名
+ui_system_fight_gh=光环
+ui_system_fight_zdzt=战斗状态
+ui_system_fight_ljts=连击数提示
+ui_system_fight_zdpdms=战斗信息飘动模式
+ui_system_fight_info_type1=扩散飞溅(标准)型
+ui_system_fight_info_type2=向上移动型
+ui_system_fight_info_type3=向下移动型
+ui_system_fight_info_type4=弧线型
+ui_system_info_scale=头顶信息字体缩放
+ui_system_xsxt%=显示头顶血条
+ui_system_xsxtn=显示头顶血条(数字)
+ui_system_t_p=其他玩家
+ui_system_t_s=自己
+ui_system_t_n=Npc
+ui_system_t_pt=宠物
+ui_system_tdxx=显示头顶其它信息
+ui_system_xsxm=显示称号及姓名
+ui_system_xsgh=显示所属公会
+ui_system_xsdj=显示等级
+ui_system_color_dead=死亡状态
+ui_system_color_player1=友方玩家
+ui_system_color_player2=敌方玩家
+ui_system_color_player3=公会玩家
+ui_system_color_player4=队伍玩家
+ui_system_color_npc1=友方NPC
+ui_system_color_npc2=中立NPC
+ui_system_color_npc3=敌方NPC
+ui_warmode_1=战争模式
+ui_warmode_2=隐藏友方模型
+ui_warmode_3=关闭特效粒子
+ui_warmode_4=显示玩家人数
+ui_warmode_5=勾选开启隐藏友方玩家模型
+ui_warmode_6=勾选关闭特效的粒子效果
+ui_warmode_7=拖动调节按钮提高最大同屏显示人数，改功能只在战争模式下生效
+ui_warmode_yes=战争模式已经开启
+ui_warmode_no=战争模式已经关闭
+ui_warmode_text=是否开启战争模式
+ui_warmode_text2=是否关闭战争模式
+
+ui_system_armour_mode=准心模式
+ui_system_mouse_mode=鼠标模式
+
+
+ui_system_player_dodgevalue_show_type=角色躲闪值显示方式
+ui_system_player_dodgevalue_show_type1=使用闪避时显示
+ui_system_player_dodgevalue_show_type2=一直显示
+ui_system_player_active_effect_style1=方案一
+ui_system_player_active_effect_style2=方案二
+ui_system_head_font_type=头顶字体选择
+ui_system_shortcutkey_command=命令
+ui_system_shortcutkey_set1=按键设置1
+ui_system_shortcutkey_set2=按键设置2
+ui_ShortcutKey_Group_1=基本按键
+ui_ShortcutKey_Group_2=聊天按键
+ui_ShortcutKey_Group_3=界面按键
+ui_ShortcutKey_Group_4=快捷栏按键
+ui_ShortcutKey_Group_5=目标选择按键
+ui_ShortcutKey_Group_6=视角按键
+ui_ShortcutKey_Group_7=职业按键
+ui_ShortcutKey_Group_8=其他按键
+ui_ROLE_MOVEFORWARD=前进
+ui_ROLE_MOVEBACKWARD=后退
+ui_ROLE_MOVELEFT=向左平移
+ui_ROLE_MOVERIGHT=向右平移
+ui_ROLE_TURNLEFT=左转
+ui_ROLE_TURNRIGHT=右转
+ui_ROLE_JUMP=跳跃
+ui_ROLE_SWITCHWEAPON=收拔武器
+ui_ROLE_AUTORUN=自动奔跑
+ui_ROLE_HIDEFORM=隐藏屏幕元素
+ui_ROLE_MOVETYPE=跑/走
+ui_ROLE_FOLLOW=跟随目标
+ui_ROLE_DODGELEFT=左闪避
+ui_ROLE_DODGERIGHT=右闪避
+ui_ROLE_BLOCK=格挡
+ui_ROLE_DODGEFRONT=前冲
+ui_ROLE_DODGEBACK=后跳
+ui_ROLE_AUTOATTACK=自动攻击
+ui_CHAT_INPUT=打开对话框
+ui_CHAT_TARGETDIALOG=私聊目标
+ui_CHAT_PAGEUP=对话向上翻页
+ui_CHAT_PAGEDOWN=对话向下翻页
+ui_CHAT_PAGEBOTTOM=翻至对话最下端
+ui_CHAT_REPLY=回复对话
+ui_CHAT_FIGHTINFO_PAGEUP=战斗日志向上翻页
+ui_CHAT_FIGHTINFO_PAGEDOWN=战斗日志向下翻页
+ui_CHAT_FIGHTINFO_PAGEBOTTOM=战斗日志翻至最下端
+ui_CHAT_INPUTNAME=查找私聊对象
+ui_FORM_ROLE=角色界面开关
+ui_FORM_BAG=背包界面开关
+ui_FORM_SKILL=技能界面开关
+ui_FORM_PET=宠物界面开关
+ui_FORM_REPUTATION=声望界面开关
+ui_FORM_TASKLOG=任务日志开关
+ui_FORM_GAMEMENU=游戏菜单/停止施法
+ui_FORM_MAP=大地图开关
+ui_FORM_FRIEND=好友界面开关
+ui_FORM_TEAM=团队界面开关
+ui_FORM_SWITCHFRIEND=切换好友面板
+ui_FORM_ACHIEVEMENT=成就面板开关
+ui_FORM_INSCRIPTION=铭刻面板开关
+ui_FORM_ORGANIZATION=组织面板开关
+ui_FORM_FORMULA=生活职业开关
+ui_FORM_BATTLE=战场面板开关
+ui_FORM_ARENA=竞技场面板开关
+ui_FORM_GAMEHELP=百科面板开关
+ui_FORM_DOTA=Dota竞技场面板开关
+ui_FORM_EXPCONTRACT=经验合约面板开关
+ui_FORM_GUILD=公会面板开关
+ui_FORM_PVPTASK=冒险界面
+ui_FORM_AH=拍卖行界面
+ui_FORM_NENGLIANGJING=能量井界面
+ui_FORM_FUBEN=副本界面
+ui_FORM_ZAIJU=载具界面
+ui_FORM_ASKTOBUY=求购行界面
+ui_FORM_WEBCHANGE=蜗牛集市
+ui_FORM_MILITARY=军阶面板
+ui_FORM_SHORTCUT_SKILLTYPE1=技能快捷栏1
+ui_FORM_SHORTCUT_SKILLTYPE2=技能快捷栏2
+ui_FORM_SHORTCUT_SKILLTYPE3=技能快捷栏3
+ui_ACTION_INDEX01=快捷键1
+ui_ACTION_INDEX02=快捷键2
+ui_ACTION_INDEX03=快捷键3
+ui_ACTION_INDEX04=快捷键4
+ui_ACTION_INDEX05=快捷键5
+ui_ACTION_INDEX06=快捷键6
+ui_ACTION_INDEX07=快捷键7
+ui_ACTION_INDEX08=快捷键8
+ui_ACTION_INDEX09=快捷键9
+ui_ACTION_INDEX10=快捷键10
+ui_ACTION_INDEX11=快捷键11
+ui_ACTION_INDEX12=快捷键12
+ui_ACTION_SELFUSE=自动自我施法
+ui_TARGET_NEARESTENEMY=选中最近的敌人
+ui_TARGET_NEARESTALLY=选择最近的盟友
+ui_TARGET_SELF=选择自己
+ui_TARGET_TEAMMEMBER1=选择队友1
+ui_TARGET_TEAMMEMBER2=选择队友2
+ui_TARGET_TEAMMEMBER3=选择队友3
+ui_TARGET_TEAMMEMBER4=选择队友4
+ui_TARGET_ENEMYNAMES=显示敌方姓名板
+ui_TARGET_ALLYNAMES=显示友方姓名板
+ui_TARGET_ALLNAMES=显示所有姓名板
+ui_TARGET_ATTACKOBJECT=攻击目标
+ui_TARGET_SELECTEDTARGET=选择目标的目标
+ui_CAMERA_ZOOMIN=镜头拉近
+ui_CAMERA_ZOOMOUT=镜头拉远
+ui_CAMERA_BACKWARD=后视
+ui_OCCUPATION_INDEX01=职业特殊快捷键1
+ui_OCCUPATION_INDEX02=职业特殊快捷键2
+ui_OCCUPATION_INDEX03=职业特殊快捷键3
+ui_OCCUPATION_INDEX04=职业特殊快捷键4
+ui_OCCUPATION_INDEX05=职业特殊快捷键5
+ui_OCCUPATION_INDEX06=职业特殊快捷键6
+ui_OCCUPATION_INDEX07=职业特殊快捷键7
+ui_OCCUPATION_INDEX08=职业特殊快捷键8
+ui_OCCUPATION_INDEX09=职业特殊快捷键9
+ui_OCCUPATION_INDEX10=职业特殊快捷键10
+ui_OCCUPATION_INDEX11=职业特殊快捷键11
+ui_OCCUPATION_INDEX12=职业特殊快捷键12
+ui_OTHER_MAPZOOMIN=放大地图
+ui_OTHER_MAPZOOMOUT=缩小地图
+ui_OTHER_MUSICON=开启音乐
+ui_OTHER_MUSICOFF=开启声效
+ui_OTHER_VOLUMEUP=主音量放大
+ui_OTHER_VOLUMEDOWN=主音量缩小
+ui_ShortcutKey_Undefine=未定义
+ui_system_shortcutkey_resetall=恢复默认设置
+ui_system_shortcutkey_reset=解除键位
+ui_system_shortcutkey_title=按键设置
+ui_system_shortcutkey_tips_01=点击按键以绑定功能->{@0:name}
+ui_system_shortcutkey_tips_02=按键设置成功
+ui_system_shortcutkey_tips_03=不能将按键设置为快捷键
+ui_system_shortcutkey_tips_04=按键设置成功，{@0:name}功能未设置
+ui_system_shortcutkey_tips_05=操作失败，按键设置与保留快捷键<{@0:name}>冲突
+ui_system_shortcutkey_tips_06=恢复默认设置成功
+ui_system_shortcutkey_tips_07=按键解除成功
+ui_system_shortcutkey_tips_08=按键解除成功，{@0:name}功能未设置
+ui_system_shortcutkey_tips_09=操作失败，{@0:name}功能不能设置组合键
+ui_system_promptinfo001=您的游戏帧数已经低于每秒20帧，可能会影响游戏体验，一定要继续吗？
+ui_system_promptinfo002=您的显卡不支持硬件加速，因此无法开启硬件加速！
+ui_system_promptinfo003=您的显卡不支持形态抗锯齿，因此无法开启形态抗锯齿功能！
+ui_system_promptinfo004=系统显存不够，无法开启此效果！
+ui_system_promptinfo005=当前系统配置下无法开启这个等级的抗锯齿效果！
+ui_system_promptinfo006=在当前抗锯齿设置下无法开启此效果！
+ui_system_promptinfo007=当前显示设备无法开启高动态范围效果！
+ui_system_promptinfo008=当前显示设备无法开启实时阴影效果！
+ui_system_promptinfo009=阴影质量为最低时无法开启动态多光源照明效果！
+ui_system_promptinfo010=阴影质量为最低时无法开启环境遮挡效果！
+ui_system_promptinfo011=修改纹理等级需要返回人物选择界面才能生效，是否返回人物选择界面？
+ui_system_info_0001=战斗信息
+ui_system_info_0002=自身伤害
+ui_system_info_0003=治疗
+ui_system_info_0004=闪避/未破防
+ui_system_info_0005=生命值过低
+ui_system_info_0006=状态信息
+ui_system_info_0007=颜色设置
+ui_system_info_0011=资源提示
+ui_system_info_0012=减益状态
+ui_system_info_0013=仅显示自身施放增益效果
+ui_system_info_0014=增益效果消失前闪烁
+ui_system_info_0015=仅显示自身施放减益效果
+ui_system_info_0016=选中目标信息框透明度
+ui_system_info_0017=未选中目标信息框透明度
+ui_system_info_0018=职业特性激活特效
+ui_system_fightinfo_0001=显示敌对目标对你造成的伤害
+ui_system_fightinfo_0002=显示你对敌对目标造成的伤害
+ui_system_fightinfo_0003=显示你的宠物对敌对目标造成的伤害
+ui_system_fightinfo_0004=显示你对任意目标的治疗，以及其他目标对你的治疗
+ui_system_fightinfo_0005=当敌对目标的攻击未破防或被你闪避时显示信息
+ui_system_fightinfo_0006=当你的生命值低于10%时显示信息
+ui_system_fightinfo_0007=当你进入或脱离战斗时显示信息
+ui_system_fightinfo_0008=勾选显示目标施法读条
+ui_system_fightinfo_0009=勾选显示目标当前选中的目标
+ui_system_fightinfo_0010=在下拉菜单中选择显示的目标血条样式
+ui_system_fightinfo_0011=勾选显示受到的控制状态提示
+ui_system_fightinfo_0012=勾选仅显示自身施放的增益效果
+ui_system_fightinfo_0013=勾选增益状态消失前会闪烁提示
+ui_system_fightinfo_0014=勾选在目标状态框仅显示自身施放的减益状态
+ui_system_roleinfo_0001=勾选在头顶显示玩家自身血条
+ui_system_roleinfo_0002=勾选在头顶显示玩家自身称号和姓名
+ui_system_roleinfo_0003=勾选在头顶显示玩家自身所属公会
+ui_system_roleinfo_0004=在下拉菜单中选择玩家躲闪值显示方式
+ui_system_roleinfo_0005=勾选在其他玩家头顶显示其血条
+ui_system_roleinfo_0006=勾选在其他玩家头顶显示其称号和姓名
+ui_system_roleinfo_0007=勾选在其他玩家头顶显示其所属公会
+ui_system_roleinfo_0008=勾选在NPC头顶显示其血条
+ui_system_roleinfo_0009=勾选在NPC头顶显示其称号和姓名
+ui_system_roleinfo_0010=勾选在宠物头顶显示其血条
+ui_system_roleinfo_0011=勾选在宠物头顶显示其称号和姓名
+ui_system_camera_set_001=从不追尾
+ui_system_camera_set_002=总是追尾
+ui_system_camera_set_003=移动时追尾
+ui_system_camera_set_004=移动时只调整水平位置
+fb105(1)=我需要通过冷通道
+fb105(2)=我需要通过热通道
+ui_system_setting0054=友方NPC
+ui_system_setting0055=敌方NPC
+
+
+//大地图
+ui_enlarge=放大
+ui_reduce=缩小
+ui_mouse=鼠标：
+ui_search=搜索：
+ui_clonemap1=返回世界地图
+ui_map_world=世界地图
+ui_hide_smallmap=隐藏/展开小地图
+ui_hide_mapmenu=隐藏/展开扩展界面
+ui_map_PKmode=切换战斗模式
+ui_map_withstand=打开战场/竞技场界面
+ui_map_trans=交通路线图
+ui_bigmap_0001=追踪内容
+ui_bigmap_0002=任务NPC
+ui_bigmap_0003=任务目标
+ui_bigmap_0004=标记
+ui_bigmap_0005=NPC显示列表
+ui_bigmap_0006=显示全部
+ui_bigmap_0007=装备商人
+ui_bigmap_0008=杂货商人
+ui_bigmap_0009=药水商人
+ui_bigmap_0010=宝石商人
+ui_bigmap_0011=装备强化师
+ui_bigmap_0012=宠物商人
+ui_bigmap_0013=首饰商人
+ui_bigmap_0014=武器商人
+ui_bigmap_0015=野外商人
+ui_bigmap_0016=坐骑商人
+ui_bigmap_0017=NPC搜索
+ui_bigmap_0018=战争军需官
+ui_bigmap_0019=冒险军需商
+ui_bigmap_0020=仓库管理员
+ui_bigmap_0021=拍卖行管理员
+ui_bigmap_0022=公会管理员
+ui_bigmap_0023=黑市管理员
+ui_bigmap_0024=锻造训练师
+ui_bigmap_0025=珠宝训练师
+ui_bigmap_0026=裁缝训练师
+ui_bigmap_0027=炼金训练师
+ui_bigmap_0028=铸甲训练师
+ui_bigmap_0046= 邮箱
+ui_bigmap_markid=自定义名称
+ui_bigmap_marklimit=对不起，您标记的数量已达上限，无法继续标记。
+ui_bigmap_del=删除
+ui_bigmap_cancel=取消
+ui_bigmap_reset=回到当前所在位置
+ui_bigmap_scene=搜索NPC
+ui_bigmap_show=刷新NPC显示
+ui_bigmap_traval=此界碑未激活
+ui_bigmap_trans=（同一场景下，点击可传送）
+ui_bigmap_logo1=装备商人
+ui_bigmap_logo2=杂货商人
+ui_bigmap_logo3=药水商人
+ui_bigmap_logo4=宝石商人
+ui_bigmap_logo5=装备强化师
+ui_bigmap_logo6=宠物商人
+ui_bigmap_logo7=首饰商人
+ui_bigmap_logo8=武器商人
+ui_bigmap_logo9=野外商人
+ui_bigmap_logo10=坐骑商人
+ui_bigmap_logo18=界碑
+ui_bigmap_logo23=交通管理员
+ui_bigmap_logo24=副本
+ui_bigmap_logo25=能量井
+ui_bigmap_logo26=仓库管理员
+ui_bigmap_logo27=拍卖行管理员
+ui_bigmap_logo28=黑市管理员
+ui_bigmap_logo29=公会管理员
+ui_bigmap_logo31=风景点
+ui_bigmap_logo32=战争军需官
+ui_bigmap_logo33=冒险军需商
+ui_bigmap_logo35=锻造训练师
+ui_bigmap_logo36=珠宝训练师
+ui_bigmap_logo37=裁缝训练师
+ui_bigmap_logo38=炼金训练师
+ui_bigmap_logo45=铸甲训练师
+ui_bigmap_logo41=邮箱
+ui_bigmap_logo43=载具制造台
+ui_bigmap_logo46=载具修理点
+ui_bigmap_logo47=充能管理员
+ui_bigmap_logo48=冒险管理员
+ui_bigmap_logo49=能量井财政官
+ui_bigmap_logo54=竞技商店
+ui_bigmap_logo55=日常任务管理员
+ui_bigmap_logo69=能量井副本
+ui_bigmap_logo70=复活点
+ui_cd2=界碑冷却
+ui_bigmap_transcost=是否消耗
+
+
+//小地图
+ui_map_0001=小地图显示设置
+ui_map_0002=小地图显示设置（可多选）
+ui_map_0003=任务NPC
+ui_map_0004=怪物NPC
+ui_map_0005=功能NPC
+ui_map_0006=特殊NPC
+ui_map_0007=其他玩家
+ui_map_0008=全部显示
+ui_map_0009=恢复默认
+ui_map_0010=地图显示过滤
+ui_map_0011=设置
+ui_map_0012=副本管理
+ui_map_0013=商城
+ui_map_0014=商店NPC
+ui_map_5=装备强化继承
+ui_map_6=物品强化
+ui_map_7=物品合成
+ui_map_8=物品打孔
+ui_map_9=物品绑定
+ui_map_10=转职功能
+ui_map_11=仓库管理员
+ui_map_15=旅店
+ui_map_16=交通管理员
+ui_map_18=战场管理员
+ui_map_19=竞技场管理员
+ui_map_20=DOTA战场管理员
+ui_map_21=雇佣兵
+ui_map_22=领地战宣战
+ui_map_25=拍卖行
+ui_map_26=黑市
+ui_map_28=技能商店
+ui_map_31=黑金生产
+ui_map_32=公会
+ui_map_36=宝石合成
+ui_map_17=载具召唤大师
+ui_map_fps=当前帧数为：
+ui_map_netdelay=网络延时为：
+ui_map_serverdelay=服务器延时：
+ui_map_delay=正在获取延时数据
+ui_smartmap_logo1=常用商人
+ui_smartmap_logo2=军需商
+ui_smartmap_logo3=职业训练师
+ui_smartmap_war=20级开放战场/竞技场
+
+//事件
+ui_event_jion_event=加入事件：
+ui_event_over_event=（事件结束）
+ui_event_over_event2=获得[{@0}]事件奖励
+event_trigger_player_invite_team=邀请组队
+event_trigger_player_friend_request=加为好友
+event_trigger_player_secret_chat=私聊
+event_trigger_player_check_info=查看信息
+ui_event_trigger=事件日志
+ui_event_name=事件名称
+ui_event_trigger_name=事件名称：
+ui_event_purpose=目标：
+ui_event_desc=事件描述
+ui_event_time=剩余时间
+ui_event_reward=奖励
+ui_event_trigger_last_time=剩余时间：
+ui_event_trigger_player_name=姓名
+ui_event_trigger_vocation=职业
+ui_event_trigger_grade=等级
+ui_event_trigger_partake=参与中
+ui_event_trigger_secret_chat=私聊
+ui_event_trigger_invite_team=邀请组队
+ui_event_trigger_friend_request=加为好友
+ui_event_trigger_place=地点
+ui_event_achieve_goal=达成目标
+ui_event_goal=得分
+ui_event_award=事件奖励
+ui_event_goal_award=个人奖励
+ui_event_get_award=领取奖励 
+ui_show_event_info=查看事件
+ui_event_map=地图
+ui_event_check=查看
+ui_event_detail=详细
+ui_event_transmit=传送
+ui_event_end_get_award=事件结束请领取奖励 
+ui_event_end_award1=恭喜在事件
+ui_event_end_award2=获得如下道具
+ui_event_end_award_cancle=取消
+ui_event_affirm_join=确认进入事件：
+ui_event_finish_condition=结束条件
+ui_evnet_condition1=条件1
+ui_event_condition2=条件2
+ui_event_info_tips_name=事件名称：
+ui_event_info_tips_time=事件剩余时间：
+ui_event_info_tips_palce=事件发生地点：
+ui_event_info_tips_desc=事件描述：
+ui_event_transmit_energy=传送能量
+ui_event_task_trace=任务追踪
+ui_event_trigger_trace=事件追踪
+ui_event_player_name = 玩家名称
+ui_event_ranking = 排名
+ui_event_grade = 等级
+ui_event_job = 职业
+ui_event_kill_player = 杀死玩家
+ui_event_be_kill=死亡次数
+ui_event_camp= 阵营
+ui_event_camp_ste=格兰蒂尔联盟
+ui_event_camp_fan=艾森赫特王国
+ui_event_equip=获得如下道具：
+ui_event_exp=经验：
+ui_event_money=金钱：
+ui_event_leave=离开事件
+ui_event_continue=继续战斗
+ui_event_target=个人目标
+ui_event_other_info=团队贡献
+ui_event_type =类型：
+ui_event_1_1=采集事件 
+ui_event_1_2=普通猎杀事件
+ui_event_1_3=BOSS猎杀事件
+ui_event_1_4=机遇事件
+ui_event_1_5=护送事件
+ui_event_1_6=普通猎杀事件
+ui_event_2_1=防御事件 
+ui_event_2_2=入侵事件 
+ui_event_2_3=战场事件
+ui_event_3_1=木材资源战
+ui_event_3_2=矿石资源战
+ui_event_3_3=药材资源战
+ui_event_3_4=食物资源战 
+ui_event_3_5=皮革资源战
+ui_event_4_1=运输事件 
+ui_event_4_2=公会据点争夺战
+ui_event_1=PVE事件
+ui_event_2=PVP事件
+ui_event_3=资源战
+ui_event_4=据点事件
+ui_event_sys_info=你当前没有参与事件<br>每日推荐参与{@0}次事件<br>今日已参与事件{@1}次
+ui_event_sort_info=排名信息
+ui_event_level=建议等级：
+ui_event_goal_jindu=主目标进度：
+ui_event_laste_tim=剩余时间：
+ui_event_contxt=简介：
+ui_event_cancel=返回
+ui_event_play_movie=播放事件电影
+ui_event_player_leave=离开
+ui_event_player_leave_area=区域
+ui_event_GoalCriteria=主要目标
+ui_event_Criteria=附加目标
+ui_event_shouyi=最高收益：
+ui_event_hunt=猎杀点：
+ui_event_player_count=区域人数：
+ui_event_left_min=剩余分钟：
+ui_event_1_1_type=(采集)
+ui_event_1_2_type=(普通)
+ui_event_1_3_type=(BOSS)
+ui_event_1_4_type=(机遇)
+ui_event_play_num=推荐人数：
+ui_event_reduce=1.每日推荐参与{@0}次事件，多次参与奖励减少。<br>2.今日已参与事件{@1}次。<br>3.玩家低于事件最低建议等级时奖励减少。
+ui_event_time_1=时间
+ui_event_max_reward=最高奖励：
+ui_event_over_reward_in_1=<font color='#ff9900' face="WRYH16">猎杀点：</font><font color='#9999ff' face="WRYH36">+{@0}</font><font color='#ff9900' face="WRYH16"> / {@1}</font><br><font  color='#ff9900' face="WRYH16">   经验：</font><font color='#ffffff'> +{@2}</font><font color='#ff9900'> / {@3}</font><br><font color='#ff9900' face="WRYH16">   赏金：</font> +{@4} 
+ui_event_over_reward_in_2=<font color='#99ffff' face="WRYH16">猎杀点：</font><font color='#9999ff' face="WRYH36">+{@0}</font><font color='#99ffff' face="WRYH16"> / {@1}</font><br><font  color='#99ffff' face="WRYH16">   经验：</font><font color='#ffffff'> +{@2}</font><font color='#99ffff'> / {@3}</font><br><font color='#99ffff' face="WRYH16">   赏金：</font> +{@4} 
+ui_event_over_reward_out_1=<font color='#ff9900'>猎杀点：</font><font color='#9999ff' face="WRYH24">+{@0}</font><br>　<font color='#ff9900'>经验：</font><font color='#ffffff'>+{@1}</font><br>　<font color='#ff9900'>赏金：</font>+{@2}
+ui_event_over_reward_out_2=<font color='#99ffff'>猎杀点：</font><font color='#9999ff' face="WRYH24">+{@0}</font><br>　<font color='#99ffff'>经验：</font><font color='#ffffff'>+{@1}</font><br>　<font color='#99ffff'>赏金：</font>+{@2}
+ui_event_success_1=<font color='#ff9900' face="WRYH16_I"> 达成！</font>
+ui_event_fail_1=<font color='#ff9900' face="WRYH16_I"> 结束！</font><font color='#ff9900' face="WRYH14_I">(未达成)</font>
+ui_event_success_2=<font color='#99ffff' face="WRYH16_I"> 达成！</font>
+ui_event_fail_2=<font color='#99ffff' face="WRYH16_I"> 结束！</font><font color='#99ffff' face="WRYH14_I">(未达成)</font>
+ui_event_personal=个人
+ui_event_team=团队
+ui_event_shangjin=赏金
+ui_event_goal_task_1=<font color='#ede4a6'>(团队目标)</font>
+ui_event_goal_task_2=<font color='#99ffff'>(团队目标)</font>
+ui_event_crit_task_1=<font color='#ede4a6'>(个人目标)</font>
+ui_event_crit_task_2=<font color='#99ffff'>(个人目标)</font>
+ui_event_reward_hunt_1=  猎杀点   <font color='#9999ff' face="WRYH24">+{@0}</font>
+ui_event_reward_hunt_2=  猎杀点   <font color='#9999ff' face="WRYH24">+{@0}</font>
+ui_event_reward_item_1=  道   具   {@0}x{@1}
+ui_event_reward_item_2=  道   具   {@0}x{@1}
+ui_event_reward_exp_1=  经   验   +{@0}
+ui_event_reward_exp_2=  经   验   +{@0}
+ui_event_reward_money_1=  赏   金   +
+ui_event_reward_money_2=  赏   金   +
+ui_event_post_by_letter=您的背包已满，部分道具已通过邮件发送。
+
+
+//经验槽
+ui_exp = 经验槽
+ui_exp_information = 你所得到的经验值({@0:value}),你当前为正常状态，下线休息一段时间后可以获得精力充沛状态。精力充沛状态下可以更有效的获得经验。
+ui_exp_information2 = 你所得到的经验值({@0:value}),你当前是精力充沛状态，可以更有效的获得经验，下线休息一段时间后可以延长精力充沛状态的时间。
+ui_exp_hit_information = 杀怪物和完成任务时，你可以获得正常经验值的{@0:value}。
+ui_state_normal = 正常
+ui_state_double = 精力充沛
+ui_exp_maxlevel=已达到当前最高等级
+
+
+//其他
+ui_gamename=黑金
+ui_version_1=全部
+ui_movie_esc = 按         退出播放
+ui_moviecancel=是否要退出播放剧情模式？
+ui_menu_jiaohu=主动交流
+ui_item_0001=【道具类型】
+ui_item_0002=【道具品质】
+ui_moviestart=是否退出播放开场动画？
+ui_unknown = 未知的
+
+//活动界面
+ui_every_week=每周
+ui_1 = 一
+ui_2 = 二
+ui_3 = 三
+ui_4 = 四
+ui_5 = 五
+ui_6 = 六
+ui_7 = 日
+
+
+//记事本
+ui_main_funcmenu_jishiy=记事
+
+
+//指引帮助
+ui_close=关闭
+
+
+//黑金百科
+str_prize=奖励
+ui_chakan_baodian=更多物品点击BOSS图标查看
+
+
+//自定义按键链接
+ui_sys_KEYAREA01=基本按键
+ui_sys_KEYAREA02=聊天按键
+ui_sys_KEYAREA03=面板按键
+ui_sys_KEYAREA04=动作条按键
+ui_sys_KEYAREA05=选择目标按键
+ui_sys_KEYAREA06=视角按键
+ui_sys_KEYAREA07=职业特色按键
+ui_sys_KEYAREA08=其他按键
+
+
+//伤害类型
+ui_damage_type_phy=物理
+ui_damage_type_wind=风系
+ui_damage_type_fire=火系
+ui_damage_type_thunder=雷系
+ui_damage_type_earth=土系
+ui_damage_type_water=水系
+ui_damage_type_dark=暗系
+ui_damage_type_nature=自然
+ui_damage_type_steam=蒸汽能量
+
+
+//生活职业
+ui_life_skill=生活职业(U)
+ui_life_phy=体力值
+ui_lifejob_power=消耗体力：{@0:点数}
+ui_lifejob_obtainp=获得熟练度：{@0:点数}
+ui_lifejob_conmoney=消耗金钱：
+ui_lifejob_material=材料：
+ui_lifejob_nolearn=角色未学会
+ui_lifejob_already=角色已学会
+ui_lifejob_need_job1=锻造
+ui_lifejob_need_job2=裁缝
+ui_lifejob_need_job3=炼金
+ui_lifejob_need_job4=珠宝
+ui_lifejob_need_job5=铸甲
+ui_lifejob_bt_0=
+ui_lifejob_bt_1=锻造
+ui_lifejob_bt_2=裁缝
+ui_lifejob_bt_3=炼金
+ui_lifejob_bt_4=珠宝
+ui_lifejob_bt_5=铸甲
+ui_lifejob_0=
+ui_lifejob_1=锻造师
+ui_lifejob_2=裁缝
+ui_lifejob_3=炼金师
+ui_lifejob_4=珠宝匠
+ui_lifejob_5=铸甲师
+ui_lifejob_need=所需材料:
+ui_lifejob_need2=进行配方研究需要学会以下配方:
+ui_lifejob_need3=研究后角色将直接学会:
+ui_life_yanjiu=只显示研究配方
+ui_life_upgrade=升至下一级需要角色等级达到{@0:int}级
+ui_life_upfull=生活职业已经满级了
+ui_life_all=全部
+ui_exit=退出
+tips_formula_dz01=熔炼
+tips_formula_dz05=材料
+tips_formula_dz11=单手剑
+tips_formula_dz12=法杖
+tips_formula_dz13=魔棒
+tips_formula_dz14=枪械	
+tips_formula_dz15=双手剑
+tips_formula_dz16=盾
+tips_formula_dz17=魔瓶
+tips_formula_dz18=匕首
+tips_formula_dz19=双手斧
+tips_formula_dz20=魔棒
+tips_formula_dz30=载具零件
+tips_formula_dz40=武器强化
+tips_formula_dz60=合成
+tips_formula_cf01=精织
+tips_formula_cf05=材料
+tips_formula_cf11=上装
+tips_formula_cf12=手套
+tips_formula_cf13=下装
+tips_formula_cf14=鞋子
+tips_formula_cf15=帽子
+tips_formula_cf16=护臂
+tips_formula_cf17=腰带
+tips_formula_cf18=披风
+tips_formula_cf30=载具零件
+tips_formula_cf40=防具强化
+tips_formula_cf50=容器
+tips_formula_cf60=合成
+tips_formula_lj01=凝练
+tips_formula_lj05=材料
+tips_formula_lj11=药剂
+tips_formula_lj12=药水
+tips_formula_lj13=合剂
+tips_formula_lj14=群体药剂
+tips_formula_lj15=群体药水
+tips_formula_lj16=群体合剂
+tips_formula_lj20=充能
+tips_formula_lj30=载具零件
+tips_formula_lj40=蓄能罐
+tips_formula_lj60=合成
+tips_formula_zb01=筛选
+tips_formula_zb05=材料
+tips_formula_zb11=饰物
+tips_formula_zb12=戒指
+tips_formula_zb13=项链
+tips_formula_zb30=载具零件
+tips_formula_zb40=首饰强化
+tips_formula_zb60=合成
+tips_formula_zj01=熔炼
+tips_formula_zj05=材料
+tips_formula_zj11=上装
+tips_formula_zj12=手套
+tips_formula_zj13=下装
+tips_formula_zj14=鞋子
+tips_formula_zj15=帽子
+tips_formula_zj16=护臂
+tips_formula_zj17=腰带
+tips_formula_zj18=披风
+tips_formula_zj30=载具零件
+tips_formula_zj40=防具强化
+tips_formula_zj50=容器
+tips_formula_zj60=合成
+
+
+//生活职业
+ui_life_occup_1=锻造师
+ui_life_occup_2=裁缝
+ui_life_occup_3=炼金师
+ui_life_occup_4=珠宝匠
+ui_life_occup_5=铸甲师
+ui_life_occup_delete_chars=放弃
+ui_life_occup_delete_lbl2_begin=请在框中输入"
+ui_life_occup_delete_lbl2_end="来确认放弃:
+ui_life_occup_delete_lbl3=你确定要放弃
+ui_life_occup_learn_1=我想要成为锻造师！
+ui_life_occup_learn_2=我想要成为裁缝！
+ui_life_occup_learn_3=我想要成为炼金师！
+ui_life_occup_learn_4=我想要成为珠宝匠！
+ui_life_occup_learn_5=我想要成为铸甲师！
+ui_life_learn_1=成为锻造师需要花费
+ui_life_learn_2=成为裁缝需要花费
+ui_life_learn_3=成为炼金师需要花费
+ui_life_learn_4=成为珠宝匠需要花费
+ui_life_learn_5=成为铸甲师需要花费
+ui_life_occup_delete_1=我想要放弃做锻造师。
+ui_life_occup_delete_2=我想要放弃做裁缝。
+ui_life_occup_delete_3=我想要放弃做炼金师。
+ui_life_occup_delete_4=我想要放弃做珠宝匠。
+ui_life_occup_delete_5=我想要放弃做铸甲师。
+ui_life_occup_buy_peifang=购买配方
+ui_life_occup_level=等级{@0:等级}
+ui_life_0001=制作
+ui_life_0002=全部制作
+ui_life_0003=配方研究
+ui_life_0004=锻造
+ui_life_0005=材料齐备
+ui_life_0006=宝石合成
+ui_life_0007=分解
+ui_life_0008=你当前能分解的最高装备等级为：{@0:int}级
+ui_life_0009=消耗体力值：{@0:int}
+ui_life_0010=你有概率获得：
+ui_life_0011=需要消耗以下材料：
+ui_life_0012=恭喜你获得：
+ui_life_0013=100%<br>获得
+ui_life_0014=概率<br>获得
+ui_life_tip=小提示
+ui_life_chakan=<font color="#FFFFFF">点击对应的内容，可查看信息</font>
+ui_life_makeresouce=<font color="#FFFFFF">此材料科用于生产：</font>
+ui_life_source=<font color="#00FF00">来源：</font>
+ui_life_form1=<font color="#FFFFFF">世界：</font>
+ui_life_form2=<font color="#FFFFFF">事件：</font>
+ui_life_form3=<font color="#FFFFFF">副本：</font>
+ui_life_common=<font color="#FFFFFF">说明：</font>
+ui_life_need=角色等级需要达到{@0:int}级
+ui_life_time=<font color="#FFFFFF">冷却时间:{@0:int}小时{@1:int}分</font>
+ui_life_alreadysearch=已研究
+ui_life_cansearch=可研究
+ui_life_notsearch=不可研究
+ui_life_make=配方研究
+ui_life_single=产物：
+ui_life_minum=最小制作数量
+ui_life_max=最大制作数量
+ui_life_add=增加制作数量1
+ui_life_dec=减少制作数量1
+ui_life_multiply=制造完成时将随机获得下列产物中的一种:
+ui_life_decomposequip=请放入你要分解的装备
+ui_life_decomposetip=提示：分解的装备将会消失
+ui_life_decomposetart=开始分解
+ui_life_require_level=需要生活职业等级：{@0:int}
+ui_life_alert1=<font color="#ff0000">提示：每位玩家只能学习1种生活职业</font>
+ui_life_alert2=放弃当前生活技能需要到相应的训练师处进行操作
+ui_life_decompose_desc=1.将分解装备拖至分解栏，点击“开始分解”，即可分解成功。<br/>2.分解后的装备无法退回。
+ui_life_leadtext=生活职业介绍
+ui_life_lead=生活职业在到达15级后开放，学习生活职业可以进行生产功能。<br/><font color="#ff0000">玩家只能学习一种生活职业</font>，你可以在以下地点找到生活职业训练师。
+
+
+ui_life_leadnpc101=艾森赫特王国<br/>锻造训练师：<br/><a href="findnpc,1,85,9,70,npc_zqm001_0185" style="HLStype4">肯·塔尔博特</a>（克威尔郡）、<a href="findnpc,7,-1039,213,1988,npc_zqm003_0128" style="HLStype4">马兰妮·亮银</a>（卡地亚）、<a href="findnpc,1,127,95,-2421,npc_zqm004_0123" style="HLStype4">莱茵哈特·托克</a>（亚提伦）、<br/><a href="findnpc,7,-2948,-2,668,npc_zqm005_0138" style="HLStype4">达莎妮·亮银</a>（克瑞托尔废墟）、<a href="findnpc,6,-2016,0,3636,npc_zlm010_0146" style="HLStype4">霍夫·维格达</a>（提奥迪亚）
+ui_life_leadnpc102=裁缝训练师：<br/><a href="findnpc,1,51,9,92,npc_zqm001_0187" style="HLStype4">吉安妮妮</a>（克威尔郡）、<a href="findnpc,7,-1053,216,1991,npc_zqm003_0130" style="HLStype4">安妮亚·耀金</a>（卡地亚）、<a href="findnpc,1,117,0,-2495,npc_zqm004_0125" style="HLStype4">缪西亚·普拉达</a>（亚提伦）、<br/><a href="findnpc,7,-2982,-2,660,npc_zqm005_0140" style="HLStype4">格兰妮塔·耀金</a>（克瑞托尔废墟）、<a href="findnpc,6,-2014,0,3606,npc_zlm010_0148" style="HLStype4">雅若狄尔·琵薇</a>（提奥迪亚）
+ui_life_leadnpc103=炼金训练师：<br/><a href="findnpc,1,74,9,89,npc_zqm001_0188" style="HLStype4">卡尔·鲍林</a>（克威尔郡）、<a href="findnpc,7,-1076,216,1994,npc_zqm003_0131" style="HLStype4">马斯狄·岩火</a>（卡地亚）、<a href="findnpc,1,129,0,-2478,npc_zqm004_0126" style="HLStype4">汉斯特·罗里可</a>（亚提伦）、<br/><a href="findnpc,7,-2981,-2,644,npc_zqm005_0141" style="HLStype4">穆力尔·岩火</a>（克瑞托尔废墟）、<a href="findnpc,6,-2036,0,3606,npc_zlm010_0149" style="HLStype4">迈多拉·奴里夫</a>（提奥迪亚）
+ui_life_leadnpc104=珠宝训练师：<br/><a href="findnpc,1,48,9,65,npc_zqm001_0186" style="HLStype4">宝格丽</a>（克威尔郡）、<a href="findnpc,7,-1083,216,1976,npc_zqm003_0129" style="HLStype4">巴诺·岩火</a>（卡地亚）、<a href="findnpc,1,86,0,-2433,npc_zqm004_0124" style="HLStype4">佐卡伊·拉瓦哈</a>（亚提伦）、<br/><a href="findnpc,7,-2952,-2,628,npc_zqm005_0139" style="HLStype4">利诺·岩火</a>（克瑞托尔废墟）、<a href="findnpc,6,-2029,0,3635,npc_zlm010_0147" style="HLStype4">罗西那克·亚林</a>（提奥迪亚）
+
+ui_life_leadnpc105=格兰蒂尔联盟<br/>锻造训练师：<br/><a href="findnpc,2,3668,0,546,npc_qhm002_0183" style="HLStype4">利卫·逐日</a>（朝日圣地）、 <a href="findnpc,3,-6062,124,5189,npc_qhm003_0113" style="HLStype4">派克·拉格斐</a>（晨曦丘陵）、<a href="findnpc,2,3972,0,-1593,npc_qhm004_0066" style="HLStype4">西琳妮纱·控魔</a>（蒂加海岸）、<br/><a href="findnpc,3,-4233,115,3760,npc_zlm002_0083" style="HLStype4">拉然·托利奴斯</a>（雾月丛林）、<a href="findnpc,6,-2132,0,3157,npc_zlm010_0150" style="HLStype4">卡斯坦·逐日</a>（提奥迪亚）
+ui_life_leadnpc106=裁缝训练师：<br/><a href="findnpc,2,3683,0,660,npc_qhm002_0185" style="HLStype4">罗斯·卡萨</a>（朝日圣地）、<a href="findnpc,3,-6062,124,5245,npc_qhm003_0115" style="HLStype4">简·克莱恩</a>（晨曦丘陵）、<a href="findnpc,2,4019,0,-1666,npc_qhm004_0068" style="HLStype4">阿德拉·追风</a>（蒂加海岸）、<br/><a href="findnpc,3,-4166,119,3719,npc_zlm002_0085" style="HLStype4">佩林·莉亚</a>（雾月丛林）、<a href="findnpc,6,-2149,0,3162,npc_zlm010_0152" style="HLStype4">安妮亚·追风</a>（提奥迪亚）
+ui_life_leadnpc107=炼金训练师：<br/><a href="findnpc,2,3666,0,677,npc_qhm002_0186" style="HLStype4">伊雷娜·控魔</a>（朝日圣地）、<a href="findnpc,3,-6001,124,5184,npc_qhm003_0116" style="HLStype4">玛丽·居里</a>（晨曦丘陵）、<a href="findnpc,2,3928,0,-1581,npc_qhm004_0069" style="HLStype4">妲尔蕾依·卡萨</a>（蒂加海岸）、<br/><a href="findnpc,3,-4193,115,3781,npc_zlm002_0086" style="HLStype4">冉拉德·尤利娅</a>（雾月丛林）、<a href="findnpc,6,-2133,0,3134,npc_zlm010_0153" style="HLStype4">凯尔雅·卡萨</a>（提奥迪亚）
+ui_life_leadnpc108=珠宝训练师：<br/><a href="findnpc,2,3664,0,567,npc_qhm002_0184" style="HLStype4">劳伦斯·追风</a>（朝日圣地）、<a href="findnpc,3,-6000,124,5237,npc_qhm003_0114" style="HLStype4">蒂芬尼·格拉夫</a>（晨曦丘陵）、<a href="findnpc,2,3955,0,-1691,npc_qhm004_0067" style="HLStype4">卡纱丽·逐日</a>（蒂加海岸）、<br/><a href="findnpc,3,-4196,124,3623,npc_zlm002_0084" style="HLStype4">伊里宾·柯力纳</a>（雾月丛林）、<a href="findnpc,6,-2175,0,3175,npc_zlm010_0151" style="HLStype4">巴里迪安·日灼</a>（提奥迪亚）
+ui_life_leadnpc109=铸甲训练师：<br/><a href="findnpc,1,92,0,81,npc_zqm001_0207" style="HLStype4">保尔·柯察金</a>（克威尔郡）、<a href="findnpc,7,-1064,216,1999,npc_zqm003_0169" style="HLStype4">冬妮娅·图曼诺娃</a>（卡地亚）、<a href="findnpc,1,82,0,-2414,npc_zqm004_0130" style="HLStype4">阿尔焦姆·柯察金</a>（亚提伦）、<br/><a href="findnpc,7,-2966,-2,672,npc_zqm005_0143" style="HLStype4">费奥多尔·朱赫来</a>（克瑞托尔废墟）、<a href="findnpc,6,-2026,0,3605,npc_zlm010_0176" style="HLStype4">伊万·扎尔基</a>（提奥迪亚）
+ui_life_leadnpc110=铸甲训练师：<br/><a href="findnpc,2,3688,0,621,npc_qhm002_0200" style="HLStype4">达雅·柯察金娜</a>（朝日圣地）、<a href="findnpc,3,-6062,124,5232,npc_qhm003_0127" style="HLStype4">瓦莉娅·布鲁扎克</a>（晨曦丘陵）、<a href="findnpc,2,3982,0,-1692,npc_zlm010_0147" style="HLStype4">尼古拉·奥库涅夫</a>（蒂加海岸）<br/><a href="findnpc,3,-4164,119,3711,npc_zlm002_0089" style="HLStype4">谢廖沙·布鲁扎克</a>（雾月丛林）、<a href="findnpc,6,-2163,0,3167,npc_zlm010_0177" style="HLStype4">托卡列夫</a>（提奥迪亚）
+
+ui_life_leadesc=各职业简述：<br/>【锻造师】：能够锻造出所有类型的武器。<br/>【裁缝】：能够缝制出各个部位的布甲、皮甲。<br/>【铸甲师】：能够缝制出各个部位的中甲、重甲。<br/>【炼金师】：能够炼制药水和药剂。<br/>【珠宝匠】：能够打造漂亮的饰品。
+
+//能量井
+ui_commit_token=缴纳令牌升级身份
+ui_apply_by_money=通过金钱获得居民身份
+ui_,npc_zqm001_0185过令牌获得身份
+ui_check_order=查看当前排名
+ui_byebye=再见
+ui_commit=缴纳
+ui_self_commit_relation=身份等级与缴纳令牌的关系为:
+ui_townleader=镇长：
+ui_advance_congressman=高级议员：
+ui_normal_officer=普通官员：
+ui_honor_resident=荣誉居民：
+ui_normal_resident=普通居民：
+ui_identity=您的居民身份为：
+ui_commit_num=您已经缴纳的令牌数为：
+ui_energywell_camp=阵营
+ui_energywell_admin=能量井身份管理
+ui_energywell_name=名称
+ui_energywell_num=已缴纳令牌数
+ui_energywell_myidentity=我的身份
+ui_energywell_townleader=镇长
+ui_energywell_advance_congressman=高级议员
+ui_token_num=我缴纳的令牌
+ui_buildprogress=建设度
+ui_totalnum=总人数
+ui_mutilidentity=多重身份:
+ui_energy_well=能量井
+ui_energy_well_no_occupy=未被占领
+ui_energywell_info=能量井信息
+ui_energywell_resident_none = 无
+ui_energywell_resident_ptjm = 普通居民
+ui_energywell_resident_ryjm = 荣誉居民
+ui_energywell_resident_ptgy = 普通官员
+ui_energywell_resident_gjyy = 高级议员
+ui_energywell_resident_zz = 镇长
+ui_energywell_camp_zl = 中立
+ui_energywell_camp_zq = 艾森赫特王国
+ui_energywell_camp_qh = 格兰蒂尔联盟
+ui_energywell_need_token_num = {@0:}个令牌
+ui_energywell_by_rank = 排名决定
+ui_energywell_confirm_giveup = 你确定放弃当前能量井的居民身份么
+ui_energywell_giveup = 放弃身份
+ui_energywell_haveiteminfo = 您当前身上有{@0:}个牌子可以提交
+ui_energywell_identity = 身份
+ui_energywell_wage = 工资福利
+ui_energywell_level = 能量井等级
+ui_energywell_bulids = 建设度
+ui_energywell_tokens = 缴纳牌子数
+ui_energywell_donateindex = 捐赠排名
+ui_energywell_capturebuff = 占领获得的BUFF
+ui_energywell_researchbuff = 研究获得的BUFF
+ui_energywell_introduce = 能量井介绍
+ui_energywell_unidenty = 您还没有获得能量井居民身份！
+ui_energywell_owner_1=占领工会（一）
+ui_energywell_owner_2=占领工会（二）
+ui_energywell_owner_3=占领工会（三）
+ui_energywell_no_owner=暂无人占领
+ui_client=客户端
+ui_currentscene=当前场景:
+ui_property=属性
+ui_mainrolex=主角对象
+ui_targetx=对象
+ui_tablex=表格[
+ui_containerview=容器视窗
+ui_viewx=视窗[
+ui_goodsx=物件
+ui_globalobject=全局对象
+ui_name=名称
+ui_value=数值
+ui_propertyname=属性名
+ui_propertyvalue=属性值
+ui_tiaoshichuangkou=调试窗口
+ui_guanbi=关闭
+ui_duixiang=对象：
+ui_shuzhi=数值：
+ui_full=充能
+ui_addene_time=持续时间:
+ui_addene_min=分钟
+npc_zqm005_0131 = 充能塔
+ui_needjobformu=需要：{@0:区域} {@1:级别}级居民身份
+ui_enchase_property=该宝石可能随机到的属性：
+ui_enchase_title=宝石镶嵌
+ui_enchase_desc=1.拖动背包内宝石至镶嵌槽进行镶嵌<br>2.未开启的槽位可以通过打孔开启<br>3.镶嵌后的宝石不可被取下，但可以用新的宝石<br>覆盖原来的宝石
+ui_enchase_confirm=确定镶嵌该宝石吗？
+ui_enchase_cover=确定覆盖已有宝石吗？
+ui_enchase_pick=确定取下该宝石吗？
+ui_compound_rollback=装备属性恢复为合成前
+ui_append_full=是否覆盖原有属性
+ui_hole=镶嵌孔{@0:孔号}:
+ui_proper_add=+{@0:数值}
+ui_energywell_guild=公会
+ui_join_energy_well=加入能量井
+ui_energy_main_title=能量井
+ui_energy_selfinfo=个人信息
+ui_energy_guild=所属公会:
+ui_energy_no_well=你还未获得能量井身份，快去加入能量井吧！
+ui_energy_info_identity_list=名望列表
+ui_energy_info_level=等级:
+ui_energy_info_buff=增益状态：
+ui_energy_info_build_progress=当前建设度:
+ui_energy_info_identity_manager=身份管理员:
+ui_energy_info_own_pillar=占领能量柱
+ui_energy_info_own_guild=占领公会：
+ui_energy_info_base_introduce=基本介绍
+ui_energy_info_welfare_introduce=福利介绍
+ui_energy_info_battle_introduce=战场介绍
+ui_energy_info_battle_inside=内部战役
+ui_energy_info_build_well=能量井建设
+ui_energy_info_repair_park=停车位维修
+ui_energy_info_search_member=查看成员
+ui_energy_info_return=返回
+ui_energy_welfare_ride=专属载具
+ui_energy_welfare_weapon=专属充能
+ui_energy_welfare_own_ectype=专属副本
+ui_energy_welfare_ectype_drop=副本掉落
+ui_energy_reward_map_info=地图概况
+ui_energy_reward_special_reward=特殊奖励
+ui_energy_reward_play_introduce=玩法介绍
+ui_energy_reward_play_exp=经验
+ui_energy_reward_play_money=金钱
+ui_energy_reward_play_point=英勇点数
+ui_energy_reward_play_tool=道具
+ui_energy_member_num=在线成员：
+ui_energy_member_only_online=只显示在线玩家
+ui_energy_equipment_weapon=武器
+ui_energy_equipment_head=头盔
+ui_energy_equipment_shoulder=肩部
+ui_energy_equipment_chest=胸部
+ui_energy_equipment_hand=手腕
+ui_energy_win_reward=胜方奖励
+ui_energy_fail_reward=败方奖励
+ui_energy_member_name=姓名
+ui_energy_member_level=等级
+ui_energy_member_job=职业
+ui_energy_member_identity=身份
+ui_energy_member_position=职位
+ui_energy_member_guild=所属公会
+ui_energy_well_state1=关闭状态
+ui_energy_well_state2=报名成功
+ui_energy_well_state3=准备状态
+ui_energy_well_state4=战斗状态
+ui_energy_well_state5=战斗结束状态
+ui_energy_item_axe=单手斧
+ui_energy_item_sword=单手剑
+ui_energy_gxd=贡献度:
+ui_energy_ghzw=公会职务:
+ui_energy_zqzl=蒸汽占领:
+ui_energy_qhzl=奇幻占领:
+ui_energy_big=大型
+ui_energy_mid=中型
+ui_energy_small=小型
+ui_big_energy_well=大型能量井
+ui_mid_energy_well=中型能量井
+ui_small_energy_well=小型能量井
+ui_zq_occupy_energy_well=艾森赫特占领
+ui_qh_occupy_energy_well=格兰蒂尔占领
+ui_zl_occupy_energy_well=中立能量井
+ui_querenhuafei=确认花费
+ui_heijinshougou=黑金，收购
+ui_gema=个吗？
+ui_quxiaoshougou=确定取消收购该种材料吗？
+ui_zhengzai_buy_mat=收购中
+ui_buy_mat=收购
+ui_shougou_fanhui_post=你的收购材料的订单已被取消，以下是退回的剩余黑金。
+ui_shougou_fanhui_post_heijin=能量井被其他公会占领，
+ui_sell_mat_heijin=出售材料获得的黑金
+ui_sell_mat_post_context=成功在{@0:能量井}出售{@1:材料名}{@2:数量}个，获得{@3:黑金数}黑金。
+ui_sell_fail_fanhui=出售失败退回的材料
+ui_no_contribution_notice=捐献后获取贡献度将大于本日获取上限，多余部分不再获得，是否继续捐献？
+ui_no_contribution_notice_buy=出售后获取贡献度将大于本日获取上限，多余部分不再获得，是否继续出售？
+
+ui_energy_gk=能量井概况
+ui_energy_basic_info=基本信息
+ui_energy_zjgl=载具管理
+ui_energy_zjtkd=载具停靠点
+ui_energy_fljs=福利介绍
+ui_energy_ssdt=所属地图：
+ui_energy_ghhz=公会会长：
+ui_energy_zjck=载具查看
+ui_energy_small_car=小型载具
+ui_energy_mid_car=中型载具
+ui_energy_big_car=大型载具
+ui_energy_many_car=多人载具
+ui_energy_zq_jx=战争机械
+ui_energy_qh_jx=战斗骑兽
+ui_energy_zq_gl=战争机械管理
+ui_energy_qh_gl=战斗骑兽管理
+ui_energy_zq_ck=战争机械查看
+ui_energy_qh_ck=战斗骑兽查看
+ui_energy_zq_xz=战争机械休整间
+ui_energy_qh_xz=战斗骑兽休养园
+ui_energy_zq_xxzj=小型战争机械
+ui_energy_zq_zxzj=中型战争机械
+ui_energy_zq_dxzj=大型战争机械
+ui_energy_zq_fszj=复式战争机械
+ui_energy_qh_xxzj=小型战斗骑兽
+ui_energy_qh_zxzj=中型战斗骑兽
+ui_energy_qh_dxzj=大型战斗骑兽
+ui_energy_qh_fszj=复式战斗骑兽
+ui_energy_zq_fp=机械分配
+ui_energy_qh_fp=骑兽分配
+ui_energy_zq_zz=机械制造
+ui_energy_qh_xh=骑兽驯化
+ui_energy_mc=名称:
+ui_energy_syr=使用人:
+ui_energy_sysj=剩余时间:
+ui_energy_zjsz=载具设置
+ui_energy_cljx=材料捐献
+ui_energy_zjzz=载具制造
+ui_energy_camp_war=阵营战
+ui_energy_guild_war=公会战
+ui_energy_war_time=战争时间:
+ui_energy_war_welfare=战争福利:
+ui_energy_war=能量井战争
+ui_energy_war_time_show={@0:} {@1:}:{@2:}-{@3:}:{@4:}
+ui_energy_war_week_1=周一
+ui_energy_war_week_2=周二
+ui_energy_war_week_3=周三
+ui_energy_war_week_4=周四
+ui_energy_war_week_5=周五
+ui_energy_war_week_6=周六
+ui_energy_war_week_7=周日
+ui_energy_war_jbjs=基本介绍
+ui_energy_war_zzgz=战争规则
+ui_energy_war_zjzb=最近战报
+ui_energy_war_xzjs=宣战介绍
+ui_energy_war_zjdp=载具调配
+ui_energy_war_carrier=载具
+ui_energy_war_carrier1=战争机械
+ui_energy_war_carrier2=战斗骑兽
+ui_energy_war_qszz=骑士之证
+ui_energy_war_qsds=骑士点数
+ui_energy_war_dqzj=当前载具
+ui_energy_car_szd=所在地
+ui_energy_car_dqxl=当前血量
+ui_energy_car_dqnl=当前能量
+ui_energy_car_gs=归属
+ui_energy_car_wsxh=维修消耗
+ui_energy_car_tkzt=停靠状态
+ui_energy_car_sysj=剩余时间
+ui_energy_car_repair=维修
+ui_energy_car_xf=续费
+ui_energy_car_cs=传送
+ui_energy_car_yjws=一键维修
+ui_energy_car_yjxf=一键续费
+ui_energy_car_dh=兑换
+ui_energy_car_qrdh=确认兑换
+ui_energy_car_hjdh=黑金:{@0:} 骑士点数: {@1:}
+ui_energy_car_qsds=骑士点数:
+ui_energy_car_hour={@0:}小时
+ui_energy_car_info=锁上{@0:}每小时需要消耗{@1:}点骑士点数，确定上锁？
+ui_energy_mw_tip={@0:}/{@1:}
+ui_energy_mw_shop=商店特卖
+ui_usetype_1=小型  
+ui_usetype_2=中型  
+ui_usetype_3=大型  
+ui_usetype_4=多型
+ui_usetype_5=劫掠 
+ui_dianjian=  点/件
+ui_dian=  点
+ui_energy_no_guild=无公会
+ui_donate_mat=材料捐献
+ui_usetype=用途:
+ui_materialnum=库存数量:
+ui_contribution=贡献值:
+ui_input_materialnum=请在下面输入欲捐献的数量:
+ui_donate_reward=获得的捐献度奖励为:
+ui_energy_lqlp=领取令牌
+ui_energy_zjxf_tips=您当前的【{@0:}】使用权限即将到期，是否继续续费使用？
+ui_energy_car_drive=骑乘
+ui_energy_path_attack={@0:}公会占领了{@1:}公会的{@2:}能量井
+ui_energy_path_defend={@0:}公会打败了{@1:}公会，成功防守{@2:}能量井
+ui_energy_path_get={@0:}公会占领了{@1:}能量井
+ui_energy_jieshao_zqzy=蒸汽之渊是艾森赫特所发现并开发的第一个原始能量井，他所蕴含的能量令人震惊。为了守护这里国王在此地设下重兵，对于对国家有贡献的冒险者这里也是一个兑换功勋与冒险的圣地。
+ui_energy_jieshao_syzd=神谕之地在格兰蒂尔被认为是诸神的恩赐，围绕神谕之地所流传的种种传说，在整个大陆上广为流传，格兰蒂尔的人民很早就已经知道了如何将神谕之地磅礴的能量化为己用，这里是神的恩赐之地。
+ui_energy_jieshao_dggc=各路情报都表示，在达贡古城发现了新的能量井，各方势力蠢蠢欲动，艾森赫特派出了混沌天使—奥菲，而格兰蒂尔则派出了经验丰富的炽阳上将—斯卡迪奥，末日教对达贡圣地也是志在必得，天火—莫鲁斯奉黑袍主教的命令夺下这块战略要地。
+ui_energy_jieshao_glyj=金鳞氏族与银鳞氏族的斗争一直持续不断，想要夺回原本属于自己领地的金鳞氏族偶然发现古老遗迹能量井的存在，于是开始部署着计划。得知金鳞氏族这一举动的艾森赫特与格兰蒂尔也纷纷开始卷入了夺取古老遗迹这一能量井的纷争中。
+ui_energy_jieshao_xkzy=虚空之源的最早发现者来自于革新会，对蒸汽技术疯狂追求的革新会在发展与开垦中发现这片土地散发着特殊的能量，想要将这能量占为己用的革新会开始深入研究。很快的，这一消息传到了艾森赫特与格兰蒂尔两边，得到消息后的他们迅速的组建了各自的军队前往虚空之源。
+ui_energy_jieshao_smqj=各地能量井被发掘的消息一个接着一个，有消息传出巨树沼泽中存在的生命奇迹，渴望得到强大能量的人们纷纷卷入了这场寻能计划中。艾森赫特与格兰蒂尔的军队也前往寻找生命奇迹的旅途。阔苏部落的蠢蠢欲动，相信也是为了这强大能量而计划着什么。
+ui_energy_jieshao_wszd=暗月狼人的势力似乎慢慢在扩大，各地调查得到一致的结果，暗月狼人得到了万兽之地的能量，随后艾森赫特与格兰蒂尔指派了各自的军队，前往万兽之地占夺这具有强大能量的领地。
+ui_energy_jieshao_slqd=哀恸使者奉黑袍主教的命令前来圣临群岛寻找能量源，果真如黑袍主教所言，在圣临群岛上发现了能量所在地，察觉到末日教动向的银鳞祭司律动海潮—朱尔时，暗中监视着他们的一举一动，同时金鳞祭司深水赞歌—高兹为了防备银鳞，也悄无声息的来到了圣临群岛。
+ui_energy_jieshao_nykm=能源矿脉自发现以来，对于它的争夺就从来没有中断过，而现在，王国军、俄兰蒂尔特遣军以及对能量非常渴求的革新会，都对这块矿脉虎视眈眈。
+ui_energy_fuli_sd_01=出售高级坐骑烈风V2与烈风V3等与骑士之卡、能量晶体、各式能量盾、机械图纸。
+ui_energy_fuli_sd_02=出售高级坐骑青羽陆行鸟与火凤陆行鸟与骑士之卡、能量晶体、各式能量盾、驯化手册。
+ui_energy_fuli_sd_03=出售高级坐骑刀锋V3与石化白马等与骑士之卡、能量晶体、各式能量盾、机械图纸。
+ui_energy_fuli_sd_04=出售骑士之卡、能量晶体、各式能量盾、机械图纸。
+ui_energy_fuli_sd_05=出售骑士之卡、能量晶体、各式能量盾、机械图纸。
+ui_energy_fuli_sd_06=出售骑士之卡、能量晶体、各式能量盾、驯化手册。
+ui_energy_fuli_sd_07=出售骑士之卡、能量晶体、各式能量盾、驯化手册
+ui_energy_fuli_sd_08=出售骑士之卡、能量晶体、各式能量盾、驯化手册。
+ui_energy_fuli_sd_09=出售骑士之卡、能量晶体、各式能量盾、机械图纸。
+ui_energy_zq_fpsbc_001=怒火之心
+ui_energy_zq_fpsbc_002=扫荡者
+ui_energy_zq_fpsbc_003=歼灭者
+ui_energy_zq_fpsbc_004=复仇之枪
+ui_energy_qh_fpsbc_005=战象
+ui_energy_qh_fpsbc_006=幻彩
+ui_energy_qh_fpsbc_007=苍穹织法者
+ui_energy_qh_fpsbc_008=猛犸
+ui_energy_zq_fpsbc_009=帝王之拳（蒸汽）
+ui_energy_zq_fpsbc_010=压制者（蒸汽）
+ui_energy_zq_fpsbc_011=扫除者（蒸汽）
+ui_energy_qh_fpsbc_012=蛮锤（奇幻）
+ui_energy_qh_fpsbc_013=翼隼（奇幻）
+ui_energy_qh_fpsbc_014=雷暴翱翔者（奇幻）
+ui_energy_fuli_cn_wq=武器
+ui_energy_fuli_cn_zwq01=武器子菜单01
+ui_energy_fuli_cn_zwq02=武器子菜单02
+ui_energy_fuli_cn_wq_01=法术强度+26
+ui_energy_fuli_cn_wq_02=物理攻击强度+26
+ui_energy_fuli_cn_mz=帽子
+ui_energy_fuli_cn_zmz01=帽子子菜单01
+ui_energy_fuli_cn_zmz02=帽子子菜单02
+ui_energy_fuli_cn_mz_01=生命上限+362
+ui_energy_fuli_cn_mz_02=生命上限+697
+ui_energy_fuli_cn_xl=项链
+ui_energy_fuli_cn_zxl01=项链子菜单01
+ui_energy_fuli_cn_zxl02=项链子菜单02
+ui_energy_fuli_cn_xl_01=生命每秒恢复+6
+ui_energy_fuli_cn_xl_02=生命每秒恢复+8
+ui_energy_fuli_cn_sy=上衣
+ui_energy_fuli_cn_zsy01=上衣子菜单01
+ui_energy_fuli_cn_zsy02=上衣子菜单02
+ui_energy_fuli_cn_sy_01=生命上限+290
+ui_energy_fuli_cn_sy_02=生命上限+466
+ui_energy_fuli_cn_st=手套
+ui_energy_fuli_cn_zst01=手套子菜单01
+ui_energy_fuli_cn_zst02=手套子菜单02
+ui_energy_fuli_cn_st_01=法术强度+4
+ui_energy_fuli_cn_st_02=物理攻击强度+6
+ui_energy_fuli_cn_yd=腰带
+ui_energy_fuli_cn_zyd01=腰带子菜单01
+ui_energy_fuli_cn_zyd02=腰带子菜单02
+ui_energy_fuli_cn_yd_01=法术强度+10
+ui_energy_fuli_cn_yd_02=物理攻击强度+10
+ui_energy_fuli_cn_kz=裤子
+ui_energy_fuli_cn_zkz01=裤子子菜单01
+ui_energy_fuli_cn_zkz02=裤子子菜单02
+ui_energy_fuli_cn_kz_01=智力+3
+ui_energy_fuli_cn_kz_02=力量+3
+ui_energy_fuli_cn_xz=鞋子
+ui_energy_fuli_cn_zxz01=鞋子子菜单01
+ui_energy_fuli_cn_zxz02=鞋子子菜单02
+ui_energy_fuli_cn_xz_01=生命上限+200
+ui_energy_fuli_cn_xz_02=生命上限+307
+ui_energy_fuli_cn_bs=背饰
+ui_energy_fuli_cn_zbs01=背饰子菜单01
+ui_energy_fuli_cn_zbs02=背饰子菜单02
+ui_energy_fuli_cn_bs_01=抵御值+3
+ui_energy_fuli_cn_bs_02=抵御值+4
+ui_energy_fuli_cn_hw=护腕
+ui_energy_fuli_cn_zhw01=护腕子菜单01
+ui_energy_fuli_cn_zhw02=护腕子菜单02
+ui_energy_fuli_cn_hw_01=敏捷+3
+ui_energy_fuli_cn_hw_02=感知+3
+ui_energy_fuli_cn_sp=饰品
+ui_energy_fuli_cn_zsp01=饰品子菜单01
+ui_energy_fuli_cn_zsp02=饰品子菜单02
+ui_energy_fuli_cn_sp_01=抵御值+3
+ui_energy_fuli_cn_sp_02=抵御值+3
+ui_energy_fuli_cn_jz=戒指
+ui_energy_fuli_cn_zjz01=戒指子菜单01
+ui_energy_fuli_cn_zjz02=戒指子菜单02
+ui_energy_fuli_cn_jz_01=体质+6
+ui_energy_fuli_cn_jz_02=精神+6
+ui_energy_car_auto_repair=维修点自动维修
+ui_energy_car_auto_recharge=维修点自动充值
+ui_energy_car_not_stop=未停靠
+ui_energy_car_yjws_tips=为所有载具恢复能量100%
+ui_energy_car_yjxf_tips=为所有载具进行续费
+ui_energy_war_date=<font color="#ff6600">{@0:year}年{@1:month}月{@2:day}日</font>
+ui_energy_car_lock=上锁
+ui_energy_car_locktime=上锁时间
+ui_energy_car_auto_repair_info=自动维修
+ui_energy_car_auto_recharge_info=自动续费
+ui_energy_car_qrts=确认提示
+ui_energy_car_qszz_info=取消制造将返还制造时所消耗能量井仓库材料及黑金的{@0:}%。确定取消当前制造的载具吗？
+ui_energy_car_sdsj_info=缩短制造时间每小时需要消耗{@0:}个黑金。
+ui_energy_car_stop_mutl=复式战斗载具停靠点
+ui_energy_car_stop_big=大型战斗载具停靠点
+ui_energy_car_stop_mid=中型战斗载具停靠点
+ui_energy_car_stop_small=小型战斗载具停靠点
+ui_energy_car_zzr=制造人
+ui_energy_car_zzrq=制造日期
+ui_energy_car_zjwz=载具位置
+ui_energy_car_syr=使用人
+ui_energy_car_jssj=加锁时间
+ui_energy_car_js=解锁
+ui_energy_car_js_tips=是否确定解除【{@0:}】的权限？
+ui_energy_car_park_save=停靠载具12小时
+ui_energy_car_park_take=取出车辆
+ui_energy_car_call_back=召回
+ui_energy_repair_parkspace=是否维修载具
+ui_energy_car_qssd=权限设定
+ui_energy_car_qsxgjg=权限修改时间间隔最短为20分钟
+ui_energy_car_zjfp=载具分配
+ui_energy_car_bg_cost=制造该载具需要消耗能量井仓库黑金：{@0:}
+ui_energy_car_auto_repair_mp_info=自动充能
+ui_energy_car_zy=征用
+ui_energy_car_dp=调配
+ui_energy_car_tck=停车库
+ui_energy_car_low=低维护
+ui_energy_car_high=高维护
+ui_energy_car_mid=中维护
+ui_energy_switch_area=所属区域
+ui_energy_switch_sure_switch=确认传送
+ui_energy_donate=确认捐献
+ui_energy_bg_donate=黑金捐献
+ui_energy_bg_brjx=本日捐献
+ui_energy_bg_brgs=本日兑换贡献
+ui_energy_bg_donate_info=每捐献5黑金便可获得1点贡献度，每日最高可获得25点贡献度
+ui_energy_bg_donate_qr=你捐献{@0:}黑金,获得{@1:}点贡献度？
+ui_energy_get_welfare=领取福利
+ui_energy_base_spcs=商品出售
+ui_energy_base_zzjx=制造机械
+ui_energy_car_zjxx=载具信息:
+ui_energy_jbxx=基本信息
+ui_energy_ghgl=公会管理
+
+//排行榜
+ui_rank_bang=排行榜
+ui_rank_title=游戏排行榜
+ui_rank_world=世界
+ui_rank_qh=格兰蒂尔
+ui_rank_zq=艾森赫特
+ui_rank_bylevel=等级排名
+ui_rank_byrich=财富排名
+ui_rank_byforce=实力排名
+ui_rank_byglory=荣誉排名
+ui_rank_byclone=副本排名
+ui_rank_byarena=竞技排名
+ui_rank_place=排名
+ui_rank_name=角色名称
+ui_rank_level=等级
+ui_rank_camp=阵营
+ui_rank_camp_1=艾森赫特王国
+ui_rank_camp_2=格兰蒂尔联盟
+ui_rank_job=职业
+ui_rank_force=实力评分
+ui_rank_glory=荣誉
+ui_rank_clone=副本积分
+ui_rank_clone_1=积分
+ui_rank_clone_times=时间
+ui_rank_arena=竞技积分
+ui_rank_arenareward=竞技奖励
+ui_rank_gold=携带金钱
+ui_rank_sociaty=公会
+ui_rank_pageup=上一页
+ui_rank_pagedown=下一页
+ui_rank_playeroutrank=你暂无名次，继续努力
+ui_rank_nosociaty=无
+ui_rank_playerinrank=我的排名：{@0:项目}第
+ui_rank_playerinrank1=名
+ui_rank_refresh=刷新
+ui_rank_firstpage=首页
+ui_rank_lastpage=末页
+ui_rank_clonetips=该积分每周二凌晨清空
+ui_rank_job1=职业排名
+ui_rank_nodata=暂无
+ui_rank_all_job=全部选择
+ui_rank_clone_point=副本评价
+ui_rank_clone_time=最快通关
+ui_rank_clone_damage=伤害输出
+ui_rank_clone_hour=时
+ui_rank_clone_minute=分
+ui_rank_clone_sceond=秒
+ui_rank_arena_reward=竞技场排行奖励
+ui_rank_arena_reward_context=您本周的竞技场积分排行第{@0:排名}名，获得了相应奖励
+ui_rank_clone_type=副本分类
+ui_rank_name_1=角色
+ui_rank_sociaty_1=公会
+ui_rank_gold_1=金币
+ui_rank_force_1=实力
+ui_rank_delete=读取角色失败
+ui_rank_mltboxtext0=漫步在蒙特尔大陆，品尝着冒险的激情才会让我有存在的感觉！
+ui_rank_mltboxtext1=我不断的探索着蒙特尔大陆，游走在地狱之门的边界，我的人生格言是：冒险或死亡！
+ui_rank_mltboxtext2=我一直在追求自己所能达到的极致，对我来说“凡人皆有一死，诸神终将陨落”没有什么是不能破的！我，将名垂青史！
+ui_rank_mltboxtext3=终于可以实现许多其他人做不到的事情了！
+ui_rank_mltboxtext4=没有什么是钱办不到的，我要所有人都为我所驱使！
+ui_rank_mltboxtext5=我曾一贫如洗，今天，财富对我来说只不过一个数字，纸醉金迷也不过如此！需要金钱解决的问题都不再是问题！我，富可敌国！
+ui_rank_mltboxtext6=历史是由胜利者来书写的。今天，我就是这名胜利者！
+ui_rank_mltboxtext7=我的名字，就是捍卫一个国家的最强武器。我的名字，对于敌人而言，就是死神的耳语、灭亡的丧钟！
+ui_rank_mltboxtext8=向艾利斯卡加圣峰起誓，在战场上经历了无尽的征伐、穿过了漫长的黑夜与深谷之后，我的姓名将在人们的口中代代传唱，我的功绩将在蒙特尔大陆千秋万代！
+ui_rank_mltboxtext9=只要我的武器还在手中，敌人的灭亡只是早晚的事情！
+ui_rank_mltboxtext10=我，是鲜血与死亡的代名词，见过吾之影者，岂有不灭。
+ui_rank_mltboxtext11=我也曾不堪一击，但现在，我与“神”的距离是如此的接近，巅峰的感觉竟如此寂寞！寻找一名对手将是我新的目标！
+ui_rank_mltboxtext12=我踏足过无数的地下城，但那里很快就变成了它主人的墓地。
+ui_rank_mltboxtext13=一个团队中如果拥有了我，那自当所向披靡无人能挡。
+ui_rank_mltboxtext14=我去过最深的地穴，那里几乎无人能踏足。我探索过最危险的地下城，那里几乎无人能生还。但今天，我成功了，我的冒险生涯将被载入史册。我，就是传奇！
+ui_rank_caneidt=当您达到前三名时，才可编辑宣言哦！
+ui_rank_playername1=至尊<font color="#ff6600">{@0:玩家名}</font>怒吼说：
+ui_rank_playername2=勇者<font color="#ff6600">{@0:玩家名}</font>怒吼说：
+ui_rank_playername3=达人<font color="#ff6600">{@0:玩家名}</font>怒吼说：
+ui_rank_caneidt=当您达到前三名时，才可编辑宣言哦！
+
+
+
+
+//成就
+ui_totalachieve=总揽
+ui_achievepoint=成就点数
+ui_achieve_all=所有
+ui_achieve_completed=已完成
+ui_achieve_uncompleted=未完成
+ui_get_prize=领取奖励
+ui_parentachieve=前提成就
+ui_achieve_sill=成就技能
+ui_complete_condition=完成以下条件
+ui_chengjiu=成就
+ui_fangqi=放弃
+ui_wancheng=完成
+ui_jinxingzhong=进行中
+ui_weijihuo=未激活
+ui_weikaishi=未开始
+ui_achieve_newachieve=成就
+ui_achieve_details=内容
+ui_achieve_state=状态
+ui_achieve_jj01=军阶
+ui_achieve_jj02=达到
+ui_achieve_jj03=荣誉
+ui_achieve_jj04=战斗力
+ui_achieve_jj05=等级
+ui_achieve_jj06=开启军阶：
+ui_achieve_jj07=获得军阶：
+ui_achieve_jj08=已达到最高军阶
+ui_achieve_jj09=完成
+ui_achieve_jj10=战役
+ui_achieve_mubiao_01=<a style="HLStype2">进入战役</a>
+ui_achieve_mubiao_02=<a style="chattype1">进入战役</a>
+ui_achieve_mubiao_03=<a style="chattype1">离开战役</a>
+
+
+//军阶
+ui_militaryrank_totalachieve=总揽
+ui_militaryrank_junjie=军阶
+ui_militaryrank_all=所有
+ui_militaryrank_completed=已完成
+ui_militaryrank_uncompleted=未完成
+ui_militaryrank_get_prize=领取奖励
+ui_militaryrank_complete_condition=完成以下条件
+ui_militaryrank_fangqi=放弃
+ui_militaryrank_cansubmit=(可提交)
+ui_militaryrank_wancheng=(完成)
+ui_militaryrank_jinxingzhong=进行中
+ui_militaryrank_weikaishi=未开始
+ui_militaryrank_newachieve=成就
+ui_militaryrank_details=内容
+ui_militaryrank_state=状态
+ui_militaryrank_title1=战役名
+ui_militaryrank_title2=战役目标
+ui_militaryrank_title3=嘉奖
+ui_militaryrank_title4=军衔
+ui_militaryrank_titlemark=勇士
+ui_militaryrank_honour=荣誉
+ui_militaryrank_sword=战斗力
+ui_militaryrank_kill=击杀
+ui_militaryrank_damage=击毁
+ui_militaryrank_enter= 进入战场
+ui_militaryrank_exit=退出战场
+ui_militaryrank_text1= text1
+ui_militaryrank_text2= text2
+ui_militaryrank_text3= text3
+ui_militaryrank_text4= text4
+
+ui_militaryrank1= 开启条件：
+ui_militaryrank2= 级
+ui_militaryrank3= <s size="2"/>战斗力：
+ui_militaryrank4= <s size="2"/>荣誉值：
+ui_militaryrank5= <br/>军衔要求：
+
+//蒸汽军阶描述
+
+ui_militaryrank_100_rankname= 列兵
+ui_militaryrank_100_rankstate= 已获得
+ui_militaryrank_100_rankstate_1= 未获得
+ui_militaryrank_100_rankcondition_title= 获得条件：无
+ui_militaryrank_100_rankcondition= 
+ui_militaryrank_100_note=(初始军阶)
+
+ui_militaryrank_101_rankname= 高阶步兵
+ui_militaryrank_101_rankstate= 已获得
+ui_militaryrank_101_rankstate_1= 未获得
+ui_militaryrank_101_rankcondition_title= 获得条件：
+ui_militaryrank_101_rankcondition= 飞艇坠落战役完成
+ui_militaryrank_101_note=(必须具备以上条件，才可获得军阶。)
+
+ui_militaryrank_102_rankname= 士官长
+ui_militaryrank_102_rankstate= 已获得
+ui_militaryrank_102_rankstate_1= 未获得
+ui_militaryrank_102_rankcondition_title= 获得条件：
+ui_militaryrank_102_rankcondition= 登陆日战役完成
+ui_militaryrank_102_note=(必须具备以上条件，才可获得军阶。)
+
+ui_militaryrank_103_rankname= 少尉
+ui_militaryrank_103_rankstate= 已获得
+ui_militaryrank_103_rankstate_1= 未获得
+ui_militaryrank_103_rankcondition_title= 获得条件：
+ui_militaryrank_103_rankcondition=斩首计划战役完成
+ui_militaryrank_103_note=(必须具备以上条件，才可获得军阶。)
+
+ui_militaryrank_104_rankname= 上尉
+ui_militaryrank_104_rankstate= 已获得
+ui_militaryrank_104_rankstate_1= 未获得
+ui_militaryrank_104_rankcondition_title= 获得条件：
+ui_militaryrank_104_rankcondition= 鏖战长空战役完成
+ui_militaryrank_104_note=(必须具备以上条件，才可获得军阶。)
+
+ui_militaryrank_105_rankname= 少校
+ui_militaryrank_105_rankstate= 已获得
+ui_militaryrank_105_rankstate_1= 未获得
+ui_militaryrank_105_rankcondition_title= 获得条件：
+ui_militaryrank_105_rankcondition= 目标雪牙山战役完成
+ui_militaryrank_105_note=(必须具备以上条件，才可获得军阶。)
+
+//奇幻军阶描述
+
+ui_militaryrank_100_rankname= 侦察兵
+ui_militaryrank_100_rankstate= 已获得
+ui_militaryrank_100_rankstate_1= 未获得
+ui_militaryrank_100_rankcondition_title= 获得条件：无
+ui_militaryrank_100_rankcondition= 
+ui_militaryrank_100_note=(初始军阶)
+
+ui_militaryrank_201_rankname= 高阶步兵
+ui_militaryrank_201_rankstate= 已获得
+ui_militaryrank_201_rankstate_1= 未获得
+ui_militaryrank_201_rankcondition_title= 获得条件：
+ui_militaryrank_201_rankcondition= 飞艇坠落战役完成
+ui_militaryrank_201_note=(必须具备以上条件，才可获得军阶。)
+
+ui_militaryrank_202_rankname= 军士长
+ui_militaryrank_202_rankstate= 已获得
+ui_militaryrank_202_rankstate_1= 未获得
+ui_militaryrank_202_rankcondition_title= 获得条件：
+ui_militaryrank_202_rankcondition= 登陆日战役完成
+ui_militaryrank_202_note=(必须具备以上条件，才可获得军阶。)
+
+ui_militaryrank_203_rankname= 军团卫士
+ui_militaryrank_203_rankstate= 已获得
+ui_militaryrank_203_rankstate_1= 未获得
+ui_militaryrank_203_rankcondition_title= 获得条件：
+ui_militaryrank_203_rankcondition= 斩首计划战役完成
+ui_militaryrank_203_note=(必须具备以上条件，才可获得军阶。)
+
+ui_militaryrank_204_rankname= 一等卫士长
+ui_militaryrank_204_rankstate= 已获得
+ui_militaryrank_204_rankstate_1= 未获得
+ui_militaryrank_204_rankcondition_title= 获得条件：
+ui_militaryrank_204_rankcondition= 鏖战长空战役完成
+ui_militaryrank_204_note=(必须具备以上条件，才可获得军阶。)
+
+ui_militaryrank_205_rankname= 皇家骑士
+ui_militaryrank_205_rankstate= 已获得
+ui_militaryrank_205_rankstate_1= 未获得
+ui_militaryrank_205_rankcondition_title= 获得条件：
+ui_militaryrank_205_rankcondition= 目标雪牙山战役完成
+ui_militaryrank_205_note=(必须具备以上条件，才可获得军阶。)
+
+//打孔界面
+ui_stiletto=孔数已达上限
+ui_stiletto_1 = 该装备孔数上限为{@0:num}个
+
+
+//防沉迷
+ui_fcm_1hour=您累计在线时间已满1小时！
+ui_fcm_2hour=您累计在线时间已满2小时！
+ui_fcm_3hour=您累计在线时间已满3小时！
+ui_fcm_online=尊敬的用户，您属于防沉迷账号，目前累计在线时间已满{@0:num}小时{@1:num}分钟！
+ui_fcm_time =进入防沉迷倒计时：{@0:num}:{@1:num}:{@2:num}
+ui_fcm_out=退出游戏倒计时：{@0:num}:{@1:num}:{@2:num}
+ui_fcm_again=您已进入不健康游戏时间，暂时无法登陆游戏。直到您的累计下线时间满5小时后，才能回复正常。
+ui_fcm=防沉迷信息提示
+ui_fcm_1=补填防沉迷信息
+ui_fcm_quit=您累计在线时间已满3小时,请下线休息,做适当身体活动!
+ui_fangchenmi_shenfenzheng=身份证
+ui_fanchengmi_xingming=姓名
+ui_fangchenmi=补填防沉迷信息
+ui_enthrall_time_desc=防沉迷
+ui_enthrall_time=进入防沉迷倒计时
+
+//新人引导
+ui_qpenprompt_title=友情提示
+ui_qpenprompt_location=目标位置：
+ui_qpenprompt_sure=确定
+ui_qpenprompt_remaintime=剩余时间    秒
+
+tongdao01=领主大厅
+tongdao02=激光通道
+tongdao03=困僳之环
+tongdao04=审判大厅
+Technology_FB105_4_2=传送门
+Technology_FB105_5_2=传送门
+Technology_FB105_6_2=传送门
+
+//能量盾改造
+ui_EnergySheild=<font color="#003366">我想要改造能量盾。</font>
+ui_EnergySheild_1=能量盾改造
+ui_EnergySheild_2=能量等级：
+ui_EnergySheild_3=下一经验等级增长的属性：
+ui_EnergySheild_4=经验等级：
+ui_EnergySheild_5=花费:
+ui_EnergySheild_6=普通改造
+ui_EnergySheild_7=完美改造
+ui_EnergySheild_8=<font color="#FFFF00"><Ctrl+右键>打开能量盾改造</font>
+ui_EnergySheild_9=<font color="#FFFF00"><{@0:等级}级开启能量盾改造功能></font>
+ui_EnergySheild_10=<font color="#FFFF00">充能晶体类型：{@0:能量晶体等级}</font>
+ui_EnergySheild_11=初级能量结晶
+ui_EnergySheild_12=中级能量结晶
+ui_EnergySheild_13=高级能量结晶
+ui_EnergySheild_14=金币
+ui_EnergySheild_15=黑金
+ui_EnergySheild_16=批量改造
+ui_EnergySheild_17=开始改造
+ui_EnergySheild_18=取消
+ui_EnergySheild_19=停止改造
+ui_EnergySheild_20=改造次数
+ui_EnergySheild_21=普通改造花费：
+ui_EnergySheild_22=完美改造花费：
+StrAdd=力量
+SpiAdd=精神
+IngAdd=智力
+StaAdd=体质
+DexAdd=敏捷
+EsthAdd=感知
+ceshizc01=点击升级至20
+ceshizc02=点击升级至40
+ceshizc03=点击升级至20
+ceshizc04=点击升级至40
+
+//装备洗点
+ui_item_set=重铸
+ui_item_inset=<font color="#ff0000">重铸(15级开启)</font>
+ui_laveitem=重铸
+ui_lave_money=费用：
+ui_item_set_1=装备
+ui_item_set_2=材料
+ui_item_set_3=黑金替换道具
+
+
+//能量井PVP
+ui_energy_well_enter=是否立即前往?
+ui_energy_well_force=你的势力为:
+ui_energy_well_force_0=你的势力为:攻方
+ui_energy_well_force_2=你的势力为:守方
+ui_energy_well_state_4=(等待中)
+ui_energy_well_state_5=(准备中)
+ui_energy_well_state_6=(进行中)
+ui_energy_well_state_7=(已结束)
+ui_energy_well_state_8=(等待中)
+ui_energy_well_state_10=(准备中)
+ui_energy_well_state_12=(进行中)
+ui_energy_well_state_14=(已结束)
+ui_count_down={@0:天}天{@1:小时}小时{@2:分}分{@3:秒}秒
+ui_apply_count_down={@0:分}分{@1:秒}秒
+ui_energy_well_open_time=开启时间:
+ui_energy_well_level_limit=限制等级:
+ui_energy_well_apply=报名
+ui_energy_well_recommend_level=活动推荐等级:
+ui_energy_well_desc=活动描述:
+ui_energy_well_count_down=活动倒计时:
+ui_energy_well_surplus_time=剩余报名时间:
+ui_energy_well_fighting=本次战斗进行中，请下次报名。
+ui_energy_well_exit=如果你现在放弃，再进入能量井需要重新报名。是否真的要退出？
+ui_damage_value=伤害量
+ui_ew_force=势力
+ui_ew_destroy_vehicle=销毁载具
+ui_ew_total_grade=总评分
+ui_ew_join_fight=参战人数
+ui_ew_chairman=公会会长
+ui_ew_res_war_personal=个人
+ui_ew_res_fight_page={@0:当前页}/{@1:总页数}
+ui_arena_statistic_title_kill_die=击杀/死亡
+
+ui_ew_res_fight_gf=攻方:{@0:}/{@1:}
+ui_ew_res_fight_sf=守方:{@0:}/{@1:}
+ui_ew_res_fight_my_num=我的排名:评分排行第{@0:}名
+ui_ew_res_fight_myguild_num=我的公会排名:评分排行第{@0:}名
+ui_ew_res_fight_myguild_null=你没有公会记录
+
+ui_energy_well_force_104=你的势力为:攻方
+ui_energy_well_force_105=你的势力为:守方
+ui_energy_well_force_min_104=攻方伤害
+ui_energy_well_force_min_105=守方伤害
+ui_ew_res_fight_post_1=1号能量柱
+ui_ew_res_fight_post_2=2号能量柱
+ui_ew_res_fight_post_3=3号能量柱
+ui_ew_res_fight_post_guild_105={@0:公会}公会(攻方)
+ui_ew_res_fight_post_guild_104={@0:公会}公会(守方)
+ui_ew_res_fight_post_null=未占领
+ui_ew_res_fight_gfzz=攻方装置
+
+ui_ew_res_fight_sz=上周战况
+ui_ew_res_fight_ssz=两周前战况
+ui_ew_res_fight_sssz=三周前战况
+ui_ew_res_fight_ssssz=一个月前战况
+ui_ew_res_fight_zlqk={@0:公会}公会占领{@1:能量柱}
+ui_ew_res_fight_wxx1=快去占领能量井吧！
+ui_ew_res_fight_wxx2=去试试对本能量井所属的载具使用上锁功能吧！
+
+ui_ewbattlewar_map_0000=能量井势力分布图
+ui_ewbattlewar_map_0010=能量井势力分布图（阵营战开战区域）
+ui_ewbattlewar_map_0001=能量井势力分布图（阵营内部公会战开战区域）
+ui_ewbattlewar_map_0002=能量井势力分布图（阵营内部公会战宣战时期：星期五晚10点-星期六晚8点）
+ui_ewbattlewar_map_0003=能量井势力分布图（公会战开战情况）
+ui_ewbattlewar_map_0004=能量井势力分布图（公会战开战情况）
+ui_ewbattlewar_map_0005=能量井势力分布图（公会战开战情况）
+ui_ewbattlewar_map_0006=能量井势力分布图（阵营内部公会战载具调配时期）
+ui_ewbattlewar_map_0007=能量井势力分布图（阵营内部公会战载具调配时期）
+ui_ewbattlewar_map_0008=能量井势力分布图（阵营内部公会战开战时期）
+ui_ewbattlewar_map_0009=能量井势力分布图（阵营内部公会战开战时期）
+ui_ewbattlewar_map_00010=能量井势力分布图（阵营内部公会战开战时期）
+ui_ewbattlewar_map_00011=能量井势力分布图（阵营内部公会战开战时期）
+ui_ewbattlewar_map_00012=能量井势力分布图（阵营内部公会战开战时期）
+ui_ewbattlewar_map_00013=能量井势力分布图（阵营内部公会战开战时期）
+ui_ewbattlewar_map_00014=能量井势力分布图（阵营内部公会战结束）
+ui_ewbattlewar_map_00015=能量井势力分布图（阵营内部公会战结束）
+ui_ewbattlewar_map_0021=能量井：
+ui_ewbattlewar_map_0022=地图名：
+ui_ewbattlewar_map_0023=占领公会：
+ui_ewbattlewar_map_0024=所属阵营：
+ui_ewbattlewar_map_0025=争夺公会：
+ui_ewbattlewar_map_0026=目前竞标额：
+ui_ewbattlewar_map_0027=战争类型：
+ui_ewbattlewar_map_0028=开战时间：
+ui_ewbattlewar_map_0029=宣战
+ui_ewbattlewar_map_0030=载具调配
+ui_ewbattlewar_map_0031=报名
+ui_ewbattlewar_map_0032=势力分布
+ui_ewbattlewar_map_0033=战略图
+ui_ewbattlewar_carrier_0001=您的载具所要前往的能量井：
+ui_ewbattlewar_carrier_0002=您最多可以调用载具原能值：
+ui_ewbattlewar_carrier_0003=<font color="#c66300">提示：购买的载具只可在本次战斗使用，且调配成功后不能修改</font> 
+ui_ewbattlewar_carrier_0004=载具名
+ui_ewbattlewar_carrier_0005=载具类型
+ui_ewbattlewar_carrier_0006=载具实力
+ui_ewbattlewar_carrier_0007=所属能量井
+ui_ewbattlewar_carrier_0008=所占原能
+ui_ewbattlewar_carrier_0009=调用距离
+ui_ewbattlewar_carrier_0010=调用金额
+ui_ewbattlewar_carrier_0011=目前调用的原能值：
+ui_ewbattlewar_carrier_0012=维护费用：
+ui_ewbattlewar_carrier_0013=总消费金额：
+ui_ewbattlewar_carrier_0014=您的总调配金额为{@0:消费金额}黑金，确定之后将无法修改，确定如此调配载具吗？
+ui_ewbattlewar_carrier_0015=重置将取消您之前所有的调配数据，确定要重置吗？
+ui_ewbattlewar_carrier_0016=购买载具
+ui_ewbattlewar_carrier_0017=骑乘等级
+ui_ewbattlewar_declare_0001=您所宣战的能量井：
+ui_ewbattlewar_declare_0002=请选择我方出征载具的能量井：
+ui_ewbattlewar_declare_0003=调配载具出征距离：
+ui_ewbattlewar_declare_0004=调配载具维护费用：
+ui_ewbattlewar_declare_0005=提示：出征载具的能量井距离您所宣战的能量井越远，调配载具的费用会越高，请您根据情况适当选择宣战目标
+
+ui_ewbattlewar_declare_0006=当前竞标价：
+ui_ewbattlewar_declare_0007=宣战竞标价：
+ui_ewbattlewar_declare_0008=提示：被顶掉的竞拍价会以邮件方式原价归还给竞拍者，请注意查收。
+
+ui_ewgw_chs_force_attack=攻击方
+ui_ewgw_chs_force_defend=防守方
+ui_ewgw_chos_tip=请选择势力
+
+ui_ewgw_advi_title={@0:能量井名}公会战
+ui_ewgw_advi_info=公会战已经开启报名，是否现在报名？
+ui_ewgw_advi_signup=报名
+ui_ewgw_advi_signup_later=稍后报名
+
+
+
+
+npctalkd01=你的同伴都不会跳的吗，我只听说过洛格玛人不会跳，因为他们腿短。
+npctalkd02=你们比其他种族更机灵
+npctalkd03=进入试炼之地
+npctalkd04=进入试炼之地
+npctalkd05=进入试炼之地
+npctalkd06=进入试炼之地
+npctalkd07=我决定接受挑战
+npctalkd08=我决定接受挑战
+npctalkd09=我决定接受挑战
+npctalkd10=我决定接受挑战
+npctalkd11=我决定接受挑战
+npctalkd12=我决定接受挑战
+npctalkd13=我决定接受挑战
+npctalkd14=我决定接受挑战
+npctalkd15=我决定接受挑战
+npctalkd16=我决定接受挑战
+npctalkd17=我决定接受挑战
+npctalkd18=我决定接受挑战
+npctalkd19=第一阶段，行尸走肉
+npctalkd36=我要建造防御炮塔
+npctalkd37=我要建造防御炮塔
+npctalkd38=我要建造防御炮塔
+npctalkd39=我要建造防御炮塔
+npctalkd40=我要建造防御炮塔
+npctalkd41=我要建造防御炮塔
+npctalkd42=我要建造防御炮塔
+npctalkd43=我要建造防御炮塔
+npctalkd44=我要建造防御炮塔
+npctalkd45=我要建造防御炮塔
+npctalkd46=我要建造防御炮塔
+npctalkd47=我要建造防御炮塔
+npctalkd48=我要建造防御炮塔
+npctalkd49=我要建造防御炮塔
+npctalkd50=我要建造防御炮塔
+npctalkd51=我要建造防御炮塔
+npctalkd52=我要建造防御炮塔
+npctalkd53=我要建造防御炮塔
+npctalkd54=我要建造防御炮塔
+npctalkd55=我要建造防御炮塔
+npctalkd56=我要建造防御炮塔
+npctalkd57=我要建造防御炮塔
+npctalkd58=我要建造防御炮塔
+npctalkd59=我要骑乘空袭战机
+npctalkd60=我要骑乘空袭战机
+npctalkd61=我要骑乘空袭战机
+npctalkd62=我要骑乘空袭战机
+npctalkd63=我要骑乘空袭战机
+npctalkd64=我要骑乘空袭战机
+npctalkd65=我要骑乘空袭战机
+npctalkd66=我要骑乘空袭战机
+npctalkd67=我要骑乘空袭战机
+npctalkd68=我要骑乘空袭战机
+npctalkd69=我要骑乘空袭战机
+npctalkd70=我要骑乘空袭战机
+npctalkd71=我要前往蒸汽之渊
+npctalkd72=我要建造魔法炮塔
+npctalkd73=我要骑乘火鹰
+npctalkd74=我要前往神谕之地
+npctalkd75=乘上空袭战机
+npctalkd76=乘上飞龙
+npctalkd77=送我出去
+
+//放逐之地
+ui_prision_jcy=关押时间查询
+ui_prision_smr=逃离
+ui_prision_xd=离开
+ui_prision_dyg=封停时间查询
+ui_prision_locktime=封停时间还剩{@0:天}天{@1:小时}小时
+ui_prision_limittime=关押时间还剩{@0:分钟}分钟
+ui_prision_escape=是否花费{@0:资金}点券贿赂监察官？
+
+// 收录界面
+ui_openprompt_func_1=新手引导
+ui_openprompt_func_2=副本宝典
+ui_openprompt_func_3=成就引导
+ui_openprompt_func_4=装备宝典
+
+//抵用界面
+ui_commute_confirm_tip=货币不足或达到每日限额，是否用{@1:}黑金进行抵用？
+ui_capital=货币
+ui_day_gain=每日获得上限
+ui_day_consume=每日使用上限
+ui_take_max=最大携带上限
+ui_convert=转换
+ui_xuemai_exchange_jinghua=点券兑换黑金
+ui_xuemai_exchange=点券兑换
+ui_exchange_rec=点券兑换记录
+ui_bg_exchange_gold=黑金兑换
+ui_bg_gold_rec=黑金兑换记录
+ui_input_xuemai_to_exchange=输入需要兑换的点券数量
+ui_exchange_gain_jinghua=兑换可获得黑金
+ui_input_bg_to_exchange=输入需要兑换的黑金数量
+ui_exchange_gain_gold=兑换可获得金币
+ui_capital_statistic=资产统计
+ui_exchange=兑换
+ui_charge=充值
+ui_exchange_date=兑换日期
+ui_gain_jinghua=获得黑金
+ui_consume_xuemai=消耗点券
+ui_gain_gold=获得金币
+ui_consume_bg=消耗黑金
+ui_exchange_confirm_tip=是否使用 {@0:} 点券兑换 {@1:} 黑金？
+ui_ex_gold_confirm_tip=是否使用 {@0:} 黑金兑换 {@1:} ？
+
+//副本装备GM命令UI
+ui_clone_notransjob=你尚未转职
+ui_clonequip_1=余晖(一)
+ui_clonequip_2=鲁尔(一)
+ui_clonequip_3=流浪(一)
+ui_clonequip_4=远古(一)
+ui_clonequip_5=教堂(一)
+ui_clonequip_6=洞穴(一)
+ui_clonequip_7=提奥(一)
+ui_clonequip_8=余晖(二)
+ui_clonequip_9=鲁尔(二)
+ui_clonequip_10=流浪(二)
+ui_clonequip_11=远古(二)
+ui_clonequip_12=天怒堡(二)
+ui_clonequip_13=提奥(二)
+ui_clonequip_14=苍穹之喉
+ui_clonequip_15=顶级装备
+ui_clonequip_16=炼16绿
+ui_clonequip_17=炼23蓝
+ui_clonequip_18=炼30蓝
+ui_clonequip_19=炼40紫
+ui_clonequip_20=炼40紫+3
+ui_clonequip_21=炼40紫+5
+
+//装备引导
+ui_equip_lead=本职业推荐{@0:widestr}，是否继续装备
+ui_equip_low=该部位装备水平过低
+ui_equip_high=当前装备水平过低
+ui_jian=件
+ui_equip_0001=全部
+ui_equip_0002=战争军需官
+ui_equip_0003=冒险军需商
+ui_equip_0004=神秘商人
+ui_equip_0005=副本掉落
+ui_equip_0006=世界掉落
+ui_equip_0015=副职制造
+ui_equip_0007=1-16级
+ui_equip_0008=17-23级
+ui_equip_0009=24-30级
+ui_equip_0010=31-35级
+ui_equip_0022=36-40级
+ui_equip_0011=布甲
+ui_equip_0012=皮甲
+ui_equip_0013=中甲
+ui_equip_0014=重甲
+
+ui_equip_0016=白色
+ui_equip_0017=绿色
+ui_equip_0018=蓝色
+ui_equip_0019=紫色
+ui_equip_0020=橙色
+ui_equip_0021=暗金
+ui_equip_0023=15级副本掉落
+ui_equip_0024=23级副本掉落
+ui_equip_0025=30级副本掉落
+ui_equip_0026=32级副本掉落
+ui_equip_0027=35级,40级副本掉落
+
+
+//gm在线求助
+ui_gmcc=GM在线求助
+ui_help_select_run=向其他玩家求助，用于脱离卡死状态
+
+
+ui_fashion=时装
+ui_equipment=装备
+
+//
+ui_safemode=安全模式
+ui_safemode_safetime=安全时间
+ui_safemode_assets=财产保护
+ui_safemode_fixpassword=修改密码
+ui_safemode_tempunlock=临时解锁
+ui_safemode_cancelpsw=取消密码
+ui_safemode_reset=恢复默认
+ui_safemode_selectall=全部选中
+ui_safemode_01=在安全时限内无法进行以下操作：
+ui_safemode_02=使用点券、黑金、本源
+ui_safemode_03=交易功能：一般交易、寄售拍卖、购买
+ui_safemode_04=切换到杀戮模式
+ui_safemode_05=解散公会
+ui_safemode_06=装备强化相关功能（强化、打孔、镶嵌、分解）
+ui_safemode_07=销毁、出售绑定装备
+ui_safemode_08=发送邮件
+ui_safemode_09=使用副职生产
+ui_safemode_10=安全时间倒计时 {@0:min1}{@1:min2}:{@2:sec1}{@3:sec2}
+ui_safemode_11=系统默认安全时间为3分钟，你可以在下方重新设定你的安全时间
+ui_safemode_12=请输入你要设定的安全时间 （1——60分钟之间）
+ui_safemode_13=分钟
+ui_safemode_14=为了你账户的安全，系统推荐安全时间为10分钟
+ui_safemode_15=装备保护
+ui_safemode_16=装备品质保护
+ui_safemode_17=装备星级保护
+ui_safemode_18=宝石保护
+ui_safemode_19=货币保护
+ui_safemode_20=禁止强化
+ui_safemode_21=禁止重铸
+ui_safemode_22=禁止镶嵌
+ui_safemode_23=禁止销毁
+ui_safemode_24=禁止拍卖
+ui_safemode_25=禁止合成
+ui_safemode_26=禁止交易
+ui_safemode_27=禁止出售
+ui_safemode_28=禁止分解
+ui_safemode_29=禁止打孔
+ui_safemode_30=禁止邮寄
+ui_safemode_31=禁止继承
+ui_safemode_32=每日使用金币上限
+ui_safemode_33=每日使用英勇点数上限
+ui_safemode_34=每日使用猎杀点数上限
+ui_safemode_35=每日使用点券上限
+ui_safemode_36=每日使用黑金上限
+ui_safemode_37=每日使用本源上限
+ui_safemode_38=每日使用斩首荣誉勋章上限
+ui_safemode_39=财产保护功能可有效保护您的财产安全，请设置您的财产保护密码
+ui_safemode_40=请再次确认您的密码
+ui_safemode_41=请输入您的财产保护密码
+ui_safemode_42=密码不能为空
+ui_safemode_43=两次输入的密码不一致
+ui_safemode_44=密码不正确
+ui_safemode_gold=金
+ui_safemode_point=点
+ui_safemode_equip_quality1=所有品质装备
+ui_safemode_equip_quality2=绿色品质以上装备
+ui_safemode_equip_quality3=蓝色品质以上装备
+ui_safemode_equip_quality4=紫色品质以上装备
+ui_safemode_equip_quality5=橙色品质以上装备
+ui_safemode_equip_quality6=暗金色品质以上装备
+ui_safemode_equip_star0=所有星级装备
+ui_safemode_equip_star1=1星以上装备
+ui_safemode_equip_star2=2星以上装备
+ui_safemode_equip_star3=3星以上装备
+ui_safemode_equip_star4=4星以上装备
+ui_safemode_equip_star5=5星以上装备
+ui_safemode_equip_star6=6星以上装备
+ui_safemode_equip_star7=7星以上装备
+ui_safemode_equip_star8=8星以上装备
+ui_safemode_equip_star9=9星以上装备
+ui_safemode_equip_star10=10星以上装备
+ui_safemode_settime_confirm=一旦设置安全时间，下次上线时在安全时间内无法进行很多操作，因此请您合理设置安全时间。确定要设置吗？
+ui_safemode_tips=安全提示
+milu_llqd=开始防守！
+
+//UI主界面
+ui_menutype_1=社交
+ui_menutype_2=好友
+ui_menutype_3=组队
+ui_menutype_4=战场
+ui_menutype_5=冒险
+ui_menutype_6=活动
+ui_menutype_7=任务
+ui_menutype_8=副本
+ui_menutype_9=生活职业
+
+
+//集市
+ui_webchange_1=集市
+ui_webchange_2=蜗牛集市
+ui_webchange_3=浏览集市
+ui_webchange_4=集市寄售
+ui_webchange_5=寄售说明
+ui_webchange_6=寄售规则
+ui_webchange_7=寄售条件
+ui_webchange_8=寄售物品
+ui_webchange_9=请放入物品:
+ui_webchange_10=寄售黑金
+ui_webchange_11=请输出黑金数量
+ui_webchange_12=注:寄售价格在官方网页平台中设定
+ui_webchange_13=手续费：
+ui_webchange_14=寄售
+ui_webchange_15=取消
+ui_webchange_21=1.可同时寄售黑金和物品。<br/>2.寄售时收取手续费，寄售黑金固定收取20黑金。<br/>3.寄售物品根据物品品质对应收取手续费。<br/>4.寄售时需等待数据传递，部分操作会导致寄售中断。
+ui_webchange_22=2.
+ui_webchange_23=3.
+ui_webchange_24=4.
+ui_webchange_25=5.
+ui_webchange_31=1.物品必须是可寄售类型。<br/>2.物品处于未绑定状态。<br/>3.物品处于未锁定状态。<br/>4.物品不处于其他关联状态。
+ui_webchange_32=2.
+ui_webchange_33=3.
+ui_webchange_34=4.
+ui_webchange_35=5.
+ui_webchange_tips1=可寄售
+
+
+//网吧特权
+ui_netbar_1=蜗牛网吧特权奖励
+ui_netbar_2=获得经验加成100*2小时
+ui_netbar_3=特权说明
+ui_netbar_4=领取奖励
+ui_netbar_5=返回
+ui_netbar_6=经验
+ui_netbar_7=金钱
+ui_netbar_8=已领取
+ui_netbar_9={@0:Jin}金	
+ui_netbar_10={@0:Yin}银	
+ui_netbar_11={@0:Tong}铜
+ui_netbar_1_1=蜗牛银网吧特权奖励
+ui_netbar_1_2=蜗牛金网吧特权奖励
+ui_netbar_1_3=蜗牛钻石网吧特权奖励
+ui_netbar_2_1=盛大银网吧特权奖励
+ui_netbar_2_2=盛大金网吧特权奖励
+ui_netbar_2_3=盛大钻石网吧特权奖励
+ui_netbar_info_1_1=蜗牛银网吧说明:<br/>银网吧：网吧积分小于5000分<br/>金网吧：网吧积分大于5000分且小于20000分<br/>钻石网吧：网吧积分大于20000分<br/> <br/>特权网吧积分规则介绍：<br/>单个账号在特权网吧登陆后，当天每在线时间达到60分钟即可为该网吧增加1分。如同时有多个账号在该特权网吧登陆，将单独计算每个账号在线时长是否满足60分钟，每当有一个账号满足60分钟的在线后，即可为该特权网吧增加1积分。当积分达到晋级要求后，系统将自动为该网吧进行特权升级，升级后玩家将享有更多特权。
+ui_netbar_info_1_2=蜗牛金网吧说明:<br/>银网吧：网吧积分小于5000分<br/>金网吧：网吧积分大于5000分且小于20000分<br/>钻石网吧：网吧积分大于20000分<br/> <br/>特权网吧积分规则介绍：<br/>单个账号在特权网吧登陆后，当天每在线时间达到60分钟即可为该网吧增加1分。如同时有多个账号在该特权网吧登陆，将单独计算每个账号在线时长是否满足60分钟，每当有一个账号满足60分钟的在线后，即可为该特权网吧增加1积分。当积分达到晋级要求后，系统将自动为该网吧进行特权升级，升级后玩家将享有更多特权。
+ui_netbar_info_1_3=蜗牛钻石网吧说明:<br/>银网吧：网吧积分小于5000分<br/>金网吧：网吧积分大于5000分且小于20000分<br/>钻石网吧：网吧积分大于20000分<br/> <br/>特权网吧积分规则介绍：<br/>单个账号在特权网吧登陆后，当天每在线时间达到60分钟即可为该网吧增加1分。如同时有多个账号在该特权网吧登陆，将单独计算每个账号在线时长是否满足60分钟，每当有一个账号满足60分钟的在线后，即可为该特权网吧增加1积分。当积分达到晋级要求后，系统将自动为该网吧进行特权升级，升级后玩家将享有更多特权。
+ui_netbar_indo_2_1=盛大银网吧说明:<br/>银网吧：网吧积分小于5000分<br/>金网吧：网吧积分大于5000分且小于20000分<br/>钻石网吧：网吧积分大于20000分<br/> <br/>特权网吧积分规则介绍：<br/>单个账号在特权网吧登陆后，当天每在线时间达到60分钟即可为该网吧增加1分。如同时有多个账号在该特权网吧登陆，将单独计算每个账号在线时长是否满足60分钟，每当有一个账号满足60分钟的在线后，即可为该特权网吧增加1积分。当积分达到晋级要求后，系统将自动为该网吧进行特权升级，升级后玩家将享有更多特权。
+ui_netbar_info_2_2=盛大金网吧说明:<br/>银网吧：网吧积分小于5000分<br/>金网吧：网吧积分大于5000分且小于20000分<br/>钻石网吧：网吧积分大于20000分<br/> <br/>特权网吧积分规则介绍：<br/>单个账号在特权网吧登陆后，当天每在线时间达到60分钟即可为该网吧增加1分。如同时有多个账号在该特权网吧登陆，将单独计算每个账号在线时长是否满足60分钟，每当有一个账号满足60分钟的在线后，即可为该特权网吧增加1积分。当积分达到晋级要求后，系统将自动为该网吧进行特权升级，升级后玩家将享有更多特权。
+ui_netbar_info_2_3=盛大钻石网吧说明:<br/>银网吧：网吧积分小于5000分<br/>金网吧：网吧积分大于5000分且小于20000分<br/>钻石网吧：网吧积分大于20000分<br/> <br/>特权网吧积分规则介绍：<br/>单个账号在特权网吧登陆后，当天每在线时间达到60分钟即可为该网吧增加1分。如同时有多个账号在该特权网吧登陆，将单独计算每个账号在线时长是否满足60分钟，每当有一个账号满足60分钟的在线后，即可为该特权网吧增加1积分。当积分达到晋级要求后，系统将自动为该网吧进行特权升级，升级后玩家将享有更多特权。
+ui_netbar_maintips_1_1=蜗牛银网吧
+ui_netbar_maintips_1_2=蜗牛金网吧
+ui_netbar_maintips_1_3=蜗牛钻石网吧
+ui_netbar_maintips_2_1=盛大银网吧
+ui_netbar_maintips_2_2=盛大金网吧
+ui_netbar_maintips_2_3=盛大钻石网吧
+
+
+//计费系统
+ui_one_hour=一小时自动模式
+ui_two_hour=两小时自动模式
+ui_four_hour=四小时自动模式
+ui_six_hour=六小时预购模式
+ui_savetext=存档查询
+ui_deletetext=删除存档
+ui_yesorno=确定要删除存档
+ui_duihuan=是否消耗{@0:点券}点券兑换
+ui_in_cundang=正在存档期
+ui_kongbai=空白
+ui_rechoose_time=重新选择时间
+
+
+//排队
+ui_queue_sit=队列位置：
+ui_queue_time=预估等待时间：
+ui_queue=排队
+ui_queue_exit=退出排队？
+ui_fengzhong=分钟
+ui_queue_lessminute=小于1分钟
+ui_m=秒
+ui_g_hours=小时
+
+
+//战斗统计
+ui_recount_current=当前统计
+ui_recount_continuous=持续统计
+ui_recount_jobname=职业-名称
+ui_recount_count=数据总量
+ui_recount_dps=每秒统计
+ui_recount_percent=团队比例
+ui_recount_type_damage=输出伤害
+ui_recount_type_hurt=承受伤害
+ui_recount_type_resume=治疗量
+ui_recount_type_dead=死亡次数
+ui_recount_reset=重置
+ui_recount_senddata=发送消息
+ui_recount_on=开启
+ui_recount_off=关闭
+ui_recount_transparent=透明度
+ui_recount_select_top_num=选择发送名次
+ui_recount_send_tip=选择发送内容
+ui_recount_send_content=点击频道即可发送
+ui_recount_send_count=数据总量
+ui_recount_send_dps=每秒统计
+ui_recount_send_percent=数据比例
+ui_recount_channel_zc=　战场  
+ui_recount_channel_bh=　公会  
+ui_recount_channel_bt=　团队  
+ui_recount_channel_dw=　队伍  
+ui_recount_channel_sj=　阵营  
+ui_recount_channel_cj=　区域  
+ui_recount_channel_hh=　喊话  
+ui_recount_channel_ml=　私聊  
+ui_recount_channel_fj=　附近  
+ui_recount_channel_jj=　竞技  
+ui_recount_title=战斗统计
+ui_recount_job_name=({@0:职业}—{@1:名字})
+
+//战斗力界面
+ui_fightpower_tips=当前战力：{@0:curFightPower}<br>标准战力：{@1:stdFightPower}<br>战力评估：{@2:FBstate}
+ui_fightpower_down=<font color="#ff0000">较低</font>
+ui_fightpower_standard=<font color="#00ff00">达标</font>
+ui_fightpower_title=战力评分
+ui_fightpower_curvalue=当前战力：
+ui_fightpower_stdvalue=目标战力：
+ui_fightpower_currank=当前排名：
+ui_fightpower_Lvvalue=载具评分：
+ui_fightpower_equLvvalue=装备品质：
+ui_fightpower_playervalue=个人战力：
+ui_fightpower_stonevalue=宝石镶嵌：
+ui_fightpower_ECvalue=充能评分：
+ui_fightpower_sklvalue=技能评分：
+ui_fightpower_ESvalue=能量盾评分：
+ui_fightpower_HRvalue=军阶评分：
+ui_fightpower_up=提升
+ui_fightpower_norank=暂无排名
+ui_fightpower_taraward=战力目标奖励
+ui_fightpower_btnaward=奖励
+ui_fightpower_tarscore=目标战力：
+ui_fightpower_fpTitle=战力称号：{@0:title_id}
+ui_fightpower_fpAwardCon=奖励内容：
+ui_fightpower_getAward=领取奖励
+ui_fightpower_0001=点击打开战力评分界面
+ui_fightpower_0002=提升人物等级即可增加该项评分
+ui_fightpower_0003=探索副本、生活技能、军需官处兑换都可以帮助您提高该项评分
+ui_fightpower_0004=前往装备强化师处强化装备可增加该项评分
+ui_fightpower_0005=前往宝石镶嵌师处镶嵌宝石可增加该项评分
+ui_fightpower_0006=前往充能师处给装备充能可增加该项评分
+ui_fightpower_0007=提升技能等级可增加该项评分
+ui_fightpower_0008=获取更高品质的能量盾或对当前能量盾进行改造可增加该项评分
+ui_fightpower_0009=击杀敌方阵营的玩家，参与战场等PVP活动可以提升军阶增加该项评分
+ui_fightpower_0010=追求更精良的装备，熟练的使用种类丰富的宝石，改造神秘的能量盾，积极投身能量井，研究各类载具都将提升你的战力。追求力量，永不止步！
+ui_fightpower_0011=等级评分等级评分等级评分等级评分等级评分等级评分等级评分等级评分等级评分等级评分等级评分等级评分等级评分等级评分
+ui_fightpower_0012=与朋友一同探索副本，或亲身经历蒙特尔大陆的各个事件，获取更加精良的装备。闲暇时，别忘了去拍卖行看看别的冒险者又收集到了哪些宝贝！
+ui_fightpower_0013=装备强化装备强化装备强化装备强化装备强化装备强化装备强化装备强化装备强化装备强化装备强化装备强化
+ui_fightpower_0014=与主城里精通装备强化的强化师们交流，他们可以帮助你在装备上镶嵌更多的精致宝石，大幅提升装备的力量！
+ui_fightpower_0015=去各大能量井完成相应的贡献任务，获得特殊的充能材料，即可让充能NPC为你的装备灌注更加强大的力量！
+ui_fightpower_0016=技能评分技能评分技能评分技能评分技能评分技能评分技能评分技能评分技能评分
+ui_fightpower_0017=探索蒙特尔大陆，收集更精良的能量盾，并进行改造，让你的能力凌驾于人！别忘了去交易行有没有更好的能量盾
+ui_fightpower_0018=参加PVP活动，完成各种战场任务，提升你的军阶！
+ui_fightpower_0019=战力达标后，击杀怪物、完成任务和达成活跃度条件可以获得额外经验
+ui_fightpower_0020=击杀怪物、完成任务和达成活跃度条件获得的经验提高5%
+ui_fightpower_0021=击杀怪物、完成任务和达成活跃度条件获得的经验提高10%
+ui_fightpower_0022=击杀怪物、完成任务和达成活跃度条件获得的经验提高15%
+ui_fightpower_0023=击杀怪物、完成任务和达成活跃度条件获得的经验提高20%
+ui_fightpower_0024=生命上限提高1000，物理强度、法术强度提高80
+
+
+//红名
+RedName_title_01=恶棍
+RedName_title_02=恶魔
+RedName_title_03=恶霸
+RedName_title_04=罪大恶极
+
+//阵营战提示
+ui_camp_war_relive=你确定在此复活点复活吗
+
+// 个人载具界面
+ui_personal_carrier_energy=能量：
+ui_personal_carrier_duration=耐久：
+ui_personal_carrier_level=载具等级：
+ui_personal_carrier_run_speed=移动速度：
+ui_personal_carrier_state=载具状态：
+ui_personal_carrier_flexibility=灵活度：
+ui_personal_carrier_scale=载具大小：
+ui_personal_carrier_type=载具类型：
+ui_personal_carrier_state_0=停靠
+ui_personal_carrier_state_1=出发
+ui_personal_carrier_state_2=骑乘
+ui_personal_carrier_scale_small=小型
+ui_personal_carrier_scale_medium=中型
+ui_personal_carrier_scale_large=大型
+ui_personal_carrier_scale_multi=多人
+ui_personal_carrier_type_land=陆地
+ui_personal_carrier_type_sky=空中
+ui_personal_carrier_type_water=水中
+ui_personal_carrier_repair=维修需要的骑士点数：
+ui_personal_carrier_zqempty=快去个人机械管理员那制造属于你自己的战争机械吧！
+ui_personal_carrier_qhempty=快去个人骑兽管理员那训练属于你自己的战斗骑兽吧！
+
+ui_camp_war_self_hold=被己方占领
+ui_camp_war_other_hold=被敌方占领
+ui_camp_war_fight_hold=双方正在争夺中
+pvp_ewbattlewar_0027={@:0}能量柱被{@:1}占领
+pvp_ewbattlewar_0028={@:0}复活点被{@:1}占领
+pvp_ewbattlewar_0029={@:0}成功击杀玩家{@:1}
+pvp_ewbattlewar_0030={@:0}被击杀玩家{@:1}击杀
+pvp_ewbattlewar_0031={@:0}成功摧毁{@:1}的载具
+pvp_ewbattlewar_0032={@:0}载具被{@:1}的摧毁
+
+
+//个人载具
+ui_personalcarrier_requirerank=制造该载具需要军阶：{@0:}
+ui_personalcarrier_lock=停靠
+ui_personalcarrier_openmake=个人载具制造
+ui_personalcarrier_openstore=个人载具车库
+ui_personal_carrier=个人载具
+ui_ew_carrier=能量井载具
+ui_personal_repairhpcost=即将消耗{@0:}骑士点数对该载具进行修理
+ui_personal_repairmpcost=即将消耗{@0:}骑士点数对该载具进行充能
+ui_personal_keyremake=即将消耗{@0:}骑士点数对所有载具进行维修
+ui_personal_curhpcof=当前血量:{@0:}
+ui_personal_curmpcof=当前能量:{@0:}
+ui_personal_carrier_hp=生     命：
+ui_personal_carrier_mp=能     量：
+ui_personal_carrier_naijiu=耐     久：
+ui_personal_carrier_maketime=制造日期：
+ui_personal_carrier_notice=快到个人载具管理员处制造属于你自己的载具吧
+ui_personal_carrier_introduct=介绍
+ui_personal_carrier_property=属性
+ui_personal_carrier_property_key=载具状态：
+ui_personal_carrier_property_valua=维修中
+ui_personal_carrier_skill=技能
+
+
+
+ui_compensation_001=今天您参加<font color="#00ff00">{@0:}冒险</font>可以获得<font color="#00ff00">{@1:}倍</font>收益
+ui_compensation_002=点击查看
+ui_compensation_003=<s><s>今天您参加<font color="#00ff00">{@0:}冒险</font>可以获得<font color="#00ff00">{@1:}倍</font>收益
+ui_compensation_004=参与
+ui_compensation_005=您现在可以参加新的冒险-<font color="#00ff00">{@0:}</font>,点击参与按钮可以了解详情
