@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--人物称号相关属性定义-->
+<object>
+	<!-- 当前称号 -->
+	<properties>
+		<property name="TitleID" type="int" public="true" private="true" save="true" desc="当前称号ID"/>
+	</properties>
+
+	<!-- 表属性 -->
+	<records>
+		<record name="title_rec" cols="5" maxrows="400" public="false" private="true" save="true" desc="称号列表">
+			<column type="dword" desc="称号ID"/>
+			<column type="dword" desc="称号时效"/>       <!-- 0 永久   -1 过期  正数 有效时间 计算单位为分钟 -->
+			<column type="double" desc="获取的时间"/>
+			<column type="byte" desc="称号类型"/>
+			<column type="double" desc="最后充值的时间"/>
+		</record>
+		<!-- 称号已解锁表属性定义 -->
+		<record name="title_unlock_rec" cols="4" maxrows="400" public="false" private="true" save="true" desc="称号列表">
+			<column type="dword" desc="称号ID"/>
+			<column type="dword" desc="称号时效"/>       <!-- 0 永久   -1 过期  正数 有效时间 计算单位为分钟 -->
+			<column type="double" desc="获取的时间"/>
+			<column type="byte" desc="称号类型"/>
+		</record>
+		<!-- 进度表 -->
+		<record name="title_progress_rec" cols="3" maxrows="400" public="false" private="true" save="true" desc="称号列表">
+			<column type="dword" desc="称号类型"/>
+			<column type="byte" desc="已完成"/>
+			<column type="byte" desc="总数量"/>       
+		</record>
+		<!-- 玩家总表 
+		<record name="title_total_rec" cols="1" maxrows="200" public="false" private="true" save="true" desc="称号列表">
+			<column type="dword" desc="称号类型"/>    
+		</record>
+		-->
+	</records>
+</object>

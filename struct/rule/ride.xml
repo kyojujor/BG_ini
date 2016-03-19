@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--移动相关的属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<!-- 坐骑 -->
+		<property name="MountID" type="int" public="true" private="true" save="true" desc="坐骑的静态id"/>
+		<property name="MountItemID" type="string" public="false" private="true" save="true" desc="坐骑栏使用道具的id"/>
+		<property name="MountType" type="byte" public="true" private="true" save="true" desc="坐骑类型"/>
+        
+		<!-- 坐骑，多人坐骑中 -->
+		<property name="MountSeatIndex" type="int" public="true" private="true" save="false" desc="多人骑乘中,且标明了座位号"/>
+		<property name="MultiMountOwner" type="object" public="false" private="false" save="false" desc="当前所在坐骑控制者"/>
+		
+		<!-- 多人坐骑座位信息 -->
+		<property name="MultiSeatNum" type="byte" public="true" private="true" save="false" desc="当前坐骑总座位数量"/>
+		<property name="SeatPlayer2" type="object" public="true" private="true" save="false" desc="当前所在坐骑副驾驶2号位"/>
+		<property name="SeatPlayer3" type="object" public="true" private="true" save="false" desc="当前所在坐骑副驾驶3号位"/>
+		<property name="SeatPlayer4" type="object" public="true" private="true" save="false" desc="当前所在坐骑副驾驶4号位"/>
+		<property name="SeatPlayer5" type="object" public="true" private="true" save="false" desc="当前所在坐骑副驾驶5号位"/>
+	
+		<!-- 战斗载具 -->
+		<property name="Carrier" type="object" public="false" private="false" save="false" desc="骑乘的战斗载具"/>
+	</properties>
+
+	<records>
+        <!-- 战斗载具 -->
+		<record name="bc_cooldown_rec" cols="4" maxrows="128" save="false" public="false" private="true" desc="战斗载具技能冷却表，只有控制者才可以发战斗载具的技能，这个表格把战斗载具的冷却表复制过来">
+			<column type="dword" desc="冷却分类ID"/>
+      			<column type="int64" desc="冷却开始时间，现实64位时间数据"/>
+      			<column type="int64" desc="冷却结束时间，现实64位时间数据"/>
+      			<column type="dword" desc="冷却大分类ID,更上一层的分类"/>
+		</record>
+	</records>
+</object>

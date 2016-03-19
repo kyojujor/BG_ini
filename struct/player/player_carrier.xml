@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--玩家骑乘-->
+<object>
+    <!-- 基本属性 -->
+    <properties>
+		<property name="LastCarrierID" type="string" public="false" private="false" save="true" desc="记录下线固定路线的载具id"/>
+		<property name="LastCarrierPathStep" type="int" public="false" private="false" save="true" desc="记录载具固定路线的第几步"/>
+		<property name="LastCarrierHP" type="int" public="false" private="false" save="true" desc="记录载具的血量"/>
+		<property name="LastCarrierMP" type="int" public="false" private="false" save="true" desc="记录载具的蓝"/>
+		<property name="LastCarrierBuffID"    type="string" public="false" private="false" save="false" desc="记录载具多个buff的buffid"/>
+		<property name="LastCarrierLeaveTime" type="string" public="false" private="false" save="false" desc="记录载具多个buff剩余的时间"/>
+    </properties>
+</object>

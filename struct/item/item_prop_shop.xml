@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--物品的商店相关的属性-->
+<object>
+	<properties>
+		<property name="ItemCosts" type="string" public="false" private="true" save="false" desc="购买所需消耗的物品字符串"/>
+
+		<property name="MaxBuyNumPer" type="int" public="false" private="true" save="false" desc="一次购买最大数量"/>
+
+		<property name="BuyConditionID" type="string" public="false" private="true" save="false" desc="道具购买的条件"/>
+		<property name="BuyNumLimit" type="int" public="false" private="true" save="false" desc="限购数量"/>
+		<property name="BuyNumRest" type="int" public="false" private="true" save="false" desc="剩余数量"/>
+		<property name="BuyCoolTime" type="int" public="false" private="true" save="false" desc="售卖冷却时间，单位毫秒"/>
+		<property name="BuyCoolTimeRest" type="int" public="false" private="true" save="false" desc="售卖剩余冷却时间，单位毫秒"/>
+		
+		<property name="ShopBuyPrice" type="int" public="false" private="true" save="false" desc="道具从商店购买的价格"/>
+		<property name="ShopSellPrice" type="int" public="false" private="false" save="false" desc="道具从商店卖出的价格"/>
+
+		<property name="ClearTime" type="int64" public="false" private="false" save="true" desc="道具从回购栏删除的时间"/>
+	</properties>
+</object>

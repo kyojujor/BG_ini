@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--人物基础属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="Type" type="byte" public="true" private="true" save="false" desc="类型: 1-TYPE_SCENE,2-TYPE_PLAYER,4-TYPE_NPC,8-TYPE_ITEM"/>
+		<property name="Sex" type="byte" public="true" private="true" save="true" desc="性别 0:男性,1:女性"/>
+		<property name="Photo" type="string" public="true" private="true" save="true" desc="图像,头像"/>
+		<property name="Camp" type="int" public="true" private="true" save="true" desc="角色阵营 参见角色说明文本"/>
+		<property name="Race" type="int" public="true" private="true" save="true" desc="角色种族 参见角色说明文本"/>
+		<property name="Job"  type="int" public="true" private="true" save="true" desc="角色职业 参见角色说明文本"/>
+		<property name="Level" type="int" public="true" private="true" save="true" desc="角色等级"/>
+		<property name="RoleCreateTime" type="string" public="false" private="false" save="true" desc="角色创建时间"/>
+		<property name="LoginTime" type="int64" public="false" private="false" save="false" desc="角色本次进入游戏的时间"/>
+		<property name="EntrySceneTime" type="int64" public="false" private="false" save="false" desc="角色进入场景的时间"/>
+		<property name="LeaveSceneTime" type="int64" public="false" private="false" save="true" desc="角色退出场景的时间"/>
+		<property name="MacAddress" type="string" public="false" private="false" save="true" desc="Mac地址"/>
+		<property name="Protected" type="int" public="false" private="false" save="false" desc="npc是保护状态, 0:撤销保护, 1:设置保护"/>
+		<property name="StopAI" type="int" public="false" private="false" save="false" desc="AI停止 0:启动AI ,1:停止AI"/>
+		<property name="CurTalkID" type="int" public="false" private="false" save="true" desc="当前对话编号"/>
+		<property name="CurArea" type="int" public="false" private="true" save="true" desc="当前区域" />
+		<property name="SceneTriggerConfig" type="string" public="false" private="true" save="true" desc="当前场景环境触发器配置名"/>
+		<property name="ToolEffect" type="string" public="true" private="true" save="false" desc="玩家当前使用的生活工具特效"/>
+		<property name="DisabledEquipPosList" type="int64" public="false" private="false" save="true" desc="装备栏禁用栏位标识，对应位为1则表示被禁用"/>
+		<property name="SilenceTick" type="int" public="false" private="false" save="true" desc="禁言的时间"/>
+		<property name="SkillEnergyList" type="string" public="true" private="true" save="true" desc="角色当前技能使用能量集合"/>
+		<property name="RemoveLimit" type="int" public="false" private="false" save="false" desc="解除装备限制 0:未解除, 1:解除(测试用)"/>
+		<property name="HideSkillTip" type="int" public="false" private="true" save="true" desc="是否显示技能提示 0:不隐藏, 1:隐藏"/>
+		<property name="Coin_LLQD" type="int" public="false" private="true" save="true" desc="流浪群岛副本玩家持有金钱数"/>
+		<property name="ActiveScene" type="string" public="false" private="false" save="true" desc="激活了的大地图传送场景"/>
+		<property name="DelaySkill" type="object" public="false" private="false" save="false" desc="延迟释放的技能"/>
+		<property name="DelaySkillType" type="int" public="false" private="false" save="false" desc="技能类型，0无目标点技能，1有目标点技能"/>
+		<property name="DelaySkillHandType" type="int" public="false" private="false" save="false" desc="延迟释放技能左右手类型"/>
+		<property name="DelaySkillX" type="float" public="false" private="false" save="false" desc="延迟释放技能目标点x"/>
+		<property name="DelaySkillY" type="float" public="false" private="false" save="false" desc="延迟释放技能目标点y"/>
+		<property name="DelaySkillZ" type="float" public="false" private="false" save="false" desc="延迟释放技能目标点z"/>
+		<property name="DelaySkillTime" type="int" public="false" private="true" save="false" desc="技能延迟时间ms"/>
+		<property name="Pre_SceneID" type="int" public="false" private="true" save="true" desc="前个场景ID"/>
+		<property name="Pre_PosX" type="float" public="false" private="true" save="true" desc="前个场景X坐标"/>
+		<property name="Pre_PosY" type="float" public="false" private="true" save="true" desc="前个场景Y坐标"/>
+		<property name="Pre_PosZ" type="float" public="false" private="true" save="true" desc="前个场景Z坐标"/>
+		<property name="MountItemId" type="string" public="false" private="true" save="true" desc="坐骑ID"/>
+		<property name="WedgedTime" type="int64" public="false" private="true" save="true" desc="可以使用脱离卡死时间"/>
+		<property name="EnergyLevel" type="byte" public="true" private="true" save="false" desc="已装备的能量盾的经验等级"/>
+		<property name="EnergyUpgradeNum" type="byte" public="false" private="true" save="true" desc="金币强化能量盾次数限制"/>
+		<property name="EnergyPreUpgradeNum" type="byte" public="false" private="true" save="true" desc="点券强化能量盾次数限制"/>
+    	<property name="SpecState" type="byte" public="true" private="true" save="false" desc="特殊玩法 需要用到的一个状态"/>
+		<!--藏宝图中使用,需要下线保存,所以设置在玩家这边,add by zsq-->
+		<property name="IsHunterTreasure" type="byte" public="false" private="true" save="true" desc="玩家是否在寻宝状态"/>
+    <property name="CheckMoniterTime" type="int64" public="false" private="false" save="false" desc="检测客户端加速时间"/>
+    <property name="LastMoniterX" type="float" public="false" private="false" save="false" desc="检测上次停止位置"/>
+    <property name="LastMoniterY" type="float" public="false" private="false" save="false" desc="检测上次停止位置"/>
+    <property name="LastMoniterZ" type="float" public="false" private="false" save="false" desc="检测上次停止位置"/>
+    <property name="LastEquipPrtId" type="string" public="false" private="false" save="true" desc="装备专精获取上次激活的bufferid"/>
+	  <property name="RoleHideAdd" type="int" public="false" private="false" save="false" desc="玩家的显示和隐身"/>
+    <property name="AdjustOrientClient" type="byte" public="false" private="false" save="false" desc="客户端是否需要自动目标矫正"/>
+    <property name="AdjustOrient" type="byte" public="false" private="true" save="true" desc="是否自动目标矫正"/>
+    <property name="AdjustTarget" type="byte" public="false" private="false" save="false" desc="矫正的目标"/>
+  </properties>
+	<!-- 表属性 -->
+	<records>
+		<record name="talk_rec" cols="2" maxrows="16" save="false" public="false" private="false" desc="玩家定时台词表(头顶说话)">
+			<column type="string" desc="台词id"/>
+			<column type="byte" desc="定时时长"/>
+		</record>
+		<!-- 场景激活记录表，按位操作 -->
+		<record name="OpenMapRec" cols="1" maxrows="32" save="true" public="false" private="false" desc="场景激活记录表">
+			<column type="dword" desc="场景编号(经与策划沟通, 黑金场景id最大是999, 因此最大行数设为32)"/>
+		</record>
+		<!-- 飞行点激活记录表，按位操作 -->
+		<record name="OpenTransPointRec" cols="1" maxrows="8" save="true" public="false" private="true" desc="飞行点激活记录表，按位操作">
+			<column type="dword" desc="飞行点编号"/>
+		</record>
+		<record name="capital_rec" cols="3" maxrows="10" save="true" public="false" private="true" desc="资产表">
+			<column type="string" desc="资产名称"/>
+			<column type="byte" desc="资产类型"/>
+			<column type="int64" desc="资产数量"/>
+		</record>
+		<record name="damage_npc_rec" cols="1" maxrows="1000" save="false" public="false" private="false" desc="照成伤害的boss表">
+			<column type="object" desc="被攻击的boss"/>
+		</record>
+		<record name="player_movie_rec" cols="2" maxrows="1000" save="false" public="false" private="false" desc="剧情是否播放过的表">
+			<column type="byte" desc="剧情id"/>
+			<column type="byte" desc="0:剧情未播放过；1：剧情播放过了"/>
+		</record>
+		<record name="QTE_OnlyOnce_Rec" cols="1" maxrows="200" save="false" public="false" private="false" desc="记录只响应一次的QTE事件">
+			<column type="string" desc="事件ID"/>
+		</record>
+		<record name="SkillType_Lock_State_Rec" cols="1" maxrows="200" save="true" public="false" private="true" desc="记录技能快捷栏锁定状">
+			<column type="string" desc="技能快捷栏ID"/>
+		</record>
+		<record name="SkillType_Rec" cols="1" maxrows="200" save="true" public="false" private="true" desc="记录当前使用的快捷栏及">
+			<column type="DWORD" desc="技能快捷栏ID"/>
+		</record>
+		<record name="NormalSkill_Pos_Rec" cols="3" maxrows="1" save="true" public="fasle" private="true" desc="普通攻击技能在几个快捷栏里的位置">
+			<column type="WORD" desc="第一栏的位置"/>
+			<column type="WORD" desc="第二栏的位置"/>
+			<column type="WORD" desc="第三栏的位置"/>
+		</record>
+		<record name="EquipmentSetRec" cols="3" maxrows="32" save="false" public="fasle" private="false" desc="玩家当前套装组合表">
+			<column type="DWORD" desc="套装编号"/>
+			<column type="string" desc="属于该套装的装备列表"/>
+			<column type="string" desc="激活的属性列表"/>
+		</record>
+		<record name="RequstRec" cols="3" maxrows="32" save="false" public="fasle" private="false" desc="玩家当前邀请别人的信息">
+			<column type="byte" desc="请求类型"/>
+			<column type="widestr" desc="玩家名"/>
+			<column type="int64" desc="邀请的时刻"/>
+		</record>
+		<record name="open_prompt_rec" cols="2" maxrows="256" save="true" public="false" private="false" desc="系统功能开放表">
+			<column type="byte" desc="系统功能ID"/>
+			<column type="byte" desc="是否已点击"/>
+		</record>
+		<record name="count_limit_rec" cols="3" maxrows="256" save="true" public="false" private="true" desc="物品使用次数限制表">
+			<column type="WORD" desc="限制ID"/>
+			<column type="WORD" desc="已使用次数"/>
+			<column type="double" desc="道具开始新一轮统计使用次数的时间"/>
+		</record>
+		<record name="connect_skill_rec" cols="3" maxrows="32" save="false" public="false" private="true" desc="技能连击信息表">
+			<column type="string" desc="技能ID"/>
+			<column type="int64" desc="连击技能释放时间"/>
+		</record>
+	</records>
+	<!--从其他文件加载属性-->
+	<includes>
+		<path name="struct\internals\internals_player.xml" desc="内部属性"/>
+		<path name="struct\rule\Common\autorestore.xml" desc="NPC和player公用恢复属性"/>
+		<path name="struct\rule\Common\state.xml" desc="通用状态属性"/>
+		<path name="struct\rule\Common\basefighterdata.xml" desc="基础通用属性"/>
+		<path name="struct\player\player_autostore.xml" desc="player自己的恢复属性"/>
+		<path name="struct\rule\Common\base_ctrl_prop.xml" desc="控制属性"/>
+		<path name="struct\rule\Common\hide.xml" desc="隐身"/>
+		<path name="struct\rule\Common\attack.xml" desc="攻击速度相关"/>
+		<path name="struct\rule\Common\ModifyBase.xml" desc="属性 技能 buff修正表"/>
+		<path name="struct\rule\baseprop\baseprop.xml" desc="基础属性"/>
+		<path name="struct\rule\fight\playerfightpara.xml" desc="战斗属性相关"/>
+		<path name="struct\rule\fight\maxpara.xml" desc="角色消耗能量属性相关"/>
+		<path name="struct\rule\player_motion.xml" desc="移动相关"/>
+		<path name="struct\rule\request.xml" desc="玩家间的请求"/>
+		<path name="struct\rule\visequip.xml" desc="玩家可视装备"/>
+		<path name="struct\rule\isexchange.xml" desc="玩家间的交易相关"/>
+		<path name="struct\rule\doselect.xml" desc="执行选择"/>
+		<path name="struct\rule\unenthrall.xml" desc="防沉迷相关属性"/>
+		<path name="struct\rule\post.xml" desc="邮寄系统相关属性"/>
+		<path name="struct\rule\pk.xml" desc="PK模式及pvp相关属性"/>
+		<path name="struct\rule\challenge.xml" desc="玩家切磋相关属性"/>
+		<path name="struct\rule\playerfighterdata.xml" desc="战斗相关属性"/>
+		<path name="struct\rule\transtool.xml" desc="交通工具属性"/>
+		<path name="struct\rule\ModifyPlayer.xml" desc="任务，装备修正表"/>
+		<path name="struct\rule\in_water.xml" desc="玩家水下呼吸相关属性"/>
+		<path name="struct\rule\TransitionJob.xml" desc="角色转职职业"/>
+		<path name="struct\rule\BattleWarStatic.xml" desc="战场结算表"/>
+		<path name="struct\rule\Inscription.xml" desc="铭刻表"/>
+		<path name="struct\rule\exile.xml" desc="放逐之地"/>
+		<!--path name="struct\rule\rabbi.xml" desc="法师系列属性"/-->
+		<path name="struct\rule\force_repute.xml" desc="势力声望表"/>
+		<path name="struct\rule\back_stage.xml" desc="移动相关的属性"/>
+		<path name="struct\rule\movie.xml" desc="剧情相关的属性"/>
+		<path name="struct\rule\guild_data.xml" desc="人物公会相关属性定义"/>
+		<path name="struct\rule\ride.xml" desc="移动相关的属性"/>
+		<path name="struct\rule\income_reduce.xml" desc="收益递减相关次数记录"/>
+		<path name="struct\rule\safemode.xml" desc="安全模式"/>
+
+		<path name="struct\player\charge_shop.xml" desc="黑金商城的相关属性"/>
+		<path name="struct\player\player_carrier.xml" desc="玩家骑乘"/>
+		<path name="struct\player\friend.xml" desc="好友"/>
+		<path name="struct\player\team.xml" desc="队伍"/>
+		<path name="struct\player\shortcut.xml" desc="快捷栏"/>
+		<path name="struct\player\clone_scene.xml" desc="副本信息"/>
+		<path name="struct\player\title.xml" desc="称号属性"/>
+		<path name="struct\player\formula.xml" desc="角色配方"/>
+		<path name="struct\player\GunMan.xml" desc="枪手相关"/>
+		<path name="struct\player\executor.xml" desc="执行者相关"/>
+		<path name="struct\player\punisher.xml" desc="惩罚者相关"/>
+		<path name="struct\player\wizard.xml" desc="符咒师相关"/>
+		<path name="struct\player\swordman.xml" desc="魔剑士相关"/>
+		<path name="struct\player\witch.xml" desc="女巫相关"/>
+		<path name="struct\player\chatpage.xml" desc="用户自定义聊天表单"/>
+		<path name="struct\player\chatroom.xml" desc="聊天室"/>
+		<path name="struct\player\event_spring.xml" desc="事件触发系统相关数据"/>
+		<path name="struct\player\arena.xml" desc="竞技场表"/>
+		<path name="struct\player\DeadAvenge.xml" desc="玩家死亡复仇相关属性"/>
+		<path name="struct\player\Achievement.xml" desc="成就表"/>
+		<path name="struct\player\Activity.xml" desc="活动表"/>
+		<path name="struct\player\Battlewar.xml" desc="战场表"/>
+		<path name="struct\player\playerchange.xml" desc="变身属性相关"/>
+		<path name="struct\player\BladeRunnerMan.xml" desc="刀锋战士职业相关"/>
+		<path name="struct\player\PetShow.xml" desc="呼出的宠物表"/>
+		<path name="struct\player\notify_list.xml" desc="通告相关"/>
+		<path name="struct\player\relive.xml" desc="死亡复活"/>
+		<path name="struct\player\hotel.xml" desc="旅馆相关"/>
+        <path name="struct\player\exp.xml" desc="角色经验相关"/>
+        <path name="struct\player\declare.xml" desc="角色宣言相关"/>
+		<path name="struct\player\honor.xml" desc="角色荣誉相关"/>
+		<path name="struct\player\depot_bag.xml" desc="仓库背包相关"/>
+		<path name="struct\player\talent.xml" desc="天赋影响属性相关"/>
+		<path name="struct\player\asyn_wait.xml" desc="异步等待"/>
+		<path name="struct\player\force_state.xml" desc="人物势力状态相关属性定义"/>
+		<path name="struct\player\flow.xml" desc="流程相关"/>
+		<path name="struct\player\letter.xml" desc="邮件相关"/>
+		<path name="struct\player\player_state.xml" desc="特殊武器相关"/>
+		<path name="struct\player\life_occupation.xml" desc="生活职业"/>
+		<path name="struct\player\map_data.xml" desc="地图探索相关"/>
+		<path name="struct\npc_property\ai_motion.xml" desc="AI移动相关"/>
+		<path name="struct\npc_property\ai_path.xml" desc="路径表"/>
+		<path name="struct\rule\capitaltype.xml" desc="资金"/>
+    <path name="struct\quest\quest.xml" desc="任务相关"/>
+    <path name="struct\quest\pvp_task.xml" desc="任务相关"/>
+    <path name="struct\common\trigger.xml" desc="触发器"/>
+    <path name="struct\player\PvpActivity.xml" desc="PVP活动状态表"/>
+		<path name="struct\player\NewUserLead.xml" desc="体验性副本数据保存"/>
+		<path name="struct\player\item_op.xml" desc="相关ITEM操作"/>
+		<path name="struct\player\everydayrecommand.xml" desc="每日推荐相关"/>
+		<path name="struct\player\offline_compensate.xml" desc="离线补偿相关"/>
+		<path name="struct\player\vip.xml" desc="VIP相关"/>
+		<path name="struct\player\energywellresfight.xml" desc="能量井资源战"/>
+		<path name="struct\player\SpecialNpc.xml" desc="特殊NPC信息"/>
+		<path name="struct\player\energywell_guildwar.xml" desc="能量井公会战"/>
+    <path name="struct\player\OnlineCharge.xml" desc="黑金时间收费配置"/>
+    <path name="struct\player\SkillEnhance.xml" desc="技能专精"/>
+    <path name="struct\player\energywell_campwar.xml" desc="能量井战场阵营战"/>
+	<path name="struct\player\personalcarrier.xml" desc="个人载具相关"/>
+  </includes>
+</object>

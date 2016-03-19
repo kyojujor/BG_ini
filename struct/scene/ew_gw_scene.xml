@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--场景副本属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+	</properties>
+	<!-- 表属性 -->
+	<records>
+
+		<record name="rec_energywell_guildwar_member" cols="12" maxrows="2048" save="false" public="false" private="true" desc="此场景管理下的能量井公会战成员">
+			<column type="widestr" desc="角色名"/>
+			<column type="byte"    desc="职业"/>
+			<column type="byte"    desc="等级"/>
+			<column type="widestr" desc="公会名"/>
+			<column type="dword"   desc="击杀数"/>
+			<column type="dword"   desc="被击杀数"/>
+			<column type="dword"   desc="击杀载具数"/>
+			<column type="int64"   desc="伤害量"/>
+			<column type="int64"   desc="治疗量"/>
+			<column type="byte"    desc="势力"/>
+			<column type="byte"    desc="所属阵营"/>
+			<column type="dword"   desc="评分"/>
+		</record>
+		
+		<record name="rec_energywell_guildwar_relive" cols="2" maxrows="2048" save="false" public="false" private="true" desc="此场景管理下的能量井公会战复活点">
+			<column type="string" desc="复活点ID"/>
+			<column type="byte"   desc="所属势力"/>
+		</record>
+		
+		<record name="rec_energywell_pillar_state" cols="4" maxrows="2048" save="false" public="false" private="true" desc="此场景管理下的能量井公会战能量柱信息">
+			<column type="string" desc="能量柱ID"/>
+			<column type="byte"   desc="所属势力"/>
+			<column type="dword"  desc="最大血量"/>
+			<column type="dword"  desc="当前血量"/>
+		</record>
+
+		<record name="rec_energywell_ride_info" cols="2" maxrows="2048" save="false" public="false" private="true" desc="此场景管理下的能量井公会战购买的载具信息">
+			<column type="object" desc="购买的载具实体"/>
+			<column type="byte"   desc="所属势力"/>
+		</record>
+		
+	</records>
+</object>

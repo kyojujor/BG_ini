@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2010 (http://www.altova.com) by MESMERiZE (MiZE) -->
+<!--装备系统相关的属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="ArtKey" type="int" public="true" private="true" save="true" desc="裸模美术编号"/>
+		<property name="HideHat" type="int" public="false" private="false" save="true" desc="是否隐藏头盔"/>
+		<property name="HideMantle" type="int" public="false" private="false" save="true" desc="是否隐藏披风"/>
+		<property name="HidePlayer" type="int" public="false" private="true" save="false" desc="是否隐藏其他玩家"/>
+		<property name="HideOtherPet" type="int" public="false" private="true" save="true" desc="是否隐藏其他玩家的宠物"/>
+		
+		<property name="Hair" type="string" public="false" private="false" save="false" desc="头发"/>
+		<property name="Face" type="string" public="true" private="true" save="false" desc="脸"/>
+		<property name="Eyes" type="string" public="true" private="true" save="false" desc="眼睛"/>
+		<property name="Beard" type="string" public="true" private="true" save="false" desc="胡须"/>
+		<property name="Ears" type="string" public="true" private="true" save="false" desc="耳朵"/>
+		<property name="Tail" type="string" public="true" private="true" save="false" desc="尾巴"/>
+		<property name="Finger" type="string" public="true" private="true" save="false" desc="指甲"/>
+		<property name="HideParts" type="string" public="true" private="true" save="false" desc="隐藏部件"/>
+		<property name="HideSkins" type="string" public="true" private="true" save="true" desc="隐藏部分蒙皮"/>
+
+		<!-- 以下为裸模索引部分 -->
+		<property name="HatIndex" type="int" public="false" private="false" save="true" desc="头发索引"/>
+		<property name="FaceIndex" type="int" public="false" private="false" save="true" desc="脸索引"/>
+		<property name="EyesIndex" type="int" public="false" private="false" save="true" desc="眼睛索引"/>
+		<property name="BeardIndex" type="int" public="false" private="false" save="true" desc="胡须索引"/>
+		<property name="EarsIndex" type="int" public="false" private="false" save="true" desc="耳朵索引"/>
+		<property name="TailIndex" type="int" public="false" private="false" save="true" desc="尾巴索引"/>
+		<property name="FingerIndex" type="int" public="false" private="false" save="true" desc="指甲索引"/>
+		<property name="ClothIndex" type="int" public="false" private="false" save="true" desc="上半身(衣服)索引"/>
+		<property name="PantsIndex" type="int" public="false" private="false" save="true" desc="下半身(裤子)索引"/>
+		<property name="ShoesIndex" type="int" public="false" private="false" save="true" desc="脚(鞋子)索引"/>
+		<property name="GlovesIndex" type="int" public="false" private="false" save="true" desc="手(手套)索引"/>
+		<property name="HairColorIndex" type="int" public="false" private="false" save="true" desc="发色索引"/>
+		<property name="SkinColorIndex" type="int" public="false" private="false" save="true" desc="肤色索引"/>
+		<property name="SkinMtlIndex" type="int" public="false" private="false" save="true" desc="肤色索引"/>
+		<property name="TraitIndex" type="int" public="false" private="false" save="true" desc="特征索引"/>
+		<property name="Stature" type="int" public="true" private="true" save="true" desc="角色体型索引"/>
+		<property name="TattooIndex" type="int" public="false" private="false" save="true" desc="面纹索引"/>
+		<property name="TattooColor" type="int" public="true" private="true" save="true" desc="面纹颜色"/>
+		
+		<property name="SkinMtl" type="string" public="true" private="true" save="false" desc="发色"/>
+		<property name="HairColor" type="string" public="true" private="true" save="false" desc="发色"/>
+		<property name="SkinColor" type="string" public="true" private="true" save="false" desc="肤色"/>
+		<property name="ExBody" type="string" public="false" private="false" save="true" desc="裸模部件组合"/>
+		<!-- 以下为人物装备了物品后显示的模型之类的属性 -->
+		<property name="Hat" type="string" public="true" private="true" save="false" desc="帽子"/>
+		<property name="Cloth" type="string" public="true" private="true" save="false" desc="衣服"/>
+		<property name="Pants" type="string" public="true" private="true" save="false" desc="裤子"/>
+		<property name="Shoes" type="string" public="true" private="true" save="false" desc="鞋子"/>
+		<property name="Gloves" type="string" public="true" private="true" save="false" desc="手套"/>
+		<property name="Tattoo" type="string" public="true" private="true" save="false" desc="面纹"/>
+		<property name="Special" type="string" public="true" private="true" save="false" desc="特殊栏位"/>
+		<property name="Mantle" type="string" public="true" private="true" save="false" desc="披风"/>
+		<property name="Trait" type="string" public="true" private="true" save="false" desc="特征"/>
+		<property name="LWeapon" type="string" public="true" private="true" save="false" desc="左手武器"/>
+		<property name="RWeapon" type="string" public="true" private="true" save="false" desc="右手武器"/>
+		<property name="LWeaponID" type="string" public="true" private="true" save="false" desc="左手武器编号"/>
+		<property name="RWeaponID" type="string" public="true" private="true" save="false" desc="右手武器编号"/>
+		<property name="ActionSet" type="string" public="true" private="true" save="false" desc="当前动作集，当前使用的武器来区分"/>
+		<property name="HandType" type="byte" public="true" private="true" save="true" desc="武器手类型"/>
+		<property name="WeaponState" type="byte" public="true" private="true" save="false" desc="武器展示状态"/>
+		<property name="WeaponStateType" type="byte" public="true" private="true" save="false" desc="武器展示触发状态"/>
+    
+		<property name="LArmorWeapon" type="string" public="true" private="true" save="false" desc="左手装甲武器"/>
+		<property name="RArmorWeapon" type="string" public="true" private="true" save="false" desc="右手装甲武器"/>
+		<property name="LArmorWeaponID" type="string" public="true" private="true" save="false" desc="左手装甲武器"/>
+		<property name="RArmorWeaponID" type="string" public="true" private="true" save="false" desc="右手装甲武器"/>
+		
+		<property name="HeadDetail" type="string" public="false" private="true" save="true" desc="面部细节"/>
+	</properties>
+	<records>
+		<record name="HeadDetailRecord" cols="2" maxrows="64" save="true" public="true" private="true" desc="面部细节表">
+			<column type="byte" desc="控制器名称"/>
+			<column type="byte" desc="控制器选定值"/>
+		</record>
+	</records>
+</object>

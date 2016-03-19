@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--使用阵法的属性数据-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="ForceVersion" type="int" public="false" private="false" save="true" desc="玩家势力关系版本"/>
+		<property name="Force" type="int" public="true" private="true" save="true" desc="玩家主城势力归属"/>
+	</properties>
+	<!-- 表属性 -->
+	<records>
+		<record name="ForceReputeRecord" cols="9" maxrows="256" save="true" public="false" private="true" desc="势力声望表">
+			<column type="word" desc="势力编号"/>
+			<column type="word" desc="势力名称"/>
+			<column type="word" desc="声望关系"/>
+			<column type="word" desc="当前关系等级下的声望值"/>
+			<column type="word" desc="当前关系等级下的声望值上限"/>
+			<column type="byte" desc="该条势力是否对客户端可见"/>
+			<column type="byte" desc="所属阵营"/>
+			<column type="word" desc="所属版本"/>
+			<column type="word" desc="临时关系变更"/>
+		</record>
+	</records>
+</object>

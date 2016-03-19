@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--资金相关属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="MatureTicketDay" type="int" public="false" private="true" save="true" desc="使用点券开通每日金币上限到期日"/>
+		<property name="DayMaxGainGold" type="int64" public="false" private="true" save="true" desc="每日金币获得上限"/>
+	</properties>
+	<!-- 表属性 -->
+	<records>
+		<!-- 扣除金币队列 -->
+		<record name="DecPointQRec" cols="5" maxrows="0" save="false" public="false" private="false" desc="玩家扣除点券事件排队表">
+			<column type="string" desc="扣除事件的唯一id"/>
+			<column type="int" desc="回调命令值"/>
+			<column type="int64" desc="扣除金币的值"/>
+			<column type="string" desc="扣除原因"/>
+			<column type="string" desc="扣除的附加参数,用作回调用户函数的参数"/>
+		</record>
+		<record name="consum_capital_limit" cols="4" maxrows="10" save="true" public="false" private="true" desc="玩家每天消耗资金限制表">
+			<column type="byte" desc="资金类型"/>
+			<column type="int64" desc="当前消耗值"/>
+			<column type="word" desc="当前第一次消耗时间"/>
+			<column type="int64" desc="玩家自设值"/>
+		</record>
+		<record name="daygain_capital_limit" cols="3" maxrows="10" save="true" public="false" private="true" desc="玩家每天获得资金限制表">
+			<column type="byte" desc="资金类型"/>
+			<column type="int64" desc="当前获得值"/>
+			<column type="word" desc="当前第一次获得时间"/>
+		</record>
+		<record name="exchange_ticket_rec" cols="3" maxrows="10" save="true" public="false" private="true" desc="玩家点券兑换黑金历史记录表">
+			<column type="double" desc="兑换时间"/>
+			<column type="int64" desc="获得黑金"/>
+			<column type="int64" desc="消耗点券"/>
+		</record>
+		<record name="exchange_gold_rec" cols="3" maxrows="10" save="true" public="false" private="true" desc="玩家黑金兑换金币历史记录表">
+			<column type="double" desc="兑换时间"/>
+			<column type="int64" desc="获得金币"/>
+			<column type="int64" desc="消耗黑金"/>
+		</record>
+	</records>
+	<!--从其他文件加载属性-->
+	<includes>
+	</includes>
+</object>

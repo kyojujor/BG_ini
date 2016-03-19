@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--刀锋战士相关属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="ReBuildTime" type="int" public="false" private="false" save="true" desc="重铸冷却剩余时间"/>
+		<property name="WeaponNimbus1" type="int" public="false" private="false" save="true" desc="迅捷之灵(单手)"/>
+		<property name="WeaponNimbus2" type="int" public="false" private="false" save="true" desc="巨剑之灵(双手短柄)"/>
+		<property name="WeaponNimbus3" type="int" public="false" private="false" save="true" desc="巨刃之灵(双手长柄)"/>
+		<property name="WeaponNimbus4" type="int" public="false" private="false" save="true" desc="防护之灵(盾牌)"/>
+		
+		<property name="NimbusAtk1" type="int" public="false" private="false" save="true" desc="迅捷之灵(单手)"/>
+	  <property name="NimbusDef1" type="int" public="false" private="false" save="true" desc="迅捷之灵(单手)"/>
+
+		<property name="NimbusAtk2" type="int" public="false" private="false" save="true" desc="巨剑之灵(双手短柄)"/>
+		<property name="NimbusDef2" type="int" public="false" private="false" save="true" desc="巨剑之灵(双手短柄)"/>
+				
+		<property name="NimbusAtk3" type="int" public="false" private="false" save="true" desc="巨刃之灵(双手长柄)"/>
+		<property name="NimbusDef3" type="int" public="false" private="false" save="true" desc="巨刃之灵(双手长柄)"/>
+		
+		<property name="NimbusAtk4" type="int" public="false" private="false" save="true" desc="防护之灵(盾牌)"/>
+		<property name="NimbusDef4" type="int" public="false" private="false" save="true" desc="防护之灵(盾牌)"/>
+		
+	</properties>
+</object>

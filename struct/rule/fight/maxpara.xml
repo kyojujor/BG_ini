@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--战斗时的相关参数属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="RC" type="int" public="true" private="true" save="true" desc="当前怒气"/>
+		<property name="AV" type="int" public="true" private="true" save="true" desc="当前精神能量值"/>
+		<property name="EY" type="int" public="true" private="true" save="true" desc="当前蒸汽能量值"/>
+		<property name="FS" type="int" public="true" private="true" save="true" desc="当前先祖之力值"/>
+		<property name="DP" type="int" public="true" private="true" save="true" desc="当前躲闪值"/>
+
+		<property name="RCRatio" type="int" public="true" private="true" save="false" desc="当前怒气百分比"/>
+		<property name="AVRatio" type="int" public="true" private="true" save="false" desc="当前精神能量百分比"/>
+		<property name="EYRatio" type="int" public="true" private="true" save="false" desc="当前能量值百分比"/>
+		<property name="FSRatio" type="int" public="true" private="true" save="false" desc="当前先祖之力百分比"/>
+		<property name="DPRatio" type="int" public="true" private="true" save="false" desc="当前躲闪值百分比"/>
+		
+
+		<property name="MaxRC" type="int" public="true" private="true" save="false" desc="最大怒气值"/>
+		<property name="MaxAV" type="int" public="true" private="true" save="false" desc="最大精神能量值"/>
+		<property name="MaxEY" type="int" public="true" private="true" save="false" desc="最大蒸汽能量值"/>
+		<property name="MaxFS" type="int" public="true" private="true" save="false" desc="最大先祖之力值"/>
+		<property name="MaxDP" type="int" public="true" private="true" save="false" desc="最大躲闪值"/>
+
+		
+		<property name="MaxRCAdd" type="int" public="true" private="true" save="false" desc="最大怒气值"/>
+		<property name="MaxAVAdd" type="int" public="true" private="true" save="false" desc="最大精神能量值"/>
+		<property name="MaxEYAdd" type="int" public="true" private="true" save="false" desc="最大蒸汽能量值"/>
+		<property name="MaxFSAdd" type="int" public="true" private="true" save="false" desc="最大先祖之力值"/>
+		<property name="MaxDPAdd" type="int" public="true" private="true" save="false" desc="最大躲闪值"/>
+	</properties>
+</object>

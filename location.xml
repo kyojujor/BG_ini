@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+	<Property ID="BornWS000001" Name="BornNameWS000001" Scene="ini\scene\westzq" Location="-519.075,7.891,855.008,2.473" Permit="true" Des="蒸汽人类出生点" Activated="0"/>
+	<Property ID="BornWS000002" Name="BornNameWS000002" Scene="ini\scene\fbm001" Location="-131.050,10.787,-226.591,1.475" Permit="true" Des="复活点名称" Activated="0"/>
+	<Property ID="BornWS000003" Name="BornNameWS000003" Scene="ini\scene\eastqh" Location="2315.972,26.204,-485.010,2.494" Permit="true" Des="复活点名称" Activated="0"/>
+	<Property ID="BornWS000004" Name="BornNameWS000004" Scene="ini\scene\eastqh" Location="3319.057,50.304,1191.301,-3.074" Permit="true" Des="猫人出生点" Activated="0"/>
+	<Property ID="BornWS000006" Name="BornNameWS000006" Scene="ini\scene\westzq2" Location="-1039,104.599,2413.708,1.910" Permit="true" Des="矮人出生点" Activated="0"/>
+	<Property ID="BornWS000007" Name="BornNameWS000007" Scene="ini\scene\eastneutral" Location="-4385.929,57.161,6136.754,-1.339" Permit="true" Des="奇幻人类出生点" Activated="0"/>
+	<Property ID="ChushengCS000001" Name="ChushengNameCS000001" Scene="ini\scene\csm001" Location="2383.199,21.923,-593.975,-2.722" Permit="true" Des="测试场景出生点" Activated="0"/>
+	<Property ID="ChushengFB00201" Name="ChushengNameFB00201" Scene="ini\scene\fbm002" Location="-100.014,34.745,45.116,1.549" Permit="true" Des="余晖洞穴出生点" Activated="0"/>
+	<Property ID="ChushengFB00501" Name="ChushengNameFB00501" Scene="ini\scene\fbm005" Location="-5788.960,10.654,4770.578,0.216" Permit="true" Des="远古之门出生点" Activated="0"/>
+	<Property ID="ChushengFB10101" Name="ChushengNameFB10101" Scene="ini\scene\fbm101" Location="2921.925,113.491,-1392.641,0.172" Permit="true" Des="流浪群岛出生点" Activated="0"/>
+	<Property ID="ChushengFB10107" Name="ChushengNameFB10107" Scene="ini\scene\fbm107" Location="-5751.285,10.092,5360.035,1.559" Permit="true" Des="充能井大厅出生点" Activated="0"/>
+	<Property ID="ChushengFB00301" Name="ChushengNameFB00301" Scene="ini\scene\fbm003" Location="-12496.877,127.440,-11691.116,3.126" Permit="true" Des="鲁尔勒地下干线出生点" Activated="0"/>
+	<Property ID="ChushengFB11401" Name="ReliveName_ChushengFB11401" Scene="ini\scene\fbm114" Location="128.676,15.881,-359.319,1.653" Permit="true" Des="天怒教堂" Activated="0" Camp="all"/>
+	<Property ID="ChushengFB118" Name="ChushengNameFB118" Scene="ini\scene\fbm118" Location="3203.407,17.324,7138.176,-1.599" Permit="true" Des="苍穹之喉" Activated="0"/>
+	<Property ID="ChushengFB119" Name="ChushengNameFB119" Scene="ini\scene\fbm119" Location="384.692,0.663,2410.951,0.061" Permit="true" Des="日灼之塔" Activated="0" Camp="all"/>
+	<Property ID="ChushengFB12201" Name="ReliveName_ChushengFB12201" Scene="ini\scene\fbm122" Location="101.688,-8.036,-120.994,-1.942" Activated="0" Permit="true" Des="天怒困难出生点"/>
+	<Property ID="ChushengFB60101" Name="ChushengNameFB60101" Scene="ini\scene\fbm601" Location="-1002.147,279.203,522.069,-2.371" Permit="true" Des="新手BOSS体验副本（奇幻1）" Activated="0"/>
+	<Property ID="ChushengFB602" Name="ChushengNameFB602" Scene="ini\scene\fbm602" Location="-999.667,279.203,520.710,-2.151" Permit="true" Des="奇幻猎魔人转职副本" Activated="0"/>
+	<Property ID="ChushengFB603" Name="ChushengNameFB603" Scene="ini\scene\fbm603" Location="-999.667,279.203,520.710,-2.151" Permit="true" Des="蒸汽仲裁者转职副本" Activated="0"/>
+	<Property ID="ChushengFB604" Name="ChushengNameFB604" Scene="ini\scene\fbm604" Location="-999.667,279.203,520.710,-2.151" Permit="true" Des="奇幻元素法师转职副本" Activated="0"/>
+	<Property ID="ChushengFB605" Name="ChushengNameFB605" Scene="ini\scene\fbm605" Location="-999.667,279.203,520.710,-2.151" Permit="true" Des="蒸汽秘法师转职副本" Activated="0"/>
+	<Property ID="ChushengFB60606" Name="ChushengNameFB60606" Scene="ini\scene\fbm606" Location=" 2356.014,10.000,2814.993,-1.574" Permit="true" Des="新手BOSS体验副本（蒸汽1）" Activated="0"/>
+	<Property ID="Chushengjjm0011" Name="ChushengNamejjm0011" Scene="ini\scene\jjm001" Location="1152.636,10.921,1982.775,-0.049" Camp="qh" Type="field" Activated="true" Permit="true" Des="竞技场1"/>
+	<Property ID="Chushengjjm0012" Name="ChushengNamejjm0012" Scene="ini\scene\jjm001" Location="1152.244,10.921,2116.913,3.114" Camp="zq" Type="field" Activated="true" Permit="true" Des="竞技场1"/>
+	<Property ID="Chushengjjm002" Name="ChushengNamejjm002" Scene="ini\scene\jjm002" Location="-37.3,12.6,991.8,1.545,1.545" Activated="0" Permit="true" Des="1V1竞技场"/>
+	<Property ID="Chushengnljzc001" Name="Chushengnljzc001" Scene="ini\scene\nljzc001" Location="-6375.765,71.796,5442.630,-3.103" Permit="true" Des="能量井战场001" Activated="0"/>
+	<Property ID="Chushengnljzc002" Name="Chushengnljzc002" Scene="ini\scene\nljzc002" Location="-6375.765,71.796,5442.630,-3.103" Permit="true" Des="能量井战场002" Activated="0"/>
+	<Property ID="Chushengnljzc003" Name="Chushengnljzc003" Scene="ini\scene\nljzc003" Location="-6375.765,71.796,5442.630,-3.103" Permit="true" Des="能量井战场003" Activated="0"/>
+	<Property ID="Chushengnljzc004" Name="Chushengnljzc004" Scene="ini\scene\nljzc004" Location="-6375.765,71.796,5442.630,-3.103" Permit="true" Des="能量井战场004" Activated="0"/>
+	<Property ID="Chushengnljzc005" Name="Chushengnljzc005" Scene="ini\scene\nljzc005" Location="-6375.765,71.796,5442.630,-3.103" Permit="true" Des="能量井战场005" Activated="0"/>
+	<Property ID="Chushengnljzc006" Name="Chushengnljzc006" Scene="ini\scene\nljzc006" Location="-6375.765,71.796,5442.630,-3.103" Permit="true" Des="能量井战场006" Activated="0"/>
+	<Property ID="Chushengnljzc007" Name="Chushengnljzc007" Scene="ini\scene\nljzc007" Location="-6375.765,71.796,5442.630,-3.103" Permit="true" Des="能量井战场007" Activated="0"/>
+	<Property ID="Chushengnljzc008" Name="Chushengnljzc008" Scene="ini\scene\nljzc008" Location="-6375.765,71.796,5442.630,-3.103" Permit="true" Des="能量井战场008" Activated="0"/>
+	<Property ID="Chushengnljzc009" Name="Chushengnljzc009" Scene="ini\scene\nljzc009" Location="-6375.765,71.796,5442.630,-3.103" Permit="true" Des="能量井战场009" Activated="0"/>
+	<Property ID="Chushengnljzc010" Name="Chushengnljzc010" Scene="ini\scene\nljzc010" Location="-6375.765,71.796,5442.630,-3.103" Permit="true" Des="能量井战场010" Activated="0"/>
+	<Property ID="Chushengnljzc011" Name="Chushengnljzc011" Scene="ini\scene\nljzc011" Location="-6375.765,71.796,5442.630,-3.103" Permit="true" Des="能量井战场011" Activated="0"/>
+	<Property ID="Chushengnljzc012" Name="Chushengnljzc012" Scene="ini\scene\nljzc012" Location="-6375.765,71.796,5442.630,-3.103" Permit="true" Des="能量井战场012" Activated="0"/>
+	<Property ID="Chushengnljzc013" Name="Chushengnljzc013" Scene="ini\scene\nljzc013" Location="-6375.765,71.796,5442.630,-3.103" Permit="true" Des="能量井战场013" Activated="0"/>
+	<Property ID="Chushengqhnljzc" Name="Chushengqhnljzc" Scene="ini\scene\qhnljzc" Location="-1293.394,60.859,-74.056,-2.796" Permit="true" Des="奇幻能量井战场" Activated="0"/>
+	<Property ID="Chushengshilian01" Name="ChushengNameshilian01" Scene="ini\scene\shilian01" Location="-37.3,12.6,991.8,1.545,1.545" Activated="0" Permit="true" Des="试炼之地出生点"/>
+	<Property ID="ChushengTA000001" Name="ChushengNameTA000001" Scene="ini\scene\tady" Location="-37.3,12.6,991.8,1.545,1.545" Activated="0" Permit="true" Des="提奥迪亚竞技场"/>
+	<Property ID="ChushengTA000001" Name="ChushengNameTA000001" Scene="ini\scene\tady" Location="-37.3,12.6,991.8,1.545,1.545" Activated="0" Permit="true" Des="提奥迪亚竞技场出生点"/>
+	<Property ID="ChushengWS000001" Name="ChushengNameWS000001" Scene="ini\scene\westzq" Location="-514.361,21.870,847.016,2.632" Permit="true" Des="蒸汽大陆" Activated="0"/>
+	<Property ID="ChushengWS000002" Name="ChushengNameWS000002" Scene="ini\scene\fbm001" Location="-131.050,10.787,-226.591,1.475" Permit="true" Des="流浪群岛" Activated="0"/>
+	<Property ID="ChushengWS000003" Name="ChushengNameWS000003" Scene="ini\scene\eastqh" Location="3526.362,66.728,803.169,3.087" Permit="true" Des="二号场景传送点" Activated="0"/>
+	<Property ID="ChushengWS000020" Name="ChushengNameWS000020" Scene="ini\scene\fbm020" Location="-134.992,10.660,-229.990,1.120" Permit="true" Des="天怒洞穴" Activated="0"/>
+	<Property ID="Chushengyanshi001" Name="Chushengyanshi001" Scene="ini\scene\yanshi001" Location="-6375.765,71.796,5442.630,-3.103" Permit="true" Des="能量井演示战场" Activated="0"/>
+	<Property ID="ChushengZC0000010" Name="ChushengNameZC0000010" Scene="ini\scene\ceshizc001" Location="1332.707,10.886,2183.990,-3.096" Camp="qh" Type="field" Activated="true" Permit="true" Des="测试战场"/>
+	<Property ID="ChushengZC000005" Name="ChushengNameZC000005" Scene="ini\scene\zcm002" Location="-6001.981,30.382,5338.898,1.570" Camp="qh" Type="field" Activated="true" Permit="true" Des="冻骨营地复活点"/>
+	<Property ID="ChushengZC000006" Name="ChushengNameZC000006" Scene="ini\scene\zcm002" Location="-5488.842,38.294,5074.860,-1.381" Camp="zq" Type="field" Activated="true" Permit="true" Des="霜息营地复活点"/>
+	<Property ID="ChushengZC000007" Name="ChushengNameZC000007" Scene="ini\scene\TDzc" Location="2691.155,63.823,1446.589,3.099" Camp="qh" Type="field" Activated="true" Permit="true" Des="TD奇幻出生点"/>
+	<Property ID="ChushengFpszc01" Name="ChushengFpszc01" Scene="ini\scene\fpszc" Location="-550.239,-4.703,-18.261,-1.668" Camp="qh" Type="field" Activated="true" Permit="true" Des="fps战场出生点"/>
+	<Property ID="ChushengZC000008" Name="ChushengNameZC000008" Scene="ini\scene\TDzc" Location="2676.100,68.537,1206.026,-0.009" Camp="zq" Type="field" Activated="true" Permit="true" Des="TD蒸汽出生点"/>
+	<Property ID="ChushengZC000009" Name="ChushengNameZC000009" Scene="ini\scene\ceshizc001" Location="1332.605,10.886,2057.152,-0.072" Camp="zq" Type="field" Activated="true" Permit="true" Des="测试战场"/>
+	<Property ID="ChushengZL000001" Name="ChushengNameZL000001" Scene="ini\scene\westneutral" Location="5903.021,17.395,4115.998,-1.853" Permit="true" Des="五号场景传送点" Activated="0"/>
+	<Property ID="ChushengZL000003" Name="ChushengNameZL000003" Scene="ini\scene\southneutral" Location="-3665.0,60,7468.6,0.216" Permit="true" Des="四号场景传送点" Activated="0"/>
+	<Property ID="ChushengZL000004" Name="ChushengNameZL000004" Scene="ini\scene\middleneutral" Location="-1762,195,3287,2" Permit="true" Des="六号场景传送点" Activated="0"/>
+	<Property ID="Chushengzqnljzc" Name="Chushengzqnljzc" Scene="ini\scene\zqnljzc" Location="-1293.394,60.859,-74.056,-2.796" Permit="true" Des="蒸汽能量井战场" Activated="0"/>
+	<Property ID="Chushengjunjie001" Name="Chushengjunjie001" Scene="ini\scene\scenewar01" Location="436,61,-499" Permit="true" Des="军阶战场出生点" Activated="0"/>
+	<Property ID="Chushengjunjie002" Name="Chushengjunjie001" Scene="ini\scene\scenewar02" Location="436,61,-499" Permit="true" Des="军阶战场出生点" Activated="0"/>
+	<Property ID="Chushengjunjie003" Name="Chushengjunjie001" Scene="ini\scene\scenewar03" Location="436,61,-499" Permit="true" Des="军阶战场出生点" Activated="0"/>
+	<Property ID="Relive_ceshizcqh" Name="Relive_ceshizcqh" Scene="ini\scene\ceshizc001" Location="1332.707,10.886,2183.990,-3.096" Camp="qh" Type="field" Activated="true" Permit="true" Des="测试战场奇幻"/>
+	<Property ID="Relive_ceshizczq" Name="Relive_ceshizczq" Scene="ini\scene\ceshizc001" Location="1332.605,10.886,2057.152,-0.072" Camp="zq" Type="field" Activated="true" Permit="true" Des="测试战场蒸汽"/>
+	<Property ID="Relive_chaori_01" Name="ReliveName_chaori_01" Scene="ini\Scene\eastqh" Location="3510.855,66.741,829.990,-1.517" Camp="qh" Type="town" Activated="true" Permit="true" Des="卡萨罗"/>
+	<Property ID="Relive_chaori_02" Name="ReliveName_chaori_02" Scene="ini\Scene\eastqh" Location="3337.405,37.465,1046.335,-0.058" Camp="qh" Type="field" Activated="true" Permit="true" Des="曙光村"/>
+	<Property ID="Relive_chaori_03" Name="ReliveName_chaori_03" Scene="ini\Scene\eastqh" Location="2592.949,20.243,494.203,0.421" Camp="qh" Type="field" Activated="true" Permit="true" Des="落日卡口"/>
+	<Property ID="Relive_chaori_04" Name="ReliveName_chaori_04" Scene="ini\Scene\eastqh" Location="4258.646,52.713,279.711,-1.679" Camp="qh" Type="field" Activated="true" Permit="true" Des="圣日卡口"/>
+	<Property ID="Relive_chaori_05" Name="ReliveName_chaori_05" Scene="ini\Scene\eastqh" Location="3328.404,65.238,-513.984,-1.053" Camp="zq" Type="field" Activated="true" Permit="true" Des="恩赐林地"/>
+	<Property ID="Relive_chenxi_01" Name="ReliveName_chenxi_01" Scene="ini\Scene\eastneutral" Location="-4458.456,59.689,6145.317,0.130" Camp="qh" Type="town" Activated="true" Permit="true" Des="湖光镇"/>
+	<Property ID="Relive_chenxi_02" Name="ReliveName_chenxi_02" Scene="ini\Scene\eastneutral" Location="-4962.743,172.801,6721.273,-1.847" Camp="qh" Type="field" Activated="true" Permit="true" Des="山色镇"/>
+	<Property ID="Relive_chenxi_03" Name="ReliveName_chenxi_03" Scene="ini\Scene\eastneutral" Location="-5779.589,16.079,6822.503,-2.493" Camp="qh" Type="field" Activated="true" Permit="true" Des="金鳍海岸"/>
+	<Property ID="Relive_chenxi_04" Name="ReliveName_chenxi_04" Scene="ini\Scene\eastneutral" Location="-5290.538,109.149,6124.970,2.714" Camp="qh" Type="field" Activated="true" Permit="true" Des="圣临者广场"/>
+	<Property ID="Relive_chenxi_05" Name="ReliveName_chenxi_05" Scene="ini\Scene\eastneutral" Location="-5446.379,73.095,5318.880,0.197" Camp="qh" Type="town" Activated="true" Permit="true" Des="黎明港"/>
+	<Property ID="Relive_chenxi_06" Name="ReliveName_chenxi_06" Scene="ini\Scene\eastneutral" Location="-4801.969,122.418,5481.584,-1.792" Camp="qh" Type="field" Activated="true" Permit="true" Des="古城遗址"/>
+	<Property ID="Relive_chenxi_07" Name="ReliveName_chenxi_07" Scene="ini\Scene\eastneutral" Location="-4663.962,168.766,6771.221,1.807" Camp="qh" Type="field" Activated="true" Permit="true" Des="青棘谷"/>
+	<Property ID="Relive_chenxi_08" Name="ReliveName_chenxi_08" Scene="ini\Scene\eastneutral" Location="-4400.752,168.129,6715.235,-2.126" Camp="zq" Type="field" Activated="true" Permit="true" Des="青棘谷"/>
+	<Property ID="Relive_dijia_01" Name="ReliveName_dijia_01" Scene="ini\Scene\eastqh" Location="4431.572,58.412,-1661.973,-0.957" Camp="qh" Type="town" Activated="true" Permit="true" Des="海神殿"/>
+	<Property ID="Relive_dijia_02" Name="ReliveName_dijia_02" Scene="ini\Scene\eastqh" Location="3647.031,215.204,-1056.727,2.782" Camp="qh" Type="field" Activated="true" Permit="true" Des="圣日哨岗"/>
+	<Property ID="Relive_dijia_03" Name="ReliveName_dijia_03" Scene="ini\Scene\eastqh" Location="4279.289,112.671,-684.809,2.806" Camp="qh" Type="field" Activated="true" Permit="true" Des="巨树卡口"/>
+	<Property ID="Relive_dijia_04" Name="ReliveName_dijia_04" Scene="ini\Scene\eastqh" Location="4075.574,80.219,-1670.724,-0.704" Camp="qh" Type="field" Activated="true" Permit="true" Des="风雨哨岗"/>
+	<Property ID="Relive_dijia_05" Name="ReliveName_dijia_05" Scene="ini\Scene\eastqh" Location="3432.062,185.245,-1973.933,0.454" Camp="qh" Type="field" Activated="true" Permit="true" Des="荒原"/>
+	<Property ID="Relive_dijia_06" Name="ReliveName_dijia_06" Scene="ini\Scene\eastqh" Location="4164.387,135.129,-1200.125,-1.858" Camp="zq" Type="field" Activated="true" Permit="true" Des="临崖小径"/>
+	<Property ID="Relive_fb_100_01" Name="ReliveName_fb_100_zq" Scene="ini\scene\fbm001" Location="-131.050,10.787,-226.591,0" Camp="zq" Type="field" Activated="true" Permit="true" Des="天怒洞穴"/>
+	<Property ID="Relive_fb_100_02" Name="ReliveName_fb_100_qh" Scene="ini\scene\fbm001" Location="-131.050,10.787,-226.591,0" Camp="qh" Type="field" Activated="true" Permit="true" Des="天怒洞穴"/>
+	<Property ID="Relive_fb_101_01" Name="ReliveName_fb_101_zq" Scene="ini\scene\fbm101" Location="2964.062,157.222,-1395.157,0.458" Camp="zq" Type="field" Activated="true" Permit="true" Des="流浪群岛"/>
+	<Property ID="Relive_fb_101_02" Name="ReliveName_fb_101_qh" Scene="ini\scene\fbm101" Location="2964.062,157.222,-1395.157,0.458" Camp="qh" Type="field" Activated="true" Permit="true" Des="流浪群岛"/>
+	<Property ID="Relive_fb_104_01" Name="ReliveName_fb_104_zq" Scene="ini\scene\fbm004" Location="94.857,31.636,-161.527,2.093" Camp="zq" Type="field" Activated="true" Permit="true" Des="天怒教堂"/>
+	<Property ID="Relive_fb_104_02" Name="ReliveName_fb_104_qh" Scene="ini\scene\fbm004" Location="94.857,31.636,-161.527,2.093" Camp="qh" Type="field" Activated="true" Permit="true" Des="天怒教堂"/>
+	<Property ID="Relive_fb_107_01" Name="ReliveName_Relive_fb_107_01" Scene="ini\scene\fbm107" Location="-5750.806,10.092,5359.672,1.672" Camp="all" Type="field" Activated="true" Permit="true" Des="充能井大厅"/>
+	<Property ID="Relive_fb_107_02" Name="ReliveName_Relive_fb_107_02" Scene="ini\scene\fbm107" Location="-5750.806,10.092,5359.672,1.672" Camp="all" Type="field" Activated="true" Permit="true" Des="充能井大厅"/>
+	<Property ID="Relive_fb_112_01" Name="ReliveName_fb_112_zq" Scene="ini\scene\fbm112" Location="2923.736,113.326,-1393.319,-0.069" Camp="zq" Type="field" Activated="true" Permit="true" Des="流浪群岛"/>
+	<Property ID="Relive_fb_112_02" Name="ReliveName_fb_112_qh" Scene="ini\scene\fbm112" Location="2923.736,113.326,-1393.319,-0.069" Camp="qh" Type="field" Activated="true" Permit="true" Des="流浪群岛"/>
+	<Property ID="Relive_fb_115_01" Name="ReliveName_fb_115_zq" Scene="ini\scene\tady" Location="-44.416,12.669,992.227,1.596" Camp="zq" Type="field" Activated="true" Permit="true" Des="提奥迪亚竞技场"/>
+	<Property ID="Relive_fb_115_02" Name="ReliveName_fb_115_qh" Scene="ini\scene\tady" Location="-44.416,12.669,992.227,1.596" Camp="qh" Type="field" Activated="true" Permit="true" Des="提奥迪亚竞技场"/>
+	<Property ID="Relive_fb_118_01" Name="ReliveName_fb_118_zq" Scene="ini\scene\fbm118" Location="3203.407,17.324,7138.176,-1.599" Camp="zq" Type="field" Activated="true" Permit="true" Des="苍穹之喉"/>
+	<Property ID="Relive_fb_118_02" Name="ReliveName_fb_118_qh" Scene="ini\scene\fbm118" Location="3203.407,17.324,7138.176,-1.599" Camp="qh" Type="field" Activated="true" Permit="true" Des="苍穹之喉"/>
+	<Property ID="Relive_fb_119_01" Name="ReliveName_fb_119_zq" Scene="ini\scene\fbm119" Location="384.692,0.663,2410.951,0.061" Camp="zq" Type="field" Activated="true" Permit="true" Des="日灼之塔"/>
+	<Property ID="Relive_fb_119_02" Name="ReliveName_fb_119_qh" Scene="ini\scene\fbm119" Location="384.692,0.663,2410.951,0.061" Camp="qh" Type="field" Activated="true" Permit="true" Des="日灼之塔"/>
+	<Property ID="Relive_fb_120_01" Name="ReliveName_fb_120_zq" Scene="ini\scene\fbm020" Location="-134.992,10.660,-229.990,1.120" Camp="zq" Type="field" Activated="true" Permit="true" Des="天怒洞穴"/>
+	<Property ID="Relive_fb_120_02" Name="ReliveName_fb_120_qh" Scene="ini\scene\fbm020" Location="-134.992,10.660,-229.990,1.120" Camp="qh" Type="field" Activated="true" Permit="true" Des="天怒洞穴"/>
+	<Property ID="Relive_fb_122_01" Name="ReliveName_Relive_fb_122_01" Scene="ini\scene\fbm122" Location="99.387,-8.268,-122.145,-2.034" Camp="zq" Type="field" Activated="true" Permit="true" Des="天怒堡初始点"/>
+	<Property ID="Relive_fb_122_02" Name="ReliveName_Relive_fb_122_02" Scene="ini\scene\fbm122" Location="99.387,-8.268,-122.145,-2.034" Camp="qh" Type="field" Activated="true" Permit="true" Des="天怒堡初始点"/>
+	<Property ID="Relive_fb_602" Name="ReliveName_fb_602" Scene="ini\scene\fbm602" Location="-999.667,279.203,520.710,-2.151" Camp="qh" Type="field" Activated="true" Permit="true" Des="奇幻猎魔人转职副本"/>
+	<Property ID="Relive_fb_603" Name="ReliveName_fb_603" Scene="ini\scene\fbm603" Location="-999.667,279.203,520.710,-2.151" Camp="zq" Type="field" Activated="true" Permit="true" Des="蒸汽仲裁者转职副本"/>
+	<Property ID="Relive_fb_604" Name="ReliveName_fb_604" Scene="ini\scene\fbm604" Location="-999.667,279.203,520.710,-2.151" Camp="qh" Type="field" Activated="true" Permit="true" Des="奇幻元素法师转职副本"/>
+	<Property ID="Relive_fb_605" Name="ReliveName_fb_605" Scene="ini\scene\fbm605" Location="-999.667,279.203,520.710,-2.151" Camp="zq" Type="field" Activated="true" Permit="true" Des="蒸汽秘法师转职副本"/>
+	<Property ID="Relive_fbm003_01" Name="Relive_fbm003_01" Scene="ini\scene\fbm003" Location="-12496.877,127.440,-11691.116,3.126" Camp="zq" Type="field" Activated="true" Permit="true" Des="鲁尔勒地下干线"/>
+	<Property ID="Relive_fbm003_02" Name="Relive_fbm003_02" Scene="ini\scene\fbm003" Location="-12271.998,96.057,-11647.155,-3.002" Camp="zq" Type="field" Activated="true" Permit="true" clonediff="1" Des="H鲁尔勒地下干线"/>
+	<Property ID="Relive_fbm114_01" Name="ReliveName_Relive_fbm114_01" Scene="ini\scene\fbm114" Location="128.676,15.881,-359.319,1.653" Camp="zq" Type="field" Activated="true" Permit="true" Des="天怒教堂"/>
+	<Property ID="Relive_fbm114_02" Name="ReliveName_Relive_fbm114_02" Scene="ini\scene\fbm114" Location="128.676,15.881,-359.319,1.653" Camp="qh" Type="field" Activated="true" Permit="true" Des="天怒教堂"/>
+	<Property ID="Relive_jianyu_qh01" Name="ReliveName_jianyu_qh01" Scene="ini\scene\jianyu" Location="181.000,167.864,-35.000,-1.592" Camp="qh" Type="town" Activated="true" Permit="true" Des="奇幻监狱复活点"/>
+	<Property ID="Relive_jianyu_zq01" Name="ReliveName_jianyu_zq01" Scene="ini\scene\jianyu" Location="-143.000,176.975,-70.000,1.784" Camp="zq" Type="town" Activated="true" Permit="true" Des="蒸汽监狱复活点"/>
+	<Property ID="Relive_jjm001qh" Name="Relive_jjm001qh" Scene="ini\scene\jjm001" Location="1152.636,10.921,1982.775,-0.049" Camp="qh" Type="field" Activated="true" Permit="true" Des="竞技场qh"/>
+	<Property ID="Relive_jjm001zq" Name="Relive_jjm001zq" Scene="ini\scene\jjm001" Location="1152.244,10.921,2116.913,3.114" Camp="zq" Type="field" Activated="true" Permit="true" Des="竞技场zq"/>
+	<Property ID="Relive_jjm002_01" Name="ReliveName_jjm002_zq" Scene="ini\scene\jjm002" Location="-44.416,12.669,992.227,1.596" Camp="zq" Type="field" Activated="true" Permit="true" Des="1v1竞技场"/>
+	<Property ID="Relive_jjm002_02" Name="ReliveName_jjm002_qh" Scene="ini\scene\jjm002" Location="-44.416,12.669,992.227,1.596" Camp="qh" Type="field" Activated="true" Permit="true" Des="1v1竞技场"/>
+	<Property ID="Relive_juren_01" Name="ReliveName_juren_01" Scene="ini\Scene\westneutral" Location="5422.324,32.534,4234.742,2.290" Camp="zq" Type="field" Activated="true" Permit="true" Des="金色浅滩"/>
+	<Property ID="Relive_juren_02" Name="ReliveName_juren_02" Scene="ini\Scene\westneutral" Location="4417.850,142.762,3144.528,0.648" Camp="qh" Type="field" Activated="true" Permit="true" Des="东部密林南"/>
+	<Property ID="Relive_juren_03" Name="ReliveName_juren_03" Scene="ini\Scene\westneutral" Location="4788.768,136.071,2546.307,2.543" Camp="zq" Type="town" Activated="true" Permit="true" Des="洛克兰德村"/>
+	<Property ID="Relive_juren_04" Name="ReliveName_juren_04" Scene="ini\Scene\westneutral" Location="4779.000,128.975,3296.890,2.123" Camp="zq" Type="field" Activated="true" Permit="true" Des="西峡湾长廊北复活点"/>
+	<Property ID="Relive_juren_05" Name="ReliveName_juren_05" Scene="ini\Scene\westneutral" Location="5934.547,21.869,4081.608,-2.850" Camp="zq" Type="field" Activated="true" Permit="true" Des="银色海岸复活点"/>
+	<Property ID="Relive_jushu_01" Name="ReliveName_jushu_01" Scene="ini\Scene\eastqh" Location="4633.944,60.085,1181.025,1.591" Camp="qh" Type="town" Activated="true" Permit="true" Des="树荫岗"/>
+	<Property ID="Relive_jushu_02" Name="ReliveName_jushu_02" Scene="ini\Scene\eastqh" Location="5158.868,61.805,1609.190,-3.115" Camp="qh" Type="field" Activated="true" Permit="true" Des="尖牙湿地"/>
+	<Property ID="Relive_jushu_03" Name="ReliveName_jushu_03" Scene="ini\Scene\eastqh" Location="5211.764,66.447,539.804,-2.428" Camp="qh" Type="field" Activated="true" Permit="true" Des="树冠村"/>
+	<Property ID="Relive_jushu_04" Name="ReliveName_jushu_04" Scene="ini\Scene\eastqh" Location="5083.586,57.914,617.412,1.014" Camp="zq" Type="field" Activated="true" Permit="true" Des="落叶沼泽"/>
+	<Property ID="Relive_jushu_05" Name="ReliveName_jushu_05" Scene="ini\Scene\eastqh" Location="5382.410,106.536,-101.619,-0.019" Camp="qh" Type="field" Activated="true" Permit="true" Des="望乡关"/>
+	<Property ID="Relive_kadiya_01" Name="ReliveName_kadiya_01" Scene="ini\Scene\westzq2" Location="-1036.526,104.536,2408.764,2.025" Camp="zq" Type="town" Activated="true" Permit="true" Des="试炼厅"/>
+	<Property ID="Relive_kadiya_02" Name="ReliveName_kadiya_02" Scene="ini\Scene\westzq2" Location="-1230.169,211.006,1693.331,2.952" Camp="zq" Type="town" Activated="true" Permit="true" Des="十锤城"/>
+	<Property ID="Relive_kadiya_03" Name="ReliveName_kadiya_03" Scene="ini\Scene\westzq2" Location="-1603.050,175.856,1605.871,2.542" Camp="zq" Type="field" Activated="true" Permit="true" Des="锤柄林道"/>
+	<Property ID="Relive_kadiya_04" Name="ReliveName_kadiya_04" Scene="ini\Scene\westzq2" Location="-1601.882,238.654,1112.517,-2.983" Camp="zq" Type="field" Activated="true" Permit="true" Des="龙喉要塞"/>
+	<Property ID="Relive_kadiya_05" Name="ReliveName_kadiya_05" Scene="ini\Scene\westzq2" Location="-2433.223,4.839,1143.577,2.663" Camp="zq" Type="field" Activated="true" Permit="true" Des="哨站"/>
+	<Property ID="Relive_kadiya_06" Name="ReliveName_kadiya_06" Scene="ini\Scene\westzq2" Location="-2177.201,69.416,1296.026,2.702" Camp="qh" Type="field" Activated="true" Permit="true" Des="厄运试验场"/>
+	<Property ID="Relive_kalafu_01" Name="ReliveName_kalafu_01" Scene="ini\Scene\westneutral" Location="2941.224,130.019,2822.012,-1.915" Camp="zq" Type="field" Activated="true" Permit="true" Des="奥柏古国遗迹"/>
+	<Property ID="Relive_kalafu_02" Name="ReliveName_kalafu_02" Scene="ini\Scene\westneutral" Location="3441.905,97.812,2517.493,2.107" Camp="zq" Type="field" Activated="true" Permit="true" Des="荒原挖掘场"/>
+	<Property ID="Relive_kalafu_03" Name="ReliveName_kalafu_03" Scene="ini\Scene\westneutral" Location="3526.307,17.861,4410.072,-2.731" Camp="zq" Type="town" Activated="true" Permit="true" Des="卡拉福德港"/>
+	<Property ID="Relive_kalafu_04" Name="ReliveName_kalafu_04" Scene="ini\Scene\westneutral" Location="2447.988,101.516,2541.367,-2.533" Camp="zq" Type="field" Activated="true" Permit="true" Des="荒漠废墟"/>
+	<Property ID="Relive_kalafu_05" Name="ReliveName_kalafu_05" Scene="ini\Scene\westneutral" Location="2162.148,118.403,3424.287,2.705" Camp="zq" Type="field" Activated="true" Permit="true" Des="水晶谷"/>
+	<Property ID="Relive_kerui_01" Name="ReliveName_kerui_01" Scene="ini\Scene\westzq2" Location="-2857.178,39.704,1124.689,-0.534" Camp="zq" Type="field" Activated="true" Permit="true" Des="王国军前哨"/>
+	<Property ID="Relive_kerui_02" Name="ReliveName_kerui_02" Scene="ini\Scene\westzq2" Location="-3561.774,49.183,1228.925,-1.996" Camp="zq" Type="field" Activated="true" Permit="true" Des="重生岛"/>
+	<Property ID="Relive_kerui_03" Name="ReliveName_kerui_03" Scene="ini\Scene\westzq2" Location="-4277.228,87.286,599.358,-0.012" Camp="zq" Type="town" Activated="true" Permit="true" Des="王国东征指挥要塞"/>
+	<Property ID="Relive_kerui_04" Name="ReliveName_kerui_04" Scene="ini\Scene\westzq2" Location="-4236.372,83.455,384.948,0.698" Camp="qh" Type="field" Activated="true" Permit="true" Des="王国军东征指挥要塞对立"/>
+	<Property ID="Relive_kerui_05" Name="ReliveName_kerui_05" Scene="ini\Scene\westzq2" Location="-3435.565,56.524,236.924,1.027" Camp="zq" Type="field" Activated="true" Permit="true" Des="湮灭平台"/>
+	<Property ID="Relive_kerui_06" Name="ReliveName_kerui_06" Scene="ini\Scene\westzq2" Location="-3109.091,35.721,572.809,0.039" Camp="zq" Type="town" Activated="true" Permit="true" Des="远征港"/>
+	<Property ID="Relive_kewei_01" Name="ReliveName_kewei_01" Scene="ini\Scene\westzq" Location="-657.830,3.450,6.939,-1.349" Camp="zq" Type="field" Activated="true" Permit="true" Des="莱尔小镇蒸汽复活点"/>
+	<Property ID="Relive_kewei_02" Name="ReliveName_kewei_02" Scene="ini\Scene\westzq" Location="-442.471,7.150,657.271,-0.499" Camp="zq" Type="field" Activated="true" Permit="true" Des="科鲁镇复活点"/>
+	<Property ID="Relive_kewei_03" Name="ReliveName_kewei_03" Scene="ini\Scene\westzq" Location="21.832,3.552,148.591,-2.376" Camp="zq" Type="town" Activated="true" Permit="true" Des="鲁尔勒机场复活点"/>
+	<Property ID="Relive_kewei_04" Name="ReliveName_kewei_04" Scene="ini\Scene\westzq" Location="-158.550,3.789,-785.933,2.667" Camp="zq" Type="field" Activated="true" Permit="true" Des="王国军营地复活点"/>
+	<Property ID="Relive_kewei_05" Name="ReliveName_kewei_05" Scene="ini\Scene\westzq" Location="249.450,17.112,-252.742,-1.042" Camp="qh" Type="field" Activated="true" Permit="true" Des="裂痕隧道复活点"/>
+	<Property ID="Relive_nljzc001_01" Name="ReliveName_nljzc001_sf1" Scene="ini\scene\nljzc001" Location="-5782.392,85.305,5438.396,-1.490" Camp="all" Type="field" Activated="true" Permit="true" Des="克威尔郡能量井战场守方复活点1"/>
+	<Property ID="Relive_nljzc001_02" Name="ReliveName_nljzc001_gf1" Scene="ini\scene\nljzc001" Location="-6995.075,85.305,5465.626,1.627" Camp="all" Type="field" Activated="true" Permit="true" Des="克威尔郡能量井战场攻方复活点1"/>
+	<Property ID="Relive_nljzc001_03" Name="ReliveName_nljzc001_zl1" Scene="ini\scene\nljzc001" Location="-6354.588,71.796,5451.704,-1.913" Camp="all" Type="field" Activated="true" Permit="true" Des="克威尔郡能量战场中立方复活点1"/>
+	<Property ID="Relive_nljzc002_01" Name="ReliveName_nljzc002_sf1" Scene="ini\scene\nljzc002" Location="-5782.392,85.305,5438.396,-1.490" Camp="all" Type="field" Activated="true" Permit="true" Des="朝日圣地能量井战场守方复活点1"/>
+	<Property ID="Relive_nljzc002_02" Name="ReliveName_nljzc002_gf1" Scene="ini\scene\nljzc002" Location="-6995.075,85.305,5465.626,1.627" Camp="all" Type="field" Activated="true" Permit="true" Des="朝日圣地能量井战场攻方复活点1"/>
+	<Property ID="Relive_nljzc002_03" Name="ReliveName_nljzc002_zl1" Scene="ini\scene\nljzc002" Location="-6354.588,71.796,5451.704,-1.913" Camp="all" Type="field" Activated="true" Permit="true" Des="朝日圣地能量战场中立方复活点1"/>
+	<Property ID="Relive_nljzc003_01" Name="ReliveName_nljzc003_sf1" Scene="ini\scene\nljzc003" Location="-5782.392,85.305,5438.396,-1.490" Camp="all" Type="field" Activated="true" Permit="true" Des="达贡盆地能量井战场守方复活点1"/>
+	<Property ID="Relive_nljzc003_02" Name="ReliveName_nljzc003_gf1" Scene="ini\scene\nljzc003" Location="-6995.075,85.305,5465.626,1.627" Camp="all" Type="field" Activated="true" Permit="true" Des="达贡盆地能量井战场攻方复活点1"/>
+	<Property ID="Relive_nljzc003_03" Name="ReliveName_nljzc003_zl1" Scene="ini\scene\nljzc003" Location="-6354.588,71.796,5451.704,-1.913" Camp="all" Type="field" Activated="true" Permit="true" Des="达贡盆地能量战场中立方复活点1"/>
+	<Property ID="Relive_nljzc004_01" Name="ReliveName_nljzc004_sf1" Scene="ini\scene\nljzc004" Location="-5782.392,85.305,5438.396,-1.490" Camp="all" Type="field" Activated="true" Permit="true" Des="巨人峡湾能量井战场守方复活点1"/>
+	<Property ID="Relive_nljzc004_02" Name="ReliveName_nljzc004_gf1" Scene="ini\scene\nljzc004" Location="-6995.075,85.305,5465.626,1.627" Camp="all" Type="field" Activated="true" Permit="true" Des="巨人峡湾能量井战场攻方复活点1"/>
+	<Property ID="Relive_nljzc004_03" Name="ReliveName_nljzc004_zl1" Scene="ini\scene\nljzc004" Location="-6354.588,71.796,5451.704,-1.913" Camp="all" Type="field" Activated="true" Permit="true" Des="巨人峡湾能量战场中立方复活点1"/>
+	<Property ID="Relive_nljzc005_01" Name="ReliveName_nljzc005_sf1" Scene="ini\scene\nljzc005" Location="-5782.392,85.305,5438.396,-1.490" Camp="all" Type="field" Activated="true" Permit="true" Des="克瑞托尔废墟能量井战场守方复活点1"/>
+	<Property ID="Relive_nljzc005_02" Name="ReliveName_nljzc005_gf1" Scene="ini\scene\nljzc005" Location="-6995.075,85.305,5465.626,1.627" Camp="all" Type="field" Activated="true" Permit="true" Des="克瑞托尔废墟能量井战场攻方复活点1"/>
+	<Property ID="Relive_nljzc005_03" Name="ReliveName_nljzc005_zl1" Scene="ini\scene\nljzc005" Location="-6354.588,71.796,5451.704,-1.913" Camp="all" Type="field" Activated="true" Permit="true" Des="克瑞托尔废墟能量战场中立方复活点1"/>
+	<Property ID="Relive_nljzc006_01" Name="ReliveName_nljzc006_sf1" Scene="ini\scene\nljzc006" Location="-5782.392,85.305,5438.396,-1.490" Camp="all" Type="field" Activated="true" Permit="true" Des="巨树沼泽能量井战场守方复活点1"/>
+	<Property ID="Relive_nljzc006_02" Name="ReliveName_nljzc006_gf1" Scene="ini\scene\nljzc006" Location="-6995.075,85.305,5465.626,1.627" Camp="all" Type="field" Activated="true" Permit="true" Des="巨树沼泽能量井战场攻方复活点1"/>
+	<Property ID="Relive_nljzc006_03" Name="ReliveName_nljzc006_zl1" Scene="ini\scene\nljzc006" Location="-6354.588,71.796,5451.704,-1.913" Camp="all" Type="field" Activated="true" Permit="true" Des="巨树沼泽能量战场中立方复活点1"/>
+	<Property ID="Relive_nljzc007_01" Name="ReliveName_nljzc007_sf1" Scene="ini\scene\nljzc007" Location="-5782.392,85.305,5438.396,-1.490" Camp="all" Type="field" Activated="true" Permit="true" Des="雾月丛林能量井战场守方复活点1"/>
+	<Property ID="Relive_nljzc007_02" Name="ReliveName_nljzc007_gf1" Scene="ini\scene\nljzc007" Location="-6995.075,85.305,5465.626,1.627" Camp="all" Type="field" Activated="true" Permit="true" Des="雾月丛林能量井战场攻方复活点1"/>
+	<Property ID="Relive_nljzc007_03" Name="ReliveName_nljzc007_zl1" Scene="ini\scene\nljzc007" Location="-6354.588,71.796,5451.704,-1.913" Camp="all" Type="field" Activated="true" Permit="true" Des="雾月丛林能量战场中立方复活点1"/>
+	<Property ID="Relive_nljzc008_01" Name="ReliveName_nljzc008_sf1" Scene="ini\scene\nljzc008" Location="-5782.392,85.305,5438.396,-1.490" Camp="all" Type="field" Activated="true" Permit="true" Des="晨曦丘陵能量井战场守方复活点1"/>
+	<Property ID="Relive_nljzc008_02" Name="ReliveName_nljzc008_gf1" Scene="ini\scene\nljzc008" Location="-6995.075,85.305,5465.626,1.627" Camp="all" Type="field" Activated="true" Permit="true" Des="晨曦丘陵能量井战场攻方复活点1"/>
+	<Property ID="Relive_nljzc008_03" Name="ReliveName_nljzc008_zl1" Scene="ini\scene\nljzc008" Location="-6354.588,71.796,5451.704,-1.913" Camp="all" Type="field" Activated="true" Permit="true" Des="晨曦丘陵能量战场中立方复活点1"/>
+	<Property ID="Relive_nljzc009_01" Name="ReliveName_nljzc009_sf1" Scene="ini\scene\nljzc009" Location="-5782.392,85.305,5438.396,-1.490" Camp="all" Type="field" Activated="true" Permit="true" Des="卡地亚能量井战场守方复活点1"/>
+	<Property ID="Relive_nljzc009_02" Name="ReliveName_nljzc009_gf1" Scene="ini\scene\nljzc009" Location="-6995.075,85.305,5465.626,1.627" Camp="all" Type="field" Activated="true" Permit="true" Des="卡地亚能量井战场攻方复活点1"/>
+	<Property ID="Relive_nljzc009_03" Name="ReliveName_nljzc009_zl1" Scene="ini\scene\nljzc009" Location="-6354.588,71.796,5451.704,-1.913" Camp="all" Type="field" Activated="true" Permit="true" Des="卡地亚能量战场中立方复活点1"/>
+	<Property ID="Relive_nljzc010_01" Name="ReliveName_nljzc010_sf1" Scene="ini\scene\nljzc010" Location="-5782.392,85.305,5438.396,-1.490" Camp="all" Type="field" Activated="true" Permit="true" Des="蒂加海岸能量井战场守方复活点1"/>
+	<Property ID="Relive_nljzc010_02" Name="ReliveName_nljzc010_gf1" Scene="ini\scene\nljzc010" Location="-6995.075,85.305,5465.626,1.627" Camp="all" Type="field" Activated="true" Permit="true" Des="蒂加海岸能量井战场攻方复活点1"/>
+	<Property ID="Relive_nljzc010_03" Name="ReliveName_nljzc010_zl1" Scene="ini\scene\nljzc010" Location="-6354.588,71.796,5451.704,-1.913" Camp="all" Type="field" Activated="true" Permit="true" Des="蒂加海岸能量战场中立方复活点1"/>
+	<Property ID="Relive_nljzc011_01" Name="ReliveName_nljzc011_sf1" Scene="ini\scene\nljzc011" Location="-5782.392,85.305,5438.396,-1.490" Camp="all" Type="field" Activated="true" Permit="true" Des="亚提伦能量井战场守方复活点1"/>
+	<Property ID="Relive_nljzc011_02" Name="ReliveName_nljzc011_gf1" Scene="ini\scene\nljzc011" Location="-6995.075,85.305,5465.626,1.627" Camp="all" Type="field" Activated="true" Permit="true" Des="亚提伦能量井战场攻方复活点1"/>
+	<Property ID="Relive_nljzc011_03" Name="ReliveName_nljzc011_zl1" Scene="ini\scene\nljzc011" Location="-6354.588,71.796,5451.704,-1.913" Camp="all" Type="field" Activated="true" Permit="true" Des="亚提伦能量战场中立方复活点1"/>
+	<Property ID="Relive_nljzc012_01" Name="ReliveName_nljzc012_sf1" Scene="ini\scene\nljzc012" Location="-5782.392,85.305,5438.396,-1.490" Camp="all" Type="field" Activated="true" Permit="true" Des="卡拉福德荒原能量井战场守方复活点1"/>
+	<Property ID="Relive_nljzc012_02" Name="ReliveName_nljzc012_gf1" Scene="ini\scene\nljzc012" Location="-6995.075,85.305,5465.626,1.627" Camp="all" Type="field" Activated="true" Permit="true" Des="卡拉福德荒原能量井战场攻方复活点1"/>
+	<Property ID="Relive_nljzc012_03" Name="ReliveName_nljzc012_zl1" Scene="ini\scene\nljzc012" Location="-6354.588,71.796,5451.704,-1.913" Camp="all" Type="field" Activated="true" Permit="true" Des="卡拉福德荒原能量战场中立方复活点1"/>
+	<Property ID="Relive_nljzc013_01" Name="ReliveName_nljzc013_sf1" Scene="ini\scene\nljzc013" Location="-5782.392,85.305,5438.396,-1.490" Camp="all" Type="field" Activated="true" Permit="true" Des="皮罗高地能量井战场守方复活点1"/>
+	<Property ID="Relive_nljzc013_02" Name="ReliveName_nljzc013_gf1" Scene="ini\scene\nljzc013" Location="-6995.075,85.305,5465.626,1.627" Camp="all" Type="field" Activated="true" Permit="true" Des="皮罗高地能量井战场攻方复活点1"/>
+	<Property ID="Relive_nljzc013_03" Name="ReliveName_nljzc013_zl1" Scene="ini\scene\nljzc013" Location="-6354.588,71.796,5451.704,-1.913" Camp="all" Type="field" Activated="true" Permit="true" Des="皮罗高地能量战场中立方复活点1"/>
+	<Property ID="Relive_piluo_01" Name="ReliveName_piluo_01" Scene="ini\Scene\eastneutral" Location="-3906.939,129.523,3451.286,1.412" Camp="qh" Type="field" Activated="true" Permit="true" Des="半月湖"/>
+	<Property ID="Relive_piluo_02" Name="ReliveName_piluo_02" Scene="ini\Scene\eastneutral" Location="-4023.936,152.467,2933.456,-1.370" Camp="qh" Type="field" Activated="true" Permit="true" Des="魔蜥岭"/>
+	<Property ID="Relive_piluo_03" Name="ReliveName_piluo_03" Scene="ini\Scene\eastneutral" Location="-3376.299,137.317,3177.629,-1.506" Camp="qh" Type="town" Activated="true" Permit="true" Des="克里斯堡"/>
+	<Property ID="Relive_piluo_04" Name="ReliveName_piluo_04" Scene="ini\Scene\eastneutral" Location="-3456.868,162.184,2602.327,0.554" Camp="qh" Type="field" Activated="true" Permit="true" Des="暗月林地"/>
+	<Property ID="Relive_piluo_05" Name="ReliveName_piluo_05" Scene="ini\Scene\eastneutral" Location="-2763.031,189.305,3052.739,3.077" Camp="qh" Type="field" Activated="true" Permit="true" Des="源机构观察站"/>
+	<Property ID="Relive_piluo_06" Name="ReliveName_piluo_06" Scene="ini\Scene\eastneutral" Location="-2870.726,195.736,2400.761,-1.824" Camp="qh" Type="field" Activated="true" Permit="true" Des="炎舌谷"/>
+	<Property ID="Relive_piluo_07" Name="ReliveName_piluo_07" Scene="ini\Scene\eastneutral" Location="-4374.146,150.547,3152.465,2.297" Camp="zq" Type="field" Activated="true" Permit="true" Des="月色丛林"/>
+	<Property ID="Relive_qhnljzc" Name="ReliveName_qhnljzc" Scene="ini\scene\qhnljzc" Location="-1323.787,61.359,-115.318,-2.305" Camp="all" Type="field" Activated="true" Permit="true" Des="奇幻能量井复活点"/>
+	<Property ID="Relive_qhnljzc_01" Name="ReliveName_qhnljzc_01_sf1" Scene="ini\scene\qhnljzc" Location="-1348.245,35.527,-556.198,-3.077" Camp="qh" Type="field" Activated="true" Permit="true" Des="奇幻能量井守方复活点1"/>
+	<Property ID="Relive_qhnljzc_02" Name="ReliveName_qhnljzc_01_sf2" Scene="ini\scene\qhnljzc" Location="-1116.070,152.958,198.085,2.203" Camp="qh" Type="field" Activated="true" Permit="true" Des="奇幻能量井守方复活点2"/>
+	<Property ID="Relive_qhnljzc_03" Name="ReliveName_qhnljzc_01_sf3" Scene="ini\scene\qhnljzc" Location="-1786.766,102.087,262.876,-2.694" Camp="qh" Type="field" Activated="true" Permit="true" Des="奇幻能量井守方复活点3"/>
+	<Property ID="Relive_qihuan" Name="ReliveName_qihuan" Scene="ini\scene\zcm002" Location="-5978.432,30.382,5325.318,0.812" Camp="qh" Type="field" Activated="true" Permit="true" Des="冻骨营地复活点"/>
+	<Property ID="Relive_shilian01_01" Name="ReliveName_shilian01_zq" Scene="ini\scene\shilian01" Location="-44.416,12.669,992.227,1.596" Camp="zq" Type="field" Activated="true" Permit="true" Des="提奥迪亚竞技场"/>
+	<Property ID="Relive_shilian01_02" Name="ReliveName_shilian01_qh" Scene="ini\scene\shilian01" Location="-44.416,12.669,992.227,1.596" Camp="qh" Type="field" Activated="true" Permit="true" Des="提奥迪亚竞技场"/>
+	<Property ID="Relive_tiaodiya_01" Name="ReliveName_tiaodiya_01" Scene="ini\Scene\middleneutral" Location="-2239.592,201.092,3196.744,1.582" Camp="qh" Type="town" Activated="true" Permit="true" Des="蒂兰达"/>
+	<Property ID="Relive_tiaodiya_02" Name="ReliveName_tiaodiya_02" Scene="ini\Scene\middleneutral" Location="-1850.496,199.413,3303.715,-1.095" Camp="zq" Type="town" Activated="true" Permit="true" Des="蒂兰达"/>
+	<Property ID="Relive_tiaodiya_03" Name="ReliveName_tiaodiya_03" Scene="ini\Scene\middleneutral" Location="-957.200,101.449,2463.723,-1.062" Camp="qh" Type="field" Activated="true" Permit="true" Des="寒落山脚"/>
+	<Property ID="Relive_tiaodiya_04" Name="ReliveName_tiaodiya_04" Scene="ini\Scene\middleneutral" Location="-1024.922,69.931,3025.168,0.013" Camp="zq" Type="field" Activated="true" Permit="true" Des="讨逆军营地"/>
+	<Property ID="Relive_wuyue_01" Name="ReliveName_wuyue_01" Scene="ini\Scene\eastneutral" Location="-5043.729,22.150,4568.905,-1.262" Camp="qh" Type="field" Activated="true" Permit="true" Des="月辉驻地"/>
+	<Property ID="Relive_wuyue_02" Name="ReliveName_wuyue_02" Scene="ini\Scene\eastneutral" Location="-3899.367,53.112,4637.207,2.714" Camp="qh" Type="field" Activated="true" Permit="true" Des="尤图恩侦察营"/>
+	<Property ID="Relive_wuyue_03" Name="ReliveName_wuyue_03" Scene="ini\Scene\eastneutral" Location="-4959.232,56.049,4041.258,-0.938" Camp="qh" Type="field" Activated="true" Permit="true" Des="雾隐林"/>
+	<Property ID="Relive_wuyue_04" Name="ReliveName_wuyue_04" Scene="ini\Scene\eastneutral" Location="-5513.215,99.185,3344.223,0.839" Camp="qh" Type="field" Activated="true" Permit="true" Des="月灼林东"/>
+	<Property ID="Relive_wuyue_05" Name="ReliveName_wuyue_05" Scene="ini\Scene\eastneutral" Location="-4206.257,107.849,3850.953,-1.610" Camp="qh" Type="town" Activated="true" Permit="true" Des="雾月之辉"/>
+	<Property ID="Relive_wuyue_06" Name="ReliveName_wuyue_06" Scene="ini\Scene\eastneutral" Location="-4835.153,49.942,4341.083,2.415" Camp="zq" Type="field" Activated="true" Permit="true" Des="雾隐林"/>
+	<Property ID="Relive_xinshoufb_01" Name="ReliveName_xinshoufb_01" Scene="ini\scene\fbm601" Location="-999.667,279.203,520.710,-2.151" Camp="all" Type="field" Activated="true" Permit="true" Des="新手副本"/>
+	<Property ID="Relive_xinshoufb_02" Name="ReliveName_xinshoufb_02" Scene="ini\scene\fbm606" Location=" 2356.014,10.000,2814.993,-1.574" Camp="all" Type="field" Activated="true" Permit="true" Des="新手副本"/>
+	<Property ID="Relive_TDzc_qh" Name="ReliveName_TDzc_qh" Scene="ini\scene\TDzc" Location="2691.155,63.823,1446.589,3.099" Camp="qh" Type="field" Activated="true" Permit="true" Des="TD战场奇幻复活点"/>
+	<Property ID="Relive_TDzc_zq" Name="ReliveName_TDzc_zq" Scene="ini\scene\TDzc" Location="2676.100,68.537,1206.026,-0.009" Camp="zq" Type="field" Activated="true" Permit="true" Des="TD战场蒸汽复活点"/>
+	<Property ID="Relive_fpszc_qh01" Name="ReliveName_fpszc_qh01" Scene="ini\scene\fpszc" Location="-855.352,-5.029,9.650,1.508" Camp="qh" Type="field" Activated="true" Permit="true" Des="fps战场奇幻复活点1"/>
+	<Property ID="Relive_fpszc_qh02" Name="ReliveName_fpszc_qh02" Scene="ini\scene\fpszc" Location="-798.487,-2.601,-90.501,1.173" Camp="qh" Type="field" Activated="true" Permit="true" Des="fps战场奇幻复活点2"/>
+	<Property ID="Relive_fpszc_qh03" Name="ReliveName_fpszc_qh03" Scene="ini\scene\fpszc" Location="-638.003,-11.248,-199.690,-0.220" Camp="qh" Type="field" Activated="true" Permit="true" Des="fps战场奇幻复活点3"/>
+	<Property ID="Relive_fpszc_qh04" Name="ReliveName_fpszc_qh04" Scene="ini\scene\fpszc" Location="-585.987,-4.703,-90.462,0.892" Camp="qh" Type="field" Activated="true" Permit="true" Des="fps战场奇幻复活点4"/>
+	<Property ID="Relive_fpszc_qh05" Name="ReliveName_fpszc_qh05" Scene="ini\scene\fpszc" Location="-539.057,2.559,36.195,-3.011" Camp="qh" Type="field" Activated="true" Permit="true" Des="fps战场奇幻复活点5"/>
+	<Property ID="Relive_fpszc_qh06" Name="ReliveName_fpszc_qh06" Scene="ini\scene\fpszc" Location="-700.119,2.815,-42.265,1.123" Camp="qh" Type="field" Activated="true" Permit="true" Des="fps战场奇幻复活点6"/>
+	<Property ID="Relive_fpszc_zq01" Name="ReliveName_fpszc_zq01" Scene="ini\scene\fpszc" Location="-811.301,2.803,22.333,1.485" Camp="zq" Type="field" Activated="true" Permit="true" Des="fps战场蒸汽复活点1"/>
+	<Property ID="Relive_fpszc_zq02" Name="ReliveName_fpszc_zq02" Scene="ini\scene\fpszc" Location="-717.803,-5.083,-118.038,0.498" Camp="zq" Type="field" Activated="true" Permit="true" Des="fps战场蒸汽复活点2"/>
+	<Property ID="Relive_fpszc_zq03" Name="ReliveName_fpszc_zq03" Scene="ini\scene\fpszc" Location="-742.747,2.603,-51.283,-1.417" Camp="zq" Type="field" Activated="true" Permit="true" Des="fps战场蒸汽复活点3"/>
+	<Property ID="Relive_fpszc_zq04" Name="ReliveName_fpszc_zq04" Scene="ini\scene\fpszc" Location="-566.181,-4.703,-50.947,1.444" Camp="zq" Type="field" Activated="true" Permit="true" Des="fps战场蒸汽复活点4"/>
+	<Property ID="Relive_fpszc_zq05" Name="ReliveName_fpszc_zq05" Scene="ini\scene\fpszc" Location="-646.233,3.033,-41.279,1.396" Camp="zq" Type="field" Activated="true" Permit="true" Des="fps战场蒸汽复活点5"/>
+	<Property ID="Relive_fpszc_zq06" Name="ReliveName_fpszc_zq06" Scene="ini\scene\fpszc" Location="-706.605,-4.703,11.044,1.430" Camp="zq" Type="field" Activated="true" Permit="true" Des="fps战场蒸汽复活点6"/>
+	<Property ID="Relive_yatilun_01" Name="ReliveName_yatilun_01" Scene="ini\Scene\westzq" Location="-50.988,44.275,-1659.449,1.497" Camp="zq" Type="field" Activated="true" Permit="true" Des="晨光农场复活点"/>
+	<Property ID="Relive_yatilun_02" Name="ReliveName_yatilun_02" Scene="ini\Scene\westzq" Location="51.080,82.228,-2225.317,2.731" Camp="zq" Type="town" Activated="true" Permit="true" Des="海神丛林北"/>
+	<Property ID="Relive_yatilun_03" Name="ReliveName_yatilun_03" Scene="ini\Scene\westzq" Location="-464.837,66.520,-2731.265,0.841" Camp="zq" Type="field" Activated="true" Permit="true" Des="伐木场复活点"/>
+	<Property ID="Relive_yatilun_04" Name="ReliveName_yatilun_04" Scene="ini\Scene\westzq" Location="-459.730,-17.726,-3221.161,-0.404" Camp="zq" Type="field" Activated="true" Permit="true" Des="提亚港复活点"/>
+	<Property ID="Relive_yatilun_05" Name="ReliveName_yatilun_05" Scene="ini\Scene\westzq" Location="113.895,43.025,-2928.531,-1.213" Camp="qh" Type="field" Activated="true" Permit="true" Des="珊瑚海岸"/>
+	<Property ID="Relive_yuanguzhimen_01" Name="Relive_yuanguzhimen_01" Scene="ini\Scene\fbm005" Location="-5771.706,10.654,4766.415,-0.170" Camp="qh" Type="field" Activated="true" Permit="true" Des="远古之门"/>
+	<Property ID="Relive_yuanguzhimen_02" Name="Relive_yuanguzhimen_01" Scene="ini\Scene\fbm005" Location="-5771.706,10.654,4766.415,-0.170" Camp="zq" Type="field" Activated="true" Permit="true" Des="远古之门"/>
+	<Property ID="Relive_yuanguzhimen_03" Name="Relive_yuanguzhimen_01" Scene="ini\Scene\fbm005" Location="-5771.706,10.654,4766.415,-0.170" Camp="qh" Type="field" Activated="true" Permit="true" clonediff="1" Des="H远古之门"/>
+	<Property ID="Relive_yuanguzhimen_04" Name="Relive_yuanguzhimen_01" Scene="ini\Scene\fbm005" Location="-5771.706,10.654,4766.415,-0.170" Camp="zq" Type="field" Activated="true" Permit="true" clonediff="1" Des="H远古之门"/>
+	<Property ID="Relive_yuhuidongxue_01" Name="ReliveName_yuhuidongxue_01" Scene="ini\Scene\fbm002" Location="-100.014,34.745,45.116,1.561" Camp="qh" Type="field" Activated="true" Permit="true" Des="余晖洞穴"/>
+	<Property ID="Relive_yuhuidongxue_02" Name="ReliveName_yuhuidongxue_01" Scene="ini\Scene\fbm002" Location="-100.014,34.745,45.116,1.561" Camp="zq" Type="field" Activated="true" Permit="true" Des="余晖洞穴"/>
+	<Property ID="Relive_yuhuidongxue_03" Name="ReliveName_yuhuidongxue_01" Scene="ini\Scene\fbm002" Location="-100.014,34.745,45.116,1.561" Camp="qh" Type="field" Activated="true" Permit="true" clonediff="1" Des="H余晖洞穴"/>
+	<Property ID="Relive_yuhuidongxue_04" Name="ReliveName_yuhuidongxue_01" Scene="ini\Scene\fbm002" Location="-100.014,34.745,45.116,1.561" Camp="zq" Type="field" Activated="true" Permit="true" clonediff="1" Des="H余晖洞穴"/>
+	<Property ID="Relive_zcm001_qh" Name="Relive_zcm001_qh" Scene="ini\scene\zcm001" Location="-71.040,47.899,139.009,2.521" Camp="qh" Type="field" Activated="true" Permit="true" Des="信仰之地奇幻"/>
+	<Property ID="Relive_zcm001_zq" Name="Relive_zcm001_zq" Scene="ini\scene\zcm001" Location="63.497,56.559,-160.227,-0.345" Camp="zq" Type="field" Activated="true" Permit="true" Des="信仰之地蒸汽"/>
+	<Property ID="Relive_zhengqi" Name="ReliveName_zhengqi" Scene="ini\scene\zcm002" Location="-5518.271,38.343,5088.546,1.833" Camp="zq" Type="field" Activated="true" Permit="true" Des="霜息营地复活点"/>
+	<Property ID="Relive_zqnljzc" Name="ReliveName_zqnljzc" Scene="ini\scene\zqnljzc" Location="-1323.787,61.359,-115.318,-2.305" Camp="all" Type="field" Activated="true" Permit="true" Des="蒸汽能量井复活点"/>
+	<Property ID="Relive_zqnljzc_01" Name="ReliveName_zqnljzc_01_sf1" Scene="ini\scene\zqnljzc" Location="-1348.245,35.527,-556.198,-3.077" Camp="zq" Type="field" Activated="true" Permit="true" Des="蒸汽能量井守方复活点1"/>
+	<Property ID="Relive_zqnljzc_02" Name="ReliveName_zqnljzc_01_sf2" Scene="ini\scene\zqnljzc" Location="-1116.070,152.958,198.085,2.203" Camp="zq" Type="field" Activated="true" Permit="true" Des="蒸汽能量井守方复活点2"/>
+	<Property ID="Relive_zqnljzc_03" Name="ReliveName_zqnljzc_01_sf3" Scene="ini\scene\zqnljzc" Location="-1786.766,102.087,262.876,-2.694" Camp="zq" Type="field" Activated="true" Permit="true" Des="蒸汽能量井守方复活点3"/>
+	<Property ID="Relive_chaori_07" Name="ReliveName_chaori_07" Scene="ini\Scene\eastqh" Location="3611.050,97.229,-35.957,1.951" Camp="qh" Type="field" Activated="true" Permit="true" Des="太阳神遗迹"/>
+	<Property ID="Relive_chaori_08" Name="ReliveName_chaori_08" Scene="ini\Scene\eastqh" Location="3211.400,41.579,595.123,-1.095" Camp="qh" Type="field" Activated="true" Permit="true" Des="卡萨罗东"/>
+	<Property ID="Relive_chaori_09" Name="ReliveName_chaori_09" Scene="ini\Scene\eastqh" Location="2971.503,66.808,1005.386,1.810" Camp="qh" Type="field" Activated="true" Permit="true" Des="暴风祭坛"/>
+	<Property ID="Relive_dijia_07" Name="ReliveName_dijia_07" Scene="ini\Scene\eastqh" Location="3387.858,194.329,-1551.501,1.111" Camp="qh" Type="field" Activated="true" Permit="true" Des="荒原南"/>
+	<Property ID="Relive_jushu_06" Name="ReliveName_jushu_06" Scene="ini\Scene\eastqh" Location="4955.748,78.275,26.984,0.168" Camp="qh" Type="field" Activated="true" Permit="true" Des="失落遗迹"/>
+	<Property ID="Relive_jushu_07" Name="ReliveName_jushu_07" Scene="ini\Scene\eastqh" Location="4784.384,76.724,1527.610,0.479" Camp="qh" Type="field" Activated="true" Permit="true" Des="守护者之地"/>
+	<Property ID="Relive_chenxi_09" Name="ReliveName_chenxi_09" Scene="ini\Scene\eastneutral" Location="-4869.637,125.908,6448.912,2.154" Camp="qh" Type="field" Activated="true" Permit="true" Des="溪谷农场"/>
+	<Property ID="Relive_chenxi_10" Name="ReliveName_chenxi_10" Scene="ini\Scene\eastneutral" Location="-5465.654,95.810,6506.076,-0.802" Camp="qh" Type="field" Activated="true" Permit="true" Des="风吼山道"/>
+	<Property ID="Relive_wuyue_07" Name="ReliveName_wuyue_07" Scene="ini\Scene\eastneutral" Location="-4209.904,61.375,4272.008,0.354" Camp="qh" Type="field" Activated="true" Permit="true" Des="月辉林"/>
+	<Property ID="Relive_wuyue_08" Name="ReliveName_wuyue_08" Scene="ini\Scene\eastneutral" Location="-5683.392,101.924,3970.436,0.822" Camp="qh" Type="field" Activated="true" Permit="true" Des="月灼高地"/>
+	<Property ID="Relive_piluo_08" Name="ReliveName_piluo_08" Scene="ini\Scene\eastneutral" Location="-3199.510,150.540,2838.719,2.509" Camp="qh" Type="field" Activated="true" Permit="true" Des="暗月林地西"/>
+	<Property ID="Relive_piluo_09" Name="ReliveName_piluo_09" Scene="ini\Scene\eastneutral" Location="-3054.671,177.109,3210.050,2.791" Camp="qh" Type="field" Activated="true" Permit="true" Des="高地湖泊"/>
+	<Property ID="Relive_dagong_01" Name="ReliveName_dagong_01" Scene="ini\Scene\middleneutral" Location="1319.877,16.915,2151.813,-1.963" Camp="qh" Type="field" Activated="true" Permit="true" Des="湿地"/>
+	<Property ID="Relive_dagong_02" Name="ReliveName_dagong_02" Scene="ini\Scene\middleneutral" Location="1143.385,18.395,2991.122,2.208" Camp="zq" Type="field" Activated="true" Permit="true" Des="达贡古城"/>
+	<Property ID="Relive_dagong_03" Name="ReliveName_dagong_03" Scene="ini\Scene\middleneutral" Location="1913.257,16.399,2317.763,-1.218" Camp="zq" Type="field" Activated="true" Permit="true" Des="湿地"/>
+	<Property ID="Relive_dagong_04" Name="ReliveName_dagong_04" Scene="ini\Scene\middleneutral" Location="2007.835,44.391,3078.548,0.606" Camp="qh" Type="field" Activated="true" Permit="true" Des="背誓者之地"/>
+	<Property ID="Relive_dagong_05" Name="ReliveName_dagong_05" Scene="ini\Scene\middleneutral" Location="1669.232,101.001,3655.301,-2.140" Camp="zq" Type="field" Activated="true" Permit="true" Des="阿特卡莱"/>
+	<Property ID="Relive_dagong_06" Name="ReliveName_dagong_06" Scene="ini\Scene\middleneutral" Location="1690.771,37.356,1977.531,-1.051" Camp="qh" Type="field" Activated="true" Permit="true" Des="奥尔桌拉"/>
+	<Property ID="Relive_kewei_06" Name="ReliveName_kewei_06" Scene="ini\Scene\westzq" Location="-506.570,7.892,850.688,-2.968" Camp="zq" Type="field" Activated="true" Permit="true" Des="科鲁镇北"/>
+	<Property ID="Relive_kewei_07" Name="ReliveName_kewei_07" Scene="ini\Scene\westzq" Location="-576.335,-11.318,293.353,1.897" Camp="zq" Type="field" Activated="true" Permit="true" Des="科鲁大道复活点"/>
+	<Property ID="Relive_kewei_08" Name="ReliveName_kewei_08" Scene="ini\Scene\westzq" Location="-448.918,3.563,11.215,-2.566" Camp="zq" Type="field" Activated="true" Permit="true" Des="鲁尔勒东克尔平原复活点"/>
+	<Property ID="Relive_kewei_09" Name="ReliveName_kewei_09" Scene="ini\Scene\westzq" Location="54.022,15.283,-437.680,-1.170" Camp="zq" Type="field" Activated="true" Permit="true" Des="风声口复活点"/>
+	<Property ID="Relive_kewei_10" Name="ReliveName_kewei_10" Scene="ini\Scene\westzq" Location="96.694,-4.242,-711.446,2.545" Camp="zq" Type="field" Activated="true" Permit="true" Des="废墟矿场复活点"/>
+	<Property ID="Relive_kewei_11" Name="ReliveName_kewei_11" Scene="ini\Scene\westzq" Location="-625.745,-17.999,-535.014,-1.194" Camp="zq" Type="field" Activated="true" Permit="true" Des="绿荫海湾复活点"/>
+	<Property ID="Relive_yatilun_06" Name="ReliveName_yatilun_06" Scene="ini\Scene\westzq" Location="387.664,38.325,-2083.589,-2.010" Camp="zq" Type="field" Activated="true" Permit="true" Des="海神丛林复活点"/>
+	<Property ID="Relive_yatilun_07" Name="ReliveName_yatilun_07" Scene="ini\Scene\westzq" Location="176.546,78.310,-2501.964,2.775" Camp="zq" Type="field" Activated="true" Permit="true" Des="珊瑚海岸复活点"/>
+	<Property ID="Relive_yatilun_08" Name="ReliveName_yatilun_08" Scene="ini\Scene\westzq" Location="-286.776,48.874,-2569.043,-0.359" Camp="zq" Type="field" Activated="true" Permit="true" Des="诅咒之林复活点"/>
+	<Property ID="Relive_yatilun_09" Name="ReliveName_yatilun_09" Scene="ini\Scene\westzq" Location="-103.972,47.590,-2927.864,1.375" Camp="zq" Type="field" Activated="true" Permit="true" Des="提亚伦北岸复活点"/>
+	<Property ID="Relive_kadiya_07" Name="ReliveName_kadiya_07" Scene="ini\Scene\westzq2" Location="-1298.581,236.138,1388.016,3.123" Camp="zq" Type="field" Activated="true" Permit="true" Des="伐木场复活点"/>
+	<Property ID="Relive_kadiya_08" Name="ReliveName_kadiya_08" Scene="ini\Scene\westzq2" Location="-1878.582,99.155,1394.806,2.672" Camp="zq" Type="field" Activated="true" Permit="true" Des="钢架悬桥复活点"/>
+	<Property ID="Relive_kadiya_09" Name="ReliveName_kadiya_09" Scene="ini\Scene\westzq2" Location="-2228.955,64.010,1288.860,3.124" Camp="zq" Type="field" Activated="true" Permit="true" Des="厄运试验场复活点"/>
+	<Property ID="Relive_kerui_07" Name="ReliveName_kerui_07" Scene="ini\Scene\westzq2" Location="-2965.342,26.064,1615.769,1.634" Camp="zq" Type="field" Activated="true" Permit="true" Des="反击号角复活点"/>
+	<Property ID="Relive_kerui_08" Name="ReliveName_kerui_08" Scene="ini\Scene\westzq2" Location="-3062.332,59.975,892.564,-0.879" Camp="zq" Type="field" Activated="true" Permit="true" Des="远古之门复活点"/>
+	<Property ID="Relive_kerui_09" Name="ReliveName_kerui_09" Scene="ini\Scene\westzq2" Location="-3374.914,54.839,751.369,-1.821" Camp="zq" Type="field" Activated="true" Permit="true" Des="混沌集会场复活点"/>
+	<Property ID="Relive_kerui_10" Name="ReliveName_kerui_10" Scene="ini\Scene\westzq2" Location="-3791.723,54.054,349.327,-2.702" Camp="zq" Type="field" Activated="true" Permit="true" Des="鲜血祭坛复活点"/>
+	<Property ID="Relive_kerui_11" Name="ReliveName_kerui_11" Scene="ini\Scene\westzq2" Location="-3803.119,89.940,745.749,-0.155" Camp="zq" Type="field" Activated="true" Permit="true" Des="废墟林地复活点"/>
+	<Property ID="Relive_juren_06" Name="ReliveName_juren_06" Scene="ini\Scene\westneutral" Location="5684.933,71.098,3680.047,-0.821" Camp="zq" Type="field" Activated="true" Permit="true" Des="远征军营地复活点"/>
+	<Property ID="Relive_juren_07" Name="ReliveName_juren_07" Scene="ini\Scene\westneutral" Location="5320.223,112.818,3551.195,-0.914" Camp="zq" Type="field" Activated="true" Permit="true" Des="西峡湾长廊复活点"/>
+	<Property ID="Relive_juren_08" Name="ReliveName_juren_08" Scene="ini\Scene\westneutral" Location="5553.084,157.092,3115.036,1.381" Camp="zq" Type="field" Activated="true" Permit="true" Des="古老遗迹复活点"/>
+	<Property ID="Relive_juren_09" Name="ReliveName_juren_09" Scene="ini\Scene\westneutral" Location="4883.492,161.205,2880.506,-1.628" Camp="zq" Type="field" Activated="true" Permit="true" Des="西部密林复活点"/>
+	<Property ID="Relive_juren_10" Name="ReliveName_juren_10" Scene="ini\Scene\westneutral" Location="4439.904,142.214,2935.533,-1.727" Camp="zq" Type="field" Activated="true" Permit="true" Des="东部密林复活点"/>
+	<Property ID="Relive_juren_11" Name="ReliveName_juren_11" Scene="ini\Scene\westneutral" Location="4510.134,154.310,3712.789,1.614" Camp="zq" Type="field" Activated="true" Permit="true" Des="东峡湾长廊复活点"/>
+	<Property ID="Relive_kalafu_06" Name="ReliveName_kalafu_06" Scene="ini\Scene\westneutral" Location="3361.060,67.346,3267.258,-2.999" Camp="zq" Type="field" Activated="true" Permit="true" Des="埋骨之地复活点"/>
+	<Property ID="Relive_kalafu_07" Name="ReliveName_kalafu_07" Scene="ini\Scene\westneutral" Location="3629.367,46.847,3827.054,-0.245" Camp="zq" Type="field" Activated="true" Permit="true" Des="血色哨站复活点"/>
+	<Property ID="Relive_kalafu_08" Name="ReliveName_kalafu_08" Scene="ini\Scene\westneutral" Location="3758.325,50.409,4173.160,0.187" Camp="zq" Type="field" Activated="true" Permit="true" Des="荒原绿洲复活点"/>
+	<Property ID="Relive_kalafu_09" Name="ReliveName_kalafu_09" Scene="ini\Scene\westneutral" Location="3357.045,31.956,4072.104,0.166" Camp="zq" Type="field" Activated="true" Permit="true" Des="荒原绿洲复活点"/>
+	<Property ID="Relive_kalafu_10" Name="ReliveName_kalafu_10" Scene="ini\Scene\westneutral" Location="2497.181,70.696,3024.748,0.965" Camp="zq" Type="field" Activated="true" Permit="true" Des="蛮荒之地复活点"/>
+	<Property ID="Relive_kalafu_11" Name="ReliveName_kalafu_11" Scene="ini\Scene\westneutral" Location="2011.671,124.167,2036.029,-1.574" Camp="zq" Type="field" Activated="true" Permit="true" Des="阿祖拉祭坛复活点"/>
+	<Property ID="Relive_tiaodiya_05" Name="ReliveName_tiaodiya_05" Scene="ini\Scene\middleneutral" Location="-853.559,115.779,2988.075,-1.000" Camp="zq" Type="field" Activated="true" Permit="true" Des="康斯坦丁复活点"/>
+	<Property ID="Relive_tiaodiya_06" Name="ReliveName_tiaodiya_06" Scene="ini\Scene\middleneutral" Location="-1503.860,95.439,2481.232,-2.335" Camp="qh" Type="field" Activated="true" Permit="true" Des="南寒落山脉"/>
+	<Property ID="Relive_tiaodiya_07" Name="ReliveName_tiaodiya_07" Scene="ini\Scene\middleneutral" Location="-1153.148,74.345,3492.009,-2.767" Camp="zq" Type="field" Activated="true" Permit="true" Des="乱风石林复活点"/>
+	<Property ID="Relive_tiaodiya_08" Name="ReliveName_tiaodiya_08" Scene="ini\Scene\middleneutral" Location="-1646.250,165.335,3713.982,3.099" Camp="zq" Type="field" Activated="true" Permit="true" Des="风癫岭复活点"/>
+	<Property ID="Relive_kewei_12" Name="ReliveName_kewei_12" Scene="ini\Scene\westzq" Location="-1120.171,-13.043,35.772,2.710" Camp="zq" Type="field" Activated="true" Permit="true" Des="蒸汽之渊复活点"/>
+	<Property ID="Relive_fpszc_zq" Name="Relive_fpszc_zq" Scene="ini\Scene\fpszc" Location="-550.239,-4.703,-18.261,-1.668" Camp="zq" Type="field" Activated="true" Permit="true" Des="载具fps战场蒸汽复活点"/>
+	<Property ID="Relive_fpszc_qh" Name="Relive_fpszc_qh" Scene="ini\Scene\fpszc" Location="-801.357,-4.654,-21.097,1.345" Camp="qh" Type="field" Activated="true" Permit="true" Des="载具fps战场奇幻复活点"/>
+	<Property ID="Relive_kalafu_12" Name="ReliveName_kalafu_12" Scene="ini\Scene\westneutral" Location="3188.541,41.950,3251.697,-2.389" Camp="qh" Type="field" Activated="true" Permit="true" Des="埋骨之地西"/>
+	<Property ID="Relive_dagong_07" Name="ReliveName_dagong_07" Scene="ini\Scene\middleneutral" Location="1660.604,61.543,1822.660,0.017" Camp="qh" Type="town" Activated="true" Permit="true" Des="奇幻城镇复活点"/>
+	<Property ID="Relive_dagong_08" Name="ReliveName_dagong_08" Scene="ini\Scene\middleneutral" Location="1662.008,105.941,3719.895,-2.735" Camp="zq" Type="town" Activated="true" Permit="true" Des="蒸汽城镇复活点"/>
+	<Property ID="Relive_chaori_10" Name="ReliveName_chaori_10" Scene="ini\Scene\eastqh" Location="3141.267,59.099,-421.893,-3.107" Camp="qh" Type="field" Activated="true" Permit="true" Des="恩赐林地"/>
+	<Property ID="Relive_kwPVP_01" Name="Relive_kwPVP_01" Scene="ini\Scene\westzq" Location="118.038,12.857,-132.268,-3.083" Camp="qh" Type="pvptask" PVPTaskID="####" Activated="true" Permit="true" Des="刺探活动复活点"/>
+	<Property ID="Relive_kwPVP_02" Name="Relive_kwPVP_02" Scene="ini\Scene\westzq2" Location="-925.580,213.303,1953.878,-2.443" Camp="qh" Type="pvptask" PVPTaskID="####" Activated="true" Permit="true" Des="刺探活动复活点"/>
+	<Property ID="Relive_kwPVP_03" Name="Relive_kwPVP_03" Scene="ini\Scene\eastqh" Location="3342.352,69.756,449.800,-0.099" Camp="zq" Type="pvptask" PVPTaskID="####" Activated="true" Permit="true" Des="刺探活动复活点"/>
+	<Property ID="Relive_kwPVP_04" Name="Relive_kwPVP_04" Scene="ini\Scene\eastneutral" Location="-5657.585,91.088,5103.274,-1.469" Camp="zq" Type="pvptask" PVPTaskID="####" Activated="true" Permit="true" Des="刺探活动复活点"/>
+	<Property ID="Relive_juewang_01" Name="ReliveName_juewang_01" Scene="ini\scene\scenewar01" Location="535.108,29.740,-806.939,-0.813" Camp="zq" Type="field" Activated="true" Permit="true" Des="军阶战场蒸汽复活点"/>
+	<Property ID="Relive_juewang_02" Name="ReliveName_juewang_02" Scene="ini\scene\scenewar01" Location="-304.968,46.861,431.761,2.363" Camp="qh" Type="field" Activated="true" Permit="true" Des="军阶战场奇幻复活点"/>
+	<Property ID="Relive_juewang_03" Name="ReliveName_juewang_01" Scene="ini\scene\scenewar02" Location="535.108,29.740,-806.939,-0.813" Camp="zq" Type="field" Activated="true" Permit="true" Des="军阶战场蒸汽复活点"/>
+	<Property ID="Relive_juewang_04" Name="ReliveName_juewang_02" Scene="ini\scene\scenewar02" Location="-304.968,46.861,431.761,2.363" Camp="qh" Type="field" Activated="true" Permit="true" Des="军阶战场奇幻复活点"/>
+	<Property ID="Relive_juewang_05" Name="ReliveName_juewang_01" Scene="ini\scene\scenewar03" Location="535.108,29.740,-806.939,-0.813" Camp="zq" Type="field" Activated="true" Permit="true" Des="军阶战场蒸汽复活点"/>
+	<Property ID="Relive_juewang_06" Name="ReliveName_juewang_02" Scene="ini\scene\scenewar03" Location="-304.968,46.861,431.761,2.363" Camp="qh" Type="field" Activated="true" Permit="true" Des="军阶战场奇幻复活点"/>
+	<Property ID="Relive_fb_122_03" Name="ReliveName_Relive_fb_122_03" Scene="ini\scene\fbm122" Location="18.740,-31.016,-255.709,-2.447" Camp="all" Type="field" Activated="false" Permit="false" Des="天怒堡_血斧"/>
+	<Property ID="Relive_fb_122_04" Name="ReliveName_Relive_fb_122_04" Scene="ini\scene\fbm122" Location="-7.977,21.377,-331.797,1.880" Camp="all" Type="field" Activated="false" Permit="false" Des="天怒堡_村长"/>
+	<Property ID="Relive_fb_122_05" Name="ReliveName_Relive_fb_122_05" Scene="ini\scene\fbm122" Location="207.380,36.599,-321.840,1.576" Camp="all" Type="field" Activated="false" Permit="false" Des="天怒堡_教堂"/>
+	<Property ID="Relive_fb_122_06" Name="ReliveName_Relive_fb_122_06" Scene="ini\scene\fbm122" Location="21.927,17.464,-165.180,0.526" Camp="all" Type="field" Activated="false" Permit="false" Des="天怒堡_法罗克"/>
+	<Property ID="Relive_E3_zcqh" Name="Relive_E3_zcqh" Scene="ini\scene\jjm003" Location="-71.040,47.899,139.009,2.521" Camp="qh" Type="field" Activated="true" Permit="true" Des="战场"/>
+	<Property ID="Relive_E3_zczq" Name="Relive_E3_zczq" Scene="ini\scene\jjm003" Location="63.497,56.559,-160.227,-0.345" Camp="zq" Type="field" Activated="true" Permit="true" Des="战场"/>
+	<Property ID="Relive_E3_qhx" Name="Relive_E3_qhx" Scene="ini\Scene\eastqh" Location="3317.10,50.30,1190.55,2.89" Camp="qh" Type="field" Activated="true" Permit="true" Des="奇幻新手村"/>
+	<Property ID="Relive_E3_qh1" Name="Relive_E3_qh1" Scene="ini\Scene\eastqh" Location="3925.92,76.92,949.56,2.89" Camp="qh" Type="field" Activated="true" Permit="true" Des="奇幻BOSS1"/>
+	<Property ID="Relive_E3_qh2" Name="Relive_E3_qh2" Scene="ini\Scene\eastqh" Location="4090.29,52.83,444.26,2.89" Camp="qh" Type="field" Activated="true" Permit="true" Des="奇幻BOSS2"/>
+	<Property ID="Relive_E3_zqx" Name="Relive_E3_zqx" Scene="ini\Scene\westzq" Location="-475.34,14.22,739.56,2.49" Camp="zq" Type="field" Activated="true" Permit="true" Des="蒸汽新手村"/>
+	<Property ID="Relive_E3_zq1" Name="Relive_E3_zq1" Scene="ini\Scene\westzq" Location="-927.37,-12.82,220.24,2.49" Camp="zq" Type="field" Activated="true" Permit="true" Des="蒸汽boss1"/>
+	<Property ID="Relive_E3_zq2" Name="Relive_E3_zq2" Scene="ini\Scene\westzq" Location="-1132.86,-11.46,103.70,2.49" Camp="zq" Type="field" Activated="true" Permit="true" Des="蒸汽boss2"/>
+</Object>
+
+

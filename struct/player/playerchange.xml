@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--角色变身相关属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>		
+		<property name="MainRoleChange" type="string" public="true" private="true" save="true" desc="当前变身资源路径"/>
+		<property name="bCampChange" type="int" public="false" private="false" save="true" desc="是否阵营变身"/>
+    <property name="PreChangeIndex" type="int" public="true" private="true" save="false" desc="预加载变身编号"/>
+		<property name="ChangeIndex" type="int" public="true" private="true" save="false" desc="变身编号"/>
+		<property name="bRoleChange" type="int" public="true" private="true" save="true" desc="当前是否变身"/>
+		<property name="RoleChangeType" type="int" public="false" private="true" save="true" desc="当前角色变身类型"/>
+		<property name="ChangeCostTime" type="int" public="false" private="false" save="true" desc="变身已消耗的时间-最大为1h"/>
+		<property name="ChangeLeftTime" type="int" public="false" private="false" save="true" desc="变身离消耗黑金剩余的时间-最大为1h"/>
+		<property name="ChangeSkill" type="string" public="false" private="false" save="true" desc="变身的技能"/>
+	</properties>
+	<!-- 表属性 -->
+	<records/>
+</object>

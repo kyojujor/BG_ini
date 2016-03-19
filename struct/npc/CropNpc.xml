@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--农作物NPC基础属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="Owner" type="widestr" public="true" private="false" save="true" desc="拥有者"/>
+		<property name="Life" type="int" public="true" private="false" save="true" desc="生命值"/>
+		<property name="TempPhase" type="int" public="true" private="false" save="true" desc="当前所处阶段"/>
+		<property name="TempPhaseValue" type="int" public="false" private="false" save="true" desc="当前所处阶段升级所需时间"/>
+		<property name="IsRipe" type="int" public="false" private="false" save="true" desc="是否成熟"/>
+		<property name="RipeTime" type="int64" public="false" private="false" save="true" desc="成熟的时间"/>
+		<property name="CropTempState" type="int" public="true" private="false" save="true" desc="当前状态0 健康 0x001虫 0x010干 0x100杂"/>	
+		<property name="WormyRatio" type="int" public="false" private="false" save="false" desc="虫灾概率"/>
+		<property name="DryRatio" type="int" public="false" private="false" save="false" desc="干旱概率"/>
+		<property name="WeedRatio" type="int" public="false" private="false" save="false" desc="杂草概率病概率"/>
+	</properties>
+	<!-- 表属性 -->
+	<records>
+		<record name="model_rec" cols="2" maxrows="3" save="false" public="false" private="false" desc="模型列表(Resource属性)">
+			<column type="int" desc="阶段所需时间 单位分钟"/>
+			<column type="string" desc="Resource 阶段对应模型"/>
+		</record>
+	</records>
+	<!--从其他文件加载属性-->
+	<includes>
+	
+	</includes>
+</object>

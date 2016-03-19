@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--移动相关的属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+    <property name="DriftSpeed"    type="float" public="false" private="false" save="false" desc="水面移动速度"/>
+		<property name="DriftSpeedAdd" type="float" public="false" private="false" save="false" desc="水面移动速度附加"/>
+		<property name="DriftJumpSpeed" 	 type="float" public="false" private="false" save="false" desc="水面跳跃速度"/>
+		<property name="DriftJumpSpeedAdd" type="float" public="false" private="false" save="false" desc="水面跳跃速度附加"/>
+		<property name="Gravity"           type="float" public="false" private="true" save="false" desc="重力加速度"/>
+		<property name="GravityAdd"        type="float" public="false" private="false" save="false" desc="重力加速度附加"/>
+	</properties>
+  <includes>
+    <path name="struct\rule\Common\motion.xml" desc="移动"/>
+  </includes>
+</object>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  (桑俊俊) -->
+<!--记录在该场景上创建的公会列表-->
+<object>
+  <!-- 基本属性 -->
+  <properties>
+  </properties>
+  <!-- 表属性 -->
+  <records>
+    <record name="founded_guilds_rec" cols="1" maxrows="1024" save="true" public="false" private="false" desc="在该场景上创建的公会列表">
+      <column type="widestr" desc="公会名称"/>
+    </record>
+  </records>
+  <!--从其他文件加载属性-->
+  <includes>
+  </includes>
+</object>

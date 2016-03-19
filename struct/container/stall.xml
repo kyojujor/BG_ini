@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!-- 摆摊系统相关的属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<!-- 以下为摆摊视图的属性 -->
+		<property name="Style" type="int" public="true" private="true" save="false" desc="样式"/>
+		<property name="Puff" type="widestr" public="true" private="true" save="false" desc="宣传语"/>
+		<property name="Owner" type="widestr" public="true" private="true" save="false" desc="摊主名字"/>		
+		<property name="Purchase0" type="string" public="true" private="true" save="false" desc="收购物品"/>		
+		<property name="Purchase1" type="string" public="true" private="true" save="false" desc="收购物品"/>		
+		<property name="Purchase2" type="string" public="true" private="true" save="false" desc="收购物品"/>		
+		<property name="Purchase3" type="string" public="true" private="true" save="false" desc="收购物品"/>		
+		<property name="Purchase4" type="string" public="true" private="true" save="false" desc="收购物品"/>		
+		<property name="Purchase5" type="string" public="true" private="true" save="false" desc="收购物品"/>		
+	</properties>
+</object>

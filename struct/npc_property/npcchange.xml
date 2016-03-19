@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--NPC变身相关属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="MainNpcChange" type="string" public="true" private="false" save="false" desc="当前NPC变身资源路径"/>
+		<property name="bNpcChange" type="int" public="true" private="false" save="false" desc="当前NPC是否变身"/>
+		<property name="NpcChangeType" type="int" public="true" private="false" save="false" desc="NPC变身类型:0:默认;1:克隆"/>
+	</properties>
+</object>

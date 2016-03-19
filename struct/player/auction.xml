@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<object>
+	<!-- 基本属性 -->
+	<!-- 表属性 -->
+	<records>
+		<record name="rec_consign_args" cols="4" maxrows="300" save="false" public="false" private="false" desc="寄售参数表">
+			<column type="string" desc="ConfigID"/>
+			<column type="int64"  desc="StartPriceEach"/>
+			<column type="int64"  desc="FixedPriceEach"/>
+			<column type="int"    desc="keepingHour"/>
+		</record>
+		
+		<record name="rec_search_args" cols="13" maxrows="1" save="false" public="false" private="false" desc="搜索参数表">
+            <column type="word"    desc="PropIndex1"/>
+            <column type="word"    desc="PropVar1"/>
+            <column type="word"    desc="PropIndex2"/>
+            <column type="word"    desc="PropVar2"/>
+            <column type="word"    desc="PropIndex3"/>
+            <column type="word"    desc="PropVar3"/>
+			<column type="word"    desc="ItemType"/>
+			<column type="word"    desc="ItemQuality"/>
+			<column type="widestr" desc="ItemName"/>
+			<column type="widestr" desc="SellerName"/>
+			<column type="word"    desc="MinLevel"/>
+			<column type="word"    desc="MaxLevel"/>
+			<column type="int64"   desc="MaxPrice"/>
+		</record>
+		
+		<record name="rec_my_consign" cols="1" maxrows="150" save="true" public="false" private="false" desc="我的寄售列表">
+			<column type="string" desc="物品的Uid"/>
+		</record>	
+
+		<record name="rec_my_bid" cols="2" maxrows="200" save="true" public="false" private="false" desc="我的竞拍列表">
+			<column type="string" desc="物品的Uid"/>
+			<column type="int64"  desc="最后一次竞拍时间"/>
+		</record>
+	</records>
+</object>

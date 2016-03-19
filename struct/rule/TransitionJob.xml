@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--转职相关职业属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+	<property name="TransJobList" type="string" public="false" private="true" save="true" desc="转职职业列表"/>
+	<property name="CantTransJob" type="string" public="false" private="true" save="true" desc="是否能够转职"/>
+	<property name="DoTransJob" type="int" public="false" private="true" save="true" desc="是否已经转职"/>
+	<property name="NoTransJob" type="int" public="false" private="false" save="true" desc="转职前职业"/>
+	<property name="TransConditionId" type="string" public="false" private="true" save="true" desc="转职前必须满足的条件ID"/>
+	</properties>
+</object>

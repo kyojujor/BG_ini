@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<object>
+	<!-- 表属性 -->
+	<records>
+		<record name="PropRefreshCompute" cols="7" maxrows="128" save="false" public="false" private="true" desc="属性影响表">
+			<column type="string" desc="属性名"/>
+			<column type="byte" 	desc="属性名索引值"/>
+			<column type="double" desc="通过初始设置转换来源加成的数值"/>
+			<column type="double" desc="通过基本属性转换来源加成的数值"/>
+			<column type="double" desc="通过附加属性转换来源加成的数值"/>
+			<column type="double" desc="通过装备转换来源加成的数值"/>
+			<column type="double" desc="通过增益转换来源加成的数值"/>
+		</record>
+	</records>
+</object>

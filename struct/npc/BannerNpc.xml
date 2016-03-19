@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--旗帜类NPC基础属性-->
+<object>
+    <properties>
+        <property name="OccupiedType" type="int" public="false" private="false" save="false" desc="被占领类型(0: 释放技能型, 1: 据点型)"/>
+        <property name="SkillID" type="string" public="false" private="false" save="false" desc="占领技能ID"/>
+        <property name="OccupancyEffect" type="string" public="false" private="false" save="false" desc="占领特效ID"/>
+        <property name="MaterialPath" type="string" public="true" private="false" save="false" desc="更换材质的存放路径"/>
+        <property name="BelongType" type="int" public="true" private="false" save="false" desc="归属权类型"/>
+        <property name="BelongID" type="string" public="true" private="false" save="false" desc="当前归属方"/>
+        <property name="HaveGuildLimit" type="int" public="false" private="false" save="false" desc="是否有工会才能占领"/>
+        <property name="PointOccupiedValue" type="int" public="false" private="false" save="false" desc="据点型旗帜npc的占领值"/>
+        <property name="PointMaxValue" type="int" public="true" private="false" save="false" desc="据点型旗帜npc的最大值"/>
+        <property name="PlayerNumDiff" type="int" public="false" private="false" save="false" desc="据点型旗帜npc触发范围内的player数差值(负表示ste, 正表示fan)"/>
+        <property name="PointCurrentValue" type="int" public="true" private="false" save="false" desc="据点型旗帜npc的据点值(负表示ste, 正表示fan)"/>
+        <property name="PointOccupiedCamp" type="int" public="false" private="false" save="false" desc="据点型旗帜npc的被占有阵营(1表示ste, 2表示fan, 3表示中立)"/>
+        <property name="PicType" type="string" public="false" private="false" save="false" desc="填写图片名称，方便主界面显示"/>
+    </properties>
+
+    <records>
+        <record name="PointSpringList" cols="1" maxrows="512" save="false" public="false" private="false" desc="据点型旗帜npc的触发列表">
+            <column type="object" desc="触发范围内的玩家ID"/>
+        </record>
+    </records>
+
+    <includes>
+        <path name="struct\rule\Common\Fightbag.xml" desc=""/>
+        <path name="struct\rule\Common\commonfighter.xml" desc=""/>
+        <path name="struct\rule\Common\damage.xml" desc=""/>
+        <path name="struct\rule\Common\flow_new.xml" desc=""/>
+        <path name="struct\rule\Common\range_new.xml" desc=""/>
+        <path name="struct\rule\Common\cooldown_new.xml" desc=""/>
+        <path name="struct\rule\Common\relation.xml" desc=""/>
+        <path name="struct\rule\Common\autorestore.xml" desc=""/>
+        <path name="struct\rule\Common\skilluse.xml" desc=""/>
+        <path name="struct\rule\Common\basefighterdata.xml" desc=""/>
+    </includes>
+</object>

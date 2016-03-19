@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--人物基础属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<!-- 人物基础属性 -->
+		<property name="Str" type="int" public="false" private="false" save="true" desc="力量"/>
+		<property name="Dex" type="int" public="false" private="false" save="true" desc="敏捷"/>
+		<property name="Ing" type="int" public="false" private="false" save="true" desc="智力"/>
+		<property name="Spi" type="int" public="false" private="false" save="true" desc="精神"/>
+		<property name="Sta" type="int" public="false" private="false" save="true" desc="体质"/>
+		<property name="Esth" type="int" public="false" private="false" save="true" desc="感知"/>
+		
+		<!-- 人物基础属性附加 -->
+		<property name="StrAdd" type="int" public="false" private="false" save="false" desc="力量"/>
+		<property name="DexAdd" type="int" public="false" private="false" save="false" desc="敏捷"/>
+		<property name="IngAdd" type="int" public="false" private="false" save="false" desc="智力"/>
+		<property name="SpiAdd" type="int" public="false" private="false" save="false" desc="精神"/>
+		<property name="StaAdd" type="int" public="false" private="false" save="false" desc="体质"/>
+		<property name="EsthAdd" type="int" public="false" private="false" save="false" desc="感知"/>
+	</properties>
+	
+	<includes>
+		<path name="struct\rule\PropRefreshCompute.xml" desc="属性影响表"/>
+	</includes>
+</object>

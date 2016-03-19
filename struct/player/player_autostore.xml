@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--自动回复相关属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<!--即时回复相关数据-->
+		<property name="RCUpSpeed" type="int" public="false" private="false" save="false" desc="怒气回复速度"/>
+		<property name="RCGenASpeed" type="float" public="false" private="false" save="false" desc="怒气职业修正值(攻击)"/>
+    <property name="RCGenHSpeed" type="float" public="false" private="false" save="false" desc="怒气职业修正值(被伤害)"/>    
+		<property name="AVUpSpeed" type="int" public="false" private="false" save="false" desc="精神能量回复速度"/>
+		<property name="EYUpSpeed" type="int" public="false" private="false" save="false" desc="蒸汽能量回复速度"/>
+		<property name="FSUpSpeed" type="int" public="false" private="false" save="false" desc="先祖之力回复速度"/>
+    <property name="FSGenASpeed" type="float" public="false" private="false" save="false" desc="先祖之力职业修正值(攻击)"/>
+    <property name="FSGenHSpeed" type="float" public="false" private="false" save="false" desc="先祖之力职业修正值(被伤害)"/>
+    <property name="DPUpSpeed" type="int" public="false" private="false" save="false" desc="躲闪值回复速度"/>
+		<property name="ArmHPUpSpeed" type="int" public="true" private="false" save="false" desc="装甲生命回复速度"/>
+		<property name="ArmEYUpSpeed" type="int" public="true" private="false" save="false" desc="装甲能量回复速度"/>
+
+		<property name="RCUpSpeedAdd" type="int" public="false" private="false" save="false" desc=""/>
+		<property name="RCGenASpeedAdd" type="float" public="false" private="false" save="false" desc=""/>
+    <property name="RCGenHSpeedAdd" type="float" public="false" private="false" save="false" desc=""/>    
+		<property name="AVUpSpeedAdd" type="int" public="false" private="false" save="false" desc=""/>
+		<property name="EYUpSpeedAdd" type="int" public="false" private="false" save="false" desc=""/>
+		<property name="FSUpSpeedAdd" type="int" public="false" private="false" save="false" desc=""/>
+    <property name="FSGenASpeedAdd" type="float" public="false" private="false" save="false" desc=""/>
+    <property name="FSGenHSpeedAdd" type="float" public="false" private="false" save="false" desc=""/>
+    <property name="DPUpSpeedAdd" type="int" public="false" private="false" save="false" desc=""/>		
+		<property name="ArmHPUpSpeedAdd" type="int" public="false" private="false" save="false" desc="装甲生命回复速度"/>
+		<property name="ArmEYUpSpeedAdd" type="int" public="false" private="false" save="false" desc="装甲能量回复速度"/>
+	</properties>
+</object>

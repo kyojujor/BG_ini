@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--游戏对象属性定义模版文件-->
+<object>
+    <!-- 内部属性 -->
+    <internals>
+        <property name="CollideRadius" type="float" public="true" private="false" save="false" desc=""/>
+        <property name="Fixed" type="byte" public="true" private="false" save="false" desc=""/>
+        <property name="bAllVisible" type="int" public="true" private="false" save="false" desc=""/>		
+    </internals>
+</object>

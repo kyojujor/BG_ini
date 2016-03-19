@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--玩家的生活职业 -->
+
+<object>
+	<properties>
+		<property name="LifeOccupFirstType" type="int" public="false" private="true" save="true"    desc="生活职业类型"/>
+		<property name="LifeOccupFirstExp"  type="int" public="false" private="true" save="true"    desc="第一类型 当前经验"/>
+
+		<property name="LifeJobLevel" type="int" public="false" private="true" save="true"    desc="生活职业等级"/>
+		
+		<property name="Physical"    type="int" public="false" private="true" save="true"    desc="体力"/>
+		<property name="MaxPhysical" type="int" public="false" private="true" save="false"    desc="体力上限"/>
+	</properties>
+</object>
+

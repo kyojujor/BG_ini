@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--玩家各人所属的特殊NPC信息-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+	</properties>
+	<!-- 表属性 -->
+	<records>
+	<!--修改:属性修改成可保存的public-->
+		<record name="special_npc_rec" cols="6" maxrows="20" save="false" public="false" private="true" desc="">
+			<column type="object" desc="uid"/>
+			<column type="string" desc="configid"/>
+			<column type="float" desc="x"/>
+			<column type="float" desc="y"/>
+			<column type="float" desc="z"/>
+			<column type="byte" desc="state"/>
+		</record>
+
+	</records>
+</object>

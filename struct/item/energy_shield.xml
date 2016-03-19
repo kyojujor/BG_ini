@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--能量盾属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="EnergyValue" type="int" public="false" private="true" save="true" desc="能量盾当前能量值"/>
+		<property name="MaxEnergyValue" type="int" public="false" private="true" save="false" desc="能量盾最大能量值"/>
+		<property name="RequireLevel" type="int" public="false" private="false" save="false" desc="能量盾充能需求等級"/>
+		<property name="EnergyExpLv" type="byte" public="false" private="true" save="true" desc="能量盾强化经验等级"/>
+		<property name="EnergyExp" type="int" public="false" private="true" save="true" desc="能量盾强化当前经验等级经验值"/>
+		<property name="EnergyRetain" type="int" public="false" private="false" save="true" desc="能量盾能量持续时间(分钟)"/>
+	</properties>
+	<!-- 表属性 -->
+	<records>
+	</records>
+	<!--从其他文件加载属性-->
+	<includes>
+
+	</includes>
+</object>

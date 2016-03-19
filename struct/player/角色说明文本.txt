@@ -1,0 +1,50 @@
+=========================================================
+/*角色阵营种族职业汇总*/
+=========================================================
+
+玩家对象：
+CAMP_STEAM = 1,             //蒸汽
+CAMP_FANTASY = 2,           //奇幻
+CAMP_NEUTRAl = 3,	    //中立
+
+RACE_STEAM_HUMAN = 1,		//蒸汽人类
+RACE_STEAM_VAMPIRE = 2,		//血族
+RACE_STEAM_DWARF = 3,		//矮人
+RACE_FANTASY_HUMAN = 4,		//奇幻人类
+RACE_FANTASY_SAVAGE = 5,	//野蛮人
+RACE_FANTASY_KASHI = 6,		//喀什
+
+JOB_ARBITER       = 1,		//仲裁者
+JOB_STEAM_LEARNER = 2,		//蒸汽学徒
+JOB_MYSTIC        = 3,		//秘法师
+JOB_MIKE          = 4,		//麦克骑士
+JOB_WILD_GUARDIAN = 5,		//野性守护者
+JOB_DEVIL_HUNTER  = 6,		//猎魔人
+JOB_ALCHEMIST     = 7,		//炼金师
+JOB_MAGICIAN      = 8,		//魔法师
+
+//-----------转职职业一览-------------//
+JOB_PUNISHER      = 21,		//惩罚者
+JOB_GUNMAN        = 22,		//神枪手
+JOB_EXECUTOR      = 23,		//执行者
+JOB_WEAPON        = 24,		//器械师
+JOB_MECHANIC      = 25,		//构造师
+JOB_PAGAN         = 26,		//异教徒
+JOB_WIZARD        = 27,		//咒术师
+JOB_DARK_RITUAL   = 28,		//黑暗祭师
+JOB_WITCH         = 29,		//女巫
+JOB_KNIGHT_TITAN  = 30,		//泰坦骑士
+JOB_STORM_RIDER   = 31,		//风暴骑士
+JOB_BROKEN_KNIGHT = 32,		//破碎骑士
+JOB_BEAR          = 33,		//熊人
+JOB_TAUREN        = 34,		//蛮牛人
+JOB_WEREWOLF      = 35,		//狼人
+JOB_BLADE_RUNNER  = 36,		//刀锋战士
+JOB_HUNTERS       = 37,		//狩猎者
+JOB_SWORDSMAN     = 38,		//魔剑士
+JOB_WEAPON_MASTER = 39,		//炼器师
+JOB_DOCTOR        = 40,		//医师
+JOB_ARCANIST      = 41,		//变能师
+JOB_TEMPLE        = 42,		//圣殿法师
+JOB_ROVE          = 43,		//流浪法师
+JOB_BALANCE       = 44,		//平衡法师

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 每日推荐表格定义 -->
+<object>
+	<properties>
+		<property name="EWId" type="string" public="false" private="true" save="true" desc="能量井ID"/>
+		<property name="PreForce" type="int" public="false" private="true" save="true" desc="玩家以前的势力"/>
+		<property name="EWResFightState" type="int" public="false" private="true" save="true" desc="状态"/>
+	</properties>
+</object>

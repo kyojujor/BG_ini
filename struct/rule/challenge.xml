@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--玩家挑战系统属性表-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="ChallengeState" type="int" public="true" private="true" save="false" desc="切磋对象状态"/>
+		<property name="ChallengeName" type="widestr" public="true" private="true" save="false" desc="切磋对象名称"/>
+		<property name="ChallengeX" type="float" public="false" private="false" save="false" desc="切磋中心点坐标"/>
+		<property name="ChallengeY" type="float" public="false" private="false" save="false" desc="切磋中心点坐标"/>
+		<property name="ChallengeZ" type="float" public="false" private="false" save="false" desc="切磋中心点坐标"/>
+		
+	</properties>
+	<!-- 表格 -->
+	<records>
+	</records>
+</object>

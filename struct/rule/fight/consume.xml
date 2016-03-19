@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--消耗相关属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<!--消耗相关-->
+		<!--属性消耗-->
+		<property name="AConsumeCurHP" type="int" public="false" private="true" save="false" desc="直接消耗HP点数"/>
+		<property name="PConsumeCurHP" type="float" public="false" private="true" save="false" desc="百分比消耗HP(百分数)"/>
+		<property name="AConsumeCurMP" type="int" public="false" private="true" save="false" desc="直接消耗MP点数"/>
+		<property name="PConsumeCurMP" type="float" public="false" private="true" save="false" desc="百分比消耗MP(百分数)"/>
+		<property name="AConsumeEnergy" type="int" public="false" private="true" save="false" desc="直接消耗蒸汽能量值点数"/>
+		<property name="PConsumeEnergy" type="float" public="false" private="true" save="false" desc="百分比消耗蒸汽能量值(百分数)"/>
+		<property name="AConsumeCuranger" type="int" public="false" private="true" save="false" desc="直接消耗怒气值点数"/>
+		<property name="PConsumeCuranger" type="float" public="false" private="true" save="false" desc="百分比消耗怒气值(百分数)"/>
+		<property name="AConsumeCurmobile" type="int" public="false" private="true" save="false" desc="直接消耗精神能量值"/>
+		<property name="PConsumeCurmobile" type="float" public="false" private="true" save="false" desc="百分比消耗精神能量值(百分数)"/>
+    <property name="AConsumeCurFS" type="int" public="false" private="true" save="false" desc="直接消耗先祖之力值"/>
+    <property name="PConsumeCurFS" type="float" public="false" private="true" save="false" desc="百分比消耗先祖之力值"/>
+    <property name="AConsumeCurDP" type="int" public="false" private="true" save="false" desc="直接消耗躲闪值"/>
+    <property name="PConsumeCurDP" type="float" public="false" private="true" save="false" desc="百分比消耗躲闪值"/>
+    <property name="AConsumeCurARMHP" type="int" public="false" private="true" save="false" desc="直接消耗机甲生命值"/>
+    <property name="PConsumeCurARMHP" type="float" public="false" private="false" save="false" desc="百分比消耗机甲生命值"/>
+    <property name="AConsumeCurARMEY" type="int" public="false" private="true" save="false" desc="直接消耗机甲能量值"/>
+    <property name="PConsumeCurARMEY" type="float" public="false" private="false" save="false" desc="百分比消耗机甲能量值"/>
+    <property name="AConsumeRFC" type="int" public="false" private="true" save="false" desc="直接消耗怒火"/>
+    <property name="AConsumeAmmo" type="string" public="false" private="true" save="false" desc="直接载具子弹"/>
+    <!--物品消耗-->
+		<property name="ConsumeItemID" type="string" public="false" private="true" save="false" desc="消耗物品的ID "/>
+		<property name="ConsumeItemCount" type="int" public="false" private="true" save="false" desc="消耗物品的数量 "/>
+		<!--消耗刀锋之灵的类型-->
+		<property name="WeaponNimbus1" type="int" public="false" private="false" save="false" desc="是否消耗该灵气"/>
+		<property name="WeaponNimbus2" type="int" public="false" private="false" save="false" desc="是否消耗该灵气 "/>
+		<property name="WeaponNimbus3" type="int" public="false" private="false" save="false" desc="是否消耗该灵气"/>
+		<property name="WeaponNimbus4" type="int" public="false" private="false" save="false" desc="是否消耗该灵气 "/>
+	</properties>
+</object>

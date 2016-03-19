@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--场景副本属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="ArenaID"     type="int" public="false" private="false" save="false" desc="对应竞技场id"/>
+		<property name="ATeamPoints" type="int" public="false" private="false" save="false" desc="A队积分"/>
+		<property name="BTeamPoints" type="int" public="false" private="false" save="false" desc="B队积分"/>
+		<property name="ATeamKills"  type="int" public="false" private="false" save="false" desc="A队击杀"/>
+		<property name="BTeamKills"  type="int" public="false" private="false" save="false" desc="B队击杀"/>
+		<property name="ATeamAN"     type="int" public="false" private="false" save="false" desc="竞技场开启时A队实际人数"/>
+		<property name="BTeamAN"     type="int" public="false" private="false" save="false" desc="竞技场开启时B队实际人数"/>
+		<property name="ATeamUid"    type="int64" public="false" private="false" save="false" desc="A队排队的uid"/>
+		<property name="BTeamUid"    type="int64" public="false" private="false" save="false" desc="B队排队的uid"/>
+		<property name="ArenaSceneState"    type="int" public="false" private="false" save="false" desc="竞技场的状态"/>
+	</properties>
+	<!-- 表属性 -->
+	<records>
+		<record name="arena_info_rec" cols="13" maxrows="10" save="false" public="false" private="false" desc="竞技场统计表">
+			<column type="widestr" desc="角色名"/>
+			<column type="dword"   desc="等级"/>
+			<column type="dword"   desc="职业"/>
+			<column type="dword"   desc="击杀数"/>
+			<column type="dword"   desc="死亡数"/>
+			<column type="dword"   desc="伤害量"/>
+			<column type="dword"   desc="治疗量"/>
+			<column type="dword"   desc="当前的积分"/>
+			<column type="dword"   desc="本场获得的积分"/>
+			<column type="dword"   desc="竞技场中的阵营"/>
+			<column type="dword"   desc="金钱"/>
+			<column type="dword"   desc="英勇点数"/>
+			<column type="dword"   desc="经验"/>
+		</record>
+		<record name="special_teama_rec" cols="14" maxrows="5" save="false" public="false" private="false" desc="竞技场队伍成员列表">
+			<column type="widestr" desc="队员名"/>
+			<column type="string"  desc="头像"/>
+			<column type="float"   desc="坐标X"/>
+			<column type="float"   desc="坐标Z"/>
+			<column type="byte"    desc="血量"/>
+			<column type="byte"    desc="能量"/>
+			<column type="string"  desc="Buffers"/>
+      <column type="int64"   desc="上次离线时间"/> 
+  		<column type="byte"    desc="等级"/>
+   		<column type="byte"    desc="职业"/>
+  	  <column type="byte"    desc="状态"/>
+  		<column type="byte"    desc="队伍中的位置"/>
+  	  <column type="byte"    desc="队伍中的职位"/>
+			<column type="string"  desc="标记字符串"/>  
+		</record>
+		<record name="special_teamb_rec" cols="14" maxrows="5" save="false" public="false" private="false" desc="竞技场队伍成员列表">
+			<column type="widestr" desc="队员名"/>
+			<column type="string"  desc="头像"/>
+			<column type="float"   desc="坐标X"/>
+			<column type="float"   desc="坐标Z"/>
+			<column type="byte"    desc="血量"/>
+			<column type="byte"    desc="能量"/>
+			<column type="string"  desc="Buffers"/>
+      <column type="int64"   desc="上次离线时间"/> 
+  		<column type="byte"    desc="等级"/>
+   		<column type="byte"    desc="职业"/>
+  		<column type="byte"    desc="状态"/>
+  		<column type="byte"    desc="队伍中的位置"/>
+  	  <column type="byte"    desc="队伍中的职位"/>
+			<column type="string"  desc="标记字符串"/>  
+		</record>
+	</records>
+	<!--从其他文件加载属性-->
+	<includes>
+	</includes>
+</object>

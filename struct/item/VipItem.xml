@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="gb2312"?>
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="UseTime" type="int" public="false" private="false" save="false" desc="使用后获得VIP的时间"/>
+	</properties>
+	<!--从其他文件加载属性-->
+	<includes>
+	</includes>
+</object>

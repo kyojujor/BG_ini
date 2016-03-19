@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--收益递减相关次数记录-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+	</properties>
+	<records>
+		<!-- 玩家收益递减相关事件战场次数记录表 -->
+		<record name="ReduceCountRec" cols="3" maxrows="1" save="true" public="false" private="true" desc="经验收益递减次数记录表">
+			<column type="byte" desc="事件计数"/>
+			<column type="byte" desc="战场计数"/>
+			<column type="byte" desc="竞技场计数"/>
+		</record>
+    <!-- 玩家收益上限相关事件战场记录表 -->
+    <record name="TomplimitRec" cols="4" maxrows="1" save="true" public="false" private="true" desc="收益上限记录表">
+      <column type="int64" desc="战场最大金钱设置"/>
+      <column type="int64" desc="战场最大荣誉设置"/>
+      <column type="int64" desc="战场最大经验设置"/>
+      <column type="int64" desc="战场最大英勇点数设置"/>
+    </record>
+	</records>
+</object>

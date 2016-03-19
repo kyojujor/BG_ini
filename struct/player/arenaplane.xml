@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--竞技系统相关属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="In_ArenaPlane" type="int" public="false" private="true" save="true" desc="竞技状态"/>
+		<property name="Plane_ID" type="int" public="false" private="false" save="true" desc="竞技平台ID"/>
+		<property name="Coin_Dota" type="int" public="false" private="true" save="true" desc="Dota金钱"/>
+		<property name="Plane_SceneID" type="int" public="false" private="false" save="true" desc="竞技场景ID"/>
+		<property name="Plane_PosX" type="float" public="false" private="false" save="true" desc="竞技场景X坐标"/>
+		<property name="Plane_PosY" type="float" public="false" private="false" save="true" desc="竞技场景Y坐标"/>
+		<property name="Plane_PosZ" type="float" public="false" private="false" save="true" desc="竞技场景Z坐标"/>
+		<property name="Plane_SceneCTime" type="int64" public="false" private="false" save="true" desc="竞技场景创建时间"/>
+		<property name="Plane_RID" type="string" public="false" private="false" save="true" desc="队伍唯一字串"/>
+	</properties>
+	<records>
+	</records>
+</object>

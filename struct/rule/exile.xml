@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--放逐之地模块属性表by jiangkai 2012年12月13日-->
+<object>
+	<properties>
+    <property name="ExileStatus" type="int" public="false" private="true" save="true" desc="玩家身份"/>
+    <property name="ExileLockDate" type="double" public="false" private="false" save="true" desc="玩家封停日期"/>
+    <property name="ExileLockTime" type="int" public="false" private="false" save="true" desc="玩家封停时间(天)"/>
+  </properties>
+</object>

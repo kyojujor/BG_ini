@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--服务器逻辑对象类型定义-->
+<logicclass>
+    <class id="player" type="TYPE_PLAYER" desc="角色的基类，服务器默认类型">
+        <class id="role" desc="角色创建时，系统内部调用的对象定义，服务器默认类型"/>
+    </class>
+    <class id="scene" type="TYPE_SCENE" desc="场景的基类，服务器默认类型">
+        <class id="NormalScene" desc="普通场景"/>
+        <class id="CloneScene" desc="副本场景"/>
+        <class id="BattleWarScene" desc="战场场景"/>
+        <class id="ArenaScene" desc="竞技场场景"/>
+        <class id="EWScene" desc="能量井战场场景"/>
+		<class id="PVPTaskScene" desc="PVP冒险战场场景"/>
+    </class>
+    <class id="npc" type="TYPE_NPC" desc="npc基类">
+        <class id="HiddenNpc" desc="隐形npc">
+            <class id="AreaNpc" desc="区域npc"/>
+            <class id="FormationNpc" desc="阵型npc"/>
+        </class>
+        <class id="VisibleNpc" desc="可视npc">
+            <class id="AttackNpc" desc="战斗npc">
+                <class id="CommonNpc" desc="普通战斗npc"/>
+                <class id="ConvoyNpc" desc="护送npc"/>
+                <class id="SummonNpc" desc="召唤npc"/>
+            </class>
+            <class id="FunctionNpc" desc="功能npc">
+                <class id="BannerNpc" desc="旗帜npc"/>
+                <class id="FlyNpc" desc="飞行npc">
+                    <class id="CastleNpc" desc="城堡npc"/>
+                </class>
+                <class id="GivingNpc" desc="给予npc"/>
+                <class id="MultiSkillNpc" desc="多人技能npc"/>
+                <class id="OrganNpc" desc="机关npc"/>
+                <class id="SkillEffectNpc" desc="技能使用的特殊NPC"/>
+                <class id="SwitchDoor" desc="传送门"/>
+                <class id="SkillNpc" desc="释放技能的NPC"/>
+                <class id="TechnologyNpc" desc="科技npc"/>
+            </class>
+			      <class id="BattleCarrier" desc="战斗载具"/>
+            <class id="Pet" desc="宠物"/>
+        </class>
+    </class>
+    <class id="item" type="TYPE_ITEM" desc="所有物品的基类">
+        <class id="Equipment" desc="可装备物品">
+            <class id="EnergyShield" desc="能量盾"/>
+        </class>
+        <class id="ArmorItem" desc="装甲部件"/>
+        <class id="Enchase" desc="镶嵌物品"/>
+        <class id="Material" desc="材料"/>
+        <class id="BlackGold" desc="黑金"/>
+        <class id="Bag" desc="小背包"/>
+        <class id="ToolItem" desc="道具物品">
+            <class id="TransItem" desc="传送类ITEM"/>
+						<class id="CarrierItem" desc="载具类ITEM"/>
+            <class id="EnergyTin" desc="能量罐"/>
+            <class id="Expill" desc="经验丹"/>
+            <class id="VipItem" desc="VIP道具"/>
+						<class id="TreasureItem" desc="藏宝图道具"/>
+						<class id="EnergyItem" desc="充能类"/>
+        </class>
+        <class id="PetMount" desc="宠物物品"/>
+        <class id="DropMoneyItem" desc="掉落中的金钱显示物品"/>
+        <class id="Rune" desc="符文物品"/>
+        <class id="Fashion" desc="时装"/>
+    </class>
+    <class id="container" type="TYPE_ITEM" desc="所有玩家可操作容器的基类">
+        <class id="AddContainer" desc="附加于基础容器的栏位，此附加的容器包含n个Bag道具，每个Bag道具可激活基础容量之外的一些容量">
+            <class id="AddToolBox" desc="背包的附加栏位"/>
+            <class id="AddDepotBox" desc="仓库的附加栏位"/>
+        </class>
+        <class id="ToolBox" desc="背包"/>
+        <class id="DepotBox" desc="仓库"/>
+        <class id="EquipBox" desc="装备栏"/>
+        <class id="FashionBox" desc="时装栏"/>
+        <class id="ArmorBox" desc="装甲部件栏"/>
+        <class id="MountBox" desc="装备当前可乘骑的坐骑的装备栏"/>
+        <class id="MountPetBox" desc="装备当前可召唤宠物的装备栏"/>
+        <class id="MountPetWildBox" desc="装备当前专精的装备栏"/>
+        <class id="RecvPostBox" desc="收邮件容器"/>
+        <class id="ReclaimBox" desc="售出物品回购容器"/>
+        <class id="InscriptionBox" desc="铭刻容器"/>
+        <class id="EnhanceBox" desc="技能专精容器"/>
+        <class id="BlackGoldBox" desc="黑金能量容器"/>
+        <class id="BladeRunnerBox" desc="刀锋战士吸收的武器之灵容器"/>
+        <class id="PetStarSkillBox" desc="宠物星级技能容器"/>
+        <class id="PetStarOrcSoulBox" desc="宠物兽魂组合容器"/>
+        <class id="PetStarOrcSoulSeclectBox" desc="宠物兽魂选择容器"/>
+        <class id="PetStarStrengthenItemBox" desc="宠物星级技能魔化后物品"/>
+        <class id="PetStarStrengthenBuffBox" desc="宠物魔化后BUFF"/>
+        <class id="HortationItemBox" desc="兽魂专精奖品容器"/>
+        <class id="AHTestBox" desc="拍卖行测试用容器"/>
+        <class id="GulidStorage" desc="公会仓库"/>
+        <class id="CopyToolBox" desc="背包的副本"/>
+        <class id="NpcDropBox" desc="NPC掉落包"/>
+        <class id="WebExBox" desc="线下交易"/>
+    </class>
+    <class id="fixcontainer" type="TYPE_ITEM" desc="所有玩家不可操作的容器的基类">
+        <class id="SkillContainer" desc="SkillContainer"/>
+        <class id="TempSkillContainer" desc="SkillContainer"/>
+        <class id="ItemSkillBox" desc="SkillContainer"/>
+        <class id="BufferContainer" desc="BufferContainer"/>
+        <class id="ShopBox" desc="一般商店的容器"/>
+    </class>
+    <class id="Skill" type="TYPE_ITEM" desc="技能">
+        <class id="SkillNormal" desc="普通技能"/>
+        <class id="SkillLock" desc="锁定技能"/>
+    </class>
+    <class id="Buffer" type="TYPE_ITEM" desc="Buffer"/>
+    <class id="basicweakbox" type="TYPE_WEAKBOX" desc="弱关联容器的基类">
+        <class id="ExchangeBox" desc="玩家交易栏"/>
+        <class id="ProcessBox" desc="玩家加工栏 只有一个物品"/>
+        <class id="SendPostBox" desc="发邮件容器"/>
+        <class id="SendDealPostBox" desc="邮箱发送至交易行容器"/>
+        <class id="SendBankPostBox" desc="邮箱发送至银行容器"/>
+        <class id="CompoundItemBox" desc="物品合成容器"/>
+        <class id="UsingItemSkill" desc="使用ITEM临时技能锁定"/>
+        <class id="JewelCompoundBox" desc="宝石合成容器"/>
+        <class id="AsktobuySellBox" desc="求购行出售容器"/>
+        <class id="AsktobuyFastSellBox" desc="求购行快捷出售容器"/>
+    </class>
+</logicclass>
+

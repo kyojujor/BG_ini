@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="gb2312"?>
+<object>
+	<records>
+		<record name="chatpage_rec" cols="22" maxrows="10" public="false" private="true" save="true" desc="表单表">
+			<column type="byte"   desc="表单索引"/>
+			<column type="widestr" desc="表单名称"/>
+			<column type="byte"   desc="是否战斗表单"/>
+			<column type="byte"   desc="组合状态 1组合状态，0分解状态"/>
+			<column type="byte"   desc="锁定状态 1锁定，0解锁"/>
+			<column type="word"   desc="透明度值"/>
+			<column type="float"   desc="x坐标"/>
+			<column type="float"   desc="y坐标"/>
+			<column type="dword"   desc="表单宽度"/>
+			<column type="dword"   desc="表单高度"/>
+			<column type="byte"   desc="附近频道"/>
+			<column type="byte"   desc="密聊频道"/>
+			<column type="byte"   desc="喊话频道"/>
+			<column type="byte"   desc="区域频道"/>
+			<column type="byte"   desc="世界频道"/>
+			<column type="byte"   desc="队伍频道"/>
+			<column type="byte"   desc="团队频道"/>
+			<column type="byte"   desc="工会频道"/>
+			<column type="byte"   desc="战场频道"/>
+			<column type="byte"   desc="招募频道"/>
+			<column type="byte"   desc="系统频道"/>
+			<column type="byte"   desc="战斗频道"/>
+		</record>
+	</records>
+</object>

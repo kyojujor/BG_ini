@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2009 (http://www.altova.com) by ylp (EMBRACE) -->
+<!--非战斗NPC基础属性-->
+<object>
+	<!-- 基本属性 -->
+  <properties>
+    <property name="SpringType" type="int" public="true" private="false" save="false" desc="触发方式"/>
+    <property name="CampLimit" type="int" public="false" private="false" save="false" desc="阵营限制"/>
+    <property name="ForceLimit" type="int" public="false" private="false" save="false" desc="势力限制"/>
+    <property name="LevelLimit" type="string" public="false" private="false" save="false" desc="等级限制"/>
+    <property name="ItemIDLimit" type="string" public="false" private="false" save="false" desc="道具ID限制"/>
+    <property name="SkillIDLimit" type="string" public="false" private="false" save="false" desc="技能限制ID"/>
+    <property name="SkillLevelLimit" type="int" public="false" private="false" save="false" desc="技能等级限制"/>
+    <property name="TaskIDLimit" type="int" public="false" private="false" save="false" desc="任务限制"/>
+    <property name="Num" type="int" public="false" private="false" save="false" desc="技能释放的次数"/>
+    <property name="Time" type="float" public="false" private="false" save="false" desc="技能释放的时间间隔(s)"/>
+    <property name="RoadSignID" type="int" public="true" private="false" save="false" desc="路牌编号"/>
+  </properties>
+  <!-- 表属性 -->
+  <records>
+    <record name="levellimit_rec" cols="1" maxrows="2" public="false" private="false" save="false" desc="等级限制表">
+        <column type="byte" desc="等级"/>
+    </record>
+  </records>
+  <!--从其他文件加载属性-->
+  <includes>
+	<path name="struct\rule\Common\base_ctrl_prop.xml" desc="控制属性"/>
+  </includes>
+</object>

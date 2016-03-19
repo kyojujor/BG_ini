@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<Property name="CantEquipMore" type="int" public="false" private="true" save="false" desc="能否装备多件"/>
+		<property name="NeedJob" type="string" public="false" private="false" save="false" desc="装备的职业需求"/>
+		<property name="NeedEnergy" type="int" public="false" private="true" save="false" desc="装备的能量需求"/>
+		<property name="ArmorType" type="String" public="false" private="true" save="false" desc="装甲栏位类型"/>
+		<property name="HoldType" type="byte" public="false" private="true" save="false" desc="0:单手 1:双手 2:长柄"/>
+		<property name="HandPos" type="byte" public="false" private="true" save="false" desc="0:主手 1 副手 2 主副手"/>
+		<property name="EffectNo" type="string" public="false" private="false" save="false" desc="特效编号"/>
+	</properties>
+	<records>
+	</records>
+  <!--从其他文件加载属性-->
+	<includes>
+	</includes>	
+</object>	

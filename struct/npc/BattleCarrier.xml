@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--宠物基础属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="CarrierType" type="string" public="true" private="false" save="false" desc="可以配置多个属性用逗号分割 0-可陆地行走 1-水中 2-空中"/>
+		<property name="CarrierCtlType" type="int" public="true" private="false"  save="false" desc="战斗载具控制类型，0-玩家可以控制 1-固定路点NPC"/>
+		<property name="PatrolModule" type="int" public="false" private="false" save="false" desc="固定路点载具npc巡逻模式"/>
+		<property name="PatrolTimes" type="int" public="false" private="false" save="false" desc="固定路点载具npc,巡逻次数,0-默认1次，-1-无数次"/>
+		<property name="CarrierPathId" type="string" public="false" private="false" save="false" desc="战斗载具路径点配置"/>
+		<property name="CarrierPathCyc" type="int" public="false" private="false" save="false" desc="战斗载具路径循环行走 0-不循环 1-循环走"/>
+		<property name="CarrierMoveType" type="int" public="false" private="false" save="false" desc="行走方式 1-自由行动 2-不可跳 3-只能旋转 4-不能任何操作"/>
+		<property name="CarrierDownInFight" type="int" public="true" private="false" save="false" desc="是否允许战斗中下来 0-允许  1-不允许"/>
+		<property name="CarrierViewAngle" type="int" public="true" private="false" save="false" desc="战斗载具初始化视角 0-自由视角  1-TPS  2-FPS 3-狙击"/>
+		<property name="CarrierViews" type="string" public="false" private="false" save="false" desc="战斗载具允许切换的视角, 可选有 0-自由视角 1-TPS  2-FPS 3-狙击, 格式:1,2,3 得按顺序来"/>
+		<property name="DeflectAngle" type="float" public="false" private="false" save="false" desc="载具第三视角偏移角度,正数向右偏，负数向左偏"/>
+		<property name="DeflectRadius" type="float" public="false" private="false" save="false" desc="载具第三视角摄像机观察半径,默认5.0"/>
+		<property name="CarrierAy" type="float" public="true" private="false" save="false" desc="当前角度"/>
+		<property name="FaceAngle" type="float" public="true" private="false" save="false" desc="面向"/>
+		<property name="CarrierLevel" type="int" public="false" private="false" save="false" desc="上载具骑乘等级限制"/>
+		<property name="BackImage" type="string" public="false" private="false" save="false" desc="载具切面图背景图片路径"/>
+		<property name="BulletPath" type="int" public="false" private="false" save="false" desc="是否具有弹道抛物线"/>
+		<property name="BulletPathMinSpeed" type="float" public="false" private="false" save="false" desc="弹道抛物线速度的最小速度"/>
+		<property name="BulletPathSpeed" type="float" public="false" private="false" save="false" desc="弹道抛物线速度"/>
+		<property name="MountUseConditionID" type="int" public="false" private="false" save="false" desc="上载具条件，如任务等"/>
+		<property name="CreateErrorState" type="string" public="false" private="false" save="false" desc="玩家在如眩晕，等状态下不能召唤载具,与buff的类型号相对应"/>
+		<property name="Belongpeople" type="byte" public="false" private="false" save="false" desc="当前载具设不设置主人，0默认设主人，1不设置主人"/>
+		<property name="Master" type="widestr" public="true" private="false" save="false" desc="主人"/>
+		<property name="CameraBindHeight" type="float" public="false" private="false" save="false" desc="摄像机绑定高度"/>
+		<property name="SeatSkillPackID" type="string" public="false" private="false" save="false" desc="座位技能包, 格式:0,skillpack1,skillpack2;1,skillpack3,skillpack4  0-自由视角 1-TPS 2-FPS 3-狙击"/>
+		<property name="SeatPackID" type="string" public="false" private="false" save="false" desc="座位包"/>
+		<property name="NDeleteCarrier" type="int" public="false" private="false" save="false" desc="人员下来后是否删除载具 1 不需要删除"/>
+		<property name="DeadDeleteCarrier" type="int" public="false" private="false" save="false" desc="死亡后是否立刻删除载具 1 不需要删除"/>
+		<property name="CarrierCanGetExp" type="int" public="false" private="false" save="false" desc="载具杀死Npc是否可以获得经验 1 可以获得"/>
+		<property name="AngleSpeed" type="float" public="false" private="false" save="false" desc="载具旋转速度"/>
+		<property name="RollSpeed" type="float" public="true" private="false" save="false" desc="旋转速度"/>
+		<property name="IsHide" type="int" public="false" private="false" save="false" desc="载技能控制界面是否隐藏"/>
+		<property name="BCLiftTime" type="int" public="false" private="false" save="false" desc="载具生命周期"/>
+		<property name="CarrierAim" type="string" public="false" private="false" save="false" desc="第一人称瞄准界面路径"/>
+		<property name="BoneRollProp" type="string" public="false" private="false" save="false" desc="第一人称载具骨骼旋转属性"/>
+		<property name="MainObj" type="object" public="true" private="true" save="false" desc="附属主体载具PERSISTID"/>
+		<property name="SeatIndex" type="int" public="true" private="true" save="false" desc="所属座位号"/>
+		<property name="EnergyWellID" type="int" public="true" private="false" save="false" desc="能量井ID"/>
+		<property name="IsPlayGetOnAction" type="int" public="true" private="true" save="false" desc="是否播放上载具的动画"/>
+		<property name="GetOnCarrierLimitDistance" type="float" public="false" private="false" save="false" desc="允许上载具的距离"/>
+		
+		<property name="SwitchSceneID" type="dword" public="false" private="false" save="false" desc="传送进能量井公会战场前的场景ID"/>
+		<property name="SwitchXpos" type="float" public="false" private="false" save="false" desc="传送进能量井公会战场前的x"/>
+		<property name="SwitchYpos" type="float" public="false" private="false" save="false" desc="传送进能量井公会战场前的y"/>
+		<property name="SwitchZpos" type="float" public="false" private="false" save="false" desc="传送进能量井公会战场前的z"/>
+		<property name="SwitchOri" type="float" public="false" private="false" save="false" desc="传送进能量井公会战场前的o"/>
+		<property name="ParkingState" type="dword" public="false" private="false" save="false" desc="载具的停靠状态"/>
+		<property name="OutputCarrier" type="int" public="false" private="false" save="false" desc="是否是能令井生成的载具"/>
+		<property name="CarrierSerialNo" type="string" public="false" private="false" save="false" desc="载具生成的序列号"/>
+		<property name="EWCarrierID" type="int" public="true" private="false" save="false" desc="能量井载具ID"/>
+		<property name="EWCarrierState" type="int" public="true" private="false" save="false" desc="能量井载具状态"/>
+		<property name="CarrierOwner" type="widestr" public="true" private="false" save="false" desc="载具所有者"/>
+		<property name="CarrierRobber" type="widestr" public="false" private="false" save="false" desc="载具偷盗者"/>
+		<property name="IsTemp" type="int" public="false" private="false" save="false" desc="是否是临时显示用载具"/>
+		<property name="DelaySkill" type="object" public="false" private="false" save="false" desc="延迟释放的技能"/>
+		<property name="DelaySkillType" type="int" public="false" private="false" save="false" desc="技能类型，0无目标点技能，1有目标点技能"/>
+		<property name="DelaySkillHandType" type="int" public="false" private="false" save="false" desc="延迟释放技能左右手类型"/>
+		<property name="DelaySkillX" type="float" public="false" private="false" save="false" desc="延迟释放技能目标点x"/>
+		<property name="DelaySkillY" type="float" public="false" private="false" save="false" desc="延迟释放技能目标点y"/>
+		<property name="DelaySkillZ" type="float" public="false" private="false" save="false" desc="延迟释放技能目标点z"/>
+		<property name="DelaySkillTime" type="int" public="false" private="true" save="false" desc="技能延迟时间ms"/>
+        <property name="TransPath" type="string" public="true" private="false" save="false" desc="当前场景路线列表"/>
+        <property name="TransStep" type="int" public="true" private="false" save="false" desc="步数"/>
+        <property name="TransSecID" type="string" public="true" private="false" save="false" desc="当前路线"/>
+		<property name="UpperRideAction" type="string" public="false" private="false" save="false" desc="玩家骑乘载具的上半身动作名"/>
+		<property name="FullRideAction" type="string" public="false" private="false" save="false" desc="玩家骑乘载具的全身动作名"/>
+		<property name="ClimbInAction" type="string" public="false" private="false" save="false" desc="玩家爬进载具的动作名"/>
+		<!--能量消耗-->
+		<property name="CapacityID" type="string" public="false" private="false" save="false" desc="能量消耗包"/>
+
+		<!-- 弹药消耗-->
+    <property name="AmmoID"       type="string" public="false" private="false" save="false" desc="弹药包ID"/>
+		<property name="AmmoValue"    type="string" public="true" private="true" save="false" realtime="false" desc="当前弹药值配置"/>
+		<property name="AmmoValueMax" type="string" public="true" private="true" save="false" realtime="false" desc="当前弹药最大配置"/>
+    <property name="AmmoState"    type="string" public="false" private="false" save="false" realtime="false" desc="当前弹夹状态"/>
+    <property name="AmmoNum"      type="int"    public="true" private="true" save="false" realtime="false" desc="当前弹夹数量配置"/>
+
+
+		<!--移动限制属性-->
+		<property name="CantMove" type="byte" public="true" private="true" save="false" realtime="true" desc="是否能够移动 0:可移动 1:不能移动"/>
+		<property name="CantMoveAdd" type="byte" public="true" private="true" save="false" realtime="true" desc="是否能够移动 0:可移动 1:不能移动"/>
+		<property name="CantRotate" type="byte" public="true" private="true" save="false" realtime="true" desc="是否能够转动 0:可转动 1:不能转动"/>
+		<property name="CantAttack" type="byte" public="true" private="true" save="false" desc="是否能够攻击"/>
+		<property name="CantBeAttack" type="byte" public="true" private="true" save="false" desc="是否能够被攻击 0:可被攻击 1：不可被攻击"/>
+		<property name="CantBeAttack2" type="byte" public="true" private="true" save="false" desc="不能被攻击，但不离开战斗"/>
+		<property name="LockAction" type="int" public="true" private="false" save="false" desc="不能被打断，不能使用技能，不能移动"/>
+		<!--<property name="CantBreakAction" type="int" public="true" private="true" save="false" desc="不能打断当前施法及命中动作"/>-->
+		<property name="CantUseSkill" type="byte" public="true" private="true" save="false" realtime="true" desc="是否能够使用技能"/>
+		<property name="CantUseSkillAdd" type="byte" public="true" private="true" save="false" realtime="true" desc="是否能够使用技能"/>
+		<property name="CantUseItem" type="byte" public="true" private="true" save="false" desc="是否能够使用道具"/>
+		<property name="CantUseItemAdd" type="byte" public="true" private="true" save="false" desc="是否能够使用道具"/>
+		<property name="CanBeKilled" type="byte" public="true" private="false" save="false" desc="是否能够被杀死"/>
+		<property name="CantRotateAdd" type="byte" public="true" private="true" save="false" realtime="true" desc="是否能够转动 0:可转动 1:不能转动"/>
+		<property name="CantAttackAdd" type="byte" public="true" private="true" save="false" desc="是否能够攻击"/>
+		<property name="CantBeLtd" type="byte" public="true" private="false" save="false" realtime="true" desc="不受限制(包括下面的几种)"/>
+		<property name="CantBeLtdSpd" type="byte" public="true" private="false" save="false" realtime="true" desc="不受减速"/>
+		<property name="CantBeLtdHitMove" type="byte" public="true" private="false" save="false" realtime="true" desc="不受击飞击退击倒等"/>
+		<property name="CantBeLtdMove" type="byte" public="true" private="false" save="false" realtime="true" desc="不受不能移动"/>
+		<property name="CantBeLtdUseSkill" type="byte" public="true" private="false" save="false" realtime="true" desc="不受不能使用技能限制"/>
+		<property name="CantBeLtdAttack" type="byte" public="true" private="false" save="false" realtime="true" desc="不受攻击限制"/>
+		<property name="CantBeLtdShift" type="byte" public="true" private="false" save="false" realtime="true" desc="不受变形限制"/>
+		<property name="CantBeLtdRotate" type="byte" public="true" private="false" save="false" realtime="true" desc="不能转身限制"/>
+		<property name="PauseAction" type="int" public="true" private="true" save="false" desc="动作暂停"/>
+		<property name="StrCantUseSkill" type="byte" public="true" private="false" save="false" realtime="true" desc="任何情况都不能释放技能"/>
+		<property name="StrCantUseSkillAdd" type="byte" public="true" private="false" save="false" realtime="true" desc="任何情况都不能释放技能"/>
+		<property name="CantJump" type="byte" public="true" private="true" save="false" realtime="true" desc="不能跳跃"/>
+		<property name="damagedeffect" type="string" public="true" private="true" save="false" realtime="true" desc="破损特效"/>
+		<property name="CarrierCollideRadius" type="float" public="false" private="false" save="false" desc="载具碰撞半径，用于移动时的碰撞检测，默认0.5"/>
+
+		<property name="StrengthType" type="byte" public="true" private="true" save="false" realtime="true" desc="能力大小，0：大型  1：中型  2：小型"/>
+		
+		<property name="CarrierVisualRange" type="float" public="false" private="false" save="false" desc="玩家上载具后，可视距离"/>
+		<property name="CarrierUseSkillHeight" type="float" public="false" private="false" save="false" desc="载具释放技能，离地表高度"/>
+	</properties>
+
+	<!-- 表属性 -->
+	<records>
+		<record name="bc_seat_rec" cols="9" maxrows="8" save="false" public="true" private="false" desc="战斗载具座位表">
+			<column type="byte" desc="座位Index"/>
+			<column type="byte" desc="人员功能 1 为控制"/>
+			<column type="widestr" desc="人名"/>
+			<column type="byte" desc="玩家是否可见0--坐在内部，1--坐在外面"/>
+			<column type="dword" desc="相对于控制界面的left坐标"/>
+			<column type="dword" desc="相对于控制界面的top坐标"/>
+			<column type="string" desc="左键绑定技能"/>
+			<column type="string" desc="右键绑定技能"/>
+			<column type="object" desc="当前座位链接npc的persistid" />
+		</record>
+
+		<record name="bc_seatskill_rec" cols="4" maxrows="20" save="false" public="false" private="false" desc="战斗载具技能表">
+			<column type="byte" desc="座位Index"/>
+			<column type="string" desc="技能ID"/>
+			<column type="byte" desc="拥有技能者，0---载具  1--玩家"/>
+			<column type="byte" desc="是否使用抛物线，0---载具  1--抛物线"/>
+		</record>
+
+		<record name="bc_path_rec" cols="4" maxrows="1024" save="false" public="false" private="false" desc="绑定点表">
+			<column type="float" desc="路径x"/>
+			<column type="float" desc="路径y"/>
+			<column type="float" desc="路径z"/>
+			<column type="string" desc="动作"/>
+		</record>
+	</records>
+	<!--从其他文件加载属性-->
+	<includes>
+		<path name="struct\player\flow.xml" desc="从代码中移动过来的"/>
+		<path name="struct\rule\Common\autorestore.xml" desc=""/>
+		<path name="struct\rule\Common\commonfighter.xml" desc=""/>
+		<path name="struct\rule\Common\cooldown_new.xml" desc=""/>
+		<path name="struct\rule\Common\damage.xml" desc=""/>
+		<path name="struct\rule\Common\Fightbag.xml" desc=""/>
+		<path name="struct\rule\Common\flow_new.xml" desc=""/>
+		<path name="struct\rule\Common\ModifyBase.xml" desc="属性 技能 buff修正表"/>
+		<path name="struct\rule\Common\range_new.xml" desc=""/>
+		<path name="struct\rule\Common\relation.xml" desc=""/>
+		<path name="struct\rule\Common\skilluse.xml" desc=""/>
+		<path name="struct\rule\Common\bufferuse.xml" desc=""/>
+		<path name="struct\rule\Common\basefighterdata.xml" desc=""/>
+		<path name="struct\npc_property\ai_motion.xml" desc="AI属性"/>
+        <path name="struct\npc_property\ai_npc_data.xml" desc="AI属性"/>
+        <path name="struct\npc_property\ai_path.xml" desc="AI属性"/>
+	</includes>
+</object>

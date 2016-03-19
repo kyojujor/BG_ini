@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--FlyNPC的属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="AITemplate" type="int" public="false" private="false" save="false" desc="AI模板编号"/>
+		<property name="CurState" type="int" public="false" private="false" save="false" desc="当前状态"/>
+		<property name="SubState" type="int" public="false" private="false" save="false" desc="子状态"/>
+		<property name="PreState" type="int" public="false" private="false" save="false" desc="前一状态"/>
+		<property name="BornX" type="float" public="false" private="false" save="false" desc="出生点X"/>
+		<property name="BornY" type="float" public="false" private="false" save="false" desc="出生点Y"/>
+		<property name="BornZ" type="float" public="false" private="false" save="false" desc="出生点Z"/>
+		<property name="PathID" type="string" public="false" private="false" save="false" desc="路径ID"/>
+		<property name="PatrolMode" type="int" public="false" private="false" save="false" desc="巡逻模式"/>
+		<property name="StopPatrol" type="int" public="false" private="false" save="false" desc="停止巡逻"/>
+		<property name="AIEffect" type="string" public="true" private="false" save="false" desc="AI特效"/>
+		<property name="StandHeight" type="float" public="false" private="false" save="false" desc="相对于自身的可站立高度"/>
+		<property name="StandShape" type="byte" public="false" private="false" save="false" desc="Xz平面上可站立范围类形0,圆形1.是方形"/>
+		<property name="ShapePara1" type="byte" public="false" private="false" save="false" desc="StandShape=0时为半径StandShape=1时为长"/>
+		<property name="ShapePara2" type="byte" public="false" private="false" save="false" desc="StandShape=1时为宽,平行于面向"/>
+		<property name="PathList" type="string" public="false" private="false" save="false" desc="所有巡逻路径"/>
+		<property name="RollSpeed" type="float" public="true" private="false" save="false" desc="旋转速度"/>
+        <property name="TransPath" type="string" public="true" private="false" save="false" desc="当前场景路线列表"/>
+        <property name="TransStep" type="int" public="true" private="false" save="false" desc="步数"/>
+        <property name="TransSecID" type="string" public="true" private="false" save="false" desc="当前路线"/>
+	</properties>
+	<!-- 表属性 -->
+	<records>
+		<!-- 已跳到此NPC上进行绑定的玩家表 -->
+		<record name="link_rec" cols="6" maxrows="512" save="false" public="true" private="false" desc="link表记录">
+			<column type="widestr" desc="玩家名"/>
+			<column type="float" desc="玩家偏移量x"/>
+			<column type="float" desc="玩家偏移量y"/>
+			<column type="float" desc="玩家偏移量z"/>
+			<column type="float" desc="玩家朝向"/>
+			<column type="object" desc="玩家PERSISTID"/>
+		</record>
+	</records>
+	<!--从其他文件加载属性-->
+	<includes>
+		<path name="struct\npc_property\ai_path.xml" desc="AI属性"/>
+	</includes>
+</object>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--人物市里状态相关属性定义-->
+<object>
+	<!-- 当前称号 -->
+	<properties>
+		<property name="ForceState" type="int" public="false" private="false" save="false" desc="势力状态"/>
+	</properties>
+
+	<!-- 表属性 -->
+	<records/>
+</object>

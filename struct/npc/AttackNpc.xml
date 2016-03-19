@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2009 (http://www.altova.com) by ylp (EMBRACE) -->
+<!--战斗NPC基础属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="AttackNpcType" 		type="int" 		public="true"	 private="false" 	save="false" desc="攻击npc类型(0: 普通  1: 精英  2: 稀有  3: boss 4:影藏boss)"/>
+		<property name="EventSpringID"		type="int"		public="false"	 private="false"	save="false" desc="事件主目标NPC"/>
+	</properties>
+	<!-- 表属性 -->
+	<records>
+		<record name="event_talk_rec" cols="2" maxrows="32" public="false" private="false" save="false" desc="npc说话表">
+            <column type="float" desc="与前一句话的间隔"/>
+			<column type="word" desc="台词id"/>
+        </record>
+		
+		<record name="pickup_member_rec" cols="2" maxrows="50" public="true" private="false" save="false" desc="PickUpModule移植而来">
+            <column type="widestr" desc="可拾取的玩家名称"/>
+			<column type="byte" desc="可拾取的玩家的拾取优先级 值越大越先拾取"/>
+        </record>
+		
+		<record name="open_player_rec" cols="1" maxrows="50" public="false" private="false" save="false" desc="PickUpModule移植而来">
+            <column type="widestr" desc=""/>
+        </record>
+		
+		<record name="DamageStatRec" cols="5" maxrows="256" public="false" private="false" save="false" desc="PickUpModule移植而来">
+            <column type="widestr" desc="可拾取的玩家名称"/>
+			<column type="dword" desc="伤害"/>
+			<column type="dword" desc="治疗"/>
+			<column type="dword" desc="仇恨累计"/>
+			<column type="widestr" desc="玩家工会名称"/>
+        </record>
+		
+		<record name="AllDamagePlayerRec" cols="1" maxrows="1024" public="false" private="false" save="false" desc="造成过npc伤害的玩家名称表">
+            <column type="widestr" desc="造成过伤害的玩家名称"/>
+        </record>
+		
+		
+	</records>
+	<!--从其他文件加载属性-->
+	<includes>
+		<path name="struct\rule\Common\base_ctrl_prop.xml" desc="控制属性"/>
+        <path name="struct\npc_property\ai_motion.xml" desc="AI属性"/>
+        <path name="struct\npc_property\ai_npc_data.xml" desc="AI属性"/>
+        <path name="struct\npc_property\ai_path.xml" desc="AI属性"/>
+        <path name="struct\player\flow.xml" desc="从代码中移动过来的"/>
+        <path name="struct\rule\Common\autorestore.xml" desc=""/>
+        <path name="struct\rule\Common\commonfighter.xml" desc=""/>
+        <path name="struct\rule\Common\cooldown_new.xml" desc=""/>
+        <path name="struct\rule\Common\damage.xml" desc=""/>
+        <path name="struct\rule\Common\Fightbag.xml" desc=""/>
+        <path name="struct\rule\Common\flow_new.xml" desc=""/>
+        <path name="struct\rule\Common\ModifyBase.xml" desc="属性 技能 buff修正表"/>
+        <!--<path name="struct\rule\Common\range_new.xml" desc=""/>-->
+        <!--<path name="struct\rule\Common\relation.xml" desc=""/>-->
+        <path name="struct\rule\Common\skilluse.xml" desc=""/>
+        <path name="struct\rule\Common\bufferuse.xml" desc=""/>
+        <path name="struct\rule\Common\basefighterdata.xml" desc=""/>
+	</includes>
+</object>

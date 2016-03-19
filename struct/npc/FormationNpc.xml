@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--LeaderNPC的属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="Type" type="byte" public="true" private="false" save="false" desc="类型"/>
+		<property name="NpcType" type="byte" public="true" private="false" save="false" desc="NPC类型"/>
+		<property name="Camp" type="int" public="true" private="false" save="false" desc="阵营"/>
+		<property name="Force" type="int" public="true" private="false" save="false" desc="势力"/>
+		<property name="MotionNoRotate" type="byte" public="true" private="false" save="false" desc="NPC移动时方向是否不变"/>
+		<property name="NeedRotate" type="int" public="true" private="false" save="false" desc="npc是否需要转向玩家"/>
+		<property name="FightID" type="string" public="false" private="false" save="false" desc="战斗包ID"/>
+		<property name="Resource" type="string" public="true" private="false" save="false" desc="资源"/>
+		<property name="Scale" type="string" public="true" private="false" save="false" desc="模型缩放比例"/>
+		<property name="SelectState" type="byte" public="true" private="false" save="false" desc="选择类型"/>
+		<property name="Exp" type="int" public="false" private="false" save="false" desc="声望奖励"/>
+		<property name="SuicideTime" type="int" public="false" private="false" save="false" desc="战斗结束后间隔多少秒销毁自身(秒)"/>
+		<property name="CreatorIndex" type="int" public="false" private="false" save="false" desc="新生成器的编号"/>
+		<property name="FormName" type="string" public="false" private="false" save="false" desc="主编队包的Name"/>
+		<property name="Teammodel" type="string" public="false" private="false" save="false" desc="主编队NPC的模型"/>
+		<property name="HoldForm" type="int" public="false" private="false" save="false" desc="编队是否保持队形"/>
+		<property name="ActionEqual" type="int" public="false" private="false" save="false" desc="主要是待机时的动作是否相同"/>
+		<property name="FormLimit" type="float" public="false" private="false" save="false" desc="约束值单位(米)"/>		
+		<property name="FormNpcList" type="string" public="false" private="false" save="false" desc="编号"/>
+		<property name="PosList" type="string" public="false" private="false" save="false" desc="子怪相对位置序列"/>
+		<property name="ChildList" type="string" public="false" private="false" save="false" desc="子怪编号序列"/>
+		<property name="ChilePatrolType" type="int" public="false" private="false" save="false" desc="子怪巡逻类型，0.跟随，1.路点"/>
+	</properties>
+	<!-- 表属性 -->
+	<records>		
+		<record name="FormationPosRec" cols="7" maxrows="1024" save="false" public="false" private="false" desc="NPC相对主对象的位置表">
+			<column type="string" desc="NPC的所在的阵型和主NPC的GUID"/>
+			<column type="object" desc="NPC的PERSISTID"/>
+			<column type="int" desc="NPC所在位置的编号(0~amount)"/>
+			<column type="float" desc="NPC相对x"/>
+			<column type="float" desc="NPC相对y"/>
+			<column type="float" desc="NPC相对z"/>
+			<column type="int" desc="状态"/>
+		</record>
+		<record name="ChildNpcPatorlRec" cols="3" maxrows="1024" save="false" public="false" private="false" desc="子NPC巡逻坐标表">
+			<column type="float" desc="x"/>
+			<column type="float" desc="z"/>
+			<column type="float" desc="orient"/>
+		</record>
+		<record name="ChildNpcAdjustPosRec" cols="2" maxrows="1024" save="false" public="false" private="false" desc="子NPC调整队形坐标表">
+			<column type="float" desc="x"/>
+			<column type="float" desc="z"/>
+		</record>
+	</records>
+	<!--从其他文件加载属性-->
+	<includes>
+		<path name="struct\npc_property\ai_npc_data.xml" desc="AI属性"/>
+		<path name="struct\npc_property\ai_motion.xml" desc="AI属性"/>
+		<path name="struct\rule\Common\commonfighter.xml" desc=""/>
+		<path name="struct\npc_property\ai_path.xml" desc="AI属性"/>
+		<path name="struct\rule\Common\motion.xml" desc="移动"/>
+		<path name="struct\rule\Common\base_ctrl_prop.xml" desc="控制属性"/>
+		<path name="struct\rule\Common\hide.xml" desc="隐身"/>
+	</includes>
+</object>

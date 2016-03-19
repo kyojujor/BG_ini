@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--技能专精-->
+<object>
+	<!-- 表属性 -->
+	<records>
+		<record name="skill_enhance_rec" cols="7" maxrows="400" public="false" private="false" save="false" desc="技能专精表">
+			<column type="string" desc="技能ID"/>
+			<column type="word" desc="作用类型"/>
+			<column type="word" desc="计算类型"/>
+			<column type="float" desc="计算值"/>
+      <column type="string" desc="param1"/>
+      <column type="string" desc="param2"/>
+      <column type="string" desc="param3"/>
+    </record>
+	</records>
+</object>

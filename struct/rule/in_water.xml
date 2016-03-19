@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--水下呼吸的属性数据-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="UnderWaterSpeed" type="float" public="false" private="true" save="false" desc="玩家呼吸值减少的速度"/>
+		<property name="UnderWaterModifySpeed" type="float" public="false" private="false" save="false" desc="对减少速度的修正"/>
+		<property name="CurUnderWaterValue" type="float" public="false" private="true" save="false" desc="玩家当前的呼吸值"/>
+	</properties>
+	<!-- 表属性 -->
+	<records>
+
+	</records>
+	<!--从其他文件加载属性-->
+	<includes>
+	</includes>
+</object>

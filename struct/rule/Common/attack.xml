@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--攻击速度相关属性(只有战斗对象, 武器和攻击类技能才有此属性)-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="AttackHaste" type="int" public="false" private="false" save="false" desc="攻击提速比率"/>
+		<property name="AttackType" type="byte" public="false" private="false" save="false" desc="攻击类型:0:打击,1射击"/>
+		<property name="AttackTime" type="int" public="false" private="false" save="false" desc="攻击间隔时间"/>
+	</properties>
+</object>

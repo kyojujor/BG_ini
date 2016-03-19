@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--玩家状态属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+	  <property name="State" type="string" public="true" private="true" save="false" realtime="true" desc="状态"/>
+    <property name="FloatingState" type="int" public="true" private="true" save="false" desc="漂浮状态"/>
+    <property name="FashionState" type="int" public="false" private="true" save="false" desc="时装状态"/>
+	</properties>
+</object>

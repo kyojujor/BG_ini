@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--PK系统属性表-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="PKMode" type="byte" public="true" private="true" save="true" desc="PK模式"/>
+		<property name="PKValue" type="int" public="true" private="true" save="true" desc="PK值"/>
+		<property name="ShaQi" type="int" public="false" private="true" save="true" desc="杀气"/>
+		<property name="KillCount" type="int" public="false" private="false" save="true" desc="杀人次数"/>		
+		<property name="BeKillCount" type="int" public="false" private="false" save="true" desc="被杀次数"/>
+
+		<property name="ArenaSide" type="int" public="true" private="true" save="false" desc="竞技场内阵营 枚举为：独立/A/B/C/D/E "/>
+
+
+		<property name="ArrestValue"        type="WORD" public="false" private="true" save="true" desc="红名模块中用到的通缉值"/>
+		<property name="ArrestState"        type="byte" public="true" private="true"  save="true" desc="通缉状态"/>
+		<property name="RedNameEffect"      type="int"  public="true" private="true"  save="true" desc="红名模块中用到的效果包"/>
+		<property name="ChangePKModule"     type="WORD" public="true" private="true" save="true" desc="人身上设置的PK模式的值"/>
+		<property name="PKProtected"        type="int" public="true" private="true" save="true" desc="PK保护的值"/>
+		<property name="LastKillTime"       type="double" public="false" private="false" save="true" desc="上次杀红名人时间"/>
+		<property name="OldArrestValue"     type="WORD" public="false" private="false" save="true" desc="进入战场和副本前旧的通缉值"/>
+		<property name="OldChangePKModule"  type="WORD" public="false" private="false" save="true" desc="进入战场和副本前旧的PK模式的值"/>
+		<property name="OldPKProtected"     type="WORD" public="false" private="false" save="true" desc="进入战场和副本前旧的PK保护的值"/>
+		<property name="OldArrestState"     type="WORD" public="false" private="false" save="true" desc="进入战场和副本前旧的通缉状态"/>
+
+		<property name="LastBeKilledTime"   type="double" public="false" private="false" save="true" desc="上一次被对方阵营杀死的时间"/>
+		<property name="SystemAwardsNum"    type="int" public="false" private="false" save="true" desc="今天系统奖励的次数"/>
+	</properties>
+		<!-- 表格 -->
+</object>

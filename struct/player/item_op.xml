@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--玩家的生活职业 -->
+
+<object>
+	<properties>	
+		<property name="ItemSet" type="string" public="false" private="true" save="false" desc="装备洗点操作的uniqueid"/>
+		<property name="DecomposeUID" type="string" public="false" private="true" save="false" desc="分解装备操作的uniqueid"/>
+		<property name="DecomMaterial" type="string" public="false" private="true" save="false" desc="分解装备所需材料"/>
+	</properties>
+	<records>
+		<record name="item_box" cols="2" maxrows="100" save="false" public="false" private="true" desc="人物开启宝箱">
+			<column type="string" desc="ConfigID"/>
+			<column type="dword" desc="数量"/>
+		</record>
+	</records>
+</object>
+

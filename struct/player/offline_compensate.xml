@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--人物离线相关属性定义-->
+<object>
+	<properties>
+		<property name="LogoutTime" type="int64" public="false" private="false" save="true" desc="登出时间"/>
+		<property name="OffLineExp" type="int" public="false" private="true" save="true" desc="离线获得的经验"/>
+	</properties>
+</object>

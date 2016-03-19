@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--战斗、技能系统判断能否对目标使用的关系相关的属性表, 用于目标选择-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="TargetClassType" type="int" public="false" private="false" save="false" desc="作用对象的种类的类型 0:所有对象1:玩家角色2:NPC"/>
+		<property name="TargetRelationType" type="int" public="false" private="false" save="false" desc="作用对象的关系类型 0:所有对象1:敌对方2:友好方3:队友,4:宠物,5:主人"/>
+		<property name="TargetOrientType" type="int" public="false" private="false" save="false" desc="对方的方向判定 0:无方向判定1:必须在对方的背面2:必须在对方的正面"/>
+	</properties>
+</object>

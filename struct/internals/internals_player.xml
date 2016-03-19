@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--游戏对象属性定义模版文件-->
+<object>
+	<!-- 内部属性定义
+		 内部属性是服务器引擎为游戏对象定义的属性, 初始均是不可视,不可保存的
+		 在这里, 可以修改这些内部属性的可视与保存的方式
+	 -->
+	<internals>
+		<property name="Name" type="widestr" public="true" private="true" save="true" desc=""/>
+		<property name="CollideRadius" type="float" public="true" private="true" save="false" desc=""/>
+		<property name="VisualRange" type="float" public="false" private="true" save="false" desc=""/>
+	</internals>
+</object>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--场景副本属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+	</properties>
+	<!-- 表属性 -->
+	<records>
+
+		<record name="rec_ew_cw_battle_info" cols="2" maxrows="4096" save="true" public="false" private="true" desc="此场景管理下的阵营战战场信息表">
+			<column type="dword" desc="能量井ID"/>
+			<column type="dword" desc="能量井战场类型"/>
+		</record>
+		
+		<record name="rec_ew_cw_person" cols="13" maxrows="4096" save="true" public="false" private="true" desc="此场景管理下的阵营战个人信息表">
+			<column type="dword" desc="能量井ID"/>
+			<column type="widestr" desc="玩家姓名"/>
+			<column type="dword" desc="玩家职业"/>
+			<column type="dword" desc="玩家等级"/>
+			<column type="dword" desc="击杀"/>
+			<column type="dword" desc="被杀"/>
+			<column type="dword" desc="任务总数量"/>
+			<column type="dword" desc="任务完成数量"/>
+			<column type="dword" desc="伤害量"/>
+			<column type="dword" desc="治疗量"/>
+			<column type="dword" desc="阵营"/>
+			<column type="dword" desc="攻or守方"/>
+			<column type="dword" desc="评分"/>
+		</record>
+		
+		<record name="rec_ew_cw_guild" cols="13" maxrows="4096" save="true" public="false" private="true" desc="此场景管理下的阵营战公会信息表">
+			<column type="dword" desc="能量井ID"/>
+			<column type="widestr" desc="公会名"/>
+			<column type="dword" desc="公会等级"/>
+			<column type="widestr" desc="公会会长"/>
+			<column type="dword" desc="击杀"/>
+			<column type="dword" desc="被杀"/>
+			<column type="dword" desc="任务总数量"/>
+			<column type="dword" desc="任务完成数量"/>
+			<column type="dword" desc="伤害量"/>
+			<column type="dword" desc="治疗量"/>
+			<column type="dword" desc="阵营"/>
+			<column type="dword" desc="攻or守方"/>
+			<column type="dword" desc="评分"/>
+		</record>
+		
+		<record name="rec_ew_cw_camp" cols="10" maxrows="4096" save="true" public="false" private="true" desc="此场景管理下的阵营战阵营信息表">
+			<column type="dword" desc="能量井ID"/>
+			<column type="dword" desc="阵营"/>
+			<column type="dword" desc="击杀"/>
+			<column type="dword" desc="被杀"/>
+			<column type="dword" desc="任务总数量"/>
+			<column type="dword" desc="任务完成数量"/>
+			<column type="dword" desc="伤害量"/>
+			<column type="dword" desc="治疗量"/>
+			<column type="dword" desc="攻or守方"/>
+			<column type="dword" desc="评分"/>
+		</record>
+		
+		<record name="rec_ew_cw_boss" cols="4" maxrows="4096" save="true" public="false" private="true" desc="此场景管理下的阵营战boss信息表">
+			<column type="dword" desc="能量井ID"/>
+			<column type="object" desc="BOSS"/>
+			<column type="dword" desc="当前血量"/>
+			<column type="dword" desc="最大血量"/>
+		</record>
+		
+		<record name="rec_ew_cw_npc" cols="2" maxrows="1024" save="false" public="false" private="true" desc="此场景管理下的阵营战npc信息表">
+			<column type="dword" desc="能量井ID"/>
+			<column type="object" desc="npc"/>
+		</record>
+		
+		<record name="rec_ew_cw_pillar" cols="2" maxrows="64" save="false" public="false" private="true" desc="此场景管理下的阵营战能量柱npc信息表">
+			<column type="dword" desc="能量井ID"/>
+			<column type="object" desc="npc"/>
+		</record>
+		
+		<record name="rec_ew_relive" cols="2" maxrows="32" save="false" public="false" private="true" desc="此场景管理下复活点npc">
+			<column type="dword" desc="能量井ID"/>
+			<column type="object" desc="复活点npc"/>
+		</record>
+		
+		<record name="rec_ew_relivepos" cols="2" maxrows="32" save="false" public="false" private="true" desc="此场景管理下复活点">
+			<column type="dword" desc="能量井ID"/>
+			<column type="string" desc="复活点字符串x,y,z,camp;x,y,z,camp;  "/>
+		</record>
+		
+	</records>
+</object>

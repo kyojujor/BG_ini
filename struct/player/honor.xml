@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--荣誉相关属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="PlayerHonor" type="int" public="false" private="true" save="true" desc="当前荣誉值"/>
+		<property name="RankLevel" type="int" public="false" private="true" save="true" desc="军阶等级"/>
+		<property name="UpgradeHonor" type="int" public="false" private="true" save="true" desc="升级需要荣誉值"/>
+		<property name="CanAddHonorPoint" type="int" public="false" private="true" save="true" desc="每日可获取荣誉值"/>
+		<property name="HonorLastRefresh" type="int64" public="false" private="false" save="true" desc="上次荣誉值刷新时间"/>
+		<property name="EveRecActiveRefresh" type="int64" public="false" private="false" save="true" desc="上次活跃度刷新时间"/>
+	</properties>
+	<records>
+	</records>
+</object>

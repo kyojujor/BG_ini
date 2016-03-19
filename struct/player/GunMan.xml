@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--枪手相关属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="GunMan" type="int" public="false" private="true" save="false" desc="枪手模式"/>
+		<property name="GunManBullet" type="string" public="false" private="true" save="true" desc="子弹buffer"/>
+		<property name="GunManSkill" type="string" public="false" private="false" save="true" desc="开枪技能"/>
+	</properties>
+	<records>
+
+	</records>
+</object>

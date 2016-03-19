@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--角色呼出的宠物列表-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+	</properties>
+	<!-- 表属性 -->
+	<records>
+	<!--修改:属性修改成可保存的public-->
+		<record name="petshow_rec" cols="2" maxrows="8" save="false" public="false" private="true" desc="呼出的宠物列表">
+			<column type="object" desc="呼出宠物id"/>
+			<column type="string" desc="呼出宠物名称"/>
+		</record>
+		<record name="Pet_CanSwapScene_Rec" cols="5" maxrows="64" save="true" public="false" private="false" desc="跨场景需要保存的宠物列表">
+			<column type="string" desc="保存的宠物名称"/>
+			<column type="word" desc="保存的方式"/>
+			<column type="word" desc="当前HP"/>
+			<column type="word" desc="当前MP"/>		
+			<column type="word" desc="LifeTime"/>				
+		</record>
+		<record name="Pet_Buff_Rec" cols="5" maxrows="2048" save="true" public="false" private="false" desc="跨场景需要保存的宠物buff列表">
+			<column type="string" desc="保存的宠物名称"/>
+			<column type="string" desc="BUFF的索引"/>
+			<column type="word" desc="LifeTime"/>
+			<column type="word" desc="LifeTimeType"/>
+			<column type="int64" desc="SaveTime"/>
+		</record>
+		<record name="Pet_MagicianStar_Rec" cols="7" maxrows="5" save="true" public="false" private="true" desc="宠物的术士星级兽魂配置保存表">
+			<column type="byte" desc="星级序号"/>
+			<column type="string" desc="兽魂1"/>
+			<column type="string" desc="兽魂2"/>
+			<column type="string" desc="兽魂3"/>
+			<column type="string" desc="兽魂4"/>
+			<column type="string" desc="兽魂5"/>
+			<column type="byte" desc="此星是否可以用"/>
+		</record>
+		
+		<record name="Pet_OrcSoul_Rec" cols="2" maxrows="1" save="true" public="false" private="false" desc="术士召唤啊魔物融合啊的临时保存表">
+			<column type="string" desc="上次召唤的PET_CFGID"/>
+			<column type="string" desc="上次魔物融合的PET_ID"/>
+		</record>
+		
+		<record name="Pet_Last_AddBuff_Rec" cols="3" maxrows="1" save="true" public="false" private="false" desc="上次星阵技能附加的BUFF,下次变身要删除[因中途术士配方可以修改,所以必须保存]">
+			<column type="string" desc="BUFF1"/>
+			<column type="string" desc="BUFF2"/>
+			<column type="string" desc="BUFF3"/>
+		</record>
+		
+		<!--从其他文件加载属性-->
+		<!--@作用:为了将此表在有道具的时候就读出,所以挂到人身上,日期:2011年11月25日;先写这么多,需要再加-->
+		<record name = "pet_mac_rec" cols="8" maxrows="64" save="true" public="false" private="true" desc="玩家所带的所有宠物列表">
+			<column type="string" desc="宠物名称"/>
+			<column type="string" desc="宠物使用的buffer"/>
+			<column type="byte"   desc="宠物的等级"/>	
+			<column type="word"   desc="总消耗点数"/>           
+			<column type="word"   desc="总改造费用(铜)"/>
+			<column type="byte"   desc="机体等级"/>
+			<column type="word"   desc="剩下的点数"/>
+			<column type="byte"   desc="是否初始化过的标记"/>
+		</record>
+		
+		<!--强化后节点状态-->
+		<record name="pointdisp_rec" cols="2" maxrows="256" save="true" public="false" private="true" desc="各个节点的状态">
+			    <column type="string" desc="节点"/>
+				<column type="byte"   desc="节点的状态:1:代表不可激活;2:可激活;3:已经激活,表是按层存放的"/>
+				
+		</record>
+		
+		<!--兽魂专精进度保存表-->
+		<record name = "pet_active_rec" cols="18" maxrows="64" save="true" public="false" private="true" desc="兽魂专精进度保存表">
+			<column type="string" desc="系别"/>
+			<column type="string" desc="系别图片"/>
+			<column type="string" desc="系别等级图片"/>
+			<column type="byte"   desc="系别的状态:-1已冻结,0未激活,1已激活"/>
+			<column type="byte"   desc="当前选中系别兽魂的当前个数"/>
+			<column type="byte"   desc="当前选中系别兽魂的最大个数"/>
+			<column type="byte"   desc="当前选中系别的专精等级"/>
+			<column type="byte"   desc="奖励状态是否开启"/>
+			<column type="byte"   desc="奖励状态是否开启"/>
+			<column type="byte"   desc="奖励状态是否开启"/>
+			<column type="byte"   desc="奖励状态是否开启"/>
+			<column type="byte"   desc="奖励状态是否开启"/>
+			<column type="byte"   desc="奖励状态是否开启"/>
+			<column type="byte"   desc="奖励状态是否开启"/>
+			<column type="byte"   desc="奖励状态是否开启"/>
+			<column type="byte"   desc="奖励状态是否开启"/>
+			<column type="byte"   desc="奖励状态是否开启"/>
+			<column type="string"   desc="物种类别"/>
+		</record>
+        <record name = "pet_hortation_rec" cols="1" maxrows="64" save="true" public="false" private="false" desc="兽魂专精奖励表">
+			<column type="string" desc="奖励槽索引ID"/>
+		</record>
+		
+		<record name = "pet_item_rec" cols="2" maxrows="1024" save="true" public="false" private="true" desc="存放宠物道具表">
+			<column type="string" desc="宠物道具的configID"/>
+			<column type="widestr" desc="宠物改名之后的名字"/>
+		</record>
+		
+		<record name = "pet_in_castle_rec" cols="1" maxrows="1024" save="true" public="false" private="false" desc="保存宠物上城堡的宠物ConfigID表">
+			<column type="string" desc="宠物上城堡需要保存的非飞行宠物的configID"/>
+		</record>
+		
+		<!--宠物同名显示时候需要添加的表-->
+		<record name = "pet_info_rec" cols="41" maxrows="5" save="false" public="false" private="true" desc="保存宠物同屏显示基本属性表">
+			<column type="string" desc="PetConfigID"/>
+			
+			<column type="word"   desc="MinPhyAttack"/>
+			<column type="word"   desc="MaxPhyAttack"/>
+			<column type="word"   desc="CritHurt"/>
+			<column type="float"   desc="CritProb"/>
+			<column type="float"   desc="CritMulProb"/>
+			<column type="float"   desc="PenetrateProb"/>
+			<column type="float"   desc="AccurateProb"/>
+
+			<column type="word"   desc="MinMagicAttack"/>
+			<column type="word"   desc="MaxMagicAttack"/>
+			<column type="float"   desc="MagCritProb"/>
+			<column type="float"   desc="MagPrecProb"/>
+
+			<column type="float"   desc="GuardRateProb"/>
+			<column type="float"   desc="DodgeProb"/>
+			<column type="float"   desc="MagdodgeProb"/>
+			<column type="float"   desc="DefenseProb"/>
+			<column type="word"   desc="WeakdefVal"/>
+
+			<column type="word"   desc="WindAttack"/>
+			<column type="word"   desc="FireAttack"/>
+			<column type="word"   desc="EarthAttack"/>
+			<column type="word"   desc="WaterAttack"/>
+			<column type="word"   desc="LightningAttack"/>
+			<column type="word"   desc="Wind"/>
+			<column type="word"   desc="Fire"/>
+			<column type="word"   desc="Earth"/>
+			<column type="word"   desc="Water"/>
+			<column type="word"   desc="Lightning"/>
+			<column type="float"   desc="AllResistProb"/>
+			
+			<column type="word"   desc="HP"/>
+			<column type="word"   desc="MP"/>
+			<column type="word"   desc="MaxHP"/>
+			<column type="word"   desc="MaxMP"/>
+			<column type="word"   desc="HPUpSpeed"/>
+			<column type="word"   desc="MPUpSpeed"/>
+			<column type="word"   desc="MaxHPAdd"/>			
+			<column type="word"   desc="MaxMPAdd"/>
+			<column type="word"   desc="Level"/>
+
+			<column type="string"   desc="SkillPackID"/>
+			<column type="word"   desc="MoveSite"/>
+			<column type="float"   desc="FlyHeightMin"/>
+			<column type="float"   desc="FlyHeightMax"/>
+
+			<!--基本的战斗属性-->
+		</record>
+
+		<record name="npc_cooldown_rec" cols="4" maxrows="128" save="false" public="false" private="true" desc="冷却表">
+			<column type="dword" desc="冷却分类ID"/>
+			<column type="int64" desc="冷却开始时间，现实64位时间数据"/>
+			<column type="int64" desc="冷却结束时间，现实64位时间数据"/>
+			<column type="dword" desc="冷却大分类ID,更上一层的分类"/>
+		</record>
+		<!-- 激活的技能 -->
+		<record name="active_skill_rec" cols="1" maxrows="16" save="false" public="false" private="true" desc="PET激活的自动释放技能">
+			<column type="string" desc="技能名"/>
+		</record>
+		<!--------------------------------------------------------------------------------------------------------------------------------->
+	</records>
+</object>

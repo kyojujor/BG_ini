@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='gb2312' ?>
+<object>
+	<properties>
+	<property name="PrayFunc"  type="int" public="false" private="true" save="false" desc="祈福功能" />
+	<property name="GuildFunc"  type="int" public="false" private="true" save="false" desc="工会功能" />
+	<property name="TransPoint"  type="int" public="true" private="true" save="false" desc="交通点编号" />
+	<property name="OpenOtherPoints"  type="string" public="false" private="true" save="false" desc="额外激活的飞行点" />
+	<property name="BConfigId"  type="string" public="false" private="true" save="false" desc="战斗载具功能" />
+	<property name="BCFunc"  type="string" public="false" private="true" save="false" desc="战斗载具功能" />
+	<property name="BCDesc"  type="string" public="false" private="true" save="false" desc="战斗载具功能,对话显示文字的id" />
+	<property name="BattlewarFunc"  type="int" public="false" private="true" save="false" desc="战场功能" />
+	<property name="StrengthFunc"  type="int" public="false" private="true" save="false" desc="道具类功能" />
+	<property name="CompoundFunc"  type="int" public="false" private="true" save="false" desc="道具类功能" />
+	<property name="HotelFunc"  type="int" public="false" private="true" save="false" desc="旅店" />
+	<property name="SlotFunc"  type="int" public="false" private="true" save="false" desc="道具类功能" />
+	<property name="TransJob"  type="string" public="false" private="true" save="false" desc="转职功能" />
+	<property name="AH_Camp"  type="int" public="false" private="true" save="false" desc="拍卖行阵营" />
+	<property name="ResourceFunc"  type="int" public="true" private="true" save="false" desc="国家资源" />
+	<property name="AreaId"  type="string" public="true" private="true" save="false" desc="国家资源" />
+	<property name="FactoryFunc"  type="int" public="true" private="true" save="false" desc="工厂功能" />
+	<property name="DepotID"  type="int" public="false" private="true" save="false" desc="仓库功能" />
+	<property name="ArenaFunc"  type="int" public="false" private="true" save="false" desc="竞技场功能" />
+	<property name="HasBlackMarketCSM"  type="int" public="false" private="true" save="false" desc="黑市挂单功能" />
+	<property name="HasBlackMarketShow"  type="int" public="false" private="true" save="false" desc="黑市竞拍功能" />
+	<property name="ManorFightFunc"  type="int" public="false" private="true" save="false" desc="雇佣兵" />
+	<property name="OpenBoxFunc"  type="int" public="false" private="true" save="false" desc="领地争夺打开宝箱" />
+	<property name="FireWarFunc"  type="int" public="false" private="true" save="false" desc="领地战宣战" />   
+  <property name="MakeBlack"  type="int" public="false" private="false" save="false" desc="生产黑金功能菜单" /> 
+  <property name="AddMake"  type="int" public="false" private="false" save="false" desc="生产黑金功能菜单" /> 
+  <property name="MenuDesc"  type="string" public="false" private="true" save="false" desc="触发器菜单" />
+  <property name="ArenaPlaneFunc"  type="int" public="false" private="true" save="false" desc="竞技系统" />
+  <property name="HasResourceMarket"  type="int" public="false" private="true" save="false" desc="资源市场功能菜单" />
+  <property name="PVPTaskID"  type="string" public="false" private="true" save="false" desc="PVP_Convoy_TaskID" />    
+  </properties>
+
+ 
+ <!-- 表属性 -->
+	<records>
+	</records>
+</object>
+

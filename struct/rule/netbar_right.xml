@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+        <property name="NetBarRight" type="int" public="false" private="true" save="false"   desc="蜗牛网吧权限 0-普通 1-银牌 2-金牌 3-钻石"/>
+        <property name="NetBarReceiveState" type="int" public="false" private="true" save="true"   desc="蜗牛网吧权限 0-未领取 1-领取银牌 2-领取金牌 3-领取钻石"/>
+        <property name="NetBarDayPrize" type="int" public="false" private="true" save="true"   desc="上次获得当日奖励的日期"/>
+        <property name="FirstChargeTime" type="string" public="false" private="false" save="true"   desc="分区首冲时间"/>
+        <property name="LastConsumeTime" type="string" public="false" private="false" save="true"   desc="上次消费时间"/>
+        <property name="IsMobileAuthentic" type="byte" public="false" private="false" save="true"   desc="记录该账号是否已经进行手机认证"/>
+        <property name="SnDaNetBarRight" type="int" public="false" private="true" save="false"   desc="盛大网吧权限 0-普通 1-银牌 2-金牌 3-钻石"/>
+        <property name="SnDaReceiveState" type="int" public="false" private="true" save="true"   desc="盛大网吧权限 0-未领取 1-领取银牌 2-领取金牌 3-领取钻石"/>
+        <property name="SnDaNetBarDayPrize" type="int" public="false" private="true" save="true"   desc="上次获得当日奖励的日期"/>
+        <property name="IsBarManager" type="int" public="false" private="false" save="false"   desc="网管标志 0-非 1-是"/>
+        <property name="OnceBarTime" type="int" public="false" private="false" save="true"   desc="上次领取一次性网管奖励的日期"/>
+        <property name="WeekBarTime" type="int64" public="false" private="false" save="true"   desc="上次领取每周网管奖励的日期"/>
+	</properties>
+	<!-- 表属性 -->
+	<records>
+		<record name="netbar_right_rec" cols="5" maxrows="64" save="true" public="false" private="true" desc="网吧累积记录表">
+			<column type="byte" Name="网吧级别"/>
+			<column type="dword" Name="累计天数"/>
+			<column type="dword" Name="上次记录日期"/>
+			<column type="dword" Name="扩展字段1"/>
+			<column type="string" Name="扩展字段2"/>
+		</record>
+	</records>
+</object>

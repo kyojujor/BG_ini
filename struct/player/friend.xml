@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--人物朋友相关属性定义-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+	</properties>
+	<!-- 表属性 -->
+	<records>
+		<record name="friend_rec" cols="19" maxrows="50" save="true" public="false" private="true" desc="好友名单列表">
+			<column type="widestr" desc="好友名称"/>
+			<column type="byte" desc="好友等级"/>
+			<column type="byte" desc="好友职业"/>
+			<column type="byte" desc="好友是否在线"/>
+			<column type="word" desc="所在场景"/>
+			<column type="byte" desc="所在队伍人数"/>
+			<column type="word" desc="好友度"/>
+			<column type="byte" desc="良性关系枚举"/>
+			<column type="string" desc="好友UID"/>
+			<column type="string" desc="好友门派身份"/>
+			<column type="dword" desc="通缉值"/>			
+			<column type="dword" desc="共同杀怪数"/>	
+			<column type="double" desc="计数的有效时间"/>		
+			<column type="double" desc="入队时间"/>
+			<column type="double" desc="开始探索时间"/>
+			<column type="double" desc="乘坐坐骑累计时间"/>
+			<column type="string" desc="玩家所在区域"/>
+		</record>
+		<record name="friendvalueevent_rec" cols="21" maxrows="50" save="true" public="false" private="false" desc="好友度增加事件条件控制表">
+			<column type="widestr" desc="对方名称"/>
+			<column type="string" desc="对方UID"/>
+			<column type="string" desc="在线行为好友度增加条件"/>			
+			<column type="string" desc="聊天行为好友度增加条件"/>			
+			<column type="string" desc="组队杀怪行为好友度增加条件"/>		
+			<column type="string" desc="组队任务行为好友度增加条件"/>		
+			<column type="string" desc="组队副本行为好友度增加条件"/>		
+			<column type="string" desc="组队PK行为好友度增加条件"/>		
+			<column type="string" desc="组队战场行为好友度增加条件"/>		
+			<column type="string" desc="组队竞技场行为好友度增加条件"/>		
+			<column type="string" desc="娱乐探索行为好友度增加条件"/>		
+			<column type="string" desc="娱乐道具行为好友度增加条件"/>		
+			<column type="string" desc="娱乐坐骑行为好友度增加条件"/>		
+			<column type="string" desc="娱乐钓鱼行为好友度增加条件"/>		
+			<column type="string" desc="娱乐包扎行为好友度增加条件"/>		
+			<column type="string" desc="送礼行为好友度增加条件"/>	
+			<column type="dword" desc="在线好友度奖励计数"/>	
+			<column type="dword" desc="聊天好友度奖励计数"/>	
+			<column type="dword" desc="组队好友度奖励计数"/>	
+			<column type="dword" desc="探索好友度奖励计数"/>	
+			<column type="dword" desc="送礼好友度奖励计数"/>	
+		</record>
+		<record name="unfamiliar_rec" cols="8" maxrows="20" save="true" public="false" private="true" desc="陌生人列表">
+			<column type="widestr" desc="对方名称"/>
+			<column type="byte" desc="对方等级"/>
+			<column type="byte" desc="对方职业"/>
+			<column type="byte" desc="对方是否在线"/>
+			<column type="dword" desc="好友度"/>
+			<column type="string" desc="对方UID"/>
+			<column type="word" desc="所在场景"/>
+		</record>
+		<record name="blacklist_rec" cols="7" maxrows="30" save="true" public="false" private="true" desc="黑名单列表">
+			<column type="widestr" desc="对方名称"/>
+			<column type="byte" desc="对方等级"/>
+			<column type="byte" desc="对方职业"/>
+			<column type="byte" desc="对方是否在线"/>
+			<column type="string" desc="对方UID"/>
+			<column type="dword" desc="所在场景"/>
+		</record>
+		<record name="enemy_rec" cols="8" maxrows="30" save="true" public="false" private="true" desc="仇人列表">
+			<column type="widestr" desc="对方名称"/>
+			<column type="byte" desc="对方等级"/>
+			<column type="byte" desc="对方职业"/>
+			<column type="byte" desc="对方是否在线"/>
+			<column type="dword" desc="所在场景"/>
+			<column type="dword" desc="仇恨度"/>
+			<column type="string" desc="仇人UID"/>
+		</record>
+	</records>
+</object>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--移动相关的属性-->
+<!--这几个修正表玩家和npc都要有-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+	</properties>
+	<records>
+		<record name="PropModifyRec" cols="8" maxrows="1024" save="false" public="false" private="false" desc="对象属性修正表">
+			<column type="string" desc="修正属性名"/>
+			<column type="double" desc="修正属性值"/>
+			<column type="byte" desc="计算方式"/>
+			<column type="string" desc="修正来源"/>
+			<column type="byte" desc="修正对象"/>
+			<column type="byte" desc="修正来源"/>
+			<column type="byte" desc="修正哪些目标"/>
+			<column type="string" desc="修正相关的属性名"/>
+		</record>
+		<record name="SkillModifyRec" cols="5" maxrows="1024" save="false" public="false" private="false" desc="对象技能修正表">
+			<column type="string" desc="修正技能id"/>
+			<column type="string" desc="修正属性名"/>
+			<column type="double" desc="修正属性值"/>
+			<column type="byte" desc="计算方式"/>
+			<column type="string" desc="修正来源"/>		
+		</record>
+		<record name="BuffModifyRecIn" cols="5" maxrows="1024" save="false" public="false" private="false" desc="对象buff修正表">
+			<column type="string" desc="修正buffid"/>
+			<column type="string" desc="修正属性名"/>
+			<column type="double" desc="修正属性值"/>
+			<column type="byte" desc="计算方式"/>
+			<column type="string" desc="修正来源"/>			
+		</record>
+		<record name="BuffModifyRecOut" cols="5" maxrows="1024" save="false" public="false" private="false" desc="对象buff修正表">
+			<column type="string" desc="修正buffid"/>
+			<column type="string" desc="修正属性名"/>
+			<column type="double" desc="修正属性值"/>
+			<column type="byte" desc="计算方式"/>
+			<column type="string" desc="修正来源"/>			
+		</record>
+	</records>
+</object>

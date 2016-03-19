@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--Equip_Item的属性表，继承自Nim_Item，所有可装备的物品的基类-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		
+		<property name="StiffAdd" type="float" public="false" private="false" save="false" desc="+ying值"/>
+		<property name="StiffDel" type="float" public="false" private="false" save="false" desc="-ying值"/>
+		<property name="Hardiness" type="int" public="false" private="true" save="true" desc="装备当前耐久"/>
+		<property name="MaxHardiness" type="int" public="false" private="true" save="true" desc="装备最大耐久"/>
+		<property name="HardinessCount" type="int" public="false" private="false" save="true" desc="耐久内部计数, 扣除耐久用"/>
+		<property name="TransPre" type="byte" public="false" private="false" save="false" desc="是否是转职之前(0是，大于0的不是)"/>
+		<property name="ResolvePack" type="int" public="false" private="false" save="false" desc="分解包"/>
+		<property name="PropPack" type="string" public="false" private="true" save="true" desc="固定属性包"/>
+		<property name="PropBuilt" type="string" public="false" private="true" save="true" desc="固定属性强化包"/>
+		<property name="PropRanBuilt" type="string" public="false" private="true" save="true" desc="随机属性强化包"/>
+				
+		<property name="EquipType" type="String" public="false" private="true" save="false" desc="装备栏位类型, 见EquipDefine.ini文件中的定义"/>
+		<property name="HoldType" type="byte" public="false" private="false" save="false" desc="双手:4"/>
+		<property name="HandPos" type="byte" public="false" private="false" save="false" desc="0:主手 1 副手 2 主副手"/>
+		
+		<property name="SkillRandPack" type="int" public="false" private="false" save="false" desc="技能随机包()"/>
+		<property name="SkillRand" type="string" public="false" private="true" save="true" desc="随机给的技能"/>
+		<property name="EquipSetSkillPack" type="int" public="false" private="false" save="false" desc="套装随机包()"/>
+		<property name="EquipSetSkillRand" type="string" public="false" private="true" save="true" desc="套装技能(和SkillRand本质上没有任何区别,为了显示效果)"/>
+		
+		<property name="ActionKey" type="string" public="false" private="false" save="false" desc="收拔武器绑点"/>
+		<property name="PointKey" type="string" public="false" private="false" save="false" desc="收拔武器动作"/>
+		
+		<property name="CommonPack" type="string" public="false" private="false" save="false" desc="普通包(属性不可被强化)"/>
+		
+		<property name="ArmourType" type="byte" public="false" private="false" save="false" desc="重甲类型:重甲,轻甲等"/>
+		<property name="CurHoleCount" type="int" public="false" private="true" save="true" desc="装备已打孔数"/>
+		<property name="RandNum" type="string" public="false" private="false" save="false" desc="随机属性号ID"/>
+				
+		<property name="EquipSet" type="int" public="false" private="false" save="false" desc="套装"/>
+		<property name="StarLevel" type="int" public="false" private="true" save="true" desc="装备星级:强化等级"/>
+		<property name="Proadd" type="float" public="false" private="true" save="true" desc="属性提高率"/>
+		<property name="AppendLefttime" type="int" public="false" private="true" save="true" desc="附魔时间"/>
+		<property name="PetCanStronger" type="word"   public="false" private="false" save="false"  desc="宠物能否被强化;1:表示可以强化,0:表示不能强化"/>
+		<property name="PetConfigID"    type="string" public="false" private="true" save="false"  desc="宠物的configID,一个装备对应一个宠物"/>
+		<property name="SpecialType" type="string" public="false" private="true" save="false" desc="特殊装备定义"/>
+	
+		<property name="CombineIf" type="byte" public="false" private="false" save="false" desc="装备是否可以合成：1-否 0-是"/>
+		<property name="EquipWeaponPack" type="word" public="false" private="false" save="false" desc="武器和装备的包"/>
+		<property name="OverLayPack" type="word" public="false" private="false" save="false" desc="附加属性叠加包"/>
+	</properties>
+	
+	<!--策划要求装备的修正表必须保存不得重刷-->
+	<records>
+	  
+		<record name="RaPropertyRec" cols="3" maxrows="10" save="true" public="false" private="true" desc="装备随机属性表">
+			<column type="byte" desc="属性名索引"/>
+			<column type="float" desc="属性值"/>	
+			<column type="float" desc="洗点改变的比率"/>	
+		</record>
+		
+    <record name="EnchaseRec" cols="3" maxrows="3" save="true" public="false" private="true" desc="装备镶嵌表">
+      <column type="byte" desc="镶嵌孔号"/>
+      <column type="string" desc="镶嵌物品ID"/>
+      <column type="string" desc="属性字符串"/>
+    </record>
+    
+     <record name="AddMagicRec" cols="1" maxrows="8" save="true" public="false" private="true" desc="附魔属性表">
+       <column type="DWORD" desc="附魔的属性ID"/>
+    </record>
+    
+	</records>
+  <!--从其他文件加载属性-->
+	<includes>
+	</includes>	
+</object>

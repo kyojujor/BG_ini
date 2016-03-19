@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--旅馆相关属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="PVPIncomeMul" type="float" public="false" private="false" save="false" desc="PVP收益增加"/>
+		<property name="DamageCatMul" type="float" public="false" private="false" save="false" desc="对猫人族的伤害增加"/>
+		<property name="CollectionSpeedMul" type="float" public="false" private="false" save="false" desc="资源采集速度增加"/>
+		<property name="ResourceGenRateMul" type="float" public="false" private="false" save="false" desc="资源获取比率增加"/>
+		<property name="MachineCreateRateMul" type="float" public="false" private="false" save="false" desc="制作机械类物品，成功率增加"/>
+		<property name="MachineUseEfficiencyMul" type="float" public="false" private="false" save="false" desc="使用机械类物品，效用增加"/>
+		<property name="MachineCreateEfficiencyMul" type="float" public="false" private="false" save="false" desc="机械制造效率增加"/>
+	</properties>
+	<records>
+	</records>
+</object>

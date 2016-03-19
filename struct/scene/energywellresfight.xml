@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--场景副本属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+	</properties>
+	<!-- 表属性 -->
+	<records>
+		<record name="post_state_rec" cols="3" maxrows="10" save="false" public="false" private="false" desc="能量柱状态表">
+			<column type="string" desc="能量柱ID"/>
+			<column type="dword" desc="区域ID"/>
+			<column type="byte" desc="状态 1占领 0未占领"/>
+		</record>
+		<record name="guild_force_rec" cols="2" maxrows="50" save="false" public="false" private="false" desc="公会状态表">
+			<column type="widestr" desc="公会名"/>
+			<column type="byte" desc="104攻方 105守方"/>
+		</record>
+		
+		<record name="person_info_rec" cols="11" maxrows="400" save="false" public="false" private="false" desc="个人统计表">
+			<column type="widestr" desc="玩家名"/>
+			<column type="widestr" desc="公会名"/>
+			<column type="byte" desc="职业"/>
+			<column type="byte" desc="等级"/>
+			<column type="dword" desc="击杀"/>
+			<column type="dword" desc="死亡"/>
+			<column type="dword" desc="摧毁载具"/>
+			<column type="dword" desc="伤害量"/>
+			<column type="byte" desc="势力"/>
+			<column type="byte" desc="阵营"/>
+			<column type="dword" desc="总积分"/>
+		</record>
+		
+		<record name="person_index_rec" cols="2" maxrows="400" save="false" public="false" private="false" desc="个人统计索引表">
+			<column type="byte" desc="序号"/>
+			<column type="byte" desc="对应的行"/>
+		</record>
+		
+		<record name="guild_info_rec" cols="10" maxrows="400" save="false" public="false" private="false" desc="公会统计表">
+			<column type="widestr" desc="公会名"/>
+			<column type="widestr" desc="会长名"/>
+			<column type="byte" desc="人数统计"/>
+			<column type="dword" desc="击杀"/>
+			<column type="dword" desc="死亡"/>
+			<column type="dword" desc="摧毁载具"/>
+			<column type="dword" desc="伤害量"/>
+			<column type="byte" desc="势力"/>
+			<column type="byte" desc="阵营"/>
+			<column type="dword" desc="总积分"/>
+		</record>
+		
+		<record name="guild_index_rec" cols="2" maxrows="400" save="false" public="false" private="false" desc="公会统计索引表">
+			<column type="byte" desc="序号"/>
+			<column type="byte" desc="对应的行"/>
+		</record>
+		
+		<record name="ew_res_fight_out_line_rec" cols="3" maxrows="1024" save="true" public="false" private="false" desc="在该场景上创建的能量井资源战玩家离线表">
+			<column type="string" desc="玩家UID"/>
+			<column type="int64" desc="玩家下线时间"/>
+			<column type="string" desc="能量井ID"/>
+		</record>
+		
+	</records>
+</object>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--一个战斗对象(npc或玩家)的所有属性, NPC的属性主要从配置文件读取, 角色则是所有装备的集合-->
+<object>
+	<!-- 基本属性 -->
+	<!-- 表属性 -->
+	<records>
+    <record name="fight_spite_rec" cols="3" maxrows="30" save="false" public="false" private="false" desc="PVP恶意表">
+      <column type="object" desc="恶意玩家"/>
+      <column type="word" desc="战斗恶意开始的时间"/>
+      <column type="word" desc="恶意值"/>
+    </record>
+    
+    <record name="relive_point_rec" cols="2" maxrows="128" save="false" public="false" private="true" desc="复活点列表">
+      <column type="byte" desc="排列序号"/>
+      <column type="string" desc="复活点ID"/>
+    </record>
+    
+    <record name="first_attack_rec" cols="1" maxrows="512" save="false" public="false" private="false" desc="首先攻击我的玩家">
+      <column type="widestr" desc="首先攻击我的玩家Name"/>
+    </record>
+
+    <record name="target_hate_rec" cols="2" maxrows="512" save="false" public="false" private="true" desc="玩家选中目标的仇恨">
+      <column type="widestr" desc="目标Name"/>
+      <column type="dword" desc="目标仇恨值"/>
+    </record>
+    
+	</records>
+	<!--从其他文件加载属性-->
+	<includes>
+        <path name="struct\rule\Common\commonfighter.xml" desc=""/>
+        <path name="struct\rule\Common\damage.xml" desc=""/>
+        <path name="struct\rule\Common\Fightbag.xml" desc=""/>
+        <path name="struct\rule\Common\skilluse.xml" desc=""/>
+        <path name="struct\rule\Common\bufferuse.xml" desc=""/>
+        <path name="struct\rule\fight\flow_new.xml" desc=""/>
+        <path name="struct\rule\fight\range_new.xml" desc=""/>
+        <path name="struct\rule\fight\cooldown_new.xml" desc=""/>
+        <path name="struct\rule\fight\relation.xml" desc=""/>
+	</includes>
+</object>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--枪手相关属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="guildwar_offline_x" type="float" public="false" private="true" save="true" desc="在能量井战场内下线的x坐标"/>
+		<property name="guildwar_offline_y" type="float" public="false" private="true" save="true" desc="在能量井战场内下线的y坐标"/>
+		<property name="guildwar_offline_z" type="float" public="false" private="true" save="true" desc="在能量井战场内下线的z坐标"/>
+	</properties>
+</object>

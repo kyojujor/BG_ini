@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--NPC基础属性-->
+<object>
+    <!-- 基本属性 -->
+    <properties>
+		<property name="Level" type="int" public="true" private="false" save="false" desc="npc的等级"/>
+        <property name="CollideType" type="int" public="true" private="false" save="false" desc="碰撞类型(通过此属性类控制引擎的内部属性NoCollide)"/>
+        <property name="FightID" type="string" public="false" private="false" save="false" desc="战斗包ID"/>
+        <property name="Type" type="byte" public="true" private="false" save="false" desc="类型"/>
+        <property name="CantShowHeadInfo" type="byte" public="true" private="false" save="false" desc="是否显示头顶信息"/>
+        <property name="Resource" type="string" public="true" private="false" save="false" desc="资源"/>
+        <property name="Scale" type="string" public="true" private="false" save="false" desc="模型缩放比例"/>
+        <property name="ConfigID" type="string" public="true" private="false" save="false" desc="编号"/>
+        <property name="NpcType" type="byte" public="true" private="false" save="false" desc="NPC类型"/>
+        <property name="SelectState" type="byte" public="true" private="false" save="false" desc="选择类型"/>
+        <property name="Camp" type="int" public="true" private="false" save="false" desc="阵营"/>
+        <property name="Force" type="int" public="true" private="false" save="false" desc="势力"/>
+        <property name="MotionNoRotate" type="byte" public="true" private="false" save="false" desc="NPC移动时方向是否不变"/>
+        <property name="NeedRotate" type="int" public="true" private="false" save="false" desc="npc是否需要转向玩家"/>
+        <property name="CreatorIndex" type="int" public="false" private="false" save="false" desc="新生成器的编号"/>
+        <property name="StaticId" type="string" public="false" private="false" save="false" desc="静态id工具生成"/>
+        <property name="AwardRepute" type="string" public="false" private="false" save="false" desc=""/>
+        <property name="BeatBackType" type="int" public="false" private="false" save="false" desc="反击类型(0: 受到伤害会反击  1: 受到伤害不反击)"/>
+        <property name="SuicideTime" type="int" public="false" private="false" save="false" desc="战斗结束后间隔多少秒销毁自身(秒)"/>
+        <property name="CanPick" type="byte" public="true" private="false" save="false" desc="能否拾取"/>
+        <property name="VisType" type="int" public="true" private="false" save="false" desc="可见性类型(0:所有人都可见，1:指定对象可见，2:指定团队可见，3:指定势力可见，4:指定阵营可见)"/>
+        <property name="VisDataInt" type="int" public="true" private="false" save="false" desc="可见性数据(int)"/>	
+        <property name="VisDataStr" type="widestr" public="true" private="false" save="false" desc="可见性数据(widestr)"/>
+        <property name="SelectSound" type="string" public="false" private="false" save="false" desc="npc被选择时的音效"/>
+        <property name="NPCCanSelect" type="word" public="true" private="false" save="false" desc="npc能否被选中,0被选中,1不被选中"/>
+        <property name="FirstAttacker" type="widestr" public="false" private="false" save="false" desc="攻击的第一个人"/>
+		<property name="Stiff" type="float" public="false" private="false" save="false" desc="硬直"/>
+        <property name="PeaceAction" type="string" public="false" private="false" save="false" desc="和平待机动作集(供策划配置)"/>
+        <property name="FightAction" type="string" public="false" private="false" save="false" desc="战斗待机动作集(供策划配置)"/>
+        <property name="TalkAction" type="string" public="false" private="false" save="false" desc="说话待机动作集(供策划配置)"/>
+        <property name="PeaceRandomAction" type="string" public="true" private="false" save="false" desc="和平待机动作集(供client查询)"/>
+        <property name="FightRandomAction" type="string" public="true" private="false" save="false" desc="战斗待机动作集(供client查询)"/>
+        <property name="TalkRandomAction" type="string" public="true" private="false" save="false" desc="说话待机动作集(供client查询)"/>
+        <property name="BornTime" type="int64" public="true" private="false" save="false" desc="npc出生的服务器时间"/>
+		<property name="HeadEffect" type="int" public="true" private="false" save="false" desc="头顶显示特效类型"/>
+		<property name="NpcNickName" type="widestr" public="true" private="false" save="false" desc="别名"/>
+		<property name="ExtraInfo" type="string" public="true" private="false" save="false" desc="Tip"/>
+		<property name="Guid" type="string" public="false" private="false" save="false" desc="npc的guid"/>
+		<property name="RoleHideAdd" type="int" public="false" private="false" save="false" desc="NPC的显示和隐身"/>
+    </properties>
+    <!-- 表属性 -->
+    <records>
+        <record name="skill_queue_rec" cols="8" maxrows="16" save="false" public="false" private="false" desc="npc技能等待释放列表">
+          <column type="object" desc="技能对象"/>
+          <column type="object" desc="技能释放目标"/>
+          <column type="dword" desc="循环释放次数"/>
+          <column type="dword" desc="技能优先级"/>
+          <column type="dword" desc="是否是对指定地点释放的技能"/>
+          <column type="float" desc="目标x坐标"/>
+          <column type="float" desc="目标y坐标"/>
+          <column type="float" desc="目标z坐标"/>
+        </record>
+    </records>
+    <!--从其他文件加载属性-->
+    <includes>
+        <path name="struct\internals\internals_npc.xml" desc="内部属性"/>
+        <path name="struct\rule\Common\motion.xml" desc="移动"/>
+        <path name="struct\rule\Common\state.xml" desc="通用状态属性"/>
+        <path name="struct\rule\Common\hide.xml" desc="隐身"/>
+        <path name="struct\npc_property\npcchange.xml" desc="npc变身"/>
+        <path name="struct\common\trigger.xml" desc="触发器"/>
+    </includes>
+</object>

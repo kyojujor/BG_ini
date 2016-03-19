@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--移动相关的属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="OnTransToolState" type="byte" public="true" private="true" save="true" desc="乘坐状态"/>
+		<property name="LinkObj" type="object" public="true" private="true" save="true" desc="当前链接在此对象上"/>
+		<property name="OnSwitchTransState" type="byte" public="true" private="true" save="true" desc="跨场景交通工具乘坐状态"/>
+		<property name="TransToolID" type="string" public="true" private="true" save="true" desc="跨场景交通工具静态ID"/>
+		<property name="FlyStep" type="dword" public="true" private="true" save="true" desc="飞行步数"/>
+		<property name="FromTo" type="dword" public="true" private="true" save="true" desc="路线号"/>
+		<property name="RoadType" type="byte" public="false" private="false" save="true" desc="路线类型"/>
+		<property name="StoreHeight" type="float" public="true" private="true" save="true" desc="保存高度"/>
+	</properties>
+	<records>
+		<!-- 记录玩家在FlyNpc上下线后传送的位置 -->
+		<record name="FlyNpcStoreRec" cols="3" maxrows=1 save="true" public="false" private="false" desc="FlyNpc下线传送表">
+			<column type="float" desc="坐标x"/>
+			<column type="float" desc="坐标y"/>
+			<column type="float" desc="坐标z"/>
+		</record>
+		<record name="fly_path_rec" cols="4" maxrows="2048" save="true" public="false" private="true" desc="玩家飞行路线">
+			<column type="float" desc="坐标x"/>
+			<column type="float" desc="坐标y"/>
+			<column type="float" desc="坐标z"/>
+			<column type="word" desc="场景编号"/>
+		</record>
+	</records>
+</object>

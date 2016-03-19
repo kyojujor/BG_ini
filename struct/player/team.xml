@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="TeamID" type="int" public="false" private="true" save="true" desc="队伍编号"/>
+		<property name="JoinTeamTime" type="double" public="false" private="false" save="true" desc="入队时间"/>
+		<property name="TeamCaptain" type="widestr" public="true" private="true" save="false" desc="普通队伍的队长"/>
+		<property name="TeamPickMode" type="byte" public="true" private="true" save="false" desc="队伍拾取分配模式"/>
+		<property name="TeamPickQuality" type="byte" public="true" private="true" save="false" desc="队伍拾取分配品质"/>
+		<property name="TeamPickRoll" type="byte" public="false" private="false" save="false" desc="队伍拾取轮流序号"/>
+		<property name="TeamCamp" type="byte" public="false" private="false" save="false" desc="队伍阵营模式"/>
+		<property name="TeamType" type="byte" public="true" private="true" save="true" desc="队伍类型"/>	
+		<property name="TeamUniqueID" type="string" public="false" private="false" save="true" desc="队伍唯一ID"/>
+		<property name="IsReady" type="byte" public="false" private="false" save="false" desc="是否准备"/>
+		<property name="AcceptRequest" type="byte" public="false" private="true" save="false" desc="拒绝请求开关"/>
+		<property name="CurMembers" type="byte" public="true" private="true" save="false" desc="队伍当前人数"/>
+		<property name="TeamSceneSign" type="string" public="false" private="true" save="true" desc="队伍场景标记"/>
+		<!-- 特殊队伍的属性 -->
+		<property name="STeamCaptain" type="widestr" public="false" private="true" save="false" desc="特殊队伍的队长"/>
+		<property name="STeamType" type="byte" public="true" private="true" save="false" desc="队伍类型"/>	
+	</properties>
+	<!-- 表属性 -->
+	<records>
+		<record name="team_rec" cols="21" maxrows="25" save="false" public="false" private="true" desc="队伍成员列表">
+			<column type="widestr" desc="队员名"/>
+			<column type="string" desc="Photo"/>
+			<column type="string" desc="场景编号"/>
+			<column type="float" desc="X"/>
+			<column type="float" desc="Y"/>
+			<column type="float" desc="Z"/>
+			<column type="byte" desc="HPRatio"/>
+			<column type="byte" desc="EGRatio"/>
+			<column type="string" desc="Buffers"/>
+			<column type="byte" desc="IsFighting"/>
+			<column type="byte" desc="队伍中位置"/>
+			<column type="byte" desc="队伍的职位"/>
+			<column type="int64" desc="上次离线时间"/> 
+			<column type="string" desc="标记字符串"/> 
+			<column type="byte" desc="准备确认"/> 
+     		<column type="byte" desc="等级"/>
+     		<column type="byte" desc="职业"/>
+			<column type="byte" desc="Camp"/>  
+			<column type="string" desc="玩家所在区域"/>
+			<column type="dword" desc="MaxHP"/>
+			<column type="dword" desc="MaxEG"/>
+		</record>
+    <record name="team_recruit_info_rec" cols="5" maxrows="25" save="false" public="false" private="true" desc="招募队伍详情表">
+			<column type="widestr" desc="队员名"/>
+			<column type="byte" desc="JOB"/>
+			<column type="byte" desc="Level"/>
+			<column type="byte" desc="TeamType"/>
+			<column type="byte" desc="pos"/>
+		</record>
+    <record name="team_recruit_rec" cols="11" maxrows="500" save="false" public="false" private="true" desc="招募列表">
+			<column type="byte" desc="队伍编号"/>
+			<column type="widestr" desc="队长名字"/>
+			<column type="byte" desc="队长职业"/>
+			<column type="byte" desc="队长等级"/>
+			<column type="byte" desc="最小等级限制"/>
+			<column type="byte" desc="最大等级限制"/>
+			<column type="byte" desc="当前队伍人数"/>
+			<column type="byte" desc="最大募集人数"/>
+			<column type="byte" desc="队伍阵营"/>
+			<column type="widestr" desc="队伍说明"/>
+			<column type="int64" desc="发布招募的时间"/>
+		</record>
+	</records>
+</object>

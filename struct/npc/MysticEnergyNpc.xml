@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--科技类NPC基础属性-->
+<object>
+    <!-- 基本属性 -->
+    <properties>
+		<property name="fEnergyType" type="byte" public="false" private="false" save="false" desc="法阵的类型"/>
+        <property name="fDestoryDis" type="float" public="false" private="false" save="false" desc="npc的销毁距离"/>
+        <property name="sSelfForeverBuffer" type="string" public="false" private="false" save="false" desc="自身永久buffer"/>
+		<property name="sSelfTimeBuffer" type="string" public="false" private="false" save="false" desc="自身非永久buffer"/>
+		<property name="sSelfHalo" type="string" public="false" private="false" save="false" desc="秘法师本身光环"/>
+		<property name="sOtherHalo" type="string" public="false" private="false" save="false" desc="其他人进入法阵加的光环"/>
+		<property name="nBeatTimes" type="int" public="false" private="false" save="false" desc="心跳时间，buffer消失的时间"/>
+		<property name="nBeatDisTimes" type="int" public="false" private="false" save="false" desc="心跳时间，隔多长时间检测一次主人与法阵的距离"/>
+	</properties>
+  <!-- 表属性 -->
+  <records>
+    <record name="teamers_in_energy" cols="1" maxrows="64" public="false" private="false" save="false" desc="处于能量法阵的队友们">
+      <column type="object" desc="队友id"/>
+    </record>
+  </records>
+</object>

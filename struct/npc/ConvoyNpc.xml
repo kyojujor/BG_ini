@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--LeaderNPC的属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="DestPointX" type="float" public="false" private="false" save="false" desc="目标点X"/>
+		<property name="DestPointZ" type="float" public="false" private="false" save="false" desc="目标点Z"/>
+		<property name="TargetScene" type="int" public="false" private="false" save="false" desc="目标场景号"/>
+		<property name="TargetPosX" type="float" public="false" private="false" save="false" desc="目标点X"/>
+		<property name="TargetPosZ" type="float" public="false" private="false" save="false" desc="目标点Z"/>
+		<property name="ConvoyType" type="int" public="true" private="false" save="false" desc="护送类型"/>
+		<property name="Master" type="widestr" public="true" private="false" save="false" desc="护送人"/>
+		<property name="ConvoyCriteriaID" type="int" public="false" private="false" save="false" desc="子模板编号"/>
+		<property name="ToDestFlag" type="int" public="false" private="false" save="false" desc="到达目标点的标志"/>
+		<property name="ConvoyPathID" type="string" public="false" private="false" save="false" desc="巡逻路径"/>
+		<property name="EventPatrolType" type="int" public="false" private="false" save="false" desc="事件巡逻类型，0事件开启开始巡逻，1出生开始巡逻"/>
+	</properties>
+	<!-- 表属性 -->
+	<records>
+		<record name="ConvoyPointRec" cols="4" maxrows="64" save="false" public="false" private="false" desc="路径点表">
+			<column type="float" desc="x"/>
+			<column type="float" desc="z"/>
+			<column type="int" desc="time"/>
+			<column type="string" desc="talk"/>
+		</record>
+		<record name="ConvoyEventRec" cols="2" maxrows="32" save="false" public="false" private="false" desc="护送事件表">
+			<column type="int" desc="出生到产生事件的时间"/>
+			<column type="int" desc="召唤敌人事件,0代表护送成功"/>
+		</record>
+		<!-- 组队护送时,记录初始队伍表 -->
+		<record name="PlayerTeamRec" cols="1" maxrows="32" save="false" public="false" private="false" desc="护送事件表">
+			<column type="widestr" desc="玩家姓名"/>
+		</record>
+		<record name="PartnerRec" cols="1" maxrows="32" save="false" public="false" private="false" desc="伙伴表">
+			<column type="object" desc="伙伴"/>
+		</record>
+	</records>
+	<!--从其他文件加载属性-->
+	<includes>
+	
+	</includes>
+</object>

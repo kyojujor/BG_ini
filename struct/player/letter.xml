@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--邮件相关属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+	</properties>
+	<records>
+		<record name="RecvLetterRec" cols="15" maxrows="128" save="true" public="false" private="true" desc="">
+			<column type="widestr" desc="寄信人姓名"/>
+			<column type="string" desc="寄信人UID"/>
+			<column type="byte" desc="寄信人UID"/>
+			<column type="int64" desc="寄信人UID"/>
+			<column type="byte" desc="信件类型"/>
+			<column type="byte" desc="信件加急"/>
+			<column type="widestr" desc="信件题目"/>
+			<column type="widestr" desc="信件内容"/>
+			<column type="string" desc="黄金附件"/>
+			<column type="string" desc="物品附件"/>
+			<column type="string" desc="寄信日期"/>
+			<column type="byte" desc="已读标记"/>
+			<column type="string" desc="信件流水号"/>
+			<column type="string" desc="提取附件应付金额（只在交易类信件起效）"/>
+			<column type="byte" desc="急件NPC是否已召唤（只在加急邮件起效）"/>
+		</record>
+		
+		<record name="RecvLetterMidRec" cols="13" maxrows="128" save="true" public="false" private="false" desc="中间表">
+			<column type="widestr" desc="寄信人姓名"/>
+			<column type="string" desc="寄信人UID"/>
+			<column type="int64" desc="剩余时间"/>
+			<column type="dword" desc="信件类型"/>
+			<column type="dword" desc="信件加急"/>
+			<column type="widestr" desc="信件题目"/>
+			<column type="widestr" desc="信件内容"/>
+			<column type="string" desc="黄金附件"/>
+			<column type="string" desc="物品附件"/>
+			<column type="string" desc="寄信日期"/>
+			<column type="dword" desc="已读标记"/>
+			<column type="string" desc="信件流水号"/>
+			<column type="string" desc="提取附件应付金额（只在交易类信件起效）"/>
+		</record>
+		
+		<record name="RecvLetterDealRec" cols="13" maxrows="128" save="true" public="false" private="false" desc="发送交易邮件备份表">
+			<column type="widestr" desc="寄信人姓名"/>
+			<column type="string" desc="寄信人UID"/>
+			<column type="int64" desc="剩余时间"/>
+			<column type="dword" desc="信件类型"/>
+			<column type="dword" desc="信件加急"/>
+			<column type="widestr" desc="信件题目"/>
+			<column type="widestr" desc="信件内容"/>
+			<column type="string" desc="黄金附件"/>
+			<column type="string" desc="物品附件"/>
+			<column type="string" desc="寄信日期"/>
+			<column type="dword" desc="已读标记"/>
+			<column type="string" desc="信件流水号"/>
+			<column type="string" desc="提取附件应付金额（只在交易类信件起效）"/>
+		</record>
+
+		<record name="BackstageLetterRec" cols="8" maxrows="128" save="true" public="false" private="true" desc="后台邮件配置表">
+			<column type="string" desc="开始时间"/>
+			<column type="string" desc="结束时间"/>
+			<column type="byte" desc="信件加急"/>
+			<column type="widestr" desc="信件题目"/>
+			<column type="widestr" desc="信件内容"/>
+			<column type="string" desc="黄金附件"/>
+			<column type="string" desc="物品附件"/>
+			<column type="byte" desc="已发标记"/>
+		</record>
+		
+		<record name="GiftWaitPostGetRec" cols="3" maxrows="20" save="true" public="false" private="false" desc="账号领奖等待收取表">
+			<column type="int" desc="礼物id"/>
+			<column type="string" desc="礼物名称"/>
+			<column type="int" desc="礼物数量"/>
+		</record>
+	</records>
+</object>

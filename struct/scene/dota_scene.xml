@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--Dota场景属性-->
+<object>
+  <!-- 基本属性 -->
+  <properties>
+  </properties>
+  <!-- 表属性 -->
+  <records>
+    <record name="dotabattlewar_scene_rec" cols="25" maxrows="10" save="false" public="false" private="false" desc="Dota战场统计表">
+      <column type="string" desc="玩家图片"/>
+			<column type="widestr" desc="队员名"/>
+			<column type="byte" desc="等级"/>
+			<column type="byte" desc="阵营"/>
+			<column type="dword" desc="击杀"/>
+			<column type="dword" desc="死亡"/>
+			<column type="dword" desc="助攻"/>
+			<column type="dword" desc="击杀小兵数"/>
+			<column type="string" desc="技能1"/>
+			<column type="string" desc="技能2"/>
+			<column type="string" desc="道具1"/>
+			<column type="string" desc="道具2"/>
+			<column type="string" desc="道具3"/>
+			<column type="string" desc="道具4"/>
+			<column type="string" desc="道具5"/>
+			<column type="string" desc="道具6"/>
+			<column type="dword" desc="状态"/>
+			<column type="dword" desc="复活时间"/>
+			<column type="dword" desc="连续死亡/击杀次数"/>
+			<column type="object" desc="PID"/>
+			<column type="dword" desc="伤害量"/>
+			<column type="dword" desc="治疗量"/>
+      <column type="byte" desc="职业"/>
+      <column type="dword" desc="总积分"/>
+      <column type="dword" desc="个人积分"/>
+    </record>
+    <record name="arenaplane_teama_rec" cols="1" maxrows="5" save="false" public="false" private="false" desc="竞技队伍A成员表">
+      <column type="widestr" desc="队员名"/>
+    </record>
+    <record name="arenaplane_teamb_rec" cols="1" maxrows="5" save="false" public="false" private="false" desc="竞技队伍B成员表">
+      <column type="widestr" desc="队员名"/>
+    </record>
+  </records>
+  <!--从其他文件加载属性-->
+  <includes>
+  </includes>
+</object>

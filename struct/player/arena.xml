@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--竞技场相关属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="ArenaID" type="int" public="false" private="true" save="false" desc="竞技场id(为0表示不在竞技场内)"/>
+		<property name="ArenaState" type="int" public="false" private="true" save="false" desc="竞技场状态"/>
+		<property name="ArenaSinglePoints" type="int" public="false" private="true" save="true" desc="竞技场个人积分"/>
+		<property name="ArenaSingleEveryWeekPoints" type="int" public="false" private="false" save="true" desc="竞技场每周的个人积分"/>
+		<property name="ClearEveryWeekPointsTime" type="int64" public="false" private="false" save="true" desc="玩家每周积分清除时间"/>
+		<property name="ArenaTeamName" type="widestr" public="true" private="true" save="true" desc="竞技场战队名称"/>
+		<property name="IsArenaTeamCaptain" type="int" public="false" private="true" save="true" desc="是否是战队的队长"/>
+		<property name="ArenaQueueID" type="int64" public="false" private="false" save="false" desc="竞技场排队的唯一id"/>
+		<property name="ArenaSceneID" type="int" public="false" private="false" save="false" desc="竞技场场景id"/>
+		<property name="ArenaTeamType" type="int" public="false" private="true" save="false" desc="竞技场队伍类型"/>
+		<property name="ArenaMatchType" type="int" public="false" private="true" save="false" desc="竞技场匹配类型"/>
+		<property name="ArenaKill" type="int" public="false" private="true" save="false" desc="竞技场连杀"/>
+	</properties>
+	<records>
+		<record name="arena_request_rec" cols="1" maxrows="3" save="true" public="false" private="true" desc="竞技场战队申请表">
+			<column type="widestr" desc="战队名称"/>
+		</record>
+		<record name="player_arena_info_rec" cols="10" maxrows="2" save="true" public="false" private="true" desc="竞技场信息表">
+		  <column type="byte"  desc="竞技场信息类型"/>
+			<column type="dword" desc="竞技场积分"/>
+			<column type="dword" desc="参数次数"/>
+			<column type="dword" desc="胜利次数"/>
+			<column type="dword" desc="失败次数"/>
+			<column type="word"  desc="当前连胜"/>
+			<column type="word"  desc="最大连胜"/>
+			<column type="byte" desc="当前排名"/>
+			<column type="byte" desc="上次排名"/>
+			<column type="byte" desc="每周积分"/>
+		</record>
+	</records>
+</object>

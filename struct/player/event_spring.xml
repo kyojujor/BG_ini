@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<object>
+    <properties>
+        <property name="CurrentESId" type="int" public="false" private="true" save="true" desc="player当前正在参与的事件id"/>
+    </properties>
+	<records>
+		<record name="PlayerESRec" cols="4" maxrows="1024" save="true" public="false" private="true" desc="玩家正在参与的事件表">
+			<column type="dword" desc="事件id"/>
+			<column type="word" desc="场景id"/>
+			<column type="int64" desc="事件开始时间"/>
+            <column type="byte" desc="player区域状态"/>
+		</record>
+		<record name="PlayerESCriteriaRec" cols="6" maxrows="1024" save="true" public="false" private="true" desc="玩家接受的事件子目标表">
+			<column type="dword" desc="事件id"/>
+			<column type="dword" desc="子目标id"/>
+			<column type="byte" desc="是否隐藏子目标"/>
+			<column type="byte" desc="是否共享子目标"/>
+			<column type="dword" desc="子目标当前个数"/>
+			<column type="dword" desc="子目标最大个数"/>
+		</record>
+		<record name="PlayerESRewardRec" cols="8" maxrows="1024" save="true" public="false" private="true" desc="事件结束后玩家得到的奖励表">
+			<column type="dword" desc="事件id"/>
+			<column type="byte" desc="奖励类型(0: 团队目标奖励; 1: 子目标奖励)"/>
+			<column type="byte" desc="事件贡献类型(0: 目标贡献; 1: boss贡献)"/>
+			<column type="float" desc="目标完成度"/>
+			<column type="string" desc="道具id"/>
+			<column type="dword" desc="经验"/>
+			<column type="dword" desc="金钱"/>
+			<column type="dword" desc="猎杀点数"/>
+		</record>
+	</records>
+</object>

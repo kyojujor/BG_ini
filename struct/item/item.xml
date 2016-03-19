@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--物品基础属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="ConfigID" type="string" public="false" private="true" save="false" desc="编号"/>
+		<property name="only" type="byte" public="false" private="false" save="false" desc="0为不唯一;1为装备唯;2为唯一"/>
+		<property name="CoreLevel" type="int" public="false" private="false" save="false" desc="核心物品等级"/>
+
+		<property name="Type" type="int" public="false" private="true" save="false" desc="子类型"/>
+		<property name="Level" type="int" public="false" private="true" save="false" desc="道具等级"/>
+
+		<property name="Photo" type="string" public="false" private="false" save="false" desc="图片"/>
+		<property name="ItemType" type="int" public="false" private="true" save="false" desc="物品类型"/>
+		<property name="TextureType" type="int" public="false" private="false" save="false" desc="材质类型"/>
+		<property name="ColorLevel" type="int" public="false" private="true" save="false" desc="颜色等级"/>
+		<property name="HaloLevel" type="int" public="false" private="false" save="false" desc="道具特效边框等级"/>
+		<property name="Owner" type="widestr" public="false" private="true" save="true" desc="签名"/>
+		<property name="Description" type="string" public="false" private="false" save="false" desc="编辑器用"/>
+		<property name="Desc" type="widestr" public="false" private="false" save="false" desc="编辑器用"/>
+
+		<property name="UniqueID" type="string" public="false" private="true" save="true" desc="唯一编号"/>
+
+		<property name="Amount" type="int" public="false" private="true" save="true" desc="当前数量"/>
+		<property name="MaxAmount" type="int" public="false" private="true" save="false" desc="最大数量"/>
+		<property name="MaxCount" type="int" public="false" private="false" save="false" desc="可拥有最大数量"/>
+		<property name="Task" type="byte" public="false" private="true" save="false" desc="是否任务道具"/>
+		<property name="SkillPack" type="int" public="false" private="false" save="false" desc="静态技能包"/>
+
+		<property name="BindType" type="int" public="false" private="true" save="false" desc="绑定类型"/>
+		<property name="BindStatus" type="int" public="false" private="true" save="true"
+				desc="绑定状态, 0:未绑定, 1:已绑定"/>
+    <property name="IsCanConsign" type="int" public="false" private="true" save="false"
+				desc="绑定状态, 0:不可交易, 1:可交易"/>
+    <property name="LockStatus" type="int" public="false" private="true" save="false"
+				desc="锁定状态, 0:未锁定, 1:已锁定"/>
+
+		<property name="BuyType" type="int" public="false" private="true" save="false" desc="购买类型"/>
+		<property name="SellPrice0" type="int" public="false" private="true" save="false" desc="售价0"/>
+		<property name="SellPrice1" type="int" public="false" private="true" save="false" desc="售价1"/>
+
+		<property name="BuyPrice0"  type="int" public="false" private="true" save="false" desc="买价0"/>
+		<property name="BuyPrice1"  type="int" public="false" private="true" save="false" desc="买价1"/>
+		<property name="BuyPrice2"  type="int" public="false" private="false" save="false" desc="买价2"/>
+		<property name="BuyPrice3"  type="int" public="false" private="false" save="false" desc="买价3"/>
+		<property name="BuyPrice4"  type="int" public="false" private="false" save="false" desc="买价4"/>
+
+		<property name="LimitedPack" type="int" public="false" private="false" save="false" desc="装备条件包"/>
+
+		<property name="ArtPack" type="int" public="false" private="true" save="false" desc="美术静态数据包"/>
+		<property name="CantDepot" type="byte" public="false" private="false" save="false" desc="是否能放入仓库,大于0时不可"/>
+		<property name="CantSell" type="byte" public="false" private="false" save="false" desc="能否贩卖"/>
+		<property name="CantDelete" type="byte" public="false" private="false" save="false" desc="是否能删除,大于0时不可"/>
+		<property name="LogicPack" type="int" public="false" private="false" save="false" desc="逻辑包，包含交易数据"/>
+		<property name="ExpiredTime" type="string" public="false" private="true" save="false" desc="物品到期时间点 年.月.日.时.分"/>
+		<property name="ValidTime" type="int" public="false" private="true" save="false"
+				desc="有效期, 单位为小时,此值为0时,表示此物品没有有效期限制"/>
+		<property name="NotValid" type="byte" public="false" private="true" save="true"
+				desc="超过有效期后设置无效"/>
+		<property name="LeftTime" type="int" public="false" private="true" save="true"
+				desc="剩余时间, 单位为分钟"/>
+		<property name="BeginTime" type="int64" public="false" private="false" save="true"
+				desc="物品开始计时时间, time_t,有效期开始计算的时间"/>
+		<property name="ValidTimeType" type="byte" public="false" private="false" save="false" 
+	      desc="时效性道具有效时间的计算类型,大于0时表示计算在线和下线的全部时间,否则只计算在线时间"/>
+	</properties>
+	<!-- 表属性 -->
+	<records>
+    <!-- 添加记录可掷骰的成员名单的表格 -->
+        <record name="dice_member_rec" cols="3" maxrows="50" public="true" private="false" save="false" desc="PickUpModule移植而来">
+            <column type="widestr" desc="可拾取的玩家名称"/>
+            <column type="byte" desc="存放投掷的点数"/>
+            <column type="byte" desc="存放成员投掷方式（需求、贪婪）"/>
+        </record>
+	</records>
+	<!--从其他文件加载属性-->
+	<includes>
+		<path name="struct\item\item_prop_shop.xml" desc="商店相关"/>
+	</includes>
+</object>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--技能的属性数据-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="QName" type="widestr" public="false" private="false" save="false" desc="查询用名称"/>
+		<property name="QTypeID" type="int" public="false" private="false" save="false" desc="查询用编号"/>
+		<property name="ItemType" type="int" public="false" private="true" save="false" desc="物品类型"/>
+		<property name="ConfigID" type="string" public="false" private="true" save="false" desc="技能编号"/>
+		<property name="CanUse" type="byte" public="false" private="true" save="false" desc="是否可以使用"/>
+		<!--<property name="CurTargetCount" type="int" public="false" private="true" save="false" desc="目标数量"/>-->
+
+		<!-- 和种静态属性包和功能包 -->
+		<!--<property name="StaticData" type="int" public="true" private="true" save="false" desc="静态数据包"/>-->
+		<property name="Skill_Use_Limit" type="string" public="false" private="false" save="false" desc="除消耗限制外的使用限制包"/>
+		<!--<property name="DamageCalculate" type="int" public="false" private="false" save="false" desc="伤害计算包"/>-->
+		<!--<property name="Consume" type="int" public="false" private="false" save="false" desc="消耗包"/>-->
+		<!--<property name="TargetShapePkg" type="int" public="false" private="false" save="false" desc="技能射程范围"/>-->
+		<!--<property name="HitShapePkg" type="int" public="false" private="false" save="false" desc="技能波及范围"/>-->
+		<!--<property name="HurtCount" type="int" public="false" private="false" save="false" desc="命中次数,用于计算伤害"/>-->
+		<property name="Level" type="int" public="false" private="true" save="true" desc="级别"/>
+		<!--<property name="VarPropNo" type="int" public="false" private="true" save="true" desc="当前可变属性编号"/>-->
+		<!--<property name="Exp" type="int64" public="false" private="true" save="true" desc="当前经验值"/>-->
+		<!--<property name="UpgradeExp" type="int64" public="false" private="true" save="false" desc="升级所需经验值"/>-->
+		<!--<property name="PauseTime" type="int" public="false" private="false" save="false" desc="flow命中前的等待时间，念咒时间,起手式时间"/>-->
+		<!--<property name="HeightDiff" type="float" public="false" private="fasle" save="false" desc="技能攻击时的高度差"/>-->
+		<!--<property name="BreakPackage" type="int" public="false" private="true" save="false" desc="打断包ID"/>-->
+		<property name="Skill_Main" type="string" public="false" private="false" save="false" desc="技能主包"/>
+		<property name="Skill_Damage" type="string" public="false" private="false" save="false" desc="伤害包"/>
+		<property name="Skill_Effect" type="string" public="false" private="false" save="false" desc="特效包"/>
+		<property name="Skill_Display" type="string" public="false" private="false" save="false" desc="表现包"/>
+		<property name="SkillEditClass" type="string" public="false" private="false" save="false" desc="编辑器分类"/>
+		<property name="Description" type="string" public="false" private="false" save="false" desc="技能描述"/>
+		<!--<property name="Mount_ID" type="int" public="true" private="true" save="false" desc="骑乘包"/>-->
+		<property name="StrUseSkill" type="byte" public="false" private="false" save="false" desc="强制释放技能"/>
+		<property name="AheadSendTime" type="int" public="false" private="false" save="false" desc="技能提前释放时间"/>
+		<!--<property name="Flow" type="int" public="true" private="true" save="false" desc="流控制包"/>-->
+		<!--<property name="LastLoadTime" type="int64" public="false" private="false" save="false" desc="上次载入静态包时间"/>-->
+		<!--<property name="StaticDataPoint" type="int64" public="false" private="false" save="false" desc="静态包指针"/>-->
+    <property name="Stiff" type="float" public="false" private="false" save="false" desc="硬直"/>
+    <property name="SkillAddRate" type="float" public="false" private="false" save="false" desc="技能偏向加成"/>
+    <property name="ConsumeAddRate" type="float" public="false" private="false" save="false" desc="技能消耗加成"/>
+	<property name="BeActived" type="byte" public="false" private="true" save="true" desc="被动技能是否被激活"/>
+	</properties>
+	<!-- 表属性 -->
+	<records>
+	</records>
+	<!--从其他文件加载属性-->
+	<includes>
+		<path name="struct\rule\fight\consume.xml" desc=""/>
+		<path name="struct\rule\fight\range_new.xml" desc=""/>
+		<path name="struct\rule\fight\relation.xml" desc=""/>
+		<path name="struct\rule\fight\cooldown_new.xml" desc=""/>
+		<path name="struct\rule\fight\flow_new.xml" desc=""/>
+		<path name="struct\common\trigger.xml" desc="触发器"/>
+    <!--<path name="struct\rule\fight\modifyhurt.xml" desc="用于被修正"/>-->
+	</includes>	
+</object>

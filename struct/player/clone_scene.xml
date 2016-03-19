@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--快捷栏相关相定义-->
+<object>
+    <!-- 基本属性 -->
+    <properties>
+        <property name="killed_monster" type="int" public="false" private="false" save="true" desc="击杀怪物数"/>
+        <property name="killed_boss" type="int" public="false" private="false" save="true" desc="击杀boss数"/>
+        <property name="damage_total" type="int" public="false" private="false" save="true" desc="输出总量"/>
+        <property name="CurCloneSceneLevel" type="dword" public="false" private="true" save="true" desc="当前难度"/>
+        <property name="CloneSceneScoreTop" type="int64" public="false" private="true" save="true" desc="通关分数"/>
+        <property name="CloneScoreTopRefreshTime" type="int64" public="false" private="true" save="true" desc="通关分数刷新时间"/>
+        <property name="CloneWeekLimitCount" type="int" public="false" private="true" save="true" desc="每周进入副本的剩余次数"/>
+        <property name="CloneWeekLimitCountMax" type="int" public="false" private="true" save="true" desc="每周进入副本的总次数"/>
+    </properties>
+    <!-- 表属性 -->
+    <records>
+        <record name="clone_info_record" cols="13" maxrows="256" save="true" public="false" private="true" desc="副本信息表">
+            <column type="word" desc="副本原型id"/>			
+            <column type="byte" desc="进入次数"/>
+            <column type="byte" desc="副本当前进度"/>
+            <column type="byte" desc="副本难度"/>
+            <column type="word" desc="副本场景ID"/>
+            <column type="int64" desc="副本刷新时间"/>
+            <column type="string" desc="副本唯一UID"/>
+            <column type="byte" desc="是否开启"/>
+            <column type="word" desc="副本标识(副本ID乘以10加上难度)"/>
+            <column type="widestr" desc="副本拥有者"/>
+            <column type="byte" desc="副本类型(个人，队伍)"/>
+            <column type="string" desc="副本已打过的Boss"/>
+            <column type="int64" desc="副本开启时间"/>
+        </record>
+        <record name="clone_pass_info_record" cols="15" maxrows="256" save="true" public="false" private="true" desc="副本信息表">
+            <column type="word" desc="副本原型id"/>			
+            <column type="byte" desc="副本难度"/>
+            <column type="word" desc="副本标识(副本ID乘以10加上难度)"/>
+            <column type="int64" desc="通关的时间"/>
+            <column type="int64" desc="杀死Boss的时间"/>
+            <column type="word" desc="player死亡的总数"/>
+            <column type="int64" desc="通关的得分"/>
+            <column type="byte" desc="是否开启"/>
+            <column type="string" desc="副本的玩家"/>
+            <column type="byte" desc="队伍类型"/>
+            <column type="string" desc="触发器评分的中文包ID"/>
+            <column type="string" desc="触发器评分"/>
+            <column type="string" desc="随机掉落的道具, id,数量,几率(多个)"/>
+            <column type="byte" desc="奖励次数"/>
+            <column type="string" desc="已经领过的宝箱，序号，id|"/>
+        </record>
+        <record name="clone_boss_fight_info_rec" cols="3" maxrows="128" save="true" public="false" private="true" desc="副本Boss耗时表">
+            <column type="word" desc="副本标识(副本ID乘以10加上难度)"/>
+            <column type="string" desc="BossName"/>
+            <column type="string" desc="BossTime"/>
+        </record>
+        <record name="clone_player_fight_info_rec" cols="4" maxrows="128" save="true" public="false" private="true" desc="副本的所有玩家表">
+            <column type="word" desc="副本原型id"/>
+            <column type="byte" desc="副本难度"/>
+            <column type="word" desc="副本标识(副本ID乘以10加上难度)"/>
+            <column type="string" desc="玩家|伤害输出|治疗输出|承受伤害|死亡次数"/>
+        </record>
+        <record name="clone_pass_info_max_record" cols="15" maxrows="256" save="true" public="false" private="true" desc="副本信息表">
+            <column type="word" desc="副本原型id"/>
+            <column type="byte" desc="副本难度"/>
+            <column type="word" desc="副本标识(副本ID乘以10加上难度)"/>
+            <column type="int64" desc="通关的时间"/>
+            <column type="int64" desc="杀死Boss的时间"/>
+            <column type="word" desc="player死亡的总数"/>
+            <column type="int64" desc="通关的得分"/>
+            <column type="byte" desc="是否开启"/>
+            <column type="string" desc="副本的玩家"/>
+            <column type="byte" desc="队伍类型"/>
+            <column type="string" desc="触发器评分的中文包ID"/>
+            <column type="string" desc="触发器评分"/>
+            <column type="string" desc="随机掉落的道具, id,数量,几率(多个)"/>
+            <column type="word"  desc="最大的伤害"/>
+            <column type="int64"  desc="最大的通关时间"/>
+        </record>
+        <record name="clone_boss_fight_info_max_rec" cols="3" maxrows="128" save="true" public="false" private="true" desc="副本Boss耗时表">
+            <column type="word" desc="副本标识(副本ID乘以10加上难度)"/>
+            <column type="string" desc="BossName"/>
+            <column type="string" desc="BossTime"/>
+        </record>
+        <record name="clone_player_fight_info_max_rec" cols="4" maxrows="128" save="true" public="false" private="true" desc="副本的所有玩家表">
+            <column type="word" desc="副本原型id"/>
+            <column type="byte" desc="副本难度"/>
+            <column type="word" desc="副本标识(副本ID乘以10加上难度)"/>
+            <column type="string" desc="玩家|伤害输出|治疗输出|承受伤害|死亡次数"/>
+        </record>
+        <record name="clone_team_first_into_rec" cols="5" maxrows="128" save="true" public="false" private="true" desc="所在队伍队长进过副本表">
+            <column type="word" desc="副本标识(副本ID乘以10加上难度)"/>
+            <column type="widestr" desc="副本首先进入的玩家"/>
+            <column type="word" desc="副本场景ID"/>
+            <column type="string" desc="副本唯一UID"/>
+            <column type="string" desc="击杀的boss"/>
+        </record>
+    </records>
+</object>

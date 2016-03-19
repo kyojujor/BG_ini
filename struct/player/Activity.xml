@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--人物剧本相关属性定义-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="ActDegree" type="int" public="false" private="true" save="true" desc="活动完成度"/>
+		<property name="ActPhase"  type="byte" public="false" private="true" save="true" desc="活动奖励领取的阶段"/>
+	</properties>
+	<!-- 表属性 -->
+	<records>
+	<!--活动列表1天清空一次,所以不大多-->
+		<record name="ActivityRec" cols="2" maxrows="32" save="true" public="false" private="true" desc="完成活动表">
+			<column type="dword" desc="活动ID"/>
+			<column type="byte" desc="当天已经完成的次数"/>
+		</record>
+	</records>
+</object>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="gb2312"?>
+<object>
+  <!-- 基本属性 -->
+  <properties>
+    <property name="MaxHPAdd" type="int" public="true" private="true" save="false" desc="最大生命值"/>
+	  <property name="MaxMPAdd" type="int" public="true" private="true" save="false" desc="最大魔法值"/>
+	  <property name="HPRatio" type="int" public="true" private="true" save="false" desc="当前MP百分比"/>
+	  <property name="MPRatio" type="int" public="true" private="true" save="false" desc="当前MP百分比"/>
+	
+	  <property name="MaxHP" type="int" public="true" private="true" save="false" desc="最大生命值"/>
+	  <property name="MaxMP" type="int" public="true" private="true" save="false" desc="最大魔法值"/>
+	  <property name="HP"  type="int" public="true" private="true" save="true" desc="当前生命值"/>
+    <property name="MP"  type="int" public="true" private="true" save="true" desc="当前法力值"/>
+	
+  </properties>
+  <!-- 表属性 -->
+  <records>
+
+  </records>
+ 
+</object>

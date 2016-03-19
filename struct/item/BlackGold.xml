@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--材料属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+			<property name="Energy" type="int" public="false" private="true" save="true" desc="黑金能量"/>
+			<property name="ArmorFuelType" type="string" public="false" private="false" save="false" desc="机甲使用时候用的栏位判断"/>
+			<property name="EnergyDec" type="byte" public="false" private="false" save="false" desc="能量减少标志"/>
+	</properties>
+	<!-- 表属性 -->
+	<records>
+	</records>
+	<!--从其他文件加载属性-->
+	<includes>	    
+	</includes>
+</object>

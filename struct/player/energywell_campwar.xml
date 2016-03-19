@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--枪手相关属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="camp_war_task" type="string" public="false" private="true" save="false" desc="阵营战专属任务"/>
+		<property name="camp_war_relive" type="string" public="false" private="true" save="false" desc="阵营战归属复活点: x,z,camp;x,z,camp"/>
+		<property name="camp_war_pillar" type="string" public="false" private="true" save="false" desc="阵营战能量柱点: x,z,camp;x,z,camp"/>
+	</properties>
+	
+	<records>
+	</records>
+</object>

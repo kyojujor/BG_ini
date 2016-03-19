@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--NPCAI相关-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+	<!-- 2011-03-21 -->
+		<property name="WarnType" type="int" public="true" private="false" save="false" desc="警戒类型(0: 被动  1: 主动球警戒  2: 主动圆柱警戒  3: 主动扇柱警戒  4: 主动球+扇柱警戒)"/>
+		<property name="WarnTime" type="int" public="false" private="false" save="false" desc="警戒时间"/>
+		<property name="SphereRadius" type="float" public="false" private="false" save="false" desc="球半径"/>
+		<property name="CylinderRadius" type="float" public="false" private="false" save="false" desc="圆柱半径或扇柱半径"/>
+		<property name="CylinderLowerHeight" type="float" public="false" private="false" save="false" desc="圆柱下高或扇柱下高"/>
+		<property name="CylinderUpperHeight" type="float" public="false" private="false" save="false" desc="圆柱上高或扇柱上高"/>
+        <property name="SectorHalfAngle" type="float" public="false" private="false" save="false" desc="扇柱角度的一半(角度制)"/>
+		<property name="WorldDropID"  type="string" public="false" private="false" save="false" Desc="世界掉落"/>
+		<property name="AITemplate" type="int" public="false" private="false" save="false" desc="AI模板编号"/>
+		<property name="CurState" type="int" public="false" private="false" save="false" desc="当前状态"/>
+		<property name="SubState" type="int" public="false" private="false" save="false" desc="子状态"/>
+		<property name="PreState" type="int" public="false" private="false" save="false" desc="前一状态"/>
+		<property name="BornX" type="float" public="false" private="false" save="false" desc="出生点X"/>
+		<property name="BornY" type="float" public="false" private="false" save="false" desc="出生点Y"/>
+		<property name="BornZ" type="float" public="false" private="false" save="false" desc="出生点Z"/>
+		<property name="BFX" type="float" public="false" private="false" save="false" desc="开始战斗X"/>
+		<property name="BFY" type="float" public="false" private="false" save="false" desc="开始战斗Y"/>
+		<property name="BFZ" type="float" public="false" private="false" save="false" desc="开始战斗Z"/>
+		<property name="CantBeKilled" type="int" public="false" private="false" save="false" desc="NPC是否可以被杀死"/>
+		<property name="AIEffect" type="string" public="true" private="false" save="false" desc="AI特效"/>
+		<property name="PathID" type="string" public="false" private="false" save="false" desc="路径ID"/>
+		<property name="PatrolMode" type="int" public="false" private="false" save="false" desc="巡逻模式"/>
+		<property name="PatrolRange" type="float" public="true" private="false" save="false" desc="巡逻范围"/>
+		<property name="CallHelpType" type="int" public="false" private="false" save="false" desc="求救类型"/>
+		<property name="CallHelpRange" type="float" public="false" private="false" save="false" desc="求救半径"/>
+		<property name="ActiveEscapPos" type="int" public="false" private="false" save="false" desc="是否启用逃跑点作为活动点"/>
+		<property name="LevelWrap" type="string" public="false" private="false" save="false" desc="npc的等级包"/>
+		<property name="AIFirstAttacker" type="object" public="false" private="false" save="false" desc="AI第一攻击目标"/>
+		<property name="ChaseRange" type="float" public="false" private="false" save="false" desc="追击范围"/>
+		<property name="ChaseType" type="int" public="false" private="false" save="false" desc="新追击距离"/>
+		<property name="ChaseProbability" type="float" public="false" private="false" save="false" desc="追击概率"/>
+		<property name="ChaseWalkPro" type="float" public="false" private="false" save="false" desc="追击时行走的概率"/>
+		<property name="LastObject" type="object" public="true" private="false" save="false" desc="当前选择的对象"/>
+		<property name="StopAI" type="int" public="false" private="false" save="false" desc="停止AI"/>
+		<property name="StopPatrol" type="int" public="false" private="false" save="false" desc="停止巡逻"/>
+		<property name="Resting" type="int" public="false" private="false" save="false" desc="休息中"/>
+		<property name="DropID" type="string" public="false" private="false" save="false" desc="掉落ID"/>
+		<property name="Owner" type="widestr" public="true" private="false" save="false" desc="拥有者"/>
+		<property name="AttackPlayer" type="widestr" public="true" private="false" save="false" desc="攻击玩家名字"/>
+		<property name="RefreshTime" type="int" public="false" private="false" save="false" desc="刷新时间"/>
+		<property name="WeaponName" type="string" public="true" private="false" save="false" desc="武器名称"/>
+		<property name="WeaponMode" type="string" public="true" private="false" save="false" desc="武器持握方式"/>
+		<property name="EveTriProID" type="int" public="false" private="false" save="false" desc="事件对应触发器包"/>
+		<property name="CharacterPackID" type="string" public="false" private="false" save="false" desc="NPC性格包ID"/>
+		<property name="ChatTypeID" type="string" public="false" private="false" save="false" desc="NPC聊天类型ID"/>
+		<property name="SkillPackID" type="string" public="false" private="false" save="false" desc="Skill包ID"/>
+		<property name="MasterID" type="object" public="true"  private="false"    save="false" desc="主人的ID"/>
+		<property name="FollowProtectRadius" type="float" public="false"  private="false"    save="false" desc="跟随保护半径"/>
+		<property name="FollowProbability" type="float" public="false"  private="false"    save="false" desc="跟随概率"/>
+		<property name="FollowType" type="int" public="false"  private="false"    save="false" desc="跟随类型"/>
+		<property name="AIInstruction" type="int" public="false"  private="false"    save="false" desc="主人命令"/>
+		<property name="AIControlMode" type="int" public="false"  private="false"    save="false" desc="控制模式"/>
+		<property name="NoRotate" type="int" public="false"  private="false"    save="false" desc="NPC是否能转向,0为能转,1为不能转"/>
+        <property name="AttackArrest" type="int" public="false"  private="false"    save="false" desc="NPC是否可以攻击红名玩家,1可以 0不可以"/>
+        <property name="PathPointType" type="int" public="true" private="false" save="false" desc="当前目标巡逻点的类型(1:停留点 0:过路点)"/>
+        <property name="BornBuff" type="string" public="false" private="false" save="false" desc="npc的出生buff"/>
+		<property name="HateTransferScale" type="float" public="false" private="false" save="false" desc="转移给master的仇恨比例"/>
+		<property name="NeedBackBFPoint" type="int" public="false" private="false" save="false" desc="战斗结束,是否需要返回战斗点0,返回,1不返回"/>
+		<property name="CallHelpHP" type="int" public="false" private="false" save="false" desc="求救血量,100分支多少"/>
+		<property name="BornBanTime" type="int" public="false" private="false" save="false" desc="出生后是否限制"/>
+		<property name="BornBanBuff" type="string" public="false" private="false" save="false" desc="npc的出生后限制属性的buff"/>
+		<property name="OwnerList" type="widestr" public="true" private="false" save="false" desc="npc拥有者列表"/>
+	</properties>
+	<records>
+		<record name="HateList" cols="4" maxrows="60" save="false" public="false" private="false" desc="仇恨列表">
+			<column type="object" desc="仇恨对象ID"/>
+			<column type="dword" desc="仇恨值"/>
+			<column type="int64" desc="最近攻击时间"/>
+			<column type="dword" desc="优先级"/>
+		</record>
+		<record name="SpringList" cols="1" maxrows="512" save="false" public="false" private="false" desc="触发列表">
+			<column type="object" desc="触发范围内的对象ID"/>
+		</record>
+		<record name="AIGroupPosRec" cols="2" maxrows="1280" save="false" public="false" private="false" desc="调整位置表">
+			<column type="float" desc="x"/>
+			<column type="float" desc="z"/>
+		</record>
+		<record name="AttackerPosRec" cols="1" maxrows="1024" save="false" public="false" private="false" desc="攻击者位置表">
+            <column type="object" desc="npc的id"/>
+		</record>
+		<record name="AI_Chat_rec" cols="3" maxrows="1" save="false" public="false" private="false" desc="说话内容">
+			<column type="object" desc="对谁说"/>
+			<column type="string" desc="说的哪段话"/>
+			<column type="word" desc="要说的第几句"/>
+		</record>
+		<record name="AI_SpringChat_rec" cols="1" maxrows="3" save="false" public="false" private="false" desc="聊天触发范围内对象">
+            <column type="object" desc="npc的id"/>
+		</record>
+		<record name="npc_owner_rec" cols="1" maxrows="500" public="false" private="false" save="false" desc="npc拥有者表，杀小怪时用">
+            <column type="widestr" desc="拥有者姓名"/>
+        </record>
+		<record name="boss_owner_rec" cols="3" maxrows="1024" public="false" private="false" save="false" desc="npc拥有者表，杀boss时用">
+			<column type="byte" desc="类型,1个人，2队伍"/>
+            <column type="widestr" desc="拥有者姓名，或者是队伍的id"/>
+			<column type="word" desc="造成的伤害量"/>
+        </record>
+		<record name="BornBuffRec" cols="1" maxrows="64" public="false" private="false" save="false" desc="BornBuff解析后存在表格中">
+			<column type="string" desc="buff的id"/>
+        </record>
+		<record name="npc_not_give_exp_rec" cols="1" maxrows="500" public="false" private="false" save="false" desc="部分情况下，npc被打死不提供经验">
+            <column type="widestr" desc="拥有者姓名"/>
+        </record>
+	</records>
+</object>

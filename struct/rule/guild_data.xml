@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--人物公会相关属性定义-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="GuildName" type="widestr" public="true" private="true" save="true" desc="公会名称"/>
+		<property name="GuildPosition" type="int" public="true" private="true" save="true" desc="玩家公会职位" />
+		<property name="GuildUid" type="int" public="false" private="false" save="false" desc="公会UID"/>
+		<property name="GuildQuitTime" type="double" public="false" private="false" save="true" desc="玩家退出加入过的公会的时间"/>
+		<property name="RespondedGuildName" type="widestr" public="false" private="false" save="true" desc="公会名称"/>
+	</properties>
+	<!-- 表属性 -->
+	<records>
+		<record name="requested_guild" cols="1" maxrows="1024" save="true" public="false" private="false" desc="申请过的公会">
+			<column type="widestr" desc="申请过的公会名称"/>
+		</record>
+		<record name="guild_seek_mate" cols="5" maxrows="1024" save="false" public="false" private="false" desc="查询公会过滤表">
+			<column type="widestr" desc="公会名称"/>
+			<column type="widestr" desc="会长名称"/>
+			<column type="WORD" desc="公会人数"/>
+			<column type="byte" desc="公会关系"/>
+			<column type="byte" desc="申请状态"/>
+		</record>
+		<record name="guild_player_ralation_record" cols="2" maxrows="10" save="false" public="false" private="true" desc="和玩家建立关系的公会表">
+			<column type="widestr" desc="公会名称"/>
+			<column type="byte" desc="公会关系"/>
+		</record>
+		<record name="guild_sort_list_record" cols="4" maxrows="1024" save="false" public="false" private="false" desc="排序公会列表">
+			<column type="widestr" desc="公会名称"/>
+			<column type="widestr" desc="会长名称"/>
+			<column type="WORD" desc="公会人数"/>
+			<column type="byte" desc="申请状态"/>
+		</record>
+	</records>
+</object>

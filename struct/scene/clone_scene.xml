@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="gb2312"?>
+<object>
+    <!-- 基本属性 -->
+    <properties>
+        <property name="CloneDifficulty" type="int" public="false" private="true" save="false" desc="副本难度(0-初级 1-中级 2-高级)"/>
+        <property name="CloneProgress" type="int" public="false" private="false" save="false" desc="副本进度"/>
+        <property name="CloneUniqueID" type="string" public="false" private="false" save="false" desc="副本场景唯一id"/>
+        <property name="CloneOwnerType" type="int" public="false" private="false" save="false" desc="副本拥有者类型(0-不属于任何人或队伍 1-个人 2-小队 3-团队)"/>
+        <property name="CloneOwnerID" type="int" public="false" private="false" save="false" desc="当拥有者是队伍，那么就是队伍ID,如果是团队就是团队的id" />
+        <property name="CloneOwnerName" type="widestr" public="false" private="false" save="false" desc="副本创建者的名字" />        
+        <property name="BossBeKilledCount" type="int" public="false" private="false" save="false" desc="数量" />	
+        <property name="PassStageTime" type="int64" public="false" private="false" save="false" desc="通关时间" />
+        <property name="BossTimeCount" type="int64" public="false" private="false" save="false" desc="杀死Boss的时间" />
+        <property name="PlayerDeadCount" type="int" public="false" private="false" save="false" desc="player死亡的总数" />
+        <property name="PScore1" type="int" public="false" private="false" save="false" desc="触发器评分1" />
+        <property name="PScore2" type="int" public="false" private="false" save="false" desc="触发器评分2" />
+        <property name="PScore3" type="int" public="false" private="false" save="false" desc="触发器评分3" />
+        <property name="PScore4" type="int" public="false" private="false" save="false" desc="触发器评分4" />
+        <property name="PScoreText1" type="string" public="false" private="false" save="false" desc="触发器评分客户端对应的中文包1" />
+        <property name="PScoreText2" type="string" public="false" private="false" save="false" desc="触发器评分客户端对应的中文包2" />
+        <property name="PScoreText3" type="string" public="false" private="false" save="false" desc="触发器评分客户端对应的中文包3" />
+        <property name="PScoreText4" type="string" public="false" private="false" save="false" desc="触发器评分客户端对应的中文包4" />
+        <property name="CloneBeginTime" type="int64" public="false" private="false" save="false" desc="副本倒计时开始时间" />
+        <property name="GmPassClone" type="int" public="false" private="false" save="false" desc="gm通关"/>
+        <property name="nMobTurn" type="int" public="false" private="false" save="false" desc="分波出怪副本中, 当前波次"/>
+    </properties>
+    <!-- 表属性 -->
+    <records>
+        <record name="clone_scene_player_rec" cols="7" maxrows="128" save="true" public="false" private="false" desc="副本的所有玩家表">
+            <column type="string" desc="playerName"/>
+            <column type="word" desc="InScene,1在,0不在"/>
+            <column type="word" desc="等级"/>
+            <column type="word" desc="职业"/>
+            <column type="word" desc="战斗力"/>
+            <column type="word" desc="所在场景"/>
+            <column type="string" desc="宝箱开启情况,0:禁用,1:未领取,2:已领取(0,1,1,2,1,2)"/>
+        </record>
+        <record name="clone_scene_boss_fight_info_rec" cols="2" maxrows="128" save="false" public="false" private="false" desc="副本的boss耗时表">
+            <column type="string" desc="BossName"/>
+            <column type="int64" desc="BossTime"/>
+        </record>
+        <record name="clone_scene_player_fight_info_rec" cols="5" maxrows="128" save="false" public="false" private="false" desc="副本的所有玩家表">      
+            <column type="string" desc="玩家"/>
+            <column type="dword" desc="伤害输出"/>
+            <column type="dword" desc="治疗输出"/>
+            <column type="dword" desc="承受伤害"/>
+            <column type="dword" desc="死亡次数"/>
+        </record>
+        <record name="clone_boss_pos" cols="5" maxrows="128" save="false" public="false" private="false" desc="所在队伍队长进过副本表">
+			<column type="object" desc="uid"/>
+			<column type="string" desc="configid"/>
+			<column type="float" desc="x"/>
+			<column type="float" desc="y"/>
+			<column type="float" desc="z"/>
+        </record>
+    </records>
+    <!--从其他文件加载属性-->
+    <includes>
+      <!--path name="struct\scene\practice_scene.xml" desc="试练场副本"-->
+    </includes>
+</object>
+

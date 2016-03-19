@@ -1,0 +1,34 @@
+	<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--快捷栏相关相定义-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="ShortcutKey" type="string" public="false" private="true" save="true" desc="快捷键"/>
+    <property name="GunManLeftSkill" type="string" public="false" private="true" save="true" desc="神枪手左键点击释放技能ID"/>
+	</properties>
+	<!-- 表属性 -->
+	<records>
+		<record name="shortcut_rec" cols="4" maxrows="1024" save="true" public="false" private="true" desc="快捷栏表">
+			<column type="word" desc="序号"/>
+			<column type="string" desc="参数1"/>
+			<column type="string" desc="参数2"/>
+			<column type="byte" desc="类型，大于0的不能从快捷栏删除"/>
+		</record>
+
+		<record name="equip_skill_rec" cols="4" maxrows="1024" save="true" public="false" private="true" desc="技能栏装备表">
+			<column type="word" desc="序号"/>
+			<column type="string" desc="技能号"/>
+			<column type="byte" desc="默认1待扩展用"/>
+			<column type="word" desc="shortcut_rec中的index"/>
+		</record>
+		
+		<record name="equip_skill_rec_all" cols="5" maxrows="18" save="true" public="false" private="true" desc="技能栏装备表总表（包含三个技能栏的记录，前6行为SKILLTYPE1，中间6行为SKILLTYPE2，最后6行为SKILLTYPE3）">
+			<column type="word" desc="序号"/>
+			<column type="string" desc="技能号"/>
+			<column type="byte" desc="默认1待扩展用"/>
+			<column type="word" desc="shortcut_rec中的index"/>
+			<column type="byte" desc="1表示空，2表示非空"/>
+		</record>
+	</records>
+</object>

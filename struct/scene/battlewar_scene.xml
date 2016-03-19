@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--战场场景副本属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="QueueRecName" type="string" public="false" private="false" save="false" desc="排队表名字"/>
+		<property name="QueueId" type="int" public="false" private="false" save="false" desc="排队表ID"/>
+		<property name="SKingBeKilleds" type="int" public="false" private="false" save="false" desc="蒸汽王被杀次数"/>
+		<property name="MKingBeKilleds" type="int" public="false" private="false" save="false" desc="奇幻王被杀次数"/>
+		<property name="SignState" type="int" public="false" private="false" save="false" desc="旗子状态"/>
+		<property name="BattleWarID" type="int" public="false" private="false" save="false" desc="对应战场id"/>
+		<property name="STCaptain" type="widestr" public="false" private="false" save="false" desc="蒸汽队长"/>
+		<property name="MTCaptain" type="widestr" public="false" private="false" save="false" desc="奇幻队长"/>
+		<property name="SteamPoint" type="int" public="false" private="false" save="false" desc="蒸汽方积分"/>
+		<property name="MagicPoint" type="int" public="false" private="false" save="false" desc="奇幻方积分"/>
+	</properties>
+	<!--从其他文件加载属性-->
+	<records>
+		<record name="battlewar_steam_team_rec" cols="15" maxrows="25" save="false" public="false" private="false" desc="蒸汽队伍成员列表">
+			<column type="widestr" desc="队员名"/>
+			<column type="string" desc="头像"/>
+			<column type="float" desc="坐标X"/>
+			<column type="float" desc="坐标Z"/>
+			<column type="byte" desc="血量"/>
+			<column type="byte" desc="能量"/>
+			<column type="string" desc="Buffers"/>
+      			<column type="int64" desc="上次离线时间"/> 
+  		   	<column type="byte" desc="等级"/>
+   		  	<column type="byte" desc="职业"/>
+  		   	<column type="byte" desc="状态"/>
+  		   	<column type="byte" desc="队伍中的位置"/>
+  			<column type="byte" desc="队伍中的职位"/>
+			<column type="string" desc="标记字符串"/>
+      <column type="byte" desc="特殊玩法的一些状态"/>
+    </record>
+		<record name="battlewar_magic_team_rec" cols="15" maxrows="25" save="false" public="false" private="false" desc="奇幻队伍成员列表">
+			<column type="widestr" desc="队员名"/>
+			<column type="string" desc="头像"/>
+			<column type="float" desc="坐标X"/>
+			<column type="float" desc="坐标Z"/>
+			<column type="byte" desc="血量"/>
+			<column type="byte" desc="能量"/>
+			<column type="string" desc="Buffers"/>
+      			<column type="int64" desc="上次离线时间"/> 
+  		   	<column type="byte" desc="等级"/>
+   		  	<column type="byte" desc="职业"/>
+  		   	<column type="byte" desc="状态"/>
+  		   	<column type="byte" desc="队伍中的位置"/>
+  			<column type="byte" desc="队伍中的职位"/>
+			<column type="string" desc="标记字符串"/>
+      		<column type="byte" desc="特殊玩法的一些状态"/>
+		</record>
+		<record name="steam_space_postion_rec" cols="1" maxrows="25" save="false" public="false" private="false" desc="蒸汽团队空余位置表">
+			<column type="byte" desc="空余的位置"/>
+		</record>
+		<record name="magic_space_postion_rec" cols="1" maxrows="25" save="false" public="false" private="false" desc="奇幻团队空余位置表">
+			<column type="byte" desc="空余的位置"/>
+		</record>
+		<record name="battlewar_statistics_scene" cols="10" maxrows="50" save="false" public="false" private="false" desc="战场统计表">
+			<column type="byte" desc="排名"/>
+			<column type="widestr" desc="队员名"/>
+			<column type="byte" desc="职业"/>
+			<column type="byte" desc="等级"/>
+			<column type="dword" desc="伤害量"/>
+			<column type="dword" desc="治疗量"/>
+			<column type="dword" desc="击杀"/>
+			<column type="dword" desc="死亡"/>
+			<!--column type="word" desc="战场荣誉"/-->
+			<column type="byte" desc="阵营"/>
+			<column type="int64" desc="特殊玩法"/>
+		</record>
+	</records>
+	<includes>
+	</includes>
+</object>

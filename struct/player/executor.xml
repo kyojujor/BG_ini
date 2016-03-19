@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--执行者相关属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="EXEV" type="int" public="false" private="false" save="false" desc="当前执行力"/>
+		<property name="ExecutorState" type="int" public="false" private="false" save="false" desc="当前姿态"/>
+	</properties>
+	<records>
+	</records>
+</object>

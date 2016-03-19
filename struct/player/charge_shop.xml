@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2010 (http://www.altova.com) by hahah (memem) -->
+<!--人物基础属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+	</properties>
+	<!-- 表属性 -->
+	<records>
+		<!-- 收费商店购买或者赠送的附加信息 -->
+		<record name="ChargeBuyRec" cols="7" maxrows="16" save="true" public="false" private="false" desc="收费商店购买或者赠送的附加信息">
+			<column type="string" desc="道具id"/>
+			<column type="byte" desc="数量"/>
+			<column type="byte" desc="道具将被存放的容器类型"/>
+			<column type="string" desc="赠送帐号"/>
+			<column type="widestr" desc="赠送角色名称"/>
+			<column type="widestr" desc="赠送的标题"/>
+			<column type="widestr" desc="赠送留言"/>
+		</record>
+		<!-- 收费商店-我的物品栏 -->
+		<record name="ChargeBoxRec" cols="5" maxrows="512" save="true" public="false" private="true" desc="收费商店我的物品栏">
+			<column type="string" desc="道具ConfigID"/>
+			<column type="WORD" desc="道具计费ID"/>
+			<column type="byte" desc="数量amount"/>
+			<column type="int64" desc="购买时间"/>
+			<column type="int64" desc="到期时间"/>
+		</record>
+		<!-- 收费商店-历史购买记录 -->
+		<record name="ChargeHistoryRec" cols="4" maxrows="128" save="true" public="false" private="true" desc="历史购买记录">
+			<column type="string" desc="道具ConfigID"/>
+			<column type="WORD" desc="道具计费ID"/>
+			<column type="int64" desc="购买时间"/>
+			<column type="int64" desc="到期时间"/>
+		</record>
+		<!-- 收费商店-收藏列表 -->
+		<record name="ChargeCollectRec" cols="4" maxrows="128" save="true" public="false" private="true" desc="收费商店-收藏列表">
+			<column type="string" desc="道具ConfigID"/>
+			<column type="WORD" desc="道具计费ID"/>
+			<column type="int64" desc="收藏时间"/>
+			<column type="int64" desc="到期时间"/>
+		</record>
+	</records>
+</object>

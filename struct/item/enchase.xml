@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--镶嵌道具的基础属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="RandSerial" type="string" public="false" private="false" save="false" desc="随机号ID"/>
+		<property name="JewelLevel" type="int" public="false" private="true" save="false" desc="宝石等级"/>
+		<property name="CantCompound" type="byte" public="false" private="false" save="false" desc="宝石是否不能合成"/>
+	</properties>
+	<!-- 表属性 -->
+	<records>
+	</records>
+	<!--从其他文件加载属性-->
+	<includes>
+	</includes>
+</object>

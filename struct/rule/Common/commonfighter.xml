@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--一个战斗对象(npc或玩家)的所有属性, NPC的属性主要从配置文件读取, 角色则是所有装备的集合-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="LogicState" type="byte" public="true" private="true" save="false" realtime="true" desc="逻辑状态"/>
+		<property name="Dead" type="byte" public="true" private="true" save="true" realtime="true" desc="死亡状态0:未死亡,1:已死亡"/>
+		<property name="CurAttackType" type="int" public="false" private="false" save="false" desc="当前的攻击方式0:打击,1:射击"/>
+		<property name="AttributeID" type="int" public="false" private="false" save="true" desc="主角战斗属性ID"/>
+		<property name="GuardSkill" type="string" public="false" private="true" save="true" desc="护甲技能"/>
+    <property name="ModelScale" type="float" public="true" private="true" save="false" desc="模型缩放附加倍率，初始为0"/>
+    <property name="PvpFlag" type="byte" public="true" private="false" save="false" desc="是否为pvp活动NPC1 是 0否"/>
+    <property name="PvpType" type="byte" public="true" private="false" save="false" desc="pvp活动载具类型1 攻击载具 0防御载具"/>
+
+  </properties>
+	<!-- 表属性 -->
+	<records>
+		<record name="cooldown_rec" cols="4" maxrows="512" save="true" public="false" private="true" desc="冷却表">
+			<column type="dword" desc="冷却分类ID"/>
+			<column type="int64" desc="冷却开始时间，现实64位时间数据"/>
+			<column type="int64" desc="冷却结束时间，现实64位时间数据"/>
+			<column type="dword" desc="冷却大分类ID,更上一层的分类"/>
+		</record>
+		<record name="nocooldown_team_rec" cols="1" maxrows="128" save="true" public="false" private="true" desc="临时不受传递冷却影响的分组">
+			<column type="dword" desc="冷却分类ID"/>
+		</record>
+		<record name="nocooldown_skill_rec" cols="2" maxrows="128" save="true" public="false" private="true" desc="临时不受冷却影响的技能">
+			<column type="dword" desc="冷却分类ID"/>
+			<column type="dword" desc="冷却组分类ID"/>
+		</record>
+		<record name="fight_relation_rec" cols="2" maxrows="512" save="false" public="false" private="true" desc="战斗关系表">
+			<column type="object" desc=""/>
+			<column type="word" desc="战斗关系开始的时间"/>
+		</record>
+		<record name="attack_back_rec" cols="3" maxrows="128" save="false" public="false" private="true" desc="还击关系表">
+			<column type="object" desc=""/>
+			<column type="byte" desc="被攻击开始的时间"/>
+			<column type="widestr" desc="玩家名字"/>
+		</record>
+    <record name="damage_tansfer_rec" cols="4" maxrows="50" save="false" public="false" private="false" desc="伤害转移">
+      <column type="object" desc="伤害转移对象"/>
+      <column type="dword" desc="伤害类型"/>
+      <column type="float" desc="转移百分比"/>
+      <column type="string" desc="buffer的ConfigID"/>
+    </record>
+    <record name="hate_transfer_rec" cols="4" maxrows="50" save="false" public="false" private="false" desc="仇恨转移">
+      <column type="object" desc="仇恨转移对象"/>
+      <column type="dword" desc="仇恨转移百分比"/>
+	<column type="object"  desc="buffer对象"/>
+      <column type="string" desc="buffer的ConfigID"/>
+    </record>
+    <record name="damage_next_rec" cols="8" maxrows="50" save="false" public="false" private="false" desc="伤害吸收，附加到下次攻击">
+      <column type="dword" desc="伤害类型"/>
+      <column type="dword" desc="吸收次数"/>
+      <column type="float" desc="保存伤害的百分比"/>
+      <column type="dword" desc="已经使用次数"/>
+      <column type="dword" desc="已保存的总伤害"/>
+      <column type="object" desc="buff对象"/>	  
+      <column type="string" desc="buffer的ConfigID"/>
+      <column type="object" desc="sender对象"/>
+    </record>
+    <record name="damage_absorb_rec" cols="6" maxrows="50" save="false" public="false" private="false" desc="伤害吸收">
+        <column type="dword" desc="吸收伤害类型"/>
+        <column type="dword" desc="吸收伤害点数"/>
+        <column type="object" desc="buffer对象"/>
+        <column type="string" desc="伤害点使用完之后释放的技能"/>
+		<column type="object" desc="sender对象"/>
+		<column type="string" desc="bufferID"/>
+    </record>
+    <record name="damage_Immunity_rec" cols="5" maxrows="50" save="false" public="false" private="false" desc="受击时免疫">
+      <column type="dword" desc="免疫伤害类型"/>
+      <column type="dword" desc="百分比或者免疫点数"/>
+      <column type="dword" desc="选项(1:百分比, 0:免疫点数)"/>
+      <column type="string" desc="buffer的ConfigID"/>
+      <column type="object" desc="buffer的Sender"/>	
+    </record>
+    <record name="damage_resume_rec" cols="5" maxrows="50" save="false" public="false" private="false" desc="受击恢复">
+        <column type="float" desc="回复的占伤害百分比"/>
+        <column type="dword" desc="恢复类型"/>
+        <column type="object" desc="buffer对象"/>
+		<column type="string" desc="buffer的ConfigID"/>
+        <column type="object" desc="buffer的Sender"/>	
+    </record>
+    <record name="damage_note_rec" cols="4" maxrows="50" save="false" public="false" private="false" desc="标记记录">
+        <column type="object" desc="标记施加者"/>
+        <column type="float" desc="增加百分比"/>
+        <column type="object" desc="buff对象"/>
+		<column type="string" desc="buffer的ConfigID"/>
+    </record>
+  </records>
+</object>

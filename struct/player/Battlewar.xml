@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="BattleWarState" type="int" public="false" private="true" save="false" desc="战场状态"/>
+		<property name="QueueId"  type="int" public="false" private="false" save="true" desc="排队表ID"/>
+		<property name="BattleSceneID"  type="int" public="false" private="false" save="true" desc="断线时所在战场场景的id"/>
+		<property name="BattleOffTime"  type="int64" public="false" private="false" save="true" desc="在战场中断线离开的时间"/>
+    <property name="BattleOnlineTime"  type="int64" public="false" private="false" save="true" desc="在战场在线的时间"/>
+    <property name="LeaveGive"  type="int" public="false" private="true" save="false" desc="离开战场能否获取奖励"/>
+    <property name="BattleWarID"    type="int" public="false" private="true" save="true" desc="进入战场的id"/>
+		<property name="BattleWarRand"  type="int" public="false" private="true" save="true" desc="是否是随机申请战场"/>
+		<property name="SteamPoint" type="int" public="false" private="false" save="false" desc="蒸汽方积分"/>
+		<property name="MagicPoint" type="int" public="false" private="false" save="false" desc="奇幻方积分"/>
+		<property name="LastKillEnemyTime"  type="int64" public="false" private="false" save="false" desc="上一次杀人的时间"/>
+		<property name="KeepKillNum"  type="int" public="false" private="false" save="false" desc="战场连斩"/>
+		<property name="MaxKeepKillNum"  type="int" public="false" private="true" save="false" desc="本场最高连斩"/>
+		<property name="KillEnemyNum"  type="int" public="false" private="false" save="false" desc="战场多杀"/>
+		<property name="MaxKillEnemyNum"  type="int" public="false" private="true" save="false" desc="本场最高多杀"/>
+		<property name="TotalKillEnemyNum"  type="int" public="false" private="false" save="false" desc="本场总共杀人人数"/>
+		<property name="BWDeadNum"  type="int" public="false" private="true" save="false" desc="战场被杀次数"/>
+		<property name="glory" type="int" public="false" private="false" save="true" desc="战场荣誉"/>
+		<property name="CampaignStatus" type="int64" public="false" private="true" save="false" desc="互斥活动状态"/>
+	</properties>
+	<!-- 表属性 -->
+	<records>
+		<record name="battlewar_prosecute_rec" cols="1" maxrows="25" save="false" public="false" private="false" desc="战场内举报其他玩家的表">
+			<column type="widestr" desc="玩家名"/>
+		</record>
+		<record name="battlewar_team_join_rec" cols="1" maxrows="25" save="false" public="false" private="false" desc="组队加入时跨场景队员状态表">
+			<column type="widestr" desc="玩家名"/>
+		</record>
+		<record name="battlewar_queued_rec" cols="5" maxrows="3" save="false" public="false" private="true" desc="已排的战场表或加入的开战表">
+			<column type="dword" desc="战场id"/>
+			<column type="string" desc="表名称"/>
+			<column type="word" desc="队列ID"/>
+			<column type="int64" desc="平均等待时间"/>
+			<column type="byte" desc="排队方式,1 个人排队，0 组队排队， 2 已开战"/>
+		</record>
+	</records>
+</object>

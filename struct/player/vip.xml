@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--死亡复活相关属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="IsVip" type="byte" public="true" private="true" save="true" desc="是否是vip"/>
+		<property name="VipEndTime" type="string" public="false" private="true" save="true" desc="vip到期时间"/>
+		<property name="VipCloneNum" type="DWORD" public="false" private="true" save="true" desc="副本次数"/>
+		<property name="VipCloneTime" type="string" public="false" private="true" save="true" desc="上次副本记录的时间"/>
+		<property name="VipPointTransferNum" type="DWORD" public="false" private="true" save="true" desc="界碑传送次数"/>
+		<property name="VipPointTransTime" type="string" public="false" private="true" save="true" desc="上次界碑传送记录的时间"/>
+		<property name="VipReliveNum" type="DWORD" public="false" private="true" save="true" desc="复活次数"/>
+		<property name="VipReliveTime" type="string" public="false" private="true" save="true" desc="上次复活记录的时间"/>
+		<property name="VipGiftTime" type="string" public="false" private="true" save="true" desc="上次领取礼包时间"/>
+	</properties>
+	<records>
+	</records>
+</object>

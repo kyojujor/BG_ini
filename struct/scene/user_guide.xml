@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="gb2312"?>
+<object>
+	<!-- 基本属性 -->
+	<properties>
+	</properties>
+	<!-- 表属性 -->
+	<records>
+    <record name="user_guide_fight_info_rec" cols="5" maxrows="128" save="true" public="false" private="false" desc="场景内所有玩家表">      
+      <column type="string" desc="玩家"/>
+      <column type="dword" desc="伤害输出"/>
+      <column type="dword" desc="治疗输出"/>
+      <column type="dword" desc="承受伤害"/>
+      <column type="dword" desc="死亡次数"/>
+    </record>
+	</records>
+	<!--从其他文件加载属性-->
+	<includes>
+	</includes>
+</object>
+

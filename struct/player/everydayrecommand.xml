@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 每日推荐表格定义 -->
+<object>
+	<properties>
+		<property name="EveRecActive" type="int" public="false" private="true" save="true" desc="当前活跃度"/>
+		<property name="EveRecLevel"  type="int" public="false" private="true" save="true" desc="每日推荐使用等级"/>
+		<property name="EvePVECount" type="int" public="false" private="true" save="true" desc="完成的PVE次数"/>
+		<property name="EvePVPCount" type="int" public="false" private="true" save="true" desc="完成的PVP次数"/>
+		<property name="EveEventCount" type="int" public="false" private="true" save="true" desc="触发的事件次数"/>
+		<property name="EveBattleCount" type="int" public="false" private="true" save="true" desc="完成的战场次数"/>
+		<property name="EveAthleticsCount" type="int" public="false" private="true" save="true" desc="完成的竞技场次数"/>
+		<property name="EveSceneCount" type="int" public="false" private="true" save="true" desc="完成的副本次数"/>
+		<property name="OfflineTime" type="string" public="false" private="false" save="true" desc="下线时间"/>
+		<property name="OnlineTime" type="string" public="false" private="true" save="true" desc="上线时间"/>
+	</properties>
+
+	<records>
+		<record name="everydayrecommend_rec" cols="3" maxrows="200" public="false" private="true" save="true" desc="每日推荐表">
+			<column type="string" desc="任务ID"/>
+			<column type="byte" desc="任务类型"/>
+			<column type="byte" desc="任务状态"/>
+		</record>
+		<record name="boxstate_rec" cols="3" maxrows="50" public="false" private="true" save="true" desc="宝箱领取状态表">
+			<column type="string" desc="宝箱ID"/>
+			<column type="byte" desc="宝箱状态"/> 
+			<column type="byte" desc="宝箱是否被激活"/> 
+		</record>
+		<record name="pvetask_rec" cols="1" maxrows="500" public="false" private="false" save="true" desc="任务奖励状态表">
+			<column type="dword" desc="pve任务ID"/>
+		</record>
+		<record name="pvptask_rec" cols="1" maxrows="500" public="false" private="false" save="true" desc="任务奖励状态表">
+			<column type="string" desc="pvp任务ID"/>
+		</record>
+		<record name="eventtask_rec" cols="1" maxrows="500" public="false" private="false" save="true" desc="任务奖励状态表">
+			<column type="dword" desc="event任务ID"/>
+		</record>
+		<record name="clonescene_rec" cols="1" maxrows="50" public="false" private="false" save="true" desc="任务奖励状态表">
+			<column type="dword" desc="副本表"/>
+		</record>
+		<record name="player_signin_rec" cols="7" maxrows="3" public="false" private="true" save="true" desc="签到表">
+			<column type="byte" desc="领取日期"/>
+			<column type="dword" desc="经验奖励"/>
+			<column type="dword" desc="时间限制"/>
+			<column type="int64" desc="金钱奖励"/>
+			<column type="string" desc="物品奖励池"/>
+			<column type="string" desc="bufferid"/>
+			<column type="byte" desc="是否已经领取"/>
+		</record>
+	</records>
+</object>

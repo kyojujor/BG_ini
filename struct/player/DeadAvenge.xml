@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--死亡后复仇相关属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="CurrentTime" type="int" public="false" private="false" save="true" desc="复活后经过的时间毫秒，普通复仇"/>
+    <property name="OffineSec" type="int64" public="false" private="false" save="true" desc="复仇下线时间"/>
+    <property name="SpecialTime" type="int" public="false" private="false" save="true" desc="复活后经过的时间毫秒，特殊复仇"/>
+		<property name="LastDeadExp" type="int" public="false" private="false" save="true" desc="最后一次死亡损失的经验值"/>
+    <property name="KillerName" type="widestr" public="false" private="false" save="true" desc="玩家名字"/>
+    <property name="NpcKillerType" type="int" public="false" private="false" save="true" desc="NPC类型"/>
+    <property name="LastKillerType" type="int" public="false" private="false" save="true" desc="N凶手类型"/>
+    <property name="IsUseItem" type="int" public="false" private="false" save="true" desc="最近一次复活是否使用了道具"/>
+  </properties>
+	<records>
+	</records>
+</object>

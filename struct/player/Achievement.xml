@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--人物剧本相关属性定义-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="AchievePoint" type="int" public="false" private="true" save="true" desc="成就点数"/>
+	</properties>
+	<!-- 表属性 -->
+	<records>
+		<record name="AchievementCriteriaProgress" cols="6" maxrows="1024" save="true" public="false" private="true" desc="成就进度表">
+			<column type="dword" desc="成就子模板编号"/>
+			<column type="dword" desc="归属的主成就编号"/>
+			<column type="byte" desc="进度标识"/>
+			<column type="dword" desc="当前进度"/>
+			<column type="dword" desc="需求进度"/>
+			<column type="dword" desc="成就编号"/>
+		</record>
+		<record name="AchievementCompleted" cols="3" maxrows="1024" save="true" public="false" private="true" desc="成就完成表">
+			<column type="dword" desc="成就编号"/>
+			<column type="byte" desc="领取奖励标识"/>
+			<column type="string" desc="完成时间"/>
+		</record>
+		<record name="AchievementTotalProgress" cols="4" maxrows="64" save="true" public="false" private="true" desc="子分类进度表">
+			<column type="byte" desc="子分类编号"/>
+			<column type="dword" desc="当前完成数量"/>
+			<column type="dword" desc="最大数量"/>
+			<column type="dword" desc="成就点数"/>
+		</record>
+		<record name="AchievementBonus" cols="1" maxrows="256" save="true" public="false" private="true" desc="隐藏成就列表">
+			<column type="dword" desc="隐藏成就编号"/>
+		</record>
+		<record name="AchievementTrace" cols="1" maxrows="5" save="true" public="false" private="true" desc="成就追踪表">
+			<column type="dword" desc="成就编号"/>
+		</record>
+	</records>
+</object>

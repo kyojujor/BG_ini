@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--能量井居民身份相关属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="RidePoint" type="int" public="false" private="true" save="true" desc="乘骑点数"/>
+		<property name="RideAutoRepairHP" type="byte" public="false" private="false" save="true" desc="自动修复HP"/>
+		<property name="RideAutoRepairMP" type="byte" public="false" private="false" save="true" desc="自动修复MP"/>
+		<property name="RideAutoRecharge" type="int" public="false" private="false" save="true" desc="自动充值"/>
+		<property name="RidePointLock" type="int" public="false" private="false" save="true" desc="乘频点锁"/>
+		<property name="EWTaskTokenTime" type="int64" public="false" private="false" save="true" desc="领取任务令牌时间"/>
+		<property name="EWDonateTime" type="int64" public="false" private="false" save="true" desc="上次打开捐献界面时间"/>
+		<property name="EWDonateCount" type="int" public="false" private="false" save="true" desc="本日捐献黑金数"/>
+		<property name="EWContributeCount" type="int" public="false" private="false" save="true" desc="本日捐献贡献度"/>
+	</properties>
+	<records>
+		<record name="player_energy_well_record" cols="6" maxrows="256" save="true" public="false" private="true" desc="能量井多重居民身份表">
+			<column type="dword" desc="所属能量井id"/>
+			<column type="byte" desc="能量井声望等级"/>
+			<column type="dword" desc="当前声望值"/>
+			<column type="byte" desc="阵营"/>
+			<column type="byte" desc="状态"/>
+			<column type="widestr" desc="占领公会"/>
+		</record>
+		<record name="player_battle_carrier_record" cols="13" maxrows="256" save="false" public="false" private="true" desc="能量井多重居民身份表">
+			<column type="string" desc="载具序列号"/>
+			<column type="dword" desc="载具ID"/>
+			<column type="dword" desc="所属能量井id"/>
+			<column type="dword" desc="修理指数"/>
+			<column type="dword" desc="载具状态"/>
+			<column type="dword" desc="场景ID"/>
+			<column type="dword" desc="HP"/>
+			<column type="dword" desc="MP"/>
+            <column type="widestr" desc="所有者"/>
+			<column type="int64" desc="Times"/>
+            <column type="widestr" desc="偷盗者"/>
+			<column type="int64" desc="Times"/>
+			<column type="dword" desc="场景原型ID"/>
+		</record>
+	</records>
+</object>

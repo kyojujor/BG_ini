@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--宠物基础属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+	    <!--属性中的过程现在全部改为true;作者:周邵全;日期:2011年10月17日-->
+		<!--功能:添加的宠物属性;作者:周邵全;日期:2011年10月26日-->
+		<!--ID代替了-->
+		<property name="GeneralType"    	type="word"    public="true"   private="false"   save="false"  desc="宠物的总类型"/>
+		<property name="FightType"      	type="word"    public="false"   private="false"   save="false"  desc="战斗的子类型"/>
+		<property name="Species"  		 	type="string"  public="true"   private="false"   save="false"  desc="物种类型"/>
+		<property name="Sex"  			 	type="word"    public="true"   private="false"   save="false"  desc="性别"/>
+		<property name="PetLimitPackID"  	type="word"    public="false"   private="false"   save="false"  desc="宠物限制包"/>
+		<property name="PetItemConfigID"    type="string"  public="false"   private="false"   save="false"  desc="宠物对应的道具,为职业装备使用"/>
+		<property name="PetSerie"     		type="string"  public="false"   private="false"   save="false"  desc="宠物系别的字段,用于狩猎者"/>
+		<property name="PetCanSwapScene" 	type="word"    public="false"   private="false"  save="false"  desc="宠物是否能跨场景跟随"/>
+		<property name="PetLogoutSave"   	type="word"    public="false"   private="false"  save="false"  desc="宠物是否下线后保存"/>
+		<property name="PetRideSave"   	type="word"    public="false"   private="false"  save="false"  desc="宠物是否上马后保存"/>
+		<property name="CantDismiss"   	type="word"    public="false"   private="false"  save="false"  desc="宠物是否能被主动解散ss"/>
+		<property name="OrcSoulBuff"     	type="string"  public="false"   private="false"  save="false"  desc="宠物对应的魔物融合BUFF"/>
+		<property name="PetCanChangeName"   type="word"    public="false"   private="false"  save="false"  desc="宠物能否改名0:能改名;1:不能改名"/>
+		<property name="PetCanOperateTable" type="word"    public="false"   private="false"  save="false"  desc="宠物能否有操作栏0:能有操作栏;1:没有操作栏"/>
+	        <property name="Photo" type="string" public="true" private="false" save="false" desc="图片"/>
+		<property name="SummonNum" type="word" public="false" private="false" save="false" desc="最大可召唤数"/>
+	</properties>
+	<!-- 表属性 -->
+	<records>
+		<record name="NpcToRoleRec" cols="2" maxrows="50" save="false" public="true" private="false" desc="NPC变角色">
+			<column type="string" desc="修改部件"/>
+			<column type="string" desc="部件资源"/>
+		</record>
+	</records>
+	<!--从其他文件加载属性-->
+	<includes>
+		<path name="struct\rule\Common\base_ctrl_prop.xml" desc="控制属性"/>
+        <path name="struct\rule\Common\Fightbag.xml" desc=""/>
+        <path name="struct\rule\Common\commonfighter.xml" desc=""/>
+        <path name="struct\rule\Common\damage.xml" desc=""/>
+        <path name="struct\rule\Common\flow_new.xml" desc=""/>
+        <path name="struct\rule\Common\range_new.xml" desc=""/>
+        <path name="struct\rule\Common\cooldown_new.xml" desc=""/>
+        <path name="struct\rule\Common\relation.xml" desc=""/>
+        <path name="struct\rule\Common\autorestore.xml" desc=""/>
+        <path name="struct\rule\Common\skilluse.xml" desc=""/>
+        <path name="struct\rule\Common\bufferuse.xml" desc=""/>
+        <path name="struct\rule\Common\ModifyBase.xml" desc="属性 技能 buff修正表"/>
+        <path name="struct\rule\Common\attack.xml" desc=""/>
+        <path name="struct\rule\Common\basefighterdata.xml" desc=""/>
+        <path name="struct\npc_property\ai_motion.xml" desc="AI属性"/>
+        <path name="struct\npc_property\ai_npc_data.xml" desc="AI属性"/>
+        <path name="struct\player\flow.xml" desc="从代码中移动过来的"/>
+	</includes>
+</object>

@@ -1,0 +1,16 @@
+﻿<?xml version='1.0' encoding='gb2312' ?>
+<!--聊天室属性-->
+<object>
+	<properties>
+		<property name="ChatRoomID" type="int" public="false" private="true" save="false" desc="聊天室id号"/>
+		<property name="Identity" type="byte" public="false" private="false" save="false" desc="身份"/>
+		<property name="ChatRoomTitle" type="widestr" public="false" private="true" save="false" desc="聊天室主题"/>
+	</properties>
+	<records>
+		<record name="chatroom_playerlist_rec" cols="3" maxrows="11" save="false" public="false" private="true" desc="队伍成员列表">
+			<column type="widestr" desc="队员名"/>
+			<column type="string" desc="Photo"/>
+			<column type="byte" desc="身份"/>
+		</record>
+	</records>
+</object>

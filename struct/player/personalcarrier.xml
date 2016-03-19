@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--个人载具-->
+<object>
+  <properties>
+    <property name="CurCarrierPageIndex" type="int" public="false" private="false" save="false" desc="当前浏览车库页面索引"/>
+    <property name="CurDepartCarrier" type="Object" public="false" private="false" save="false" desc="当前召唤的载具"/>
+    <property name="CarrierLogOutOfflineTime" type="int64" public="false" private="false" save="true" desc="登出时间"/>
+  </properties>
+  <records>
+    <!-- 个人载具制造车间表 -->
+    <record name="PersonalCarrierMake" cols="7" maxrows="1" save="true" public="false" private="false" desc="个人载具制造车间表">
+      <column type="string" desc="载具序列号"/>
+      <column type="word" desc="载具ID"/>
+      <column type="Object" desc="生产中临时显示的载具对象 "/>
+      <column type="int64" desc="开始时间"/>
+      <column type="int64" desc="结束时间"/>
+      <column type="string" desc="开启制造的玩家UID"/>
+      <column type="string" desc="个人材料消耗 格式:物品A,数量;物品B,数量B..."/>
+    </record>
+    <!-- 个人载具车库表 -->
+    <record name="PersonalCarrierStore" cols="6" maxrows="100" save="true" public="false" private="true" desc="个人载具制造车间表">
+      <column type="string" desc="载具序列号"/>
+      <column type="word" desc="载具ID"/>
+      <column type="byte" desc="状态 0 - 停靠状态 - 1 出发状态"/>
+      <column type="word" desc="载具血量"/>
+      <column type="word" desc="载具能量"/>
+      <column type="string" desc="制造时间"/>
+    </record>
+  </records>
+</object>

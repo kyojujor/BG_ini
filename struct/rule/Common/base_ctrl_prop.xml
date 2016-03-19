@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--技能控制属性-->
+<object>
+  <!-- 基本属性 -->
+  <properties>
+    <property name="CantMove" type="byte" public="false" private="true" save="false" realtime="true" desc="是否能够移动 0:可移动 1:不能移动"/>
+    <property name="CantMoveAdd" type="byte" public="false" private="true" save="false" realtime="true" desc="是否能够移动 0:可移动 1:不能移动"/>
+    <property name="CantRotate" type="byte" public="false" private="true" save="false" realtime="true" desc="是否能够转动 0:可转动 1:不能转动"/>
+    <property name="CantAttack" type="byte" public="false" private="true" save="false" desc="是否能够攻击"/>
+    <property name="CantBeAttack" type="byte" public="true" private="true" save="false" desc="是否能够被攻击 0:可被攻击 1：不可被攻击"/>
+    <property name="CantBeAttack2" type="byte" public="true" private="true" save="false" desc="不能被攻击，但不离开战斗"/>
+    <property name="LockAction" type="int" public="false" private="false" save="false" desc="不能被打断，不能使用技能，不能移动"/>
+    <!--<property name="CantBreakAction" type="int" public="true" private="true" save="false" desc="不能打断当前施法及命中动作"/>-->
+    <property name="CantUseSkill" type="byte" public="false" private="true" save="false" realtime="true" desc="是否能够使用技能"/>
+    <property name="CantUseSkillAdd" type="byte" public="false" private="true" save="false" realtime="true" desc="是否能够使用技能"/>
+    <property name="CantUseItem" type="byte" public="false" private="true" save="false" desc="是否能够使用道具"/>
+    <property name="CantUseItemAdd" type="byte" public="false" private="true" save="false" desc="是否能够使用道具"/>
+    <property name="CanBeKilled" type="byte" public="false" private="false" save="false" desc="是否能够被杀死"/>
+    <property name="CantRotateAdd" type="byte" public="false" private="true" save="false" realtime="true" desc="是否能够转动 0:可转动 1:不能转动"/>
+    <property name="CantAttackAdd" type="byte" public="false" private="true" save="false" desc="是否能够攻击"/>
+    <property name="CantBeLtd" type="byte" public="false" private="false" save="false" realtime="true" desc="不受限制(包括下面的几种)"/>
+    <property name="CantBeLtdSpd" type="byte" public="false" private="false" save="false" realtime="true" desc="不受减速"/>
+    <property name="CantBeLtdHitMove" type="byte" public="false" private="false" save="false" realtime="true" desc="不受击飞击退击倒等"/>
+    <property name="CantBeLtdMove" type="byte" public="false" private="false" save="false" realtime="true" desc="不受不能移动"/>
+    <property name="CantBeLtdUseSkill" type="byte" public="false" private="false" save="false" realtime="true" desc="不受不能使用技能限制"/>
+    <property name="CantBeLtdAttack" type="byte" public="false" private="false" save="false" realtime="true" desc="不受攻击限制"/>
+    <property name="CantBeLtdShift" type="byte" public="false" private="false" save="false" realtime="true" desc="不受变形限制"/>
+    <property name="CantBeLtdRotate" type="byte" public="false" private="false" save="false" realtime="true" desc="不能转身限制"/>
+    <property name="PauseAction" type="int" public="true" private="true" save="false" desc="动作暂停"/>
+    <property name="StrCantUseSkill" type="byte" public="false" private="false" save="false" realtime="true" desc="任何情况都不能释放技能"/>
+    <property name="StrCantUseSkillAdd" type="byte" public="false" private="false" save="false" realtime="true" desc="任何情况都不能释放技能"/>
+    <property name="CantJump" type="byte" public="false" private="true" save="false" realtime="true" desc="不能跳跃"/>
+  </properties>
+</object>

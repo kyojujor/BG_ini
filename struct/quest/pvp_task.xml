@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--游戏对象属性定义模版文件-->
+<object>
+	<properties>
+		<property name="PVPTaskLastRefreshTime" type="int64" public="false" private="false" save="true" desc="上次更新任务次数时间，本地时间"/>
+		<property name="PVPChangeForce" type="int" public="true" private="true" save="false" desc="pvp改变势力"/>
+    <property name="Pvp_markpryexpose" type="int" public="false" private="false" save="false" desc="pvp刺探暴露状态"/>
+    <property name="PVPTaskGiveUpTime" type="int64" public="false" private="false" save="true" desc="放弃时的时间，刺杀任务放弃后一段时间才能再次接任务，UTC时间"/>
+    <property name="PVPAttackPerfect" type="int" public="false" private="true" save="false" desc="pvp空袭任务完美完成"/>
+    <property name="FightScapegoatState" type="int" public="false" private="false" save="false" desc="攻击替身状态，0未攻击，1已攻击"/>
+    <property name="PVPTaskCanAccept" type="int" public="false" private="true" save="false" desc="是否有能接受的PVP任务，0没有，1有"/>
+    <property name="PvpLock" type="byte" public="false" private="true" save="false" desc="是否被锁定，未锁定为1，已锁定为2"/>
+    <property name="PvpLocalX" type="float" public="false" private="false" save="true" desc="起始坐标X"/>
+    <property name="PvpLocalY" type="float" public="false" private="false" save="true" desc="起始坐标Y"/>
+    <property name="PvpLocalZ" type="float" public="false" private="false" save="true" desc="起始坐标Z"/>
+    <property name="PvpLocalO" type="float" public="false" private="false" save="true" desc="起始坐标O"/>
+    <property name="PvpLocalS" type="byte" public="false" private="false" save="true" desc="起始坐标场景ID"/>
+	  <property name="SwitchBeforeTime" type="int" public="false" private="true" save="false" desc="玩家切场景前几秒倒计时"/>
+	  <property name="TransBackTaskPlayer" type="widestr" public="false" private="fasle" save="false" desc="好友传送记录任务玩家"/>
+
+    <property name="PvpTaskLastSection" type="byte" public="false" private="fasle" save="true" desc="记录试练场上个阶段"/>
+    <property name="PracticeWaitTime" type="word" public="false" private="true" save="true" desc="记录试练场阶段等待时间"/>
+    <property name="PracticeFightTime" type="word" public="false" private="true" save="true" desc="记录试练场阶段等待时间"/>
+    
+    <property name="AskedHelpOrKill" type="byte" public="false" private="fasle" save="false" desc="好友是否被好友求助和呼救"/>
+    <property name="IsPractice" type="byte" public="false" private="true" save="true" desc="玩家是否在试练场"/>
+	<property name="HorseRacePathID" type="string" public="false" private="true" save="false" desc="记录玩家当前赛马已经经过的路径点"/>
+	<property name="HorseRaceRank" type="int" public="false" private="true" save="true" desc="记录玩家当前赛马的名次"/>
+	<property name="PVPTowerPlayerState" type="int" public="false" private="true" save="true" desc="记录玩家当前载具塔防副本的状态"/>
+
+  </properties>
+	<records>
+		<!-- PVP任务全部任务 -->
+		<record name="PVPTaskProgressRecord" cols="2" maxrows="64" save="true" public="false" private="true" desc="PVP任务全部任务完成次数">
+			<column type="string" desc="任务编号"/>
+			<column type="word" desc="当前已完成次数"/>
+		</record>
+		<!-- 当前承接的PVP任务 -->
+		<record name="PVPTaskCurrentRecord" cols="6" maxrows="1" save="true" public="false" private="true" desc="当前PVP任务状态">
+			<column type="string" desc="任务编号"/>
+			<!--<column type="dword" desc="当前进度"/>-->
+			<column type="byte" desc="任务状态"/>
+			<column type="word" desc="随机任务"/>
+			<column type="int64" desc="任务到期时间"/>
+			<column type="byte" desc="任务子状态,含义随任务不同而异"/>
+      <column type="byte" desc="任务阶段，任务追踪面板用"/>
+		</record>
+		<!-- 当前承接的PVP任务的子任务 -->
+		<record name="PVPTaskSubRecord" cols="3" maxrows="10" save="true" public="false" private="true" desc="当前PVP任务的子任务">
+			<column type="word" desc="子任务编号"/>
+			<!--<column type="word" desc="子任务类型"/>-->
+			<column type="word" desc="当前完成数量"/> 
+			<column type="word" desc="当前完成进度"/>
+		</record>
+		
+		<!-- 当前承接的刺探PVP任务的已经作用的npc对象列表 -->
+		<record name="PVPPryTaskNPCRecord" cols="2" maxrows="50" save="true" public="false" private="false" desc="npc 对象列表">
+			<column type="word" desc="类型"/>
+			<column type="object" desc="对象"/>
+		</record>
+
+    <!-- 刺杀替身任务 在任务玩家身上-->
+    <record name="PVPTaskScapegoatRecord" cols="7" maxrows="10" save="false" public="false" private="true" desc="当前PVP任务的子任务">
+      <column type="word" desc="场景ID"/>
+      <column type="widestr" desc="替身玩家名字"/>
+      <column type="widestr" desc="替身npc名字"/>
+      <column type="dword" desc="2级区域"/>
+      <column type="float" desc="x坐标"/>
+      <column type="float" desc="y坐标"/>
+      <column type="float" desc="z坐标"/>
+    </record>
+    
+	<!-- 被询问是否一起刺杀替身npc时，保存同意刺杀替身的玩家信息 表放在任务玩家身上-->
+    <record name="PVPTaskFriendKillScapegoatRecord" cols="1" maxrows="50" save="false" public="false" private="true" desc="记录同意过来帮忙刺杀替身的玩家">
+      <column type="widestr" desc="任务玩家名字，做为唯一键值"/>
+    </record>
+
+    <!-- 刺杀替身任务替身位置 在被替身玩家身上-->
+    <record name="PVPTaskScapegoatPosRecord" cols="8" maxrows="50" save="false" public="false" private="true" desc="刺杀替身任务替身位置">
+      <column type="widestr" desc="任务玩家名字"/>
+      <column type="word" desc="场景ID"/>
+      <column type="float" desc="x坐标"/>
+      <column type="float" desc="y坐标"/>
+      <column type="float" desc="z坐标"/>
+      <column type="byte" desc="是否需要传送"/>
+      <column type="int64" desc="记录替身npc生成时间"/>
+	  <column type="dword" desc="2级区域"/>
+    </record>
+
+	<!-- 被询问是否一起保护替身npc时，保存同意保护替身的玩家信息 表放在被替身玩家身上-->
+    <record name="PVPTaskFriendHelpScapegoatRecord" cols="1" maxrows="50" save="false" public="false" private="true" desc="记录同意过来帮忙保护替身的玩家">
+      <column type="widestr" desc="任务玩家名字，做为唯一键值"/>
+    </record>
+
+    <!-- 被询问是否一起击杀替身npc时，保存替身npc的位置 表放在任务玩家的好友身上-->
+    <record name="PVPTaskKillScapegoatPosRecord" cols="6" maxrows="50" save="false" public="false" private="fasle" desc="被询问是否一起击杀替身npc时，保存替身npc的位置">
+      <column type="widestr" desc="任务玩家名字，做为唯一键值"/>
+      <column type="word" desc="场景ID"/>
+      <column type="float" desc="x坐标"/>
+      <column type="float" desc="y坐标"/>
+      <column type="float" desc="z坐标"/>
+      <column type="int64" desc="发送请求时间"/>
+    </record>
+
+    <!-- 被询问是否一起保护替身npc时，保存替身npc的位置 表放在被替身玩家的好友身上-->
+    <record name="PVPTaskProtectScapegoatPosRecord" cols="6" maxrows="50" save="false" public="false" private="false" desc="被询问是否一起保护替身npc时，保存替身npc的位置">
+      <column type="widestr" desc="任务玩家名字，做为唯一键值"/>
+      <column type="word" desc="场景ID"/>
+      <column type="float" desc="x坐标"/>
+      <column type="float" desc="y坐标"/>
+      <column type="float" desc="z坐标"/>
+      <column type="int64" desc="发送请求时间"/>
+    </record>
+    
+    <!-- 任务玩家被攻击记录，用于增加保护替身任务好友度-->
+    <record name="PVPTaskBeAttackRecord" cols="1" maxrows="50" save="false" public="false" private="false" desc="任务玩家被攻击记录，用于增加保护替身任务好友度">
+      <column type="object" desc="攻击者"/>
+    </record>
+    
+    <!-- 记录传送点，用于任务完成时传回-->
+    <record name="PVPTaskTransBackRecord" cols="5" maxrows="1" save="true" public="false" private="false" desc="替身任务，记录传送点，用于任务完成时传回">
+      <!--<column type="word" desc="传送类型 1刺杀替身，2保护替身"/>-->
+      <column type="word" desc="场景ID"/>
+      <column type="float" desc="x坐标"/>
+      <column type="float" desc="y坐标"/>
+      <column type="float" desc="z坐标"/>
+      <column type="float" desc="o朝向"/>
+      <!--<column type="word" desc="目标场景"/>-->
+    </record>
+
+    <!-- 用于记录试练场任务中玩家完成阶段-->
+    <record name="PVPTaskPracticeRecord" cols="1" maxrows="64" save="true" public="false" private="false" desc="替身任务，记录传送点，用于任务完成时传回">
+      <!--<column type="byte" desc="完成阶段"/>-->
+    <column type="byte" desc="完成阶段ID"/>
+    </record>
+
+	<!-- 赛马活动时间-->
+    <record name="PVPHorseRaceTimeRecord" cols="3" maxrows="1" save="true" public="false" private="true" desc="记录赛马活动准备，开启时间">
+      <column type="int64" desc="准备时间"/>
+      <column type="int64" desc="开启时间"/>
+      <column type="int64" desc="预留时间"/>
+    </record>
+	
+	<!-- 载具塔防活动表-->
+	<record name="pvp_tower_queued_rec" cols="5" maxrows="1" save="false" public="false" private="false" desc="已排的活动表或加入的开战表">
+			<column type="string" desc="副本id"/>
+			<column type="string" desc="表名称"/>
+			<column type="word" desc="队列ID"/>
+			<column type="string" desc="活动id"/>
+			<column type="byte" desc="排队方式,1 个人排队, 2 已开战"/>
+		</record>
+
+	 <!-- 载具塔防副本活动时间-->
+    <record name="PVPTowerWarTimeRecord" cols="7" maxrows="1" save="true" public="false" private="true" desc="记录载具塔防副本准备，开启时间">
+      <column type="int64" desc="开始时间"/>
+      <column type="int64" desc="准备结束时间"/>
+      <column type="int64" desc="可投降时间"/>
+	  <column type="int64" desc="副本结束时间"/>
+	  <column type="int64" desc="强制离开副本时间"/>
+	  <column type="word" desc="蒸汽方积分"/>
+	  <column type="word" desc="奇幻方积分"/>
+    </record>
+
+  </records>
+</object>

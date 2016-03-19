@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--死亡复活相关属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="RelivePositon" type="string" public="false" private="true" save="true" desc="玩家记录的死亡回城的地点[name，x，y，z，o]"/>
+		<property name="ReliveLocalFirst" type="int" public="false" private="true" save="true" desc="是否第一次使用此类复活0 否 1 是"/>
+		<property name="RelivePerfectFirst" type="int" public="false" private="true" save="true" desc="是否第一次使用此类复活"/>
+		<property name="ReliveCityFirst" type="int" public="false" private="true" save="true" desc="是否第一次使用此类复活"/>
+    <property name="ReliveTime" type="int" public="false" private="true" save="true" desc="复活时间"/>
+    <property name="ReliveCdTime" type="int" public="false" private="true" save="false" desc="距离上次复活的CD时间"/>
+    <property name="ReliveNoNearPos" type="int" public="false" private="true" save="true" desc="禁用最近复活点复活0禁 1不禁 "/>
+    <property name="RelivePosSelectOpen" type="int" public="false" private="true" save="true" desc="复活点可选功能0禁 1不禁 "/>
+	</properties>
+	<records>
+	</records>
+</object>

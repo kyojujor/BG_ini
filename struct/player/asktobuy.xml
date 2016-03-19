@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 求购行玩家身上属性/表 -->
+<object>
+    <!-- 基本属性 -->
+    <!-- 表属性 -->
+    <records>
+        <record name="RecAskToBuyBillArgs" cols="3" maxrows="100" save="true" public="false" private="false" desc="挂单参数表">
+            <column type="string" desc="物品ConfigID"/>
+            <column type="int"    desc="数量"/>
+            <column type="int64"  desc="单价"/>
+        </record>
+
+        <record name="RecAskToBuyQueryArgs" cols="5" maxrows="1" save="false" public="false" private="false" desc="搜索参数表">
+            <column type="int"     desc="物品类型"/>
+            <column type="int"     desc="物品品质"/>
+            <column type="int64"   desc="最小单价"/>
+            <column type="int"     desc="最小等级"/>
+            <column type="widestr" desc="物品名称"/>
+        </record>
+    </records>
+</object>

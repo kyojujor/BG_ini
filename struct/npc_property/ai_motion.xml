@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--AI移动相关-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="AIMotioning" 	type="int"	 	public="false"  private="false" 	save="false" desc="AIMotion行动中"/>
+		<property name="PathFinding"	type="int"		public="false"  private="false" 	save="false" desc="是否寻路中"/>
+		<property name="FindPathX" 		type="float"	public="false"  private="false" 	save="false" desc="当前目标点X"/>
+		<property name="FindPathZ" 		type="float" 	public="false"  private="false" 	save="false" desc="当前目标点Z"/>
+		<property name="FlyHeightMax" 	type="float"  	public="false"  private="false"   	save="false" desc="NPC最大飞行高度"/>
+		<property name="FlyHeightMin" 	type="float"  	public="false"  private="false"   	save="false" desc="NPC最小飞行高度"/>
+	</properties>
+	<records>
+		<record name="AIFindPathRec" cols="2" maxrows="1024" save="false" public="false" private="false" desc="寻路表">
+			<column type="float" desc="x"/>
+			<column type="float" desc="z"/>
+		</record>
+	</records>
+</object>

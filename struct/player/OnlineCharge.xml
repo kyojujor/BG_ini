@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--死亡复活相关属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="ChargeMode" type="byte" public="false" private="true" save="true" desc="收费模式"/>
+		<property name="ChargeTime" type="int" public="false" private="true" save="true" desc="预购模式的剩余时间:分钟"/>
+	</properties>
+	<records>
+			
+			<record name="mode_selected_rec" cols="5" maxrows="1024" save="true" public="false" private="true" desc="收益ITEM表">
+				<column type="word" desc="所属档案编号，依次递增"/>
+				<column type="word" desc="选择的模式编号"/>
+				<column type="int64" desc="开始时间"/>
+				<column type="int64" desc="结束时间(如果为空，表示处于当前存档期间)"/>
+				<column type="word" desc="改模式累积在线时间"/>
+			</record>
+			
+			<record name="charge_config_rec" cols="4" maxrows="1024" save="true" public="false" private="true" desc="收益ITEM表">
+				<column type="word" desc="所属档案编号"/>
+				<column type="string" desc="configid"/>
+				<column type="string" desc="属性"/>
+				<column type="word" desc="数量"/>
+			</record>
+			
+			<record name="charge_capital_rec" cols="4" maxrows="1024" save="true" public="false" private="true" desc="收益货币表">
+				<column type="word" desc="所属档案编号"/>
+				<column type="int64" desc="黑金"/>
+				<column type="int64" desc="猎杀点"/>
+				<column type="int64" desc="英勇点"/>
+			</record>
+			
+	</records>
+</object>

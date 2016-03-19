@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--战斗、技能系统范围相关的属性表-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<!--<property name="TargetType" type="byte" public="false" private="true" save="false" desc="目标分类 1:地面，2:自己，4:选择对象，8:自己的脚底地面，可组合"/>-->
+		<!--<property name="TargetShape" type="byte" public="false" private="true" save="false" desc="技能目标的范围类型" 
+			Description="1:以自己为圆心的圆内，3:自己正面的一个扇形区域，圆心是自己，4:自己正面的一个矩形区域"/>-->
+		<!--<property name="HitShape" type="byte" public="false" private="true" save="false" desc="技能作用对象的范围类型" 
+			Description="0:非范围类型，仅作用于当前技能对象，1:以自己为圆心的圆内，2:以技能作用目标为圆心的圆内，3:自己正面的一个扇形区域，圆心是自己，4:自己正面的一个矩形区域"/>-->
+		
+		<property name="TargetShapePara1" type="float" public="false" private="true" save="false" desc="范围类型使用的第一个参数" 
+			Description="圆的最小半径，扇形的角度，矩形的宽"/>
+		<property name="TargetShapePara2" type="float" public="false" private="true" save="false" desc="范围类型使用的第二个参数" 
+			Description="圆的最大半径，扇形的半径，矩形的长"/>
+			
+		<!-- 技能的命中目标与范围 -->
+		<property name="HitShapePara1" type="float" public="false" private="true" save="false" desc="范围类型使用的第一个参数" 
+			Description="圆的最小半径；扇形的角度；矩形的宽度"/>
+		<property name="HitShapePara2" type="float" public="false" private="true" save="false" desc="范围类型使用的第二个参数" 
+			Description="圆的最大半径；扇形的半径；矩形的长度"/>
+		<property name="HitCount" type="byte" public="false" private="false" save="false" desc="范围类型的最大影响人数 超过这个上限，就不再计算效果了"/>
+	</properties>
+</object>

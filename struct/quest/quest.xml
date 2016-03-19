@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--游戏对象属性定义模版文件-->
+<object>
+	<properties>
+		<property name="QuestOnShare" type="int" public="false" private="false" save="false" desc="是否是正在共享的任务"/>
+		<property name="AutoQuestFlag" type="int" public="false" private="true" save="true" desc="是否是自动交接任务功能标识 0不自动 1自动"/>
+		<property name="ConvoyEndTime" type="int64" public="false" private="false" save="false" desc="护送结束时间"/>
+		<property name="ConvoyCriteriaID" type="word" public="false" private="false" save="false" desc="护送子模板编号"/>
+	</properties>
+	<records>
+		<!-- 任务承接表，凡是接到的任务均在此注册 -->
+		<record name="QuestRecord" cols="4" maxrows="25" save="true" public="false" private="true" desc="任务承接表">
+			<column type="word" desc="任务编号"/>
+			<column type="byte" desc="任务状态"/>
+			<column type="byte" desc="追踪标志"/>
+			<column type="word" desc="任务当前步骤的子模板"/>
+		</record>
+		<!-- 任务进度表，记录任务当前进度 -->
+		<record name="QuestCriteriaRecord" cols="6" maxrows="256" save="true" public="false" private="true" desc="任务进度表">
+			<column type="word" desc="任务子模板编号"/>
+			<column type="byte" desc="任务子模板状态"/>
+			<column type="word" desc="当前进度"/>
+			<column type="word" desc="总进度"/>
+			<column type="word" desc="子模板的父功能编号"/>
+			<column type="byte" desc="子模板的父功能类型"/>
+		</record>
+		<!-- 任务完成记录表，按位操作 -->
+		<record name="QuestRewarded" cols="1" maxrows="2048" save="true" public="false" private="true" desc="任务完成">
+			<column type="dword" desc="任务编号位集"/>
+		</record>
+		<record name="QuestRepeatRecord" cols="4" maxrows="32" save="true" public="false" private="true" desc="可重复任务表">
+			<column type="word" desc="任务编号"/>
+			<column type="word" desc="承接次数"/>
+			<column type="word" desc="上限次数"/>
+			<column type="int64" desc="任务刷新时间"/>
+		</record>
+		<!-- 任务时间限制表 -->
+		<record name="QuestTimeLimitRecord" cols="3" maxrows="32" save="true" public="false" private="true" desc="任务时间限制表">
+			<column type="word" desc="任务编号"/>
+			<column type="int64" desc="接任务时间"/>
+			<column type="int64" desc="任务到期时间"/>
+		</record>
+		<!-- 对该玩家隐身的npc表 -->
+		<record name="QuestHideRecord" cols="3" maxrows="128" save="true" public="false" private="false" desc="任务隐藏npc表">
+			<column type="word" desc="子功能id"/>
+			<column type="string" desc="npcId"/>
+			<column type="string" desc="查询关键字"/>
+		</record>
+				<!-- 记录玩家下线后肯定会失败的任务 -->
+		<record name="Quest_Fail_OnLoad_Rec" cols="1" maxrows="25" save="true" public="false" private="false" desc="下线任务注册失败表">
+			<column type="word" desc="任务id"/>
+		</record>
+		
+		<record name="QuestSeriesRecord" cols="3" maxrows="128" save="true" public="false" private="true" desc="任务系列进度表">
+			<column type="string" desc="系列编号"/>
+			<column type="byte" desc="系列完成状态"/>
+			<column type="word" desc="当前进行的任务编号"/>
+		</record>
+		
+		<!--保护对象表-->
+		<record name="Convoy_ProtectObj_Rec" cols="5" maxrows="32" save="false" public="false" private="false" desc="保护对象表">
+			<column type="string" desc="对象名称"/>
+			<column type="word" desc="对象当前状态"/>
+			<column type="word" desc="对象类型"/>
+			<column type="word" desc="是否到达坐标状态"/>
+			<column type="object" desc="对象"/>
+		</record>
+		<!--保护对象过程中猎杀怪物表-->
+		<record name="Convoy_KillMonster_Rec" cols="2" maxrows="128" save="false" public="false" private="false" desc="保护对象过程中猎杀怪物表">
+			<column type="object" desc="对象"/>
+			<column type="word" desc="对象当前状态"/>
+		</record>
+		
+		<!-- 菜单注册表 -->
+		<record name="Menu_Verify_Rec" cols="3" maxrows="128" save="false" public="false" private="true" desc="菜单注册表">
+			<column type="word" desc="菜单类型"/>
+			<column type="string" desc="菜单标题文本"/>
+			<column type="word" desc="菜单附加信息"/>
+		</record>
+
+		<record name="CriteriaChangeRec" cols="4" maxrows="128" save="false" public="false" private="false" desc="子模板进度改变表">
+			<column type="word" desc="子模板编号"/>
+			<column type="word" desc="子模板归属主任务(事件)编号"/>
+			<column type="word"	desc="当前子模板进度"/>
+			<column type="word" desc="子模板进度变化量"/>
+		</record>
+		
+		<record name="CloneRepeatQuestRec" cols="4" maxrows="32" save="true" public="false" private="true" desc="副本内重置任务表">
+			<column type="word" desc="任务编号"/>
+			<column type="word" desc="当前完成次数"/>
+			<column type="word" desc="可重复次数"/>
+			<column type="word" desc="触发重置的副本编号"/>
+		</record>
+	</records>
+</object>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--给予类NPC基础属性-->
+<object>
+  <!-- 基本属性 -->
+  <properties>
+	<property name="RefreshTime" type="int" public="false" private="false" save="false" desc="刷新时间0立即刷,-1不刷"/>
+    <property name="GiveTaskID" type="int" public="false" private="false" save="false" desc="给予任务ID"/>
+    <property name="GiveDropID" type="string" public="false" private="false" save="false" desc="给予掉落包ID"/>
+    <property name="OpenAction" type="string" public="false" private="false" save="false" desc="NPC被打开动作状态"/>
+    <property name="GiveItemID" type="string" public="false" private="false" save="false" desc="给予物品/资源ID"/>
+    <property name="BeSpringEffect" type="string" public="false" private="false" save="false" desc="可触发特效"/>
+    <property name="GiveResNum" type="int" public="false" private="false" save="false" desc="给予资源量(每次)"/>
+    <property name="GiveResTNum" type="int" public="false" private="false" save="false" desc="给予资源总量"/>
+    <property name="PlayerNum" type="int" public="false" private="false" save="false" desc="资源可给予的最大人数(同时)"/>
+    <property name="IsIncessancy" type="int" public="false" private="false" save="false" desc="是否可持续采集(只适用于资源采集类NPCTYPE=104)"/>
+    <property name="GiveItem_PID" type="string" public="false" private="false" save="false" desc="采集附加物品包(只适用于资源采集类NPCTYPE=104)"/>
+	<property name="RefreshType" type="int" public="false" private="false" save="false" desc="出怪类型——填写0—2的int型 0——不刷怪 1——开始释放技能刷怪 2——释放技能结束刷怪"/>
+	<property name="RefreshPro" type="float" public="false" private="false" save="false" desc="出怪几率——填写0—1的浮点型"/>
+	<property name="MonsterCount" type="int" public="false" private="false" save="false" desc="出怪数量——默认为0，表示不产出任何怪物"/>
+	<property name="MonsterID" type="string" public="false" private="false" save="false" desc="出怪ID——填写怪物的ID，用“，”隔开，可以填写多个ID"/>
+	<property name="MonsterLifeTime" type="int" public="false" private="false" save="false" desc="存活时间 单位：秒"/>
+	<property name="RandomRadius" type="float" public="false" private="false" save="false" desc="刷怪随机半径"/>
+  </properties>
+  <!-- 表属性 -->
+  <records>
+    <record name="give_player_rec" cols="1" maxrows="50" public="false" private="false" save="false" desc="正在采集的玩家列表">
+        <column type="object" desc="玩家ID"/>		
+    </record>
+	
+	<record name="pickup_member_rec" cols="2" maxrows="50" public="true" private="false" save="false" desc="PickUpModule移植而来">
+            <column type="widestr" desc="可拾取的玩家名称"/>
+			<column type="word" desc="可拾取的玩家的拾取优先级 值越大越先拾取"/>
+        </record>
+		
+	<record name="open_player_rec" cols="1" maxrows="50" public="false" private="false" save="false" desc="PickUpModule移植而来">
+            <column type="widestr" desc=""/>
+        </record>
+  </records>
+  <!--从其他文件加载属性-->
+  <includes>
+	<path name="struct\rule\Common\Fightbag.xml" desc=""/>
+	<path name="struct\rule\Common\commonfighter.xml" desc=""/>
+	<path name="struct\rule\Common\damage.xml" desc=""/>
+	<path name="struct\rule\Common\flow_new.xml" desc=""/>
+	<path name="struct\rule\Common\range_new.xml" desc=""/>
+	<path name="struct\rule\Common\cooldown_new.xml" desc=""/>
+	<path name="struct\rule\Common\relation.xml" desc=""/>
+	<path name="struct\rule\Common\autorestore.xml" desc=""/>
+	<path name="struct\rule\Common\skilluse.xml" desc=""/>
+	<path name="struct\rule\Common\ModifyBase.xml" desc="属性 技能 buff修正表"/>
+	<path name="struct\rule\Common\basefighterdata.xml" desc=""/>
+	<path name="struct\rule\Common\bufferuse.xml" desc=""/>
+	
+  </includes>
+</object>

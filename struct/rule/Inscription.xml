@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--玩家的铭刻位-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="CurInsPoint" type="int" public="false" private="true" save="true" desc="当前拥有的铭刻点数"/>
+	</properties>
+	<!-- 表属性 -->
+	<!--
+	<records>
+		<record name="inscription_rec" cols="2" maxrows="28" save="true" public="false" private="true" desc="已铭刻的铭刻孔列表">
+			<column type="dword" desc="铭刻孔ID"/>
+			<column type="string" desc="镶嵌的物品ID"/>
+		</record>
+	</records>
+	-->
+</object>

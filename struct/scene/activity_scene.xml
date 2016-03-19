@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--场景副本属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="HorseRaceCount" type="string" public="true" private="false" save="false" desc="当前参加赛马活动的人数"/>
+	</properties>
+	<!-- 表属性 -->
+	<records>
+    <record name="PvpActivityNpc" cols="2" maxrows="1024" save="false" public="false" private="false" desc="记录PVP活动NPC创建">
+      <column type="object" desc="NPC的PERSISTID"/>
+      <column type="string" desc="NPC的活动ID"/>
+    </record>
+    <record name="PvpSceneActivityState" cols="2" maxrows="64" save="false" public="false" private="false" desc="PVP场景活动状态表">
+      <column type="string" desc="活动ID"/>
+      <column type="dword" desc="活动状态"/>
+    </record>
+	 <record name="PVPHorseRacePathNpcRec" cols="1" maxrows="512" save="false" public="false" private="false" desc="PVP赛马活动路径npc刷新表">
+       <column type="object" desc="NPC的PERSISTID"/>
+    </record>
+    <record name="PVPHorseRaceCreateNpcRec" cols="5" maxrows="1024" save="false" public="false" private="false" desc="PVP赛马活动需要创建道具npc刷新表">
+      <column type="string" desc="NPC的configid"/>
+      <column type="float" desc="x坐标"/>
+      <column type="float" desc="y坐标"/>
+      <column type="float" desc="z坐标"/>
+      <column type="int64" desc="刷新创建npc时间"/>
+    </record>
+  </records>
+	<!--从其他文件加载属性-->
+	<includes>
+	</includes>
+</object>

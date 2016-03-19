@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--旅馆相关属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="DepotMoney" type="int64" public="false" private="true" save="true" desc="仓库存储的金钱"/>
+		<property name="AddDepotBagNum" type="byte" public="false" private="true" save="true" desc="仓库包裹增加数量"/>
+		<property name="AddToolBagNum" type="byte" public="false" private="true" save="true" desc="背包包裹增加数量"/>
+		
+		<property name="Link" type="byte" public="false" private="true" save="true" desc="连接"/>
+	</properties>
+	<records>
+	</records>
+</object>

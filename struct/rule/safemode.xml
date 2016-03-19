@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--安全模式相关的属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+    <property name="SafeTime" type="int" public="false" private="true" save="true" desc="安全时间"/>
+    <property name="CurSafeTime" type="int" public="false" private="true" save="false" desc="当前安全时间"/>
+    <property name="SafeModeEquipLv" type="byte" public="false" private="true" save="true" desc="安全模式装备等级"/>
+    <property name="SafeModeEquipStar" type="byte" public="false" private="true" save="true" desc="安全模式装备星级"/>
+    <property name="SafeModePsw" type="widestr" public="false" private="false" save="true" desc="安全模式密码"/>
+    <property name="IsHaveSafeModePsw" type="byte" public="false" private="true" save="true" desc="是否有安全模式密码"/>
+    <property name="IsTempUnLock" type="byte" public="false" private="false" save="false" desc="是否临时解锁"/>
+    <property name="IsSafeModeUnLock" type="byte" public="false" private="true" save="false" desc="本次登陆是否已经解锁安全模式"/>
+    <property name="SafeModeEquipStr" type="string" public="false" private="true" save="true" desc="安全模式装备保护字符串"/>
+    <property name="SafeModeJewelStr" type="string" public="false" private="true" save="true" desc="安全模式宝石保护字符串"/>
+		<property name="LastOffLineTime" type="double" public="false" private="true" save="true" desc="角色上次下线的时间"/>
+		<property name="LastAddress" type="string" public="false" private="true" save="true" desc="角色上次登陆IP地址"/>
+	</properties>
+</object>

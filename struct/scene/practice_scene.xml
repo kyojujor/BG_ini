@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--场景副本属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+    <property name="CurrentSection"    type="byte" public="false" private="false" save="true" desc="试练场任务当前阶段ID"/>
+    <property name="TaskOpen"    type="byte" public="false" private="false" save="true" desc="试练场任务是否开启"/>
+    <property name="PracticeType"    type="byte" public="false" private="false" save="true" desc="练场副本类型，单人或多人"/>
+  </properties>
+	<!-- 表属性 -->
+	<records>
+  </records>
+	<!--从其他文件加载属性-->
+	<includes>
+	</includes>
+</object>

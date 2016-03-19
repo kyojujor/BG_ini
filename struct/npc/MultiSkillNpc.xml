@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--宠物基础属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+
+	</properties>
+	<!-- 表属性 -->
+	<records>
+	<!--修改:属性修改成可保存的public-->
+		<record name="RoleIdList" cols="1" maxrows="50" save="false" public="false" private="false" desc="技能NPC绑定的人物列表">
+			<column type="object" desc="人物id"/>
+		</record>
+	</records>
+	<!--从其他文件加载属性-->
+	<includes>
+        <path name="struct\rule\Common\Fightbag.xml" desc=""/>
+        <path name="struct\rule\Common\commonfighter.xml" desc=""/>
+        <path name="struct\rule\Common\damage.xml" desc=""/>
+        <path name="struct\rule\Common\flow_new.xml" desc=""/>
+        <path name="struct\rule\Common\range_new.xml" desc=""/>
+        <path name="struct\rule\Common\cooldown_new.xml" desc=""/>
+        <path name="struct\rule\Common\relation.xml" desc=""/>
+        <path name="struct\rule\Common\autorestore.xml" desc=""/>
+        <path name="struct\rule\Common\skilluse.xml" desc=""/>
+        <path name="struct\rule\Common\bufferuse.xml" desc=""/>
+        <path name="struct\rule\Common\ModifyBase.xml" desc="属性 技能 buff修正表"/>
+        <path name="struct\rule\Common\basefighterdata.xml" desc=""/>
+        <path name="struct\npc_property\ai_motion.xml" desc="AI属性"/>
+        <path name="struct\npc_property\ai_npc_data.xml" desc="AI属性"/>
+        <path name="struct\player\flow.xml" desc="从代码中移动过来的"/>
+	</includes>
+</object>

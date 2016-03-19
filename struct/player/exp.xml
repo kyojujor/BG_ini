@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--旅馆相关属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="PlayerExp" type="int" public="false" private="true" save="true" desc="当前经验值"/>
+		<property name="PlayerUpgradeExp" type="int" public="false" private="true" save="true" desc="升级需求经验值"/>
+
+		<property name="PlayerExpMulti" type="float" public="false" private="false" save="false" desc="打怪获得经验的倍率"/>
+		<property name="PlayerQuestExpMulti" type="float" public="false" private="false" save="false" desc="任务获得经验的倍率"/>
+		<property name="InnatePoint" type="int" public="false" private="false" save="false" desc="当前天赋点"/>
+		<property name="AllInnatePoint" type="int" public="false" private="false" save="false" desc="获得总天赋点"/>
+	</properties>
+	<records>
+	</records>
+</object>

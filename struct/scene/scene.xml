@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--场景基础属性-->
+<object>
+  <!-- 基本属性 -->
+  <properties>
+    <property name="ConfigID" type="string" public="true" private="true" save="false" desc="场景编号"/>
+    <property name="Resource" type="string" public="true" private="true" save="false" desc="场景基础资源名称"/>
+    <property name="ReliveLocation" type="string" public="false" private="false" save="false" desc="场景复活点"/>
+    <property name="PKMode" type="byte" public="true" private="false" save="false" desc="场景是否允许PK"/>
+    <property name="GroupNum" type="int" public="true" private="true" save="false" desc="场景分组总数"/>
+    <property name="CurrentTime" type="int64" public="true" private="false" save="false" desc="系统当前时间, 通过心跳不断更新"/>
+    <property name="ServerTime" type="int64" public="true" private="false" save="false" desc="系统当前时间, 通过心跳不断更新"/>
+    <property name="CommonGroupID" type="int" public="false" private="false" save="false" desc="普通场景的公共GroupID"/>
+    <property name="AutoGrouping" type="int" public="false" private="false" save="false" desc="是否玩家进入自动分组"/>
+    <property name="AreaCreatorFlag" type="int" public="false" private="false" save="false" desc="该场景是否开启按区域刷怪(0: 不开启, 1: 开启)"/>
+    <property name="PlayerVisualRange" type="float" public="false" private="false" save="false" desc="该场景player的可视距离"/>
+    <property name="ProtoSceneID" type="int" public="true" private="false" save="false" desc="原形场景编号"/>
+    <property name="CloneSceneID" type="int" public="true" private="false" save="false" desc="副本场景编号"/>
+	<property name="EnableWarFog" type="int" public="false" private="false" save="false" desc="是否开启战争迷雾"/>
+  </properties>
+  <!-- 表属性 -->
+  <records>
+    <record name="GuildManorFightRec" cols="8" maxrows="1024" save="false" public="false" private="false" desc="公会战场参加战斗的玩家列表">
+      <column type="widestr" desc="玩家姓名"/>
+      <column type="string" desc="玩家区域ID"/>
+      <column type="dword" desc="玩家职业"/>
+      <column type="dword" desc="玩家等级"/>
+      <column type="dword" desc="玩家杀敌方玩家数量"/>
+      <column type="dword" desc="玩家被杀数量"/>
+      <column type="dword" desc="玩家占领据点数"/>
+      <column type="dword" desc="玩家阵营"/>
+    </record>
+    <record name="AreaStateRec" cols="3" maxrows="100" save="false" public="false" private="false" desc="场景区域信息">
+      <column type="string" desc="区域id"/>
+      <column type="dword" desc="区域状态 0中立 1不可占领阵营初始配置 2宣战状态 3战斗状态 4占领状态"/>
+      <column type="dword" desc="区域战争开启等待时间"/>
+    </record>
+    <record name="TriggerAreaNpcRec" cols="2" maxrows="100" save="false" public="false" private="false" desc="场景上带有触发器的区域NPC列表">
+      <column type="int" desc="区域id"/>
+      <column type="object" desc="NPC对象"/>
+    </record>
+    <record name="PreloadNpcRec" cols="7" maxrows="32" save="false" public="false" private="false" desc="预加载npc信息表">
+        <column type="string" desc="npc的ident"/>
+        <column type="string" desc="npc的id"/>
+        <column type="float" desc="npc的坐标x"/>
+        <column type="float" desc="npc的坐标y"/>
+        <column type="float" desc="npc的坐标z"/>
+        <column type="float" desc="npc的坐标orient"/>
+        <column type="string" desc="npc的scale"/>
+    </record>
+    <record name="AreaCreatorRec" cols="2" maxrows="1024" save="false" public="false" private="false" desc="区域刷怪器表, 用来记录场景上所有区域的刷怪器, 用于npc的动态刷新">
+        <column type="int" desc="区域id"/>
+        <column type="int" desc="刷怪器id"/>
+    </record>
+  </records>
+  <!--从其他文件加载属性-->
+    <includes>
+        <path name="struct\internals\internals_scene.xml" desc="内部属性"/>
+        <path name="struct\scene\event_spring.xml" desc="事件触发系统相关数据" />
+        <path name="struct\scene\guild_scene.xml" desc="工会"/>
+        <path name="struct\scene\user_guide.xml" desc="新手引导副本"/>
+        <path name="struct\common\trigger.xml" desc="触发器"/>
+        <path name="struct\scene\activity_scene.xml" desc="pvp活动"/>
+		<path name="struct\scene\ew_gw_scene.xml" desc="能量井公会战副本场景数据"/>
+		<path name="struct\scene\ew_campwar.xml" desc="能量井阵营场景数据"/>
+		<path name="struct\scene\energywell.xml" desc="能量井资源战"/>
+    </includes>
+</object>

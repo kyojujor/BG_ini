@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2009 (http://www.altova.com) by ylp (EMBRACE) -->
+<object>
+	<!-- 基本属性 -->
+    <properties>
+        <property name="NpcType" type="byte" public="true" private="false" save="false" desc="NPC类型"/>
+        <property name="Resource" type="string" public="true" private="false" save="false" desc="资源"/>
+    </properties>
+    <!-- 表属性 -->
+    <records>
+    </records>
+    <!--从其他文件加载属性-->
+    <includes>
+        <path name="struct\common\trigger.xml" desc="触发器"/>
+    </includes>
+</object>

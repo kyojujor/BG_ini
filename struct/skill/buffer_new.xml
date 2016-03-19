@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--每项Buffer的属性数据，附加IDMATCH.xml-->
+<object>
+  <!-- 内部属性 -->
+  <internals>
+    <property name="LifeTime" type="int" public="false" private="false" save="true" desc="持续时间(ms) 如果为0,则持久有效"/>
+  </internals>
+  <!-- 基本属性 -->
+  <properties>
+    <!-- BUFFER的固定属性 -->
+    <property name="ConfigID" type="string" public="false" private="false" save="false" desc="技能编号"/>
+    <property name="UniqueID" type="string" public="false" private="false" save="true" desc="唯一编号"/>
+    <property name="Level" type="int" public="false" private="false" save="false" desc="级别"/>
+    <property name="Category" type="int" public="false" private="false" save="false" desc="分类编号"/>
+    <property name="ReplaceLevel" type="int" public="false" private="false" save="false" desc="替换级别"/>
+    <property name="LuaScript" type="string" public="false" private="false" save="false" desc="脚本文件名" Description="包含buffer_active、buffer_timer、buffer_event函数,如果此不为空，则active,time,event等事件发生时就会执行这些脚本，然后直接返回"/>
+    <property name="StaticData" type="int" public="false" private="false" save="false" desc="BUFF静态数据编号"/>
+    <property name="MaxOverlayNumber" type="int" public="false" private="false" save="false" desc="BUFF叠加次数"/>
+    <property name="OverlayType" type="int" public="false" private="false" save="false" desc="BUFF叠加类型"/>
+    <property name="RemoveType" type="int" public="false" private="false" save="false" desc="BUFF移除类型"/>
+    <property name="EffectType" type="int" public="false" private="false" save="false" desc="作用类型"/>
+    <property name="LifeTimeType" type="int" public="false" private="false" save="false" desc="计算类型"/>
+    <property name="LifeTimeAdd" type="string" public="false" private="false" save="true" desc="(表达式)额外增加的buff持续时间(ms)"/>
+    <property name="Visible" type="int" public="false" private="false" save="false" desc="是否可视"/>
+    <property name="CanFlowWord" type="int" public="false" private="false" save="false" desc="满血后是否可以飘字"/>
+    <property name="IsDamage" type="int" public="false" private="true" save="false" desc="攻击性质"/>
+    <property name="CantClear" type="int" public="false" private="false" save="false" desc="是否不能清除"/>
+    <property name="OffLineClear" type="int" public="false" private="false" save="false" desc="下线是否清除"/>
+    <property name="DeadClear" type="int" public="false" private="false" save="false" desc="死亡清除"/>
+    <property name="ReplaceCategory" type="int" public="false" private="false" save="false" desc="替换分类号"/>
+    <property name="ReplaceType" type="int" public="false" private="false" save="false" desc="替换方式"/>
+    <property name="HideFightStats" type="int" public="false" private="false" save="false" desc="隐藏战斗信息"/>
+    <property name="CCHP" type="string" public="false" private="false" save="false" desc="持续修改HP"/>
+    <property name="CCHPValue" type="float" public="false" private="false" save="true" desc="持续修改HP"/>
+    <property name="CCHPType" type="int" public="false" private="false" save="false" desc="持续修改HP方式"/>
+    <property name="CCMP" type="string" public="false" private="false" save="false" desc="持续修改MP"/>
+    <property name="CCMPValue" type="float" public="false" private="false" save="true" desc="持续修改MP"/>
+    <property name="CCMPType" type="int" public="false" private="false" save="false" desc="持续修改MP方式"/>
+    <property name="CCRC" type="string" public="false" private="false" save="false" desc="持续修改RC"/>
+    <property name="CCRCValue" type="float" public="false" private="false" save="true" desc="持续修改RC"/>
+    <property name="CCRCType" type="int" public="false" private="false" save="false" desc="持续修改RC方式"/>
+    <property name="CCAV" type="string" public="false" private="false" save="false" desc="持续修改AV"/>
+    <property name="CCAVValue" type="float" public="false" private="false" save="true" desc="持续修改AV"/>
+    <property name="CCAVType" type="int" public="false" private="false" save="false" desc="持续修改AV方式"/>
+    <property name="CCEY" type="string" public="false" private="false" save="false" desc="持续修改EY"/>
+    <property name="CCEYValue" type="float" public="false" private="false" save="true" desc="持续修改EY"/>
+    <property name="CCEYType" type="int" public="false" private="false" save="false" desc="持续修改EY方式"/>
+    <property name="CCFS" type="string" public="false" private="false" save="false" desc="持续修改FS数"/>
+    <property name="CCFSValue" type="float" public="false" private="false" save="true" desc="持续修改FS"/>
+    <property name="CCFSType" type="int" public="false" private="false" save="false" desc="持续修改FS方式"/>
+    <property name="CCDP" type="string" public="false" private="false" save="false" desc="持续修改DP数"/>
+    <property name="CCDPValue" type="float" public="false" private="false" save="true" desc="持续修改DP"/>
+    <property name="CCDPType" type="int" public="false" private="false" save="false" desc="持续修改DP方式"/>
+
+    <property name="TargetClassType" type="int" public="false" private="true" save="false" desc="作用对象类型"/>
+    <property name="TargetRelationType" type="int" public="false" private="true" save="false" desc="作用对象关系类型"/>
+    <property name="BuffClearID" type="string" public="false" private="false" save="false" desc="清除类型"/>
+    <property name="BuffImmunID" type="string" public="false" private="false" save="false" desc="免疫类型"/>
+    <!-- BUFFER的施加来源属性 -->
+    <property name="Sender" type="object" public="false" private="false" save="false" desc="BUFFER的施加者"/>
+    <property name="SenderType" type="int" public="false" private="false" save="true" desc="BUFFER的施加者名称（玩家有效）"/>
+    <property name="SenderName" type="widestr" public="false" private="false" save="true" desc="BUFFER的施加者名称（玩家有效）"/>
+    <property name="OwnerShip" type="int" public="false" private="false" save="false" desc="BUFFER的施加者名称（玩家有效）"/>
+    <property name="Skill" type="object" public="false" private="false" save="false" desc="产生BUFFER的技能"/>
+    <!-- 攻击相关(只有在BUFFER的EffectType属性为1或2时的每次激活时有效) -->
+    <property name="DirectAttack" type="int" public="false" private="false" save="false" desc="激活时是否是直接攻击 0:不是(辅助技能)1:是(根据战斗规则计算给对方的伤害)"/>
+    <property name="AttackObjType" type="int" public="false" private="false" save="false" desc="攻击目标类型 0:被施加者自身,1:施加者,2:事件对象"/>
+
+    <!-- BUFFER的过程管理属性 -->
+    <property name="AddTime" type="int64" public="false" private="false" save="true" desc="BUFFER添加的时间 单位s(time_t)"/>
+    <property name="Active" type="int" public="false" private="false" save="true" desc="BUFFER是否有效"/>
+    <property name="Counter" type="int" public="false" private="false" save="true" desc="BUFFER已计次的次数"/>
+    <property name="Timer" type="int" public="false" private="false" save="true" desc="BUFFER已存在的时间 单位ms"/>
+    <!-- 由技能添加的属性 -->
+    <property name="EffectTimer" type="int" public="false" private="false" save="true" desc="计时或计次" Description="类型1:计次的次数;类型2:间隔的时间(ms)"/>
+    <property name="EffectRatio" type="int" public="false" private="false" save="true" desc="作用成功率" Description="EffectType类型1、2:每次触发时是否成功作用的成功率，百分比数"/>
+    <property name="BreakRatio" type="int" public="false" private="false" save="true" desc="被事件打断的机率 百分数"/>
+    <property name="VarPropNo" type="int" public="false" private="false" save="true" desc="当前可变属性编号"/>
+    <Property name="MinVarPropNo" type="int" public="false" private="false" save="false" desc="最小可变属性编号"/>
+    <Property name="MaxVarPropNo" type="int" public="false" private="false" save="false" desc="最大可变属性编号"/>
+
+    <property name="EffectRange" type="float" public="false" private="true" save="true" desc="影响范围"/>
+    <property name="HitCount" type="int" public="false" private="false" save="false" desc="涉及人数"/>
+    <property name="HaloShapeType" type="int" public="false" private="false" save="true" desc="光环影响范围类型"/>
+    <property name="TargetShapePara1" type="float" public="false" private="false" save="true" desc="光环宽度或者半径"/>
+    <property name="TargetShapePara2" type="float" public="false" private="false" save="true" desc="光环长度"/>
+
+    <property name="CCQGP" type="float" public="false" private="false" save="false" desc="持续修改轻功点"/>
+
+    <property name="EventProcess" type="int" public="false" private="true" save="true" desc="回调事件处理包"/>
+    <property name="Immunity" type="int" public="false" private="false" save="true" desc="免疫表"/>
+    <property name="ClearRec" type="int" public="false" private="false" save="true" desc="清除表"/>
+    <property name="Buff_Display" type="string" public="false" private="true" save="true" desc="表现包"/>
+    <property name="Buff_Effect" type="string" public="false" private="false" save="true" desc="效果包"/>
+    <property name="Buff_Modify" type="string" public="false" private="false" save="true" desc="修正包"/>
+
+    <property name="HaloBuffer" type="string" public="false" private="false" save="true" desc="光环buffer分buffer的id"/>
+
+    <property name="PropPropName1" type="string" public="false" private="false" save="false" desc="PropPropName1"/>
+    <property name="PropPropValue1" type="string" public="false" private="false" save="false" desc="PropPropValue1"/>
+    <property name="PropCalType1" type="int" public="false" private="false" save="false" desc="PropCalType1"/>
+    <property name="PropPropName2" type="string" public="false" private="false" save="false" desc="PropPropName2"/>
+    <property name="PropPropValue2" type="string" public="false" private="false" save="false" desc="PropPropValue2"/>
+    <property name="PropCalType2" type="int" public="false" private="false" save="false" desc="PropCalType2"/>
+    <property name="PropPropName3" type="string" public="false" private="false" save="false" desc="PropPropName3"/>
+    <property name="PropPropValue3" type="string" public="false" private="false" save="false" desc="PropPropValue3"/>
+    <property name="PropCalType3" type="int" public="false" private="false" save="false" desc="PropCalType3"/>
+    <property name="BaseHatred" type="int" public="false" private="false" save="false" desc="基础仇恨值"/>
+    <property name="HatredMultiplier" type="float" public="false" private="false" save="false" desc="仇恨倍率"/>
+    <property name="AntiType" type="int" public="false" private="false" save="false" desc="衰减类型"/>
+    <property name="BufferAddRate" type="float" public="false" private="false" save="false" desc="BUFF偏向加成"/>
+	<property name="CantCustomRemove" type="int" public="false" private="false" save="false" desc="衰减类型"/>
+    <property name="Description" type="string" public="false" private="true" save="false" desc="BUFF描述"/>
+    <property name="IsShow" type="byte" public="false" private="false" save="false" desc="buff眩晕是否显示主界面"/>
+    <property name="FightAlarm" type="byte" public="false" private="false" save="false" desc="是否在战斗信息"/>
+  </properties>
+  <!-- 表属性 -->
+  <records>
+    <!-- 由技能添加的表格 -->
+
+    <record name="overlay_buff_time_rec" cols="2" maxrows="512" save="true" public="false" private="false" desc="叠加buffer时间列表，有需求要保存这个表">
+      <column type="int" desc="buffer已经过去的时间"/>
+      <column type="int64" desc="buffer添加的事件的时间(服务器时间 ms)"/>
+    </record>
+  </records>
+  <includes>
+    <!-- <path name="struct\rule\fight\ignoreresist.xml" desc=""/> -->
+    <path name="struct\rule\ModifyPack.xml" desc="用于修正其它"/>
+    <path name="struct\common\trigger.xml" desc="触发器"/>
+    <!--<path name="struct\rule\fight\modifyhurt.xml" desc="用于被修正"/>-->
+  </includes>
+</object>

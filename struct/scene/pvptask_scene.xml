@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--pvptask冒险场景副本属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="PVPSceneState"    type="byte" public="false" private="false" save="true" desc="载具塔防副本状态"/>
+		 <property name="ZQTowerWarPoint"    type="word" public="false" private="false" save="true" desc="载具塔防蒸汽方积分"/>
+		 <property name="QHTowerWarPoint"    type="word" public="false" private="false" save="true" desc="载具塔防蒸汽方积分"/>
+	</properties>
+	<!--从其他文件加载属性-->
+	<records>
+		<record name="pvptask_steam_rec" cols="1" maxrows="25" save="false" public="false" private="false" desc="蒸汽队伍成员列表">
+			<column type="widestr" desc="队员名"/>
+		</record>
+		<record name="pvptask_magic_rec" cols="1" maxrows="25" save="false" public="false" private="false" desc="奇幻队伍成员列表">
+			<column type="widestr" desc="队员名"/> 
+		</record>
+	</records>
+	<includes>
+	</includes>
+</object>

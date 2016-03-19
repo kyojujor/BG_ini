@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--惩罚者相关属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="PunisherState" type="int" public="false" private="false" save="true" desc="当前姿态"/>
+		<property name="HateModifyMul" type="float" public="false" private="false" save="false" desc="仇恨修正倍率"/>
+		<property name="RFC" type="int" public="false" private="true" save="true" desc="怒火"/>
+		<property name="RFCPara" type="float" public="false" private="false" save="false" desc="怒火系数"/>
+		<property name="PunisherSkillID" type="string" public="false" private="false" save="false" desc="当前姿态技能configid"/>
+	</properties>
+	<records>
+	</records>
+</object>

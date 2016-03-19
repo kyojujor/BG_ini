@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--异步等待相关属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="AsynWait" 					type="int" public="false"  private="false" 	save="false" desc="异步等待"/>
+		<property name="AsynWaitBeginTime"	type="int" public="false"  private="false" 	save="false" desc="异步等待开始时间"/>
+	</properties>
+	<records>
+	</records>
+</object>

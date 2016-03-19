@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--Equip_Item的属性表，继承自Nim_Item，所有可装备的物品的基类-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="PetWildConfigID1" type="string" public="false" private="false" save="false"  desc="道具对应的兽魂ID,异教徒职业"/>
+		<property name="PetWildConfigID2" type="string" public="false" private="false" save="false"  desc="道具对应的兽魂ID,狩猎者职业"/>
+		<property name="CanUse" type="word" public="true" private="true" save="true"  desc="是否能使用"/>
+	</properties>
+	
+	<records>
+	</records>
+	<!--从其他文件加载属性-->
+	<includes>
+	</includes>	
+</object>

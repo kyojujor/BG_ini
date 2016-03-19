@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--伤害相关属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="MaxPhyAttackAdd" type="int" public="false" private="false" save="false" desc="最大物理攻击力"/>
+		<property name="MinPhyAttackAdd" type="int" public="false" private="false" save="false" desc="最小物理攻击力"/>
+		<property name="MaxMagicAttackAdd" type="int" public="false" private="false" save="false" desc="最大法术攻击力"/>
+		<property name="MinMagicAttackAdd" type="int" public="false" private="false" save="false" desc="最小法术攻击力"/>
+		
+		<property name="IntensityPhyAttack" type="int" public="false" private="false" save="false" desc="物理攻击强度"/>
+		<property name="IntensityMagicAttack" type="int" public="false" private="false" save="false" desc="法术攻击强度"/>
+		
+		<property name="IntensityPhyAttackAdd" type="int" public="false" private="false" save="false" desc="物理攻击强度"/>
+		<property name="IntensityMagicAttackAdd" type="int" public="false" private="false" save="false" desc="法术攻击强度"/>
+		
+		<property name="WindAdd" type="int" public="false" private="false" save="false" desc="风系抗性"/>	
+		<property name="FireAdd" type="int" public="false" private="false" save="false" desc="火系抗性"/>
+		<property name="EarthAdd" type="int" public="false" private="false" save="false" desc="土系抗性"/>
+		<property name="DarkAdd" type="int" public="false" private="false" save="false" desc="暗系抗性"/>
+		<property name="NatureAdd" type="int" public="false" private="false" save="false" desc="自然系抗性"/>	
+		<property name="SteamAdd" type="int" public="false" private="false" save="false" desc="蒸汽系抗性"/>	
+		<property name="LightningAdd" type="int" public="false" private="false" save="false" desc="雷系抗性"/>
+		<property name="WaterAdd" type="int" public="false" private="false" save="false" desc="水系抗性"/>
+		
+		<property name="SteamAttackAdd" type="int" public="false" private="false" save="false" desc="蒸汽攻击"/>
+		<property name="NatureAttackAdd" type="int" public="false" private="false" save="false" desc="自然攻击"/>
+		<property name="WindAttackAdd" type="int" public="false" private="false" save="false" desc="风系攻击"/>
+		<property name="FireAttackAdd" type="int" public="false" private="false" save="false" desc="火系攻击"/>
+		<property name="EarthAttackAdd" type="int" public="false" private="false" save="false" desc="土系攻击"/>
+		<property name="DarkAttackAdd" type="int" public="false" private="false" save="false" desc="暗系攻击"/>
+		<property name="WaterAttackAdd" type="int" public="false" private="false" save="false" desc="水系攻击"/>
+		<property name="LightningAttackAdd" type="int" public="false" private="false" save="false" desc="雷系攻击"/>
+
+
+    <property name="HPHealInc" type="int" public="false" private="false" save="false" desc="治疗回复附加"/>
+    <property name="HPBeHealInc" type="int" public="false" private="false" save="false" desc="被治疗回复附加"/>
+    <property name="PhyDamageInc" type="int" public="false" private="false" save="false" desc="物理伤害附加"/>
+    <property name="WindDamageInc" type="int" public="false" private="false" save="false" desc="风伤害附加"/>
+    <property name="FireDamageInc" type="int" public="false" private="false" save="false" desc="火伤害附加"/>
+    <property name="LightningDamageInc" type="int" public="false" private="false" save="false" desc="雷伤害附加"/>
+    <property name="EarthDamageInc" type="int" public="false" private="false" save="false" desc="地伤害附加"/>
+    <property name="WaterDamageInc" type="int" public="false" private="false" save="false" desc="水伤害附加"/>
+    <property name="DarkDamageInc" type="int" public="false" private="false" save="false" desc="暗伤害附加"/>
+    <property name="NatureDamageInc" type="int" public="false" private="false" save="false" desc="自然伤害附加"/>
+    <property name="SteamDamageInc" type="int" public="false" private="false" save="false" desc="蒸汽伤害附加"/>
+    <property name="MagicDamageInc" type="int" public="false" private="false" save="false" desc="魔法伤害附加"/>
+    <property name="DamageInc" type="int" public="false" private="false" save="false" desc="伤害附加"/>
+    <property name="HPConsumeInc" type="int" public="false" private="true" save="false" desc="生命消耗附加"/>
+    <property name="MPConsumeInc" type="int" public="false" private="true" save="false" desc="魔法消耗附加"/>
+    <property name="EYConsumeInc" type="int" public="false" private="true" save="false" desc="EY消耗附加"/>
+    <property name="RCConsumeInc" type="int" public="false" private="true" save="false" desc="RC消耗附加"/>
+    <property name="AVConsumeInc" type="int" public="false" private="true" save="false" desc="AV消耗附加"/>
+    <property name="FSConsumeInc" type="int" public="false" private="true" save="false" desc="FS消耗附加"/>
+    <property name="DPConsumeInc" type="int" public="false" private="true" save="false" desc="DP消耗附加"/>
+    <property name="ARMHPConsumeInc" type="int" public="false" private="true" save="false" desc="ARMHP消耗附加"/>
+    <property name="ARMEYConsumeInc" type="int" public="false" private="true" save="false" desc="ARMEY消耗附加"/>
+
+    <property name="HPHealMul" type="float" public="false" private="false" save="false" desc="治疗回复倍率"/>
+    <property name="HPBeHealMul" type="float" public="false" private="false" save="false" desc="被治疗回复倍率"/>
+    <property name="PhyDamageMul" type="float" public="false" private="false" save="false" desc="物理伤害倍率"/>
+    <property name="WindDamageMul" type="float" public="false" private="false" save="false" desc="风伤害倍率"/>
+    <property name="FireDamageMul" type="float" public="false" private="false" save="false" desc="火伤害倍率"/>
+    <property name="LightningDamageMul" type="float" public="false" private="false" save="false" desc="雷伤害倍率"/>
+    <property name="EarthDamageMul" type="float" public="false" private="false" save="false" desc="地伤害倍率"/>
+    <property name="WaterDamageMul" type="float" public="false" private="false" save="false" desc="水伤害倍率"/>
+    <property name="DarkDamageMul" type="float" public="false" private="false" save="false" desc="暗伤害倍率"/>
+    <property name="NatureDamageMul" type="float" public="false" private="false" save="false" desc="自然伤害倍率"/>
+    <property name="SteamDamageMul" type="float" public="false" private="false" save="false" desc="蒸汽伤害倍率"/>
+    <property name="MagicDamageMul" type="float" public="false" private="false" save="false" desc="魔法伤害倍率"/>
+    <property name="DamageMul" type="float" public="false" private="false" save="false" desc="伤害倍率"/>
+    <property name="HPConsumeMul" type="float" public="false" private="true" save="false" desc="生命消耗倍率"/>
+    <property name="MPConsumeMul" type="float" public="false" private="true" save="false" desc="魔法消耗倍率"/>
+    <property name="EYConsumeMul" type="float" public="false" private="true" save="false" desc="EY消耗倍率"/>
+    <property name="RCConsumeMul" type="float" public="false" private="true" save="false" desc="RC消耗倍率"/>
+    <property name="AVConsumeMul" type="float" public="false" private="true" save="false" desc="AV消耗倍率"/>
+    <property name="FSConsumeMul" type="float" public="false" private="true" save="false" desc="FS消耗倍率"/>
+    <property name="DPConsumeMul" type="float" public="false" private="true" save="false" desc="DP消耗倍率"/>
+    <property name="ARMHPConsumeMul" type="float" public="false" private="true" save="false" desc="ARMHP消耗倍率"/>
+    <property name="ARMEYConsumeMul" type="float" public="false" private="true" save="false" desc="ARMEY消耗倍率"/>
+  </properties>
+	<!-- 表属性 -->
+	<records>
+	</records>
+	<!--从其他文件加载属性-->
+	<includes>
+	</includes>
+</object>

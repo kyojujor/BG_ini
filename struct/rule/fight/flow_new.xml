@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--战斗流程相关属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<!-- 动作 -->
+		<!--<property name="PrepareAction" type="string" public="false" private="true" save="false" desc="准备动作"/>-->
+		<!--<property name="PrepareState" type="string" public="false" private="true" save="false" desc="准备状态"/>-->
+		<!--<property name="HitAction" type="string" public="false" private="true" save="false" desc="命中动作"/>-->
+		<!--<property name="LeadAction" type="string" public="false" private="true" save="false" desc="引导动作"/>-->
+		<!--<property name="FinishAction" type="string" public="false" private="true" save="false" desc="引导动作"/>-->
+
+		<!-- 时间 -->
+		<property name="PrepareTime" type="int" public="false" private="true" save="false" desc="准备时间 单位ms"/>
+		<property name="HitTime" type="int" public="false" private="false" save="false" desc="命中时间 单位ms"/>
+		<property name="LeadTime" type="int" public="false" private="true" save="false" desc="引导持续时间 单位ms"/>
+		<property name="LeadSepTime" type="int" public="false" private="false" save="false" desc="引导间隔时间 单位ms"/>
+
+		<!-- 机率 -->
+		<property name="BreakRatio" type="int" public="false" private="false" save="false" desc="准备时被打断的概率 百分数"/>
+		<!--<property name="BreakTime" type="int" public="false" private="false" save="false" desc="未被打断延长的准备时间 单位ms"/>-->
+	</properties>
+</object>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--人物地图探索相关属性定义-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+	</properties>
+	<!-- 表属性 -->
+	<records>
+		<record name="AreaLvOneExploreRec" cols="1" maxrows="64" save="true" public="false" private="true" desc="一级区块探索表">
+			<column type="dword" desc="一级区块编号"/>
+		</record>
+		<record name="MapMarksRec" cols="4" maxrows="32" save="true" public="false" private="true" desc="地图标记记录表">
+			<column type="widestr" desc="标记名称"/>
+			<column type="byte" desc="标记类型"/>
+			<column type="dword" desc="坐标X"/>
+			<column type="dword" desc="坐标Z"/>
+		</record>
+	</records>
+</object>

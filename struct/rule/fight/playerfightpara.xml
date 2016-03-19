@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--伤害相关属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<!--property name="DamageReduce" type="float" public="false" private="false" save="false" desc="伤害减少"/-->
+    <!--property name="DamageReduceMul" type="float" public="false" private="false" save="false" desc="伤害减少倍率"/-->
+  	<property name="DamagePlus" type="float" public="false" private="false" save="false" desc="伤害附加,通过主属性提升"/>
+  	<property name="DamagePlusAdd" type="float" public="false" private="false" save="false" desc="伤害附加,通过主属性提升"/>
+    <property name="HealPlus" type="float" public="false" private="false" save="false" desc="治疗附加,通过主属性提升"/>
+    <property name="HealPlusAdd" type="float" public="false" private="false" save="false" desc="治疗附加,通过主属性提升"/>
+    <property name="HolyAnti" type="float" public="false" private="false" save="false" desc="神圣抗性,通过主属性提升"/>
+    <property name="HolyAntiAdd" type="float" public="false" private="false" save="false" desc="神圣抗性,通过主属性提升"/>
+
+    <property name="DodgeLevel" type="int" public="false" private="false" save="false" desc="闪避等级"/>
+    <property name="DodgeLevelAdd" type="int" public="false" private="false" save="false" desc="闪避等级"/>
+    <property name="MagdodgeLevel" type="int" public="false" private="false" save="false" desc="法术闪避等级"/>
+    <property name="MagdodgeLevelAdd" type="int" public="false" private="false" save="false" desc="法术闪避等级"/>
+    
+		<property name="CritLevel" type="int" public="false" private="false" save="false" desc="暴击等级"/>
+		<property name="CritMulLevel" type="int" public="false" private="false" save="false" desc="暴击倍率等级"/>
+    <property name="CritLevelAdd" type="int" public="false" private="false" save="false" desc="暴击等级"/>
+    <property name="CritMulLevelAdd" type="int" public="false" private="false" save="false" desc="暴击倍率等级"/>
+    
+    <property name="MagCritLevel" type="int" public="false" private="false" save="false" desc="法术暴击等级"/>
+    <property name="MagCritLevelAdd" type="int" public="false" private="false" save="false" desc="法术暴击等级"/>
+    <property name="ElementDeepenLevel" type="int" public="false" private="false" save="false" desc="元素加深等级"/>
+    <property name="ElementDeepenLevelAdd" type="int" public="false" private="false" save="false" desc="元素加深等级"/>
+
+    
+    <property name="DefenseLevel" type="int" public="false" private="false" save="false" desc="防御等级"/>
+    <property name="DefenseLevelAdd" type="int" public="false" private="false" save="false" desc="防御等级"/>
+    
+    <property name="Guard" type="int" public="false" private="false" save="false" desc="护甲值"/>
+    <property name="GuardAdd" type="int" public="false" private="false" save="false" desc="护甲值"/>
+		<property name="PenetrateLevel" type="int" public="false" private="false" save="false" desc="护甲穿透等级"/>
+    <property name="PenetrateLevelAdd" type="int" public="false" private="false" save="false" desc="护甲穿透等级"/>
+    <property name="ElementResistLevel" type="int" public="false" private="false" save="false" desc="元素减免等级"/>
+    <property name="ElementResistLevelAdd" type="int" public="false" private="false" save="false" desc="元素减免等级"/>
+
+		
+    <property name="AccurateLevel" type="int" public="false" private="false" save="false" desc="精准等级"/>
+    <property name="AccurateLevelAdd" type="int" public="false" private="false" save="false" desc="精准等级"/>
+		<property name="MagPrecLevel" type="int" public="false" private="false" save="false" desc="法术精准等级"/>
+    <property name="MagPrecLevelAdd" type="int" public="false" private="false" save="false" desc="法术精准等级"/>
+		
+    <property name="AllResist" type="int" public="false" private="false" save="false" desc="全系抗性"/>
+    <property name="AllResistAdd" type="int" public="false" private="false" save="false" desc="全系抗性"/>
+    
+    <property name="SCritProb"  type="float" public="false" private="false" save="false" desc="绝对暴击率"/>
+    <property name="SCritProbAdd" type="float" public="false" private="false" save="false" desc="绝对暴击几率"/>
+    
+    <property name="SDodgeProb"  type="float" public="false" private="false" save="false" desc="绝对闪避率"/>
+    <property name="SDodgeProbAdd" type="float" public="false" private="false" save="false" desc="绝对闪避几率"/>
+    
+    <property name="SGuardRateProb"  type="float" public="false" private="false" save="false" desc="绝对护甲减伤率"/>
+    <property name="SGuardRateProbAdd" type="float" public="false" private="false" save="false" desc="绝对护甲减伤几率"/>
+    
+    <property name="SMagCritProb"  type="float" public="false" private="false" save="false" desc="绝对法术暴击率"/>
+    <property name="SMagCritProbAdd" type="float" public="false" private="false" save="false" desc="绝对法术暴击几率"/>
+    
+    <property name="SMagdodgeProb"  type="float" public="false" private="false" save="false" desc="绝对法术躲避几率"/>
+    <property name="SMagdodgeProbAdd" type="float" public="false" private="false" save="false" desc="绝对法术闪避几率"/>
+    
+    <property name="SAllResistProb" type="float" public="false" private="false" save="false" desc="绝对法术减伤率"/>
+    <property name="SAllResistProbAdd" type="float" public="false" private="false" save="false" desc="全系抗性"/>
+    
+
+		<!--用于通用计算的属性，主要在战斗计算时设置获取当前攻击目标数量  -->
+		<property name="CurTargetCount" type="int" public="false" private="false" save="true" desc="定性参数2"/>	
+		
+		<property name="Stiff" type="float" public="false" private="false" save="false" desc="硬直"/>
+		<property name="HateRatio" type="int" public="false" private="false" save="false" desc="仇恨系数 可以被buff修正默认0"/>
+		<property name="DownFallDamageRatio" type="int" public="false" private="false" save="false" desc="跌落伤害修正系数 默认0"/>
+		<property name="HealMul" type="float" public="false" private="false" save="false" desc="治疗倍率"/>
+		<property name="HardinessDecRatio" type="float" public="false" private="false" save="false" desc="装备耐久减少比例"/>
+		<!--战斗力  -->
+		<property name="FightPower" type="int" public="false" private="true" save="true" desc="战斗力"/>
+		<!--幸运值  -->
+		<property name="FortunateValue" type="int" public="false" private="false" save="false" desc="幸运值"/>
+		<property name="FortunateValueAdd" type="int" public="false" private="false" save="false" desc="幸运值"/>
+	</properties>
+</object>

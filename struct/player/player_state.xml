@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--玩家状态-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="LoginProtect" type="int" public="false" private="false" save="false" desc="登陆保护状态"/>
+		<property name="GuideState" type="int64" public="false" private="false" save="true" desc="新手引导的状态"/>
+		<property name="GuideType" type="int" public="false" private="true" save="true" desc="新手引导的类型"/>
+	</properties>
+</object>

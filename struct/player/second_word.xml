@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--口令检测的属性数据-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="SecondWord" type="widestr" public="false" private="false" save="true" desc="二级口令密码"/>
+		<property name="IsHaveSecondWord" type="byte" public="false" private="true" save="true" desc="是否有二级口令密码"/>
+		<property name="WordBeLock" type="byte" public="false" private="true" save="true" desc="口令被锁定"/>
+		<property name="WordBeLockTime" type="double" public="false" private="false" save="true" desc="被锁定的开始时间"/>
+		<property name="WordCheckNum" type="int" public="false" private="true" save="true" desc="验证次数"/>
+		<property name="IsCheckPass" type="byte" public="false" private="true" save="false" desc="是否验证通过"/>
+	</properties>	
+</object>

@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='gb2312' ?>
+<object>
+
+  <properties>
+    <property name="MinPhyAttack"  type="int" public="false" private="false" save="false" desc="近战最小物理攻击力"/>
+    <property name="MaxPhyAttack"  type="int" public="false" private="false" save="false" desc="近战最大物理攻击力"/>
+    <property name="MinMagicAttack"  type="int" public="false" private="false" save="false" desc="法术最小攻击力"/>
+    <property name="MaxMagicAttack"  type="int" public="false" private="false" save="false" desc="法术最大攻击力"/>
+
+
+    <property name="CritProb"  type="float" public="false" private="false" save="false" desc="暴击率"/>
+    <property name="CritProbAdd" type="float" public="false" private="false" save="false" desc="暴击几率"/>
+    <property name="CritMulProb"  type="float" public="false" private="false" save="false" desc="暴击倍率"/>
+    <property name="CritMulProbAdd" type="float" public="false" private="false" save="false" desc="暴击倍率几率"/>
+    <property name="CritHurt"  type="int" public="false" private="false" save="false" desc="暴击伤害"/>
+    <property name="CritHurtAdd" type="int" public="false" private="false" save="false" desc="暴击伤害附加"/>
+    <property name="MagCritProb"  type="float" public="false" private="false" save="false" desc="法术暴击率"/>
+    <property name="MagCritProbAdd" type="float" public="false" private="false" save="false" desc="法术暴击几率"/>
+
+
+    <property name="AccurateProb" type="float" public="false" private="false" save="false" desc="精准几率"/>
+    <property name="AccurateProbAdd" type="float" public="false" private="false" save="false" desc="精准几率"/>
+    <property name="MagPrecProb" type="float" public="false" private="false" save="false" desc="法术精准率"/>
+    <property name="MagPrecProbAdd" type="float" public="false" private="false" save="false" desc="法术精准几率"/>
+
+
+    <property name="DodgeProb"  type="float" public="false" private="false" save="false" desc="闪避率"/>
+    <property name="DodgeProbAdd" type="float" public="false" private="false" save="false" desc="闪避几率"/>
+    <property name="MagdodgeProb"  type="float" public="false" private="false" save="false" desc="法术躲避几率"/>
+    <property name="MagdodgeProbAdd" type="float" public="false" private="false" save="false" desc="法术闪避几率"/>
+
+
+    
+    <property name="GuardRateProb"  type="float" public="false" private="false" save="false" desc="护甲减伤率"/>
+    <property name="GuardRateProbAdd" type="float" public="false" private="false" save="false" desc="护甲减伤几率"/>
+    
+    <property name="PenetrateProb"  type="float" public="false" private="false" save="false" desc="护甲穿透"/>
+    <property name="PenetrateProbAdd" type="float" public="false" private="false" save="false" desc="护甲穿透几率"/>
+    <!--property name="PenetTheurgy" type="int" public="false" private="false" save="false" desc="法术穿透" /-->
+
+    
+    
+    <property name="WeakdefVal" type="int" public="false" private="false" save="false" desc="伤害抵御值"/>
+    <property name="WeakdefValAdd" type="int" public="false" private="false" save="false" desc="伤害抵御值"/>
+    
+    <property name="DefenseProb"  type="float" public="false" private="false" save="false" desc="防御几率"/>
+    <property name="DefenseProbAdd" type="float" public="false" private="false" save="false" desc="防御几率"/>
+    
+    <!--property name="WeakdefProb" type="float" public="false" private="true" save="false" desc="抵御伤害几率"/-->
+    <!--property name="HitProb"  type="float" public="false" private="true" save="false" desc="命中率"/-->
+    <property name="WindAttack" type="int" public="false" private="false" save="false" desc="风系攻击"/>
+    <property name="FireAttack" type="int" public="false" private="false" save="false" desc="火系攻击"/>
+    <property name="EarthAttack" type="int" public="false" private="false" save="false" desc="土系攻击"/>
+    <property name="WaterAttack" type="int" public="false" private="false" save="false" desc="水系攻击"/>
+    <property name="LightningAttack" type="int" public="false" private="false" save="false" desc="雷系攻击"/>
+    <property name="SteamAttack" type="int" public="false" private="false" save="false" desc="蒸汽攻击"/>
+    <property name="NatureAttack" type="int" public="false" private="false" save="false" desc="自然攻击"/>
+    <property name="DarkAttack" type="int" public="false" private="false" save="false" desc="暗系攻击"/>
+    <property name="Wind" type="int" public="false" private="false" save="false" desc="风系抗性"/>
+    <property name="Fire" type="int" public="false" private="false" save="false" desc="火系抗性"/>
+    <property name="Earth" type="int" public="false" private="false" save="false" desc="土系抗性"/>
+    <property name="Water" type="int" public="false" private="false" save="false" desc="水系抗性"/>
+    <property name="Dark" type="int" public="false" private="false" save="false" desc="暗系抗性"/>
+    <property name="Nature" type="int" public="false" private="false" save="false" desc="自然系抗性"/>
+    <property name="Steam" type="int" public="false" private="false" save="false" desc="蒸汽系抗性"/>
+    <property name="Lightning" type="int" public="false" private="false" save="false" desc="雷系抗性"/>
+    <property name="AllResistProb" type="float" public="false" private="false" save="false" desc="全抗性抵抗率"/>
+    <property name="AllResistProbAdd" type="float" public="false" private="false" save="false" desc="全系抗性"/>
+    
+	<property name="ElementDeepenProb" type="float" public="false" private="false" save="false" desc="元素加深率"/>
+	<property name="ElementDeepenProbAdd" type="float" public="false" private="false" save="false" desc="元素加深率"/>
+	<property name="ElementResistProb" type="float" public="false" private="false" save="false" desc="元素减免率"/>
+	<property name="ElementResistProbAdd" type="float" public="false" private="false" save="false" desc="元素减免率"/>
+    
+    <property name="SiegeDamageDeepenProb" type="float" public="false" private="false" save="true" desc="攻城伤害加成率"/>
+    <property name="SiegeDamageResistProb" type="float" public="false" private="false" save="true" desc="攻城伤害减免率"/>
+
+    <!--property name="Guard"  type="int" public="false" private="true" save="false" desc="护甲值"/-->
+  </properties>
+
+</object>
+

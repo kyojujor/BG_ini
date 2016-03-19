@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--旅馆相关属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="HotelPosx" type="float" public="false" private="false" save="true" desc="旅馆保存的x坐标"/>
+		<property name="HotelPosy" type="float" public="false" private="false" save="true" desc="旅馆保存的y坐标"/>
+		<property name="HotelPosz" type="float" public="false" private="false" save="true" desc="旅馆保存的z坐标"/>
+		<property name="HotelSence" type="int" public="false" private="false" save="true" desc="旅馆保存的场景编号"/>
+		<property name="HotelexPerience" type="int64" public="false" private="true" save="true" desc="在旅馆获得的经验值"/>
+		<property name="HoteleLoginTime" type="int64" public="false" private="false" save="false" desc="角色进入旅馆的时间"/>
+	</properties>
+	<records>
+	</records>
+</object>

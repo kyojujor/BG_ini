@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--移动相关的属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+		<property name="JumpSpeed"       type="float" public="true" private="true" save="false" desc="跳跃速度"/>
+		<property name="JumpSpeedAdd"    type="float" public="false" private="false" save="false" desc="跳跃速度附加"/>
+		<property name="MoveSpeed" type="float" public="true" private="true" save="false" desc="移动速度"/>
+		<property name="MoveType" type="byte" public="false" private="false" save="false"  desc="移动类型0：跑步，1：走路"/>
+		<property name="MoveSite" type="byte" public="false" private="false" save="false"  desc="活动场所 1：陆地（默认只能陆地），2：水中，4：空中（可组合）"/>
+		<property name="WalkSpeed" type="float" public="true" private="true" save="false" desc="行走速度"/>
+		<property name="RunSpeed" type="float" public="true" private="true" save="false" desc="跑动速度"/>
+		<property name="DropHeightPub" type="float" public="false" private="true" save="false" desc="跌落高度"/>
+		<property name="WalkSpeedAdd" type="float" public="false" private="false" save="false" desc="移动速度的改变"/>
+		<property name="RunSpeedAdd" type="float" public="true" private="true" save="false" desc="移动速度的改变"/>
+		<property name="SpeedRatio" type="int" public="true" private="true" save="false" desc="动作速率,百分数,负数为减慢,正数为加快,受他人内功影响,可影响念咒\命中\冷却的时间以及移动速度"/>
+		<property name="CantRun" type="byte" public="false" private="false" save="false" desc="不能跑路"/>
+    <property name="LastMoveMode" type="int" public="false" private="false" save="false" desc="上次上发的同步类型"/>
+    <property name="LastStopX" type="float" public="false" private="false" save="false" desc="上次停止X坐标"/>
+		<property name="LastStopY" type="float" public="false" private="false" save="false" desc="上次停止Y坐标"/>
+		<property name="LastStopZ" type="float" public="false" private="false" save="false" desc="上次停止Z坐标"/>
+    <property name="LastStopTime" type="int64" public="false" private="false" save="false" desc="上次停止时间"/>
+	</properties>
+</object>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--配方相关的属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>	
+		<!-- 
+		MaterialList格式: material 1:num;material 2:num;material 3:num;material 4:num
+		-->	
+		<property name="MaterialList" type="string" public="false" private="true" save="true" desc="配方材料列表"/>
+		<property name="FormulaMValue" type="int" public="false" private="true" save="true" desc="配方中值，用于计算配方生产出产品的等级"/>
+	</properties>
+</object>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by  () -->
+<!--技能效果NPC基础属性-->
+<object>
+	<!-- 基本属性 -->
+	<properties>
+	  <property name="se_movetype" type="int" public="false" private="false" save="false" desc="移动方式0：直线"/>
+	  <property name="se_move_param1" type="int" public="false" private="false" save="false" desc="移动参数"/>
+	</properties>
+	<!-- 表属性 -->
+	<!--从其他文件加载属性-->
+	<includes>
+        <path name="struct\npc_property\ai_motion.xml" desc="AI属性"/>
+        <path name="struct\npc_property\ai_npc_data.xml" desc="AI属性"/>
+        <path name="struct\npc_property\ai_path.xml" desc=""/>
+        <path name="struct\player\flow.xml" desc="从代码中移动过来的"/>
+        <path name="struct\rule\Common\Fightbag.xml" desc=""/>
+        <path name="struct\rule\Common\commonfighter.xml" desc=""/>
+        <path name="struct\rule\Common\skilluse.xml" desc=""/>
+        <path name="struct\rule\Common\bufferuse.xml" desc=""/>
+        <path name="struct\rule\Common\basefighterdata.xml" desc=""/>
+	</includes>
+
+</object>
