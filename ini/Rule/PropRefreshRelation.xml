@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+	<!--属性关系表
+1=仲裁者；2=蒸汽学徒；3=秘法师；4=麦克骑士；5=野性守护者；6=猎魔人；7=炼金师；8=元素法师
+21=惩罚者；22=神枪手；23=执行者
+24=器械师；25=构造师；26=异教徒
+27=咒术师；28=黑暗祭师；29=女巫
+30=泰坦骑士	；31=风暴骑士；32=破碎骑士
+33=熊人	；34=蛮牛人；35=狼人
+36=刀锋战士	；37=狩猎者；38=魔剑士
+39=炼器师；40=医师；41=变能师
+42=圣殿法师；43=平衡法师；44=流浪法师    -->
+	<Property ID="Str" Job_0="IntensityPhyAttack,MaxHP,HPUpSpeed" Job_1="IntensityPhyAttack,MaxHP,HPUpSpeed" Job_3="MaxHP,HPUpSpeed" Job_6="IntensityPhyAttack,MaxHP,HPUpSpeed" Job_8="MaxHP,HPUpSpeed" Job_21="IntensityPhyAttack,MaxHP,HPUpSpeed" Job_22="IntensityPhyAttack,MaxHP,HPUpSpeed" Job_23="IntensityPhyAttack,MaxHP,HPUpSpeed" Job_27="MaxHP,HPUpSpeed" Job_28="MaxHP,HPUpSpeed" Job_29="MaxHP,HPUpSpeed" Job_36="IntensityPhyAttack,MaxHP,HPUpSpeed" Job_37="IntensityPhyAttack,MaxHP,HPUpSpeed" Job_38="IntensityPhyAttack,MaxHP,HPUpSpeed" Job_42="MaxHP,HPUpSpeed" Job_43="MaxHP,HPUpSpeed" Job_44="MaxHP,HPUpSpeed"/>
+	<Property ID="Dex" Job_0="IntensityPhyAttack,AccurateLevel,DodgeLevel,CritLevel,MagPrecLevel,MagdodgeLevel,MagCritLevel" Job_1="IntensityPhyAttack,AccurateLevel,DodgeLevel,CritLevel,MagPrecLevel,MagdodgeLevel,MagCritLevel" Job_3="AccurateLevel,DodgeLevel,CritLevel,MagPrecLevel,MagdodgeLevel,MagCritLevel" Job_6="IntensityPhyAttack,AccurateLevel,DodgeLevel,CritLevel,MagPrecLevel,MagdodgeLevel,MagCritLevel" Job_8="AccurateLevel,DodgeLevel,CritLevel,MagPrecLevel,MagdodgeLevel,MagCritLevel" Job_21="IntensityPhyAttack,AccurateLevel,DodgeLevel,CritLevel,MagPrecLevel,MagdodgeLevel,MagCritLevel" Job_22="IntensityPhyAttack,AccurateLevel,DodgeLevel,CritLevel,MagPrecLevel,MagdodgeLevel,MagCritLevel" Job_23="IntensityPhyAttack,AccurateLevel,DodgeLevel,CritLevel,MagPrecLevel,MagdodgeLevel,MagCritLevel" Job_27="AccurateLevel,DodgeLevel,CritLevel,MagPrecLevel,MagdodgeLevel,MagCritLevel" Job_28="AccurateLevel,DodgeLevel,CritLevel,MagPrecLevel,MagdodgeLevel,MagCritLevel" Job_29="AccurateLevel,DodgeLevel,CritLevel,MagPrecLevel,MagdodgeLevel,MagCritLevel" Job_36="IntensityPhyAttack,AccurateLevel,DodgeLevel,CritLevel,MagPrecLevel,MagdodgeLevel,MagCritLevel" Job_37="IntensityPhyAttack,AccurateLevel,DodgeLevel,CritLevel,MagPrecLevel,MagdodgeLevel,MagCritLevel" Job_38="IntensityPhyAttack,AccurateLevel,DodgeLevel,CritLevel,MagPrecLevel,MagdodgeLevel,MagCritLevel" Job_42="AccurateLevel,DodgeLevel,CritLevel,MagPrecLevel,MagdodgeLevel,MagCritLevel" Job_43="AccurateLevel,DodgeLevel,CritLevel,MagPrecLevel,MagdodgeLevel,MagCritLevel" Job_44="AccurateLevel,DodgeLevel,CritLevel,MagPrecLevel,MagdodgeLevel,MagCritLevel"/>
+	<Property ID="Ing" Job_0="AllResist,MaxMP" Job_1="AllResist,MaxMP" Job_3="IntensityMagicAttack,AllResist,MaxMP" Job_6="AllResist,MaxMP" Job_8="IntensityMagicAttack,AllResist,MaxMP" Job_21="AllResist,MaxMP" Job_22="AllResist,MaxMP" Job_23="AllResist,MaxMP" Job_27="IntensityMagicAttack,AllResist,MaxMP" Job_28="IntensityMagicAttack,AllResist,MaxMP" Job_29="IntensityMagicAttack,AllResist,MaxMP" Job_36="AllResist,MaxMP" Job_37="AllResist,MaxMP" Job_38="IntensityMagicAttack,AllResist,MaxMP" Job_42="IntensityMagicAttack,AllResist,MaxMP" Job_43="IntensityMagicAttack,AllResist,MaxMP" Job_44="IntensityMagicAttack,AllResist,MaxMP"/>
+	<Property ID="Spi" Job_0="AllResist,MPUpSpeed" Job_1="AllResist,MPUpSpeed" Job_3="IntensityMagicAttack,AllResist,MPUpSpeed" Job_6="AllResist,MPUpSpeed" Job_8="IntensityMagicAttack,AllResist,MPUpSpeed" Job_21="AllResist,MPUpSpeed" Job_22="AllResist,MPUpSpeed" Job_23="AllResist,MPUpSpeed" Job_27="IntensityMagicAttack,AllResist,MPUpSpeed" Job_28="IntensityMagicAttack,AllResist,MPUpSpeed" Job_29="IntensityMagicAttack,AllResist,MPUpSpeed" Job_36="AllResist,MPUpSpeed" Job_37="AllResist,MPUpSpeed" Job_38="IntensityMagicAttack,AllResist,MPUpSpeed" Job_42="IntensityMagicAttack,AllResist,MPUpSpeed" Job_43="IntensityMagicAttack,AllResist,MPUpSpeed" Job_44="IntensityMagicAttack,AllResist,MPUpSpeed"/>
+	<Property ID="Sta" Job_0="IntensityPhyAttack,MaxHP,HPUpSpeed" Job_1="IntensityPhyAttack,MaxHP,HPUpSpeed" Job_3="MaxHP,HPUpSpeed" Job_6="IntensityPhyAttack,MaxHP,HPUpSpeed" Job_8="MaxHP,HPUpSpeed" Job_21="IntensityPhyAttack,MaxHP,HPUpSpeed" Job_22="IntensityPhyAttack,MaxHP,HPUpSpeed" Job_23="IntensityPhyAttack,MaxHP,HPUpSpeed" Job_27="MaxHP,HPUpSpeed" Job_28="MaxHP,HPUpSpeed" Job_29="MaxHP,HPUpSpeed" Job_36="IntensityPhyAttack,MaxHP,HPUpSpeed" Job_37="IntensityPhyAttack,MaxHP,HPUpSpeed" Job_38="IntensityPhyAttack,MaxHP,HPUpSpeed" Job_42="MaxHP,HPUpSpeed" Job_43="MaxHP,HPUpSpeed" Job_44="MaxHP,HPUpSpeed"/>
+	<Property ID="Esth" Job_0="AccurateLevel,DodgeLevel,CritLevel,MagPrecLevel,MagdodgeLevel,MagCritLevel" Job_1="AccurateLevel,DodgeLevel,CritLevel,MagPrecLevel,MagdodgeLevel,MagCritLevel" Job_3="IntensityMagicAttack,AccurateLevel,DodgeLevel,CritLevel,MagPrecLevel,MagdodgeLevel,MagCritLevel" Job_6="AccurateLevel,DodgeLevel,CritLevel,MagPrecLevel,MagdodgeLevel,MagCritLevel" Job_8="IntensityMagicAttack,AccurateLevel,DodgeLevel,CritLevel,MagPrecLevel,MagdodgeLevel,MagCritLevel" Job_21="AccurateLevel,DodgeLevel,CritLevel,MagPrecLevel,MagdodgeLevel,MagCritLevel" Job_22="AccurateLevel,DodgeLevel,CritLevel,MagPrecLevel,MagdodgeLevel,MagCritLevel" Job_23="AccurateLevel,DodgeLevel,CritLevel,MagPrecLevel,MagdodgeLevel,MagCritLevel" Job_27="IntensityMagicAttack,AccurateLevel,DodgeLevel,CritLevel,MagPrecLevel,MagdodgeLevel,MagCritLevel" Job_28="IntensityMagicAttack,AccurateLevel,DodgeLevel,CritLevel,MagPrecLevel,MagdodgeLevel,MagCritLevel" Job_29="IntensityMagicAttack,AccurateLevel,DodgeLevel,CritLevel,MagPrecLevel,MagdodgeLevel,MagCritLevel" Job_36="AccurateLevel,DodgeLevel,CritLevel,MagPrecLevel,MagdodgeLevel,MagCritLevel" Job_37="AccurateLevel,DodgeLevel,CritLevel,MagPrecLevel,MagdodgeLevel,MagCritLevel" Job_38="IntensityMagicAttack,AccurateLevel,DodgeLevel,CritLevel,MagPrecLevel,MagdodgeLevel,MagCritLevel" Job_42="IntensityMagicAttack,AccurateLevel,DodgeLevel,CritLevel,MagPrecLevel,MagdodgeLevel,MagCritLevel" Job_43="IntensityMagicAttack,AccurateLevel,DodgeLevel,CritLevel,MagPrecLevel,MagdodgeLevel,MagCritLevel" Job_44="IntensityMagicAttack,AccurateLevel,DodgeLevel,CritLevel,MagPrecLevel,MagdodgeLevel,MagCritLevel"/>
+	<Property ID="MaxHP" Job_0="HPUpSpeed"/>
+	<Property ID="MaxMP" Job_0="MPUpSpeed"/>
+	<Property ID="MaxEY" Job_0="EYUpSpeed"/>
+	<Property ID="DodgeLevel" Job_0="DodgeProb"/>
+	<Property ID="CritLevel" Job_0="CritProb"/>
+	<Property ID="CritMulLevel" Job_0="CritMulProb"/>
+	<Property ID="AccurateLevel" Job_0="AccurateProb"/>
+	<Property ID="MagdodgeLevel" Job_0="MagdodgeProb"/>
+	<Property ID="MagCritLevel" Job_0="MagCritProb"/>
+	<Property ID="MagPrecLevel" Job_0="MagPrecProb"/>
+	<Property ID="PenetrateLevel" Job_0="PenetrateProb"/>
+	<Property ID="Guard" Job_0="GuardRateProb"/>
+	<Property ID="DefenseLevel" Job_0="DefenseProb"/>
+	<Property ID="AllResist" Job_0="AllResistProb"/>
+	<Property ID="ElementDeepenLevel" Job_0="ElementDeepenProb"/>
+	<Property ID="ElementResistLevel" Job_0="ElementResistProb"/>
+	<Property ID="IntensityPhyAttack" Job_0="MaxPhyAttack,MinPhyAttack"/>
+	<Property ID="IntensityMagicAttack" Job_0="MaxMagicAttack,MinMagicAttack"/>
+</Object>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- ID：序号 -->
+<!-- Slott： 对应第几个空 -->
+<!-- Num1：打孔对应所需数量 //白色 -->
+<!-- Num2：打孔对应所需数量 //绿色 -->
+<!-- Num3：打孔对应所需数量 //蓝色 -->
+<!-- Num4：打孔对应所需数量 //紫色 -->
+<!-- Num5：打孔对应所需数量 //橙色 -->
+<!-- Num6：打孔对应所需数量 //暗金 -->
+<!-- goods1：打孔对应所需道具数量 //白色 -->
+<!-- goods2：打孔对应所需道具数量 //绿色 -->
+<!-- goods3：打孔对应所需道具数量 //蓝色 -->
+<!-- goods4：打孔对应所需道具数量 //紫色 -->
+<!-- goods5：打孔对应所需道具数量 //橙色 -->
+<!-- goods6：打孔对应所需道具数量 //暗金 -->
+<!-- ID：序号 -->
+<!-- GoodsId 物品id -->
+<!-- MinLevel 适用的最小等级 -->
+<!-- MinLevel 适用的最大等级 -->
+<Object>
+	<Property ID="1" slott="1" Num1="1250" Num2="1250" Num3="1250" Num4="1250" Num5="1250" Num6="1250" goods1="2" goods2="2" goods3="2" goods4="2" goods5="2" goods6="2"/>
+	<Property ID="2" slott="2" Num1="2500" Num2="2500" Num3="2500" Num4="2500" Num5="2500" Num6="2500" goods1="4" goods2="4" goods3="4" goods4="4" goods5="4" goods6="4"/>
+	<Property ID="3" slott="3" Num1="3250" Num2="3250" Num3="3250" Num4="3250" Num5="3250" Num6="3250" goods1="6" goods2="6" goods3="6" goods4="6" goods5="6" goods6="6"/>
+	<Property ID="4" GoodsId="DKDJ_001" MinLevel="1" MaxLevel="25"/>
+	<Property ID="5" GoodsId="DKDJ_002" MinLevel="26" MaxLevel="39"/>
+	<Property ID="6" GoodsId="DKDJ_003" MinLevel="40" MaxLevel="40"/>
+</Object>

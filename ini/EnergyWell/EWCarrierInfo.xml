@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2010 (http://www.altova.com) by MESMERiZE (MiZE) -->
+<!-- 被2011 rel. 2 sp1 (jiangyingxi) 使用XMLSpy vsnail编辑的 (http://www.altova.com) by -->
+<!-- 载具信息 -->
+<!-- ID					载具ID										int		-->
+<!-- StatsID			载具显示信息包								int		-->
+<!-- Type				载具类型		1=小/2=中/3=大/4=多人		int		-->
+<!-- CarrierNpcID		载具NpcID									string  -->
+<!-- Time			  	载具制造耗时	小时数,分钟数				string  -->
+<!-- StoreMaterial		仓库材料消耗	道具A,数量;道具B,数量...	string	-->
+<!-- PersonalMaterial	个人材料消耗	道具A,数量;道具B,数量...	string	-->
+<!-- SmallImage			小图地址	-->
+<!-- BigImage			大图地址	-->
+<!-- RideCarCost		每小时坐骑点	-->
+<!-- RepairHPCost		HP修改费	-->
+<!-- RepairMPcost		MP修理费	-->
+<!-- Hours				小时配置	-->
+<!-- CutTimeCost		缩短时间每小时黑金花费	黑金值	int -->
+<!-- BGCost				制造载具黑金消耗		黑金值	int -->
+<!-- ModelCoe			模型显示距离		    0.8	    float -->
+<Object>
+	<Property ID="1" Type="3" StatsID="1" CarrierNpcID="land_zql_001" RideCarCost="40" RepairHPCost="1000" RepairMPcost="1000" Time="21,00" StoreMaterial="ZJ_ZQ_0003,700;ZJ_ZQ_0004,700;ZJ_ALL_0002,280;ZJ_NL_0008,21;ZJ_NL_0004,9" CutTimeCost="40" SmallImage="icon\\Carry\\64\\zq_bc_004.png" Hours="1,2,3,4" MarkNpcID="BGskill_46210" BGCost="800" ModelCoe="0.8"/>
+	<Property ID="2" Type="1" StatsID="2" CarrierNpcID="air_zqs_001" RideCarCost="10" RepairHPCost="1000" RepairMPcost="1000" Time="5,15" StoreMaterial="ZJ_ZQ_0005,70;ZJ_ZQ_0006,70;ZJ_ALL_0003,70;ZJ_NL_0008,6;ZJ_NL_0004,3" CutTimeCost="10" SmallImage="icon\\Carry\\64\\zq_bc_018.png" Hours="1,2,3,4" MarkNpcID="BGskill_46210" BGCost="200" ModelCoe="1.4"/>
+	<Property ID="3" Type="2" StatsID="3" CarrierNpcID="air_zqm_001" RideCarCost="20" RepairHPCost="1000" RepairMPcost="1000" Time="10,30" StoreMaterial="ZJ_ZQ_0005,140;ZJ_ZQ_0006,140;ZJ_ALL_0003,140;ZJ_NL_0008,11;ZJ_NL_0004,5" CutTimeCost="20" SmallImage="icon\\Carry\\64\\zq_bc_021.png" Hours="1,2,3,4" MarkNpcID="BGskill_46210" BGCost="400" ModelCoe="1.2"/>
+	<Property ID="4" Type="3" StatsID="4" CarrierNpcID="land_zql_001_2" RideCarCost="40" RepairHPCost="1000" RepairMPcost="1000" Time="21,00" StoreMaterial="ZJ_ZQ_0003,630;ZJ_ZQ_0004,630;ZJ_ALL_0002,252;ZJ_NL_0008,19;ZJ_NL_0004,8" CutTimeCost="40" SmallImage="icon\\Carry\\64\\zq_bc_004_2.png" Hours="1,2,3,4" MarkNpcID="BGskill_46210" BGCost="800" ModelCoe="0.8"/>
+	<Property ID="5" Type="3" StatsID="5" CarrierNpcID="land_qhl_001" RideCarCost="40" RepairHPCost="1000" RepairMPcost="1000" Time="21,00" StoreMaterial="ZJ_QH_0003,700;ZJ_QH_0004,700;ZJ_ALL_0002,280;ZJ_NL_0008,21;ZJ_NL_0004,9" CutTimeCost="40" SmallImage="icon\\Carry\\64\\qh_bc_017.png" Hours="1,2,3,4" MarkNpcID="BGskill_46211" BGCost="800" ModelCoe="0.9"/>
+	<Property ID="6" Type="1" StatsID="6" CarrierNpcID="air_qhs_001" RideCarCost="10" RepairHPCost="1000" RepairMPcost="1000" Time="5,15" StoreMaterial="ZJ_QH_0005,70;ZJ_QH_0006,70;ZJ_ALL_0003,70;ZJ_NL_0008,6;ZJ_NL_0004,3" CutTimeCost="10" SmallImage="icon\\Carry\\64\\qh_bc_022.png" Hours="1,2,3,4" MarkNpcID="BGskill_46211" BGCost="200" ModelCoe="1.2"/>
+	<Property ID="7" Type="2" StatsID="7" CarrierNpcID="air_qhm_001" RideCarCost="20" RepairHPCost="1000" RepairMPcost="1000" Time="10,30" StoreMaterial="ZJ_QH_0005,140;ZJ_QH_0006,140;ZJ_ALL_0003,140;ZJ_NL_0008,11;ZJ_NL_0004,5" CutTimeCost="20" SmallImage="icon\\Carry\\64\\qh_bc_020.png" Hours="1,2,3,4" MarkNpcID="BGskill_46211" BGCost="400" ModelCoe="1.1"/>
+	<Property ID="8" Type="3" StatsID="8" CarrierNpcID="land_qhl_001_2" RideCarCost="40" RepairHPCost="1000" RepairMPcost="1000" Time="21,00" StoreMaterial="ZJ_QH_0003,630;ZJ_QH_0004,630;ZJ_ALL_0002,252;ZJ_NL_0008,19;ZJ_NL_0004,8" CutTimeCost="40" SmallImage="icon\\Carry\\64\\qh_bc_017_2.png" Hours="1,2,3,4" MarkNpcID="BGskill_46211" BGCost="800" ModelCoe="0.9"/>
+	<Property ID="9" Type="3" StatsID="9" CarrierNpcID="land_zql_001_1" RideCarCost="40" RepairHPCost="1000" RepairMPcost="1000" Time="21,00" StoreMaterial="ZJ_ZL_0003,700;ZJ_ZL_0004,700;ZJ_ALL_0002,280;ZJ_NL_0008,21;ZJ_NL_0004,9" CutTimeCost="40" SmallImage="icon\\Carry\\64\\zq_bc_004_1.png" Hours="1,2,3,4" MarkNpcID="BGskill_46210" BGCost="800" ModelCoe="0.8"/>
+	<Property ID="10" Type="1" StatsID="10" CarrierNpcID="air_zqs_001_1" RideCarCost="10" RepairHPCost="1000" RepairMPcost="1000" Time="5,15" StoreMaterial="ZJ_ZL_0005,70;ZJ_ZL_0006,70;ZJ_ALL_0003,70;ZJ_NL_0008,6;ZJ_NL_0004,3" CutTimeCost="10" SmallImage="icon\\Carry\\64\\zq_bc_018_1.png" Hours="1,2,3,4" MarkNpcID="BGskill_46210" BGCost="200" ModelCoe="1.4"/>
+	<Property ID="11" Type="2" StatsID="11" CarrierNpcID="air_zqm_001_1" RideCarCost="20" RepairHPCost="1000" RepairMPcost="1000" Time="10,30" StoreMaterial="ZJ_ZL_0005,140;ZJ_ZL_0006,140;ZJ_ALL_0003,140;ZJ_NL_0008,11;ZJ_NL_0004,5" CutTimeCost="20" SmallImage="icon\\Carry\\64\\zq_bc_004.png" Hours="1,2,3,4" MarkNpcID="BGskill_46210" BGCost="400" ModelCoe="1.2"/>
+	<Property ID="12" Type="3" StatsID="12" CarrierNpcID="land_qhl_001_1" RideCarCost="40" RepairHPCost="1000" RepairMPcost="1000" Time="21,00" StoreMaterial="ZJ_ZL_0003,700;ZJ_ZL_0004,700;ZJ_ALL_0002,280;ZJ_NL_0008,21;ZJ_NL_0004,9" CutTimeCost="40" SmallImage="icon\\Carry\\64\\qh_bc_017_1.png" Hours="1,2,3,4" MarkNpcID="BGskill_46211" BGCost="800" ModelCoe="0.9"/>
+	<Property ID="13" Type="1" StatsID="13" CarrierNpcID="air_qhs_001_1" RideCarCost="10" RepairHPCost="1000" RepairMPcost="1000" Time="5,15" StoreMaterial="ZJ_ZL_0005,70;ZJ_ZL_0006,70;ZJ_ALL_0003,70;ZJ_NL_0008,6;ZJ_NL_0004,3" CutTimeCost="10" SmallImage="icon\\Carry\\64\\qh_bc_022_1.png" Hours="1,2,3,4" MarkNpcID="BGskill_46211" BGCost="200" ModelCoe="1.2"/>
+	<Property ID="14" Type="2" StatsID="14" CarrierNpcID="air_qhm_001_1" RideCarCost="20" RepairHPCost="1000" RepairMPcost="1000" Time="10,30" StoreMaterial="ZJ_ZL_0005,140;ZJ_ZL_0006,140;ZJ_ALL_0003,140;ZJ_NL_0008,11;ZJ_NL_0004,5" CutTimeCost="20" SmallImage="icon\\Carry\\64\\qh_bc_020_1.png" Hours="1,2,3,4" MarkNpcID="BGskill_46211" BGCost="400" ModelCoe="1.1"/>
+</Object>

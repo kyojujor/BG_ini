@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+	<!--ShowNormalTime  	（单位ms）正常显示时间-->
+	<!--ShowHideTime  		（单位ms）渐隐时间，在过正常显示时间后，开始渐隐，ShowHideTime后渐隐至透明，消失-->
+	<Property ID="1" ShowNormalTime="2000" ShowHideTime="1000"/>
+</Object>

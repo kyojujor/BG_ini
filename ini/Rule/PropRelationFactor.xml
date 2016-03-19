@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+	<!--二级属性由基础属性影响的系数 根据不同职业 相关属性和系数不同
+1=仲裁者；2=蒸汽学徒；3=秘法师；4=麦克骑士；5=野性守护者；6=猎魔人；7=炼金师；8=元素法师
+21=惩罚者；22=神枪手；23=执行者
+24=器械师；25=构造师；26=异教徒
+27=咒术师；28=黑暗祭师；29=女巫
+30=泰坦骑士	；31=风暴骑士；32=破碎骑士
+33=熊人	；34=蛮牛人；35=狼人
+36=刀锋战士	；37=狩猎者；38=魔剑士
+39=炼器师；40=医师；41=变能师
+42=圣殿法师；43=平衡法师；44=流浪法师
+
+Str   力量...
+Dex   敏捷...
+Ing   智力...
+Spi   精神...
+Sta   体质...
+Esth  感知...    
+    -->
+	<Property ID="MaxHP" Job_0="Str,9|Sta,25.6" Job_1="Str,9|Sta,25.6" Job_3="Str,5|Sta,18" Job_6="Str,9|Sta,25.6" Job_8="Str,5|Sta,18" Job_21="Str,9|Sta,25.6" Job_22="Str,9|Sta,20" Job_23="Str,9|Sta,20" Job_27="Str,5|Sta,18" Job_28="Str,5|Sta,18" Job_29="Str,5|Sta,18" Job_36="Str,9|Sta,25.6" Job_37="Str,9|Sta,20" Job_38="Str,5|Sta,20" Job_42="Str,5|Sta,18" Job_43="Str,5|Sta,18" Job_44="Str,5|Sta,18"/>
+	<Property ID="MaxMP" Job_0="Ing,9.2" Job_1="Ing,9.2" Job_3="Ing,9.2" Job_6="Ing,9.2" Job_8="Ing,9.2" Job_21="Ing,9.2" Job_22="Ing,9.2" Job_23="Ing,9.2" Job_27="Ing,9.2" Job_28="Ing,9.2" Job_29="Ing,9.2" Job_36="Ing,9.2" Job_37="Ing,9.2" Job_38="Ing,9.2" Job_42="Ing,9.2" Job_43="Ing,9.2" Job_44="Ing,9.2"/>
+	<Property ID="MaxEY"/>
+	<Property ID="HPUpSpeed" Job_0="Str,0.02|Sta,0.09" Job_1="Str,0.02|Sta,0.09" Job_3="Str,0.02|Sta,0.09" Job_6="Str,0.02|Sta,0.09" Job_8="Str,0.02|Sta,0.09" Job_21="Str,0.02|Sta,0.09" Job_22="Str,0.02|Sta,0.09" Job_23="Str,0.02|Sta,0.09" Job_27="Str,0.02|Sta,0.09" Job_28="Str,0.02|Sta,0.09" Job_29="Str,0.02|Sta,0.09" Job_36="Str,0.02|Sta,0.09" Job_37="Str,0.02|Sta,0.09" Job_38="Str,0.02|Sta,0.09" Job_42="Str,0.02|Sta,0.09" Job_43="Str,0.02|Sta,0.09" Job_44="Str,0.02|Sta,0.09"/>
+	<Property ID="MPUpSpeed" Job_0="Spi,0.25" Job_1="Spi,0.25" Job_3="Spi,0.25" Job_6="Spi,0.25" Job_8="Spi,0.25" Job_21="Spi,0.25" Job_22="Spi,0.25" Job_23="Spi,0.25" Job_27="Spi,0.25" Job_28="Spi,0.25" Job_29="Spi,0.25" Job_36="Spi,0.25" Job_37="Spi,0.25" Job_38="Spi,0.25" Job_42="Spi,0.25" Job_43="Spi,0.25" Job_44="Spi,0.25"/>
+	<Property ID="EYUpSpeed"/>
+	<Property ID="DodgeLevel" Job_0="Dex,0.25|Esth,0.03125" Job_1="Dex,0.25|Esth,0.03125" Job_3="Dex,0.25|Esth,0.03125" Job_6="Dex,0.25|Esth,0.03125" Job_8="Dex,0.25|Esth,0.03125" Job_21="Dex,0.25|Esth,0.03125" Job_22="Dex,0.25|Esth,0.03125" Job_23="Dex,0.25|Esth,0.03125" Job_27="Dex,0.25|Esth,0.03125" Job_28="Dex,0.25|Esth,0.03125" Job_29="Dex,0.25|Esth,0.03125" Job_36="Dex,0.25|Esth,0.03125" Job_37="Dex,0.25|Esth,0.03125" Job_38="Dex,0.25|Esth,0.03125" Job_42="Dex,0.25|Esth,0.03125" Job_43="Dex,0.25|Esth,0.03125" Job_44="Dex,0.25|Esth,0.03125"/>
+	<Property ID="CritLevel" Job_0="Dex,0.2|Esth,0.03125" Job_1="Dex,0.2|Esth,0.03125" Job_3="Dex,0.2|Esth,0.03125" Job_6="Dex,0.2|Esth,0.03125" Job_8="Dex,0.2|Esth,0.03125" Job_21="Dex,0.2|Esth,0.03125" Job_22="Dex,0.2|Esth,0.03125" Job_23="Dex,0.2|Esth,0.03125" Job_27="Dex,0.2|Esth,0.03125" Job_28="Dex,0.2|Esth,0.03125" Job_29="Dex,0.2|Esth,0.03125" Job_36="Dex,0.2|Esth,0.03125" Job_37="Dex,0.2|Esth,0.03125" Job_38="Dex,0.2|Esth,0.03125" Job_42="Dex,0.2|Esth,0.03125" Job_43="Dex,0.2|Esth,0.03125" Job_44="Dex,0.2|Esth,0.03125"/>
+	<Property ID="AccurateLevel" Job_0="Dex,0.25|Esth,0.03125" Job_1="Dex,0.25|Esth,0.03125" Job_3="Dex,0.25|Esth,0.03125" Job_6="Dex,0.25|Esth,0.03125" Job_8="Dex,0.25|Esth,0.03125" Job_21="Dex,0.25|Esth,0.03125" Job_22="Dex,0.25|Esth,0.03125" Job_23="Dex,0.25|Esth,0.03125" Job_27="Dex,0.25|Esth,0.03125" Job_28="Dex,0.25|Esth,0.03125" Job_29="Dex,0.25|Esth,0.03125" Job_36="Dex,0.25|Esth,0.03125" Job_37="Dex,0.25|Esth,0.03125" Job_38="Dex,0.25|Esth,0.03125" Job_42="Dex,0.25|Esth,0.03125" Job_43="Dex,0.25|Esth,0.03125" Job_44="Dex,0.25|Esth,0.03125"/>
+	<Property ID="MagdodgeLevel" Job_0="Dex,0.03125|Esth,0.25" Job_1="Dex,0.03125|Esth,0.25" Job_3="Dex,0.03125|Esth,0.25" Job_6="Dex,0.03125|Esth,0.25" Job_8="Dex,0.03125|Esth,0.25" Job_21="Dex,0.03125|Esth,0.25" Job_22="Dex,0.03125|Esth,0.25" Job_23="Dex,0.03125|Esth,0.25" Job_27="Dex,0.03125|Esth,0.25" Job_28="Dex,0.03125|Esth,0.25" Job_29="Dex,0.03125|Esth,0.25" Job_36="Dex,0.03125|Esth,0.25" Job_37="Dex,0.03125|Esth,0.25" Job_38="Dex,0.03125|Esth,0.25" Job_42="Dex,0.03125|Esth,0.25" Job_43="Dex,0.03125|Esth,0.25" Job_44="Dex,0.03125|Esth,0.25"/>
+	<Property ID="MagCritLevel" Job_0="Dex,0.03125|Esth,0.2" Job_1="Dex,0.03125|Esth,0.2" Job_3="Dex,0.03125|Esth,0.2" Job_6="Dex,0.03125|Esth,0.2" Job_8="Dex,0.03125|Esth,0.2" Job_21="Dex,0.03125|Esth,0.2" Job_22="Dex,0.03125|Esth,0.2" Job_23="Dex,0.03125|Esth,0.2" Job_27="Dex,0.03125|Esth,0.2" Job_28="Dex,0.03125|Esth,0.2" Job_29="Dex,0.03125|Esth,0.2" Job_36="Dex,0.03125|Esth,0.2" Job_37="Dex,0.03125|Esth,0.2" Job_38="Dex,0.03125|Esth,0.2" Job_42="Dex,0.03125|Esth,0.2" Job_43="Dex,0.03125|Esth,0.2" Job_44="Dex,0.03125|Esth,0.2"/>
+	<Property ID="MagPrecLevel" Job_0="Dex,0.03125|Esth,0.25" Job_1="Dex,0.03125|Esth,0.25" Job_3="Dex,0.03125|Esth,0.25" Job_6="Dex,0.03125|Esth,0.25" Job_8="Dex,0.03125|Esth,0.25" Job_21="Dex,0.03125|Esth,0.25" Job_22="Dex,0.03125|Esth,0.25" Job_23="Dex,0.03125|Esth,0.25" Job_27="Dex,0.03125|Esth,0.25" Job_28="Dex,0.03125|Esth,0.25" Job_29="Dex,0.03125|Esth,0.25" Job_36="Dex,0.03125|Esth,0.25" Job_37="Dex,0.03125|Esth,0.25" Job_38="Dex,0.03125|Esth,0.25" Job_42="Dex,0.03125|Esth,0.25" Job_43="Dex,0.03125|Esth,0.25" Job_44="Dex,0.03125|Esth,0.25"/>
+	<Property ID="AllResist" Job_0="Ing,0.01|Spi,5.24" Job_1="Ing,0.01|Spi,5.24" Job_3="Ing,0.01|Spi,10.5" Job_6="Ing,0.01|Spi,5.24" Job_8="Ing,0.01|Spi,10.5" Job_21="Ing,0.01|Spi,5.24" Job_22="Ing,0.01|Spi,5.24" Job_23="Ing,0.01|Spi,5.24" Job_27="Ing,0.01|Spi,10.5" Job_28="Ing,0.01|Spi,10.5" Job_29="Ing,0.01|Spi,10.5" Job_36="Ing,0.01|Spi,5.24" Job_37="Ing,0.01|Spi,5.24" Job_38="Ing,0.01|Spi,10.5" Job_42="Ing,0.01|Spi,10.5" Job_43="Ing,0.01|Spi,10.5" Job_44="Ing,0.01|Spi,10.5"/>
+	<Property ID="ElementDeepenLevel"/>
+	<Property ID="ElementResistLevel"/>
+	<Property ID="IntensityPhyAttack" Job_0="Str,1|Sta,0.3|Dex,0.2" Job_1="Str,1|Sta,0.3|Dex,0.2" Job_6="Str,1|Sta,0.3|Dex,0.2" Job_21="Str,1|Sta,0.3|Dex,0.2" Job_22="Str,0.3|Sta,0.2|Dex,1" Job_23="Str,0.3|Sta,0.2|Dex,1" Job_36="Str,1|Sta,0.3|Dex,0.2" Job_37="Str,0.3|Sta,0.2|Dex,1" Job_38="Str,1|Sta,0.3|Dex,0.2"/>
+	<Property ID="IntensityMagicAttack" Job_3="Ing,0.25|Spi,0.25|Esth,1" Job_8="Ing,0.25|Spi,0.25|Esth,1" Job_27="Ing,0.25|Spi,0.25|Esth,1" Job_28="Ing,1|Spi,0.25|Esth,0.25" Job_29="Ing,0.25|Spi,1|Esth,0.25" Job_38="Ing,1|Spi,0.25|Esth,0.25" Job_42="Ing,0.25|Spi,0.25|Esth,1" Job_43="Ing,0.25|Spi,1|Esth,0.25" Job_44="Ing,1|Spi,0.25|Esth,0.25"/>
+</Object>

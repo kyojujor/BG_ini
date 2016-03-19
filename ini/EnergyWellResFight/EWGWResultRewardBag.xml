@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<Object>
+	<!--(胜方 or 败方奖励道具包)
+item_reward:			道具ID,数量;道具ID,数量;
+pvp_point_reward: PVP点数
+exp_reward:				经验奖励
+money_reward:			金钱奖励
+
+-->
+	<Property ID="2" item_reward="" pvp_point_reward="40" exp_reward="54000" money_reward="192000"/>
+	<Property ID="3" item_reward="" pvp_point_reward="20" exp_reward="27000" money_reward="96000"/>
+</Object>

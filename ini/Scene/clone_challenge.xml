@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 
+
+ID  副本ID
+
+以下字段读取clone_challenge_reward.xml表中数据，配置奖励包ID；
+
+EasyMode    波次数量
+ 
+HardMode    波次数量
+
+HeroMode    英雄模式，波次数量
+
+HeroicMode  史诗模式，波次数量
+ -->
+<Object>
+	<Property ID="101" EasyMode="1,30" HardMode="2,20" />
+</Object>

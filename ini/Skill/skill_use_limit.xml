@@ -1,0 +1,1431 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<Object>
+	<Property ID="1" Name="剑" UseLimitType="0" Param1="ItemType" Param2="101" Param3="=="/>
+	<Property ID="2" Name="匕首" UseLimitType="0" Param1="ItemType" Param2="102" Param3="=="/>
+	<Property ID="3" Name="锤" UseLimitType="0" Param1="ItemType" Param2="103" Param3="=="/>
+	<Property ID="4" Name="斧" UseLimitType="0" Param1="ItemType" Param2="104" Param3="=="/>
+	<Property ID="5" Name="水晶球" UseLimitType="0" Param1="ItemType" Param2="105" Param3="=="/>
+	<Property ID="6" Name="长柄武器" UseLimitType="0" Param1="ItemType" Param2="106" Param3="=="/>
+	<Property ID="7" Name="盾" UseLimitType="0" Param1="ItemType" Param2="107" Param3="=="/>
+	<Property ID="8" Name="魔棒" UseLimitType="0" Param1="ItemType" Param2="108" Param3="=="/>
+	<Property ID="9" Name="弓" UseLimitType="0" Param1="ItemType" Param2="109" Param3="=="/>
+	<Property ID="10" Name="弩" UseLimitType="0" Param1="ItemType" Param2="110" Param3="=="/>
+	<Property ID="11" Name="投掷" UseLimitType="0" Param1="ItemType" Param2="111" Param3="=="/>
+	<Property ID="12" Name="标枪" UseLimitType="0" Param1="ItemType" Param2="112" Param3="=="/>
+	<Property ID="13" Name="枪刃" UseLimitType="0" Param1="ItemType" Param2="113" Param3="=="/>
+	<Property ID="14" Name="手枪" UseLimitType="0" Param1="ItemType" Param2="114" Param3="=="/>
+	<Property ID="15" Name="枪" UseLimitType="0" Param1="ItemType" Param2="115" Param3="=="/>
+	<Property ID="16" Name="飞斧" UseLimitType="0" Param1="ItemType" Param2="116" Param3="=="/>
+	<Property ID="17" Name="铜棍" UseLimitType="0" Param1="ItemType" Param2="117" Param3="=="/>
+	<Property ID="18" Name="法杖" UseLimitType="0" Param1="ItemType" Param2="118" Param3="=="/>
+	<Property ID="19" Name="飞刀" UseLimitType="0" Param1="ItemType" Param2="119" Param3="=="/>
+	<Property ID="20" Name="魔法口袋" UseLimitType="0" Param1="ItemType" Param2="120" Param3="=="/>
+	<Property ID="21" Name="扳手" UseLimitType="0" Param1="ItemType" Param2="121" Param3="=="/>
+	<Property ID="22" Name="能量球" UseLimitType="0" Param1="ItemType" Param2="122" Param3="=="/>
+	<Property ID="23" Name="图腾" UseLimitType="0" Param1="ItemType" Param2="123" Param3="=="/>
+	<Property ID="24" Name="魔瓶" UseLimitType="0" Param1="ItemType" Param2="124" Param3="=="/>
+	<Property ID="25" Name="蒸馏器" UseLimitType="0" Param1="ItemType" Param2="125" Param3="=="/>
+	<Property ID="26" Name="双刃剑" UseLimitType="0" Param1="ItemType" Param2="126" Param3="=="/>
+	<Property ID="27" UseLimitType="1" Param1="LogicState" Param2="1" Param3="!="/>
+	<Property ID="28" UseLimitType="1" Param1="Mount" Param2="1" Param3="!="/>
+	<Property ID="29" Name="UseLimitComment29" UseLimitType="1" Param1="Level" Param2="10" Param3="&amp;amp;gt;="/>
+	<Property ID="30" Name="UseLimitComment30" UseLimitType="1" Param1="MaxHP" Param2="10000" Param3="&amp;amp;gt;="/>
+	<Property ID="31" Name="UseLimitComment31" UseLimitType="4" Param1="6" Param2="300,1586,-921,100" Param3="=="/>
+	<Property ID="20459" Name="UseLimitComment_20459" UseLimitType="3" Param1="ConfigID" Param2="npc_zlm002_0004" Param3="=="/>
+	<Property ID="20460" Name="UseLimitComment_20460" UseLimitType="4" Param1="6" Param2="510021" Param3="=="/>
+	<Property ID="20461" Name="UseLimitComment_20461" UseLimitType="3" Param1="ConfigID" Param2="Organ_zlm002_002" Param3="=="/>
+	<Property ID="20486" UseLimitType="3" Param1="ConfigID" Param2="Organ_zlm007_001" Param3="=="/>
+	<Property ID="20487" UseLimitType="3" Param1="ConfigID" Param2="npc_zlm008_0084" Param3="=="/>
+	<Property ID="20488" UseLimitType="3" Param1="ConfigID" Param2="npc_zlm008_0085" Param3="=="/>
+	<Property ID="20489" UseLimitType="3" Param1="ConfigID" Param2="npc_zlm008_0085" Param3="=="/>
+	<Property ID="20491" UseLimitType="3" Param1="ConfigID" Param2="npc_zlm008_0088" Param3="=="/>
+	<Property ID="20492" UseLimitType="3" Param1="ConfigID" Param2="npc_zlm008_0109 npc_zlm008_0110" Param3="=="/>
+	<Property ID="20493" UseLimitType="3" Param1="ConfigID" Param2="npc_zlm008_0109 npc_zlm008_0110" Param3="=="/>
+	<Property ID="20494" UseLimitType="3" Param1="ConfigID" Param2="npc_zlm008_0109 npc_zlm008_0110" Param3="=="/>
+	<Property ID="20495" UseLimitType="3" Param1="ConfigID" Param2="npc_zlm008_0109 npc_zlm008_0110" Param3="=="/>
+	<Property ID="20496" UseLimitType="3" Param1="ConfigID" Param2="npc_zlm008_0109 npc_zlm008_0110" Param3="=="/>
+	<Property ID="20497" UseLimitType="3" Param1="ConfigID" Param2="Organ_zlm008_001" Param3="=="/>
+	<Property ID="20499" UseLimitType="3" Param1="ConfigID" Param2="Organ_zlm006_001" Param3="=="/>
+	<Property ID="20490" UseLimitType="4" Param1="6" Param2="81100000" Param3="=="/>
+	<Property ID="32" Name="3连招" UseLimitType="1" Param1="DVActive" Param2="3" Param3="=="/>
+	<Property ID="33" Name="6连招" UseLimitType="1" Param1="DVActive" Param2="6" Param3="=="/>
+	<Property ID="34" Name="9连招" UseLimitType="1" Param1="DVActive" Param2="9" Param3="=="/>
+	<Property ID="60158" Name="UseLimitComment_60158" UseLimitType="1" Param1="MAXHP" Param2="0.25" Param3="&lt;="/>
+	<Property ID="35" Name="枪手handgun" UseLimitType="1" Param1="GunManWeapon" Param2="Pistol" Param3="=="/>
+	<Property ID="36" Name="枪手gun" UseLimitType="1" Param1="GunManWeapon" Param2="Gun" Param3="=="/>
+	<Property ID="37" Name="枪手" UseLimitType="1" Param1="GunMan" Param2="1" Param3="=="/>
+	<Property ID="20551" Name="医疗剂" UseLimitType="3" Param1="ConfigID" Param2="npc_zlm011_0123" Param3="=="/>
+	<Property ID="20553" Name="医疗剂" UseLimitType="3" Param1="ConfigID" Param2="npc_zlm011_0124"/>
+	<Property ID="20554" Name="炸弹" UseLimitType="4" Param1="6" Param2="071000000"/>
+	<Property ID="20555" Name="炸弹" UseLimitType="4" Param1="6" Param2="071100000"/>
+	<Property ID="20556" Name="被祝福的宝石" UseLimitType="3" Param1="ConfigID" Param2="npc_zlm011_0122"/>
+	<Property ID="20557" Name="祭品" UseLimitType="4" Param1="6" Param2="071400000"/>
+	<Property ID="20558" Name="陷阱" UseLimitType="4" Param1="6" Param2="110400000"/>
+	<Property ID="20559" Name="源机构勋章" UseLimitType="3" Param1="ConfigID" Param2="npc_zlm015_0079"/>
+	<Property ID="20560" Name="提莫" UseLimitType="3" Param1="ConfigID" Param2="Organ_zlm015_001"/>
+	<Property ID="20561" Name="数据测量仪" UseLimitType="4" Param1="6" Param2="261100000"/>
+	<Property ID="205612" Name="数据测量仪" UseLimitType="4" Param1="6" Param2="260700000"/>
+	<Property ID="205613" Name="数据测量仪" UseLimitType="4" Param1="6" Param2="260500000"/>
+	<Property ID="20562" Name="绷带" UseLimitType="3" Param1="ConfigID" Param2="npc_zlm015_0080"/>
+	<Property ID="30042" Name="UseLimitComment_30042" UseLimitType="3" Param1="ConfigID" Param2="npc_zqm001_0126" Param3="=="/>
+	<Property ID="30038" Name="UseLimitComment_30038" UseLimitType="3" Param1="ConfigID" Param2="monster_zqm001_0041" Param3="=="/>
+	<Property ID="20116" Name="野性狼魂" UseLimitType="0" Param1="ItemType" Param2="137" Param3="=="/>
+	<Property ID="20636" Name="UseLimitComment_20636" UseLimitType="1" Param1="Job" Param2="22" Param3="=="/>
+	<Property ID="20637" Name="UseLimitComment_20637" UseLimitType="1" Param1="GunMan" Param2="1" Param3="=="/>
+	<Property ID="60263" Name="UseLimitComment_60263"/>
+	<Property ID="39" Name="UseLimitComment_39" UseLimitType="5" Param1="ConfigID" Param2="Fight_Wb0006_Buff01_01" Param3="=="/>
+	<Property ID="49101" Name="UseLimitComment_49101" UseLimitType="1" Param1="MH" Param2="0" Param3="&gt;="/>
+	<Property ID="491012" Name="UseLimitComment_491012" UseLimitType="1" Param1="MH" Param2="5" Param3="&lt;"/>
+	<Property ID="491013" Name="UseLimitComment_491013" UseLimitType="1" Param1="MH" Param2="5" Param3="&gt;="/>
+	<Property ID="491014" Name="UseLimitComment_491014" UseLimitType="1" Param1="MH" Param2="10" Param3="&lt;"/>
+	<Property ID="491015" Name="UseLimitComment_491015" UseLimitType="1" Param1="MH" Param2="10" Param3="&gt;="/>
+	<Property ID="49110" UseLimitType="1" Param1="MH" Param2="2" Param3="&gt;="/>
+	<Property ID="49111" Name="医师药粉相关技能限制条件,检测技能目标和自身花粉绑定目标是否一致" UseLimitType="10"/>
+	<Property ID="91029" UseLimitType="3" Param1="ConfigID" Param2="BannerNpc_0002 " Param3="=="/>
+	<Property ID="40" Name="巫毒药粉有且只有1个" UseLimitType="1" Param1="WuDu" Param2="1" Param3="=="/>
+	<Property ID="41" Name="花蛊药粉有且只有1个" UseLimitType="1" Param1="HuaGu" Param2="1" Param3="=="/>
+	<Property ID="42" Name="精灵药粉有且只有1个" UseLimitType="1" Param1="JingLing" Param2="1" Param3="=="/>
+	<Property ID="43" Name="巫毒药粉有且只有2个" UseLimitType="1" Param1="WuDu" Param2="2" Param3="=="/>
+	<Property ID="44" Name="花蛊药粉有且只有2个" UseLimitType="1" Param1="HuaGu" Param2="2" Param3="=="/>
+	<Property ID="45" Name="精灵药粉有且只有2个" UseLimitType="1" Param1="JingLing" Param2="2" Param3="=="/>
+	<Property ID="46" Name="巫毒药粉有且只有3个" UseLimitType="1" Param1="WuDu" Param2="3" Param3="=="/>
+	<Property ID="47" Name="花蛊药粉有且只有3个" UseLimitType="1" Param1="HuaGu" Param2="3" Param3="=="/>
+	<Property ID="48" Name="精灵药粉有且只有3个" UseLimitType="1" Param1="JingLing" Param2="3" Param3="=="/>
+	<Property ID="49" Name="巫毒药粉有或者多余1个" UseLimitType="1" Param1="WuDu" Param2="1" Param3="&gt;="/>
+	<Property ID="50" Name="花蛊药粉有或者多余1个" UseLimitType="1" Param1="HuaGu" Param2="1" Param3="&gt;="/>
+	<Property ID="51" Name="精灵药粉有或者多余1个" UseLimitType="1" Param1="JingLing" Param2="1" Param3="&gt;="/>
+	<Property ID="52" Name="巫毒药粉有或者多余2个" UseLimitType="1" Param1="WuDu" Param2="2" Param3="&gt;="/>
+	<Property ID="53" Name="花蛊药粉有或者多余2个" UseLimitType="1" Param1="HuaGu" Param2="2" Param3="&gt;="/>
+	<Property ID="54" Name="精灵药粉有或者多余2个" UseLimitType="1" Param1="JingLing" Param2="2" Param3="&gt;="/>
+	<Property ID="55" Name="熊人处于愤怒状态" UseLimitType="1" Param1="BFightMd" Param2="0" Param3="=="/>
+	<Property ID="56" Name="熊人处于壁垒状态" UseLimitType="1" Param1="BFightMd" Param2="1" Param3="=="/>
+	<Property ID="91030"/>
+	<Property ID="50315"/>
+	<Property ID="20759" Name="UseLimitComment_20759" UseLimitType="3" Param1="ConfigID" Param2="monster_qhS002_0001" Param3="=="/>
+	<Property ID="20760" Name="UseLimitComment_20760" UseLimitType="3" Param1="ConfigID" Param2="monster_qhS002_0002" Param3="=="/>
+	<Property ID="20762" Name="UseLimitComment_20762" UseLimitType="3" Param1="ConfigID" Param2="monster_zqS001_0001" Param3="=="/>
+	<Property ID="20751" Name="UseLimitComment_20751" UseLimitType="3" Param1="ConfigID" Param2="monster_qhS002_0001" Param3="=="/>
+	<Property ID="207512" Name="UseLimitComment_20751" UseLimitType="3" Param1="ConfigID" Param2="monster_qhS002_0001" Param3="=="/>
+	<Property ID="20765" Name="UseLimitComment_20765" UseLimitType="1" Param1="MaxHPRatio" Param2="50" Param3="&lt;="/>
+	<Property ID="20781" Name="UseLimitComment_20781" UseLimitType="3" Param1="ConfigID" Param2="npc_qhm002_0122" Param3="=="/>
+	<Property ID="207812" Name="UseLimitComment_207812" UseLimitType="3" Param1="ConfigID" Param2="npc_qhm002_0049" Param3="=="/>
+	<Property ID="207813" Name="UseLimitComment_207813" UseLimitType="3" Param1="ConfigID" Param2="npc_qhm002_0050" Param3="=="/>
+	<Property ID="20783" Name="UseLimitComment_20783" UseLimitType="5" Param1="ConfigID" Param2="Fight_In0016_Buff01_01" Param3="=="/>
+	<Property ID="207832" Name="UseLimitComment_207832" UseLimitType="5" Param1="ConfigID" Param2="Fight_In0017_01" Param3="=="/>
+	<Property ID="20440" Name="UseLimitComment_20440" UseLimitType="5" Param1="ConfigID" Param2="Fight_In0017_Buff01_01" Param3="=="/>
+	<Property ID="204402" Name="UseLimitComment_204402" UseLimitType="5" Param1="ConfigID" Param2="Fight_In0012_Buff01_01" Param3="=="/>
+	<Property ID="40117" Name="UseLimitComment_40117" UseLimitType="6" Param1="ConfigID" Param2="Fight_Ex0015_Buff01_01" Param3="=="/>
+	<Property ID="40118" Name="UseLimitComment_40118" UseLimitType="6" Param1="ConfigID" Param2="Fight_Ex0016_Buff01_01" Param3="=="/>
+	<Property ID="20001" Name="UseLimitComment_20001" UseLimitType="5" Param1="ConfigID" Param2="Fight_In0011_Buff01_01" Param3="=="/>
+	<Property ID="20002" Name="UseLimitComment_200012" UseLimitType="5" Param1="ConfigID" Param2="Fight_In0013_Buff01_01" Param3="=="/>
+	<Property ID="20003" Name="UseLimitComment_20003" UseLimitType="5" Param1="ConfigID" Param2="Fight_In0010_Buff01_01" Param3="=="/>
+	<Property ID="20004" Name="UseLimitComment_20004" UseLimitType="5" Param1="ConfigID" Param2="Fight_In0012_Buff01_01" Param3="=="/>
+	<Property ID="20005" Name="UseLimitComment_20005" UseLimitType="5" Param1="ConfigID" Param2="Fight_In0016_Buff01_01" Param3="=="/>
+	<Property ID="20006" Name="UseLimitComment_20006" UseLimitType="5" Param1="ConfigID" Param2="Fight_In0017_Buff01_01" Param3="=="/>
+	<Property ID="20791" Name="UseLimitComment_20791" UseLimitType="3" Param1="ConfigID" Param2="npc_zqm001_0103" Param3="=="/>
+	<Property ID="20794" Name="UseLimitComment_20794" UseLimitType="5" Param1="ConfigID" Param2="Monster_Npc0415_Buff01_01" Param3="=="/>
+	<Property ID="20795" Name="UseLimitComment_20795" UseLimitType="5" Param1="ConfigID" Param2="Monster_Npc0416_Buff01_01" Param3="=="/>
+	<Property ID="20793" Name="UseLimitComment_20793" UseLimitType="3" Param1="ConfigID" Param2="monster_qhm002_0002" Param3="=="/>
+	<Property ID="20779" Name="UseLimitComment_20779" UseLimitType="3" Param1="ConfigID" Param2="monster_qhm002_0001" Param3="=="/>
+	<Property ID="20758" Name="UseLimitComment_20758" UseLimitType="3" Param1="ConfigID" Param2="monster_qhS002_0002" Param3="=="/>
+	<Property ID="20820" Name="UseLimitComment_20820" UseLimitType="1" Param1="WeaponNimbus1" Param2="1" Param3="&gt;="/>
+	<Property ID="60261" UseLimitType="1" Param1="HP" Param2="300" Param3="&lt;"/>
+	<Property ID="802912" UseLimitType="1" Param1="HP" Param2="150" Param3="&lt;"/>
+	<Property ID="20050" Name="UseLimitComment_20050" UseLimitType="10" Param1="1"/>
+	<Property ID="20843" UseLimitType="3" Param1="ConfigID" Param2="npc_zqm005_0094" Param3="=="/>
+	<Property ID="20844" UseLimitType="3" Param1="ConfigID" Param2="npc_zqm005_0096" Param3="=="/>
+	<Property ID="20845" UseLimitType="3" Param1="ConfigID" Param2="npc_zqm005_0097" Param3="=="/>
+	<Property ID="20848" UseLimitType="3" Param1="ConfigID" Param2="npc_zqm005_0098" Param3="=="/>
+	<Property ID="20849" UseLimitType="3" Param1="ConfigID" Param2="monster_zqm005_0035" Param3="=="/>
+	<Property ID="20850" UseLimitType="3" Param1="ConfigID" Param2="npc_zqm005_0027" Param3="=="/>
+	<Property ID="20852" UseLimitType="3" Param1="ConfigID" Param2="npc_zqm005_0095" Param3="=="/>
+	<Property ID="201171" Name="UseLimitComment_201171" UseLimitType="5" Param1="ConfigID" Param2="Fight_Tt0002_Buff01_01" Param3="=="/>
+	<Property ID="201172" Name="UseLimitComment_201172" UseLimitType="5" Param1="ConfigID" Param2="Fight_Tt0002_Buff01_01" Param3="!="/>
+	<Property ID="20898" Name="UseLimitComment_20898" UseLimitType="3" Param1="ConfigID" Param2="monster_zqS005_0004" Param3="=="/>
+	<Property ID="20821" UseLimitType="1" Param1="RFC" Param2="3" Param3="&lt;"/>
+	<Property ID="31115" UseLimitType="1" Param1="RoleHide" Param2="1" Param3="=="/>
+	<Property ID="31117" Name="隐身" UseLimitType="1" Param1="RoleHide" Param2="1" Param3="=="/>
+	<Property ID="31118" UseLimitType="1" Param1="RoleHide=1"/>
+	<Property ID="31119" UseLimitType="1"/>
+	<Property ID="31801" Name="UseLimitComment_31801" UseLimitType="3" Param1="HP" Param2="1" Param3="&lt;"/>
+	<Property ID="31811" Name="UseLimitComment_31811" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ri1810_01_1" Param3="=="/>
+	<Property ID="31101" Name="UseLimitComment_31101" UseLimitType="1" Param1="LogicState" Param2="1" Param3="!="/>
+	<Property ID="32712" UseLimitType="8" Param2="0.3" Param3="==" Name="30%的概率触发"/>
+	<Property ID="3160011" Name="苍穹魔咒存在1" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ch1609_01_1" Param3="=="/>
+	<Property ID="31608" Name="阴风刺骨暴击加成" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ch1609_01_1" Param3="=="/>
+	<Property ID="31614" Name="咒灵回归吸血" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ch1609_01_1" Param3="=="/>
+	<Property ID="127" Name="武器装备：魔袋" UseLimitType="0" Param1="ItemType" Param2="127" Param3="=="/>
+	<Property ID="128" Name="武器装备：蒸馏器" UseLimitType="0" Param1="ItemType" Param2="128" Param3="=="/>
+	<Property ID="20930" Name="急速冷却仪" UseLimitType="3" Param1="ConfigID" Param2="npc_zlm010_0070" Param3="=="/>
+	<Property ID="20667" UseLimitType="6" Param1="HP" Param2="3000" Param3="&lt;="/>
+	<Property ID="31001" Name="嘲讽"/>
+	<Property ID="31002" Name="盾牌" UseLimitType="0" Param1="Itemtype" Param2="107" Param3="=="/>
+	<Property ID="329111" Name="魔法印记额外伤害" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2911_01_1" Param3="=="/>
+	<Property ID="329112" Name="魔法印记额外伤害" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2911_02_1" Param3="=="/>
+	<Property ID="329113" Name="魔法印记额外伤害" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2911_03_1" Param3="=="/>
+	<Property ID="329114" Name="魔法印记额外伤害" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2911_04_1" Param3="=="/>
+	<Property ID="329115" Name="魔法印记额外伤害" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2911_05_1" Param3="=="/>
+	<Property ID="329116" Name="魔法印记额外伤害" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2911_06_1" Param3="=="/>
+	<Property ID="329171" Name="恶魔变身额外伤害" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2917_01_2" Param3="=="/>
+	<Property ID="329172" Name="恶魔变身额外伤害" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2917_02_2" Param3="=="/>
+	<Property ID="329173" Name="恶魔变身额外伤害" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2917_03_2" Param3="=="/>
+	<Property ID="329174" Name="恶魔变身额外伤害" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2917_04_2" Param3="=="/>
+	<Property ID="329175" Name="恶魔变身额外伤害" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2917_05_2" Param3="=="/>
+	<Property ID="329176" Name="恶魔变身额外伤害" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2917_06_2" Param3="=="/>
+	<Property ID="33001" Name="剑-刀锋战士通用" UseLimitType="0" Param1="ItemType" Param2="101" Param3="=="/>
+	<Property ID="33019" Name="斩杀-额外伤害" UseLimitType="5" Param1="ConfigID" Param2="Buff_Bm3002_01_2" Param3="!="/>
+	<Property ID="50516" Name="不满血" UseLimitType="1" Param1="HPRatio" Param2="100" Param3="&lt;"/>
+	<Property ID="50517" Name="不满mp" UseLimitType="1" Param1="MPRatio" Param2="100" Param3="&lt;"/>
+	<Property ID="15665" Name="加血" UseLimitType="1" Param1="HPRatio" Param2="100" Param3="&lt;"/>
+	<Property ID="31114" Name="背刺" UseLimitType="10" Param1="1"/>
+	<Property ID="327221" UseLimitType="8" Param2="0.3" Param3="==" Name="30%的概率触发"/>
+	<Property ID="327222" UseLimitType="8" Param2="0.4" Param3="==" Name="40%的概率触发"/>
+	<Property ID="327223" UseLimitType="8" Param2="0.5" Param3="==" Name="50%的概率触发"/>
+	<Property ID="327224" UseLimitType="8" Param2="0.6" Param3="==" Name="50%的概率触发"/>
+	<Property ID="327225" UseLimitType="8" Param2="0.7" Param3="==" Name="50%的概率触发"/>
+	<Property ID="327226" UseLimitType="8" Param2="0.8" Param3="==" Name="50%的概率触发"/>
+	<Property ID="60400" Name="挑衅姿势" UseLimitType="5" Param1="ConfigID" Param2="Fight_In0017_Buff01_01" Param3="=="/>
+	<Property ID="60401" Name="盾守姿势" UseLimitType="5" Param1="ConfigID" Param2="Fight_In0016_Buff01_01" Param3="=="/>
+	<Property ID="60402" Name="蓄力姿势" UseLimitType="5" Param1="ConfigID" Param2="Fight_In0012_Buff01_01" Param3="=="/>
+	<Property ID="99035" Name="血量低于9288" UseLimitType="1" Param1="HP" Param2="9288" Param3="&lt;"/>
+	<Property ID="99033" Name="小于20000生命" UseLimitType="1" Param1="HP" Param2="20000" Param3="&lt;"/>
+	<Property ID="50532" UseLimitType="1" Param1="HPRatio" Param2="30" Param3="&lt;" Name="小于30%血"/>
+	<Property ID="31110" Name="隐杀" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ex1101_01_1" Param3="==" Type="1"/>
+	<Property ID="311031" Name="背刺" UseLimitType="11" Param1="1"/>
+	<Property ID="311102" Name="隐杀" Type="1" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ex1123_01_1" Param3="=="/>
+	<Property ID="31723" Name="寒冰箭" UseLimitType="6" Param1="ConfigID" Param2="Buff_Wt1723_01_1" Param3="=="/>
+	<Property ID="99643" Name="嗜血成性" Type="3" UseLimitType="3" Param1="HPRatio" Param2="30" Param3="&lt;"/>
+	<Property ID="99608" Name="天怒洞穴AI限制释放包" UseLimitType="1" Param1="FireAttack" Param2="1" Param3="=="/>
+	<Property ID="99609" Name="天怒洞穴释放限制" UseLimitType="1" Param1="HP" Param2="0" Param3="&lt;="/>
+	<Property ID="330112"/>
+	<Property ID="50545" UseLimitType="3" Param1="ConfigID" Param2="monster_qhm004_0030" Param3="=="/>
+	<Property ID="99055" Name="血量高于80%" UseLimitType="1" Param1="HPRatio" Param2="80" Param3="&gt;"/>
+	<Property ID="9905501" Name="血量低于80%" UseLimitType="1" Param1="HPRatio" Param2="80" Param3="&lt;"/>
+	<Property ID="9905502" Name="血量高于50%" UseLimitType="1" Param1="HPRatio" Param2="50" Param3="&gt;"/>
+	<Property ID="9905503" Name="血量低于50%" UseLimitType="1" Param1="HPRatio" Param2="50" Param3="&lt;"/>
+	<Property ID="318041" UseLimitType="5"/>
+	<Property ID="31719" Name="血之净化敌对" UseLimitType="11" Param1="1"/>
+	<Property ID="317192" Name="血之净化友方" UseLimitType="11" Param1="2"/>
+	<Property ID="31813" Name="击中吸血" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ri1813_01_1" Param3="=="/>
+	<Property ID="333081" Name="黑暗气息开" UseLimitType="5" Param1="ConfigID" Param2="Buff_An3308_01_1" Param3="!="/>
+	<Property ID="3330812" Name="黑暗气息关" UseLimitType="5" Param1="ConfigID" Param2="Buff_An3308_01_1" Param3="=="/>
+	<Property ID="333082" Name="黑暗气息2开" UseLimitType="5" Param1="ConfigID" Param2="Buff_An3308_02_1" Param3="!="/>
+	<Property ID="3330822" Name="黑暗气息2关" UseLimitType="5" Param1="ConfigID" Param2="Buff_An3308_02_1" Param3="=="/>
+	<Property ID="333083" Name="黑暗气息3开" UseLimitType="5" Param1="ConfigID" Param2="Buff_An3308_03_1" Param3="!="/>
+	<Property ID="3330832" Name="黑暗气息3关" UseLimitType="5" Param1="ConfigID" Param2="Buff_An3308_03_1" Param3="=="/>
+	<Property ID="333084" Name="黑暗气息4开" UseLimitType="5" Param1="ConfigID" Param2="Buff_An3308_04_1" Param3="!="/>
+	<Property ID="3330842" Name="黑暗气息4关" UseLimitType="5" Param1="ConfigID" Param2="Buff_An3308_04_1" Param3="=="/>
+	<Property ID="333085" Name="黑暗气息5开" UseLimitType="5" Param1="ConfigID" Param2="Buff_An3308_05_1" Param3="!="/>
+	<Property ID="3330852" Name="黑暗气息5关" UseLimitType="5" Param1="ConfigID" Param2="Buff_An3308_05_1" Param3="=="/>
+	<Property ID="333086" Name="黑暗气息6开" UseLimitType="5" Param1="ConfigID" Param2="Buff_An3308_06_1" Param3="!="/>
+	<Property ID="3330862" Name="黑暗气息6关" UseLimitType="5" Param1="ConfigID" Param2="Buff_An3308_06_1" Param3="=="/>
+	<Property ID="333061" Name="伤害连锁" UseLimitType="6" Param1="configID" Param2="Buff_An3306_01_2" Param3="=="/>
+	<Property ID="318142" Name="幽鬼额外伤害限制" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ri1808_01_1" Param3="=="/>
+	<Property ID="3180161" Name="骷髅普攻额外伤害" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ri1807_01_1" Param3="=="/>
+	<Property ID="996000" UseLimitType="5" Param1="ConfigID" Param3="==" Param2="FB_TNDX_BOSS_STATE_01_01" Name="状态限制"/>
+	<Property ID="99620" UseLimitType="1" Param1="HPRatio" Param2="50" Param3="&lt;" Name="村长血量限制"/>
+	<Property ID="31705" Name="治疗链-额外治疗" UseLimitType="6" Param1="ConfigID" Param2="Skill_Wt1704_01_1" Param3="=="/>
+	<Property ID="31718" Name="天使降临-额外治疗" UseLimitType="6" Param1="ConfigID" Param2="Skill_Wt1704_01_1" Param3="=="/>
+	<Property ID="317193" Name="血之净化-伤害" UseLimitType="11" Param1="1"/>
+	<Property ID="317281" Name="洗礼-恢复" UseLimitType="11" Param1="2"/>
+	<Property ID="3172812" Name="洗礼-减速" UseLimitType="11" Param1="1"/>
+	<Property ID="99034" Name="小于13500生命" UseLimitType="1" Param1="HP" Param2="13500" Param3="&lt;"/>
+	<Property ID="318132" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ri1813_02_1" Param3="==" Name="击中吸血"/>
+	<Property ID="318133" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ri1813_03_1" Param3="==" Name="击中吸血"/>
+	<Property ID="318134" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ri1813_04_1" Param3="==" Name="击中吸血"/>
+	<Property ID="318135" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ri1813_05_1" Param3="==" Name="击中吸血"/>
+	<Property ID="318136" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ri1813_06_1" Param3="==" Name="击中吸血"/>
+	<Property ID="31806" Name="30%触发" UseLimitType="8" Param2="0.3" Param3="=="/>
+	<Property ID="3170115" Name="凝视之痛1级BUFF限制" UseLimitType="6" Param1="ConfigID" Param2="Buff_Wt1701_01_1" Param3="=="/>
+	<Property ID="3170125" Name="凝视之痛2级BUFF限制" UseLimitType="6" Param1="ConfigID" Param2="Buff_Wt1701_02_1" Param3="=="/>
+	<Property ID="3170135" Name="凝视之痛3级BUFF限制" UseLimitType="6" Param1="ConfigID" Param2="Buff_Wt1701_03_1" Param3="=="/>
+	<Property ID="3170145" Name="凝视之痛4级BUFF限制" UseLimitType="6" Param1="ConfigID" Param2="Buff_Wt1701_04_1" Param3="=="/>
+	<Property ID="3170155" Name="凝视之痛5级BUFF限制" UseLimitType="6" Param1="ConfigID" Param2="Buff_Wt1701_05_1" Param3="=="/>
+	<Property ID="3170165" Name="凝视之痛6级BUFF限制" UseLimitType="6" Param1="ConfigID" Param2="Buff_Wt1701_06_1" Param3="=="/>
+	<Property ID="317011" Name="邪恶凝视敌方" UseLimitType="11" Param1="1"/>
+	<Property ID="3170112" Name="邪恶凝视友方" UseLimitType="11" Param1="2"/>
+	<Property ID="317041" Name="巫毒敌方" UseLimitType="11" Param1="1"/>
+	<Property ID="3170412" Name="巫毒友方" UseLimitType="11" Param1="2"/>
+	<Property ID="996001" Name="状态限制" UseLimitType="5" Param1="ConfigID" Param2="FB_TNDX_BOSS_STATE_01_02" Param3="=="/>
+	<Property ID="1000022" Name="血量低于1%" UseLimitType="1" Param1="HPRatio" Param2="1" Param3="&lt;="/>
+	<Property ID="3162311" Name="魂之解放击飞限制" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ch1608_01_1" Param3="=="/>
+	<Property ID="316002" Name="咒灵不存在(通用)" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ch1609_01_1" Param3="!="/>
+	<Property ID="316003" Name="咒灵解存在(通用)" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ch1609_01_2" Param3="=="/>
+	<Property ID="33023" Name="宁死不屈" UseLimitType="1"/>
+	<Property ID="3302311" Name="宁死不屈" UseLimitType="1" Param1="HPRatio" Param2="80" Param3="&gt;="/>
+	<Property ID="3302312" Name="宁死不屈" UseLimitType="1" Param1="HPRatio" Param2="90" Param3="&lt;"/>
+	<Property ID="3302321" Name="宁死不屈" UseLimitType="1" Param1="HPRatio" Param2="70" Param3="&gt;="/>
+	<Property ID="3302391" Name="宁死不屈" UseLimitType="1" Param1="HPRatio" Param2="0" Param3="&gt;="/>
+	<Property ID="3302382" Name="宁死不屈" UseLimitType="1" Param1="HPRatio" Param2="20" Param3="&lt;"/>
+	<Property ID="3302392" Name="宁死不屈" UseLimitType="1" Param1="HPRatio" Param2="10" Param3="&lt;"/>
+	<Property ID="3302322" Name="宁死不屈" UseLimitType="1" Param1="HPRatio" Param2="80" Param3="&lt;"/>
+	<Property ID="3302331" Name="宁死不屈" UseLimitType="1" Param1="HPRatio" Param2="60" Param3="&gt;="/>
+	<Property ID="3302332" Name="宁死不屈" UseLimitType="1" Param1="HPRatio" Param2="70" Param3="&lt;"/>
+	<Property ID="3302341" Name="宁死不屈" UseLimitType="1" Param1="HPRatio" Param2="50" Param3="&gt;="/>
+	<Property ID="3302342" Name="宁死不屈" UseLimitType="1" Param1="HPRatio" Param2="60" Param3="&lt;"/>
+	<Property ID="3302351" Name="宁死不屈" UseLimitType="1" Param1="HPRatio" Param2="40" Param3="&gt;="/>
+	<Property ID="3302352" Name="宁死不屈" UseLimitType="1" Param1="HPRatio" Param2="50" Param3="&lt;"/>
+	<Property ID="3302361" Name="宁死不屈" UseLimitType="1" Param1="HPRatio" Param2="30" Param3="&gt;="/>
+	<Property ID="3302362" Name="宁死不屈" UseLimitType="1" Param1="HPRatio" Param2="40" Param3="&lt;"/>
+	<Property ID="3302371" Name="宁死不屈" UseLimitType="1" Param1="HPRatio" Param2="20" Param3="&gt;="/>
+	<Property ID="3302372" Name="宁死不屈" UseLimitType="1" Param1="HPRatio" Param2="30" Param3="&lt;"/>
+	<Property ID="3302381" Name="宁死不屈" UseLimitType="1" Param1="HPRatio" Param2="10" Param3="&gt;="/>
+	<Property ID="3162211" Name="格挡buff存在" UseLimitType="5" Param1="ConfigID" Param2="ParryMove01_Buff01_01" Param3="=="/>
+	<Property ID="99055031" Name="血量低于50%" UseLimitType="1" Param1="HPRatio" Param2="50" Param3="=&lt;"/>
+	<Property ID="96666" Name="飓风打击限制" Type="1" UseLimitType="1" Param1="HPRatio" Param2="80" Param3="&lt;="/>
+	<Property ID="3300611" Name="有喋血之刃" UseLimitType="5" Param1="ConfigID" Param2="Buff_Bm3006_01_1" Param3="=="/>
+	<Property ID="3300612" Name="关闭喋血" UseLimitType="5" Param1="ConfigID" Param2="Buff_Bm3006_01_2" Param3="!="/>
+	<Property ID="3300621" Name="有喋血之刃" UseLimitType="5" Param1="ConfigID" Param2="Buff_Bm3006_02_1" Param3="=="/>
+	<Property ID="3300622" Name="关闭喋血" UseLimitType="5" Param1="ConfigID" Param2="Buff_Bm3006_02_2" Param3="!="/>
+	<Property ID="3300631" Name="有喋血之刃" UseLimitType="5" Param1="ConfigID" Param2="Buff_Bm3006_03_1" Param3="=="/>
+	<Property ID="3300632" Name="关闭喋血" UseLimitType="5" Param1="ConfigID" Param2="Buff_Bm3006_03_2" Param3="!="/>
+	<Property ID="3300641" Name="有喋血之刃" UseLimitType="5" Param1="ConfigID" Param2="Buff_Bm3006_04_1" Param3="=="/>
+	<Property ID="3300642" Name="关闭喋血" UseLimitType="5" Param1="ConfigID" Param2="Buff_Bm3006_04_2" Param3="!="/>
+	<Property ID="3300651" Name="有喋血之刃" UseLimitType="5" Param1="ConfigID" Param2="Buff_Bm3006_05_1" Param3="=="/>
+	<Property ID="3300652" Name="关闭喋血" UseLimitType="5" Param1="ConfigID" Param2="Buff_Bm3006_05_2" Param3="!="/>
+	<Property ID="3300661" Name="有喋血之刃" UseLimitType="5" Param1="ConfigID" Param2="Buff_Bm3006_06_1" Param3="=="/>
+	<Property ID="3300662" Name="关闭喋血" UseLimitType="5" Param1="ConfigID" Param2="Buff_Bm3006_06_2" Param3="!="/>
+	<Property ID="330192" Name="击倒" UseLimitType="6" Param1="ConfigID" Param2="Buff_Bm3007_01_1" Param3="=="/>
+	<Property ID="23001" UseLimitType="3" Param1="ConfigID" Param2="npc_zqm004_0083" Param3="==" Name="特定目标"/>
+	<Property ID="333131" Name="自然之助cd" UseLimitType="5" Param1="ConfigID" Param2="Buff_An3313_01_3" Param3="!="/>
+	<Property ID="81813" Name="血量" UseLimitType="1" Param1="HPRatio" Param2="70" Param3="&lt;"/>
+	<Property ID="3286312" Name="通用流血条件" UseLimitType="6" Param1="ConfigID" Param2="Buff_Tongyong_Liuxue_01_1" Param3="=="/>
+	<Property ID="3286512" Name="狼灵" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ec2852_01_1" Param3="=="/>
+	<Property ID="3286513" Name="牛灵" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ec2851_01_1" Param3="=="/>
+	<Property ID="80607" Name="血量低于65%" UseLimitType="1" Param1="HPRatio" Param2="65" Param3="&lt;="/>
+	<Property ID="80001" Name="血量" UseLimitType="1" Param1="HPRatio" Param2="70" Param3="&lt;"/>
+	<Property ID="80002" Name="血量" UseLimitType="1" Param1="HPRatio" Param2="100" Param3="&lt;"/>
+	<Property ID="81201" Name="机械军团" UseLimitType="1" Param1="HPRatio" Param2="40" Param3="&lt;"/>
+	<Property ID="81202" Name="自爆" UseLimitType="1" Param1="HPRatio" Param2="20" Param3="&lt;"/>
+	<Property ID="3286811" Name="兽魂之箭buff" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2860_01_1" Param3="=="/>
+	<Property ID="3286821" Name="兽魂之箭buff" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2860_02_1" Param3="=="/>
+	<Property ID="3286831" Name="兽魂之箭buff" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2860_03_1" Param3="=="/>
+	<Property ID="3286841" Name="兽魂之箭buff" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2860_04_1" Param3="=="/>
+	<Property ID="3286851" Name="兽魂之箭buff" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2860_05_1" Param3="=="/>
+	<Property ID="3286861" Name="兽魂之箭buff" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2860_06_1" Param3="=="/>
+	<Property ID="3286812" Name="野性怒吼BUFF" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2861_01_2" Param3="=="/>
+	<Property ID="3286822" Name="野性怒吼BUFF" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2861_02_2" Param3="=="/>
+	<Property ID="3286832" Name="野性怒吼BUFF" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2861_03_2" Param3="=="/>
+	<Property ID="3286842" Name="野性怒吼BUFF" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2861_04_2" Param3="=="/>
+	<Property ID="3286852" Name="野性怒吼BUFF" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2861_05_2" Param3="=="/>
+	<Property ID="3286862" Name="野性怒吼BUFF" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2861_06_2" Param3="=="/>
+	<Property ID="3287011" Name="流血——印记buff" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2857_01_1" Param3="=="/>
+	<Property ID="3287021" Name="流血——印记buff" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2857_02_1" Param3="=="/>
+	<Property ID="3287031" Name="流血——印记buff" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2857_03_1" Param3="=="/>
+	<Property ID="3287041" Name="流血——印记buff" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2857_04_1" Param3="=="/>
+	<Property ID="3287051" Name="流血——印记buff" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2857_05_1" Param3="=="/>
+	<Property ID="3287061" Name="流血——印记buff" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2857_06_1" Param3="=="/>
+	<Property ID="3287012" Name="野性怒吼buff" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2861_01_2" Param3="=="/>
+	<Property ID="3287022" Name="野性怒吼buff" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2861_06_2" Param3="=="/>
+	<Property ID="3287032" Name="野性怒吼buff" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2861_03_2" Param3="=="/>
+	<Property ID="3287042" Name="野性怒吼buff" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2861_04_2" Param3="=="/>
+	<Property ID="3287052" Name="野性怒吼buff" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2861_05_2" Param3="=="/>
+	<Property ID="3287062" Name="野性怒吼buff" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2861_06_2" Param3="=="/>
+	<Property ID="3287013" Name="冰冻几率" UseLimitType="8" Param2="0.3" Param3="=="/>
+	<Property ID="3287023" Name="冰冻几率" UseLimitType="8" Param2="0.3" Param3="=="/>
+	<Property ID="3287033" Name="冰冻几率" UseLimitType="8" Param2="0.3" Param3="=="/>
+	<Property ID="3287043" Name="冰冻几率" UseLimitType="8" Param2="0.3" Param3="=="/>
+	<Property ID="3287053" Name="冰冻几率" UseLimitType="8" Param2="0.3" Param3="=="/>
+	<Property ID="3287063" Name="冰冻几率" UseLimitType="8" Param2="0.3" Param3="=="/>
+	<Property ID="3286115" Name="兽魂强化" UseLimitType="5" Param2="Buff_Ec2802_01_1" Param3="==" Param1="ConfigID"/>
+	<Property ID="328741" Name="15%触发" UseLimitType="8" Param2="0.15" Param3="=="/>
+	<Property ID="3286112" Name="兽魂buff2" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ec2802_01_1" Param3="=="/>
+	<Property ID="82408" Name="血量低于30%" UseLimitType="1" Param1="HPRatio" Param2="30" Param3="&lt;"/>
+	<Property ID="3287014" Name="冰冻陷阱" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2848_01_2" Param3="=="/>
+	<Property ID="3287015" Name="荆棘陷阱" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2847_01_2" Param3="=="/>
+	<Property ID="3287016" Name="魔法陷阱" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2846_01_3" Param3="=="/>
+	<Property ID="3140001" Name="有a" UseLimitType="6" Param1="ConfigID" Param2="Buff_Th1400_01_1" Param3="=="/>
+	<Property ID="3140002" Name="有b" UseLimitType="6" Param1="ConfigID" Param2="Buff_Th1400_01_2" Param3="=="/>
+	<Property ID="3140003" Name="有c" UseLimitType="6" Param1="ConfigID" Param2="Buff_Th1400_01_3" Param3="=="/>
+	<Property ID="3140004" Name="有c1" UseLimitType="6" Param1="ConfigID" Param2="Buff_Th1400_01_4" Param3="=="/>
+	<Property ID="3140005" Name="有c2" UseLimitType="6" Param1="ConfigID" Param2="Buff_Th1400_01_5" Param3="=="/>
+	<Property ID="3140006" Name="有e" UseLimitType="6" Param1="ConfigID" Param2="Buff_Th1400_01_6" Param3="=="/>
+	<Property ID="3140007" Name="有e1" UseLimitType="6" Param1="ConfigID" Param2="Buff_Th1400_01_7" Param3="=="/>
+	<Property ID="3140008" Name="有f" UseLimitType="6" Param1="ConfigID" Param2="Buff_Th1400_01_8" Param3="=="/>
+	<Property ID="3140009" Name="有f1" UseLimitType="6" Param1="ConfigID" Param2="Buff_Th1400_01_9" Param3="=="/>
+	<Property ID="3140010" Name="有f2" UseLimitType="6" Param1="ConfigID" Param2="Buff_Th1400_01_10" Param3="=="/>
+	<Property ID="3140011" Name="有f3" UseLimitType="6" Param1="ConfigID" Param2="Buff_Th1400_01_11" Param3="=="/>
+	<Property ID="3140012" Name="有D" UseLimitType="6" Param1="ConfigID" Param2="Buff_Th1400_01_12" Param3="=="/>
+	<Property ID="3140013" Name="有E" UseLimitType="6" Param1="ConfigID" Param2="Buff_Th1400_01_13" Param3="=="/>
+	<Property ID="3140014" Name="有A" UseLimitType="6" Param1="ConfigID" Param2="Buff_Th1400_01_14" Param3="=="/>
+	<Property ID="3140015" Name="有T" UseLimitType="6" Param1="ConfigID" Param2="Buff_Th1400_01_15" Param3="=="/>
+	<Property ID="3140016" Name="有H" UseLimitType="6" Param1="ConfigID" Param2="Buff_Th1400_01_16" Param3="=="/>
+	<Property ID="3140017" Name="有d" UseLimitType="6" Param1="ConfigID" Param2="Buff_Th1400_01_17" Param3="=="/>
+	<Property ID="21007" Name="测试BUFF开关" UseLimitType="5" Param1="ConfigID" Param2="Buff15665" Param3="=="/>
+	<Property ID="3287024" Name="冰冻陷阱" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2848_02_2" Param3="=="/>
+	<Property ID="3287034" Name="冰冻陷阱" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2848_03_2" Param3="=="/>
+	<Property ID="3287044" Name="冰冻陷阱" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2848_04_2" Param3="=="/>
+	<Property ID="3287054" Name="冰冻陷阱" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2848_05_2" Param3="=="/>
+	<Property ID="3287064" Name="冰冻陷阱" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2848_06_2" Param3="=="/>
+	<Property ID="3287025" Name="荆棘陷阱" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2847_02_2" Param3="=="/>
+	<Property ID="3287035" Name="荆棘陷阱" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2847_03_2" Param3="=="/>
+	<Property ID="3287045" Name="荆棘陷阱" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2847_04_2" Param3="=="/>
+	<Property ID="3287055" Name="荆棘陷阱" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2847_05_2" Param3="=="/>
+	<Property ID="3287065" Name="荆棘陷阱" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2847_06_2" Param3="=="/>
+	<Property ID="3287026" Name="流沙陷阱" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2846_02_3" Param3="=="/>
+	<Property ID="3287036" Name="流沙陷阱" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2846_03_3" Param3="=="/>
+	<Property ID="3287046" Name="流沙陷阱" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2846_04_3" Param3="=="/>
+	<Property ID="3287056" Name="流沙陷阱" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2846_05_3" Param3="=="/>
+	<Property ID="3287066" Name="流沙陷阱" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2846_06_3" Param3="=="/>
+	<Property ID="32920" Name="10%几率" UseLimitType="8" Param2="0.1" Param3="=="/>
+	<Property ID="328732" Name="狂暴判断" UseLimitType="5" Param2="Buff_Ec2850_02_1" Param3="==" Param1="ConfigID"/>
+	<Property ID="328733" Name="狂暴判断" UseLimitType="5" Param2="Buff_Ec2850_03_1" Param3="==" Param1="ConfigID"/>
+	<Property ID="328734" Name="狂暴判断" UseLimitType="5" Param2="Buff_Ec2850_04_1" Param3="==" Param1="ConfigID"/>
+	<Property ID="3287352" Name="狂暴判断" UseLimitType="5" Param2="Buff_Ec2850_05_1" Param3="==" Param1="ConfigID"/>
+	<Property ID="328736" Name="狂暴判断" UseLimitType="5" Param2="Buff_Ec2850_06_1" Param3="==" Param1="ConfigID"/>
+	<Property ID="3161613" Name="DEATH技清除e添加A" UseLimitType="6" Param1="ConfigID" Param2="Buff_Wt1730_01_1" Param3="=="/>
+	<Property ID="317301" Name="巫术增幅限制" UseLimitType="5" Param1="ConfigID" Param2="Buff_Wt1730_01_1" Param3="=="/>
+	<Property ID="3180313" Name="DEATH技清除a添加c1" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ch1610_01_1" Param3="=="/>
+	<Property ID="3180912" Name="DEATH技清除a添加D" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ch1610_01_1" Param3="=="/>
+	<Property ID="3180913" Name="DEATH技清除b添加d" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ch1616_01_2" Param3="=="/>
+	<Property ID="3170417" Name="DEATH-D" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ri1809_01_3" Param3="=="/>
+	<Property ID="3170418" Name="DEATH-E" UseLimitType="6" Param1="ConfigID" Param2="Buff_Wt1701_01_3" Param3="=="/>
+	<Property ID="3170419" Name="DEATH-A" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ch1616_01_3" Param3="=="/>
+	<Property ID="3170420" Name="DEATH-T" UseLimitType="6" Param1="ConfigID" Param2="Buff_Wt1730_01_2" Param3="=="/>
+	<Property ID="3170421" Name="DEATH-H" UseLimitType="6" Param1="ConfigID" Param2="Buff_Wt1701_01_4" Param3="=="/>
+	<Property ID="3120512" Name="穿甲弹流血" UseLimitType="5" Param1="ConfigID" Param2="Buff_Gl1205_01_1" Param3="=="/>
+	<Property ID="312291" Name="精准额外伤害" UseLimitType="6" Param1="ConfigID" Param2="Buff_Gl1229_01_1" Param3="=="/>
+	<Property ID="327231" Name="强风" UseLimitType="6" Param1="ConfigID" Param2="Buff_Fm2501_01_1" Param3="=="/>
+	<Property ID="312161" Name="TPS模式限制" UseLimitType="5" Param1="ConfigID" Param2="Skill_Gl1221_01_1" Param3="=="/>
+	<Property ID="32859" Name="击飞" UseLimitType="6" Param1="ConfigID" Param2="Buff_Status001_01" Param3="=="/>
+	<Property ID="81249" Name="70%血" UseLimitType="1" Param1="HPRatio" Param2="70" Param3="&lt;"/>
+	<Property ID="81250" Name="60%血" UseLimitType="1" Param1="HPRatio" Param2="60" Param3="&lt;"/>
+	<Property ID="32935" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2922_01_1" Param3="=="/>
+	<Property ID="81254" Name="10%血" UseLimitType="1" Param1="HPRatio" Param2="10" Param3="&lt;"/>
+	<Property ID="81836" Name="血量小于百分之七十" UseLimitType="1" Param1="HPRatio" Param2="70" Param3="&lt;"/>
+	<Property ID="329352" UseLimitType="6" Param1="ConfigID" Param2="Buff_Mw2934_01_1" Param3="=="/>
+	<Property ID="81801" UseLimitType="8" Param2="0.5" Param3="==" Name="50%的概率触发"/>
+	<Property ID="3131212" Name="极光·后续" UseLimitType="5" Param1="ConfigID" Param2="Pet_Fight3000012_Buff01_01" Param3="=="/>
+	<Property ID="3132211" Name="巨力震击·宠物" UseLimitType="5" Param1="ConfigID" Param2="Pet_Fight3000013_Buff01_01" Param3="=="/>
+	<Property ID="3139911" Name="普通·战狼" UseLimitType="5" Param1="ConfigID" Param2="Buff_Tk1311_01_1" Param3="!="/>
+	<Property ID="3139811" Name="普攻·炮轰" UseLimitType="5" Param1="ConfigID" Param2="Buff_Tk1312_01_1" Param3="!="/>
+	<Property ID="23101" Name="仲裁者" UseLimitType="1" Param1="Job" Param2="1" Param3="=="/>
+	<Property ID="23102" Name="蒸汽学徒" UseLimitType="1" Param1="Job" Param2="2" Param3="=="/>
+	<Property ID="23103" Name="秘法师" UseLimitType="1" Param1="Job" Param2="3" Param3="=="/>
+	<Property ID="23104" Name="猎魔人" UseLimitType="1" Param1="Job" Param2="6" Param3="=="/>
+	<Property ID="23105" Name="炼金师" UseLimitType="1" Param1="Job" Param2="7" Param3="=="/>
+	<Property ID="23106" Name="元素法师" UseLimitType="1" Param1="Job" Param2="8" Param3="=="/>
+	<Property ID="23107" Name="惩罚者" UseLimitType="1" Param1="Job" Param2="21" Param3="=="/>
+	<Property ID="23108" Name="神枪手" UseLimitType="1" Param1="Job" Param2="22" Param3="=="/>
+	<Property ID="23109" Name="执行者" UseLimitType="1" Param1="Job" Param2="23" Param3="=="/>
+	<Property ID="23110" Name="器械师" UseLimitType="1" Param1="Job" Param2="24" Param3="=="/>
+	<Property ID="23111" Name="构造师" UseLimitType="1" Param1="Job" Param2="25" Param3="=="/>
+	<Property ID="23112" Name="异教徒" UseLimitType="1" Param1="Job" Param2="26" Param3="=="/>
+	<Property ID="23113" Name="咒术师" UseLimitType="1" Param1="Job" Param2="27" Param3="=="/>
+	<Property ID="23114" Name="黑暗祭师" UseLimitType="1" Param1="Job" Param2="28" Param3="=="/>
+	<Property ID="23115" Name="女巫" UseLimitType="1" Param1="Job" Param2="29" Param3="=="/>
+	<Property ID="23116" Name="刀锋战士" UseLimitType="1" Param1="Job" Param2="36" Param3="=="/>
+	<Property ID="23117" Name="狩猎者" UseLimitType="1" Param1="Job" Param2="37" Param3="=="/>
+	<Property ID="23118" Name="魔剑士" UseLimitType="1" Param1="Job" Param2="38" Param3="=="/>
+	<Property ID="23119" Name="炼器师" UseLimitType="1" Param1="Job" Param2="39" Param3="=="/>
+	<Property ID="23120" Name="医师" UseLimitType="1" Param1="Job" Param2="40" Param3="=="/>
+	<Property ID="23121" Name="变能师" UseLimitType="1" Param1="Job" Param2="41" Param3="=="/>
+	<Property ID="23122" Name="圣殿法师" UseLimitType="1" Param1="Job" Param2="42" Param3="=="/>
+	<Property ID="23123" Name="流浪法师" UseLimitType="1" Param1="Job" Param2="43" Param3="=="/>
+	<Property ID="23124" Name="平衡法师" UseLimitType="1" Param1="Job" Param2="44" Param3="=="/>
+	<Property ID="3123311" Name="枪手之威buff存在" UseLimitType="5" Param1="ConfigID" Param2="Buff_Gl1233_01_2" Param3="=="/>
+	<Property ID="3330412" Name="黑暗种子1buff存在" UseLimitType="6" Param1="ConfigID" Param2="Buff_An3310_01_1" Param3="=="/>
+	<Property ID="3330422" Name="黑暗种子2buff存在" UseLimitType="6" Param1="ConfigID" Param2="Buff_An3310_02_1" Param3="=="/>
+	<Property ID="3330432" Name="黑暗种子3buff存在" UseLimitType="6" Param1="ConfigID" Param2="Buff_An3310_03_1" Param3="=="/>
+	<Property ID="3330442" Name="黑暗种子4buff存在" UseLimitType="6" Param1="ConfigID" Param2="Buff_An3310_04_1" Param3="=="/>
+	<Property ID="3330452" Name="黑暗种子5buff存在" UseLimitType="6" Param1="ConfigID" Param2="Buff_An3310_05_1" Param3="=="/>
+	<Property ID="3330462" Name="黑暗种子6buff存在" UseLimitType="6" Param1="ConfigID" Param2="Buff_An3310_06_1" Param3="=="/>
+	<Property ID="3330514" Name="清除危机警觉cd" UseLimitType="8" Param2="0.5" Param3="=="/>
+	<Property ID="33315" UseLimitType="6" Param1="ConfigID" Param2="Buff_An3306_01_1" Param3="=="/>
+	<Property ID="81900" Name="血大于75%" UseLimitType="1" Param1="HPRatio" Param2="75" Param3="&gt;"/>
+	<Property ID="81901" Name="血小于45%" UseLimitType="1" Param1="HPRatio" Param2="45" Param3="&lt;"/>
+	<Property ID="81902" Name="血大于50%" UseLimitType="1" Param1="HPRatio" Param2="50" Param3="&gt;"/>
+	<Property ID="81904" Name="血大于25%" UseLimitType="1" Param1="HPRatio" Param2="25" Param3="&gt;"/>
+	<Property ID="81905" Name="血小于25%" UseLimitType="1" Param1="HPRatio" Param2="25" Param3="&lt;"/>
+	<Property ID="81903" Name="血小于25%" UseLimitType="1" Param1="HPRatio" Param2="25" Param3="&lt;"/>
+	<Property ID="819052" Name="buff不存在" UseLimitType="5" Param1="ConfigID" Param2="Buff_Boss_0123_06" Param3="!="/>
+	<Property ID="23139" UseLimitType="3" Param1="ConfigID" Param2="npc_zlm011_0081" Param3="==" Name="特定目标"/>
+	<Property ID="3310411" Name="敌方" UseLimitType="11" Param1="1"/>
+	<Property ID="3310412" Name="友方" UseLimitType="11" Param1="2"/>
+	<Property ID="331051" Name="慢性病毒" UseLimitType="6" Param1="ConfigID" Param2="Buff_He3107_01_1" Param3="=="/>
+	<Property ID="331052" Name="慢性病毒" UseLimitType="6" Param1="ConfigID" Param2="Buff_He3107_02_1" Param3="=="/>
+	<Property ID="331053" Name="慢性病毒" UseLimitType="6" Param1="ConfigID" Param2="Buff_He3107_03_1" Param3="=="/>
+	<Property ID="331054" Name="慢性病毒" UseLimitType="6" Param1="ConfigID" Param2="Buff_He3107_04_1" Param3="=="/>
+	<Property ID="331055" Name="慢性病毒" UseLimitType="6" Param1="ConfigID" Param2="Buff_He3107_05_1" Param3="=="/>
+	<Property ID="331056" Name="慢性病毒" UseLimitType="6" Param1="ConfigID" Param2="Buff_He3107_06_1" Param3="=="/>
+	<Property ID="81915" Name="新月图腾" UseLimitType="3" Param1="ConfigID" Param2="npc_zlm015_0077" Param3="=="/>
+	<Property ID="81916" Name="火把" UseLimitType="3" Param1="ConfigID" Param2="npc_zlm015_0101" Param3="=="/>
+	<Property ID="331131" Name="传染爆发" UseLimitType="6" Param1="ConfigID" Param2="Buff_He3103_01_1" Param3="=="/>
+	<Property ID="331132" Name="传染爆发" UseLimitType="6" Param1="ConfigID" Param2="Buff_He3103_02_1" Param3="=="/>
+	<Property ID="331133" Name="传染爆发" UseLimitType="6" Param1="ConfigID" Param2="Buff_He3103_03_1" Param3="=="/>
+	<Property ID="331134" Name="传染爆发" UseLimitType="6" Param1="ConfigID" Param2="Buff_He3103_04_1" Param3="=="/>
+	<Property ID="331135" Name="传染爆发" UseLimitType="6" Param1="ConfigID" Param2="Buff_He3103_05_1" Param3="=="/>
+	<Property ID="331136" Name="传染爆发" UseLimitType="6" Param1="ConfigID" Param2="Buff_He3103_06_1" Param3="=="/>
+	<Property ID="23140" UseLimitType="3" Param1="ConfigID" Param2="monster_zlm011_0001" Param3="==" Name="特定目标"/>
+	<Property ID="23142" UseLimitType="3" Param1="ConfigID" Param2="npc_zqm004_0103" Param3="==" Name="特定目标"/>
+	<Property ID="23141" UseLimitType="3" Param1="ConfigID" Param3="==" Name="特定目标" Param2="monster_zlm011_0057"/>
+	<Property ID="82479" Name="buff替换" UseLimitType="6" Param1="ConfigID" Param2="Buff_Boss_0116_04_011_01" Param3="=="/>
+	<Property ID="82480" Name="buff替换" UseLimitType="6" Param1="ConfigID" Param2="Buff_Boss_0116_04_011_02" Param3="=="/>
+	<Property ID="82474" Name="血量小于70%" UseLimitType="1" Param1="HPRatio" Param2="70" Param3="&lt;"/>
+	<Property ID="82475" Name="血量小于40%" UseLimitType="1" Param1="HPRatio" Param2="40" Param3="&lt;"/>
+	<Property ID="50101" Name="测试打坐技能" UseLimitType="1" Param1="LogicState" Param2="1" Param3="!="/>
+	<Property ID="314051" Name="活性蒸汽-酸性判定" UseLimitType="6" Param1="ConfigID" Param2="Buff_Th1401_01_1" Param3="=="/>
+	<Property ID="3140512" Name="活性蒸汽-碱性判定" UseLimitType="6" Param1="ConfigID" Param2="Buff_Th1402_01_1" Param3="=="/>
+	<Property ID="314081" Name="饕餮杀戮攻击判定" UseLimitType="3" Param1="ConfigID" Param2="Buff_Th1408_01_1" Param3="!="/>
+	<Property ID="21016" Name="测试用" UseLimitType="6" Param1="ConfigID" Param2="test_skill0027_Buff01_01" Param3="=="/>
+	<Property ID="501012" UseLimitType="5" Param1="ConfigID" Param2="test_skill0101_Buff01_01" Param3="!="/>
+	<Property ID="501013" UseLimitType="5" Param1="ConfigID" Param2="test_skill0101_Buff01_01" Param3="=="/>
+	<Property ID="90000" Name="萨德瓦伊_Normal" UseLimitType="5" Param1="ConfigID" Param3="=="/>
+	<Property ID="90001" Name="萨德瓦伊_冲锋1" UseLimitType="5" Param1="ConfigID" Param3="==" Param2="buffState_NY_BOSS_006"/>
+	<Property ID="90002" Name="萨德瓦伊_冲锋2" UseLimitType="5" Param1="ConfigID" Param3="==" Param2="buffState_NY_BOSS_007"/>
+	<Property ID="100003" Name="咆哮防御" UseLimitType="10" Param1="ConfigID" Param3="=="/>
+	<Property ID="21017" Name="测试宠物限制包" UseLimitType="12" Param2="Fight_1_00080" Param3="=="/>
+	<Property ID="332021" Name="穿透箭" UseLimitType="8" Param2="0.1" Param3="=="/>
+	<Property ID="332022" Name="穿透箭" UseLimitType="8" Param2="0.15" Param3="=="/>
+	<Property ID="332023" Name="穿透箭" UseLimitType="8" Param2="0.2" Param3="=="/>
+	<Property ID="332024" Name="穿透箭" UseLimitType="8" Param2="0.25" Param3="=="/>
+	<Property ID="332025" Name="穿透箭" UseLimitType="8" Param2="0.3" Param3="=="/>
+	<Property ID="332026" Name="穿透箭" UseLimitType="8" Param2="0.35" Param3="=="/>
+	<Property ID="81248" Name="95%血" UseLimitType="1" Param1="HPRatio" Param2="95" Param3="&lt;"/>
+	<Property ID="81802" Name="药品目标" UseLimitType="3" Param1="ConfigID" Param2="npc_zlm002_0066" Param3="=="/>
+	<Property ID="81803" Name="能量柱目标" UseLimitType="3" Param1="ConfigID" Param2="npc_zlm002_0061" Param3="=="/>
+	<Property ID="81804" Name="能量柱目标" UseLimitType="3" Param1="ConfigID" Param2="npc_zlm002_0062" Param3="=="/>
+	<Property ID="81805" Name="能量柱目标" UseLimitType="3" Param1="ConfigID" Param2="npc_zlm002_0063" Param3="=="/>
+	<Property ID="81806" Name="能量柱目标" UseLimitType="3" Param1="ConfigID" Param2="npc_zlm002_0064" Param3="=="/>
+	<Property ID="81807" Name="能量柱目标" UseLimitType="3" Param1="ConfigID" Param2="npc_zlm002_0065" Param3="=="/>
+	<Property ID="81808" Name="劈砍目标" UseLimitType="3" Param1="ConfigID" Param2="npc_zlm002_0074" Param3="=="/>
+	<Property ID="812416" Name="灼烧施加限制" UseLimitType="6"/>
+	<Property ID="3109911" Name="惩罚之怒1层" UseLimitType="14" Param1="Buff_In1051_01_1" Param2="1" Param3="=="/>
+	<Property ID="3109912" Name="惩罚之怒2层" UseLimitType="14" Param1="Buff_In1051_01_1" Param2="2" Param3="=="/>
+	<Property ID="3109913" Name="惩罚之怒3层" UseLimitType="14" Param1="Buff_In1051_01_1" Param2="3" Param3="=="/>
+	<Property ID="3109914" Name="惩罚之怒4层" UseLimitType="14" Param1="Buff_In1051_01_1" Param2="4" Param3="=="/>
+	<Property ID="3109915" Name="惩罚之怒5层" UseLimitType="14" Param1="Buff_In1051_01_1" Param2="5" Param3="=="/>
+	<Property ID="21018" UseLimitType="5" Param1="ConfigID" Param2="test_buff_0001" Param3="!="/>
+	<Property ID="332171" UseLimitType="5" Param1="ConfigID" Param2="Buff_Tr3217_01_2" Param3="!="/>
+	<Property ID="23145" Name="特定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_zqm001_0154" Param3="=="/>
+	<Property ID="3321714" UseLimitType="6" Param1="ConfigID" Param2="Buff_Tr3217_01_3" Param3="!="/>
+	<Property ID="3321724" UseLimitType="6" Param1="ConfigID" Param2="Buff_Tr3217_02_3" Param3="!="/>
+	<Property ID="3321734" UseLimitType="6" Param1="ConfigID" Param2="Buff_Tr3217_03_3" Param3="!="/>
+	<Property ID="3321744" UseLimitType="6" Param1="ConfigID" Param2="Buff_Tr3217_04_3" Param3="!="/>
+	<Property ID="3321754" UseLimitType="6" Param1="ConfigID" Param2="Buff_Tr3217_05_3" Param3="!="/>
+	<Property ID="3321764" UseLimitType="6" Param1="ConfigID" Param2="Buff_Tr3217_06_3" Param3="!="/>
+	<Property ID="3311211" Name="不洁-触发1" UseLimitType="8" Param2="==" Param3="0.2"/>
+	<Property ID="3311212" Name="不洁-触发1" UseLimitType="8" Param2="==" Param3="0.25"/>
+	<Property ID="3311213" Name="不洁-触发1" UseLimitType="8" Param2="==" Param3="0.3"/>
+	<Property ID="3311214" Name="不洁-触发1" UseLimitType="8" Param2="==" Param3="0.35"/>
+	<Property ID="3311215" Name="不洁-触发1" UseLimitType="8" Param2="==" Param3="0.4"/>
+	<Property ID="3311216" Name="不洁-触发1" UseLimitType="8" Param2="==" Param3="0.45"/>
+	<Property ID="3311221" Name="不洁-触发1" UseLimitType="8" Param2="==" Param3="0.4"/>
+	<Property ID="3311222" Name="不洁-触发1" UseLimitType="8" Param2="==" Param3="0.35"/>
+	<Property ID="3311223" Name="不洁-触发1" UseLimitType="8" Param2="==" Param3="0.3"/>
+	<Property ID="3311224" Name="不洁-触发1" UseLimitType="8" Param2="==" Param3="0.25"/>
+	<Property ID="3311225" Name="不洁-触发1" UseLimitType="8" Param2="==" Param3="0.2"/>
+	<Property ID="3311226" Name="不洁-触发1" UseLimitType="8" Param2="==" Param3="0.15"/>
+	<Property ID="331081" Name="敌方" UseLimitType="11" Param1="1"/>
+	<Property ID="331082" Name="友方" UseLimitType="11" Param1="2"/>
+	<Property ID="291011" Name="无法在移动中施放" UseLimitType="13"/>
+	<Property ID="291012" Name="Buff开" UseLimitType="5" Param1="ConfigID" Param2="Buff_Dazuo_01_2" Param3="!="/>
+	<Property ID="291013" Name="Buff关" UseLimitType="5" Param1="ConfigID" Param2="Buff_Dazuo_01_1" Param3="=="/>
+	<Property ID="330081" Name="断筋1" UseLimitType="6" Param1="ConfigID" Param2="Buff_Tongyong_Liuxue_01_1" Param3="=="/>
+	<Property ID="330082" Name="断筋2" UseLimitType="6" Param1="ConfigID" Param2="Buff_Tongyong_Liuxue_01_1" Param3="=="/>
+	<Property ID="330083" Name="断筋3" UseLimitType="6" Param1="ConfigID" Param2="Buff_Tongyong_Liuxue_01_1" Param3="=="/>
+	<Property ID="330084" Name="断筋4" UseLimitType="6" Param1="ConfigID" Param2="Buff_Tongyong_Liuxue_01_1" Param3="=="/>
+	<Property ID="330085" Name="断筋5" UseLimitType="6" Param1="ConfigID" Param2="Buff_Tongyong_Liuxue_01_1" Param3="=="/>
+	<Property ID="330086" Name="断筋6" UseLimitType="6" Param1="ConfigID" Param2="Buff_Tongyong_Liuxue_01_1" Param3="=="/>
+	<Property ID="291014" Name="战斗中无法释放" UseLimitType="1" Param1="LogicState" Param2="1" Param3="!="/>
+	<Property ID="23146" Name="特定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_zqm001_0070" Param3="=="/>
+	<Property ID="23148" Name="特定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_zqm004_0077" Param3="=="/>
+	<Property ID="23149" Name="特定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_zqm004_0087" Param3="=="/>
+	<Property ID="3115010" Name="杀戮印记存在" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ex1150_01_1" Param3="=="/>
+	<Property ID="3115011" Name="1层印记限制" UseLimitType="14" Param1="Buff_Ex1150_01_1" Param2="1" Param3="=="/>
+	<Property ID="3115012" Name="2层印记限制" UseLimitType="14" Param1="Buff_Ex1150_01_1" Param2="2" Param3="=="/>
+	<Property ID="3115013" Name="3层印记限制" UseLimitType="14" Param1="Buff_Ex1150_01_1" Param2="3" Param3="=="/>
+	<Property ID="3115014" Name="4层印记限制" UseLimitType="14" Param1="Buff_Ex1150_01_1" Param2="4" Param3="=="/>
+	<Property ID="3115015" Name="5层印记限制" UseLimitType="14" Param1="Buff_Ex1150_01_1" Param2="5" Param3="=="/>
+	<Property ID="32908" Name="概率冰冻" UseLimitType="8" Param2="0.3" Param3="=="/>
+	<Property ID="850890" Name="贝拉里奥技能释放条件1" UseLimitType="5" Param1="ConfigID" Param2="buff_FB_TNJT_BOSS_04_06_01" Param3="=="/>
+	<Property ID="850891" Name="贝拉里奥技能释放条件2" UseLimitType="5" Param1="ConfigID" Param2="buff_FB_TNJT_BOSS_04_06_01" Param3="!="/>
+	<Property ID="824757" Name="血量小于50%" UseLimitType="1" Param1="HPRatio" Param2="50" Param3="&lt;"/>
+	<Property ID="501022" UseLimitType="5" Param1="ConfigID" Param2="test_skillsitcross_Buff01_01" Param3="!="/>
+	<Property ID="501023" UseLimitType="5" Param1="ConfigID" Param2="test_skillsitcross_Buff01_01" Param3="=="/>
+	<Property ID="501024" UseLimitType="5" Param1="ConfigID" Param2="test_skillsitcross_Buff01_02" Param3="=="/>
+	<Property ID="32906" Name="中毒buff限制" UseLimitType="6" Param1="ConfigID" Param2="Buff_Tongyong_zhongdu_01_1" Param3="=="/>
+	<Property ID="3109910" Name="惩罚之怒存在" UseLimitType="5" Param1="ConfigID" Param2="Buff_In1051_01_1" Param3="=="/>
+	<Property ID="3109810" Name="通用流血效果存在" UseLimitType="6" Param1="ConfigID" Param2="Buff_Tongyong_Liuxue_01_1" Param3="=="/>
+	<Property ID="23151" Name="特定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_zqm001_0077" Param3="=="/>
+	<Property ID="20859" Name="吸血buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ec2868_01_1" Param3="=="/>
+	<Property ID="90003" Name="状态1" UseLimitType="5" Param1="ConfigID" Param2="buffState_NY_BOSS_001" Param3="=="/>
+	<Property ID="90004" Name="状态2" UseLimitType="5" Param1="ConfigID" Param2="buffState_NY_BOSS_002" Param3="=="/>
+	<Property ID="90005" Name="状态3" UseLimitType="5" Param1="ConfigID" Param2="buffState_NY_BOSS_003" Param3="=="/>
+	<Property ID="90006" Name="血量低于80%" UseLimitType="1" Param1="HPRatio" Param2="80" Param3="&lt;="/>
+	<Property ID="90007" Name="状态4" UseLimitType="5" Param1="ConfigID" Param2="buffState_NY_BOSS_004" Param3="=="/>
+	<Property ID="90008" Name="状态5" UseLimitType="5" Param1="ConfigID" Param2="buffState_NY_BOSS_005" Param3="=="/>
+	<Property ID="90009" Name="血量小于50%" UseLimitType="1" Param1="HPRatio" Param2="50" Param3="&lt;="/>
+	<Property ID="90010" Name="血量大于50%" UseLimitType="1" Param1="HPRatio" Param2="50" Param3="&gt;"/>
+	<Property ID="3120522" Name="穿甲弹流血" UseLimitType="5" Param1="ConfigID" Param2="Buff_Gl1205_02_1" Param3="=="/>
+	<Property ID="3120532" Name="穿甲弹流血" UseLimitType="5" Param1="ConfigID" Param2="Buff_Gl1205_03_1" Param3="=="/>
+	<Property ID="3120542" Name="穿甲弹流血" UseLimitType="5" Param1="ConfigID" Param2="Buff_Gl1205_04_1" Param3="=="/>
+	<Property ID="3120552" Name="穿甲弹流血" UseLimitType="5" Param1="ConfigID" Param2="Buff_Gl1205_05_1" Param3="=="/>
+	<Property ID="3120562" Name="穿甲弹流血" UseLimitType="5" Param1="ConfigID" Param2="Buff_Gl1205_06_1" Param3="=="/>
+	<Property ID="325051" UseLimitType="6" Param1="ConfigID" Param3="==" Param2="Buff_Tongyong_ranshao_01_1"/>
+	<Property ID="325181" UseLimitType="6" Param1="ConifgID" Param2="Buff_Fm2501_01_1" Param3="=="/>
+	<Property ID="3122811" Name="燃烧buff存在限制" UseLimitType="6" Param1="ConfigID" Param2="Buff_Gl1228_01_1" Param3="=="/>
+	<Property ID="318071" Name="衰弱诅咒1" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ri1807_01_1" Param3="=="/>
+	<Property ID="318072" Name="衰弱诅咒2" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ri1807_02_1" Param3="=="/>
+	<Property ID="318073" Name="衰弱诅咒3" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ri1807_03_1" Param3="=="/>
+	<Property ID="318074" Name="衰弱诅咒4" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ri1807_04_1" Param3="=="/>
+	<Property ID="318075" Name="衰弱诅咒5" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ri1807_05_1" Param3="=="/>
+	<Property ID="318076" Name="衰弱诅咒6" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ri1807_06_1" Param3="=="/>
+	<Property ID="3250112" Name="燃烧" UseLimitType="6" Param1="ConfigID" Param2="Buff_Tongyong_ranshao_01_1" Param3="=="/>
+	<Property ID="81993" Name="血量小于50%" UseLimitType="1" Param1="HPRatio" Param2="50" Param3="&lt;="/>
+	<Property ID="3272511" Name="冰环冰冻" UseLimitType="6" Param1="ConfigID" Param3="==" Param2="Buff_Wm2719_01_1"/>
+	<Property ID="312361" Name="意犹未尽" UseLimitType="5" Param1="ConfigID" Param2="Buff_Gl1236_01_1" Param3="=="/>
+	<Property ID="3122912" Name="高级效果包伤害描述限制" UseLimitType="5" Param1="ConfigID" Param2="Buff_Gl1299_01_1" Param3="=="/>
+	<Property ID="3122921" Name="精准额外伤害" UseLimitType="6" Param1="ConfigID" Param2="Buff_Gl1229_02_1" Param3="=="/>
+	<Property ID="3122931" Name="精准额外伤害" UseLimitType="6" Param1="ConfigID" Param2="Buff_Gl1229_03_1" Param3="=="/>
+	<Property ID="3122941" Name="精准额外伤害" UseLimitType="6" Param1="ConfigID" Param2="Buff_Gl1229_04_1" Param3="=="/>
+	<Property ID="3122951" Name="精准额外伤害" UseLimitType="6" Param1="ConfigID" Param2="Buff_Gl1229_05_1" Param3="=="/>
+	<Property ID="3122961" Name="精准额外伤害" UseLimitType="6" Param1="ConfigID" Param2="Buff_Gl1229_06_1" Param3="=="/>
+	<Property ID="32601" Name="有中毒BUFF" UseLimitType="6" Param1="ConfigID" Param2="Buff_Tongyong_zhongdu_01_1" Param3="=="/>
+	<Property ID="82350" Name="火焰之怒" UseLimitType="15" Param1="Buff_YGZM_boss0018_8" Param2="4" Param3="=="/>
+	<Property ID="9999" Name="无法实现" UseLimitType="5" Param1="ConfigID" Param2="BUFF_9999" Param3="=="/>
+	<Property ID="82520" Name="特定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_qhm002_0166" Param3="=="/>
+	<Property ID="825202" Name="特定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_qhm002_0167" Param3="=="/>
+	<Property ID="825203" Name="特定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_qhm002_0168" Param3="=="/>
+	<Property ID="82521" Name="特定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_zqm001_0162" Param3="=="/>
+	<Property ID="825212" Name="特定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_zqm001_0163" Param3="=="/>
+	<Property ID="825213" Name="特定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_zqm001_0164" Param3="=="/>
+	<Property ID="825252" Name="buff替换" UseLimitType="6" Param1="ConfigID" Param2="Buff_monster_Shu_0078_013_01" Param3="=="/>
+	<Property ID="825253" Name="buff替换" UseLimitType="6" Param1="ConfigID" Param2="Buff_monster_Shu_0078_013_02" Param3="=="/>
+	<Property ID="82511" Name="特定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_qhm002_0169" Param3="=="/>
+	<Property ID="825111" Name="特定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_qhm002_0170" Param3="=="/>
+	<Property ID="825112" Name="特定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_qhm002_0171" Param3="=="/>
+	<Property ID="825113" Name="特定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_qhm002_0172" Param3="=="/>
+	<Property ID="825114" Name="特定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_qhm002_0173" Param3="=="/>
+	<Property ID="825115" Name="特定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_qhm002_0174" Param3="=="/>
+	<Property ID="825116" Name="特定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_qhm002_0175" Param3="=="/>
+	<Property ID="825117" Name="特定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_qhm002_0176" Param3="=="/>
+	<Property ID="825118" Name="特定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_qhm002_0177" Param3="=="/>
+	<Property ID="825119" Name="特定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_qhm002_0178" Param3="=="/>
+	<Property ID="82519" Name="特定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_zqm001_0165" Param3="=="/>
+	<Property ID="825191" Name="特定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_zqm001_0166" Param3="=="/>
+	<Property ID="825192" Name="特定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_zqm001_0167" Param3="=="/>
+	<Property ID="825193" Name="特定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_zqm001_0168" Param3="=="/>
+	<Property ID="825194" Name="特定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_zqm001_0169" Param3="=="/>
+	<Property ID="825195" Name="特定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_zqm001_0170" Param3="=="/>
+	<Property ID="825196" Name="特定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_zqm001_0171" Param3="=="/>
+	<Property ID="825197" Name="特定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_zqm001_0172" Param3="=="/>
+	<Property ID="825198" Name="特定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_zqm001_0173" Param3="=="/>
+	<Property ID="825199" Name="特定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_zqm001_0174" Param3="=="/>
+	<Property ID="460011" Name="特定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_zqct001_0001" Param3="=="/>
+	<Property ID="460012" Name="特定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_zqct001_0002" Param3="=="/>
+	<Property ID="460013" Name="特定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_zqct001_0003" Param3="=="/>
+	<Property ID="460014" Name="特定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_zqct001_0004" Param3="=="/>
+	<Property ID="460015" Name="特定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_zqct001_0005" Param3="=="/>
+	<Property ID="460016" Name="特定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_zqct001_0006" Param3="=="/>
+	<Property ID="460017" Name="特定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_zqct001_0007" Param3="=="/>
+	<Property ID="460018" Name="特定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_zqct001_0008" Param3="=="/>
+	<Property ID="460019" Name="特定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_zqct001_0009" Param3="=="/>
+	<Property ID="460020" Name="特定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_zqct001_0010" Param3="=="/>
+	<Property ID="460021" Name="特定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_zqct001_0011" Param3="=="/>
+	<Property ID="460022" Name="特定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_zqct001_0012" Param3="=="/>
+	<Property ID="460023" Name="特定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_zqct001_0013" Param3="=="/>
+	<Property ID="460031" Name="特定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_qhct001_0001" Param3="=="/>
+	<Property ID="460032" Name="特定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_qhct001_0002" Param3="=="/>
+	<Property ID="460033" Name="特定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_qhct001_0003" Param3="=="/>
+	<Property ID="460034" Name="特定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_qhct001_0004" Param3="=="/>
+	<Property ID="460035" Name="特定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_qhct001_0005" Param3="=="/>
+	<Property ID="460036" Name="特定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_qhct001_0006" Param3="=="/>
+	<Property ID="460037" Name="特定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_qhct001_0007" Param3="=="/>
+	<Property ID="460038" Name="特定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_qhct001_0008" Param3="=="/>
+	<Property ID="460039" Name="特定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_qhct001_0009" Param3="=="/>
+	<Property ID="460040" Name="特定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_qhct001_0010" Param3="=="/>
+	<Property ID="460041" Name="特定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_qhct001_0011" Param3="=="/>
+	<Property ID="460042" Name="特定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_qhct001_0012" Param3="=="/>
+	<Property ID="460043" Name="特定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_qhct001_0013" Param3="=="/>
+	<Property ID="460044" Name="特定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_qhct001_0014" Param3="=="/>
+	<Property ID="81809" UseLimitType="8" Param2="0.33" Param3="==" Name="33%的概率触发"/>
+	<Property ID="8251110" UseLimitType="8" Param2="0.9" Param3="==" Name="90%的概率触发"/>
+	<Property ID="8251910" UseLimitType="8" Param2="0.9" Param3="==" Name="90%的概率触发"/>
+	<Property ID="82391" Name="35%的概率触发" UseLimitType="8" Param2="0.35" Param3="=="/>
+	<Property ID="81995" Name="血量小于10%" UseLimitType="1" Param1="HPRatio" Param2="10" Param3="&lt;="/>
+	<Property ID="32996" UseLimitType="6" Param1="ConfigID" Param2="Buff_Eh2996_01_1" Param3="=="/>
+	<Property ID="32696" UseLimitType="6" Param1="ConfigID" Param2="Buff_Mg2696_01_1" Param3="=="/>
+	<Property ID="3110211" Name="破甲1" UseLimitType="15" Param1="Buff_Ex1202_01_1" Param2="1" Param3="=="/>
+	<Property ID="3110212" Name="破甲2" UseLimitType="15" Param1="Buff_Ex1202_01_1" Param2="2" Param3="=="/>
+	<Property ID="3110213" Name="破甲3" UseLimitType="15" Param1="Buff_Ex1202_01_1" Param2="3" Param3="=="/>
+	<Property ID="3110214" Name="破甲4" UseLimitType="15" Param1="Buff_Ex1202_01_1" Param2="4" Param3="=="/>
+	<Property ID="3110215" Name="破甲5" UseLimitType="15" Param1="Buff_Ex1202_01_1" Param2="5" Param3="=="/>
+	<Property ID="3182311" Name="黑暗0" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ri1823_01_1" Param3="=="/>
+	<Property ID="81955" Name="血量低于80%" UseLimitType="1" Param1="HPRatio" Param2="80" Param3="&lt;"/>
+	<Property ID="81953" UseLimitType="1" Param1="HPRatio" Param2="70" Param3="&lt;" Name="小于70%血"/>
+	<Property ID="823611" UseLimitType="1" Param1="HPRatio" Param2="85" Param3="&lt;" Name="小于85%血"/>
+	<Property ID="82360" UseLimitType="1" Param1="HPRatio" Param2="75" Param3="&lt;" Name="小于75%血"/>
+	<Property ID="82358" UseLimitType="1" Param1="HPRatio" Param2="50" Param3="&lt;" Name="小于50%血"/>
+	<Property ID="81897" Name="血量低于35%" UseLimitType="1" Param1="HPRatio" Param2="35" Param3="&lt;"/>
+	<Property ID="81895" UseLimitType="8" Param2="0.4" Param3="==" Name="40%的概率触发"/>
+	<Property ID="81896" Name="血量低于75%" UseLimitType="1" Param1="HPRatio" Param2="75" Param3="&lt;"/>
+	<Property ID="33002" Name="内置CD" UseLimitType="5" Param1="ConfigID" Param2="Buff_Bm3002_01_2" Param3="!="/>
+	<Property ID="33006" Name="大于20%血" UseLimitType="1" Param1="HPRatio" Param2="20" Param3="&gt;"/>
+	<Property ID="330061" Name="小于20%血" UseLimitType="1" Param1="HPRatio" Param2="1" Param3="&lt;="/>
+	<Property ID="82035" UseLimitType="1" Param1="HPRatio" Param2="30" Param3="&lt;" Name="小于30%血"/>
+	<Property ID="82037" UseLimitType="1" Param1="HPRatio" Param2="50" Param3="&lt;" Name="小于50%血"/>
+	<Property ID="82039" UseLimitType="1" Param1="HPRatio" Param2="70" Param3="&lt;" Name="小于70%血"/>
+	<Property ID="81989" Name="血量低于30%" UseLimitType="1" Param1="HPRatio" Param2="30" Param3="&lt;"/>
+	<Property ID="81987" Name="血量低于75%" UseLimitType="1" Param1="HPRatio" Param2="75" Param3="&lt;"/>
+	<Property ID="81986" UseLimitType="1" Param1="HPRatio" Param2="60" Param3="&lt;" Name="小于60%血"/>
+	<Property ID="82361" Name="30%触发" UseLimitType="8" Param2="0.3" Param3="=="/>
+	<Property ID="81984" UseLimitType="1" Param1="HPRatio" Param2="33" Param3="&lt;" Name="小于60%血"/>
+	<Property ID="81982" UseLimitType="1" Param1="HPRatio" Param2="50" Param3="&lt;" Name="小于50%血"/>
+	<Property ID="81981" UseLimitType="1" Param1="HPRatio" Param2="75" Param3="&lt;" Name="小于75%血"/>
+	<Property ID="81980" Name="25%几率" UseLimitType="8" Param2="0.25" Param3="=="/>
+	<Property ID="823501" UseLimitType="1" Param1="HPRatio" Param2="70" Param3="&lt;" Name="小于70%血"/>
+	<Property ID="82352" UseLimitType="1" Param1="HPRatio" Param2="85" Param3="&lt;" Name="小于85%血"/>
+	<Property ID="311251" Name="潜行状态" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ex1101_01_1" Param3="=="/>
+	<Property ID="82380" UseLimitType="8" Param2="0.25" Param3="==" Name="25%的概率触发"/>
+	<Property ID="82510" Name="战斗中不能使用技能" UseLimitType="1" Param1="LogicState" Param2="1" Param3="!="/>
+	<Property ID="326991" UseLimitType="6" Param1="ConfigID" Param2="Buff_Mg2692_01_1" Param3="==" Name="灼烧状态"/>
+	<Property ID="325061" Name="6元素盾存在" UseLimitType="5" Param1="ConfigID" Param2="Buff_Fm2504_01_1" Param3="=="/>
+	<Property ID="325062" Name="6元素盾存在" UseLimitType="5" Param1="ConfigID" Param2="Buff_Fm2504_02_1" Param3="=="/>
+	<Property ID="325063" Name="6元素盾存在" UseLimitType="5" Param1="ConfigID" Param2="Buff_Fm2504_03_1" Param3="=="/>
+	<Property ID="325064" Name="6元素盾存在" UseLimitType="5" Param1="ConfigID" Param2="Buff_Fm2504_04_1" Param3="=="/>
+	<Property ID="325065" Name="6元素盾存在" UseLimitType="5" Param1="ConfigID" Param2="Buff_Fm2504_05_1" Param3="=="/>
+	<Property ID="325066" Name="6元素盾存在" UseLimitType="5" Param1="ConfigID" Param2="Buff_Fm2504_06_1" Param3="=="/>
+	<Property ID="81952" UseLimitType="1" Param1="HPRatio" Param2="30" Param3="&lt;" Name="小于30%血"/>
+	<Property ID="326992" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mg2698_01_1" Param3="=="/>
+	<Property ID="29002" Name="判断是否在打坐状态" UseLimitType="1" Param1="LogicState" Param2="102" Param3="!="/>
+	<Property ID="819931" Name="火焰强化buff不存在" UseLimitType="5" Param1="ConfigID" Param2="Buff_Boss_0054_03" Param3="!="/>
+	<Property ID="29003" Name="判断在水中战斗" UseLimitType="16" Param1="1"/>
+	<Property ID="3160911" Name="40%几率添加咒灵" UseLimitType="8" Param2="0.4" Param3="=="/>
+	<Property ID="3162111" Name="咒术飞弹替换技能buff" UseLimitType="5" Param2="Buff_Ch1621_01_1" Param3="==" Param1="ConfigID"/>
+	<Property ID="3161711" Name="幽梦之灵30%几率添加咒灵" UseLimitType="8" Param2="0.3" Param3="=="/>
+	<Property ID="3160711" Name="幻灵附体替换技能buff存在" UseLimitType="5" Param2="Buff_Ch1607_01_3" Param3="==" Param1="ConfigID"/>
+	<Property ID="29004" Name="打坐不能在水中使用" UseLimitType="16" Param1="0"/>
+	<Property ID="82390" UseLimitType="1" Param1="HPRatio" Param2="85" Param3="&lt;" Name="小于85%血"/>
+	<Property ID="825102" Name="指定buff不存在时能使用技能" UseLimitType="5" Param1="ConfigID" Param2="Buff_npc_bianshen_01" Param3="!="/>
+	<Property ID="82512" Name="指定buff不存在时能使用技能" UseLimitType="5" Param1="ConfigID" Param2="Buff_npc_bianshen_02" Param3="!="/>
+	<Property ID="82513" Name="指定buff不存在时能使用技能" UseLimitType="5" Param1="ConfigID" Param2="Buff_npc_bianshen_03" Param3="!="/>
+	<Property ID="82514" Name="指定buff不存在时能使用技能" UseLimitType="5" Param1="ConfigID" Param2="Buff_npc_bianshen_04" Param3="!="/>
+	<Property ID="82515" Name="指定buff不存在时能使用技能" UseLimitType="5" Param1="ConfigID" Param2="Buff_npc_bianshen_05" Param3="!="/>
+	<Property ID="82516" Name="指定buff不存在时能使用技能" UseLimitType="5" Param1="ConfigID" Param2="Buff_npc_bianshen_06" Param3="!="/>
+	<Property ID="82517" Name="指定buff不存在时能使用技能" UseLimitType="5" Param1="ConfigID" Param2="Buff_npc_bianshen_07" Param3="!="/>
+	<Property ID="82518" Name="指定buff不存在时能使用技能" UseLimitType="5" Param1="ConfigID" Param2="Buff_npc_bianshen_08" Param3="!="/>
+	<Property ID="82055" UseLimitType="1" Param1="HPRatio" Param2="80" Param3="&lt;" Name="小于80%血"/>
+	<Property ID="82057" UseLimitType="1" Param1="HPRatio" Param2="40" Param3="&lt;" Name="小于40%血"/>
+	<Property ID="81840" Name="血量低于50%" UseLimitType="1" Param1="HPRatio" Param2="50" Param3="&lt;"/>
+	<Property ID="81841" Name="血量低于85%" UseLimitType="1" Param1="HPRatio" Param2="85" Param3="&lt;"/>
+	<Property ID="81843" Name="血量低于95%" UseLimitType="1" Param1="HPRatio" Param2="95" Param3="&lt;"/>
+	<Property ID="81842" Name="血量低于30%" UseLimitType="1" Param1="HPRatio" Param2="30" Param3="&lt;"/>
+	<Property ID="825204" UseLimitType="8" Param2="0.8" Param3="==" Name="80%的概率触发"/>
+	<Property ID="825214" UseLimitType="8" Param2="0.8" Param3="==" Name="80%的概率触发"/>
+	<Property ID="81992" UseLimitType="1" Param1="HPRatio" Param2="75" Param3="&lt;" Name="小于75%血"/>
+	<Property ID="230431" Name="5%概率" UseLimitType="8" Param2="0.05" Param3="=="/>
+	<Property ID="230441" Name="10%概率" UseLimitType="8" Param2="0.1" Param3="=="/>
+	<Property ID="230451" Name="1%概率" UseLimitType="8" Param2="0.01" Param3="=="/>
+	<Property ID="230461" Name="3%概率" UseLimitType="8" Param2="0.03" Param3="=="/>
+	<Property ID="325081" Name="烈焰守护范围" UseLimitType="6" Param1="ConfigID" Param2="Buff_Fm2511_01_2" Param3="=="/>
+	<Property ID="325082" Name="圣殿法师通用燃烧存在" UseLimitType="6" Param1="ConfigID" Param2="Buff_Tongyong_ranshao_01_1" Param3="=="/>
+	<Property ID="3251811" Name="自己通用燃烧" UseLimitType="5" Param1="ConfigID" Param2="Buff_Tongyong_ranshao_01_1" Param3="=="/>
+	<Property ID="85090" Name="主教的威严" UseLimitType="5" Param1="ConfigID" Param2="buff_FB_TNJT_BOSS_04_08" Param3="!="/>
+	<Property ID="230391" Name="3%概率" UseLimitType="8" Param2="0.03" Param3="=="/>
+	<Property ID="328412" Name="0.25几率" UseLimitType="8" Param2="0.25" Param3="=="/>
+	<Property ID="38" Name="非枪手" UseLimitType="1" Param1="GunMan" Param2="1" Param3="!="/>
+	<Property ID="330022" Name="晕人" UseLimitType="5" Param1="ConfigID" Param2="Buff_Bm3002_01_2" Param3="=="/>
+	<Property ID="85153" Name="冰冻" UseLimitType="8" Param2="0.5" Param3="=="/>
+	<Property ID="99644" Name="暴怒" UseLimitType="8" Param2="0.5" Param3="=="/>
+	<Property ID="851520" Name="吐息释放限制" UseLimitType="5" Param1="ConfigID" Param2="buff_fb_chnj_boss_01_03_01" Param3="=="/>
+	<Property ID="825103" Name="指定buff存在时不能使用技能" UseLimitType="5" Param1="ConfigID" Param2="Buff_shipo_001" Param3="!="/>
+	<Property ID="851500" Name="冰霜充能" UseLimitType="5" Param1="ConfigID" Param2="buff_fb_chnj_boss_01_01_01" Param3="=="/>
+	<Property ID="851501" Name="火焰充能" UseLimitType="5" Param1="ConfigID" Param2="buff_fb_chnj_boss_01_01_02" Param3="=="/>
+	<Property ID="851502" Name="暗影充能" UseLimitType="5" Param1="ConfigID" Param2="buff_fb_chnj_boss_01_01_03" Param3="=="/>
+	<Property ID="81810" UseLimitType="8" Param2="0.05" Param3="==" Name="5%的概率触发"/>
+	<Property ID="825104" Name="只能在鲁尔勒使用" UseLimitType="4" Param1="5" Param2="011400000" Param3="=="/>
+	<Property ID="825152" Name="只能在卡萨罗使用" UseLimitType="4" Param1="5" Param2="141500000" Param3="=="/>
+	<Property ID="81844" Name="血量低于98%" UseLimitType="1" Param1="HPRatio" Param2="98" Param3="&lt;"/>
+	<Property ID="82351" UseLimitType="1" Param1="HPRatio" Param2="20" Param3="&lt;" Name="小于20%血"/>
+	<Property ID="32721" UseLimitType="6" Param1="ConfigID" Param2="Buff_Tongyong_ranshao_01_1" Param3="=="/>
+	<Property ID="81990" Name="血量低于98%" Param1="HPRatio" Param2="98" Param3="&lt;"/>
+	<Property ID="82364" UseLimitType="1" Param1="HPRatio" Param2="75" Param3="&lt;" Name="小于75%血"/>
+	<Property ID="82365" UseLimitType="1" Param1="HPRatio" Param2="50" Param3="&lt;" Name="小于50%血"/>
+	<Property ID="82366" UseLimitType="1" Param1="HPRatio" Param2="25" Param3="&lt;" Name="小于25%血"/>
+	<Property ID="32609" Name="50%几率" UseLimitType="8" Param2="0.5" Param3="=="/>
+	<Property ID="32619" Name="10%几率" UseLimitType="8" Param2="0.1" Param3="=="/>
+	<Property ID="82076" Name="小于50%血" UseLimitType="1" Param1="HPRatio" Param2="50" Param3="&lt;"/>
+	<Property ID="82071" Name="小于35%血" UseLimitType="1" Param1="HPRatio" Param2="35" Param3="&lt;"/>
+	<Property ID="82070" Name="小于75%血" UseLimitType="1" Param1="HPRatio" Param2="75" Param3="&lt;"/>
+	<Property ID="825105" Name="在坐骑上不能使用技能" UseLimitType="1" Param1="MountID" Param2="0" Param3="=="/>
+	<Property ID="3123616" Name="意犹未尽6层限制" UseLimitType="14" Param1="Buff_Gl1236_01_1" Param2="6" Param3="=="/>
+	<Property ID="3123617" Name="意犹未尽7层限制" UseLimitType="14" Param1="Buff_Gl1236_01_1" Param2="7" Param3="=="/>
+	<Property ID="3123618" Name="意犹未尽8层限制" UseLimitType="14" Param1="Buff_Gl1236_01_1" Param2="8" Param3="=="/>
+	<Property ID="3123619" Name="意犹未尽9层限制" UseLimitType="14" Param1="Buff_Gl1236_01_1" Param2="9" Param3="=="/>
+	<Property ID="3123610" Name="意犹未尽10层限制" UseLimitType="14" Param1="Buff_Gl1236_01_1" Param2="10" Param3="=="/>
+	<Property ID="3123612" Name="意犹未尽添加概率限制" UseLimitType="8" Param2="0.3" Param3="=="/>
+	<Property ID="82331" Name="认证" UseLimitType="3" Param1="ConfigID" Param2="npc_FB103_0054" Param3="=="/>
+	<Property ID="81247" Name="90%血" UseLimitType="1" Param1="HPRatio" Param2="90" Param3="&lt;"/>
+	<Property ID="328742" Name="嗜血buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ec2863_01_2" Param3="=="/>
+	<Property ID="81890" Name="血量" UseLimitType="1" Param1="HP" Param2="3000" Param3="&lt;="/>
+	<Property ID="82688" Name="不在鲁尔勒使用" UseLimitType="4" Param1="5" Param2="011400000" Param3="!="/>
+	<Property ID="82689" Name="不在卡萨罗使用" UseLimitType="4" Param1="5" Param2="141500000" Param3="!="/>
+	<Property ID="82696" Name="25%几率" UseLimitType="8" Param2="0.25" Param3="=="/>
+	<Property ID="851560" Name="1阶段控制90%血" UseLimitType="1" Param1="HPRatio" Param2="90" Param3="&lt;"/>
+	<Property ID="851561" Name="2阶段控制" UseLimitType="5" Param1="ConfigID" Param2="buff_fb_chnj_boss_02_01_p2" Param3="=="/>
+	<Property ID="21019" Name="测试作用对象类型" UseLimitType="17" Param1="2"/>
+	<Property ID="57" Name="双手剑附加包" UseLimitType="0" Param1="HoldType" Param2="4" Param3="=="/>
+	<Property ID="58" Name="双手锤附加包" UseLimitType="0" Param1="HoldType" Param2="4" Param3="=="/>
+	<Property ID="59" Name="双手斧附加包" UseLimitType="0" Param1="HoldType" Param2="4" Param3="=="/>
+	<Property ID="3170116" Name="凝视之愈1级BUFF限制" UseLimitType="6" Param1="ConfigID" Param2="Buff_Wt1701_01_2" Param3="=="/>
+	<Property ID="3170126" Name="凝视之愈2级BUFF限制" UseLimitType="6" Param1="ConfigID" Param2="Buff_Wt1701_02_2" Param3="=="/>
+	<Property ID="3170136" Name="凝视之愈3级BUFF限制" UseLimitType="6" Param1="ConfigID" Param2="Buff_Wt1701_03_2" Param3="=="/>
+	<Property ID="3170146" Name="凝视之痛4级BUFF限制" UseLimitType="6" Param1="ConfigID" Param2="Buff_Wt1701_04_2" Param3="=="/>
+	<Property ID="3170156" Name="凝视之痛5级BUFF限制" UseLimitType="6" Param1="ConfigID" Param2="Buff_Wt1701_05_2" Param3="=="/>
+	<Property ID="3170166" Name="凝视之痛6级BUFF限制" UseLimitType="6" Param1="ConfigID" Param2="Buff_Wt1701_06_2" Param3="=="/>
+	<Property ID="3291111" UseLimitType="6" Param1="ConfigID" Param2="Buff_Mw2911_01_1" Param3="=="/>
+	<Property ID="3291112" UseLimitType="6" Param1="ConfigID" Param2="Buff_Mw2911_02_1" Param3="=="/>
+	<Property ID="3291113" UseLimitType="6" Param1="ConfigID" Param2="Buff_Mw2911_03_1" Param3="=="/>
+	<Property ID="3291114" UseLimitType="6" Param1="ConfigID" Param2="Buff_Mw2911_04_1" Param3="=="/>
+	<Property ID="3291115" UseLimitType="6" Param1="ConfigID" Param2="Buff_Mw2911_05_1" Param3="=="/>
+	<Property ID="3291116" UseLimitType="6" Param1="ConfigID" Param2="Buff_Mw2911_06_1" Param3="=="/>
+	<Property ID="3160912" UseLimitType="8" Param2="0.3" Param3="==" Name="咒灵30%几率沉默"/>
+	<Property ID="3162711" Name="咒灵涌动30%几率获得明悟" UseLimitType="8" Param2="0.3" Param3="=="/>
+	<Property ID="82529" Name="30%几率" UseLimitType="8" Param2="0.3" Param3="=="/>
+	<Property ID="326011" Name="无中毒BUFF" UseLimitType="6" Param1="ConfigID" Param2="Buff_Tongyong_zhongdu_01_1" Param3="!="/>
+	<Property ID="32607" Name="战斗中冲锋" UseLimitType="1" Param1="LogicStage" Param2="1" Param3="!="/>
+	<Property ID="81356" Name="大轰炸_朝日圣地" UseLimitType="4" Param1="5" Param2="141600000" Param3="=="/>
+	<Property ID="81355" Name="大轰炸_晨曦丘陵" UseLimitType="4" Param1="5" Param2="150300000" Param3="=="/>
+	<Property ID="81378" Name="绑架_目标限制" UseLimitType="3" Param1="ConfigID" Param2="monster_qhm002_0015" Param3="=="/>
+	<Property ID="81380" Name="疗伤_目标限制" UseLimitType="3" Param1="ConfigID" Param2="npc_qhm002_0195" Param3="=="/>
+	<Property ID="81379" Name="绑架_目标限制2" UseLimitType="3" Param1="ConfigID" Param2="monster_qhm002_0019" Param3="=="/>
+	<Property ID="818411" Name="血量低于80%" UseLimitType="1" Param1="HPRatio" Param2="80" Param3="&lt;"/>
+	<Property ID="818412" Name="无狂暴BUFF" UseLimitType="6" Param1="ConfigID" Param2="Buff_FB_YHDX_0010_03" Param3="!="/>
+	<Property ID="82088" Name="30%几率" UseLimitType="8" Param2="0.3" Param3="=="/>
+	<Property ID="82561" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="npc_zqm001_0197" Param3="=="/>
+	<Property ID="327031" Name="对角色限制" UseLimitType="17" Param1="1"/>
+	<Property ID="327032" Name="对NPC限制" UseLimitType="17" Param1="2"/>
+	<Property ID="3272211" Name="水之追踪" UseLimitType="15" Param1="Buff_Wm2710_01_1" Param2="1" Param3="=="/>
+	<Property ID="3272221" Name="水之追踪" UseLimitType="6" Param1="Buff_Wm2710_02_1" Param2="1" Param3="=="/>
+	<Property ID="3272231" Name="水之追踪" UseLimitType="6" Param1="Buff_Wm2710_03_1" Param2="1" Param3="=="/>
+	<Property ID="3272241" Name="水之追踪" UseLimitType="6" Param1="Buff_Wm2710_04_1" Param2="1" Param3="=="/>
+	<Property ID="3272251" Name="水之追踪" UseLimitType="6" Param1="Buff_Wm2710_05_1" Param2="1" Param3="=="/>
+	<Property ID="3272261" Name="水之追踪" UseLimitType="6" Param1="Buff_Wm2710_06_1" Param2="1" Param3="=="/>
+	<Property ID="327181" Name="风之护盾减速" UseLimitType="5" Param1="ConfigID" Param2="Buff_Wm2718_01_1" Param3="=="/>
+	<Property ID="327182" Name="风之护盾减速" UseLimitType="5" Param1="ConfigID" Param2="Buff_Wm2718_02_1" Param3="=="/>
+	<Property ID="327183" Name="风之护盾减速" UseLimitType="5" Param1="ConfigID" Param2="Buff_Wm2718_03_1" Param3="=="/>
+	<Property ID="327184" Name="风之护盾减速" UseLimitType="5" Param1="ConfigID" Param2="Buff_Wm2718_04_1" Param3="=="/>
+	<Property ID="327185" Name="风之护盾减速" UseLimitType="5" Param1="ConfigID" Param2="Buff_Wm2718_05_1" Param3="=="/>
+	<Property ID="327186" Name="风之护盾减速" UseLimitType="5" Param1="ConfigID" Param2="Buff_Wm2718_06_1" Param3="=="/>
+	<Property ID="32722" Name="水雷术额外伤害" UseLimitType="5" Param1="ConfigID" Param2="Buff_Wm2722_01_1" Param3="=="/>
+	<Property ID="327021" Name="风行1层" UseLimitType="14" Param1="Buff_Wm2702_01_2" Param2="1" Param3="=="/>
+	<Property ID="327022" Name="风行2层" UseLimitType="14" Param1="Buff_Wm2702_01_2" Param2="2" Param3="=="/>
+	<Property ID="327023" Name="风行3层" UseLimitType="14" Param1="Buff_Wm2702_01_2" Param2="3" Param3="=="/>
+	<Property ID="327024" Name="风行4层" UseLimitType="14" Param1="Buff_Wm2702_01_2" Param2="4" Param3="=="/>
+	<Property ID="327025" Name="风行5层" UseLimitType="14" Param1="Buff_Wm2702_01_2" Param2="5" Param3="=="/>
+	<Property ID="327026" Name="风行6层" UseLimitType="14" Param1="Buff_Wm2702_01_2" Param2="6" Param3="=="/>
+	<Property ID="3272512" Name="冰环冰冻" UseLimitType="6" Param1="ConfigID" Param3="==" Param2="Buff_Wm2719_02_1"/>
+	<Property ID="3272513" Name="冰环冰冻" UseLimitType="6" Param1="ConfigID" Param3="==" Param2="Buff_Wm2719_03_1"/>
+	<Property ID="3272514" Name="冰环冰冻" UseLimitType="6" Param1="ConfigID" Param3="==" Param2="Buff_Wm2719_04_1"/>
+	<Property ID="3272515" Name="冰环冰冻" UseLimitType="6" Param1="ConfigID" Param3="==" Param2="Buff_Wm2719_05_1"/>
+	<Property ID="3272516" Name="冰环冰冻" UseLimitType="6" Param1="ConfigID" Param3="==" Param2="Buff_Wm2719_06_1"/>
+	<Property ID="82684" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="monster_zqm001_0005" Param3="=="/>
+	<Property ID="826842" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="monster_zqm001_0039" Param3="=="/>
+	<Property ID="82087" Name="小于75%血" UseLimitType="1" Param1="HPRatio" Param2="75" Param3="&lt;"/>
+	<Property ID="82089" UseLimitType="1" Param1="HPRatio" Param2="20" Param3="&lt;" Name="小于20%血"/>
+	<Property ID="3292811" Name="魔拳-冰冻减伤" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2908_01_2" Param3="=="/>
+	<Property ID="3292812" Name="魔拳-冰冻减伤" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2908_02_2" Param3="=="/>
+	<Property ID="3292813" Name="魔拳-冰冻减伤" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2908_03_2" Param3="=="/>
+	<Property ID="3292814" Name="魔拳-冰冻减伤" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2908_04_2" Param3="=="/>
+	<Property ID="3292815" Name="魔拳-冰冻减伤" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2908_05_2" Param3="=="/>
+	<Property ID="3292816" Name="魔拳-冰冻减伤" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2908_06_2" Param3="=="/>
+	<Property ID="3292821" Name="魔拳-额外伤害" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2909_01_2" Param3="=="/>
+	<Property ID="3292822" Name="魔拳-额外伤害" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2909_02_2" Param3="=="/>
+	<Property ID="3292823" Name="魔拳-额外伤害" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2909_03_2" Param3="=="/>
+	<Property ID="3292824" Name="魔拳-额外伤害" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2909_04_2" Param3="=="/>
+	<Property ID="3292825" Name="魔拳-额外伤害" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2909_05_2" Param3="=="/>
+	<Property ID="3292826" Name="魔拳-额外伤害" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2909_06_2" Param3="=="/>
+	<Property ID="3292831" Name="魔拳-雷电回能" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2910_01_2" Param3="=="/>
+	<Property ID="3292832" Name="魔拳-雷电回能" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2910_02_2" Param3="=="/>
+	<Property ID="3292833" Name="魔拳-雷电回能" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2910_03_2" Param3="=="/>
+	<Property ID="3292834" Name="魔拳-雷电回能" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2910_04_2" Param3="=="/>
+	<Property ID="3292835" Name="魔拳-雷电回能" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2910_05_2" Param3="=="/>
+	<Property ID="3292836" Name="魔拳-雷电回能" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2910_06_2" Param3="=="/>
+	<Property ID="329284" Name="血量低于30%" UseLimitType="3" Param1="HPRatio" Param2="30" Param3="&lt;"/>
+	<Property ID="81954" UseLimitType="1" Param1="HPRatio" Param2="99" Param3="&lt;" Name="小于99%血"/>
+	<Property ID="82084" UseLimitType="1" Param1="HPRatio" Param2="80" Param3="&lt;" Name="小于80%血"/>
+	<Property ID="82106" Name="血量低于10%" UseLimitType="1" Param1="HPRatio" Param2="10" Param3="&lt;"/>
+	<Property ID="82670" Name="上线清除指定buff" UseLimitType="1" Param1="Pvp_markpryexpose" Param2="0" Param3="=="/>
+	<Property ID="60" Name="单手武器附加包" UseLimitType="0" Param1="HoldType" Param2="2" Param3="=="/>
+	<Property ID="82112" UseLimitType="8" Param2="0.35" Param3="==" Name="35%的概率触发"/>
+	<Property ID="32727" Name="不被击飞" UseLimitType="5" Param1="ConfigID" Param2="Buff_Wm2727_01_3" Param3="=="/>
+	<Property ID="3272611" Name="启动" UseLimitType="5" Param1="ConfigID" Param2="Buff_Wm2726_01_1" Param3="!="/>
+	<Property ID="3272612" Name="关闭" UseLimitType="6" Param1="ConfigID" Param2="Buff_Wm2726_01_1" Param3="=="/>
+	<Property ID="3272621" Name="启动" UseLimitType="5" Param1="ConfigID" Param2="Buff_Wm2726_02_1" Param3="!="/>
+	<Property ID="3272631" Name="启动" UseLimitType="5" Param1="ConfigID" Param2="Buff_Wm2726_03_1" Param3="!="/>
+	<Property ID="3272641" Name="启动" UseLimitType="5" Param1="ConfigID" Param2="Buff_Wm2726_04_1" Param3="!="/>
+	<Property ID="3272651" Name="启动" UseLimitType="5" Param1="ConfigID" Param2="Buff_Wm2726_05_1" Param3="!="/>
+	<Property ID="3272661" Name="启动" UseLimitType="5" Param1="ConfigID" Param2="Buff_Wm2726_06_1" Param3="!="/>
+	<Property ID="3272622" Name="启关闭" UseLimitType="6" Param1="ConfigID" Param2="Buff_Wm2726_02_1" Param3="=="/>
+	<Property ID="3272632" Name="启关闭" UseLimitType="6" Param1="ConfigID" Param2="Buff_Wm2726_03_1" Param3="=="/>
+	<Property ID="3272642" Name="关闭" UseLimitType="6" Param1="ConfigID" Param2="Buff_Wm2726_04_1" Param3="=="/>
+	<Property ID="3272652" Name="关闭" UseLimitType="6" Param1="ConfigID" Param2="Buff_Wm2726_05_1" Param3="=="/>
+	<Property ID="3272662" Name="关闭" UseLimitType="6" Param1="ConfigID" Param2="Buff_Wm2726_06_1" Param3="=="/>
+	<Property ID="329071" UseLimitType="1" Param1="Job" Param2="21" Param3="=="/>
+	<Property ID="329072" Param1="Job" Param2="22" Param3="==" UseLimitType="1"/>
+	<Property ID="329073" UseLimitType="1" Param1="Job" Param2="23" Param3="=="/>
+	<Property ID="81251" Name="50%血" UseLimitType="1" Param1="HPRatio" Param2="50" Param3="&lt;"/>
+	<Property ID="21020" Name="测试移动模式" UseLimitType="18" Param1="0"/>
+	<Property ID="82757" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="monster_zqm001_0063" Param3="=="/>
+	<Property ID="82719" Name="停止" UseLimitType="18" Param1="0"/>
+	<Property ID="312351" Name="散冲弹水中限制" UseLimitType="16" Param1="0"/>
+	<Property ID="827192" Name="地面移动" UseLimitType="18" Param1="1"/>
+	<Property ID="82761" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="convoy_qhpvp001_0001" Param3="=="/>
+	<Property ID="827612" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="convoy_qhpvp001_0002" Param3="=="/>
+	<Property ID="82762" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="convoy_zqpvp001_0002" Param3="=="/>
+	<Property ID="827622" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="convoy_zqpvp001_0003" Param3="=="/>
+	<Property ID="82774" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="monster_zqS001_0038" Param3="=="/>
+	<Property ID="8251111" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="npc_zlpvp001_0014" Param3="=="/>
+	<Property ID="8251112" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="npc_zlpvp001_0015" Param3="=="/>
+	<Property ID="8251113" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="npc_zlpvp001_0016" Param3="=="/>
+	<Property ID="8251114" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="npc_zlpvp001_0018" Param3="=="/>
+	<Property ID="82121" UseLimitType="1" Param1="HPRatio" Param2="90" Param3="&lt;" Name="小于90%血"/>
+	<Property ID="82122" UseLimitType="1" Param1="HPRatio" Param2="75" Param3="&lt;" Name="小于75%血"/>
+	<Property ID="825106" Name="只能在鲁尔勒车站使用" UseLimitType="4" Param1="5" Param2="011500000" Param3="=="/>
+	<Property ID="825107" Name="只能在裂痕隧道使用" UseLimitType="4" Param1="5" Param2="010100000" Param3="=="/>
+	<Property ID="825108" Name="只能在克尔平原使用" UseLimitType="4" Param1="5" Param2="010301000" Param3="=="/>
+	<Property ID="825109" Name="只能在鲁尔勒机场使用" UseLimitType="4" Param1="5" Param2="011300000" Param3="=="/>
+	<Property ID="825110" Name="只能在裂痕隧道使用" UseLimitType="4" Param1="5" Param2="011600000" Param3="=="/>
+	<Property ID="82690" Name="不在鲁尔勒车站使用" UseLimitType="4" Param1="5" Param2="011500000" Param3="!="/>
+	<Property ID="82691" Name="不在裂痕隧道使用" UseLimitType="4" Param1="5" Param2="010100000" Param3="!="/>
+	<Property ID="82692" Name="不在克尔平原使用" UseLimitType="4" Param1="5" Param2="010301000" Param3="!="/>
+	<Property ID="82693" Name="不在鲁尔勒机场使用" UseLimitType="4" Param1="5" Param2="011300000" Param3="!="/>
+	<Property ID="82694" Name="不在裂痕隧道使用" UseLimitType="4" Param1="5" Param2="011600000" Param3="!="/>
+	<Property ID="3103411" Name="电磁辐射怒气限制" UseLimitType="1" Param1="RC" Param2="4" Param3="&lt;="/>
+	<Property ID="82778" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="monster_qhS002_0061" Param3="=="/>
+	<Property ID="82776" Name="区域限制" UseLimitType="4" Param1="5" Param2="010300000" Param3="=="/>
+	<Property ID="82777" Name="区域限制" UseLimitType="4" Param1="5" Param2="010301000" Param3="=="/>
+	<Property ID="827762" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="monster_zqS001_0022" Param3="=="/>
+	<Property ID="827763" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="monster_zqS001_0023" Param3="=="/>
+	<Property ID="827764" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="monster_zqS001_0039" Param3="=="/>
+	<Property ID="851562" Name="50%血" UseLimitType="1" Param1="HPRatio" Param2="50" Param3="&lt;"/>
+	<Property ID="81411" Name="钉刺_目标限制1" UseLimitType="3" Param1="ConfigID" Param2="monster_qhS002_0062" Param3="=="/>
+	<Property ID="81412" Name="钉刺_目标限制2" UseLimitType="3" Param1="ConfigID" Param2="monster_qhS002_0063" Param3="=="/>
+	<Property ID="81413" Name="钉刺_目标限制3" UseLimitType="3" Param1="ConfigID" Param2="monster_qhS002_0064" Param3="=="/>
+	<Property ID="32603" Name="无debuff" UseLimitType="6" Param1="ConfigID" Param2="Buff_Em2603_01_2" Param3="!="/>
+	<Property ID="3161511" Name="行影术自身buff限制" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ch1615_01_1" Param3="=="/>
+	<Property ID="82399" UseLimitType="8" Param2="0.15" Param3="==" Name="15%的概率触发"/>
+	<Property ID="20785" Name="有敏刃之灵" UseLimitType="5" Param1="ConfigID" Param2="Buff_Bm3030_01_8" Param3="=="/>
+	<Property ID="33007" Name="地面移动" UseLimitType="18" Param1="1"/>
+	<Property ID="330071" Name="地面移动" UseLimitType="18" Param1="0"/>
+	<Property ID="31126" UseLimitType="8" Param2="0.1" Param3="==" Name="10%的概率触发"/>
+	<Property ID="3162611" Name="灵媒存在限制1" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ch1626_01_2" Param3="=="/>
+	<Property ID="82793" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="monster_zqS001_0040" Param3="=="/>
+	<Property ID="99622" Name="血量低于80%" UseLimitType="1" Param1="HPRatio" Param2="80" Param3="&lt;="/>
+	<Property ID="99623" Name="血量低于70%" UseLimitType="1" Param1="HPRatio" Param2="70" Param3="&lt;="/>
+	<Property ID="996450" Name="血量低于70%" UseLimitType="1" Param1="HPRatio" Param2="70" Param3="&lt;="/>
+	<Property ID="996440" Name="血量低于75%" UseLimitType="1" Param1="HPRatio" Param2="65" Param3="&lt;="/>
+	<Property ID="81421" Name="治愈_目标限制" UseLimitType="3" Param1="ConfigID" Param2="npc_zlm002_0066" Param3="=="/>
+	<Property ID="8251115" Name="不是指定目标" UseLimitType="3" Param1="ConfigID" Param2="npc_qhm002_0169" Param3="!="/>
+	<Property ID="99646" Name="75%血" UseLimitType="1" Param1="HPRatio" Param2="75" Param3="&lt;"/>
+	<Property ID="996562" Name="击倒buff" UseLimitType="15" Param1="buff_boss_0017_021" Param2="3" Param3="=="/>
+	<Property ID="82159" UseLimitType="8" Param2="0.75" Param3="==" Name="75%的概率触发"/>
+	<Property ID="821591" UseLimitType="8" Param2="0.25" Param3="==" Name="25%的概率触发"/>
+	<Property ID="317081" Name="战斗状态限制" UseLimitType="1" Param1="LogicState" Param2="1" Param3="!="/>
+	<Property ID="82160" UseLimitType="8" Param2="0.5" Param3="==" Name="50%的概率触发"/>
+	<Property ID="82161" UseLimitType="8" Param2="0.65" Param3="==" Name="65%的概率触发"/>
+	<Property ID="82162" Name="35%血" UseLimitType="1" Param1="HPRatio" Param2="35" Param3="&lt;"/>
+	<Property ID="821621" UseLimitType="8" Param2="0.25" Param3="==" Name="25%的概率触发"/>
+	<Property ID="82171" Name="对NPC限制" UseLimitType="3" Param1="ConfigID" Param3="==" Param2="npc_zhanchang_0007"/>
+	<Property ID="21021" Name="测试目标类型" UseLimitType="20" Param1="AttackNpc" Param3="=="/>
+	<Property ID="32503111" Name="火焰种子buff" UseLimitType="6" Param1="ConfigID" Param2="Buff_Fmcy2503_01_1" Param3="=="/>
+	<Property ID="32513111" Name="雷暴" UseLimitType="6" Param1="ConfigID" Param2="Buff_Fmcy2504_01_1" Param3="=="/>
+	<Property ID="32515111" Name="自身法术极效" UseLimitType="5" Param1="ConfigID" Param2="Buff_Fmcy2515_01_2" Param3="=="/>
+	<Property ID="33070" Name="触发大火球" UseLimitType="5" Param1="ConfigID" Param3="==" Param2="Buff_Fm70_Jhm_01"/>
+	<Property ID="33072" Name="闪电反应限制" UseLimitType="5" Param1="ConfigID" Param3="!=" Param2="Buff_Fm72_Jhm_02"/>
+	<Property ID="3251812" Name="50%几率" UseLimitType="8" Param2="0.5" Param3="=="/>
+	<Property ID="3251813" Name="30%几率" UseLimitType="8" Param2="0.3" Param3="=="/>
+	<Property ID="318091" Name="腐蚀毒素1" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ri1809_01_1" Param3="=="/>
+	<Property ID="3180921" Name="腐蚀毒素2" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ri1809_02_1" Param3="=="/>
+	<Property ID="3180931" Name="腐蚀毒素3" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ri1809_03_1" Param3="=="/>
+	<Property ID="3180941" Name="腐蚀毒素4" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ri1809_04_1" Param3="=="/>
+	<Property ID="3180951" Name="腐蚀毒素5" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ri1809_05_1" Param3="=="/>
+	<Property ID="3180961" Name="腐蚀毒素6" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ri1809_06_1" Param3="=="/>
+	<Property ID="3180661" Name="恶魔梦境6" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ri1806_06_1" Param3="=="/>
+	<Property ID="3180651" Name="恶魔梦境5" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ri1806_05_1" Param3="=="/>
+	<Property ID="3180641" Name="恶魔梦境4" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ri1806_04_1" Param3="=="/>
+	<Property ID="3180631" Name="恶魔梦境3" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ri1806_03_1" Param3="=="/>
+	<Property ID="3180621" Name="恶魔梦境2" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ri1806_02_1" Param3="=="/>
+	<Property ID="318061" Name="恶魔梦境1" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ri1806_01_1" Param3="=="/>
+	<Property ID="82813" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="npc_zqm001_0215" Param3="=="/>
+	<Property ID="828132" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="npc_zqm001_0216" Param3="=="/>
+	<Property ID="82814" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="npc_zqm001_0217" Param3="=="/>
+	<Property ID="91353" UseLimitType="1" Param1="HPRatio" Param2="30" Param3="&lt;" Name="小于30%血"/>
+	<Property ID="31130" Name="追魂夺魄" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ex1130_01_2" Param3="=="/>
+	<Property ID="81433" Name="火焰" UseLimitType="3" Param1="ConfigID" Param2="Organ_qhm002_0007" Param3="=="/>
+	<Property ID="3284311" Name="驯兽狼buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ec2806_01_2" Param3="=="/>
+	<Property ID="328421" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ec2841_01_2" Param3="==" Name="石头buff"/>
+	<Property ID="3284011" Name="驯兽牛buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ec2806_01_1" Param3="=="/>
+	<Property ID="32841" Name="30级以上" UseLimitType="1" Param1="Level" Param2="30" Param3="&gt;="/>
+	<Property ID="328422" Name="40级以上" UseLimitType="1" Param1="Level" Param2="40" Param3="&gt;="/>
+	<Property ID="32844" Name="30级以上" UseLimitType="1" Param1="Level" Param2="30" Param3="&gt;="/>
+	<Property ID="32845" Name="40级以上" UseLimitType="1" Param1="Level" Param2="40" Param3="&gt;="/>
+	<Property ID="311012" Name="在水中" UseLimitType="18" Param1="5"/>
+	<Property ID="311013" Name="不在水中" UseLimitType="16" Param1="0"/>
+	<Property ID="82174" UseLimitType="1" Param1="HPRatio" Param2="90" Param3="&lt;" Name="小于90%血"/>
+	<Property ID="82175" UseLimitType="1" Param1="HPRatio" Param2="99" Param3="&lt;" Name="小于99%血"/>
+	<Property ID="328022" Name="无buff1" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ec2802_01_1" Param3="!="/>
+	<Property ID="31025" UseLimitType="5" Param1="ConfigID" Param2="Buff_A" Param3="=="/>
+	<Property ID="329181" Name="火焰附加buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2909_01_2" Param3="=="/>
+	<Property ID="329182" Name="火焰附加buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2909_02_2" Param3="=="/>
+	<Property ID="329183" Name="火焰附加buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2909_03_2" Param3="=="/>
+	<Property ID="329184" Name="火焰附加buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2909_04_2" Param3="=="/>
+	<Property ID="329185" Name="火焰附加buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2909_05_2" Param3="=="/>
+	<Property ID="329186" Name="火焰附加buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2909_06_2" Param3="=="/>
+	<Property ID="3291812" Name="火焰附加buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2909_01_2" Param3="!="/>
+	<Property ID="3291822" Name="火焰附加buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2909_02_2" Param3="!="/>
+	<Property ID="3291832" Name="火焰附加buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2909_03_2" Param3="!="/>
+	<Property ID="3291842" Name="火焰附加buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2909_04_2" Param3="!="/>
+	<Property ID="3291852" Name="火焰附加buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2909_05_2" Param3="!="/>
+	<Property ID="3291862" Name="火焰附加buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2909_06_2" Param3="!="/>
+	<Property ID="3291813" Name="冰冻强化buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2908_01_2" Param3="=="/>
+	<Property ID="3291823" Name="冰冻强化buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2908_02_2" Param3="=="/>
+	<Property ID="3291833" Name="冰冻强化buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2908_03_2" Param3="=="/>
+	<Property ID="3291843" Name="冰冻强化buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2908_04_2" Param3="=="/>
+	<Property ID="3291853" Name="冰冻强化buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2908_05_2" Param3="=="/>
+	<Property ID="3291863" Name="冰冻强化buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2908_06_2" Param3="=="/>
+	<Property ID="3291814" Name="火焰附加buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2908_01_2" Param3="!="/>
+	<Property ID="3291824" Name="火焰附加buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2908_02_2" Param3="!="/>
+	<Property ID="3291834" Name="火焰附加buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2908_03_2" Param3="!="/>
+	<Property ID="3291844" Name="火焰附加buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2908_04_2" Param3="!="/>
+	<Property ID="3291854" Name="火焰附加buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2908_05_2" Param3="!="/>
+	<Property ID="3291864" Name="火焰附加buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2908_06_2" Param3="!="/>
+	<Property ID="3291815" Name="雷电强化buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2910_01_2" Param3="=="/>
+	<Property ID="3291825" Name="雷电强化buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2910_02_2" Param3="=="/>
+	<Property ID="3291835" Name="雷电强化buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2910_03_2" Param3="=="/>
+	<Property ID="3291845" Name="雷电强化buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2910_04_2" Param3="=="/>
+	<Property ID="3291855" Name="雷电强化buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2910_05_2" Param3="=="/>
+	<Property ID="3291865" Name="雷电强化buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2910_06_2" Param3="=="/>
+	<Property ID="8279901" Name="25级以上" UseLimitType="1" Param1="Level" Param2="20" Param3="&gt;="/>
+	<Property ID="8279902" Name="35级以下" UseLimitType="1" Param1="Level" Param2="35" Param3="&lt;"/>
+	<Property ID="8279903" Name="35级以上" UseLimitType="1" Param1="Level" Param2="35" Param3="&gt;="/>
+	<Property ID="8279904" Name="40级以下" UseLimitType="1" Param1="Level" Param2="40" Param3="&lt;="/>
+	<Property ID="329101" Name="炼狱诅咒1" UseLimitType="15" Param1="Buff_Mw2917_01_1" Param2="1" Param3="=="/>
+	<Property ID="329102" Name="炼狱诅咒2" UseLimitType="15" Param1="Buff_Mw2917_01_1" Param2="2" Param3="=="/>
+	<Property ID="329103" Name="炼狱诅咒3" UseLimitType="15" Param1="Buff_Mw2917_01_1" Param2="3" Param3="=="/>
+	<Property ID="3291211" Name="烈焰盾" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2912_01_2" Param3="=="/>
+	<Property ID="3291221" Name="冰霜盾" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2912_01_3" Param3="=="/>
+	<Property ID="3291231" Name="无冰盾" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2912_01_3" Param3="!="/>
+	<Property ID="3291241" Name="无过度" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2912_01_4" Param3="!="/>
+	<Property ID="82828" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="npc_zqm001_0218" Param3="=="/>
+	<Property ID="82829" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="npc_zqm001_0218" Param3="=="/>
+	<Property ID="82830" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="Organ_zqm001_0004" Param3="=="/>
+	<Property ID="82831" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="npc_zqm001_0219" Param3="=="/>
+	<Property ID="317371" Name="巫术增幅30%几率" UseLimitType="8" Param2="0.3" Param3="=="/>
+	<Property ID="317013" Name="20%几率冷却" UseLimitType="8" Param2="0.2" Param3="=="/>
+	<Property ID="317361" Name="暗涌BUFF判定" UseLimitType="6" Param1="ConfigID" Param2="Buff_Wt1736_01_1" Param3="=="/>
+	<Property ID="3173621" Name="暗涌BUFF判定" UseLimitType="6" Param1="ConfigID" Param2="Buff_Wt1736_02_1" Param3="=="/>
+	<Property ID="3173631" Name="暗涌BUFF判定" UseLimitType="6" Param1="ConfigID" Param2="Buff_Wt1736_03_1" Param3="=="/>
+	<Property ID="3173641" Name="暗涌BUFF判定" UseLimitType="6" Param1="ConfigID" Param2="Buff_Wt1736_04_1" Param3="=="/>
+	<Property ID="3173651" Name="暗涌BUFF判定" UseLimitType="6" Param1="ConfigID" Param2="Buff_Wt1736_05_1" Param3="=="/>
+	<Property ID="3173661" Name="暗涌BUFF判定" UseLimitType="6" Param1="ConfigID" Param2="Buff_Wt1736_06_1" Param3="=="/>
+	<Property ID="82837" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="monster_qhm002_0009" Param3="=="/>
+	<Property ID="32936" Name="雷电之触" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2936_01_2" Param3="=="/>
+	<Property ID="82838" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="monster_qhm002_0002" Param3="=="/>
+	<Property ID="82839" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="monster_qhm002_0015" Param3="=="/>
+	<Property ID="82840" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="npc_zqm001_0218" Param3="=="/>
+	<Property ID="230571" UseLimitType="8" Param2="0.1" Param3="==" Name="10%的概率触发"/>
+	<Property ID="3286113" Name="兽魂buff1" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ec2802_01_2" Param3="=="/>
+	<Property ID="328031" Name="地面移动" UseLimitType="18" Param1="1"/>
+	<Property ID="328032" Name="地面移动" UseLimitType="18" Param1="0"/>
+	<Property ID="3160111" Name="目标为敌方" UseLimitType="11" Param1="1"/>
+	<Property ID="3160112" Name="目标为友方" UseLimitType="11" Param1="2"/>
+	<Property ID="3160113" Name="目标咒法烙印限制1" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ch1601_01_1" Param3="=="/>
+	<Property ID="3160114" Name="自身咒法烙印限制1" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ch1601_01_2" Param3="=="/>
+	<Property ID="3160123" Name="目标咒法烙印限制2" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ch1601_02_1" Param3="=="/>
+	<Property ID="3160124" Name="自身咒法烙印限制2" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ch1601_02_2" Param3="=="/>
+	<Property ID="3160133" Name="目标咒法烙印限制3" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ch1601_03_1" Param3="=="/>
+	<Property ID="3160134" Name="自身咒法烙印限制3" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ch1601_03_2" Param3="=="/>
+	<Property ID="3160143" Name="目标咒法烙印限制4" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ch1601_04_1" Param3="=="/>
+	<Property ID="3160144" Name="自身咒法烙印限制4" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ch1601_04_2" Param3="=="/>
+	<Property ID="3160153" Name="目标咒法烙印限制5" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ch1601_05_1" Param3="=="/>
+	<Property ID="3160154" Name="自身咒法烙印限制5" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ch1601_05_2" Param3="=="/>
+	<Property ID="3160163" Name="目标咒法烙印限制6" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ch1601_06_1" Param3="=="/>
+	<Property ID="3160164" Name="自身咒法烙印限制6" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ch1601_06_2" Param3="=="/>
+	<Property ID="3160611" Name="目标幻术标记限制1" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ch1606_01_1" Param3="=="/>
+	<Property ID="3160612" Name="自身幻术标记限制1" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ch1606_01_2" Param3="=="/>
+	<Property ID="3160621" Name="目标幻术标记限制2" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ch1606_02_1" Param3="=="/>
+	<Property ID="3160622" Name="自身幻术标记限制2" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ch1606_02_2" Param3="=="/>
+	<Property ID="3160631" Name="目标幻术标记限制3" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ch1606_03_1" Param3="=="/>
+	<Property ID="3160632" Name="自身幻术标记限制3" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ch1606_03_2" Param3="=="/>
+	<Property ID="3160641" Name="目标幻术标记限制4" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ch1606_04_1" Param3="=="/>
+	<Property ID="3160642" Name="自身幻术标记限制4" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ch1606_04_2" Param3="=="/>
+	<Property ID="3160651" Name="目标幻术标记限制5" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ch1606_05_1" Param3="=="/>
+	<Property ID="3160652" Name="自身幻术标记限制5" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ch1606_05_2" Param3="=="/>
+	<Property ID="3160661" Name="目标幻术标记限制6" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ch1606_06_1" Param3="=="/>
+	<Property ID="3160662" Name="自身幻术标记限制6" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ch1606_06_2" Param3="=="/>
+	<Property ID="3160811" Name="刺骨阴风燃烧修正buff存在1" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ch1608_01_2" Param3="=="/>
+	<Property ID="3160821" Name="刺骨阴风燃烧修正buff存在2" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ch1608_02_2" Param3="=="/>
+	<Property ID="3160831" Name="刺骨阴风燃烧修正buff存在3" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ch1608_03_2" Param3="=="/>
+	<Property ID="3160841" Name="刺骨阴风燃烧修正buff存在4" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ch1608_04_2" Param3="=="/>
+	<Property ID="3160851" Name="刺骨阴风燃烧修正buff存在5" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ch1608_05_2" Param3="=="/>
+	<Property ID="3160861" Name="刺骨阴风燃烧修正buff存在6" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ch1608_06_2" Param3="=="/>
+	<Property ID="828392" Name="75%的概率成功" UseLimitType="8" Param2="0.75" Param3="=="/>
+	<Property ID="828393" Name="50%的概率成功" UseLimitType="8" Param2="0.5" Param3="=="/>
+	<Property ID="3160021" Name="苍穹魔咒存在2" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ch1609_02_1" Param3="=="/>
+	<Property ID="3160031" Name="苍穹魔咒存在3" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ch1609_03_1" Param3="=="/>
+	<Property ID="3160041" Name="苍穹魔咒存在4" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ch1609_04_1" Param3="=="/>
+	<Property ID="3160051" Name="苍穹魔咒存在5" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ch1609_05_1" Param3="=="/>
+	<Property ID="3160061" Name="苍穹魔咒存在6" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ch1609_06_1" Param3="=="/>
+	<Property ID="32901" Name="烈焰盾" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2936_01_2" Param3="=="/>
+	<Property ID="3160613" Name="自身无幻术标记限制1" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ch1606_01_2" Param3="!="/>
+	<Property ID="3160623" Name="自身无幻术标记限制2" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ch1606_02_2" Param3="!="/>
+	<Property ID="3160633" Name="自身无幻术标记限制3" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ch1606_03_2" Param3="!="/>
+	<Property ID="3160643" Name="自身无幻术标记限制4" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ch1606_04_2" Param3="!="/>
+	<Property ID="3160653" Name="自身无幻术标记限制5" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ch1606_05_2" Param3="!="/>
+	<Property ID="3160663" Name="自身无幻术标记限制6" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ch1606_06_2" Param3="!="/>
+	<Property ID="3103511" Name="反伤限制" UseLimitType="6" Param1="ConfigID" Param2="Buff_In1035_01_4" Param3="!="/>
+	<Property ID="82843" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="monster_zqm004_0030" Param3="=="/>
+	<Property ID="82844" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="npc_zqm001_0246" Param3="=="/>
+	<Property ID="82845" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="monster_zqm001_0098" Param3="=="/>
+	<Property ID="310351" Name="需求战意高昂" UseLimitType="6" Param1="ConfigID" Param2="Buff_In1001_01_1" Param3="=="/>
+	<Property ID="310352" Name="需求战意高昂" UseLimitType="6" Param1="ConfigID" Param2="Buff_In1001_02_1" Param3="=="/>
+	<Property ID="310353" Name="需求战意高昂" UseLimitType="6" Param1="ConfigID" Param2="Buff_In1001_03_1" Param3="=="/>
+	<Property ID="310354" Name="需求战意高昂" UseLimitType="6" Param1="ConfigID" Param2="Buff_In1001_04_1" Param3="=="/>
+	<Property ID="310355" Name="需求战意高昂" UseLimitType="6" Param1="ConfigID" Param2="Buff_In1001_05_1" Param3="=="/>
+	<Property ID="310356" Name="需求战意高昂" UseLimitType="6" Param1="ConfigID" Param2="Buff_In1001_06_1" Param3="=="/>
+	<Property ID="31803" Name="10%几率" UseLimitType="8" Param2="0.1" Param3="=="/>
+	<Property ID="310371" Name="15%概率" UseLimitType="8" Param2="0.15" Param3="=="/>
+	<Property ID="310372" Name="18%概率" UseLimitType="8" Param2="0.18" Param3="=="/>
+	<Property ID="310373" Name="21%概率" UseLimitType="8" Param2="0.21" Param3="=="/>
+	<Property ID="310374" Name="24%概率" UseLimitType="8" Param2="0.24" Param3="=="/>
+	<Property ID="310375" Name="27%概率" UseLimitType="8" Param2="0.27" Param3="=="/>
+	<Property ID="310376" Name="30%概率" UseLimitType="8" Param2="0.3" Param3="=="/>
+	<Property ID="828394" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="monster_qhm004_0038" Param3="=="/>
+	<Property ID="82848" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="monster_zqm001_0099" Param3="=="/>
+	<Property ID="82849" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="npc_zqm001_0244" Param3="=="/>
+	<Property ID="82850" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="npc_zqm001_0245" Param3="=="/>
+	<Property ID="828153" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="monster_zqm001_0079" Param3="=="/>
+	<Property ID="82851" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="npc_qhm004_0074" Param3="=="/>
+	<Property ID="31036" Name="敌人" UseLimitType="11" Param1="1"/>
+	<Property ID="310361" Name="友方" UseLimitType="11" Param1="2"/>
+	<Property ID="328691" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ec2859_01_1" Param3="=="/>
+	<Property ID="318081" Name="恶灵诅咒1" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ri1808_01_1" Param3="=="/>
+	<Property ID="3180821" Name="恶灵诅咒2" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ri1808_02_1" Param3="=="/>
+	<Property ID="3180831" Name="恶灵诅咒3" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ri1808_03_1" Param3="=="/>
+	<Property ID="3180841" Name="恶灵诅咒1" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ri1808_04_1" Param3="=="/>
+	<Property ID="3180851" Name="恶灵诅咒1" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ri1808_05_1" Param3="=="/>
+	<Property ID="3180861" Name="恶灵诅咒1" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ri1808_06_1" Param3="=="/>
+	<Property ID="32625" Name="有BUFF" UseLimitType="5" Param1="ConfigID" Param2="Buff_Em2625_01_5" Param3="=="/>
+	<Property ID="32625111" Name="对指定目标使用" UseLimitType="21" Param3="!="/>
+	<Property ID="32600" Name="亲和之力引爆" UseLimitType="14" Param1="Buff_Em2600_01_1" Param2="6" Param3="=="/>
+	<Property ID="3284021" Name="驯兽无牛buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ec2806_01_1" Param3="!="/>
+	<Property ID="3284321" Name="驯兽无狼buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ec2806_01_2" Param3="!="/>
+	<Property ID="82852" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="Carrier_zqm001_001" Param3="=="/>
+	<Property ID="3284012" Name="驯兽牛buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ec2806_02_1" Param3="=="/>
+	<Property ID="3284013" Name="驯兽牛buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ec2806_03_1" Param3="=="/>
+	<Property ID="3284014" Name="驯兽牛buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ec2806_04_1" Param3="=="/>
+	<Property ID="3284015" Name="驯兽牛buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ec2806_05_1" Param3="=="/>
+	<Property ID="3284016" Name="驯兽牛buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ec2806_06_1" Param3="=="/>
+	<Property ID="3284022" Name="驯兽无牛buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ec2806_02_1" Param3="!="/>
+	<Property ID="3284023" Name="驯兽无牛buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ec2806_03_1" Param3="!="/>
+	<Property ID="3284024" Name="驯兽无牛buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ec2806_04_1" Param3="!="/>
+	<Property ID="3284025" Name="驯兽无牛buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ec2806_05_1" Param3="!="/>
+	<Property ID="3284026" Name="驯兽无牛buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ec2806_06_1" Param3="!="/>
+	<Property ID="3284312" Name="驯兽狼buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ec2806_02_2" Param3="=="/>
+	<Property ID="3284313" Name="驯兽狼buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ec2806_03_2" Param3="=="/>
+	<Property ID="3284314" Name="驯兽狼buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ec2806_04_2" Param3="=="/>
+	<Property ID="3284315" Name="驯兽狼buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ec2806_05_2" Param3="=="/>
+	<Property ID="3284316" Name="驯兽狼buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ec2806_06_2" Param3="=="/>
+	<Property ID="3284322" Name="驯兽无狼buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ec2806_02_2" Param3="!="/>
+	<Property ID="3284323" Name="驯兽无狼buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ec2806_03_2" Param3="!="/>
+	<Property ID="3284324" Name="驯兽无狼buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ec2806_04_2" Param3="!="/>
+	<Property ID="3284325" Name="驯兽无狼buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ec2806_05_2" Param3="!="/>
+	<Property ID="3284326" Name="驯兽无狼buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ec2806_06_2" Param3="!="/>
+	<Property ID="82853" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="npc_zlm010_0016" Param3="=="/>
+	<Property ID="82184" UseLimitType="1" Param1="HPRatio" Param2="5" Param3="&lt;" Name="小于5%血"/>
+	<Property ID="82854" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="monster_zqm001_0098" Param3="=="/>
+	<Property ID="3291212" Name="烈焰盾" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2912_02_2" Param3="=="/>
+	<Property ID="3291213" Name="烈焰盾" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2912_03_2" Param3="=="/>
+	<Property ID="3291214" Name="烈焰盾" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2912_04_2" Param3="=="/>
+	<Property ID="3291215" Name="烈焰盾" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2912_05_2" Param3="=="/>
+	<Property ID="3291216" Name="烈焰盾" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2912_06_2" Param3="=="/>
+	<Property ID="3291222" Name="冰霜盾" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2912_02_3" Param3="=="/>
+	<Property ID="3291223" Name="冰霜盾" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2912_03_3" Param3="=="/>
+	<Property ID="3291224" Name="冰霜盾" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2912_04_3" Param3="=="/>
+	<Property ID="3291225" Name="冰霜盾" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2912_05_3" Param3="=="/>
+	<Property ID="3291226" Name="冰霜盾" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2912_06_3" Param3="=="/>
+	<Property ID="3291232" Name="无冰盾" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2912_02_3" Param3="!="/>
+	<Property ID="3291233" Name="无冰盾" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2912_03_3" Param3="!="/>
+	<Property ID="3291234" Name="无冰盾" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2912_04_3" Param3="!="/>
+	<Property ID="3291235" Name="无冰盾" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2912_05_3" Param3="!="/>
+	<Property ID="3291236" Name="无冰盾" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2912_06_3" Param3="!="/>
+	<Property ID="3291242" Name="无过度" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2912_02_4" Param3="!="/>
+	<Property ID="3291243" Name="无过度" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2912_03_4" Param3="!="/>
+	<Property ID="3291244" Name="无过度" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2912_04_4" Param3="!="/>
+	<Property ID="3291245" Name="无过度" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2912_05_4" Param3="!="/>
+	<Property ID="3291246" Name="无过度" UseLimitType="5" Param1="ConfigID" Param2="Buff_Mw2912_06_4" Param3="!="/>
+	<Property ID="82855" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="npc_zqm001_0340" Param3="=="/>
+	<Property ID="82856" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="npc_zqm001_0341" Param3="=="/>
+	<Property ID="82857" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="Organ_zqm002_0003" Param3="=="/>
+	<Property ID="87000" Name="10%几率" UseLimitType="8" Param2="0.1" Param3="=="/>
+	<Property ID="82859" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="monster_zlm010_0066" Param3="=="/>
+	<Property ID="828592" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="monster_zlm010_0067" Param3="=="/>
+	<Property ID="828593" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="monster_zlm010_0068" Param3="=="/>
+	<Property ID="31814" Name="10%几率" UseLimitType="8" Param2="0.1" Param3="=="/>
+	<Property ID="82861" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="npc_zqm001_0070" Param3="=="/>
+	<Property ID="82862" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="npc_zqm001_0070" Param3="=="/>
+	<Property ID="82863" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="monster_zqm001_0098" Param3="=="/>
+	<Property ID="82864" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="monster_zqm001_0080" Param3="=="/>
+	<Property ID="828642" UseLimitType="3" Param1="HPRatio" Param2="50" Param3="&lt;" Name="小于50%血"/>
+	<Property ID="82865" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="monster_zlm011_0011" Param3="=="/>
+	<Property ID="3280413" Name="长矛1" UseLimitType="14" Param1="Buff_Ec2804_01_3" Param2="2" Param3="=="/>
+	<Property ID="3280423" Name="长矛2" UseLimitType="14" Param1="Buff_Ec2804_01_3" Param2="3" Param3="=="/>
+	<Property ID="3280433" Name="长矛3" UseLimitType="14" Param1="Buff_Ec2804_01_3" Param2="4" Param3="=="/>
+	<Property ID="828395" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="monster_zlm010_0006" Param3="=="/>
+	<Property ID="870001" Name="15%几率" UseLimitType="8" Param2="0.15" Param3="=="/>
+	<Property ID="3286116" Name="生命祝福" UseLimitType="5" Param2="Buff_Ec2802_01_2" Param3="==" Param1="ConfigID"/>
+	<Property ID="80003" Name="血量" UseLimitType="1" Param1="HPRatio" Param2="60" Param3="&lt;="/>
+	<Property ID="32610" Name="亲和之力引爆" UseLimitType="14" Param1="Buff_Em2610_01_2" Param2="5" Param3="=="/>
+	<Property ID="3280601" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2801_01_0" Param3="!=" Name="没有驯兽限制"/>
+	<Property ID="220001" Name="小于30%" UseLimitType="1" Param1="HPRatio" Param2="30" Param3="&lt;"/>
+	<Property ID="80701" Name="血量低于90%" UseLimitType="1" Param1="HPRatio" Param2="90" Param3="&lt;"/>
+	<Property ID="21022" Name="限制竞技场" UseLimitType="4" Param1="7" Param2="203" Param3="!="/>
+	<Property ID="210023" UseLimitType="1" Param1="SkillRandNum" Param2="1" Param3="=="/>
+	<Property ID="210024" UseLimitType="1" Param1="SkillRandNum" Param2="2" Param3="=="/>
+	<Property ID="210025" UseLimitType="1" Param1="SkillRandNum" Param2="3" Param3="=="/>
+	<Property ID="3280611" UseLimitType="3" Param1="ConfigID" Param2="Fight_1_00070" Param3="==" Name="犀牛"/>
+	<Property ID="3280621" UseLimitType="3" Param1="ConfigID" Param2="Fight_1_00080" Param3="==" Name="狼"/>
+	<Property ID="3109916" Name="无惩罚之怒" UseLimitType="5" Param1="ConfigID" Param2="Buff_In1051_01_1" Param3="!="/>
+	<Property ID="211101" Name="特定目标幼狐" UseLimitType="3" Param1="ConfigID" Param2="monster_qhm002_0001" Param3="=="/>
+	<Property ID="3286125" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2846_01_1" Param3="!="/>
+	<Property ID="211102" Name="特定目标载具" UseLimitType="3" Param1="ConfigID" Param2="npc_qhm002_0222" Param3="=="/>
+	<Property ID="82871" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="npc_ZQEW001_0050" Param3="=="/>
+	<Property ID="82908" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="monster_ZQEW001_0010" Param3="=="/>
+	<Property ID="81448" Name="毒箭_概率" UseLimitType="8" Param2="0.1" Param3="=="/>
+	<Property ID="81452" Name="飞斧_撕裂" UseLimitType="8" Param2="0.8" Param3="=="/>
+	<Property ID="3162112" Name="咒术飞弹替换技能无冷却buff限制" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ch1621_01_2" Param3="!="/>
+	<Property ID="82847" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="monster_qhm004_0004" Param3="=="/>
+	<Property ID="32611" Name="守护冲锋BUFF" UseLimitType="5" Param1="ConfigID" Param2="Buff_Em2611_01_4" Param3="!="/>
+	<Property ID="317141" Name="发力爆炸20%几率" UseLimitType="8" Param2="0.2" Param3="=="/>
+	<Property ID="3103512" Name="反伤限制" UseLimitType="6" Param1="ConfigID" Param2="Buff_In1035_02_4" Param3="!="/>
+	<Property ID="3103513" Name="反伤限制" UseLimitType="6" Param1="ConfigID" Param2="Buff_In1035_03_4" Param3="!="/>
+	<Property ID="3103514" Name="反伤限制" UseLimitType="6" Param1="ConfigID" Param2="Buff_In1035_04_4" Param3="!="/>
+	<Property ID="3103515" Name="反伤限制" UseLimitType="6" Param1="ConfigID" Param2="Buff_In1035_05_4" Param3="!="/>
+	<Property ID="3103516" Name="反伤限制" UseLimitType="6" Param1="ConfigID" Param2="Buff_In1035_06_4" Param3="!="/>
+	<Property ID="83898" Name="疯狂者" UseLimitType="3" Param1="Config" Param2="monster_zqm001_0098" Param3="=="/>
+	<Property ID="317391" Name="血量低于40%" UseLimitType="1" Param1="HPRatio" Param2="40" Param3="&gt;"/>
+	<Property ID="3280631" Name="没有牛强1" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2806_01_1" Param3="!="/>
+	<Property ID="3280641" Name="没有狼强1" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2806_01_2" Param3="!="/>
+	<Property ID="3280651" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2806_01_1" Param3="==" Name="有牛强1"/>
+	<Property ID="3280632" Name="没有牛强2" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2806_02_1" Param3="!="/>
+	<Property ID="3280633" Name="没有牛强3" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2806_03_1" Param3="!="/>
+	<Property ID="3280634" Name="没有牛强4" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2806_04_1" Param3="!="/>
+	<Property ID="3280635" Name="没有牛强5" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2806_05_1" Param3="!="/>
+	<Property ID="3280636" Name="没有牛强6" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2806_06_1" Param3="!="/>
+	<Property ID="3280652" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2806_02_1" Param3="==" Name="有牛强2"/>
+	<Property ID="3280653" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2806_03_1" Param3="==" Name="有牛强3"/>
+	<Property ID="3280654" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2806_04_1" Param3="==" Name="有牛强4"/>
+	<Property ID="3280655" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2806_05_1" Param3="==" Name="有牛强5"/>
+	<Property ID="3280656" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2806_06_1" Param3="==" Name="有牛强6"/>
+	<Property ID="3284031" Name="驯兽弱buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ec2806_01_3" Param3="=="/>
+	<Property ID="3284032" Name="驯兽弱buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ec2806_02_3" Param3="=="/>
+	<Property ID="3284033" Name="驯兽弱buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ec2806_03_3" Param3="=="/>
+	<Property ID="3284034" Name="驯兽弱buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ec2806_04_3" Param3="=="/>
+	<Property ID="3284035" Name="驯兽弱buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ec2806_05_3" Param3="=="/>
+	<Property ID="3284036" Name="驯兽弱buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ec2806_06_3" Param3="=="/>
+	<Property ID="3280642" Name="没有狼强2" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2806_02_2" Param3="!="/>
+	<Property ID="3280643" Name="没有狼强3" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2806_03_2" Param3="!="/>
+	<Property ID="3280644" Name="没有狼强4" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2806_04_2" Param3="!="/>
+	<Property ID="3280645" Name="没有狼强5" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2806_05_2" Param3="!="/>
+	<Property ID="3280646" Name="没有狼强6" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2806_06_2" Param3="!="/>
+	<Property ID="3280661" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2806_01_2" Param3="==" Name="有狼强1"/>
+	<Property ID="3280662" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2806_02_2" Param3="==" Name="有狼强2"/>
+	<Property ID="3280663" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2806_03_2" Param3="==" Name="有狼强3"/>
+	<Property ID="3280664" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2806_04_2" Param3="==" Name="有狼强4"/>
+	<Property ID="3280665" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2806_05_2" Param3="==" Name="有狼强5"/>
+	<Property ID="3280666" UseLimitType="6" Param1="ConfigID" Param2="Buff_Ec2806_06_2" Param3="==" Name="有狼强6"/>
+	<Property ID="21023" Name="限制竞技场" UseLimitType="4" Param1="7" Param2="208" Param3="!="/>
+	<Property ID="21024" Name="限制竞技场" UseLimitType="4" Param1="7" Param2="209" Param3="!="/>
+	<Property ID="21025" Name="限制竞技场" UseLimitType="4" Param1="7" Param2="301" Param3="!="/>
+	<Property ID="311014" Name="潜行-pvp活动限制" UseLimitType="5" Param1="ConfigID" Param2="Buff_skill_zhadan_zq" Param3="!="/>
+	<Property ID="311015" Name="潜行-pvp活动限制" UseLimitType="5" Param1="ConfigID" Param2="Buff_skill_zhadan_qh" Param3="!="/>
+	<Property ID="311016" Name="潜行-pvp活动限制" UseLimitType="5" Param1="ConfigID" Param2="Buff_skill_zhadan_zl" Param3="!="/>
+	<Property ID="21026" Name="限制竞技场" UseLimitType="4" Param1="7" Param2="210" Param3="!="/>
+	<Property ID="43212" Name="撞击" UseLimitType="3" Param1="ConfigID" Param2="monster_qhS002_0085" Param3="=="/>
+	<Property ID="3286411" Name="驯兽无狼buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ec2806_01_3" Param3="!="/>
+	<Property ID="3286412" Name="驯兽无狼buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ec2806_02_3" Param3="!="/>
+	<Property ID="3286413" Name="驯兽无狼buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ec2806_03_3" Param3="!="/>
+	<Property ID="3286414" Name="驯兽无狼buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ec2806_04_3" Param3="!="/>
+	<Property ID="3286415" Name="驯兽无狼buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ec2806_05_3" Param3="!="/>
+	<Property ID="3286416" Name="驯兽无狼buff" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ec2806_06_3" Param3="!="/>
+	<Property ID="3160788" Name="迷失的氏族精锐" UseLimitType="3" Param1="ConfigID" Param2="monster_qhm003_0019" Param3="=="/>
+	<Property ID="3160789" Name="波比" UseLimitType="3" Param1="ConfigID" Param2="convoy_zqm0011_0207" Param3="=="/>
+	<Property ID="4100001" Name="原水之灵" UseLimitType="3" Param1="ConfigID" Param2="monster_zqm003_0201" Param3="=="/>
+	<Property ID="43214" Name="撞击鱼人" UseLimitType="3" Param1="ConfigID" Param2="monster_zqS001_0063" Param3="=="/>
+	<Property ID="43215" Name="蒙多使用" UseLimitType="3" Param1="ConfigID" Param2="monster_qhm003_0017" Param3="=="/>
+	<Property ID="82858" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="monster_zlm010_0083" Param3="=="/>
+	<Property ID="4100002" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="npc_qhm003_0068" Param3="=="/>
+	<Property ID="3160799" Name="库萨班余晖" UseLimitType="3" Param1="ConfigID" Param2="monster_qhm003_0030" Param3="=="/>
+	<Property ID="43216" UseLimitType="3" Param1="ConfigID" Param2="npc_zqm001_0219" Param3="=="/>
+	<Property ID="43225" Name="对指定npc使用" UseLimitType="3" Param1="ConfigID" Param2="npc_zlm002_0074" Param3="=="/>
+	<Property ID="432691" Name="厄运之源" UseLimitType="3" Param1="ConfigID" Param2="npc_zqm003_0302" Param3="=="/>
+	<Property ID="432692" Name="虚弱矮人" UseLimitType="3" Param1="ConfigID" Param2="monster_zqm005_0024" Param3="=="/>
+	<Property ID="432693" Name="金属块救人" UseLimitType="3" Param1="ConfigID" Param2="npc_zlm015_0116" Param3="=="/>
+	<Property ID="828396" Name="死亡限制" UseLimitType="3" Param1="Dead" Param2="0" Param3="=="/>
+	<Property ID="82201" Name="死亡宣判" UseLimitType="1" Param1="SkillRandNum" Param2="1" Param3="=="/>
+	<Property ID="822012" Name="死亡宣判" UseLimitType="1" Param1="SkillRandNum" Param2="2" Param3="=="/>
+	<Property ID="822013" Name="死亡宣判" UseLimitType="1" Param1="SkillRandNum" Param2="3" Param3="=="/>
+	<Property ID="822014" Name="死亡宣判75血" UseLimitType="1" Param1="HPRatio" Param2="75" Param3="&lt;"/>
+	<Property ID="82163" Name="魔法闪电99" UseLimitType="1" Param1="HPRatio" Param2="99" Param3="&lt;"/>
+	<Property ID="46001" Name="只能在黎明港使用" UseLimitType="4" Param1="5" Param2="151400000" Param3="=="/>
+	<Property ID="46002" Name="不在黎明港使用" UseLimitType="4" Param1="5" Param2="151400000" Param3="!="/>
+	<Property ID="46003" Name="只能在十锤城使用" UseLimitType="4" Param1="5" Param2="031400000" Param3="=="/>
+	<Property ID="46004" Name="不在十锤城使用" UseLimitType="4" Param1="5" Param2="031400000" Param3="!="/>
+	<Property ID="41010" Name="盆地轰炸" UseLimitType="3" Param1="ConfigID" Param2="monster_zlm012_0005" Param3="=="/>
+	<Property ID="87515" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="FB_DGPD_0056_1" Param3="=="/>
+	<Property ID="875152" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="FB_DGPD_0056_2" Param3="=="/>
+	<Property ID="875153" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="FB_DGPD_0056_3" Param3="=="/>
+	<Property ID="875154" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="FB_DGPD_0056_4" Param3="=="/>
+	<Property ID="875155" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="FB_DGPD_0056_5" Param3="=="/>
+	<Property ID="875156" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="FB_DGPD_0056_6" Param3="=="/>
+	<Property ID="875157" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="FB_DGPD_0056_7" Param3="=="/>
+	<Property ID="875158" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="FB_DGPD_0056_8" Param3="=="/>
+	<Property ID="875159" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="FB_DGPD_0056_9" Param3="=="/>
+	<Property ID="8751510" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="FB_DGPD_0056_10" Param3="=="/>
+	<Property ID="8751511" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="FB_DGPD_0056_11" Param3="=="/>
+	<Property ID="8751512" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="FB_DGPD_0056_12" Param3="=="/>
+	<Property ID="87516" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="FB_DGPD_0057_1" Param3="=="/>
+	<Property ID="875162" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="FB_DGPD_0057_2" Param3="=="/>
+	<Property ID="875163" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="FB_DGPD_0057_3" Param3="=="/>
+	<Property ID="875164" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="FB_DGPD_0057_4" Param3="=="/>
+	<Property ID="875165" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="FB_DGPD_0057_5" Param3="=="/>
+	<Property ID="875166" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="FB_DGPD_0057_6" Param3="=="/>
+	<Property ID="875167" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="FB_DGPD_0057_7" Param3="=="/>
+	<Property ID="875168" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="FB_DGPD_0057_8" Param3="=="/>
+	<Property ID="875169" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="FB_DGPD_0057_9" Param3="=="/>
+	<Property ID="8751610" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="FB_DGPD_0057_10" Param3="=="/>
+	<Property ID="8751611" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="FB_DGPD_0057_11" Param3="=="/>
+	<Property ID="8751612" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="FB_DGPD_0057_12" Param3="=="/>
+	<Property ID="87517" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="FB_DGPD_0058_1" Param3="=="/>
+	<Property ID="875172" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="FB_DGPD_0058_2" Param3="=="/>
+	<Property ID="875173" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="FB_DGPD_0058_3" Param3="=="/>
+	<Property ID="875174" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="FB_DGPD_0058_4" Param3="=="/>
+	<Property ID="875175" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="FB_DGPD_0058_5" Param3="=="/>
+	<Property ID="875176" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="FB_DGPD_0058_6" Param3="=="/>
+	<Property ID="875177" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="FB_DGPD_0058_7" Param3="=="/>
+	<Property ID="875178" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="FB_DGPD_0058_8" Param3="=="/>
+	<Property ID="875179" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="FB_DGPD_0058_9" Param3="=="/>
+	<Property ID="8751710" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="FB_DGPD_0058_10" Param3="=="/>
+	<Property ID="8751711" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="FB_DGPD_0058_11" Param3="=="/>
+	<Property ID="8751712" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="FB_DGPD_0058_12" Param3="=="/>
+	<Property ID="87518" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="FB_DGPD_0059_1" Param3="=="/>
+	<Property ID="875182" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="FB_DGPD_0059_2" Param3="=="/>
+	<Property ID="875183" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="FB_DGPD_0059_3" Param3="=="/>
+	<Property ID="875184" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="FB_DGPD_0059_4" Param3="=="/>
+	<Property ID="875185" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="FB_DGPD_0059_5" Param3="=="/>
+	<Property ID="875186" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="FB_DGPD_0059_6" Param3="=="/>
+	<Property ID="875187" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="FB_DGPD_0059_7" Param3="=="/>
+	<Property ID="875188" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="FB_DGPD_0059_8" Param3="=="/>
+	<Property ID="875189" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="FB_DGPD_0059_9" Param3="=="/>
+	<Property ID="8751810" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="FB_DGPD_0059_10" Param3="=="/>
+	<Property ID="8751811" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="FB_DGPD_0059_11" Param3="=="/>
+	<Property ID="8751812" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="FB_DGPD_0059_12" Param3="=="/>
+	<Property ID="4102577" Name="盆地轰炸" UseLimitType="3" Param1="ConfigID" Param2="monster_zlm012_0005" Param3="=="/>
+	<Property ID="4112577" Name="盆地轰炸" UseLimitType="3" Param1="ConfigID" Param2="monster_zlm012_0004" Param3="=="/>
+	<Property ID="4122577" Name="盆地轰炸" UseLimitType="3" Param1="ConfigID" Param2="monster_zlm012_0007" Param3="=="/>
+	<Property ID="33018" Name="无惩罚之怒" UseLimitType="10" Param1="ConfigID" Param2="Buff_In1051_01_1" Param3="!="/>
+	<Property ID="33030" Name="25%几率触发器灵" UseLimitType="8" Param2="0.25" Param3="=="/>
+	<Property ID="4321501" Name="只能对格里芬使用" UseLimitType="3" Param1="ConfigID" Param2="monster_qhS003_0045" Param3="=="/>
+	<Property ID="87016" Name="指定BUFF层数触发" UseLimitType="14" Param1="buff_monster_Hum_0217_018" Param2="10" Param3="=="/>
+	<Property ID="327341" Name="不死亡" UseLimitType="1" Param1="Dead" Param2="0" Param3="=="/>
+	<Property ID="327342" Name="无buff时加buff" UseLimitType="6" Param1="ConfigID" Param2="Buff_Wm2734_01_5" Param3="!="/>
+	<Property ID="327343" UseLimitType="6" Param1="ConfigID" Param2="Buff_Wm2734_01_6" Param3="!="/>
+	<Property ID="326251" Name="有1级晶石牢笼" UseLimitType="5" Param1="ConfigID" Param2="Buff_Em2625_01_1" Param3="=="/>
+	<Property ID="326252" Name="没有BUFF" UseLimitType="5" Param1="ConfigID" Param2="Buff_Em2625_01_6" Param3="!="/>
+	<Property ID="32621" Name="无擎石之力" UseLimitType="6" Param1="ConfigID" Param2="Buff_Em2621_01_2" Param3="!="/>
+	<Property ID="32608" Name="不浮空" UseLimitType="6" Param1="ConfigID" Param2="Buff_Em2608_01_2" Param3="!="/>
+	<Property ID="326081" Name="不浮空" UseLimitType="6" Param1="ConfigID" Param2="Buff_Em2608_01_4" Param3="!="/>
+	<Property ID="82866" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="monster_qhm003_0041" Param3="=="/>
+	<Property ID="327351" Name="风水相融" UseLimitType="5" Param1="ConfigID" Param2="Buff_Wm2735_01_1" Param3="=="/>
+	<Property ID="3252091" Name="火焰祝福条件1" UseLimitType="5" Param1="ConfigID" Param2="Buff_Fm2525_01_1" Param3="=="/>
+	<Property ID="3252092" Name="火焰祝福条件2" UseLimitType="5" Param1="ConfigID" Param2="Buff_Fm2525_02_1" Param3="=="/>
+	<Property ID="3252093" Name="火焰祝福条件3" UseLimitType="5" Param1="ConfigID" Param2="Buff_Fm2525_03_1" Param3="=="/>
+	<Property ID="3252094" Name="火焰祝福条件4" UseLimitType="5" Param1="ConfigID" Param2="Buff_Fm2525_04_1" Param3="=="/>
+	<Property ID="3252095" Name="火焰祝福条件5" UseLimitType="5" Param1="ConfigID" Param2="Buff_Fm2525_05_1" Param3="=="/>
+	<Property ID="3252096" Name="火焰祝福条件6" UseLimitType="5" Param1="ConfigID" Param2="Buff_Fm2525_06_1" Param3="=="/>
+	<Property ID="231071" Name="不是惩罚者" UseLimitType="1" Param1="Job" Param2="21" Param3="!="/>
+	<Property ID="231181" Name="不是魔剑士" UseLimitType="1" Param1="Job" Param2="38" Param3="!="/>
+	<Property ID="330301" Name="器灵个数限制" UseLimitType="6" Param2="Buff_Bm3030_01_10" Param3="!=" Param1="ConfigID"/>
+	<Property ID="3303052" Name="无疾刺之灵" UseLimitType="5" Param2="Buff_Bm3030_01_5" Param3="!=" Param1="ConfigID"/>
+	<Property ID="3303051" Name="有疾刺之灵" UseLimitType="5" Param2="Buff_Bm3030_01_5" Param3="==" Param1="ConfigID"/>
+	<Property ID="3303042" Name="有墙盾之灵" UseLimitType="5" Param2="Buff_Bm3030_01_4" Param3="!=" Param1="ConfigID"/>
+	<Property ID="3303091" Name="有刀锋之灵" UseLimitType="5" Param2="Buff_Bm3030_01_9" Param3="==" Param1="ConfigID"/>
+	<Property ID="325022" Name="融火条件" UseLimitType="6" Param1="ConfigID" Param2="Buff_Fm2502_01_1" Param3="=="/>
+	<Property ID="41033" Name="受伤的战士" UseLimitType="3" Param1="ConfigID" Param2="npc_zlm0012_0090" Param3="=="/>
+	<Property ID="41034" Name="野性咆哮战士" UseLimitType="3" Param1="ConfigID" Param2="npc_qhm004_0020" Param3="=="/>
+	<Property ID="41035" Name="魔灵兽尸体" UseLimitType="3" Param1="Dead" Param2="0" Param3="=="/>
+	<Property ID="330302" Name="器灵个数限制" UseLimitType="6" Param2="Buff_Bm3030_01_10" Param3="==" Param1="ConfigID"/>
+	<Property ID="330303" Name="器灵刷新限制" UseLimitType="14" Param2="6" Param3="==" Param1="Buff_Bm3030_01_11"/>
+	<Property ID="330304" Name="器灵刷新限制" UseLimitType="5" Param2="Buff_Bm3030_01_11" Param3="==" Param1="ConfigID"/>
+	<Property ID="330151" Name="夺灵限制" UseLimitType="6" Param2="Buff_Bm3015_01_1" Param3="!=" Param1="ConfigID"/>
+	<Property ID="330152" Name="夺灵限制" UseLimitType="6" Param2="Buff_Bm3015_02_1" Param3="!=" Param1="ConfigID"/>
+	<Property ID="330153" Name="夺灵限制" UseLimitType="6" Param2="Buff_Bm3015_03_1" Param3="!=" Param1="ConfigID"/>
+	<Property ID="330154" Name="夺灵限制" UseLimitType="6" Param2="Buff_Bm3015_04_1" Param3="!=" Param1="ConfigID"/>
+	<Property ID="330155" Name="夺灵限制" UseLimitType="6" Param2="Buff_Bm3015_05_1" Param3="!=" Param1="ConfigID"/>
+	<Property ID="330156" Name="夺灵限制" UseLimitType="6" Param2="Buff_Bm3015_06_1" Param3="!=" Param1="ConfigID"/>
+	<Property ID="330157" Name="夺灵限制" UseLimitType="6" Param2="Buff_Bm3015_01_5" Param3="!=" Param1="ConfigID"/>
+	<Property ID="3303031" Name="有利刃之灵" UseLimitType="5" Param2="Buff_Bm3030_01_3" Param3="==" Param1="ConfigID"/>
+	<Property ID="3303061" Name="有沉缓之灵" UseLimitType="5" Param2="Buff_Bm3030_01_6" Param3="==" Param1="ConfigID"/>
+	<Property ID="3303071" Name="有御魔之灵" UseLimitType="5" Param2="Buff_Bm3030_01_7" Param3="==" Param1="ConfigID"/>
+	<Property ID="3303081" Name="有飘羽之灵" UseLimitType="5" Param2="Buff_Bm3030_01_8" Param3="==" Param1="ConfigID"/>
+	<Property ID="3303041" Name="有墙盾之灵" UseLimitType="5" Param2="Buff_Bm3030_01_4" Param3="==" Param1="ConfigID"/>
+	<Property ID="46005" Name="只能在晨曦丘陵使用" UseLimitType="4" Param1="5" Param2="150000000" Param3="=="/>
+	<Property ID="46006" Name="不能再晨曦丘陵使用" UseLimitType="4" Param1="5" Param2="150000000" Param3="!="/>
+	<Property ID="82396" UseLimitType="1" Param1="HPRatio" Param2="99" Param3="&lt;" Name="小于99%血"/>
+	<Property ID="86258" Name="对指定npc使用" UseLimitType="3" Param1="ConfigID" Param2="FB_yuhuidongxue_0084" Param3="=="/>
+	<Property ID="862581" Name="对指定npc使用" UseLimitType="3" Param1="ConfigID" Param2="FB_yuhuidongxue_0087" Param3="=="/>
+	<Property ID="82403" Name="buff限制" UseLimitType="14" Param1="Buff_FB_YHDX_001" Param2="1" Param3="=="/>
+	<Property ID="824031" Name="buff限制" UseLimitType="14" Param1="Buff_FB_YHDX_001" Param2="2" Param3="=="/>
+	<Property ID="824032" Name="buff限制" UseLimitType="14" Param1="Buff_FB_YHDX_001" Param2="3" Param3="=="/>
+	<Property ID="824033" Name="buff限制" UseLimitType="14" Param1="Buff_FB_YHDX_001" Param2="4" Param3="=="/>
+	<Property ID="824034" Name="buff限制" UseLimitType="14" Param1="Buff_FB_YHDX_001" Param2="5" Param3="=="/>
+	<Property ID="824035" Name="buff限制" UseLimitType="14" Param1="Buff_FB_YHDX_001" Param2="6" Param3="=="/>
+	<Property ID="824036" Name="buff限制" UseLimitType="14" Param1="Buff_FB_YHDX_001" Param2="7" Param3="=="/>
+	<Property ID="8254901" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="PVP_kongxi004" Param3="=="/>
+	<Property ID="8254902" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="npc_zlm010_0131" Param3="=="/>
+	<Property ID="8255001" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="PVP_kongxi003" Param3="=="/>
+	<Property ID="8255002" Name="对指定目标使用" UseLimitType="3" Param1="ConfigID" Param2="npc_zlm010_0132" Param3="=="/>
+	<Property ID="311051" Name="1级致命迷雾" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ex1105_01_2" Param3="=="/>
+	<Property ID="311052" Name="2级致命迷雾" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ex1105_02_2" Param3="=="/>
+	<Property ID="311053" Name="3级致命迷雾" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ex1105_03_2" Param3="=="/>
+	<Property ID="311054" Name="4级致命迷雾" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ex1105_04_2" Param3="=="/>
+	<Property ID="311055" Name="5级致命迷雾" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ex1105_05_2" Param3="=="/>
+	<Property ID="311056" Name="6级致命迷雾" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ex1105_06_2" Param3="=="/>
+	<Property ID="31109" Name="50%几率" UseLimitType="8" Param2="0.5" Param3="=="/>
+	<Property ID="44100" Name="手枪扫射 眩晕" UseLimitType="8" Param2="0.3" Param3="=="/>
+	<Property ID="330161" Name="共享限制" UseLimitType="6" Param2="Buff_Bm3016_01_1" Param3="!=" Param1="ConfigID"/>
+	<Property ID="330162" Name="共享限制" UseLimitType="6" Param2="Buff_Bm3016_02_1" Param3="!=" Param1="ConfigID"/>
+	<Property ID="330163" Name="共享限制" UseLimitType="6" Param2="Buff_Bm3016_03_1" Param3="!=" Param1="ConfigID"/>
+	<Property ID="330164" Name="共享限制" UseLimitType="6" Param2="Buff_Bm3016_04_1" Param3="!=" Param1="ConfigID"/>
+	<Property ID="330165" Name="共享限制" UseLimitType="6" Param2="Buff_Bm3016_05_1" Param3="!=" Param1="ConfigID"/>
+	<Property ID="330166" Name="共享限制" UseLimitType="6" Param2="Buff_Bm3016_06_1" Param3="!=" Param1="ConfigID"/>
+	<Property ID="231161" Name="刀锋战士" UseLimitType="3" Param1="Job" Param2="36" Param3="!="/>
+	<Property ID="8255003" Name="场景限制" UseLimitType="4" Param1="7" Param3="==" Param2="5"/>
+	<Property ID="3303092" Name="有刀锋之灵" UseLimitType="5" Param2="Buff_Bm3030_01_9" Param3="!=" Param1="ConfigID"/>
+	<Property ID="311017" Name="潜行-无法再在潜行中使用" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ex1101_01_1" Param3="!="/>
+	<Property ID="328792" Name="30%几率" UseLimitType="8" Param2="0.3" Param3="=="/>
+	<Property ID="82208" Name="没有火球BUFF" UseLimitType="5" Param1="ConfigID" Param2="Buff_skill_tnjt_01" Param3="!="/>
+	<Property ID="82209" Name="没有冰球BUFF" UseLimitType="5" Param1="ConfigID" Param2="Buff_skill_tnjt_02" Param3="!="/>
+	<Property ID="82210" Name="没有雷球BUFF" UseLimitType="5" Param1="ConfigID" Param2="Buff_skill_tnjt_05" Param3="!="/>
+	<Property ID="82211" Name="没有暗球BUFF" UseLimitType="5" Param1="ConfigID" Param2="Buff_skill_tnjt_03" Param3="!="/>
+	<Property ID="823801" UseLimitType="1" Param2="20" Param3="&lt;" Name="血20%" Param1="HPRatio"/>
+	<Property ID="3173011" UseLimitType="8" Param2="0.3" Param3="==" Name="30%的概率触发"/>
+	<Property ID="21027" Name="限制竞技场" UseLimitType="4" Param1="7" Param2="211" Param3="!="/>
+	<Property ID="21028" Name="限制竞技场" UseLimitType="4" Param1="7" Param2="212" Param3="!="/>
+	<Property ID="21029" Name="限制竞技场" UseLimitType="4" Param1="7" Param2="213" Param3="!="/>
+	<Property ID="21030" Name="限制竞技场" UseLimitType="4" Param1="7" Param2="214" Param3="!="/>
+	<Property ID="21031" Name="限制竞技场" UseLimitType="4" Param1="7" Param2="215" Param3="!="/>
+	<Property ID="21032" Name="限制竞技场" UseLimitType="4" Param1="7" Param2="216" Param3="!="/>
+	<Property ID="21033" Name="限制竞技场" UseLimitType="4" Param1="7" Param2="217" Param3="!="/>
+	<Property ID="21034" Name="限制竞技场" UseLimitType="4" Param1="7" Param2="218" Param3="!="/>
+	<Property ID="21035" Name="限制竞技场" UseLimitType="4" Param1="7" Param2="219" Param3="!="/>
+	<Property ID="21036" Name="限制竞技场" UseLimitType="4" Param1="7" Param2="220" Param3="!="/>
+	<Property ID="80102" Name="苍穹之喉盾兵50%概率触发" UseLimitType="8" Param2="0.1" Param3="=="/>
+	<Property ID="80103" Name="苍穹之喉杖兵20%概率触发" UseLimitType="8" Param2="0.2" Param3="=="/>	
+	<Property ID="311018" Name="潜行-无法再在暗影中使用" UseLimitType="5" Param1="ConfigID" Param2="Buff_Ex1101_01_2" Param3="!="/>
+</Object>
+
+

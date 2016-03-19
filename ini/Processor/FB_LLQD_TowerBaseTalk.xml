@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes" ?>
+<Processor>
+    <Base type="object" version="1.0">
+        <Line Type="2" Event="2001" Name="AUTOP3" />
+        <Line Type="2" Event="3002" Name="AUTOP2">
+            <Param type="13" srctype="8" data="AUTOP3" Index="0" />
+            <Param type="6" data="bIsSelect" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP1">
+            <Param type="13" srctype="4" data="AUTOP2" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="0" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="3">
+            <Param type="13" bool="true" srctype="1" data="AUTOP1" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP4" />
+        <Line Type="2" Event="4501" Name="AUTOP5">
+            <Param type="2" data="4" Index="0" />
+            <Param type="2" data="0" Index="1" />
+            <Param type="2" data="35" Index="2" />
+        </Line>
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP4" Index="0" />
+            <Param type="6" data="TowerBaseMenuID" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="13" srctype="4" data="AUTOP5" Index="3" />
+        </Line>
+        <Line Type="7" IncludeLines="2" />
+        <Line Type="2" Event="2001" Name="AUTOP6" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP6" Index="0" />
+            <Param type="6" data="TowerBaseMenuID" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="99" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP8" />
+        <Line Type="2" Event="3002" Name="AUTOP7">
+            <Param type="13" srctype="8" data="AUTOP8" Index="0" />
+            <Param type="6" data="TowerBaseMenuID" Index="1" />
+        </Line>
+        <Line Type="10" CaseNum="3" IncludeLines="105">
+            <Param type="13" srctype="6" data="AUTOP7" Index="0" />
+        </Line>
+        <Line Type="11" IncludeLines="34">
+            <Param type="6" data="0" Index="0" />
+        </Line>
+        <Line Type="2" Event="2002" Name="AUTOP11" />
+        <Line Type="2" Event="3202" Name="AUTOP10">
+            <Param type="13" srctype="8" data="AUTOP11" Index="0" />
+            <Param type="6" data="Coin_LLQD" Index="1" />
+        </Line>
+        <Line Type="2" Event="2115" Name="AUTOP14" />
+        <Line Type="2" Event="3002" Name="AUTOP13">
+            <Param type="13" srctype="8" data="AUTOP14" Index="0" />
+            <Param type="6" data="MagicTowerlLv" Index="1" />
+        </Line>
+        <Line Type="2" Event="5075" Name="AUTOP12">
+            <Param type="13" srctype="4" data="AUTOP13" Index="0" />
+            <Param type="2" data="3" Index="1" />
+            <Param type="4" data="5" Index="2" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP9">
+            <Param type="13" srctype="4" data="AUTOP10" Index="0" />
+            <Param type="2" data="4" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP12" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="23">
+            <Param type="13" bool="true" srctype="1" data="AUTOP9" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP15" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP15" Index="0" />
+            <Param type="6" data="bIsSelect" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="1" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP17" />
+        <Line Type="2" Event="4732" Name="AUTOP16">
+            <Param type="13" srctype="8" data="AUTOP17" Index="0" />
+        </Line>
+        <Line Type="2" Event="2115" Name="AUTOP19" />
+        <Line Type="2" Event="3002" Name="AUTOP18">
+            <Param type="13" srctype="8" data="AUTOP19" Index="0" />
+            <Param type="6" data="iDTowerMagic" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP16" Index="0" />
+            <Param type="13" srctype="6" data="AUTOP18" Index="1" />
+            <Param type="6" data="TowerMagic" Index="2" />
+        </Line>
+        <Line Type="2" Event="2002" Name="AUTOP20" />
+        <Line Type="2" Event="2002" Name="AUTOP23" />
+        <Line Type="2" Event="3202" Name="AUTOP22">
+            <Param type="13" srctype="8" data="AUTOP23" Index="0" />
+            <Param type="6" data="Coin_LLQD" Index="1" />
+        </Line>
+        <Line Type="2" Event="2115" Name="AUTOP26" />
+        <Line Type="2" Event="3002" Name="AUTOP25">
+            <Param type="13" srctype="8" data="AUTOP26" Index="0" />
+            <Param type="6" data="MagicTowerlLv" Index="1" />
+        </Line>
+        <Line Type="2" Event="5075" Name="AUTOP24">
+            <Param type="13" srctype="4" data="AUTOP25" Index="0" />
+            <Param type="2" data="3" Index="1" />
+            <Param type="4" data="5" Index="2" />
+        </Line>
+        <Line Type="2" Event="5075" Name="AUTOP21">
+            <Param type="13" srctype="4" data="AUTOP22" Index="0" />
+            <Param type="2" data="2" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP24" Index="2" />
+        </Line>
+        <Line Type="1" Event="3203">
+            <Param type="13" srctype="8" data="AUTOP20" Index="0" />
+            <Param type="6" data="Coin_LLQD" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP21" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP27" />
+        <Line Type="1" Event="4509">
+            <Param type="13" srctype="8" data="AUTOP27" Index="0" />
+        </Line>
+        <Line Type="2" Event="5082" Name="AUTOP28">
+            <Param type="8" data=" " Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP30" />
+        <Line Type="2" Event="4736" Name="AUTOP29">
+            <Param type="13" srctype="8" data="AUTOP30" Index="0" />
+            <Param type="2" data="0" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP32" />
+        <Line Type="2" Event="4736" Name="AUTOP31">
+            <Param type="13" srctype="8" data="AUTOP32" Index="0" />
+            <Param type="2" data="2" Index="1" />
+        </Line>
+        <Line Type="1" Event="4575">
+            <Param type="13" srctype="8" data="AUTOP28" Index="0" />
+            <Param type="6" data="qte_effect_02" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP29" Index="2" />
+            <Param type="13" srctype="4" data="AUTOP31" Index="3" />
+        </Line>
+        <Line Type="7" IncludeLines="3" />
+        <Line Type="1" Event="4528">
+            <Param type="6" data="钱不够" Index="0" />
+        </Line>
+        <Line Type="2" Event="2002" Name="AUTOP33" />
+        <Line Type="1" Event="4530">
+            <Param type="13" srctype="2" data="AUTOP33" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="6" data="trigger_12081617470071_2" Index="2" />
+            <Param type="11" data=" " Index="3" />
+        </Line>
+        <Line Type="11" IncludeLines="34">
+            <Param type="6" data="1" Index="0" />
+        </Line>
+        <Line Type="2" Event="2002" Name="AUTOP36" />
+        <Line Type="2" Event="3202" Name="AUTOP35">
+            <Param type="13" srctype="8" data="AUTOP36" Index="0" />
+            <Param type="6" data="Coin_LLQD" Index="1" />
+        </Line>
+        <Line Type="2" Event="2115" Name="AUTOP39" />
+        <Line Type="2" Event="3002" Name="AUTOP38">
+            <Param type="13" srctype="8" data="AUTOP39" Index="0" />
+            <Param type="6" data="AttTowerlLv" Index="1" />
+        </Line>
+        <Line Type="2" Event="5075" Name="AUTOP37">
+            <Param type="13" srctype="4" data="AUTOP38" Index="0" />
+            <Param type="2" data="3" Index="1" />
+            <Param type="4" data="5" Index="2" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP34">
+            <Param type="13" srctype="4" data="AUTOP35" Index="0" />
+            <Param type="2" data="4" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP37" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="23">
+            <Param type="13" bool="true" srctype="1" data="AUTOP34" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP40" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP40" Index="0" />
+            <Param type="6" data="bIsSelect" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="1" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP42" />
+        <Line Type="2" Event="4732" Name="AUTOP41">
+            <Param type="13" srctype="8" data="AUTOP42" Index="0" />
+        </Line>
+        <Line Type="2" Event="2115" Name="AUTOP44" />
+        <Line Type="2" Event="3002" Name="AUTOP43">
+            <Param type="13" srctype="8" data="AUTOP44" Index="0" />
+            <Param type="6" data="iDTowerAtt" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP41" Index="0" />
+            <Param type="13" srctype="6" data="AUTOP43" Index="1" />
+            <Param type="6" data="TowerAtt" Index="2" />
+        </Line>
+        <Line Type="2" Event="2002" Name="AUTOP45" />
+        <Line Type="2" Event="2002" Name="AUTOP48" />
+        <Line Type="2" Event="3202" Name="AUTOP47">
+            <Param type="13" srctype="8" data="AUTOP48" Index="0" />
+            <Param type="6" data="Coin_LLQD" Index="1" />
+        </Line>
+        <Line Type="2" Event="2115" Name="AUTOP51" />
+        <Line Type="2" Event="3002" Name="AUTOP50">
+            <Param type="13" srctype="8" data="AUTOP51" Index="0" />
+            <Param type="6" data="AttTowerlLv" Index="1" />
+        </Line>
+        <Line Type="2" Event="5075" Name="AUTOP49">
+            <Param type="13" srctype="4" data="AUTOP50" Index="0" />
+            <Param type="2" data="3" Index="1" />
+            <Param type="4" data="5" Index="2" />
+        </Line>
+        <Line Type="2" Event="5075" Name="AUTOP46">
+            <Param type="13" srctype="4" data="AUTOP47" Index="0" />
+            <Param type="2" data="2" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP49" Index="2" />
+        </Line>
+        <Line Type="1" Event="3203">
+            <Param type="13" srctype="8" data="AUTOP45" Index="0" />
+            <Param type="6" data="Coin_LLQD" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP46" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP52" />
+        <Line Type="1" Event="4509">
+            <Param type="13" srctype="8" data="AUTOP52" Index="0" />
+        </Line>
+        <Line Type="2" Event="5082" Name="AUTOP53">
+            <Param type="8" data=" " Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP55" />
+        <Line Type="2" Event="4736" Name="AUTOP54">
+            <Param type="13" srctype="8" data="AUTOP55" Index="0" />
+            <Param type="2" data="0" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP57" />
+        <Line Type="2" Event="4736" Name="AUTOP56">
+            <Param type="13" srctype="8" data="AUTOP57" Index="0" />
+            <Param type="2" data="2" Index="1" />
+        </Line>
+        <Line Type="1" Event="4575">
+            <Param type="13" srctype="8" data="AUTOP53" Index="0" />
+            <Param type="6" data="qte_effect_02" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP54" Index="2" />
+            <Param type="13" srctype="4" data="AUTOP56" Index="3" />
+        </Line>
+        <Line Type="7" IncludeLines="3" />
+        <Line Type="1" Event="4528">
+            <Param type="6" data="钱不够" Index="0" />
+        </Line>
+        <Line Type="2" Event="2002" Name="AUTOP58" />
+        <Line Type="1" Event="4530">
+            <Param type="13" srctype="2" data="AUTOP58" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="6" data="trigger_12081617470071_2" Index="2" />
+            <Param type="11" data=" " Index="3" />
+        </Line>
+        <Line Type="11" IncludeLines="34">
+            <Param type="6" data="2" Index="0" />
+        </Line>
+        <Line Type="2" Event="2002" Name="AUTOP61" />
+        <Line Type="2" Event="3202" Name="AUTOP60">
+            <Param type="13" srctype="8" data="AUTOP61" Index="0" />
+            <Param type="6" data="Coin_LLQD" Index="1" />
+        </Line>
+        <Line Type="2" Event="2115" Name="AUTOP64" />
+        <Line Type="2" Event="3002" Name="AUTOP63">
+            <Param type="13" srctype="8" data="AUTOP64" Index="0" />
+            <Param type="6" data="DefTowerlLv" Index="1" />
+        </Line>
+        <Line Type="2" Event="5075" Name="AUTOP62">
+            <Param type="13" srctype="4" data="AUTOP63" Index="0" />
+            <Param type="2" data="3" Index="1" />
+            <Param type="4" data="5" Index="2" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP59">
+            <Param type="13" srctype="4" data="AUTOP60" Index="0" />
+            <Param type="2" data="4" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP62" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="23">
+            <Param type="13" bool="true" srctype="1" data="AUTOP59" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP65" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP65" Index="0" />
+            <Param type="6" data="bIsSelect" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="1" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP67" />
+        <Line Type="2" Event="4732" Name="AUTOP66">
+            <Param type="13" srctype="8" data="AUTOP67" Index="0" />
+        </Line>
+        <Line Type="2" Event="2115" Name="AUTOP69" />
+        <Line Type="2" Event="3002" Name="AUTOP68">
+            <Param type="13" srctype="8" data="AUTOP69" Index="0" />
+            <Param type="6" data="iDTowerDef" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP66" Index="0" />
+            <Param type="13" srctype="6" data="AUTOP68" Index="1" />
+            <Param type="6" data="TowerDef" Index="2" />
+        </Line>
+        <Line Type="2" Event="2002" Name="AUTOP70" />
+        <Line Type="2" Event="2002" Name="AUTOP73" />
+        <Line Type="2" Event="3202" Name="AUTOP72">
+            <Param type="13" srctype="8" data="AUTOP73" Index="0" />
+            <Param type="6" data="Coin_LLQD" Index="1" />
+        </Line>
+        <Line Type="2" Event="2115" Name="AUTOP76" />
+        <Line Type="2" Event="3002" Name="AUTOP75">
+            <Param type="13" srctype="8" data="AUTOP76" Index="0" />
+            <Param type="6" data="DefTowerlLv" Index="1" />
+        </Line>
+        <Line Type="2" Event="5075" Name="AUTOP74">
+            <Param type="13" srctype="4" data="AUTOP75" Index="0" />
+            <Param type="2" data="3" Index="1" />
+            <Param type="4" data="5" Index="2" />
+        </Line>
+        <Line Type="2" Event="5075" Name="AUTOP71">
+            <Param type="13" srctype="4" data="AUTOP72" Index="0" />
+            <Param type="2" data="2" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP74" Index="2" />
+        </Line>
+        <Line Type="1" Event="3203">
+            <Param type="13" srctype="8" data="AUTOP70" Index="0" />
+            <Param type="6" data="Coin_LLQD" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP71" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP77" />
+        <Line Type="1" Event="4509">
+            <Param type="13" srctype="8" data="AUTOP77" Index="0" />
+        </Line>
+        <Line Type="2" Event="5082" Name="AUTOP78">
+            <Param type="8" data=" " Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP80" />
+        <Line Type="2" Event="4736" Name="AUTOP79">
+            <Param type="13" srctype="8" data="AUTOP80" Index="0" />
+            <Param type="2" data="0" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP82" />
+        <Line Type="2" Event="4736" Name="AUTOP81">
+            <Param type="13" srctype="8" data="AUTOP82" Index="0" />
+            <Param type="2" data="2" Index="1" />
+        </Line>
+        <Line Type="1" Event="4575">
+            <Param type="13" srctype="8" data="AUTOP78" Index="0" />
+            <Param type="6" data="qte_effect_02" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP79" Index="2" />
+            <Param type="13" srctype="4" data="AUTOP81" Index="3" />
+        </Line>
+        <Line Type="7" IncludeLines="3" />
+        <Line Type="1" Event="4528">
+            <Param type="6" data="钱不够" Index="0" />
+        </Line>
+        <Line Type="2" Event="2002" Name="AUTOP83" />
+        <Line Type="1" Event="4530">
+            <Param type="13" srctype="2" data="AUTOP83" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="6" data="trigger_12081617470071_2" Index="2" />
+            <Param type="11" data=" " Index="3" />
+        </Line>
+    </Base>
+</Processor>

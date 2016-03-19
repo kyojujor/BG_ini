@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Stage>
+	<Object Guid="5185FCAD22B64BA893A6313A607AFCF2" Desc="隐身NPC" config="Organ_qhm003_0001" x="4582.772461" y="112.836006" z="-1746.066162" IsY="0" Radius="0" amount="1" RefreshTime="1" fOrg="0" IsPersistent="0">
+		<Event EventId="23" Processor="dijia_quest_454"/>
+	</Object>
+	<Object Guid="A52D93EDBF414054972CD5C11CD43FF3" Desc="隐身NPC" config="Organ_qhm003_0001" x="4258.697266" y="42.157974" z="-1495.61084" IsY="0" Radius="0" amount="1" RefreshTime="1" fOrg="0" IsPersistent="0">
+		<Event EventId="23" Processor="dijia_quest_456"/>
+	</Object>
+	<Object Guid="905B419A6BCF4A15BB05BDF60CA33783" Desc="邮箱" config="QH_Mail_01_001" x="3680.329346" y="210.836441" z="-1081.629517" IsY="0" Radius="0" amount="1" RefreshTime="1" fOrg="2.913187" IsPersistent="0"/>
+	<Object Guid="7025BEC062374D1E9286902406A3C91D" Desc="邮箱" config="QH_Mail_01_001" x="3976.295898" y="85.602386" z="-1670.403687" IsY="0" Radius="0" amount="1" RefreshTime="1" fOrg="1.825006" IsPersistent="0"/>
+	<Object Guid="60156A03A585470CAA2D88D241F88224" Desc="邮箱" config="QH_Mail_01_001" x="4656.289551" y="121.592003" z="-1771.334595" IsY="0" Radius="0" amount="1" RefreshTime="1" fOrg="-1.375003" IsPersistent="0"/>
+	<Object Guid="EC6DE621AA0E4664A30B4D8068C0BF8A" Desc="圣日哨岗" config="npc_qhm004_0059" x="3600.57373" y="209.825882" z="-1107.86853" IsY="0" Radius="0" amount="1" RefreshTime="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="45FF7CDF65BD44518839FE908A0919B7" Desc="巨树卡口" config="npc_qhm004_0060" x="4296.814941" y="104.157204" z="-743.296814" IsY="0" Radius="0" amount="1" RefreshTime="1" fOrg="0.095" IsPersistent="0"/>
+	<Object Guid="C8D52799EA224B75981C6BD3008A3EAC" Desc="风雨哨岗" config="npc_qhm004_0061" x="3848.504639" y="92.885468" z="-1677.392456" IsY="0" Radius="0" amount="1" RefreshTime="1" fOrg="2.380003" IsPersistent="0"/>
+</Stage>
+
+

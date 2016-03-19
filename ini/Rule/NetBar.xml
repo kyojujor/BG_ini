@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--DayPrize(配置宝箱ID)，DayMoney（金钱奖励），DayExp（经验奖励），DayBuff（BUFF奖励）-->
+<Object>
+<Property ID = "1" Tpye = "woniu" DayPrize = "BX_WN_001" RightLevel = "1" DayMoney = "" DayExp = "" DayBuff = ""/>
+<Property ID = "2" Tpye = "woniu" DayPrize = "BX_WN_002" RightLevel = "2" DayMoney = "" DayExp = "" DayBuff = ""/>
+<Property ID = "3" Tpye = "woniu" DayPrize = "BX_WN_003" RightLevel = "3" DayMoney = "" DayExp = "" DayBuff = ""/>
+<Property ID = "4" Tpye = "snda" DayPrize = "BX_SD_001" RightLevel = "1" DayMoney = "" DayExp = "" DayBuff = ""/>
+<Property ID = "5" Tpye = "snda" DayPrize = "BX_SD_002" RightLevel = "2" DayMoney = "" DayExp = "" DayBuff = ""/>
+<Property ID = "6" Tpye = "snda" DayPrize = "BX_SD_003" RightLevel = "3" DayMoney = "" DayExp = "" DayBuff = ""/>
+<Property ID = "7" Tpye = "barmanager" DeadLine = "20130606" OncePrize = "MOUNT_6_006,1|box_cafe_01,1|" WeekPrize = "growitem_5,5|" />
+</Object>

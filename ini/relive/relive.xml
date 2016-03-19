@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+<!--回城复活-->
+<Property ID = "ReturnCityRelive" HPRate = "50" MPRate = "50" NeedTime = "0"  DebuffID = "" CoolTime="0" NeedMoney="0"  NeedItem = "Task_00046B,0"  NeedTicket = "0" />
+<!--原地复活-->
+<Property ID = "LocalRelive" HPRate = "100" MPRate = "100" NeedTime = "0"  DebuffID = ""  CoolTime="30" NeedMoney="1000"  NeedItem = "Task_00046B,0"  NeedTicket = "0" />
+<!--就近复活-->
+<Property ID = "NearRelive" HPRate = "50" MPRate = "50" NeedTime = "1"  DebuffID = "" CoolTime="0" NeedMoney="0"  NeedItem = "Task_00046B,0" NeedTicket = "0" />
+<!--选择复活 暂时关闭-->
+<Property ID = "SelectRelive" HPRate = "50" MPRate = "50" NeedTime = "0"  DebuffID = "" CoolTime="0" NeedMoney="0"  NeedItem = "Task_00046B,1" NeedTicket = "1" />
+<!--完美复活-->
+<Property ID = "PerfectRelive" HPRate = "100" MPRate = "100" NeedTime = "0"  DebuffID = "" CoolTime="0" NeedMoney="0"  NeedItem = "Task_00046B,0" NeedTicket = "50" />
+</Object>

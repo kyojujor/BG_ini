@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Stage>
+	<Object Guid="7DF40C451FCD434693C09C22E9275E51" Desc="fb_chnj_boss_01" config="fb_chnj_boss_01_L2" Layer="" MaxRefreshCount="" x="-5680.367676" y="10.308001" z="5359.959473" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="-1" sx="" sy="" sz="" fOrg="-2.020006" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="82818695B9554D5EACCACE8B1758F9C5" Desc="fb_chnj_boss_02" config="fb_chnj_boss_02_L2" Layer="" MaxRefreshCount="" x="-5565.14502" y="15.112" z="5358.402832" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="-1" sx="" sy="" sz="" fOrg="-1.615004" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="CB02B2417C94440099CD660B37CDA3F0" Desc="fb_chnj_boss_03" config="fb_chnj_npc_01" Layer="" MaxRefreshCount="" x="-5716.907715" y="10.008817" z="5359.970703" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0">
+		<Event EventId="1" Processor="FB_CHNJ_008"/>
+		<Event EventId="23" Processor="FB_CHNJ_006"/>
+	</Object>
+	<Object Guid="B17973B35BB348FD8863E064A43E5892" Desc="fb_chnj_boss_03" config="fb_chnj_npc_01" Layer="" MaxRefreshCount="" x="-5605.881836" y="14.926414" z="5359.927734" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0">
+		<Event EventId="1" Processor="FB_CHNJ_008"/>
+		<Event EventId="23" Processor="FB_CHNJ_007"/>
+	</Object>
+	<Object Guid="A6B88AAF2AA54E708135BE7F4BE092C5" Desc="充能井大厅离开门" config="CloneDoor_chnj_0002" Layer="" MaxRefreshCount="" x="-5756.292969" y="10.091001" z="5359.97998" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="-1.565006" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+</Stage>
+
+

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!--下线补偿配置文件 -->
+<!--ID表示等级 OffExp表示离线后每分钟获得的经验 OffMaxExp表示离线能达到的最大值 OffTime表示离线多少分钟开始积累经验
+	RenderExp表示杀怪离线经验释放的倍数 TaskExp表示任务时离线经验释放的倍数 -->
+<Object>
+	<!--Property ID = "60"  OffExp = "10,20" OffMaxExp = "10000,5000" OffTime = "60,30" RenderExp = "1,2" TaskExp = "1,2" /-->
+	<Property ID="1" OffExp="0,0" OffMaxExp="0,0" OffTime="0,0" RenderExp="1.5,2" TaskExp="1.5,2"/>
+	<Property ID="2" OffExp="0,0" OffMaxExp="0,0" OffTime="0,0" RenderExp="1.5,2" TaskExp="1.5,2"/>
+	<Property ID="3" OffExp="0,0" OffMaxExp="0,0" OffTime="0,0" RenderExp="1.5,2" TaskExp="1.5,2"/>
+	<Property ID="4" OffExp="0,0" OffMaxExp="0,0" OffTime="0,0" RenderExp="1.5,2" TaskExp="1.5,2"/>
+	<Property ID="5" OffExp="0,0" OffMaxExp="0,0" OffTime="0,0" RenderExp="1.5,2" TaskExp="1.5,2"/>
+	<Property ID="6" OffExp="0,0" OffMaxExp="0,0" OffTime="0,0" RenderExp="1.5,2" TaskExp="1.5,2"/>
+	<Property ID="7" OffExp="0,0" OffMaxExp="0,0" OffTime="0,0" RenderExp="1.5,2" TaskExp="1.5,2"/>
+	<Property ID="8" OffExp="0,0" OffMaxExp="0,0" OffTime="0,0" RenderExp="1.5,2" TaskExp="1.5,2"/>
+	<Property ID="9" OffExp="0,0" OffMaxExp="0,0" OffTime="0,0" RenderExp="1.5,2" TaskExp="1.5,2"/>
+	<Property ID="10" OffExp="4212,4212" OffMaxExp="42124,63186" OffTime="120,60" RenderExp="1.5,2" TaskExp="1.5,2"/>
+	<Property ID="11" OffExp="4877,4877" OffMaxExp="48774,73161" OffTime="120,60" RenderExp="1.5,2" TaskExp="1.5,2"/>
+	<Property ID="12" OffExp="5598,5598" OffMaxExp="55982,83973" OffTime="120,60" RenderExp="1.5,2" TaskExp="1.5,2"/>
+	<Property ID="13" OffExp="6379,6379" OffMaxExp="63789,95683" OffTime="120,60" RenderExp="1.5,2" TaskExp="1.5,2"/>
+	<Property ID="14" OffExp="7218,7218" OffMaxExp="72180,108269" OffTime="120,60" RenderExp="1.5,2" TaskExp="1.5,2"/>
+	<Property ID="15" OffExp="8111,8111" OffMaxExp="81110,121665" OffTime="120,60" RenderExp="1.5,2" TaskExp="1.5,2"/>
+	<Property ID="16" OffExp="9065,9065" OffMaxExp="90650,135975" OffTime="120,60" RenderExp="1.5,2" TaskExp="1.5,2"/>
+	<Property ID="17" OffExp="10073,10073" OffMaxExp="100731,151096" OffTime="120,60" RenderExp="1.5,2" TaskExp="1.5,2"/>
+	<Property ID="18" OffExp="11142,11142" OffMaxExp="111418,167128" OffTime="120,60" RenderExp="1.5,2" TaskExp="1.5,2"/>
+	<Property ID="19" OffExp="12269,12269" OffMaxExp="122690,184035" OffTime="120,60" RenderExp="1.5,2" TaskExp="1.5,2"/>
+	<Property ID="20" OffExp="13453,13453" OffMaxExp="134530,201795" OffTime="120,60" RenderExp="1.5,2" TaskExp="1.5,2"/>
+	<Property ID="21" OffExp="14695,14695" OffMaxExp="146951,220427" OffTime="120,60" RenderExp="1.5,2" TaskExp="1.5,2"/>
+	<Property ID="22" OffExp="15995,15995" OffMaxExp="159948,239923" OffTime="120,60" RenderExp="1.5,2" TaskExp="1.5,2"/>
+	<Property ID="23" OffExp="17352,17352" OffMaxExp="173521,260282" OffTime="120,60" RenderExp="1.5,2" TaskExp="1.5,2"/>
+	<Property ID="24" OffExp="18767,18767" OffMaxExp="187669,281503" OffTime="120,60" RenderExp="1.5,2" TaskExp="1.5,2"/>
+	<Property ID="25" OffExp="20239,20239" OffMaxExp="202393,303590" OffTime="120,60" RenderExp="1.5,2" TaskExp="1.5,2"/>
+	<Property ID="26" OffExp="21769,21769" OffMaxExp="217692,326539" OffTime="120,60" RenderExp="1.5,2" TaskExp="1.5,2"/>
+	<Property ID="27" OffExp="23357,23357" OffMaxExp="233568,350352" OffTime="120,60" RenderExp="1.5,2" TaskExp="1.5,2"/>
+	<Property ID="28" OffExp="25002,25002" OffMaxExp="250019,375029" OffTime="120,60" RenderExp="1.5,2" TaskExp="1.5,2"/>
+	<Property ID="29" OffExp="26705,26705" OffMaxExp="267048,400572" OffTime="120,60" RenderExp="1.5,2" TaskExp="1.5,2"/>
+	<Property ID="30" OffExp="28465,28465" OffMaxExp="284652,426978" OffTime="120,60" RenderExp="1.5,2" TaskExp="1.5,2"/>
+	<Property ID="31" OffExp="30283,30283" OffMaxExp="302833,454249" OffTime="120,60" RenderExp="1.5,2" TaskExp="1.5,2"/>
+	<Property ID="32" OffExp="32163,32163" OffMaxExp="321625,482437" OffTime="120,60" RenderExp="1.5,2" TaskExp="1.5,2"/>
+	<Property ID="33" OffExp="34096,34096" OffMaxExp="340956,511434" OffTime="120,60" RenderExp="1.5,2" TaskExp="1.5,2"/>
+	<Property ID="34" OffExp="36090,36090" OffMaxExp="360900,541351" OffTime="120,60" RenderExp="1.5,2" TaskExp="1.5,2"/>
+	<Property ID="35" OffExp="38138,38138" OffMaxExp="381384,572076" OffTime="120,60" RenderExp="1.5,2" TaskExp="1.5,2"/>
+	<Property ID="36" OffExp="40244,40244" OffMaxExp="402444,603665" OffTime="120,60" RenderExp="1.5,2" TaskExp="1.5,2"/>
+	<Property ID="37" OffExp="42412,42412" OffMaxExp="424116,636174" OffTime="120,60" RenderExp="1.5,2" TaskExp="1.5,2"/>
+	<Property ID="38" OffExp="44633,44633" OffMaxExp="446328,669492" OffTime="120,60" RenderExp="1.5,2" TaskExp="1.5,2"/>
+	<Property ID="39" OffExp="46915,46915" OffMaxExp="469152,703728" OffTime="120,60" RenderExp="1.5,2" TaskExp="1.5,2"/>
+	<Property ID="40" OffExp="0,0" OffMaxExp="0,0" OffTime="0,0" RenderExp="0,0" TaskExp="0,0"/>
+	<Property ID="41" OffExp="51649,51649" OffMaxExp="516492,774738" OffTime="120,60" RenderExp="1.5,2" TaskExp="1.5,2"/>
+	<Property ID="42" OffExp="54104,54104" OffMaxExp="541044,811567" OffTime="120,60" RenderExp="1.5,2" TaskExp="1.5,2"/>
+	<Property ID="43" OffExp="56617,56617" OffMaxExp="566172,849258" OffTime="120,60" RenderExp="1.5,2" TaskExp="1.5,2"/>
+	<Property ID="44" OffExp="59188,59188" OffMaxExp="591876,887814" OffTime="120,60" RenderExp="1.5,2" TaskExp="1.5,2"/>
+	<Property ID="45" OffExp="61812,61812" OffMaxExp="618120,927180" OffTime="120,60" RenderExp="1.5,2" TaskExp="1.5,2"/>
+	<Property ID="46" OffExp="64498,64498" OffMaxExp="644976,967464" OffTime="120,60" RenderExp="1.5,2" TaskExp="1.5,2"/>
+	<Property ID="47" OffExp="67241,67241" OffMaxExp="672408,1008612" OffTime="120,60" RenderExp="1.5,2" TaskExp="1.5,2"/>
+	<Property ID="48" OffExp="70042,70042" OffMaxExp="700416,1050624" OffTime="120,60" RenderExp="1.5,2" TaskExp="1.5,2"/>
+	<Property ID="49" OffExp="72900,72900" OffMaxExp="729000,1093501" OffTime="120,60" RenderExp="1.5,2" TaskExp="1.5,2"/>
+	<Property ID="50" OffExp="75816,75816" OffMaxExp="758160,1137240" OffTime="120,60" RenderExp="1.5,2" TaskExp="1.5,2"/>
+	<Property ID="51" OffExp="6318,9477" OffMaxExp="7581599,11372399" OffTime="120,60" RenderExp="1.5,2" TaskExp="1.5,2"/>
+	<Property ID="52" OffExp="6318,9478" OffMaxExp="7581599,11372400" OffTime="120,60" RenderExp="1.5,2" TaskExp="1.5,2"/>
+	<Property ID="53" OffExp="6318,9479" OffMaxExp="7581599,11372401" OffTime="120,60" RenderExp="1.5,2" TaskExp="1.5,2"/>
+	<Property ID="54" OffExp="6318,9480" OffMaxExp="7581599,11372402" OffTime="120,60" RenderExp="1.5,2" TaskExp="1.5,2"/>
+	<Property ID="55" OffExp="6318,9481" OffMaxExp="7581599,11372403" OffTime="120,60" RenderExp="1.5,2" TaskExp="1.5,2"/>
+	<Property ID="56" OffExp="6318,9482" OffMaxExp="7581599,11372404" OffTime="120,60" RenderExp="1.5,2" TaskExp="1.5,2"/>
+	<Property ID="57" OffExp="6318,9483" OffMaxExp="7581599,11372405" OffTime="120,60" RenderExp="1.5,2" TaskExp="1.5,2"/>
+	<Property ID="58" OffExp="6318,9484" OffMaxExp="7581599,11372406" OffTime="120,60" RenderExp="1.5,2" TaskExp="1.5,2"/>
+	<Property ID="59" OffExp="6318,9485" OffMaxExp="7581599,11372407" OffTime="120,60" RenderExp="1.5,2" TaskExp="1.5,2"/>
+	<Property ID="60" OffExp="6318,9486" OffMaxExp="7581599,11372408" OffTime="120,60" RenderExp="1.5,2" TaskExp="1.5,2"/>
+</Object>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes" ?>
+<Processor>
+    <Base type="object" version="1.0">
+        <Line Type="2" Event="2114" Name="AUTOP1">
+            <Param type="6" data="FB_TNDX_MS_96" Index="0" />
+        </Line>
+        <Line Type="1" Event="5030">
+            <Param type="13" srctype="8" data="AUTOP1" Index="0" />
+            <Param type="6" data="action_open_0h" Index="1" />
+        </Line>
+        <Line Type="2" Event="2114" Name="AUTOP2">
+            <Param type="6" data="FB_TNDX_MS_96" Index="0" />
+        </Line>
+        <Line Type="1" Event="4519">
+            <Param type="13" srctype="8" data="AUTOP2" Index="0" />
+            <Param type="6" data="action_openloop_0h" Index="1" />
+        </Line>
+        <Line Type="2" Event="2114" Name="AUTOP3">
+            <Param type="6" data="FB_TNDX_MS_96" Index="0" />
+        </Line>
+        <Line Type="1" Event="5004">
+            <Param type="13" srctype="8" data="AUTOP3" Index="0" />
+            <Param type="6" data="snd\action\TNDX\jiguan.wav" Index="1" />
+        </Line>
+        <Line Type="2" Event="5082" Name="AUTOP4">
+            <Param type="8" data=" " Index="0" />
+        </Line>
+        <Line Type="1" Event="4653">
+            <Param type="13" srctype="8" data="AUTOP4" Index="0" />
+            <Param type="6" data="snd\action\TNDX\jiguan.wav" Index="1" />
+            <Param type="4" data="10.888889" Index="2" />
+            <Param type="4" data="21.306623" Index="3" />
+            <Param type="4" data="-312.916046" Index="4" />
+            <Param type="2" data="0" Index="5" />
+        </Line>
+    </Base>
+</Processor>

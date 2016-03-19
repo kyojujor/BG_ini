@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2010 (http://www.altova.com) by MESMERiZE (MiZE) -->
+<!-- 
+//角色创建天赋被动技能（buff）配置
+//阵营:1蒸汽,2奇幻
+//种族:1蒸汽下的种族为1人类,2血族,3矮人
+//种族:2奇幻下的种族为4人类,5野蛮人,6喀什
+//例子:蒸汽阵营下的人类表示为101 -->
+<Object>
+	<Property ID="101" RaceTalent="" RaceSkill="Innate_SteamHuman1001_01,Innate_SteamHuman1002_01,Innate_SteamHuman0003_01"/>
+	<Property ID="102" RaceTalent="" RaceSkill="Innate_SteamVampire1001_01,Innate_SteamVampire1002_01,Innate_SteamVampire0003_01"/>
+	<Property ID="103" RaceTalent="" RaceSkill="Innate_SteamDwarf1001_01,Innate_SteamDwarf1002_01,Innate_SteamDwarf0003_01"/>
+	<Property ID="204" RaceTalent="" RaceSkill="Innate_FantasyHuman1001_01,Innate_FantasyHuman1002_01,Innate_FantasyHuman0003_01"/>
+	<Property ID="205" RaceTalent="" RaceSkill="Innate_FantasySavage1001_01,Innate_FantasySavage0002_01,Innate_FantasySavage1003_01"/>
+	<Property ID="206" RaceTalent="" RaceSkill="Innate_Fantasy_Kashi1001_01,Innate_Fantasy_Kashi1002_01,Innate_Fantasy_Kashi0003_01"/>
+</Object>

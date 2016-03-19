@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+	<Property ID="60438" Name="反弹伤害" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="@MaxHP*0.1" DamageCategory="1" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="99605" Name="直刺穿击" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="$MaxMagicAttack*0.2" DamageCategory="1" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="99607" Name="三连击" EventType="1" TargetType="0"/>
+	<Property ID="99614" Name="狂热" EventType="1" TargetType="2"/>
+	<Property ID="99619" Name="吸血攻击" EventType="1" TargetType="2"/>
+	<Property ID="99630" Name="狂暴" EventType="1" TargetType="2"/>
+	<Property ID="99633" Name="致残" EventType="1" TargetType="0" FuncNo="1"/>
+	<Property ID="99641" Name="巫毒" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="$MaxMagicAttack*0.2" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="996310" Name="恶魔刺击" TargetType="0"/>
+	<Property ID="81801" Name="流血" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="10" DamageCategory="1" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="85000" Name="变形" EventType="1" TargetType="0" FuncNo="20" ChangeModelPath="npc\monster_Hum_0054"/>
+	<Property ID="80612" EventType="3" TargetType="0" FuncNo="3" Name="飓风" IsDamageFormula="1" DamageFormula="@MaxHP*0.05" DamageCategory="2" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="85001" Name="变形" EventType="2" TargetType="0" FuncNo="20"/>
+	<Property ID="812413" Name="隐身" EventType="1" TargetType="0" FuncNo="30" SetFormula="1" SetAttribute="RoleHide"/>
+	<Property ID="812414" Name="解除隐身" EventType="2" TargetType="0" FuncNo="30" SetFormula="0" SetAttribute="RoleHide"/>
+	<Property ID="812415" Name="施加灼烧" EventType="1" TargetType="0" FuncNo="1" BuffID="buff_FB_TNJT_JG_11_02"/>
+	<Property ID="90018" Name="拖拽减速" Photo="icon\BG_Skill\skillicon_0257.png"/>
+	<Property ID="82348" Name="灼烧" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="$MaxHP*0.005" DamageCategory="3" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="82355" Name="神罚" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="$MaxMagicAttack*0.1" DamageTargetType="0" DamageCaster="2" DamageCategory="3"/>
+	<Property ID="82350" Name="伤害" EventType="1" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="@MaxHP*0.2" DamageCategory="3" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="823501" Name="伤害" EventType="2" TargetType="0" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_YGZM_boss0018_8" StrClear="1"/>
+	<Property ID="823561" Name="旋转" EventType="1" TargetType="2" FuncNo="56" RotateAngle="-90" RotateSpeed="30"/>
+	<Property ID="823562" Name="旋转" EventType="2" TargetType="2" FuncNo="57"/>
+	<Property ID="85151"/>
+	<Property ID="85153" Name="冰冻"/>
+	<Property ID="99644" Name="暴怒" EventType="1" TargetType="2" FuncNo="54" TriggerEventID="FB_TNDX_067"/>
+	<Property ID="82395" Name="旋转" EventType="2" TargetType="2" FuncNo="57"/>
+	<Property ID="823951" Name="旋转" EventType="1" TargetType="2" FuncNo="56" RotateAngle="180" RotateSpeed="30"/>
+	<Property ID="82358" Name="旋转" EventType="1" TargetType="2" FuncNo="56" RotateAngle="179" RotateSpeed="30"/>
+	<Property ID="823581" Name="旋转" EventType="2" TargetType="2" FuncNo="57"/>
+	<Property ID="99627" Name="断头台" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="$MaxHP*0.0015" DamageCategory="1" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="851541" Name="灼烧伤害" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="$MaxPhyAttack*0.2" DamageCategory="1" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="82357" Name="冰冻" EventType="1" TargetType="0" FuncNo="30" SetFormula="1" SetAttribute="PauseAction"/>
+	<Property ID="823571" Name="冰冻" EventType="2" TargetType="0" FuncNo="30" SetFormula="0" SetAttribute="PauseAction"/>
+	<Property ID="851570" Name="清理流血" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="$MaxPhyAttack*0.2" DamageCategory="1" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="851580" Name="伤口撕裂" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="3000" DamageCategory="1" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="851591" Name="电流涌动" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="1000" DamageCategory="1" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="82117" Name="旋转" EventType="1" TargetType="2" FuncNo="56" RotateAngle="-150" RotateSpeed="30"/>
+	<Property ID="821171" Name="旋转" EventType="2" TargetType="2" FuncNo="57"/>
+	<Property ID="821181" Name="旋转" EventType="2" TargetType="2" FuncNo="57"/>
+	<Property ID="82118" Name="旋转" EventType="1" TargetType="2" FuncNo="56" RotateAngle="150" RotateSpeed="30"/>
+	<Property ID="82119" Name="无敌" EventType="1" TargetType="2" FuncNo="844" ImmunityDamageType="10" ImmunityValue="100" IsPercent="1"/>
+	<Property ID="821191" Name="无敌" EventType="2" TargetType="2" FuncNo="845"/>
+	<Property ID="82126" Name="灼烧" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="@MaxHP*0.01" DamageCategory="3" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="82399" Name="剑气领域" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="$MinPhyAttack*0.175" DamageCategory="1" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="823991" Name="剑气领域" EventType="3" TargetType="0" FuncNo="109" Condition="82399" EffectType="1" EffectTime="1000"/>
+	<Property ID="91250" Name="坚固" EventType="1" TargetType="2" FuncNo="844" ImmunityDamageType="1" ImmunityValue="30" IsPercent="1"/>
+	<Property ID="91251" Name="坚韧" EventType="1" TargetType="2" FuncNo="844" ImmunityDamageType="2" ImmunityValue="30" IsPercent="1"/>
+	<Property ID="91252" Name="坚韧" EventType="1" TargetType="2" FuncNo="844" ImmunityDamageType="3" ImmunityValue="30" IsPercent="1"/>
+	<Property ID="91253" Name="坚韧" EventType="1" TargetType="2" FuncNo="844" ImmunityDamageType="4" ImmunityValue="30" IsPercent="1"/>
+	<Property ID="91254" Name="坚韧" EventType="1" TargetType="2" FuncNo="844" ImmunityDamageType="5" ImmunityValue="30" IsPercent="1"/>
+	<Property ID="91255" Name="坚韧" EventType="1" TargetType="2" FuncNo="844" ImmunityDamageType="6" ImmunityValue="30" IsPercent="1"/>
+	<Property ID="91256" Name="坚韧" EventType="1" TargetType="2" FuncNo="844" ImmunityDamageType="7" ImmunityValue="30" IsPercent="1"/>
+	<Property ID="91257" Name="坚韧" EventType="1" TargetType="2" FuncNo="844" ImmunityDamageType="8" ImmunityValue="30" IsPercent="1"/>
+	<Property ID="91258" Name="坚韧" EventType="1" TargetType="2" FuncNo="844" ImmunityDamageType="9" ImmunityValue="30" IsPercent="1"/>
+	<Property ID="91259" Name="免伤" EventType="1" TargetType="0" FuncNo="844" ImmunityDamageType="10" ImmunityValue="100" IsPercent="1"/>
+	<Property ID="91260" Name="毒素伤害" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="1000" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="91261" Name="中毒" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="800" DamageCategory="8" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="91262" Name="免疫" EventType="1" TargetType="2" FuncNo="844" ImmunityDamageType="8" ImmunityValue="100" IsPercent="1"/>
+	<Property ID="91263" Name="免疫" EventType="2" TargetType="2" FuncNo="845"/>
+	<Property ID="91264" Name="免伤" EventType="2" TargetType="2" FuncNo="845"/>
+	<Property ID="91265" Name="中毒" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="@MaxHP*0.05" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="82398" Name="污浊空气" EventType="18" TargetType="3" FuncNo="806" BeAttackDamageRatio="10" BeAttackDamageType="1"/>
+	<Property ID="82025" Name="免伤" EventType="1" TargetType="0" FuncNo="844" ImmunityDamageType="10" ImmunityValue="100" IsPercent="1"/>
+	<Property ID="820251" Name="免伤" EventType="2" TargetType="0" FuncNo="845"/>
+	<Property ID="820211" Name="加血" EventType="2" TargetType="0" FuncNo="5" IsHealFormula="0" HealFormula="600" HealTargetType="0" HealSenderType="2"/>
+	<Property ID="820212" Name="辉煌_加蓝" EventType="2" TargetType="0" FuncNo="6" IsFormula="0" Attribute="MP" Formula="600" AllowNegative="0"/>
+	<Property ID="82027" Name="机械易伤" EventType="18" TargetType="3" FuncNo="806" BeAttackDamageRatio="400" BeAttackDamageType="1"/>
+</Object>
+
+

@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes" ?>
+<Processor>
+    <Base type="object" version="1.0">
+        <Line Type="2" Event="2002" Name="AUTOP2" />
+        <Line Type="2" Event="3011" Name="AUTOP1">
+            <Param type="13" srctype="8" data="AUTOP2" Index="0" />
+            <Param type="6" data="GroupID" Index="1" />
+        </Line>
+        <Line Type="1" Event="5020">
+            <Param type="4" data="-512.774109" Index="0" />
+            <Param type="4" data="7.9912" Index="1" />
+            <Param type="4" data="828.982239" Index="2" />
+            <Param type="4" data="-1.390006" Index="3" />
+            <Param type="6" data="npc_zqm001_0228" Index="4" />
+            <Param type="6" data="npc1" Index="5" />
+            <Param type="13" srctype="2" data="AUTOP1" Index="6" />
+        </Line>
+        <Line Type="2" Event="2002" Name="AUTOP4" />
+        <Line Type="2" Event="3011" Name="AUTOP3">
+            <Param type="13" srctype="8" data="AUTOP4" Index="0" />
+            <Param type="6" data="GroupID" Index="1" />
+        </Line>
+        <Line Type="1" Event="5020">
+            <Param type="4" data="-433.226563" Index="0" />
+            <Param type="4" data="16.721682" Index="1" />
+            <Param type="4" data="784.460999" Index="2" />
+            <Param type="4" data="0" Index="3" />
+            <Param type="6" data="npc_zqm001_305" Index="4" />
+            <Param type="6" data="npc3" Index="5" />
+            <Param type="13" srctype="2" data="AUTOP3" Index="6" />
+        </Line>
+        <Line Type="2" Event="2002" Name="AUTOP6" />
+        <Line Type="2" Event="3011" Name="AUTOP5">
+            <Param type="13" srctype="8" data="AUTOP6" Index="0" />
+            <Param type="6" data="GroupID" Index="1" />
+        </Line>
+        <Line Type="1" Event="5020">
+            <Param type="4" data="-514.741577" Index="0" />
+            <Param type="4" data="7.891973" Index="1" />
+            <Param type="4" data="854.960999" Index="2" />
+            <Param type="4" data="2.65999" Index="3" />
+            <Param type="6" data="npc_zqm001_0001" Index="4" />
+            <Param type="6" data="npc4" Index="5" />
+            <Param type="13" srctype="2" data="AUTOP5" Index="6" />
+        </Line>
+        <Line Type="2" Event="2002" Name="AUTOP8" />
+        <Line Type="2" Event="3011" Name="AUTOP7">
+            <Param type="13" srctype="8" data="AUTOP8" Index="0" />
+            <Param type="6" data="GroupID" Index="1" />
+        </Line>
+        <Line Type="1" Event="5020">
+            <Param type="4" data="-512.744263" Index="0" />
+            <Param type="4" data="7.891922" Index="1" />
+            <Param type="4" data="855.169678" Index="2" />
+            <Param type="4" data="2.750003" Index="3" />
+            <Param type="6" data="npc_zqS001_0003" Index="4" />
+            <Param type="6" data="npc5" Index="5" />
+            <Param type="13" srctype="2" data="AUTOP7" Index="6" />
+        </Line>
+        <Line Type="2" Event="2002" Name="AUTOP10" />
+        <Line Type="2" Event="3011" Name="AUTOP9">
+            <Param type="13" srctype="8" data="AUTOP10" Index="0" />
+            <Param type="6" data="GroupID" Index="1" />
+        </Line>
+        <Line Type="1" Event="5020">
+            <Param type="4" data="-475.113312" Index="0" />
+            <Param type="4" data="13.479001" Index="1" />
+            <Param type="4" data="828.49231" Index="2" />
+            <Param type="4" data="0" Index="3" />
+            <Param type="6" data="npc_zqm001_0219" Index="4" />
+            <Param type="6" data="npc8" Index="5" />
+            <Param type="13" srctype="2" data="AUTOP9" Index="6" />
+        </Line>
+        <Line Type="2" Event="2002" Name="AUTOP12" />
+        <Line Type="2" Event="3011" Name="AUTOP11">
+            <Param type="13" srctype="8" data="AUTOP12" Index="0" />
+            <Param type="6" data="GroupID" Index="1" />
+        </Line>
+        <Line Type="1" Event="5020">
+            <Param type="4" data="-515.758667" Index="0" />
+            <Param type="4" data="11.085508" Index="1" />
+            <Param type="4" data="808.286011" Index="2" />
+            <Param type="4" data="-1.498181" Index="3" />
+            <Param type="6" data="npc_zqm001_0218" Index="4" />
+            <Param type="6" data="npc9" Index="5" />
+            <Param type="13" srctype="2" data="AUTOP11" Index="6" />
+        </Line>
+        <Line Type="2" Event="2002" Name="AUTOP14" />
+        <Line Type="2" Event="3011" Name="AUTOP13">
+            <Param type="13" srctype="8" data="AUTOP14" Index="0" />
+            <Param type="6" data="GroupID" Index="1" />
+        </Line>
+        <Line Type="1" Event="5020">
+            <Param type="4" data="-526.814026" Index="0" />
+            <Param type="4" data="10.952001" Index="1" />
+            <Param type="4" data="812.079529" Index="2" />
+            <Param type="4" data="-1.54" Index="3" />
+            <Param type="6" data="Organ_zqm001_0004" Index="4" />
+            <Param type="6" data="npc10" Index="5" />
+            <Param type="13" srctype="2" data="AUTOP13" Index="6" />
+        </Line>
+        <Line Type="2" Event="2002" Name="AUTOP16" />
+        <Line Type="2" Event="3011" Name="AUTOP15">
+            <Param type="13" srctype="8" data="AUTOP16" Index="0" />
+            <Param type="6" data="GroupID" Index="1" />
+        </Line>
+        <Line Type="1" Event="5020">
+            <Param type="4" data="-468.512238" Index="0" />
+            <Param type="4" data="7.65834" Index="1" />
+            <Param type="4" data="883.961121" Index="2" />
+            <Param type="4" data="0" Index="3" />
+            <Param type="6" data="monster_zqm001_0109" Index="4" />
+            <Param type="6" data="npc12" Index="5" />
+            <Param type="13" srctype="2" data="AUTOP15" Index="6" />
+        </Line>
+        <Line Type="2" Event="2002" Name="AUTOP18" />
+        <Line Type="2" Event="3011" Name="AUTOP17">
+            <Param type="13" srctype="8" data="AUTOP18" Index="0" />
+            <Param type="6" data="GroupID" Index="1" />
+        </Line>
+        <Line Type="1" Event="5020">
+            <Param type="4" data="-466.886261" Index="0" />
+            <Param type="4" data="8.465706" Index="1" />
+            <Param type="4" data="873.247498" Index="2" />
+            <Param type="4" data="0" Index="3" />
+            <Param type="6" data="monster_zqm001_0109" Index="4" />
+            <Param type="6" data="npc13" Index="5" />
+            <Param type="13" srctype="2" data="AUTOP17" Index="6" />
+        </Line>
+        <Line Type="2" Event="2002" Name="AUTOP20" />
+        <Line Type="2" Event="3011" Name="AUTOP19">
+            <Param type="13" srctype="8" data="AUTOP20" Index="0" />
+            <Param type="6" data="GroupID" Index="1" />
+        </Line>
+        <Line Type="1" Event="5020">
+            <Param type="4" data="-477.238495" Index="0" />
+            <Param type="4" data="8.721943" Index="1" />
+            <Param type="4" data="870.066345" Index="2" />
+            <Param type="4" data="0" Index="3" />
+            <Param type="6" data="monster_zqm001_0109" Index="4" />
+            <Param type="6" data="npc14" Index="5" />
+            <Param type="13" srctype="2" data="AUTOP19" Index="6" />
+        </Line>
+        <Line Type="2" Event="2002" Name="AUTOP22" />
+        <Line Type="2" Event="3011" Name="AUTOP21">
+            <Param type="13" srctype="8" data="AUTOP22" Index="0" />
+            <Param type="6" data="GroupID" Index="1" />
+        </Line>
+        <Line Type="1" Event="5020">
+            <Param type="4" data="-474.032928" Index="0" />
+            <Param type="4" data="8.717646" Index="1" />
+            <Param type="4" data="877.818176" Index="2" />
+            <Param type="4" data="0" Index="3" />
+            <Param type="6" data="monster_zqm001_0109" Index="4" />
+            <Param type="6" data="npc15" Index="5" />
+            <Param type="13" srctype="2" data="AUTOP21" Index="6" />
+        </Line>
+        <Line Type="2" Event="2002" Name="AUTOP24" />
+        <Line Type="2" Event="3011" Name="AUTOP23">
+            <Param type="13" srctype="8" data="AUTOP24" Index="0" />
+            <Param type="6" data="GroupID" Index="1" />
+        </Line>
+        <Line Type="1" Event="5020">
+            <Param type="4" data="-476.077118" Index="0" />
+            <Param type="4" data="10.779935" Index="1" />
+            <Param type="4" data="10.779935" Index="2" />
+            <Param type="4" data="0" Index="3" />
+            <Param type="6" data="monster_zqm001_0083" Index="4" />
+            <Param type="6" data="npc16" Index="5" />
+            <Param type="13" srctype="2" data="AUTOP23" Index="6" />
+        </Line>
+        <Line Type="2" Event="2002" Name="AUTOP26" />
+        <Line Type="2" Event="3011" Name="AUTOP25">
+            <Param type="13" srctype="8" data="AUTOP26" Index="0" />
+            <Param type="6" data="GroupID" Index="1" />
+        </Line>
+        <Line Type="1" Event="5020">
+            <Param type="4" data="-471.654694" Index="0" />
+            <Param type="4" data="10.776174" Index="1" />
+            <Param type="4" data="10.776174" Index="2" />
+            <Param type="4" data="0" Index="3" />
+            <Param type="6" data="monster_zqm001_0083" Index="4" />
+            <Param type="6" data="npc17" Index="5" />
+            <Param type="13" srctype="2" data="AUTOP25" Index="6" />
+        </Line>
+        <Line Type="2" Event="2002" Name="AUTOP28" />
+        <Line Type="2" Event="3011" Name="AUTOP27">
+            <Param type="13" srctype="8" data="AUTOP28" Index="0" />
+            <Param type="6" data="GroupID" Index="1" />
+        </Line>
+        <Line Type="1" Event="5020">
+            <Param type="4" data="-463.070465" Index="0" />
+            <Param type="4" data="11.165569" Index="1" />
+            <Param type="4" data="824.401428" Index="2" />
+            <Param type="4" data="0" Index="3" />
+            <Param type="6" data="monster_zqm001_0083" Index="4" />
+            <Param type="6" data="npc18" Index="5" />
+            <Param type="13" srctype="2" data="AUTOP27" Index="6" />
+        </Line>
+        <Line Type="2" Event="2002" Name="AUTOP30" />
+        <Line Type="2" Event="3011" Name="AUTOP29">
+            <Param type="13" srctype="8" data="AUTOP30" Index="0" />
+            <Param type="6" data="GroupID" Index="1" />
+        </Line>
+        <Line Type="1" Event="5020">
+            <Param type="4" data="-466.170685" Index="0" />
+            <Param type="4" data="11.348168" Index="1" />
+            <Param type="4" data="809.923035" Index="2" />
+            <Param type="4" data="0" Index="3" />
+            <Param type="6" data="monster_zqm001_0083" Index="4" />
+            <Param type="6" data="npc19" Index="5" />
+            <Param type="13" srctype="2" data="AUTOP29" Index="6" />
+        </Line>
+        <Line Type="2" Event="2002" Name="AUTOP32" />
+        <Line Type="2" Event="3011" Name="AUTOP31">
+            <Param type="13" srctype="8" data="AUTOP32" Index="0" />
+            <Param type="6" data="GroupID" Index="1" />
+        </Line>
+        <Line Type="1" Event="5020">
+            <Param type="4" data="-490.551636" Index="0" />
+            <Param type="4" data="11.731337" Index="1" />
+            <Param type="4" data="801.968201" Index="2" />
+            <Param type="4" data="0" Index="3" />
+            <Param type="6" data="monster_zqm001_0079" Index="4" />
+            <Param type="6" data="npc20" Index="5" />
+            <Param type="13" srctype="2" data="AUTOP31" Index="6" />
+        </Line>
+        <Line Type="2" Event="2002" Name="AUTOP34" />
+        <Line Type="2" Event="3011" Name="AUTOP33">
+            <Param type="13" srctype="8" data="AUTOP34" Index="0" />
+            <Param type="6" data="GroupID" Index="1" />
+        </Line>
+        <Line Type="1" Event="5020">
+            <Param type="4" data="-496.847046" Index="0" />
+            <Param type="4" data="11.651083" Index="1" />
+            <Param type="4" data="790.440491" Index="2" />
+            <Param type="4" data="0" Index="3" />
+            <Param type="6" data="monster_zqm001_0079" Index="4" />
+            <Param type="6" data="npc21" Index="5" />
+            <Param type="13" srctype="2" data="AUTOP33" Index="6" />
+        </Line>
+        <Line Type="2" Event="2002" Name="AUTOP36" />
+        <Line Type="2" Event="3011" Name="AUTOP35">
+            <Param type="13" srctype="8" data="AUTOP36" Index="0" />
+            <Param type="6" data="GroupID" Index="1" />
+        </Line>
+        <Line Type="1" Event="5020">
+            <Param type="4" data="-485.0383" Index="0" />
+            <Param type="4" data="11.166655" Index="1" />
+            <Param type="4" data="796.210632" Index="2" />
+            <Param type="4" data="0" Index="3" />
+            <Param type="6" data="monster_zqm001_0079" Index="4" />
+            <Param type="6" data="npc22" Index="5" />
+            <Param type="13" srctype="2" data="AUTOP35" Index="6" />
+        </Line>
+        <Line Type="2" Event="2002" Name="AUTOP38" />
+        <Line Type="2" Event="3011" Name="AUTOP37">
+            <Param type="13" srctype="8" data="AUTOP38" Index="0" />
+            <Param type="6" data="GroupID" Index="1" />
+        </Line>
+        <Line Type="1" Event="5020">
+            <Param type="4" data="-487.74292" Index="0" />
+            <Param type="4" data="11.375251" Index="1" />
+            <Param type="4" data="792.566162" Index="2" />
+            <Param type="4" data="0" Index="3" />
+            <Param type="6" data="monster_zqm001_0079" Index="4" />
+            <Param type="6" data="npc23" Index="5" />
+            <Param type="13" srctype="2" data="AUTOP37" Index="6" />
+        </Line>
+        <Line Type="2" Event="2002" Name="AUTOP40" />
+        <Line Type="2" Event="3011" Name="AUTOP39">
+            <Param type="13" srctype="8" data="AUTOP40" Index="0" />
+            <Param type="6" data="GroupID" Index="1" />
+        </Line>
+        <Line Type="1" Event="5020">
+            <Param type="4" data="-510.045319" Index="0" />
+            <Param type="4" data="12.339042" Index="1" />
+            <Param type="4" data="798.088074" Index="2" />
+            <Param type="4" data="0" Index="3" />
+            <Param type="6" data="Giving_zqm001_0034" Index="4" />
+            <Param type="6" data="npc24" Index="5" />
+            <Param type="13" srctype="2" data="AUTOP39" Index="6" />
+        </Line>
+        <Line Type="2" Event="2002" Name="AUTOP42" />
+        <Line Type="2" Event="3011" Name="AUTOP41">
+            <Param type="13" srctype="8" data="AUTOP42" Index="0" />
+            <Param type="6" data="GroupID" Index="1" />
+        </Line>
+        <Line Type="1" Event="5020">
+            <Param type="4" data="-514.876831" Index="0" />
+            <Param type="4" data="12.695947" Index="1" />
+            <Param type="4" data="787.162415" Index="2" />
+            <Param type="4" data="0" Index="3" />
+            <Param type="6" data="Giving_zqm001_0038" Index="4" />
+            <Param type="6" data="npc25" Index="5" />
+            <Param type="13" srctype="2" data="AUTOP41" Index="6" />
+        </Line>
+        <Line Type="2" Event="2002" Name="AUTOP44" />
+        <Line Type="2" Event="3011" Name="AUTOP43">
+            <Param type="13" srctype="8" data="AUTOP44" Index="0" />
+            <Param type="6" data="GroupID" Index="1" />
+        </Line>
+        <Line Type="1" Event="5020">
+            <Param type="4" data="-487.74292" Index="0" />
+            <Param type="4" data="11.375251" Index="1" />
+            <Param type="4" data="792.566162" Index="2" />
+            <Param type="4" data="0" Index="3" />
+            <Param type="6" data="monster_zqm001_0080" Index="4" />
+            <Param type="6" data="npc26" Index="5" />
+            <Param type="13" srctype="2" data="AUTOP43" Index="6" />
+        </Line>
+        <Line Type="2" Event="2002" Name="AUTOP46" />
+        <Line Type="2" Event="3011" Name="AUTOP45">
+            <Param type="13" srctype="8" data="AUTOP46" Index="0" />
+            <Param type="6" data="GroupID" Index="1" />
+        </Line>
+        <Line Type="1" Event="5020">
+            <Param type="4" data="-465.083160" Index="0" />
+            <Param type="4" data="28.254521" Index="1" />
+            <Param type="4" data="855.754272" Index="2" />
+            <Param type="4" data="0" Index="3" />
+            <Param type="6" data="monster_zqF001_0001" Index="4" />
+            <Param type="6" data="npc27" Index="5" />
+            <Param type="13" srctype="2" data="AUTOP45" Index="6" />
+        </Line>
+        <Line Type="1" Event="4528">
+            <Param type="6" data="测试401地图" Index="0" />
+        </Line>
+    </Base>
+</Processor>

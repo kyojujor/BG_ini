@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<Object>
+	<Property ID="4001" GirdX="1" GirdY="2" ChildTask="4002" IsHide="1"/>
+	<Property ID="4002" GirdX="2" GirdY="2" ChildTask="4082" FatherTask="4001" IsHide="1"/>
+	<Property ID="4082" GirdX="3" GirdY="2" ChildTask="4146" FatherTask="4002" IsHide="1"/>
+	<Property ID="4146" GirdX="4" GirdY="2" ChildTask="4003" FatherTask="4082" IsHide="1"/>
+	<Property ID="4003" GirdX="5" GirdY="2" ChildTask="4084" FatherTask="4146" IsHide="1"/>
+	<Property ID="4084" GirdX="6" GirdY="2" ChildTask="4004" FatherTask="4003" IsHide="1"/>
+	<Property ID="4004" GirdX="7" GirdY="2" ChildTask="4083" FatherTask="4084" IsHide="1"/>
+	<Property ID="4083" GirdX="8" GirdY="2" ChildTask="4005" FatherTask="4004" IsHide="1"/>
+	<Property ID="4005" GirdX="9" GirdY="2" ChildTask="4006" FatherTask="4083" IsHide="1"/>
+	<Property ID="4006" GirdX="10" GirdY="2" ChildTask="4148" FatherTask="4005" IsHide="1"/>
+	<Property ID="4148" GirdX="11" GirdY="2" ChildTask="4007" FatherTask="4006" IsHide="1"/>
+	<Property ID="4007" GirdX="12" GirdY="2" ChildTask="4127" FatherTask="4148" IsHide="1"/>
+	<Property ID="4127" GirdX="13" GirdY="2" ChildTask="4008" FatherTask="4007" IsHide="1"/>
+	<Property ID="4008" GirdX="14" GirdY="2" ChildTask="4009" FatherTask="4127" IsHide="1"/>
+	<Property ID="4009" GirdX="15" GirdY="2" ChildTask="4178" FatherTask="4008" IsHide="1"/>
+	<Property ID="4178" GirdX="16" GirdY="2" ChildTask="4011" FatherTask="4009" IsHide="1"/>
+	<Property ID="4011" GirdX="17" GirdY="2" ChildTask="4013" FatherTask="4178" IsHide="1"/>
+	<Property ID="4013" GirdX="18" GirdY="2" ChildTask="4015" FatherTask="4011" IsHide="1"/>
+	<Property ID="4015" GirdX="19" GirdY="2" ChildTask="4016" FatherTask="4013" IsHide="1"/>
+	<Property ID="4016" GirdX="20" GirdY="2" ChildTask="4014" FatherTask="4015" IsHide="1"/>
+	<Property ID="4014" GirdX="21" GirdY="2" ChildTask="4017" FatherTask="4016" IsHide="1"/>
+	<Property ID="4017" GirdX="22" GirdY="2" FatherTask="4014" IsHide="1" LastTask="1"/>
+</Object>

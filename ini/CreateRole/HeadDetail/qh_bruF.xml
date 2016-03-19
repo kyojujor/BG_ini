@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- 被2011 rel. 2 sp1 (TeaM DJiNN) 使用XMLSpy vTeaM DJiNN编辑的 (http://www.altova.com) by -->
+<Object>
+	<Controller ID="head_1_y" Desc="颅骨宽度" Ratio="0.00004" Offset="0">
+		<Bone Name="Bone53" Translate="0,0,0" Rotation="0,0,0" Scale="15,0,15"/>
+	</Controller>
+	<Controller ID="head_1_z" Desc="颅骨高度" Ratio="0.00004" Offset="0">
+		<Bone Name="Bone53" Translate="0,0,0" Rotation="0,0,0" Scale="0,15,15"/>
+	</Controller>
+	<Controller ID="head_2_x" Desc="额头深度" Ratio="0.00004" Offset="0">
+		<Bone Name="Bone53" Translate="0,0,0" Rotation="0,0,0" Scale="15,15,0"/>
+	</Controller>
+	<Controller ID="face_1_y" Desc="脸部宽度" Ratio="0.00004" Offset="0">
+		<Bone Name="Bone45" Translate="0,0,0" Rotation="0,0,0" Scale="15,0,15"/>
+	</Controller>
+	<Controller ID="face_2_y" Desc="脸部大小" Ratio="0.00004" Offset="0">
+		<Bone Name="Bone45" Translate="0,0,0" Rotation="0,0,0" Scale="0,15,15"/>
+	</Controller>
+	<Controller ID="face_2_x" Desc="脸颊深度" Ratio="0.00004" Offset="0">
+		<Bone Name="Bone48" Translate="15,0,0" Rotation="0,0,0" Scale="15,15,15"/>
+		<Bone Name="Bone47" Translate="-15,0,0" Rotation="0,0,0" Scale="15,15,15"/>
+	</Controller>
+	<Controller ID="face_3_y" Desc="颧骨深度" Ratio="0.00004" Offset="0">
+		<Bone Name="Bone09" Translate="0,15,0" Rotation="0,0,0" Scale="0,0,0"/>
+		<Bone Name="Bone28" Translate="0,-15,0" Rotation="0,0,0" Scale="0,0,0"/>
+	</Controller>
+	<Controller ID="face_3_z" Desc="颧骨位置" Ratio="0.00004" Offset="0">
+		<Bone Name="Bone09" Translate="0,0,-15" Rotation="0,0,0" Scale="0,0,0"/>
+		<Bone Name="Bone28" Translate="0,0,15" Rotation="0,0,0" Scale="0,0,0"/>
+	</Controller>
+	<Controller ID="face_3_x" Desc="颧骨宽度" Ratio="0.00004" Offset="0">
+		<Bone Name="Bone09" Translate="-15,0,0" Rotation="0,0,0" Scale="0,0,0"/>
+		<Bone Name="Bone28" Translate="15,0,0" Rotation="0,0,0" Scale="0,0,0"/>
+	</Controller>
+	<Controller ID="face_4_z" Desc="颧骨大小" Ratio="0.00004" Offset="0">
+		<Bone Name="Bone09" Translate="0,0,0" Rotation="0,0,0" Scale="15,15,15"/>
+		<Bone Name="Bone28" Translate="0,0,0" Rotation="0,0,0" Scale="15,15,15"/>
+	</Controller>
+	<Controller ID="brow_1_x" Desc="眉毛长度" Ratio="0.00004" Offset="0">
+		<Bone Name="Bone02" Translate="-15,15,0" Rotation="0,0,0" Scale="0,0,0"/>
+		<Bone Name="Bone06" Translate="-15,15,0" Rotation="0,0,0" Scale="0,0,0"/>
+		<Bone Name="Bone25" Translate="15,15,0" Rotation="0,0,0" Scale="0,0,0"/>
+		<Bone Name="Bone36" Translate="15,15,0" Rotation="0,0,0" Scale="0,0,0"/>
+	</Controller>
+	<Controller ID="brow_1_y" Desc="眉毛角度" Ratio="0.00004" Offset="0">
+		<Bone Name="Bone02" Translate="0,0,15" Rotation="0,0,0" Scale="0,0,0"/>
+		<Bone Name="Bone06" Translate="0,0,15" Rotation="0,0,0" Scale="0,0,0"/>
+		<Bone Name="Bone25" Translate="0,0,15" Rotation="0,0,0" Scale="0,0,0"/>
+		<Bone Name="Bone36" Translate="0,0,15" Rotation="0,0,0" Scale="0,0,0"/>
+	</Controller>
+	<Controller ID="brow_2_y" Desc="眉弓厚度" Ratio="0.00004" Offset="0">
+		<Bone Name="Bone22" Translate="0,15,0" Rotation="0,0,0" Scale="0,0,0"/>
+		<Bone Name="Bone39" Translate="0,15,0" Rotation="0,0,0" Scale="0,0,0"/>
+	</Controller>
+	<Controller ID="brow_2_x" Desc="眉毛间距" Ratio="0.00004" Offset="0">
+		<Bone Name="Bone22" Translate="-15,0,0" Rotation="0,0,0" Scale="0,0,0"/>
+		<Bone Name="Bone39" Translate="15,0,0" Rotation="0,0,0" Scale="0,0,0"/>
+	</Controller>
+	<Controller ID="brow_3_z" Desc="眉毛位置" Ratio="0.00004" Offset="0">
+		<Bone Name="Bone22" Translate="0,0,15" Rotation="0,0,0" Scale="0,0,0"/>
+		<Bone Name="Bone39" Translate="0,0,15" Rotation="0,0,0" Scale="0,0,0"/>
+	</Controller>
+	<Controller ID="eyes_1_z" Desc="眼睛长度" Ratio="0.00004" Offset="0">
+		<Bone Name="Bone15" Translate="0,0,0" Rotation="0,0,15" Scale="0,0,0"/>
+		<Bone Name="Bone16" Translate="0,0,0" Rotation="0,0,15" Scale="0,0,0"/>
+		<Bone Name="Bone32" Translate="0,0,0" Rotation="0,0,15" Scale="0,0,0"/>
+		<Bone Name="Bone33" Translate="0,0,0" Rotation="0,0,15" Scale="0,0,0"/>
+	</Controller>
+	<Controller ID="eyes_1_x" Desc="眼角高度" Ratio="0.00004" Offset="0">
+		<Bone Name="Bone15" Translate="0,0,0" Rotation="-15,0,0" Scale="0,0,0"/>
+		<Bone Name="Bone16" Translate="0,0,0" Rotation="-15,0,0" Scale="0,0,0"/>
+		<Bone Name="Bone32" Translate="0,0,0" Rotation="15,0,0" Scale="0,0,0"/>
+		<Bone Name="Bone33" Translate="0,0,0" Rotation="15,0,0" Scale="0,0,0"/>
+	</Controller>
+	<Controller ID="eyes_1_y" Desc="眼睛角度" Ratio="0.00004" Offset="0">
+		<Bone Name="Bone08" Translate="0,0,0" Rotation="0,15,0" Scale="0,0,0"/>
+		<Bone Name="Bone31" Translate="0,0,0" Rotation="0,15,0" Scale="0,0,0"/>
+	</Controller>
+	<Controller ID="eyes_2_z" Desc="眼睛大小" Ratio="0.00004" Offset="0">
+		<Bone Name="Bone08" Translate="0,0,0" Rotation="0,0,0" Scale="15,15,15"/>
+		<Bone Name="Bone31" Translate="0,0,0" Rotation="0,0,0" Scale="15,15,15"/>
+	</Controller>
+	<Controller ID="eyes_2_x" Desc="眼睛间距" Ratio="0.00004" Offset="0">
+		<Bone Name="Bone08" Translate="-15,0,0" Rotation="0,0,0" Scale="0,0,0"/>
+		<Bone Name="Bone31" Translate="15,0,0" Rotation="0,0,0" Scale="0,0,0"/>
+	</Controller>
+	<Controller ID="nose_1_x" Desc="鼻梁宽度" Ratio="0.00004" Offset="0">
+		<Bone Name="Bone04" Translate="0,0,0" Rotation="0,0,0" Scale="15,0,0"/>
+	</Controller>
+	<Controller ID="nose_1_z" Desc="鼻梁高度" Ratio="0.00004" Offset="0">
+		<Bone Name="Bone04" Translate="0,15,15" Rotation="0,0,0" Scale="0,0,0"/>
+		<Bone Name="Bone17" Translate="0,15,15" Rotation="15,0,0" Scale="0,0,0"/>
+	</Controller>
+	<Controller ID="nose_2_x" Desc="鼻头宽度" Ratio="0.00004" Offset="0">
+		<Bone Name="Bone07" Translate="0,0,0" Rotation="0,0,0" Scale="15,15,15"/>
+		<Bone Name="Bone38" Translate="0,0,0" Rotation="0,0,0" Scale="15,15,15"/>
+	</Controller>
+	<Controller ID="nose_2_y" Desc="鼻头角度" Ratio="0.00004" Offset="0">
+		<Bone Name="Bone07" Translate="0,0,15" Rotation="0,0,0" Scale="0,0,0"/>
+		<Bone Name="Bone38" Translate="0,0,15" Rotation="15,0,0" Scale="0,0,0"/>
+	</Controller>
+	<Controller ID="nose_3_x" Desc="鼻子宽度" Ratio="0.00004" Offset="0">
+		<Bone Name="Bone37" Translate="0,0,0" Rotation="0,0,0" Scale="15,0,0"/>
+	</Controller>
+	<Controller ID="nose_3_y" Desc="鼻子长度" Ratio="0.00004" Offset="0">
+		<Bone Name="Bone37" Translate="0,15,15" Rotation="0,0,0" Scale="0,0,0"/>
+		<Bone Name="Bone38" Translate="0,15,15" Rotation="0,0,0" Scale="0,0,0"/>
+	</Controller>
+	<Controller ID="mouth_1_x" Desc="嘴唇长度" Ratio="0.00004" Offset="0">
+		<Bone Name="Bone40" Translate="0,0,0" Rotation="0,0,0" Scale="15,0,0"/>
+		<Bone Name="Bone43" Translate="0,0,0" Rotation="0,0,0" Scale="15,0,0"/>
+	</Controller>
+	<Controller ID="mouth_1_y" Desc="嘴唇位置" Ratio="0.00004" Offset="0">
+		<Bone Name="Bone40" Translate="0,0,15" Rotation="0,0,0" Scale="0,0,0"/>
+		<Bone Name="Bone43" Translate="0,0,15" Rotation="0,0,0" Scale="0,0,0"/>
+	</Controller>
+	<Controller ID="mouth_2_x" Desc="上唇长度" Ratio="0.00004" Offset="0">
+		<Bone Name="Bone05" Translate="-15,0,0" Rotation="0,0,0" Scale="0,0,0"/>
+		<Bone Name="Bone11" Translate="-15,0,0" Rotation="0,0,0" Scale="0,0,0"/>
+		<Bone Name="Bone18" Translate="0,0,0" Rotation="0,0,0" Scale="15,0,0"/>
+		<Bone Name="Bone29" Translate="15,0,0" Rotation="0,0,0" Scale="0,0,0"/>
+		<Bone Name="Bone30" Translate="15,0,0" Rotation="0,0,0" Scale="0,0,0"/>
+	</Controller>
+	<Controller ID="mouth_2_y" Desc="上唇厚度" Ratio="0.00004" Offset="0">
+		<Bone Name="Bone05" Translate="0,0,0" Rotation="0,0,0" Scale="0,0,15"/>
+		<Bone Name="Bone11" Translate="0,0,0" Rotation="0,0,0" Scale="0,0,15"/>
+		<Bone Name="Bone18" Translate="0,0,0" Rotation="0,0,0" Scale="0,0,15"/>
+		<Bone Name="Bone29" Translate="0,0,0" Rotation="0,0,0" Scale="0,0,15"/>
+		<Bone Name="Bone30" Translate="0,0,0" Rotation="0,0,0" Scale="0,0,15"/>
+	</Controller>
+	<Controller ID="mouth_3_x" Desc="下唇长度" Ratio="0.00004" Offset="0">
+		<Bone Name="Bone12" Translate="-15,0,0" Rotation="0,0,0" Scale="0,0,0"/>
+		<Bone Name="Bone20" Translate="0,0,0" Rotation="0,0,0" Scale="15,0,0"/>
+		<Bone Name="Bone34" Translate="15,0,0" Rotation="0,0,0" Scale="0,0,0"/>
+	</Controller>
+	<Controller ID="mouth_3_y" Desc="下唇厚度" Ratio="0.00004" Offset="0">
+		<Bone Name="Bone12" Translate="0,0,0" Rotation="0,0,0" Scale="0,0,15"/>
+		<Bone Name="Bone20" Translate="0,0,0" Rotation="0,0,0" Scale="0,0,15"/>
+		<Bone Name="Bone34" Translate="0,0,0" Rotation="0,0,0" Scale="0,0,15"/>
+	</Controller>
+	<Controller ID="jaw_1_x" Desc="下颚宽度" Ratio="0.00004" Offset="0">
+		<Bone Name="Bone10" Translate="-15,0,0" Rotation="0,0,0" Scale="15,15,15"/>
+		<Bone Name="Bone27" Translate="15,0,0" Rotation="0,0,0" Scale="15,15,15"/>
+	</Controller>
+	<Controller ID="jaw_1_y" Desc="下颚位置" Ratio="0.00004" Offset="0">
+		<Bone Name="Bone10" Translate="0,15,15" Rotation="0,0,0" Scale="0,0,0"/>
+		<Bone Name="Bone27" Translate="0,15,15" Rotation="0,0,0" Scale="0,0,0"/>
+	</Controller>
+	<Controller ID="jaw_2_x" Desc="下巴宽度" Ratio="0.00004" Offset="0">
+		<Bone Name="Bone14" Translate="0,0,0" Rotation="0,0,0" Scale="15,0,0"/>
+	</Controller>
+	<Controller ID="jaw_2_y" Desc="下巴位置" Ratio="0.00004" Offset="0">
+		<Bone Name="Bone14" Translate="0,15,15" Rotation="0,0,0" Scale="0,0,0"/>
+	</Controller>
+	<Controller ID="ear_1_x" Desc="耳朵深度" Ratio="0.00004" Offset="0">
+		<Bone Name="Bone21" Translate="0,15,0" Rotation="0,0,0" Scale="0,0,0"/>
+		<Bone Name="Bone35" Translate="0,15,0" Rotation="0,0,0" Scale="0,0,0"/>
+	</Controller>
+	<Controller ID="ear_1_y" Desc="耳朵位置" Ratio="0.00004" Offset="0">
+		<Bone Name="Bone21" Translate="0,0,15" Rotation="0,0,0" Scale="0,0,0"/>
+		<Bone Name="Bone35" Translate="0,0,15" Rotation="0,0,0" Scale="0,0,0"/>
+	</Controller>
+	<Controller ID="ear_3_x" Desc="耳朵宽度" Ratio="0.00004" Offset="0">
+		<Bone Name="Bone21" Translate="0,0,0" Rotation="0,-15,0" Scale="0,0,0"/>
+		<Bone Name="Bone35" Translate="0,0,0" Rotation="0,15,0" Scale="0,0,0"/>
+	</Controller>
+	<Controller ID="ear_3_y" Desc="耳朵大小" Ratio="0.00004" Offset="0">
+		<Bone Name="Bone21" Translate="0,0,0" Rotation="0,0,0" Scale="15,15,15"/>
+		<Bone Name="Bone35" Translate="0,0,0" Rotation="0,0,0" Scale="15,15,15"/>
+	</Controller>
+</Object>

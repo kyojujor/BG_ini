@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+	<Property ID="3100611" Name="鼓舞" EventType="1" TargetType="2" FuncNo="6" IsFormula="1" Attribute="HP" Formula="@HP*0.1" AllowNegative="0"/>
+	<Property ID="206832" Name="假死" EventType="1" TargetType="2" FuncNo="104"/>
+	<Property ID="206833" Name="假死" EventType="1" TargetType="2" FuncNo="30" SetFormula="1" SetAttribute="ShamDead"/>
+	<Property ID="206834" Name="假死" EventType="2" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="ShamDead"/>
+	<Property ID="31208" Name="燃烧弹-灼烧" EventType="1" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="@MaxHP*0.05" DamageCategory="3" DamageTargetType="1" DamageCaster="2"/>
+	<Property ID="31901" Name="坚毅守护"/>
+	<Property ID="31902" Name="坚盾" EventType="18" TargetType="3" FuncNo="808" ImmunityDamageType="10" ImmunityValue="60" IsPercent="1"/>
+	<Property ID="31903" Name="坚定意志"/>
+	<Property ID="31905" Name="骑士信条" EventType="18" TargetType="1" FuncNo="812" DamageType="1" SharedRadius="10" SharedRatio="70"/>
+	<Property ID="31906" Name="威慑"/>
+	<Property ID="31909" Name="蒸汽弥漫"/>
+	<Property ID="31912" Name="同归于尽" FuncNo="804"/>
+	<Property ID="31917" Name="盾击"/>
+	<Property ID="31918" Name="泰坦掌握"/>
+	<Property ID="31919" Name="泰坦学识"/>
+	<Property ID="3110111" Name="普通隐身" EventType="1" TargetType="2" FuncNo="30" SetFormula="1" SetAttribute="RoleHide"/>
+	<Property ID="3110121" Name="普通隐身" EventType="1" TargetType="2" FuncNo="30" SetFormula="1" SetAttribute="RoleHide"/>
+	<Property ID="3110131" Name="普通隐身" EventType="1" TargetType="2" FuncNo="30" SetFormula="1" SetAttribute="RoleHide"/>
+	<Property ID="3110141" Name="普通隐身" EventType="1" TargetType="2" FuncNo="30" SetFormula="1" SetAttribute="RoleHide"/>
+	<Property ID="3110151" Name="普通隐身" EventType="1" TargetType="2" FuncNo="30" SetFormula="1" SetAttribute="RoleHide"/>
+	<Property ID="3110161" Name="普通隐身" EventType="1" TargetType="2" FuncNo="30" SetFormula="1" SetAttribute="RoleHide"/>
+	<Property ID="31107" Name="强隐" EventType="1" TargetType="2" FuncNo="30" SetAttribute="RoleHide" SetFormula="1"/>
+	<Property ID="31114" Name="背刺加成" EventType="8" TargetType="5" FuncNo="3" IsDamageFormula="0" DamageFormula="100" DamageCategory="1" DamageTargetType="0" DamageCaster="1" Condition="20050"/>
+	<Property ID="31117" Name="buffA" EventType="8" TargetType="5" FuncNo="1" BuffID="Buff_Ex1117_01_2"/>
+	<Property ID="31118" Name="buffB" EventType="18" TargetType="5" FuncNo="1" BuffID="Buff_Ex1118_01_2" Condition="31117"/>
+	<Property ID="31119" Name="buffC" EventType="8" TargetType="2" FuncNo="1" BuffID="Buff_Ex1119_01_2"/>
+	<Property ID="311201" Name="无敌" EventType="1" TargetType="2" FuncNo="30" SetFormula="CantBeAttack2" SetAttribute="1"/>
+	<Property ID="311202" Name="无敌" EventType="1" TargetType="2" FuncNo="30" SetFormula="CantBeAttack2" SetAttribute="1"/>
+	<Property ID="311203" Name="无敌" EventType="1" TargetType="2" FuncNo="30" SetFormula="CantBeAttack2" SetAttribute="1"/>
+	<Property ID="311204" Name="无敌" EventType="1" TargetType="2" FuncNo="30" SetFormula="CantBeAttack2" SetAttribute="1"/>
+	<Property ID="311205" Name="无敌" EventType="1" TargetType="2" FuncNo="30" SetFormula="CantBeAttack2" SetAttribute="1"/>
+	<Property ID="311206" Name="无敌" EventType="1" TargetType="2" FuncNo="30" SetFormula="CantBeAttack2" SetAttribute="1"/>
+	<Property ID="32110" Name="灼热射击" EventType="1" TargetType="2" FuncNo="3" IsDamageFormula="0" DamageFormula="20" DamageCategory="1" DamageTargetType="1" DamageCaster="2"/>
+	<Property ID="3110112" EventType="2" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="RoleHide" Name="取消隐身"/>
+	<Property ID="3110122" EventType="2" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="RoleHide" Name="取消隐身"/>
+	<Property ID="3110132" EventType="2" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="RoleHide" Name="取消隐身"/>
+	<Property ID="3110142" EventType="2" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="RoleHide" Name="取消隐身"/>
+	<Property ID="3110152" EventType="2" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="RoleHide" Name="取消隐身"/>
+	<Property ID="3110162" EventType="2" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="RoleHide" Name="取消隐身"/>
+	<Property ID="310071" Name="横冲直撞" EventType="6" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_In1001_07_1"/>
+	<Property ID="3121513" EventType="1" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="300" DamageCategory="1" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="3161111" Name="波动地表回血1" EventType="1" TargetType="2" FuncNo="6" IsFormula="1" Attribute="HP" Formula="@MaxHP*0.05" AllowNegative="0"/>
+	<Property ID="3161121" Name="波动地表回血2" EventType="1" TargetType="2" FuncNo="6" IsFormula="1" Attribute="HP" Formula="@MaxHP*0.06" AllowNegative="0"/>
+	<Property ID="3161131" Name="波动地表回血3" EventType="1" TargetType="2" FuncNo="6" IsFormula="1" Attribute="HP" Formula="@MaxHP*0.07" AllowNegative="0"/>
+	<Property ID="3161141" Name="波动地表回血4" EventType="1" TargetType="2" FuncNo="6" IsFormula="1" Attribute="HP" Formula="@MaxHP*0.08" AllowNegative="0"/>
+	<Property ID="3161151" Name="波动地表回血5" EventType="1" TargetType="2" FuncNo="6" IsFormula="1" Attribute="HP" Formula="@MaxHP*0.09" AllowNegative="0"/>
+	<Property ID="3161161" Name="波动地表回血6" EventType="1" TargetType="2" FuncNo="6" IsFormula="1" Attribute="HP" Formula="@MaxHP*0.1" AllowNegative="0"/>
+	<Property ID="317021" Name="能量盾-受击吸收" EventType="1" TargetType="0" FuncNo="828" AbsorbDamageType="10" CountType="1" AbsorbValue="259+R[@MinMagicAttack,@MaxMagicAttack]*0.63"/>
+	<Property ID="3170212" Name="能量盾-击晕" EventType="2" TargetType="2" FuncNo="18" UseSkillID="Skill_Wt1721_01_1"/>
+	<Property ID="31715" Name="薄葬" EventType="18" TargetType="3" FuncNo="808"/>
+	<Property ID="310101" EventType="10" TargetType="2" FuncNo="1" BuffID="Buff_In1010_01_2"/>
+	<Property ID="310102" EventType="10" TargetType="2" FuncNo="1" BuffID="Buff_In1010_02_2"/>
+	<Property ID="310103" EventType="10" TargetType="2" FuncNo="1" BuffID="Buff_In1010_03_2"/>
+	<Property ID="310104" EventType="10" TargetType="2" FuncNo="1" BuffID="Buff_In1010_04_2"/>
+	<Property ID="310105" EventType="10" TargetType="2" FuncNo="1" BuffID="Buff_In1010_05_2"/>
+	<Property ID="310106" EventType="10" TargetType="2" FuncNo="1" BuffID="Buff_In1010_06_2"/>
+	<Property ID="31017311" Name="治疗1" EventType="2" TargetType="2" FuncNo="5" Condition="3109910" IsHealFormula="1" HealFormula="$MaxHP*0.2" HealTargetType="1" HealSenderType="0"/>
+	<Property ID="31017321" Name="治疗1" EventType="2" TargetType="2" FuncNo="5" Condition="3109910" IsHealFormula="1" HealFormula="$MaxHP*0.2" HealTargetType="0"/>
+	<Property ID="31017331" Name="治疗1" EventType="2" TargetType="2" FuncNo="5" Condition="3109910" IsHealFormula="1" HealFormula="$MaxHP*0.2" HealTargetType="0"/>
+	<Property ID="31017341" Name="治疗1" EventType="2" TargetType="2" FuncNo="5" Condition="3109910" IsHealFormula="1" HealFormula="$MaxHP*0.2" HealTargetType="0"/>
+	<Property ID="31017351" Name="治疗1" EventType="2" TargetType="2" FuncNo="5" Condition="3109910" IsHealFormula="1" HealFormula="$MaxHP*0.2" HealTargetType="0"/>
+	<Property ID="31017361" Name="治疗1" EventType="2" TargetType="2" FuncNo="5" Condition="3109910" IsHealFormula="1" HealFormula="$MaxHP*0.2" HealTargetType="0"/>
+	<Property ID="3110113" Name="使用技能取消潜行" EventType="6" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Ex1101_01_1"/>
+	<Property ID="3110123" Name="潜行" EventType="6" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Ex1101_02_1"/>
+	<Property ID="3110133" Name="潜行" EventType="6" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Ex1101_03_1"/>
+	<Property ID="3110143" Name="潜行" EventType="6" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Ex1101_04_1"/>
+	<Property ID="3110153" Name="潜行" EventType="6" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Ex1101_05_1"/>
+	<Property ID="3110163" Name="潜行" EventType="6" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Ex1101_06_1"/>
+	<Property ID="3110114" Name="开启潜行姿态" EventType="1" TargetType="2" FuncNo="30" SetFormula="1" SetAttribute="HideActionSet"/>
+	<Property ID="3110124" Name="开启潜行姿态" EventType="1" TargetType="2" FuncNo="30" SetFormula="1" SetAttribute="HideActionSet"/>
+	<Property ID="3110134" Name="开启潜行姿态" EventType="1" TargetType="2" FuncNo="30" SetFormula="1" SetAttribute="HideActionSet"/>
+	<Property ID="3110144" Name="开启潜行姿态" EventType="1" TargetType="2" FuncNo="30" SetFormula="1" SetAttribute="HideActionSet"/>
+	<Property ID="3110154" Name="开启潜行姿态" EventType="1" TargetType="2" FuncNo="30" SetFormula="1" SetAttribute="HideActionSet"/>
+	<Property ID="3110164" Name="开启潜行姿态" EventType="1" TargetType="2" FuncNo="30" SetFormula="1" SetAttribute="HideActionSet"/>
+	<Property ID="3110115" Name="取消潜行姿态" EventType="2" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="HideActionSet"/>
+	<Property ID="3110125" Name="取消潜行姿态" EventType="2" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="HideActionSet"/>
+	<Property ID="3110135" Name="取消潜行姿态" EventType="2" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="HideActionSet"/>
+	<Property ID="3110145" Name="取消潜行姿态" EventType="2" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="HideActionSet"/>
+	<Property ID="3110155" Name="取消潜行姿态" EventType="2" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="HideActionSet"/>
+	<Property ID="3110165" Name="取消潜行姿态" EventType="2" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="HideActionSet"/>
+	<Property ID="3112311" Name="烟雾弹" EventType="1" TargetType="2" FuncNo="30" SetFormula="1" SetAttribute="RoleHide"/>
+	<Property ID="3112321" Name="烟雾弹" EventType="1" TargetType="2" FuncNo="30" SetFormula="1" SetAttribute="RoleHide"/>
+	<Property ID="3112331" Name="烟雾弹" EventType="1" TargetType="2" FuncNo="30" SetFormula="1" SetAttribute="RoleHide"/>
+	<Property ID="3112341" Name="烟雾弹" EventType="1" TargetType="2" FuncNo="30" SetFormula="1" SetAttribute="RoleHide"/>
+	<Property ID="3112351" Name="烟雾弹" EventType="1" TargetType="2" FuncNo="30" SetFormula="1" SetAttribute="RoleHide"/>
+	<Property ID="3112361" Name="烟雾弹" EventType="1" TargetType="2" FuncNo="30" SetFormula="1" SetAttribute="RoleHide"/>
+	<Property ID="3112312" Name="烟雾弹" EventType="2" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="RoleHide"/>
+	<Property ID="3112322" Name="烟雾弹" EventType="2" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="RoleHide"/>
+	<Property ID="3112332" Name="烟雾弹" EventType="2" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="RoleHide"/>
+	<Property ID="3112342" Name="烟雾弹" EventType="2" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="RoleHide"/>
+	<Property ID="3112352" Name="烟雾弹" EventType="2" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="RoleHide"/>
+	<Property ID="3112362" Name="烟雾弹" EventType="2" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="RoleHide"/>
+	<Property ID="3112315" Name="烟雾弹" EventType="1" TargetType="0" FuncNo="30" SetFormula="1" SetAttribute="CantUseSkill"/>
+	<Property ID="3112325" Name="烟雾弹" EventType="1" TargetType="0" FuncNo="30" SetFormula="1" SetAttribute="CantUseSkill"/>
+	<Property ID="3112335" Name="烟雾弹" EventType="1" TargetType="0" FuncNo="30" SetFormula="1" SetAttribute="CantUseSkill"/>
+	<Property ID="3112345" Name="烟雾弹" EventType="1" TargetType="0" FuncNo="30" SetFormula="1" SetAttribute="CantUseSkill"/>
+	<Property ID="3112355" Name="烟雾弹" EventType="1" TargetType="0" FuncNo="30" SetFormula="1" SetAttribute="CantUseSkill"/>
+	<Property ID="3112365" Name="烟雾弹" EventType="1" TargetType="0" FuncNo="30" SetFormula="1" SetAttribute="CantUseSkill"/>
+	<Property ID="3112314" Name="烟雾弹" EventType="1" TargetType="0" FuncNo="30" SetFormula="CantAttack" SetAttribute="1"/>
+	<Property ID="3112324" Name="烟雾弹" EventType="1" TargetType="0" FuncNo="30" SetFormula="CantAttack" SetAttribute="1"/>
+	<Property ID="3112334" Name="烟雾弹" EventType="1" TargetType="0" FuncNo="30" SetFormula="CantAttack" SetAttribute="1"/>
+	<Property ID="3112344" Name="烟雾弹" EventType="1" TargetType="0" FuncNo="30" SetFormula="CantAttack" SetAttribute="1"/>
+	<Property ID="3112354" Name="烟雾弹" EventType="1" TargetType="0" FuncNo="30" SetFormula="CantAttack" SetAttribute="1"/>
+	<Property ID="3112364" Name="烟雾弹" EventType="1" TargetType="0" FuncNo="30" SetFormula="CantAttack" SetAttribute="1"/>
+	<Property ID="311072" Name="影遁" EventType="2" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="RoleHide"/>
+	<Property ID="311143" Name="背刺加成" EventType="8" TargetType="5" FuncNo="1" BuffID="Buff_Ex1114_01_2" Condition="20050"/>
+	<Property ID="311091" Name="斗篷-开启免疫" EventType="1" TargetType="2" FuncNo="844" ImmunityDamageType="10" IsPercent="1" ImmunityValue="30"/>
+	<Property ID="311092" Name="斗篷-开启免疫" EventType="1" TargetType="2" FuncNo="844" ImmunityDamageType="10" ImmunityValue="40" IsPercent="1"/>
+	<Property ID="311093" Name="斗篷-开启免疫" EventType="1" TargetType="2" FuncNo="844" ImmunityValue="50" ImmunityDamageType="10" IsPercent="1"/>
+	<Property ID="311094" Name="斗篷-开启免疫" EventType="1" TargetType="2" FuncNo="844" ImmunityDamageType="10" ImmunityValue="60" IsPercent="1"/>
+	<Property ID="311095" Name="斗篷-开启免疫" EventType="1" TargetType="2" FuncNo="844" ImmunityDamageType="10" ImmunityValue="70" IsPercent="1"/>
+	<Property ID="311096" Name="斗篷-开启免疫" EventType="1" TargetType="2" FuncNo="844" ImmunityDamageType="10" ImmunityValue="80" IsPercent="1"/>
+	<Property ID="3161411" Name="咒灵回归吸血效果1" EventType="9" TargetType="2" FuncNo="32" AbsorbDamageRatio="100" AbsorbType="0" IsTargetDeduction="1"/>
+	<Property ID="3161421" Name="咒灵回归吸血效果2" EventType="9" TargetType="2" FuncNo="32" AbsorbDamageRatio="100" AbsorbType="0" IsTargetDeduction="1"/>
+	<Property ID="3161431" Name="咒灵回归吸血效果3" EventType="9" TargetType="2" FuncNo="32" AbsorbDamageRatio="100" AbsorbType="0" IsTargetDeduction="1"/>
+	<Property ID="3161441" Name="咒灵回归吸血效果4" EventType="9" TargetType="2" FuncNo="32" AbsorbDamageRatio="100" AbsorbType="0" IsTargetDeduction="1"/>
+	<Property ID="3161451" Name="咒灵回归吸血效果5" EventType="9" TargetType="2" FuncNo="32" AbsorbDamageRatio="100" AbsorbType="0" IsTargetDeduction="1"/>
+	<Property ID="3161461" Name="咒灵回归吸血效果6" EventType="9" TargetType="2" FuncNo="32" AbsorbDamageRatio="100" AbsorbType="0" IsTargetDeduction="1"/>
+	<Property ID="318131" EventType="3" TargetType="2" FuncNo="5" Name="击中吸血" IsHealFormula="1" HealFormula="@MaxMagicAttack*0.3" HealTargetType="1" HealSenderType="2"/>
+	<Property ID="318031" Name="清除CD" EventType="1" TargetType="2" FuncNo="12" CoolSkillID="Skill_Ri1802_01_1" CoolClearType="0"/>
+	<Property ID="3171212" Name="法力爆炸-法力燃烧" EventType="6" TargetType="2" FuncNo="6" IsFormula="1" Formula="-@MaxMP*0.1" Attribute="MP" AllowNegative="0"/>
+	<Property ID="31808" Name="荆棘术" EventType="10" TargetType="3" FuncNo="803" PRebound="70" ReboundDamageType="5"/>
+	<Property ID="318082" Name="荆棘术" EventType="10" TargetType="3" FuncNo="803" PRebound="70" ReboundDamageType="5"/>
+	<Property ID="318083" Name="荆棘术" EventType="10" TargetType="3" FuncNo="803" PRebound="70" ReboundDamageType="5"/>
+	<Property ID="318084" Name="荆棘术" EventType="10" TargetType="3" FuncNo="803" PRebound="70" ReboundDamageType="5"/>
+	<Property ID="318085" Name="荆棘术" EventType="10" TargetType="3" FuncNo="803" PRebound="70" ReboundDamageType="5"/>
+	<Property ID="318086" Name="荆棘术" EventType="10" TargetType="3" FuncNo="803" PRebound="70" ReboundDamageType="5"/>
+	<Property ID="31809" Name="腐尸毒素" EventType="3" TargetType="0" FuncNo="1" BuffID="Buff_Ri1809_01_2" Condition="32712"/>
+	<Property ID="318092" Name="腐尸毒素" EventType="3" TargetType="0" FuncNo="1" BuffID="Buff_Ri1809_01_2" Condition="32712"/>
+	<Property ID="318093" Name="腐尸毒素" EventType="3" TargetType="0" FuncNo="1" BuffID="Buff_Ri1809_01_2" Condition="32712"/>
+	<Property ID="318094" Name="腐尸毒素" EventType="3" TargetType="0" FuncNo="1" BuffID="Buff_Ri1809_01_2" Condition="32712"/>
+	<Property ID="318095" Name="腐尸毒素" EventType="3" TargetType="0" FuncNo="1" BuffID="Buff_Ri1809_01_2" Condition="32712"/>
+	<Property ID="318096" Name="腐尸毒素" EventType="3" TargetType="0" FuncNo="1" BuffID="Buff_Ri1809_01_2" Condition="32712"/>
+	<Property ID="31806" Name="恶魔梦境" EventType="3" TargetType="0" FuncNo="1" BuffID="Buff_Ri1806_01_2" Condition="32712"/>
+	<Property ID="318062" Name="恶魔梦境" EventType="3" TargetType="0" FuncNo="1" BuffID="Buff_Ri1806_01_2" Condition="32712"/>
+	<Property ID="318063" Name="恶魔梦境" EventType="3" TargetType="0" FuncNo="1" BuffID="Buff_Ri1806_01_2" Condition="32712"/>
+	<Property ID="318064" Name="恶魔梦境" EventType="3" TargetType="0" FuncNo="1" BuffID="Buff_Ri1806_01_2" Condition="32712"/>
+	<Property ID="318065" Name="恶魔梦境" EventType="3" TargetType="0" FuncNo="1" BuffID="Buff_Ri1806_01_2" Condition="32712"/>
+	<Property ID="318066" Name="恶魔梦境" EventType="3" TargetType="0" FuncNo="1" BuffID="Buff_Ri1806_01_2" Condition="32712"/>
+	<Property ID="318141" Name="幽鬼-扣蓝" EventType="3" TargetType="2" FuncNo="6" IsFormula="1" Attribute="MP" Formula="-@MP*0.05" AllowNegative="0" Condition="23103|23105|23106|23113|23114|23115|23119|23120|23121|23122|23123|23124"/>
+	<Property ID="3181421" Name="幽鬼-扣蓝" EventType="3" TargetType="2" FuncNo="6" Formula="-@MP*0.1" IsFormula="1" Attribute="MP" AllowNegative="0" Condition="23103|23105|23106|23113|23114|23115|23119|23120|23121|23122|23123|23124"/>
+	<Property ID="3181431" Name="幽鬼-扣蓝" EventType="3" TargetType="2" FuncNo="6" Formula="-@MP*0.1" Attribute="MP" IsFormula="1" AllowNegative="0" Condition="23103|23105|23106|23113|23114|23115|23119|23120|23121|23122|23123|23124"/>
+	<Property ID="3181441" Name="幽鬼-扣蓝" EventType="3" TargetType="2" FuncNo="6" Formula="-@MP*0.1" IsFormula="1" Attribute="MP" AllowNegative="0" Condition="23103|23105|23106|23113|23114|23115|23119|23120|23121|23122|23123|23124"/>
+	<Property ID="3181451" Name="幽鬼-扣蓝" EventType="3" TargetType="2" FuncNo="6" IsFormula="1" Formula="-@MP*0.1" Attribute="MP" AllowNegative="0" Condition="23103|23105|23106|23113|23114|23115|23119|23120|23121|23122|23123|23124"/>
+	<Property ID="3181461" Name="幽鬼-扣蓝" EventType="3" TargetType="2" FuncNo="6" IsFormula="1" Formula="-@MP*0.1" Attribute="MP" AllowNegative="0" Condition="23103|23105|23106|23113|23114|23115|23119|23120|23121|23122|23123|23124"/>
+	<Property ID="3170213" Name="能量盾-加速100%" EventType="1" TargetType="2" FuncNo="1" BuffID="Buff_Wt1702_01_2"/>
+	<Property ID="317022" Name="能量盾-受击吸收" EventType="1" TargetType="0" FuncNo="828" AbsorbDamageType="10" CountType="1" AbsorbValue="329+R[@MinMagicAttack,@MaxMagicAttack]*0.71"/>
+	<Property ID="317023" Name="能量盾-受击吸收" EventType="1" TargetType="0" FuncNo="828" AbsorbDamageType="10" CountType="1" AbsorbValue="625+R[@MinMagicAttack,@MaxMagicAttack]*0.86"/>
+	<Property ID="317024" Name="能量盾-受击吸收" EventType="1" TargetType="0" FuncNo="828" AbsorbDamageType="10" CountType="1" AbsorbValue="764+R[@MinMagicAttack,@MaxMagicAttack]*0.93"/>
+	<Property ID="317025" Name="能量盾-受击吸收" EventType="1" TargetType="0" FuncNo="828" AbsorbDamageType="10" CountType="1" AbsorbValue="1099+R[@MinMagicAttack,@MaxMagicAttack]*1.12"/>
+	<Property ID="317026" Name="能量盾-受击吸收" EventType="1" TargetType="0" FuncNo="828" AbsorbDamageType="10" CountType="1" AbsorbValue="1972+R[@MinMagicAttack,@MaxMagicAttack]*1.33"/>
+	<Property ID="3170222" Name="能量盾-击晕" EventType="2" TargetType="2" FuncNo="18" UseSkillID="Skill_Wt1721_01_1"/>
+	<Property ID="3170232" Name="能量盾-击晕" EventType="2" TargetType="2" FuncNo="18" UseSkillID="Skill_Wt1721_01_1"/>
+	<Property ID="3170242" Name="能量盾-击晕" EventType="2" TargetType="2" FuncNo="18" UseSkillID="Skill_Wt1721_01_1"/>
+	<Property ID="3170252" Name="能量盾-击晕" EventType="2" TargetType="2" FuncNo="18" UseSkillID="Skill_Wt1721_01_1"/>
+	<Property ID="3170262" Name="能量盾-击晕" EventType="2" TargetType="2" FuncNo="18" UseSkillID="Skill_Wt1721_01_1"/>
+	<Property ID="3170223" Name="能量盾-加速100%" EventType="1" TargetType="2" FuncNo="1" BuffID="Buff_Wt1702_01_2"/>
+	<Property ID="3170233" Name="能量盾-加速100%" EventType="1" TargetType="2" FuncNo="1" BuffID="Buff_Wt1702_01_2"/>
+	<Property ID="3170243" Name="能量盾-加速100%" EventType="1" TargetType="2" FuncNo="1" BuffID="Buff_Wt1702_01_2"/>
+	<Property ID="3170253" Name="能量盾-加速100%" EventType="1" TargetType="2" FuncNo="1" BuffID="Buff_Wt1702_01_2"/>
+	<Property ID="3170263" Name="能量盾-加速100%" EventType="1" TargetType="2" FuncNo="1" BuffID="Buff_Wt1702_01_2"/>
+	<Property ID="318121" Name="魂之心跳DOT1" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="$IntensityMagicAttack*0.17+63" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3181212" Name="爆炸伤害" EventType="2" TargetType="0" FuncNo="18" UseSkillID="Skill_Ri1812_01_2"/>
+	<Property ID="3181213" Name="伤害" EventType="1" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="@IntensityMagicAttack*0.8" DamageCategory="5" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="318122" Name="魂之心跳DOT2" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="$IntensityMagicAttack*0.18+86" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="318123" Name="魂之心跳DOT3" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="$IntensityMagicAttack*0.21+132" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="318124" Name="魂之心跳DOT4" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="$IntensityMagicAttack*0.22+167" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="318125" Name="魂之心跳DOT5" EEventType="3" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="$IntensityMagicAttack*0.25+221" DamageCategory="7" DamageTargetType="0" DamageCaster="2" EventType="3"/>
+	<Property ID="318126" Name="魂之心跳DOT6" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="$IntensityMagicAttack*0.26+326" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3181222" Name="伤害" EventType="3" TargetType="2" FuncNo="3" Type="101" IsDamageFormula="1" DamageFormula="$IntensityMagicAttack*0.25" DamageCategory="7" DamageTargetType="1" DamageCaster="2"/>
+	<Property ID="3181232" Name="伤害" EventType="2" TargetType="0" FuncNo="18" UseSkillID="Skill_Ri1812_01_2"/>
+	<Property ID="3181242" Name="伤害" EventType="2" TargetType="0" FuncNo="18" UseSkillID="Skill_Ri1812_04_2"/>
+	<Property ID="3181252" Name="伤害" EventType="2" TargetType="0" FuncNo="18" UseSkillID="Skill_Ri1812_05_2"/>
+	<Property ID="3181262" Name="伤害" EventType="2" TargetType="0" FuncNo="18" UseSkillID="Skill_Ri1812_06_2"/>
+	<Property ID="318132" EventType="3" TargetType="2" FuncNo="5" Name="击中吸血" IsHealFormula="1" HealFormula="@MaxMagicAttack*0.4" HealTargetType="1" HealSenderType="2"/>
+	<Property ID="318133" EventType="3" TargetType="2" FuncNo="5" Name="击中吸血" IsHealFormula="1" HealFormula="@MaxMagicAttack*0.5" HealTargetType="1" HealSenderType="2"/>
+	<Property ID="318134" EventType="3" TargetType="2" FuncNo="5" Name="击中吸血" HealFormula="@MaxMagicAttack*0.6" IsHealFormula="1" HealTargetType="1" HealSenderType="2"/>
+	<Property ID="318135" EventType="3" TargetType="2" FuncNo="5" Name="击中吸血" HealFormula="@MaxMagicAttack*0.7" IsHealFormula="1" HealTargetType="1" HealSenderType="2"/>
+	<Property ID="318136" EventType="3" TargetType="2" FuncNo="5" Name="击中吸血" HealFormula="@MaxMagicAttack*0.8" IsHealFormula="1" HealTargetType="1" HealSenderType="2"/>
+	<Property ID="318032" Name="清除CD2" EventType="1" TargetType="2" FuncNo="12" CoolSkillID="Skill_Ri1802_02_1" CoolClearType="0"/>
+	<Property ID="318033" Name="清除CD3" EventType="1" TargetType="2" FuncNo="12" CoolSkillID="Skill_Ri1802_03_1" CoolClearType="0"/>
+	<Property ID="318034" Name="清除CD4" EventType="1" TargetType="2" FuncNo="12" CoolSkillID="Skill_Ri1802_04_1" CoolClearType="0"/>
+	<Property ID="318035" Name="清除CD5" EventType="1" TargetType="2" FuncNo="12" CoolSkillID="Skill_Ri1802_05_1" CoolClearType="0"/>
+	<Property ID="318036" Name="清除CD6" EventType="1" TargetType="2" FuncNo="12" CoolSkillID="Skill_Ri1802_06_1" CoolClearType="0"/>
+	<Property ID="31810" Name="鬼火灼烧" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="$MaxMagicAttack*0.3" DamageCategory="3" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3180611" Name="恶魔梦境-伤害" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="$IntensityMagicAttack*0.06+23" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3180621" Name="恶魔梦境-伤害" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="$IntensityMagicAttack*0.07+36" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3180631" Name="恶魔梦境-伤害" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="$IntensityMagicAttack*0.08+55" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3180641" Name="恶魔梦境-伤害" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="$IntensityMagicAttack*0.09+88" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3180651" Name="恶魔梦境-伤害" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="$IntensityMagicAttack*0.1+119" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3180661" Name="恶魔梦境-伤害" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="$IntensityMagicAttack*0.13+254" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3180911" Name="腐尸毒素-伤害" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="$IntensityMagicAttack*0.03+18" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3180921" Name="腐尸毒素-伤害" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="$IntensityMagicAttack*0.04+27" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3180931" Name="腐尸毒素-伤害" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="$IntensityMagicAttack*0.05+44" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3180941" Name="腐尸毒素-伤害" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="$IntensityMagicAttack*0.06+58" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3180951" Name="腐尸毒素-伤害" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="$IntensityMagicAttack*0.07+86" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3180961" Name="腐尸毒素-伤害" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="$IntensityMagicAttack*0.08+149" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="318102" Name="鬼火灼烧" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="$MaxMagicAttack*0.4" DamageCategory="3" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="318103" Name="鬼火灼烧" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="$MaxMagicAttack*0.5" DamageCategory="3" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="318104" Name="鬼火灼烧" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="$MaxMagicAttack*0.6" DamageCategory="3" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="318105" Name="鬼火灼烧" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="$MaxMagicAttack*0.7" DamageCategory="3" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="318106" Name="鬼火灼烧" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="$MaxMagicAttack*0.8" DamageCategory="3" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3181311" Name="暗影诅咒buff" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="$IntensityMagicAttack*0.06+28" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3181321" Name="暗影诅咒buff" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="$IntensityMagicAttack*0.07+41" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3181331" Name="暗影诅咒buff" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="$IntensityMagicAttack*0.08+72" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3181341" Name="暗影诅咒buff" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="$IntensityMagicAttack*0.09+88" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3181351" Name="暗影诅咒buff" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="$IntensityMagicAttack*0.1+119" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3181361" Name="暗影诅咒buff" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="$IntensityMagicAttack*0.13+262" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="311244" Name="潜行" EventType="10" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Ex1124_01_1"/>
+	<Property ID="311245" Name="潜行" EventType="8" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Ex1124_01_1"/>
+	<Property ID="311051" Name="致命毒雾" EventType="3" TargetType="1" FuncNo="3" IsDamageFormula="1" DamageFormula="$MaxPhyAttack*0.15" DamageCategory="1" DamageTargetType="1" DamageCaster="2"/>
+	<Property ID="311052" Name="致命毒雾" EventType="3" TargetType="1" FuncNo="3" IsDamageFormula="1" DamageFormula="$MaxPhyAttack*0.23" DamageCategory="1" DamageTargetType="1" DamageCaster="2"/>
+	<Property ID="311053" Name="致命毒雾" EventType="3" TargetType="1" FuncNo="3" IsDamageFormula="1" DamageFormula="$MaxPhyAttack*0.31" DamageCategory="1" DamageTargetType="1" DamageCaster="2"/>
+	<Property ID="311054" Name="致命毒雾" EventType="3" TargetType="1" FuncNo="3" IsDamageFormula="1" DamageFormula="$MaxPhyAttack*0.39" DamageCategory="1" DamageTargetType="1" DamageCaster="2"/>
+	<Property ID="311055" Name="致命毒雾" EventType="3" TargetType="1" FuncNo="3" IsDamageFormula="1" DamageFormula="$MaxPhyAttack*0.47" DamageCategory="1" DamageTargetType="1" DamageCaster="2"/>
+	<Property ID="311056" Name="致命毒雾" EventType="3" TargetType="1" FuncNo="3" IsDamageFormula="1" DamageFormula="$MaxPhyAttack*0.55" DamageCategory="1" DamageTargetType="1" DamageCaster="2"/>
+	<Property ID="311073" Name="解除隐身" EventType="6" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Ex1107_01_1"/>
+	<Property ID="311074" Name="解除隐身2" EventType="2" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Ex1107_01_1"/>
+	<Property ID="3112313" Name="解除隐身" EventType="6" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Ex1123_01_1"/>
+	<Property ID="3112323" Name="解除隐身" EventType="6" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Ex1123_01_1"/>
+	<Property ID="3112333" Name="解除隐身" EventType="6" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Ex1123_01_1"/>
+	<Property ID="3112343" Name="解除隐身" EventType="6" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Ex1123_01_1"/>
+	<Property ID="3112353" Name="解除隐身" EventType="6" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Ex1123_01_1"/>
+	<Property ID="3112363" Name="解除隐身" EventType="6" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Ex1123_01_1"/>
+	<Property ID="31112" Name="灵动闪避" EventType="1" TargetType="2" FuncNo="30"/>
+	<Property ID="311111" Name="寒毒匕首" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="50" DamageCategory="1" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="311112" Name="寒毒匕首" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="50" DamageCategory="1" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="311113" Name="寒毒匕首" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="50" DamageCategory="1" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="311114" Name="寒毒匕首" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="50" DamageCategory="1" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="311115" Name="寒毒匕首" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="50" DamageCategory="1" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="311116" Name="寒毒匕首" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="50" DamageCategory="1" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="311161" Name="刀轮舞" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="30" DamageCategory="1" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="311162" Name="刀轮舞" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="30" DamageCategory="1" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="311163" Name="刀轮舞" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="30" DamageCategory="1" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="311164" Name="刀轮舞" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="30" DamageCategory="1" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="311165" Name="刀轮舞" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="30" DamageCategory="1" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="311166" Name="刀轮舞" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="30" DamageCategory="1" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="31124" Name="开始潜行" EventType="1" TargetType="2" FuncNo="30" SetFormula="1" SetAttribute="RoleHide"/>
+	<Property ID="311246" Name="潜行结束" EventType="2" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="RoleHide"/>
+	<Property ID="311247" EventType="6" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Ex1124_01_1"/>
+	<Property ID="316001" Name="移除咒灵效果buff" EventType="2" TargetType="0" FuncNo="11" Condition="316001" BufferClearType="3" BufferClearValue="Buff_Ch1609_01_1"/>
+	<Property ID="3161112" Name="波动地表回蓝1" EventType="1" TargetType="2" FuncNo="6" IsFormula="1" Attribute="MP" Formula="@MaxMP*0.05" AllowNegative="0"/>
+	<Property ID="3161122" Name="波动地表回蓝2" EventType="1" TargetType="2" FuncNo="6" IsFormula="1" Attribute="MP" Formula="@MaxMP*0.06" AllowNegative="0"/>
+	<Property ID="3161132" Name="波动地表回蓝3" EventType="1" TargetType="2" FuncNo="6" IsFormula="1" Attribute="MP" Formula="@MaxMP*0.07" AllowNegative="0"/>
+	<Property ID="3161142" Name="波动地表回蓝4" EventType="1" TargetType="2" FuncNo="6" IsFormula="1" Attribute="MP" Formula="@MaxMP*0.08" AllowNegative="0"/>
+	<Property ID="3161152" Name="波动地表回蓝5" EventType="1" TargetType="2" FuncNo="6" IsFormula="1" Attribute="MP" Formula="@MaxMP*0.09" AllowNegative="0"/>
+	<Property ID="3161162" Name="波动地表回蓝6" EventType="1" TargetType="2" FuncNo="6" IsFormula="1" Attribute="MP" Formula="@MaxMP*0.1" AllowNegative="0"/>
+	<Property ID="3162111" Name="延迟添加咒灵1" EventType="2" TargetType="0" FuncNo="1" BuffID="Buff_Ch1609_01_1"/>
+	<Property ID="3162121" Name="延迟添加咒灵2" EventType="2" TargetType="0" FuncNo="1" BuffID="Buff_Ch1609_01_1"/>
+	<Property ID="3162131" Name="延迟添加咒灵3" EventType="2" TargetType="0" FuncNo="1" BuffID="Buff_Ch1609_01_1"/>
+	<Property ID="3162141" Name="延迟添加咒灵4" EventType="2" TargetType="0" FuncNo="1" BuffID="Buff_Ch1609_01_1"/>
+	<Property ID="3162151" Name="延迟添加咒灵5" EventType="2" TargetType="0" FuncNo="1" BuffID="Buff_Ch1609_01_1"/>
+	<Property ID="3162161" Name="延迟添加咒灵6" EventType="2" TargetType="0" FuncNo="1" BuffID="Buff_Ch1609_01_1"/>
+	<Property ID="3162112" Name="延迟添加咒灵解1" EventType="2" TargetType="2" FuncNo="1" BuffID="Buff_Ch1609_01_2"/>
+	<Property ID="3162122" Name="延迟添加咒灵解2" EventType="2" TargetType="2" FuncNo="1" BuffID="Buff_Ch1609_01_2"/>
+	<Property ID="3162132" Name="延迟添加咒灵解3" EventType="2" TargetType="2" FuncNo="1" BuffID="Buff_Ch1609_01_2"/>
+	<Property ID="3162142" Name="延迟添加咒灵解4" EventType="2" TargetType="2" FuncNo="1" BuffID="Buff_Ch1609_01_2"/>
+	<Property ID="3162152" Name="延迟添加咒灵解5" EventType="2" TargetType="2" FuncNo="1" BuffID="Buff_Ch1609_01_2"/>
+	<Property ID="3162162" Name="延迟添加咒灵解6" EventType="2" TargetType="2" FuncNo="1" BuffID="Buff_Ch1609_01_2"/>
+	<Property ID="316002" Name="移除咒灵解" EventType="2" TargetType="2" FuncNo="11" Condition="316003" BufferClearType="3" BufferClearValue="Buff_Ch1609_01_2"/>
+	<Property ID="3161611" Name="暗黑龙枪回蓝1" EventType="1" TargetType="2" FuncNo="6" IsFormula="1" Attribute="MP" Formula="@MaxMP*0.05" AllowNegative="1"/>
+	<Property ID="3161621" Name="暗黑龙枪回蓝2" EventType="1" TargetType="2" FuncNo="6" IsFormula="1" Attribute="MP" Formula="@MaxMP*0.06" AllowNegative="1"/>
+	<Property ID="3161631" Name="暗黑龙枪回蓝3" EventType="1" TargetType="2" FuncNo="6" IsFormula="1" Attribute="MP" Formula="@MaxMP*0.07" AllowNegative="1"/>
+	<Property ID="3161641" Name="暗黑龙枪回蓝4" EventType="1" TargetType="2" FuncNo="6" IsFormula="1" Attribute="MP" Formula="@MaxMP*0.08" AllowNegative="1"/>
+	<Property ID="3161651" Name="暗黑龙枪回蓝5" EventType="1" TargetType="2" FuncNo="6" IsFormula="1" Attribute="MP" Formula="@MaxMP*0.09" AllowNegative="1"/>
+	<Property ID="3161661" Name="暗黑龙枪回蓝6" EventType="1" TargetType="2" FuncNo="6" IsFormula="1" Attribute="MP" Formula="@MaxMP*0.1" AllowNegative="1"/>
+	<Property ID="3161711" Name="幽梦之灵无敌" EventType="1" TargetType="2" FuncNo="109" EffectType="12" EffectTime="5000"/>
+	<Property ID="3161721" Name="幽梦之灵被攻击惊醒2" EventType="10" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Ch1617_02_1"/>
+	<Property ID="3161731" Name="幽梦之灵被攻击惊醒3" EventType="10" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Ch1617_03_1"/>
+	<Property ID="3161741" Name="幽梦之灵被攻击惊醒4" EventType="10" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Ch1617_04_1"/>
+	<Property ID="3161751" Name="幽梦之灵被攻击惊醒5" EventType="10" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Ch1617_05_1"/>
+	<Property ID="3161761" Name="幽梦之灵被攻击惊醒6" EventType="10" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Ch1617_06_1"/>
+	<Property ID="3162211" Name="咒灵护体免疫伤害1" EventType="1" TargetType="2" FuncNo="844" ImmunityDamageType="10" IsPercent="1" ImmunityValue="50"/>
+	<Property ID="3162221" Name="咒灵护体伤害免疫2" EventType="1" TargetType="2" FuncNo="844" ImmunityDamageType="10" ImmunityValue="60" IsPercent="1"/>
+	<Property ID="3162231" Name="咒灵护体伤害免疫3" EventType="1" TargetType="2" FuncNo="844" ImmunityDamageType="10" ImmunityValue="70" IsPercent="1"/>
+	<Property ID="3162241" Name="咒灵护体伤害免疫4" EventType="1" TargetType="2" FuncNo="844" ImmunityDamageType="10" ImmunityValue="80" IsPercent="1"/>
+	<Property ID="3162251" Name="咒灵护体伤害免疫5" EventType="1" TargetType="2" FuncNo="844" ImmunityDamageType="10" ImmunityValue="90" IsPercent="1"/>
+	<Property ID="3162261" Name="咒灵护体伤害免疫6" EventType="1" TargetType="2" FuncNo="844" ImmunityDamageType="10" ImmunityValue="100" IsPercent="1"/>
+	<Property ID="3162212" Name="咒灵护体免疫伤害关闭1" EventType="2" TargetType="2" FuncNo="845"/>
+	<Property ID="3162222" Name="咒灵护体伤害免疫关闭2" EventType="2" TargetType="2" FuncNo="845"/>
+	<Property ID="3162232" Name="咒灵护体伤害免疫关闭3" EventType="2" TargetType="2" FuncNo="845"/>
+	<Property ID="3162242" Name="咒灵护体伤害免疫关闭二4" EventType="2" TargetType="2" FuncNo="845"/>
+	<Property ID="3162252" Name="咒灵护体伤害免疫关闭5" EventType="2" TargetType="2" FuncNo="845"/>
+	<Property ID="3162262" Name="咒灵护体伤害免疫关闭6" EventType="2" TargetType="2" FuncNo="845"/>
+	<Property ID="3162213" EventType="10" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Status004_01" BufferClearOLCount="1" Name="咒灵护体被攻击消除霸体"/>
+	<Property ID="3181013" EventType="1" TargetType="2" FuncNo="6" IsFormula="1" Attribute="MP" Formula="@MaxMP*0.05" AllowNegative="0"/>
+	<Property ID="3161613" Name="清除e" EventType="1" TargetType="0" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Wt1730_01_1"/>
+	<Property ID="3180313" Name="清除a" EventType="1" TargetType="0" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Ch1610_01_1"/>
+	<Property ID="3180913" Name="清除a" EventType="1" TargetType="0" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Ch1610_01_1"/>
+	<Property ID="3180914" Name="清除b" EventType="1" TargetType="0" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Wt1730_01_1"/>
+	<Property ID="3100111" Name="嘲讽" EventType="1" TargetType="0" FuncNo="30" SetFormula="1" SetAttribute="AttackForcedType"/>
+	<Property ID="3100121" Name="嘲讽" EventType="2" TargetType="0" FuncNo="30" SetFormula="0" SetAttribute="AttackForcedType"/>
+	<Property ID="312191" Name="改变模型" EventType="1" TargetType="0" FuncNo="20" ChangeModelPath="clone"/>
+	<Property ID="3122911" Name="不可隐身" EventType="1" TargetType="0" FuncNo="30" SetFormula="1" SetAttribute="ShowHide"/>
+	<Property ID="3131111" Name="灼热蒸汽·后续触发1" EventType="2" TargetType="2" FuncNo="18" UseSkillID="Skill_Tk1311_01_2"/>
+	<Property ID="3131121" Name="灼热蒸汽·后续触发2" EventType="2" TargetType="2" FuncNo="18" UseSkillID="Skill_Tk1311_02_2"/>
+	<Property ID="3131131" Name="灼热蒸汽·后续触发3" EventType="2" TargetType="2" FuncNo="18" UseSkillID="Skill_Tk1311_03_2"/>
+	<Property ID="3131141" Name="灼热蒸汽·后续触发4" EventType="2" TargetType="2" FuncNo="18" UseSkillID="Skill_Tk1311_04_2"/>
+	<Property ID="3131151" Name="灼热蒸汽·后续触发5" EventType="2" TargetType="2" FuncNo="18" UseSkillID="Skill_Tk1311_05_2"/>
+	<Property ID="3131161" Name="灼热蒸汽·后续触发6" EventType="2" TargetType="2" FuncNo="18" UseSkillID="Skill_Tk1311_06_2"/>
+	<Property ID="3131211" Name="极光·触发1" EventType="2" TargetType="2" FuncNo="18" UseSkillID="Skill_Tk1312_01_2"/>
+	<Property ID="3131221" Name="极光·触发2" EventType="2" TargetType="2" FuncNo="18" UseSkillID="Skill_Tk1312_02_2"/>
+	<Property ID="3131231" Name="极光·触发3" EventType="2" TargetType="2" FuncNo="18" UseSkillID="Skill_Tk1312_03_2"/>
+	<Property ID="3131241" Name="极光·触发4" EventType="2" TargetType="2" FuncNo="18" UseSkillID="Skill_Tk1312_04_2"/>
+	<Property ID="3131251" Name="极光·触发5" EventType="2" TargetType="2" FuncNo="18" UseSkillID="Skill_Tk1312_05_2"/>
+	<Property ID="3131261" Name="极光·触发6" EventType="2" TargetType="2" FuncNo="18" UseSkillID="Skill_Tk1312_06_2"/>
+	<Property ID="3131311" Name="疯狂撕咬·触发1" EventType="1" TargetType="2" FuncNo="18" UseSkillID="Skill_Tk1313_01_2"/>
+	<Property ID="3131321" Name="疯狂撕咬·触发2" EventType="1" TargetType="2" FuncNo="18" UseSkillID="Skill_Tk1313_02_2"/>
+	<Property ID="3131331" Name="疯狂撕咬·触发3" EventType="1" TargetType="2" FuncNo="18" UseSkillID="Skill_Tk1313_03_2"/>
+	<Property ID="3131341" Name="疯狂撕咬·触发4" EventType="1" TargetType="2" FuncNo="18" UseSkillID="Skill_Tk1313_04_2"/>
+	<Property ID="3131351" Name="疯狂撕咬·触发5" EventType="1" TargetType="2" FuncNo="18" UseSkillID="Skill_Tk1313_05_2"/>
+	<Property ID="3131361" Name="疯狂撕咬·触发6" EventType="1" TargetType="2" FuncNo="18" UseSkillID="Skill_Tk1313_06_2"/>
+	<Property ID="3131411" Name="超火球弹·触发1" EventType="1" TargetType="2" FuncNo="18" UseSkillID="Skill_Tk1314_01_2"/>
+	<Property ID="3131421" Name="超火球弹·触发2" EventType="1" TargetType="2" FuncNo="18" UseSkillID="Skill_Tk1314_02_2"/>
+	<Property ID="3131431" Name="超火球弹·触发3" EventType="1" TargetType="2" FuncNo="18" UseSkillID="Skill_Tk1314_03_2"/>
+	<Property ID="3131441" Name="超火球弹·触发4" EventType="1" TargetType="2" FuncNo="18" UseSkillID="Skill_Tk1314_04_2"/>
+	<Property ID="3131451" Name="超火球弹·触发5" EventType="1" TargetType="2" FuncNo="18" UseSkillID="Skill_Tk1314_05_2"/>
+	<Property ID="3131461" Name="超火球弹·触发6" EventType="1" TargetType="2" FuncNo="18" UseSkillID="Skill_Tk1314_06_2"/>
+	<Property ID="3131511" Name="超重拳·触发1" EventType="1" TargetType="2" FuncNo="18" UseSkillID="Skill_Tk1315_01_2"/>
+	<Property ID="3131521" Name="超重拳·触发2" EventType="1" TargetType="2" FuncNo="18" UseSkillID="Skill_Tk1315_02_2"/>
+	<Property ID="3131531" Name="超重拳·触发3" EventType="1" TargetType="2" FuncNo="18" UseSkillID="Skill_Tk1315_03_2"/>
+	<Property ID="3131541" Name="超重拳·触发4" EventType="1" TargetType="2" FuncNo="18" UseSkillID="Skill_Tk1315_04_2"/>
+	<Property ID="3131551" Name="超重拳·触发5" EventType="1" TargetType="2" FuncNo="18" UseSkillID="Skill_Tk1315_05_2"/>
+	<Property ID="3131561" Name="超重拳·触发6" EventType="1" TargetType="2" FuncNo="18" UseSkillID="Skill_Tk1315_06_2"/>
+	<Property ID="3121523" EventType="1" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="400" DamageCategory="1" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="3121533" EventType="1" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="500" DamageCategory="1" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="3121543" EventType="1" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="600" DamageCategory="1" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="3121553" EventType="1" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="700" DamageCategory="1" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="3121563" EventType="1" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="800" DamageCategory="1" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="3122921" Name="不可隐身" EventType="1" TargetType="0" FuncNo="30" SetFormula="1" SetAttribute="ShowHide"/>
+	<Property ID="3122931" Name="不可隐身" EventType="1" TargetType="0" FuncNo="30" SetFormula="1" SetAttribute="ShowHide"/>
+	<Property ID="3122941" Name="不可隐身" EventType="1" TargetType="0" FuncNo="30" SetFormula="1" SetAttribute="ShowHide"/>
+	<Property ID="3122951" Name="不可隐身" EventType="1" TargetType="0" FuncNo="30" SetFormula="1" SetAttribute="ShowHide"/>
+	<Property ID="3122961" Name="不可隐身" EventType="1" TargetType="0" FuncNo="30" SetFormula="1" SetAttribute="ShowHide"/>
+	<Property ID="3121921" Name="改变模型" EventType="1" TargetType="0" FuncNo="20" ChangeModelPath="clone"/>
+	<Property ID="3121931" Name="改变模型" EventType="1" TargetType="0" FuncNo="20" ChangeModelPath="clone"/>
+	<Property ID="3121941" Name="改变模型" EventType="1" TargetType="0" FuncNo="20" ChangeModelPath="clone"/>
+	<Property ID="3121951" Name="改变模型" EventType="1" TargetType="0" FuncNo="20" ChangeModelPath="clone"/>
+	<Property ID="3121961" Name="改变模型" EventType="1" TargetType="0" FuncNo="20" ChangeModelPath="clone"/>
+	<Property ID="3122912" Name="不可隐身" EventType="2" TargetType="0" FuncNo="30" SetFormula="0" SetAttribute="ShowHide"/>
+	<Property ID="3122922" Name="不可隐身" EventType="2" TargetType="0" FuncNo="30" SetFormula="0" SetAttribute="ShowHide"/>
+	<Property ID="3122932" Name="不可隐身" EventType="2" TargetType="0" FuncNo="30" SetFormula="0" SetAttribute="ShowHide"/>
+	<Property ID="3122942" Name="不可隐身" EventType="2" TargetType="0" FuncNo="30" SetFormula="0" SetAttribute="ShowHide"/>
+	<Property ID="3122952" Name="不可隐身" EventType="2" TargetType="0" FuncNo="30" SetFormula="0" SetAttribute="ShowHide"/>
+	<Property ID="3122962" Name="不可隐身" EventType="2" TargetType="0" FuncNo="30" SetFormula="0" SetAttribute="ShowHide"/>
+	<Property ID="3131611" Name="深度解析吸血" EventType="9" TargetType="2" FuncNo="32" AbsorbDamageRatio="100" AbsorbType="0" IsTargetDeduction="0"/>
+	<Property ID="3131621" Name="深度解析吸血" EventType="9" TargetType="2" FuncNo="32" AbsorbDamageRatio="100" AbsorbType="0" IsTargetDeduction="0"/>
+	<Property ID="3131631" Name="深度解析吸血" EventType="9" TargetType="2" FuncNo="32" AbsorbDamageRatio="100" AbsorbType="0" IsTargetDeduction="0"/>
+	<Property ID="3131641" Name="深度解析吸血" EventType="9" TargetType="2" FuncNo="32" AbsorbDamageRatio="100" AbsorbType="0" IsTargetDeduction="0"/>
+	<Property ID="3131651" Name="深度解析吸血" EventType="9" TargetType="2" FuncNo="32" AbsorbDamageRatio="100" AbsorbType="0" IsTargetDeduction="0"/>
+	<Property ID="3131661" Name="深度解析吸血" EventType="9" TargetType="2" FuncNo="32" AbsorbDamageRatio="100" AbsorbType="0" IsTargetDeduction="0"/>
+	<Property ID="3131612" Name="深度解析回蓝" EventType="9" TargetType="2" FuncNo="32" AbsorbDamageRatio="100" AbsorbType="2" IsTargetDeduction="0"/>
+	<Property ID="3131622" Name="深度解析回蓝" EventType="9" TargetType="2" FuncNo="32" AbsorbDamageRatio="100" AbsorbType="2" IsTargetDeduction="0"/>
+	<Property ID="3131632" Name="深度解析回蓝" EventType="9" TargetType="2" FuncNo="32" AbsorbDamageRatio="100" AbsorbType="2" IsTargetDeduction="0"/>
+	<Property ID="3131642" Name="深度解析回蓝" EventType="9" TargetType="2" FuncNo="32" AbsorbDamageRatio="100" AbsorbType="2" IsTargetDeduction="0"/>
+	<Property ID="3131652" Name="深度解析回蓝" EventType="9" TargetType="2" FuncNo="32" AbsorbDamageRatio="100" AbsorbType="2" IsTargetDeduction="0"/>
+	<Property ID="3131662" Name="深度解析回蓝" EventType="9" TargetType="2" FuncNo="32" AbsorbDamageRatio="100" AbsorbType="2" IsTargetDeduction="0"/>
+	<Property ID="31502" Name="净化弹" EventType="3" TargetType="0" FuncNo="5" IsHealFormula="0" HealFormula="100" HealTargetType="0"/>
+	<Property ID="31504" Name="医疗之雾" EventType="3" TargetType="0" FuncNo="5" IsHealFormula="0" HealFormula="100" HealTargetType="1"/>
+	<Property ID="315071" Name="开启隐身" EventType="1" TargetType="2" FuncNo="30" SetFormula="1" SetAttribute="RoleHide"/>
+	<Property ID="315072" Name="关闭隐身" EventType="2" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="RoleHide"/>
+	<Property ID="315081" Name="开启无敌" EventType="1" TargetType="2" FuncNo="30" SetFormula="1" SetAttribute="CantBeAttack"/>
+	<Property ID="315082" Name="取消无敌" EventType="2" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="CantBeAttack"/>
+	<Property ID="31509" Name="战争迷雾" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="30" DamageCategory="1" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="315162" Name="回血" EventType="3" TargetType="0" FuncNo="5" IsHealFormula="0" HealFormula="200" HealTargetType="0"/>
+	<Property ID="314011" Name="酸性蒸汽" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="10" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="315172" Name="吸收伤害" EventType="1" TargetType="0" FuncNo="819" SaveDamageType="1" SaveCount="5" SaveRate="100"/>
+	<Property ID="315192" Name="机械磁场" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="100" DamageCategory="1" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="314081" Name="饕餮杀戮击倒" EventType="2" TargetType="2" FuncNo="18" UseSkillID="Skill_Th1408_01_2"/>
+	<Property ID="314121" Name="蒸汽盾" EventType="1" TargetType="2" FuncNo="828" AbsorbDamageType="10" CountType="0" AbsorbValue="999999"/>
+	<Property ID="314141" Name="异教徒献祭" EventType="3" TargetType="2" FuncNo="6" IsFormula="0" Attribute="EY" Formula="500" AllowNegative="0"/>
+	<Property ID="3140121" Name="酸性蒸汽" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="10" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3140131" Name="酸性蒸汽" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="10" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3140141" Name="酸性蒸汽" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="10" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3140151" Name="酸性蒸汽" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="10" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3140161" Name="酸性蒸汽" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="10" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3140821" Name="饕餮杀戮击倒" EventType="2" TargetType="2" FuncNo="18" UseSkillID="Skill_Th1408_02_2"/>
+	<Property ID="3140831" Name="饕餮杀戮击倒" EventType="2" TargetType="2" FuncNo="18" UseSkillID="Skill_Th1408_03_2"/>
+	<Property ID="3140841" Name="饕餮杀戮击倒" EventType="2" TargetType="2" FuncNo="18" UseSkillID="Skill_Th1408_04_2"/>
+	<Property ID="3140851" Name="饕餮杀戮击倒" EventType="2" TargetType="2" FuncNo="18" UseSkillID="Skill_Th1408_05_2"/>
+	<Property ID="3140861" Name="饕餮杀戮击倒" EventType="2" TargetType="2" FuncNo="18" UseSkillID="Skill_Th1408_06_2"/>
+	<Property ID="3141221" Name="蒸汽盾" EventType="1" TargetType="2" FuncNo="828" AbsorbDamageType="10" CountType="0" AbsorbValue="999999"/>
+	<Property ID="3141231" Name="蒸汽盾" EventType="1" TargetType="2" FuncNo="828" AbsorbDamageType="10" CountType="0" AbsorbValue="999999"/>
+	<Property ID="3141241" Name="蒸汽盾" EventType="1" TargetType="2" FuncNo="828" AbsorbDamageType="10" CountType="0" AbsorbValue="999999"/>
+	<Property ID="3141251" Name="蒸汽盾" EventType="1" TargetType="2" FuncNo="828" AbsorbDamageType="10" CountType="0" AbsorbValue="999999"/>
+	<Property ID="3141261" Name="蒸汽盾" EventType="1" TargetType="2" FuncNo="828" AbsorbDamageType="10" CountType="0" AbsorbValue="999999"/>
+	<Property ID="3141421" Name="异教徒献祭" EventType="3" TargetType="2" FuncNo="6" IsFormula="0" Attribute="EY" Formula="500" AllowNegative="0"/>
+	<Property ID="3141431" Name="异教徒献祭" EventType="3" TargetType="2" FuncNo="6" IsFormula="0" Attribute="EY" Formula="500" AllowNegative="0"/>
+	<Property ID="3141441" Name="异教徒献祭" EventType="3" TargetType="2" FuncNo="6" IsFormula="0" Attribute="EY" Formula="500" AllowNegative="0"/>
+	<Property ID="3141451" Name="异教徒献祭" EventType="3" TargetType="2" FuncNo="6" IsFormula="0" Attribute="EY" Formula="500" AllowNegative="0"/>
+	<Property ID="3141461" Name="异教徒献祭" EventType="3" TargetType="2" FuncNo="6" IsFormula="0" Attribute="EY" Formula="500" AllowNegative="0"/>
+	<Property ID="31511" Name="机械守卫-后续" EventType="2" TargetType="2" FuncNo="18" UseSkillID="Skill_Ct1516_01_1"/>
+	<Property ID="31512" Name="机械防护网-后续" EventType="2" TargetType="2" FuncNo="18" UseSkillID="Skill_Ct1517_01_1"/>
+	<Property ID="31513" Name="突进-后续" EventType="2" TargetType="2" FuncNo="18" UseSkillID="Skill_Ct1518_01_1"/>
+	<Property ID="31514" Name="机械磁场-后续" EventType="2" TargetType="2" FuncNo="18" UseSkillID="Skill_Ct1519_01_1"/>
+	<Property ID="31515" Name="自爆-后续" EventType="2" TargetType="2" FuncNo="18" UseSkillID="Skill_Ct1520_01_1"/>
+	<Property ID="3150221" Name="净化弹" EventType="3" TargetType="0" FuncNo="5" IsHealFormula="0" HealFormula="100" HealTargetType="0"/>
+	<Property ID="3150231" Name="净化弹" EventType="3" TargetType="0" FuncNo="5" IsHealFormula="0" HealFormula="100" HealTargetType="0"/>
+	<Property ID="3150241" Name="净化弹" EventType="3" TargetType="0" FuncNo="5" IsHealFormula="0" HealFormula="100" HealTargetType="0"/>
+	<Property ID="3150251" Name="净化弹" EventType="3" TargetType="0" FuncNo="5" IsHealFormula="0" HealFormula="100" HealTargetType="0"/>
+	<Property ID="3150261" Name="净化弹" EventType="3" TargetType="0" FuncNo="5" IsHealFormula="0" HealFormula="100" HealTargetType="0"/>
+	<Property ID="315042" Name="医疗之雾" EventType="3" TargetType="0" FuncNo="5" IsHealFormula="0" HealFormula="100" HealTargetType="1"/>
+	<Property ID="315043" Name="医疗之雾" EventType="3" TargetType="0" FuncNo="5" IsHealFormula="0" HealFormula="100" HealTargetType="1"/>
+	<Property ID="315044" Name="医疗之雾" EventType="3" TargetType="0" FuncNo="5" IsHealFormula="0" HealFormula="100" HealTargetType="1"/>
+	<Property ID="315045" Name="医疗之雾" EventType="3" TargetType="0" FuncNo="5" IsHealFormula="0" HealFormula="100" HealTargetType="1"/>
+	<Property ID="315046" Name="医疗之雾" EventType="3" TargetType="0" FuncNo="5" IsHealFormula="0" HealFormula="100" HealTargetType="1"/>
+	<Property ID="310501" Name="流血" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="20" DamageCategory="1" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3122821" Name="点燃" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="($IntensityMagicAttack/4)+($IntensityPhyAttack/4)-($IntensityPhyAttack/5)*(@HP/@MaxHP)-($IntensityMagicAttack/5)*(@HP/@MaxHP)" DamageCategory="3" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3122831" Name="点燃" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="($IntensityMagicAttack/4)+($IntensityPhyAttack/4)-($IntensityPhyAttack/5)*(@HP/@MaxHP)-($IntensityMagicAttack/5)*(@HP/@MaxHP)" DamageCategory="3" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3122841" Name="点燃" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="($IntensityMagicAttack/4)+($IntensityPhyAttack/4)-($IntensityPhyAttack/5)*(@HP/@MaxHP)-($IntensityMagicAttack/5)*(@HP/@MaxHP)" DamageCategory="3" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3122851" Name="点燃" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="($IntensityMagicAttack/4)+($IntensityPhyAttack/4)-($IntensityPhyAttack/5)*(@HP/@MaxHP)-($IntensityMagicAttack/5)*(@HP/@MaxHP)" DamageCategory="3" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3122861" Name="点燃" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="($IntensityMagicAttack/4)+($IntensityPhyAttack/4)-($IntensityPhyAttack/5)*(@HP/@MaxHP)-($IntensityMagicAttack/5)*(@HP/@MaxHP)" DamageCategory="3" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="318071" Name="衰弱诅咒" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="$IntensityMagicAttack*0.08+40" DamageCategory="5" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="318072" Name="衰弱诅咒" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="$IntensityMagicAttack*0.09+63" DamageCategory="5" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="318073" Name="衰弱诅咒" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="$IntensityMagicAttack*0.11+95" DamageCategory="5" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="318074" Name="衰弱诅咒" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="$IntensityMagicAttack*0.12+121" DamageCategory="5" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="318075" Name="衰弱诅咒" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="$IntensityMagicAttack*0.16+204" DamageCategory="5" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="318076" Name="衰弱诅咒" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="$IntensityMagicAttack*0.19+299" DamageCategory="5" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3180112" Name="吸收伤害" EventType="1" TargetType="2" FuncNo="828" CountType="1" AbsorbValue="@MaxHP*0.05" AbsorbDamageType="10"/>
+	<Property ID="3180122" Name="吸收伤害" EventType="1" TargetType="2" FuncNo="828" AbsorbValue="@MaxHP*0.1" CountType="1" AbsorbDamageType="10"/>
+	<Property ID="3180132" Name="吸收伤害" EventType="1" TargetType="2" FuncNo="828" AbsorbValue="@MaxHP*0.15" CountType="1" AbsorbDamageType="10"/>
+	<Property ID="3180142" Name="吸收伤害" EventType="1" TargetType="2" FuncNo="828" CountType="1" AbsorbValue="@MaxHP*0.2" AbsorbDamageType="10"/>
+	<Property ID="3180152" Name="吸收伤害" EventType="1" TargetType="0" FuncNo="828" CountType="1" AbsorbValue="@MaxHP*0.25" AbsorbDamageType="10"/>
+	<Property ID="3180162" Name="吸收伤害" EventType="1" TargetType="2" FuncNo="828" CountType="1" AbsorbValue="@MaxHP*0.3" AbsorbDamageType="10"/>
+	<Property ID="3181412" Name="附加伤害" EventType="3" TargetType="0" FuncNo="3" Condition="23103|23105|23106|23113|23114|23115|23119|23120|23121|23122|23123|23124" IsDamageFormula="1" DamageFormula="@(MaxMP-MP)*0.1" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3181422" Name="附加伤害" EventType="3" TargetType="0" FuncNo="3" Condition="23103|23105|23106|23113|23114|23115|23119|23120|23121|23122|23123|23124" IsDamageFormula="1" DamageFormula="@(MaxMP-MP)*0.1" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3181432" Name="附加伤害" EventType="3" TargetType="0" FuncNo="3" Condition="23103|23105|23106|23113|23114|23115|23119|23120|23121|23122|23123|23124" DamageFormula="@(MaxMP-MP)*0.1" IsDamageFormula="1" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3181442" Name="附加伤害" EventType="3" TargetType="0" FuncNo="3" Condition="23103|23105|23106|23113|23114|23115|23119|23120|23121|23122|23123|23124" DamageFormula="@(MaxMP-MP)*0.1" IsDamageFormula="1" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3181452" Name="附加伤害" EventType="3" TargetType="0" FuncNo="3" Condition="23103|23105|23106|23113|23114|23115|23119|23120|23121|23122|23123|23124" DamageFormula="@(MaxMP-MP)*0.1" IsDamageFormula="1" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3181462" Name="附加伤害" EventType="3" TargetType="0" FuncNo="3" Condition="23103|23105|23106|23113|23114|23115|23119|23120|23121|23122|23123|23124" DamageFormula="@(MaxMP-MP)*0.1" IsDamageFormula="1" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="317011" Name="凝视之痛" EventType="3" TargetType="1" FuncNo="3" IsDamageFormula="1" DamageFormula="14+R[$MinMagicAttack,$MaxMagicAttack]*0.05" DamageCategory="7" DamageTargetType="1" DamageCaster="2"/>
+	<Property ID="3170121" Name="凝视之痛" EventType="3" TargetType="1" FuncNo="3" IsDamageFormula="1" DamageFormula="20+R[$MinMagicAttack,$MaxMagicAttack]*0.05" DamageCategory="7" DamageTargetType="1" DamageCaster="2"/>
+	<Property ID="3170131" Name="凝视之痛" EventType="3" TargetType="1" FuncNo="3" IsDamageFormula="1" DamageFormula="30+R[$MinMagicAttack,$MaxMagicAttack]*0.06" DamageCategory="7" DamageTargetType="1" DamageCaster="2"/>
+	<Property ID="3170141" Name="凝视之痛" EventType="3" TargetType="1" FuncNo="3" IsDamageFormula="1" DamageFormula="53+R[$MinMagicAttack,$MaxMagicAttack]*0.07" DamageCategory="7" DamageTargetType="1" DamageCaster="2"/>
+	<Property ID="3170151" Name="凝视之痛" EventType="3" TargetType="1" FuncNo="3" IsDamageFormula="1" DamageFormula="68+R[$MinMagicAttack,$MaxMagicAttack]*0.08" DamageCategory="7" DamageTargetType="1" DamageCaster="2"/>
+	<Property ID="3170161" Name="凝视之痛" EventType="3" TargetType="1" FuncNo="3" IsDamageFormula="1" DamageFormula="125+R[$MinMagicAttack,$MaxMagicAttack]*0.09" DamageCategory="7" DamageTargetType="1" DamageCaster="2"/>
+	<Property ID="3170112" Name="凝视之愈" EventType="3" TargetType="0" FuncNo="5" IsHealFormula="1" HealFormula="17+R[$MinMagicAttack,$MaxMagicAttack]*0.06" HealTargetType="1" HealSenderType="2"/>
+	<Property ID="3170122" Name="凝视之愈" EventType="3" TargetType="0" FuncNo="5" IsHealFormula="1" HealFormula="24+R[$MinMagicAttack,$MaxMagicAttack]*0.06" HealTargetType="1" HealSenderType="2"/>
+	<Property ID="3170132" Name="凝视之愈" EventType="3" TargetType="0" FuncNo="5" IsHealFormula="1" HealFormula="37+R[$MinMagicAttack,$MaxMagicAttack]*0.07" HealTargetType="1" HealSenderType="2"/>
+	<Property ID="3170142" Name="凝视之愈" EventType="3" TargetType="0" FuncNo="5" IsHealFormula="1" HealFormula="64+R[$MinMagicAttack,$MaxMagicAttack]*0.09" HealTargetType="1" HealSenderType="2"/>
+	<Property ID="3170152" Name="凝视之愈" EventType="3" TargetType="0" FuncNo="5" IsHealFormula="1" HealFormula="81+R[$MinMagicAttack,$MaxMagicAttack]*0.1" HealTargetType="1" HealSenderType="2"/>
+	<Property ID="3170162" Name="凝视之愈" EventType="3" TargetType="0" FuncNo="5" IsHealFormula="1" HealFormula="149+R[$MinMagicAttack,$MaxMagicAttack]*0.11" HealTargetType="1" HealSenderType="2"/>
+	<Property ID="317071" Name="祝福术-治疗" EventType="3" TargetType="2" FuncNo="5" IsHealFormula="1" HealFormula="R[$MinMagicAttack,$MaxMagicAttack]*0.3" HealTargetType="0" HealSenderType="2"/>
+	<Property ID="3170721" Name="祝福术-治疗" EventType="3" TargetType="2" FuncNo="5" IsHealFormula="1" HealFormula="R[$MinMagicAttack,$MaxMagicAttack]*0.3" HealTargetType="0" HealSenderType="2"/>
+	<Property ID="3170731" Name="祝福术-治疗" EventType="3" TargetType="0" FuncNo="5" IsHealFormula="1" HealFormula="R[$MinMagicAttack,$MaxMagicAttack]*0.3" HealSenderType="2" HealTargetType="0"/>
+	<Property ID="3170741" Name="祝福术-治疗" EventType="3" TargetType="0" FuncNo="5" IsHealFormula="1" HealFormula="R[$MinMagicAttack,$MaxMagicAttack]*0.3" HealTargetType="0" HealSenderType="2"/>
+	<Property ID="3170751" Name="祝福术-治疗" EventType="3" TargetType="0" FuncNo="5" IsHealFormula="1" HealFormula="R[$MinMagicAttack,$MaxMagicAttack]*0.3" HealTargetType="0" HealSenderType="2"/>
+	<Property ID="3170761" Name="祝福术-治疗" EventType="3" TargetType="0" FuncNo="5" IsHealFormula="1" HealFormula="R[$MinMagicAttack,$MaxMagicAttack]*0.3" HealTargetType="0" HealSenderType="2"/>
+	<Property ID="312281" Name="点燃" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="($IntensityMagicAttack/4)+($IntensityPhyAttack/4)-($IntensityPhyAttack/5)*(@HP/@MaxHP)-($IntensityMagicAttack/5)*(@HP/@MaxHP)" DamageCategory="3" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="317131" Name="伤害减少50%" EventType="1" TargetType="0" FuncNo="844" ImmunityDamageType="10" ImmunityValue="50" IsPercent="1"/>
+	<Property ID="316851" Name="加智力" EventType="1" TargetType="2" FuncNo="30"/>
+	<Property ID="317132" EventType="2" TargetType="0" FuncNo="845" Name="关闭免疫伤害"/>
+	<Property ID="3100511" Name="伤害减少40%" EventType="1" TargetType="0" FuncNo="844" ImmunityDamageType="10" ImmunityValue="40" IsPercent="1"/>
+	<Property ID="3100512" Name="伤害减少44%" EventType="1" TargetType="0" FuncNo="844" ImmunityDamageType="10" ImmunityValue="44" IsPercent="1"/>
+	<Property ID="3100513" Name="伤害减少48%" EventType="1" TargetType="0" FuncNo="844" ImmunityDamageType="10" ImmunityValue="48" IsPercent="1"/>
+	<Property ID="3100514" Name="伤害减少52%" EventType="1" TargetType="0" FuncNo="844" ImmunityDamageType="10" ImmunityValue="52" IsPercent="1"/>
+	<Property ID="3100515" Name="伤害减少56%" EventType="1" TargetType="0" FuncNo="844" ImmunityDamageType="10" ImmunityValue="56" IsPercent="1"/>
+	<Property ID="3100516" Name="伤害减少60%" EventType="1" TargetType="0" FuncNo="844" ImmunityDamageType="10" ImmunityValue="60" IsPercent="1"/>
+	<Property ID="3100521" EventType="2" TargetType="0" FuncNo="845" Name="关闭免疫伤害"/>
+	<Property ID="310171" Name="关闭吸伤" EventType="2" TargetType="0" FuncNo="829"/>
+	<Property ID="3100612" Name="鼓舞" EventType="1" TargetType="2" FuncNo="6" IsFormula="1" Attribute="HP" Formula="@HP*0.12" AllowNegative="0"/>
+	<Property ID="3100613" Name="鼓舞" EventType="1" TargetType="2" FuncNo="6" IsFormula="1" Attribute="HP" Formula="@HP*0.14" AllowNegative="0"/>
+	<Property ID="3100614" Name="鼓舞" EventType="1" TargetType="2" FuncNo="6" IsFormula="1" Attribute="HP" Formula="@HP*0.16" AllowNegative="0"/>
+	<Property ID="3100615" Name="鼓舞" EventType="1" TargetType="2" FuncNo="6" IsFormula="1" Attribute="HP" Formula="@HP*0.18" AllowNegative="0"/>
+	<Property ID="3100616" Name="鼓舞" EventType="1" TargetType="2" FuncNo="6" IsFormula="1" Attribute="HP" Formula="@HP*0.2" AllowNegative="0"/>
+	<Property ID="3110116" Name="受到伤害取消潜行" EventType="10" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Ex1101_01_1"/>
+	<Property ID="3160911" Name="苍穹魔咒dot" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="R[$MinMagicAttack,$MinMagicAttack]*0.2" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3162711" EventType="8" TargetType="2" FuncNo="1" Condition="3162711" BuffID="Buff_Ch1626_01_2"/>
+	<Property ID="3161712" Name="幽梦之灵无敌关闭" EventType="2" TargetType="2"/>
+	<Property ID="3161011" EventType="6" TargetType="2" FuncNo="109" EffectType="2" EffectTime="2000" Condition="3160912"/>
+	<Property ID="3161021" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="$IntensityMagicAttack*0.25" DamageCategory="7" DamageTargetType="1" DamageCaster="2"/>
+	<Property ID="3161031" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="$IntensityMagicAttack*0.4" DamageCategory="7" DamageTargetType="1" DamageCaster="2"/>
+	<Property ID="3161041" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="$IntensityMagicAttack*0.55" DamageCategory="7" DamageTargetType="1" DamageCaster="2"/>
+	<Property ID="3161051" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="$IntensityMagicAttack*0.7" DamageCategory="7" DamageTargetType="1" DamageCaster="2"/>
+	<Property ID="3161061" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="$IntensityMagicAttack*0.85" DamageCategory="7" DamageTargetType="1" DamageCaster="2"/>
+	<Property ID="3161012" EventType="3" TargetType="2" FuncNo="3" Condition="316001" IsDamageFormula="0" DamageFormula="10" DamageCategory="7" DamageTargetType="1" DamageCaster="2"/>
+	<Property ID="3161022" EventType="3" TargetType="2" FuncNo="3" Condition="316001" IsDamageFormula="0" DamageFormula="20" DamageCategory="7" DamageTargetType="1" DamageCaster="2"/>
+	<Property ID="3161032" EventType="3" TargetType="2" FuncNo="3" Condition="316001" IsDamageFormula="0" DamageFormula="30" DamageCategory="7" DamageTargetType="1" DamageCaster="2"/>
+	<Property ID="3161042" EventType="3" TargetType="2" FuncNo="3" Condition="316001" IsDamageFormula="0" DamageFormula="40" DamageCategory="7" DamageTargetType="1" DamageCaster="2"/>
+	<Property ID="3161052" EventType="3" TargetType="2" FuncNo="3" Condition="316001" IsDamageFormula="0" DamageFormula="50" DamageCategory="7" DamageTargetType="1" DamageCaster="2"/>
+	<Property ID="3161062" EventType="3" TargetType="2" FuncNo="3" Condition="316001" IsDamageFormula="0" DamageFormula="60" DamageCategory="7" DamageTargetType="1" DamageCaster="2"/>
+	<Property ID="3162214" Name="咒灵护体清除debuff" EventType="1" TargetType="2" FuncNo="11" BufferClearType="1" BufferClearValue="1" StrClear="0"/>
+	<Property ID="312461" Name="高爆弹" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="$MaxPhyAttack" DamageCategory="1" DamageTargetType="1" DamageCaster="2"/>
+	<Property ID="312921" Name="清除护甲精通" EventType="1" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_hujiajt" BufferClearOLCount="1" StrClear="1"/>
+	<Property ID="3103412" Name="电磁辐射伤害1" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="$MaxHP*0.01" DamageCategory="4" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3103422" Name="电磁辐射伤害2" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="$MaxHP*0.011" DamageCategory="4" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3103432" Name="电磁辐射伤害3" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="$MaxHP*0.012" DamageCategory="4" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3103442" Name="电磁辐射伤害4" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="$MaxHP*0.013" DamageCategory="4" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3103452" Name="电磁辐射伤害5" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="$MaxHP*0.014" DamageCategory="4" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3103462" Name="电磁辐射伤害6" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="$MaxHP*0.015" DamageCategory="4" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="31828" Name="变身" EventType="1" TargetType="2" FuncNo="20" ChangeModelPath="npc\boss_0127"/>
+	<Property ID="311101" Name="吸血" EventType="17" TargetType="2" FuncNo="32" AbsorbDamageRatio="50" AbsorbType="0" IsTargetDeduction="0"/>
+	<Property ID="311102" Name="吸血" EventType="17" TargetType="2" FuncNo="32" AbsorbDamageRatio="50" AbsorbType="0" IsTargetDeduction="0"/>
+	<Property ID="311103" Name="吸血" EventType="17" TargetType="2" FuncNo="32" AbsorbDamageRatio="50" AbsorbType="0" IsTargetDeduction="0"/>
+	<Property ID="311104" Name="吸血" EventType="17" TargetType="2" FuncNo="32" AbsorbDamageRatio="50" AbsorbType="0" IsTargetDeduction="0"/>
+	<Property ID="311105" Name="吸血" EventType="17" TargetType="2" FuncNo="32" AbsorbDamageRatio="50" AbsorbType="0" IsTargetDeduction="0"/>
+	<Property ID="311106" Name="吸血" EventType="17" TargetType="2" FuncNo="32" AbsorbDamageRatio="50" AbsorbType="0" IsTargetDeduction="0"/>
+	<Property ID="312491" Name="焚喉烈焰1级" EventType="3" TargetType="0" FuncNo="6" IsFormula="0" Attribute="RC" Formula="15" AllowNegative="1"/>
+	<Property ID="3124921" Name="焚喉烈焰2级" EventType="3" TargetType="0" FuncNo="6" IsFormula="0" Attribute="RC" Formula="15" AllowNegative="1"/>
+	<Property ID="3124931" Name="焚喉烈焰3级" EventType="3" TargetType="0" FuncNo="6" IsFormula="0" Attribute="RC" Formula="15" AllowNegative="1"/>
+	<Property ID="3124941" Name="焚喉烈焰4级" EventType="3" TargetType="0" FuncNo="6" IsFormula="0" Attribute="RC" Formula="15" AllowNegative="1"/>
+	<Property ID="3124951" Name="焚喉烈焰5级" EventType="3" TargetType="0" FuncNo="6" IsFormula="0" Attribute="RC" Formula="15" AllowNegative="1"/>
+	<Property ID="3124961" Name="焚喉烈焰6级" EventType="3" TargetType="0" FuncNo="6" IsFormula="0" Attribute="RC" Formula="15" AllowNegative="1"/>
+	<Property ID="311261" Name="移形换步-免疫伤害" EventType="1" TargetType="2" FuncNo="844" ImmunityDamageType="10" ImmunityValue="100" IsPercent="1"/>
+	<Property ID="311262" Name="移形换步-免疫伤害" EventType="2" TargetType="2" FuncNo="845"/>
+	<Property ID="311263" Name="被攻击时添加BUFF" EventType="10" TargetType="2" FuncNo="1" Condition="31126" BuffID="Buff_Ex1126_01_2"/>
+	<Property ID="3160921" Name="苍穹魔咒dot2" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="R[$MinMagicAttack,$MinMagicAttack]*0.2" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3160931" Name="苍穹魔咒dot3" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="R[$MinMagicAttack,$MinMagicAttack]*0.2" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3160951" Name="苍穹魔咒dot5" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="R[$MinMagicAttack,$MinMagicAttack]*0.2" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3160941" Name="苍穹魔咒dot4" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="R[$MinMagicAttack,$MinMagicAttack]*0.2" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3160961" Name="苍穹魔咒dot6" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="R[$MinMagicAttack,$MinMagicAttack]*0.2" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3162611" Name="灵媒体质" EventType="3" TargetType="2" FuncNo="1" BuffID="Buff_Ch1626_01_2"/>
+	<Property ID="317361" Name="暗涌-受击回复" EventType="10" TargetType="2" FuncNo="5" IsHealFormula="1" HealTargetType="0" HealSenderType="2" HealFormula="35+R[$MinMagicAttack,$MaxMagicAttack]*0.07"/>
+	<Property ID="3173621" Name="暗涌-受击回复" EventType="10" TargetType="2" FuncNo="5" IsHealFormula="1" HealFormula="49+R[$MinMagicAttack,$MaxMagicAttack]*0.08" HealTargetType="0" HealSenderType="2"/>
+	<Property ID="3173631" Name="暗涌-受击回复" EventType="10" TargetType="2" FuncNo="5" IsHealFormula="1" HealFormula="67+R[$MinMagicAttack,$MaxMagicAttack]*0.1" HealTargetType="0" HealSenderType="2"/>
+	<Property ID="3173641" Name="暗涌-受击回复" EventType="10" TargetType="2" FuncNo="5" IsHealFormula="1" HealFormula="80+R[$MinMagicAttack,$MaxMagicAttack]*0.11" HealTargetType="0" HealSenderType="2"/>
+	<Property ID="3173651" Name="暗涌-受击回复" EventType="10" TargetType="2" FuncNo="5" IsHealFormula="1" HealFormula="111+R[$MinMagicAttack,$MaxMagicAttack]*0.14" HealTargetType="0" HealSenderType="2"/>
+	<Property ID="3173661" Name="暗涌-受击回复" EventType="10" TargetType="2" FuncNo="5" IsHealFormula="1" HealFormula="163+R[$MinMagicAttack,$MaxMagicAttack]*0.17" HealTargetType="0" HealSenderType="2"/>
+	<Property ID="3100641" Name="鼓舞-恢复怒气" EventType="3" TargetType="2" FuncNo="6" IsFormula="0" Attribute="RC" Formula="5" AllowNegative="0"/>
+	<Property ID="3112411" Name="惩击流血" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="$IntensityPhyAttack*0.1" DamageCategory="1" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3101914" Name="5%伤害减免" EventType="1" TargetType="0" FuncNo="844" IsPercent="1" ImmunityDamageType="10" ImmunityValue="5"/>
+	<Property ID="3101924" Name="10%伤害减免" EventType="1" TargetType="0" FuncNo="844" ImmunityDamageType="10" ImmunityValue="10" IsPercent="1"/>
+	<Property ID="3101934" Name="15%伤害减免" EventType="1" TargetType="0" FuncNo="844" ImmunityDamageType="10" ImmunityValue="15" IsPercent="1"/>
+	<Property ID="3101944" Name="20%伤害减免" EventType="1" TargetType="0" FuncNo="844" ImmunityDamageType="10" ImmunityValue="20" IsPercent="1"/>
+	<Property ID="3101954" Name="25%伤害减免" EventType="1" TargetType="0" FuncNo="844" ImmunityValue="25" ImmunityDamageType="10" IsPercent="1"/>
+	<Property ID="3161511" Name="行影术buff清除CD1" EventType="1" TargetType="2" FuncNo="12" CoolSkillID="Skill_Ch1615_01_1" CoolClearType="0"/>
+	<Property ID="3161512" Name="行影术buff清除CD2" EventType="1" TargetType="2" FuncNo="12" CoolSkillID="Skill_Ch1615_02_1" CoolClearType="0"/>
+	<Property ID="3161513" Name="行影术buff清除CD3" EventType="1" TargetType="2" FuncNo="12" CoolSkillID="Skill_Ch1615_03_1" CoolClearType="0"/>
+	<Property ID="3161514" Name="行影术buff清除CD4" EventType="1" TargetType="2" FuncNo="12" CoolSkillID="Skill_Ch1615_04_1" CoolClearType="0"/>
+	<Property ID="3161515" Name="行影术buff清除CD5" EventType="1" TargetType="2" FuncNo="12" CoolSkillID="Skill_Ch1615_05_1" CoolClearType="0"/>
+	<Property ID="3161516" Name="行影术buff清除CD6" EventType="1" TargetType="2" FuncNo="12" CoolSkillID="Skill_Ch1615_06_1" CoolClearType="0"/>
+	<Property ID="3102511" Name="冲斩冷却" EventType="2" TargetType="2" FuncNo="12" CoolSkillID="Skill_In1025_01_1" CoolClearType="1"/>
+	<Property ID="31829" Name="清除BUFF" EventType="2" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Ri1829_01_1" StrClear="1"/>
+	<Property ID="3162011" Name="无尽魔咒魔法恢复" EventType="3" TargetType="2" FuncNo="6" IsFormula="1" Attribute="MP" Formula="@MaxMP*0.1" AllowNegative="1"/>
+	<Property ID="3162012" Name="无尽魔咒生命恢复" EventType="3" TargetType="2" FuncNo="6" IsFormula="1" Attribute="HP" Formula="@MaxHP*0.1" AllowNegative="0"/>
+	<Property ID="3162021" Name="无尽魔咒魔法恢复" EventType="3" TargetType="2" FuncNo="6" IsFormula="1" Attribute="MP" Formula="@MaxMP*0.1" AllowNegative="1"/>
+	<Property ID="3162022" Name="无尽魔咒生命恢复" EventType="3" TargetType="2" FuncNo="6" IsFormula="1" Attribute="HP" Formula="@MaxHP*0.1" AllowNegative="0"/>
+	<Property ID="3162031" Name="无尽魔咒魔法恢复" EventType="3" TargetType="2" FuncNo="6" IsFormula="1" Attribute="MP" Formula="@MaxMP*0.1" AllowNegative="1"/>
+	<Property ID="3162032" Name="无尽魔咒生命恢复" EventType="3" TargetType="2" FuncNo="6" IsFormula="1" Attribute="HP" Formula="@MaxHP*0.1" AllowNegative="0"/>
+	<Property ID="3162041" Name="无尽魔咒魔法恢复" EventType="3" TargetType="2" FuncNo="6" IsFormula="1" Attribute="MP" Formula="@MaxMP*0.1" AllowNegative="1"/>
+	<Property ID="3162042" Name="无尽魔咒生命恢复" EventType="3" TargetType="2" FuncNo="6" IsFormula="1" Attribute="HP" Formula="@MaxHP*0.1" AllowNegative="0"/>
+	<Property ID="3162051" Name="无尽魔咒魔法恢复" EventType="3" TargetType="2" FuncNo="6" IsFormula="1" Attribute="MP" Formula="@MaxMP*0.1" AllowNegative="1"/>
+	<Property ID="3162052" Name="无尽魔咒生命恢复" EventType="3" TargetType="2" FuncNo="6" IsFormula="1" Attribute="HP" Formula="@MaxHP*0.1" AllowNegative="0"/>
+	<Property ID="3162061" Name="无尽魔咒魔法恢复" EventType="3" TargetType="2" FuncNo="6" IsFormula="1" Attribute="MP" Formula="@MaxMP*0.1" AllowNegative="1"/>
+	<Property ID="3162062" Name="无尽魔咒生命恢复" EventType="3" TargetType="2" FuncNo="6" IsFormula="1" Attribute="HP" Formula="@MaxHP*0.1" AllowNegative="0"/>
+	<Property ID="41828" Name="月蚀" EventType="3" TargetType="2" FuncNo="1" BuffID="testBuff_Ri1828_03"/>
+	<Property ID="41805" Name="尸魂缠绕" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="$MaxMagicAttack*0.1" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="31130" Name="BUFF关闭技能进入冷却" EventType="2" TargetType="4" FuncNo="12" CoolSkillID="Skill_Ex1130_01_1" CoolClearType="1"/>
+	<Property ID="311302" Name="BUFF关闭技能进入冷却" EventType="2" TargetType="4" FuncNo="12" CoolSkillID="Skill_Ex1130_02_1" CoolClearType="1"/>
+	<Property ID="311303" Name="BUFF关闭技能进入冷却" EventType="2" TargetType="4" FuncNo="12" CoolSkillID="Skill_Ex1130_03_1" CoolClearType="1"/>
+	<Property ID="311304" Name="BUFF关闭技能进入冷却" EventType="2" TargetType="4" FuncNo="12" CoolSkillID="Skill_Ex1130_04_1" CoolClearType="1"/>
+	<Property ID="311305" Name="BUFF关闭技能进入冷却" EventType="2" TargetType="4" FuncNo="12" CoolSkillID="Skill_Ex1130_05_1" CoolClearType="1"/>
+	<Property ID="311306" Name="BUFF关闭技能进入冷却" EventType="2" TargetType="4" FuncNo="12" CoolSkillID="Skill_Ex1130_06_1" CoolClearType="1"/>
+	<Property ID="3101726" Name="吸收伤害" EventType="1" TargetType="2" FuncNo="828" AbsorbDamageType="10" CountType="1" AbsorbValue="@MaxHP*0.1"/>
+	<Property ID="3101721" Name="吸收伤害" EventType="1" TargetType="2" FuncNo="828" AbsorbDamageType="10" CountType="1" AbsorbValue="@MaxHP*0.12"/>
+	<Property ID="3101722" Name="吸收伤害" EventType="1" TargetType="2" FuncNo="828" AbsorbDamageType="10" CountType="1" AbsorbValue="@MaxHP*0.14"/>
+	<Property ID="3101723" Name="吸收伤害" EventType="1" TargetType="2" FuncNo="828" AbsorbDamageType="10" CountType="1" AbsorbValue="@MaxHP*0.16"/>
+	<Property ID="3101724" Name="吸收伤害" EventType="1" TargetType="2" FuncNo="828" AbsorbDamageType="10" CountType="1" AbsorbValue="@MaxHP*0.18"/>
+	<Property ID="3101725" Name="吸收伤害" EventType="1" TargetType="2" FuncNo="828" AbsorbDamageType="10" CountType="1" AbsorbValue="@MaxHP*0.2"/>
+	<Property ID="3110117" Name="水中取消潜行" EventType="3" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Ex1101_01_1" Condition="311012"/>
+	<Property ID="317381" Name="愈合之井" EventType="1" TargetType="2" FuncNo="18" UseSkillID="Skill_Wt1738_01_2"/>
+	<Property ID="3170113" Name="凝视-清除冷却" EventType="3" TargetType="2" FuncNo="12" Condition="317013" CoolSkillID="Skill_Wt1735_01_1" CoolClearType="0"/>
+	<Property ID="3170123" Name="凝视-清除冷却" EventType="3" TargetType="2" FuncNo="12" Condition="317013" CoolSkillID="Skill_Wt1735_02_1" CoolClearType="0"/>
+	<Property ID="3170133" Name="凝视-清除冷却" EventType="3" TargetType="2" FuncNo="12" Condition="317013" CoolSkillID="Skill_Wt1735_03_1" CoolClearType="0"/>
+	<Property ID="3170143" Name="凝视-清除冷却" EventType="3" TargetType="2" FuncNo="12" Condition="317013" CoolSkillID="Skill_Wt1735_04_1" CoolClearType="0"/>
+	<Property ID="3170153" Name="凝视-清除冷却" EventType="3" TargetType="2" FuncNo="12" Condition="317013" CoolSkillID="Skill_Wt1735_05_1" CoolClearType="0"/>
+	<Property ID="3170163" Name="凝视-清除冷却" EventType="3" TargetType="2" FuncNo="12" Condition="317013" CoolSkillID="Skill_Wt1735_06_1" CoolClearType="0"/>
+	<Property ID="317051" Name="治疗链-伤害减少20%" EventType="1" TargetType="0" FuncNo="844" ImmunityDamageType="10" ImmunityValue="20" IsPercent="1"/>
+	<Property ID="3170512" EventType="2" TargetType="0" FuncNo="845" Name="关闭免疫伤害"/>
+	<Property ID="3160111" Name="咒法烙印dot1" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="10+0.2*$IntensityMagicAttack-0.2*$IntensityMagicAttack*(@HP/@MaxHP)" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3160121" Name="咒法烙印dot2" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="20+0.2*$IntensityMagicAttack-0.2*$IntensityMagicAttack*(@HP/@MaxHP)" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3160131" Name="咒法烙印dot3" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="30+0.2*$IntensityMagicAttack-0.2*$IntensityMagicAttack*(@HP/@MaxHP)" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3160141" Name="咒法烙印dot4" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="40+0.2*$IntensityMagicAttack-0.2*$IntensityMagicAttack*(@HP/@MaxHP)" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3160151" Name="咒法烙印dot5" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="50+0.2*$IntensityMagicAttack-0.2*$IntensityMagicAttack*(@HP/@MaxHP)" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3160161" Name="咒法烙印dot6" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="60+0.2*$IntensityMagicAttack-0.2*$IntensityMagicAttack*(@HP/@MaxHP)" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3160611" Name="幻术标记对目标伤害buff效果1" EventType="6" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageCategory="7" DamageTargetType="0" DamageCaster="2" DamageFormula="50+0.2*$IntensityMagicAttack-0.2*$IntensityMagicAttack*(@HP/@MaxHP)"/>
+	<Property ID="3160621" Name="幻术标记对目标伤害buff效果2" EventType="6" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="60+0.2*$IntensityMagicAttack-0.2*$IntensityMagicAttack*(@HP/@MaxHP)" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3160631" Name="幻术标记对目标伤害buff效果3" EventType="6" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="70+0.2*$IntensityMagicAttack-0.2*$IntensityMagicAttack*(@HP/@MaxHP)" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3160641" Name="幻术标记对目标伤害buff效果4" EventType="6" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="80+0.2*$IntensityMagicAttack-0.2*$IntensityMagicAttack*(@HP/@MaxHP)" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3160651" Name="幻术标记对目标伤害buff效果5" EventType="6" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="90+0.2*$IntensityMagicAttack-0.2*$IntensityMagicAttack*(@HP/@MaxHP)" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3160661" Name="幻术标记对目标伤害buff效果6" EventType="6" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="100+0.2*$IntensityMagicAttack-0.2*$IntensityMagicAttack*(@HP/@MaxHP)" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="2161611" Name="暗黑龙枪-贯穿1" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="0" DamageFormula="80" DamageCategory="9" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="2161621" Name="暗黑龙枪-贯穿2" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="0" DamageFormula="80" DamageCategory="9" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="2161631" Name="暗黑龙枪-贯穿3" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="0" DamageFormula="80" DamageCategory="9" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="2161641" Name="暗黑龙枪-贯穿4" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="0" DamageFormula="80" DamageCategory="9" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="2161651" Name="暗黑龙枪-贯穿5" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="0" DamageFormula="80" DamageCategory="9" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="2161661" Name="暗黑龙枪-贯穿6" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="0" DamageFormula="80" DamageCategory="9" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3122812" Name="刺骨阴风-燃烧修正1" EventType="3" TargetType="0" FuncNo="3" Condition="3160811|3160821|3160831|3160841|3160851|3160861" IsDamageFormula="0" DamageFormula="(@IntensityMagicAttack/2)+(@IntensityPhyAttack/2)" DamageCategory="3" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3122822" Name="刺骨阴风-燃烧修正2" EventType="3" TargetType="0" FuncNo="3" Condition="3160811|3160821|3160831|3160841|3160851|3160861" IsDamageFormula="0" DamageFormula="40" DamageCategory="3" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3122832" Name="刺骨阴风-燃烧修正3" EventType="3" TargetType="0" FuncNo="3" Condition="3160811|3160821|3160831|3160841|3160851|3160861" IsDamageFormula="0" DamageFormula="60" DamageCategory="3" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3122842" Name="刺骨阴风-燃烧修正4" EventType="3" TargetType="0" FuncNo="3" Condition="3160811|3160821|3160831|3160841|3160851|3160861" IsDamageFormula="0" DamageFormula="80" DamageCategory="3" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3122852" Name="刺骨阴风-燃烧修正5" EventType="3" TargetType="0" FuncNo="3" Condition="3160811|3160821|3160831|3160841|3160851|3160861" IsDamageFormula="0" DamageFormula="100" DamageCategory="3" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3122862" Name="刺骨阴风-燃烧修正6" EventType="3" TargetType="0" FuncNo="3" Condition="3160811|3160821|3160831|3160841|3160851|3160861" IsDamageFormula="0" DamageFormula="120" DamageCategory="3" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3103511" Name="反震触发伤" EventType="10" TargetType="2" FuncNo="1" Condition="3103511" BuffID="Buff_In1035_01_2"/>
+	<Property ID="3103512" Name="反震伤害" EventType="1" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="$Guard*0.1" DamageCategory="1" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3103513" Name="反震眩晕" EventType="1" TargetType="0" FuncNo="109" EffectType="1" EffectTime="1000"/>
+	<Property ID="3103514" Name="反震限制" EventType="1" TargetType="2" FuncNo="1" BuffID="Buff_In1035_01_4"/>
+	<Property ID="3103515" Name="反震触发晕" EventType="10" TargetType="2" FuncNo="1" Condition="3103511&amp;(310351|310352|310353|310354|310355)" BuffID="Buff_In1035_01_5"/>
+	<Property ID="3103521" Name="反震触发伤" EventType="10" TargetType="2" FuncNo="1" Condition="3103512" BuffID="Buff_In1035_02_2"/>
+	<Property ID="3103524" Name="反震限制" EventType="1" TargetType="2" FuncNo="1" BuffID="Buff_In1035_02_4"/>
+	<Property ID="3103531" Name="反震触发伤" EventType="10" TargetType="2" FuncNo="1" Condition="3103513" BuffID="Buff_In1035_03_2"/>
+	<Property ID="3103534" Name="反震限制" EventType="1" TargetType="2" FuncNo="1" BuffID="Buff_In1035_03_4"/>
+	<Property ID="3103522" Name="反震伤害" EventType="1" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="$Guard*0.1" DamageCategory="1" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3103532" Name="反震伤害" EventType="1" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="$Guard*0.1" DamageCategory="1" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3103541" Name="反震触发伤" EventType="10" TargetType="2" FuncNo="1" Condition="3103514" BuffID="Buff_In1035_04_2"/>
+	<Property ID="3103544" Name="反震限制" EventType="1" TargetType="2" FuncNo="1" BuffID="Buff_In1035_04_4"/>
+	<Property ID="3103542" Name="反震伤害" EventType="1" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="$Guard*0.1" DamageCategory="1" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3103551" Name="反震触发伤" EventType="10" TargetType="2" FuncNo="1" Condition="3103515" BuffID="Buff_In1035_05_2"/>
+	<Property ID="3103554" Name="反震限制" EventType="1" TargetType="2" FuncNo="1" BuffID="Buff_In1035_05_4"/>
+	<Property ID="3103552" Name="反震伤害" EventType="1" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="$Guard*0.1" DamageCategory="1" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="3103561" Name="反震触发伤" EventType="10" TargetType="2" FuncNo="1" Condition="3103516" BuffID="Buff_In1035_06_2"/>
+	<Property ID="3103564" Name="反震限制" EventType="1" TargetType="2" FuncNo="1" BuffID="Buff_In1035_06_4"/>
+	<Property ID="3103562" Name="反震伤害" EventType="1" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="$Guard*0.1" DamageCategory="1" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="310111" Name="受击伤害增加" EventType="1" TargetType="0" FuncNo="832" NoteRate="15"/>
+	<Property ID="310112" Name="受击伤害增加" EventType="1" TargetType="0" FuncNo="832" NoteRate="11"/>
+	<Property ID="310113" Name="受击伤害增加" EventType="1" TargetType="0" FuncNo="832" NoteRate="12"/>
+	<Property ID="310114" Name="受击伤害增加" EventType="1" TargetType="0" FuncNo="832" NoteRate="13"/>
+	<Property ID="310115" Name="受击伤害增加" EventType="1" TargetType="0" FuncNo="832" NoteRate="14"/>
+	<Property ID="310116" Name="受击伤害增加" EventType="1" TargetType="0" FuncNo="832" NoteRate="15"/>
+	<Property ID="3102317" Name="清除怒气" EventType="1" TargetType="0" FuncNo="6" IsFormula="0" Attribute="RC" Formula="-100" AllowNegative="0"/>
+	<Property ID="3103611" Name="驰援伤害转移" EventType="1" TargetType="0" FuncNo="817" TransDamageType="1" TransRate="50"/>
+	<Property ID="3103612" Name="关闭伤害转移" EventType="2" TargetType="0" FuncNo="818"/>
+	<Property ID="3103711" Name="15%概率固守恢复" EventType="10" TargetType="2" FuncNo="1" Condition="310371" BuffID="Buff_In1037_01_2"/>
+	<Property ID="3103712" Name="伤害减免" EventType="1" TargetType="2" FuncNo="844" ImmunityDamageType="10" ImmunityValue="20" IsPercent="1"/>
+	<Property ID="3103713" Name="增加一层惩罚之怒" EventType="1" TargetType="2" FuncNo="1" BuffID="Buff_In1051_01_1"/>
+	<Property ID="3103714" Name="恢复怒气" EventType="1" TargetType="2" FuncNo="6" IsFormula="0" Attribute="RC" Formula="10" AllowNegative="0"/>
+	<Property ID="3103721" Name="18%概率固守恢复" EventType="10" TargetType="2" FuncNo="1" Condition="310372" BuffID="Buff_In1037_01_2"/>
+	<Property ID="3103722" Name="伤害减免" EventType="1" TargetType="2" FuncNo="844" ImmunityDamageType="10" ImmunityValue="24" IsPercent="1"/>
+	<Property ID="3103731" Name="21%概率固守恢复" EventType="10" TargetType="2" FuncNo="1" Condition="310373" BuffID="Buff_In1037_01_2"/>
+	<Property ID="3103732" Name="伤害减免" EventType="1" TargetType="2" FuncNo="844" ImmunityDamageType="10" ImmunityValue="28" IsPercent="1"/>
+	<Property ID="3103741" Name="24%概率固守恢复" EventType="10" TargetType="2" FuncNo="1" Condition="310374" BuffID="Buff_In1037_01_2"/>
+	<Property ID="3103742" Name="伤害减免" EventType="1" TargetType="2" FuncNo="844" ImmunityDamageType="10" ImmunityValue="32" IsPercent="1"/>
+	<Property ID="3103751" Name="27%概率固守恢复" EventType="10" TargetType="2" FuncNo="1" Condition="310375" BuffID="Buff_In1037_01_2"/>
+	<Property ID="3103752" Name="伤害减免" EventType="1" TargetType="2" FuncNo="844" ImmunityDamageType="10" ImmunityValue="36" IsPercent="1"/>
+	<Property ID="3103761" Name="30%概率固守恢复" EventType="10" TargetType="2" FuncNo="1" Condition="310376" BuffID="Buff_In1037_01_2"/>
+	<Property ID="3103762" Name="伤害减免" EventType="1" TargetType="2" FuncNo="844" ImmunityDamageType="10" ImmunityValue="40" IsPercent="1"/>
+	<Property ID="3101731" Name="减速1" EventType="10" TargetType="3" FuncNo="1" BuffID="Buff_In1017_01_5"/>
+	<Property ID="3101732" Name="减速2" EventType="10" TargetType="3" FuncNo="1" BuffID="Buff_In1017_02_5"/>
+	<Property ID="3101733" Name="减速3" EventType="10" TargetType="3" FuncNo="1" BuffID="Buff_In1017_03_5"/>
+	<Property ID="3101734" Name="减速4" EventType="10" TargetType="3" FuncNo="1" BuffID="Buff_In1017_04_5"/>
+	<Property ID="3101735" Name="减速5" EventType="10" TargetType="3" FuncNo="1" BuffID="Buff_In1017_05_5"/>
+	<Property ID="3101736" Name="减速6" EventType="10" TargetType="3" FuncNo="1" BuffID="Buff_In1017_06_5"/>
+	<Property ID="3101911" Name="关闭伤害减免" EventType="2" TargetType="0" FuncNo="845"/>
+	<Property ID="3101912" Name="吸收伤害" EventType="1" TargetType="2" FuncNo="828" AbsorbDamageType="10" CountType="1" AbsorbValue="$MaxHP*0.15"/>
+	<Property ID="3101922" Name="吸收伤害" EventType="1" TargetType="2" FuncNo="828" AbsorbDamageType="10" CountType="1" AbsorbValue="$MaxHP*0.18"/>
+	<Property ID="3101932" Name="吸收伤害" EventType="1" TargetType="2" FuncNo="828" AbsorbDamageType="10" CountType="1" AbsorbValue="$MaxHP*0.21"/>
+	<Property ID="3101942" Name="吸收伤害" EventType="1" TargetType="2" FuncNo="828" AbsorbDamageType="10" CountType="1" AbsorbValue="$MaxHP*0.24"/>
+	<Property ID="3101952" Name="吸收伤害" EventType="1" TargetType="2" FuncNo="828" AbsorbDamageType="10" CountType="1" AbsorbValue="$MaxHP*0.27"/>
+	<Property ID="3101962" Name="吸收伤害" EventType="1" TargetType="2" FuncNo="828" AbsorbDamageType="10" CountType="1" AbsorbValue="$MaxHP*0.3"/>
+	<Property ID="3101913" Name="关闭吸收伤害" EventType="2" TargetType="2" FuncNo="830"/>
+	<Property ID="310381" Name="伤害减免50%" EventType="1" TargetType="0" FuncNo="844" ImmunityDamageType="10" ImmunityValue="50" IsPercent="1"/>
+	<Property ID="310382" Name="伤害减免55%" EventType="1" TargetType="0" FuncNo="844" ImmunityDamageType="10" ImmunityValue="55" IsPercent="1"/>
+	<Property ID="310383" Name="伤害减免60%" EventType="1" TargetType="0" FuncNo="844" ImmunityDamageType="10" ImmunityValue="60" IsPercent="1"/>
+	<Property ID="310384" Name="伤害减免65%" EventType="1" TargetType="0" FuncNo="844" ImmunityDamageType="10" ImmunityValue="65" IsPercent="1"/>
+	<Property ID="310385" Name="伤害减免70%" EventType="1" TargetType="0" FuncNo="844" ImmunityDamageType="10" ImmunityValue="70" IsPercent="1"/>
+	<Property ID="310386" Name="伤害减免75%" EventType="1" TargetType="0" FuncNo="844" ImmunityDamageType="10" ImmunityValue="75" IsPercent="1"/>
+	<Property ID="3103811" Name="关闭伤害减免" EventType="2" TargetType="0" FuncNo="845"/>
+	<Property ID="3101915" Name="套守护BUFF" EventType="1" TargetType="0" FuncNo="1" BuffID="Buff_In1019_01_1"/>
+	<Property ID="3101925" Name="套守护BUFF" EventType="1" TargetType="0" FuncNo="1" BuffID="Buff_In1019_02_1"/>
+	<Property ID="3101935" Name="套守护BUFF" EventType="1" TargetType="0" FuncNo="1" BuffID="Buff_In1019_03_1"/>
+	<Property ID="3101945" Name="套守护BUFF" EventType="1" TargetType="0" FuncNo="1" BuffID="Buff_In1019_04_1"/>
+	<Property ID="3101955" Name="套守护BUFF" EventType="1" TargetType="0" FuncNo="1" BuffID="Buff_In1019_05_1"/>
+	<Property ID="3101965" Name="套守护BUFF" EventType="1" TargetType="0" FuncNo="1" BuffID="Buff_In1019_06_1"/>
+	<Property ID="3101916" Name="套伤害减免" EventType="1" TargetType="0" FuncNo="1" BuffID="Buff_In1019_01_4"/>
+	<Property ID="3101926" Name="套伤害减免" EventType="1" TargetType="0" FuncNo="1" BuffID="Buff_In1019_02_4"/>
+	<Property ID="3101936" Name="套伤害减免" EventType="1" TargetType="0" FuncNo="1" BuffID="Buff_In1019_03_4"/>
+	<Property ID="3101946" Name="套伤害减免" EventType="1" TargetType="0" FuncNo="1" BuffID="Buff_In1019_04_4"/>
+	<Property ID="3101956" Name="套伤害减免" EventType="1" TargetType="0" FuncNo="1" BuffID="Buff_In1019_05_4"/>
+	<Property ID="3101966" Name="套伤害减免" EventType="1" TargetType="0" FuncNo="1" BuffID="Buff_In1019_06_4"/>
+	<Property ID="318111" Name="死神威慑-伤害转移" EventType="1" TargetType="3" FuncNo="817" TransRate="20"/>
+	<Property ID="318117" Name="死神威慑-关闭伤害转移" EventType="2" TargetType="3" FuncNo="818"/>
+	<Property ID="318112" Name="死神威慑-伤害转移" EventType="1" TargetType="3" FuncNo="817" TransRate="30"/>
+	<Property ID="318113" Name="死神威慑-伤害转移" EventType="1" TargetType="3" FuncNo="817" TransRate="40"/>
+	<Property ID="318114" Name="死神威慑-伤害转移" EventType="1" TargetType="3" FuncNo="817" TransRate="50"/>
+	<Property ID="318115" Name="死神威慑-伤害转移" EventType="1" TargetType="3" FuncNo="817" TransRate="60"/>
+	<Property ID="318116" Name="死神威慑-伤害转移" EventType="1" TargetType="3" FuncNo="817" TransRate="70"/>
+	<Property ID="318077" Name="衰弱诅咒" EventType="3" TargetType="2" FuncNo="1" BuffID="Buff_Ri1807_01_2" Condition="31803"/>
+	<Property ID="3180111" Name="骷髅自爆" EventType="2" TargetType="2" FuncNo="18" UseSkillID="Skill_Ri1801_01_4"/>
+	<Property ID="3183411" Name="30%伤害转移-开启" EventType="1" TargetType="0" FuncNo="817" TransRate="30"/>
+	<Property ID="3183422" Name="伤害转移-关闭" EventType="2" TargetType="0" FuncNo="818"/>
+	<Property ID="3162715" EventType="9" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="1000-$RC*10"/>
+	<Property ID="31835" Name="播放指定动作结束" EventType="2" TargetType="2" FuncNo="1" BuffID="Buff_Ri1835_01_1"/>
+	<Property ID="318352" Name="伤害转移-开启" EventType="1" TargetType="3" FuncNo="817" TransRate="50"/>
+	<Property ID="318353" Name="伤害转移-关闭" EventType="2" TargetType="3" FuncNo="818"/>
+	<Property ID="3160612" Name="幻术标记自身-攻击回蓝" EventType="9" TargetType="2" FuncNo="32" AbsorbDamageRatio="0.1" AbsorbType="1" IsTargetDeduction="0"/>
+	<Property ID="3160912" EventType="10" TargetType="2" FuncNo="806" BeAttackDamageRatio="10" BeAttackDamageType="7"/>
+	<Property ID="3103525" Name="反震触发晕" EventType="10" TargetType="2" FuncNo="1" Condition="3103512&amp;(310351|310352|310353|310354|310355)" BuffID="Buff_In1035_01_5"/>
+	<Property ID="3103535" Name="反震触发晕" EventType="10" TargetType="2" FuncNo="1" Condition="3103513&amp;(310351|310352|310353|310354|310355)" BuffID="Buff_In1035_01_5"/>
+	<Property ID="3103545" Name="反震触发晕" EventType="10" TargetType="2" FuncNo="1" Condition="3103514&amp;(310351|310352|310353|310354|310355)" BuffID="Buff_In1035_01_5"/>
+	<Property ID="3103555" Name="反震触发晕" EventType="10" TargetType="2" FuncNo="1" Condition="3103515&amp;(310351|310352|310353|310354|310355)" BuffID="Buff_In1035_01_5"/>
+	<Property ID="3103565" Name="反震触发晕" EventType="10" TargetType="2" FuncNo="1" Condition="3103516&amp;(310351|310352|310353|310354|310355)" BuffID="Buff_In1035_01_5"/>
+	<Property ID="3101751" Name="受击减BUFF1" EventType="10" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_In1017_01_2" BufferClearOLCount="1" StrClear="1"/>
+	<Property ID="3101752" Name="受击减BUFF2" EventType="10" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_In1017_02_2" BufferClearOLCount="1" StrClear="1"/>
+	<Property ID="3101753" Name="受击减BUFF3" EventType="10" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_In1017_03_2" BufferClearOLCount="1" StrClear="1"/>
+	<Property ID="3101754" Name="受击减BUFF4" EventType="10" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_In1017_04_2" BufferClearOLCount="1" StrClear="1"/>
+	<Property ID="3101755" Name="受击减BUFF5" EventType="10" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_In1017_05_2" BufferClearOLCount="1" StrClear="1"/>
+	<Property ID="3101756" Name="受击减BUFF6" EventType="10" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_In1017_06_2" BufferClearOLCount="1" StrClear="1"/>
+	<Property ID="3103715" Name="关闭伤害减免" EventType="2" TargetType="0" FuncNo="845"/>
+	<Property ID="310117" Name="关闭伤害增加" EventType="1" TargetType="0" FuncNo="833"/>
+	<Property ID="3101741" Name="关闭审判1" EventType="2" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_In1017_01_2" BufferClearOLCount="1" StrClear="1"/>
+	<Property ID="3101742" Name="关闭审判2" EventType="2" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_In1017_02_2" BufferClearOLCount="1" StrClear="1"/>
+	<Property ID="3101743" Name="关闭审判3" EventType="2" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_In1017_03_2" BufferClearOLCount="1" StrClear="1"/>
+	<Property ID="3101744" Name="关闭审判4" EventType="2" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_In1017_04_2" BufferClearOLCount="1" StrClear="1"/>
+	<Property ID="3101745" Name="关闭审判5" EventType="2" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_In1017_05_2" BufferClearOLCount="1" StrClear="1"/>
+	<Property ID="3101746" Name="关闭审判6" EventType="2" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_In1017_06_2" BufferClearOLCount="1" StrClear="1"/>
+	<Property ID="3181214" Name="攻击添加BUFF" EventType="10" TargetType="3" FuncNo="1" BuffID="Buff_Ri1812_01_1"/>
+	<Property ID="3181224" Name="攻击添加BUFF" EventType="10" TargetType="3" FuncNo="1" BuffID="Buff_Ri1812_02_1"/>
+	<Property ID="3181234" Name="攻击添加BUFF" EventType="10" TargetType="3" FuncNo="1" BuffID="Buff_Ri1812_03_1"/>
+	<Property ID="3181244" Name="攻击添加BUFF" EventType="10" TargetType="3" FuncNo="1" BuffID="Buff_Ri1812_04_1"/>
+	<Property ID="3181254" Name="攻击添加BUFF" EventType="10" TargetType="3" FuncNo="1" BuffID="Buff_Ri1812_05_1"/>
+	<Property ID="3181264" Name="攻击添加BUFF" EventType="10" TargetType="3" FuncNo="1" BuffID="Buff_Ri1812_06_1"/>
+	<Property ID="3110118" Name="潜行消失开启暗影" EventType="2" TargetType="2" FuncNo="1" BuffID="Buff_Ex1101_01_2"/>
+	<Property ID="3180171" Name="骷髅销毁" EventType="2" TargetType="2" FuncNo="30" SetFormula="1" SetAttribute="Dead"/>
+	<Property ID="3180121" Name="骷髅自爆" EventType="2" TargetType="2" FuncNo="18" UseSkillID="Skill_Ri1801_02_4"/>
+	<Property ID="3180131" Name="骷髅自爆" EventType="2" TargetType="2" FuncNo="18" UseSkillID="Skill_Ri1801_03_4"/>
+	<Property ID="3180141" Name="骷髅自爆" EventType="2" TargetType="2" FuncNo="18" UseSkillID="Skill_Ri1801_04_4"/>
+	<Property ID="3180151" Name="骷髅自爆" EventType="2" TargetType="2" FuncNo="18" UseSkillID="Skill_Ri1801_05_4"/>
+	<Property ID="3180161" Name="骷髅自爆" EventType="2" TargetType="2" FuncNo="18" UseSkillID="Skill_Ri1801_06_4"/>
+	<Property ID="3180172" Name="关闭吸收伤害" EventType="2" TargetType="2" FuncNo="829"/>
+	<Property ID="3110119" Name="潜行进入CD" EventType="2" TargetType="2" FuncNo="12" CoolSkillID="Skill_Ex1101_01_1" CoolClearType="1"/>
+	<Property ID="312031" Name="子母弹-击飞" EventType="2" TargetType="2" FuncNo="16" KnockFlyLockTime="1000" KnockFlyDistance="3" KnockFlySpeed="3" GravityParam="-20" FlyKnockDownAction="down" FlyDownLoopAction="downloop" FlyGetUpAction="downup" KnockFlyIsCanMove="0" HitOutAngle="180"/>
+	<Property ID="312521" Name="定位袭击" EventType="2" TargetType="2" FuncNo="18" UseSkillID="Skill_Gl1252_01_2"/>
+	<Property ID="3125221" Name="定位袭击2" EventType="2" TargetType="2" FuncNo="18" UseSkillID="Skill_Gl1252_02_2"/>
+	<Property ID="3125231" Name="定位袭击3" EventType="2" TargetType="2" FuncNo="18" UseSkillID="Skill_Gl1252_03_2"/>
+	<Property ID="3125241" Name="定位袭击4" EventType="2" TargetType="2" FuncNo="18" UseSkillID="Skill_Gl1252_04_2"/>
+	<Property ID="3125251" Name="定位袭击5" EventType="2" TargetType="2" FuncNo="18" UseSkillID="Skill_Gl1252_05_2"/>
+	<Property ID="3125261" Name="定位袭击6" EventType="2" TargetType="2" FuncNo="18" UseSkillID="Skill_Gl1252_06_2"/>
+	<Property ID="311097" Name="关闭免疫" EventType="2" TargetType="2" FuncNo="845"/>
+	<Property ID="3113211" Name="诡步-开启隐身" EventType="1" TargetType="2" FuncNo="30" SetFormula="1" SetAttribute="RoleHide"/>
+	<Property ID="3113212" Name="诡步-关闭隐身" EventType="2" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="RoleHide"/>
+	<Property ID="3113213" Name="诡步-进入潜行" EventType="2" TargetType="2" FuncNo="1" BuffID="Buff_Ex1101_01_1"/>
+	<Property ID="3113311" Name="开启隐身" EventType="1" TargetType="2" FuncNo="30" SetFormula="1" SetAttribute="RoleHide"/>
+	<Property ID="3113312" Name="关闭隐身" EventType="2" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="RoleHide"/>
+	<Property ID="3113313" Name="伤害免疫" EventType="1" TargetType="2" FuncNo="844" ImmunityDamageType="10" ImmunityValue="50" IsPercent="1"/>
+	<Property ID="3113314" Name="关闭免疫" EventType="2" TargetType="2" FuncNo="845"/>
+	<Property ID="3183421" Name="35%伤害转移-开启" EventType="1" TargetType="0" FuncNo="817" TransRate="35"/>
+	<Property ID="3183431" Name="40%伤害转移-开启" EventType="1" TargetType="0" FuncNo="817" TransRate="40"/>
+	<Property ID="3183441" Name="45%伤害转移-开启" EventType="1" TargetType="0" FuncNo="817" TransRate="45%"/>
+	<Property ID="3183451" Name="50%伤害转移-开启" EventType="1" TargetType="0" FuncNo="817" TransRate="50"/>
+	<Property ID="3183461" Name="55%伤害转移-开启" EventType="1" TargetType="0" FuncNo="817" TransRate="55"/>
+	<Property ID="3170214" Name="能量盾关闭吸收伤害" EventType="2" TargetType="0" FuncNo="829"/>
+	<Property ID="31718" Name="伤害减免" EventType="1" TargetType="0" FuncNo="844" ImmunityDamageType="10" ImmunityValue="50" IsPercent="1"/>
+	<Property ID="317181" Name="关闭伤害减免" EventType="2" TargetType="0" FuncNo="845"/>
+	<Property ID="317031" Name="回蓝" EventType="2" TargetType="0" FuncNo="6" IsFormula="1" Attribute="MP" Formula="@MaxMP*0.05" AllowNegative="0"/>
+	<Property ID="317032" Name="回蓝" EventType="2" TargetType="0" FuncNo="6" IsFormula="1" Attribute="MP" Formula="@MaxMP*0.06" AllowNegative="0"/>
+	<Property ID="317033" Name="回蓝" EventType="2" TargetType="0" FuncNo="6" IsFormula="1" Attribute="MP" Formula="@MaxMP*0.07" AllowNegative="0"/>
+	<Property ID="317034" Name="回蓝" EventType="2" TargetType="0" FuncNo="6" IsFormula="1" Attribute="MP" Formula="@MaxMP*0.08" AllowNegative="0"/>
+	<Property ID="317035" Name="回蓝" EventType="2" TargetType="0" FuncNo="6" IsFormula="1" Attribute="MP" Formula="@MaxMP*0.09" AllowNegative="0"/>
+	<Property ID="317036" Name="回蓝" EventType="2" TargetType="0" FuncNo="6" IsFormula="1" Attribute="MP" Formula="@MaxMP*0.1" AllowNegative="0"/>
+	<Property ID="317382" Name="愈合之井" EventType="1" TargetType="2" FuncNo="18" UseSkillID="Skill_Wt1738_02_2"/>
+	<Property ID="317383" Name="愈合之井" EventType="1" TargetType="2" FuncNo="18" UseSkillID="Skill_Wt1738_03_2"/>
+	<Property ID="317384" Name="愈合之井" EventType="1" TargetType="2" FuncNo="18" UseSkillID="Skill_Wt1738_04_2"/>
+	<Property ID="317385" Name="愈合之井" EventType="1" TargetType="2" FuncNo="18" UseSkillID="Skill_Wt1738_05_2"/>
+	<Property ID="317386" Name="愈合之井" EventType="1" TargetType="2" FuncNo="18" UseSkillID="Skill_Wt1738_06_2"/>
+</Object>
+
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes" ?>
+<Processor>
+    <Base type="object" version="1.0">
+        <Line Type="2" Event="2114" Name="AUTOP1">
+            <Param type="6" data="FB_TNDX_BOSS_03" Index="0" />
+        </Line>
+        <Line Type="1" Event="4021">
+            <Param type="13" srctype="8" data="AUTOP1" Index="0" />
+            <Param type="2" data="0" Index="1" />
+            <Param type="6" data="talk_special_FB_TNDX_BOSS_03_01" Index="2" />
+            <Param type="11" data=" " Index="3" />
+        </Line>
+        <Line Type="2" Event="5082" Name="AUTOP2">
+            <Param type="8" data=" " Index="0" />
+        </Line>
+        <Line Type="2" Event="2114" Name="AUTOP4">
+            <Param type="6" data="FB_TNDX_BOSS_03" Index="0" />
+        </Line>
+        <Line Type="2" Event="4737" Name="AUTOP3">
+            <Param type="13" srctype="8" data="AUTOP4" Index="0" />
+        </Line>
+        <Line Type="2" Event="2114" Name="AUTOP6">
+            <Param type="6" data="FB_TNDX_BOSS_03" Index="0" />
+        </Line>
+        <Line Type="2" Event="4738" Name="AUTOP5">
+            <Param type="13" srctype="8" data="AUTOP6" Index="0" />
+        </Line>
+        <Line Type="2" Event="2114" Name="AUTOP8">
+            <Param type="6" data="FB_TNDX_BOSS_03" Index="0" />
+        </Line>
+        <Line Type="2" Event="4739" Name="AUTOP7">
+            <Param type="13" srctype="8" data="AUTOP8" Index="0" />
+        </Line>
+        <Line Type="1" Event="4653">
+            <Param type="13" srctype="8" data="AUTOP2" Index="0" />
+            <Param type="6" data="snd\action\TNDX\FB_TNDX_BOSS_03.wav" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP3" Index="2" />
+            <Param type="13" srctype="4" data="AUTOP5" Index="3" />
+            <Param type="13" srctype="4" data="AUTOP7" Index="4" />
+            <Param type="2" data="0" Index="5" />
+        </Line>
+    </Base>
+</Processor>

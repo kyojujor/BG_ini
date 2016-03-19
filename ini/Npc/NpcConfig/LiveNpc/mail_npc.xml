@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 被2011 rel. 2 sp1 (TeaM DJiNN) 使用XMLSpy vTeaM DJiNN编辑的 (http://www.altova.com) by -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<Object>
+	<Property ID="ZQ_Mail_0001" Desc="邮箱" Name="ZQ_Mail_0001" Resource="Npc\ZQ_ItemNpc_00001" SelectState="13" ShowHeadUI="1" SpringType="2" SpringRange="5" CampLimit="1" script="FunctionNpc" NpcType="187" CantBeHeal="1" NpcLogo="41"/>
+	<Property ID="ZQ_Mail_01_001" Desc="邮箱" Name="ZQ_Mail_01_001" Resource="Npc\ZQ_ItemNpc_00001" SelectState="13" ShowHeadUI="1" SpringType="2" SpringRange="5" CampLimit="1" script="FunctionNpc" NpcType="187" CantBeHeal="1" NpcLogo="41"/>
+	<Property ID="QH_Mail_01_001" Desc="邮箱" Name="QH_Mail_01_001" Resource="Npc\QH_ItemNpc_00001" SelectState="13" ShowHeadUI="1" SpringType="2" SpringRange="5" CampLimit="2" script="FunctionNpc" NpcType="187" CantBeHeal="1" NpcLogo="41"/>
+	<Property ID="QH_Mail_02_001" Desc="邮箱" Name="QH_Mail_02_001" Resource="Npc\QH_ItemNpc_00001" SelectState="13" ShowHeadUI="1" SpringType="2" SpringRange="5" CampLimit="2" script="FunctionNpc" NpcType="187" CantBeHeal="1" NpcLogo="41"/>
+	<Property ID="CSqh_Mail_01_001" Desc="邮箱" Name="CSqh_Mail_01_001" Resource="Npc\QH_ItemNpc_00001" SelectState="13" ShowHeadUI="1" SpringType="2" SpringRange="5" CampLimit="2" script="FunctionNpc" NpcType="187" CantBeHeal="1" NpcLogo="41"/>
+	<Property ID="CSzq_Mail_01_001" Desc="邮箱" Name="CSzq_Mail_01_001" Resource="Npc\ZQ_ItemNpc_00001" SelectState="13" ShowHeadUI="1" SpringType="2" SpringRange="5" CampLimit="1" script="FunctionNpc" NpcType="187" CantBeHeal="1" NpcLogo="41"/>
+	<Property ID="QH_Mail_03_001" Desc="邮箱" Name="QH_Mail_03_001" Resource="Npc\QH_ItemNpc_00001" SelectState="13" ShowHeadUI="1" SpringType="2" SpringRange="5" CampLimit="2" script="FunctionNpc" NpcType="187" CantBeHeal="1" NpcLogo="41"/>
+	<Property ID="ZQ_Mail_02_001" Desc="邮箱" Name="ZQ_Mail_02_001" Resource="Npc\ZQ_ItemNpc_00001" SelectState="13" ShowHeadUI="1" SpringType="2" SpringRange="5" CampLimit="1" script="FunctionNpc" NpcType="187" CantBeHeal="1" NpcLogo="41"/>
+	<Property ID="ZQ_Mail_03_001" Desc="邮箱" Name="ZQ_Mail_03_001" Resource="Npc\ZQ_ItemNpc_00001" SelectState="13" ShowHeadUI="1" SpringType="2" SpringRange="5" CampLimit="1" script="FunctionNpc" NpcType="187" CantBeHeal="1" NpcLogo="41"/>
+	<Property ID="ZQ_Mail_04_001" Desc="邮箱" Name="ZQ_Mail_04_001" Resource="Npc\ZQ_ItemNpc_00001" SelectState="13" ShowHeadUI="1" SpringType="2" SpringRange="5" CampLimit="1" script="FunctionNpc" NpcType="187" CantBeHeal="1" NpcLogo="41"/>
+	<Property ID="ZQ_Mail_05_001" Desc="邮箱" Name="ZQ_Mail_05_001" Resource="Npc\ZQ_ItemNpc_00001" SelectState="13" ShowHeadUI="1" SpringType="2" SpringRange="5" CampLimit="1" script="FunctionNpc" NpcType="187" CantBeHeal="1" NpcLogo="41"/>
+	<Property ID="QH_Mail_04_001" Desc="邮箱" Name="QH_Mail_04_001" Resource="Npc\QH_ItemNpc_00001" SelectState="13" ShowHeadUI="1" SpringType="2" SpringRange="5" CampLimit="2" script="FunctionNpc" NpcType="187" CantBeHeal="1" NpcLogo="41"/>
+	<Property ID="ZL_Mail_01_001" Desc="邮箱" Name="ZL_Mail_01_001" Resource="Npc\QH_ItemNpc_00001" SelectState="13" ShowHeadUI="1" SpringType="2" SpringRange="5" CampLimit="3" script="FunctionNpc" NpcType="187" CantBeHeal="1" NpcLogo="41"/>
+	<Property ID="BC_Mail_001" Name="BC_Mail_001" Resource="Npc\Trigger_Npc_0003" SpringType="3" SpringRange="6" script="FunctionNpc" NpcType="189" ShowHeadUI="1" CantShowHeadInfo="1" CantBeHeal="1" Invisible="1" NpcLogo="46" SelectState="0"/>
+	<Property ID="ZQ_repair_001" Name="ZQ_repair_001" Resource="Npc\Trigger_Npc_0003" SpringType="3" SpringRange="6" script="FunctionNpc" NpcType="189" ShowHeadUI="1" CantShowHeadInfo="1" CantBeHeal="1" Invisible="1" NpcLogo="46" SelectState="0" Camp="1"/>
+	<Property ID="QH_repair_001" Name="QH_repair_001" Resource="Npc\Trigger_Npc_0003" SpringType="3" SpringRange="6" script="FunctionNpc" NpcType="189" ShowHeadUI="1" CantShowHeadInfo="1" CantBeHeal="1" Invisible="1" NpcLogo="46" SelectState="0" Camp="2"/>
+	<Property ID="ZL_repair_001" Name="ZL_repair_001" Resource="Npc\Trigger_Npc_0003" SpringType="3" SpringRange="6" script="FunctionNpc" NpcType="189" ShowHeadUI="1" CantShowHeadInfo="1" CantBeHeal="1" Invisible="1" NpcLogo="46" SelectState="0"/>
+	<Property ID="Att_repair_001" Name="Att_repair_001" Resource="Npc\Trigger_Npc_0003" SpringType="3" SpringRange="6" script="FunctionNpc" NpcType="189" ShowHeadUI="1" CantShowHeadInfo="1" CantBeHeal="1" Invisible="1" NpcLogo="46" SelectState="0" Force="104"/>
+	<Property ID="De_repair_001" Name="De_repair_001" Resource="Npc\Trigger_Npc_0003" SpringType="3" SpringRange="6" script="FunctionNpc" NpcType="189" ShowHeadUI="1" CantShowHeadInfo="1" CantBeHeal="1" Invisible="1" NpcLogo="46" SelectState="0" Force="105"/>
+</Object>
+
+

@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes" ?>
+<Processor>
+    <Base type="object" version="1.0">
+        <Line Type="2" Event="2001" Name="AUTOP1" />
+        <Line Type="2" Event="4701" Name="AUTOP2">
+            <Param type="2" data="101" Index="0" />
+        </Line>
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP1" Index="0" />
+            <Param type="6" data="slzdxj" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="13" srctype="4" data="AUTOP2" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP6" />
+        <Line Type="2" Event="3002" Name="AUTOP5">
+            <Param type="13" srctype="8" data="AUTOP6" Index="0" />
+            <Param type="6" data="slzdxj" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP4">
+            <Param type="13" srctype="4" data="AUTOP5" Index="0" />
+            <Param type="2" data="4" Index="1" />
+            <Param type="4" data="0" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP9" />
+        <Line Type="2" Event="3002" Name="AUTOP8">
+            <Param type="13" srctype="8" data="AUTOP9" Index="0" />
+            <Param type="6" data="slzdxj" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP7">
+            <Param type="13" srctype="4" data="AUTOP8" Index="0" />
+            <Param type="2" data="6" Index="1" />
+            <Param type="4" data="30" Index="2" />
+        </Line>
+        <Line Type="8" Name="AUTOP3">
+            <Param type="13" bool="true" srctype="1" data="AUTOP4" Index="0" />
+            <Param type="13" bool="true" srctype="1" data="AUTOP7" Index="0" />
+        </Line>
+        <Line Type="3" IncludeLines="96">
+            <Param type="13" bool="true" srctype="1" data="AUTOP3" Index="" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP10" />
+        <Line Type="2" Event="4701" Name="AUTOP11">
+            <Param type="2" data="71" Index="0" />
+        </Line>
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP10" Index="0" />
+            <Param type="6" data="ghqiueffect" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="13" srctype="4" data="AUTOP11" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP15" />
+        <Line Type="2" Event="3002" Name="AUTOP14">
+            <Param type="13" srctype="8" data="AUTOP15" Index="0" />
+            <Param type="6" data="ghqiueffect" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP13">
+            <Param type="13" srctype="4" data="AUTOP14" Index="0" />
+            <Param type="2" data="4" Index="1" />
+            <Param type="4" data="0" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP18" />
+        <Line Type="2" Event="3002" Name="AUTOP17">
+            <Param type="13" srctype="8" data="AUTOP18" Index="0" />
+            <Param type="6" data="ghqiueffect" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP16">
+            <Param type="13" srctype="4" data="AUTOP17" Index="0" />
+            <Param type="2" data="6" Index="1" />
+            <Param type="4" data="10" Index="2" />
+        </Line>
+        <Line Type="8" Name="AUTOP12">
+            <Param type="13" bool="true" srctype="1" data="AUTOP13" Index="0" />
+            <Param type="13" bool="true" srctype="1" data="AUTOP16" Index="0" />
+        </Line>
+        <Line Type="3" IncludeLines="4">
+            <Param type="13" bool="true" srctype="1" data="AUTOP12" Index="" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-3.128,12.605,982.177,-0.070" Index="0" />
+            <Param type="6" data="FB_SLZD_1001" Index="1" />
+            <Param type="6" data="Act" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP20" />
+        <Line Type="2" Event="4732" Name="AUTOP19">
+            <Param type="13" srctype="8" data="AUTOP20" Index="0" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP19" Index="0" />
+            <Param type="6" data="FB_SLZD_1001" Index="1" />
+            <Param type="6" data="Act" Index="2" />
+        </Line>
+        <Line Type="7" IncludeLines="0" />
+        <Line Type="2" Event="2001" Name="AUTOP24" />
+        <Line Type="2" Event="3002" Name="AUTOP23">
+            <Param type="13" srctype="8" data="AUTOP24" Index="0" />
+            <Param type="6" data="ghqiueffect" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP22">
+            <Param type="13" srctype="4" data="AUTOP23" Index="0" />
+            <Param type="2" data="3" Index="1" />
+            <Param type="4" data="10" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP27" />
+        <Line Type="2" Event="3002" Name="AUTOP26">
+            <Param type="13" srctype="8" data="AUTOP27" Index="0" />
+            <Param type="6" data="ghqiueffect" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP25">
+            <Param type="13" srctype="4" data="AUTOP26" Index="0" />
+            <Param type="2" data="6" Index="1" />
+            <Param type="4" data="20" Index="2" />
+        </Line>
+        <Line Type="8" Name="AUTOP21">
+            <Param type="13" bool="true" srctype="1" data="AUTOP22" Index="0" />
+            <Param type="13" bool="true" srctype="1" data="AUTOP25" Index="0" />
+        </Line>
+        <Line Type="3" IncludeLines="4">
+            <Param type="13" bool="true" srctype="1" data="AUTOP21" Index="" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="4.815,12.610,987.266,-1.079" Index="0" />
+            <Param type="6" data="FB_SLZD_1002" Index="1" />
+            <Param type="6" data="Act" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP29" />
+        <Line Type="2" Event="4732" Name="AUTOP28">
+            <Param type="13" srctype="8" data="AUTOP29" Index="0" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP28" Index="0" />
+            <Param type="6" data="FB_SLZD_1001" Index="1" />
+            <Param type="6" data="Act" Index="2" />
+        </Line>
+        <Line Type="7" IncludeLines="0" />
+        <Line Type="2" Event="2001" Name="AUTOP33" />
+        <Line Type="2" Event="3002" Name="AUTOP32">
+            <Param type="13" srctype="8" data="AUTOP33" Index="0" />
+            <Param type="6" data="ghqiueffect" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP31">
+            <Param type="13" srctype="4" data="AUTOP32" Index="0" />
+            <Param type="2" data="3" Index="1" />
+            <Param type="4" data="20" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP36" />
+        <Line Type="2" Event="3002" Name="AUTOP35">
+            <Param type="13" srctype="8" data="AUTOP36" Index="0" />
+            <Param type="6" data="ghqiueffect" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP34">
+            <Param type="13" srctype="4" data="AUTOP35" Index="0" />
+            <Param type="2" data="6" Index="1" />
+            <Param type="4" data="30" Index="2" />
+        </Line>
+        <Line Type="8" Name="AUTOP30">
+            <Param type="13" bool="true" srctype="1" data="AUTOP31" Index="0" />
+            <Param type="13" bool="true" srctype="1" data="AUTOP34" Index="0" />
+        </Line>
+        <Line Type="3" IncludeLines="4">
+            <Param type="13" bool="true" srctype="1" data="AUTOP30" Index="" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="4.668,12.610,996.731,-2.114" Index="0" />
+            <Param type="6" data="FB_SLZD_1003" Index="1" />
+            <Param type="6" data="Act" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP38" />
+        <Line Type="2" Event="4732" Name="AUTOP37">
+            <Param type="13" srctype="8" data="AUTOP38" Index="0" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP37" Index="0" />
+            <Param type="6" data="FB_SLZD_1001" Index="1" />
+            <Param type="6" data="Act" Index="2" />
+        </Line>
+        <Line Type="7" IncludeLines="0" />
+        <Line Type="2" Event="2001" Name="AUTOP42" />
+        <Line Type="2" Event="3002" Name="AUTOP41">
+            <Param type="13" srctype="8" data="AUTOP42" Index="0" />
+            <Param type="6" data="ghqiueffect" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP40">
+            <Param type="13" srctype="4" data="AUTOP41" Index="0" />
+            <Param type="2" data="3" Index="1" />
+            <Param type="4" data="30" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP45" />
+        <Line Type="2" Event="3002" Name="AUTOP44">
+            <Param type="13" srctype="8" data="AUTOP45" Index="0" />
+            <Param type="6" data="ghqiueffect" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP43">
+            <Param type="13" srctype="4" data="AUTOP44" Index="0" />
+            <Param type="2" data="6" Index="1" />
+            <Param type="4" data="40" Index="2" />
+        </Line>
+        <Line Type="8" Name="AUTOP39">
+            <Param type="13" bool="true" srctype="1" data="AUTOP40" Index="0" />
+            <Param type="13" bool="true" srctype="1" data="AUTOP43" Index="0" />
+        </Line>
+        <Line Type="3" IncludeLines="4">
+            <Param type="13" bool="true" srctype="1" data="AUTOP39" Index="" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-3.397,12.630,991.839,1.587" Index="0" />
+            <Param type="6" data="FB_SLZD_1004" Index="1" />
+            <Param type="6" data="Act" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP47" />
+        <Line Type="2" Event="4732" Name="AUTOP46">
+            <Param type="13" srctype="8" data="AUTOP47" Index="0" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP46" Index="0" />
+            <Param type="6" data="FB_SLZD_1001" Index="1" />
+            <Param type="6" data="Act" Index="2" />
+        </Line>
+        <Line Type="7" IncludeLines="0" />
+        <Line Type="2" Event="2001" Name="AUTOP51" />
+        <Line Type="2" Event="3002" Name="AUTOP50">
+            <Param type="13" srctype="8" data="AUTOP51" Index="0" />
+            <Param type="6" data="ghqiueffect" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP49">
+            <Param type="13" srctype="4" data="AUTOP50" Index="0" />
+            <Param type="2" data="3" Index="1" />
+            <Param type="4" data="40" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP54" />
+        <Line Type="2" Event="3002" Name="AUTOP53">
+            <Param type="13" srctype="8" data="AUTOP54" Index="0" />
+            <Param type="6" data="ghqiueffect" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP52">
+            <Param type="13" srctype="4" data="AUTOP53" Index="0" />
+            <Param type="2" data="6" Index="1" />
+            <Param type="4" data="50" Index="2" />
+        </Line>
+        <Line Type="8" Name="AUTOP48">
+            <Param type="13" bool="true" srctype="1" data="AUTOP49" Index="0" />
+            <Param type="13" bool="true" srctype="1" data="AUTOP52" Index="0" />
+        </Line>
+        <Line Type="3" IncludeLines="4">
+            <Param type="13" bool="true" srctype="1" data="AUTOP48" Index="" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-11.623,12.610,996.401,2.081" Index="0" />
+            <Param type="6" data="FB_SLZD_1005" Index="1" />
+            <Param type="6" data="Act" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP56" />
+        <Line Type="2" Event="4732" Name="AUTOP55">
+            <Param type="13" srctype="8" data="AUTOP56" Index="0" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP55" Index="0" />
+            <Param type="6" data="FB_SLZD_1001" Index="1" />
+            <Param type="6" data="Act" Index="2" />
+        </Line>
+        <Line Type="7" IncludeLines="0" />
+        <Line Type="2" Event="2001" Name="AUTOP60" />
+        <Line Type="2" Event="3002" Name="AUTOP59">
+            <Param type="13" srctype="8" data="AUTOP60" Index="0" />
+            <Param type="6" data="ghqiueffect" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP58">
+            <Param type="13" srctype="4" data="AUTOP59" Index="0" />
+            <Param type="2" data="3" Index="1" />
+            <Param type="4" data="50" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP63" />
+        <Line Type="2" Event="3002" Name="AUTOP62">
+            <Param type="13" srctype="8" data="AUTOP63" Index="0" />
+            <Param type="6" data="ghqiueffect" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP61">
+            <Param type="13" srctype="4" data="AUTOP62" Index="0" />
+            <Param type="2" data="6" Index="1" />
+            <Param type="4" data="60" Index="2" />
+        </Line>
+        <Line Type="8" Name="AUTOP57">
+            <Param type="13" bool="true" srctype="1" data="AUTOP58" Index="0" />
+            <Param type="13" bool="true" srctype="1" data="AUTOP61" Index="0" />
+        </Line>
+        <Line Type="3" IncludeLines="4">
+            <Param type="13" bool="true" srctype="1" data="AUTOP57" Index="" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-11.530,12.610,986.971,1.021" Index="0" />
+            <Param type="6" data="FB_SLZD_1006" Index="1" />
+            <Param type="6" data="Act" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP65" />
+        <Line Type="2" Event="4732" Name="AUTOP64">
+            <Param type="13" srctype="8" data="AUTOP65" Index="0" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP64" Index="0" />
+            <Param type="6" data="FB_SLZD_1001" Index="1" />
+            <Param type="6" data="Act" Index="2" />
+        </Line>
+        <Line Type="7" IncludeLines="0" />
+        <Line Type="2" Event="2001" Name="AUTOP69" />
+        <Line Type="2" Event="3002" Name="AUTOP68">
+            <Param type="13" srctype="8" data="AUTOP69" Index="0" />
+            <Param type="6" data="ghqiueffect" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP67">
+            <Param type="13" srctype="4" data="AUTOP68" Index="0" />
+            <Param type="2" data="3" Index="1" />
+            <Param type="4" data="60" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP72" />
+        <Line Type="2" Event="3002" Name="AUTOP71">
+            <Param type="13" srctype="8" data="AUTOP72" Index="0" />
+            <Param type="6" data="ghqiueffect" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP70">
+            <Param type="13" srctype="4" data="AUTOP71" Index="0" />
+            <Param type="2" data="6" Index="1" />
+            <Param type="4" data="71" Index="2" />
+        </Line>
+        <Line Type="8" Name="AUTOP66">
+            <Param type="13" bool="true" srctype="1" data="AUTOP67" Index="0" />
+            <Param type="13" bool="true" srctype="1" data="AUTOP70" Index="0" />
+        </Line>
+        <Line Type="3" IncludeLines="4">
+            <Param type="13" bool="true" srctype="1" data="AUTOP66" Index="" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-3.545,12.610,1001.338,3.124" Index="0" />
+            <Param type="6" data="FB_SLZD_1007" Index="1" />
+            <Param type="6" data="Act" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP74" />
+        <Line Type="2" Event="4732" Name="AUTOP73">
+            <Param type="13" srctype="8" data="AUTOP74" Index="0" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP73" Index="0" />
+            <Param type="6" data="FB_SLZD_1001" Index="1" />
+            <Param type="6" data="Act" Index="2" />
+        </Line>
+        <Line Type="7" IncludeLines="0" />
+        <Line Type="2" Event="2001" Name="AUTOP75" />
+        <Line Type="1" Event="4021">
+            <Param type="13" srctype="8" data="AUTOP75" Index="0" />
+            <Param type="2" data="0" Index="1" />
+            <Param type="6" data="talk_special_SLZD_wanfa_0012_10" Index="2" />
+        </Line>
+        <Line Type="7" IncludeLines="0" />
+        <Line Type="2" Event="2001" Name="AUTOP79" />
+        <Line Type="2" Event="3002" Name="AUTOP78">
+            <Param type="13" srctype="8" data="AUTOP79" Index="0" />
+            <Param type="6" data="slzdxj" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP77">
+            <Param type="13" srctype="4" data="AUTOP78" Index="0" />
+            <Param type="2" data="3" Index="1" />
+            <Param type="4" data="30" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP82" />
+        <Line Type="2" Event="3002" Name="AUTOP81">
+            <Param type="13" srctype="8" data="AUTOP82" Index="0" />
+            <Param type="6" data="slzdxj" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP80">
+            <Param type="13" srctype="4" data="AUTOP81" Index="0" />
+            <Param type="2" data="6" Index="1" />
+            <Param type="4" data="101" Index="2" />
+        </Line>
+        <Line Type="8" Name="AUTOP76">
+            <Param type="13" bool="true" srctype="1" data="AUTOP77" Index="0" />
+            <Param type="13" bool="true" srctype="1" data="AUTOP80" Index="0" />
+        </Line>
+        <Line Type="3" IncludeLines="101">
+            <Param type="13" bool="true" srctype="1" data="AUTOP76" Index="" />
+        </Line>
+        <Line Type="2" Event="2115" Name="AUTOP85" />
+        <Line Type="2" Event="3002" Name="AUTOP84">
+            <Param type="13" srctype="8" data="AUTOP85" Index="0" />
+            <Param type="6" data="A" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP83">
+            <Param type="13" srctype="4" data="AUTOP84" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="1" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="57">
+            <Param type="13" bool="true" srctype="1" data="AUTOP83" Index="0" />
+        </Line>
+        <Line Type="12" CaseNum="7" IncludeLines="56" />
+        <Line Type="13" IncludeLines="4" />
+        <Line Type="2" Event="2002" Name="AUTOP86" />
+        <Line Type="1" Event="5067">
+            <Param type="13" srctype="8" data="AUTOP86" Index="0" />
+            <Param type="6" data="Buff_SLZDXJ_1012_01" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP87" />
+        <Line Type="1" Event="4021">
+            <Param type="13" srctype="8" data="AUTOP87" Index="0" />
+            <Param type="2" data="0" Index="1" />
+            <Param type="6" data="talk_special_SLZD_wanfa_0012_19" Index="2" />
+        </Line>
+        <Line Type="13" IncludeLines="4" />
+        <Line Type="2" Event="2002" Name="AUTOP88" />
+        <Line Type="1" Event="5067">
+            <Param type="13" srctype="8" data="AUTOP88" Index="0" />
+            <Param type="6" data="Buff_SLZDXJ_1013_01" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP89" />
+        <Line Type="1" Event="4021">
+            <Param type="13" srctype="8" data="AUTOP89" Index="0" />
+            <Param type="2" data="0" Index="1" />
+            <Param type="6" data="talk_special_SLZD_wanfa_0012_19" Index="2" />
+        </Line>
+        <Line Type="13" IncludeLines="4" />
+        <Line Type="2" Event="2002" Name="AUTOP90" />
+        <Line Type="1" Event="5067">
+            <Param type="13" srctype="8" data="AUTOP90" Index="0" />
+            <Param type="6" data="Buff_SLZDXJ_1014_01" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP91" />
+        <Line Type="1" Event="4021">
+            <Param type="13" srctype="8" data="AUTOP91" Index="0" />
+            <Param type="2" data="0" Index="1" />
+            <Param type="6" data="talk_special_SLZD_wanfa_0012_19" Index="2" />
+        </Line>
+        <Line Type="13" IncludeLines="5" />
+        <Line Type="2" Event="2001" Name="AUTOP93" />
+        <Line Type="2" Event="2105" Name="AUTOP92">
+            <Param type="13" srctype="8" data="AUTOP93" Index="0" />
+            <Param type="4" data="50" Index="1" />
+            <Param type="2" data="3" Index="2" />
+            <Param type="1" data="true" Index="3" />
+        </Line>
+        <Line Type="1" Event="5067">
+            <Param type="13" srctype="8" data="AUTOP92" Index="0" />
+            <Param type="6" data="Buff_SLZDXJ_1012_02" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP94" />
+        <Line Type="1" Event="4021">
+            <Param type="13" srctype="8" data="AUTOP94" Index="0" />
+            <Param type="2" data="0" Index="1" />
+            <Param type="6" data="talk_special_SLZD_wanfa_0012_21" Index="2" />
+        </Line>
+        <Line Type="13" IncludeLines="5" />
+        <Line Type="2" Event="2001" Name="AUTOP96" />
+        <Line Type="2" Event="2105" Name="AUTOP95">
+            <Param type="13" srctype="8" data="AUTOP96" Index="0" />
+            <Param type="4" data="50" Index="1" />
+            <Param type="2" data="3" Index="2" />
+            <Param type="1" data="true" Index="3" />
+        </Line>
+        <Line Type="1" Event="5067">
+            <Param type="13" srctype="8" data="AUTOP95" Index="0" />
+            <Param type="6" data="Buff_SLZDXJ_1013_02" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP97" />
+        <Line Type="1" Event="4021">
+            <Param type="13" srctype="8" data="AUTOP97" Index="0" />
+            <Param type="2" data="0" Index="1" />
+            <Param type="6" data="talk_special_SLZD_wanfa_0012_21" Index="2" />
+        </Line>
+        <Line Type="13" IncludeLines="5" />
+        <Line Type="2" Event="2001" Name="AUTOP99" />
+        <Line Type="2" Event="2105" Name="AUTOP98">
+            <Param type="13" srctype="8" data="AUTOP99" Index="0" />
+            <Param type="4" data="50" Index="1" />
+            <Param type="2" data="3" Index="2" />
+            <Param type="1" data="true" Index="3" />
+        </Line>
+        <Line Type="1" Event="5067">
+            <Param type="13" srctype="8" data="AUTOP98" Index="0" />
+            <Param type="6" data="Buff_SLZDXJ_1014_02" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP100" />
+        <Line Type="1" Event="4021">
+            <Param type="13" srctype="8" data="AUTOP100" Index="0" />
+            <Param type="2" data="0" Index="1" />
+            <Param type="6" data="talk_special_SLZD_wanfa_0012_21" Index="2" />
+        </Line>
+        <Line Type="13" IncludeLines="22" />
+        <Line Type="1" Event="5018">
+            <Param type="6" data="3.417,12.420,973.699,-0.410" Index="0" />
+            <Param type="6" data="Skill_SLZDXJ_0001" Index="1" />
+            <Param type="6" data="Act" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="8.905,12.420,977.151,-0.722" Index="0" />
+            <Param type="6" data="Skill_SLZDXJ_0001" Index="1" />
+            <Param type="6" data="Act" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="15.738,12.420,988.547,-1.440" Index="0" />
+            <Param type="6" data="Skill_SLZDXJ_0001" Index="1" />
+            <Param type="6" data="Act" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="15.537,12.420,995.383,-1.767" Index="0" />
+            <Param type="6" data="Skill_SLZDXJ_0001" Index="1" />
+            <Param type="6" data="Act" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="9.176,12.420,1007.084,-2.454" Index="0" />
+            <Param type="6" data="Skill_SLZDXJ_0001" Index="1" />
+            <Param type="6" data="Act" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="3.379,12.420,1010.217,-2.788" Index="0" />
+            <Param type="6" data="Skill_SLZDXJ_0001" Index="1" />
+            <Param type="6" data="Act" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-10.357,12.420,1010.076,2.763" Index="0" />
+            <Param type="6" data="Skill_SLZDXJ_0001" Index="1" />
+            <Param type="6" data="Act" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-16.266,12.420,1007.174,2.453" Index="0" />
+            <Param type="6" data="Skill_SLZDXJ_0001" Index="1" />
+            <Param type="6" data="Act" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-22.752,12.420,995.345,1.779" Index="0" />
+            <Param type="6" data="Skill_SLZDXJ_0001" Index="1" />
+            <Param type="6" data="Act" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-22.465,12.420,988.323,1.402" Index="0" />
+            <Param type="6" data="Skill_SLZDXJ_0001" Index="1" />
+            <Param type="6" data="Act" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-16.046,12.420,976.694,0.669" Index="0" />
+            <Param type="6" data="Skill_SLZDXJ_0001" Index="1" />
+            <Param type="6" data="Act" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-10.079,12.420,973.354,0.320" Index="0" />
+            <Param type="6" data="Skill_SLZDXJ_0001" Index="1" />
+            <Param type="6" data="Act" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="7.008,12.438,986.122,-1.083" Index="0" />
+            <Param type="6" data="Skill_SLZDXJ_0001" Index="1" />
+            <Param type="6" data="Act" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="6.646,12.438,997.847,-2.115" Index="0" />
+            <Param type="6" data="Skill_SLZDXJ_0001" Index="1" />
+            <Param type="6" data="Act" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-3.539,12.438,1003.674,3.120" Index="0" />
+            <Param type="6" data="Skill_SLZDXJ_0001" Index="1" />
+            <Param type="6" data="Act" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-13.667,12.438,997.876,2.096" Index="0" />
+            <Param type="6" data="Skill_SLZDXJ_0001" Index="1" />
+            <Param type="6" data="Act" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-13.687,12.438,985.873,1.020" Index="0" />
+            <Param type="6" data="Skill_SLZDXJ_0001" Index="1" />
+            <Param type="6" data="Act" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-3.392,12.438,979.506,-0.016" Index="0" />
+            <Param type="6" data="Skill_SLZDXJ_0001" Index="1" />
+            <Param type="6" data="Act" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP101" />
+        <Line Type="1" Event="4021">
+            <Param type="13" srctype="8" data="AUTOP101" Index="0" />
+            <Param type="2" data="0" Index="1" />
+            <Param type="6" data="talk_special_SLZD_wanfa_0012_20" Index="2" />
+        </Line>
+        <Line Type="2" Event="2115" Name="AUTOP102" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP102" Index="0" />
+            <Param type="6" data="A" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="2" Index="3" />
+        </Line>
+        <Line Type="7" IncludeLines="39" />
+        <Line Type="2" Event="2115" Name="AUTOP105" />
+        <Line Type="2" Event="3002" Name="AUTOP104">
+            <Param type="13" srctype="8" data="AUTOP105" Index="0" />
+            <Param type="6" data="A" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP103">
+            <Param type="13" srctype="4" data="AUTOP104" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="2" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="34">
+            <Param type="13" bool="true" srctype="1" data="AUTOP103" Index="0" />
+        </Line>
+        <Line Type="12" CaseNum="6" IncludeLines="33" />
+        <Line Type="13" IncludeLines="4" />
+        <Line Type="2" Event="2002" Name="AUTOP106" />
+        <Line Type="1" Event="5067">
+            <Param type="13" srctype="8" data="AUTOP106" Index="0" />
+            <Param type="6" data="Buff_SLZDXJ_1012_01" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP107" />
+        <Line Type="1" Event="4021">
+            <Param type="13" srctype="8" data="AUTOP107" Index="0" />
+            <Param type="2" data="0" Index="1" />
+            <Param type="6" data="talk_special_SLZD_wanfa_0012_19" Index="2" />
+        </Line>
+        <Line Type="13" IncludeLines="4" />
+        <Line Type="2" Event="2002" Name="AUTOP108" />
+        <Line Type="1" Event="5067">
+            <Param type="13" srctype="8" data="AUTOP108" Index="0" />
+            <Param type="6" data="Buff_SLZDXJ_1013_01" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP109" />
+        <Line Type="1" Event="4021">
+            <Param type="13" srctype="8" data="AUTOP109" Index="0" />
+            <Param type="2" data="0" Index="1" />
+            <Param type="6" data="talk_special_SLZD_wanfa_0012_19" Index="2" />
+        </Line>
+        <Line Type="13" IncludeLines="4" />
+        <Line Type="2" Event="2002" Name="AUTOP110" />
+        <Line Type="1" Event="5067">
+            <Param type="13" srctype="8" data="AUTOP110" Index="0" />
+            <Param type="6" data="Buff_SLZDXJ_1014_01" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP111" />
+        <Line Type="1" Event="4021">
+            <Param type="13" srctype="8" data="AUTOP111" Index="0" />
+            <Param type="2" data="0" Index="1" />
+            <Param type="6" data="talk_special_SLZD_wanfa_0012_19" Index="2" />
+        </Line>
+        <Line Type="13" IncludeLines="5" />
+        <Line Type="2" Event="2001" Name="AUTOP113" />
+        <Line Type="2" Event="2105" Name="AUTOP112">
+            <Param type="13" srctype="8" data="AUTOP113" Index="0" />
+            <Param type="4" data="50" Index="1" />
+            <Param type="2" data="3" Index="2" />
+            <Param type="1" data="true" Index="3" />
+        </Line>
+        <Line Type="1" Event="5067">
+            <Param type="13" srctype="8" data="AUTOP112" Index="0" />
+            <Param type="6" data="Buff_SLZDXJ_1012_02" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP114" />
+        <Line Type="1" Event="4021">
+            <Param type="13" srctype="8" data="AUTOP114" Index="0" />
+            <Param type="2" data="0" Index="1" />
+            <Param type="6" data="talk_special_SLZD_wanfa_0012_21" Index="2" />
+        </Line>
+        <Line Type="13" IncludeLines="5" />
+        <Line Type="2" Event="2001" Name="AUTOP116" />
+        <Line Type="2" Event="2105" Name="AUTOP115">
+            <Param type="13" srctype="8" data="AUTOP116" Index="0" />
+            <Param type="4" data="50" Index="1" />
+            <Param type="2" data="3" Index="2" />
+            <Param type="1" data="true" Index="3" />
+        </Line>
+        <Line Type="1" Event="5067">
+            <Param type="13" srctype="8" data="AUTOP115" Index="0" />
+            <Param type="6" data="Buff_SLZDXJ_1013_02" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP117" />
+        <Line Type="1" Event="4021">
+            <Param type="13" srctype="8" data="AUTOP117" Index="0" />
+            <Param type="2" data="0" Index="1" />
+            <Param type="6" data="talk_special_SLZD_wanfa_0012_21" Index="2" />
+        </Line>
+        <Line Type="13" IncludeLines="5" />
+        <Line Type="2" Event="2001" Name="AUTOP119" />
+        <Line Type="2" Event="2105" Name="AUTOP118">
+            <Param type="13" srctype="8" data="AUTOP119" Index="0" />
+            <Param type="4" data="50" Index="1" />
+            <Param type="2" data="3" Index="2" />
+            <Param type="1" data="true" Index="3" />
+        </Line>
+        <Line Type="1" Event="5067">
+            <Param type="13" srctype="8" data="AUTOP118" Index="0" />
+            <Param type="6" data="Buff_SLZDXJ_1014_02" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP120" />
+        <Line Type="1" Event="4021">
+            <Param type="13" srctype="8" data="AUTOP120" Index="0" />
+            <Param type="2" data="0" Index="1" />
+            <Param type="6" data="talk_special_SLZD_wanfa_0012_21" Index="2" />
+        </Line>
+        <Line Type="7" IncludeLines="0" />
+        <Line Type="7" IncludeLines="0" />
+        <Line Type="2" Event="2001" Name="AUTOP124" />
+        <Line Type="2" Event="3002" Name="AUTOP123">
+            <Param type="13" srctype="8" data="AUTOP124" Index="0" />
+            <Param type="6" data="slzdxj" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP122">
+            <Param type="13" srctype="4" data="AUTOP123" Index="0" />
+            <Param type="2" data="3" Index="1" />
+            <Param type="4" data="100" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP127" />
+        <Line Type="2" Event="3002" Name="AUTOP126">
+            <Param type="13" srctype="8" data="AUTOP127" Index="0" />
+            <Param type="6" data="slzdxj" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP125">
+            <Param type="13" srctype="4" data="AUTOP126" Index="0" />
+            <Param type="2" data="6" Index="1" />
+            <Param type="4" data="110" Index="2" />
+        </Line>
+        <Line Type="8" Name="AUTOP121">
+            <Param type="13" bool="true" srctype="1" data="AUTOP122" Index="0" />
+            <Param type="13" bool="true" srctype="1" data="AUTOP125" Index="0" />
+        </Line>
+        <Line Type="3" IncludeLines="4">
+            <Param type="13" bool="true" srctype="1" data="AUTOP121" Index="" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-3.472,12.611,987.086,-0.029" Index="0" />
+            <Param type="6" data="PVP_SLZD_001" Index="1" />
+            <Param type="6" data="Act" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-3.447,12.609,996.701,3.081" Index="0" />
+            <Param type="6" data="PVP_SLZD_002" Index="1" />
+            <Param type="6" data="Act" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP128" />
+        <Line Type="1" Event="4021">
+            <Param type="13" srctype="8" data="AUTOP128" Index="0" />
+            <Param type="2" data="0" Index="1" />
+            <Param type="6" data="talk_special_SLZD_wanfa_0012_22" Index="2" />
+        </Line>
+        <Line Type="7" IncludeLines="0" />
+        <Line Type="2" Event="2114" Name="AUTOP129">
+            <Param type="6" data="FB_SLZD_3001" Index="0" />
+        </Line>
+        <Line Type="1" Event="4509">
+            <Param type="13" srctype="8" data="AUTOP129" Index="0" />
+        </Line>
+    </Base>
+</Processor>

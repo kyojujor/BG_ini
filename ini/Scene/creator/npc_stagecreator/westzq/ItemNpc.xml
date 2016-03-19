@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<Stage>
+	<Object Guid="B0E3EFC9F4314C708F4D5FDB6D94B76C" Desc="" config="SkillNpc_0005" Layer="" MaxRefreshCount="" x="-1738.50354" y="188.473129" z="1152.798828" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="0" PatrolMode="" RoadSignID="">
+		<Task Issue="" Refer=""/>
+		<Event EventId="23" Processor="11111117533462"/>
+		<OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode=""/>
+	</Object>
+	<Object Guid="EE8B7ED5536143ACB84AD4BEC6198073" Desc="移动城堡测试" config="castle_0001" Layer="" MaxRefreshCount="" x="7.090000" y="2.617000" z="1480.225952" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="JXB" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="3.14159" PatrolMode="1" RoadSignID="">
+		<Task Issue="" Refer=""/>
+		<OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode=""/>
+	</Object>
+</Stage>

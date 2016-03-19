@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='gb2312' ?>
+<!--符文之力表-->
+<Object>
+	<!--ID:编号, skill：对应的技能，type 符文之力技能类型，requirement：要激活此技能符文之力的需求量-->
+  <Property ID = "1" skill = "Fight_He0005_01" type = "1" requirement = "1" />
+  <Property ID = "2" skill = "Fight_He0006_01" type = "1" requirement = "2" />
+  <Property ID = "3" skill = "Fight_Tr0004_01" type = "1" requirement = "3" />
+  <Property ID = "4" skill = "Fight_Tr0006_01" type = "1" requirement = "4" />
+  <Property ID = "5" skill = "Fight_Ch0001_01" type = "1" requirement = "1" />
+  <Property ID = "6" skill = "Fight_Ch0002_01" type = "1" requirement = "1" />
+  <Property ID = "7" skill = "Fight_Cb0001_01" type = "1" requirement = "1" />
+  <Property ID = "8" skill = "Fight_Cb0002_01" type = "1" requirement = "5" />
+  <Property ID = "9" skill = "Fight_Cb0003_01" type = "1" requirement = "3" />
+  <Property ID = "10" skill = "Fight_Cb0004_01" type = "1" requirement = "4" />
+  <Property ID = "11" skill = "Fight_Cb0005_01" type = "2" requirement = "5" />
+  <Property ID = "12" skill = "Fight_Cb0006_01" type = "2" requirement = "6" />
+  <Property ID = "13" skill = "Fight_Cb0007_01" type = "2" requirement = "7" />
+  <Property ID = "14" skill = "Fight_Wt0001_01" type = "2" requirement = "8" />
+  <Property ID = "15" skill = "Fight_Wt0002_01" type = "2" requirement = "9" />
+  <Property ID = "16" skill = "Fight_Wt0003_01" type = "2" requirement = "10" />
+  <Property ID = "17" skill = "Fight_Wt0004_01" type = "2" requirement = "11" />
+  <Property ID = "18" skill = "Fight_Wt0005_01" type = "2" requirement = "12" />
+  <Property ID = "19" skill = "Fight_Fm0001_01" type = "2" requirement = "13" />
+  <Property ID = "20" skill = "Fight_Fm0002_01" type = "2" requirement = "14" />
+  <Property ID = "21" skill = "Fight_Fm0003_01" type = "3" requirement = "15" />
+</Object>
+

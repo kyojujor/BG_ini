@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="GB2312"?>
+<Object>
+	<Property ID="ZQ_Mail_0001" Name="ZQ_Mail_0001" Resource="Npc\ZQ_ItemNpc_00001" SelectState="13" SpringType="2" SpringRange="5" CampLimit="1" script="FunctionNpc" NpcType="187"/>
+	<Property ID="ZQ_Mail_01_001" Name="ZQ_Mail_01_001" Resource="Npc\ZQ_ItemNpc_00001" SelectState="13" SpringType="2" SpringRange="5" CampLimit="1" script="FunctionNpc" NpcType="187"/>
+	<Property ID="QH_Mail_01_001" Name="QH_Mail_01_001" Resource="Npc\QH_ItemNpc_00001" SelectState="13" SpringType="2" SpringRange="5" CampLimit="2" script="FunctionNpc" NpcType="187"/>
+	<Property ID="QH_Mail_02_001" Name="QH_Mail_02_001" Resource="Npc\QH_ItemNpc_00001" SelectState="13" SpringType="2" SpringRange="5" CampLimit="2" script="FunctionNpc" NpcType="187"/>
+	<Property ID="CSqh_Mail_01_001" Name="CSqh_Mail_01_001" Resource="Npc\QH_ItemNpc_00001" SelectState="13" SpringType="2" SpringRange="5" CampLimit="2" script="FunctionNpc" NpcType="187"/>
+	<Property ID="CSzq_Mail_01_001" Name="CSzq_Mail_01_001" Resource="Npc\ZQ_ItemNpc_00001" SelectState="13" SpringType="2" SpringRange="5" CampLimit="1" script="FunctionNpc" NpcType="187"/>
+	<Property ID="QH_Mail_03_001" Name="QH_Mail_03_001" Resource="Npc\QH_ItemNpc_00001" SelectState="13" SpringType="2" SpringRange="5" CampLimit="2" script="FunctionNpc" NpcType="187"/>
+	<Property ID="ZQ_Mail_02_001" Name="ZQ_Mail_02_001" Resource="Npc\ZQ_ItemNpc_00001" SelectState="13" SpringType="2" SpringRange="5" CampLimit="1" script="FunctionNpc" NpcType="187"/>
+	<Property ID="ZQ_Mail_03_001" Name="ZQ_Mail_03_001" Resource="Npc\ZQ_ItemNpc_00001" SelectState="13" SpringType="2" SpringRange="5" CampLimit="1" script="FunctionNpc" NpcType="187"/>
+	<Property ID="ZQ_Mail_04_001" Name="ZQ_Mail_04_001" Resource="Npc\ZQ_ItemNpc_00001" SelectState="13" SpringType="2" SpringRange="5" CampLimit="1" script="FunctionNpc" NpcType="187"/>
+	<Property ID="ZQ_Mail_05_001" Name="ZQ_Mail_05_001" Resource="Npc\ZQ_ItemNpc_00001" SelectState="13" SpringType="2" SpringRange="5" CampLimit="1" script="FunctionNpc" NpcType="187"/>
+	<Property ID="QH_Mail_04_001" Name="QH_Mail_04_001" Resource="Npc\QH_ItemNpc_00001" SelectState="13" SpringType="2" SpringRange="5" CampLimit="2" script="FunctionNpc" NpcType="187"/>
+	<Property ID="ZL_Mail_01_001" Name="ZL_Mail_01_001" Resource="Npc\QH_ItemNpc_00001" SelectState="13" SpringType="2" SpringRange="5" CampLimit="3" script="FunctionNpc" NpcType="187"/>
+	<Property ID="BC_Mail_001" Name="BC_Mail_001" Resource="Npc\Trigger_Npc_0003" SpringType="3" SpringRange="6" script="FunctionNpc" NpcType="189" CantShowHeadInfo="1" Invisible="1" SelectState="0"/>
+	<Property ID="ZQ_repair_001" Name="ZQ_repair_001" Resource="Npc\Trigger_Npc_0003" SpringType="3" SpringRange="6" script="FunctionNpc" NpcType="189" CantShowHeadInfo="1" Invisible="1" SelectState="0" Camp="1"/>
+	<Property ID="QH_repair_001" Name="QH_repair_001" Resource="Npc\Trigger_Npc_0003" SpringType="3" SpringRange="6" script="FunctionNpc" NpcType="189" CantShowHeadInfo="1" Invisible="1" SelectState="0" Camp="2"/>
+	<Property ID="ZL_repair_001" Name="ZL_repair_001" Resource="Npc\Trigger_Npc_0003" SpringType="3" SpringRange="6" script="FunctionNpc" NpcType="189" CantShowHeadInfo="1" Invisible="1" SelectState="0"/>
+	<Property ID="Att_repair_001" Name="Att_repair_001" Resource="Npc\Trigger_Npc_0003" SpringType="3" SpringRange="6" script="FunctionNpc" NpcType="189" CantShowHeadInfo="1" Invisible="1" SelectState="0" Force="104"/>
+	<Property ID="De_repair_001" Name="De_repair_001" Resource="Npc\Trigger_Npc_0003" SpringType="3" SpringRange="6" script="FunctionNpc" NpcType="189" CantShowHeadInfo="1" Invisible="1" SelectState="0" Force="105"/>
+</Object>
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 神秘商店随机规则 -->
+<!-- QualityProb               品质概率列表 白,绿,蓝,紫  总值必须为10000               string -->
+
+<Object>
+<Property ID = "0001" QualityProb = "0,0,0,10000"        />
+<Property ID = "0010" QualityProb = "0,0,10000,0"        />
+<Property ID = "0011" QualityProb = "0,0,9900,100"       />
+<Property ID = "0100" QualityProb = "0,10000,0,0"        />
+<Property ID = "0101" QualityProb = "0,9900,0,100"       />
+<Property ID = "0110" QualityProb = "0,6700,3300,0"      />
+<Property ID = "0111" QualityProb = "0,6600,3300,100"    />
+<Property ID = "1000" QualityProb = "10000,0,0,0"        />
+<Property ID = "1001" QualityProb = "9900,0,0,100"       />
+<Property ID = "1010" QualityProb = "8000,0,2000,0"      />
+<Property ID = "1011" QualityProb = "7900,0,2000,100"    />
+<Property ID = "1100" QualityProb = "6700,3300,0,0"      />
+<Property ID = "1101" QualityProb = "6600,3300,0,100"    />
+<Property ID = "1110" QualityProb = "5700,2900,1400,0"   />
+<Property ID = "1111" QualityProb = "5700,2800,1400,100" />
+</Object>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+	<Property ID="33020" Name="冲锋-眩晕" Photo="icon\buff\skillicon_0487.png" effect="Skill_Buff0001_New" ModelGhost="1"/>
+	<Property ID="20922" Name="蓝药" Photo="icon\buff\skillicon_0465.png"/>
+	<Property ID="60802" Name="增加电系抵抗75" Photo="icon\BG_Skill\skillicon_1300.png" effect="BGskill_40107_new" ModelGhost="1"/>
+	<Property ID="60804" Name="增加火焰抵抗150" Photo="icon\BG_Skill\skillicon_1305.png" effect="BGskill_40107_new" ModelGhost="1"/>
+	<Property ID="99605" Name="直刺穿击" Photo="icon\buff\liuxue.png" TimeEffect="FB_TNDX_SKILL_010"/>
+	<Property ID="99607" Name="三连击" Photo="icon\buff\liuxue.png"/>
+	<Property ID="99614" Name="狂热" Photo="icon\BG_Skill\skillicon_0080.png"/>
+	<Property ID="99619" Name="吸血攻击" Photo="icon\BG_Skill\skillicon_0091.png"/>
+	<Property ID="99630" Name="狂暴" Photo="icon\BG_Skill\skillicon_0077.png" effect="FB_TNDX_SKILL_08"/>
+	<Property ID="99633" Name="致残" Photo="icon\buff\skillicon_1123.png" effect="FB_TNDX_SKILL_03"/>
+	<Property ID="99624" Name="击倒" Photo="icon\BG_Skill\skillicon_0003.png"/>
+	<Property ID="99639" Name="坚硬皮肤" Photo="icon\BG_Skill\skillicon_0018.png" effect="FB_TNDX_SKILL_05"/>
+	<Property ID="99641" Name="巫毒" Photo="icon\BG_Skill\skillicon_0187.png" TimeEffect="FB_TNDX_SKILL_01"/>
+	<Property ID="80602" EventType="1" TargetType="2" FuncNo="5" effect="BGskill_20039_new" Photo="icon\BG_Skill\skillicon_0036.png"/>
+	<Property ID="82391" Name="移动" Photo="icon\buff\chanhui.png" effect="BGskill_50743"/>
+	<Property ID="85004" Name="加防25%" Photo="icon\BG_Skill\heijin_feng.PNG" effect="FB_LLQD_buff_04"/>
+	<Property ID="85003" Name="法术强度提升25%" Photo="icon\BG_Skill\heijin_jineng_dianshe.png" effect="FB_LLQD_buff_03"/>
+	<Property ID="85002" Name="加最大生命10%" Photo="icon\BG_Skill\heijin_jineng_fengkuangsaoshe.png" effect="FB_LLQD_buff_02"/>
+	<Property ID="85001" Name="加攻击25%" Photo="icon\BG_Skill\heijin_jineng_xuligongji.png" effect="FB_LLQD_buff_01"/>
+	<Property ID="85005" Name="邪恶方攻击加10%" Photo="icon\BG_Armored\Batclass_4.png" action="skill3605_1h" effect="FB_LLQD_buff_06"/>
+	<Property ID="85006" Photo="icon\BG_Armored\Batclass_5.png" action="skill3605_1h" Name="邪恶方攻击加20%" effect="FB_LLQD_buff_06"/>
+	<Property ID="85007" Name="邪恶方攻击加30%" Photo="icon\BG_Armored\Batclass_6.png" action="skill3605_1h" effect="FB_LLQD_buff_06"/>
+	<Property ID="85008" Name="邪恶生命上限10%" Photo="icon\BG_Armored\Batclass_13.png" action="skill3605_1h" effect="FB_LLQD_buff_06"/>
+	<Property ID="85009" Name="邪恶生命上限20%" Photo="icon\BG_Armored\Chest Arm_1.png" action="skill3605_1h" effect="FB_LLQD_buff_06"/>
+	<Property ID="85010" Name="邪恶生命上限30%" Photo="icon\BG_Armored\Chest Arm_2.png" action="skill3605_1h" effect="FB_LLQD_buff_06"/>
+	<Property ID="99601" Name="祝福" Photo="icon\BG_Skill\skillicon_0007.png"/>
+	<Property ID="996310" Name="恶魔刺击" Photo="icon\BG_Skill\jineng_yexingsilie_tiaoci.png" effect="FB_TNDX_SKILL_06"/>
+	<Property ID="85013" Name="吐大粘液球" Photo="icon\BG_Armored\Chest Arm_4.png"/>
+	<Property ID="82395" Name="自身晕眩" Photo="icon\buff\skillicon_0455.png" action="stun" effect="Skill_Buff0001_New"/>
+	<Property ID="85017" Name="灌铅子弹" Photo="icon\BG_Armored\Chest Arm_4.png"/>
+	<Property ID="85021" Name="狂暴" Photo="icon\buff\mumang.png"/>
+	<Property ID="82394" Name="抗摔" Photo="icon\buff\skillicon_0453.png" effect="BGskill_50749"/>
+	<Property ID="82392" Name="晕眩" Photo="icon\buff\skillicon_0455.png" effect="Skill_Buff0001_New"/>
+	<Property ID="85082" Name="洞穴蜘蛛 减速" Photo="icon\buff\liuxue.png"/>
+	<Property ID="85084" Name="精英末日教士" Photo="icon\BG_Use\Batclass_28.png"/>
+	<Property ID="85040" Name="迅捷之风" Photo="icon\BG_Skill\heijin_feng.PNG"/>
+	<Property ID="812410" Name="毒雾减速" Photo="icon\BG_Skill\skillicon_0137.png"/>
+	<Property ID="812411" Name="毒雾地带" effect="FB_TNJT_MS_01_01_03"/>
+	<Property ID="90001" Name="旱地震击击倒" Photo="icon\buff\skillicon_1127.png"/>
+	<Property ID="90002" Name="咆哮眩晕" Photo="icon\buff\touyun.png" effect="Skill_Buff0001_New"/>
+	<Property ID="90003" Name="咆哮持续伤害" Photo="icon\buff\liuxue.png" effect="BGskill_82048"/>
+	<Property ID="90005" Name="减速" Photo="icon\buff\skillicon_0487.png"/>
+	<Property ID="90006" Name="流血" Photo="icon\buff\skillicon_1424.png"/>
+	<Property ID="90007" Name="战争践踏麻痹" Photo="icon\buff\skillicon_0469.png"/>
+	<Property ID="90008" Name="战争践踏触电" Photo="icon\buff\skillicon_0505.png"/>
+	<Property ID="90009" Name="旱地震击(雷电版)" Photo="icon\buff\skillicon_0470.png"/>
+	<Property ID="812413" Name="隐身" Photo="icon\BG_Skill\skillicon_0148.png"/>
+	<Property ID="85000" Name="变形" Photo="icon\BG_Skill\heijin_jineng_qishirongyan.png"/>
+	<Property ID="82363" Name="减速" Photo="icon\buff\jiaoshang.png"/>
+	<Property ID="85090" Name="死亡领域" Photo="icon\BG_Skill\skillicon_0120.png"/>
+	<Property ID="850890" Name="末日牵引隐藏" Photo="icon\BG_Skill\skillicon_0153.png"/>
+	<Property ID="850891" Name="末日牵引减速" Photo="icon\BG_Skill\skillicon_0234.png"/>
+	<Property ID="90010" Name="萨德瓦伊充能" Photo="icon\BG_Skill\skillicon_0009.png" Type="萨德瓦伊正在充能……受到伤害增加100%"/>
+	<Property ID="90011" Name="状态1" Photo="icon\buff\chanhui.png"/>
+	<Property ID="90012" Name="状态2" Photo="icon\buff\erlong.png"/>
+	<Property ID="90013" Name="状态3" Photo="icon\buff\jianshang.png"/>
+	<Property ID="90014" Name="状态4" Photo="icon\buff\jiaoshang.png"/>
+	<Property ID="90015" Name="状态5" Photo="icon\buff\liuxue.png"/>
+	<Property ID="90016" Name="冲锋2" Photo="icon\buff\skillicon_0455.png"/>
+	<Property ID="90017" Name="冲锋3" Photo="icon\buff\skillicon_0458.png"/>
+	<Property ID="90018" Name="拖拽减速" Photo="icon\BG_Skill\skillicon_0257.png"/>
+	<Property ID="82349" Name="冰冻" Photo="icon\buff\skillicon_0510.png"/>
+	<Property ID="82348" Name="灼烧" Photo="icon\buff\skillicon_0508.png" effect="BG_effect_buff_97518"/>
+	<Property ID="82362" Name="黑洞" Photo="icon\buff\skillicon_1126.png"/>
+	<Property ID="82355" Name="神罚" Photo="icon\buff\skillicon_0508.png" effect="BG_effect_buff_97518"/>
+	<Property ID="82350" Name="火焰之怒" Photo="icon\buff\skillicon_0523.png"/>
+	<Property ID="82021" Name="急速" Photo="icon\buff\skillicon_0535.png" effect="BG_effect_buff_97519"/>
+	<Property ID="82022" Name="强攻" Photo="icon\buff\skillicon_0457.png" effect="BG_effect_buff_97520"/>
+	<Property ID="82023" Name="防御" Photo="icon\buff\skillicon_0509.png" effect="BG_effect_buff_97521"/>
+	<Property ID="82024" Name="霸体" Photo="icon\buff\skillicon_0528.png" effect="BG_effect_buff_97521"/>
+	<Property ID="82032" Name="急速" Photo="icon\buff\skillicon_0535.png" effect="BG_effect_buff_97519"/>
+	<Property ID="82025" Name="狙杀！" Photo="icon\buff\skillicon_0496.png" effect="BG_effect_prepare_82531"/>
+	<Property ID="85151" Name="沉默" Photo="icon\BG_Skill\skillicon_1247.png" effect="Buff_fb_chnj_boss_01_02"/>
+	<Property ID="85152" Name="眩晕" Photo="icon\BG_Skill\skillicon_0374.png" action="stun" effect="Buff_fb_chnj_boss_01_03"/>
+	<Property ID="85153" Name="冰冻" Photo="icon\BG_Skill\heijin_shui.PNG" effect="skill_fb_chnj_boss_01_04"/>
+	<Property ID="85091" Name="主教的威严" Photo="icon\BG_Skill\skillicon_0251.png"/>
+	<Property ID="85157" Name="击倒" Photo="icon\BG_Skill\skillicon_0001.png"/>
+	<Property ID="99644" Name="暴怒" Photo="icon\BG_Skill\heijing_jijie.PNG"/>
+	<Property ID="851520" Name="重踏充能" Photo="icon\BG_Skill\skillicon_0019.png"/>
+	<Property ID="851500" Name="冰霜充能" Photo="icon\BG_Skill\skillicon_0028.png" effect="buff_fb_chnj_boss_01_01_01"/>
+	<Property ID="851501" Name="火焰充能" Photo="icon\BG_Skill\heijin_huo.PNG" effect="buff_fb_chnj_boss_01_01_02"/>
+	<Property ID="851502" Name="暗影充能" Photo="icon\BG_Skill\skillicon_05.png" effect="buff_fb_chnj_boss_01_01_03"/>
+	<Property ID="851530" Name="冰霜减速" Photo="icon\BG_Skill\skillicon_0035.png"/>
+	<Property ID="85154" Name="火热灼烧" Photo="icon\BG_Skill\heijin_huo.PNG"/>
+	<Property ID="82026" Name="无敌" Photo="icon\BG_Skill\PVP_airennv.png"/>
+	<Property ID="82331" Name="认证" Photo="icon\BG_Skill\PVP_qiequ01.png"/>
+	<Property ID="82357" Name="冰焰" Photo="icon\buff\skillicon_0529.png" color="255,128,245,255" effect="BG_effect_buff_97525"/>
+	<Property ID="851570" Name="流血" Photo="icon\BG_Skill\skillicon_0076.png" TimeEffect="FB_TNDX_SKILL_010"/>
+	<Property ID="851580" Name="伤口撕裂" Photo="icon\BG_Skill\skillicon_0010.png" TimeEffect="FB_TNDX_SKILL_010"/>
+	<Property ID="851590" Name="电流涌动" Photo="icon\BG_Skill\PVP_kxhongzhaqh.png" effect="skill_fb_chnj_bossbuff_02_04_06"/>
+	<Property ID="851560" Name="破败的王者" Photo="icon\BG_Skill\heijin_jineng_qishirongyan.png"/>
+	<Property ID="85155" Name="暗影虚弱" Photo="icon\BG_Skill\PVP_kashinv.png" effect="skill_fb_chnj_boss_01_06_03"/>
+	<Property ID="82119" Name="无敌" Photo="icon\buff\skillicon_1463.png" effect="BG_effect_buff_97540"/>
+	<Property ID="82123" Name="冰封" Photo="icon\buff\skillicon_1128.png" effect="BG_effect_buff_97525" color="255,128,245,255"/>
+	<Property ID="82124" Name="麻痹" Photo="icon\buff\skillicon_0530.png" effect="BG_effect_buff_97533"/>
+	<Property ID="82126" Name="燃烧" Photo="icon\buff\skillicon_0508.png" effect="BG_effect_buff_97518"/>
+	<Property ID="82125" Name="虚弱" Photo="icon\buff\skillicon_0533.png" effect="BG_effect_buff_97534"/>
+	<Property ID="82399" Name="剑气领域" Photo="icon\buff\skillicon_0457.png" TimeEffect="BG_effect_hit_72525"/>
+	<Property ID="82340" Name="剑气领域" Photo="icon\buff\skillicon_0457.png" effect="BG_effect_buff_97546"/>
+	<Property ID="91250" Name="黄色" Photo="icon\buff\skillicon_0454.png" color="249,99,99,99"/>
+	<Property ID="91251" Name="蓝色" Photo="icon\buff\skillicon_0467.png" color="255,64,35,255"/>
+	<Property ID="91252" Name="坚固" Photo="icon\buff\skillicon_0454.png"/>
+	<Property ID="91253" Name="坚韧" Photo="icon\buff\skillicon_0456.png"/>
+	<Property ID="91254" Name="免伤" Photo="icon\buff\skillicon_0452.png"/>
+	<Property ID="91255" Name="透明" Photo="icon\buff\liuxue.png" color="20,231,231,231"/>
+	<Property ID="91256" Name="毒素" Photo="icon\buff\skillicon_0467.png"/>
+	<Property ID="91257" Name="毒素攻击" Photo="icon\BG_Skill\heijin_jineng_qishirongyan.png"/>
+	<Property ID="91258" Name="暗影毒林" Photo="icon\BG_Skill\jineng_shandianjian.png" effect="BG_effect_action_79939"/>
+	<Property ID="91259" Name="中毒" Photo="icon\buff\skillicon_0483.png"/>
+	<Property ID="91260" Name="绝地光环" Photo="icon\buff\skillicon_0480.png" effect="BG_effect_action_79940"/>
+	<Property ID="91261" Name="免疫" Photo="icon\buff\skillicon_0481.png"/>
+	<Property ID="91262" Name="无敌" Photo="icon\buff\skillicon_0526.png"/>
+	<Property ID="91263" Name="特效" Photo="icon\buff\skillicon_1424.png" effect="BG_effect_action_79933"/>
+	<Property ID="91264" Name="攻击" Photo="icon\buff\liuxue.png" effect="BG_effect_action_79927"/>
+	<Property ID="91265" Name="法强" Photo="icon\buff\skillicon_0480.png" effect="BG_effect_action_79928"/>
+	<Property ID="91266" Name="坚硬" Photo="icon\buff\skillicon_0493.png" effect="BG_effect_action_79926"/>
+	<Property ID="91267" Name="无敌" Photo="icon\buff\skillicon_0520.png" effect="BG_effect_action_79924"/>
+	<Property ID="82398" Name="污浊空气" Photo="icon\BG_Skill\skillicon_0030.png"/>
+	<Property ID="82184" Name="夺命" Photo="icon\buff\mumang.png" effect="BG_effect_action_79924" action="downloop"/>
+	<Property ID="82027" Name="机械易伤" Photo="icon\buff\skillicon_0533.png" effect="BG_effect_buff_97551"/>
+	<Property ID="80700" Name="鬼魂特效" effect="BG_effect_action_80700"/>
+	<Property ID="80800" Name="盾兵之歌" Photo="icon\buff\skillicon_0483.png"/>
+	<Property ID="80801" Name="斧兵之歌" Photo="icon\buff\skillicon_0486.png"/>
+	<Property ID="80802" Name="杖兵之歌" Photo="icon\buff\skillicon_0498.png"/>
+	<Property ID="80803" Name="术兵之歌" Photo="icon\buff\skillicon_0503.png"/>
+	<Property ID="80804" Name="教官触发说明" Photo="icon\buff\skillicon_0491.png"/>
+</Object>
+
+

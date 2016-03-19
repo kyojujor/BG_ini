@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes" ?>
+<Processor>
+    <Base type="object" version="1.0">
+        <Line Type="2" Event="2115" Name="AUTOP3" />
+        <Line Type="2" Event="3002" Name="AUTOP2">
+            <Param type="13" srctype="8" data="AUTOP3" Index="0" />
+            <Param type="6" data="KnightDefLv" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP1">
+            <Param type="13" srctype="4" data="AUTOP2" Index="0" />
+            <Param type="2" data="3" Index="1" />
+            <Param type="4" data="1" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="9">
+            <Param type="13" bool="true" srctype="1" data="AUTOP1" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP4" />
+        <Line Type="2" Event="2001" Name="AUTOP7" />
+        <Line Type="2" Event="3204" Name="AUTOP6">
+            <Param type="13" srctype="8" data="AUTOP7" Index="0" />
+            <Param type="6" data="GuardRateProb" Index="1" />
+        </Line>
+        <Line Type="2" Event="2115" Name="AUTOP11" />
+        <Line Type="2" Event="3002" Name="AUTOP10">
+            <Param type="13" srctype="8" data="AUTOP11" Index="0" />
+            <Param type="6" data="KnightDefLv" Index="1" />
+        </Line>
+        <Line Type="2" Event="5075" Name="AUTOP9">
+            <Param type="13" srctype="4" data="AUTOP10" Index="0" />
+            <Param type="2" data="2" Index="1" />
+            <Param type="4" data="1" Index="2" />
+        </Line>
+        <Line Type="2" Event="5075" Name="AUTOP8">
+            <Param type="13" srctype="4" data="AUTOP9" Index="0" />
+            <Param type="2" data="3" Index="1" />
+            <Param type="4" data="0.04" Index="2" />
+        </Line>
+        <Line Type="2" Event="5075" Name="AUTOP5">
+            <Param type="13" srctype="4" data="AUTOP6" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP8" Index="2" />
+        </Line>
+        <Line Type="1" Event="3205">
+            <Param type="13" srctype="8" data="AUTOP4" Index="0" />
+            <Param type="6" data="GuardRateProb" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP5" Index="2" />
+        </Line>
+        <Line Type="7" IncludeLines="0" />
+        <Line Type="2" Event="2115" Name="AUTOP14" />
+        <Line Type="2" Event="3002" Name="AUTOP13">
+            <Param type="13" srctype="8" data="AUTOP14" Index="0" />
+            <Param type="6" data="KnightAttLv" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP12">
+            <Param type="13" srctype="4" data="AUTOP13" Index="0" />
+            <Param type="2" data="3" Index="1" />
+            <Param type="4" data="1" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="9">
+            <Param type="13" bool="true" srctype="1" data="AUTOP12" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP15" />
+        <Line Type="2" Event="2001" Name="AUTOP18" />
+        <Line Type="2" Event="3204" Name="AUTOP17">
+            <Param type="13" srctype="8" data="AUTOP18" Index="0" />
+            <Param type="6" data="MaxPhyAttack" Index="1" />
+        </Line>
+        <Line Type="2" Event="2115" Name="AUTOP22" />
+        <Line Type="2" Event="3002" Name="AUTOP21">
+            <Param type="13" srctype="8" data="AUTOP22" Index="0" />
+            <Param type="6" data="KnightAttLv" Index="1" />
+        </Line>
+        <Line Type="2" Event="5075" Name="AUTOP20">
+            <Param type="13" srctype="4" data="AUTOP21" Index="0" />
+            <Param type="2" data="2" Index="1" />
+            <Param type="4" data="1" Index="2" />
+        </Line>
+        <Line Type="2" Event="5075" Name="AUTOP19">
+            <Param type="13" srctype="4" data="AUTOP20" Index="0" />
+            <Param type="2" data="3" Index="1" />
+            <Param type="4" data="80" Index="2" />
+        </Line>
+        <Line Type="2" Event="5075" Name="AUTOP16">
+            <Param type="13" srctype="4" data="AUTOP17" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP19" Index="2" />
+        </Line>
+        <Line Type="1" Event="3205">
+            <Param type="13" srctype="8" data="AUTOP15" Index="0" />
+            <Param type="6" data="MaxPhyAttack" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP16" Index="2" />
+        </Line>
+        <Line Type="7" IncludeLines="0" />
+        <Line Type="2" Event="2115" Name="AUTOP25" />
+        <Line Type="2" Event="3002" Name="AUTOP24">
+            <Param type="13" srctype="8" data="AUTOP25" Index="0" />
+            <Param type="6" data="KnightHPLv" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP23">
+            <Param type="13" srctype="4" data="AUTOP24" Index="0" />
+            <Param type="2" data="3" Index="1" />
+            <Param type="4" data="1" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="13">
+            <Param type="13" bool="true" srctype="1" data="AUTOP23" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP26" />
+        <Line Type="2" Event="2001" Name="AUTOP29" />
+        <Line Type="2" Event="3204" Name="AUTOP28">
+            <Param type="13" srctype="8" data="AUTOP29" Index="0" />
+            <Param type="6" data="MaxHP" Index="1" />
+        </Line>
+        <Line Type="2" Event="2115" Name="AUTOP33" />
+        <Line Type="2" Event="3002" Name="AUTOP32">
+            <Param type="13" srctype="8" data="AUTOP33" Index="0" />
+            <Param type="6" data="KnightHPLv" Index="1" />
+        </Line>
+        <Line Type="2" Event="5075" Name="AUTOP31">
+            <Param type="13" srctype="4" data="AUTOP32" Index="0" />
+            <Param type="2" data="2" Index="1" />
+            <Param type="4" data="1" Index="2" />
+        </Line>
+        <Line Type="2" Event="5075" Name="AUTOP30">
+            <Param type="13" srctype="4" data="AUTOP31" Index="0" />
+            <Param type="2" data="3" Index="1" />
+            <Param type="4" data="2500" Index="2" />
+        </Line>
+        <Line Type="2" Event="5075" Name="AUTOP27">
+            <Param type="13" srctype="4" data="AUTOP28" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP30" Index="2" />
+        </Line>
+        <Line Type="1" Event="3205">
+            <Param type="13" srctype="8" data="AUTOP26" Index="0" />
+            <Param type="6" data="MaxHP" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP27" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP34" />
+        <Line Type="2" Event="2001" Name="AUTOP36" />
+        <Line Type="2" Event="3204" Name="AUTOP35">
+            <Param type="13" srctype="8" data="AUTOP36" Index="0" />
+            <Param type="6" data="MaxHP" Index="1" />
+        </Line>
+        <Line Type="1" Event="3205">
+            <Param type="13" srctype="8" data="AUTOP34" Index="0" />
+            <Param type="6" data="HP" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP35" Index="2" />
+        </Line>
+        <Line Type="7" IncludeLines="0" />
+    </Base>
+</Processor>

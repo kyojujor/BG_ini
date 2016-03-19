@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--
+pve_multi:	打怪额外经验加成
+quest_multi:任务奖励加成
+event_multi：事件奖励加成
+clone_num：每天额外赠送副本次数
+transfer_num：每天额外赠送界碑传送次数
+transfer_cd：VIP界碑传送CD时间（单位为秒）
+relive_cd：VIP复活CD时间减少百分比（0.5为减少50%）
+relive_num：每天赠送完美复活次数
+auction_dec:拍卖行佣金减少
+acution_consign_num_limit:拍卖行寄售数量上限
+black_market_dec：黑市佣金减少
+open_need_bg：开通所需点券数目
+how_long：单次充值VIP持续时间（天）
+glory_upper_multi: 荣誉值上限 增加每日荣誉值上限20%
+battlewar_glory_multi:荣誉值奖励 战场荣誉值奖励获得提高20%；击杀敌对阵营玩家荣誉值奖励获得提高20%
+event_hunt_multi:猎杀点奖励 事件猎杀点奖励获得提高20%
+battlewar_bravery_multi:英勇点奖励 战场英勇点奖励获得提高20%；竞技场英勇点奖励获得提高20%
+-->
+
+<Object>
+<Property ID="0" pve_multi="0" quest_multi="0" event_multi="0" clone_num="0" transfer_num="0" transfer_cd="0" relive_num="0" relive_cd="0" auction_dec="0" acution_consign_num_limit="0" black_market_dec="0" open_need_bg="0" how_long="0" glory_upper_multi = "0" battlewar_glory_multi = "0" event_hunt_multi = "0" battlewar_bravery_multi = "0"/>
+</Object>

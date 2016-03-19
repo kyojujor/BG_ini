@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Stage>
+	<Object Guid="3C719F68ECF54CB6BA895386588E9788" Desc="交通管理员" config="npc_zlm010_0102" x="-1071.473755" y="75.498207" z="3055.343262" IsY="0" Radius="0" amount="1" RefreshTime="60" fOrg="1" IsPersistent="0">
+		<OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode=""/>
+	</Object>
+	<Object Guid="523BC50C16184BE98E365EB9712736BA" Desc="交通管理员" config="npc_zlm010_0103" x="-964.426819" y="101.434669" z="2459.304932" IsY="0" Radius="0" amount="1" RefreshTime="60" fOrg="-0.945002" IsPersistent="0">
+		<OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode=""/>
+	</Object>
+	<Object Guid="20D2968BEB27411EB833324FA4D76758" Desc="提奥迪亚副本进入门" config="CloneDoor_tiaodiya_0001" x="-1425.034" y="245.445" z="2796.460" IsY="0" Radius="0" amount="1" RefreshTime="1" sx="2" sy="2" sz="2" fOrg="0" IsPersistent="0">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="FB5A80BF47894F518F9B3A25FD8F691D" Desc="交通管理员" config="npc_zqm012_00206" x="-2081.044922" y="240.935181" z="3628.857178" amount="1" fOrg="2" IsPersistent="0">
+		<OrganControllerStateMapping ControllerState="" State=""/>
+	</Object>
+	<Object Guid="3888E0C420CA411EA5DF234B0F1396AF" Desc="加林古·殇" config="npc_zqm012_00205" x="-2219.895752" y="201.091721" z="3209.476318" amount="1" fOrg="-1.283185" IsPersistent="0"/>
+</Stage>
+
+

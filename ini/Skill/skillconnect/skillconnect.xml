@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- edited with XMLSpy v2010 (http://www.altova.com) by MESMERiZE (MiZE) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- skill_1 = "技能名，技能命中时间，技能连击判断区间（从这个时间段开始到命中时间结束）"-->
+<Object>
+	<Property ID="Normal_DoubleSwordConsecutive01_01" connect_skill="Normal_DoubleSwordConsecutive02_01" endtime="2500" connecttime="500"/>
+	<Property ID="Normal_DoubleSwordConsecutive02_01" connect_skill="Normal_DoubleSwordConsecutive03_01" endtime="2500" connecttime="500"/>
+	<Property ID="Normal_DoubleSwordConsecutive03_01" endtime="1500"/>
+	<Property ID="Normal_MagicConsecutive01_01" connect_skill="Normal_MagicConsecutive02_01" endtime="2500" connecttime="733"/>
+	<Property ID="Normal_MagicConsecutive02_01" connect_skill="Normal_MagicConsecutive03_01" endtime="2500" connecttime="766"/>
+	<Property ID="Normal_MagicConsecutive03_01" endtime="900" connecttime="0"/>
+	<Property ID="Normal_DoublePistolConsecutive01_01" connect_skill="Normal_DoublePistolConsecutive02_01" endtime="2500" connecttime="300"/>
+	<Property ID="Normal_DoublePistolConsecutive02_01" connect_skill="Normal_DoublePistolConsecutive03_01" endtime="2500" connecttime="633"/>
+	<Property ID="Normal_DoublePistolConsecutive03_01" endtime="0" connecttime="0"/>
+	<Property ID="Normal_TwoSwordConsecutive01_01" connect_skill="Normal_TwoSwordConsecutive02_01" endtime="2500" connecttime="366"/>
+	<Property ID="Normal_TwoSwordConsecutive02_01" connect_skill="Normal_TwoSwordConsecutive03_01" endtime="2500" connecttime="333"/>
+	<Property ID="Normal_TwoSwordConsecutive03_01" endtime="0" connecttime="0"/>
+	<Property ID="Normal_SingleSwordConsecutive01_01" connect_skill="Normal_SingleSwordConsecutive02_01" endtime="2500" connecttime="0"/>
+	<Property ID="Normal_SingleSwordConsecutive02_01" connect_skill="Normal_SingleSwordConsecutive03_01" endtime="2500" connecttime="0"/>
+	<Property ID="Normal_SingleSwordConsecutive03_01" endtime="600" connecttime="0"/>
+	<Property ID="Normal_LongWeaponConsecutive01_01" connect_skill="Normal_LongWeaponConsecutive02_01" endtime="2500" connecttime="500"/>
+	<Property ID="Normal_LongWeaponConsecutive02_01" connect_skill="Normal_LongWeaponConsecutive03_01" endtime="2500" connecttime="500"/>
+	<Property ID="Normal_LongWeaponConsecutive03_01" endtime="1500" connecttime="0"/>
+	<Property ID="Normal_GunConsecutive01_01" connect_skill="Normal_GunConsecutive02_01" endtime="2500" connecttime="30"/>
+	<Property ID="Normal_GunConsecutive02_01" connect_skill="Normal_GunConsecutive03_01" endtime="2500" connecttime="400"/>
+	<Property ID="Normal_GunConsecutive03_01" endtime="500"/>
+	<Property ID="Normal_ThrowConsecutive01_01" connect_skill="Normal_ThrowConsecutive02_01" endtime="2500" connecttime="533"/>
+	<Property ID="Normal_ThrowConsecutive02_01" connect_skill="Normal_ThrowConsecutive03_01" endtime="2500" connecttime="800"/>
+	<Property ID="Normal_ThrowConsecutive03_01" endtime="0" connecttime="0"/>
+	<Property ID="Normal_SmallMagicConsecutive01_01" connect_skill="Normal_SmallMagicConsecutive02_01" endtime="2500" connecttime="500"/>
+	<Property ID="Normal_SmallMagicConsecutive02_01" connect_skill="Normal_SmallMagicConsecutive01_01" endtime="2500" connecttime="500"/>
+	<Property ID="Normal_BearConsecutive01_01" connect_skill="Normal_BearConsecutive02_01" endtime="2500" connecttime="633"/>
+	<Property ID="Normal_BearConsecutive02_01" connect_skill="Normal_BearConsecutive03_01" endtime="2500" connecttime="700"/>
+	<Property ID="Normal_BearConsecutive03_01" endtime="0" connecttime="0"/>
+	<Property ID="Normal_TitanConsecutive01_01" connect_skill="Normal_TitanConsecutive02_01" endtime="2500" connecttime="966"/>
+	<Property ID="Normal_TitanConsecutive02_01" connect_skill="Normal_TitanConsecutive03_01" endtime="2500" connecttime="1066"/>
+	<Property ID="Normal_TitanConsecutive03_01" endtime="0" connecttime="0"/>
+	<Property ID="Normal_StormConsecutive01_01" connect_skill="Normal_StormConsecutive02_01" endtime="2500" connecttime="800"/>
+	<Property ID="Normal_StormConsecutive02_01" connect_skill="Normal_StormConsecutive03_01" endtime="2500" connecttime="766"/>
+	<Property ID="Normal_StormConsecutive03_01" endtime="0" connecttime="0"/>
+	<Property ID="Normal_CrushConsecutive01_01" connect_skill="Normal_CrushConsecutive02_01" endtime="2500" connecttime="466"/>
+	<Property ID="Normal_CrushConsecutive02_01" connect_skill="Normal_CrushConsecutive03_01" endtime="2500" connecttime="600"/>
+	<Property ID="Normal_CrushConsecutive03_01" endtime="0" connecttime="0"/>
+	<Property ID="Normal_CowConsecutive01_01" connect_skill="Normal_CowConsecutive02_01" endtime="2500" connecttime="566"/>
+	<Property ID="Normal_CowConsecutive02_01" connect_skill="Normal_CowConsecutive03_01" endtime="2500" connecttime="1566"/>
+	<Property ID="Normal_CowConsecutive03_01" endtime="0" connecttime="0"/>
+	<Property ID="Normal_WolfConsecutive01_01" connect_skill="Normal_WolfConsecutive02_01" endtime="2500" connecttime="900"/>
+	<Property ID="Normal_WolfConsecutive02_01" connect_skill="Normal_WolfConsecutive03_01" endtime="2500" connecttime="666"/>
+	<Property ID="Normal_WolfConsecutive03_01" connecttime="0"/>
+	<Property ID="Normal_GunConsecutive01_01_G" connect_skill="Normal_GunConsecutive02_01_G" endtime="2500" connecttime="30"/>
+	<Property ID="Normal_GunConsecutive02_01_G" connect_skill="Normal_GunConsecutive03_01_G" endtime="2500" connecttime="400"/>
+	<Property ID="Normal_GunConsecutive03_01_G" endtime="500"/>
+	<Property ID="Skill_He3114_01_1" Name="疯狂混合" connect_skill="Skill_He3114_01_2" endtime="10000" connecttime="200"/>
+	<Property ID="Skill_He3114_01_2" endtime="0" connecttime="0"/>
+	<Property ID="Normal_CrossbowConsecutive01_01" connect_skill="Normal_CrossbowConsecutive02_01" endtime="2500" connecttime="700"/>
+	<Property ID="Normal_CrossbowConsecutive02_01" connect_skill="Normal_CrossbowConsecutive03_01" endtime="2500" connecttime="733"/>
+	<Property ID="Normal_CrossbowConsecutive03_01" endtime="0" connecttime="0"/>
+	<Property ID="Skill_In1025_01_1" Name="冲斩斩" connect_skill="Skill_In1025_01_2" endtime="2500" connecttime="500"/>
+	<Property ID="Normal_DaggerConsecutive01_01" connect_skill="Normal_DaggerConsecutive02_01" endtime="2500" connecttime="400"/>
+	<Property ID="Normal_DaggerConsecutive02_01" connect_skill="Normal_DaggerConsecutive03_01" endtime="2500" connecttime="533"/>
+	<Property ID="Normal_DaggerConsecutive03_01" endtime="600" connecttime="0"/>
+	<Property ID="Skill_Ex1130_01_1" Name="追魂夺魄" connect_skill="Skill_Ex1130_01_2" endtime="2500" connecttime="500"/>
+	<Property ID="Vehicle_0120_01" Name="左右轮转" connect_skill="Vehicle_0128_01" endtime="2000" connecttime="500"/>
+	<Property ID="Vehicle_0128_01" endtime="600" connecttime="0"/>
+	<Property ID="Skill_Ex1130_02_1" Name="追魂夺魄" connect_skill="Skill_Ex1130_02_2" endtime="2500" connecttime="500"/>
+	<Property ID="Skill_Ex1130_03_1" Name="追魂夺魄" connect_skill="Skill_Ex1130_03_2" endtime="2500" connecttime="500"/>
+	<Property ID="Skill_Ex1130_04_1" Name="追魂夺魄" connect_skill="Skill_Ex1130_04_2" endtime="2500" connecttime="500"/>
+	<Property ID="Skill_Ex1130_05_1" Name="追魂夺魄" connect_skill="Skill_Ex1130_05_2" endtime="2500" connecttime="500"/>
+	<Property ID="Skill_Ex1130_06_1" Name="追魂夺魄" connect_skill="Skill_Ex1130_06_2" endtime="2500" connecttime="500"/>
+	<Property ID="Vehicle_0122_01_1" connect_skill="Vehicle_0122_01_2" endtime="3000" connecttime="30"/>
+	<Property ID="Vehicle_0122_01_2" connect_skill="Vehicle_0122_01_3" endtime="3000" connecttime="30"/>
+	<Property ID="Vehicle_0122_01_3" endtime="500" connecttime="0"/>
+	<Property ID="Normal_DoubleSwordConsecutive01_02" connect_skill="Normal_DoubleSwordConsecutive02_02" endtime="2500" connecttime="500"/>
+	<Property ID="Normal_DoubleSwordConsecutive02_02" connect_skill="Normal_DoubleSwordConsecutive03_02" endtime="2500" connecttime="500"/>
+	<Property ID="Normal_DoubleSwordConsecutive03_02" endtime="1500"/>
+</Object>
+
+

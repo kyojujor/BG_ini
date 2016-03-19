@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+	<Property ID="82405" Name="反弹物理伤害" EventType="10" TargetType="3" FuncNo="803" PRebound="50" ReboundDamageType="1"/>
+	<Property ID="81209" Name="魔化厚皮" EventType="1" TargetType="0" FuncNo="808" ImmunityDamageType="10" ImmunityValue="0.5" IsPercent="1"/>
+	<Property ID="81210" Name="魔化厚皮-免疫控制" EventType="1" TargetType="0" FuncNo="11" BufferClearType="1" BufferClearValue="1"/>
+	<Property ID="81201" Name="耗魔_伤害" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="50" DamageCategory="1" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="81208" Name="流血" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="50" DamageCategory="1" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="81880" Name="诅咒" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="@MaxHP*0.05" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="812072" Name="诅咒" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="$MaxMagicAttack*0.15" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="82087" Name="毒素" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="$MaxPhyAttack*0.2" DamageCategory="8" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="82112" Name="诅咒" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="@MaxHP*0.01" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="82114" Name="邪恶加持" EventType="1" TargetType="2" FuncNo="5" IsHealFormula="0" HealFormula="20000"/>
+	<Property ID="80300" EventType="1" TargetType="2" FuncNo="6" Name="坚硬" IsFormula="1"/>
+	<Property ID="824051" Name="吸收伤害" EventType="1" TargetType="2" FuncNo="842" ResumeRatio="100" ResumeType="0"/>
+	<Property ID="824052" Name="吸收伤害" EventType="2" TargetType="2" FuncNo="843"/>
+	<Property ID="80100" Name="反弹物理伤害" EventType="10" TargetType="3" FuncNo="803" PRebound="100" ReboundDamageType="1"/>
+	<Property ID="801001" Name="吸收伤害" EventType="1" TargetType="2" FuncNo="842" ResumeRatio="200" ResumeType="0"/>
+	<Property ID="801002" Name="吸收伤害" EventType="2" TargetType="2" FuncNo="843"/>
+	<Property ID="80101" Name="荆棘盾" EventType="10" TargetType="3" FuncNo="803" PRebound="100" ReboundDamageType="1"/>
+	<Property ID="80102" Name="暗影沼泽" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="$MaxMagicAttack*0.5" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="80104" Name="旋转" EventType="1" TargetType="2" FuncNo="56" RotateAngle="180" RotateSpeed="30"/>
+	<Property ID="801041" Name="旋转" EventType="2" TargetType="2" FuncNo="57"/>
+</Object>
+
+

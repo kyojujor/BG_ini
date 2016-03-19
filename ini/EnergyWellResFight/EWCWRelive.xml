@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 能量井开启后npc刷新包 -->
+<Object>
+<!--
+qh_fixed_point:    奇幻固定npc复活点  ID,x,y,z,o
+zq_fixed_point ： 蒸汽固定复活
+changeful_point:		可争夺npc  ID,x,y,z,o
+
+-->
+	<Property ID="1" qh_fixed_point="Relive_dagongzc_02,1748.042,17.481,2263.967,-2.513" zq_fixed_point="Relive_dagongzc_01,1632.422,48.969,3532.186,-3.004" changeful_point="npc_ZLEW000_0003,1038.455,15.130,3230.964,-2.722;npc_ZLEW000_0003_1,953.643,19.232,2506.592,-0.264;npc_ZLEW000_0003_2,2297.737,21.957,2803.187,-1.401"  Desc=""/>
+</Object>

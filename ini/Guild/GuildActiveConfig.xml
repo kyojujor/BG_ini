@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+  <!--最大的活跃度 最低活跃度 增加活跃度的间隔  固定扣除活跃度点数 每天检测的时间(小时)-->
+  <Property ID="1" GuildMaxActive="450" GuildMinActive="200" GuildActiveTime="30" EveryTimeDesc="50" RefreshTime="24"/>
+</Object>

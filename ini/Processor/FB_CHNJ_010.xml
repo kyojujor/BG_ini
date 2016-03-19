@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes" ?>
+<Processor>
+    <Base type="object" version="1.0">
+        <Line Type="2" Event="2114" Name="AUTOP1">
+            <Param type="6" data="fb_chnj_npc_08" Index="0" />
+        </Line>
+        <Line Type="1" Event="4509">
+            <Param type="13" srctype="8" data="AUTOP1" Index="0" />
+        </Line>
+        <Line Type="2" Event="5082" Name="AUTOP2">
+            <Param type="8" data=" " Index="0" />
+        </Line>
+        <Line Type="1" Event="5089">
+            <Param type="13" srctype="8" data="AUTOP2" Index="0" />
+            <Param type="6" data="buff_fb_chnj_npc_04" Index="1" />
+        </Line>
+        <Line Type="2" Event="5082" Name="AUTOP3">
+            <Param type="8" data=" " Index="0" />
+        </Line>
+        <Line Type="1" Event="5089">
+            <Param type="13" srctype="8" data="AUTOP3" Index="0" />
+            <Param type="6" data="buff_fb_chnj_npc_03" Index="1" />
+        </Line>
+        <Line Type="2" Event="5082" Name="AUTOP4">
+            <Param type="8" data=" " Index="0" />
+        </Line>
+        <Line Type="1" Event="5089">
+            <Param type="13" srctype="8" data="AUTOP4" Index="0" />
+            <Param type="6" data="buff_fb_chnj_npc_02" Index="1" />
+        </Line>
+        <Line Type="2" Event="5082" Name="AUTOP5">
+            <Param type="8" data=" " Index="0" />
+        </Line>
+        <Line Type="1" Event="5089">
+            <Param type="13" srctype="8" data="AUTOP5" Index="0" />
+            <Param type="6" data="buff_fb_chnj_npc_01" Index="1" />
+        </Line>
+        <Line Type="2" Event="5082" Name="AUTOP8">
+            <Param type="8" data=" " Index="0" />
+        </Line>
+        <Line Type="2" Event="3202" Name="AUTOP7">
+            <Param type="13" srctype="8" data="AUTOP8" Index="0" />
+            <Param type="6" data="Camp" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP6">
+            <Param type="13" srctype="4" data="AUTOP7" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="1" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="1">
+            <Param type="13" bool="true" srctype="1" data="AUTOP6" Index="0" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-5538.308,15.630,5361.102,-1.660" Index="0" />
+            <Param type="6" data="CloneDoor_chnj_0003" Index="1" />
+            <Param type="6" data="Act" Index="2" />
+        </Line>
+        <Line Type="7" IncludeLines="1" />
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-5538.308,15.630,5361.102,-1.660" Index="0" />
+            <Param type="6" data="CloneDoor_chnj_0002" Index="1" />
+            <Param type="6" data="Act" Index="2" />
+        </Line>
+    </Base>
+</Processor>

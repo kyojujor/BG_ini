@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes" ?>
+<Processor>
+    <Base type="object" version="1.0">
+        <Line Type="2" Event="2001" Name="AUTOP1" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP1" Index="0" />
+            <Param type="6" data="fRadnomRadNum" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="0.628" Index="3" />
+        </Line>
+        <Line Type="2" Event="2115" Name="AUTOP2" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP2" Index="0" />
+            <Param type="6" data="nAssiginStartDead" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2115" Name="AUTOP3" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP3" Index="0" />
+            <Param type="6" data="nAssiginRunTime" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2115" Name="AUTOP4" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP4" Index="0" />
+            <Param type="6" data="SkillDelete01" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2115" Name="AUTOP5" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP5" Index="0" />
+            <Param type="6" data="SkillDelete02" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2115" Name="AUTOP6" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP6" Index="0" />
+            <Param type="6" data="SkillDelete03" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2115" Name="AUTOP7" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP7" Index="0" />
+            <Param type="6" data="NpcRefresh" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2115" Name="AUTOP8" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP8" Index="0" />
+            <Param type="6" data="NpcRefresh02" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP9" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP9" Index="0" />
+            <Param type="6" data="QueenLimit" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP10" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP10" Index="0" />
+            <Param type="6" data="MyTrans" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP11" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP11" Index="0" />
+            <Param type="6" data="MyTrans02" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP12" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP12" Index="0" />
+            <Param type="6" data="MyTrans03" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP13" />
+        <Line Type="1" Event="5059">
+            <Param type="13" srctype="8" data="AUTOP13" Index="0" />
+            <Param type="2" data="1" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP14" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP14" Index="0" />
+            <Param type="6" data="CreatLimit" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP15" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP15" Index="0" />
+            <Param type="6" data="CreatLimit02" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP16" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP16" Index="0" />
+            <Param type="6" data="CreatLimit03" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP17" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP17" Index="0" />
+            <Param type="6" data="NewNpc" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP18" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP18" Index="0" />
+            <Param type="6" data="FirstSpider" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP19" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP19" Index="0" />
+            <Param type="6" data="EndHide01" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP20" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP20" Index="0" />
+            <Param type="6" data="TalkLimit02" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP21" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP21" Index="0" />
+            <Param type="6" data="BeDelete02" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP22" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP22" Index="0" />
+            <Param type="6" data="TalkLimit03" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP23" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP23" Index="0" />
+            <Param type="6" data="BeDelete03" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP24" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP24" Index="0" />
+            <Param type="6" data="TalkLimit04" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP25" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP25" Index="0" />
+            <Param type="6" data="RefreshLimit" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP26" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP26" Index="0" />
+            <Param type="6" data="MovieLimit" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="0" Index="3" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="355.464,75.893,-274.474,1.209" Index="0" />
+            <Param type="6" data="FB_TNJT_NPC_04" Index="1" />
+            <Param type="6" data="TriggerMovieNpc" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP28" />
+        <Line Type="2" Event="2201" Name="AUTOP27">
+            <Param type="13" srctype="8" data="AUTOP28" Index="0" />
+            <Param type="6" data="TriggerMovieNpc" Index="1" />
+        </Line>
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP27" Index="0" />
+            <Param type="6" data="bMovie" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="1" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP30" />
+        <Line Type="2" Event="2201" Name="AUTOP29">
+            <Param type="13" srctype="8" data="AUTOP30" Index="0" />
+            <Param type="6" data="TriggerMovieNpc" Index="1" />
+        </Line>
+        <Line Type="1" Event="3205">
+            <Param type="13" srctype="8" data="AUTOP29" Index="0" />
+            <Param type="6" data="SpringRange" Index="1" />
+            <Param type="4" data="25" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP31" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP31" Index="0" />
+            <Param type="6" data="bKnightRun" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP32" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP32" Index="0" />
+            <Param type="6" data="iKnightRunTime" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="11" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP33" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP33" Index="0" />
+            <Param type="6" data="iGTime" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP34" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP34" Index="0" />
+            <Param type="6" data="bStartRun" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP35" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP35" Index="0" />
+            <Param type="6" data="GongCount" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP36" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP36" Index="0" />
+            <Param type="6" data="GongLimit" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP37" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP37" Index="0" />
+            <Param type="6" data="CallLimit" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="0" Index="3" />
+        </Line>
+    </Base>
+</Processor>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--第1列代表品质,每个区间有3个字段，分别代表概率，和最小最大区间-->
+<Object>
+	<Property ID="1" section1="0.5,0.95,1" section2="0.39,1.1,1.15" section3="0.1,1.2,1.25" section4="0.01,1.45,1.5"/>
+	<Property ID="2" section1="0.5,1,1" section2="0.39,0.9,0.9" section3="0.1,1.05,1.05" section4="0.01,1.1,1.1"/>
+	<Property ID="3" section1="0.5,1,1" section2="0.39,0.9,0.9" section3="0.1,1.05,1.05" section4="0.01,1.1,1.1"/>
+	<Property ID="4" section1="0.5,1,1" section2="0.39,1.1,1.15" section3="0.1,1.2,1.25" section4="0.01,1.45,1.5"/>
+	<Property ID="5" section1="0.5,1,1" section2="0.39,1.1,1.15" section3="0.1,1.2,1.25" section4="0.01,1.45,1.5"/>
+	<Property ID="5" section1="0.5,1,1" section2="0.39,1.1,1.15" section3="0.1,1.2,1.25" section4="0.01,1.45,1.5"/>
+</Object>

@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes" ?>
+<Processor>
+    <Base type="object" version="1.0">
+        <Line Type="2" Event="5075" Name="record_rows">
+            <Param type="4" data="0" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="0" Index="2" />
+        </Line>
+        <Line Type="2" Event="5075" Name="item_rows">
+            <Param type="4" data="0" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="0" Index="2" />
+        </Line>
+        <Line Type="2" Event="4520" Name="AUTOP1" />
+        <Line Type="2" Event="4520" Name="AUTOP5" />
+        <Line Type="2" Event="3002" Name="AUTOP4">
+            <Param type="13" srctype="8" data="AUTOP5" Index="0" />
+            <Param type="6" data="t_gametime" Index="1" />
+        </Line>
+        <Line Type="2" Event="5075" Name="AUTOP3">
+            <Param type="13" srctype="4" data="AUTOP4" Index="0" />
+            <Param type="2" data="4" Index="1" />
+            <Param type="4" data="60" Index="2" />
+        </Line>
+        <Line Type="2" Event="5075" Name="AUTOP2">
+            <Param type="13" srctype="4" data="AUTOP3" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="3" Index="2" />
+        </Line>
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP1" Index="0" />
+            <Param type="6" data="t_resplayer" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="13" srctype="4" data="AUTOP2" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP8" />
+        <Line Type="2" Event="5047" Name="AUTOP7">
+            <Param type="13" srctype="8" data="AUTOP8" Index="0" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP6">
+            <Param type="13" srctype="4" data="AUTOP7" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="0" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="5">
+            <Param type="13" bool="true" srctype="1" data="AUTOP6" Index="0" />
+        </Line>
+        <Line Type="1" Event="4528">
+            <Param type="6" data="Dota场景每秒触发（10分钟）" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP9" />
+        <Line Type="2" Event="2001" Name="AUTOP11" />
+        <Line Type="2" Event="3002" Name="AUTOP10">
+            <Param type="13" srctype="8" data="AUTOP11" Index="0" />
+            <Param type="6" data="t_creatall" Index="1" />
+        </Line>
+        <Line Type="1" Event="5059">
+            <Param type="13" srctype="8" data="AUTOP9" Index="0" />
+            <Param type="13" srctype="2" data="AUTOP10" Index="1" />
+        </Line>
+        <Line Type="7" IncludeLines="0" />
+        <Line Type="2" Event="2001" Name="AUTOP12" />
+        <Line Type="2" Event="2001" Name="AUTOP15" />
+        <Line Type="2" Event="3002" Name="AUTOP14">
+            <Param type="13" srctype="8" data="AUTOP15" Index="0" />
+            <Param type="6" data="t_gametime" Index="1" />
+        </Line>
+        <Line Type="2" Event="5075" Name="AUTOP13">
+            <Param type="13" srctype="4" data="AUTOP14" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="1" Index="2" />
+        </Line>
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP12" Index="0" />
+            <Param type="6" data="t_gametime" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="13" srctype="4" data="AUTOP13" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP18" />
+        <Line Type="2" Event="3002" Name="AUTOP17">
+            <Param type="13" srctype="8" data="AUTOP18" Index="0" />
+            <Param type="6" data="t_gametime" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP20" />
+        <Line Type="2" Event="3002" Name="AUTOP19">
+            <Param type="13" srctype="8" data="AUTOP20" Index="0" />
+            <Param type="6" data="t_creatall" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP16">
+            <Param type="13" srctype="4" data="AUTOP17" Index="0" />
+            <Param type="2" data="5" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP19" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="70">
+            <Param type="13" bool="true" srctype="1" data="AUTOP16" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP22" />
+        <Line Type="2" Event="3002" Name="AUTOP21">
+            <Param type="13" srctype="8" data="AUTOP22" Index="0" />
+            <Param type="6" data="t_gametime" Index="1" />
+        </Line>
+        <Line Type="10" CaseNum="7" IncludeLines="67">
+            <Param type="13" srctype="6" data="AUTOP21" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP24" />
+        <Line Type="2" Event="3002" Name="AUTOP23">
+            <Param type="13" srctype="8" data="AUTOP24" Index="0" />
+            <Param type="6" data="t_creatminions_1" Index="1" />
+        </Line>
+        <Line Type="11" IncludeLines="9">
+            <Param type="13" srctype="6" data="AUTOP23" Index="0" />
+        </Line>
+        <Line Type="2" Event="5082" Name="AUTOP25">
+            <Param type="8" data=" " Index="0" />
+        </Line>
+        <Line Type="1" Event="5004">
+            <Param type="13" srctype="8" data="AUTOP25" Index="0" />
+            <Param type="6" data="snd\action\dota\Welcome_Prep.wav" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP29" />
+        <Line Type="2" Event="3002" Name="AUTOP28">
+            <Param type="13" srctype="8" data="AUTOP29" Index="0" />
+            <Param type="6" data="t_creatminions_4" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP31" />
+        <Line Type="2" Event="3002" Name="AUTOP30">
+            <Param type="13" srctype="8" data="AUTOP31" Index="0" />
+            <Param type="6" data="t_creatminions_1" Index="1" />
+        </Line>
+        <Line Type="2" Event="5075" Name="AUTOP27">
+            <Param type="13" srctype="4" data="AUTOP28" Index="0" />
+            <Param type="2" data="2" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP30" Index="2" />
+        </Line>
+        <Line Type="2" Event="4706" Name="AUTOP26">
+            <Param type="13" srctype="4" data="AUTOP27" Index="0" />
+        </Line>
+        <Line Type="1" Event="5005">
+            <Param type="2" data="0" Index="0" />
+            <Param type="2" data="2" Index="1" />
+            <Param type="6" data="BG_167106" Index="2" />
+            <Param type="13" srctype="6" data="AUTOP26" Index="3" />
+            <Param type="6" data=" " Index="4" />
+            <Param type="6" data=" " Index="5" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP33" />
+        <Line Type="2" Event="3002" Name="AUTOP32">
+            <Param type="13" srctype="8" data="AUTOP33" Index="0" />
+            <Param type="6" data="t_creatminions_2" Index="1" />
+        </Line>
+        <Line Type="11" IncludeLines="9">
+            <Param type="13" srctype="6" data="AUTOP32" Index="0" />
+        </Line>
+        <Line Type="2" Event="5082" Name="AUTOP34">
+            <Param type="8" data=" " Index="0" />
+        </Line>
+        <Line Type="1" Event="5004">
+            <Param type="13" srctype="8" data="AUTOP34" Index="0" />
+            <Param type="6" data="snd\action\dota\Opening_60Se.wav" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP38" />
+        <Line Type="2" Event="3002" Name="AUTOP37">
+            <Param type="13" srctype="8" data="AUTOP38" Index="0" />
+            <Param type="6" data="t_creatminions_4" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP40" />
+        <Line Type="2" Event="3002" Name="AUTOP39">
+            <Param type="13" srctype="8" data="AUTOP40" Index="0" />
+            <Param type="6" data="t_creatminions_2" Index="1" />
+        </Line>
+        <Line Type="2" Event="5075" Name="AUTOP36">
+            <Param type="13" srctype="4" data="AUTOP37" Index="0" />
+            <Param type="2" data="2" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP39" Index="2" />
+        </Line>
+        <Line Type="2" Event="4706" Name="AUTOP35">
+            <Param type="13" srctype="4" data="AUTOP36" Index="0" />
+        </Line>
+        <Line Type="1" Event="5005">
+            <Param type="2" data="0" Index="0" />
+            <Param type="2" data="2" Index="1" />
+            <Param type="6" data="BG_167106" Index="2" />
+            <Param type="13" srctype="6" data="AUTOP35" Index="3" />
+            <Param type="6" data=" " Index="4" />
+            <Param type="6" data=" " Index="5" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP42" />
+        <Line Type="2" Event="3002" Name="AUTOP41">
+            <Param type="13" srctype="8" data="AUTOP42" Index="0" />
+            <Param type="6" data="t_creatminions_3" Index="1" />
+        </Line>
+        <Line Type="11" IncludeLines="9">
+            <Param type="13" srctype="6" data="AUTOP41" Index="0" />
+        </Line>
+        <Line Type="2" Event="5082" Name="AUTOP43">
+            <Param type="8" data=" " Index="0" />
+        </Line>
+        <Line Type="1" Event="5004">
+            <Param type="13" srctype="8" data="AUTOP43" Index="0" />
+            <Param type="6" data="snd\action\dota\Opening_30Se.wav" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP47" />
+        <Line Type="2" Event="3002" Name="AUTOP46">
+            <Param type="13" srctype="8" data="AUTOP47" Index="0" />
+            <Param type="6" data="t_creatminions_4" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP49" />
+        <Line Type="2" Event="3002" Name="AUTOP48">
+            <Param type="13" srctype="8" data="AUTOP49" Index="0" />
+            <Param type="6" data="t_creatminions_3" Index="1" />
+        </Line>
+        <Line Type="2" Event="5075" Name="AUTOP45">
+            <Param type="13" srctype="4" data="AUTOP46" Index="0" />
+            <Param type="2" data="2" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP48" Index="2" />
+        </Line>
+        <Line Type="2" Event="4706" Name="AUTOP44">
+            <Param type="13" srctype="4" data="AUTOP45" Index="0" />
+        </Line>
+        <Line Type="1" Event="5005">
+            <Param type="2" data="0" Index="0" />
+            <Param type="2" data="2" Index="1" />
+            <Param type="6" data="BG_167106" Index="2" />
+            <Param type="13" srctype="6" data="AUTOP44" Index="3" />
+            <Param type="6" data=" " Index="4" />
+            <Param type="6" data=" " Index="5" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP51" />
+        <Line Type="2" Event="3002" Name="AUTOP50">
+            <Param type="13" srctype="8" data="AUTOP51" Index="0" />
+            <Param type="6" data="t_creatminions_4" Index="1" />
+        </Line>
+        <Line Type="11" IncludeLines="16">
+            <Param type="13" srctype="6" data="AUTOP50" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP53" />
+        <Line Type="2" Event="2201" Name="AUTOP52">
+            <Param type="13" srctype="8" data="AUTOP53" Index="0" />
+            <Param type="6" data="o_qh_barrack_spawn_m" Index="1" />
+        </Line>
+        <Line Type="1" Event="5059">
+            <Param type="13" srctype="8" data="AUTOP52" Index="0" />
+            <Param type="2" data="1" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP55" />
+        <Line Type="2" Event="2201" Name="AUTOP54">
+            <Param type="13" srctype="8" data="AUTOP55" Index="0" />
+            <Param type="6" data="o_qh_barrack_spawn_s" Index="1" />
+        </Line>
+        <Line Type="1" Event="5059">
+            <Param type="13" srctype="8" data="AUTOP54" Index="0" />
+            <Param type="2" data="1" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP57" />
+        <Line Type="2" Event="2201" Name="AUTOP56">
+            <Param type="13" srctype="8" data="AUTOP57" Index="0" />
+            <Param type="6" data="o_zq_barrack_spawn_m" Index="1" />
+        </Line>
+        <Line Type="1" Event="5059">
+            <Param type="13" srctype="8" data="AUTOP56" Index="0" />
+            <Param type="2" data="1" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP59" />
+        <Line Type="2" Event="2201" Name="AUTOP58">
+            <Param type="13" srctype="8" data="AUTOP59" Index="0" />
+            <Param type="6" data="o_zq_barrack_spawn_s" Index="1" />
+        </Line>
+        <Line Type="1" Event="5059">
+            <Param type="13" srctype="8" data="AUTOP58" Index="0" />
+            <Param type="2" data="1" Index="1" />
+        </Line>
+        <Line Type="1" Event="4528">
+            <Param type="6" data="刷怪器心跳加载" Index="0" />
+        </Line>
+        <Line Type="2" Event="5082" Name="AUTOP60">
+            <Param type="8" data=" " Index="0" />
+        </Line>
+        <Line Type="1" Event="5004">
+            <Param type="13" srctype="8" data="AUTOP60" Index="0" />
+            <Param type="6" data="snd\action\dota\Opening_Batt.wav" Index="1" />
+        </Line>
+        <Line Type="1" Event="5005">
+            <Param type="2" data="0" Index="0" />
+            <Param type="2" data="2" Index="1" />
+            <Param type="6" data="BG_167107" Index="2" />
+            <Param type="6" data=" " Index="3" />
+            <Param type="6" data=" " Index="4" />
+            <Param type="6" data=" " Index="5" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP62" />
+        <Line Type="2" Event="3002" Name="AUTOP61">
+            <Param type="13" srctype="8" data="AUTOP62" Index="0" />
+            <Param type="6" data="t_creatmonster" Index="1" />
+        </Line>
+        <Line Type="11" IncludeLines="1">
+            <Param type="13" srctype="6" data="AUTOP61" Index="0" />
+        </Line>
+        <Line Type="1" Event="5200">
+            <Param type="2" data="1" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP64" />
+        <Line Type="2" Event="3002" Name="AUTOP63">
+            <Param type="13" srctype="8" data="AUTOP64" Index="0" />
+            <Param type="6" data="t_creatboss" Index="1" />
+        </Line>
+        <Line Type="11" IncludeLines="1">
+            <Param type="13" srctype="6" data="AUTOP63" Index="0" />
+        </Line>
+        <Line Type="1" Event="5200">
+            <Param type="2" data="2" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP66" />
+        <Line Type="2" Event="3002" Name="AUTOP65">
+            <Param type="13" srctype="8" data="AUTOP66" Index="0" />
+            <Param type="6" data="t_creatbigboss" Index="1" />
+        </Line>
+        <Line Type="11" IncludeLines="1">
+            <Param type="13" srctype="6" data="AUTOP65" Index="0" />
+        </Line>
+        <Line Type="1" Event="5200">
+            <Param type="2" data="3" Index="0" />
+        </Line>
+        <Line Type="7" IncludeLines="0" />
+        <Line Type="2" Event="2001" Name="AUTOP68" />
+        <Line Type="2" Event="3503" Name="AUTOP67">
+            <Param type="13" srctype="8" data="AUTOP68" Index="0" />
+            <Param type="6" data="dotabattlewar_scene_rec" Index="1" />
+        </Line>
+        <Line Type="14" IncludeLines="66">
+            <Param type="13" srctype="2" data="AUTOP67" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP69" />
+        <Line Type="2" Event="3521" Name="player_pid">
+            <Param type="13" srctype="8" data="AUTOP69" Index="0" />
+            <Param type="6" data="dotabattlewar_scene_rec" Index="1" />
+            <Param type="13" srctype="2" data="record_rows" Index="2" />
+            <Param type="2" data="19" Index="3" />
+        </Line>
+        <Line Type="2" Event="1104" Name="AUTOP70">
+            <Param type="13" srctype="8" data="player_pid" Index="0" />
+        </Line>
+        <Line Type="3" IncludeLines="60">
+            <Param type="13" bool="true" srctype="1" data="AUTOP70" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP74" />
+        <Line Type="2" Event="3002" Name="AUTOP73">
+            <Param type="13" srctype="8" data="AUTOP74" Index="0" />
+            <Param type="6" data="t_gametime" Index="1" />
+        </Line>
+        <Line Type="2" Event="5075" Name="AUTOP72">
+            <Param type="13" srctype="4" data="AUTOP73" Index="0" />
+            <Param type="2" data="5" Index="1" />
+            <Param type="4" data="2" Index="2" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP71">
+            <Param type="13" srctype="4" data="AUTOP72" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="0" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP77" />
+        <Line Type="2" Event="3002" Name="AUTOP76">
+            <Param type="13" srctype="8" data="AUTOP77" Index="0" />
+            <Param type="6" data="t_gametime" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP79" />
+        <Line Type="2" Event="3002" Name="AUTOP78">
+            <Param type="13" srctype="8" data="AUTOP79" Index="0" />
+            <Param type="6" data="t_creatminions_4" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP75">
+            <Param type="13" srctype="4" data="AUTOP76" Index="0" />
+            <Param type="2" data="3" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP78" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="3">
+            <Param type="13" bool="true" srctype="1" data="AUTOP71" Index="0" />
+            <Param type="13" bool="true" srctype="1" data="AUTOP75" Index="0" />
+        </Line>
+        <Line Type="2" Event="3202" Name="AUTOP81">
+            <Param type="13" srctype="8" data="player_pid" Index="0" />
+            <Param type="6" data="Coin_Dota" Index="1" />
+        </Line>
+        <Line Type="2" Event="5075" Name="AUTOP80">
+            <Param type="13" srctype="4" data="AUTOP81" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="3" Index="2" />
+        </Line>
+        <Line Type="1" Event="3203">
+            <Param type="13" srctype="8" data="player_pid" Index="0" />
+            <Param type="6" data="Coin_Dota" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP80" Index="2" />
+        </Line>
+        <Line Type="7" IncludeLines="0" />
+        <Line Type="2" Event="2001" Name="AUTOP82" />
+        <Line Type="2" Event="3521" Name="dota_relivetime">
+            <Param type="13" srctype="8" data="AUTOP82" Index="0" />
+            <Param type="6" data="dotabattlewar_scene_rec" Index="1" />
+            <Param type="13" srctype="2" data="record_rows" Index="2" />
+            <Param type="2" data="17" Index="3" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP83">
+            <Param type="13" srctype="4" data="dota_relivetime" Index="0" />
+            <Param type="2" data="2" Index="1" />
+            <Param type="4" data="-1" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="3">
+            <Param type="13" bool="true" srctype="1" data="AUTOP83" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP84" />
+        <Line Type="2" Event="5075" Name="AUTOP85">
+            <Param type="13" srctype="4" data="dota_relivetime" Index="0" />
+            <Param type="2" data="2" Index="1" />
+            <Param type="4" data="1" Index="2" />
+        </Line>
+        <Line Type="1" Event="3508">
+            <Param type="13" srctype="8" data="AUTOP84" Index="0" />
+            <Param type="6" data="dotabattlewar_scene_rec" Index="1" />
+            <Param type="13" srctype="2" data="record_rows" Index="2" />
+            <Param type="2" data="17" Index="3" />
+            <Param type="13" srctype="4" data="AUTOP85" Index="4" />
+        </Line>
+        <Line Type="7" IncludeLines="0" />
+        <Line Type="2" Event="1101" Name="AUTOP86">
+            <Param type="13" srctype="4" data="dota_relivetime" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="0" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="1">
+            <Param type="13" bool="true" srctype="1" data="AUTOP86" Index="0" />
+        </Line>
+        <Line Type="1" Event="4571">
+            <Param type="13" srctype="8" data="player_pid" Index="0" />
+            <Param type="2" data="2" Index="1" />
+        </Line>
+        <Line Type="7" IncludeLines="0" />
+        <Line Type="2" Event="3002" Name="dota_tempkilltime">
+            <Param type="13" srctype="8" data="player_pid" Index="0" />
+            <Param type="6" data="dota_tempkilltime" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP87">
+            <Param type="13" srctype="4" data="dota_tempkilltime" Index="0" />
+            <Param type="2" data="2" Index="1" />
+            <Param type="4" data="-1" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="3">
+            <Param type="13" bool="true" srctype="1" data="AUTOP87" Index="0" />
+        </Line>
+        <Line Type="2" Event="3002" Name="AUTOP89">
+            <Param type="13" srctype="8" data="player_pid" Index="0" />
+            <Param type="6" data="dota_tempkilltime" Index="1" />
+        </Line>
+        <Line Type="2" Event="5075" Name="AUTOP88">
+            <Param type="13" srctype="4" data="AUTOP89" Index="0" />
+            <Param type="2" data="2" Index="1" />
+            <Param type="4" data="1" Index="2" />
+        </Line>
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="player_pid" Index="0" />
+            <Param type="6" data="dota_tempkilltime" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="13" srctype="4" data="AUTOP88" Index="3" />
+        </Line>
+        <Line Type="7" IncludeLines="0" />
+        <Line Type="2" Event="1101" Name="AUTOP90">
+            <Param type="13" srctype="4" data="dota_tempkilltime" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="0" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="1">
+            <Param type="13" bool="true" srctype="1" data="AUTOP90" Index="0" />
+        </Line>
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="player_pid" Index="0" />
+            <Param type="6" data="dota_tempkillnum" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="0" Index="3" />
+        </Line>
+        <Line Type="7" IncludeLines="0" />
+        <Line Type="2" Event="3503" Name="AUTOP91">
+            <Param type="13" srctype="8" data="player_pid" Index="0" />
+            <Param type="6" data="dotaitem_rec" Index="1" />
+        </Line>
+        <Line Type="1" Event="4720">
+            <Param type="13" srctype="4" data="AUTOP91" Index="0" />
+        </Line>
+        <Line Type="2" Event="3503" Name="AUTOP92">
+            <Param type="13" srctype="8" data="player_pid" Index="0" />
+            <Param type="6" data="dotaitem_rec" Index="1" />
+        </Line>
+        <Line Type="14" IncludeLines="19">
+            <Param type="13" srctype="2" data="AUTOP92" Index="0" />
+        </Line>
+        <Line Type="2" Event="3521" Name="add_type">
+            <Param type="13" srctype="8" data="player_pid" Index="0" />
+            <Param type="6" data="dotaitem_rec" Index="1" />
+            <Param type="13" srctype="2" data="item_rows" Index="2" />
+            <Param type="2" data="1" Index="3" />
+        </Line>
+        <Line Type="2" Event="3521" Name="step_time">
+            <Param type="13" srctype="8" data="player_pid" Index="0" />
+            <Param type="6" data="dotaitem_rec" Index="1" />
+            <Param type="13" srctype="2" data="item_rows" Index="2" />
+            <Param type="2" data="2" Index="3" />
+        </Line>
+        <Line Type="2" Event="3521" Name="add_num">
+            <Param type="13" srctype="8" data="player_pid" Index="0" />
+            <Param type="6" data="dotaitem_rec" Index="1" />
+            <Param type="13" srctype="2" data="item_rows" Index="2" />
+            <Param type="2" data="3" Index="3" />
+        </Line>
+        <Line Type="2" Event="3521" Name="create_time">
+            <Param type="13" srctype="8" data="player_pid" Index="0" />
+            <Param type="6" data="dotaitem_rec" Index="1" />
+            <Param type="13" srctype="2" data="item_rows" Index="2" />
+            <Param type="2" data="4" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP93" />
+        <Line Type="2" Event="3002" Name="now_time">
+            <Param type="13" srctype="8" data="AUTOP93" Index="0" />
+            <Param type="6" data="t_gametime" Index="1" />
+        </Line>
+        <Line Type="2" Event="5075" Name="AUTOP96">
+            <Param type="13" srctype="4" data="now_time" Index="0" />
+            <Param type="2" data="2" Index="1" />
+            <Param type="13" srctype="4" data="create_time" Index="2" />
+        </Line>
+        <Line Type="2" Event="5075" Name="AUTOP95">
+            <Param type="13" srctype="4" data="AUTOP96" Index="0" />
+            <Param type="2" data="5" Index="1" />
+            <Param type="13" srctype="4" data="step_time" Index="2" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP94">
+            <Param type="13" srctype="4" data="AUTOP95" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="0" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="6">
+            <Param type="13" bool="true" srctype="1" data="AUTOP94" Index="0" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP97">
+            <Param type="13" srctype="4" data="add_type" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="0" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="3">
+            <Param type="13" bool="true" srctype="1" data="AUTOP97" Index="0" />
+        </Line>
+        <Line Type="2" Event="3202" Name="AUTOP99">
+            <Param type="13" srctype="8" data="player_pid" Index="0" />
+            <Param type="6" data="Coin_Dota" Index="1" />
+        </Line>
+        <Line Type="2" Event="5075" Name="AUTOP98">
+            <Param type="13" srctype="4" data="AUTOP99" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="13" srctype="4" data="add_num" Index="2" />
+        </Line>
+        <Line Type="1" Event="3203">
+            <Param type="13" srctype="8" data="player_pid" Index="0" />
+            <Param type="6" data="Coin_Dota" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP98" Index="2" />
+        </Line>
+        <Line Type="7" IncludeLines="0" />
+        <Line Type="7" IncludeLines="0" />
+        <Line Type="1" Event="4720">
+            <Param type="13" srctype="4" data="create_time" Index="0" />
+        </Line>
+        <Line Type="2" Event="5075" Name="item_rows">
+            <Param type="13" srctype="4" data="item_rows" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="1" Index="2" />
+        </Line>
+        <Line Type="7" IncludeLines="0" />
+        <Line Type="2" Event="5075" Name="record_rows">
+            <Param type="13" srctype="4" data="record_rows" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="1" Index="2" />
+        </Line>
+    </Base>
+</Processor>

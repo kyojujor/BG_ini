@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!-- edited with XMLSpy v2009 (http://www.altova.com) by caoyt (EMBRACE) -->
+<Object>
+	<Property ID="9001" GirdX="1" GirdY="2" FatherTask="" ChildTask="9002" IsHide="1" LastTask=""/>
+	<Property ID="9002" GirdX="2" GirdY="2" FatherTask="9001" ChildTask="9003" IsHide="1" LastTask=""/>
+	<Property ID="9003" GirdX="3" GirdY="2" FatherTask="9002" ChildTask="9004" IsHide="1" LastTask=""/>
+	<Property ID="9004" GirdX="4" GirdY="2" FatherTask="9003" ChildTask="9006" IsHide="1" LastTask=""/>
+	<Property ID="9006" GirdX="5" GirdY="2" FatherTask="9004" ChildTask="9007" IsHide="1" LastTask=""/>
+	<Property ID="9007" GirdX="6" GirdY="2" FatherTask="9006" ChildTask="9008" IsHide="1" LastTask=""/>
+	<Property ID="9008" GirdX="7" GirdY="2" FatherTask="9007" ChildTask="9009" IsHide="1" LastTask=""/>
+	<Property ID="9009" GirdX="8" GirdY="2" FatherTask="9008" ChildTask="9010" IsHide="1" LastTask=""/>
+	<Property ID="9010" GirdX="9" GirdY="2" FatherTask="9009" ChildTask="9012" IsHide="1" LastTask=""/>
+	<Property ID="9012" GirdX="10" GirdY="2" FatherTask="9010" ChildTask="9014" IsHide="1" LastTask=""/>
+	<Property ID="9014" GirdX="11" GirdY="2" FatherTask="9012" ChildTask="9016" IsHide="1" LastTask=""/>
+	<Property ID="9016" GirdX="12" GirdY="2" FatherTask="9014" ChildTask="9017" IsHide="1" LastTask=""/>
+	<Property ID="9017" GirdX="13" GirdY="2" FatherTask="9016" ChildTask="9018" IsHide="1" LastTask=""/>
+	<Property ID="9018" GirdX="14" GirdY="2" FatherTask="9017" ChildTask="" IsHide="1" LastTask="1"/>
+</Object>

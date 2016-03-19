@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<Object>
+	<Property ID="16074" GirdX="1" GirdY="2" FatherTask="" ChildTask="16075" IsHide="1" LastTask=""/>
+	<Property ID="16075" GirdX="2" GirdY="2" FatherTask="16074" ChildTask="16076" IsHide="1" LastTask=""/>
+	<Property ID="16076" GirdX="3" GirdY="2" FatherTask="16075" ChildTask="16077" IsHide="1" LastTask=""/>
+	<Property ID="16077" GirdX="4" GirdY="2" FatherTask="16076" ChildTask="16078" IsHide="1" LastTask=""/>
+	<Property ID="16078" GirdX="5" GirdY="2" FatherTask="16077" ChildTask="16079" IsHide="1" LastTask=""/>
+	<Property ID="16079" GirdX="6" GirdY="2" FatherTask="16078" ChildTask="16080" IsHide="1" LastTask=""/>
+	<Property ID="16080" GirdX="7" GirdY="2" FatherTask="16079" ChildTask="16081" IsHide="1" LastTask=""/>
+	<Property ID="16081" GirdX="8" GirdY="2" FatherTask="16080" ChildTask="16082" IsHide="1" LastTask=""/>
+	<Property ID="16082" GirdX="9" GirdY="2" FatherTask="16081" ChildTask="16083" IsHide="1" LastTask=""/>
+	<Property ID="16083" GirdX="10" GirdY="2" FatherTask="16082" ChildTask="16084" IsHide="1" LastTask=""/>
+	<Property ID="16084" GirdX="11" GirdY="2" FatherTask="16083" ChildTask="16085" IsHide="1" LastTask=""/>
+	<Property ID="16085" GirdX="12" GirdY="2" FatherTask="16084" ChildTask="16086" IsHide="1" LastTask=""/>
+	<Property ID="16086" GirdX="13" GirdY="2" FatherTask="16085" ChildTask="16087" IsHide="1" LastTask=""/>
+	<Property ID="16087" GirdX="14" GirdY="2" FatherTask="16086" ChildTask="16088" IsHide="1" LastTask=""/>
+	<Property ID="16088" GirdX="15" GirdY="2" FatherTask="16087" ChildTask="16090" IsHide="1" LastTask=""/>
+	<Property ID="16090" GirdX="16" GirdY="2" FatherTask="16088" ChildTask="16092" IsHide="1" LastTask=""/>
+	<Property ID="16092" GirdX="17" GirdY="2" FatherTask="16090" ChildTask="16093" IsHide="1" LastTask=""/>
+	<Property ID="16093" GirdX="18" GirdY="2" FatherTask="16092" ChildTask="16096" IsHide="1" LastTask=""/>
+	<Property ID="16096" GirdX="19" GirdY="2" FatherTask="16093" ChildTask="16097" IsHide="1" LastTask=""/>
+	<Property ID="16097" GirdX="20" GirdY="2" FatherTask="16096" ChildTask="16100" IsHide="1" LastTask=""/>
+	<Property ID="16100" GirdX="21" GirdY="2" FatherTask="16097" ChildTask="16101" IsHide="1" LastTask=""/>
+	<Property ID="16101" GirdX="22" GirdY="2" FatherTask="16100" ChildTask="16102" IsHide="1" LastTask=""/>
+	<Property ID="16102" GirdX="23" GirdY="2" FatherTask="16101" ChildTask="16103,16104" IsHide="1" LastTask=""/>
+	<Property ID="16103" GirdX="24" GirdY="1" FatherTask="16102" ChildTask="16105" IsHide="1" LastTask=""/>
+	<Property ID="16104" GirdX="25" GirdY="3" FatherTask="16102" ChildTask="16106" IsHide="1" LastTask=""/>
+	<Property ID="16105" GirdX="26" GirdY="1" FatherTask="16103" ChildTask="" IsHide="1" LastTask="1"/>
+	<Property ID="16106" GirdX="27" GirdY="3" FatherTask="16104" ChildTask="" IsHide="1" LastTask="1"/>
+</Object>

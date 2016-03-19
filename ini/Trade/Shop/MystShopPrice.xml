@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 神秘商人价格包 -->
+<!-- ID                                 价格包ID                                            string -->
+<!-- CapitalType                        货币类型                                                int -->
+<!-- PriceList                          价格列表   1-10级价格,11-20级价格...                  string -->
+<Object>
+	<Property ID="Price_101_001" CapitalType="4" PriceList="1,2,19,81"/>
+	<Property ID="Price_102_001" CapitalType="4" PriceList="1,2,19,81"/>
+	<Property ID="Price_103_001" CapitalType="4" PriceList="1,2,19,81"/>
+	<Property ID="Price_104_001" CapitalType="4" PriceList="2,3,27,115"/>
+	<Property ID="Price_107_001" CapitalType="4" PriceList="0,2,14,58"/>
+	<Property ID="Price_108_001" CapitalType="4" PriceList="1,2,19,81"/>
+	<Property ID="Price_114_001" CapitalType="4" PriceList="2,3,27,115"/>
+	<Property ID="Price_118_001" CapitalType="4" PriceList="2,3,27,115"/>
+	<Property ID="Price_124_001" CapitalType="4" PriceList="0,2,14,58"/>
+	<Property ID="Price_139_001" CapitalType="4" PriceList="0,1,9,36"/>
+	<Property ID="Price_140_001" CapitalType="4" PriceList="0,1,9,36"/>
+	<Property ID="Price_141_001" CapitalType="4" PriceList="0,2,15,65"/>
+	<Property ID="Price_142_001" CapitalType="4" PriceList="0,1,10,44"/>
+	<Property ID="Price_143_001" CapitalType="4" PriceList="0,1,9,36"/>
+	<Property ID="Price_145_001" CapitalType="4" PriceList="0,1,9,36"/>
+	<Property ID="Price_146_001" CapitalType="4" PriceList="0,1,9,36"/>
+	<Property ID="Price_147_001" CapitalType="4" PriceList="0,2,14,58"/>
+	<Property ID="Price_148_001" CapitalType="4" PriceList="0,2,15,65"/>
+	<Property ID="Price_149_001" CapitalType="4" PriceList="0,1,10,44"/>
+	<Property ID="Price_150_001" CapitalType="4" PriceList="0,1,10,44"/>
+</Object>

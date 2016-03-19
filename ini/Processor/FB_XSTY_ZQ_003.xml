@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes" ?>
+<Processor>
+    <Base type="object" version="1.0">
+        <Line Type="2" Event="2002" Name="AUTOP2" />
+        <Line Type="2" Event="3011" Name="AUTOP1">
+            <Param type="13" srctype="8" data="AUTOP2" Index="0" />
+            <Param type="6" data="GroupID" Index="1" />
+        </Line>
+        <Line Type="1" Event="5020">
+            <Param type="4" data="2360.942" Index="0" />
+            <Param type="4" data="10.000" Index="1" />
+            <Param type="4" data="2815.113" Index="2" />
+            <Param type="4" data="-1.633" Index="3" />
+            <Param type="6" data="npc_FB103_0044" Index="4" />
+            <Param type="6" data="chuansongmen" Index="5" />
+            <Param type="13" srctype="2" data="AUTOP1" Index="6" />
+        </Line>
+        <Line Type="2" Event="2002" Name="AUTOP3" />
+        <Line Type="1" Event="4604">
+            <Param type="13" srctype="8" data="AUTOP3" Index="0" />
+            <Param type="2" data="609" Index="1" />
+            <Param type="2" data="2" Index="2" />
+        </Line>
+    </Base>
+</Processor>

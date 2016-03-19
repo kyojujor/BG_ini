@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+	<Property ID="50514" EventType="5" TargetType="2" FuncNo="2"/>
+	<Property ID="50516" EventType="5" TargetType="2" FuncNo="1" BuffID="Monster_Dota_ZQBuff01"/>
+	<Property ID="50517" EventType="5" TargetType="2" FuncNo="7"/>
+	<Property ID="50531" EventType="3" TargetType="2" FuncNo="1" BuffID="Buff_tiao_ry_01"/>
+	<Property ID="51516" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_FB_tiaodiya_0007_01"/>
+	<Property ID="51517" EventType="5" TargetType="2" FuncNo="1" BuffID="Buff_FB_tiaodiya_0007_02"/>
+	<Property ID="81201" Name="耗魔" EventType="3" TargetType="0" FuncNo="1" BuffID="FB_YHDX_ptnpc_005_buff01"/>
+	<Property ID="81202" Name="减速" EventType="6" TargetType="0" FuncNo="1" BuffID="FB_YHDX_ptnpc_007_buff01"/>
+	<Property ID="81203" Name="地刺" EventType="5" TargetType="0" FuncNo="13" FendLockTime="750" FendDistance="3" FendAction="knockback" DefaultFendAction="knockback" FendIsCanMove="0"/>
+	<Property ID="81204" EventType="3" TargetType="0" FuncNo="531" Name="跳砍" NTChargeType="0" NTChargeSpeed="5" NTChargeDist="5"/>
+	<Property ID="82401" Name="蛛丝" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_FB_YHDX_0010_01"/>
+	<Property ID="82404" Name="暗影波" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_FB_YHDX_boss_0026_03"/>
+	<Property ID="82405" Name="暗影守护" EventType="4" TargetType="2" FuncNo="1" BuffID="Buff_FB_YHDX_boss_0026_04"/>
+	<Property ID="81216" Name="击退" EventType="5" TargetType="0" FuncNo="13" FendLockTime="800" FendDistance="3" FendAction="knockback" FendIsCanMove="0" DefaultFendAction="knockback"/>
+	<Property ID="330022" Name="锐意之击" EventType="5" TargetType="2" FuncNo="6" IsFormula="0" Attribute="AV" Formula="20" AllowNegative="0"/>
+	<Property ID="82408" Name="紧急维修" EventType="2" TargetType="2" FuncNo="2" NPCConfigID="monster_ceshi_0007" NPCCreateCount="1" NPCLifeTime="15000" NPCTargetPosType="2" NPCCreatePosType="4" NPCDistance="10" NPCAngle="45"/>
+	<Property ID="824082" Name="紧急维修" EventType="2" TargetType="2" FuncNo="2" NPCConfigID="monster_ceshi_0004" NPCCreateCount="1" NPCLifeTime="15000" NPCTargetPosType="2" NPCCreatePosType="4" NPCDistance="10" NPCAngle="135"/>
+	<Property ID="824083" Name="紧急维修" EventType="2" TargetType="2" FuncNo="2" NPCConfigID="monster_ceshi_0005" NPCCreateCount="1" NPCLifeTime="15000" NPCTargetPosType="2" NPCCreatePosType="4" NPCDistance="10" NPCAngle="225"/>
+	<Property ID="824084" Name="紧急维修" EventType="2" TargetType="2" FuncNo="2" NPCConfigID="monster_ceshi_0006" NPCCreateCount="1" NPCLifeTime="15000" NPCTargetPosType="2" NPCCreatePosType="4" NPCDistance="10" NPCAngle="315"/>
+	<Property ID="82409" Name="加血" EventType="5" TargetType="0" FuncNo="5" IsHealFormula="1" HealFormula="$MaxHP*0.0025" HealTargetType="0"/>
+	<Property ID="82410" Name="减速" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_FB_YHDX_0010_02"/>
+	<Property ID="824042" Name="暗影波-击飞" EventType="5" TargetType="0" FuncNo="16" KnockFlyLockTime="1000" KnockFlyDistance="3" KnockFlySpeed="3" GravityParam="-9.8" DownLandAction="flydown" FlyKnockDownAction="down" FlyDownLoopAction="kickout" DownLandLoopAction="downloop" FlyGetUpAction="downup" KnockFlyIsCanMove="0"/>
+	<Property ID="812162" Name="滚石-光环" EventType="6" TargetType="2" FuncNo="1" BuffID="FB_YHDX_ptnpc_002_buff01"/>
+	<Property ID="81208" Name="花囊" EventType="5" TargetType="0" FuncNo="533" SPNPCConfigID="Fight_1_00066" SPNPCCreateCount="1" SPNPCLifeTime="3000" SPNPCBuffID="FB_YHDX_ptnpc_007_buff01"/>
+	<Property ID="81209" Name="魔化厚皮" EventType="5" TargetType="0" FuncNo="1" BuffID="FB_YHDX_ptnpc_006_buff01"/>
+	<Property ID="812022" Name="花囊" EventType="3" TargetType="0" FuncNo="54" TriggerEventID="12082314355638"/>
+	<Property ID="812023" Name="花囊预判" EventType="2" TargetType="0" FuncNo="533" SPNPCConfigID="monster_qhm002_0054" SPNPCCreateCount="1" SPNPCLifeTime="3000"/>
+	<Property ID="81212" Name="击晕" EventType="5" TargetType="0" FuncNo="109" EffectType="1" EffectTime="3000"/>
+	<Property ID="812042" Name="限制转身" EventType="3" TargetType="2" FuncNo="1" BuffID="FB_YHDX_Boss_0103_05_buff01"/>
+	<Property ID="81229" Name="暗影诅咒" EventType="6" TargetType="2" FuncNo="1" BuffID="Buff_FB_YHDX_boss_0026_09"/>
+	<Property ID="81230" Name="暗影诅咒" EventType="5" TargetType="1" FuncNo="2" NPCConfigID="monster_yinxing_0001" NPCCreateCount="1" NPCLifeTime="900000" NPCTargetPosType="0" NPCCreatePosType="1" NPCRandomRadius="10" NPCBuffID="Buff_FB_YHDX_boss_0026_10"/>
+	<Property ID="812071" Name="能量释放" EventType="3" TargetType="2" FuncNo="1" BuffID="FB_YHDX_Boss_0026_08_buff01"/>
+	<Property ID="81266" Name="减速" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_FB_YHDX_0010_02"/>
+	<Property ID="83001" Name="毒针" EventType="5" TargetType="0" FuncNo="1" BuffID="FB_YHDX_ptnpc_007_buff01"/>
+	<Property ID="223445" NPCConfigID="FB_TNJT_MS_16" NPCCreateCount="1" NPCLifeTime="300000" NPCTargetPosType="2" NPCCreatePosType="4" NPCDistance="7.7" NPCAngle="30" EventType="6" TargetType="2" FuncNo="2"/>
+	<Property ID="223446" NPCConfigID="FB_TNJT_MS_17" NPCCreateCount="1" NPCLifeTime="300000" NPCTargetPosType="2" NPCCreatePosType="4" NPCDistance="7.7" NPCAngle="330" EventType="6" TargetType="2" FuncNo="2"/>
+	<Property ID="81304" Name="狂暴" EventType="6" TargetType="2" FuncNo="1" BuffID="Buff_FB_YHDX_0007_02"/>
+	<Property ID="82206" Name="雷击" EventType="5" TargetType="1" FuncNo="109" EffectType="3" EffectTime="3000"/>
+	<Property ID="81841" Name="吸血" EventType="5" TargetType="2" FuncNo="5" IsHealFormula="1" HealFormula="@MinPhyAttack*0.3" HealTargetType="1" HealSenderType="0"/>
+	<Property ID="818411" Name="吸血" EventType="2" TargetType="2" FuncNo="1" BuffID="Buff_FB_YHDX_0010_03" Condition="818411&amp;818412"/>
+	<Property ID="824101" Name="毒素" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_FB_YHDX_0010_04"/>
+	<Property ID="82092" EventType="3" TargetType="2" FuncNo="531" Name="跳砍" NTChargeType="0" NTChargeSpeed="6" NTChargeDist="6"/>
+	<Property ID="820921" EventType="6" TargetType="2" FuncNo="18" Name="跳砍" UseSkillID="FB_YHDX_Boss_0103_08"/>
+	<Property ID="82099" Name="神秘之光" EventType="2" TargetType="2" FuncNo="1" BuffID="Buff_FB_ptnpc_008"/>
+	<Property ID="812041" EventType="4" TargetType="2" FuncNo="54" Name="跳砍" TriggerEventID="all_skill_tongyong_zp"/>
+	<Property ID="81843" EventType="4" TargetType="2" FuncNo="54" Name="暗影雷暴" TriggerEventID="all_skill_tongyong_zp"/>
+	<Property ID="82112" Name="毒雾" EventType="6" TargetType="2" FuncNo="1" BuffID="Buff_FB_YHDX_boss_0026_02_01"/>
+	<Property ID="821121" Name="召唤毒雾" EventType="5" TargetType="0" FuncNo="2" NPCConfigID="monster_qhm002_0054" NPCCreateCount="1" NPCLifeTime="3000" NPCTargetPosType="0" NPCCreatePosType="1" NPCRandomRadius="1" Condition="82112"/>
+	<Property ID="812121" Name="击晕" EventType="6" TargetType="2" FuncNo="54" TriggerEventID="FB_YHDX_110"/>
+	<Property ID="91250" Name="落石" EventType="3" TargetType="2" FuncNo="55" NPCConfigID="FB_105KN_0049" CallPetType="3" PetCount="12"/>
+	<Property ID="91251" Name="火光" EventType="5" TargetType="0" FuncNo="508" DragSpeed="10"/>
+	<Property ID="91252" Name="击飞" EventType="5" TargetType="0" FuncNo="16" KnockFlyLockTime="1500" KnockFlyDistance="5" KnockFlySpeed="3" GravityParam="-10" FlyKnockDownAction="down" FlyDownLoopAction="downloop" FlyGetUpAction="downup" KnockFlyIsCanMove="0"/>
+	<Property ID="86250" Name="流血" EventType="5" TargetType="0" FuncNo="1" BuffID="BUFF_fb_llqd_027_16"/>
+	<Property ID="86251" Name="眩晕" EventType="5" TargetType="0" FuncNo="109" EffectType="1" EffectTime="3000"/>
+	<Property ID="91400" Name="中毒" EventType="5" TargetType="0" FuncNo="1" BuffID="BUFF_fb_llqd_030_16"/>
+	<Property ID="86252" Name="击倒" EventType="5" TargetType="0" FuncNo="14" KnockDownLockTime="1000" KnockDownAction="downloop" GetUpAction="downup"/>
+	<Property ID="86253" Name="击退" EventType="5" TargetType="0" FuncNo="13" FendLockTime="1000" FendDistance="3" FendAction="knockback" DefaultFendAction="knockback"/>
+	<Property ID="86254" Name="铁铠" EventType="6" TargetType="2" FuncNo="1" BuffID="BUFF_fb_llqd_035_16"/>
+	<Property ID="86256" Name="回复" EventType="5" TargetType="0" FuncNo="5" IsHealFormula="1" HealFormula="$MaxHP*0.3" HealTargetType="0"/>
+	<Property ID="91401" Name="减速" EventType="5" TargetType="0" FuncNo="1" BuffID="BUFF_fb_llqd_044_16"/>
+	<Property ID="91253" Name="后续" EventType="3" TargetType="2" FuncNo="2" NPCTargetPosType="2" NPCCreatePosType="1" NPCRandomRadius="0" NPCCreateCount="1" NPCConfigID="FB_105KN_nd01" NPCLifeTime="5000"/>
+	<Property ID="91254" Name="生成NPC" EventType="2" TargetType="2" FuncNo="2" NPCConfigID="FB_105KN_nd02" NPCCreateCount="1" NPCLifeTime="5000" NPCTargetPosType="2" NPCCreatePosType="1" NPCRandomRadius="0"/>
+	<Property ID="80200" Name="生成NPC" EventType="6" TargetType="2" FuncNo="2" NPCConfigID="fb_llqd_011" NPCCreateCount="1" NPCTargetPosType="2" NPCCreatePosType="1" NPCRandomRadius="5"/>
+	<Property ID="80406" EventType="2" TargetType="2" FuncNo="54" TriggerEventID="102_bosstalk_01"/>
+	<Property ID="80407" EventType="2" TargetType="2" FuncNo="54" TriggerEventID="102_bosstalk_02"/>
+	<Property ID="80408" EventType="2" TargetType="2" FuncNo="54" TriggerEventID="102_bosstalk_03"/>
+	<Property ID="80409" EventType="2" TargetType="2" FuncNo="54" TriggerEventID="105_bosstalk_01"/>
+	<Property ID="80410" EventType="2" TargetType="2" FuncNo="54" TriggerEventID="105_bosstalk_03"/>
+	<Property ID="80411" EventType="2" TargetType="2" FuncNo="54" TriggerEventID="105_bosstalk_04"/>
+	<Property ID="912541" Name="生成NPC" EventType="2" TargetType="2" FuncNo="2" NPCConfigID="FB_105KN_nd04" NPCCreateCount="1" NPCLifeTime="5000" NPCTargetPosType="2" NPCCreatePosType="1" NPCRandomRadius="0"/>
+	<Property ID="912531" Name="后续" EventType="3" TargetType="2" FuncNo="2" NPCTargetPosType="2" NPCCreatePosType="1" NPCRandomRadius="0" NPCCreateCount="1" NPCConfigID="FB_105KN_nd03" NPCLifeTime="5000"/>
+	<Property ID="46094" Name="生成骷髅NPC" EventType="6" TargetType="2" FuncNo="2" NPCConfigID="FB_SLZD_0064" NPCCreateCount="1" NPCTargetPosType="2" NPCCreatePosType="1" NPCRandomRadius="5"/>
+	<Property ID="46097" Name="生成鱼人NPC" EventType="6" TargetType="2" FuncNo="2" NPCConfigID="FB_SLZD_0078" NPCCreateCount="1" NPCTargetPosType="2" NPCCreatePosType="1" NPCRandomRadius="5"/>
+	<Property ID="80100" Name="暗影守护" EventType="4" TargetType="2" FuncNo="1" BuffID="Buff_FB_YHDX_boss_0026_018"/>
+	<Property ID="80102" Name="荆棘盾" EventType="6" TargetType="2" FuncNo="1" BuffID="BUFF_FB_DGPD_0056_016"/>
+	<Property ID="80103" Name="黑洞" EventType="5" TargetType="2" FuncNo="2" NPCConfigID="FB_DGPD_0082" NPCCreateCount="1" NPCLifeTime="1000" NPCCreatePosType="4" NPCDistance="0" NPCAngle="0"/>
+	<Property ID="80104" Name="黑洞" EventType="5" TargetType="0" FuncNo="508" DragSpeed="5"/>
+	<Property ID="80105" Name="黑暗沼泽" EventType="6" TargetType="2" FuncNo="2" NPCConfigID="FB_DGPD_0083" NPCCreateCount="1" NPCLifeTime="10000" NPCTargetPosType="0" NPCCreatePosType="1" NPCRandomRadius="10"/>
+	<Property ID="80106" Name="狂战之力" EventType="6" TargetType="2" FuncNo="1" BuffID="BUFF_FB_DGPD_0057_016"/>
+	<Property ID="80111" Name="暗影球" EventType="5" TargetType="0" FuncNo="507" LinkageType="7" IsFomula="1" DamageFomula="@MaxMagicAttack" EffectID="BG_effect_action_79905" ChainCount="5" MaxNodeDist="10" MaxSenderDist="20" EffectSpeed="35" ReduceMul="100"/>
+	<Property ID="80112" Name="激光扫射" EventType="3" TargetType="2" FuncNo="1" BuffID="BUFF_FB_YHDX_Boss_0026_010"/>
+</Object>
+
+

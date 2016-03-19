@@ -1,0 +1,30 @@
+<root version="1.0">
+    <node type="0" name="亡语湿地" desc="亡语湿地">
+        <node type="1" name="wangyu_ItemNpc.xml" path="wangyu_ItemNpc.xml" desc="亡语湿地触发器类,物件类Npc" />
+        <node type="1" name="wangyu_monsterNpc.xml" path="wangyu_monsterNpc.xml" desc="亡语湿地怪物Npc" />
+        <node type="1" name="wangyu_FuncNpc.xml" path="wangyu_FuncNpc.xml" desc="亡语湿地功能Npc" />
+        <node type="1" name="wangyu_TriggerNpc.xml" path="wangyu_TriggerNpc.xml" desc="亡语湿地触发器" />
+        <node type="1" name="wangyu_TaskNpc.xml" path="wangyu_TaskNpc.xml" desc="亡语湿地任务Npc" />
+    </node>
+    <node type="0" name="噩梦环岛" desc="噩梦环岛">
+        <node type="1" name="emeng_ItemNpc.xml" path="emeng_ItemNpc.xml" desc="噩梦环岛触发器类,物件类Npc" />
+        <node type="1" name="emeng_monsterNpc.xml" path="emeng_monsterNpc.xml" desc="噩梦环岛怪物Npc" />
+        <node type="1" name="emeng_FuncNpc.xml" path="emeng_FuncNpc.xml" desc="噩梦环岛功能Npc" />
+        <node type="1" name="emeng_TriggerNpc.xml" path="emeng_TriggerNpc.xml" desc="噩梦环岛触发器" />
+        <node type="1" name="emeng_TaskNpc.xml" path="emeng_TaskNpc.xml" desc="噩梦环岛任务Npc" />
+    </node>
+    <node type="0" name="怒风群山" desc="怒风群山">
+        <node type="1" name="nufeng_ItemNpc.xml" path="nufeng_ItemNpc.xml" desc="怒风群山触发器类,物件类Npc" />
+        <node type="1" name="nufeng_monsterNpc.xml" path="nufeng_monsterNpc.xml" desc="怒风群山怪物Npc" />
+        <node type="1" name="nufeng_FuncNpc.xml" path="nufeng_FuncNpc.xml" desc="怒风群山功能Npc" />
+        <node type="1" name="nufeng_TriggerNpc.xml" path="nufeng_TriggerNpc.xml" desc="怒风群山触发器" />
+        <node type="1" name="nufeng_TaskNpc.xml" path="nufeng_TaskNpc.xml" desc="怒风群山任务Npc" />
+    </node>
+    <node type="0" name="灵心山脉" desc="灵心山脉">
+        <node type="1" name="lingxin_ItemNpc.xml" path="lingxin_ItemNpc.xml" desc="灵心山脉触发器类,物件类Npc" />
+        <node type="1" name="lingxin_monsterNpc.xml" path="lingxin_monsterNpc.xml" desc="灵心山脉怪物Npc" />
+        <node type="1" name="lingxin_FuncNpc.xml" path="lingxin_FuncNpc.xml" desc="灵心山脉功能Npc" />
+        <node type="1" name="lingxin_TriggerNpc.xml" path="lingxin_TriggerNpc.xml" desc="灵心山脉触发器" />
+        <node type="1" name="lingxin_TaskNpc.xml" path="lingxin_TaskNpc.xml" desc="灵心山脉任务Npc" />
+    </node>
+</root>

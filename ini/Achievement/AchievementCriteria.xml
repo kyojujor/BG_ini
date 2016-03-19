@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<Object>
+	<!--	
+CriteriaType编号对应事件
+击杀生物        1
+战场胜利        2
+等级提升        3
+生活职业        4
+完成成就        5
+完成任务        6
+商城购买物品    7
+组队            8
+装备物品        9
+获得金钱        10
+获取物品        11
+使用物品        12
+属性增加        13
+增加好友        14
+扩展仓库        15
+扩展背包        16
+获得观赏宠物    17
+获得座骑        18
+界碑传送        19
+改变好友度      20
+获得荣誉        21
+事件            22
+完成副本        23
+声望崇拜        24
+荣誉击杀        25
+掷骰子          26
+PVP任务         27
+活跃度          28
+实力评分        29
+公会职位        30
+排行榜          31
+道具功能        32
+			
+	       子模板编号  子模板对应事件类型  附加条件(属性名,比较符,值)  进度最大数量  子模板文字        货币来源(1拾取2奖励包)  货币类型         任务编号     事件编号     成就编号  	       PVP任务编号    时间限制(单位:小时)  道具功能       声望势力ID    掷骰子模式(1贪婪2需求)	掷骰子点数		场景编号      副本难度             公会职位            排行榜类型     排行榜阵营     名次 -->
+	<Property ID="-1"  CriteriaType="0"    CriteriaConditionData="1"   MaxCount="2"  CriteriaDesc="3"  CapitalSource="4"       CapitalType="5"  QuestID="6"  EventID="7"  AchievementID="8"  PVPTaskID="9"  LimitTime="10"       ItemFunc="11"  ForceID="12"  DiceMode="13"           DiceNum="14"  SceneID="15"  CloneDifficult="16"  GuildPosition="17"  RankType="18"  RankCamp="19"  RankNum="20"/>
+	<Property ID="0"   CriteriaType="2"    CriteriaConditionData="6"   MaxCount="2"  CriteriaDesc="6"  CapitalSource="2"       CapitalType="2"  QuestID="2"  EventID="2"  AchievementID="2"  PVPTaskID="6"  LimitTime="2"        ItemFunc="2"   ForceID="2"   DiceMode="2"            DiceNum="2"   SceneID="2"   CloneDifficult="2"   GuildPosition="2"   RankType="2"   RankCamp="2"   RankNum="2"/>
+	<!--     杀·怪     -->
+	<!--Property ID="1" CriteriaType="1" CriteriaConditionData="ConfigID,==,monster_zqm001_0001" MaxCount="5" CriteriaDesc="击杀灰烬侦察兵"/>
+	<Property ID="2" CriteriaType="1" CriteriaConditionData="ConfigID,==,monster_zqm001_0069" MaxCount="1" CriteriaDesc="击杀荒鼠王"/>
+	<Property ID="3" CriteriaType="1" CriteriaConditionData="ConfigID,==,monster_zqm001_0069" MaxCount="1" CriteriaDesc="击杀荒鼠王"/>
+	<Property ID="4" CriteriaType="1" CriteriaConditionData="ConfigID,==,monster_zqm001_0004" MaxCount="5" CriteriaDesc="达戈菲尔研究员"/>
+	<Property ID="5" CriteriaType="1" CriteriaConditionData="ConfigID,==,monster_zqm001_0005" MaxCount="5" CriteriaDesc="灰烬密探"/>
+	<Property ID="6" CriteriaType="1" CriteriaConditionData="ConfigID,==,monster_zqm001_0006" MaxCount="5" CriteriaDesc="达戈菲尔机械兵"/>
+	<Property ID="7" CriteriaType="1" CriteriaConditionData="ConfigID,==,monster_zqm001_0008" MaxCount="5" CriteriaDesc="达戈菲尔补给队员"/>
+	<Property ID="8" CriteriaType="1" CriteriaConditionData="ConfigID,==,monster_zqm001_0009" MaxCount="5" CriteriaDesc="达戈菲尔刽子手"/>
+	<Property ID="9" CriteriaType="1" CriteriaConditionData="ConfigID,==,monster_zqm001_0012" MaxCount="5" CriteriaDesc="达戈菲尔刀斧手"/>
+	<Property ID="10" CriteriaType="1" CriteriaConditionData="ConfigID,==,monster_zqm001_0014" MaxCount="5" CriteriaDesc="达戈菲尔队长"/>
+	<Property ID="11" CriteriaType="1" CriteriaConditionData="ConfigID,==,monster_zqm001_0011" MaxCount="1" CriteriaDesc="大块头"/>
+	<Property ID="12" CriteriaType="1" CriteriaConditionData="ConfigID,==,monster_zqm001_0015" MaxCount="5" CriteriaDesc="无悯会短匕杀手"/>
+	<Property ID="13" CriteriaType="1" CriteriaConditionData="ConfigID,==,monster_zqm001_0016" MaxCount="5" CriteriaDesc="无悯会斧头杀手"/>
+	<Property ID="14" CriteriaType="1" CriteriaConditionData="ConfigID,==,monster_zqm001_0017" MaxCount="5" CriteriaDesc="无悯会斧头杀手"/>
+	<Property ID="15" CriteriaType="1" CriteriaConditionData="ConfigID,==,monster_zqm001_0018" MaxCount="5" CriteriaDesc="无悯会假面暗杀者"/>
+	<Property ID="16" CriteriaType="1" CriteriaConditionData="ConfigID,==,monster_zqm001_0019" MaxCount="5" CriteriaDesc="无悯会高级刺客"/-->
+	<!--     战·场     -->
+	<!--Property ID="17" CriteriaType="2" MaxCount="1" CriteriaDesc="艾利斯卡加山脉" SceneID="202"/>
+	<Property ID="18" CriteriaType="2" MaxCount="3" CriteriaDesc="艾利斯卡加山脉" SceneID="202"/>
+	<Property ID="19" CriteriaType="2" MaxCount="10" CriteriaDesc="艾利斯卡加山脉" SceneID="202"/>
+	<Property ID="20" CriteriaType="2" MaxCount="50" CriteriaDesc="艾利斯卡加山脉" SceneID="202"/-->
+	<!--     升·级     -->
+	<Property ID="21" CriteriaType="3" CriteriaConditionData="Level,==,20" MaxCount="1" CriteriaDesc="Achievement_criteria_21"/>
+	<Property ID="22" CriteriaType="3" CriteriaConditionData="Level,==,30" MaxCount="1" CriteriaDesc="Achievement_criteria_22"/>
+	<Property ID="23" CriteriaType="3" CriteriaConditionData="Level,==,40" MaxCount="1" CriteriaDesc="Achievement_criteria_23"/>
+	<!--                                             生活技能，（暂无）     -->
+	<!--Property ID="24" CriteriaType="4" CriteriaConditionData="Level,==,15" CriteriaDesc="等级达到15级" MaxCount="1"/-->
+	<!--     完成成就     -->
+	<!--Property ID="25" CriteriaType="5" CriteriaDesc="等级达到15级" AchievementID="1001"/>
+	<Property ID="26" CriteriaType="5" MaxCount="3" CriteriaDesc="完成3个成就"/>
+	<Property ID="27" CriteriaType="5" MaxCount="10" CriteriaDesc="完成10个成就"/>
+	<Property ID="28" CriteriaType="5" MaxCount="50" CriteriaDesc="完成50个成就"/>
+	<Property ID="29" CriteriaType="5" MaxCount="100" CriteriaDesc="完成100个成就"/-->
+	<!--     完成任务     -->
+	<!--Property ID="30" CriteriaType="6" MaxCount="1" CriteriaDesc="新兵的日常" QuestID="1"/>
+	<Property ID="31" CriteriaType="6" MaxCount="2" CriteriaDesc="新兵的考核" QuestID="2"/>
+	<Property ID="32" CriteriaType="6" MaxCount="2" CriteriaDesc="领取装备" QuestID="3"/>
+	<Property ID="33" CriteriaType="6" MaxCount="2" CriteriaDesc="守备的职责" QuestID="4"/-->
+	<Property ID="34" CriteriaType="6" MaxCount="10" CriteriaDesc="Achievement_criteria_34"/>
+	<!--Property ID="35" CriteriaType="6" MaxCount="50" CriteriaDesc="完成50个任务"/-->
+	<Property ID="36" CriteriaType="6" MaxCount="100" CriteriaDesc="Achievement_criteria_36"/>
+	<!--     装备物品     -->
+	<!--Property ID="37" CriteriaType="9" CriteriaConditionData="EquipType,==,Cloth;ColorLevel,>=,30" MaxCount="1" CriteriaDesc="装备30级以上的衣服"/>
+	<Property ID="38" CriteriaType="9" CriteriaConditionData="EquipType,==,Wrist;ColorLevel,>=,30" MaxCount="1" CriteriaDesc="装备30级以上的护腕"/>
+	<Property ID="39" CriteriaType="9" CriteriaConditionData="EquipType,==,Gloves;ColorLevel,>=,30" MaxCount="1" CriteriaDesc="装备30级以上的手套"/>
+	<Property ID="40" CriteriaType="9" CriteriaConditionData="EquipType,==,Pants;ColorLevel,>=,30" MaxCount="1" CriteriaDesc="装备30级以上的裤子"/>
+	<Property ID="41" CriteriaType="9" CriteriaConditionData="EquipType,==,Shoes;ColorLevel,>=,30" MaxCount="1" CriteriaDesc="装备30级以上的鞋子"/>
+	<Property ID="42" CriteriaType="9" CriteriaConditionData="EquipType,==,Hat;ColorLevel,>=,30" MaxCount="1" CriteriaDesc="装备30级以上的帽子"/>
+	<Property ID="43" CriteriaType="9" CriteriaConditionData="EquipType,==,Belt;ColorLevel,>=,30" MaxCount="1" CriteriaDesc="装备30级以上的腰带"/>
+	<Property ID="44" CriteriaType="9" CriteriaConditionData="EquipType,==,Mantle;ColorLevel,>=,30" MaxCount="1" CriteriaDesc="装备30级以上的披风"/>
+	<Property ID="45" CriteriaType="9" CriteriaConditionData="EquipType,==,Jewelry;ColorLevel,>=,30" MaxCount="1" CriteriaDesc="装备30级以上的项链"/>
+	<Property ID="46" CriteriaType="9" CriteriaConditionData="EquipType,==,Cloth;ColorLevel,>=,40" MaxCount="1" CriteriaDesc="装备40级以上的衣服"/>
+	<Property ID="47" CriteriaType="9" CriteriaConditionData="EquipType,==,Wrist;ColorLevel,>=,40" MaxCount="1" CriteriaDesc="装备40级以上的护腕"/>
+	<Property ID="48" CriteriaType="9" CriteriaConditionData="EquipType,==,Gloves;ColorLevel,>=,40" MaxCount="1" CriteriaDesc="装备40级以上的手套"/>
+	<Property ID="49" CriteriaType="9" CriteriaConditionData="EquipType,==,Pants;ColorLevel,>=,40" MaxCount="1" CriteriaDesc="装备40级以上的裤子"/>
+	<Property ID="50" CriteriaType="9" CriteriaConditionData="EquipType,==,Shoes;ColorLevel,>=,40" MaxCount="1" CriteriaDesc="装40级以上的鞋子"/>
+	<Property ID="51" CriteriaType="9" CriteriaConditionData="EquipType,==,Hat;ColorLevel,>=,40" MaxCount="1" CriteriaDesc="装备40级以上的帽子"/>
+	<Property ID="52" CriteriaType="9" CriteriaConditionData="EquipType,==,Belt;ColorLevel,>=,40" MaxCount="1" CriteriaDesc="装备40级以上的腰带"/>
+	<Property ID="53" CriteriaType="9" CriteriaConditionData="EquipType,==,Mantle;ColorLevel,>=,40" MaxCount="1" CriteriaDesc="装备40级以上的披风"/>
+	<Property ID="54" CriteriaType="9" CriteriaConditionData="EquipType,==,Jewelry;ColorLevel,>=,40" MaxCount="1" CriteriaDesc="装备40级以上的项链"/-->
+	<!--     获得金钱   -->
+	<Property ID="55" CriteriaType="10" MaxCount="100000" CriteriaDesc="Achievement_criteria_55" CapitalSource="1" CapitalType="1"/>
+	<Property ID="56" CriteriaType="10" MaxCount="10000000" CriteriaDesc="Achievement_criteria_56" CapitalSource="1" CapitalType="1"/>
+	<!--     获得物品   -->
+	<!--Property ID="57" CriteriaType="11" MaxCount="10" CriteriaDesc="获得10件物品"/>
+	<Property ID="58" CriteriaType="11" MaxCount="30" CriteriaDesc="获得30个黑金号角" CriteriaConditionData="ConfigID,==,Laba_00001"/>
+	<Property ID="59" CriteriaType="11" MaxCount="30" CriteriaDesc="获得30个电磁扩音器" CriteriaConditionData="ConfigID,==,Laba_00002"/-->
+	<!--     使用物品   -->
+	<!--Property ID="60" CriteriaType="12" CriteriaConditionData="ConfigID,==,Laba_00001" MaxCount="10" CriteriaDesc="使用10个黑金号角"/>
+	<Property ID="61" CriteriaType="12" CriteriaConditionData="ConfigID,==,Laba_00002" MaxCount="10" CriteriaDesc="使用10个电磁扩音器"/>
+	<Property ID="62" CriteriaType="12" CriteriaConditionData="ConfigID,==,Laba_00001" MaxCount="1" CriteriaDesc="使用黑金号角"/>
+	<Property ID="63" CriteriaType="12" CriteriaConditionData="ConfigID,==,Laba_00001" MaxCount="1" CriteriaDesc="使用电磁扩音器"/-->
+	<!--    属性增加 "Sta","Str","Dex","Ing","Spi","Esth"目前只有这6个  -->
+	<!--Property ID="64" CriteriaType="13" CriteriaConditionData="Str,==,1000" MaxCount="1" CriteriaDesc="力量达到1000点"/>
+	<Property ID="65" CriteriaType="13" CriteriaConditionData="Ing,==,3000" MaxCount="1" CriteriaDesc="法伤达到三千"/-->
+	<!--    增加好友  -->
+	<Property ID="66" CriteriaType="14" MaxCount="1" CriteriaDesc="Achievement_criteria_66"/>
+	<Property ID="67" CriteriaType="14" MaxCount="10" CriteriaDesc="Achievement_criteria_67"/>
+	<Property ID="68" CriteriaType="14" MaxCount="25" CriteriaDesc="Achievement_criteria_68"/>
+	<!--Property ID="69" CriteriaType="14" MaxCount="50" CriteriaDesc="拥有50个好友"/-->
+	<!--    扩展仓库  -->
+	<Property ID="70" CriteriaType="15" MaxCount="1" CriteriaDesc="Achievement_criteria_70"/>
+	<!--Property ID="71" CriteriaType="15" MaxCount="5" CriteriaDesc="扩展5次仓库"/>
+	<Property ID="72" CriteriaType="15" MaxCount="20" CriteriaDesc="扩展20次仓库"/-->
+	<!--    扩展背包  -->
+	<Property ID="73" CriteriaType="16" MaxCount="1" CriteriaDesc="Achievement_criteria_73"/>
+	<!--    获得观赏宠物  ...Server\Cons\Res\ini\Npc\NpcConfig\PetNpc-->
+	<!--Property ID="74" CriteriaType="17" CriteriaConditionData="ConfigID,==,Watch_0_00001" MaxCount="1" CriteriaDesc="获得大头泰尼犬"/>
+	<Property ID="75" CriteriaType="17" MaxCount="5" CriteriaDesc="获得5个宠物"/>
+	<Property ID="76" CriteriaType="17" CriteriaConditionData="ConfigID,==,Watch_0_00002" MaxCount="1" CriteriaDesc="获得夜鹰诺特"/>
+	<Property ID="77" CriteriaType="17" CriteriaConditionData="ConfigID,==,Watch_0_00003" MaxCount="1" CriteriaDesc="获得巴其兽"/-->
+	<!--    获得座骑  -->
+	<Property ID="78" CriteriaType="18" MaxCount="2" CriteriaDesc="Achievement_criteria_78"/>
+	<!--Property ID="79" CriteriaType="18" CriteriaConditionData="ConfigID,==,Mount_00001" MaxCount="1" CriteriaDesc="获得黑色披甲熊"/-->
+	<Property ID="80" CriteriaType="18" CriteriaConditionData="ConfigID,==,Mount_00002" MaxCount="1" CriteriaDesc="Achievement_criteria_80"/>
+	<Property ID="81" CriteriaType="18" CriteriaConditionData="ConfigID,==,Mount_00003" MaxCount="1" CriteriaDesc="Achievement_criteria_81"/>
+	<!--    改变好友度  -->
+	<!--Property ID="82" CriteriaType="20" MaxCount="100" CriteriaDesc="与一个好友好友度达到100"/-->
+	<!--    完成副本  -->
+	<!--Property ID="83" CriteriaType="23" MaxCount="100" CriteriaDesc="100次通关副本"/>
+	<Property ID="84" CriteriaType="23" MaxCount="50" CriteriaDesc="50次通关副本"/>
+	<Property ID="85" CriteriaType="23" MaxCount="10" CriteriaDesc="10次通关副本"/>
+	<Property ID="86" CriteriaType="23" MaxCount="1" CriteriaDesc="1次通关副本"/-->
+	<!--    荣誉击杀 -->
+	<Property ID="87" CriteriaType="25" MaxCount="1" CriteriaDesc="Achievement_criteria_87"/>
+	<Property ID="88" CriteriaType="25" MaxCount="10" CriteriaDesc="Achievement_criteria_88"/>
+	<!--Property ID="89" CriteriaType="25" MaxCount="100" CriteriaDesc="杀死100个玩家"/-->
+	<!--    掷骰子  -->
+	<!--Property ID="90" CriteriaType="26" MaxCount="1" CriteriaDesc="需求掷出100点" DiceMode="2" DiceNum="100"/>
+	<Property ID="91" CriteriaType="26" MaxCount="1" CriteriaDesc="贪婪掷出100点" DiceMode="1" DiceNum="100"/-->
+	<!--    以上为示例，ID必须按照顺序，中间跳过某个数字会报错  -->
+	<Property ID="92" CriteriaType="3" CriteriaConditionData="Level,==,12" MaxCount="1" CriteriaDesc="Achievement_criteria_92"/>
+	<Property ID="93" CriteriaType="18" MaxCount="3" CriteriaDesc="Achievement_criteria_93"/>
+	<Property ID="94" CriteriaType="18" MaxCount="5" CriteriaDesc="Achievement_criteria_94"/>
+	<!--Property ID="95" CriteriaType="16" MaxCount="5" CriteriaDesc="扩展5次背包"/>
+	<Property ID="96" CriteriaType="16" MaxCount="10" CriteriaDesc="扩展10次背包"/-->
+	<Property ID="97" CriteriaType="1" MaxCount="15" CriteriaDesc="Achievement_criteria_97"/>
+	<Property ID="98" CriteriaType="1" MaxCount="25" CriteriaDesc="Achievement_criteria_98"/>
+	<Property ID="99" CriteriaType="1" MaxCount="40" CriteriaDesc="Achievement_criteria_99"/>
+	<Property ID="100" CriteriaType="1" MaxCount="60" CriteriaDesc="Achievement_criteria_100"/>
+	<Property ID="101" CriteriaType="4" MaxCount="1" CriteriaDesc="Achievement_criteria_101"/>
+	<Property ID="102" CriteriaType="29" CriteriaConditionData="FightPower,>=,1000" MaxCount="1" CriteriaDesc="Achievement_criteria_102"/>
+	<Property ID="103" CriteriaType="19" MaxCount="1" CriteriaDesc="Achievement_criteria_103"/>
+	<Property ID="104" CriteriaType="8" MaxCount="1" CriteriaDesc="Achievement_criteria_104"/>
+	<Property ID="105" CriteriaType="28" MaxCount="100" CriteriaDesc="Achievement_criteria_105"/>
+	<Property ID="106" CriteriaType="30" MaxCount="1" CriteriaDesc="Achievement_criteria_106" GuildPosition="0"/>
+	<Property ID="107" CriteriaType="32" MaxCount="1" ItemFunc="1" CriteriaDesc="Achievement_criteria_107"/>
+	<Property ID="108" CriteriaType="32" MaxCount="1" ItemFunc="4" CriteriaDesc="Achievement_criteria_108"/>
+	<Property ID="109" CriteriaType="32" MaxCount="1" ItemFunc="5" CriteriaDesc="Achievement_criteria_109"/>
+	<Property ID="110" CriteriaType="7" MaxCount="1" CriteriaDesc="Achievement_criteria_110"/>
+	<Property ID="111" CriteriaType="23" MaxCount="1" CriteriaDesc="Achievement_criteria_111" SceneID="102" CloneDifficult="0"/>
+	<Property ID="112" CriteriaType="9" CriteriaConditionData="EquipType,==,Cloth;Level,>=,25" MaxCount="1" CriteriaDesc="Achievement_criteria_112"/>
+	<Property ID="113" CriteriaType="9" CriteriaConditionData="EquipType,==,Wrist;Level,>=,25" MaxCount="1" CriteriaDesc="Achievement_criteria_113"/>
+	<Property ID="114" CriteriaType="9" CriteriaConditionData="EquipType,==,Gloves;Level,>=,25" MaxCount="1" CriteriaDesc="Achievement_criteria_114"/>
+	<Property ID="115" CriteriaType="9" CriteriaConditionData="EquipType,==,Pants;Level,>=,25" MaxCount="1" CriteriaDesc="Achievement_criteria_115"/>
+	<Property ID="116" CriteriaType="9" CriteriaConditionData="EquipType,==,Shoes;Level,>=,25" MaxCount="1" CriteriaDesc="Achievement_criteria_116"/>
+	<Property ID="117" CriteriaType="9" CriteriaConditionData="EquipType,==,Hat;Level,>=,25" MaxCount="1" CriteriaDesc="Achievement_criteria_117"/>
+	<Property ID="118" CriteriaType="9" CriteriaConditionData="EquipType,==,Belt;Level,>=,25" MaxCount="1" CriteriaDesc="Achievement_criteria_118"/>
+	<Property ID="119" CriteriaType="9" CriteriaConditionData="EquipType,==,Mantle;Level,>=,25" MaxCount="1" CriteriaDesc="Achievement_criteria_119"/>
+	<Property ID="120" CriteriaType="9" CriteriaConditionData="EquipType,==,Neck;Level,>=,25" MaxCount="1" CriteriaDesc="Achievement_criteria_120"/>
+	<Property ID="121" CriteriaType="32" MaxCount="1" ItemFunc="2" CriteriaDesc="Achievement_criteria_121"/>
+	<Property ID="122" CriteriaType="32" MaxCount="1" ItemFunc="3" CriteriaDesc="Achievement_criteria_122"/>
+	<Property ID="123" CriteriaType="21" MaxCount="850" CriteriaDesc="Achievement_criteria_123"/>
+	<Property ID="124" CriteriaType="23" MaxCount="1" CriteriaDesc="Achievement_criteria_124" SceneID="115" CloneDifficult="0"/>
+	<Property ID="125" CriteriaType="23" MaxCount="1" CriteriaDesc="Achievement_criteria_125" SceneID="120" CloneDifficult="0"/>
+	<Property ID="126" CriteriaType="23" MaxCount="1" CriteriaDesc="Achievement_criteria_126" SceneID="114" CloneDifficult="0"/>
+	<Property ID="127" CriteriaType="23" MaxCount="1" CriteriaDesc="Achievement_criteria_127" CloneDifficult="1"/>
+	<Property ID="128" CriteriaType="31" MaxCount="1" CriteriaDesc="Achievement_criteria_128" RankNum="100"/><!-- 排行榜类型 1等级2财富4实力8荣誉16副本 -->
+	<Property ID="129" CriteriaType="9" CriteriaConditionData="ColorLevel,==,4" MaxCount="1" CriteriaDesc="Achievement_criteria_129"/>
+	<Property ID="130" CriteriaType="1" CriteriaConditionData="ConfigID,==,monster_zlm010_2002" MaxCount="1" CriteriaDesc="Achievement_criteria_130"/>
+	<Property ID="131" CriteriaType="23" MaxCount="5" CriteriaDesc="Achievement_criteria_131" CloneDifficult="0"/>
+	<Property ID="132" CriteriaType="27" MaxCount="5" CriteriaDesc="Achievement_criteria_132"/>
+	<Property ID="133" CriteriaType="2" MaxCount="1" CriteriaDesc="Achievement_criteria_133"/>
+	<Property ID="134" CriteriaType="22" MaxCount="5" CriteriaDesc="Achievement_criteria_134"/>
+	<Property ID="135" CriteriaType="12" MaxCount="5" CriteriaDesc="Achievement_criteria_135"/>
+	<!--新手成就-->
+	<Property ID="136" CriteriaType="3"  CriteriaConditionData="Level,==,5" MaxCount="1" CriteriaDesc="Achievement_criteria_136"/>
+	<Property ID="137" CriteriaType="3"  CriteriaConditionData="Level,==,10" MaxCount="1" CriteriaDesc="Achievement_criteria_137"/>
+	<Property ID="138" CriteriaType="3"  CriteriaConditionData="Level,==,13" MaxCount="1" CriteriaDesc="Achievement_criteria_138"/>
+	<Property ID="139" CriteriaType="3"  CriteriaConditionData="Level,==,18" MaxCount="1" CriteriaDesc="Achievement_criteria_139"/>
+	<Property ID="140" CriteriaType="3"  CriteriaConditionData="Level,==,23" MaxCount="1" CriteriaDesc="Achievement_criteria_140"/>
+	<Property ID="141" CriteriaType="3"  CriteriaConditionData="Level,==,28" MaxCount="1" CriteriaDesc="Achievement_criteria_141"/>
+	<Property ID="142" CriteriaType="3"  CriteriaConditionData="Level,==,32" MaxCount="1" CriteriaDesc="Achievement_criteria_142"/>
+	<Property ID="143" CriteriaType="3"  CriteriaConditionData="Level,==,34" MaxCount="1" CriteriaDesc="Achievement_criteria_143"/>
+	<Property ID="144" CriteriaType="3"  CriteriaConditionData="Level,==,36" MaxCount="1" CriteriaDesc="Achievement_criteria_144"/>
+	<Property ID="145" CriteriaType="3"  CriteriaConditionData="Level,==,38" MaxCount="1" CriteriaDesc="Achievement_criteria_145"/>
+	<Property ID="146" CriteriaType="3"  CriteriaConditionData="Level,==,40" MaxCount="1" CriteriaDesc="Achievement_criteria_146"/>
+	<Property ID="147" CriteriaType="1"  MaxCount="100" CriteriaDesc="Achievement_criteria_147"/>
+	<Property ID="148" CriteriaType="1"  MaxCount="300" CriteriaDesc="Achievement_criteria_148"/>
+	<Property ID="149" CriteriaType="1"  MaxCount="500" CriteriaDesc="Achievement_criteria_149"/>
+	<Property ID="150" CriteriaType="1"  MaxCount="800" CriteriaDesc="Achievement_criteria_150"/>
+	<Property ID="151" CriteriaType="1"  MaxCount="1000" CriteriaDesc="Achievement_criteria_151"/>
+	<Property ID="152" CriteriaType="1"  MaxCount="2000" CriteriaDesc="Achievement_criteria_152"/>
+	<Property ID="153" CriteriaType="1"  MaxCount="3000" CriteriaDesc="Achievement_criteria_153"/>
+	<Property ID="154" CriteriaType="1"  MaxCount="4000" CriteriaDesc="Achievement_criteria_154"/>
+	<Property ID="155" CriteriaType="1"  MaxCount="6000" CriteriaDesc="Achievement_criteria_155"/>
+	<Property ID="156" CriteriaType="1"  MaxCount="8000" CriteriaDesc="Achievement_criteria_156"/>
+	<Property ID="157" CriteriaType="1"  MaxCount="10000" CriteriaDesc="Achievement_criteria_157"/>
+	<Property ID="158" CriteriaType="2"  MaxCount="1" SceneID="202" CriteriaDesc="Achievement_criteria_158"/>
+	<Property ID="159" CriteriaType="2"  MaxCount="1" SceneID="201" CriteriaDesc="Achievement_criteria_159"/>
+	<Property ID="160" CriteriaType="8"  MaxCount="1" CriteriaDesc="Achievement_criteria_160"/>
+	<Property ID="161" CriteriaType="32"  MaxCount="1" ItemFunc="4" CriteriaDesc="Achievement_criteria_161"/>
+	<Property ID="162" CriteriaType="32"  MaxCount="1" ItemFunc="2" CriteriaDesc="Achievement_criteria_162"/>
+	<Property ID="163" CriteriaType="29" CriteriaConditionData="FightPower,>=,7000" MaxCount="1"  CriteriaDesc="Achievement_criteria_163"/>
+	<Property ID="164" CriteriaType="29" CriteriaConditionData="FightPower,>=,10000" MaxCount="1"  CriteriaDesc="Achievement_criteria_164"/>
+	<Property ID="165" CriteriaType="29" CriteriaConditionData="FightPower,>=,13000" MaxCount="1"  CriteriaDesc="Achievement_criteria_165"/>
+	<Property ID="166" CriteriaType="29" CriteriaConditionData="FightPower,>=,16000" MaxCount="1"  CriteriaDesc="Achievement_criteria_166"/>
+	<Property ID="167" CriteriaType="29" CriteriaConditionData="FightPower,>=,20000" MaxCount="1"  CriteriaDesc="Achievement_criteria_167"/>
+	<Property ID="168" CriteriaType="29" CriteriaConditionData="FightPower,>=,23000" MaxCount="1"  CriteriaDesc="Achievement_criteria_168"/>]
+	<Property ID="169" CriteriaType="29" CriteriaConditionData="FightPower,>=,26000" MaxCount="1"  CriteriaDesc="Achievement_criteria_169"/>
+</Object>

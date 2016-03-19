@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Stage>
+	<Object Guid="9E626E894DEF4D6CB9F95F5D0422D2AD" Desc="npc_ZQEW001_0001" config="npc_ZQEW001_0001" x="-1357.429932" y="60.601002" z="-158.317688" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="0.731809" IsPersistent="0"/>
+	<Object Guid="3AEE96FC8E184DA7BCF86D5D228B4C99" Desc="npc_ZQEW001_0002" config="npc_ZQEW001_0002" x="-1334.926636" y="39.713547" z="115.75631" amount="1" fOrg="-1.710002" IsPersistent="0" IsY="0" Radius="0" RefreshTime="30" PatrolMode="0" PatrolRange="0">
+		<Event EventId="23" Processor="kewei_nljbaogao"/>
+	</Object>
+	<Object Guid="11655C28571F4267B249E1CA2593531C" Desc="npc_ZQEW001_0003" config="npc_ZQEW001_0003" x="-1406.820923" y="30.111456" z="-249.352356" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="-0.594999" IsPersistent="0">
+		<Event EventId="22" Processor="kewei_nljnvjunguan"/>
+	</Object>
+	<Object Guid="8AB93DBB9DB0468CBD37519CDA1A1377" Desc="npc_ZQEW001_0004" config="npc_ZQEW001_0004" x="-1688.810425" y="29.774672" z="-103.426865" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" fOrg="1.645012" IsPersistent="0"/>
+	<Object Guid="A0C5078FE213492C87EE9C1D8A5711DB" Desc="npc_ZQEW001_0005" config="npc_ZQEW001_0005" x="-1312.191528" y="60.603004" z="-171.945343" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="-0.643188" IsPersistent="0"/>
+	<Object Guid="29F89FAF45DA42F89649F20B17480D70" Desc="npc_ZQEW001_0006" config="npc_ZQEW001_0006" x="-1482.240967" y="29.870245" z="-180.418732" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="1.495009" IsPersistent="0"/>
+	<Object Guid="D18749CA5A794C928929E8D9776FA197" Desc="npc_ZQEW001_0007" config="npc_ZQEW001_0007" x="-1398.415527" y="29.774132" z="16.951138" IsY="0" Radius="0" PeaceAction="pe_0h_stand9" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="-0.660007" IsPersistent="0">
+		<Event EventId="22" Processor="kewei_cangku"/>
+	</Object>
+	<Object Guid="5B5FBD0B232F4417BA0B7BA4B9A237D1" Desc="npc_ZQEW001_0008" config="npc_ZQEW001_0008" x="-1395.00061" y="29.774132" z="111.955879" IsY="0" Radius="0" PeaceAction="pe_0h_stand3" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="2.995003" IsPersistent="0">
+		<Event EventId="23" Processor="kewei_wuqishang"/>
+	</Object>
+	<Object Guid="AFE9E4FB34BF441CB532338DC8635D87" Desc="npc_ZQEW001_0009" config="npc_ZQEW001_0009" x="-1377.400146" y="29.847187" z="26.072855" IsY="0" Radius="0" PeaceAction="pe_0h_stand6" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="-1.278183" IsPersistent="0">
+		<Event EventId="23" Processor="kewei_juminxianliao"/>
+	</Object>
+	<Object Guid="078F1CBFD3024041AC102970BD690467" Desc="npc_ZQEW001_0010" config="npc_ZQEW001_0010" x="-1416.751709" y="29.774132" z="99.849342" IsY="0" Radius="0" PeaceAction="pe_0h_stand33" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="-2.963176" IsPersistent="0">
+		<Event EventId="22" Processor="kewei_hujiashang"/>
+	</Object>
+	<Object Guid="028ACCB0228E45FCAFA96AC6324E7662" Desc="npc_ZQEW001_0011" config="npc_ZQEW001_0011" x="-1371.046875" y="29.774132" z="36.167606" IsY="0" Radius="0" PeaceAction="pe_0h_stand" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="-0.609999" IsPersistent="0">
+		<Event EventId="22" Processor="kewei_zaihu"/>
+	</Object>
+	<Object Guid="88D4089FC0FF40888FBFAF41D32730CF" Desc="npc_ZQEW001_0013" config="npc_ZQEW001_0013" x="-1328.162354" y="61.358902" z="-111.274704" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="-2.929999" IsPersistent="0">
+		<Event EventId="22" Processor="kewei_junxushang"/>
+	</Object>
+	<Object Guid="75BD1E78EB924F5F9369607620F152E4" Desc="npc_ZQEW001_0015" config="npc_ZQEW001_0015" x="-1410.042847" y="29.936359" z="-247.306061" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="2.178184" IsPersistent="0">
+		<Event EventId="22" Processor="kewei_nvshouwei"/>
+	</Object>
+	<Object Guid="111BE642F81641C4990C398B212D2136" Desc="npc_ZQEW001_0015" config="npc_ZQEW001_0015" x="-1345.30481" y="60.604004" z="-177.171616" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="-2.830002" IsPersistent="0"/>
+	<Object Guid="2A6E6E79AD334A53BBF2033D9E1F61CA" Desc="npc_ZQEW001_0015" config="npc_ZQEW001_0015" x="-1347.792603" y="60.604004" z="-175.643936" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="-1.780001" IsPersistent="0">
+		<Event EventId="23" Processor="kewei_nljhanhua"/>
+	</Object>
+	<Object Guid="FDC33C2F61E14E50B3A1CF32BE4E8BB2" Desc="npc_ZQEW001_0015" config="npc_ZQEW001_0015" x="-1345.054932" y="61.338306" z="-151.490128" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="3A8812C88AD64ECEBD7D11BDAD6B0925" Desc="npc_ZQEW001_0015" config="npc_ZQEW001_0015" x="-1406.782349" y="30.002733" z="-245.872437" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="-3.11818" IsPersistent="0">
+		<Event EventId="22" Processor="kewei_nvshouwei"/>
+	</Object>
+	<Object Guid="93902E1D13BB4B1AB3DE72D99E98EDCA" Desc="npc_ZQEW001_0015" config="npc_ZQEW001_0015" x="-1578.934082" y="29.774132" z="-113.758919" IsY="0" Radius="0" amount="1" RefreshTime="30" fOrg="-0.465" IsPersistent="0"/>
+	<Object Guid="02EB4C5BDD3949A8863707748E6E4EAF" Desc="npc_ZQEW001_0015" config="npc_ZQEW001_0015" x="-1581.737183" y="29.774132" z="-113.616165" IsY="0" Radius="0" amount="1" RefreshTime="30" fOrg="1.065002" IsPersistent="0"/>
+	<Object Guid="985322AAD5614D958FFE6AFDA24E52AE" Desc="npc_ZQEW001_0015" config="npc_ZQEW001_0015" x="-1642.317139" y="29.715704" z="-115.693748" IsY="0" Radius="0" amount="1" RefreshTime="30" fOrg="-0.345" IsPersistent="0"/>
+	<Object Guid="12C0E91793CF44F1973D92B1738F06D3" Desc="npc_ZQEW001_0015" config="npc_ZQEW001_0015" x="-1652.210571" y="29.737947" z="-116.121674" IsY="0" Radius="0" amount="1" RefreshTime="30" fOrg="0.73" IsPersistent="0"/>
+	<Object Guid="E337C91652F84031AD58E6027EE97478" Desc="npc_ZQEW001_0015" config="npc_ZQEW001_0015" x="-1644.624146" y="29.614082" z="-113.540413" IsY="0" Radius="0" amount="1" RefreshTime="30" fOrg="-0.460001" IsPersistent="0"/>
+	<Object Guid="3694B52A0F224B23BE4D256756074F34" Desc="npc_ZQEW001_0015" config="npc_ZQEW001_0015" x="-1649.83374" y="29.644049" z="-113.706985" IsY="0" Radius="0" amount="1" RefreshTime="30" fOrg="0.37" IsPersistent="0"/>
+	<Object Guid="7FBC7C7081224C9CA096FF9FA285D453" Desc="npc_ZQEW001_0015" config="npc_ZQEW001_0015" x="-1646.186279" y="29.734146" z="-116.745697" IsY="0" Radius="0" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="0619406143C64BD5AF513C730C91E4E8" Desc="npc_ZQEW001_0015" config="npc_ZQEW001_0015" x="-1640.99585" y="29.77424" z="-83.093536" IsY="0" Radius="0" amount="1" RefreshTime="30" fOrg="-1.295002" IsPersistent="0"/>
+	<Object Guid="CC0DDDA518164FD485980364F8B36F64" Desc="npc_ZQEW001_0015" config="npc_ZQEW001_0015" x="-1644.515381" y="29.814308" z="-86.652672" IsY="0" Radius="0" amount="1" RefreshTime="30" fOrg="-0.5" IsPersistent="0"/>
+	<Object Guid="FAF64AEC47DF4D00A35441F0D0B2C202" Desc="npc_ZQEW001_0015" config="npc_ZQEW001_0015" x="-1543.738525" y="29.78595" z="-84.218842" IsY="0" Radius="0" amount="1" RefreshTime="30" fOrg="2.990001" IsPersistent="0"/>
+	<Object Guid="9B5D7C18B85740CFB228B24C773D2E2D" Desc="npc_ZQEW001_0016" config="npc_ZQEW001_0016" Layer="" MaxRefreshCount="" x="-1358.109131" y="60.602135" z="-165.901947" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="5F12DD7D912D444F9ED13A63616684AB" Desc="npc_ZQEW001_0016" config="npc_ZQEW001_0016" Layer="" MaxRefreshCount="" x="-1353.143433" y="60.601002" z="-163.435959" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="B9E286EC4AF743388508E13F62794EC2" Desc="npc_ZQEW001_0016" config="npc_ZQEW001_0016" x="-1355.439819" y="36.779362" z="105.142342" IsY="0" Radius="0" PeaceAction="pe_0h_stand" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="0.004998" IsPersistent="0">
+		<Event EventId="23" Processor="kewei_nljhanhua"/>
+	</Object>
+	<Object Guid="43A9BCC63E304E849932B33A682D8D17" Desc="npc_ZQEW001_0016" config="npc_ZQEW001_0016" x="-1323.625488" y="39.713547" z="108.098366" IsY="0" Radius="0" PeaceAction="pe_0h_stand" PatrolMode="0" amount="1" RefreshTime="30" fOrg="-3.018182" IsPersistent="0"/>
+	<Object Guid="7BCEC992EB3D47D78B418F4EB66505F3" Desc="npc_ZQEW001_0016" config="npc_ZQEW001_0016" x="-1317.435303" y="39.713547" z="113.793243" IsY="0" Radius="0" PeaceAction="pe_0h_stand" PatrolMode="0" amount="1" RefreshTime="30" fOrg="2.380005" IsPersistent="0">
+		<Event EventId="22" Processor="kewei_nljxuanyan"/>
+	</Object>
+	<Object Guid="2CEF1C46D04D46BB872CDB45411E0427" Desc="npc_ZQEW001_0016" config="npc_ZQEW001_0016" x="-1317.254028" y="39.713547" z="119.570045" IsY="0" Radius="0" PeaceAction="pe_0h_stand" PatrolMode="0" amount="1" RefreshTime="30" fOrg="2.160004" IsPersistent="0"/>
+	<Object Guid="CBB7DAFE316A4954924F00BA9F44E462" Desc="npc_ZQEW001_0016" config="npc_ZQEW001_0016" x="-1331.825562" y="39.713547" z="124.490654" IsY="0" Radius="0" PeaceAction="pe_0h_stand" PatrolMode="0" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="6976AA678C904AB087C032C1F3E6ACBA" Desc="npc_ZQEW001_0016" config="npc_ZQEW001_0016" x="-1348.977295" y="29.426159" z="72.996429" IsY="0" Radius="0" PeaceAction="pe_0h_stand" PatrolMode="0" amount="1" RefreshTime="30" fOrg="2.725003" IsPersistent="0">
+		<Event EventId="23" Processor="kewei_nljhanhua"/>
+	</Object>
+	<Object Guid="213DD84C97D743C7953AEF0FE045F6F2" Desc="npc_ZQEW001_0016" config="npc_ZQEW001_0016" x="-1328.609253" y="27.787643" z="75.952324" IsY="0" Radius="0" PeaceAction="pe_0h_stand" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="2.510003" IsPersistent="0"/>
+	<Object Guid="A5AA7EBBB0F74007ACC16B88424D257A" Desc="npc_ZQEW001_0016" config="npc_ZQEW001_0016" x="-1348.967163" y="29.558035" z="48.315876" IsY="0" Radius="0" PeaceAction="pe_0h_stand" PatrolMode="0" amount="1" RefreshTime="30" fOrg="0.39001" IsPersistent="0">
+		<Event EventId="23" Processor="kewei_nljhanhua"/>
+	</Object>
+	<Object Guid="CF6FF3330BBC4E7BAFFFFAD025642925" Desc="npc_ZQEW001_0016" config="npc_ZQEW001_0016" x="-1325.154541" y="28.212311" z="45.009827" IsY="0" Radius="0" PeaceAction="pe_0h_stand" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="1.760004" IsPersistent="0"/>
+	<Object Guid="85455AEA5D51477894AB4DE363A2F8BB" Desc="npc_ZQEW001_0016" config="npc_ZQEW001_0016" x="-1299.518555" y="22.479845" z="67.916405" IsY="0" Radius="0" PatrolMode="0" amount="1" RefreshTime="30" fOrg="2.590001" IsPersistent="0" PatrolRange="5">
+		<Event EventId="23" Processor="kewei_nljhanhua"/>
+	</Object>
+	<Object Guid="6093BFB4AD6341A79F3B9C82B1CC2031" Desc="npc_ZQEW001_0016" config="npc_ZQEW001_0016" x="-1274.001587" y="17.926952" z="54.870575" IsY="0" Radius="0" PatrolMode="0" amount="1" RefreshTime="30" fOrg="2.690001" IsPersistent="0" PatrolRange="5">
+		<Event EventId="23" Processor="kewei_nljhanhua"/>
+	</Object>
+	<Object Guid="72A08D07E1904A60B657C8FBFAEE4101" Desc="npc_ZQEW001_0016" config="npc_ZQEW001_0016" x="-1268.80957" y="16.201229" z="63.661476" IsY="0" Radius="0" PatrolMode="0" amount="1" RefreshTime="30" fOrg="3.110001" IsPersistent="0"/>
+	<Object Guid="7834C0222684410A81C7BD8584869F14" Desc="npc_ZQEW001_0016" config="npc_ZQEW001_0016" x="-1219.260498" y="8.926149" z="54.697632" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0">
+		<Event EventId="23" Processor="kewei_nljhanhua"/>
+	</Object>
+	<Object Guid="1E3EA486F5044486B63661F2FD41111C" Desc="npc_ZQEW001_0016" config="npc_ZQEW001_0016" x="-1177.386597" y="-1.646967" z="48.365173" IsY="0" Radius="0" PatrolMode="1" PathID="Ewkew07" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0">
+		<Event EventId="23" Processor="kewei_nljhanhua"/>
+	</Object>
+	<Object Guid="D3E2D0A386DD4A50A7E1790E4A839E1D" Desc="npc_ZQEW001_0016" config="npc_ZQEW001_0016" x="-1167.003784" y="-2.820063" z="38.371841" IsY="0" Radius="0" PatrolMode="1" PathID="Ewkew08" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0">
+		<Event EventId="23" Processor="kewei_nljhanhua"/>
+	</Object>
+	<Object Guid="F1237AEA600742EFABAEAF0B26BA2AAF" Desc="npc_ZQEW001_0016" config="npc_ZQEW001_0016" x="-1469.096802" y="29.943464" z="-208.318649" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="-2.243182" IsPersistent="0">
+		<Event EventId="22" Processor="kewei_nljxuanyan"/>
+	</Object>
+	<Object Guid="C2ED6EFA92C946BBB9159AD83B10D5CD" Desc="npc_ZQEW001_0016" config="npc_ZQEW001_0016" x="-1467.145996" y="29.960064" z="-205.394379" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="-2.359998" IsPersistent="0">
+		<Event EventId="22" Processor="kewei_nljxuanyan"/>
+	</Object>
+	<Object Guid="A8E3F728EEB140B6A88A7D7D979FC584" Desc="npc_ZQEW001_0016" config="npc_ZQEW001_0016" x="-1449.800659" y="29.914001" z="-191.475082" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="2.103189" IsPersistent="0">
+		<Event EventId="22" Processor="kewei_nljxuanyan"/>
+	</Object>
+	<Object Guid="B093862A59874CB49E27579566B97000" Desc="npc_ZQEW001_0016" config="npc_ZQEW001_0016" x="-1380.269165" y="29.48667" z="-202.102432" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="3.050002" IsPersistent="0"/>
+	<Object Guid="A9E9F37B2D2D4F498233B7C34DACAA96" Desc="npc_ZQEW001_0016" config="npc_ZQEW001_0016" x="-1357.088989" y="28.769936" z="-217.966751" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="0.675" IsPersistent="0">
+		<Event EventId="23" Processor="kewei_nljhanhua"/>
+	</Object>
+	<Object Guid="BBA8648295F444AAB5BAD30F964FBE7D" Desc="npc_ZQEW001_0016" config="npc_ZQEW001_0016" x="-1381.501221" y="30.26371" z="-221.531372" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="0.185006" IsPersistent="0"/>
+	<Object Guid="7DEED44F12354234A87BB971B73C0A6F" Desc="npc_ZQEW001_0016" config="npc_ZQEW001_0016" x="-1335.944092" y="24.824717" z="-206.592285" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="2.175001" IsPersistent="0">
+		<Event EventId="23" Processor="kewei_nljhanhua"/>
+	</Object>
+	<Object Guid="C74260D74D014987A88E8EE19AADAE97" Desc="npc_ZQEW001_0016" config="npc_ZQEW001_0016" x="-1335.089233" y="24.477684" z="-204.446274" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="2.135001" IsPersistent="0"/>
+	<Object Guid="BED458203F8D43209F10AF6C383A33AD" Desc="npc_ZQEW001_0016" config="npc_ZQEW001_0016" x="-1312.325806" y="19.698582" z="-233.364502" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="1.605002" IsPersistent="0">
+		<Event EventId="23" Processor="kewei_shouweixianliao2"/>
+	</Object>
+	<Object Guid="60AA28F171BA409EB4273B0536683956" Desc="npc_ZQEW001_0016" config="npc_ZQEW001_0016" x="-1311.74292" y="20.301418" z="-229.409058" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="1.985004" IsPersistent="0">
+		<Event EventId="23" Processor="kewei_shouweixianliao"/>
+	</Object>
+	<Object Guid="CB7A2F7B10784DA5870BBB716E9619A4" Desc="npc_ZQEW001_0016" config="npc_ZQEW001_0016" x="-1240.7948" y="5.438125" z="-271.071716" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="-2.270002" IsPersistent="0"/>
+	<Object Guid="190AF5E5E784419786C1D248370815F9" Desc="npc_ZQEW001_0016" config="npc_ZQEW001_0016" x="-1236.46936" y="5.437912" z="-276.276306" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="-2.665002" IsPersistent="0"/>
+	<Object Guid="F3731E361F1E401FAB8880D673144EF7" Desc="npc_ZQEW001_0016" config="npc_ZQEW001_0016" x="-1225.104614" y="5.438127" z="-258.038391" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="0.885" IsPersistent="0"/>
+	<Object Guid="BAE6C7F45B254C7B811B5F5CCC9B2649" Desc="npc_ZQEW001_0016" config="npc_ZQEW001_0016" x="-1221.144653" y="5.403028" z="-263.509644" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="1.05" IsPersistent="0"/>
+	<Object Guid="6FEB9A1243534B36B3C3C60A1E03DB5A" Desc="npc_ZQEW001_0016" config="npc_ZQEW001_0016" x="-1359.454834" y="37.094604" z="115.97123" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="-2.62" IsPersistent="0"/>
+	<Object Guid="2B427F41863245AF8453B4E3B28CA403" Desc="npc_ZQEW001_0016" config="npc_ZQEW001_0016" x="-1395.984863" y="61.206413" z="-41.588345" IsY="0" Radius="0" amount="1" RefreshTime="30" fOrg="-0.57" IsPersistent="0"/>
+	<Object Guid="DAC645859C20451F9E3B4E9FB1EF0938" Desc="npc_ZQEW001_0016" config="npc_ZQEW001_0016" x="-1375.578125" y="61.358887" z="-23.855261" IsY="0" Radius="0" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="B3FCD4105AB54EA8AE6B205B944F21C3" Desc="npc_ZQEW001_0016" config="npc_ZQEW001_0016" x="-1344.086426" y="61.289001" z="-4.065683" IsY="0" Radius="0" amount="1" RefreshTime="30" fOrg="-0.165001" IsPersistent="0"/>
+	<Object Guid="A90471182B7B4F71A24CBA3FFC09A32D" Desc="npc_ZQEW001_0016" config="npc_ZQEW001_0016" x="-1276.490479" y="74.674377" z="-18.980045" IsY="0" Radius="0" amount="1" RefreshTime="30" fOrg="-1.365002" IsPersistent="0"/>
+	<Object Guid="D65E96A26BBB4477B03742EEAFD5CF3D" Desc="npc_ZQEW001_0016" config="npc_ZQEW001_0016" x="-1275.375366" y="74.674377" z="-13.521737" IsY="0" Radius="0" amount="1" RefreshTime="30" fOrg="-1.415002" IsPersistent="0"/>
+	<Object Guid="77539F45BD1644609DE228E1AC54DF42" Desc="npc_ZQEW001_0016" config="npc_ZQEW001_0016" x="-1363.026245" y="60.601002" z="-156.139084" amount="1" fOrg="1.620001" IsPersistent="0"/>
+	<Object Guid="6310B6C841E74EAEADC0655D7585FEA8" Desc="npc_ZQEW001_0016" config="npc_ZQEW001_0016" x="-1363.211914" y="60.601002" z="-161.834595" amount="1" fOrg="2.055003" IsPersistent="0"/>
+	<Object Guid="BDBC42FCA55B48259D5A8021FCB0EA00" Desc="npc_ZQEW001_0016" config="npc_ZQEW001_0016" x="-1268.049561" y="74.674377" z="-131.986038" amount="1" fOrg="-1.890001" IsPersistent="0"/>
+	<Object Guid="69582BEC49F14602BF1ECB71B3C7D4BC" Desc="npc_ZQEW001_0016" config="npc_ZQEW001_0016" x="-1269.475952" y="74.674377" z="-128.330627" amount="1" fOrg="-1.885002" IsPersistent="0"/>
+	<Object Guid="C3581650A86C4F89B1481AC6E1E1AB85" Desc="npc_ZQEW001_0016" config="npc_ZQEW001_0016" x="-1401.585327" y="30.100765" z="-217.463211" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="1385F178B45747A9A5A26A43AFF803A6" Desc="npc_ZQEW001_0016" config="npc_ZQEW001_0016" x="-1272.886963" y="74.268669" z="3.574501" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="9F57D98046C54587864E5E0DB76A72E5" Desc="npc_ZQEW001_0017" config="npc_ZQEW001_0017" x="-1369.117065" y="33.162292" z="95.353157" IsY="0" Radius="0" PeaceAction="pe_0h_stand" PatrolMode="0" PatrolRange="10" amount="1" RefreshTime="30" fOrg="-0.874996" IsPersistent="0">
+		<Event EventId="23" Processor="kewei_nljhanhua"/>
+	</Object>
+	<Object Guid="B5BF2D1ECC7E41B487C051E3BD899721" Desc="npc_ZQEW001_0017" config="npc_ZQEW001_0017" x="-1381.380493" y="32.435246" z="111.610405" IsY="0" Radius="0" PeaceAction="pe_0h_stand" PatrolMode="0" PatrolRange="10" amount="1" RefreshTime="30" fOrg="-2.993183" IsPersistent="0">
+		<Event EventId="22" Processor="kewei_nljxuanyan"/>
+	</Object>
+	<Object Guid="4AACF75F7F944CDB91026020BB22EBCF" Desc="npc_ZQEW001_0017" config="npc_ZQEW001_0017" x="-1324.655884" y="26.929701" z="60.654278" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="95AA5516D374434FB2B1FBC022C2EE0B" Desc="npc_ZQEW001_0017" config="npc_ZQEW001_0017" x="-1292.790161" y="22.412996" z="42.360138" IsY="0" Radius="0" PatrolMode="1" PathID="Ewkew05" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="863C2F104AAE4D1484B9919A0EFC73DF" Desc="npc_ZQEW001_0017" config="npc_ZQEW001_0017" x="-1342.609985" y="39.635311" z="109.532578" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="-1.445001" IsPersistent="0"/>
+	<Object Guid="23C37957E27545BE84EF9C2710F7F1D7" Desc="npc_ZQEW001_0017" config="npc_ZQEW001_0017" x="-1344.487427" y="39.713333" z="118.098885" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="-1.500005" IsPersistent="0"/>
+	<Object Guid="DE5EF285C62F4C4382FCB8E19CDF9389" Desc="npc_ZQEW001_0017" config="npc_ZQEW001_0017" x="-1467.073242" y="29.913261" z="-210.817932" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="-2.26" IsPersistent="0">
+		<Event EventId="22" Processor="kewei_nljxuanyan"/>
+	</Object>
+	<Object Guid="D4AF1ED415044DAC858375DE1A00B0A6" Desc="npc_ZQEW001_0017" config="npc_ZQEW001_0017" x="-1464.201538" y="29.971281" z="-209.242859" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="-2.234999" IsPersistent="0">
+		<Event EventId="22" Processor="kewei_nljxuanyan"/>
+	</Object>
+	<Object Guid="1FADBF8499334CADA6C95EA5D0EAE1F1" Desc="npc_ZQEW001_0017" config="npc_ZQEW001_0017" x="-1453.48938" y="29.914001" z="-193.515244" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="-2.189999" IsPersistent="0">
+		<Event EventId="22" Processor="kewei_nljxuanyan"/>
+	</Object>
+	<Object Guid="93FAE7DF983240A4823CBAEC95C67BF2" Desc="npc_ZQEW001_0017" config="npc_ZQEW001_0017" x="-1248.265137" y="7.42731" z="-232.684814" IsY="0" Radius="0" PatrolMode="1" PathID="Ewkew01" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="669BDB8C38634B8299950C3A859AC1E5" Desc="npc_ZQEW001_0017" config="npc_ZQEW001_0017" x="-1270.676392" y="11.646844" z="-236.650467" IsY="0" Radius="0" PatrolMode="0" PatrolRange="10" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="14A263F730444624A38BE47C32243138" Desc="npc_ZQEW001_0017" config="npc_ZQEW001_0017" x="-1255.904297" y="8.087493" z="-253.567322" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="2.495002" IsPersistent="0"/>
+	<Object Guid="C338897349984C2EB07CFEC8D144FF30" Desc="npc_ZQEW001_0017" config="npc_ZQEW001_0017" x="-1290.409302" y="16.216419" z="-218.755203" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="2510CCBDEA2641538BCDCB15F27BEA81" Desc="npc_ZQEW001_0017" config="npc_ZQEW001_0017" x="-1316.226563" y="21.34971" z="-212.898575" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="7AC7EFC497484FC2BB119C756036DCE1" Desc="npc_ZQEW001_0017" config="npc_ZQEW001_0017" x="-1691.695557" y="29.774132" z="-100.939713" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" fOrg="1.575011" IsPersistent="0"/>
+	<Object Guid="CB5ADF9059294FAF8D1A78287E7B3A0F" Desc="npc_ZQEW001_0017" config="npc_ZQEW001_0017" x="-1691.891968" y="29.775045" z="-105.697075" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" fOrg="1.625014" IsPersistent="0"/>
+	<Object Guid="6CC9DF7A9F6941A29032BE764A435138" Desc="npc_ZQEW001_0017" config="npc_ZQEW001_0017" x="-1678.484985" y="29.774132" z="-104.030136" IsY="0" Radius="0" PatrolMode="1" amount="1" fOrg="1.565004" IsPersistent="0" PathID="Ewkew13" RefreshTime="30"/>
+	<Object Guid="56C5AE86C04B4A6EA26534B59AF2C74A" Desc="npc_ZQEW001_0017" config="npc_ZQEW001_0017" x="-1528.728516" y="29.774132" z="-99.960167" IsY="0" Radius="0" PatrolMode="1" PathID="Ewkew12" amount="1" RefreshTime="30" fOrg="-1.525006" IsPersistent="0"/>
+	<Object Guid="1C30BD9E87AE453B8424C52C14F85030" Desc="npc_ZQEW001_0017" config="npc_ZQEW001_0017" x="-1380.638184" y="61.629509" z="-101.480011" IsY="0" Radius="0" PatrolMode="1" PatrolRange="0" PathID="Ewkew16" amount="1" RefreshTime="30" fOrg="-0.370001" IsPersistent="0"/>
+	<Object Guid="86F237962A564D7E85A3985E5BD78BC9" Desc="npc_ZQEW001_0017" config="npc_ZQEW001_0017" x="-1339.092163" y="61.593937" z="-39.254215" IsY="0" Radius="0" amount="1" RefreshTime="30" fOrg="-0.805" IsPersistent="0"/>
+	<Object Guid="518CBCCA5D8942E9B6F5853984425644" Desc="npc_ZQEW001_0017" config="npc_ZQEW001_0017" x="-1332.051758" y="61.358902" z="-28.407785" IsY="0" Radius="0" amount="1" RefreshTime="30" fOrg="-0.759999" IsPersistent="0"/>
+	<Object Guid="EE57E5C097A94BC0A2DD0323252CCE6D" Desc="npc_ZQEW001_0017" config="npc_ZQEW001_0017" x="-1420.347656" y="60.734001" z="-90.969444" IsY="0" Radius="0" PatrolMode="0" PatrolRange="8" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="DED4EBF85C044B96A826D1F572FEEB8D" Desc="npc_ZQEW001_0017" config="npc_ZQEW001_0017" x="-1421.920166" y="60.762001" z="-58.026405" IsY="0" Radius="0" PatrolMode="0" PatrolRange="8" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="776E7FB6CB14450B9DA0A576B95C9392" Desc="npc_ZQEW001_0017" config="npc_ZQEW001_0017" x="-1457.556519" y="34.295933" z="-119.409225" amount="1" fOrg="-2.099999" IsPersistent="0"/>
+	<Object Guid="8D7173DF9D214B348CD6B714196E1E29" Desc="npc_ZQEW001_0017" config="npc_ZQEW001_0017" x="-1458.734253" y="34.309315" z="-142.69014" amount="1" fOrg="-0.470001" IsPersistent="0"/>
+	<Object Guid="7333BC05C42649D28258698FDF333BAE" Desc="npc_ZQEW001_0017" config="npc_ZQEW001_0017" x="-1438.706177" y="29.774132" z="30.599747" amount="1" fOrg="2.870012" IsPersistent="0"/>
+	<Object Guid="9898FE02B54B4B22B6DDAAA7ADADC55B" Desc="npc_ZQEW001_0017" config="npc_ZQEW001_0017" x="-1441.190186" y="29.774132" z="29.879898" amount="1" fOrg="2.870012" IsPersistent="0"/>
+	<Object Guid="48954E7EF1FC4F7CACFFF734B9730F32" Desc="npc_ZQEW001_0017" config="npc_ZQEW001_0017" x="-1436.266846" y="29.774132" z="31.301321" amount="1" fOrg="2.870012" IsPersistent="0"/>
+	<Object Guid="1B991D4227044E28AE2CADD59DBA747E" Desc="npc_ZQEW001_0017" config="npc_ZQEW001_0017" x="-1443.622925" y="29.774132" z="29.034983" amount="1" fOrg="2.870012" IsPersistent="0"/>
+	<Object Guid="F512F46C41DD40BBB52AC713B6B2FD44" Desc="npc_ZQEW001_0017" config="npc_ZQEW001_0017" x="-1437.848022" y="29.774132" z="28.346605" amount="1" fOrg="2.870012" IsPersistent="0"/>
+	<Object Guid="0BF9A08F919E49778AEA311AF0CD3802" Desc="npc_ZQEW001_0017" config="npc_ZQEW001_0017" x="-1435.477051" y="29.774132" z="28.969814" amount="1" fOrg="2.870012" IsPersistent="0"/>
+	<Object Guid="BCCA43E569B74E5BA1276D266E2AECAA" Desc="npc_ZQEW001_0017" config="npc_ZQEW001_0017" x="-1440.449707" y="29.774132" z="27.605919" amount="1" fOrg="2.870012" IsPersistent="0"/>
+	<Object Guid="6B372A4DB39C4659BE5501162D266FD4" Desc="npc_ZQEW001_0017" config="npc_ZQEW001_0017" x="-1442.789307" y="29.774132" z="26.864681" amount="1" fOrg="2.870012" IsPersistent="0"/>
+	<Object Guid="58DE7AF97F5F498887D355CC1371FE3D" Desc="npc_ZQEW001_0017" config="npc_ZQEW001_0017" x="-1504.825317" y="29.774132" z="-72.39312" IsY="0" Radius="0" amount="1" RefreshTime="30" fOrg="2.330001" IsPersistent="0"/>
+	<Object Guid="A7F1B0F4AF9D4E8197D5C0C7467C6930" Desc="npc_ZQEW001_0017" config="npc_ZQEW001_0017" x="-1510.955933" y="29.842674" z="-88.290054" IsY="0" Radius="0" amount="1" RefreshTime="30" fOrg="2.24" IsPersistent="0"/>
+	<Object Guid="EC786B860D4A44E9A611CFF72ABC378C" Desc="npc_ZQEW001_0017" config="npc_ZQEW001_0017" x="-1506.882202" y="29.774132" z="-83.29229" IsY="0" Radius="0" amount="1" RefreshTime="30" fOrg="2.340001" IsPersistent="0"/>
+	<Object Guid="C2D89C9F8F2B4BDB83E51CD7017F6D2D" Desc="npc_ZQEW001_0017" config="npc_ZQEW001_0017" x="-1510.601685" y="29.774132" z="-108.131889" IsY="0" Radius="0" amount="1" RefreshTime="30" fOrg="1.23" IsPersistent="0"/>
+	<Object Guid="93F5A3121FE349A09910824EFC6B6AC7" Desc="npc_ZQEW001_0017" config="npc_ZQEW001_0017" x="-1505.931763" y="29.774132" z="-112.094879" IsY="0" Radius="0" amount="1" RefreshTime="30" fOrg="1.180001" IsPersistent="0"/>
+	<Object Guid="22919B84B2DA4B0BBC99C9B7949E8C7A" Desc="npc_ZQEW001_0017" config="npc_ZQEW001_0017" x="-1503.100342" y="29.774132" z="-121.666481" IsY="0" Radius="0" amount="1" RefreshTime="30" fOrg="1.525001" IsPersistent="0"/>
+	<Object Guid="C2554D8771ED45CBA68E335A6B87B9E4" Desc="npc_ZQEW001_0017" config="npc_ZQEW001_0017" x="-1579.560913" y="29.774132" z="-95.855659" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="C4ADA1476CD04950A5161D561B632C72" Desc="npc_ZQEW001_0017" config="npc_ZQEW001_0017" x="-1541.44397" y="28.460356" z="-102.217789" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="EC7C99D29A69475D9BA9E1558C974B85" Desc="npc_ZQEW001_0017" config="npc_ZQEW001_0017" x="-1430.074341" y="29.870245" z="-215.481064" IsY="0" Radius="0" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="4E451DBCFE354F56BAC741270AF2D36A" Desc="npc_ZQEW001_0017" config="npc_ZQEW001_0017" x="-1433.132202" y="29.870245" z="-217.901611" IsY="0" Radius="0" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="9CEB151900614C8C9603EE27EBFB3788" Desc="npc_ZQEW001_0017" config="npc_ZQEW001_0017" x="-1449.253296" y="47.032001" z="-215.235443" IsY="0" Radius="0" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="9FCB9F91923649899029D915972B33F3" Desc="npc_ZQEW001_0017" config="npc_ZQEW001_0017" x="-1448.501099" y="29.87038" z="-215.955261" IsY="0" Radius="0" amount="1" RefreshTime="30" fOrg="1.215" IsPersistent="0"/>
+	<Object Guid="BD6C1A82F4224C0E836AD043A4A1C543" Desc="npc_ZQEW001_0017" config="npc_ZQEW001_0017" x="-1450.176392" y="29.885771" z="-213.794418" IsY="0" Radius="0" amount="1" RefreshTime="30" fOrg="1.495001" IsPersistent="0"/>
+	<Object Guid="D899A1DFEFFF4E8DB839FCCA9C460C7C" Desc="npc_ZQEW001_0019" config="npc_ZQEW001_0019" x="-1435.756836" y="60.734001" z="-96.609482" IsY="0" Radius="0" amount="1" RefreshTime="30" fOrg="1.475001" IsPersistent="0"/>
+	<Object Guid="F4FA4D5CCDF44C0F834B023C8743FFE0" Desc="npc_ZQEW001_0019" config="npc_ZQEW001_0019" x="-1438.095093" y="60.762001" z="-56.350765" IsY="0" Radius="0" amount="1" RefreshTime="30" fOrg="1.560002" IsPersistent="0"/>
+	<Object Guid="81DDEA231A934A5BA471691957A8B13F" Desc="npc_ZQEW001_0020" config="npc_ZQEW001_0020" x="-1338.777954" y="39.713547" z="115.323738" IsY="0" Radius="0" PeaceAction="pe_0h_stand12" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="1.375007" IsPersistent="0">
+		<Event EventId="23" Processor="kewei_nljjunguan"/>
+	</Object>
+	<Object Guid="B68A3FEDF15E40A6B057D236EB0593FA" Desc="npc_ZQEW001_0020" config="npc_ZQEW001_0020" x="-1470.437012" y="30.109177" z="-211.432617" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="0.885001" IsPersistent="0">
+		<Event EventId="22" Processor="kewei_nljnvjunguan"/>
+	</Object>
+	<Object Guid="1BCD7E442A664DC7B83085B18EDC2872" Desc="npc_ZQEW001_0020" config="npc_ZQEW001_0020" x="-1435.55603" y="29.774132" z="24.720072" amount="1" fOrg="-2.72" IsPersistent="0">
+		<Event EventId="23" Processor="kewei_shouweiduizhang"/>
+	</Object>
+	<Object Guid="4BD5EE9B841C4753AE92776E28DF5B5B" Desc="npc_ZQEW001_0020" config="npc_ZQEW001_0020" x="-1647.500488" y="29.260504" z="-109.510216" IsY="0" Radius="0" amount="1" RefreshTime="s" fOrg="2.655001" IsPersistent="0"/>
+	<Object Guid="1DDE99BE7D7947BF9DAB3BA2FB984B2D" Desc="npc_ZQEW001_0021" config="npc_ZQEW001_0021" x="-1244.669312" y="12.654529" z="46.046074" IsY="0" Radius="0" PatrolMode="1" PathID="Ewkew06" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0">
+		<Event EventId="22" Processor="kewei_nljxuanyan"/>
+	</Object>
+	<Object Guid="D657561C1721495AB4F82E0579496012" Desc="npc_ZQEW001_0021" config="npc_ZQEW001_0021" x="-1459.591064" y="29.774132" z="31.291475" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="2.57" IsPersistent="0"/>
+	<Object Guid="B11DA7A3087243D89700A7A8EE5651EC" Desc="npc_ZQEW001_0021" config="npc_ZQEW001_0021" x="-1493.050781" y="29.774132" z="-107.288811" IsY="0" Radius="0" PatrolMode="1" PathID="Ewkew09" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0">
+		<Event EventId="23" Processor="kewei_nljjg"/>
+	</Object>
+	<Object Guid="8024262C177E473FB06AB10233F0CF9D" Desc="npc_ZQEW001_0021" config="npc_ZQEW001_0021" x="-1457.805542" y="29.774132" z="-177.021942" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="490306855DBE4D23A5D0DEFD08BBD250" Desc="npc_ZQEW001_0021" config="npc_ZQEW001_0021" x="-1258.835449" y="14.580129" z="35.826149" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="207A2D6AB4864416A96512598B38B973" Desc="npc_ZQEW001_0022" config="npc_ZQEW001_0022" x="-1472.599121" y="29.774132" z="-48.795738" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="-1.480005" IsPersistent="0">
+		<Event EventId="23" Processor="kewei_jijiashouweihanhua"/>
+		<Event EventId="62" Processor="kewei_jijiashouweihanhua2"/>
+	</Object>
+	<Object Guid="2CDD8DC7DAAF44E59FAF8C880F1A0E6A" Desc="npc_ZQEW001_0022" config="npc_ZQEW001_0022" x="-1471.829468" y="29.774132" z="-44.158337" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="-1.230001" IsPersistent="0">
+		<Event EventId="23" Processor="kewei_jijiashouweihanhua"/>
+		<Event EventId="62" Processor="kewei_jijiashouweihanhua2"/>
+	</Object>
+	<Object Guid="EC17D5D012B94016A5A591DA8B88CE93" Desc="npc_ZQEW001_0022" config="npc_ZQEW001_0022" x="-1347.379883" y="61.358902" z="-140.854568" IsY="0" Radius="0" PatrolMode="1" PathID="Ewkew02" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="E4A6B15691BD4A858D28A30E8C486417" Desc="npc_ZQEW001_0023" config="npc_ZQEW001_0023" x="-1332.763062" y="40.080547" z="112.952553" IsY="0" Radius="0" PeaceAction="pe_0h_stand" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="-1.400003" IsPersistent="0"/>
+	<Object Guid="8B9B3750A4F54DB4A3C4929EC3542D3A" Desc="npc_ZQEW001_0023" config="npc_ZQEW001_0023" x="-1333.170654" y="39.713547" z="119.686195" IsY="0" Radius="0" PeaceAction="pe_0h_stand" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="-1.680001" IsPersistent="0"/>
+	<Object Guid="00F3E7351A3D4682A9B7DF7F98D4D497" Desc="npc_ZQEW001_0023" config="npc_ZQEW001_0023" x="-1322.55835" y="60.603004" z="-177.272003" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="-0.000001" IsPersistent="0"/>
+	<Object Guid="A342F8A3E9E14B3CAA04DADBC3D4DDCD" Desc="npc_ZQEW001_0023" config="npc_ZQEW001_0023" x="-1325.648926" y="60.603004" z="-179.507538" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="-0.635006" IsPersistent="0"/>
+	<Object Guid="F12149F9FBCF4CDBAC75AE959278B48E" Desc="npc_ZQEW001_0023" config="npc_ZQEW001_0023" x="-1306.719604" y="63.532501" z="-157.145416" IsY="0" Radius="0" PatrolMode="1" PathID="Ewkew11" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0">
+		<Event EventId="23" Processor="kewei_nljhanhua"/>
+	</Object>
+	<Object Guid="12548C58C08745E0BF07FD614464B996" Desc="npc_ZQEW001_0023" config="npc_ZQEW001_0023" x="-1276.77124" y="74.516083" z="-125.061981" IsY="0" Radius="0" PatrolMode="1" PathID="Ewkew10" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="0E6769A6121740298AFDCE64C405736F" Desc="npc_ZQEW001_0023" config="npc_ZQEW001_0023" x="-1425.16333" y="60.764004" z="-42.189381" IsY="0" Radius="0" amount="1" RefreshTime="30" fOrg="3.108188" IsPersistent="0"/>
+	<Object Guid="7C3C05DE1C164DC98B00616D7E5B92AF" Desc="npc_ZQEW001_0023" config="npc_ZQEW001_0023" x="-1422.912231" y="60.732002" z="-107.161987" IsY="0" Radius="0" amount="1" RefreshTime="30" fOrg="-0.065001" IsPersistent="0"/>
+	<Object Guid="8E5DCFF5926D484EA2E9E3E751E073DF" Desc="npc_ZQEW001_0023" config="npc_ZQEW001_0023" x="-1444.453125" y="29.774132" z="31.659901" amount="1" fOrg="2.870012" IsPersistent="0"/>
+	<Object Guid="49C1C22539444EF49E7FCCC5A7675A02" Desc="npc_ZQEW001_0023" config="npc_ZQEW001_0023" x="-1442.024536" y="29.774132" z="32.454956" amount="1" fOrg="2.870012" IsPersistent="0"/>
+	<Object Guid="4A8DA339D6FA4BB9B439D68B93FCE2DB" Desc="npc_ZQEW001_0023" config="npc_ZQEW001_0023" x="-1439.552734" y="29.774132" z="33.239033" amount="1" fOrg="2.870012" IsPersistent="0"/>
+	<Object Guid="5738F64E639046368E71CFBA9BF84FB5" Desc="npc_ZQEW001_0023" config="npc_ZQEW001_0023" x="-1437.311768" y="29.774132" z="33.81538" amount="1" fOrg="2.870012" IsPersistent="0"/>
+	<Object Guid="BEE720C822BD4B12B84D3F3243ED3E76" Desc="npc_ZQEW001_0023" config="npc_ZQEW001_0023" x="-1506.905518" y="29.774132" z="-108.227974" IsY="0" Radius="0" amount="1" RefreshTime="30" fOrg="0.830001" IsPersistent="0"/>
+	<Object Guid="75068A1B129A4F1B96926E75FCC9F840" Desc="npc_ZQEW001_0023" config="npc_ZQEW001_0023" x="-1507.398315" y="29.774132" z="-87.025375" IsY="0" Radius="0" amount="1" RefreshTime="30" fOrg="2.325002" IsPersistent="0"/>
+	<Object Guid="B202A640E1DF481AA4202A540D941D4E" Desc="npc_ZQEW001_0023" config="npc_ZQEW001_0023" x="-1448.098022" y="30.036001" z="-220.394989" IsY="0" Radius="0" amount="1" RefreshTime="30" fOrg="0.75" IsPersistent="0"/>
+	<Object Guid="E8BDC75A90B34F549E19666060BF3D3E" Desc="npc_ZQEW001_0023" config="npc_ZQEW001_0023" x="-1435.164429" y="30.036001" z="-221.763428" IsY="0" Radius="0" amount="1" RefreshTime="30" fOrg="0.019999" IsPersistent="0"/>
+	<Object Guid="74E72C69BD6B4802B435EB09DCBABAF1" Desc="npc_ZQEW001_0024" config="npc_ZQEW001_0024" x="-1458.452148" y="30.114676" z="-22.075106" IsY="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0">
+		<Event EventId="23" Processor="kewei_jijiashouweihanhua"/>
+		<Event EventId="62" Processor="kewei_jijiashouweihanhua2"/>
+	</Object>
+	<Object Guid="56EB836DC4A54594ADBC108D3EDBE523" Desc="npc_ZQEW001_0024" config="npc_ZQEW001_0024" x="-1425.880737" y="29.258396" z="2.451659" IsY="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0">
+		<Event EventId="23" Processor="kewei_jijiashouweihanhua"/>
+		<Event EventId="62" Processor="kewei_jijiashouweihanhua2"/>
+	</Object>
+	<Object Guid="5273620601D94D019E2327F23F7B1430" Desc="npc_ZQEW001_0024" config="npc_ZQEW001_0024" x="-1476.003296" y="29.774132" z="10.665136" IsY="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="1.730001" IsPersistent="0">
+		<Event EventId="23" Processor="kewei_jijiashouweihanhua"/>
+		<Event EventId="62" Processor="kewei_jijiashouweihanhua2"/>
+	</Object>
+	<Object Guid="B8B30510E2AB4327BD29D8E427AFB739" Desc="npc_ZQEW001_0024" config="npc_ZQEW001_0024" x="-1421.804443" y="29.774132" z="36.648499" IsY="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="2.305003" IsPersistent="0">
+		<Event EventId="23" Processor="kewei_jijiashouweihanhua"/>
+		<Event EventId="62" Processor="kewei_jijiashouweihanhua2"/>
+	</Object>
+	<Object Guid="912E4E399E9942D8901066DB34173C99" Desc="npc_ZQEW001_0024" config="npc_ZQEW001_0024" x="-1385.801636" y="55.481495" z="-120.998329" IsY="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="d" fOrg="-1.965002" IsPersistent="0">
+		<Event EventId="23" Processor="kewei_jijiashouweihanhua"/>
+	</Object>
+	<Object Guid="1CCB5C445F3443F28ABEDC3318F57473" Desc="npc_ZQEW001_0024" config="npc_ZQEW001_0024" x="-1371.702148" y="60.96711" z="-114.163185" IsY="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="d" fOrg="-1.43" IsPersistent="0">
+		<Event EventId="62" Processor="kewei_jijiashouweihanhua2"/>
+	</Object>
+	<Object Guid="F3D67C4602EA456A9866AD8481048A3A" Desc="npc_ZQEW001_0024" config="npc_ZQEW001_0024" x="-1385.574463" y="55.720753" z="-134.50882" IsY="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="d" fOrg="-0.825" IsPersistent="0">
+		<Event EventId="23" Processor="kewei_jijiashouweihanhua"/>
+	</Object>
+	<Object Guid="1AE84F4A7DCF418D90B1970D0AFF2A40" Desc="npc_ZQEW001_0024" config="npc_ZQEW001_0024" x="-1361.684692" y="61.230747" z="-134.452576" IsY="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="d" fOrg="-0.830001" IsPersistent="0">
+		<Event EventId="62" Processor="kewei_jijiashouweihanhua2"/>
+	</Object>
+	<Object Guid="FAE8F65BEDD942A1873DC6E76747AD5C" Desc="npc_ZQEW001_0024" config="npc_ZQEW001_0024" x="-1693.599487" y="29.962975" z="-121.924164" IsY="0" Radius="0" amount="1" RefreshTime="30" fOrg="0.505" IsPersistent="0"/>
+	<Object Guid="A74F1E8BD6DF4D3995FAF47C16CBB010" Desc="npc_ZQEW001_0024" config="npc_ZQEW001_0024" x="-1697.108887" y="29.985336" z="-118.743065" IsY="0" Radius="0" amount="1" RefreshTime="30" fOrg="1.125" IsPersistent="0"/>
+	<Object Guid="1FB6B1637313409C835521FEC0C32BFA" Desc="npc_ZQEW001_0025" config="npc_ZQEW001_0025" x="-1369.399048" y="29.426159" z="68.976204" IsY="0" Radius="0" PeaceAction="pe_0h_talk" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="-1.770005" IsPersistent="0"/>
+	<Object Guid="DABDF5C1688B4A71B0C44864383BA7D0" Desc="npc_ZQEW001_0025" config="npc_ZQEW001_0025" x="-1424.897583" y="29.967127" z="-182.054657" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="1.370005" IsPersistent="0" PeaceAction="pe_0h_talk13"/>
+	<Object Guid="5E2F394573AA4BDAAACD7EF2EA9B02C1" Desc="npc_ZQEW001_0026" config="npc_ZQEW001_0026" x="-1396.339111" y="29.774132" z="84.021667" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="-0.370001" IsPersistent="0"/>
+	<Object Guid="95BC892FC1BE4B25A7C0A4FB8ED7A855" Desc="npc_ZQEW001_0026" config="npc_ZQEW001_0026" x="-1422.081421" y="29.967066" z="-183.234558" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="s" fOrg="-1.315004" IsPersistent="0" PeaceAction="pe_0h_stand5"/>
+	<Object Guid="83D09DD3E83C4F6EB12DF69347FE9370" Desc="npc_ZQEW001_0026" config="npc_ZQEW001_0026" x="-1305.237061" y="60.603004" z="-170.108368" IsY="0" Radius="0" PeaceAction="pe_0h_stand5" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="2C25E7561C3B4420AFD7E741A862FCED" Desc="npc_ZQEW001_0027" config="npc_ZQEW001_0027" x="-1413.786255" y="29.776585" z="-192.440109" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="75A5C01BFFC249FD96689DAE246DF6DC" Desc="npc_ZQEW001_0028" config="npc_ZQEW001_0028" x="-1400.282593" y="29.774132" z="74.482414" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="0.11" IsPersistent="0" PeaceAction="pe_0h_stand12"/>
+	<Object Guid="09C9338D54A446F5854D746B74212E23" Desc="npc_ZQEW001_0028" config="npc_ZQEW001_0028" x="-1435.910278" y="29.870245" z="-198.66832" IsY="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0">
+		<Event EventId="23" Processor="kewei_juminhanhua"/>
+	</Object>
+	<Object Guid="A77CED8AE830407DBFC2A7EAC844831A" Desc="npc_ZQEW001_0028" config="npc_ZQEW001_0028" x="-1432.625122" y="29.869404" z="60.632435" PeaceAction="pe_0h_talk6" amount="1" fOrg="-2.293183" IsPersistent="0"/>
+	<Object Guid="388D0CB05D444F1C903CA6E8EA811AB7" Desc="npc_ZQEW001_0030" config="npc_ZQEW001_0030" x="-1399.754272" y="29.774132" z="76.76535" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="-2.873176" IsPersistent="0" PeaceAction="pe_0h_stand15">
+		<Event EventId="22" Processor="kewei_juminganxie"/>
+	</Object>
+	<Object Guid="9FA28CB3F66A4589A3E16A842D59F83B" Desc="npc_ZQEW001_0030" config="npc_ZQEW001_0030" x="-1372.223389" y="29.426151" z="67.971939" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="-0.07" IsPersistent="0" PeaceAction="pe_0h_talk9"/>
+	<Object Guid="FC782C39349E43EDBC1138D18EABBAA9" Desc="npc_ZQEW001_0030" config="npc_ZQEW001_0030" x="-1305.281982" y="60.602421" z="-167.296722" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="3.035002" IsPersistent="0" PeaceAction="pe_0h_stand12"/>
+	<Object Guid="FC980E1B01CD4E96B2868C68D85C814B" Desc="npc_ZQEW001_0030" config="npc_ZQEW001_0030" x="-1434.651001" y="29.869404" z="58.671719" PeaceAction="pe_0h_talk2" amount="1" fOrg="0.855" IsPersistent="0"/>
+	<Object Guid="589DCD91A1DB435996B6D56525DD92B1" Desc="npc_ZQEW001_0031" config="npc_ZQEW001_0031" x="-1397.503052" y="29.774132" z="86.091415" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="1.64" IsPersistent="0">
+		<Event EventId="23" Processor="kewei_juminhanhua"/>
+	</Object>
+	<Object Guid="8A5C7BC48CCA4FAE958AF197070269CD" Desc="npc_ZQEW001_0031" config="npc_ZQEW001_0031" x="-1373.06189" y="29.426159" z="70.4366" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="1.945006" IsPersistent="0" PeaceAction="pe_0h_talk6"/>
+	<Object Guid="CDEC7A90B5E74339B854CFB05C62A3B8" Desc="npc_ZQEW001_0031" config="npc_ZQEW001_0031" x="-1281.751953" y="74.269005" z="10.260192" PeaceAction="pe_0h_stand21" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="437F10A757AD4471B23FC58865FBADD5" Desc="npc_ZQEW001_0032" config="npc_ZQEW001_0032" x="-1504.236694" y="29.839533" z="-23.217749" PeaceAction="pe_0h_stand1" amount="1" fOrg="-0.025" IsPersistent="0">
+		<Event EventId="23" Processor="kewei_juminduihua"/>
+	</Object>
+	<Object Guid="309CCD73C4754A9CBF510EA4ACDF9A7F" Desc="npc_ZQEW001_0033" config="npc_ZQEW001_0033" x="-1504.056152" y="29.83712" z="-20.485216" IsY="0" Radius="0" PeaceAction="pe_0h_talk" amount="1" RefreshTime="30" fOrg="-2.95" IsPersistent="0">
+		<Event EventId="23" Processor="kewei_juminduihua_2"/>
+	</Object>
+	<Object Guid="DB8FFEF63C49448CB5E0BB3587A0C9D1" Desc="npc_ZQEW001_0040" config="npc_ZQEW001_0040" x="-1186.264771" y="-0.463426" z="26.464981" IsY="1" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0" sx="0.7" sy="0.7" sz="0.7"/>
+	<Object Guid="41A4F18ED57643CEAE8C53805692E651" Desc="npc_ZQEW001_0040" config="npc_ZQEW001_0040" x="-1218.175781" y="10.789848" z="68.94313" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0" sx="0.7" sy="0.7" sz="0.7"/>
+	<Object Guid="2471CCA1579140CE8979CD4CD0BF5D2D" Desc="npc_ZQEW001_0040" config="npc_ZQEW001_0040" x="-1261.271729" y="15.906395" z="63.811501" IsY="1" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0" sx="0.7" sy="0.7" sz="0.7"/>
+	<Object Guid="D62117C169CF4CEDA1154CA41D87766B" Desc="npc_ZQEW001_0040" config="npc_ZQEW001_0040" x="-1307.353271" y="24.317829" z="68.856026" IsY="1" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0" sx="0.7" sy="0.7" sz="0.7"/>
+	<Object Guid="66F90457BBA545D9A261AC38F2B9DC07" Desc="npc_ZQEW001_0040" config="npc_ZQEW001_0040" x="-1305.202148" y="24.896763" z="46.716526" IsY="1" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="-0.440004" IsPersistent="0" sx="0.7" sy="0.7" sz="0.7"/>
+	<Object Guid="0367C862052146D283B23DA6FE2034D5" Desc="npc_ZQEW001_0040" config="npc_ZQEW001_0040" x="-1343.233276" y="29.426159" z="76.675865" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0" sx="0.7" sy="0.7" sz="0.7"/>
+	<Object Guid="8236EDAB748F4AA38913CD9818E301BF" Desc="npc_ZQEW001_0040" config="npc_ZQEW001_0040" x="-1339.076294" y="29.284178" z="46.532078" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0" sx="0.7" sy="0.7" sz="0.7"/>
+	<Object Guid="2FF855E6DFC943A2BFDD5A7482DA932A" Desc="npc_ZQEW001_0040" config="npc_ZQEW001_0040" x="-1336.348999" y="40.081245" z="103.739799" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0" sx="0.7" sy="0.7" sz="0.7"/>
+	<Object Guid="AD6C2E30BDD44E1DB387FADD240F959D" Desc="npc_ZQEW001_0040" config="npc_ZQEW001_0040" x="-1345.729492" y="39.870827" z="120.55011" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0" sx="0.7" sy="0.7" sz="0.7"/>
+	<Object Guid="7C2DECC33FA9448C945C08F097582340" Desc="npc_ZQEW001_0040" config="npc_ZQEW001_0040" x="-1447.124146" y="36.80587" z="-146.542618" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0" sx="0.7" sy="0.7" sz="0.7"/>
+	<Object Guid="26A06DA1D0404E80B11A4A527F82CB02" Desc="npc_ZQEW001_0040" config="npc_ZQEW001_0040" x="-1357.929443" y="29.140741" z="-222.953873" IsY="1" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0" sx="0.7" sy="0.7" sz="0.7"/>
+	<Object Guid="D9D9148134A74C4A8CFE6C3258FFE815" Desc="npc_ZQEW001_0040" config="npc_ZQEW001_0040" x="-1367.39856" y="29.46032" z="-216.61113" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0" sx="0.7" sy="0.7" sz="0.7"/>
+	<Object Guid="8CF65B304DC442B2AB19470C9046A7EB" Desc="npc_ZQEW001_0040" config="npc_ZQEW001_0040" x="-1327.488403" y="24.861109" z="-227.3116" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0" sx="0.7" sy="0.7" sz="0.7"/>
+	<Object Guid="D64C029340564AE8AF9D6EAF39BA9A5C" Desc="npc_ZQEW001_0040" config="npc_ZQEW001_0040" x="-1237.571899" y="5.442883" z="-250.148651" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0" sx="0.7" sy="0.7" sz="0.7"/>
+	<Object Guid="5A8BDC446F20420FAD2803FED0BF22C0" Desc="npc_ZQEW001_0040" config="npc_ZQEW001_0040" x="-1396.105469" y="60.784065" z="-105.46492" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0" sx="0.7" sy="0.7" sz="0.7"/>
+	<Object Guid="92BC19F7826F4D9599F035E9EEA96901" Desc="npc_ZQEW001_0040" config="npc_ZQEW001_0040" x="-1334.939941" y="60.603004" z="-178.635025" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0" sx="0.7" sy="0.7" sz="0.7"/>
+	<Object Guid="4BB5C58C104D4CA8B44248089F785142" Desc="npc_ZQEW001_0040" config="npc_ZQEW001_0040" x="-1430.585938" y="60.733704" z="-104.586655" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0" sx="0.7" sy="0.7" sz="0.7"/>
+	<Object Guid="2159156FC2BA4812AA1903D4241041F2" Desc="npc_ZQEW001_0040" config="npc_ZQEW001_0040" x="-1435.272461" y="60.764496" z="-47.239998" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0" sx="0.7" sy="0.7" sz="0.7"/>
+	<Object Guid="A615A976411646ABA9B55D5820AB9E25" Desc="npc_ZQEW001_0040" config="npc_ZQEW001_0040" x="-1275.85376" y="13.562762" z="-258.524841" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0" sx="0.7" sy="0.7" sz="0.7"/>
+	<Object Guid="11CB652D46814410924F1B7D91735C35" Desc="npc_ZQEW001_0040" config="npc_ZQEW001_0040" x="-1505.022339" y="29.774132" z="-117.171913" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0" sx="0.7" sy="0.7" sz="0.7"/>
+	<Object Guid="C55BB6CC1EE94773A5461C7FC4C6B044" Desc="npc_ZQEW001_0040" config="npc_ZQEW001_0040" x="-1507.303589" y="29.721291" z="-76.085381" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0" sx="0.7" sy="0.7" sz="0.7"/>
+	<Object Guid="0A35CBA44DDA418EA536B2A8BD7FA099" Desc="npc_ZQEW001_0040" config="npc_ZQEW001_0040" x="-1403.264526" y="61.140095" z="-44.302052" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0" sx="0.7" sy="0.7" sz="0.7"/>
+	<Object Guid="42FDAF41CD014484980F0312833406C5" Desc="npc_ZQEW001_0044" config="npc_ZQEW001_0044" Layer="" MaxRefreshCount="" x="-1332.879517" y="61.358902" z="-23.984446" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="-2.613181" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="D1E87CBF7ADE46319198D381944CF4D1" Desc="npc_ZQEW001_0044" config="npc_ZQEW001_0044" Layer="" MaxRefreshCount="" x="-1343.262817" y="61.593937" z="-41.480446" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="-2.533184" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="50B6B4B77E8843F4A88F3623E2BE2540" Desc="npc_ZQEW001_0045" config="npc_ZQEW001_0045" x="-1382.108643" y="66.86261" z="-148.889893" amount="1" fOrg="-1.315003" IsPersistent="0"/>
+	<Object Guid="52E26FBC64FC4974ABF251B212FA22F6" Desc="npc_ZQEW001_0045" config="npc_ZQEW001_0045" x="-1443.367065" y="61.209003" z="-37.239151" amount="1" fOrg="-1.260008" IsPersistent="0"/>
+	<Object Guid="A9B15024AC554E5AAFC3BC44443005A9" Desc="npc_ZQEW001_0045" config="npc_ZQEW001_0045" x="-1151.722046" y="8.589058" z="49.696499" amount="1" fOrg="-1.225" IsPersistent="0"/>
+	<Object Guid="833132FA959248058D54950743FBE6D0" Desc="npc_ZQEW001_0045" config="npc_ZQEW001_0045" x="-1217.320557" y="10.188236" z="-279.71994" amount="1" fOrg="-2.105001" IsPersistent="0"/>
+	<Object Guid="DAB66BE4C76449F3B84797EBD905FDAE" Desc="npc_ZQEW001_0045" config="npc_ZQEW001_0045" x="-1250.226563" y="75.255005" z="-7.123897" amount="1" fOrg="-1.725001" IsPersistent="0"/>
+	<Object Guid="495412C219964D659713D692B44BC1A9" Desc="npc_QHEW002_0045" config="npc_QHEW002_0045" x="-1362.535522" y="58.445309" z="-256.756073" amount="1" fOrg="-1.595005" IsPersistent="0"/>
+	<Object Guid="9914543257AD463FBCF4B3AB38920AFF" Desc="npc_ZQEW001_0050" config="npc_ZQEW001_0050" x="-1391.135864" y="29.774132" z="67.825996" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="5" fOrg="-2.82818" IsPersistent="0" PeaceAction="pe_0h_stand13"/>
+	<Object Guid="4EA8AA3A88BD459F91EB17A63F8A7415" Desc="npc_ZQEW001_0050" config="npc_ZQEW001_0050" x="-1389.939819" y="29.774132" z="65.619865" IsY="0" Radius="0" PeaceAction="pe_0h_stand13" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="5" fOrg="-2.953174" IsPersistent="0"/>
+	<Object Guid="24C5C30D7E6D4DD9910F8643D827DE99" Desc="npc_ZQEW001_0050" config="npc_ZQEW001_0050" x="-1394.990967" y="29.774132" z="62.325207" IsY="0" Radius="0" PeaceAction="pe_0h_stand13" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="5" fOrg="0.970001" IsPersistent="0"/>
+	<Object Guid="009220CA57E8464DBC464AEA0D4F2B17" Desc="npc_ZQEW001_0050" config="npc_ZQEW001_0050" x="-1388.286621" y="29.773613" z="63.687981" IsY="0" Radius="0" PeaceAction="pe_0h_stand13" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="5" fOrg="3.010005" IsPersistent="0"/>
+	<Object Guid="379F33383ACC4A19BEB87361B08382FD" Desc="npc_ZQEW001_0050" config="npc_ZQEW001_0050" x="-1392.724365" y="29.772802" z="60.289047" IsY="0" Radius="0" PeaceAction="pe_0h_stand13" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="5" fOrg="0.295003" IsPersistent="0"/>
+	<Object Guid="F2398504F23A41D4989C69FD84C5D3A6" Desc="npc_ZQEW001_0052" config="npc_ZQEW001_0052" x="-1461.449951" y="29.774132" z="-212.371857" IsY="0" Radius="0" PatrolMode="1" PathID="Ewkew15" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="AFFDD702427C409486B79DB8F12F528A" Desc="npc_ZQEW001_0052" config="npc_ZQEW001_0052" x="-1463.586548" y="30.416056" z="-28.866713" amount="1" fOrg="-0.870001" IsPersistent="0"/>
+	<Object Guid="84B3E4D9A8A04E84B0C1775CEEC2C679" Desc="npc_ZQEW001_0052" config="npc_ZQEW001_0052" x="-1465.765015" y="30.180893" z="-31.553875" amount="1" fOrg="-0.830001" IsPersistent="0"/>
+	<Object Guid="60EBC72CF6EE4B9FA975780036CC0D6F" Desc="npc_ZQEW001_0052" config="npc_ZQEW001_0052" x="-1479.395386" y="29.774132" z="-201.715424" amount="1" fOrg="1.600002" IsPersistent="0"/>
+	<Object Guid="74B1325F0D3C424689F30358F5D2E5CF" Desc="npc_ZQEW001_0052" config="npc_ZQEW001_0052" x="-1481.32373" y="29.870132" z="-192.747543" amount="1" fOrg="-1.04" IsPersistent="0"/>
+	<Object Guid="0AEC7E737D43431BB0AFDF66BE42F757" Desc="npc_ZQEW001_0052" config="npc_ZQEW001_0052" x="-1438.809326" y="29.05135" z="-6.442335" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="3.075002" IsPersistent="0"/>
+	<Object Guid="BB12B0E5B7C14E6CA58C8296D69B49AA" Desc="npc_ZQEW001_0052" config="npc_ZQEW001_0052" x="-1444.471802" y="29.218981" z="-10.32655" IsY="0" Radius="0" PatrolMode="1" PathID="Ewkew14" amount="1" RefreshTime="30" fOrg="2.485002" IsPersistent="0"/>
+	<Object Guid="422E537A61924CCB9C72163EFAE500BC" Desc="npc_ZQEW001_0055" config="npc_ZQEW001_0055" x="-1500.075317" y="29.835619" z="-22.939745" IsY="0" Radius="0" PatrolMode="0" PatrolRange="3" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="3100EDC1B3EC4ACA81E29CA9752F7993" Desc="npc_ZQEW001_0056" config="npc_ZQEW001_0056" x="-1416.393799" y="29.774132" z="98.106323" amount="1" fOrg="0.179992" IsPersistent="0"/>
+	<Object Guid="76710127645643C7B8FDBF3F5FC708C1" Desc="npc_ZQEW001_0057" config="npc_ZQEW001_0057" x="-1398.012329" y="29.774132" z="112.035629" amount="1" fOrg="-1.770012" IsPersistent="0"/>
+	<Object Guid="88FC1818DE1A486D892958C3C3A4BC78" Desc="npc_ZQEW001_0058" config="npc_ZQEW001_0058" x="-1378.74231" y="29.829681" z="27.102079" amount="1" fOrg="-0.733185" IsPersistent="0"/>
+	<Object Guid="2EAE6701792A4CFB8CF8F4BC69E8E81B" Desc="npc_ZQEW001_0059" config="npc_ZQEW001_0059" x="-1368.470947" y="29.916903" z="36.019028" amount="1" fOrg="-0.740002" IsPersistent="0"/>
+	<Object Guid="BF782EB025E24A338AB0ECDC9B85BA95" Desc="npc_ZQEW001_0059" config="npc_ZQEW001_0059" x="-1397.172485" y="29.787611" z="13.552435" amount="1" fOrg="1.380002" IsPersistent="0"/>
+	<Object Guid="5EC69C702AD04DE78E740A83D1347A63" Desc="npc_ZQEW001_0059" config="npc_ZQEW001_0059" x="-1389.369385" y="29.783962" z="16.577291" amount="1" fOrg="0.16" IsPersistent="0"/>
+	<Object Guid="636227F406F749B6AE8418C661007DC0" Desc="npc_ZQEW001_0059" config="npc_ZQEW001_0059" x="-1390.550415" y="29.774132" z="17.095457" amount="1" fOrg="-0.195002" IsPersistent="0"/>
+	<Object Guid="439B39143C6441CD84B743AFD47DEFF5" Desc="npc_ZQEW001_0059" config="npc_ZQEW001_0059" x="-1387.58313" y="29.775349" z="18.01716" amount="1" fOrg="1.680001" IsPersistent="0"/>
+	<Object Guid="86F2808F96204B4695ED73AB77CFB717" Desc="npc_ZQEW001_0059" config="npc_ZQEW001_0059" x="-1481.71814" y="29.774132" z="-195.365677" amount="1" fOrg="0.73" IsPersistent="0"/>
+	<Object Guid="CF3BA5573F1B433281CE9EBAECF5E4B1" Desc="npc_ZQEW001_0059" config="npc_ZQEW001_0059" x="-1485.072998" y="29.774132" z="-194.306213" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="44B8A615445541CC800FFFA0A89882AE" Desc="npc_ZQEW001_0060" config="npc_ZQEW001_0060" x="-1367.011108" y="29.823387" z="38.352116" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="8959B67FD6C34B40AA463E6EEFB00E21" Desc="npc_ZQEW001_0060" config="npc_ZQEW001_0060" x="-1366.819702" y="29.794388" z="39.758442" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="280C1E1FEC284C83AA7C58AE218884C7" Desc="npc_ZQEW001_0060" config="npc_ZQEW001_0060" x="-1398.242554" y="29.774132" z="13.658233" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="5783C326616E48AEB2CF772CCCB7BC0C" Desc="npc_ZQEW001_0060" config="npc_ZQEW001_0060" x="-1389.155151" y="29.774132" z="18.952942" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="4074FDE61C4549B8B931153EFF9DA970" Desc="npc_ZQEW001_0060" config="npc_ZQEW001_0060" x="-1386.92981" y="29.77899" z="19.42487" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="B835020F8091481A81DCEFB7D094A6D6" Desc="npc_ZQEW001_0060" config="npc_ZQEW001_0060" x="-1388.805542" y="29.774132" z="17.815081" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="EE2502BEAC9D4E7DA63E282C3A025633" Desc="npc_ZQEW001_0062" config="npc_ZQEW001_0062" x="-1402.841553" y="29.774132" z="11.019145" amount="1" fOrg="-0.37" IsPersistent="0"/>
+	<Object Guid="F8C3F374FE2447078555BD158FD3EBD1" Desc="npc_ZQEW001_0062" config="npc_ZQEW001_0062" x="-1411.268066" y="29.881449" z="100.864487" amount="1" fOrg="2.050003" IsPersistent="0"/>
+	<Object Guid="0E9A0A83CD934D7282F9F80D15163E7C" Desc="npc_ZQEW001_0070" config="npc_ZQEW001_0070" x="-1465.067627" y="29.870245" z="-224.108871" IsY="0" Radius="0" PeaceAction="pe_0h_stand36" amount="1" fOrg="-2.873185" IsPersistent="0"/>
+	<Object Guid="B03E17AC743B4E0A89827D6B4F7A5E7C" Desc="npc_ZQEW001_0070" config="npc_ZQEW001_0070" x="-1420.449707" y="30.132143" z="-231.034042" IsY="0" Radius="0" PeaceAction="pe_0h_stand36" amount="1" fOrg="3.035002" IsPersistent="0"/>
+	<Object Guid="7FF596644A554C4B8AC2DFA17D41E1CF" Desc="npc_ZQEW001_0070" config="npc_ZQEW001_0070" x="-1498.929321" y="30.435001" z="-160.895355" IsY="0" Radius="0" PeaceAction="pe_0h_stand10" amount="1" RefreshTime="30" fOrg="-2.708183" IsPersistent="0">
+		<Event EventId="23" Processor="kewei_gongren_2"/>
+	</Object>
+	<Object Guid="248D93816E5C408CB231FDC7299D840A" Desc="npc_ZQEW001_0070" config="npc_ZQEW001_0070" x="-1496.587036" y="30.435001" z="-163.411987" IsY="0" Radius="0" PeaceAction="pe_0h_stand10" amount="1" RefreshTime="30" fOrg="-1.943185" IsPersistent="0">
+		<Event EventId="23" Processor="kewei_gongren"/>
+	</Object>
+	<Object Guid="DAD775F5B4614F29AED4F31F38784D9D" Desc="npc_ZQEW001_0070" config="npc_ZQEW001_0070" x="-1472.996094" y="30.254002" z="-58.260967" IsY="0" Radius="0" PeaceAction="pe_0h_stand10" amount="1" RefreshTime="30" fOrg="1.780004" IsPersistent="0">
+		<Event EventId="23" Processor="kewei_gongren_4"/>
+	</Object>
+	<Object Guid="6683FC5CBC524EE19DCF7A2AE3FE234F" Desc="npc_ZQEW001_0070" config="npc_ZQEW001_0070" x="-1472.332764" y="30.254002" z="-54.491432" IsY="0" Radius="0" PeaceAction="pe_0h_stand10" amount="1" RefreshTime="30" fOrg="2.005002" IsPersistent="0">
+		<Event EventId="23" Processor="kewei_gongren_3"/>
+	</Object>
+	<Object Guid="5AEF8B0D744646C082B67C9512CF50ED" Desc="npc_ZQEW001_0070" config="npc_ZQEW001_0070" x="-1502.732178" y="30.001625" z="-145.049194" IsY="0" Radius="0" PeaceAction="pe_0h_stand36" amount="1" RefreshTime="30" fOrg="-1.615005" IsPersistent="0"/>
+	<Object Guid="3F0BBB49B66C4E148EC458AF85C68293" Desc="npc_ZQEW001_0070" config="npc_ZQEW001_0070" x="-1352.180542" y="61.364845" z="-105.15667" PeaceAction="pe_0h_stand35" amount="1" fOrg="1.740004" IsPersistent="0"/>
+	<Object Guid="D3DA82D6CBB14A5EB34B71D6BEBC83F0" Desc="npc_ZQEW001_0070" config="npc_ZQEW001_0070" x="-1269.388062" y="74.674377" z="-118.608826" PeaceAction="pe_0h_stand35" amount="1" fOrg="0.779999" IsPersistent="0"/>
+	<Object Guid="805AE2E44AD945C5B9C917C56225914B" Desc="npc_ZQEW001_0071" config="npc_ZQEW001_0071" x="-1436.943604" y="29.774132" z="21.897341" PeaceAction="pe_0h_stand15" amount="1" fOrg="-0.505001" IsPersistent="0">
+		<Event EventId="23" Processor="kewei_zhihuiguan"/>
+	</Object>
+	<Object Guid="1C98E0BFA61343B6BA3D6505FA1CE899" Desc="npc_ZQEW001_0073" config="npc_ZQEW001_0073" x="-1479.161743" y="29.926529" z="-214.482269" PeaceAction="pe_0h_stand35" amount="1" fOrg="-1.820004" IsPersistent="0"/>
+	<Object Guid="B58B773FB8654A30AE1D6A488B1E1161" Desc="npc_ZQEW001_0073" config="npc_ZQEW001_0073" x="-1481.134399" y="29.774132" z="-211.614502" PeaceAction="pe_0h_stand35" amount="1" fOrg="-2.185001" IsPersistent="0"/>
+	<Object Guid="BB2577C2DCBB40AA9878217C608B8B40" Desc="npc_ZQEW001_0073" config="npc_ZQEW001_0073" x="-1459.03418" y="29.774132" z="-160.920288" PeaceAction="pe_0h_stand35" amount="1" fOrg="1.255002" IsPersistent="0"/>
+	<Object Guid="F65EC23090624C1DBA24496C91D50723" Desc="npc_ZQEW001_0073" config="npc_ZQEW001_0073" x="-1448.193726" y="29.967287" z="-163.860474" PeaceAction="pe_0h_stand35" amount="1" fOrg="0.825003" IsPersistent="0"/>
+	<Object Guid="0242F5A19F0543A5A68A0FA575571574" Desc="npc_ZQEW001_0074" config="npc_ZQEW001_0074" x="-1431.677002" y="29.967287" z="-174.748016" amount="1" fOrg="-2.550001" IsPersistent="0">
+		<Event EventId="23" Processor="kewei_xiaonvhai"/>
+	</Object>
+	<Object Guid="EF51D61C20714503978FB7959E0289AF" Desc="npc_ZQEW001_0075" config="npc_ZQEW001_0075" x="-1434.268066" y="29.967287" z="-174.038483" amount="1" fOrg="2.265003" IsPersistent="0"/>
+	<Object Guid="7DFF928EE6754F5AB7C8493366A1CA75" Desc="npc_ZQEW001_0077" config="npc_ZQEW001_0077" x="-1268.667969" y="74.269005" z="10.686981" amount="1" fOrg="-2.868181" IsPersistent="0">
+		<Event EventId="23" Processor="kewei_feichuanguanliyuan"/>
+	</Object>
+	<Object Guid="53116B4F7DAB4731B029A8E79F2B4305" Desc="npc_ZQEW001_0078" config="npc_ZQEW001_0078" x="-1271.939575" y="74.674377" z="-131.465897" IsY="0" Radius="0" amount="1" RefreshTime="30" fOrg="-1.890005" IsPersistent="0"/>
+	<Object Guid="5625C68100A940DD8FF00191E175FFAE" Desc="zq_nljbc_005" config="zq_nljkew_001" x="-1186.264771" y="-0.463426" z="26.464981" IsY="0" Radius="0" amount="1" RefreshTime="a" fOrg="0" IsPersistent="0"/>
+	<Object Guid="F5590556B76F4BF6B65CCF52B439E2AC" Desc="zq_nljbc_005" config="zq_nljkew_001" x="-1218.189453" y="11.473092" z="69.310349" IsY="0" Radius="0" amount="1" RefreshTime="a" fOrg="0" IsPersistent="0"/>
+	<Object Guid="EC41BA314A7844DF832CCDFB3FC97E47" Desc="zq_nljbc_005" config="zq_nljkew_001" x="-1261.271729" y="15.906395" z="63.811501" IsY="0" Radius="0" amount="1" RefreshTime="a" fOrg="0" IsPersistent="0"/>
+	<Object Guid="7FD02C7DC99340D2B7AE624E40F0540B" Desc="zq_nljbc_005" config="zq_nljkew_001" x="-1307.353271" y="24.317829" z="68.856026" IsY="0" Radius="0" amount="1" RefreshTime="a" fOrg="0" IsPersistent="0"/>
+	<Object Guid="55776B77FE6B42D19637DCCACEF9F246" Desc="zq_nljbc_005" config="zq_nljkew_001" x="-1305.202148" y="24.896763" z="46.716526" IsY="0" Radius="0" amount="1" RefreshTime="a" fOrg="0" IsPersistent="0"/>
+	<Object Guid="CD00F86D567A4B1ABDC3C45735F6BDEF" Desc="zq_nljbc_005" config="zq_nljkew_001" x="-1343.233276" y="29.426159" z="76.675865" IsY="0" Radius="0" amount="1" RefreshTime="a" fOrg="0" IsPersistent="0"/>
+	<Object Guid="BC883175C088488DB6407F94E573AF5E" Desc="zq_nljbc_005" config="zq_nljkew_001" x="-1339.076294" y="29.284178" z="46.532078" IsY="0" Radius="0" amount="1" RefreshTime="a" fOrg="0" IsPersistent="0"/>
+	<Object Guid="EB19A95388014530A105F163DE6DADFB" Desc="zq_nljbc_005" config="zq_nljkew_001" x="-1336.348999" y="40.081245" z="103.739799" IsY="0" Radius="0" amount="1" RefreshTime="a" fOrg="0" IsPersistent="0"/>
+	<Object Guid="00923701197A4D2AB74A099068C5ED82" Desc="zq_nljbc_005" config="zq_nljkew_001" x="-1345.759155" y="39.713242" z="121.118805" IsY="0" Radius="0" amount="1" RefreshTime="a" fOrg="0" IsPersistent="0"/>
+	<Object Guid="833C81F4325842AAAE9114F75926744E" Desc="zq_nljbc_005" config="zq_nljkew_001" x="-1447.124146" y="36.80587" z="-146.542618" IsY="0" Radius="0" amount="1" RefreshTime="a" fOrg="0" IsPersistent="0"/>
+	<Object Guid="E8D8023200874C0D88A5DAA02146B36B" Desc="zq_nljbc_005" config="zq_nljkew_001" x="-1357.929443" y="29.140741" z="-222.953873" IsY="0" Radius="0" amount="1" RefreshTime="a" fOrg="0" IsPersistent="0"/>
+	<Object Guid="9E6D2741888D4619BFD364FF4912652A" Desc="zq_nljbc_005" config="zq_nljkew_001" x="-1367.39856" y="29.46032" z="-216.61113" IsY="0" Radius="0" amount="1" RefreshTime="a" fOrg="0" IsPersistent="0"/>
+	<Object Guid="C382ECD9BB344B2A89E9D16D0AAA8FA3" Desc="zq_nljbc_005" config="zq_nljkew_001" x="-1327.488403" y="24.861109" z="-227.3116" IsY="0" Radius="0" amount="1" RefreshTime="a" fOrg="0" IsPersistent="0"/>
+	<Object Guid="D0D5A5E6AAB3453F8CC664FDC5B3AEAE" Desc="zq_nljbc_005" config="zq_nljkew_001" x="-1237.571899" y="5.442883" z="-250.148651" IsY="0" Radius="0" amount="1" RefreshTime="a" fOrg="0" IsPersistent="0"/>
+	<Object Guid="CB611F84CFCE4E318C169648CC807A4E" Desc="zq_nljbc_005" config="zq_nljkew_001" x="-1396.105469" y="60.784065" z="-105.46492" IsY="0" Radius="0" amount="1" RefreshTime="a" fOrg="0" IsPersistent="0"/>
+	<Object Guid="1C49F8CE52244401B3893EC6194751E4" Desc="zq_nljbc_005" config="zq_nljkew_001" x="-1334.939941" y="60.603004" z="-178.635025" IsY="0" Radius="0" amount="1" RefreshTime="a" fOrg="0" IsPersistent="0"/>
+	<Object Guid="36D391D2907E4D5CA3F04AEDBDDB4852" Desc="zq_nljbc_005" config="zq_nljkew_001" x="-1430.585938" y="60.733704" z="-104.586655" IsY="0" Radius="0" amount="1" RefreshTime="a" fOrg="0" IsPersistent="0"/>
+	<Object Guid="F9235B4E45E94E759380AC60C627AC3C" Desc="zq_nljbc_005" config="zq_nljkew_001" x="-1435.272461" y="60.764496" z="-47.239998" IsY="0" Radius="0" amount="1" RefreshTime="a" fOrg="0" IsPersistent="0"/>
+	<Object Guid="2BF2BABBE68A4413BD9166C0D328A361" Desc="zq_nljbc_005" config="zq_nljkew_001" x="-1275.85376" y="13.562762" z="-258.524841" IsY="0" Radius="0" amount="1" RefreshTime="a" fOrg="0" IsPersistent="0"/>
+	<Object Guid="EB12713180CB4EB0B541E39B3E4C9853" Desc="zq_nljbc_005" config="zq_nljkew_001" x="-1505.022339" y="29.774132" z="-117.171913" IsY="0" Radius="0" amount="1" RefreshTime="a" fOrg="0" IsPersistent="0"/>
+	<Object Guid="B9C6BEEB015D44B1A1F071CD66C3AE6D" Desc="zq_nljbc_005" config="zq_nljkew_001" x="-1507.303589" y="29.774132" z="-76.085381" IsY="0" Radius="0" amount="1" RefreshTime="a" fOrg="0" IsPersistent="0"/>
+	<Object Guid="DB2904EA4850490A827CCE5CD816CDCD" Desc="zq_nljbc_005" config="zq_nljkew_001" x="-1403.264526" y="61.140095" z="-44.302052" IsY="0" Radius="0" amount="1" RefreshTime="a" fOrg="0" IsPersistent="0"/>
+	<Object Guid="F65E1910BF4D4408B694226200CC8D61" Desc="monster_ZQEW001_0002" config="monster_ZQEW001_0002" x="-1388.926392" y="29.363741" z="57.349079" IsY="0" Radius="0" PatrolMode="0" PatrolRange="10" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="D0598277EFD440C993F128545E9E18E9" Desc="monster_ZQEW001_0002" config="monster_ZQEW001_0002" x="-1397.754761" y="29.774132" z="81.247749" IsY="0" Radius="0" PatrolMode="0" PatrolRange="10" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="DCCD8D556CA947088CB0065A62C705EF" Desc="monster_ZQEW001_0005" config="monster_ZQEW001_0005" x="-1149.378296" y="-15.514416" z="102.069801" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="7226A0125F0944469A18E7DF1F6E99E6" Desc="monster_ZQEW001_0005" config="monster_ZQEW001_0005" x="-1159.894653" y="-14.814892" z="95.625351" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="A6CF22D2D99F4FA7BDA4CB40284AC579" Desc="monster_ZQEW001_0005" config="monster_ZQEW001_0005" x="-1164.807129" y="-14.720888" z="109.637024" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="89E8CE6C44634B2897A1DF8D2630201A" Desc="monster_ZQEW001_0005" config="monster_ZQEW001_0005" x="-1157.74585" y="-16.742016" z="121.501801" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="5F93E28BBC6042B5B0283290905D9367" Desc="monster_ZQEW001_0005" config="monster_ZQEW001_0005" x="-1174.542114" y="-18.001492" z="130.809235" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="68C27685830640EE8D8064C97C4FCAB1" Desc="monster_ZQEW001_0005" config="monster_ZQEW001_0005" x="-1189.902466" y="-17.492075" z="122.427521" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="F5C961C1B62944A6B4DBD8A6DF895C07" Desc="monster_ZQEW001_0005" config="monster_ZQEW001_0005" x="-1201.120361" y="-16.844862" z="112.827759" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="40446CFF96EB4E5F92D9828489142E77" Desc="monster_ZQEW001_0005" config="monster_ZQEW001_0005" x="-1190.186035" y="-15.233922" z="101.361862" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="BFBC6B4FF19E44FDAB4CA56B4004E453" Desc="monster_ZQEW001_0005" config="monster_ZQEW001_0005" x="-1170.006958" y="-12.95038" z="93.732178" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="1C0D1F1E0BB949D8A03AA87E7411F349" Desc="monster_ZQEW001_0005" config="monster_ZQEW001_0005" x="-1175.095947" y="-14.987383" z="107.391464" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="295E34F6EB0D44638C0389B3602EDBFD" Desc="monster_ZQEW001_0005" config="monster_ZQEW001_0005" x="-1198.436035" y="-12.948879" z="92.271721" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="125453C0CBE64A89AA919DA5A4912475" Desc="monster_ZQEW001_0005" config="monster_ZQEW001_0005" x="-1167.755249" y="-7.218926" z="79.090462" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="6F76D0655CD444C8B2B20DF1E2DFC7ED" Desc="monster_ZQEW001_0005" config="monster_ZQEW001_0005" x="-1153.317871" y="-12.853571" z="77.082741" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="8FA998C8DB23451983F1F4B57AE12E3A" Desc="monster_ZQEW001_0005" config="monster_ZQEW001_0005" x="-1137.515625" y="-14.913166" z="77.631218" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="7199FCC25D7E4A88B491787B637E90C2" Desc="monster_ZQEW001_0005" config="monster_ZQEW001_0005" x="-1141.621582" y="-15.810417" z="88.240891" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="D04F3F8F131A44D991920DDEFD324EF4" Desc="monster_ZQEW001_0005" config="monster_ZQEW001_0005" x="-1130.022339" y="-17.030201" z="102.851105" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="7B6C541FBB8A412D93C0F3F6CB8C2362" Desc="monster_ZQEW001_0005" config="monster_ZQEW001_0005" x="-1098.622437" y="-17.185888" z="85.883018" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="C1F9D025B33D4A4B9BB584EAC0B03FC8" Desc="monster_ZQEW001_0005" config="monster_ZQEW001_0005" x="-1119.360352" y="-14.958205" z="72.875" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="E732D821AF454AB38C20EEFF64136371" Desc="monster_ZQEW001_0005" config="monster_ZQEW001_0005" x="-1077.218628" y="-17.105453" z="74.935677" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="2C90FC2A2E504C809DA270407176DDAE" Desc="monster_ZQEW001_0006" config="monster_ZQEW001_0006" x="-1128.192993" y="-14.784072" z="-238.280884" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="92B8D3EA9A3840BAB79CFB52004B2848" Desc="monster_ZQEW001_0006" config="monster_ZQEW001_0006" x="-1138.141846" y="-12.609634" z="-218.62648" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="45B73052DFC24FF38F611CD4B310A6D4" Desc="monster_ZQEW001_0006" config="monster_ZQEW001_0006" x="-1148.269897" y="-11.239407" z="-237.75116" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="C7074532456B4195AC1CC13E6533B651" Desc="monster_ZQEW001_0006" config="monster_ZQEW001_0006" x="-1129.957886" y="-14.091543" z="-260.674988" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="71039A92D5924DC98841C963FD325F23" Desc="monster_ZQEW001_0006" config="monster_ZQEW001_0006" x="-1155.227295" y="-11.147503" z="-249.559906" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="FFA6756ADE1944758655271849647CF0" Desc="monster_ZQEW001_0006" config="monster_ZQEW001_0006" x="-1177.05127" y="-7.88338" z="-244.299957" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="DE9C0BA64B244EC78519E1CBCD86226F" Desc="monster_ZQEW001_0006" config="monster_ZQEW001_0006" x="-1192.1604" y="-8.88581" z="-265.208649" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="9975E26AB26E442CA2F0D3ECA01B2FD1" Desc="monster_ZQEW001_0006" config="monster_ZQEW001_0006" x="-1184.49292" y="-14.196332" z="-288.517609" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="C5B090ECD6AD42168AFB59DFE481C277" Desc="monster_ZQEW001_0006" config="monster_ZQEW001_0006" x="-1170.678833" y="-17.068251" z="-312.387787" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="5159151869E14503BF3F801189780C12" Desc="monster_ZQEW001_0006" config="monster_ZQEW001_0006" x="-1191.264404" y="-16.679789" z="-324.543854" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="8D4EB6DBF8944B159D7C461AA6CCD91D" Desc="monster_ZQEW001_0006" config="monster_ZQEW001_0006" x="-1214.64624" y="-13.671481" z="-310.314178" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="E03B183B8EEB4333B07DA0160D41BF0C" Desc="monster_ZQEW001_0006" config="monster_ZQEW001_0006" x="-1224.693726" y="-15.879186" z="-331.586029" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="C3B283436F284E6CAAAD7FEF98C482C4" Desc="monster_ZQEW001_0006" config="monster_ZQEW001_0006" x="-1251.637939" y="-13.114176" z="-316.910278" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="2B1A36C7BC964581B35F51A02D0605E2" Desc="monster_ZQEW001_0006" config="monster_ZQEW001_0006" x="-1286.800537" y="-16.291584" z="-309.661957" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="F85563BC398B48E1AA97318D394C4147" Desc="monster_ZQEW001_0006" config="monster_ZQEW001_0006" x="-1196.002441" y="-14.287693" z="-301.429596" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="8FBC675589D84EA8AEDE6F5C00A13E2D" Desc="monster_ZQEW001_0006" config="monster_ZQEW001_0006" x="-1238.678223" y="-9.997848" z="-299.62085" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="99B3837A0C804F6D9E2A2673666B9627" Desc="monster_ZQEW001_0006" config="monster_ZQEW001_0006" x="-1249.576538" y="-16.719252" z="-338.610565" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="61C6BC2BB1C84FCE979173722907F97A" Desc="monster_ZQEW001_0006" config="monster_ZQEW001_0006" x="-1226.372559" y="-12.887237" z="-311.397461" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="58D74B63D6E247A2B464A51BB6F168E1" Desc="monster_ZQEW001_0006" config="monster_ZQEW001_0006" x="-1177.288696" y="-15.745648" z="-299.565308" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="63D863CD90104F59A87225C7A78C83ED" Desc="monster_ZQEW001_0006" config="monster_ZQEW001_0006" x="-1163.224609" y="-15.72551" z="-283.568115" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="7BDA7F3EEB244EE4A859DB385E6DEDFC" Desc="monster_ZQEW001_0010" config="monster_ZQEW001_0010" x="-1457.968506" y="-13.778129" z="-546.142517" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="7" fOrg="0" IsPersistent="0"/>
+	<Object Guid="5D6E290730A544EDB6C2A47C586B38C5" Desc="monster_ZQEW001_0010" config="monster_ZQEW001_0010" x="-1514.196777" y="-14.808997" z="-521.012146" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="7" fOrg="0" IsPersistent="0"/>
+	<Object Guid="EA4A5FB544224D719E064FAE81DBE988" Desc="monster_ZQEW001_0010" config="monster_ZQEW001_0010" x="-1508.886108" y="-16.520237" z="-505.90567" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="7" fOrg="0" IsPersistent="0"/>
+	<Object Guid="A4E114598DB1495C9F184B816DDCFA7D" Desc="monster_ZQEW001_0010" config="monster_ZQEW001_0010" x="-1487.514282" y="-17.408493" z="-518.551208" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="7" fOrg="0" IsPersistent="0"/>
+	<Object Guid="A6EEEA26AA3A4B7BBB2C9824FB70E7EA" Desc="monster_ZQEW001_0010" config="monster_ZQEW001_0010" x="-1465.542358" y="-14.342577" z="-540.208313" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="7" fOrg="0" IsPersistent="0"/>
+	<Object Guid="B8AE4865400B492FB8ED6250B426665C" Desc="monster_ZQEW001_0010" config="monster_ZQEW001_0010" x="-1467.259644" y="-14.378669" z="-540.000671" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="7" fOrg="0" IsPersistent="0"/>
+	<Object Guid="C8F88DCFC4CB47D08B03744928560D50" Desc="monster_ZQEW001_0010" config="monster_ZQEW001_0010" x="-1545.696167" y="-10.430136" z="-516.7854" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="7" fOrg="0" IsPersistent="0"/>
+	<Object Guid="49A3D50EA5A645F688CB5D7A722A0B29" Desc="monster_ZQEW001_0010" config="monster_ZQEW001_0010" x="-1485.994751" y="-12.084935" z="-549.575562" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="7" fOrg="0" IsPersistent="0"/>
+	<Object Guid="16E9E07E359D4BAF9E2C21ADC09D537F" Desc="monster_ZQEW001_0010" config="monster_ZQEW001_0010" x="-1488.441406" y="-17.589138" z="-529.356079" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="7" fOrg="0" IsPersistent="0"/>
+	<Object Guid="71E77C4716274D6A88471B6A2AEC2699" Desc="monster_ZQEW001_0010" config="monster_ZQEW001_0010" x="-1481.998657" y="-14.760138" z="-542.386597" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="7" fOrg="0" IsPersistent="0"/>
+	<Object Guid="8859033303B7409F850ED4EC4EF478DF" Desc="monster_ZQEW001_0010" config="monster_ZQEW001_0010" x="-1515.682129" y="-16.945501" z="-532.176758" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="7" fOrg="0" IsPersistent="0"/>
+	<Object Guid="8F27D943B4D84CBCB52D8766513C526D" Desc="monster_ZQEW001_0010" config="monster_ZQEW001_0010" x="-1499.25647" y="-17.759417" z="-524.771484" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="7" fOrg="0" IsPersistent="0"/>
+	<Object Guid="831F1BDD28CA425F9C5C1CD8579E11F1" Desc="monster_ZQEW001_0010" config="monster_ZQEW001_0010" x="-1492.598999" y="-10.234197" z="-558.781921" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="7" fOrg="0" IsPersistent="0"/>
+	<Object Guid="3D4F683338E04FF8814BEA8CCB3569EB" Desc="monster_ZQEW001_0010" config="monster_ZQEW001_0010" x="-1484.134521" y="-10.136835" z="-559.902466" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="7" fOrg="0" IsPersistent="0"/>
+	<Object Guid="E2E4373950A24E2A9A0F98027836AF9D" Desc="monster_ZQEW001_0010" config="monster_ZQEW001_0010" x="-1494.661621" y="-16.642555" z="-541.713928" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="7" fOrg="0" IsPersistent="0"/>
+	<Object Guid="07F18F07C3DE458AA947A9DA06863EA7" Desc="monster_ZQEW001_0010" config="monster_ZQEW001_0010" x="-1503.039551" y="-17.722502" z="-535.160461" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="7" fOrg="0" IsPersistent="0"/>
+	<Object Guid="B36F63A3F0D04BDD8D7568A11DB0E10B" Desc="monster_ZQEW001_0010" config="monster_ZQEW001_0010" x="-1500.013428" y="-14.997461" z="-547.000305" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="7" fOrg="0" IsPersistent="0"/>
+	<Object Guid="99422DDC99FB438BB603FCD411C23AB3" Desc="monster_ZQEW001_0010" config="monster_ZQEW001_0010" x="-1506.44458" y="-13.434112" z="-555.56958" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="7" fOrg="0" IsPersistent="0"/>
+	<Object Guid="B331EFC3C86A465AAAB54480F05B2715" Desc="monster_ZQEW001_0010" config="monster_ZQEW001_0010" x="-1518.815186" y="-16.273268" z="-560.932983" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="7" fOrg="0" IsPersistent="0"/>
+	<Object Guid="C391A65B738A48E18A056BE372B4633C" Desc="monster_ZQEW001_0010" config="monster_ZQEW001_0010" x="-1513.442017" y="-17.432379" z="-545.383301" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="7" fOrg="0" IsPersistent="0"/>
+	<Object Guid="73AEB67E489741F8A93FFA113E119D48" Desc="monster_ZQEW001_0010" config="monster_ZQEW001_0010" x="-1523.12561" y="-14.731535" z="-571.840576" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="7" fOrg="0" IsPersistent="0"/>
+	<Object Guid="F8F2553D1F254E9E8528ECC90F9B507E" Desc="monster_ZQEW001_0010" config="monster_ZQEW001_0010" x="-1515.81665" y="-12.434771" z="-573.93396" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="7" fOrg="0" IsPersistent="0"/>
+	<Object Guid="0A060AC6E3C44C60A1AC11D3332866A2" Desc="monster_ZQEW001_0010" config="monster_ZQEW001_0010" x="-1540.332764" y="-12.395607" z="-575.859863" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="7" fOrg="0" IsPersistent="0"/>
+	<Object Guid="C13E46CD53C8495E900CEEA3A3A4828E" Desc="monster_ZQEW001_0010" config="monster_ZQEW001_0010" x="-1531.865479" y="-13.602154" z="-575.238586" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="7" fOrg="0" IsPersistent="0"/>
+	<Object Guid="07DB3A637EE244C990AE9CA59852100B" Desc="monster_ZQEW001_0010" config="monster_ZQEW001_0010" x="-1518.431641" y="-11.458042" z="-590.918457" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="7" fOrg="0" IsPersistent="0"/>
+	<Object Guid="6D5E17F05858464B92E31F8489985CF1" Desc="monster_ZQEW001_0010" config="monster_ZQEW001_0010" x="-1530.082275" y="-11.938894" z="-598.601013" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="7" fOrg="0" IsPersistent="0"/>
+	<Object Guid="5396E80608C34CB1A384513566DDD769" Desc="monster_ZQEW001_0010" config="monster_ZQEW001_0010" x="-1540.694336" y="-10.911438" z="-599.032043" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="7" fOrg="0" IsPersistent="0"/>
+	<Object Guid="010418AE6A364600B3AB250A09B96266" Desc="monster_ZQEW001_0010" config="monster_ZQEW001_0010" x="-1546.972412" y="-12.575074" z="-572.121887" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="7" fOrg="0" IsPersistent="0"/>
+	<Object Guid="D2A93AE5210548618FF04DAF951B32C1" Desc="monster_ZQEW001_0010" config="monster_ZQEW001_0010" x="-1550.167358" y="-10.399088" z="-602.823853" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="7" fOrg="0" IsPersistent="0"/>
+	<Object Guid="DB705DB73E3842249353DC3424AC5C2F" Desc="monster_ZQEW001_0010" config="monster_ZQEW001_0010" x="-1543.306396" y="-11.991421" z="-587.069519" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="7" fOrg="0" IsPersistent="0"/>
+	<Object Guid="BD5AF42686AC478682623ECF4B2008B6" Desc="monster_ZQEW001_0010" config="monster_ZQEW001_0010" x="-1549.522583" y="-13.734591" z="-558.927307" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="7" fOrg="0" IsPersistent="0"/>
+	<Object Guid="456A789B5A1842F8A40F594D7641C166" Desc="monster_ZQEW001_0010" config="monster_ZQEW001_0010" x="-1559.154419" y="-9.843561" z="-603.627319" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="7" fOrg="0" IsPersistent="0"/>
+	<Object Guid="1C9465C88B78422EAE2B6798F1BA504C" Desc="monster_ZQEW001_0010" config="monster_ZQEW001_0010" x="-1575.946777" y="-11.077645" z="-584.50946" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="7" fOrg="0" IsPersistent="0"/>
+	<Object Guid="49662D6DF4B84F5CA15AEF8B2DA61C31" Desc="monster_ZQEW001_0010" config="monster_ZQEW001_0010" x="-1567.767334" y="-11.735946" z="-587.676331" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="7" fOrg="0" IsPersistent="0"/>
+	<Object Guid="195381DBADF44A3BA408B04E91FE1ADE" Desc="monster_ZQEW001_0010" config="monster_ZQEW001_0010" x="-1584.756592" y="-10.168278" z="-576.995239" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="7" fOrg="0" IsPersistent="0"/>
+	<Object Guid="0433764F341F442BB7936E357B289640" Desc="monster_ZQEW001_0010" config="monster_ZQEW001_0010" x="-1539.998047" y="-14.16996" z="-563.96167" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="7" fOrg="0" IsPersistent="0"/>
+	<Object Guid="43AE418E279D4B7695ACCB1D754EB62F" Desc="monster_ZQEW001_0010" config="monster_ZQEW001_0010" x="-1568.55542" y="-12.168259" z="-561.994812" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="7" fOrg="0" IsPersistent="0"/>
+	<Object Guid="58454A49F2014716978556F35A7D40C1" Desc="monster_ZQEW001_0010" config="monster_ZQEW001_0010" x="-1579.712036" y="-11.962254" z="-559.774536" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="7" fOrg="0" IsPersistent="0"/>
+	<Object Guid="9FD4C0221B504F1AB374FBD4D3846105" Desc="monster_ZQEW001_0010" config="monster_ZQEW001_0010" x="-1588.118164" y="-11.808461" z="-557.837097" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="7" fOrg="0" IsPersistent="0"/>
+	<Object Guid="FE07CCB042A3440CA0D795CBDE80A847" Desc="monster_ZQEW001_0010" config="monster_ZQEW001_0010" x="-1577.318481" y="-11.373126" z="-548.463074" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="7" fOrg="0" IsPersistent="0"/>
+	<Object Guid="239DFC8A829040138B4AC5DD5C475A41" Desc="monster_ZQEW001_0010" config="monster_ZQEW001_0010" x="-1567.136475" y="-11.602887" z="-547.714844" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="7" fOrg="0" IsPersistent="0"/>
+	<Object Guid="55176D9CF23C4F2BA2B5F85D6097CBA7" Desc="monster_ZQEW001_0010" config="monster_ZQEW001_0010" x="-1580.945923" y="-10.714431" z="-539.006531" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="7" fOrg="0" IsPersistent="0"/>
+	<Object Guid="04D00EF110754816BF4E3E04386FC3DE" Desc="monster_ZQEW001_0010" config="monster_ZQEW001_0010" x="-1567.170532" y="-9.673083" z="-531.652832" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="7" fOrg="0" IsPersistent="0"/>
+	<Object Guid="7D856F4C73FD4185A7F7FA19E353D606" Desc="monster_ZQEW001_0010" config="monster_ZQEW001_0010" x="-1542.538818" y="-10.817598" z="-499.903595" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="7" fOrg="0" IsPersistent="0"/>
+	<Object Guid="D46B4C3692264D22B108F7ED67CEF4DB" Desc="monster_ZQEW001_0010" config="monster_ZQEW001_0010" x="-1542.730469" y="-15.695736" z="-549.690674" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="7" fOrg="0" IsPersistent="0"/>
+	<Object Guid="8F2CB1F6DE1E4E6C95AF6D7C3495DB73" Desc="monster_ZQEW001_0010" config="monster_ZQEW001_0010" x="-1529.797974" y="-16.963251" z="-543.008118" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="7" fOrg="0" IsPersistent="0"/>
+	<Object Guid="46A9A987EB3D4BEDB9F138A44DD5F01F" Desc="monster_ZQEW001_0010" config="monster_ZQEW001_0010" x="-1554.61084" y="-11.242211" z="-531.615784" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="7" fOrg="0" IsPersistent="0"/>
+	<Object Guid="1E28A3DD482C49EFA49C9E59942F54C6" Desc="ZQ_Mail_0001" config="ZQ_Mail_0001" x="-1396.824707" y="29.774132" z="19.060888" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="30" fOrg="0" IsPersistent="0"/>
+	<Object Guid="DB8A2C879AC945C1B35D04A35BFEA977" Desc="CloneDoor_chnj_0014" config="CloneDoor_chnj_0014" x="-1333.899902" y="61.593849" z="-36.107975" IsY="0" Radius="0" amount="1" RefreshTime="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="4BECBD583C3F4C13B8895550F6F01D5C" config="ZQ_repair_001" x="-1467.180054" y="31.684248" z="-93.751755" IsY="0" Radius="0" amount="1" RefreshTime="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="1547285565DB4A96A0482F6A11CD5DDD" Desc="蒸汽之渊" config="nlj_jiebei_002" x="-1092.626587" y="-14.662001" z="40.873276" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="10" fOrg="-0.520002" IsPersistent="0"/>
+</Stage>
+
+

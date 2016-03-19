@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--
+	warId     战场编号
+	sceneId   场景编号
+	zqPos     蒸汽传送点
+	qhPos     奇幻传送点
+	lowLevel  最低等级
+	maxLevel  最高等级
+	lowProtectLevel  低等级保护等级
+	highPunishLevel  高等级惩罚等级
+	lowProtectBuff   低等级保护BUFF
+	highPunishBuff   高等级惩罚BUFF
+	warModality      战场形势配置("比率,奖励BUFF")
+	coreFlagId       核心旗帜ID
+	coreFlagBuff     核心旗帜BUFF奖励
+	startRatePlayer  开始计算比率的人数配置
+	warName   战场名称
+	warDesc   战场描述
+-->
+<Object>
+	<Property warId="1" sceneId="405" zqPos="586,30,-766" qhPos="-250,38,415" lowLevel="8" maxLevel="40" lowProtectLevel="20" lowProtectBuff="ScenewarBuff001" highPunishLevel="30" highPunishBuff="ScenewarBuff002" warModality="1.5,ScenewarBuff003;2,ScenewarBuff006" coreFlagId="wordscene_xuyashan_01" coreFlagBuff="ScenewarBuff004" startRatePlayer="0" warName="map_scenewar01" warDesc="" zqMaxPlayer="100" qhMaxPlayer="100"/>
+	<Property warId="2" sceneId="406" zqPos="586,30,-766" qhPos="-250,38,415" lowLevel="8" maxLevel="40" lowProtectLevel="20" lowProtectBuff="ScenewarBuff001" highPunishLevel="30" highPunishBuff="ScenewarBuff002" warModality="1.5,ScenewarBuff003;2,ScenewarBuff006" coreFlagId="wordscene_xuyashan_01" coreFlagBuff="ScenewarBuff004" startRatePlayer="0" warName="map_scenewar02" warDesc="" zqMaxPlayer="100" qhMaxPlayer="100"/>
+	<Property warId="3" sceneId="407" zqPos="586,30,-766" qhPos="-250,38,415" lowLevel="8" maxLevel="40" lowProtectLevel="20" lowProtectBuff="ScenewarBuff001" highPunishLevel="30" highPunishBuff="ScenewarBuff002" warModality="1.5,ScenewarBuff003;2,ScenewarBuff006" coreFlagId="wordscene_xuyashan_01" coreFlagBuff="ScenewarBuff004" startRatePlayer="0" warName="map_scenewar03" warDesc="" zqMaxPlayer="100" qhMaxPlayer="100"/>
+</Object>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!-- edited with XMLSpy v2009 (http://www.altova.com) by caoyt (EMBRACE) -->
+<Object>
+	<Property ID="19001" GirdX="1" GirdY="2" FatherTask="" ChildTask="19002" IsHide="1" LastTask=""/>
+	<Property ID="19002" GirdX="2" GirdY="2" FatherTask="19001" ChildTask="19005" IsHide="1" LastTask=""/>
+	<Property ID="19005" GirdX="3" GirdY="2" FatherTask="19002" ChildTask="19006" IsHide="1" LastTask=""/>
+	<Property ID="19006" GirdX="4" GirdY="2" FatherTask="19005" ChildTask="19007" IsHide="1" LastTask=""/>
+	<Property ID="19007" GirdX="5" GirdY="2" FatherTask="19006" ChildTask="19008" IsHide="1" LastTask=""/>
+	<Property ID="19008" GirdX="6" GirdY="2" FatherTask="19007" ChildTask="19012" IsHide="1" LastTask=""/>
+	<Property ID="19012" GirdX="7" GirdY="2" FatherTask="19008" ChildTask="19015" IsHide="1" LastTask=""/>
+	<Property ID="19015" GirdX="8" GirdY="2" FatherTask="19012" ChildTask="19019" IsHide="1" LastTask=""/>
+	<Property ID="19019" GirdX="9" GirdY="2" FatherTask="19015" ChildTask="" IsHide="1" LastTask="1"/>
+</Object>

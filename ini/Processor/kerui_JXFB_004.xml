@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes" ?>
+<Processor>
+    <Base type="object" version="1.0">
+        <Line Type="2" Event="2002" Name="AUTOP1" />
+        <Line Type="1" Event="5101">
+            <Param type="13" srctype="8" data="AUTOP1" Index="0" />
+        </Line>
+        <Line Type="2" Event="2002" Name="AUTOP2" />
+        <Line Type="1" Event="4529">
+            <Param type="13" srctype="8" data="AUTOP2" Index="0" />
+            <Param type="6" data="请注意，你已离开分组场景" Index="1" />
+        </Line>
+    </Base>
+</Processor>

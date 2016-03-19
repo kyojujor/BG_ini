@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- npc静态属性配置文件 -->
+<!-- ID: 属性名 -->
+<!-- Type: 属性类型(仅限以下几种类型: 2-int; 3-int64; 4-float; 5-double; 6-string; 7-wstring) -->
+<Object>
+	<Property ID="DefenseType" Type="2" desc="防御类型" />
+    <Property ID="AbilityType" Type="2" desc="归属类型，0-首杀，1-伤害高" />
+    <Property ID="Desc" Type="7" desc="npc的描述"/>
+    <Property ID="Exp" Type="2" desc="声望奖励"/>
+    <Property ID="CantRegainHP" Type="2" desc="怪物是否回血的标记:0回,大于0不回"/>
+    <Property ID="IsPreloaded" Type="2" desc="npc是否预加载(预加载表示该npc的模型在client一直存在)"/>
+    <Property ID="ShowInMiniMap" Type="6" desc="是否在小地图显示"/>
+    <Property ID="GuardType" Type="2" desc="装甲类型"/>
+    <Property ID="Thickness" Type="4" desc="门类npc的厚度"/>
+    <Property ID="CantBeDeadBack" Type="2" desc="不能被死亡击退"/>
+    <Property ID="CantBeHeal" Type="2" desc="是否可以被治疗0可以1不可以"/>
+    <Property ID="CantShowTips" Type="2" desc="是否显示tips信息(1:不显示 0:显示)"/>	
+    <Property ID="NeedVisibleTime" Type="4" desc="半隐时间(float)"/>	
+    <Property ID="NpcLogo" Type="2" desc="NPCLOGO"/>
+    <Property ID="ShowHeadUI" Type="2" desc="是否显示头像, 0显示, 1不显示"/>
+    <Property ID="PetItemID" Type="6" desc="主人吸魂之后变成道具的ID"/>
+    <Property ID="PlayerFightCount"	Type="2" desc="npc是否统计玩家战斗伤害"/>
+    <Property ID="BroadcastSelfInfo" Type="2" desc="是否广播自身信息0:不广播;1:广播"/>
+    <Property ID="ModuleHeight" Type="4" desc="npc模型高度"/>
+    <Property ID="RelivePos" Type="6" desc="复活[此属性从代码中移动过来]"/>
+    <Property ID="WarnShowing" Type="2" desc="警戒范围显示模式(0: 不显示  1: 显示原始警戒范围)"/>
+    <Property ID="DestroyTime1" Type="2" desc="尸体时间1"/>
+    <Property ID="DestroyTime2" Type="2" desc="尸体时间2"/>
+    <Property ID="PickChangeTime" Type="2" desc="所有权改变时间"/>
+	<Property ID="FirstViewAngleUp" Type="4" desc="载具第一视角最大上仰视角"/>
+	<Property ID="FirstViewAngleDown" Type="4" desc="载具第一视角最大下俯视角"/>
+	<Property ID="KeepHate" Type="2" desc="是否保持仇恨, 配1表示非当前攻击对象超出追击范围时不会将其从仇恨表中删除"/>
+    <Property ID="Call" Type="6" desc="对应称号"/>
+</Object>
+
+

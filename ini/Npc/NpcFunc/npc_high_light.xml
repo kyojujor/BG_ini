@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 被2011 rel. 2 sp1 (TeaM DJiNN) 使用XMLSpy vTeaM DJiNN编辑的 (http://www.altova.com) by -->
+<!-- ID：默认ID(战斗关系)及特殊NPCID  Name：注释（颜色配置）  Emissive：发光颜色  GlowSize：泛光线宽  GlowAlpha ：泛光透明度  GlowEnable ：是否开启泛光  GlowEmissive ：是否开启自发光 GlowBlur:是否开启泛光模糊  -->
+<Object>
+	<Property ID="1" Name="红色敌对" Emissive="1.0,0,0" GlowSize="0" GlowAlpha="1.0" GlowEnable="true" GlowEmissive="true" Ambient="0.588,0.588,0.588" Diffuse="0.588,0.588,0.588" GlowBlur="true"/>
+	<Property ID="2" Name="黄色中立" Emissive="1.0,0.843,0" GlowSize="0" GlowAlpha="1.0" GlowEnable="true" GlowEmissive="true" Ambient="0.588,0.588,0.588" Diffuse="0.588,0.588,0.588" GlowBlur="true"/>
+	<Property ID="3" Name="绿色友好" Emissive="0.314,0.659,0.314" GlowSize="0" GlowAlpha="1.0" GlowEnable="true" GlowEmissive="true" Ambient="0.588,0.588,0.588" Diffuse="0.588,0.588,0.588" GlowBlur="true"/>
+	<Property ID="4" Name="灰色死亡" Emissive="0.752,0.752,0.752" GlowSize="0" GlowAlpha="1.0" GlowEnable="true" GlowEmissive="true" Ambient="0.588,0.588,0.588" Diffuse="0.588,0.588,0.588" GlowBlur="true"/>
+	<Property ID="5" Name="队伍蓝色" Emissive="0.392,0.882,1.0" GlowSize="0" GlowAlpha="1.0" GlowEnable="true" GlowEmissive="true" Ambient="0.588,0.588,0.588" Diffuse="0.588,0.588,0.588" GlowBlur="true"/>
+	<Property ID="6" Name="团队蓝色" Emissive="0.227,0.627,1.0" GlowSize="0" GlowAlpha="1.0" GlowEnable="true" GlowEmissive="true" Ambient="0.588,0.588,0.588" Diffuse="0.588,0.588,0.588" GlowBlur="true"/>
+	<Property ID="Organ_fbm003_0002" Name="FBM003铁门" Emissive="0.392,0.882,1.0" GlowSize="0" GlowAlpha="1.0" GlowEnable="false" GlowEmissive="false" Ambient="0.588,0.588,0.588" Diffuse="0.588,0.588,0.588" GlowBlur="true"/>
+</Object>

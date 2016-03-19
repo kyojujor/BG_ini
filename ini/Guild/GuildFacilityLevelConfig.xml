@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+  <!-- 
+    设施类型
+	GUILD_FACILITY_SHOP		     = 1,	//公会商店
+	GUILD_FACILITY_COOK          = 2,   //公会烹饪工坊
+	GUILD_FACILITY_SEWING        = 3,	//公会缝纫工坊
+	GUILD_FACILITY_SMELT		 = 4,	//公会炼金工坊
+	GUILD_FACILITY_IRONSMITH     = 5,	//公会铁匠工坊
+	GUILD_FACILITY_HOUSE		 = 6,	//公会住宅
+	GUILD_FACILITY_RESEARCH      = 7,	//公会研究院
+	
+	设施级别(现在整合到设施类型的第二个字段 方便客户端读取)
+	货币消耗 
+	资金消耗 
+  -->
+
+  <Property   facilityType="11"  MoneyConsume="100" Resource="MineralG_00002A,0;PlantG_00001A,0;FoodG_00001A,0;DrugG_00001B,0;LeatherG_00001A,0"/>
+  <Property   facilityType="12"  MoneyConsume="200" Resource="MineralG_00002A,0;PlantG_00001A,0;FoodG_00001A,0;DrugG_00001B,0;LeatherG_00001A,0"/>	
+  <Property   facilityType="13"  MoneyConsume="300" Resource="MineralG_00002A,0;PlantG_00001A,0;FoodG_00001A,0;DrugG_00001B,0;LeatherG_00001A,0"/>
+  <Property   facilityType="14"  MoneyConsume="400" Resource="MineralG_00002A,0;PlantG_00001A,0;FoodG_00001A,0;DrugG_00001B,0;LeatherG_00001A,0"/>
+  <Property   facilityType="15"  MoneyConsume="500" Resource="MineralG_00002A,0;PlantG_00001A,0;FoodG_00001A,0;DrugG_00001B,0;LeatherG_00001A,0"/>
+  <Property   facilityType="21"  MoneyConsume="100" Resource="MineralG_00002A,0;PlantG_00001A,0;FoodG_00001A,0;DrugG_00001B,0;LeatherG_00001A,0"/>
+  <Property   facilityType="22"  MoneyConsume="200" Resource="MineralG_00002A,0;PlantG_00001A,0;FoodG_00001A,0;DrugG_00001B,0;LeatherG_00001A,0"/>	
+  <Property   facilityType="23"  MoneyConsume="300" Resource="MineralG_00002A,0;PlantG_00001A,0;FoodG_00001A,0;DrugG_00001B,0;LeatherG_00001A,0"/>
+  <Property   facilityType="24"  MoneyConsume="400" Resource="MineralG_00002A,0;PlantG_00001A,0;FoodG_00001A,0;DrugG_00001B,0;LeatherG_00001A,0"/>
+  <Property   facilityType="25"  MoneyConsume="500" Resource="MineralG_00002A,0;PlantG_00001A,0;FoodG_00001A,0;DrugG_00001B,0;LeatherG_00001A,0"/>
+  <Property   facilityType="31"  MoneyConsume="100" Resource="MineralG_00002A,0;PlantG_00001A,0;FoodG_00001A,0;DrugG_00001B,0;LeatherG_00001A,0"/>
+  <Property   facilityType="32"  MoneyConsume="200" Resource="MineralG_00002A,0;PlantG_00001A,0;FoodG_00001A,0;DrugG_00001B,0;LeatherG_00001A,0"/>	
+  <Property   facilityType="33"  MoneyConsume="300" Resource="MineralG_00002A,0;PlantG_00001A,0;FoodG_00001A,0;DrugG_00001B,0;LeatherG_00001A,0"/>
+  <Property   facilityType="34"  MoneyConsume="400" Resource="MineralG_00002A,0;PlantG_00001A,0;FoodG_00001A,0;DrugG_00001B,0;LeatherG_00001A,0"/>
+  <Property   facilityType="35"  MoneyConsume="500" Resource="MineralG_00002A,0;PlantG_00001A,0;FoodG_00001A,0;DrugG_00001B,0;LeatherG_00001A,0"/>
+  <Property   facilityType="41"  MoneyConsume="100" Resource="MineralG_00002A,0;PlantG_00001A,0;FoodG_00001A,0;DrugG_00001B,0;LeatherG_00001A,0"/>
+  <Property   facilityType="42"  MoneyConsume="200" Resource="MineralG_00002A,0;PlantG_00001A,0;FoodG_00001A,0;DrugG_00001B,0;LeatherG_00001A,0"/>	
+  <Property   facilityType="43"  MoneyConsume="300" Resource="MineralG_00002A,0;PlantG_00001A,0;FoodG_00001A,0;DrugG_00001B,0;LeatherG_00001A,0"/>
+  <Property   facilityType="44"  MoneyConsume="400" Resource="MineralG_00002A,0;PlantG_00001A,0;FoodG_00001A,0;DrugG_00001B,0;LeatherG_00001A,0"/>
+  <Property   facilityType="45"  MoneyConsume="500" Resource="MineralG_00002A,0;PlantG_00001A,0;FoodG_00001A,0;DrugG_00001B,0;LeatherG_00001A,0"/>
+  <Property   facilityType="51"  MoneyConsume="100" Resource="MineralG_00002A,0;PlantG_00001A,0;FoodG_00001A,0;DrugG_00001B,0;LeatherG_00001A,0"/>
+  <Property   facilityType="52"  MoneyConsume="200" Resource="MineralG_00002A,0;PlantG_00001A,0;FoodG_00001A,0;DrugG_00001B,0;LeatherG_00001A,0"/>	
+  <Property   facilityType="53"  MoneyConsume="300" Resource="MineralG_00002A,0;PlantG_00001A,0;FoodG_00001A,0;DrugG_00001B,0;LeatherG_00001A,0"/>
+  <Property   facilityType="54"  MoneyConsume="400" Resource="MineralG_00002A,0;PlantG_00001A,0;FoodG_00001A,0;DrugG_00001B,0;LeatherG_00001A,0"/>
+  <Property   facilityType="55"  MoneyConsume="500" Resource="MineralG_00002A,0;PlantG_00001A,0;FoodG_00001A,0;DrugG_00001B,0;LeatherG_00001A,0"/>
+  <Property   facilityType="61"  MoneyConsume="100" Resource="MineralG_00002A,0;PlantG_00001A,0;FoodG_00001A,0;DrugG_00001B,0;LeatherG_00001A,0"/>
+  <Property   facilityType="62"  MoneyConsume="200" Resource="MineralG_00002A,0;PlantG_00001A,0;FoodG_00001A,0;DrugG_00001B,0;LeatherG_00001A,0"/>
+  <Property   facilityType="63"  MoneyConsume="300" Resource="MineralG_00002A,0;PlantG_00001A,0;FoodG_00001A,0;DrugG_00001B,0;LeatherG_00001A,0"/>	
+  <Property   facilityType="64"  MoneyConsume="400" Resource="MineralG_00002A,0;PlantG_00001A,0;FoodG_00001A,0;DrugG_00001B,0;LeatherG_00001A,0"/>
+  <Property   facilityType="65"  MoneyConsume="500" Resource="MineralG_00002A,0;PlantG_00001A,0;FoodG_00001A,0;DrugG_00001B,0;LeatherG_00001A,0"/>
+  <Property   facilityType="71"  MoneyConsume="100" Resource="MineralG_00002A,0;PlantG_00001A,0;FoodG_00001A,0;DrugG_00001B,0;LeatherG_00001A,0"/>
+  <Property   facilityType="72"  MoneyConsume="200" Resource="MineralG_00002A,0;PlantG_00001A,0;FoodG_00001A,0;DrugG_00001B,0;LeatherG_00001A,0"/>
+  <Property   facilityType="73"  MoneyConsume="300" Resource="MineralG_00002A,0;PlantG_00001A,0;FoodG_00001A,0;DrugG_00001B,0;LeatherG_00001A,0"/>	
+  <Property   facilityType="74"  MoneyConsume="400" Resource="MineralG_00002A,0;PlantG_00001A,0;FoodG_00001A,0;DrugG_00001B,0;LeatherG_00001A,0"/>
+  <Property   facilityType="75"  MoneyConsume="500" Resource="MineralG_00002A,0;PlantG_00001A,0;FoodG_00001A,0;DrugG_00001B,0;LeatherG_00001A,0"/>
+</Object>

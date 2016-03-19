@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<Object>
+	<Property ID="13006" GirdX="1" GirdY="2" FatherTask="" ChildTask="13007" IsHide="1" LastTask=""/>
+	<Property ID="13007" GirdX="2" GirdY="2" FatherTask="13006" ChildTask="13013" IsHide="1" LastTask=""/>
+	<Property ID="13013" GirdX="3" GirdY="2" FatherTask="13007" ChildTask="" IsHide="1" LastTask="1"/>
+</Object>

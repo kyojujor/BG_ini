@@ -1,0 +1,1778 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes" ?>
+<Processor>
+    <Base type="object" version="1.0">
+        <Line Type="1" Event="4528">
+            <Param type="6" data="Dota场景创建(开始)" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP1" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP1" Index="0" />
+            <Param type="6" data="p_qh_base" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="6" data="4104.87793,20.620609,730.56958,0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP2" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP2" Index="0" />
+            <Param type="6" data="p_qh_tower_s_1" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="6" data="3938.593506,17.880014,865.469299,0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP3" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP3" Index="0" />
+            <Param type="6" data="p_qh_tower_s_2" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="6" data="3989.777588,17.550863,821.576172,0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP4" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP4" Index="0" />
+            <Param type="6" data="p_qh_tower_s_3" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="6" data="4039.716064,17.545374,787.726501,0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP5" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP5" Index="0" />
+            <Param type="6" data="p_qh_tower_s_4" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="6" data="4075.456299,20.557186,758.251953,0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP6" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP6" Index="0" />
+            <Param type="6" data="p_qh_tower_s_5" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="6" data="4092.205078,20.557257,739.15155,0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP7" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP7" Index="0" />
+            <Param type="6" data="p_qh_tower_m_1" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="6" data="4149.384277,17.751791,865.871277,0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP8" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP8" Index="0" />
+            <Param type="6" data="p_qh_tower_m_2" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="6" data="4152.689941,17.52951,826.29071,0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP9" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP9" Index="0" />
+            <Param type="6" data="p_qh_tower_m_3" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="6" data="4139.324219,17.52951,791.91925,0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP10" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP10" Index="0" />
+            <Param type="6" data="p_qh_tower_m_4" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="6" data="4139.265137,20.827888,756.390381,0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP11" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP11" Index="0" />
+            <Param type="6" data="p_qh_tower_m_5" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="6" data="4114.272949,20.557257,743.232666,0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP12" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP12" Index="0" />
+            <Param type="6" data="p_qh_tower_super" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="6" data="4076.675049,21.09897,711.124939,0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP13" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP13" Index="0" />
+            <Param type="6" data="p_qh_common_weapon" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="6" data="4075.964111,20.557257,733.258728,3.14" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP14" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP14" Index="0" />
+            <Param type="6" data="p_qh_common_material" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="6" data="4082.108643,20.557257,733.709839,3.14" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP15" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP15" Index="0" />
+            <Param type="6" data="p_qh_common_skill" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="6" data="4087.419189,20.557257,734.661499,3.14" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP16" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP16" Index="0" />
+            <Param type="6" data="p_qh_common_doctor" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="6" data="4081.870,21.326,717.012,0.115" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP17" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP17" Index="0" />
+            <Param type="6" data="p_qh_barrack_m" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="6" data="4127.791016,20.557158,744.273987,0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP18" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP18" Index="0" />
+            <Param type="6" data="p_qh_barrack_s" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="6" data="4081.289307,20.557257,746.839966,0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP19" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP19" Index="0" />
+            <Param type="6" data="p_qh_barrack_spawn_m" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="6" data="4130.244,20.557,752.665,1.111" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP20" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP20" Index="0" />
+            <Param type="6" data="p_qh_barrack_spawn_s" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="6" data="4083.243,20.557,753.953,-0.230" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP21" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP21" Index="0" />
+            <Param type="6" data="qh_minion_melee" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="6" data="dota_jingjichang_011" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP22" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP22" Index="0" />
+            <Param type="6" data="qh_minion_range" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="6" data="dota_jingjichang_0015" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP23" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP23" Index="0" />
+            <Param type="6" data="qh_minion_siege" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="6" data="dota_jingjichang_018" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP24" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP24" Index="0" />
+            <Param type="6" data="qh_minion_super" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="6" data="dota_jingjichang_020" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP25" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP25" Index="0" />
+            <Param type="6" data="qh_attackway_m" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="6" data="qh-attackway-m" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP26" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP26" Index="0" />
+            <Param type="6" data="qh_attackway_s" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="6" data="qh-attackway-s" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP27" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP27" Index="0" />
+            <Param type="6" data="p_zq_base" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="6" data="4104.131836, 20.846285, 1062.098755, 0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP28" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP28" Index="0" />
+            <Param type="6" data="p_zq_tower_s_1" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="6" data="3935.335205, 17.859486, 916.611633, 0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP29" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP29" Index="0" />
+            <Param type="6" data="p_zq_tower_s_2" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="6" data="3969.628174, 17.573015, 948.694336, 0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP30" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP30" Index="0" />
+            <Param type="6" data="p_zq_tower_s_3" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="6" data="4033.942383, 17.529411, 989.685425, 0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP31" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP31" Index="0" />
+            <Param type="6" data="p_zq_tower_s_4" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="6" data="4072.297852, 20.846188, 1022.428894, 0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP32" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP32" Index="0" />
+            <Param type="6" data="p_zq_tower_s_5" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="6" data="4095.699707, 20.846285, 1052.057617, 0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP33" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP33" Index="0" />
+            <Param type="6" data="p_zq_tower_m_1" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="6" data="4142.928711, 17.502548, 903.641479, 0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP34" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP34" Index="0" />
+            <Param type="6" data="p_zq_tower_m_2" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="6" data="4151.643066, 17.451696, 936.649841, 0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP35" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP35" Index="0" />
+            <Param type="6" data="p_zq_tower_m_3" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="6" data="4143.682129, 17.507193, 986.452271, 0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP36" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP36" Index="0" />
+            <Param type="6" data="p_zq_tower_m_4" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="6" data="4135.849609, 20.767391, 1022.145874, 0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP37" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP37" Index="0" />
+            <Param type="6" data="p_zq_tower_m_5" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="6" data="4112.391602, 20.846285, 1051.783447, 0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP38" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP38" Index="0" />
+            <Param type="6" data="p_zq_tower_super" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="6" data="4128.201172,20.846285,1075.900391,0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP39" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP39" Index="0" />
+            <Param type="6" data="p_zq_common_weapon" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="6" data="4131.831055,20.846285,1052.034424,0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP40" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP40" Index="0" />
+            <Param type="6" data="p_zq_common_material" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="6" data="4123.046387,20.846285,1051.686523,0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP41" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP41" Index="0" />
+            <Param type="6" data="p_zq_common_skill" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="6" data="4127.427734,20.846285,1052.358398,0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP42" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP42" Index="0" />
+            <Param type="6" data="p_zq_common_doctor" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="6" data="4126.385,21.561,1068.359,-2.983" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP43" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP43" Index="0" />
+            <Param type="6" data="p_zq_barrack_s" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="6" data="4084.729492, 20.846285, 1040.689697, 1.555002" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP44" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP44" Index="0" />
+            <Param type="6" data="p_zq_barrack_m" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="6" data="4126.461426, 20.846285, 1040.184082, -1.575007" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP45" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP45" Index="0" />
+            <Param type="6" data="p_zq_barrack_spawn_m" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="6" data="4124.981,20.846,1028.339,2.988" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP46" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP46" Index="0" />
+            <Param type="6" data="p_zq_barrack_spawn_s" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="6" data="4085.399,20.846,1030.131,2.812" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP47" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP47" Index="0" />
+            <Param type="6" data="zq_minion_melee" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="6" data="dota_jingjichang_003" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP48" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP48" Index="0" />
+            <Param type="6" data="zq_minion_range" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="6" data="dota_jingjichang_005" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP49" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP49" Index="0" />
+            <Param type="6" data="zq_minion_siege" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="6" data="dota_jingjichang_008" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP50" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP50" Index="0" />
+            <Param type="6" data="zq_minion_super" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="6" data="dota_jingjichang_0019" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP51" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP51" Index="0" />
+            <Param type="6" data="zq_attackway_m" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="6" data="zq-attackway-m" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP52" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP52" Index="0" />
+            <Param type="6" data="zq_attackway_s" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="6" data="zq-attackway-s" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP53" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP53" Index="0" />
+            <Param type="6" data="dota_jingjichang_039" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="300" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP54" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP54" Index="0" />
+            <Param type="6" data="FB_Dota_0004" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="250" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP55" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP55" Index="0" />
+            <Param type="6" data="FB_Dota_0001" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="250" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP56" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP56" Index="0" />
+            <Param type="6" data="dota_jingjichang_038" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="200" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP57" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP57" Index="0" />
+            <Param type="6" data="dota_jingjichang_036" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="200" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP58" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP58" Index="0" />
+            <Param type="6" data="dota_jingjichang_021" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="50" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP59" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP59" Index="0" />
+            <Param type="6" data="dota_jingjichang_022" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="50" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP60" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP60" Index="0" />
+            <Param type="6" data="dota_jingjichang_024" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="50" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP61" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP61" Index="0" />
+            <Param type="6" data="dota_jingjichang_025" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="50" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP62" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP62" Index="0" />
+            <Param type="6" data="dota_jingjichang_027" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="50" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP63" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP63" Index="0" />
+            <Param type="6" data="dota_jingjichang_028" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="50" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP64" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP64" Index="0" />
+            <Param type="6" data="dota_jingjichang_031" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="50" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP65" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP65" Index="0" />
+            <Param type="6" data="dota_jingjichang_032" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="50" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP66" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP66" Index="0" />
+            <Param type="6" data="dota_jingjichang_035" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="50" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP67" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP67" Index="0" />
+            <Param type="6" data="dota_jingjichang_018" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="40" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP68" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP68" Index="0" />
+            <Param type="6" data="dota_jingjichang_020" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="40" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP69" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP69" Index="0" />
+            <Param type="6" data="dota_jingjichang_008" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="40" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP70" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP70" Index="0" />
+            <Param type="6" data="dota_jingjichang_0019" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="40" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP71" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP71" Index="0" />
+            <Param type="6" data="dota_jingjichang_011" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="25" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP72" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP72" Index="0" />
+            <Param type="6" data="dota_jingjichang_003" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="25" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP73" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP73" Index="0" />
+            <Param type="6" data="dota_jingjichang_0015" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="15" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP74" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP74" Index="0" />
+            <Param type="6" data="dota_jingjichang_005" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="15" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP75" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP75" Index="0" />
+            <Param type="6" data="num_minion_melee" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="3" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP76" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP76" Index="0" />
+            <Param type="6" data="num_minion_range" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="3" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP77" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP77" Index="0" />
+            <Param type="6" data="t_creatall" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="600" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP78" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP78" Index="0" />
+            <Param type="6" data="t_creatminions_1" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="30" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP79" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP79" Index="0" />
+            <Param type="6" data="t_creatminions_2" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="60" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP80" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP80" Index="0" />
+            <Param type="6" data="t_creatminions_3" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="90" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP81" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP81" Index="0" />
+            <Param type="6" data="t_creatminions_4" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="120" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP82" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP82" Index="0" />
+            <Param type="6" data="t_creatmonster" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="150" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP83" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP83" Index="0" />
+            <Param type="6" data="t_creatboss" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="300" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP84" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP84" Index="0" />
+            <Param type="6" data="t_creatbigboss" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="600" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP85" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP85" Index="0" />
+            <Param type="6" data="t_minionscd" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="120" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP86" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP86" Index="0" />
+            <Param type="6" data="t_barrackres" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="300" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP87" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP87" Index="0" />
+            <Param type="6" data="t_gametime" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP88" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP88" Index="0" />
+            <Param type="6" data="t_resplayer" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP89" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP89" Index="0" />
+            <Param type="6" data="t_tempkill" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="15" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP90" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP90" Index="0" />
+            <Param type="6" data="npcgrowrate" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="6" data="5" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP91" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP91" Index="0" />
+            <Param type="6" data="num_alive_qh_barrack" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="6" data="2" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP92" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP92" Index="0" />
+            <Param type="6" data="num_alive_qh_basetower" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="6" data="2" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP93" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP93" Index="0" />
+            <Param type="6" data="num_alive_zq_barrack" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="6" data="2" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP94" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP94" Index="0" />
+            <Param type="6" data="num_alive_zq_basetower" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="6" data="2" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP95" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP95" Index="0" />
+            <Param type="6" data="firstblood" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP97" />
+        <Line Type="2" Event="3002" Name="AUTOP96">
+            <Param type="13" srctype="8" data="AUTOP97" Index="0" />
+            <Param type="6" data="p_qh_common_weapon" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP96" Index="0" />
+            <Param type="6" data="jingjichang_004" Index="1" />
+            <Param type="6" data="o_temp_common" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP99" />
+        <Line Type="2" Event="3002" Name="AUTOP98">
+            <Param type="13" srctype="8" data="AUTOP99" Index="0" />
+            <Param type="6" data="o_temp_common" Index="1" />
+        </Line>
+        <Line Type="1" Event="3012">
+            <Param type="13" srctype="8" data="AUTOP98" Index="0" />
+            <Param type="6" data="CantBeAttack" Index="1" />
+            <Param type="2" data="1" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP101" />
+        <Line Type="2" Event="3002" Name="AUTOP100">
+            <Param type="13" srctype="8" data="AUTOP101" Index="0" />
+            <Param type="6" data="p_qh_common_material" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP100" Index="0" />
+            <Param type="6" data="jingjichang_005" Index="1" />
+            <Param type="6" data="o_temp_common" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP103" />
+        <Line Type="2" Event="3002" Name="AUTOP102">
+            <Param type="13" srctype="8" data="AUTOP103" Index="0" />
+            <Param type="6" data="o_temp_common" Index="1" />
+        </Line>
+        <Line Type="1" Event="3012">
+            <Param type="13" srctype="8" data="AUTOP102" Index="0" />
+            <Param type="6" data="CantBeAttack" Index="1" />
+            <Param type="2" data="1" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP105" />
+        <Line Type="2" Event="3002" Name="AUTOP104">
+            <Param type="13" srctype="8" data="AUTOP105" Index="0" />
+            <Param type="6" data="p_qh_common_skill" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP104" Index="0" />
+            <Param type="6" data="jingjichang_006" Index="1" />
+            <Param type="6" data="o_temp_common" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP107" />
+        <Line Type="2" Event="3002" Name="AUTOP106">
+            <Param type="13" srctype="8" data="AUTOP107" Index="0" />
+            <Param type="6" data="o_temp_common" Index="1" />
+        </Line>
+        <Line Type="1" Event="3012">
+            <Param type="13" srctype="8" data="AUTOP106" Index="0" />
+            <Param type="6" data="CantBeAttack" Index="1" />
+            <Param type="2" data="1" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP109" />
+        <Line Type="2" Event="3002" Name="AUTOP108">
+            <Param type="13" srctype="8" data="AUTOP109" Index="0" />
+            <Param type="6" data="p_qh_common_doctor" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP108" Index="0" />
+            <Param type="6" data="jingjichang_008" Index="1" />
+            <Param type="6" data="o_temp_common" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP111" />
+        <Line Type="2" Event="3002" Name="AUTOP110">
+            <Param type="13" srctype="8" data="AUTOP111" Index="0" />
+            <Param type="6" data="o_temp_common" Index="1" />
+        </Line>
+        <Line Type="1" Event="3012">
+            <Param type="13" srctype="8" data="AUTOP110" Index="0" />
+            <Param type="6" data="CantBeAttack" Index="1" />
+            <Param type="2" data="1" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP113" />
+        <Line Type="2" Event="3002" Name="AUTOP112">
+            <Param type="13" srctype="8" data="AUTOP113" Index="0" />
+            <Param type="6" data="p_zq_common_weapon" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP112" Index="0" />
+            <Param type="6" data="jingjichang_002" Index="1" />
+            <Param type="6" data="o_temp_common" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP115" />
+        <Line Type="2" Event="3002" Name="AUTOP114">
+            <Param type="13" srctype="8" data="AUTOP115" Index="0" />
+            <Param type="6" data="o_temp_common" Index="1" />
+        </Line>
+        <Line Type="1" Event="3012">
+            <Param type="13" srctype="8" data="AUTOP114" Index="0" />
+            <Param type="6" data="CantBeAttack" Index="1" />
+            <Param type="2" data="1" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP117" />
+        <Line Type="2" Event="3002" Name="AUTOP116">
+            <Param type="13" srctype="8" data="AUTOP117" Index="0" />
+            <Param type="6" data="p_zq_common_material" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP116" Index="0" />
+            <Param type="6" data="jingjichang_001" Index="1" />
+            <Param type="6" data="o_temp_common" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP119" />
+        <Line Type="2" Event="3002" Name="AUTOP118">
+            <Param type="13" srctype="8" data="AUTOP119" Index="0" />
+            <Param type="6" data="o_temp_common" Index="1" />
+        </Line>
+        <Line Type="1" Event="3012">
+            <Param type="13" srctype="8" data="AUTOP118" Index="0" />
+            <Param type="6" data="CantBeAttack" Index="1" />
+            <Param type="2" data="1" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP121" />
+        <Line Type="2" Event="3002" Name="AUTOP120">
+            <Param type="13" srctype="8" data="AUTOP121" Index="0" />
+            <Param type="6" data="p_zq_common_skill" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP120" Index="0" />
+            <Param type="6" data="jingjichang_003" Index="1" />
+            <Param type="6" data="o_temp_common" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP123" />
+        <Line Type="2" Event="3002" Name="AUTOP122">
+            <Param type="13" srctype="8" data="AUTOP123" Index="0" />
+            <Param type="6" data="o_temp_common" Index="1" />
+        </Line>
+        <Line Type="1" Event="3012">
+            <Param type="13" srctype="8" data="AUTOP122" Index="0" />
+            <Param type="6" data="CantBeAttack" Index="1" />
+            <Param type="2" data="1" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP125" />
+        <Line Type="2" Event="3002" Name="AUTOP124">
+            <Param type="13" srctype="8" data="AUTOP125" Index="0" />
+            <Param type="6" data="p_zq_common_doctor" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP124" Index="0" />
+            <Param type="6" data="jingjichang_007" Index="1" />
+            <Param type="6" data="o_temp_common" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP127" />
+        <Line Type="2" Event="3002" Name="AUTOP126">
+            <Param type="13" srctype="8" data="AUTOP127" Index="0" />
+            <Param type="6" data="o_temp_common" Index="1" />
+        </Line>
+        <Line Type="1" Event="3012">
+            <Param type="13" srctype="8" data="AUTOP126" Index="0" />
+            <Param type="6" data="CantBeAttack" Index="1" />
+            <Param type="2" data="1" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP129" />
+        <Line Type="2" Event="3002" Name="AUTOP128">
+            <Param type="13" srctype="8" data="AUTOP129" Index="0" />
+            <Param type="6" data="p_qh_tower_s_1" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP128" Index="0" />
+            <Param type="6" data="FB_Dota_0001" Index="1" />
+            <Param type="6" data="o_qh_tower_s_1" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP131" />
+        <Line Type="2" Event="3002" Name="AUTOP130">
+            <Param type="13" srctype="8" data="AUTOP131" Index="0" />
+            <Param type="6" data="o_qh_tower_s_1" Index="1" />
+        </Line>
+        <Line Type="1" Event="3012">
+            <Param type="13" srctype="8" data="AUTOP130" Index="0" />
+            <Param type="6" data="CantBeAttack" Index="1" />
+            <Param type="2" data="0" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP133" />
+        <Line Type="2" Event="3002" Name="AUTOP132">
+            <Param type="13" srctype="8" data="AUTOP133" Index="0" />
+            <Param type="6" data="p_qh_tower_s_2" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP132" Index="0" />
+            <Param type="6" data="FB_Dota_0001" Index="1" />
+            <Param type="6" data="o_qh_tower_s_2" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP135" />
+        <Line Type="2" Event="3002" Name="AUTOP134">
+            <Param type="13" srctype="8" data="AUTOP135" Index="0" />
+            <Param type="6" data="o_qh_tower_s_2" Index="1" />
+        </Line>
+        <Line Type="1" Event="3012">
+            <Param type="13" srctype="8" data="AUTOP134" Index="0" />
+            <Param type="6" data="CantBeAttack" Index="1" />
+            <Param type="2" data="1" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP137" />
+        <Line Type="2" Event="3002" Name="AUTOP136">
+            <Param type="13" srctype="8" data="AUTOP137" Index="0" />
+            <Param type="6" data="p_qh_tower_s_3" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP136" Index="0" />
+            <Param type="6" data="FB_Dota_0001" Index="1" />
+            <Param type="6" data="o_qh_tower_s_3" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP139" />
+        <Line Type="2" Event="3002" Name="AUTOP138">
+            <Param type="13" srctype="8" data="AUTOP139" Index="0" />
+            <Param type="6" data="o_qh_tower_s_3" Index="1" />
+        </Line>
+        <Line Type="1" Event="3012">
+            <Param type="13" srctype="8" data="AUTOP138" Index="0" />
+            <Param type="6" data="CantBeAttack" Index="1" />
+            <Param type="2" data="1" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP141" />
+        <Line Type="2" Event="3002" Name="AUTOP140">
+            <Param type="13" srctype="8" data="AUTOP141" Index="0" />
+            <Param type="6" data="p_qh_tower_s_4" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP140" Index="0" />
+            <Param type="6" data="FB_Dota_0001" Index="1" />
+            <Param type="6" data="o_qh_tower_s_4" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP143" />
+        <Line Type="2" Event="3002" Name="AUTOP142">
+            <Param type="13" srctype="8" data="AUTOP143" Index="0" />
+            <Param type="6" data="o_qh_tower_s_4" Index="1" />
+        </Line>
+        <Line Type="1" Event="3012">
+            <Param type="13" srctype="8" data="AUTOP142" Index="0" />
+            <Param type="6" data="CantBeAttack" Index="1" />
+            <Param type="2" data="1" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP145" />
+        <Line Type="2" Event="3002" Name="AUTOP144">
+            <Param type="13" srctype="8" data="AUTOP145" Index="0" />
+            <Param type="6" data="p_qh_tower_s_5" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP144" Index="0" />
+            <Param type="6" data="FB_Dota_0001" Index="1" />
+            <Param type="6" data="o_qh_tower_s_5" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP147" />
+        <Line Type="2" Event="3002" Name="AUTOP146">
+            <Param type="13" srctype="8" data="AUTOP147" Index="0" />
+            <Param type="6" data="o_qh_tower_s_5" Index="1" />
+        </Line>
+        <Line Type="1" Event="3012">
+            <Param type="13" srctype="8" data="AUTOP146" Index="0" />
+            <Param type="6" data="CantBeAttack" Index="1" />
+            <Param type="2" data="1" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP149" />
+        <Line Type="2" Event="3002" Name="AUTOP148">
+            <Param type="13" srctype="8" data="AUTOP149" Index="0" />
+            <Param type="6" data="p_qh_tower_m_1" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP148" Index="0" />
+            <Param type="6" data="FB_Dota_0001" Index="1" />
+            <Param type="6" data="o_qh_tower_m_1" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP151" />
+        <Line Type="2" Event="3002" Name="AUTOP150">
+            <Param type="13" srctype="8" data="AUTOP151" Index="0" />
+            <Param type="6" data="o_qh_tower_m_1" Index="1" />
+        </Line>
+        <Line Type="1" Event="3012">
+            <Param type="13" srctype="8" data="AUTOP150" Index="0" />
+            <Param type="6" data="CantBeAttack" Index="1" />
+            <Param type="2" data="0" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP153" />
+        <Line Type="2" Event="3002" Name="AUTOP152">
+            <Param type="13" srctype="8" data="AUTOP153" Index="0" />
+            <Param type="6" data="p_qh_tower_m_2" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP152" Index="0" />
+            <Param type="6" data="FB_Dota_0001" Index="1" />
+            <Param type="6" data="o_qh_tower_m_2" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP155" />
+        <Line Type="2" Event="3002" Name="AUTOP154">
+            <Param type="13" srctype="8" data="AUTOP155" Index="0" />
+            <Param type="6" data="o_qh_tower_m_2" Index="1" />
+        </Line>
+        <Line Type="1" Event="3012">
+            <Param type="13" srctype="8" data="AUTOP154" Index="0" />
+            <Param type="6" data="CantBeAttack" Index="1" />
+            <Param type="2" data="1" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP157" />
+        <Line Type="2" Event="3002" Name="AUTOP156">
+            <Param type="13" srctype="8" data="AUTOP157" Index="0" />
+            <Param type="6" data="p_qh_tower_m_3" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP156" Index="0" />
+            <Param type="6" data="FB_Dota_0001" Index="1" />
+            <Param type="6" data="o_qh_tower_m_3" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP159" />
+        <Line Type="2" Event="3002" Name="AUTOP158">
+            <Param type="13" srctype="8" data="AUTOP159" Index="0" />
+            <Param type="6" data="o_qh_tower_m_3" Index="1" />
+        </Line>
+        <Line Type="1" Event="3012">
+            <Param type="13" srctype="8" data="AUTOP158" Index="0" />
+            <Param type="6" data="CantBeAttack" Index="1" />
+            <Param type="2" data="1" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP161" />
+        <Line Type="2" Event="3002" Name="AUTOP160">
+            <Param type="13" srctype="8" data="AUTOP161" Index="0" />
+            <Param type="6" data="p_qh_tower_m_4" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP160" Index="0" />
+            <Param type="6" data="FB_Dota_0001" Index="1" />
+            <Param type="6" data="o_qh_tower_m_4" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP163" />
+        <Line Type="2" Event="3002" Name="AUTOP162">
+            <Param type="13" srctype="8" data="AUTOP163" Index="0" />
+            <Param type="6" data="o_qh_tower_m_4" Index="1" />
+        </Line>
+        <Line Type="1" Event="3012">
+            <Param type="13" srctype="8" data="AUTOP162" Index="0" />
+            <Param type="6" data="CantBeAttack" Index="1" />
+            <Param type="2" data="1" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP165" />
+        <Line Type="2" Event="3002" Name="AUTOP164">
+            <Param type="13" srctype="8" data="AUTOP165" Index="0" />
+            <Param type="6" data="p_qh_tower_m_5" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP164" Index="0" />
+            <Param type="6" data="FB_Dota_0001" Index="1" />
+            <Param type="6" data="o_qh_tower_m_5" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP167" />
+        <Line Type="2" Event="3002" Name="AUTOP166">
+            <Param type="13" srctype="8" data="AUTOP167" Index="0" />
+            <Param type="6" data="o_qh_tower_m_5" Index="1" />
+        </Line>
+        <Line Type="1" Event="3012">
+            <Param type="13" srctype="8" data="AUTOP166" Index="0" />
+            <Param type="6" data="CantBeAttack" Index="1" />
+            <Param type="2" data="1" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP169" />
+        <Line Type="2" Event="3002" Name="AUTOP168">
+            <Param type="13" srctype="8" data="AUTOP169" Index="0" />
+            <Param type="6" data="p_qh_tower_super" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP168" Index="0" />
+            <Param type="6" data="FB_Dota_0001" Index="1" />
+            <Param type="6" data="o_qh_tower_super" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP171" />
+        <Line Type="2" Event="3002" Name="AUTOP170">
+            <Param type="13" srctype="8" data="AUTOP171" Index="0" />
+            <Param type="6" data="o_qh_tower_super" Index="1" />
+        </Line>
+        <Line Type="1" Event="3012">
+            <Param type="13" srctype="8" data="AUTOP170" Index="0" />
+            <Param type="6" data="CantBeAttack" Index="1" />
+            <Param type="2" data="1" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP173" />
+        <Line Type="2" Event="3002" Name="AUTOP172">
+            <Param type="13" srctype="8" data="AUTOP173" Index="0" />
+            <Param type="6" data="o_qh_tower_super" Index="1" />
+        </Line>
+        <Line Type="1" Event="3212">
+            <Param type="13" srctype="8" data="AUTOP172" Index="0" />
+            <Param type="6" data="SkillPackID" Index="1" />
+            <Param type="6" data="SkillPack_FB_Dota_0007" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP175" />
+        <Line Type="2" Event="3002" Name="AUTOP174">
+            <Param type="13" srctype="8" data="AUTOP175" Index="0" />
+            <Param type="6" data="p_qh_barrack_m" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP174" Index="0" />
+            <Param type="6" data="FB_Dota_0003" Index="1" />
+            <Param type="6" data="o_qh_barrack_m" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP177" />
+        <Line Type="2" Event="3002" Name="AUTOP176">
+            <Param type="13" srctype="8" data="AUTOP177" Index="0" />
+            <Param type="6" data="o_qh_barrack_m" Index="1" />
+        </Line>
+        <Line Type="1" Event="3012">
+            <Param type="13" srctype="8" data="AUTOP176" Index="0" />
+            <Param type="6" data="CantBeAttack" Index="1" />
+            <Param type="2" data="1" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP179" />
+        <Line Type="2" Event="3002" Name="AUTOP178">
+            <Param type="13" srctype="8" data="AUTOP179" Index="0" />
+            <Param type="6" data="p_qh_barrack_s" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP178" Index="0" />
+            <Param type="6" data="FB_Dota_0003" Index="1" />
+            <Param type="6" data="o_qh_barrack_s" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP181" />
+        <Line Type="2" Event="3002" Name="AUTOP180">
+            <Param type="13" srctype="8" data="AUTOP181" Index="0" />
+            <Param type="6" data="o_qh_barrack_s" Index="1" />
+        </Line>
+        <Line Type="1" Event="3012">
+            <Param type="13" srctype="8" data="AUTOP180" Index="0" />
+            <Param type="6" data="CantBeAttack" Index="1" />
+            <Param type="2" data="1" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP183" />
+        <Line Type="2" Event="3002" Name="AUTOP182">
+            <Param type="13" srctype="8" data="AUTOP183" Index="0" />
+            <Param type="6" data="p_qh_barrack_spawn_m" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP182" Index="0" />
+            <Param type="6" data="dota_qh_shuaguai" Index="1" />
+            <Param type="6" data="o_qh_barrack_spawn_m" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP185" />
+        <Line Type="2" Event="2201" Name="AUTOP184">
+            <Param type="13" srctype="8" data="AUTOP185" Index="0" />
+            <Param type="6" data="o_qh_barrack_spawn_m" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP187" />
+        <Line Type="2" Event="3002" Name="AUTOP186">
+            <Param type="13" srctype="8" data="AUTOP187" Index="0" />
+            <Param type="6" data="qh_attackway_m" Index="1" />
+        </Line>
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP184" Index="0" />
+            <Param type="6" data="way_attack" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="13" srctype="6" data="AUTOP186" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP189" />
+        <Line Type="2" Event="2201" Name="AUTOP188">
+            <Param type="13" srctype="8" data="AUTOP189" Index="0" />
+            <Param type="6" data="o_qh_barrack_spawn_m" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP191" />
+        <Line Type="2" Event="3002" Name="AUTOP190">
+            <Param type="13" srctype="8" data="AUTOP191" Index="0" />
+            <Param type="6" data="p_qh_barrack_spawn_m" Index="1" />
+        </Line>
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP188" Index="0" />
+            <Param type="6" data="born_location" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="13" srctype="6" data="AUTOP190" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP193" />
+        <Line Type="2" Event="2201" Name="AUTOP192">
+            <Param type="13" srctype="8" data="AUTOP193" Index="0" />
+            <Param type="6" data="o_qh_barrack_spawn_m" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP195" />
+        <Line Type="2" Event="3002" Name="AUTOP194">
+            <Param type="13" srctype="8" data="AUTOP195" Index="0" />
+            <Param type="6" data="p_qh_barrack_m" Index="1" />
+        </Line>
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP192" Index="0" />
+            <Param type="6" data="barrack_born_location" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="13" srctype="6" data="AUTOP194" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP197" />
+        <Line Type="2" Event="3002" Name="AUTOP196">
+            <Param type="13" srctype="8" data="AUTOP197" Index="0" />
+            <Param type="6" data="p_qh_barrack_spawn_s" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP196" Index="0" />
+            <Param type="6" data="dota_qh_shuaguai" Index="1" />
+            <Param type="6" data="o_qh_barrack_spawn_s" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP199" />
+        <Line Type="2" Event="2201" Name="AUTOP198">
+            <Param type="13" srctype="8" data="AUTOP199" Index="0" />
+            <Param type="6" data="o_qh_barrack_spawn_s" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP201" />
+        <Line Type="2" Event="3002" Name="AUTOP200">
+            <Param type="13" srctype="8" data="AUTOP201" Index="0" />
+            <Param type="6" data="qh_attackway_s" Index="1" />
+        </Line>
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP198" Index="0" />
+            <Param type="6" data="way_attack" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="13" srctype="6" data="AUTOP200" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP203" />
+        <Line Type="2" Event="2201" Name="AUTOP202">
+            <Param type="13" srctype="8" data="AUTOP203" Index="0" />
+            <Param type="6" data="o_qh_barrack_spawn_s" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP205" />
+        <Line Type="2" Event="3002" Name="AUTOP204">
+            <Param type="13" srctype="8" data="AUTOP205" Index="0" />
+            <Param type="6" data="p_qh_barrack_spawn_s" Index="1" />
+        </Line>
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP202" Index="0" />
+            <Param type="6" data="born_location" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="13" srctype="6" data="AUTOP204" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP207" />
+        <Line Type="2" Event="2201" Name="AUTOP206">
+            <Param type="13" srctype="8" data="AUTOP207" Index="0" />
+            <Param type="6" data="o_qh_barrack_spawn_s" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP209" />
+        <Line Type="2" Event="3002" Name="AUTOP208">
+            <Param type="13" srctype="8" data="AUTOP209" Index="0" />
+            <Param type="6" data="p_qh_barrack_s" Index="1" />
+        </Line>
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP206" Index="0" />
+            <Param type="6" data="barrack_born_location" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="13" srctype="6" data="AUTOP208" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP211" />
+        <Line Type="2" Event="3002" Name="AUTOP210">
+            <Param type="13" srctype="8" data="AUTOP211" Index="0" />
+            <Param type="6" data="p_qh_base" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP210" Index="0" />
+            <Param type="6" data="FB_Dota_0002" Index="1" />
+            <Param type="6" data="o_qh_base" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP213" />
+        <Line Type="2" Event="3002" Name="AUTOP212">
+            <Param type="13" srctype="8" data="AUTOP213" Index="0" />
+            <Param type="6" data="o_qh_base" Index="1" />
+        </Line>
+        <Line Type="1" Event="3012">
+            <Param type="13" srctype="8" data="AUTOP212" Index="0" />
+            <Param type="6" data="CantBeAttack" Index="1" />
+            <Param type="2" data="1" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP215" />
+        <Line Type="2" Event="3002" Name="AUTOP214">
+            <Param type="13" srctype="8" data="AUTOP215" Index="0" />
+            <Param type="6" data="p_zq_tower_s_1" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP214" Index="0" />
+            <Param type="6" data="FB_Dota_0004" Index="1" />
+            <Param type="6" data="o_zq_tower_s_1" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP217" />
+        <Line Type="2" Event="3002" Name="AUTOP216">
+            <Param type="13" srctype="8" data="AUTOP217" Index="0" />
+            <Param type="6" data="o_zq_tower_s_1" Index="1" />
+        </Line>
+        <Line Type="1" Event="3012">
+            <Param type="13" srctype="8" data="AUTOP216" Index="0" />
+            <Param type="6" data="CantBeAttack" Index="1" />
+            <Param type="2" data="0" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP219" />
+        <Line Type="2" Event="3002" Name="AUTOP218">
+            <Param type="13" srctype="8" data="AUTOP219" Index="0" />
+            <Param type="6" data="p_zq_tower_s_2" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP218" Index="0" />
+            <Param type="6" data="FB_Dota_0004" Index="1" />
+            <Param type="6" data="o_zq_tower_s_2" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP221" />
+        <Line Type="2" Event="3002" Name="AUTOP220">
+            <Param type="13" srctype="8" data="AUTOP221" Index="0" />
+            <Param type="6" data="o_zq_tower_s_2" Index="1" />
+        </Line>
+        <Line Type="1" Event="3012">
+            <Param type="13" srctype="8" data="AUTOP220" Index="0" />
+            <Param type="6" data="CantBeAttack" Index="1" />
+            <Param type="2" data="1" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP223" />
+        <Line Type="2" Event="3002" Name="AUTOP222">
+            <Param type="13" srctype="8" data="AUTOP223" Index="0" />
+            <Param type="6" data="p_zq_tower_s_3" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP222" Index="0" />
+            <Param type="6" data="FB_Dota_0004" Index="1" />
+            <Param type="6" data="o_zq_tower_s_3" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP225" />
+        <Line Type="2" Event="3002" Name="AUTOP224">
+            <Param type="13" srctype="8" data="AUTOP225" Index="0" />
+            <Param type="6" data="o_zq_tower_s_3" Index="1" />
+        </Line>
+        <Line Type="1" Event="3012">
+            <Param type="13" srctype="8" data="AUTOP224" Index="0" />
+            <Param type="6" data="CantBeAttack" Index="1" />
+            <Param type="2" data="1" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP227" />
+        <Line Type="2" Event="3002" Name="AUTOP226">
+            <Param type="13" srctype="8" data="AUTOP227" Index="0" />
+            <Param type="6" data="p_zq_tower_s_4" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP226" Index="0" />
+            <Param type="6" data="FB_Dota_0004" Index="1" />
+            <Param type="6" data="o_zq_tower_s_4" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP229" />
+        <Line Type="2" Event="3002" Name="AUTOP228">
+            <Param type="13" srctype="8" data="AUTOP229" Index="0" />
+            <Param type="6" data="o_zq_tower_s_4" Index="1" />
+        </Line>
+        <Line Type="1" Event="3012">
+            <Param type="13" srctype="8" data="AUTOP228" Index="0" />
+            <Param type="6" data="CantBeAttack" Index="1" />
+            <Param type="2" data="1" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP231" />
+        <Line Type="2" Event="3002" Name="AUTOP230">
+            <Param type="13" srctype="8" data="AUTOP231" Index="0" />
+            <Param type="6" data="p_zq_tower_s_5" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP230" Index="0" />
+            <Param type="6" data="FB_Dota_0004" Index="1" />
+            <Param type="6" data="o_zq_tower_s_5" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP233" />
+        <Line Type="2" Event="3002" Name="AUTOP232">
+            <Param type="13" srctype="8" data="AUTOP233" Index="0" />
+            <Param type="6" data="o_zq_tower_s_5" Index="1" />
+        </Line>
+        <Line Type="1" Event="3012">
+            <Param type="13" srctype="8" data="AUTOP232" Index="0" />
+            <Param type="6" data="CantBeAttack" Index="1" />
+            <Param type="2" data="1" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP235" />
+        <Line Type="2" Event="3002" Name="AUTOP234">
+            <Param type="13" srctype="8" data="AUTOP235" Index="0" />
+            <Param type="6" data="p_zq_tower_m_1" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP234" Index="0" />
+            <Param type="6" data="FB_Dota_0004" Index="1" />
+            <Param type="6" data="o_zq_tower_m_1" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP237" />
+        <Line Type="2" Event="3002" Name="AUTOP236">
+            <Param type="13" srctype="8" data="AUTOP237" Index="0" />
+            <Param type="6" data="o_zq_tower_m_1" Index="1" />
+        </Line>
+        <Line Type="1" Event="3012">
+            <Param type="13" srctype="8" data="AUTOP236" Index="0" />
+            <Param type="6" data="CantBeAttack" Index="1" />
+            <Param type="2" data="0" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP239" />
+        <Line Type="2" Event="3002" Name="AUTOP238">
+            <Param type="13" srctype="8" data="AUTOP239" Index="0" />
+            <Param type="6" data="p_zq_tower_m_2" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP238" Index="0" />
+            <Param type="6" data="FB_Dota_0004" Index="1" />
+            <Param type="6" data="o_zq_tower_m_2" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP241" />
+        <Line Type="2" Event="3002" Name="AUTOP240">
+            <Param type="13" srctype="8" data="AUTOP241" Index="0" />
+            <Param type="6" data="o_zq_tower_m_2" Index="1" />
+        </Line>
+        <Line Type="1" Event="3012">
+            <Param type="13" srctype="8" data="AUTOP240" Index="0" />
+            <Param type="6" data="CantBeAttack" Index="1" />
+            <Param type="2" data="1" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP243" />
+        <Line Type="2" Event="3002" Name="AUTOP242">
+            <Param type="13" srctype="8" data="AUTOP243" Index="0" />
+            <Param type="6" data="p_zq_tower_m_3" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP242" Index="0" />
+            <Param type="6" data="FB_Dota_0004" Index="1" />
+            <Param type="6" data="o_zq_tower_m_3" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP245" />
+        <Line Type="2" Event="3002" Name="AUTOP244">
+            <Param type="13" srctype="8" data="AUTOP245" Index="0" />
+            <Param type="6" data="o_zq_tower_m_3" Index="1" />
+        </Line>
+        <Line Type="1" Event="3012">
+            <Param type="13" srctype="8" data="AUTOP244" Index="0" />
+            <Param type="6" data="CantBeAttack" Index="1" />
+            <Param type="2" data="1" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP247" />
+        <Line Type="2" Event="3002" Name="AUTOP246">
+            <Param type="13" srctype="8" data="AUTOP247" Index="0" />
+            <Param type="6" data="p_zq_tower_m_4" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP246" Index="0" />
+            <Param type="6" data="FB_Dota_0004" Index="1" />
+            <Param type="6" data="o_zq_tower_m_4" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP249" />
+        <Line Type="2" Event="3002" Name="AUTOP248">
+            <Param type="13" srctype="8" data="AUTOP249" Index="0" />
+            <Param type="6" data="o_zq_tower_m_4" Index="1" />
+        </Line>
+        <Line Type="1" Event="3012">
+            <Param type="13" srctype="8" data="AUTOP248" Index="0" />
+            <Param type="6" data="CantBeAttack" Index="1" />
+            <Param type="2" data="1" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP251" />
+        <Line Type="2" Event="3002" Name="AUTOP250">
+            <Param type="13" srctype="8" data="AUTOP251" Index="0" />
+            <Param type="6" data="p_zq_tower_m_5" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP250" Index="0" />
+            <Param type="6" data="FB_Dota_0004" Index="1" />
+            <Param type="6" data="o_zq_tower_m_5" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP253" />
+        <Line Type="2" Event="3002" Name="AUTOP252">
+            <Param type="13" srctype="8" data="AUTOP253" Index="0" />
+            <Param type="6" data="o_zq_tower_m_5" Index="1" />
+        </Line>
+        <Line Type="1" Event="3012">
+            <Param type="13" srctype="8" data="AUTOP252" Index="0" />
+            <Param type="6" data="CantBeAttack" Index="1" />
+            <Param type="2" data="1" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP255" />
+        <Line Type="2" Event="3002" Name="AUTOP254">
+            <Param type="13" srctype="8" data="AUTOP255" Index="0" />
+            <Param type="6" data="p_zq_tower_super" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP254" Index="0" />
+            <Param type="6" data="FB_Dota_0004" Index="1" />
+            <Param type="6" data="o_zq_tower_super" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP257" />
+        <Line Type="2" Event="3002" Name="AUTOP256">
+            <Param type="13" srctype="8" data="AUTOP257" Index="0" />
+            <Param type="6" data="o_zq_tower_super" Index="1" />
+        </Line>
+        <Line Type="1" Event="3012">
+            <Param type="13" srctype="8" data="AUTOP256" Index="0" />
+            <Param type="6" data="CantBeAttack" Index="1" />
+            <Param type="2" data="1" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP259" />
+        <Line Type="2" Event="3002" Name="AUTOP258">
+            <Param type="13" srctype="8" data="AUTOP259" Index="0" />
+            <Param type="6" data="o_zq_tower_super" Index="1" />
+        </Line>
+        <Line Type="1" Event="3212">
+            <Param type="13" srctype="8" data="AUTOP258" Index="0" />
+            <Param type="6" data="SkillPackID" Index="1" />
+            <Param type="6" data="SkillPack_FB_Dota_0008" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP261" />
+        <Line Type="2" Event="3002" Name="AUTOP260">
+            <Param type="13" srctype="8" data="AUTOP261" Index="0" />
+            <Param type="6" data="p_zq_barrack_m" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP260" Index="0" />
+            <Param type="6" data="FB_Dota_0005" Index="1" />
+            <Param type="6" data="o_zq_barrack_m" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP263" />
+        <Line Type="2" Event="3002" Name="AUTOP262">
+            <Param type="13" srctype="8" data="AUTOP263" Index="0" />
+            <Param type="6" data="o_zq_barrack_m" Index="1" />
+        </Line>
+        <Line Type="1" Event="3012">
+            <Param type="13" srctype="8" data="AUTOP262" Index="0" />
+            <Param type="6" data="CantBeAttack" Index="1" />
+            <Param type="2" data="1" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP265" />
+        <Line Type="2" Event="3002" Name="AUTOP264">
+            <Param type="13" srctype="8" data="AUTOP265" Index="0" />
+            <Param type="6" data="p_zq_barrack_s" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP264" Index="0" />
+            <Param type="6" data="FB_Dota_0005" Index="1" />
+            <Param type="6" data="o_zq_barrack_s" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP267" />
+        <Line Type="2" Event="3002" Name="AUTOP266">
+            <Param type="13" srctype="8" data="AUTOP267" Index="0" />
+            <Param type="6" data="o_zq_barrack_s" Index="1" />
+        </Line>
+        <Line Type="1" Event="3012">
+            <Param type="13" srctype="8" data="AUTOP266" Index="0" />
+            <Param type="6" data="CantBeAttack" Index="1" />
+            <Param type="2" data="1" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP269" />
+        <Line Type="2" Event="3002" Name="AUTOP268">
+            <Param type="13" srctype="8" data="AUTOP269" Index="0" />
+            <Param type="6" data="p_zq_barrack_spawn_m" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP268" Index="0" />
+            <Param type="6" data="dota_zq_shuaguai" Index="1" />
+            <Param type="6" data="o_zq_barrack_spawn_m" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP271" />
+        <Line Type="2" Event="2201" Name="AUTOP270">
+            <Param type="13" srctype="8" data="AUTOP271" Index="0" />
+            <Param type="6" data="o_zq_barrack_spawn_m" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP273" />
+        <Line Type="2" Event="3002" Name="AUTOP272">
+            <Param type="13" srctype="8" data="AUTOP273" Index="0" />
+            <Param type="6" data="zq_attackway_m" Index="1" />
+        </Line>
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP270" Index="0" />
+            <Param type="6" data="way_attack" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="13" srctype="6" data="AUTOP272" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP275" />
+        <Line Type="2" Event="2201" Name="AUTOP274">
+            <Param type="13" srctype="8" data="AUTOP275" Index="0" />
+            <Param type="6" data="o_zq_barrack_spawn_m" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP277" />
+        <Line Type="2" Event="3002" Name="AUTOP276">
+            <Param type="13" srctype="8" data="AUTOP277" Index="0" />
+            <Param type="6" data="p_zq_barrack_spawn_m" Index="1" />
+        </Line>
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP274" Index="0" />
+            <Param type="6" data="born_location" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="13" srctype="6" data="AUTOP276" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP279" />
+        <Line Type="2" Event="2201" Name="AUTOP278">
+            <Param type="13" srctype="8" data="AUTOP279" Index="0" />
+            <Param type="6" data="o_zq_barrack_spawn_m" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP281" />
+        <Line Type="2" Event="3002" Name="AUTOP280">
+            <Param type="13" srctype="8" data="AUTOP281" Index="0" />
+            <Param type="6" data="p_zq_barrack_m" Index="1" />
+        </Line>
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP278" Index="0" />
+            <Param type="6" data="barrack_born_location" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="13" srctype="6" data="AUTOP280" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP283" />
+        <Line Type="2" Event="3002" Name="AUTOP282">
+            <Param type="13" srctype="8" data="AUTOP283" Index="0" />
+            <Param type="6" data="p_zq_barrack_spawn_s" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP282" Index="0" />
+            <Param type="6" data="dota_zq_shuaguai" Index="1" />
+            <Param type="6" data="o_zq_barrack_spawn_s" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP285" />
+        <Line Type="2" Event="2201" Name="AUTOP284">
+            <Param type="13" srctype="8" data="AUTOP285" Index="0" />
+            <Param type="6" data="o_zq_barrack_spawn_s" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP287" />
+        <Line Type="2" Event="3002" Name="AUTOP286">
+            <Param type="13" srctype="8" data="AUTOP287" Index="0" />
+            <Param type="6" data="zq_attackway_s" Index="1" />
+        </Line>
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP284" Index="0" />
+            <Param type="6" data="way_attack" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="13" srctype="6" data="AUTOP286" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP289" />
+        <Line Type="2" Event="2201" Name="AUTOP288">
+            <Param type="13" srctype="8" data="AUTOP289" Index="0" />
+            <Param type="6" data="o_zq_barrack_spawn_s" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP291" />
+        <Line Type="2" Event="3002" Name="AUTOP290">
+            <Param type="13" srctype="8" data="AUTOP291" Index="0" />
+            <Param type="6" data="p_zq_barrack_spawn_s" Index="1" />
+        </Line>
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP288" Index="0" />
+            <Param type="6" data="born_location" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="13" srctype="6" data="AUTOP290" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP293" />
+        <Line Type="2" Event="2201" Name="AUTOP292">
+            <Param type="13" srctype="8" data="AUTOP293" Index="0" />
+            <Param type="6" data="o_zq_barrack_spawn_s" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP295" />
+        <Line Type="2" Event="3002" Name="AUTOP294">
+            <Param type="13" srctype="8" data="AUTOP295" Index="0" />
+            <Param type="6" data="p_zq_barrack_s" Index="1" />
+        </Line>
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP292" Index="0" />
+            <Param type="6" data="barrack_born_location" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="13" srctype="6" data="AUTOP294" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP297" />
+        <Line Type="2" Event="3002" Name="AUTOP296">
+            <Param type="13" srctype="8" data="AUTOP297" Index="0" />
+            <Param type="6" data="p_zq_base" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP296" Index="0" />
+            <Param type="6" data="FB_Dota_0006" Index="1" />
+            <Param type="6" data="o_zq_base" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP299" />
+        <Line Type="2" Event="3002" Name="AUTOP298">
+            <Param type="13" srctype="8" data="AUTOP299" Index="0" />
+            <Param type="6" data="o_zq_base" Index="1" />
+        </Line>
+        <Line Type="1" Event="3012">
+            <Param type="13" srctype="8" data="AUTOP298" Index="0" />
+            <Param type="6" data="CantBeAttack" Index="1" />
+            <Param type="2" data="1" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP301" />
+        <Line Type="2" Event="2201" Name="AUTOP300">
+            <Param type="13" srctype="8" data="AUTOP301" Index="0" />
+            <Param type="6" data="o_qh_barrack_spawn_m" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP303" />
+        <Line Type="2" Event="2201" Name="AUTOP302">
+            <Param type="13" srctype="8" data="AUTOP303" Index="0" />
+            <Param type="6" data="o_zq_barrack_spawn_m" Index="1" />
+        </Line>
+        <Line Type="1" Event="5203">
+            <Param type="13" srctype="8" data="AUTOP300" Index="0" />
+            <Param type="6" data="o_other_side_npc" Index="1" />
+            <Param type="13" srctype="8" data="AUTOP302" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP305" />
+        <Line Type="2" Event="2201" Name="AUTOP304">
+            <Param type="13" srctype="8" data="AUTOP305" Index="0" />
+            <Param type="6" data="o_qh_barrack_spawn_s" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP307" />
+        <Line Type="2" Event="2201" Name="AUTOP306">
+            <Param type="13" srctype="8" data="AUTOP307" Index="0" />
+            <Param type="6" data="o_zq_barrack_spawn_s" Index="1" />
+        </Line>
+        <Line Type="1" Event="5203">
+            <Param type="13" srctype="8" data="AUTOP304" Index="0" />
+            <Param type="6" data="o_other_side_npc" Index="1" />
+            <Param type="13" srctype="8" data="AUTOP306" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP309" />
+        <Line Type="2" Event="2201" Name="AUTOP308">
+            <Param type="13" srctype="8" data="AUTOP309" Index="0" />
+            <Param type="6" data="o_qh_barrack_m" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP311" />
+        <Line Type="2" Event="2201" Name="AUTOP310">
+            <Param type="13" srctype="8" data="AUTOP311" Index="0" />
+            <Param type="6" data="o_qh_barrack_spawn_m" Index="1" />
+        </Line>
+        <Line Type="1" Event="5203">
+            <Param type="13" srctype="8" data="AUTOP308" Index="0" />
+            <Param type="6" data="o_bind_barrack_spawn" Index="1" />
+            <Param type="13" srctype="8" data="AUTOP310" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP313" />
+        <Line Type="2" Event="2201" Name="AUTOP312">
+            <Param type="13" srctype="8" data="AUTOP313" Index="0" />
+            <Param type="6" data="o_qh_barrack_s" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP315" />
+        <Line Type="2" Event="2201" Name="AUTOP314">
+            <Param type="13" srctype="8" data="AUTOP315" Index="0" />
+            <Param type="6" data="o_qh_barrack_spawn_s" Index="1" />
+        </Line>
+        <Line Type="1" Event="5203">
+            <Param type="13" srctype="8" data="AUTOP312" Index="0" />
+            <Param type="6" data="o_bind_barrack_spawn" Index="1" />
+            <Param type="13" srctype="8" data="AUTOP314" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP317" />
+        <Line Type="2" Event="2201" Name="AUTOP316">
+            <Param type="13" srctype="8" data="AUTOP317" Index="0" />
+            <Param type="6" data="o_zq_barrack_spawn_m" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP319" />
+        <Line Type="2" Event="2201" Name="AUTOP318">
+            <Param type="13" srctype="8" data="AUTOP319" Index="0" />
+            <Param type="6" data="o_qh_barrack_spawn_m" Index="1" />
+        </Line>
+        <Line Type="1" Event="5203">
+            <Param type="13" srctype="8" data="AUTOP316" Index="0" />
+            <Param type="6" data="o_other_side_npc" Index="1" />
+            <Param type="13" srctype="8" data="AUTOP318" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP321" />
+        <Line Type="2" Event="2201" Name="AUTOP320">
+            <Param type="13" srctype="8" data="AUTOP321" Index="0" />
+            <Param type="6" data="o_zq_barrack_spawn_s" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP323" />
+        <Line Type="2" Event="2201" Name="AUTOP322">
+            <Param type="13" srctype="8" data="AUTOP323" Index="0" />
+            <Param type="6" data="o_qh_barrack_spawn_s" Index="1" />
+        </Line>
+        <Line Type="1" Event="5203">
+            <Param type="13" srctype="8" data="AUTOP320" Index="0" />
+            <Param type="6" data="o_other_side_npc" Index="1" />
+            <Param type="13" srctype="8" data="AUTOP322" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP325" />
+        <Line Type="2" Event="2201" Name="AUTOP324">
+            <Param type="13" srctype="8" data="AUTOP325" Index="0" />
+            <Param type="6" data="o_zq_barrack_m" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP327" />
+        <Line Type="2" Event="2201" Name="AUTOP326">
+            <Param type="13" srctype="8" data="AUTOP327" Index="0" />
+            <Param type="6" data="o_zq_barrack_spawn_m" Index="1" />
+        </Line>
+        <Line Type="1" Event="5203">
+            <Param type="13" srctype="8" data="AUTOP324" Index="0" />
+            <Param type="6" data="o_bind_barrack_spawn" Index="1" />
+            <Param type="13" srctype="8" data="AUTOP326" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP329" />
+        <Line Type="2" Event="2201" Name="AUTOP328">
+            <Param type="13" srctype="8" data="AUTOP329" Index="0" />
+            <Param type="6" data="o_zq_barrack_s" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP331" />
+        <Line Type="2" Event="2201" Name="AUTOP330">
+            <Param type="13" srctype="8" data="AUTOP331" Index="0" />
+            <Param type="6" data="o_zq_barrack_spawn_s" Index="1" />
+        </Line>
+        <Line Type="1" Event="5203">
+            <Param type="13" srctype="8" data="AUTOP328" Index="0" />
+            <Param type="6" data="o_bind_barrack_spawn" Index="1" />
+            <Param type="13" srctype="8" data="AUTOP330" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP332" />
+        <Line Type="2" Event="2001" Name="AUTOP334" />
+        <Line Type="2" Event="3002" Name="AUTOP333">
+            <Param type="13" srctype="8" data="AUTOP334" Index="0" />
+            <Param type="6" data="t_creatall" Index="1" />
+        </Line>
+        <Line Type="1" Event="5059">
+            <Param type="13" srctype="8" data="AUTOP332" Index="0" />
+            <Param type="13" srctype="2" data="AUTOP333" Index="1" />
+        </Line>
+        <Line Type="1" Event="4528">
+            <Param type="6" data="Dota场景创建(结束)" Index="0" />
+        </Line>
+    </Base>
+</Processor>

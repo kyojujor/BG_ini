@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+	<!--<Property ID = "7" Resource= "ini\Npc\TransObj\TransPathRec.xml" /> -->
+	<!--<Property ID = "8" Resource= "ini\Skill\formula.xml" /> -->
+	<Property ID = "11" Resource= "ini\Item\ItemArtStatic.xml" /> 
+	<Property ID = "13" Resource= "ini\Item\item_skill_static.xml" /> 
+	<!--Property ID = "14" Resource= "ini\Item\item_equip_rand_skill.xml" /--> 
+	<!--Property ID = "16" Resource= "ini\Skill\buff_static.xml" /--> 
+	<Property ID = "29" Resource= "ini\ModifyPack\BGAttributePack.xml" /> 
+	<!--Property ID = "30" Resource= "ini\rule\modify.xml" /--> 
+	<!--Property ID = "31" Resource= "ini\rule\euipmodify.xml" /-->
+	<Property ID = "32" Resource= "ini\Item\ItemLimited.xml"/>
+	<Property ID = "33" Resource= "ini\Item\EquipmentSet.xml"/>
+	<Property ID = "36" Resource= "ini\Rule\mount_static.xml"/>
+	<!--Property ID = "37" Resource= "ini\rule\armoredModify.xml"/-->
+	<Property ID = "39" Resource= "ini\Rule\ReputeOutout.xml"/>
+	<!--Property ID = "45" Resource= "ini\Rule\item_bind.xml"/-->
+	<Property ID = "46" Resource= "ini\ItemEnhance\equip_enhance.xml"/>
+	<Property ID = "47" Resource= "ini\ItemEnhance\weapon_enhance.xml"/>
+	<!--Property ID="48" Resource="ini\ItemEnhance\inherit_enhance.xml"/-->
+	<Property ID="51" Resource="ini\rule\overlaypack.xml"/>
+	<Property ID="52" Resource="ini\Rule\equip_compound.xml"/>
+</Object>

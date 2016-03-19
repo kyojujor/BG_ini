@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes"?>
+<!-- edited with XMLSpy v2010 (http://www.altova.com) by MESMERiZE (MiZE) -->
+<!-- 被2011 rel. 2 sp1 (TeaM DJiNN) 使用XMLSpy vTeaM DJiNN编辑的 (http://www.altova.com) by -->
+<!-- Seat2=副驾驶座位1  Seat3=副驾驶座位2 其中填写对应副驾驶骑乘动作 -->
+<Object>
+	<Property ID="-1" MountType="0" MountSeatNum="1" MountResPath="2" MountdownConditionID="3" MoveBuff="4" Camp="5" Level="6" Job="7" Race="8" BackImage="9" LeftAndTop="10" Seat2="11" Seat3="12"/>
+	<Property ID="0" MountType="2" MountSeatNum="2" MountResPath="6" MountdownConditionID="6" MoveBuff="6" Camp="2" Level="2" Job="2" Race="2" BackImage="6" LeftAndTop="6" Seat2="6" Seat3="6"/>
+	<Property ID="1" MountType="0" MountSeatNum="1" MountResPath="npc\qh_bru_mount_0001" MountdownConditionID="10001,10002,10003" MoveBuff="riding_Mount_Call0001_Buff01_01" Camp="0" Level="10"/>
+	<Property ID="2" MountType="0" MountSeatNum="1" MountResPath="npc\qh_con_mount_0002" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0003_riding_Buff01_01" Camp="0" Level="10"/>
+	<Property ID="3" MountType="0" MountSeatNum="1" MountResPath="npc\zq_hum_mount_0001" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0002_riding_Buff01_01" Camp="0" Level="10"/>
+	<Property ID="4" MountType="0" MountSeatNum="1" MountResPath="npc\qh_kosh_mount_0001" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0004_riding_Buff01_01" Camp="0" Level="10"/>
+	<Property ID="5" MountType="0" MountSeatNum="1" MountResPath="npc\qh_hum_mount_0001" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0005_riding_Buff01_01" Camp="0" Level="10"/>
+	<Property ID="6" MountType="0" MountSeatNum="2" MountResPath="npc\zq_con_mount_0002" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0006_riding_Buff01_01" Camp="0" Level="10" BackImage="gui\BG_common\Mount\zq_con_mount_0002" LeftAndTop="68,63,68,93"/>
+	<Property ID="7" MountType="0" MountSeatNum="3" MountResPath="npc\zl_con_mount_0009" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0007_riding_Buff01_01" Camp="0" Level="10" BackImage="gui\BG_common\Mount\zl_con_mount_0009" LeftAndTop="69,65,44,90,94,90"/>
+	<Property ID="8" MountType="0" MountSeatNum="1" MountResPath="npc\zl_con_mount_0003" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0008_riding_Buff01_01" Camp="0" Level="10"/>
+	<Property ID="9" MountType="0" MountSeatNum="1" MountResPath="npc\zl_con_mount_0004" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0009_riding_Buff01_01" Camp="0" Level="10"/>
+	<Property ID="10" MountType="0" MountSeatNum="3" MountResPath="npc\qh_con_mount_0001" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0010_riding_Buff01_01" Camp="0" Level="10" BackImage="gui\BG_common\Mount\qh_con_mount_0001" LeftAndTop="68,93,43,93,93,93" Seat2="ride_seat0007" Seat3="ride_seat0007"/>
+	<Property ID="11" MountType="0" MountSeatNum="2" MountResPath="npc\zl_con_mount_0010" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0011_riding_Buff01_01" Camp="0" Level="10" BackImage="gui\BG_common\Mount\zl_con_mount_0010" LeftAndTop="52,84,82,84" Seat2="ride_seat0006"/>
+	<Property ID="12" MountType="0" MountSeatNum="1" MountResPath="npc\zl_con_mount_0001" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0012_riding_Buff01_01" Camp="0" Level="10"/>
+	<Property ID="13" MountType="0" MountSeatNum="1" MountResPath="npc\zl_con_mount_0002" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0013_riding_Buff01_01" Camp="0" Level="10"/>
+	<Property ID="14" MountType="0" MountSeatNum="1" MountResPath="npc\zq_vap_mount_0001" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0014_riding_Buff01_01" Camp="0" Level="10"/>
+	<Property ID="15" MountType="0" MountSeatNum="1" MountResPath="npc\zq_dwa_mount_0001" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0015_riding_Buff01_01" Camp="0" Level="10"/>
+	<Property ID="16" MountType="0" MountSeatNum="2" MountResPath="npc\zq_con_mount_0001" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0016_riding_Buff01_01" Camp="0" Level="10" BackImage="gui\BG_common\Mount\zq_con_mount_0001" LeftAndTop="61,85,83,95" Seat2="ride_seat0006"/>
+	<Property ID="17" MountType="0" MountSeatNum="2" MountResPath="npc\zq_con_mount_0002" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0006_riding_Buff02_01" Camp="0" Level="10" BackImage="gui\BG_common\Mount\zq_con_mount_0002" LeftAndTop="68,63,68,93"/>
+	<Property ID="18" MountType="0" MountSeatNum="1" MountResPath="npc\zl_con_mount_0010" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0011_riding_Buff02_01" Camp="0" Level="10"/>
+	<Property ID="19" MountType="0" MountSeatNum="1" MountResPath="npc\qh_con_mount_0001" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0010_riding_Buff02_01" Camp="0" Level="10"/>
+	<Property ID="20" MountType="0" MountSeatNum="1" MountResPath="npc\zl_con_mount_0003" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0008_riding_Buff02_01" Camp="0" Level="10"/>
+	<Property ID="21" MountType="0" MountSeatNum="1" MountResPath="npc\zl_con_mount_0004" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0009_riding_Buff02_01" Camp="0" Level="10"/>
+	<Property ID="22" MountType="0" MountSeatNum="1" MountResPath="npc\qh_hum_mount_0001" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0005_riding_Buff02_01" Camp="0" Level="5"/>
+	<Property ID="23" MountType="0" MountSeatNum="1" MountResPath="npc\zq_dwa_mount_0001" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0015_riding_Buff02_01" Camp="0" Level="5"/>
+	<Property ID="24" MountType="0" MountSeatNum="1" MountResPath="npc\qh_bru_mount_0001_1" MountdownConditionID="10001,10002,10003" MoveBuff="riding_Mount_Call0001_Buff02_01" Camp="0" Level="15"/>
+	<Property ID="25" MountType="0" MountSeatNum="1" MountResPath="npc\qh_bru_mount_0001_2" MountdownConditionID="10001,10002,10003" MoveBuff="riding_Mount_Call0001_Buff03_01" Camp="0" Level="30"/>
+	<Property ID="26" MountType="0" MountSeatNum="1" MountResPath="npc\qh_bru_mount_0001_3" MountdownConditionID="10001,10002,10003" MoveBuff="riding_Mount_Call0001_Buff04_01" Camp="0" Level="40"/>
+	<Property ID="27" MountType="0" MountSeatNum="1" MountResPath="npc\qh_kosh_mount_0001_1" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0004_riding_Buff02_01" Camp="0" Level="40"/>
+	<Property ID="28" MountType="0" MountSeatNum="1" MountResPath="npc\qh_kosh_mount_0001_2" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0004_riding_Buff03_01" Camp="0" Level="30"/>
+	<Property ID="29" MountType="0" MountSeatNum="1" MountResPath="npc\qh_kosh_mount_0001_3" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0004_riding_Buff04_01" Camp="0" Level="15"/>
+	<Property ID="30" MountType="0" MountSeatNum="1" MountResPath="npc\zl_con_mount_0003_1" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0008_riding_Buff03_01" Camp="0" Level="20"/>
+	<Property ID="31" MountType="0" MountSeatNum="1" MountResPath="npc\zl_con_mount_0003_2" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0008_riding_Buff04_01" Camp="0" Level="30"/>
+	<Property ID="32" MountType="0" MountSeatNum="1" MountResPath="npc\zl_con_mount_0003_3" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0008_riding_Buff05_01" Camp="0" Level="35"/>
+	<Property ID="33" MountType="0" MountSeatNum="1" MountResPath="npc\qh_hum_mount_0001_1" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0005_riding_Buff03_01" Camp="0" Level="20"/>
+	<Property ID="34" MountType="0" MountSeatNum="1" MountResPath="npc\qh_hum_mount_0001_2" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0005_riding_Buff04_01" Camp="0" Level="30"/>
+	<Property ID="35" MountType="0" MountSeatNum="1" MountResPath="npc\qh_hum_mount_0001_3" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0005_riding_Buff05_01" Camp="0" Level="40"/>
+	<Property ID="36" MountType="0" MountSeatNum="1" MountResPath="npc\zl_con_mount_0004_1" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0009_riding_Buff03_01" Camp="0" Level="20"/>
+	<Property ID="37" MountType="0" MountSeatNum="1" MountResPath="npc\zl_con_mount_0004_2" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0009_riding_Buff04_01" Camp="0" Level="30"/>
+	<Property ID="38" MountType="0" MountSeatNum="1" MountResPath="npc\zl_con_mount_0004_3" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0009_riding_Buff05_01" Camp="0" Level="40"/>
+	<Property ID="39" MountType="0" MountSeatNum="1" MountResPath="npc\zq_dwa_mount_0001_3" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0015_riding_Buff03_01" Camp="0" Level="20"/>
+	<Property ID="40" MountType="0" MountSeatNum="1" MountResPath="npc\zq_dwa_mount_0001_1" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0015_riding_Buff04_01" Camp="0" Level="30"/>
+	<Property ID="41" MountType="0" MountSeatNum="1" MountResPath="npc\zq_dwa_mount_0001_2" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0015_riding_Buff05_01" Camp="0" Level="40"/>
+	<Property ID="42" MountType="0" MountSeatNum="1" MountResPath="npc\qh_con_mount_0002_1" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0003_riding_Buff02_01" Camp="0" Level="40"/>
+	<Property ID="43" MountType="0" MountSeatNum="1" MountResPath="npc\qh_con_mount_0002_2" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0003_riding_Buff03_01" Camp="0" Level="40"/>
+	<Property ID="44" MountType="0" MountSeatNum="1" MountResPath="npc\qh_con_mount_0002_3" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0003_riding_Buff04_01" Camp="0" Level="40"/>
+	<Property ID="45" MountType="0" MountSeatNum="1" MountResPath="npc\zl_con_mount_0001_1" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0012_riding_Buff02_01" Camp="0" Level="40"/>
+	<Property ID="46" MountType="0" MountSeatNum="1" MountResPath="npc\zl_con_mount_0001_2" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0012_riding_Buff03_01" Camp="0" Level="40"/>
+	<Property ID="47" MountType="0" MountSeatNum="1" MountResPath="npc\zl_con_mount_0001_3" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0012_riding_Buff04_01" Camp="0" Level="40"/>
+	<Property ID="48" MountType="0" MountSeatNum="1" MountResPath="npc\zl_con_mount_0010_1" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0011_riding_Buff03_01" Camp="0" Level="40"/>
+	<Property ID="49" MountType="0" MountSeatNum="1" MountResPath="npc\zl_con_mount_0010_2" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0011_riding_Buff04_01" Camp="0" Level="40"/>
+	<Property ID="50" MountType="0" MountSeatNum="1" MountResPath="npc\zl_con_mount_0010_3" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0011_riding_Buff05_01" Camp="0" Level="40"/>
+	<Property ID="51" MountType="0" MountSeatNum="1" MountResPath="npc\qh_con_mount_0004" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0020_riding_Buff01_01" Camp="0" Level="40"/>
+	<Property ID="52" MountType="3" MountSeatNum="1" MountResPath="npc\zl_con_mount_0008" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0021_riding_Buff01_01" Camp="0" Level="40"/>
+	<Property ID="53" MountType="3" MountSeatNum="1" MountResPath="npc\zq_bc_005" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0022_riding_Buff01_01" Camp="0" Level="40"/>
+	<Property ID="54" MountType="0" MountSeatNum="1" MountResPath="npc\zq_con_mount_0003" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0023_riding_Buff01_01" Camp="0" Level="40"/>
+	<Property ID="55" MountType="0" MountSeatNum="1" MountResPath="npc\zl_con_mount_0005" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0024_riding_Buff01_01" Camp="0" Level="40"/>
+	<Property ID="56" MountType="0" MountSeatNum="1" MountResPath="npc\qh_con_mount_0003" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0025_riding_Buff01_01" Camp="0" Level="40"/>
+	<Property ID="57" MountType="0" MountSeatNum="1" MountResPath="npc\zl_con_mount_0006" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0026_riding_Buff01_01" Camp="0" Level="40"/>
+	<Property ID="58" MountType="0" MountSeatNum="1" MountResPath="npc\qh_kosh_mount_0001" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0004_riding_Buff05_01" Camp="0" Level="10"/>
+	<Property ID="59" MountType="0" MountSeatNum="1" MountResPath="npc\zq_vap_mount_0001" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0014_riding_Buff02_01" Camp="0" Level="10"/>
+	<Property ID="60" MountType="0" MountSeatNum="1" MountResPath="npc\zl_con_mount_0001" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0012_riding_Buff05_01" Camp="0" Level="10"/>
+	<Property ID="100" MountType="3" MountSeatNum="1" MountResPath="npc\qh_trans_skyF_001_1" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0017_riding_Buff01_01" Camp="0" Level="10"/>
+	<Property ID="101" MountType="3" MountSeatNum="1" MountResPath="npc\zq_trans_skyF_001" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0017_riding_Buff01_01" Camp="0" Level="10"/>
+	<Property ID="102" MountType="3" MountSeatNum="1" MountResPath="npc\zl_con_mount_0007" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0027_riding_Buff01_01" Camp="0" Level="10"/>
+	<Property ID="103" MountType="3" MountSeatNum="1" MountResPath="npc\zl_con_mount_0012" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0028_riding_Buff01_01" Camp="0" Level="10"/>
+	<Property ID="200" MountType="0" MountSeatNum="1" MountResPath="npc\qh_kosh_mount_0001" MountdownConditionID="10001,10002,10003" MoveBuff="Mount_Call0004_riding_Buff01_01" Camp="0" Level="10"/>
+</Object>

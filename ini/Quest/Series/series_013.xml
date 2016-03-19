@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<Object>
+	<Property ID="4607" GirdX="1" GirdY="2" ChildTask="4608" IsHide="1"/>
+	<Property ID="4608" GirdX="2" GirdY="2" FatherTask="4607" ChildTask="4615" IsHide="1"/>
+	<Property ID="4615" GirdX="3" GirdY="2" FatherTask="4608" ChildTask="4627" IsHide="1"/>
+	<Property ID="4627" GirdX="4" GirdY="2" FatherTask="4615" ChildTask="4628" IsHide="1"/>
+	<Property ID="4628" GirdX="5" GirdY="2" FatherTask="4627" ChildTask="4629" IsHide="1"/>
+	<Property ID="4629" GirdX="6" GirdY="2" FatherTask="4628" ChildTask="904" IsHide="1"/>
+	<Property ID="904" GirdX="7" GirdY="2" FatherTask="4629" ChildTask="4630" IsHide="1"/>
+	<Property ID="4630" GirdX="8" GirdY="2" FatherTask="904" IsHide="1" LastTask="1"/>
+</Object>

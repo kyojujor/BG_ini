@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<Object>
+<!--
+ID:       		能量井ID
+own_scene:		所在场景
+area_id:			战场的区域ID
+open_war: 		开启战斗时间(周几，几点:几分-周几，几点:几分)
+npc_bag:			能量井npc配置包
+boss_bag:			boss配置包
+limit_level:  level限制
+qh_live:			奇幻临时复活点
+zq_live:			蒸汽临时复活点
+reward_bag:	  奖励包配置
+task_bag:			任务包
+Desc:					能量井战场描述
+-->
+	<Property ID="10003"  own_scene="6" area_id="270000000" npc_bag="1" boss_bag="1" open_war="5,19:00-5,22:00" limit_level="20" re_live="1"  reward_bag="1" pillar_bag="1" task_bag="1" buff_bag="1" Desc="Energywell_Des_10001"/>
+</Object>
+

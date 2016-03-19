@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 
+
+CloneID  副本ID
+
+EsayMode    简单模式boss,按击杀顺序进行配置
+ 
+HardMode    困难模式boss
+
+HeroMode    英雄模式boss
+
+HeroicMode  史诗模式boss
+ -->
+<Object>
+	<!--<Property CloneID="100" EasyMode="FB_TNDX_BOSS_01,FB_TNDX_BOSS_05" HardMode="FB_TNDX_BOSS_01_L2,FB_TNDX_BOSS_05_L2"/>-->
+	<!--流浪群岛-->
+	<Property CloneID="101" EasyMode="boss_0014,fb_llqd_009,fb_llqd_008" HardMode="boss_0014_L2,fb_llqd_009_L2,fb_llqd_008_L2"/>
+	<!--余晖洞穴-->
+	<Property CloneID="102" EasyMode="monster_qhm002_0051,monster_qhm002_0052" HardMode="FB_yuhuidongxue_0059,FB_yuhuidongxue_0060,FB_yuhuidongxue_0061"/>
+	<!--地下干线-->
+	<Property CloneID="103" EasyMode="monster_zqm005_0070,monster_zqm005_0071" HardMode="FB_103KN_0024,FB_103KN_0023,FB_103KN_0022"/>
+	<!--<Property CloneID="104" EasyMode="FB_TNJT_BOSS_01,FB_TNJT_BOSS_02,FB_TNJT_BOSS_04" HardMode="FB_TNJT_BOSS_01_L2,FB_TNJT_BOSS_02_L2,FB_TNJT_BOSS_04_L2"/>-->
+	<!--远古之门-->
+	<Property CloneID="105" EasyMode="FB_yuanguzhimen_0017_01,FB_yuanguzhimen_0017,FB_yuanguzhimen_0024,FB_yuanguzhimen_0019" HardMode="FB_105KN_0048,FB_105KN_0024,FB_105KN_0019,FB_105KN_0018,FB_105KN_0020"/>
+	<!--充能井-->
+	<Property CloneID="107" EasyMode="fb_chnj_boss_01,fb_chnj_boss_02"/>
+	<!--天怒教堂-->
+	<Property CloneID="114" EasyMode="FB_TNJT_BOSS_01,FB_TNJT_BOSS_02,FB_TNJT_BOSS_03,FB_TNJT_BOSS_04"/>
+	<!--提奥迪亚-->
+	<Property CloneID="115" EasyMode="FB_tiaodiya_0021,FB_tiaodiya_0024,FB_tiaodiya_0025" HardMode="FB_tiaodiya_0021_L2,FB_tiaodiya_0024_L2,FB_tiaodiya_0025_L2"/>
+	<!--天怒洞穴-->
+	<Property CloneID="120" EasyMode="FB_TNDX_BOSS_03,FB_TNDX_BOSS_01,FB_TNDX_BOSS_05"/>
+	<!--天怒堡-->
+	<Property CloneID="122" HardMode="FB_TNB_BOSS_001,FB_TNB_BOSS_002,FB_TNB_BOSS_003,FB_TNB_BOSS_004,FB_TNB_BOSS_005,FB_TNB_BOSS_006,FB_TNB_BOSS_007"/>
+	<!--苍穹之喉-->
+	<Property CloneID="118" EasyMode="FB_DGPD_0005_1,FB_DGPD_0044_1,FB_DGPD_0013,FB_DGPD_0020,FB_DGPD_0027,FB_DGPD_0033,FB_DGPD_0053_01"/>
+</Object>

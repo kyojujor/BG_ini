@@ -1,0 +1,10 @@
+<root version="1.0">
+    <node type="0" name="提奥迪亚竞技场" desc="提奥迪亚竞技场">
+        <node type="1" name="tady_ItemNpc.xml" path="tady_ItemNpc.xml" desc="提奥迪亚竞技场触发器类,物件类Npc" />
+        <node type="1" name="tady_monsterNpc.xml" path="tady_monsterNpc.xml" desc="提奥迪亚竞技场怪物Npc" />
+        <node type="1" name="tady_FuncNpc.xml" path="tady_FuncNpc.xml" desc="提奥迪亚竞技场功能Npc" />
+        <node type="1" name="tady_TriggerNpc.xml" path="tady_TriggerNpc.xml" desc="提奥迪亚竞技场触发器" />
+        <node type="1" name="tady_TaskNpc.xml" path="tady_TaskNpc.xml" desc="提奥迪亚竞技场任务Npc" />
+        <node type="1" name="stage_data.xml" path="stage_data.xml" desc="" />
+    </node>
+</root>

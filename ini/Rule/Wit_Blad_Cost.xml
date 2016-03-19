@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2010 (http://www.altova.com) by MESMERiZE (MiZE) -->
+<Object>
+	<!-- ColorLevel="道具颜色等级" Level="道具等级（道具评分）" ItemCost_Absorb="吸收消耗的道具(,多种) ItemNum_Absorb="吸收武器消耗的黑金数量(,分别)" MoneyCost_Absorb="吸收武器消耗的金钱" ItemCost_Foundry="重铸消耗的道具(,多种) ItemNum_Foundry="吸收武器消耗的黑金数量(,分别) BGNum_Foundry="重铸武器消耗的黑金数量" MoneyCost_Foundry="重铸武器消耗的金钱" CD_Foundry="重铸武器后的重铸CD(分)" CDMoneyCost_Foundry="重置重铸CD消耗的金钱系数(x铜/分钟)" -->
+	<Property ID = "1"  ColorLevel="1" LevelMin="0" LevelMax="10000" ItemCost_Absorb="EnergyF_ty_00003C," ItemNum_Absorb="2," MoneyCost_Absorb="1" ItemCost_Foundry="EnergyF_ty_00003C," ItemNum_Foundry="5," MoneyCost_Foundry="1" CD_Foundry="10" CDMoneyCost_Foundry="1.5"/>
+	<Property ID = "2"  ColorLevel="2" LevelMin="0" LevelMax="10000" ItemCost_Absorb="EnergyF_ty_00003C," ItemNum_Absorb="3," MoneyCost_Absorb="1" ItemCost_Foundry="EnergyF_ty_00003C," ItemNum_Foundry="4," MoneyCost_Foundry="1" CD_Foundry="10" CDMoneyCost_Foundry="1.5"/>
+	<Property ID = "3"  ColorLevel="3" LevelMin="0" LevelMax="10000" ItemCost_Absorb="EnergyF_ty_00003C," ItemNum_Absorb="4," MoneyCost_Absorb="1" ItemCost_Foundry="EnergyF_ty_00003C," ItemNum_Foundry="3," MoneyCost_Foundry="1" CD_Foundry="10" CDMoneyCost_Foundry="1.5"/>
+	<Property ID = "4"  ColorLevel="4" LevelMin="0" LevelMax="10000" ItemCost_Absorb="EnergyF_ty_00003C," ItemNum_Absorb="5," MoneyCost_Absorb="1" ItemCost_Foundry="EnergyF_ty_00003C," ItemNum_Foundry="2," MoneyCost_Foundry="1" CD_Foundry="10" CDMoneyCost_Foundry="1.5"/>
+
+</Object>

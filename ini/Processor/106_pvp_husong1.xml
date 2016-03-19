@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes" ?>
+<Processor>
+    <Base type="object" version="1.0">
+        <Line Type="12" CaseNum="4" IncludeLines="8" />
+        <Line Type="13" IncludeLines="1" />
+        <Line Type="1" Event="4506">
+            <Param type="2" data="0" Index="0" />
+            <Param type="2" data="2" Index="1" />
+            <Param type="2" data="3" Index="2" />
+            <Param type="6" data="Giving_PvP_0001" Index="3" />
+            <Param type="4" data="3" Index="4" />
+            <Param type="4" data="5" Index="5" />
+            <Param type="2" data="0" Index="6" />
+            <Param type="6" data="Act" Index="7" />
+        </Line>
+        <Line Type="13" IncludeLines="1" />
+        <Line Type="1" Event="4506">
+            <Param type="2" data="0" Index="0" />
+            <Param type="2" data="3" Index="1" />
+            <Param type="2" data="3" Index="2" />
+            <Param type="6" data="Giving_PvP_0001" Index="3" />
+            <Param type="4" data="3" Index="4" />
+            <Param type="4" data="5" Index="5" />
+            <Param type="2" data="0" Index="6" />
+            <Param type="6" data="Act" Index="7" />
+        </Line>
+        <Line Type="13" IncludeLines="1" />
+        <Line Type="1" Event="4506">
+            <Param type="2" data="0" Index="0" />
+            <Param type="2" data="4" Index="1" />
+            <Param type="2" data="3" Index="2" />
+            <Param type="6" data="Giving_PvP_0001" Index="3" />
+            <Param type="4" data="3" Index="4" />
+            <Param type="4" data="5" Index="5" />
+            <Param type="2" data="0" Index="6" />
+            <Param type="6" data="Act" Index="7" />
+        </Line>
+        <Line Type="13" IncludeLines="1" />
+        <Line Type="1" Event="4506">
+            <Param type="2" data="0" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="2" data="3" Index="2" />
+            <Param type="6" data="Giving_PvP_0001" Index="3" />
+            <Param type="4" data="3" Index="4" />
+            <Param type="4" data="5" Index="5" />
+            <Param type="2" data="0" Index="6" />
+            <Param type="6" data="Act" Index="7" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP1" />
+        <Line Type="1" Event="4517">
+            <Param type="13" srctype="8" data="AUTOP1" Index="0" />
+            <Param type="6" data="BG_self_025" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP3" />
+        <Line Type="2" Event="2105" Name="AUTOP2">
+            <Param type="13" srctype="8" data="AUTOP3" Index="0" />
+            <Param type="4" data="35" Index="1" />
+            <Param type="2" data="2" Index="2" />
+            <Param type="1" data="true" Index="3" />
+        </Line>
+        <Line Type="1" Event="4883">
+            <Param type="13" srctype="8" data="AUTOP2" Index="0" />
+            <Param type="6" data="BG_zd010" Index="1" />
+        </Line>
+    </Base>
+</Processor>

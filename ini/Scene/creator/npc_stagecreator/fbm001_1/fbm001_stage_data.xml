@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Stage>
+	<Object Guid="5D4ED59736734AD6B581C29FC23CC651" Desc="铁栅栏" config="Organ_tiannu_0001" x="87.341431" y="32.298" z="-143.85083" IsY="0" Radius="0.1" amount="1" RefreshTime="3600" fOrg="0">
+		<OrganData IsOrgan="1" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="1" ResponseMode="0"/>
+		<OrganStateMapping State="0" Action="action_downloop_0h" SkillID="" NoCollide=""/>
+		<OrganStateMapping State="1" Action="action_openloop_0h" SkillID="" NoCollide=""/>
+	</Object>
+	<Object Guid="5243CE8725F3491A90010C660DF84EBF" Desc="天怒洞穴离开门" config="CloneDoor_tiannu_0002" x="-139.862488" y="11.347508" z="-233.497421" IsY="0" amount="1" RefreshTime="1" fOrg="0">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="52A8F71206DB49F981951634FE25EA7A" Desc="末日教战士" config="FB_TNDX_MS_04_L2" x="16.592905" y="11.539001" z="-244.745804" IsY="0" Radius="0.1" amount="1" RefreshTime="3600" fOrg="1.985006" RoadSignID="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="B25395C7605A4D4EBE597AE69D5D428B" Desc="末日教守护者" config="FB_TNDX_MS_06_L2" x="19.622845" y="11.462001" z="-244.826508" IsY="0" Radius="0.1" amount="1" RefreshTime="3600" fOrg="-2.280005" RoadSignID="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="BBA96308F8874C538FEA01EC459B4D7E" Desc="末日教战士" config="FB_TNDX_MS_04_L2" x="19.510649" y="10.963" z="-247.466476" IsY="0" Radius="0.1" amount="1" RefreshTime="3600" fOrg="0.4" RoadSignID="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="2BD5615E59AB4BA8920EC70721D045B4" Desc="末日教巡逻哨兵" config="FB_TNDX_MS_05_L2" x="-52.213959" y="9.607371" z="-262.086304" IsY="0" Radius="0.1" PatrolMode="1" PathID="tnxl" amount="1" RefreshTime="3600" fOrg="0">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="A888657A95504E19AD7B7C7FBD65D15B" Desc="末日教士兵" config="FB_TNDX_MS_04_L2" x="-78.771141" y="7.818" z="-284.947723" IsY="0" Radius="0.1" amount="1" RefreshTime="-1" fOrg="-2.155003">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="ED106D4D4A0440CA8327452A81537EA2" Desc="末日教士兵" config="FB_TNDX_MS_04_L2" x="-78.400406" y="7.746" z="-288.529694" IsY="0" Radius="0.1" amount="1" RefreshTime="-1" fOrg="-0.900008">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="00AD0816673340D29F842D63C34A501D" Desc="末日教巡逻哨兵" config="FB_TNDX_MS_05_L2" x="-82.157532" y="7.81" z="-286.875122" IsY="0" Radius="0.1" amount="1" RefreshTime="-1" fOrg="2.33">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="3474FCBDE8AC46BF85979111DF380C18" Desc="末日教巡逻哨兵" config="FB_TNDX_MS_05_L2" x="-84.749153" y="-2.764697" z="-337.677368" IsY="0" Radius="0.1" PatrolMode="1" PathID="tnxl2" amount="1" RefreshTime="-1" fOrg="-2.19001">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="1EA85D41B2F747FA9BEB7BD9158FEB7F" Desc="末日教守护者" config="FB_TNDX_MS_06_L2" x="-73.013901" y="-8.546" z="-380.379364" IsY="0" Radius="0.1" amount="1" RefreshTime="-1" fOrg="1.460009">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="AD8E191BDBB945A7AADD2E5E19137AEC" Desc="末日教士兵" config="FB_TNDX_MS_04_L2" x="-70.770363" y="-8.52" z="-377.894318" IsY="0" Radius="0.1" amount="1" RefreshTime="-1" fOrg="-1.935004">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="B67AD6E640AE4E69807478E407C1D01D" Desc="末日教士兵" config="FB_TNDX_MS_04_L2" x="-70.648369" y="-8.52" z="-381.500702" IsY="0" Radius="0.1" amount="1" RefreshTime="-1" fOrg="-0.540005">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="2739BA5B7F0C47D787AF071BFB98BB32" Desc="狂热的末日教信徒" config="FB_TNDX_MS_07_L2" x="-61.506756" y="-5.708" z="-407.945862" IsY="0" Radius="0.1" amount="1" RefreshTime="-1" fOrg="-3.105">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="0924D3E0B7524FDD987583AD494C7183" Desc="狂热的末日教信徒" config="FB_TNDX_MS_07_L2" x="-60.325981" y="-5.187872" z="-410.541199" IsY="0" Radius="0.1" amount="1" RefreshTime="-1" fOrg="0.075">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="7F1598840D8F46139E26F31CC8F8279E" Desc="末日教巡逻哨兵" config="FB_TNDX_MS_05_L2" x="-40.178726" y="1.592" z="-357.065552" IsY="0" Radius="0.1" PatrolMode="1" PathID="tnxl3" amount="1" RefreshTime="-1" fOrg="-0.525005">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="578244DCD6574527BCE27096F35EE3A9" Desc="末日教战士" config="FB_TNDX_MS_04_L2" x="-29.640015" y="5.796" z="-337.455658" IsY="0" Radius="0.1" amount="1" RefreshTime="-1" fOrg="2.085007">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="1600408FE136407D989CDA5C52918DCA" Desc="末日教守护者" config="FB_TNDX_MS_06_L2" x="-26.322824" y="5.841" z="-338.233826" IsY="0" Radius="0.1" amount="1" RefreshTime="-1" fOrg="-0.745004">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="FFCCE26D99704135BEE03C6780DFB993" Desc="末日教战士" config="FB_TNDX_MS_04_L2" x="-26.899443" y="6.021368" z="-334.743713" IsY="0" Radius="0.1" amount="1" RefreshTime="-1" fOrg="-2.8">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="7EAAE0F551324D0C8ABEB31084C57B9B" Desc="末日教巡逻哨兵" config="FB_TNDX_MS_05_L2" x="67.710793" y="30.941921" z="-224.357468" IsY="0" Radius="0.1" PatrolMode="1" PathID="tnxl5" amount="1" RefreshTime="-1" fOrg="-1.42001">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="917D7AF7ECBF445C8C432FBFCB883AD0" Desc="末日教守护者" config="FB_TNDX_MS_06_L2" x="67.082321" y="33.318001" z="-214.789169" IsY="0" Radius="0.1" amount="1" RefreshTime="-1" fOrg="2.985003">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="DD222F5C24AC420E8B32B64D078292E4" Desc="末日教守护者" config="FB_TNDX_MS_06_L2" x="72.226143" y="33.402" z="-212.900482" IsY="0" Radius="0.1" amount="1" RefreshTime="-1" fOrg="2.735006" IsPersistent="0">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="321AB0E7A8264DE7B238F9CB01FC7D2E" Desc="隐藏EP" config="FB_TNDX_EP_1_L2" x="67.514755" y="34.77" z="-208.731689" IsY="0" Radius="0.1" amount="1" RefreshTime="-1" fOrg="2.565">
+		<OrganData IsOrgan="1" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="1" ResponseMode="0"/>
+	</Object>
+	<Object Guid="8BDD21EA883E472C9BB954BB2F29FA73" Desc="石机关门" config="Organ_tiannu_0002_L2" x="67.411522" y="34.77" z="-208.472321" fOrg="-0.405006">
+		<Event EventId="1" Processor="FB_TNDX_019"/>
+		<OrganData IsOrgan="1" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="1" ResponseMode="0"/>
+		<OrganStateMapping State="0" Action="action_downloop_0h" SkillID="" NoCollide=""/>
+		<OrganStateMapping State="1" Action="action_openloop_0h" SkillID="" NoCollide=""/>
+	</Object>
+	<Object Guid="2A36981C0B5D438A9B6B55A313A78F7C" Desc="FB_TNDX_BOSS_05" config="FB_TNDX_BOSS_05_L2" x="-17.890356" y="11.512814" z="-199.71785" IsY="0" Radius="0.1" amount="1" RefreshTime="-1" fOrg="0.905003" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="D9E0D545646D4ABCAC18C577C09CA607" Desc="复仇的地狱恶魔" config="FB_TNDX_MS_12_L2" x="43.281078" y="24.416" z="-134.606613" IsY="0" Radius="0.1" amount="1" RefreshTime="-1" fOrg="-0.680001" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="8011692C550747DB8FD55F90CE706D91" Desc="复仇的地狱恶魔" config="FB_TNDX_MS_12_L2" x="40.52951" y="23.990002" z="-131.369797" IsY="0" Radius="0.1" amount="1" RefreshTime="-1" fOrg="1.170001" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="8DE63DC1C3514163A8E31AE1D7EE3317" Desc="复仇的地狱恶魔" config="FB_TNDX_MS_12_L2" x="33.232719" y="18.528694" z="-145.977112" IsY="0" Radius="0.1" amount="1" RefreshTime="-1" fOrg="-0.110002" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="A0E87639997D447293EEED206A9DC5E6" Desc="复仇的地狱恶魔" config="FB_TNDX_MS_12_L2" x="30.038694" y="18.244001" z="-143.419357" IsY="0" Radius="0.1" amount="1" RefreshTime="-1" fOrg="0.795002" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="870E8FF9270E4E77BEFCCD2FEE7FEC5C" Desc="FB_TNDX_MS_17" config="FB_TNDX_MS_17_L2" x="58.292976" y="23.402" z="-136.108109" IsY="0" Radius="0.1" amount="1" RefreshTime="-1" fOrg="-0.060001" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="61C901739698435688569A9D5BA06A04" Desc="FB_TNDX_MS_17" config="FB_TNDX_MS_17_L2" x="54.615978" y="23.360001" z="-135.413559" IsY="0" Radius="0.1" amount="1" RefreshTime="-1" fOrg="0.07" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="3373AEA07FDA46D5B887EE63BC33D55D" Desc="FB_TNDX_MS_17" config="FB_TNDX_MS_17_L2" x="73.742882" y="31.402002" z="-147.637192" IsY="0" Radius="0.1" amount="1" RefreshTime="-1" fOrg="-2.565001" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="2BB25384714B4934A76CCE9F26A79FAC" Desc="FB_TNDX_MS_17" config="FB_TNDX_MS_17_L2" x="70.487373" y="30.878002" z="-143.394501" IsY="0" Radius="0.1" PathID="FBTN24" amount="1" RefreshTime="-1" fOrg="-2.724999" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="D8C5B3896BAD492AB4B35F9E05F4F128" Desc="FB_TNDX_MS_18" config="FB_TNDX_MS_18_L2" x="77.872772" y="31.934002" z="-137.05751" IsY="0" Radius="0.1" amount="1" RefreshTime="-1" fOrg="2.693186" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="4FAE7FBBFFCA4D9BAC3F8803AE3DB893" Desc="FB_TNDX_MS_18" config="FB_TNDX_MS_18_L2" x="74.146904" y="31.574001" z="-137.760574" IsY="0" Radius="0.1" amount="1" RefreshTime="-1" fOrg="2.480002" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="8E5229F133214AB280A2F4ACB3A3AE7D" Desc="FB_TNDX_MS_18" config="FB_TNDX_MS_18_L2" x="54.878429" y="22.1" z="-146.651505" IsY="0" Radius="0.1" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="3BD90E6EA58F4A8EA600DA729C635EC5" Desc="FB_TNDX_MS_18" config="FB_TNDX_MS_18_L2" x="57.873875" y="22.198002" z="-147.250977" IsY="0" Radius="0.1" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="D2FACE4B3B13402CB426009386113BC7" Desc="天怒洞穴村民" config="FB_TNDX_MS_03_L2" x="-41.381413" y="9.672001" z="-292.67453" IsY="0" Radius="0.1" amount="1" RefreshTime="-1" fOrg="0.810001" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="F1C5372AB1484FC5AA40A8BA2ED09D73" Desc="天怒洞穴村民" config="FB_TNDX_MS_03_L2" x="-38.973473" y="9.672001" z="-287.455048" IsY="0" Radius="0.1" amount="1" RefreshTime="-1" fOrg="-2.105002" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="150822A056BC4588BEB74DFEED353334" Desc="天怒洞穴村民" config="FB_TNDX_MS_02_L2" x="-43.411274" y="9.704" z="-289.106567" IsY="0" Radius="0.1" amount="1" RefreshTime="-1" fOrg="1.970005" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="C1ED133DADBE48B4BA76455505B5509A" Desc="天怒洞穴村民" config="FB_TNDX_MS_02_L2" x="-63.491955" y="9.527411" z="-283.734985" IsY="0" Radius="0.1" amount="1" RefreshTime="-1" fOrg="-0.155" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="A6B41CC8F891402EB301719245C313B5" Desc="FB_TNDX_MS_99" config="FB_TNDX_MS_99_L2" x="-32.500332" y="1.703231" z="-346.478394" amount="1" fOrg="3.140006" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="6F781A80ABE8494C842D52ABE24D0909" Desc="FB_TNDX_MS_99" config="FB_TNDX_MS_99_L2" x="-30.283903" y="1.408" z="-381.009674" IsY="0" Radius="0.1" amount="1" RefreshTime="-1" fOrg="-0.48" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="520D48C0A6B44A4C9A2355FAAB3E7FE3" Desc="FB_TNDX_MS_99" config="FB_TNDX_MS_99_L2" x="-34.683464" y="1.489063" z="-381.797607" amount="1" fOrg="-0.015012" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="97C4D7DD65214371B6F3941235AC7CAB" Desc="狂热的末日教信徒" config="FB_TNDX_MS_07_L2" x="-42.569611" y="1.566" z="-374.205505" IsY="0" Radius="0.1" PeaceAction="pe_0h_stand2" amount="1" RefreshTime="-1" fOrg="2.220003" IsPersistent="0">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="5FA81D612F794FE8B5F74769FF7C4C7A" Desc="末日教巡逻哨兵" config="FB_TNDX_MS_05_L2" x="-40.520119" y="1.534" z="-371.179657" IsY="0" Radius="0.1" PeaceAction="pe_0h_stand2" amount="1" RefreshTime="-1" fOrg="-2.935" IsPersistent="0">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="5B20E149821A4D48B4304A7FECA24A63" Desc="FB_TNDX_MS_99" config="FB_TNDX_MS_99_L2" x="-1.202548" y="3.594" z="-369.579803" IsY="0" Radius="0" amount="1" fOrg="-1.490017" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="FE62766B565746F0891E18685311CA52" Desc="末日教巡逻哨兵" config="FB_TNDX_MS_05_L2" x="-4.71293" y="3.52" z="-367.302338" IsY="0" Radius="0.1" amount="1" RefreshTime="-1" fOrg="-1.955001">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="D69D8AB83080492E917A87B80EC6DC50" Desc="末日教战士" config="FB_TNDX_MS_04_L2" x="-8.087538" y="3.517" z="-367.394562" IsY="0" Radius="0.1" amount="1" RefreshTime="-1" fOrg="2.94">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="6A2DB14210424CB29AC95F6A026A5D97" Desc="末日教战士" config="FB_TNDX_MS_04_L2" x="-5.790743" y="3.523" z="-370.179443" IsY="0" Radius="0.1" amount="1" RefreshTime="-1" fOrg="0.23">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="BE6EC68134F74AB1AA38E9CB33D22468" Desc="末日教巡逻哨兵" config="FB_TNDX_MS_05_L2" x="-33.567989" y="1.6" z="-349.808777" IsY="0" Radius="0.1" amount="1" RefreshTime="-1" fOrg="1.750007">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="2D23719677D64DBB9AF3A9BDCDDDABFE" Desc="狂热的末日教信徒" config="FB_TNDX_MS_07_L2" x="-31.327496" y="1.592" z="-349.407227" IsY="0" Radius="0.1" amount="1" RefreshTime="-1" fOrg="-1.675003">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="F89567399C2B4FD783B5C17090697CAD" Desc="FB_TNDX_MS_99" config="FB_TNDX_MS_99_L2" x="-47.428349" y="1.6" z="-369.366486" amount="1" fOrg="0.865002" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="C2F33FF6D51A43A7A98FF96D5317B244" Desc="末日教战士" config="FB_TNDX_MS_04_L2" x="-48.218697" y="-0.215768" z="-344.961914" amount="1" RefreshTime="-1" fOrg="-0.290004" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="A2870C7009D74F0AB518DC1F1959C1E6" Desc="狂热的末日教信徒" config="FB_TNDX_MS_07_L2" x="-45.351486" y="0.13" z="-344.667145" amount="1" RefreshTime="-1" fOrg="-0.700007" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="1EA03E37E20246DEA31866DF06300BED" Desc="狂热的末日教信徒" config="FB_TNDX_MS_07_L2" x="-47.011497" y="-0.348631" z="-347.662781" amount="1" RefreshTime="-1" fOrg="-0.160004" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="D82DBEFAF45B4587A739647FBB718F55" Desc="狂热的末日教信徒" config="FB_TNDX_MS_07_L2" x="-51.886192" y="-0.418" z="-351.174011" amount="1" RefreshTime="-1" fOrg="-0.015004" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="004677565C0944AF8AC3A66E1CE3D497" Desc="狂热的末日教信徒" config="FB_TNDX_MS_07_L2" x="-53.978554" y="-0.272" z="-353.046661" amount="1" RefreshTime="-1" fOrg="0.059996" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="66AF319D3BE448BC853A5734A0681C8C" Desc="末日教战士" config="FB_TNDX_MS_04_L2" x="-54.288288" y="-0.782" z="-350.673187" amount="1" RefreshTime="-1" fOrg="-0.099994" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="669B22CCC511481EB6ADB5E76B737417" Desc="FB_TNDX_MS_98" config="FB_TNDX_MS_98_L2" x="-25.756014" y="1.409223" z="-368.915161" PeaceAction="dead" amount="1" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="220EB32218344377A15A496056271822" Desc="FB_TNDX_MS_97" config="FB_TNDX_MS_97_L2" x="-54.804745" y="-1.726" z="-345.396301" PatrolMode="1" amount="1" fOrg="-1.160005" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="1BF8412A6DCA42F893F76E49A155FC44" Desc="天怒洞穴村民" config="FB_TNDX_MS_03_L2" x="-111.740761" y="10.943185" z="-222.394882" IsY="0" Radius="0.1" PeaceAction="attackR1_0h" amount="1" RefreshTime="-1" fOrg="0.49">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="486E656DD5074A879832CBA1D1424B14" Desc="天怒洞穴村民" config="FB_TNDX_MS_03_L2" x="-107.7491" y="11.726909" z="-214.572815" IsY="0" Radius="0.1" PeaceAction="attackR1_0h" amount="1" RefreshTime="-1" fOrg="-2.053178">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="32AFBDA0E2F0414BA224CD09EB6CBA9F" Desc="天怒洞穴村民" config="FB_TNDX_MS_03_L2" x="-120.691788" y="10.579056" z="-216.54068" IsY="0" Radius="0.1" PeaceAction="attackR1_0h" amount="1" RefreshTime="-1" fOrg="0.02" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="995EEC9D51424C6083747EBE2B91C5D9" Desc="FB_TNDX_MS_19" config="FB_TNDX_MS_34_L2" x="-122.740204" y="10.7959" z="-229.67395" PeaceAction="pe_0h_stand2" amount="1" RefreshTime="-1" fOrg="0.245" IsPersistent="1"/>
+	<Object Guid="1E5D66AD29F442FEB1474F2BD645A9C1" Desc="FB_TNDX_MS_19" config="FB_TNDX_MS_34_L2" x="-53.349037" y="9.23259" z="-265.80188" PeaceAction="pe_0h_stand2" amount="1" RefreshTime="-1" fOrg="2.265001" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="63D1069A45A34D21BA6A3463A554BAC4" Desc="天怒洞穴村民" config="FB_tiannudongxue_0001_03_L2" x="-88.591858" y="13.012978" z="-226.502747" IsY="0" Radius="0.1" PeaceAction="attackR1_0h" amount="1" RefreshTime="-1" fOrg="0.545">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="46C2F2686E3B418E8F154CE0C9DEA0DD" Desc="天怒洞穴村民" config="FB_TNDX_MS_03_L2" x="-58.487164" y="10.637148" z="-248.420654" IsY="0" Radius="0.1" PeaceAction="attackR1_0h" amount="1" RefreshTime="-1" fOrg="0.715001" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="3C84B1F54BDB405A87349D62BAD5C9F7" Desc="天怒洞穴村民" config="FB_TNDX_MS_03_L2" x="-61.153751" y="10.724254" z="-254.660751" IsY="0" Radius="0.1" PeaceAction="attackR1_0h" amount="1" RefreshTime="-1" fOrg="-1.880001" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="8412D050E84041729FBF6EAB91976F0C" Desc="天怒洞穴村民" config="FB_TNDX_MS_02_L2" x="-45.823811" y="9.658" z="-294.173309" IsY="0" Radius="0.1" amount="1" RefreshTime="-1" fOrg="2.145007" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="ECBD28DFDEC04E27B1E8A32600673D47" Desc="天怒洞穴村民" config="FB_TNDX_MS_02_L2" x="-62.276672" y="9.738001" z="-280.311615" IsY="0" Radius="0.1" amount="1" RefreshTime="-1" fOrg="-2.235006" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="AF8201BFE2114887B4520FCA0FBC9AA1" Desc="FB_TNDX_MS_030" config="FB_TNDX_MS_030_L2" x="-78.916481" y="12.627793" z="-229.21521" PeaceAction="pe_0h_stand2" amount="1" RefreshTime="-1" fOrg="-2.17818" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="5A322BD0F6E6414AA0E292B9216F3532" Desc="FB_TNDX_MS_030" config="FB_TNDX_MS_031_L2" x="-77.348907" y="12.622024" z="-230.0289" PeaceAction="pe_0h_stand2" amount="1" RefreshTime="-1" fOrg="-2.135007" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="F3C03D300CCB4543A9925238ACC4CAAD" Desc="天怒洞穴村民" config="FB_TNDX_MS_03_L2" x="-69.106323" y="11.943762" z="-237.812408" IsY="0" Radius="0.1" PeaceAction="attackR1_0h" amount="1" RefreshTime="-1" fOrg="1.455013">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="DD8E800C71E64BA5B2C50834CC5A41DD" Desc="FB_TNDX_MS_96" config="FB_TNDX_MS_96" x="10.888889" y="21.306623" z="-312.916046" PeaceAction="action_downloop_0h" amount="1" fOrg="0.23" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+		<OrganStateMapping State="" Action="" SkillID="" NoCollide=""/>
+	</Object>
+	<Object Guid="E5F2F072EBB040ECB3C2015925F76018" Desc="狂热的末日教信徒" config="FB_TNDX_MS_07_L2" x="-45.763649" y="1.531" z="-363.714172" amount="1" RefreshTime="-1" fOrg="2.880009" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="94743C54DD6447BDB2E9DD7ADF877617" Desc="末日教战士" config="FB_TNDX_MS_04_L2" x="-43.973969" y="1.555" z="-366.200897" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="A5AB4A3E686A4114B2ADD7C971DC9749" Desc="末日教守护者" config="FB_TNDX_MS_06_L2" x="-45.464016" y="1.561" z="-365.697418" amount="1" RefreshTime="-1" fOrg="0.720001" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="F8DCAD9AAAE4421DBA07E4B230411DD6" Desc="末日教守护者" config="FB_TNDX_MS_06_L2" x="-37.661377" y="1.48" z="-376.151978" IsY="0" Radius="0.1" amount="1" RefreshTime="-1" fOrg="-0.360005">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="8DB89C88623A45B0B15DD50330EB2FC6" Desc="末日教士兵" config="FB_TNDX_MS_04_L2" x="-36.233414" y="1.474" z="-373.331543" IsY="0" Radius="0.1" amount="1" RefreshTime="-1" fOrg="-1.150002">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="B5109504BF3D4591A635A58607D56B09" Desc="末日教巡逻哨兵" config="FB_TNDX_MS_05_L2" x="-38.320709" y="1.526063" z="-371.450012" IsY="0" Radius="0.1" amount="1" RefreshTime="-1" fOrg="-2.163177">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="BFB9D0776B9F49ED88166127F5FFE3C6" Desc="狂热的末日教信徒" config="FB_TNDX_MS_07_L2" x="-40.173687" y="1.534" z="-376.924255" IsY="0" Radius="0.1" PeaceAction="pe_0h_stand2" amount="1" RefreshTime="-1" fOrg="0.03" IsPersistent="0">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="4D4E95EEBA294668AF36AFEA8E6AA9E5" Desc="末日教巡逻哨兵" config="FB_TNDX_MS_05_L2" x="-33.146198" y="1.504" z="-362.296204" IsY="0" Radius="0.1" amount="1" RefreshTime="-1" fOrg="1.490003">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="A8986606DF744E41A991CC9B5F19DE73" Desc="末日教战士" config="FB_TNDX_MS_04_L2" x="-33.142006" y="1.507" z="-359.729889" IsY="0" Radius="0.1" amount="1" RefreshTime="-1" fOrg="2.870004">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="F4267AFF79F0423CB6EC1E56B898F711" Desc="末日教战士" config="FB_TNDX_MS_04_L2" x="-29.789005" y="1.486" z="-360.438568" amount="1" RefreshTime="-1" fOrg="-1.03" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="2D23719677D64DBB9AF3A9BDCDDDABFE" Desc="狂热的末日教信徒" config="FB_TNDX_MS_07_L2" x="-30.794748" y="1.498" z="-359.030548" IsY="0" Radius="0.1" amount="1" RefreshTime="-1" fOrg="-2.430005">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="0F3D1CE3F1774561B1B4FCE78A005EB4" Desc="末日教守护者" config="FB_TNDX_MS_06_L2" x="-30.906164" y="1.465" z="-362.528198" amount="1" RefreshTime="-1" fOrg="-0.284998" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="AF6BD28547AF42E88C6DB63FBE504D4F" Desc="傀儡村长布里奇特" config="FB_TNDX_BOSS_01_L2" x="15.455533" y="21.058001" z="-348.055145" amount="1" RefreshTime="-1" fOrg="-1.91501" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="41F5D9752C104FDDAA493EEA440927C4" Desc="末日教战士" config="FB_TNDX_MS_04_L2" x="5.657243" y="21.036001" z="-360.601959" amount="1" RefreshTime="-1" fOrg="-0.580001" IsPersistent="1"/>
+	<Object Guid="F9591F4EB9E648CABF5C29F9C05EA81D" Desc="末日教战士" config="FB_TNDX_MS_04_L2" x="7.40777" y="21.034" z="-358.142609" amount="1" RefreshTime="-1" fOrg="-0.845004" IsPersistent="1"/>
+	<Object Guid="578E2A68CE324F2E94610694815D45D6" Desc="末日教战士" config="FB_TNDX_MS_04_L2" x="5.491584" y="21.022745" z="-357.88205" amount="1" RefreshTime="-1" fOrg="-0.825002" IsPersistent="1"/>
+	<Object Guid="16BCE1C6B6DC496FA84E499C08090042" Desc="末日教守护者" config="FB_TNDX_MS_06_L2" x="8.289674" y="21.01" z="-361.059082" IsY="0" Radius="0.1" PatrolMode="1" PathID="FBTN23" amount="1" RefreshTime="-1" fOrg="-0.785001" IsPersistent="1"/>
+	<Object Guid="F9B6655F183B476BB8908324F7AF2356" Desc="末日教战士" config="FB_TNDX_MS_04_L2" x="-0.886677" y="21.340651" z="-333.520905" amount="1" RefreshTime="-1" fOrg="-2.365006" IsPersistent="1"/>
+	<Object Guid="F54B364A36204A79BC3F1817373EC56D" Desc="末日教战士" config="FB_TNDX_MS_04_L2" x="-0.441207" y="21.382002" z="-330.621368" amount="1" RefreshTime="-1" fOrg="-2.490001" IsPersistent="1"/>
+	<Object Guid="BD64D389609A4961BC245DC2BA3FE675" Desc="狂热的末日教信徒" config="FB_TNDX_MS_07_L2" x="-3.147401" y="21.361" z="-331.721313" amount="1" RefreshTime="-1" fOrg="-2.340002" IsPersistent="1"/>
+	<Object Guid="00C51D0C524F44CAA03C4D7C85967168" Desc="狂热的末日教信徒" config="FB_TNDX_MS_07_L2" x="-2.990075" y="21.385" z="-329.005524" amount="1" RefreshTime="-1" fOrg="-2.285002" IsPersistent="1"/>
+	<Object Guid="72BCE684A75347CD92F0FB7E10C1179A" Desc="狂热的末日教信徒" config="FB_TNDX_MS_07_L2" x="1.456352" y="21.373001" z="-332.324738" amount="1" RefreshTime="-1" fOrg="-2.298186" IsPersistent="1"/>
+	<Object Guid="C1BDA96EF8BF46D8BB3C0D0E9638EE8E" Desc="狂热的末日教信徒" config="FB_TNDX_MS_07_L2" x="-3.373587" y="21.328001" z="-334.386597" amount="1" RefreshTime="-1" fOrg="-2.495004" IsPersistent="1"/>
+	<Object Guid="2AC41DFBC7714200B28E01105AF493EB" Desc="末日教守护者" config="FB_TNDX_MS_06_L2" x="4.579675" y="21.040001" z="-316.352661" amount="1" RefreshTime="-1" fOrg="-2.863182" IsPersistent="1"/>
+	<Object Guid="5A3475C9160D4D628E5180D9F639B631" Desc="末日教守护者" config="FB_TNDX_MS_06_L2" x="15.637614" y="21.374001" z="-318.611725" amount="1" RefreshTime="-1" fOrg="-2.45318" IsPersistent="1"/>
+	<Object Guid="56F7A819C51D4366964AE1ECB96C83A9" Desc="末日教巡逻哨兵" config="FB_TNDX_MS_05_L2" x="5.430648" y="21.241001" z="-341.847168" IsY="0" Radius="0.1" PatrolMode="1" PathID="FBTN20" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="1"/>
+	<Object Guid="69E34B2CC4704CC4948188A876F8D3D9" Desc="狂热的末日教信徒" config="FB_TNDX_MS_07_L2" x="6.86908" y="21.148001" z="-345.270416" IsY="0" Radius="0.1" PatrolMode="1" PathID="FBTN21" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="1"/>
+	<Object Guid="9B00414C60844B15B906F5AF48B25319" Desc="狂热的末日教信徒" config="FB_TNDX_MS_07_L2" x="8.714929" y="21.178001" z="-343.251678" IsY="0" Radius="0.1" PatrolMode="1" PathID="FBTN22" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="1"/>
+	<Object Guid="622CF7032F954F9F8E2CC94F44D01E87" Desc="偷懒的村民" config="FB_TNDX_MS_34_L2" x="-116.203529" y="10.474809" z="-220.492035" IsY="0" Radius="0.1" PeaceAction="pe_0h_stand2" amount="1" RefreshTime="-1" fOrg="-2.745" IsPersistent="1"/>
+	<Object Guid="F9E0D1C5EE0D4B19B8FA5F2D8969C64D" Desc="偷懒的村民" config="FB_TNDX_MS_34_L2" x="-113.520485" y="10.853417" z="-223.963943" IsY="0" Radius="0.1" PeaceAction="pe_0h_stand2" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="1"/>
+	<Object Guid="B862A8031D4F4068AE01A5014B0AC39C" Desc="偷懒的村民" config="FB_TNDX_MS_34_L2" x="-115.830627" y="10.688246" z="-225.574432" IsY="0" Radius="0.1" PeaceAction="pe_0h_stand2" amount="1" RefreshTime="-1" fOrg="0.840003" IsPersistent="1"/>
+	<Object Guid="2493F9F1E3424E298351640220FDFD8B" Desc="偷懒的村民" config="FB_TNDX_MS_34_L2" x="-105.606735" y="12.292192" z="-228.426926" IsY="0" Radius="0.1" PeaceAction="pe_0h_stand2" amount="1" RefreshTime="-1" fOrg="0.414997" IsPersistent="1"/>
+	<Object Guid="72A40A5F159447BDB8B1B75D694DD0D8" Desc="偷懒的村民" config="FB_TNDX_MS_34_L2" x="-72.563156" y="11.978209" z="-243.559952" IsY="0" Radius="0.1" PeaceAction="pe_0h_stand2" amount="1" RefreshTime="-1" fOrg="0.725" IsPersistent="1"/>
+	<Object Guid="E8CD4DBAF0FC4F9EA6A0BDD0790E6CD7" Desc="偷懒的村民" config="FB_TNDX_MS_34_L2" x="-74.745789" y="12.13873" z="-241.96048" IsY="0" Radius="0.1" PeaceAction="pe_0h_stand2" amount="1" RefreshTime="-1" fOrg="1.175001" IsPersistent="1"/>
+	<Object Guid="EE07BCBCEEE04C0D9D0A43BEAF833936" Desc="FB_TNDX_MS_17" config="FB_TNDX_MS_17_L2" x="57.249207" y="32.695988" z="-187.23436" IsY="0" Radius="0.1" PatrolMode="1" PathID="FBTN24" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="1"/>
+	<Object Guid="CE1A5EA9180E458DB9D275BEC3439D88" Desc="FB_TNDX_MS_17" config="FB_TNDX_MS_17_L2" x="74.188889" y="31.701277" z="-130.810989" IsY="0" Radius="0.1" PatrolMode="1" PathID="FBTN25" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="1"/>
+	<Object Guid="5E8BB9258EFA415582589C6718438AA0" Desc="复仇的地狱恶魔" config="FB_TNDX_MS_12_L2" x="27.735769" y="18.148001" z="-149.200058" IsY="0" Radius="0.1" PatrolMode="1" PathID="FBTN26" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="1"/>
+	<Object Guid="CE2C896FFF6E40F8AC16A1B2802C196C" Desc="复仇的地狱恶魔" config="FB_TNDX_MS_12_L2" x="26.486052" y="17.896" z="-156.670563" IsY="0" Radius="0.1" PatrolMode="1" PathID="FBTN27" amount="1" RefreshTime="-1" fOrg="0"/>
+	<Object Guid="21DBF4BA27CA4403B847063DF8E51E13" Desc="复仇的地狱恶魔" config="FB_TNDX_MS_12_L2" x="29.780573" y="17.248972" z="-170.46283" IsY="0" Radius="0.1" PatrolMode="1" PathID="FBTN28" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="1"/>
+	<Object Guid="E6F8C05728E84E0182B84DEA1FEE075A" Desc="FB_TNDX_MS_90" config="FB_TNDX_MS_90_L2" x="11.664584" y="21.054907" z="-352.341766" IsY="0" Radius="0.1" PatrolMode="0" PatrolRange="50" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="1" NeedRotate="1"/>
+	<Object Guid="A4E5CA59F8484EC5BBFF767889EF1EAC" Desc="FB_TNDX_MS_90" config="FB_TNDX_MS_90_L2" x="3.88313" y="21.077099" z="-349.362396" IsY="0" Radius="0.1" NeedRotate="1" PatrolMode="0" RefreshTime="-1" fOrg="0" amount="1" IsPersistent="1" PatrolRange="50"/>
+	<Object Guid="6343F1217A8D409B9EF7C2D58500166F" Desc="FB_TNDX_MS_90" config="FB_TNDX_MS_90_L2" x="0.088024" y="21.178881" z="-342.965393" IsY="0" Radius="0.1" NeedRotate="1" PatrolMode="0" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="1" PatrolRange="50"/>
+	<Object Guid="188D12B5D8BE4251AD15EC8C6EDA90D7" Desc="FB_TNDX_MS_91" config="FB_TNDX_MS_91_L2" x="58.626797" y="30.452002" z="-151.911636" IsY="0" Radius="0.1" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="1"/>
+	<Object Guid="F0722F5026E3454EA8F6FCF2AD6D557B" Desc="FB_TNDX_MS_91" config="FB_TNDX_MS_91_L2" x="59.591373" y="30.491682" z="-151.484985" IsY="0" Radius="0.1" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="1"/>
+	<Object Guid="399C12EF43CF467184AE2FA71460F8BB" Desc="FB_TNDX_MS_91" config="FB_TNDX_MS_91_L2" x="58.867889" y="30.358002" z="-152.648193" IsY="0" Radius="0.1" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="1"/>
+	<Object Guid="3ED811681406449280A18FB54DF61FBA" Desc="FB_TNDX_MS_91" config="FB_TNDX_MS_91_L2" x="62.147804" y="30.454391" z="-179.692596" IsY="0" Radius="0.1" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="1"/>
+	<Object Guid="49B519623541491AB43E75E82ED2813A" Desc="FB_TNDX_MS_91" config="FB_TNDX_MS_91_L2" x="79.100121" y="31.886141" z="-143.291565" IsY="0" Radius="0.1" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="1"/>
+	<Object Guid="CBF92F0823764F6CB12C31D9DAAE5A89" Desc="FB_TNDX_MS_91" config="FB_TNDX_MS_91_L2" x="78.368347" y="31.790001" z="-143.946579" IsY="0" Radius="0.1" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="1"/>
+	<Object Guid="89E2627A52AE4C82A7FF06A993BAA9D7" config="FB_TNDX_MS_92_L2" x="54.46991" y="22.72452" z="-157.620422" amount="1" fOrg="0" IsPersistent="1"/>
+	<Object Guid="4BB21E69993D423EB95492A8E01C05B4" Desc="FB_TNDX_MS_91" config="FB_TNDX_MS_91_L2" x="68.994675" y="29.686798" z="-128.459213" IsY="0" Radius="0.1" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="1"/>
+	<Object Guid="DAE81FA1406F469BBA4B3787289CA9B6" Desc="FB_TNDX_MS_91" config="FB_TNDX_MS_91_L2" x="43.560886" y="22.199665" z="-184.023087" IsY="0" Radius="0.1" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="1"/>
+	<Object Guid="0F435927C42E4A5DBDBB2FD13672E8FD" Desc="FB_TNDX_MS_91" config="FB_TNDX_MS_91_L2" x="43.182056" y="22.231676" z="-183.890549" IsY="0" Radius="0.1" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="1"/>
+	<Object Guid="7552CB88148F4E26AF14B93738AF659C" Desc="FB_TNDX_MS_91" config="FB_TNDX_MS_91_L2" x="43.563004" y="22.209118" z="-183.711823" IsY="0" Radius="0.1" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="1"/>
+	<Object Guid="5AC018A3306342519A70120909848431" Desc="FB_TNDX_MS_92" config="FB_TNDX_MS_92_L2" x="-71.645073" y="13.399759" z="-246.865234" IsY="0" Radius="0.1" amount="1" fOrg="0" IsPersistent="1"/>
+	<Object Guid="3F4220E6284B4E50A0249109E122552C" Desc="FB_TNDX_MS_92" config="FB_TNDX_MS_92_L2" x="-71.253334" y="12.720818" z="-234.159897" IsY="0" Radius="0.1" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="1"/>
+	<Object Guid="76434C82895246D58F7133470D8D91AE" Desc="FB_TNDX_MS_92" config="FB_TNDX_MS_92_L2" x="-67.233284" y="12.299797" z="-234.516098" IsY="0" Radius="0.1" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="1"/>
+	<Object Guid="A0D49F742859472EB5448A06A777C59F" Desc="FB_TNDX_MS_92" config="FB_TNDX_MS_92_L2" x="-45.718475" y="10.828263" z="-266.91507" IsY="0" Radius="0.1" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="1"/>
+</Stage>
+
+

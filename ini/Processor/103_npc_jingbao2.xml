@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes" ?>
+<Processor>
+    <Base type="object" version="1.0">
+        <Line Type="2" Event="1537" Name="AUTOP2">
+            <Param type="2" data="100" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="-1" Index="2" />
+            <Param type="6" data="aa1" Index="3" />
+            <Param type="6" data="aa2" Index="4" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP1">
+            <Param type="13" srctype="4" data="AUTOP2" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="1" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="6">
+            <Param type="13" bool="true" srctype="1" data="AUTOP1" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP3" />
+        <Line Type="1" Event="5059">
+            <Param type="13" srctype="8" data="AUTOP3" Index="0" />
+            <Param type="2" data="100" Index="1" />
+        </Line>
+        <Line Type="1" Event="5005">
+            <Param type="2" data="0" Index="0" />
+            <Param type="2" data="2" Index="1" />
+            <Param type="6" data="已触发警报，请立即破坏警报器！" Index="2" />
+            <Param type="6" data=" " Index="3" />
+            <Param type="6" data=" " Index="4" />
+            <Param type="6" data=" " Index="5" />
+        </Line>
+        <Line Type="1" Event="5019">
+            <Param type="4" data="-12525.468" Index="0" />
+            <Param type="4" data="104.142" Index="1" />
+            <Param type="4" data="-11988.625" Index="2" />
+            <Param type="6" data="Technology_FB103_1" Index="3" />
+            <Param type="6" data="shuaguai1" Index="4" />
+        </Line>
+        <Line Type="1" Event="5019">
+            <Param type="4" data="-12443.112" Index="0" />
+            <Param type="4" data="101.881" Index="1" />
+            <Param type="4" data="-11881.217" Index="2" />
+            <Param type="6" data="Technology_FB103_2" Index="3" />
+            <Param type="6" data="shuaguai2" Index="4" />
+        </Line>
+        <Line Type="1" Event="5019">
+            <Param type="4" data="-12460.514" Index="0" />
+            <Param type="4" data="101.791" Index="1" />
+            <Param type="4" data="-11973.043" Index="2" />
+            <Param type="6" data="Technology_FB103_3" Index="3" />
+            <Param type="6" data="shuaguai3" Index="4" />
+        </Line>
+    </Base>
+</Processor>

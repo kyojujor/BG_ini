@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--
+	ID:活动ID
+	TaskID:接取的任务ID
+	ActiDegree:完成活动获得活跃度
+	week:表示周几的时间,-1表示每天都可以接去取,1:周1, 2表示周2,3表示周3,4表示周4,5表示周5,6表示周6,0表示周日
+	startime:当天的起始时间
+	endtime:当天的终止时间
+	maxcount:最大可完成次数
+	style:活动类型 0:pve战斗 1:pvp单人 2:pvp团体 3:交互活动 4:收集(赚钱类)
+-->
+<Object>
+	<Property ID="100" TaskID="19001"  ActiDegree ="20" week="-1"  startime="00:00:00" endtime="23:59:59"  maxcount="1"  style="0" needperson="1" />
+	<Property ID="101" TaskID="19002"  ActiDegree ="20" week="-1"  startime="00:00:00" endtime="23:59:59"  maxcount="1"  style="0" needperson="1" />
+	<Property ID="102" TaskID="19003"  ActiDegree ="20" week="-1"  startime="00:00:00" endtime="23:59:59"  maxcount="1"  style="0" needperson="1" />
+	<Property ID="103" TaskID="19004"  ActiDegree ="10" week="-1"  startime="00:00:00" endtime="23:59:59"  maxcount="1"  style="0" needperson="1" />
+	<Property ID="104" TaskID="19005"  ActiDegree ="20" week="-1"  startime="00:00:00" endtime="23:59:59"  maxcount="1"  style="0" needperson="1" />
+	<Property ID="105" TaskID="19006"  ActiDegree ="30" week="-1"  startime="00:00:00" endtime="23:59:59"  maxcount="1"  style="1" needperson="2" />
+	<Property ID="106" TaskID="19007"  ActiDegree ="10" week="-1"  startime="00:00:00" endtime="23:59:59"  maxcount="2"  style="2" needperson="1" />
+	<Property ID="107" TaskID="19008"  ActiDegree ="10" week="-1"  startime="00:00:00" endtime="23:59:59"  maxcount="3"  style="3" needperson="4" />
+	<Property ID="108" TaskID="19009"  ActiDegree ="10" week="-1"  startime="00:00:00" endtime="23:59:59"  maxcount="3"  style="3" needperson="1" />
+	<Property ID="109" TaskID="19010"  ActiDegree ="10" week="-1"  startime="00:00:00" endtime="23:59:59"  maxcount="4"  style="4" needperson="1" />
+</Object>
+
+

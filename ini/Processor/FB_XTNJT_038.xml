@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes" ?>
+<Processor>
+    <Base type="object" version="1.0">
+        <Line Type="2" Event="2001" Name="AUTOP1" />
+        <Line Type="1" Event="4021">
+            <Param type="13" srctype="8" data="AUTOP1" Index="0" />
+            <Param type="2" data="0" Index="1" />
+            <Param type="6" data="talk_special_FB_XTNJT_022_1" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP3" />
+        <Line Type="2" Event="2105" Name="AUTOP2">
+            <Param type="13" srctype="8" data="AUTOP3" Index="0" />
+            <Param type="4" data="30" Index="1" />
+            <Param type="2" data="2" Index="2" />
+            <Param type="1" data="true" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP5" />
+        <Line Type="2" Event="4736" Name="AUTOP4">
+            <Param type="13" srctype="8" data="AUTOP5" Index="0" />
+            <Param type="2" data="0" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP7" />
+        <Line Type="2" Event="4736" Name="AUTOP6">
+            <Param type="13" srctype="8" data="AUTOP7" Index="0" />
+            <Param type="2" data="1" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP9" />
+        <Line Type="2" Event="4736" Name="AUTOP8">
+            <Param type="13" srctype="8" data="AUTOP9" Index="0" />
+            <Param type="2" data="2" Index="1" />
+        </Line>
+        <Line Type="1" Event="4653">
+            <Param type="13" srctype="8" data="AUTOP2" Index="0" />
+            <Param type="6" data="snd\action\TNJT\FB_TNJT_BOSS_02_01.wav" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP4" Index="2" />
+            <Param type="13" srctype="4" data="AUTOP6" Index="3" />
+            <Param type="13" srctype="4" data="AUTOP8" Index="4" />
+            <Param type="2" data="0" Index="5" />
+        </Line>
+    </Base>
+</Processor>

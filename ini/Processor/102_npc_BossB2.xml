@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes" ?>
+<Processor>
+    <Base type="object" version="1.0">
+        <Line Type="2" Event="2001" Name="AUTOP3" />
+        <Line Type="2" Event="1011" Name="AUTOP2">
+            <Param type="13" srctype="8" data="AUTOP3" Index="0" />
+            <Param type="6" data="HP" Index="1" />
+            <Param type="6" data="MaxHP" Index="2" />
+            <Param type="4" data="0.3" Index="3" />
+            <Param type="4" data="0.8" Index="4" />
+            <Param type="2" data="0" Index="5" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP1">
+            <Param type="13" srctype="4" data="AUTOP2" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="1" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="22">
+            <Param type="13" bool="true" srctype="1" data="AUTOP1" Index="0" />
+        </Line>
+        <Line Type="2" Event="1537" Name="AUTOP5">
+            <Param type="2" data="100" Index="0" />
+            <Param type="2" data="-1" Index="1" />
+            <Param type="4" data="3" Index="2" />
+            <Param type="6" data="a1" Index="3" />
+            <Param type="6" data="a2" Index="4" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP4">
+            <Param type="13" srctype="4" data="AUTOP5" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="1" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="8">
+            <Param type="13" bool="true" srctype="1" data="AUTOP4" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP8" />
+        <Line Type="2" Event="4621" Name="AUTOP7">
+            <Param type="13" srctype="8" data="AUTOP8" Index="0" />
+            <Param type="4" data="3" Index="1" />
+            <Param type="2" data="0" Index="2" />
+            <Param type="2" data="4" Index="3" />
+            <Param type="2" data="1" Index="4" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP6">
+            <Param type="13" srctype="4" data="AUTOP7" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="1" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="3">
+            <Param type="13" bool="true" srctype="1" data="AUTOP6" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP9" />
+        <Line Type="1" Event="6105">
+            <Param type="13" srctype="8" data="AUTOP9" Index="0" />
+            <Param type="6" data="FB_YHDX_boss_0026_03" Index="1" />
+            <Param type="2" data="1" Index="2" />
+            <Param type="2" data="98" Index="3" />
+        </Line>
+        <Line Type="1" Event="4528">
+            <Param type="6" data="anyingbo" Index="0" />
+        </Line>
+        <Line Type="7" IncludeLines="0" />
+        <Line Type="7" IncludeLines="0" />
+        <Line Type="2" Event="1537" Name="AUTOP11">
+            <Param type="2" data="100" Index="0" />
+            <Param type="2" data="-1" Index="1" />
+            <Param type="4" data="5" Index="2" />
+            <Param type="6" data="a3" Index="3" />
+            <Param type="6" data="a4" Index="4" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP10">
+            <Param type="13" srctype="4" data="AUTOP11" Index="0" />
+            <Param type="2" data="等于" Index="1" />
+            <Param type="4" data="1" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="6">
+            <Param type="13" bool="true" srctype="1" data="AUTOP10" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP12" />
+        <Line Type="2" Event="2001" Name="AUTOP15" />
+        <Line Type="2" Event="3535" Name="AUTOP14">
+            <Param type="13" srctype="8" data="AUTOP15" Index="0" />
+            <Param type="4" data="15" Index="1" />
+            <Param type="2" data="0" Index="2" />
+            <Param type="2" data="0" Index="3" />
+        </Line>
+        <Line Type="2" Event="4731" Name="AUTOP13">
+            <Param type="13" srctype="8" data="AUTOP14" Index="0" />
+        </Line>
+        <Line Type="1" Event="6106">
+            <Param type="13" srctype="8" data="AUTOP12" Index="0" />
+            <Param type="6" data="FB_YHDX_0017" Index="1" />
+            <Param type="2" data="1" Index="2" />
+            <Param type="2" data="99" Index="3" />
+            <Param type="13" srctype="6" data="AUTOP13" Index="4" />
+        </Line>
+        <Line Type="1" Event="4528">
+            <Param type="6" data="heishui" Index="0" />
+        </Line>
+        <Line Type="7" IncludeLines="0" />
+        <Line Type="7" IncludeLines="0" />
+        <Line Type="2" Event="2001" Name="AUTOP18" />
+        <Line Type="2" Event="1011" Name="AUTOP17">
+            <Param type="13" srctype="8" data="AUTOP18" Index="0" />
+            <Param type="6" data="HP" Index="1" />
+            <Param type="6" data="MaxHP" Index="2" />
+            <Param type="4" data="0.01" Index="3" />
+            <Param type="4" data="0.3" Index="4" />
+            <Param type="2" data="0" Index="5" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP16">
+            <Param type="13" srctype="4" data="AUTOP17" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="1" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="34">
+            <Param type="13" bool="true" srctype="1" data="AUTOP16" Index="0" />
+        </Line>
+        <Line Type="2" Event="1537" Name="AUTOP20">
+            <Param type="2" data="100" Index="0" />
+            <Param type="2" data="-1" Index="1" />
+            <Param type="4" data="10" Index="2" />
+            <Param type="6" data="a5" Index="3" />
+            <Param type="6" data="a6" Index="4" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP19">
+            <Param type="13" srctype="4" data="AUTOP20" Index="0" />
+            <Param type="2" data="等于" Index="1" />
+            <Param type="4" data="1" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="8">
+            <Param type="13" bool="true" srctype="1" data="AUTOP19" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP23" />
+        <Line Type="2" Event="4621" Name="AUTOP22">
+            <Param type="13" srctype="8" data="AUTOP23" Index="0" />
+            <Param type="4" data="3" Index="1" />
+            <Param type="2" data="0" Index="2" />
+            <Param type="2" data="4" Index="3" />
+            <Param type="2" data="1" Index="4" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP21">
+            <Param type="13" srctype="4" data="AUTOP22" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="1" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="3">
+            <Param type="13" bool="true" srctype="1" data="AUTOP21" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP24" />
+        <Line Type="1" Event="6105">
+            <Param type="13" srctype="8" data="AUTOP24" Index="0" />
+            <Param type="6" data="FB_YHDX_boss_0026_03" Index="1" />
+            <Param type="2" data="1" Index="2" />
+            <Param type="2" data="98" Index="3" />
+        </Line>
+        <Line Type="1" Event="4528">
+            <Param type="6" data="anyingbo" Index="0" />
+        </Line>
+        <Line Type="7" IncludeLines="0" />
+        <Line Type="7" IncludeLines="0" />
+        <Line Type="2" Event="1537" Name="AUTOP26">
+            <Param type="2" data="100" Index="0" />
+            <Param type="2" data="-1" Index="1" />
+            <Param type="4" data="5" Index="2" />
+            <Param type="6" data="a7" Index="3" />
+            <Param type="6" data="a8" Index="4" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP25">
+            <Param type="13" srctype="4" data="AUTOP26" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="1" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="10">
+            <Param type="13" bool="true" srctype="1" data="AUTOP25" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP27" />
+        <Line Type="2" Event="2001" Name="AUTOP30" />
+        <Line Type="2" Event="3535" Name="AUTOP29">
+            <Param type="13" srctype="8" data="AUTOP30" Index="0" />
+            <Param type="4" data="15" Index="1" />
+            <Param type="2" data="0" Index="2" />
+            <Param type="2" data="0" Index="3" />
+        </Line>
+        <Line Type="2" Event="4731" Name="AUTOP28">
+            <Param type="13" srctype="8" data="AUTOP29" Index="0" />
+        </Line>
+        <Line Type="1" Event="6106">
+            <Param type="13" srctype="8" data="AUTOP27" Index="0" />
+            <Param type="6" data="FB_YHDX_boss_0026_02" Index="1" />
+            <Param type="2" data="1" Index="2" />
+            <Param type="2" data="99" Index="3" />
+            <Param type="13" srctype="6" data="AUTOP28" Index="4" />
+        </Line>
+        <Line Type="1" Event="4528">
+            <Param type="6" data="heishui" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP31" />
+        <Line Type="2" Event="2001" Name="AUTOP33" />
+        <Line Type="2" Event="3535" Name="AUTOP32">
+            <Param type="13" srctype="8" data="AUTOP33" Index="0" />
+            <Param type="4" data="15" Index="1" />
+            <Param type="2" data="0" Index="2" />
+            <Param type="2" data="0" Index="3" />
+        </Line>
+        <Line Type="1" Event="6110">
+            <Param type="13" srctype="8" data="AUTOP31" Index="0" />
+            <Param type="6" data="FB_YHDX_boss_0026_02" Index="1" />
+            <Param type="2" data="1" Index="2" />
+            <Param type="2" data="99" Index="3" />
+            <Param type="13" srctype="8" data="AUTOP32" Index="4" />
+        </Line>
+        <Line Type="7" IncludeLines="0" />
+        <Line Type="2" Event="1537" Name="AUTOP35">
+            <Param type="2" data="100" Index="0" />
+            <Param type="2" data="-1" Index="1" />
+            <Param type="4" data="10" Index="2" />
+            <Param type="6" data="a9" Index="3" />
+            <Param type="6" data="a10" Index="4" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP34">
+            <Param type="13" srctype="4" data="AUTOP35" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="1" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="4">
+            <Param type="13" bool="true" srctype="1" data="AUTOP34" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP36" />
+        <Line Type="2" Event="2001" Name="AUTOP37" />
+        <Line Type="1" Event="6110">
+            <Param type="13" srctype="8" data="AUTOP36" Index="0" />
+            <Param type="6" data="FB_YHDX_boss_0026_04" Index="1" />
+            <Param type="2" data="1" Index="2" />
+            <Param type="2" data="99" Index="3" />
+            <Param type="13" srctype="8" data="AUTOP37" Index="4" />
+        </Line>
+        <Line Type="1" Event="4528">
+            <Param type="6" data="anyingshouhu" Index="0" />
+        </Line>
+        <Line Type="7" IncludeLines="0" />
+        <Line Type="7" IncludeLines="0" />
+        <Line Type="2" Event="2001" Name="AUTOP38" />
+        <Line Type="2" Event="2001" Name="AUTOP40" />
+        <Line Type="2" Event="3535" Name="AUTOP39">
+            <Param type="13" srctype="8" data="AUTOP40" Index="0" />
+            <Param type="4" data="10" Index="1" />
+            <Param type="2" data="0" Index="2" />
+            <Param type="2" data="0" Index="3" />
+        </Line>
+        <Line Type="1" Event="6110">
+            <Param type="13" srctype="8" data="AUTOP38" Index="0" />
+            <Param type="6" data="FB_YHDX_ptnpc_0051" Index="1" />
+            <Param type="2" data="1" Index="2" />
+            <Param type="2" data="99" Index="3" />
+            <Param type="13" srctype="8" data="AUTOP39" Index="4" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP41" />
+        <Line Type="2" Event="2001" Name="AUTOP43" />
+        <Line Type="2" Event="3535" Name="AUTOP42">
+            <Param type="13" srctype="8" data="AUTOP43" Index="0" />
+            <Param type="4" data="10" Index="1" />
+            <Param type="2" data="0" Index="2" />
+            <Param type="2" data="0" Index="3" />
+        </Line>
+        <Line Type="1" Event="6110">
+            <Param type="13" srctype="8" data="AUTOP41" Index="0" />
+            <Param type="6" data="FB_YHDX_boss_0026_01" Index="1" />
+            <Param type="2" data="1" Index="2" />
+            <Param type="2" data="99" Index="3" />
+            <Param type="13" srctype="8" data="AUTOP42" Index="4" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP44" />
+        <Line Type="2" Event="2001" Name="AUTOP46" />
+        <Line Type="2" Event="3535" Name="AUTOP45">
+            <Param type="13" srctype="8" data="AUTOP46" Index="0" />
+            <Param type="4" data="10" Index="1" />
+            <Param type="2" data="0" Index="2" />
+            <Param type="2" data="0" Index="3" />
+        </Line>
+        <Line Type="1" Event="6110">
+            <Param type="13" srctype="8" data="AUTOP44" Index="0" />
+            <Param type="6" data="FB_YHDX_boss_0026_02" Index="1" />
+            <Param type="2" data="1" Index="2" />
+            <Param type="2" data="99" Index="3" />
+            <Param type="13" srctype="8" data="AUTOP45" Index="4" />
+        </Line>
+    </Base>
+</Processor>

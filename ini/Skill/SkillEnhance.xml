@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='gb2312' ?>
+<Object>
+  <Property ID = "1" Description = "ins_prop_1" EffectSkill = "test030" EffectType = "1" CalType = "0" Value = "2" EffectBuffer="Buff_Status001_01"/><!--效果加深，buffer时间加长-->
+  <Property ID = "2" Description = "ins_prop_2" EffectSkill = "test030" EffectType = "2" CalType = "0" Value = "2" EffectBufferIndex="1"/><!--效果加深，buffer时间加长，对应109效果-->
+  <Property ID = "3" Description = "ins_prop_3" EffectSkill = "test030" EffectType = "3" CalType = "0" Value = "20"/><!--伤害增加-->
+  <Property ID = "4" Description = "ins_prop_4" EffectSkill = "test030" EffectType = "4" CalType = "0" Value = "-2"/><!--cd时间减少-->
+  <Property ID = "5" Description = "ins_prop_5" EffectSkill = "test030" EffectType = "5" CalType = "1" Value = "-0.2" ConsumeType="MP"/><!--消耗减少-->
+  <Property ID = "6" Description = "ins_prop_6" EffectSkill = "test030" EffectType = "6" CalType = "0" Value = "-2"/><!--引导时间增加-->
+  <Property ID = "7" Description = "ins_prop_7" EffectSkill = "test030" EffectType = "7" CalType = "0" Value = "" Range1 = "5" Range2 = "5" Range3="5"/><!--技能范围增加-->
+  <Property ID = "8" Description = "ins_prop_8" EffectSkill = "test030" EffectType = "8" CalType = "0" Value = "5" /><!--技能影响人数增加-->
+</Object>

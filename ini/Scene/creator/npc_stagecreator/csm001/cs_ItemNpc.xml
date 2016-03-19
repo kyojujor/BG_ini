@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Stage>
+	<Object Guid="5AD064BB332A448EB172C67AE724E0D3" Desc="手动恢复控制器" config="Organ_Npc_0007" x="2376.044189" y="19.83531" z="-634.059631" IsY="0" Radius="0.1" amount="1" RefreshTime="1" fOrg="0" IsPersistent="0">
+		<OrganData IsOrgan="1" Controllers="" IniState="0" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="1" ResponseMode=""/>
+		<OrganStateMapping State="0" Action="stand" SkillID="" NoCollide=""/>
+		<OrganStateMapping State="1" Action="run" SkillID="" NoCollide=""/>
+	</Object>
+	<Object Guid="22A4AA4B54EF4CF1B796FE944A7212B8" Desc="手动恢复控制器" config="Organ_Npc_0007" x="2379.735352" y="19.163616" z="-634.352966" IsY="0" Radius="0.1" amount="1" RefreshTime="1" fOrg="3.138182" IsPersistent="0">
+		<OrganData IsOrgan="1" Controllers="" IniState="0" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="1" ResponseMode=""/>
+		<OrganStateMapping State="0" Action="stand" SkillID="" NoCollide=""/>
+		<OrganStateMapping State="1" Action="run" SkillID="" NoCollide=""/>
+	</Object>
+	<Object Guid="E9078F5F1C004BAFA31313774CD66A14" Desc="木桩" config="Ceshi_zl_002" x="2360.066895" y="22.379358" z="-638.567078" amount="1" sx="2" sy="2" sz="2" fOrg="0" IsPersistent="1">
+		<Event EventId="50" Processor="300cishi"/>
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="717CBDD011404C3099E5F952A5E0C325" Desc="余辉洞穴" config="CloneDoor_yuhuidongxue_0001" x="2362.804688" y="20.033607" z="-614.368896" amount="1" fOrg="0.04" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="60630301BE464B4AAF0FE870750E8DF4" Desc="鲁尔勒地下干线" config="CloneDoor_luerle_0001" x="2355.86084" y="20.479462" z="-612.696716" amount="1" fOrg="0.075" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="41FCFAC9F38746EEBA14470EDE86052D" Desc="散落的零件" config="Giving_test300_0002" x="1852.302979" y="10.0001" z="-245.467468" IsY="0.1" Radius="0" amount="1" RefreshMode="1" RefreshTime="30" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="080A7C250BAB49F0963F8E393891BC36" Desc="散落的零件" config="Giving_test300_0002" x="1854.282227" y="10.0001" z="-255.492065" IsY="0.1" Radius="0" amount="1" RefreshMode="1" RefreshTime="30" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="BAB3028781684CA4809DD3C944AB3235" Desc="散落的零件" config="Giving_test300_0002" x="1872.899658" y="10.0001" z="-256.194611" IsY="0.1" Radius="0" amount="1" RefreshMode="1" RefreshTime="30" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="509BD558632442418E41323A83533861" Desc="散落的零件" config="Giving_test300_0002" x="1878.292603" y="10.0001" z="-277.581604" IsY="0.1" Radius="0" amount="1" RefreshMode="1" RefreshTime="30" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="7B3E4AF7970641F19081B7A287D51148" Desc="散落的零件" config="Giving_test300_0002" x="1908.242432" y="10.0001" z="-234.926682" IsY="0.1" Radius="0" amount="1" RefreshMode="1" RefreshTime="30" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="FACF52BEB38643E09AD340D932733C3D" Desc="散落的零件" config="Giving_test300_0002" x="1943.187012" y="10.0001" z="-232.172485" IsY="0.1" Radius="0" amount="1" RefreshMode="1" RefreshTime="30" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="D2666EB0F34345A895719142A82BD3FD" Desc="散落的零件" config="Giving_test300_0002" x="1937.99292" y="10.0001" z="-209.406357" IsY="0.1" Radius="0" amount="1" RefreshMode="1" RefreshTime="30" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="D8489BA3941444FDA1FB097B42BAA9CB" Desc="散落的零件" config="Giving_test300_0002" x="1982.633301" y="10.0001" z="-242.744507" IsY="0.1" Radius="0" amount="1" RefreshMode="1" RefreshTime="30" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="5B8D587A829F4B12B00409AF28E8BE1F" Desc="散落的零件" config="Giving_test300_0002" x="1963.02832" y="10.0001" z="-265.779205" IsY="0.1" Radius="0" amount="1" RefreshMode="1" RefreshTime="30" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="086EE6B905AA4525BA224E74E04B6AFA" Desc="散落的零件" config="Giving_test300_0002" x="1954.44165" y="10.0001" z="-300.061279" IsY="0.1" Radius="0" amount="1" RefreshMode="1" RefreshTime="30" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="D293C99DB1B043E6BC17E57966A780BA" Desc="散落的零件" config="Giving_test300_0002" x="1935.646729" y="10.0001" z="-353.027222" IsY="0.1" Radius="0" amount="1" RefreshMode="1" RefreshTime="30" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="0F348210A85F4CB490996589EDBA6860" Desc="散落的零件" config="Giving_test300_0002" x="1895.252319" y="10.0001" z="-345.869232" IsY="0.1" Radius="0" amount="1" RefreshMode="1" RefreshTime="30" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="51FA4AEACBD64E7AA6DD0B3F381E08FA" Desc="散落的零件" config="Giving_test300_0002" x="1851.932251" y="10.0001" z="-333.524017" IsY="0.1" Radius="0" amount="1" RefreshMode="1" RefreshTime="30" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="067320E8FCC94EFEBE7901254FB26D74" Desc="魔运草" config="Giving_test300_0001" x="2781.675293" y="10.0001" z="-889.259827" IsY="0.1" Radius="0" amount="1" RefreshMode="1" RefreshTime="30" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="EF0B30A931C340C0B2B72D1DA97DBCC7" Desc="魔运草" config="Giving_test300_0001" x="2775.884521" y="10.0001" z="-873.577148" IsY="0.1" Radius="0" amount="1" RefreshMode="1" RefreshTime="30" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="F422D9FD6FD24CE08ED95136C672EFB7" Desc="魔运草" config="Giving_test300_0001" x="2771.626465" y="10.0001" z="-855.771423" IsY="0.1" Radius="0" amount="1" RefreshMode="1" RefreshTime="30" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="2F8D85A125294AA1A4B96CD2E1F49149" Desc="魔运草" config="Giving_test300_0001" x="2770.681885" y="10.0001" z="-889.962463" IsY="0.1" Radius="0" amount="1" RefreshMode="1" RefreshTime="30" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="383414B641D94B1A9CBE540777922E69" Desc="魔运草" config="Giving_test300_0001" x="2747.023926" y="10.0001" z="-897.522827" IsY="0.1" Radius="0" amount="1" RefreshMode="1" RefreshTime="30" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="98CB4902E0C24A388D44D8423DCA5DF0" Desc="魔运草" config="Giving_test300_0001" x="2720.09375" y="10.0001" z="-888.396362" IsY="0.1" Radius="0" amount="1" RefreshMode="1" RefreshTime="30" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="A2254E89319C416F86F71ACF2C5414E0" Desc="魔运草" config="Giving_test300_0001" x="2710.739502" y="10.0001" z="-902.536255" IsY="0.1" Radius="0" amount="1" RefreshMode="1" RefreshTime="30" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="B9E8E8C9FA3549188D4C1075F29444A4" Desc="魔运草" config="Giving_test300_0001" x="2695.196289" y="10.0001" z="-882.925171" IsY="0.1" Radius="0" amount="1" RefreshMode="1" RefreshTime="30" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="9E19BCF59E0C46E0B31A49016CF94CAD" Desc="魔运草" config="Giving_test300_0001" x="2697.883301" y="10.0001" z="-854.4953" IsY="0.1" Radius="0" amount="1" RefreshMode="1" RefreshTime="30" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="594856D08BFD42789B5C11C27EA969A2" Desc="魔运草" config="Giving_test300_0001" x="2679.612305" y="10.0001" z="-859.42804" IsY="0.1" Radius="0" amount="1" RefreshMode="1" RefreshTime="30" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="C23A4A1ABDAE4AA1A3C00023E711A368" Desc="魔运草" config="Giving_test300_0001" x="2694.59668" y="10.0001" z="-837.390991" IsY="0.1" Radius="0" amount="1" RefreshMode="1" RefreshTime="30" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="7ADB6B1895B74024B583AFC94F6C6C2A" Desc="魔运草" config="Giving_test300_0001" x="2711.244629" y="9.955745" z="-816.074402" IsY="0.1" Radius="0" amount="1" RefreshMode="1" RefreshTime="30" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="326E81B01A99445184D9F8460341B046" Desc="魔运草" config="Giving_test300_0001" x="2728.72876" y="8.886046" z="-788.584045" IsY="0.1" Radius="0" amount="1" RefreshMode="1" RefreshTime="30" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="8571F17B73F04546BB6C3FB6BE53A53C" Desc="魔运草" config="Giving_test300_0001" x="2735.851318" y="9.829167" z="-769.617554" IsY="0.1" Radius="0" amount="1" RefreshMode="1" RefreshTime="30" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="3AACAAC8DD5143AB815D3C87A54F870E" Desc="魔运草" config="Giving_test300_0001" x="2754.478027" y="10.0001" z="-766.577271" IsY="0.1" Radius="0" amount="1" RefreshMode="1" RefreshTime="30" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="1344F4C3721D495485F23A29D14E6B4E" Desc="魔运草" config="Giving_test300_0001" x="2764.217529" y="10.0001" z="-851.744019" IsY="0.1" Radius="0" amount="1" RefreshMode="1" RefreshTime="30" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="21FA86C31ADD43F9AD8FFE5C4C9A6E6B" Desc="魔运草" config="Giving_test300_0001" x="2760.266846" y="10.0001" z="-819.848938" IsY="0.1" Radius="0" amount="1" RefreshMode="1" RefreshTime="30" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="F21DCD509F354C78B025EA6324AB6B12" Desc="魔运草" config="Giving_test300_0001" x="2758.732422" y="10.0001" z="-798.792542" IsY="0.1" Radius="0" amount="1" RefreshMode="1" RefreshTime="30" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="3C3331D0296847CEBB1D1C0A62BE5C27" Desc="魔运草" config="Giving_test300_0001" x="2743.748535" y="10.0001" z="-802.901184" IsY="0.1" Radius="0" amount="1" RefreshMode="1" RefreshTime="30" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="1ECFA91774B54DE6A35EE9A09B7FF142" Desc="魔运草" config="Giving_test300_0001" x="2707.534912" y="8.464088" z="-808.088684" IsY="0.1" Radius="0" amount="1" RefreshMode="1" RefreshTime="30" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="63142C95412844A9A3D67306582B0990" Desc="魔运草" config="Giving_test300_0001" x="2651.074951" y="9.969571" z="-855.784302" IsY="0.1" Radius="0" amount="1" RefreshMode="1" RefreshTime="30" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="20C5772798064DA6B37FF4B596A0161B" Desc="魔运草" config="Giving_test300_0001" x="2676.570801" y="10.0001" z="-852.62854" IsY="0.1" Radius="0" amount="1" RefreshMode="1" RefreshTime="30" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="D8DA6C682E6D48B4BE0B7D452BDFAB35" Desc="魔运草" config="Giving_test300_0001" x="2652.084229" y="10.0001" z="-886.120056" IsY="0.1" Radius="0" amount="1" RefreshMode="1" RefreshTime="30" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="A70927C6065A49AD9DC15B56EF2A66D6" Desc="魔运草" config="Giving_test300_0001" x="2668.733154" y="10.0001" z="-923.32074" IsY="0.1" Radius="0" amount="1" RefreshMode="1" RefreshTime="30" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="2E6189F0D09C49EB87D4BB544E0B72B3" Desc="魔运草" config="Giving_test300_0001" x="2697.01001" y="10.0001" z="-920.857727" IsY="0.1" Radius="0" amount="1" RefreshMode="1" RefreshTime="30" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="0DCE9D6F9FEA4CBFB18420507AA8F237" Desc="魔运草" config="Giving_test300_0001" x="2716.61499" y="10.0001" z="-954.187012" IsY="0.1" Radius="0" amount="1" RefreshMode="1" RefreshTime="30" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="303FE4222C3448A6BB6D8208C55A405D" Desc="魔运草" config="Giving_test300_0001" x="2724.349609" y="10.0001" z="-941.397217" IsY="0.1" Radius="0" amount="1" RefreshMode="1" RefreshTime="30" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="C0E8FF6E8F8F45A0B6F0A79F4B229B4D" Desc="魔运草" config="Giving_test300_0001" x="2739.366211" y="10.0001" z="-948.345032" IsY="0.1" Radius="0" amount="1" RefreshMode="1" RefreshTime="30" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="0C40DCEDC8ED49BEA2D19B3F8B633838" Desc="魔运草" config="Giving_test300_0001" x="2750.515625" y="10.0001" z="-915.491211" IsY="0.1" Radius="0" amount="1" RefreshMode="1" RefreshTime="30" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="4E0D3512AD0B47B79E005708EC3B6CAE" Desc="魔运草" config="Giving_test300_0001" x="2790.41626" y="10.0001" z="-947.975708" IsY="0.1" Radius="0" amount="1" RefreshMode="1" RefreshTime="30" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="420870C6EED94EA3B217E32B52B6E580" Desc="渔人快船" config="qh001" x="1644.497925" y="4.999" z="-708.887451" NeedRotate="1" PatrolMode="1" PathID="road-300-1" amount="1" fOrg="1.525006" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+</Stage>
+
+

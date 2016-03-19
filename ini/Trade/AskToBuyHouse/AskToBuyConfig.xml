@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 求购行配置 -->
+<!-- BillLimit        个人求购单限量      int     -->
+<!-- BillFeeCoe       求购手续费系数      float   -->
+<!-- MinBillFee       最低手续费          int64   -->
+<!-- TransactFeeCoe   佣金系数            float   -->
+<!-- MinTransactFee   最低佣金            int64   -->
+<!-- KeepTime         挂单保管时间(小时)  int     -->
+<!-- BillNumPerPage   一页显示求购单数    int     -->
+
+<Object>
+  <Property ID="0" BillLimit="10" BillFeeCoe="0.01" MinBillFee="1" TransactFeeCoe="0.15" MinTransactFee="1" KeepTime="12" BillNumPerPage="20"/>
+</Object>

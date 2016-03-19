@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes" ?>
+<Processor>
+    <Base type="object" version="1.0">
+        <Line Type="2" Event="2114" Name="AUTOP1">
+            <Param type="6" data="FB_yuanguzhimen_0025" Index="0" />
+        </Line>
+        <Line Type="1" Event="4509">
+            <Param type="13" srctype="8" data="AUTOP1" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP2" />
+        <Line Type="1" Event="4885">
+            <Param type="13" srctype="8" data="AUTOP2" Index="0" />
+            <Param type="4" data="5" Index="1" />
+        </Line>
+        <Line Type="2" Event="2114" Name="AUTOP3">
+            <Param type="6" data="Organ_yuanguzhimen_0009" Index="0" />
+        </Line>
+        <Line Type="1" Event="4519">
+            <Param type="13" srctype="8" data="AUTOP3" Index="0" />
+            <Param type="6" data="action_open" Index="1" />
+        </Line>
+        <Line Type="1" Event="5005">
+            <Param type="2" data="0" Index="0" />
+            <Param type="2" data="2" Index="1" />
+            <Param type="6" data="talk_special_FB_YGZM_34_1" Index="2" />
+            <Param type="6" data=" " Index="3" />
+            <Param type="6" data=" " Index="4" />
+            <Param type="6" data=" " Index="5" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-5774.211,50.087,5018.484,-3.106" Index="0" />
+            <Param type="6" data="FB_yuanguzhimen_0021" Index="1" />
+            <Param type="6" data="Act" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP4" />
+        <Line Type="1" Event="5004">
+            <Param type="13" srctype="8" data="AUTOP4" Index="0" />
+            <Param type="6" data="door_01.wav" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-5777.617,50.087,5014.580,-3.120" Index="0" />
+            <Param type="6" data="FB_yuanguzhimen_0015" Index="1" />
+            <Param type="6" data="Act" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-5774.373,50.087,5014.512,-3.122" Index="0" />
+            <Param type="6" data="FB_yuanguzhimen_0023" Index="1" />
+            <Param type="6" data="Act" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-5770.555,50.087,5015.412,2.913" Index="0" />
+            <Param type="6" data="FB_yuanguzhimen_0015" Index="1" />
+            <Param type="6" data="Act" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-5775.751,51.148,5120.459,3.071" Index="0" />
+            <Param type="6" data="FB_yuanguzhimen_0017_01" Index="1" />
+            <Param type="6" data="Act" Index="2" />
+        </Line>
+    </Base>
+</Processor>

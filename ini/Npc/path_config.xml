@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSpy v2010 (http://www.altova.com) by MESMERiZE (MiZE) -->
+<Object>
+	<Property ID="1" Type="CommonNpc" Path="NpcConfig/CommonNpc/common_npc.xml"/>
+	<Property ID="2" Type="CommonNpc" Path="NpcConfig/CommonNpc/common_npc_1.xml"/>
+	<Property ID="3" Type="CommonNpc" Path="NpcConfig/CommonNpc/common_npc_2.xml"/>
+	<Property ID="4" Type="CommonNpc" Path="NpcConfig/CommonNpc/common_npc_3.xml"/>
+	<Property ID="5" Type="CommonNpc" Path="NpcConfig/CommonNpc/common_npc_pvp.xml"/>
+	<Property ID="6" Type="CommonNpc" Path="NpcConfig/CommonNpc/common_npc_fb.xml"/>
+	<Property ID="7" Type="AttackNpc" Path="NpcConfig/AttackNpc/attack_npc.xml"/>
+	<Property ID="8" Type="AttackNpc" Path="NpcConfig/AttackNpc/attack_npc_1.xml"/>
+	<Property ID="9" Type="AttackNpc" Path="NpcConfig/AttackNpc/attack_npc_2.xml"/>
+	<Property ID="10" Type="AttackNpc" Path="NpcConfig/AttackNpc/attack_npc_3.xml"/>
+	<Property ID="11" Type="AttackNpc" Path="NpcConfig/AttackNpc/attack_npc_pvp.xml"/>
+	<Property ID="12" Type="AttackNpc" Path="NpcConfig/AttackNpc/event_npc.xml"/>
+	<Property ID="13" Type="AttackNpc" Path="NpcConfig/AttackNpc/convoy_npc.xml"/>
+	<Property ID="14" Type="AttackNpc" Path="NpcConfig/AttackNpc/summon_npc.xml"/>
+	<Property ID="15" Type="AttackNpc" Path="NpcConfig/AttackNpc/FB_Npc.xml"/>
+	<Property ID="16" Type="AttackNpc" Path="NpcConfig/AttackNpc/formation_npc.xml"/>
+	<Property ID="17" Type="BattleCarrier" Path="NpcConfig/Carrier/battle_carrier_npc.xml"/>
+	<Property ID="18" Type="BattleCarrier" Path="NpcConfig/Carrier/battle_carrier_npc_pvp.xml"/>
+	<Property ID="19" Type="live_npc" Path="NpcConfig/LiveNpc/banner_npc.xml"/>
+	<Property ID="20" Type="live_npc" Path="NpcConfig/LiveNpc/castle_npc.xml"/>
+	<Property ID="21" Type="live_npc" Path="NpcConfig/LiveNpc/clonedoor_npc.xml"/>
+	<Property ID="22" Type="live_npc" Path="NpcConfig/LiveNpc/FlyNpc.xml"/>
+	<Property ID="23" Type="live_npc" Path="NpcConfig/LiveNpc/giving_npc.xml"/>
+	<Property ID="24" Type="live_npc" Path="NpcConfig/LiveNpc/mail_npc.xml"/>
+	<Property ID="25" Type="live_npc" Path="NpcConfig/LiveNpc/postman_npc.xml"/>
+	<Property ID="26" Type="live_npc" Path="NpcConfig/LiveNpc/roadsign_npc.xml"/>
+	<Property ID="27" Type="live_npc" Path="NpcConfig/LiveNpc/skill_npc.xml"/>
+	<Property ID="28" Type="live_npc" Path="NpcConfig/LiveNpc/technology_npc.xml"/>
+	<Property ID="29" Type="live_npc" Path="NpcConfig/LiveNpc/organ_npc.xml"/>
+	<Property ID="30" Type="Pet" Path="NpcConfig/PetNpc/npc_pet.xml"/>
+	<Property ID="31" Type="MultiSkillNpc" Path="NpcConfig/multiskill_npc.xml"/>
+	<Property ID="32" Type="SkillEffectNpc" Path="NpcConfig/npc_skilleffect.xml"/>
+	<Property ID="33" Type="AreaNpc" Path="NpcConfig/npc_area.xml"/>
+</Object>

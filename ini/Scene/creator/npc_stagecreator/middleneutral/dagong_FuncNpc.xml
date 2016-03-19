@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Stage>
+	<Object Guid="6CCB064F57B3496683A643C0E422FF0B" Desc="罗斯福" config="npc_zlm012_0004" x="-139.508" y="275.180" z="3851.688" amount="1" fOrg="-2.183" IsPersistent="0"/>
+	<Object Guid="E0277AF9B35242959CD3925BB873613F" Desc="拉奥" config="npc_zlm012_0005" x="-118.847" y="267.847" z="3822.187" amount="1" fOrg="-1.880" IsPersistent="0"/>
+	<Object Guid="FA20A5CF9A3541CBA5635817E9BCFCBB" Desc="格兰" config="npc_zlm012_0006" x="394.100" y="168.813736" z="3797.492" amount="1" fOrg="1.125" IsPersistent="0"/>
+	<Object Guid="18F87D94A1914FE59D17DE4650B3CBD5" Desc="斯瑞文" config="npc_zlm012_0007" x="388.726" y="168.833374" z="3862.114" amount="1" fOrg="2.865" IsPersistent="0"/>
+	<Object Guid="6B88DF1C63DC4B20B6E8B3F141C86D6F" Desc="博尔赫" config="npc_zlm012_0008" x="843.769" y="65.336" z="3593.628" amount="1" fOrg="2.855" IsPersistent="0"/>
+	<Object Guid="1288DE3C63DC6DE0B6E8B3F732C87B8F" Desc="里斯" config="npc_zlm012_0009" x="783.481" y="65.115" z="3529.954" amount="1" fOrg="1.298" IsPersistent="0"/>
+	<Object Guid="EC8BDE2D4DDB6DEAB6E5B3FA33C57B6E" Desc="幽灵" config="npc_zlm012_0010" x="970.714" y="22.151" z="3032.530" amount="1" fOrg="-0.857" IsPersistent="0"/>
+	<Object Guid="8DE3DE8DF1CB6E8B3FE5B4FE59CE176E" Desc="暗影" config="npc_zlm012_0011" x="972.221" y="22.281" z="3029.696" amount="1" fOrg="-2.266" IsPersistent="0"/>
+	<Object Guid="EDB5DA8DF2BCEE8B3FE5B4FE59CE158F" Desc="安娜" config="npc_zlm012_0012" x="1686.071" y="105.941" z="3768.553" amount="1" fOrg="3.026" IsPersistent="0"/>
+	<Object Guid="6DB5DA8DF2BDEE8BA8E5E5FE59CE158F" Desc="南关安娜" config="npc_zlm012_0014" x="2284.690" y="28.642" z="3146.731" amount="1" fOrg="-3.056" IsPersistent="0"/>
+	<Object Guid="2EB5EA8DF2BDEE8EA8E5E5BE59CE1DAF" Desc="阿卡鲁" config="npc_zlm012_0015" x="2259.563" y="38.455" z="2932.383" amount="1" fOrg="-1.220" IsPersistent="0"/>
+	<Object Guid="E2B5EA6DF2EDEE8CA8E5E5BE59CE1DAF" Desc="北关尤利西斯" config="npc_zlm012_0016" x="2278.897" y="59.672" z="2655.733" amount="1" fOrg="-0.004" IsPersistent="0"/>
+	<Object Guid="B2B5BC7AD2EDEE8CA8E5E5BE59BE1ACD" Desc="背誓者的仆人" config="npc_zlm012_0013" x="1715.754" y="114.198" z="3799.520" amount="1" fOrg="-1.721" IsPersistent="0"/>
+	<Object Guid="03EF1C63902046CEA153751237B26300" Desc="Organ_zlm002_0013" config="Organ_zlm012_010" x="919.441772" y="41.975544" z="2896.054932" amount="1" fOrg="0" IsPersistent="0">
+		<Event EventId="23" Processor="dagong_quest_2574"/>
+	</Object>
+	<Object Guid="B4104BFF2F59462A85E4001CE3395A9F" Desc="费斯" config="npc_zlm012_0030" x="1079.381348" y="11.82545" z="2684.983398" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="3BDA379409CE4DD5BB88F5E43B0F4F44" Desc="罗斯勒" config="npc_zlm012_0021" x="118.119865" y="361.88501" z="2824.469727" amount="1" fOrg="-1.108189" IsPersistent="0"/>
+	<Object Guid="719CCB3F2CBD44D2B22204F07C08AEBA" Desc="研究员瑟拉" config="npc_zlm012_0022" x="95.279884" y="361.88501" z="2838.029297" amount="1" fOrg="1.965016" IsPersistent="0"/>
+	<Object Guid="037D5F4550D64BF5B35F1701F2A90351" Desc="助手罗恩" config="npc_zlm012_0023" x="94.652008" y="361.88501" z="2836.05542" amount="1" fOrg="1.035005" IsPersistent="0"/>
+	<Object Guid="73B22944A09A499C8D700B7E5E3F2A10" Desc="塔图" config="npc_zlm012_0025" x="252.188339" y="225.49176" z="2467.287354" amount="1" fOrg="-0.185004" IsPersistent="0"/>
+	<Object Guid="08F2A9C5D46E459182C0B31EC7F9E007" Desc="罗斯忒勒" config="npc_zlm012_0001" x="121.293869" y="361.888031" z="2832.226563" amount="1" fOrg="-1.465" IsPersistent="0"/>
+	<Object Guid="BA8D610AF1194ED4802180C221F43724" Desc="研究员瑟拉娜" config="npc_zlm012_0002" x="159.293121" y="388.886017" z="2950.42334" amount="1" fOrg="-0.754" IsPersistent="0"/>
+	<Object Guid="88CCF51B7D97490DB58497E6727ED655" Desc="助手罗索" config="npc_zlm012_0003" x="161.291" y="388.891" z="2958.218" amount="1" fOrg="-2.270" IsPersistent="0"/>
+	<Object Guid="00D1CEB4E95A4AD5978B27930FFC9DF0" Desc="福比斯" config="npc_zlm012_0024" x="270.434723" y="198.480164" z="1975.307373" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="0E77A8F49C9346ABA37C47F6FCB5B793" Desc="格林奇" config="npc_zlm012_0026" x="758.466553" y="96.860909" z="2225.883545" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="992AB525351F4D6A97EE4C8C634AC6DF" Desc="古蒂" config="npc_zlm012_0027" x="1222.083862" y="16.277838" z="2266.790771" amount="1" fOrg="2" IsPersistent="0"/>
+	<Object Guid="F989009C3E5D4FB3BBEF5DE0035A01C8" Desc="科斯洛拉_死亡低吼" config="Event_zlm012_0019" x="2021.879517" y="74.024712" z="3638.400635" amount="1" RefreshMode="2" RefreshPointSet="tiao_0007" RefreshTime="39600" fOrg="0" IsPersistent="0"/>
+	<Object Guid="6524FA4177DD4DD9A3AF345851E8ACA0" Desc="尤利西斯·鹰啸" config="npc_zlm012_0031" x="1665.097534" y="84.697006" z="1690.131104" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="AFB9EFFF23BC43B299CB8E8532F02C6E" Desc="背誓者的仆人" config="npc_zlm012_0032" x="1675.533447" y="84.697006" z="1699.744873" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="009124AEB6E34EDBAA9ADA85422339DE" Desc="npc_zlm012_0033" config="npc_zlm012_0033" x="1654.806274" y="84.698006" z="1693.099609" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="DCB220A953D243E6A23B49BC718DA150" Desc="npc_zqm012_0200" config="npc_zqm012_0200" x="39.614712" y="213.086624" z="2075.472656" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="CAB122A916E242B6F23B49BC118AB1E0" Desc="2509隐形NPC" config="npc_zqm012_0100" x="60.884" y="210.367" z="3325.963" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="2311B6CC8F4B4CCBB5C18E901DA0AEBD" Desc="npc_zqm001_0096" config="npc_zqm001_0096" x="1575.575439" y="122.861008" z="3788.304688" amount="1" fOrg="-1.383185" IsPersistent="0"/>
+	<Object Guid="20449C89E57D4324A24216C0563E87DE" Desc="武器商安吉格" config="npc_zlm010_0301" x="1574.689819" y="114.509003" z="3719.315186" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="648BF855CC8B48E88C99C24B89D3E5C3" Desc="护甲商塞伯斯·坦德" config="npc_zlm010_0302" x="1627.188721" y="114.512009" z="3714.866211" amount="1" fOrg="-1.283185" IsPersistent="0"/>
+	<Object Guid="92A67AE29DEF4BD190BB1AAA46DF107B" Desc="杂货商塞拉丘" config="npc_zlm010_0303" x="1727.025879" y="115.451004" z="3714.636475" amount="1" fOrg="3" IsPersistent="0"/>
+	<Object Guid="D6E5767612F14BEB9C29B7653860207E" Desc="药水商阿尔发·贝塔" config="npc_zlm010_0304" x="1713.031616" y="105.941322" z="3734.461914" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="1FA66EBCEC874D039ACAC5CA2E383EAF" Desc="药水商穆" config="npc_zlm010_0306" x="1714.3927" y="84.410316" z="1747.457275" amount="1" fOrg="4" IsPersistent="0"/>
+	<Object Guid="E88716E635D14128889C2C31057A9C20" Desc="杂货商多兰迪" config="npc_zlm010_0307" x="1592.414307" y="62.729279" z="1808.145752" amount="1" fOrg="1" IsPersistent="0"/>
+	<Object Guid="D8C814FB841E4DD7A1279148A49CE42B" Desc="护甲商迪卡" config="npc_zlm010_0308" x="1692.382813" y="84.410316" z="1725.002441" amount="1" fOrg="6" IsPersistent="0"/>
+	<Object Guid="93951D1B7BAC4CBCAA0E6A4D19D0522E" Desc="武器商哈罗萨" config="npc_zlm010_0309" x="1625.358765" y="84.47821" z="1725.97644" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="9E46A5F375F1496F91FDFA926A882C2D" Desc="仓库管理员麦哲" config="npc_zlm010_0310" x="1610.982666" y="84.47821" z="1743.078491" amount="1" fOrg="1.5" IsPersistent="0"/>
+	<Object Guid="D2B8A9F0F0694B4595850E18BEC737A3" Desc="受伤的士兵" config="npc_qhm002_0250" x="1739.897339" y="61.805508" z="1802.677979" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="B361CA45208042A0B9F24773DAED1F4F" Desc="步兵" config="npc_zlm010_0052" x="1570.51355" y="67.217003" z="1871.701904" amount="1" fOrg="-2.283185" IsPersistent="0"/>
+	<Object Guid="B2F83D541AFA46ACAEF4E5C9BF31A31E" Desc="步兵" config="npc_zlm010_0052" x="1565.660767" y="68.417931" z="1901.467896" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="B1A08AD2B89745E49AED7124762EEE08" Desc="步兵" config="npc_zlm010_0052" x="1629.106445" y="61.542789" z="1829.174927" PatrolMode="0" PatrolRange="15" amount="1" RefreshTime="60" fOrg="0" IsPersistent="0"/>
+	<Object Guid="368D95401F4F4FD8B7A6EA5599DE5036" Desc="步兵" config="npc_zlm010_0052" x="1667.906982" y="61.542789" z="1842.066162" PatrolMode="0" PatrolRange="15" amount="1" RefreshTime="60" fOrg="0" IsPersistent="0"/>
+	<Object Guid="B785D3DFBF65465E8A7024990A61842E" Desc="步兵" config="npc_zlm010_0052" x="1712.605469" y="61.805508" z="1830.466187" PatrolMode="0" PatrolRange="15" amount="1" RefreshTime="60" fOrg="0" IsPersistent="0"/>
+	<Object Guid="F453BA853A70432C8AD11BC3F8E4BE37" Desc="步兵" config="npc_zlm010_0052" x="1711.370239" y="75.649216" z="1925.185059" amount="1" RefreshTime="60" fOrg="0" IsPersistent="0"/>
+	<Object Guid="C31665460C924C92B66A50097CA64AD3" Desc="步兵" config="npc_zlm010_0052" x="1668.27478" y="61.542789" z="1811.880493" amount="1" RefreshTime="60" fOrg="0" IsPersistent="0"/>
+	<Object Guid="B40398E220654EE0B5AF29891FB6D4C6" Desc="步兵" config="npc_zlm010_0052" x="1650.324219" y="61.542789" z="1811.516846" amount="1" RefreshTime="60" fOrg="0" IsPersistent="0"/>
+	<Object Guid="5A4C02511ACB4AA3A6066256A95BEEA4" Desc="步兵" config="npc_zlm010_0052" x="1672.651001" y="83.556152" z="1743.481323" amount="1" RefreshTime="60" fOrg="0" IsPersistent="0"/>
+	<Object Guid="B42E66EEE53D47C1ABA2FD1FF4CB8B54" Desc="步兵" config="npc_zlm010_0052" x="1652.613403" y="83.510902" z="1742.800537" amount="1" RefreshTime="60" fOrg="0" IsPersistent="0"/>
+	<Object Guid="68447DDD65BA4A469A4E1CBEF9419643" Desc="步兵队长" config="npc_zlm010_0053" x="1600.057861" y="63.094173" z="1870.988403" amount="1" fOrg="3" IsPersistent="0"/>
+	<Object Guid="C95086B11FE844ADB0864629726A6475" Desc="弓兵" config="npc_zlm010_0311" x="1702.786499" y="61.805508" z="1803.835938" PatrolMode="0" PatrolRange="7" amount="1" fOrg="3" IsPersistent="0"/>
+	<Object Guid="7B816B876E17489F84657AEB6D36EDCC" Desc="npc_zlm010_0311" config="npc_zlm010_0311" x="1694.040283" y="75.649216" z="1923.385132" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="E44E4B8BD9214521A735E8F0FF6638C2" Desc="npc_zlm010_0311" config="npc_zlm010_0311" x="1632.73999" y="78.597313" z="1928.056274" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="1D7B2B550C45480AA26D58AAB9416F4F" Desc="npc_zlm010_0311" config="npc_zlm010_0311" x="1557.87793" y="136.91301" z="1958.774902" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="1738A0DEF84E453DBBBB6590EF703DF3" Desc="卫兵" config="npc_zlm010_0049" x="1658.83374" y="105.941322" z="3732.044189" PatrolMode="0" PatrolRange="15" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="FAB6DB7C6A614BF38D7BB28D3209240D" Desc="卫兵队长" config="npc_zlm010_0050" x="1667.272949" y="105.972351" z="3783.106689" amount="1" fOrg="2." IsPersistent="0"/>
+	<Object Guid="15319ACB42E44BC0951AE49F903685D2" Desc="卫兵" config="npc_zlm010_0049" x="1607.196289" y="114.506004" z="3714.432373" PatrolMode="0" PatrolRange="10" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="0B9AD65E4FA04ACCBAA1A909CC408C52" Desc="卫兵" config="npc_zlm010_0049" x="1732.579468" y="115.453003" z="3704.297852" PatrolMode="0" PatrolRange="5" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="089F6C61443D4DD7B0F27D466907E196" Desc="卫兵" config="npc_zlm010_0049" x="1585.885132" y="122.861008" z="3817.79248" PatrolMode="0" PatrolRange="15" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="79DB1298C53A4A36BA8694A4A6A91F68" Desc="仓库管理员特伦苏" config="npc_zlm010_0305" x="1716.220337" y="105.941322" z="3769.261719" amount="1" fOrg="3" IsPersistent="0"/>
+	<Object Guid="65E29E9E67DE41A89A0FA5EDF8FFF28A" Desc="洛卡布" config="npc_zlm010_0312" x="1667.498169" y="105.941322" z="3780.368652" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="D26CB260D047499C99B612B9F56F9C3C" Desc="卫兵" config="npc_zlm010_0049" x="1644.992676" y="105.941322" z="3687.23877" PatrolMode="0" amount="1" fOrg="2." IsPersistent="0"/>
+	<Object Guid="1C6D522ACF3F4E609C95BD858EF14C69" Desc="卫兵" config="npc_zlm010_0049" x="1645.020386" y="105.940636" z="3681.318115" PatrolMode="0" amount="1" fOrg="2." IsPersistent="0"/>
+	<Object Guid="D30D4753A8574AA2A947869967DB291F" Desc="卫兵" config="npc_zlm010_0049" x="1644.927124" y="105.941322" z="3692.830811" PatrolMode="0" amount="1" fOrg="2." IsPersistent="0"/>
+	<Object Guid="727CD377759F4883847A1AEC29F8DEA3" Desc="卫兵" config="npc_zlm010_0049" x="1660.950073" y="105.941322" z="3693.112305" PatrolMode="0" amount="1" fOrg="-1.283185" IsPersistent="0"/>
+	<Object Guid="5FFBBA452C4942F4A76CAE7B6C753664" Desc="卫兵" config="npc_zlm010_0049" x="1661.039795" y="105.941322" z="3687.118652" PatrolMode="0" amount="1" fOrg="-1.283185" IsPersistent="0"/>
+	<Object Guid="4D656A88FD83419CA705C1200ED88862" Desc="卫兵" config="npc_zlm010_0049" x="1661.157104" y="105.941322" z="3681.25" PatrolMode="0" amount="1" fOrg="-1.283185" IsPersistent="0"/>
+	<Object Guid="3C3D2647A9B9440399927713ADF08CC6" Desc="布什·薛帕得" config="npc_zlm010_0313" x="1644.36853" y="114.143005" z="3812.528809" amount="1" fOrg="-2.283185" IsPersistent="0"/>
+	<Object Guid="31C8EE58403D4BEC85354C62D736918A" Desc="布冯特王国士兵" config="npc_zlm010_0314" x="1628.678345" y="114.512009" z="3722.506348" PeaceAction="attackR_0h" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="78F3417665E04B8F959C7130A27548D7" Desc="阿鲁卡" config="npc_zlm012_0034" x="1983.495361" y="80.22963" z="2794.715332" amount="1" fOrg="-0.995003" IsPersistent="0"/>
+	<Object Guid="9B1976C0D08E4B4E8185628F3C03F914" Desc="npc_zlm010_0315" config="npc_zlm010_0315" x="2477.884766" y="65.002037" z="3545.06958" amount="1" fOrg="0" IsPersistent="0">
+		<Event/>
+	</Object>
+	<Object Guid="487D03E7C5D343EDA151CA5BF3C14C66" Desc="npc_zlm010_0316" config="npc_zlm010_0316" x="2425.145264" y="65.002037" z="3549.991943" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="442F307A75A9421797D2DACFF70BCCC6" Desc="npc_zlm010_0314" config="npc_zlm010_0314" x="2453.095947" y="65.002037" z="3525.158203" amount="1" fOrg="3" IsPersistent="0"/>
+	<Object Guid="84C33303D48F4CA0AC0308C2A208BDC4" Desc="npc_zlm010_0314" config="npc_zlm010_0314" x="2439.654053" y="65.002037" z="3524.90918" amount="1" fOrg="3" IsPersistent="0"/>
+	<Object Guid="AE863EF422F14767825F6A06B503CC61" Desc="布冯特王国士兵" config="npc_zlm010_0314" x="2455.840576" y="65.002037" z="3582.089844" PatrolMode="0" PatrolRange="10" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="70DB3382991D415C9E8C1752224DEFD5" Desc="布冯特王国士兵" config="npc_zlm010_0314" x="2457.847168" y="65.002037" z="3607.162109" PatrolMode="0" PatrolRange="10" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="ECD781B26C4D47F7BCE5C2A35AB2CFD9" Desc="布冯特王国士兵" config="npc_zlm010_0314" x="2438.84668" y="65.002037" z="3662.008789" PatrolMode="0" PatrolRange="10" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="69FE624F18F74D57B8AE57B84F21284C" Desc="布冯特王国士兵" config="npc_zlm010_0314" x="2442.0354" y="65.002037" z="3651.146973" PatrolMode="0" PatrolRange="10" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="B8BCC2A9A6CB47B69371A160544DEC33" Desc="npc_zlm010_0314" config="npc_zlm010_0314" x="2392.213867" y="65.019821" z="3664.641846" amount="1" fOrg="4" IsPersistent="0"/>
+	<Object Guid="99E2BB3627B6425C974DDB08E54EC49C" Desc="npc_zlm010_0314" config="npc_zlm010_0314" x="2392.208984" y="64.996231" z="3675.209717" amount="1" fOrg="4" IsPersistent="0"/>
+	<Object Guid="079AEB028D714AE9AE8842080B9ADE2B" Desc="布冯特王国士兵" config="npc_zlm010_0314" x="2264.306396" y="28.211035" z="3173.922119" PatrolMode="0" PatrolRange="10" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="884A30F08CDF40CDB8CD31F768677341" Desc="布冯特王国士兵" config="npc_zlm010_0314" x="2274.303955" y="28.559612" z="3199.697754" PatrolMode="0" PatrolRange="10" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="7124580194EC41938B0D3568F979658A" Desc="布冯特王国士兵" config="npc_zlm010_0314" x="2299.099121" y="28.571705" z="3177.946289" PatrolMode="0" PatrolRange="10" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="2963C3ABCE3543C9BFE446310F6A7FA4" Desc="npc_zlm010_0314" config="npc_zlm010_0314" x="2309.953857" y="32.253803" z="3232.752686" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="FFFA7DB5486F47D9BEB9A7E0E274106C" Desc="npc_zlm010_0314" config="npc_zlm010_0314" x="1127.829102" y="92.650482" z="3695.28833" PatrolMode="0" PatrolRange="10" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="A2BC08E5EB284C6EBEC71D7E9EDFFFEA" Desc="npc_zlm010_0314" config="npc_zlm010_0314" x="1144.482056" y="92.401031" z="3694.943848" PatrolMode="0" PatrolRange="10" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="25D0E844E193438687AD52E35AFDF9A6" Desc="npc_zlm010_0314" config="npc_zlm010_0314" x="1120.099243" y="93.794052" z="3675.674316" PatrolMode="0" PatrolRange="10" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="1473088E3AAC4BBCAEFD090FE34C3326" Desc="npc_zlm015_0038" config="npc_zlm015_0038" x="840.378235" y="65.230072" z="3566.183105" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="A495382126F34E839AAABDF519B6D1D4" Desc="npc_zlm015_0038" config="npc_zlm015_0038" x="868.358154" y="65.002037" z="3530.110107" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="1C8B35DB9F4E45BF9B29C5CB382E71E9" Desc="npc_zlm015_0042" config="npc_zlm015_0042" x="846.483582" y="65.01693" z="3536.491455" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="4C8219C9F4D54B67A92FEA28385FCFBB" Desc="npc_zlm015_0042" config="npc_zlm015_0042" x="838.371338" y="65.002037" z="3518.564209" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="69407EEA0CAD4100B62E06D73DAEB527" Desc="npc_zlm015_0042" config="npc_zlm015_0042" x="787.17218" y="65.239624" z="3580.108887" amount="1" fOrg="0" IsPersistent="0">
+		<Event/>
+	</Object>
+	<Object Guid="4C84E353544D4B16BFE30B654E21FA44" Desc="npc_zlm010_0314" config="npc_zlm010_0314" x="798.940247" y="65.002037" z="3589.172852" PatrolMode="0" PatrolRange="10" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="B531D3E894744BB2BF2E6C85AB705B98" Desc="npc_zlm010_0314" config="npc_zlm010_0314" x="821.114258" y="65.233749" z="3553.822998" PatrolMode="0" PatrolRange="10" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="27E864F181BF4705955E96CE55116B5F" Desc="npc_zlm010_0311" config="npc_zlm010_0311" x="851.582642" y="87.497704" z="2275.536377" PatrolMode="0" PatrolRange="10" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="816884F49B7140A8A38552703A7E5574" Desc="npc_zlm010_0311" config="npc_zlm010_0311" x="835.851013" y="87.497704" z="2242.872559" PatrolMode="0" PatrolRange="10" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="DE0F69742E0247B68989E66B4429E503" Desc="npc_zlm010_0311" config="npc_zlm010_0311" x="820.470825" y="87.497704" z="2265.216064" PatrolMode="0" PatrolRange="10" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="BEC1F8A310594D2FA52132E9E834C657" Desc="npc_zlm015_0055" config="npc_zlm015_0055" x="869.996155" y="87.497704" z="2288.311523" amount="1" fOrg="4" IsPersistent="0"/>
+	<Object Guid="2BE5D6F4EA314643A75FBE9A736EA004" Desc="步兵" config="npc_zlm010_0052" x="869" y="87" z="2288" PatrolMode="0" PatrolRange="10" amount="1" RefreshTime="60" fOrg="0" IsPersistent="0"/>
+	<Object Guid="EF8926580DEC4DAF9FAB1F4F32DA9F1E" Desc="npc_zlm010_0311" config="npc_zlm010_0311" x="2457.499023" y="43.683022" z="2020.924316" amount="1" fOrg="5" IsPersistent="0"/>
+	<Object Guid="AFB9E628E341430599864F146B14D43F" Desc="npc_zlm010_0311" config="npc_zlm010_0311" x="2426.296143" y="44.570702" z="2023.617188" amount="1" fOrg="10" IsPersistent="0"/>
+	<Object Guid="1538B17160964B049F4EA6D5F0CAF28A" Desc="npc_zlm010_0311" config="npc_zlm010_0311" x="2427.455322" y="41.565647" z="1987.471313" PatrolMode="0" PatrolRange="10" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="3E08B7E0B6DC4A58A3F95F788D3E3FF2" Desc="npc_zlm010_0052" config="npc_zlm010_0052" x="2430.568359" y="45.649376" z="1962.586304" PatrolMode="0" PatrolRange="10" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="D9489AC65F5041D09E06940D9FAB6C26" Desc="npc_zlm010_0052" config="npc_zlm010_0052" x="2480.594971" y="45.480122" z="2002.080566" PatrolMode="0" PatrolRange="10" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="44B9392937E449A987646128F04EE754" Desc="艾卡斯·追月" config="npc_zlm010_0319" x="2444.352295" y="48.94968" z="1951.866699" PatrolMode="0" PatrolRange="5" amount="1" fOrg="0" IsPersistent="0">
+		<Event/>
+	</Object>
+	<Object Guid="559B458404F249B6957D319D62770A8B" Desc="npc_zlm010_0052" config="npc_zlm010_0052" x="2401.875488" y="41.97546" z="1978.093628" PatrolMode="0" PatrolRange="10" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="440D6CF0E76A425581AF5B6F55696F88" Desc="桑咔·破风" config="npc_zlm010_0320" x="2412.332275" y="46.172871" z="2020.593018" PatrolMode="0" PatrolRange="10" amount="1" fOrg="0" IsPersistent="0">
+		<Event/>
+	</Object>
+	<Object Guid="1A119577A5674963BED772D40B770A2D" Desc="npc_zlm010_0311" config="npc_zlm010_0311" x="2445.087891" y="42.105282" z="2049.363037" PatrolMode="0" PatrolRange="10" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="9A13C39340AB499186CC0F19F94B0018" Desc="npc_zlm010_0311" config="npc_zlm010_0311" x="2466.353027" y="44.865879" z="2011.71228" PatrolMode="0" PatrolRange="10" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="0157900639CC45F88B3FF2FD48687C5C" Desc="npc_zlm010_0321" config="npc_zlm010_0321" x="2495.452148" y="51.831001" z="2030.852051" amount="1" fOrg="0" IsPersistent="0">
+		<Event/>
+	</Object>
+	<Object Guid="65D4F5851881491E8F35AA412BAE6113" Desc="苏娜塔" config="npc_zlm010_0322" Layer="" MaxRefreshCount="" x="1140.238403" y="93.256317" z="3666.14209" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0">
+		<Event/>
+	</Object>
+	<Object Guid="284A744AA6DA4D17B2A2D35377A36A2A" Desc="洛格玛驻扎队士兵" config="npc_zlm015_0042" Layer="" MaxRefreshCount="" x="788.028259" y="65.215363" z="3581.45459" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="-2.283185" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0">
+		<Event/>
+	</Object>
+	<Object Guid="8B339FA622DE462DB70E493D91375C55" Desc="安娜·塔娅" config="npc_zlm010_0318" Layer="" MaxRefreshCount="" x="2417.056641" y="65.002037" z="3627.436035" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0">
+		<Event/>
+	</Object>
+	<Object Guid="671A72CC8C704E78B66E7D41B9360C2C" Desc="喀斯戈" config="npc_zlm010_0317" Layer="" MaxRefreshCount="" x="2417.160156" y="65.002037" z="3629.668945" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="3" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0">
+		<Event/>
+	</Object>
+	<Object Guid="A5B4082F9F7447668E87629D83D634FF" Desc="npc_zlm012_0095" config="npc_zlm012_0095" Layer="" MaxRefreshCount="" x="2144.644531" y="17.018591" z="2959.526367" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="BC0DB03137A44FEF8A5A76ED4EDE2B85" Desc="弓兵" config="npc_zlm010_0311" Layer="" MaxRefreshCount="" x="2269.816162" y="59.725471" z="2575.361572" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="10" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="60" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="1F509635D18A491FB0C6B78172AC67A3" Desc="弓兵" config="npc_zlm010_0311" Layer="" MaxRefreshCount="" x="2293.003662" y="46.002575" z="2535.981201" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="10" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="60" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="9DAC17B334E94B8A8DFA4E298FDBDA87" Desc="弓兵" config="npc_zlm010_0311" Layer="" MaxRefreshCount="" x="2267.668945" y="59.861282" z="2614.171387" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="0" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="60" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="9473B52EC8E742E3AF00AD78D9932BE5" Desc="弓兵" config="npc_zlm010_0311" Layer="" MaxRefreshCount="" x="2267.722412" y="59.675972" z="2619.043945" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="0" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="60" sx="" sy="" sz="" fOrg="-2.283185" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="DC612020E5144099AB8D5CDF9A914686" Desc="弓兵" config="npc_zlm010_0311" Layer="" MaxRefreshCount="" x="2304.521484" y="55.277653" z="2605.73999" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="10" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="60" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="9EE970CB74924D6B959E5D49FC7BBEEE" Desc="弓兵" config="npc_zlm010_0311" Layer="" MaxRefreshCount="" x="2312.49585" y="46.44899" z="2641.277588" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="10" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="60" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="A7CE6C27016041188E715D05FDDAFFF9" Desc="弓兵" config="npc_zlm010_0311" Layer="" MaxRefreshCount="" x="2365.953613" y="70.449089" z="2618.078125" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="10" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="60" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+</Stage>
+
+

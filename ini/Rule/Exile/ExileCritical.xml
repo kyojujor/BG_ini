@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!-- 放逐之地场景区域配置 -->
+<Object>
+	<!--							阵营出生地（x,y,z,o）				放逐监狱（x,y,z,o）-->
+	<Property ID="Critical_1" ArrestValue = "1000"  desc="玩家通缉值超过1000时会获得通缉身份" />
+	<Property ID="Critical_2" ArrestValue = "2000"  desc="二级犯人通缉值降低到2000自动变成一级犯人" />
+	<Property ID="Critical_3" ArrestValue = "3000"  desc="玩家通缉值超过3000时会获得二级犯人身份" />
+</Object>

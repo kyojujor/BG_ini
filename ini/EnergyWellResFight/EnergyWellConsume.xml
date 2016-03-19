@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 被2011 rel. 2 sp1 (TeaM DJiNN) 使用XMLSpy vTeaM DJiNN编辑的 (http://www.altova.com) by mengtf -->
+<!-- ID：索引 -->
+<!-- UnitPrice：单位距离消耗 -->
+<!-- CarrierTypeFactor_1、CarrierTypeFactor_2、CarrierTypeFactor_3、CarrierTypeFactor_4：载具类型系数-->
+<!-- MainWar：主战场载具 -->
+<!-- OtherWar：其他战场载具 -->
+<!-- none_fee:无，low_fee:低，less_fee:较低，more_fee:较高，high_fee:高-->
+<Object>
+	<Property ID="1" UnitPrice="100" CarrierTypeFactor_1="1" CarrierTypeFactor_2="1.5" CarrierTypeFactor_3="3" CarrierTypeFactor_4 ="6" MainWar ="0.65" OtherWar ="1" none_fee="0" low_fee="10" less_fee="50" more_fee="80" high_fee="120"  />
+</Object>

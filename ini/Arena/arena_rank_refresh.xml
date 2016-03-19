@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- // 刷新类别(1:间隔(秒)  2:指定某星期几时间 3:指定某月日时间) -->
+<Object>
+	<Property ID = "arena_rank_single_rec" type = "1" weekday = "0" month = "0" day = "0" hour = "0" min = "5" sec = "0"/>
+	<Property ID = "arena_rank_single_everyweek_rec" type = "2" weekday = "1" month = "0" day = "0" hour = "0" min = "0" sec = "0"/>
+	<Property ID = "arena_rank_team_rec"  type = "1" weekday = "0" month = "0" day = "0" hour = "0" min = "10" sec = "0"/>
+</Object>

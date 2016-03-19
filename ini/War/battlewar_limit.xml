@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+	<!--TimeType"开放战场的时间类型 1--每日,2--每周,3--每月" -->
+	<!--TimePara"当TimeType为2和3时才需要填写，分别表示一周和一个月哪几天开放战场" -->
+	<!--BAETime"战场开放和关闭的时间段" -->
+	<!--LimitTime"单个战场开启的时间限制,没有限制时不用填" -->
+	<Property BattleFieldID="0" TimeType="2" TimePara="1,4" BAETime="11:00-13:00,19:00-21:00" LimitTime="60"/>
+	<Property BattleFieldID="1" TimeType="1" TimePara="" BAETime="00:00-24:00" LimitTime=""/>
+	<Property BattleFieldID="2" TimeType="1" TimePara="" BAETime="00:00-24:00" LimitTime=""/>
+	<Property BattleFieldID="3" TimeType="1" TimePara="" BAETime="00:00-24:00" LimitTime=""/>
+	<Property BattleFieldID="4" TimeType="1" TimePara="" BAETime="00:00-24:00" LimitTime=""/>
+</Object>

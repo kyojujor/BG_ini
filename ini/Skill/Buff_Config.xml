@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+	<Property ID="2" Type="Buff_New" Path="Skill/FBNpcASkill/Buff_Main_FBNpcA.xml"/>
+	<Property ID="3" Type="Buff_New" Path="Skill/FBNpcBSkill/Buff_Main_FBNpcB.xml"/>
+	<Property ID="4" Type="Buff_New" Path="Skill/NpcSkill/Buff_Main_Npc.xml"/>
+	<Property ID="5" Type="Buff_New" Path="Skill/OtherSkill/Buff_Main_Other.xml"/>
+	<Property ID="6" Type="Buff_New" Path="Skill/QHPlayerSkill/Buff_Main_QHPlayer.xml"/>
+	<Property ID="7" Type="Buff_New" Path="Skill/ZQPlayerSkill/Buff_Main_ZQPlayer.xml"/>
+	<Property ID="8" Type="Buff_New" Path="Skill/SpecialSkill/Buff_Main_Special.xml"/>
+	<Property ID="9" Type="Buff_New" Path="Skill/TestSkill/Buff_Main_Test.xml"/>
+	<Property ID="18" Type="Buff_Effect" Path="Skill/FBNpcASkill/Buff_Effect_FBNpcA.xml"/>
+	<Property ID="19" Type="Buff_Effect" Path="Skill/FBNpcBSkill/Buff_Effect_FBNpcB.xml"/>
+	<Property ID="20" Type="Buff_Effect" Path="Skill/NpcSkill/Buff_Effect_Npc.xml"/>
+	<Property ID="21" Type="Buff_Effect" Path="Skill/OtherSkill/Buff_Effect_Other.xml"/>
+	<Property ID="22" Type="Buff_Effect" Path="Skill/QHPlayerSkill/Buff_Effect_QHPlayer.xml"/>
+	<Property ID="23" Type="Buff_Effect" Path="Skill/ZQPlayerSkill/Buff_Effect_ZQPlayer.xml"/>
+	<Property ID="24" Type="Buff_Effect" Path="Skill/SpecialSkill/Buff_Effect_Special.xml"/>
+	<Property ID="25" Type="Buff_Effect" Path="Skill/TestSkill/Buff_Effect_Test.xml"/>
+	<Property ID="26" Type="Buff_Modify" Path="Skill/Buff_Modify.xml"/>
+	<!--Buff_Display.xml   客户端只用这一个-->
+	<Property ID="10" Type="Buff_Display" Path="Skill/FBNpcASkill/Buff_Display_FBNpcA.xml"/>
+	<Property ID="11" Type="Buff_Display" Path="Skill/FBNpcBSkill/Buff_Display_FBNpcB.xml"/>
+	<Property ID="12" Type="Buff_Display" Path="Skill/NpcSkill/Buff_Display_Npc.xml"/>
+	<Property ID="13" Type="Buff_Display" Path="Skill/OtherSkill/Buff_Display_Other.xml"/>
+	<Property ID="14" Type="Buff_Display" Path="Skill/QHPlayerSkill/Buff_Display_QHPlayer.xml"/>
+	<Property ID="15" Type="Buff_Display" Path="Skill/ZQPlayerSkill/Buff_Display_ZQPlayer.xml"/>
+	<Property ID="16" Type="Buff_Display" Path="Skill/SpecialSkill/Buff_Display_Special.xml"/>
+	<Property ID="17" Type="Buff_Display" Path="Skill/TestSkill/Buff_Display_Test.xml"/>
+</Object>

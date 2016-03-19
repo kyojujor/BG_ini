@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes" ?>
+<Processor>
+    <Base type="object" version="1.0">
+        <Line Type="2" Event="4520" Name="AUTOP1" />
+        <Line Type="2" Event="2205" Name="objects_killedcamp">
+            <Param type="13" srctype="8" data="AUTOP1" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="8" data=" " Index="2" />
+        </Line>
+        <Line Type="2" Event="4520" Name="AUTOP2" />
+        <Line Type="2" Event="2205" Name="objects_bekilledcamp">
+            <Param type="13" srctype="8" data="AUTOP2" Index="0" />
+            <Param type="2" data="2" Index="1" />
+            <Param type="8" data=" " Index="2" />
+        </Line>
+        <Line Type="2" Event="4520" Name="AUTOP3" />
+        <Line Type="2" Event="4520" Name="AUTOP6" />
+        <Line Type="2" Event="3002" Name="AUTOP5">
+            <Param type="13" srctype="8" data="AUTOP6" Index="0" />
+            <Param type="6" data="num_alive_qh_barrack" Index="1" />
+        </Line>
+        <Line Type="2" Event="5075" Name="AUTOP4">
+            <Param type="13" srctype="4" data="AUTOP5" Index="0" />
+            <Param type="2" data="2" Index="1" />
+            <Param type="4" data="1" Index="2" />
+        </Line>
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP3" Index="0" />
+            <Param type="6" data="num_alive_qh_barrack" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="13" srctype="4" data="AUTOP4" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP8" />
+        <Line Type="2" Event="2201" Name="AUTOP7">
+            <Param type="13" srctype="8" data="AUTOP8" Index="0" />
+            <Param type="6" data="o_bind_barrack_spawn" Index="1" />
+        </Line>
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP7" Index="0" />
+            <Param type="6" data="isbarrackalive" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="6" data="0" Index="3" />
+        </Line>
+        <Line Type="2" Event="4520" Name="AUTOP11" />
+        <Line Type="2" Event="3002" Name="AUTOP10">
+            <Param type="13" srctype="8" data="AUTOP11" Index="0" />
+            <Param type="6" data="num_alive_qh_basetower" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP9">
+            <Param type="13" srctype="4" data="AUTOP10" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="0" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="8">
+            <Param type="13" bool="true" srctype="1" data="AUTOP9" Index="0" />
+        </Line>
+        <Line Type="2" Event="4520" Name="AUTOP14" />
+        <Line Type="2" Event="2201" Name="AUTOP13">
+            <Param type="13" srctype="8" data="AUTOP14" Index="0" />
+            <Param type="6" data="o_qh_base" Index="1" />
+        </Line>
+        <Line Type="2" Event="1104" Name="AUTOP12">
+            <Param type="13" srctype="8" data="AUTOP13" Index="0" />
+        </Line>
+        <Line Type="3" IncludeLines="3">
+            <Param type="13" bool="true" srctype="1" data="AUTOP12" Index="0" />
+        </Line>
+        <Line Type="2" Event="4520" Name="AUTOP16" />
+        <Line Type="2" Event="2201" Name="AUTOP15">
+            <Param type="13" srctype="8" data="AUTOP16" Index="0" />
+            <Param type="6" data="o_qh_base" Index="1" />
+        </Line>
+        <Line Type="1" Event="3012">
+            <Param type="13" srctype="8" data="AUTOP15" Index="0" />
+            <Param type="6" data="CantBeAttack" Index="1" />
+            <Param type="2" data="0" Index="2" />
+        </Line>
+        <Line Type="7" IncludeLines="0" />
+        <Line Type="7" IncludeLines="0" />
+        <Line Type="2" Event="4520" Name="AUTOP19" />
+        <Line Type="2" Event="2201" Name="AUTOP18">
+            <Param type="13" srctype="8" data="AUTOP19" Index="0" />
+            <Param type="6" data="o_qh_tower_m_5" Index="1" />
+        </Line>
+        <Line Type="2" Event="1104" Name="AUTOP17">
+            <Param type="13" srctype="8" data="AUTOP18" Index="0" />
+        </Line>
+        <Line Type="3" IncludeLines="3">
+            <Param type="13" bool="true" srctype="1" data="AUTOP17" Index="0" />
+        </Line>
+        <Line Type="2" Event="4520" Name="AUTOP21" />
+        <Line Type="2" Event="2201" Name="AUTOP20">
+            <Param type="13" srctype="8" data="AUTOP21" Index="0" />
+            <Param type="6" data="o_qh_tower_m_5" Index="1" />
+        </Line>
+        <Line Type="1" Event="3012">
+            <Param type="13" srctype="8" data="AUTOP20" Index="0" />
+            <Param type="6" data="CantBeAttack" Index="1" />
+            <Param type="2" data="0" Index="2" />
+        </Line>
+        <Line Type="7" IncludeLines="0" />
+        <Line Type="2" Event="4520" Name="AUTOP24" />
+        <Line Type="2" Event="2201" Name="AUTOP23">
+            <Param type="13" srctype="8" data="AUTOP24" Index="0" />
+            <Param type="6" data="o_qh_tower_s_5" Index="1" />
+        </Line>
+        <Line Type="2" Event="1104" Name="AUTOP22">
+            <Param type="13" srctype="8" data="AUTOP23" Index="0" />
+        </Line>
+        <Line Type="3" IncludeLines="3">
+            <Param type="13" bool="true" srctype="1" data="AUTOP22" Index="0" />
+        </Line>
+        <Line Type="2" Event="4520" Name="AUTOP26" />
+        <Line Type="2" Event="2201" Name="AUTOP25">
+            <Param type="13" srctype="8" data="AUTOP26" Index="0" />
+            <Param type="6" data="o_qh_tower_s_5" Index="1" />
+        </Line>
+        <Line Type="1" Event="3012">
+            <Param type="13" srctype="8" data="AUTOP25" Index="0" />
+            <Param type="6" data="CantBeAttack" Index="1" />
+            <Param type="2" data="0" Index="2" />
+        </Line>
+        <Line Type="7" IncludeLines="0" />
+        <Line Type="2" Event="2001" Name="AUTOP27" />
+        <Line Type="1" Event="6101">
+            <Param type="13" srctype="8" data="AUTOP27" Index="0" />
+            <Param type="6" data="Npc\dota_broken_qhby515_lws" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP28" />
+        <Line Type="1" Event="4517">
+            <Param type="13" srctype="8" data="AUTOP28" Index="0" />
+            <Param type="6" data="skill_dota_010" Index="1" />
+        </Line>
+        <Line Type="2" Event="2002" Name="AUTOP31" />
+        <Line Type="2" Event="2116" Name="AUTOP30">
+            <Param type="13" srctype="8" data="AUTOP31" Index="0" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP29">
+            <Param type="13" srctype="4" data="AUTOP30" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="4" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="2">
+            <Param type="13" bool="true" srctype="1" data="AUTOP29" Index="0" />
+        </Line>
+        <Line Type="1" Event="5005">
+            <Param type="2" data="1" Index="0" />
+            <Param type="2" data="2" Index="1" />
+            <Param type="6" data="BG_167125" Index="2" />
+            <Param type="6" data=" " Index="3" />
+            <Param type="6" data=" " Index="4" />
+            <Param type="6" data=" " Index="5" />
+        </Line>
+        <Line Type="1" Event="5005">
+            <Param type="2" data="2" Index="0" />
+            <Param type="2" data="2" Index="1" />
+            <Param type="6" data="BG_167126" Index="2" />
+            <Param type="6" data=" " Index="3" />
+            <Param type="6" data=" " Index="4" />
+            <Param type="6" data=" " Index="5" />
+        </Line>
+        <Line Type="7" IncludeLines="6" />
+        <Line Type="2" Event="2002" Name="AUTOP33" />
+        <Line Type="2" Event="3202" Name="AUTOP32">
+            <Param type="13" srctype="8" data="AUTOP33" Index="0" />
+            <Param type="6" data="Name" Index="1" />
+        </Line>
+        <Line Type="1" Event="5005">
+            <Param type="2" data="1" Index="0" />
+            <Param type="2" data="2" Index="1" />
+            <Param type="6" data="BG_167114" Index="2" />
+            <Param type="13" srctype="6" data="AUTOP32" Index="3" />
+            <Param type="6" data=" " Index="4" />
+            <Param type="6" data=" " Index="5" />
+        </Line>
+        <Line Type="2" Event="2002" Name="AUTOP35" />
+        <Line Type="2" Event="3202" Name="AUTOP34">
+            <Param type="13" srctype="8" data="AUTOP35" Index="0" />
+            <Param type="6" data="Name" Index="1" />
+        </Line>
+        <Line Type="1" Event="5005">
+            <Param type="2" data="2" Index="0" />
+            <Param type="2" data="2" Index="1" />
+            <Param type="6" data="BG_167115" Index="2" />
+            <Param type="13" srctype="6" data="AUTOP34" Index="3" />
+            <Param type="6" data=" " Index="4" />
+            <Param type="6" data=" " Index="5" />
+        </Line>
+        <Line Type="12" CaseNum="2" IncludeLines="4" />
+        <Line Type="13" IncludeLines="1" />
+        <Line Type="1" Event="5004">
+            <Param type="13" srctype="8" data="objects_killedcamp" Index="0" />
+            <Param type="6" data="snd\action\dota\OnDampenerDieEnemyTeam.wav" Index="1" />
+        </Line>
+        <Line Type="13" IncludeLines="1" />
+        <Line Type="1" Event="5004">
+            <Param type="13" srctype="8" data="objects_killedcamp" Index="0" />
+            <Param type="6" data="snd\action\dota\OnDampenerDieEnemyTeam_1.wav" Index="1" />
+        </Line>
+        <Line Type="12" CaseNum="2" IncludeLines="4" />
+        <Line Type="13" IncludeLines="1" />
+        <Line Type="1" Event="5004">
+            <Param type="13" srctype="8" data="objects_bekilledcamp" Index="0" />
+            <Param type="6" data="snd\action\dota\OnDampenerDieYourTeam.wav" Index="1" />
+        </Line>
+        <Line Type="13" IncludeLines="1" />
+        <Line Type="1" Event="5004">
+            <Param type="13" srctype="8" data="objects_bekilledcamp" Index="0" />
+            <Param type="6" data="snd\action\dota\OnDampenerDieYourTeam_1.wav" Index="1" />
+        </Line>
+    </Base>
+</Processor>

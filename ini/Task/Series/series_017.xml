@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 被2011 rel. 2 sp1 (TeaM DJiNN) 使用XMLSpy vTeaM DJiNN编辑的 (http://www.altova.com) by -->
+<Object>
+	<Property ID="14001" GirdX="1" GirdY="2" FatherTask="" ChildTask="14002" IsHide="1" LastTask=""/>
+	<Property ID="14002" GirdX="2" GirdY="2" FatherTask="14001" ChildTask="14003" IsHide="1" LastTask=""/>
+	<Property ID="14003" GirdX="3" GirdY="2" FatherTask="14002" ChildTask="14004" IsHide="1" LastTask=""/>
+	<Property ID="14004" GirdX="4" GirdY="2" FatherTask="14003" ChildTask="14005" IsHide="1" LastTask=""/>
+	<Property ID="14005" GirdX="5" GirdY="2" FatherTask="14004" ChildTask="14009" IsHide="1" LastTask=""/>
+	<Property ID="14009" GirdX="6" GirdY="2" FatherTask="14005" ChildTask="14010" IsHide="1" LastTask=""/>
+	<Property ID="14010" GirdX="7" GirdY="2" FatherTask="14009" ChildTask="14011" IsHide="1" LastTask=""/>
+	<Property ID="14011" GirdX="8" GirdY="2" FatherTask="14010" ChildTask="14013" IsHide="1" LastTask=""/>
+	<Property ID="14013" GirdX="8" GirdY="2" FatherTask="14011" ChildTask="" IsHide="1" LastTask="1"/>
+</Object>

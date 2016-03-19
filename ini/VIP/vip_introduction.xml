@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--
+ID = 0：固定奖励 key和value都是中文包字符串 均定义在\res\text\ChineseS\Vip.idres 多项介绍内容用英文分号隔开
+	experience_bonus：经验奖励
+	clone_treasury：副本宝箱
+	mobile_mailbox：移动邮箱
+	auction_consignment：拍卖行寄售
+	fast_bag：背包快捷
+	transmit_times：界碑传送次数
+	perfect_relive：原地复活
+	glory_upper：荣誉值上限
+	glory_bonus：荣誉值奖励
+	hunt_point_bonus：猎杀点奖励
+	brave_point_bonus：英勇点奖励
+
+ID = 1：限次奖励
+	daily_gift：每日礼包
+	reset_clone：副本重置
+-->
+
+<Object>
+<Property ID="0" experience_bonus = "experience_bonus_1;experience_bonus_2;experience_bonus_3;experience_bonus_4"
+				 clone_treasury = "clone_treasury_1" 
+				 mobile_mailbox = "mobile_mailbox_1"
+				 auction_consignment = "auction_consignment_1"
+				 fast_bag = "fast_bag_1"
+				 transmit_times = "transmit_times_1"
+				 glory_bonus = "glory_bonus_1;glory_bonus_2;glory_bonus_3"
+				 hunt_point_bonus = "hunt_point_bonus_1"
+				 brave_point_bonus = "brave_point_bonus_1;brave_point_bonus_2"/>
+
+<Property ID="1" daily_gift = "daily_gift_1" 
+				 reset_clone = "reset_clone_1"/>
+</Object>

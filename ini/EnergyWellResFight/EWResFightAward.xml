@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<Object>
+<!--
+	id 能量井ID
+	WinAward	   胜方奖励
+	LoseAward	   败方奖励
+	FirstAward	   第一名奖励
+	SecondAward	   第二名奖励
+	ThirdAward	   第三名奖励
+	TwentyAward      4-20名奖励
+	HundredAward	   21-100奖励
+	ShundredAward   101-300奖励
+	
+	格式说明："金钱;经验;PVP英勇点数;身份牌;身份牌数量"
+-->
+	<Property ID="energy_well_zq0001" WinAward="1000;1000;10;Move_G001;2" LoseAward="100;100;10;xianhua_01;1" FirstAward="200;200;10;Phy_0001;2" SecondAward="700;700;10;Youxiang_02;2" ThirdAward="90;900;10;Phy_0001;2" TwentyAward="1000;1000;10;xianhua_01;2" HundredAward="," ShundredAward="1000;1000;10;xianhua_01;2"/>
+</Object>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2011 rel. 2 sp1 (TeaM DJiNN) 使用XMLSpy vTeaM DJiNN编辑的 (http://www.altova.com) by -->
+<Object>
+	<!--载具弹药配置-->
+	<!--lammovalue 左手弹夹-->
+	<!--rammovalue 右手弹夹-->
+	<!--confvalue  恢复速度-->
+	<Property ID="1" ammovalue="60,0" confvalue="20"/>
+	<Property ID="2" ammovalue="60,60,60,60,60,60" confvalue="20"/>
+	<Property ID="3" ammovalue="20,0,20,0" confvalue="5"/>
+	<Property ID="4" ammovalue="30,0,30,0,0,0" confvalue="10"/>
+</Object>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+	<!--
+1=仲裁者；2=蒸汽学徒；3=秘法师；4=麦克骑士；5=野性守护者；6=猎魔人；7=炼金师；8=元素法师
+21=惩罚者；22=神枪手；23=执行者
+24=器械师；25=构造师；26=异教徒
+27=咒术师；28=黑暗祭师；29=女巫
+30=泰坦骑士	；31=风暴骑士；32=破碎骑士
+33=熊人	；34=蛮牛人；35=狼人
+36=刀锋战士	；37=狩猎者；38=魔剑士
+39=炼器师；40=医师；41=变能师
+42=圣殿法师；43=平衡法师；44=流浪法师
+
+Str   力量...
+Dex   敏捷...
+Ing   智力...
+Spi   精神...
+Sta   体质...
+Esth  感知...    
+    -->
+	<Property ID = "1"  MainProp=""/>
+	<Property ID = "2"  MainProp=""/>
+	<Property ID = "3"  MainProp=""/>
+	<Property ID = "4"  MainProp=""/>
+	<Property ID = "5"  MainProp=""/>
+	<Property ID = "6"  MainProp=""/>
+	<Property ID = "7"  MainProp=""/>
+	<Property ID = "8"  MainProp=""/>
+	<Property ID = "21" MainProp="Str"/>
+	<Property ID = "22" MainProp="Dex"/>
+	<Property ID = "23" MainProp="Dex"/>
+	<Property ID = "24" MainProp=""/>
+	<Property ID = "25" MainProp=""/>
+	<Property ID = "26" MainProp=""/>
+	<Property ID = "27" MainProp="Esth"/>
+	<Property ID = "28" MainProp="Ing"/>
+	<Property ID = "29" MainProp="Spi"/>
+	<Property ID = "30" MainProp=""/>
+	<Property ID = "31" MainProp=""/>
+	<Property ID = "32" MainProp=""/>
+	<Property ID = "33" MainProp=""/>
+	<Property ID = "34" MainProp=""/>
+	<Property ID = "35" MainProp=""/>
+	<Property ID = "36" MainProp="Str"/>
+	<Property ID = "37" MainProp="Dex"/>
+	<Property ID = "38" MainProp="Str"/>
+	<Property ID = "39" MainProp=""/>
+	<Property ID = "40" MainProp=""/>
+	<Property ID = "41" MainProp=""/>
+	<Property ID = "42" MainProp="Esth"/>
+	<Property ID = "43" MainProp="Spi"/>
+	<Property ID = "44" MainProp="Ing"/>
+</Object>

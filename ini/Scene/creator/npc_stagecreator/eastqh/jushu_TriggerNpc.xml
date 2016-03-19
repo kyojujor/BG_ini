@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Stage>
+	<Object Guid="BEC3717D7A1249A5AEC836A2790F2901" Desc="隐形门" config="Organ_qhm005_0001" x="4661.978027" y="38.273037" z="135.84935" IsY="0" Radius="0" amount="1" RefreshTime="1" fOrg="0">
+		<Event EventId="23" Processor="jushu_quest_102"/>
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="825DD7024A894283877E9D530F4933DA" Desc="隐形门" config="Organ_qhm005_0001" x="4670.289551" y="98.0737" z="1586.360474" IsY="0" Radius="0" amount="1" RefreshTime="1" fOrg="0">
+		<Event EventId="23" Processor="jushu_quest_116"/>
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="01D1D0BFA02C4324A76218D8C7DF07EC" Desc="隐形门" config="Organ_qhm005_0001" x="5013.141113" y="68.197922" z="392.560089" IsY="0" Radius="0" amount="1" RefreshTime="1" fOrg="0">
+		<Event EventId="23" Processor="jushu_quest_154"/>
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="381C5D8114D24FAFA7DA795283D6C14C" Desc="隐形门" config="Organ_qhm005_0001" x="4567.706543" y="77.130005" z="-228.398239" IsY="1" Radius="0" amount="1" RefreshTime="1" fOrg="0">
+		<Event EventId="23" Processor="jushu_quest_170_1"/>
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="10CDE0A48C134DC5966AF2404A8C6BBE" Desc="隐身NPC" config="Organ_qhm003_0001" x="4866.954102" y="98.313095" z="-301.67688" IsY="0" Radius="0" amount="1" RefreshTime="1" fOrg="0">
+		<Event EventId="23" Processor="jushu_quest_170_1"/>
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="40659EAFEAB841BEA2A49D6232CCFBBB" Desc="巨树-皮罗" config="Door_0001" x="4901.112305" y="89.444489" z="1873.648193" IsY="0" Radius="0" amount="1" RefreshTime="1" fOrg="-0.415005" IsPersistent="0"/>
+	<Object Guid="DAC7F65C28904A7080FCD3DD9238E638" Desc="邮箱" config="QH_Mail_01_001" x="4667.519531" y="60.085014" z="1182.782959" IsY="0" Radius="0" amount="1" RefreshTime="1" fOrg="-2.978179" IsPersistent="0"/>
+	<Object Guid="357A1C2764CD4E97A65E756109CDC91F" Desc="邮箱" config="QH_Mail_01_001" x="5161.973633" y="61.799461" z="1615.584229" IsY="0" Radius="0" amount="1" RefreshTime="1" fOrg="1.738187" IsPersistent="0"/>
+	<Object Guid="CA3CE8B496F948478E688ED8241450CE" Desc="邮箱" config="QH_Mail_01_001" x="5210.856445" y="66.363586" z="495.465454" IsY="0" Radius="0" amount="1" RefreshTime="1" fOrg="-0.990003" IsPersistent="0"/>
+	<Object Guid="39DB2CB8700B4B49B948CA55A87F4A5D" Desc="邮箱" config="QH_Mail_01_001" x="5320.071289" y="106.535851" z="-93.274643" IsY="0" Radius="0" amount="1" RefreshTime="1" fOrg="1.745002" IsPersistent="0"/>
+	<Object Guid="97B596B0BAEA435A92A8605809A13154" Desc="树荫岗" config="npc_qhm005_0071" x="4656.97998" y="60.084343" z="1027.616455" IsY="0" Radius="0" amount="1" RefreshTime="1" fOrg="2.740001" IsPersistent="0"/>
+	<Object Guid="27ABA52C8E4C46D782391FE5799F6DB9" Desc="望乡关" config="npc_qhm005_0072" x="5253.560547" y="94.650841" z="26.652842" IsY="0" Radius="0" amount="1" RefreshTime="1" fOrg="-1.070001" IsPersistent="0"/>
+	<Object Guid="DB95B8FC55564FBCB0BF66228BC04280" Desc="落叶沼泽" config="npc_qhm005_0073" x="5175.052734" y="59.312004" z="695.860901" IsY="0" Radius="0" amount="1" RefreshTime="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="B9E85505F0864917A8484D2ABE6D77EE" Desc="隐形门" config="Organ_qhm005_0003" x="4649.769043" y="40.188667" z="227.9823" IsY="0" Radius="0" amount="1" RefreshTime="1" fOrg="0" IsPersistent="0">
+		<Event EventId="23" Processor="jushu_quest_102_2"/>
+	</Object>
+</Stage>
+
+

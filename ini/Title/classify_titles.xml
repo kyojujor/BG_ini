@@ -1,0 +1,60 @@
+<!--
+称号分类结构表
+每个Property
+ID 称号分类index    classify 大类ID     ClassifyName 大类名称  classify2  小类ID  Classify2Name  小类名称
+
+title_class。。classify  大类名称的中文包id
+title_subclass 。。 classify2  小类名称的中文包id 
+
+对于总揽类  它的小类id为200
+
+	TITLE_TYPE_ALL,	   //总揽   100
+	TITLE_TYPE_ROLE,   //角色   101
+	TITLE_TYPE_LIFE,   //生活   102
+	TITLE_TYPE_TASK,   //任务   103
+	TITLE_TYPE_FUBEN,  //副本   104
+	TITLE_TYPE_FESTIVAL,//节日  105
+	TITLE_TYPE_SOCIAL,  //社交  106     
+	TITLE_TYPE_PVP,    //PVP    107
+
+
+	TITLE_TYPE_NONE        //总揽小类 200
+	TITLE_TYPE_MONEY,	   //金钱   201
+	TITLE_TYPE_LEVEL,   //等级      202
+	TITLE_TYPE_ITEM,   //道具       203
+
+	属性排列顺序 大类1   小类1
+				 大类1   小类2	
+				 大类2   小类1
+				 大类2   小类2
+				 大类3   小类1
+	这涉及到显示窗口 大类 小类的排列顺序
+-->
+<Object>
+	<Property ID="100" classify="100" ClassifyName="总揽" classify2="200" Classify2Name="空白" />
+
+	<Property ID="201" classify="101" ClassifyName="角色" classify2="201" Classify2Name="金钱" />
+	<Property ID="202" classify="101" ClassifyName="角色" classify2="202" Classify2Name="等级" />
+	<Property ID="203" classify="101" ClassifyName="角色" classify2="203" Classify2Name="道具" />
+
+	<Property ID="304" classify="102" ClassifyName="生活" classify2="301" Classify2Name="人脉" />
+	<Property ID="305" classify="102" ClassifyName="生活" classify2="302" Classify2Name="技能" />
+	<Property ID="306" classify="102" ClassifyName="生活" classify2="303" Classify2Name="活动" />
+
+	<Property ID="407" classify="103" ClassifyName="任务" classify2="401" Classify2Name="主线进度" />
+	<Property ID="408" classify="103" ClassifyName="任务" classify2="402" Classify2Name="支线" />
+	<Property ID="409" classify="103" ClassifyName="任务" classify2="403" Classify2Name="每日" />
+
+	<Property ID="507" classify="104" ClassifyName="副本" classify2="501" Classify2Name="战绩" />
+
+
+	<Property ID="610" classify="105" ClassifyName="节日" classify2="601" Classify2Name="世界末日" />
+	<Property ID="612" classify="105" ClassifyName="节日" classify2="602" Classify2Name="圣诞节" />
+
+	<Property ID="713" classify="106" ClassifyName="社交" classify2="701" Classify2Name="好友" />
+	<Property ID="714" classify="106" ClassifyName="社交" classify2="702" Classify2Name="声望" />
+	<Property ID="715" classify="106" ClassifyName="社交" classify2="703" Classify2Name="阵营" />
+
+	<Property ID="808" classify="107" ClassifyName="PVP" classify2="801" Classify2Name="战场" />
+	<Property ID="809" classify="107" ClassifyName="PVP" classify2="802" Classify2Name="竞技场" />
+</Object>

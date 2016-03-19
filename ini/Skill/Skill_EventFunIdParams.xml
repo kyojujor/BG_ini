@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!-- edited with XMLSpy v2011 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
+<!-- VTYPE_BOOL:1 VTYPE_INT:2 VTYPE_INT64:3 VTYPE_FLOAT:4 VTYPE_DOUBLE:5 VTYPE_STRING:6 VTYPE_WIDESTR:7 VTYPE_OBJECT:8 VTYPE_POINTER:9-->
+<Object>
+	<Property ID="1" Params= "BuffID,FloorCount" des="添加BUFF,添加层数"/>
+	<Property ID="2" Params= "NPCConfigID,NPCCreateCount,NPCLifeTime,NPCTargetPosType,NPCCreatePosType,NPCRandomRadius,NPCCreatePosX,NPCCreatePosY,NPCCreatePosZ,NPCDistance,NPCAngle,NPCBuffID,DynamicMoveType,MoveAngle,MoveSpeed" des="创建NPC"/>                             
+	<Property ID="3" Params= "IsDamageFormula,DamageFormula,DamageCategory,DamageTargetType,DamageCaster" des= "给目标造成伤害"/>
+	<Property ID="4" Params= "MoveTargetPosType,MoveCreatePosType,MoveRandomRadius,MoveType,MoveSpeed,MoveTargetPosX,MoveTargetPosY,MoveTargetPosZ" des="移动到目标身边"/>
+	<Property ID="5" Params= "IsHealFormula,HealFormula,HealTargetType,HealSenderType" des="给目标治疗"/>
+	<Property ID="6" Params= "IsFormula,Formula,Attribute,AllowNegative" des="增加目标的属性值"/>
+	<Property ID="7" Params= "EffectName,EffectParam" des="客户端播放特效(EffectParam暂时客户端没用到)"/>
+	<Property ID="8" Params= "AttributeID2,PAddAttribute" des="通过百分比改变整型属性,前提是此类属性有MaxProp, MaxPropAdd, 并且是整型"  />
+	<Property ID="9" Params= "ActionType,ActionName,LoopAction" des="目标播放动作"/>
+	<Property ID="10" Params="AfferentFormulaID" des="使用公式包和传入参数计算伤害" />
+	<Property ID="11" Params="BufferClearType,BufferClearValue,BufferClearOLCount,StrClear,ClearOwnerBuff" des="清除指定的BUFFER"/>
+	<Property ID="12" Params="CoolOperateType,CoolSkillID,CoolClearType" des="技能冷却" />
+	<Property ID="13" Params="FendLockTime,FendDistance,FendAction,DefaultFendAction,FendLockBuffer,FendIsCanMove" des="选定目标击退"/>
+	<Property ID="14" Params="KnockDownLockTime,KnockDownAction,GetUpAction,DownLoopAction,KnockDownLockBuffer" des="选定目标击倒"/>
+	<Property ID="16" Params="KnockFlyLockTime,KnockFlyDistance,KnockFlySpeed,GravityParam,KnockFlyLockBuffer,KnockFlyIsCanMove,FlyKnockDownAction,FlyDownLoopAction,FlyGetUpAction,HitOutAngle,FaceType" des="选定目标击飞"/>
+	<Property ID="17" Params="ChargeBuffer,ChargeSpeed,ChargeAction,ChargeEndAction" des="选定目标冲刺"/>
+	<Property ID="18" Params="UseSkillID" des="释放技能"/>
+	<Property ID="19" Params="ItemID,ItemCount" des="道具生成"/>
+	<Property ID="20" Params="ChangeModelPath" des="变身"/>
+	<Property ID="21" Params="Mount_ID" des="骑马"/>
+	<Property ID="22" Params="CalcCount,FirstDrop,FirstDropCount,SecondDrop,SecondDropCount,ThirdDrop,ThirdDropCount" des="采集"/>
+	<Property ID="23" Params="NPCConfigID" des="召唤宠物"/>
+	<Property ID="24" Params="BC_ID,isRiding" des="载具"/>
+	<Property ID="25" Params="HPRatio" des="复活:回血百分比"/>
+	<Property ID="26" Params= "LeadTargetModel,MultiSkillID,ResponseCount,LeadTime1,LeadAction1,LeadEffect1,MultiTargetShapePara" des="多人技能LeadTargetModel:模型地址MultiSkillID:NPC的技能名ResponseCount:响应的角色数量LeadTime1:玩家对NPC的引导时间"/>
+	<Property ID="27" Params= "MetamorBuffID" des="添加熊狼变身的buff"/>
+	<Property ID="28" Params= "ItemID,Num,ConsumeMode" des="消耗道具,消耗Num个ItemID,ConsumeMode为0必须有Num个道具才消耗，ConsumeMode为1不够全部扣完"/>
+	<Property ID="29" Params= "WeaponMode" des="枪手卸子弹"/>
+	<Property ID="30" Params= "SetFormula,SetAttribute,Random" des="设置目标的属性值,只能设置int,float,double,int64,string类型,Random=1是随机设置一个值"/>
+	<Property ID="31" Params="" des="打断技能"/>
+	<Property ID="32" Params="AbsorbDamageRatio,AbsorbType,IsTargetDeduction" des="攻击时吸收对方生命或内力"/>
+	<Property ID="33" Params= "" des="枪手"/>
+	<Property ID="34" Params= "" des="枪手换武器"/>
+	<Property ID="35" Params= "" des="取消被选中"/>
+	<Property ID="36" Params= "RemoveBufferID" des="移除指定buffer"/>
+	<Property ID="37" Params= "StealHP,ResumeHP" des="偷取目标HP转化为自己的HP"/>
+	<Property ID="38" Params= "" des="刀锋战士"/>
+	<Property ID="39" Params= "" des="召唤兽魂"/>
+	<Property ID="40" Params= "TmpFightPetConfigID,PetCallUPNum" des="召唤零时战斗宠物"/>
+	<Property ID="41" Params= "" des="变身后宠物瞬移"/>
+	<Property ID="50" Params="VibrateType" des="技能buff:通用震动"/>
+	<Property ID="51" Params="ClearType,Amount" des="随机清除buff"/>
+	<Property ID="52" Params="IsBegin" des="开启/关闭残影效果"/>
+	<Property ID="53" Params="ReplaceSkill" des="替换技能"/>
+	<Property ID="54" Params="TriggerEventID" des="触发器"/>
+	<Property ID="55" Params="NPCConfigID,CallPetType,PetCount,PetDistance,PetAngle,PetBuffID" des="招呼宠物，任何职业都可以"/>
+	<Property ID="56" Params="RotateAngle,RotateSpeed" des="开始旋转"/>
+	<Property ID="57" Params="" des="停止旋转"/>
+	<Property ID="58" Params="JumpNpcUpSpeed,JumpNpcConfigID" des="空中生成npc，然后npc跳下"/>
+	<Property ID="59" Params="SourceProerty,TargetProerty" des="源属性，目标属性"/>
+	<Property ID="60" Params="TipType,TipPacket,DisCondition" des="提示信息显示类型,提示信息中文包ID,条件不满足的限制包ID"/>
+	<Property ID="68" Params="" des="挖掘成功,使用技能"/>
+	<Property ID="102" Params="OverlayBufferID" des="获得BUFFER的叠加效果"/>
+	<Property ID="104" Params="" des="退出战斗"/>
+	<Property ID="105" Params="TableName,ForceID,QueryCol,SetCol,Value" des="设置表数据"/>
+	<Property ID="107" Params="" des="集结事件"/>
+	<Property ID="108" Params="" des="融合事件"/>
+	<Property ID="109" Params="EffectType,EffectTime" des="简化眩晕，冰冻等效果的配置"/>
+	<Property ID="110" Params="SkillID,PropCalcType,PropValue" des="修改技能的冷却时间,参数1:技能ID;参数2:计算类型0数值 1百分比;参数3:修改的数值"/>
+  <Property ID="111" Params="SetPropName,RandRange" des="设置随机值,参数1:要设置的属性名;参数2:随机数范围"/>
+
+  <Property ID="500" Params="DefaultHitFormula,FirstDamageFormula,SecondDamageFormula,ThirdDamageFormula,FourthDamageFormula,FifthDamageFormula,SixthDamageFormula" des="技能多次命中时获取当前命中对应的伤害,对应公式为空则取DefaultHitFormula,skill_main里面必须有ExtraHitTimes定义命中时间"/>
+	<Property ID="503" Params="TargetHurtAction,CasterHitAction,DamageValue" des="面向目标攻击"/>
+	<Property ID="504" Params="FujPropIndex,FujModifyValue,FujModifyType,FujTargetType,FujIsFormula,FujIsAll" des="技能修正对象属性索引,修正的属性值,修正的类型(0绝对值1百分比),修正的目标(0自己1目标),是否公式(0值1公式) ,是否是所有伤害属性(0:否, 1:是)"/>
+	<Property ID="505" Params="TargetType" des="修正的目标(0自己1目标)"/>
+	<Property ID="506" Params="LocationID" des="传送"/>
+	<Property ID="507" Params="LinkageType,IsFomula,DamageFomula,EffectID,ChainCount,MaxNodeDist,MaxSenderDist,EffectSpeed,ReduceMul" des="连锁伤害特效"/>
+	<Property ID="508" Params="DragBuffID,DragSpeed,DragAction" des="拖拽目标到施法者面前"/>
+	<Property ID="509" Params="ConsumeType,Consume,Damage,DamageType" des="施法资源转换为伤害"/>
+	<Property ID="510" Params="ForceTime" des="强迫攻击"/>
+	<Property ID="511" Params="" des="重置CD"/>
+	<Property ID="512" Params="ResumeValue" des="使用技能回复魔法之触"/>
+	<Property ID="513" Params="EffectPacks" des="执行其他效果"/>
+	<Property ID="514" Params="" des="制作魔物"/>
+	<Property ID="515" Params="" des="宠物融合"/>
+	<Property ID="516" Params="" des="捕获宠物，成功会变成道具"/>
+	<Property ID="520" Params="FlowerType,BlackGoldConsume" des="医师职业药粉技能"/>
+	<Property ID="521" Params="" des="神枪手开枪技能发Buffer事件"/>
+	<Property ID="530" Params="MysticNpcID" des="秘法师召唤能量法阵:NpcConfigID是创建法阵npc的configID"/>
+	<Property ID="531" Params="NTChargeBuffer,NTChargeType,NTChargeSpeed,NTChargeDist,NTAngle,NTChargeAction,NTCEndAction,NTStopType,NTFormula,NTIsCarry,NTDamageType" des="无目标冲刺(冲刺buff,冲刺类型(同闪现),冲刺速度,冲刺距离,冲刺角度:相对于朝向,冲刺动作,冲刺结束动作,是否将碰到的目标带着冲锋)"/>
+	<Property ID="532" Params="FlashType,FlashDist,FlashAngle,FlashAction" des="瞬移(闪现类型0:距离闪现,1:技能点闪现;闪现距离;闪现角度:相对于朝向;闪现动作)"/>
+	<Property ID="533" Params="SPNPCConfigID,SPNPCCreateCount,SPNPCLifeTime,SPNPCBuffID" des="指定点召唤NPC(NPC标识,NPC数量,NPC持续时间)"/>
+	<Property ID="534" Params="MulSpurtLockBuffer,MulSpurtSpeed,MulSpurtAction,MulSpurtDamageFormula,MulSpurtCount,MulSpurtDamageDecFactor,MulSpurtMaxDistance,MulSpurtExceedDistance" des="多次冲锋"/>
+	<Property ID="535" Params="" des="将目标进入战斗关系"/>
+	<Property ID="536" Params="" des="打开掉落包"/>
+	
+	<Property ID="803" Params="PRebound,ReboundDamageType,ReboundEffect" des="反弹伤害"/>
+	<Property ID="804" Params="AttackDamageRatio,AttackDamageType" des="攻击时附加额外的伤害"/>
+	<Property ID="806" Params="BeAttackDamageRatio,BeAttackDamageType" des="受击时附加伤害"/>
+	<!--<Property ID="807" Params="ResumeRatio,ResumeType" des="受击时回复生命或内力"/>-->
+	<!--<Property ID="808" Params="ImmunityDamageType,ImmunityValue,IsPercent" des="受击时免疫伤害(必须是被攻击事件), 参数1: 免疫伤害类型(1:物理,2:风,3:火, 4:雷, 5:地, 6:水, 7:暗, 8:自然, 9:蒸汽) 参数2: 免疫百分比(或点数)	参数3: 判断免疫值计算方式(1:百分比, 0:免疫点数)"/>-->
+	<Property ID="809" Params="AbsorbDamageType,AbsorbValue" des="受击时吸收x点伤害(盾,必须是被攻击事件)"/>
+	<Property ID="810" Params="ChangeValue" des="宠物变身改变FightID"/>
+	<Property ID="811" Params="" des="宠物还原变身恢复FightID"/>
+	<Property ID="812" Params="DamageType,SharedRadius,SharedRatio" des="分担伤害: 受击时周围队友分担伤害(必须是被攻击事件); 参数1:受伤害类型 参数2:分担范围 参数3:分担伤害的百分比"/>
+	<Property ID="813" Params="UpperLimitDamage" des="伤害限制: 持续时间内，目标只承受限制点数的伤害; 参数1:上限伤害点数"/>
+	<Property ID="814" Params="" des="免疫治疗"/>
+	<Property ID="815" Params="PropType,ShiftRatio" des="受击转换:受击时扣除生命转换成为其它属性扣除(盾,必须是被攻击事件). 参数1: 转换属性类型,参数2: 转换百分比"/>
+	<Property ID="816" Params="EquipPos" des="缴械功能: 目标某件装备持续无效;参数1: 装备栏位"/>
+	<Property ID="817" Params="TransDamageType,TransRate" des="伤害转移 对目标施加一个buffer，如果buffer拥有者在自己的警戒范围内，则自己收到指定类型伤害时，会平均分担在buffer拥有者身上"/>
+	<Property ID="818" Params="" des="伤害转移结束"/>
+	<Property ID="819" Params="SaveDamageType,SaveCount,SaveRate" des="吸收伤害 并将伤害附着在下一次攻击上"/>
+	<Property ID="820" Params="" des="吸收伤害结束"/>
+	<Property ID="821" Params="TriggerCount,BufferID" des="事件触发n次，执行一次增加buffer操作"/>
+	<Property ID="822" Params="Rate" des="仇恨转移"/>
+	<Property ID="823" Params="" des="仇恨转移结束"/>
+	<Property ID="824" Params="" des="受击回复魔法之触"/>
+	<Property ID="828" Params="AbsorbDamageType,AbsorbValue,CountType,NextSkillID" des="受击时吸收x点伤害(启动buff事件) 参数类型：伤害类型、伤害点、计算类型、伤害点使用完释放的技能ID"/>
+	<Property ID="829" Params="" des="受击时吸收伤害关闭(关闭buff事件)"/>
+	<Property ID="825" Params="ItemID" des="狩猎者兽魂召唤"/>
+	<Property ID="830" Params="" des="受击转换结束(关闭buff事件)"/>
+	<Property ID="831" Params="" des="队友分担伤害结束(关闭buff事件)"/>
+	<Property ID="832" Params="NoteRate" des="标记增加伤害的百分比(整数)"/>
+	<Property ID="833" Params="" des="标记目标结束"/>
+	<Property ID="836" Params="" des="变能师集中技能buff"/>
+	<Property ID="837" Params="" des="对下一个技能进行随机伤害"/>
+	<Property ID="838" Params="EffectPacks" des="对下一个技能进行随机伤害"/>
+	<Property ID="840" Params="FloatHeight,UpSpeed,FloatAction" des="开始漂浮"/>
+	<Property ID="841" Params="Speed" des="结束漂浮"/>
+	<Property ID="842" Params="ResumeRatio,ResumeType" des="受击时回复生命或内力"/>
+	<Property ID="843" Params="" des="受击回复结束"/>
+	<Property ID="844" Params="ImmunityDamageType,ImmunityValue,IsPercent" des="受击时免疫伤害(必须是被攻击事件), 参数1: 免疫伤害类型(1:物理,2:风,3:火, 4:雷, 5:地, 6:水, 7:暗, 8:自然, 9:蒸汽) 参数2: 免疫百分比(或点数)	参数3: 判断免疫值计算方式(1:百分比, 0:免疫点数)"/>
+ 	<Property ID="845" Params="" des="受击免疫结束"/>
+	<Property ID="846" Params="TriDMSpeed,TriDMHeight,TriDMAngle,TriDMAction" des="三角位移(速度,高度,角度,动作 角度是位移方向与xz面的夹角 小于90度)"/>
+	<Property ID="850" Params="PunisherRFC" des="怒火积聚和释放，0积聚，1释放"/>
+	<Property ID="852" Params="" des="招出邮箱"/>
+	<Property ID="853" Params="" des="销毁npc尸体"/>
+	<Property ID="855" Params="SitCross,BuffID" des="打坐，参数1：1打坐，0起身；参数2：打坐buffer的ID"/>
+</Object>

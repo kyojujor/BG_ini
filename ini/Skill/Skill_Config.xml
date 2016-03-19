@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+	<Property ID="2" Type="Skill_Main" Path="Skill/FBNpcASkill/Skill_Main_FBNpcA.xml"/>
+	<Property ID="3" Type="Skill_Main" Path="Skill/FBNpcBSkill/Skill_Main_FBNpcB.xml"/>
+	<Property ID="4" Type="Skill_Main" Path="Skill/NpcSkill/Skill_Main_Npc.xml"/>
+	<Property ID="5" Type="Skill_Main" Path="Skill/OtherSkill/Skill_Main_Other.xml"/>
+	<Property ID="6" Type="Skill_Main" Path="Skill/QHPlayerSkill/Skill_Main_QHPlayer.xml"/>
+	<Property ID="7" Type="Skill_Main" Path="Skill/ZQPlayerSkill/Skill_Main_ZQPlayer.xml"/>
+	<Property ID="8" Type="Skill_Main" Path="Skill/SpecialSkill/Skill_Main_Special.xml"/>
+	<Property ID="9" Type="Skill_Main" Path="Skill/TestSkill/Skill_Main_Test.xml"/>
+	<Property ID="10" Type="Skill_Display" Path="Skill/FBNpcASkill/Skill_Display_FBNpcA.xml"/>
+	<Property ID="11" Type="Skill_Display" Path="Skill/FBNpcBSkill/Skill_Display_FBNpcB.xml"/>
+	<Property ID="12" Type="Skill_Display" Path="Skill/NpcSkill/Skill_Display_Npc.xml"/>
+	<Property ID="13" Type="Skill_Display" Path="Skill/OtherSkill/Skill_Display_Other.xml"/>
+	<Property ID="14" Type="Skill_Display" Path="Skill/QHPlayerSkill/Skill_Display_QHPlayer.xml"/>
+	<Property ID="15" Type="Skill_Display" Path="Skill/ZQPlayerSkill/Skill_Display_ZQPlayer.xml"/>
+	<Property ID="16" Type="Skill_Display" Path="Skill/SpecialSkill/Skill_Display_Special.xml"/>
+	<Property ID="17" Type="Skill_Display" Path="Skill/TestSkill/Skill_Display_Test.xml"/>
+	<Property ID="18" Type="Skill_Effect" Path="Skill/FBNpcASkill/Skill_Effect_FBNpcA.xml"/>
+	<Property ID="19" Type="Skill_Effect" Path="Skill/FBNpcBSkill/Skill_Effect_FBNpcB.xml"/>
+	<Property ID="20" Type="Skill_Effect" Path="Skill/NpcSkill/Skill_Effect_Npc.xml"/>
+	<Property ID="21" Type="Skill_Effect" Path="Skill/OtherSkill/Skill_Effect_Other.xml"/>
+	<Property ID="22" Type="Skill_Effect" Path="Skill/QHPlayerSkill/Skill_Effect_QHPlayer.xml"/>
+	<Property ID="23" Type="Skill_Effect" Path="Skill/ZQPlayerSkill/Skill_Effect_ZQPlayer.xml"/>
+	<Property ID="24" Type="Skill_Effect" Path="Skill/SpecialSkill/Skill_Effect_Special.xml"/>
+	<Property ID="25" Type="Skill_Effect" Path="Skill/TestSkill/Skill_Effect_Test.xml"/>
+	<Property ID="26" Type="Skill_Formula" Path="Skill/formula.xml"/>
+	<!--Skill_MulDamage.xml   这个表客户端没有使用-->
+	<Property ID="34" Type="Skill_MulDamage" Path="Skill/FBNpcASkill/Skill_MulDamage_FBNpcA.xml"/>
+	<Property ID="35" Type="Skill_MulDamage" Path="Skill/FBNpcBSkill/Skill_MulDamage_FBNpcB.xml"/>
+	<Property ID="36" Type="Skill_MulDamage" Path="Skill/NpcSkill/Skill_MulDamage_Npc.xml"/>
+	<Property ID="37" Type="Skill_MulDamage" Path="Skill/OtherSkill/Skill_MulDamage_Other.xml"/>
+	<Property ID="38" Type="Skill_MulDamage" Path="Skill/QHPlayerSkill/Skill_MulDamage_QHPlayer.xml"/>
+	<Property ID="39" Type="Skill_MulDamage" Path="Skill/ZQPlayerSkill/Skill_MulDamage_ZQPlayer.xml"/>
+	<Property ID="40" Type="Skill_MulDamage" Path="Skill/SpecialSkill/Skill_MulDamage_Special.xml"/>
+	<Property ID="41" Type="Skill_MulDamage" Path="Skill/TestSkill/Skill_MulDamage_Test.xml"/>
+</Object>

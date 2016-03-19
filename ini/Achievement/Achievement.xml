@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- edited with XMLSpy v2010 (http://www.altova.com) by MESMERiZE (MiZE) -->
+<Object>
+	<!-- 成就编号      父成就      子模板编号         成就点数    奖励包ID   大分类         小分类        标题               描述                   图片                   									阵营       种族       地图      职业			 排序方式        是否显示   绝版标记          是否唯一-->
+	<Property ID="1" Parent="" CriteriaList="92" Points="10" Award="" MainType="1" SubType="1" Title="Achievement_title_1" Desc="Achievement_ui_1" PicRes="gui\\ZQ\\achievement\\achievement_btn_1" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<Property ID="5" Parent="" CriteriaList="66" Points="10" Award="" MainType="4" SubType="20" Title="Achievement_title_5" Desc="Achievement_ui_5" PicRes="gui\\ZQ\\achievement\\achievement_btn_1" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<Property ID="6" Parent="" CriteriaList="67" Points="20" Award="" MainType="4" SubType="20" Title="Achievement_title_6" Desc="Achievement_ui_6" PicRes="gui\\ZQ\\achievement\\achievement_btn_1" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<Property ID="7" Parent="" CriteriaList="68" Points="30" Award="" MainType="4" SubType="20" Title="Achievement_title_7" Desc="Achievement_ui_7" PicRes="gui\\ZQ\\achievement\\achievement_btn_2" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<Property ID="8" Parent="" CriteriaList="87" Points="30" Award="" MainType="6" SubType="44" Title="Achievement_title_8" Desc="Achievement_ui_8" PicRes="gui\\ZQ\\achievement\\achievement_btn_2" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<Property ID="13" Parent="" CriteriaList="55" Points="10" Award="" MainType="4" SubType="21" Title="Achievement_title_13" Desc="Achievement_ui_13" PicRes="gui\\ZQ\\achievement\\achievement_btn_1" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<Property ID="14" Parent="" CriteriaList="56" Points="100" Award="" MainType="4" SubType="21" Title="Achievement_title_14" Desc="Achievement_ui_14" PicRes="gui\\ZQ\\achievement\\achievement_btn_4" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<Property ID="15" Parent="" CriteriaList="34" Points="10" Award="" MainType="3" SubType="10" Title="Achievement_title_15" Desc="Achievement_ui_15" PicRes="gui\\ZQ\\achievement\\achievement_btn_1" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<Property ID="16" Parent="" CriteriaList="36" Points="40" Award="" MainType="3" SubType="11" Title="Achievement_title_16" Desc="Achievement_ui_16" PicRes="gui\\ZQ\\achievement\\achievement_btn_3" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<Property ID="21" Parent="" CriteriaList="101" Points="10" Award="" MainType="2" SubType="5" Title="Achievement_title_21" Desc="Achievement_ui_21" PicRes="gui\\ZQ\\achievement\\achievement_btn_1" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<!-- 学习了生活技能-->
+	<Property ID="22" Parent="" CriteriaList="73" Points="10" Award="" MainType="1" SubType="69" Title="Achievement_title_22" Desc="Achievement_ui_22" PicRes="gui\\ZQ\\achievement\\achievement_btn_1" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<!-- 扩展一次背包-->
+	<Property ID="24" Parent="" CriteriaList="103" Points="10" Award="" MainType="6" SubType="44" Title="Achievement_title_24" Desc="Achievement_ui_24" PicRes="gui\\ZQ\\achievement\\achievement_btn_1" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<!-- 使用一次界碑-->
+	<Property ID="25" Parent="" CriteriaList="104" Points="30" Award="" MainType="6" SubType="44" Title="Achievement_title_25" Desc="Achievement_ui_25" PicRes="gui\\ZQ\\achievement\\achievement_btn_2" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<!--组队1次-->
+	<Property ID="26" Parent="" CriteriaList="105" Points="30" Award="" MainType="1" SubType="69" Title="Achievement_title_26" Desc="Achievement_ui_26" PicRes="gui\\ZQ\\achievement\\achievement_btn_2" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<!--累积活跃度100-->
+	<Property ID="27" Parent="" CriteriaList="106" Points="10" Award="" MainType="4" SubType="20" Title="Achievement_title_27" Desc="Achievement_ui_27" PicRes="gui\\ZQ\\achievement\\achievement_btn_1" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<!--加入公会-->
+	<Property ID="30" Parent="" CriteriaList="111" Points="30" Award="" MainType="5" SubType="31" Title="Achievement_title_30" Desc="Achievement_ui_30" PicRes="gui\\ZQ\\achievement\\achievement_btn_2" Camp="1" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<!--余辉洞穴（简单）-->
+	<Property ID="31" Parent="" CriteriaList="112,113,114,115,116,117,118,119,120" Points="10" Award="" MainType="1" SubType="2" Title="Achievement_title_31" Desc="Achievement_ui_31" PicRes="gui\\ZQ\\achievement\\achievement_btn_1" Camp="0" Race="0" Map="0" Job="0" Collocate="1" Show="1" OldVersion="0" Only="0"/>
+	<!--装备25级-->
+	<Property ID="33" Parent="" CriteriaList="123" Points="10" Award="" MainType="1" SubType="68" Title="Achievement_title_33" Desc="Achievement_ui_33" PicRes="gui\\ZQ\\achievement\\achievement_btn_1" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<!--荣誉值-->
+	<Property ID="34" Parent="" CriteriaList="124,125,126" Points="50" Award="" MainType="5" SubType="31" Title="Achievement_title_34" Desc="Achievement_ui_34" PicRes="gui\\ZQ\\achievement\\achievement_btn_4" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<!--36级副本-->
+	<Property ID="35" Parent="" CriteriaList="127" Points="50" Award="" MainType="5" SubType="31" Title="Achievement_title_35" Desc="Achievement_ui_35" PicRes="gui\\ZQ\\achievement\\achievement_btn_4" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<!--困难副本-->
+	<Property ID="36" Parent="" CriteriaList="128" Points="30" Award="" MainType="1" SubType="68" Title="Achievement_title_36" Desc="Achievement_ui_36" PicRes="gui\\ZQ\\achievement\\achievement_btn_2" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<!--上榜-->
+	<Property ID="37" Parent="" CriteriaList="129" Points="30" Award="" MainType="1" SubType="2" Title="Achievement_title_37" Desc="Achievement_ui_37" PicRes="gui\\ZQ\\achievement\\achievement_btn_2" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<!--紫装-->
+	<Property ID="38" Parent="" CriteriaList="130" Points="40" Award="" MainType="6" SubType="44" Title="Achievement_title_38" Desc="Achievement_ui_38" PicRes="gui\\ZQ\\achievement\\achievement_btn_3" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<!--击杀玛古纳-->
+	<Property ID="39" Parent="" CriteriaList="131" Points="40" Award="" MainType="5" SubType="31" Title="Achievement_title_39" Desc="Achievement_ui_39" PicRes="gui\\ZQ\\achievement\\achievement_btn_3" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<!--挑战5次副本-->
+	<Property ID="40" Parent="" CriteriaList="132" Points="20" Award="" MainType="6" SubType="43" Title="Achievement_title_40" Desc="Achievement_ui_40" PicRes="gui\\ZQ\\achievement\\achievement_btn_1" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<!--5次PVP任务-->
+	<Property ID="42" Parent="" CriteriaList="134" Points="10" Award="" MainType="7" SubType="51" Title="Achievement_title_42" Desc="Achievement_ui_42" PicRes="gui\\ZQ\\achievement\\achievement_btn_1" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<!--事件-->
+<!--新手成就-->	
+	<Property ID="43" Parent="" CriteriaList="136" Points="50" Award="" MainType="1" SubType="1" Title="Achievement_title_43" Desc="Achievement_ui_43" PicRes="gui\\ZQ\\achievement\\achievement_btn_4" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<Property ID="44" Parent="" CriteriaList="137" Points="50" Award="" MainType="1" SubType="1" Title="Achievement_title_44" Desc="Achievement_ui_43" PicRes="gui\\ZQ\\achievement\\achievement_btn_4" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<Property ID="45" Parent="" CriteriaList="138" Points="50" Award="" MainType="1" SubType="1" Title="Achievement_title_45" Desc="Achievement_ui_43" PicRes="gui\\ZQ\\achievement\\achievement_btn_4" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<Property ID="46" Parent="" CriteriaList="139" Points="50" Award="" MainType="1" SubType="1" Title="Achievement_title_46" Desc="Achievement_ui_43" PicRes="gui\\ZQ\\achievement\\achievement_btn_4" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<Property ID="47" Parent="" CriteriaList="140" Points="50" Award="" MainType="1" SubType="1" Title="Achievement_title_47" Desc="Achievement_ui_43" PicRes="gui\\ZQ\\achievement\\achievement_btn_4" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<Property ID="48" Parent="" CriteriaList="141" Points="50" Award="" MainType="1" SubType="1" Title="Achievement_title_48" Desc="Achievement_ui_43" PicRes="gui\\ZQ\\achievement\\achievement_btn_4" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<Property ID="49" Parent="" CriteriaList="142" Points="50" Award="" MainType="1" SubType="1" Title="Achievement_title_49" Desc="Achievement_ui_43" PicRes="gui\\ZQ\\achievement\\achievement_btn_4" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<Property ID="50" Parent="" CriteriaList="143" Points="50" Award="" MainType="1" SubType="1" Title="Achievement_title_50" Desc="Achievement_ui_43" PicRes="gui\\ZQ\\achievement\\achievement_btn_4" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<Property ID="51" Parent="" CriteriaList="144" Points="50" Award="" MainType="1" SubType="1" Title="Achievement_title_51" Desc="Achievement_ui_43" PicRes="gui\\ZQ\\achievement\\achievement_btn_4" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<Property ID="52" Parent="" CriteriaList="145" Points="50" Award="" MainType="1" SubType="1" Title="Achievement_title_52" Desc="Achievement_ui_43" PicRes="gui\\ZQ\\achievement\\achievement_btn_4" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<Property ID="53" Parent="" CriteriaList="146" Points="50" Award="" MainType="1" SubType="1" Title="Achievement_title_53" Desc="Achievement_ui_43" PicRes="gui\\ZQ\\achievement\\achievement_btn_4" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<Property ID="54" Parent="" CriteriaList="147" Points="50" Award="" MainType="6" SubType="44" Title="Achievement_title_54" Desc="Achievement_ui_44" PicRes="gui\\ZQ\\achievement\\achievement_btn_4" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<Property ID="55" Parent="" CriteriaList="148" Points="50" Award="" MainType="6" SubType="44" Title="Achievement_title_55" Desc="Achievement_ui_44" PicRes="gui\\ZQ\\achievement\\achievement_btn_4" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<Property ID="56" Parent="" CriteriaList="149" Points="50" Award="" MainType="6" SubType="44" Title="Achievement_title_56" Desc="Achievement_ui_44" PicRes="gui\\ZQ\\achievement\\achievement_btn_4" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<Property ID="57" Parent="" CriteriaList="150" Points="50" Award="" MainType="6" SubType="44" Title="Achievement_title_57" Desc="Achievement_ui_44" PicRes="gui\\ZQ\\achievement\\achievement_btn_4" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<Property ID="58" Parent="" CriteriaList="151" Points="50" Award="" MainType="6" SubType="44" Title="Achievement_title_58" Desc="Achievement_ui_44" PicRes="gui\\ZQ\\achievement\\achievement_btn_4" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<Property ID="59" Parent="" CriteriaList="152" Points="50" Award="" MainType="6" SubType="44" Title="Achievement_title_59" Desc="Achievement_ui_44" PicRes="gui\\ZQ\\achievement\\achievement_btn_4" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<Property ID="60" Parent="" CriteriaList="153" Points="50" Award="" MainType="6" SubType="44" Title="Achievement_title_60" Desc="Achievement_ui_44" PicRes="gui\\ZQ\\achievement\\achievement_btn_4" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<Property ID="61" Parent="" CriteriaList="154" Points="50" Award="" MainType="6" SubType="44" Title="Achievement_title_61" Desc="Achievement_ui_44" PicRes="gui\\ZQ\\achievement\\achievement_btn_4" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<Property ID="62" Parent="" CriteriaList="155" Points="50" Award="" MainType="6" SubType="44" Title="Achievement_title_62" Desc="Achievement_ui_44" PicRes="gui\\ZQ\\achievement\\achievement_btn_4" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<Property ID="63" Parent="" CriteriaList="156" Points="50" Award="" MainType="6" SubType="44" Title="Achievement_title_63" Desc="Achievement_ui_44" PicRes="gui\\ZQ\\achievement\\achievement_btn_4" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<Property ID="64" Parent="" CriteriaList="157" Points="50" Award="" MainType="6" SubType="44" Title="Achievement_title_64" Desc="Achievement_ui_44" PicRes="gui\\ZQ\\achievement\\achievement_btn_4" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<Property ID="65" Parent="" CriteriaList="158" Points="50" Award="" MainType="6" SubType="42" Title="Achievement_title_65" Desc="Achievement_ui_45" PicRes="gui\\ZQ\\achievement\\achievement_btn_4" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<Property ID="66" Parent="" CriteriaList="159" Points="50" Award="" MainType="6" SubType="42" Title="Achievement_title_66" Desc="Achievement_ui_45" PicRes="gui\\ZQ\\achievement\\achievement_btn_4" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<Property ID="67" Parent="" CriteriaList="160" Points="50" Award="" MainType="6" SubType="42" Title="Achievement_title_67" Desc="Achievement_ui_67" PicRes="gui\\ZQ\\achievement\\achievement_btn_4" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<Property ID="68" Parent="" CriteriaList="70" Points="50" Award="" MainType="1" SubType="69" Title="Achievement_title_68" Desc="Achievement_ui_68" PicRes="gui\\ZQ\\achievement\\achievement_btn_4" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<Property ID="69" Parent="" CriteriaList="161" Points="50" Award="" MainType="1" SubType="68" Title="Achievement_title_69" Desc="Achievement_ui_69" PicRes="gui\\ZQ\\achievement\\achievement_btn_4" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<Property ID="70" Parent="" CriteriaList="162" Points="50" Award="" MainType="1" SubType="68" Title="Achievement_title_70" Desc="Achievement_ui_69" PicRes="gui\\ZQ\\achievement\\achievement_btn_4" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<Property ID="71" Parent="" CriteriaList="163" Points="50" Award="" MainType="1" SubType="3" Title="Achievement_title_71" Desc="Achievement_ui_71" PicRes="gui\\ZQ\\achievement\\achievement_btn_4" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<Property ID="72" Parent="" CriteriaList="164" Points="50" Award="" MainType="1" SubType="3" Title="Achievement_title_72" Desc="Achievement_ui_71" PicRes="gui\\ZQ\\achievement\\achievement_btn_4" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<Property ID="73" Parent="" CriteriaList="165" Points="50" Award="" MainType="1" SubType="3" Title="Achievement_title_73" Desc="Achievement_ui_71" PicRes="gui\\ZQ\\achievement\\achievement_btn_4" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<Property ID="74" Parent="" CriteriaList="166" Points="50" Award="" MainType="1" SubType="3" Title="Achievement_title_74" Desc="Achievement_ui_71" PicRes="gui\\ZQ\\achievement\\achievement_btn_4" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<Property ID="75" Parent="" CriteriaList="167" Points="50" Award="" MainType="1" SubType="3" Title="Achievement_title_75" Desc="Achievement_ui_71" PicRes="gui\\ZQ\\achievement\\achievement_btn_4" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<Property ID="76" Parent="" CriteriaList="168" Points="50" Award="" MainType="1" SubType="3" Title="Achievement_title_76" Desc="Achievement_ui_71" PicRes="gui\\ZQ\\achievement\\achievement_btn_4" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+	<Property ID="77" Parent="" CriteriaList="169" Points="50" Award="" MainType="1" SubType="3" Title="Achievement_title_77" Desc="Achievement_ui_71" PicRes="gui\\ZQ\\achievement\\achievement_btn_4" Camp="0" Race="0" Map="0" Job="0" Collocate="2" Show="1" OldVersion="0" Only="0"/>
+</Object>
+

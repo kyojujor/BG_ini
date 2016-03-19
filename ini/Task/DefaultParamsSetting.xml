@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+<Property ID = "main_text" TitleID = "title_TaskID" ContextID = "context_TaskID" TaskTargetID = "target_TaskID" LineNextInfo = "next_TaskID" SubmitNpcEx = "submitnpcex_TaskID" hunter_TrackInfo = "hunterinfo_步骤ID" collect_TrackInfo = "collectinfo_步骤ID" convoy_TrackInfo = "convoyinfo_步骤ID" interact_TrackInfo = "interactinfo_步骤ID" useitem_TrackInfoID = "useiteminfo_步骤ID" story_TrackInfoID = "storyinfo_步骤ID" question_TrackInfoID = "questioninfo_步骤ID" />
+<Property ID = "dialog_text" AcceptDialogId = "accept_TaskID_1,menu_TaskID_1" CanAcceptMenu = "CanAcceptMenu_TaskID" CompleteDialogID = "complete_TaskID" CompleteMenu = "completemenu_TaskID" QiecuoTitle = "QiecuoTitl_步骤ID" QiecuoMenu = "QiecuoMenu_步骤ID" DialogID = "DialogID_步骤ID" OkMenu = "okmenu_步骤ID" contextId = "story_步骤ID" titleId = "storymenu_步骤ID" ZZAnswerText1 = "ZZAnswerText1_题目ID" ZZAnswerText2 = "ZZAnswerText2_题目ID" ZZAnswerText3 = "ZZAnswerText3_题目ID" />
+</Object>

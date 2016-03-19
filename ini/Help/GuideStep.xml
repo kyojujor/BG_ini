@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2010 (http://www.altova.com) by hahah (memem) -->
+<Object>
+	<!--引导步骤配置-->
+	<!--
+	StepId：步骤；（唯一标识引导功能的ID，由0开始，最大不超过63）
+	GuideFun：引导功能；(字符串，表明引导的功能)
+	PreStep：前置流程（不需要流程触发的不填或-1）
+	Param：引导参数（不许参数不填或为空）
+	-->
+	<Property StepId="0" GuideFun="guide_first" Param=""/>
+	<Property StepId="1" GuideFun="guide_npcstate" Param="TaskNpc"/>
+	<Property StepId="2" GuideFun="guide_move" PreStep="1" Param=""/>
+	<Property StepId="3" GuideFun="guide_quest1accept" Param="Task1"/>
+	<Property StepId="4" GuideFun="guide_quest1submit" Param="Task1"/>
+	<Property StepId="5" GuideFun="guide_quest2accept" Param="Task2"/>
+	<Property StepId="6" GuideFun="guide_quest2submit" Param="Task2"/>
+	<Property StepId="7" GuideFun="guide_quest3accept" Param="Task3"/>
+	<Property StepId="8" GuideFun="guide_quest3submit" Param="Task3"/>
+	<Property StepId="9" GuideFun="guide_questtrace" Param="Task2"/>
+	<Property StepId="10" GuideFun="guide_pickup" Param="Task3"/>
+	<Property StepId="11" GuideFun="guide_equipobtain" Param="Equip"/>
+	<Property StepId="12" GuideFun="guide_equipmount" Param="Equip"/>
+	<Property StepId="13" GuideFun="guide_skill" PreStep="12"/>
+</Object>

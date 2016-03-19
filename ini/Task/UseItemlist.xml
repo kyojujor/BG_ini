@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+	<Property ID="15001" Name="令人不安的信号" Kind="15" AddPro="1" DeleteSelf="0" ItemID="TaskUse_00035A" ProCount="1" SceneID="2" TrackInfoID="useitem_15001" Water="0"/>
+	<Property ID="2001" Name="秘法容器" Kind="2" AddPro="1" DeleteSelf="0" ItemID="TaskUse_00040A" ProCount="2" SceneID="1" TrackInfoID="useitem_2001" Water="0"/>
+	<Property ID="2002" Name="机甲充能" Kind="2" AddPro="1" DeleteSelf="0" ItemID="TaskUse_00041A" LockTarget="1" ProCount="1" SceneID="1" TrackInfoID="useitem_2002" Water="0" TargetConfig="npc_zqm002_0038"/>
+	<Property ID="2003" Name="背叛者都没有好下场" Kind="2" AddPro="1" DeleteSelf="0" ItemID="TaskUse_00042A" LockTarget="1" ProCount="1" SceneID="1" TrackInfoID="useitem_2003" Water="0" TargetConfig="npc_zqm002_0083"/>
+	<Property ID="2004" Name="这里有鬼" Kind="2" AddPro="1" DeleteSelf="0" ItemID="TaskUse_00044A" LockTarget="1" ProCount="6" SceneID="1" TrackInfoID="useitem_2004" Water="0" TargetConfig="npc_zqm002_0053"/>
+	<Property ID="2005" Name="安息吧,勇士" Kind="2" AddPro="1" DeleteSelf="0" ItemID="TaskUse_00043A" LockTarget="0" ProCount="2" SceneID="1" TrackInfoID="useitem_2005" Water="0"/>
+	<Property ID="3007" Name="大地在骚动" Kind="3" AddPro="1" DeleteSelf="0" ItemID="TaskUse_00036A" ProCount="1" SceneID="1" TrackInfoID="useitem_3007" Water="0"/>
+	<Property ID="3009" Name="岩壁裂痕" Kind="3" AddPro="1" DeleteSelf="0" ItemID="TaskUse_00037A" ProCount="1" SceneID="1" TrackInfoID="useitem_3009" Water="0"/>
+	<Property ID="3038" Name="救助受伤的士兵" Kind="3" AddPro="1" DeleteSelf="0" ItemID="TaskUse_00038A" LockTarget="1" ProCount="6" SceneID="1" TrackInfoID="useitem_3038" Water="0" TargetConfig="npc_zqm003_0023"/>
+	<Property ID="3039" Name="点燃稻草" Kind="3" AddPro="1" DeleteSelf="0" ItemID="TaskUse_00039A" LockTarget="1" ProCount="6" SceneID="1" TrackInfoID="useitem_3039" Water="0" TargetConfig="Organ_zqm003_001"/>
+	<Property ID="3053" Name="大军开拔" Kind="3" AddPro="1" DeleteSelf="0" ItemID="TaskUse_00045A" LockTarget="1" ProCount="1" SceneID="1" TrackInfoID="useitem_3053" Water="0" TargetConfig="Organ_zqm003_002"/>
+	<Property ID="3058" Name="终结者" Kind="3" AddPro="1" DeleteSelf="0" ItemID="TaskUse_00103A" LockTarget="1" ProCount="1" SceneID="1" TrackInfoID="useitem_3058" Water="0" TargetConfig="Organ_zqm003_003"/>
+	<Property ID="4001" Name="一个也不能少" Kind="4" AddPro="1" DeleteSelf="0" ItemID="TaskUse_00047A" LockTarget="1" ProCount="10" SceneID="1" TrackInfoID="useitem_4001" Water="0" TargetConfig="npc_zqm004_0078"/>
+	<Property ID="4002" Name="炸毁工厂" Kind="4" AddPro="1" DeleteSelf="0" ItemID="TaskUse_00048A" LockTarget="1" ProCount="4" SceneID="1" TrackInfoID="useitem_4002" Water="0" TargetConfig="Organ_zqm004_001"/>
+	<Property ID="9040" Name="切断能源" Kind="9" AddPro="1" DeleteSelf="0" ItemID="TaskUse_00049A" LockTarget="1" ProCount="7" SceneID="1" TrackInfoID="useitem_9040" Water="0" TargetConfig="Organ_zqm005_001"/>
+	<Property ID="9053" Name="净化污染" Kind="9" AddPro="1" DeleteSelf="0" ItemID="TaskUse_00050A" LockTarget="1" ProCount="6" SceneID="1" TrackInfoID="useitem_9053" Water="0" TargetConfig="Giving_zqm005_003"/>
+	<Property ID="9063" Name="毁灭混沌" Kind="9" AddPro="1" DeleteItems="TaskUse_00051A" DeleteSelf="1" ItemID="TaskUse_00051A" LockTarget="1" ProCount="1" SceneID="1" TrackInfoID="useitem_9063" Water="0" TargetConfig="Organ_zqm005_003"/>
+	<Property ID="5001" Name="生物检测仪" Kind="5" AddPro="1" ItemID="TaskUse_00056A" LockTarget="1" ProCount="1" SceneID="3" TrackInfoID="useitem_5001" Water="0" TargetConfig="monster_zlm001_0011"/>
+	<Property ID="5002" Name="生物检测仪" Kind="5" AddPro="1" ItemID="TaskUse_00056A" LockTarget="1" ProCount="1" SceneID="3" TrackInfoID="useitem_5002" Water="0" TargetConfig="monster_zlm001_0008"/>
+	<Property ID="5003" Name="生物检测仪" Kind="5" AddPro="1" ItemID="TaskUse_00056A" LockTarget="1" ProCount="1" SceneID="3" TrackInfoID="useitem_5003" Water="0" TargetConfig="monster_zlm001_0009"/>
+	<Property ID="5004" Name="生物检测仪" Kind="5" AddPro="1" ItemID="TaskUse_00056A" LockTarget="1" ProCount="1" SceneID="3" TrackInfoID="useitem_5004" Water="0" TargetConfig="monster_zlm001_0012"/>
+	<Property ID="5005" Name="生物检测仪" Kind="5" AddPro="1" ItemID="TaskUse_00056A" LockTarget="1" ProCount="1" SceneID="3" TrackInfoID="useitem_5005" Water="0" TargetConfig="monster_zlm001_0010"/>
+	<Property ID="5006" Name="注射抗体疫苗" Kind="5" AddPro="1" ItemID="TaskUse_00057A" LockTarget="1" ProCount="5" SceneID="3" TrackInfoID="useitem_5006" Water="0" TargetConfig="monster_zlm001_0008"/>
+	<Property ID="5007" Name="注射抗体疫苗" Kind="5" AddPro="1" ItemID="TaskUse_00057A" LockTarget="1" ProCount="5" SceneID="3" TrackInfoID="useitem_5007" Water="0" TargetConfig="monster_zlm001_0010"/>
+	<Property ID="5008" Name="注射抗体疫苗" Kind="5" AddPro="1" ItemID="TaskUse_00057A" LockTarget="1" ProCount="5" SceneID="3" TrackInfoID="useitem_5008" Water="0" TargetConfig="monster_zlm001_0012"/>
+	<Property ID="5009" Name="觉醒仪式" Kind="5" AddPro="1" ItemID="TaskUse_00055A" LockTarget="0" ProCount="2" SceneID="3" TrackInfoID="useitem_5009" Water="0"/>
+	<Property ID="5010" Name="审判之剑" Kind="5" AddPro="1" DeleteSelf="0" ItemID="TaskUse_00052A" ProCount="1" SceneID="3" TrackInfoID="useitem_5004" Water="0"/>
+	<Property ID="5011" Name="再让他们“死”一次" Kind="5" AddPro="1" DeleteSelf="0" ItemID="TaskUse_00053A" ProCount="1" SceneID="3" TrackInfoID="useitem_5005" Water="0"/>
+	<Property ID="5012" Name="七恶之心" Kind="5" AddPro="1" DeleteSelf="0" ItemID="TaskUse_00054A" ProCount="1" SceneID="3" TrackInfoID="useitem_5006" Water="0" AddItems="TaskUse_00065A"/>
+	<Property ID="19020" Name="破坏魔法阵" Kind="19" AddPro="1" DeleteSelf="0" ItemID="TaskUse_00062A" LockTarget="1" ProCount="6" SceneID="3" TrackInfoID="useitem_19020" Water="0" TargetConfig="Organ_zlm002_002"/>
+	<Property ID="19044" Name="示警" Kind="19" AddPro="1" DeleteSelf="0" ItemID="TaskUse_00063A" LockTarget="1" ProCount="1" SceneID="3" TrackInfoID="useitem_19044" Water="0" TargetConfig="Organ_zlm002_003"/>
+	<Property ID="19048" Name="渡鸦传信" Kind="19" AddPro="1" DeleteSelf="0" ItemID="TaskUse_00064A" LockTarget="1" ProCount="1" SceneID="3" TrackInfoID="useitem_19048" Water="0" TargetConfig="Organ_zlm002_004"/>
+	<Property ID="19084" Name="治愈伤兵" Kind="19" AddPro="1" DeleteSelf="0" ItemID="TaskUse_00058A" LockTarget="1" ProCount="5" SceneID="3" TrackInfoID="useitem_19084" Water="0" TargetConfig="npc_zlm002_0004"/>
+	<Property ID="19127" Name="凯歌" Kind="19" AddPro="1" ItemID="TaskUse_00060A" LockTarget="0" ProCount="1" SceneID="3" TrackInfoID="useitem_19127" Water="0"/>
+	<Property ID="19131" Name="炸毁集会所" Kind="19" AddPro="1" DeleteItems="TaskUse_00061A" DeleteSelf="1" ItemID="TaskUse_00061A" LockTarget="1" SceneID="3" TrackInfoID="useitem_19131" Water="0" TargetConfig="Organ_zlm002_001"/>
+	<Property ID="10002" Name="寻找法师" Kind="10" AddPro="1" DeleteSelf="0" ItemID="TaskUse_00068A" ProCount="1" SceneID="5" TrackInfoID="useitem_10002" Water="0"/>
+	<Property ID="10001" Name="祭坛施法" Kind="10" AddPro="1" DeleteSelf="0" ItemID="TaskUse_00069A" LockTarget="1" ProCount="1" SceneID="5" TrackInfoID="useitem_10001" Water="0" TargetConfig="Organ_zlm007_001"/>
+	<Property ID="8001" Name="解救朋友" Kind="8" AddPro="1" ItemID="TaskUse_00070A" LockTarget="1" ProCount="5" SceneID="5" TrackInfoID="useitem_8001" Water="0" TargetConfig="npc_zlm008_0084"/>
+	<Property ID="8002" Name="破坏法阵" Kind="8" AddPro="1" DeleteSelf="1" ItemID="TaskUse_00080A" LockTarget="1" ProCount="1" SceneID="5" TrackInfoID="useitem_8002" Water="0" TargetConfig="Organ_zlm008_001"/>
+	<Property ID="8003" Name="机械改造" Kind="8" AddPro="1" DeleteSelf="1" ItemID="TaskUse_00075A" LockTarget="1" ProCount="1" SceneID="5" TrackInfoID="useitem_8003" Water="0" TargetConfig="npc_zlm008_0109"/>
+	<Property ID="8004" Name="机械改造" Kind="8" AddPro="1" DeleteSelf="0" ItemID="TaskUse_00077A" LockTarget="1" ProCount="1" SceneID="5" TrackInfoID="useitem_8004" Water="0" TargetConfig="npc_zlm008_0109"/>
+	<Property ID="8005" Name="机械改造" Kind="8" AddPro="1" DeleteSelf="1" ItemID="TaskUse_00078A" LockTarget="1" ProCount="1" SceneID="5" TrackInfoID="useitem_8005" Water="0" TargetConfig="npc_zlm008_0109"/>
+	<Property ID="8006" Name="机械改造" Kind="8" AddPro="1" DeleteSelf="1" ItemID="TaskUse_00079A" LockTarget="1" ProCount="1" SceneID="5" TrackInfoID="useitem_8006" Water="0" TargetConfig="npc_zlm008_0109"/>
+	<Property ID="8007" Name="机械改造" Kind="8" AddPro="1" DeleteSelf="1" ItemID="TaskUse_00076A" LockTarget="1" ProCount="1" SceneID="5" TrackInfoID="useitem_8007" Water="0" TargetConfig="npc_zlm008_0109"/>
+	<Property ID="8008" Name="帮助恢复" Kind="8" AddPro="1" DeleteSelf="1" ItemID="TaskUse_00071A" LockTarget="1" ProCount="1" SceneID="5" TrackInfoID="useitem_8008" Water="0" TargetConfig="npc_zlm008_0085"/>
+	<Property ID="8009" Name="帮助恢复" Kind="8" AddPro="1" DeleteSelf="1" ItemID="TaskUse_00072A" LockTarget="1" ProCount="1" SceneID="5" TrackInfoID="useitem_8009" Water="0" TargetConfig="npc_zlm008_0085"/>
+	<Property ID="8010" Name="解救朋友" Kind="8" AddPro="1" DeleteSelf="0" ItemID="TaskUse_00082A" LockTarget="1" ProCount="5" SceneID="5" TrackInfoID="useitem_8010" Water="0" TargetConfig="npc_zlm008_0084"/>
+	<Property ID="8011" Name="破坏法阵" Kind="8" AddPro="1" DeleteSelf="1" ItemID="TaskUse_00090A" LockTarget="1" ProCount="1" SceneID="5" TrackInfoID="useitem_8011" Water="0" TargetConfig="Organ_zlm008_001"/>
+	<Property ID="8012" Name="机械改造" Kind="8" AddPro="1" DeleteSelf="1" ItemID="TaskUse_00085A" LockTarget="1" ProCount="1" SceneID="5" TrackInfoID="useitem_8012" Water="0" TargetConfig="npc_zlm008_0110"/>
+	<Property ID="8013" Name="机械改造" Kind="8" AddPro="1" DeleteSelf="1" ItemID="TaskUse_00087A" LockTarget="1" ProCount="1" SceneID="5" TrackInfoID="useitem_8013" Water="0" TargetConfig="npc_zlm008_0110"/>
+	<Property ID="8014" Name="机械改造" Kind="8" AddPro="1" DeleteSelf="1" ItemID="TaskUse_00088A" LockTarget="1" ProCount="1" SceneID="5" TrackInfoID="useitem_8014" Water="0" TargetConfig="npc_zlm008_0110"/>
+	<Property ID="8015" Name="机械改造" Kind="8" AddPro="1" DeleteSelf="1" ItemID="TaskUse_00089A" LockTarget="1" ProCount="1" SceneID="5" TrackInfoID="useitem_8015" Water="0" TargetConfig="npc_zlm008_0110"/>
+	<Property ID="8016" Name="机械改造" Kind="8" AddPro="1" DeleteSelf="1" ItemID="TaskUse_00086A" LockTarget="1" ProCount="1" SceneID="5" TrackInfoID="useitem_8016" Water="0" TargetConfig="npc_zlm008_0110"/>
+	<Property ID="8017" Name="帮助恢复" Kind="8" AddPro="1" DeleteItems="TaskUse_00083A" DeleteSelf="1" ItemID="TaskUse_00083A" LockTarget="1" ProCount="1" SceneID="5" TrackInfoID="useitem_8017" Water="0" TargetConfig="npc_zlm008_0085"/>
+	<Property ID="8018" Name="帮助恢复" Kind="8" AddPro="1" DeleteItems="TaskUse_00084A" DeleteSelf="1" ItemID="TaskUse_00084A" LockTarget="1" ProCount="1" SceneID="5" TrackInfoID="useitem_8018" Water="0" TargetConfig="npc_zlm008_0085"/>
+	<Property ID="8019" Name="归还水晶谷" Kind="8" AddPro="1" DeleteItems="TaskUse_00073A" DeleteSelf="1" ItemID="TaskUse_00073A" LockTarget="0" ProCount="1" SceneID="5" TrackInfoID="useitem_8019" Water="0"/>
+	<Property ID="8020" Name="破坏运输" Kind="8" AddPro="1" DeleteItems="TaskUse_00074A" DeleteSelf="1" ItemID="TaskUse_00074A" LockTarget="1" ProCount="4" SceneID="5" TrackInfoID="useitem_8020" Water="0" TargetConfig="npc_zlm008_0088"/>
+	<Property ID="16027" Name="破坏蒸汽魔法设施" Kind="16" AddPro="1" DeleteItems="TaskUse_00066A" DeleteSelf="1" ItemID="TaskUse_00066A" LockTarget="1" ProCount="1" SceneID="4" TrackInfoID="useitem_16027" Water="0" TargetConfig="Organ_zlm006_001"/>
+	<Property ID="16038" Name="假情报" Kind="16" AddPro="1" DeleteSelf="0" ItemID="TaskUse_00081A" LockTarget="0" ProCount="1" SceneID="4" TrackInfoID="useitem_16038" Water="0"/>
+	<Property ID="16056" Name="初试锋芒" Kind="16" AddPro="1" DeleteSelf="0" ItemID="TaskUse_00067A" LockTarget="1" ProCount="1" SceneID="4" TrackInfoID="useitem_16066" Water="0" TargetConfig="Organ_zlm006_002"/>
+	<Property ID="7001" Name="战后休养" Kind="7" AddPro="1" ItemID="TaskUse_00091A" LockTarget="1" ProCount="3" SceneID="5" TrackInfoID="useitem_7001" Water="0" TargetConfig="npc_zlm011_0123"/>
+	<Property ID="7002" Name="破坏岗哨" Kind="7" AddPro="1" DeleteItems="TaskUse_00094A" DeleteSelf="1" ItemID="TaskUse_00094A" ProCount="1" SceneID="5" TrackInfoID="useitem_7002" Water="0"/>
+	<Property ID="7003" Name="战后休养" Kind="7" AddPro="1" ItemID="TaskUse_00093A" LockTarget="1" ProCount="3" SceneID="5" TrackInfoID="useitem_7003" Water="0" TargetConfig="npc_zlm011_0124"/>
+	<Property ID="7004" Name="破坏岗哨" Kind="7" AddPro="1" DeleteItems="TaskUse_00095A" DeleteSelf="1" ItemID="TaskUse_00095A" ProCount="1" SceneID="5" TrackInfoID="useitem_7004" Water="0"/>
+	<Property ID="7005" Name="拯救族人" Kind="7" AddPro="1" ItemID="TaskUse_00096A" ProCount="1" SceneID="5" TrackInfoID="useitem_7005" Water="0" TargetConfig="npc_zlm011_0122"/>
+	<Property ID="7006" Name="祭拜大地女神" Kind="7" AddPro="1" DeleteItems="TaskUse_00097A" DeleteSelf="1" ItemID="TaskUse_00097A" ProCount="1" TrackInfoID="useitem_7006" Water="0"/>
+	<Property ID="11001" Name="兽夹" Kind="11" AddPro="1" DeleteSelf="1" ItemID="TaskUse_00098A" LockTarget="0" ProCount="6" SceneID="6" TrackInfoID="useitem_11001" Water="0"/>
+	<Property ID="26001" Name="英雄的祭奠" Kind="26" AddPro="1" DeleteSelf="1" ItemID="TaskUse_00099A" LockTarget="1" ProCount="1" SceneID="3" TrackInfoID="useitem_26001" Water="0" TargetConfig="npc_zlm015_0079"/>
+	<Property ID="26002" Name="破坏蛇卵" Kind="26" AddPro="1" ItemID="TaskUse_00100A" LockTarget="1" ProCount="3" SceneID="3" TrackInfoID="useitem_26002" Water="0" TargetConfig="Organ_zlm015_001"/>
+	<Property ID="26003" Name="收集数据" Kind="26" AddPro="1" ItemID="TaskUse_00101A" LockTarget="0" ProCount="3" SceneID="3" TrackInfoID="useitem_26003" Water="0"/>
+	<Property ID="26101" Name="包扎伤员" Kind="26" AddPro="1" ItemID="TaskUse_00102A" ProCount="1" SceneID="3" TrackInfoID="useitem_26101" Water="0" TargetConfig="npc_zlm015_0080"/>
+	<Property ID="58200" Name="引导任务一" Kind="58" AddPro="1" DeleteSelf="0" LockTarget="1" ProCount="8" SceneID="1" TrackInfoID="useitem_58200" Water="0"/>
+	<Property ID="1564" Name="机械加油" Kind="1" AddPro="1" DeleteSelf="1" ItemID="TaskUse_00108A" LockTarget="1" ProCount="99" SceneID="1" TrackInfoID="useitem_1564" Water="0" TargetConfig="monster_zqS001_0001"/>
+</Object>
+
+

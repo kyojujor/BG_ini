@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes"?>
+<Object>
+	<!--      交通工具编号     注释          模型路径                       服务器速度      客户端模拟速度（服务器要大于客户端） -->
+	<Property ID ="Mache00001" Name = "马车" Resource = "Npc\qh_horse_0001"	FlySpeed = "17" SimulateSpeed = "15"/>
+	<Property ID ="Mache00002" Name = "马车" Resource = "Npc\qh_trans_skyF_001" FlySpeed = "17" SimulateSpeed = "15"/>
+	<Property ID ="Mache00003" Name = "马车" Resource = "Npc\qh_trans_skyD_002_2" FlySpeed = "17" SimulateSpeed = "15"/>
+	<Property ID ="Mache00004" Name = "马车" Resource = "Npc\zq_trans_skyF_001" FlySpeed = "17" SimulateSpeed = "15"/>
+</Object>

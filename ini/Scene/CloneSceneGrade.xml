@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2010 (http://www.altova.com) by MESMERiZE (MiZE) -->
+<!-- sss	通关分数>=1000*系数*0.95		
+
+ss	1000*系数*0.95>通关分数>=1000*系数*0.9		
+
+s	1000*系数*0.9>通关分数>=1000*系数*0.8		
+
+a	1000*系数*0.8>通关分数>=1000*系数*0.7		
+
+b	1000*系数*0.7>通关分数>=1000*系数*0.6		
+
+c	1000*系数*0.6>通关分数>=1000*系数*0.5		
+
+d	1000*系数*0.5>通关分数>=1000*系数*0.4		
+
+e	通关分数<1000*系数*0.4		
+
+
+
+
+
+读取游戏数据		
+
+AAA	实际通关时间	25
+
+BBB	实际BOSS时间	10
+
+CCC	实际死亡次数	2
+
+
+
+TargetPassTime:目标通关时间
+
+NormalPassTime:标准通关时间
+
+TargetBossTime:目标BOSS时间
+
+NormalBossTime:标准BOSS时间
+
+DeadCount:标准死亡次数
+
+DeadDecrease:死亡扣除标准分
+
+ScoreFactor:总分系数 (基础分数1000)
+
+
+
+
+
+系数	
+
+系数a	1
+
+系数b	1
+
+系数c	0.9
+
+
+
+
+
+
+
+最后计算分数分为2种情况：
+
+
+
+1.如果没有设置触发器分数：=max【min（(1)+(2)-(3)，1000*总分系数），0】					
+
+						
+
+（1）通关分数	=	1000*总分系数*0.6*(0.3+公式1)				
+
+	公式1	0.7*{1-min【max(AAA-目标通关时间,0)/标准通关时间,1】}*系数a				
+
+						
+
+（2）BOSS分数	=	1000*总分系数*0.4*（0.3+公式2）				
+
+	公式2	0.7*{1-min【max(BBB-目标BOSS时间,0)/标准BOSS时间,1】}*系数b				
+
+						
+
+（3）死亡惩罚分数	=	min{公式3,公式4}				
+
+	公式3	max【(CCC-标准死亡次数),0】^系数c*死亡扣除标准分				
+
+	公式4	（1000*总分系数*0.6*0.3+1000*总分系数*0.4*0.3）				
+
+
+
+2.如果设置了触发器分数：=max【min（(1)+(2)-(3)+(4)，1000*总分系数），0】
+
+
+
+（1）通关分数	=	1000*总分系数*0.5*(0.3+公式1)				
+
+	公式1	0.7*{1-min【max(AAA-目标通关时间,0)/标准通关时间,1】}*系数a				
+
+						
+
+（2）BOSS分数	=	1000*总分系数*0.3*（0.3+公式2）				
+
+	公式2	0.7*{1-min【max(BBB-目标BOSS时间,0)/标准BOSS时间,1】}*系数b				
+
+						
+
+（3）死亡惩罚分数	=	min{公式3,公式4}				
+
+	公式3	max【(CCC-标准死亡次数),0】^系数c*死亡扣除标准分				
+
+	公式4	（1000*总分系数*0.6*0.3+1000*总分系数*0.4*0.3）	
+
+
+
+（4）触发器时间	=	min（触发器配置数值，1000*总分系数*0.2）	
+
+
+
+-->
+<Object>
+	<Property ID="101_0" Name="desc_map_101" TargetPassTime="10" NormalPassTime="40" TargetBossTime="100" NormalBossTime="5" DeadCount="2" DeadDecrease="0" ScoreFactor="0.1"/>
+	<Property ID="101_1" Name="desc_map_101" TargetPassTime="10" NormalPassTime="40" TargetBossTime="100" NormalBossTime="5" DeadCount="2" DeadDecrease="0" ScoreFactor="0.1"/>
+	<Property ID="101_2" Name="desc_map_101" TargetPassTime="10" NormalPassTime="40" TargetBossTime="100" NormalBossTime="5" DeadCount="2" DeadDecrease="0" ScoreFactor="0.1"/>
+	<Property ID="101_3" Name="desc_map_101" TargetPassTime="10" NormalPassTime="40" TargetBossTime="100" NormalBossTime="5" DeadCount="2" DeadDecrease="0" ScoreFactor="0.1"/>
+	<Property ID="102_0" Name="desc_map_102" TargetPassTime="15" NormalPassTime="30" TargetBossTime="9" NormalBossTime="15" DeadCount="1" DeadDecrease="100" ScoreFactor="1.258"/>
+	<Property ID="102_1" Name="desc_map_102" TargetPassTime="20" NormalPassTime="40" TargetBossTime="12" NormalBossTime="20" DeadCount="2" DeadDecrease="100" ScoreFactor="1.258"/>
+	<Property ID="102_2" Name="desc_map_102" TargetPassTime="30" NormalPassTime="1000" TargetBossTime="15" NormalBossTime="1000" DeadCount="2" DeadDecrease="100" ScoreFactor="1.258"/>
+	<Property ID="102_3" Name="desc_map_102" TargetPassTime="30" NormalPassTime="1000" TargetBossTime="15" NormalBossTime="1000" DeadCount="2" DeadDecrease="100" ScoreFactor="1.258"/>
+	<Property ID="103_0" Name="desc_map_103" TargetPassTime="10" NormalPassTime="30" TargetBossTime="15" NormalBossTime="15" DeadCount="2" DeadDecrease="100" ScoreFactor="0.128"/>
+	<Property ID="103_1" Name="desc_map_103" TargetPassTime="10" NormalPassTime="30" TargetBossTime="15" NormalBossTime="15" DeadCount="2" DeadDecrease="100" ScoreFactor="0.128"/>
+	<Property ID="103_2" Name="desc_map_103" TargetPassTime="10" NormalPassTime="30" TargetBossTime="15" NormalBossTime="15" DeadCount="2" DeadDecrease="100" ScoreFactor="0.128"/>
+	<Property ID="103_3" Name="desc_map_103" TargetPassTime="10" NormalPassTime="30" TargetBossTime="15" NormalBossTime="15" DeadCount="2" DeadDecrease="100" ScoreFactor="0.128"/>
+	<Property ID="104_0" Name="desc_map_104" TargetPassTime="10" NormalPassTime="20" TargetBossTime="100" NormalBossTime="100" DeadCount="1" DeadDecrease="0" ScoreFactor="0.1"/>
+	<Property ID="104_1" Name="desc_map_104" TargetPassTime="10" NormalPassTime="20" TargetBossTime="100" NormalBossTime="100" DeadCount="1" DeadDecrease="0" ScoreFactor="0.1"/>
+	<Property ID="104_2" Name="desc_map_104" TargetPassTime="10" NormalPassTime="20" TargetBossTime="100" NormalBossTime="100" DeadCount="1" DeadDecrease="0" ScoreFactor="0.1"/>
+	<Property ID="104_3" Name="desc_map_104" TargetPassTime="10" NormalPassTime="20" TargetBossTime="100" NormalBossTime="100" DeadCount="1" DeadDecrease="0" ScoreFactor="0.1"/>
+	<Property ID="105_0" Name="desc_map_105" TargetPassTime="35" NormalPassTime="145" TargetBossTime="25" NormalBossTime="30" DeadCount="10" DeadDecrease="10" ScoreFactor="0.1"/>
+	<Property ID="105_1" Name="desc_map_105" TargetPassTime="35" NormalPassTime="145" TargetBossTime="25" NormalBossTime="30" DeadCount="10" DeadDecrease="10" ScoreFactor="0.1"/>
+	<Property ID="105_2" Name="desc_map_105" TargetPassTime="35" NormalPassTime="145" TargetBossTime="25" NormalBossTime="30" DeadCount="10" DeadDecrease="10" ScoreFactor="0.1"/>
+	<Property ID="105_3" Name="desc_map_105" TargetPassTime="35" NormalPassTime="145" TargetBossTime="25" NormalBossTime="30" DeadCount="10" DeadDecrease="10" ScoreFactor="0.1"/>
+	<Property ID="115_0" Name="desc_map_115" TargetPassTime="10" NormalPassTime="20" TargetBossTime="100" NormalBossTime="100" DeadCount="1" DeadDecrease="0" ScoreFactor="0.1"/>
+	<Property ID="115_1" Name="desc_map_115" TargetPassTime="10" NormalPassTime="20" TargetBossTime="100" NormalBossTime="100" DeadCount="1" DeadDecrease="0" ScoreFactor="0.1"/>
+	<Property ID="115_2" Name="desc_map_115" TargetPassTime="10" NormalPassTime="20" TargetBossTime="100" NormalBossTime="100" DeadCount="1" DeadDecrease="0" ScoreFactor="0.1"/>
+	<Property ID="115_3" Name="desc_map_115" TargetPassTime="10" NormalPassTime="20" TargetBossTime="100" NormalBossTime="100" DeadCount="1" DeadDecrease="0" ScoreFactor="0.1"/>
+	<Property ID="107_0" Name="desc_map_107" TargetPassTime="10" NormalPassTime="20" TargetBossTime="100" NormalBossTime="100" DeadCount="1" DeadDecrease="0" ScoreFactor="0.1"/>
+	<Property ID="107_1" Name="desc_map_107" TargetPassTime="10" NormalPassTime="20" TargetBossTime="100" NormalBossTime="100" DeadCount="1" DeadDecrease="0" ScoreFactor="0.1"/>
+	<Property ID="107_2" Name="desc_map_107" TargetPassTime="10" NormalPassTime="20" TargetBossTime="100" NormalBossTime="100" DeadCount="1" DeadDecrease="0" ScoreFactor="0.1"/>
+	<Property ID="107_3" Name="desc_map_107" TargetPassTime="10" NormalPassTime="20" TargetBossTime="100" NormalBossTime="100" DeadCount="1" DeadDecrease="0" ScoreFactor="0.1"/>
+	<Property ID="112_0" Name="desc_map_112" TargetPassTime="10" NormalPassTime="20" TargetBossTime="100" NormalBossTime="100" DeadCount="1" DeadDecrease="0" ScoreFactor="0.1"/>
+	<Property ID="112_1" Name="desc_map_112" TargetPassTime="10" NormalPassTime="20" TargetBossTime="100" NormalBossTime="100" DeadCount="1" DeadDecrease="0" ScoreFactor="0.1"/>
+	<Property ID="112_2" Name="desc_map_112" TargetPassTime="10" NormalPassTime="20" TargetBossTime="100" NormalBossTime="100" DeadCount="1" DeadDecrease="0" ScoreFactor="0.1"/>
+	<Property ID="114_0" Name="desc_map_114" TargetPassTime="10" NormalPassTime="20" TargetBossTime="100" NormalBossTime="100" DeadCount="1" DeadDecrease="0" ScoreFactor="0.1"/>
+	<Property ID="114_1" Name="desc_map_114" TargetPassTime="10" NormalPassTime="20" TargetBossTime="100" NormalBossTime="100" DeadCount="1" DeadDecrease="0" ScoreFactor="0.1"/>
+	<Property ID="114_2" Name="desc_map_114" TargetPassTime="10" NormalPassTime="20" TargetBossTime="100" NormalBossTime="100" DeadCount="1" DeadDecrease="0" ScoreFactor="0.1"/>
+	<Property ID="120_0" Name="desc_map_120" TargetPassTime="10" NormalPassTime="20" TargetBossTime="100" NormalBossTime="100" DeadCount="1" DeadDecrease="0" ScoreFactor="0.1"/>
+	<Property ID="120_1" Name="desc_map_120" TargetPassTime="10" NormalPassTime="20" TargetBossTime="100" NormalBossTime="100" DeadCount="1" DeadDecrease="0" ScoreFactor="0.1"/>
+	<Property ID="120_2" Name="desc_map_120" TargetPassTime="10" NormalPassTime="20" TargetBossTime="100" NormalBossTime="100" DeadCount="1" DeadDecrease="0" ScoreFactor="0.1"/>
+	<Property ID="120_3" Name="desc_map_120" TargetPassTime="10" NormalPassTime="20" TargetBossTime="100" NormalBossTime="100" DeadCount="1" DeadDecrease="0" ScoreFactor="0.1"/>
+	<Property ID="122_0" Name="desc_map_122" TargetPassTime="10" NormalPassTime="20" TargetBossTime="100" NormalBossTime="100" DeadCount="1" DeadDecrease="0" ScoreFactor="0.1"/>
+	<Property ID="122_1" Name="desc_map_122" TargetPassTime="10" NormalPassTime="20" TargetBossTime="100" NormalBossTime="100" DeadCount="1" DeadDecrease="0" ScoreFactor="0.1"/>
+	<Property ID="122_2" Name="desc_map_122" TargetPassTime="10" NormalPassTime="20" TargetBossTime="100" NormalBossTime="100" DeadCount="1" DeadDecrease="0" ScoreFactor="0.1"/>
+	<Property ID="118_0" Name="desc_map_118" TargetPassTime="240" NormalPassTime="240" TargetBossTime="480" NormalBossTime="480" DeadCount="20" DeadDecrease="10" ScoreFactor="1.258"/>
+	<Property ID="118_1" Name="desc_map_118" TargetPassTime="35" NormalPassTime="45" TargetBossTime="25" NormalBossTime="30" DeadCount="10" DeadDecrease="10" ScoreFactor="0.1"/>
+	<Property ID="118_2" Name="desc_map_118" TargetPassTime="35" NormalPassTime="45" TargetBossTime="25" NormalBossTime="30" DeadCount="10" DeadDecrease="10" ScoreFactor="0.1"/>
+</Object>

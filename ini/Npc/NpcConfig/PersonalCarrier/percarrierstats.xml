@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 被2011 rel. 2 sp1 (jiangyingxi) 使用XMLSpy vsnail编辑的 (http://www.altova.com) by -->
+<!-- 载具显示数值包 -->
+<!-- ID					载具显示数值包ID						int	-->
+<!-- OverAll			载具综合实力（星级）	范围[1,10]		int	-->
+<!-- Defence			防御能力				范围[1,1000]	int	-->
+<!-- Siege				攻城能力				范围[1,1000]	int	-->
+<!-- AntiCarrier		对载具伤害的能力		范围[1,1000]	int	-->
+<!-- AntiPlayer			对人伤害的能力			范围[1,1000]	int	-->
+<!-- Speed				机动力					范围[1,1000]	int -->
+<Object>
+	<Property ID="1" OverAll="1" Defence="500" Siege="300" AntiCarrier="150" AntiPlayer="120" Speed="300"/>
+	<Property ID="2" OverAll="2" Defence="500" Siege="300" AntiCarrier="150" AntiPlayer="100" Speed="300"/>
+	<Property ID="3" OverAll="3" Defence="500" Siege="600" AntiCarrier="300" AntiPlayer="100" Speed="100"/>
+	<Property ID="4" OverAll="4" Defence="500" Siege="600" AntiCarrier="300" AntiPlayer="100" Speed="100"/>
+	<Property ID="5" OverAll="2" Defence="500" Siege="300" AntiCarrier="150" AntiPlayer="200" Speed="300"/>
+	<Property ID="6" OverAll="5" Defence="500" Siege="600" AntiCarrier="300" AntiPlayer="300" Speed="100"/>
+	<Property ID="7" OverAll="5" Defence="500" Siege="600" AntiCarrier="300" AntiPlayer="400" Speed="100"/>
+	<Property ID="8" OverAll="1" Defence="500" Siege="300" AntiCarrier="150" AntiPlayer="100" Speed="300"/>
+	<Property ID="9" OverAll="2" Defence="500" Siege="300" AntiCarrier="150" AntiPlayer="120" Speed="300"/>
+	<Property ID="10" OverAll="3" Defence="500" Siege="600" AntiCarrier="300" AntiPlayer="150" Speed="100"/>
+	<Property ID="11" OverAll="4" Defence="500" Siege="600" AntiCarrier="300" AntiPlayer="100" Speed="100"/>
+	<Property ID="12" OverAll="2" Defence="500" Siege="300" AntiCarrier="150" AntiPlayer="200" Speed="300"/>
+	<Property ID="13" OverAll="5" Defence="500" Siege="600" AntiCarrier="300" AntiPlayer="350" Speed="100"/>
+	<Property ID="14" OverAll="5" Defence="500" Siege="600" AntiCarrier="300" AntiPlayer="400" Speed="100"/>
+	<Property ID="15" OverAll="4" Defence="500" Siege="330" AntiCarrier="160" AntiPlayer="600" Speed="300"/>
+	<Property ID="16" OverAll="8" Defence="500" Siege="670" AntiCarrier="330" AntiPlayer="600" Speed="100"/>
+	<Property ID="17" OverAll="4" Defence="500" Siege="330" AntiCarrier="160" AntiPlayer="500" Speed="300"/>
+	<Property ID="18" OverAll="8" Defence="500" Siege="670" AntiCarrier="330" AntiPlayer="700" Speed="100"/>
+</Object>

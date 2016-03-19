@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes" ?>
+<Processor>
+    <Base type="object" version="1.0">
+        <Line Type="2" Event="2114" Name="AUTOP1">
+            <Param type="6" data="FB_LELDXGX_0034" Index="0" />
+        </Line>
+        <Line Type="1" Event="4205">
+            <Param type="13" srctype="8" data="AUTOP1" Index="0" />
+            <Param type="6" data="ajll" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP2" />
+        <Line Type="1" Event="4021">
+            <Param type="13" srctype="8" data="AUTOP2" Index="0" />
+            <Param type="2" data="0" Index="1" />
+            <Param type="6" data="talk_special_FB_DXGX_ajll_1" Index="2" />
+            <Param type="11" data=" " Index="3" />
+        </Line>
+        <Line Type="2" Event="2114" Name="AUTOP3">
+            <Param type="6" data="Technology_FB103_T_0001_5" Index="0" />
+        </Line>
+        <Line Type="1" Event="4509">
+            <Param type="13" srctype="8" data="AUTOP3" Index="0" />
+        </Line>
+        <Line Type="2" Event="2114" Name="AUTOP4">
+            <Param type="6" data="Technology_FB103_T_0001_6" Index="0" />
+        </Line>
+        <Line Type="1" Event="4509">
+            <Param type="13" srctype="8" data="AUTOP4" Index="0" />
+        </Line>
+        <Line Type="2" Event="2114" Name="AUTOP5">
+            <Param type="6" data="Technology_FB103_T_0001_7" Index="0" />
+        </Line>
+        <Line Type="1" Event="4509">
+            <Param type="13" srctype="8" data="AUTOP5" Index="0" />
+        </Line>
+        <Line Type="2" Event="2114" Name="AUTOP6">
+            <Param type="6" data="Technology_FB103_T_0001_8" Index="0" />
+        </Line>
+        <Line Type="1" Event="4509">
+            <Param type="13" srctype="8" data="AUTOP6" Index="0" />
+        </Line>
+    </Base>
+</Processor>

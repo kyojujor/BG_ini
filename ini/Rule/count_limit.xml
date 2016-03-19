@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!--
+ID:编号(从1开始，逐个增加,限制类型)
+id:另一个标识符，从1开始增加
+max_count:该limitID对应情况下一天最大可使用次数
+-->
+<Object>
+	<Property ID="1" max_count="4"/>
+	<Property ID="2" max_count="4"/>
+	<Property ID="3" max_count="2"/>
+	<Property ID="4" max_count="2"/>
+	<Property ID="5" max_count="10"/>
+</Object>

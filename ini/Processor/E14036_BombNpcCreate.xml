@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes" ?>
+<Processor>
+    <Base type="object" version="1.0">
+        <Line Type="2" Event="2001" Name="AUTOP1" />
+        <Line Type="1" Event="4517">
+            <Param type="13" srctype="8" data="AUTOP1" Index="0" />
+            <Param type="6" data="Evet_npc_0066" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP2" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP2" Index="0" />
+            <Param type="6" data="BombTime" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP3" />
+        <Line Type="1" Event="5059">
+            <Param type="13" srctype="8" data="AUTOP3" Index="0" />
+            <Param type="2" data="99999" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP4" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP4" Index="0" />
+            <Param type="6" data="DropRandTime" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="1" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP5" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP5" Index="0" />
+            <Param type="6" data="DeleteTime" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="20" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP6" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP6" Index="0" />
+            <Param type="6" data="LocalDelTime" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP8" />
+        <Line Type="2" Event="2105" Name="AUTOP7">
+            <Param type="13" srctype="8" data="AUTOP8" Index="0" />
+            <Param type="4" data="15" Index="1" />
+            <Param type="2" data="2" Index="2" />
+            <Param type="1" data="true" Index="3" />
+        </Line>
+        <Line Type="1" Event="4883">
+            <Param type="13" srctype="8" data="AUTOP7" Index="0" />
+            <Param type="6" data="castle_footstep" Index="1" />
+        </Line>
+        <Line Type="2" Event="2115" Name="AUTOP11" />
+        <Line Type="2" Event="3002" Name="AUTOP10">
+            <Param type="13" srctype="8" data="AUTOP11" Index="0" />
+            <Param type="6" data="bEvent14036NpcRun" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP9">
+            <Param type="13" srctype="4" data="AUTOP10" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="1" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="6">
+            <Param type="13" bool="true" srctype="1" data="AUTOP9" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP13" />
+        <Line Type="2" Event="2105" Name="AUTOP12">
+            <Param type="13" srctype="8" data="AUTOP13" Index="0" />
+            <Param type="4" data="50" Index="1" />
+            <Param type="2" data="5" Index="2" />
+            <Param type="1" data="true" Index="3" />
+        </Line>
+        <Line Type="1" Event="5067">
+            <Param type="13" srctype="8" data="AUTOP12" Index="0" />
+            <Param type="6" data="buff_qhS001_0043_00001" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP15" />
+        <Line Type="2" Event="2105" Name="AUTOP14">
+            <Param type="13" srctype="8" data="AUTOP15" Index="0" />
+            <Param type="4" data="50" Index="1" />
+            <Param type="2" data="5" Index="2" />
+            <Param type="1" data="true" Index="3" />
+        </Line>
+        <Line Type="1" Event="5067">
+            <Param type="13" srctype="8" data="AUTOP14" Index="0" />
+            <Param type="6" data="buff_qhS001_0043_00002" Index="1" />
+        </Line>
+        <Line Type="7" IncludeLines="0" />
+    </Base>
+</Processor>

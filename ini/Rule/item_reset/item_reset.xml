@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--
+第0行表示消耗道具类，第1行表示消耗的金钱，从第二行开始表示可以洗点的属性
+第0行含义:表示符合条件的才消耗道具，
+ratio和pos_ratio是金钱消耗的参数，BRatio和QRatio是黑金消耗的参数
+-->
+<Object>
+	<Property ID="0" item_maxlevel="50" equip_type="Belt,Cloth,Fingerring,Gloves,Hat,Jewelry,Mantle,Neck,Ornament,Pants,Shoes,Wrist,Weapon" consume_item="Gndj_0001A" qualityratio="1,1,1,2,3,3"/>
+	<Property ID="1" ratio="120,114,0" pos_ratio="1,0.3" color_ratio="0.7,1,1.5,3,5,3" BRatio="2,4" QRatio="0.7,1,1.5,3,5,3" />
+	<Property ID="2" proname="StrAdd" min="0.7" max="1.2" length="0.025"/>
+	<Property ID="3" proname="DexAdd" min="0.7" max="1.2" length="0.025"/>
+	<Property ID="4" proname="IngAdd" min="0.7" max="1.2" length="0.025"/>
+	<Property ID="5" proname="SpiAdd" min="0.7" max="1.2" length="0.025"/>
+	<Property ID="6" proname="StaAdd" min="0.7" max="1.2" length="0.025"/>
+	<Property ID="7" proname="EsthAdd" min="0.7" max="1.2" length="0.025"/>
+	<Property ID="8" proname="IntensityPhyAttackAdd" min="0.6" max="1.4" length="0.04"/>
+	<Property ID="9" proname="CritHurtAdd" min="0.7" max="1.2" length="0.025"/>
+	<Property ID="10" proname="CritLevelAdd" min="0.7" max="1.2" length="0.025"/>
+	<Property ID="11" proname="CritMulLevelAdd" min="0.7" max="1.2" length="0.025"/>
+	<Property ID="12" proname="PenetrateLevelAdd" min="0.7" max="1.2" length="0.025"/>
+	<Property ID="13" proname="AccurateLevelAdd" min="0.7" max="1.2" length="0.025"/>
+	<Property ID="14" proname="IntensityMagicAttackAdd" min="0.6" max="1.4" length="0.04"/>
+	<Property ID="15" proname="MagCritLevelAdd" min="0.7" max="1.2" length="0.025"/>
+	<Property ID="16" proname="MagPrecLevelAdd" min="0.7" max="1.2" length="0.025"/>
+	<Property ID="17" proname="GuardAdd" min="0.7" max="1.2" length="0.025"/>
+	<Property ID="18" proname="DodgeLevelAdd" min="0.7" max="1.2" length="0.025"/>
+	<Property ID="19" proname="MagdodgeLevelAdd" min="0.7" max="1.2" length="0.025"/>
+	<Property ID="20" proname="DefenseLevelAdd" min="0.7" max="1.2" length="0.025"/>
+	<Property ID="21" proname="WeakdefValAdd" min="0.7" max="1.2" length="0.025"/>
+	<Property ID="22" proname="SteamAttackAdd" min="0.7" max="1.2" length="0.025"/>
+	<Property ID="23" proname="NatureAttackAdd" min="0.7" max="1.2" length="0.025"/>
+	<Property ID="24" proname="WindAttackAdd" min="0.7" max="1.2" length="0.025"/>
+	<Property ID="25" proname="FireAttackAdd" min="0.7" max="1.2" length="0.025"/>
+	<Property ID="26" proname="EarthAttackAdd" min="0.7" max="1.2" length="0.025"/>
+	<Property ID="27" proname="DarkAttackAdd" min="0.7" max="1.2" length="0.025"/>
+	<Property ID="28" proname="WaterAttackAdd" min="0.7" max="1.2" length="0.025"/>
+	<Property ID="29" proname="LightningAttackAdd" min="0.7" max="1.2" length="0.025"/>
+	<Property ID="30" proname="SteamAdd" min="0.7" max="1.2" length="0.025"/>
+	<Property ID="31" proname="NatureAdd" min="0.7" max="1.2" length="0.025"/>
+	<Property ID="32" proname="WindAdd" min="0.7" max="1.2" length="0.025"/>
+	<Property ID="33" proname="FireAdd" min="0.7" max="1.2" length="0.025"/>
+	<Property ID="34" proname="EarthAdd" min="0.7" max="1.2" length="0.025"/>
+	<Property ID="35" proname="DarkAdd" min="0.7" max="1.2" length="0.025"/>
+	<Property ID="36" proname="WaterAdd" min="0.7" max="1.2" length="0.025"/>
+	<Property ID="37" proname="LightningAdd" min="0.7" max="1.2" length="0.025"/>
+	<Property ID="38" proname="AllResistAdd" min="0.7" max="1.2" length="0.025"/>
+	<Property ID="39" proname="MaxHPAdd" min="0.5" max="1.5" length="0.05"/>
+	<Property ID="40" proname="MaxMPAdd" min="0.5" max="1.5" length="0.05"/>
+	<Property ID="41" proname="MaxPhyAttackAdd" min="0.6" max="1.4" length="0.04"/>
+	<Property ID="42" proname="MinPhyAttackAdd" min="0.6" max="1.4" length="0.04"/>
+	<Property ID="43" proname="MaxGunshotAttackAdd" min="0.6" max="1.4" length="0.04"/>
+	<Property ID="44" proname="MinGunshotAttackAdd" min="0.6" max="1.4" length="0.04"/>
+	<Property ID="45" proname="MaxMagicAttackAdd" min="0.6" max="1.4" length="0.04"/>
+	<Property ID="46" proname="MinMagicAttackAdd" min="0.6" max="1.4" length="0.04"/>
+</Object>

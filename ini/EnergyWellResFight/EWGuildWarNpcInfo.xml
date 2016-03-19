@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<Object>
+<!--
+defend_pillar:        防守方能量柱NPC ID,x,z,org
+attack_pillar:        攻击方能量柱NPC ID,x,z,org
+neutral_pillar:       中立方能量柱NPC ID,x,z,org
+defend_door1:         防守方准备时间期间Door NPC ID,x,z,org
+attack_door1:         攻击方准备时间期间Door NPC ID,x,z,org
+defend_door:          防守方door NPC ID,x,z,org;door NPC ID,x,z,org
+attack_door:          攻击方door NPC ID,x,z,org;door NPC ID,x,z,org
+defend_relive:        防守方复活点 ID
+attack_relive:        攻击方复活点 ID
+neutral_relive:       中立复活点   ID
+defend_npc:           防守方场景中创建的其他npc (npcID,x,z,org;npcID,x,z,org;npcID,x,z,org)
+attack_npc:           攻击方场景中创建的其他npc (npcID,x,z,org;npcID,x,z,org;npcID,x,z,org)
+neutral_npc:					中立方场景中创建的其他npc (npcID,x,z,org;npcID,x,z,org;npcID,x,z,org)
+-->
+<Property ID="1" defend_pillar="" attack_pillar="" neutral_pillar="" defend_door1="attack_npc1,115,120,0" attack_door1="attack_npc1,115,120,0" defend_door="" attack_door="" defend_relive="" attack_relive="" neutral_relive="" defend_npc="" attack_npc="" neutral_npc=""/>
+</Object>

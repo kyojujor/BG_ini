@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- edited with XMLSpy v2010 (http://www.altova.com) by MESMERiZE (MiZE) -->
+<!--武器的类型影响系数跟握持类型有关-->
+<Object>
+	<Property ID="-1" dps="0" weapondistance="1" HoldType_1="2" HoldType_2="3" HoldType_3="4" HoldType_4="5" desc="6"/>
+	<Property ID="0" dps="4" weapondistance="4" HoldType_1="6" HoldType_2="6" HoldType_3="6" HoldType_4="6" desc="6"/>
+	<Property ID="101" dps="0.75" weapondistance="1" HoldType_4="1.0,1.0,1.0" desc="单手剑"/>
+	<Property ID="102" dps="0.5" weapondistance="1" desc="匕首"/>
+	<Property ID="103" dps="0.75" weapondistance="1" desc="单手锤" HoldType_4="1.0,1.0,1.0"/>
+	<Property ID="104" dps="0.75" weapondistance="1" desc="单手斧" HoldType_4="1.0,1.0,1.0"/>
+	<Property ID="105" dps="0.75" weapondistance="1" desc="水晶球"/>
+	<Property ID="106" dps="1" weapondistance="1" desc="长柄武器"/>
+	<Property ID="107" dps="0.75" weapondistance="1" desc="盾"/>
+	<Property ID="108" dps="0.625" weapondistance="0.7" desc="魔棒"/>
+	<Property ID="109" dps="0.875" weapondistance="1" desc="弓"/>
+	<Property ID="110" dps="0.875" weapondistance="0.7" desc="弩"/>
+	<Property ID="111" dps="0.75" weapondistance="0.7" desc="投掷武器"/>
+	<Property ID="112" dps="0.75" weapondistance="0.7" desc="标枪"/>
+	<Property ID="113" dps="0.625" weapondistance="0.8" desc="枪刃"/>
+	<Property ID="114" dps="0.625" weapondistance="0.8" desc="手枪"/>
+	<Property ID="115" dps="0.875" weapondistance="0.7" desc="枪械"/>
+	<Property ID="118" dps="1" weapondistance="0.7" desc="法仗"/>
+	<Property ID="121" dps="0.75" weapondistance="0.7" desc="扳手"/>
+	<Property ID="123" dps="0.75" weapondistance="0.7" desc="图腾"/>
+	<Property ID="124" dps="0.75" weapondistance="0.7" desc="魔瓶"/>
+</Object>

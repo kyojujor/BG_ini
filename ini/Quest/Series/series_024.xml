@@ -1,0 +1,25 @@
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- ±༭ʹԃ XMLSpy v2006 U (http://www.altova.com) ԉ any (any) -->
+<Object>
+	<Property ID="3010" GirdX="1" GirdY="2" ChildTask="10024" IsHide="1"/>
+	<Property ID="10024" GirdX="2" GirdY="2" FatherTask="3010" ChildTask="10027" IsHide="1"/>
+	<Property ID="10027" GirdX="3" GirdY="2" FatherTask="10024" ChildTask="10066" IsHide="1"/>
+	<Property ID="10066" GirdX="4" GirdY="2" FatherTask="10027" ChildTask="10028" IsHide="1"/>
+	<Property ID="10028" GirdX="5" GirdY="2" FatherTask="10066" ChildTask="10403" IsHide="1"/>
+	<Property ID="10403" GirdX="6" GirdY="2" FatherTask="10028" ChildTask="10404" IsHide="1"/>
+	<Property ID="10404" GirdX="7" GirdY="2" FatherTask="10403" ChildTask="3005" IsHide="1"/>
+	<Property ID="3005" GirdX="8" GirdY="2" FatherTask="10404" ChildTask="10031" IsHide="1"/>
+	<Property ID="10031" GirdX="9" GirdY="2" FatherTask="3005" ChildTask="10033" IsHide="1"/>
+	<Property ID="10033" GirdX="10" GirdY="2" FatherTask="10031" ChildTask="3006" IsHide="1"/>
+	<Property ID="3006" GirdX="11" GirdY="2" FatherTask="10033" ChildTask="10034" IsHide="1"/>
+	<Property ID="10034" GirdX="12" GirdY="2" FatherTask="3006" ChildTask="10035" IsHide="1"/>
+	<Property ID="10035" GirdX="13" GirdY="2" FatherTask="10034" ChildTask="10036" IsHide="1"/>
+	<Property ID="10036" GirdX="14" GirdY="2" FatherTask="10035" ChildTask="10037" IsHide="1"/>
+	<Property ID="10037" GirdX="15" GirdY="2" FatherTask="10036" ChildTask="10040" IsHide="1"/>
+	<Property ID="10040" GirdX="16" GirdY="2" FatherTask="10037" ChildTask="10069" IsHide="1"/>
+	<Property ID="10069" GirdX="17" GirdY="2" FatherTask="10040" ChildTask="10042" IsHide="1"/>
+	<Property ID="10042" GirdX="18" GirdY="2" FatherTask="10069" ChildTask="" IsHide="1" LastTask="1"/>
+</Object>

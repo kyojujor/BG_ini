@@ -1,0 +1,37 @@
+<root version="1.0">
+    <node type="0" name="提奥迪亚" desc="提奥迪亚">
+        <node type="1" name="tiao_ItemNpc.xml" path="tiao_ItemNpc.xml" desc="提奥迪亚触发器类,物件类Npc" />
+        <node type="1" name="tiao_monsterNpc.xml" path="tiao_monsterNpc.xml" desc="提奥迪亚怪物Npc" />
+        <node type="1" name="tiao_FuncNpc.xml" path="tiao_FuncNpc.xml" desc="提奥迪亚功能Npc" />
+        <node type="1" name="tiao_TriggerNpc.xml" path="tiao_TriggerNpc.xml" desc="提奥迪亚触发器Npc" />
+        <node type="1" name="tiao_TaskNpc.xml" path="tiao_TaskNpc.xml" desc="提奥迪亚任务Npc" />
+    </node>
+    <node type="0" name="皮罗高地" desc="皮罗高地">
+        <node type="1" name="piluo_ItemNpc.xml" path="piluo_ItemNpc.xml" desc="皮罗高地触发器类,物件类Npc" />
+        <node type="1" name="piluo_monsterNpc.xml" path="piluo_monsterNpc.xml" desc="皮罗高地怪物Npc" />
+        <node type="1" name="piluo_FuncNpc.xml" path="piluo_FuncNpc.xml" desc="皮罗高地功能Npc" />
+        <node type="1" name="piluo_TriggerNpc.xml" path="piluo_TriggerNpc.xml" desc="皮罗高地触发器" />
+        <node type="1" name="piluo_TaskNpc.xml" path="piluo_TaskNpc.xml" desc="皮罗高地任务Npc" />
+    </node>
+    <node type="0" name="雾月丛林" desc="雾月丛林">
+        <node type="1" name="wuyue_ItemNpc.xml" path="wuyue_ItemNpc.xml" desc="雾月丛林触发器类,物件类Npc" />
+        <node type="1" name="wuyue_monsterNpc.xml" path="wuyue_monsterNpc.xml" desc="雾月丛林怪物Npc" />
+        <node type="1" name="wuyue_FuncNpc.xml" path="wuyue_FuncNpc.xml" desc="雾月丛林功能Npc" />
+        <node type="1" name="wuyue_TriggerNpc.xml" path="wuyue_TriggerNpc.xml" desc="雾月丛林触发器" />
+        <node type="1" name="wuyue_TaskNpc.xml" path="wuyue_TaskNpc.xml" desc="雾月丛林任务Npc" />
+    </node>
+    <node type="0" name="灰烬平原" desc="灰烬平原">
+        <node type="1" name="huijin_ItemNpc.xml" path="huijin_ItemNpc.xml" desc="灰烬平原触发器类,物件类Npc" />
+        <node type="1" name="huijin_monsterNpc.xml" path="huijin_monsterNpc.xml" desc="灰烬平原怪物Npc" />
+        <node type="1" name="huijin_FuncNpc.xml" path="huijin_FuncNpc.xml" desc="灰烬平原功能Npc" />
+        <node type="1" name="huijin_TriggerNpc.xml" path="huijin_TriggerNpc.xml" desc="灰烬平原触发器" />
+        <node type="1" name="huijin_TaskNpc.xml" path="huijin_TaskNpc.xml" desc="灰烬平原任务Npc" />
+    </node>
+    <node type="0" name="安灼拉" desc="安灼拉">
+        <node type="1" name="anzuola_ItemNpc.xml" path="anzuola_ItemNpc.xml" desc="安灼拉触发器类,物件类Npc" />
+        <node type="1" name="anzuola_monsterNpc.xml" path="anzuola_monsterNpc.xml" desc="安灼拉怪物Npc" />
+        <node type="1" name="anzuola_FuncNpc.xml" path="anzuola_FuncNpc.xml" desc="安灼拉功能Npc" />
+        <node type="1" name="anzuola_TriggerNpc.xml" path="anzuola_TriggerNpc.xml" desc="安灼拉触发器" />
+        <node type="1" name="anzuola_TaskNpc.xml" path="anzuola_TaskNpc.xml" desc="安灼拉任务Npc" />
+    </node>
+</root>

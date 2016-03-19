@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 能量井维护费系数 -->
+<!-- MaterialCoe		额外材料系数（直接乘，向上取整）	float   -->
+<!-- TimeCoe		    额外时间系数（同上）				float	-->
+<!-- TopPopulation		能量井原能值硬上限				int		-->
+<!-- BasePopulation		能量井基础原能上限				int		-->
+<!-- FirstMaterialCoe	第一原能材料上限				float		-->
+<!-- FirstTimeCoe		第一原能时间上限				float		-->
+<!-- SecondPopulation	能量井中等原能上限				int		-->
+<!-- SecondMaterialCoe	第二原能材料上限				float		-->
+<!-- SecondTimeCoe		第二原能时间上限				float		-->
+<!-- ThirdPopulation	能量井高等原能上限				int		-->
+<!-- ThirdMaterialCoe	第三原能材料上限				float		-->
+<!-- ThirdTimeCoe		第三原能时间上限				float		-->
+<Object>
+	<Property ID="1" TopPopulation="52" BasePopulation="8" FirstMaterialCoe="1.2" FirstTimeCoe="1.0" SecondPopulation="36" SecondMaterialCoe="2.0" SecondTimeCoe="2.0" ThirdPopulation="44" ThirdMaterialCoe="3.0" ThirdTimeCoe="3.0"/>
+	<Property ID="2" TopPopulation="44" BasePopulation="4" FirstMaterialCoe="1.2" FirstTimeCoe="1.0" SecondPopulation="28" SecondMaterialCoe="2.0" SecondTimeCoe="2.0" ThirdPopulation="36" ThirdMaterialCoe="3.0" ThirdTimeCoe="3.0"/>
+	<Property ID="3" TopPopulation="38" BasePopulation="2" FirstMaterialCoe="1.2" FirstTimeCoe="1.0" SecondPopulation="22" SecondMaterialCoe="2.0" SecondTimeCoe="2.0" ThirdPopulation="30" ThirdMaterialCoe="3.0" ThirdTimeCoe="3.0"/>
+</Object>

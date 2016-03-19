@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 被2011 rel. 2 sp1 (TeaM DJiNN) 使用XMLSpy vTeaM DJiNN编辑的 (http://www.altova.com) by -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<Object>
+	<!--AID		行为编号-->
+	<!--AType	行为类型(0:特殊 1:等级提升 2:获得物品(物品ID,品质:color_品质类型,绑定:bind_绑定类型) 3:点击NPC 4:接近NPC(无条件) 5:接受任务(task_任务号) 6:接近NPC(有指定任务) 7:可提交任务(task_任务号)      8:接受PVP任务(任务类型号)(//1，刺探 //2，奇袭 //3，刺杀  //4，空袭 //5，护送 6, //抢夺 7, //保护替身))-->
+	<!--Condition	触发条件-->
+	<!--CID		分类号-->
+	<!--ShowType	显示方式(0:感叹号 1:窗体)-->
+	<!--EffectCtrl	特效显示(控件名,特效名,对齐方式1,对齐方式二,left,top;控件名,图片名,对齐方式1,对齐方式二,left,top;控件名,中文包,对齐方式1,对齐方式二,left,top)-->
+	<!--ShowPos	显示位置(1:左一 2:左二 3:中一 4:中二 5:右一)-->
+	<!--IsShowHEff	是否显示头顶特效(0:不显示 1:显示)-->
+	<!--CloseAID	触发时需要关闭界面的行为号-->
+	<!--ShowTime	窗体显示时间(秒，为0表示无限)-->
+	<Property ID="1" AID="1" AType="0" Condition="1001" CID="1" ShowType="1" AName="sys_leadcomer_01000" ShowPos="2" ShowTime="10" Desc="进入游戏"/>
+	<Property ID="2" AID="2" AType="4" Condition="npc_zqm001_0137,npc_qhm002_0003,npc_qhm003_0046,npc_zqm003_0063" CID="2" ShowType="1" AName="sys_leadcomer_01002" ShowPos="2" IsShowHEff="1" ShowTime="10" Desc="接近任务NPC"/>
+	<Property ID="3" AID="100" AType="7" Condition="" CID="100" ShowType="1" AName="sys_leadcomer_01003" ShowPos="5" ShowTime="10" CloseAID="6" Desc="完成指定任务"/>
+	<Property ID="4" AID="100" AType="5" Condition="" CID="100" ShowType="1" Desc="接受任务"/>
+	<Property ID="5" AID="5" AType="6" Condition="monster_zqm001_0109,summon_qhm002_0001,monster_qhm003_0001,monster_zqm003_0001,monster_zqm003_0201" CID="2" ShowType="1" AName="sys_leadcomer_01004" ShowPos="2" ShowTime="10" CloseAID="2" Desc="接近任务怪物"/>
+	<Property ID="6" AID="6" AType="0" Condition="1014" CID="2" ShowType="1" AName="sys_leadcomer_01005" ShowPos="2" ShowTime="10" CloseAID="5" Desc="出现掉落物"/>
+	<Property ID="7" AID="7" AType="1" Condition="4_1" CID="6" ShowType="1" AName="sys_leadcomer_01006" ShowPos="5" ShowTime="10" Desc="获得技能"/>
+	<Property ID="8" AID="8" AType="6" Condition="Giving_zqm001_0035,Giving_qhm003_0001,Giving_qhm002_0001,Giving_zqm003_0014" CID="2" ShowType="1" AName="sys_leadcomer_01007" ShowPos="2" IsShowHEff="1" ShowTime="10" CloseAID="3" Desc="接近目标采集"/>
+	<Property ID="9" AID="9" AType="0" Condition="1002" CID="5" ShowType="1" AName="sys_leadcomer_01008" ShowPos="1" ShowTime="10" Desc="选中友方玩家"/>
+	<Property ID="10" AID="10" AType="0" Condition="1003" CID="1" ShowType="1" AName="sys_leadcomer_01009" ShowPos="1" ShowTime="10" Desc="血量少于60%"/>
+	<Property ID="11" AID="11" AType="0" Condition="1004" CID="1" ShowType="1" AName="sys_leadcomer_01020" ShowPos="2" ShowTime="10" CloseAID="10" Desc="死亡复活后弹窗"/>
+	<Property ID="12" AID="100" AType="100" Condition="monster_zqm001_0080,monster_qhm002_0001,npc_zqm003_0108,npc_zlm002_0074" CID="100" ShowType="1" AName="sys_leadcomer_01010" ShowPos="5" ShowTime="10" Desc="获得可使用的任务道具"/>
+	<Property ID="13" AID="13" AType="2" Condition="itemtype_202" CID="6" ShowType="1" AName="sys_leadcomer_01021" ShowPos="2" ShowTime="10" Desc="获得宠物弹框"/>
+	<Property ID="14" AID="14" AType="2" Condition="itemtype_90" CID="6" ShowType="1" AName="sys_leadcomer_01017" ShowPos="2" ShowTime="10" Desc="获得坐骑弹框"/>
+	<Property ID="15" AID="15" AType="0" Condition="1005" CID="1" ShowType="1" AName="sys_leadcomer_01013" ShowPos="2" ShowTime="10" Desc="获得活跃度"/>
+	<Property ID="16" AID="16" AType="2" Condition="itemtype_171" CID="6" ShowType="1" AName="sys_leadcomer_01022" ShowPos="2" ShowTime="10" Desc="获得能量盾"/>
+	<Property ID="17" AID="17" AType="2" Condition="bind_2" CID="6" ShowType="1" AName="sys_leadcomer_01023" ShowPos="2" ShowTime="10" Desc="装备绑定物品"/>
+	<Property ID="18" AID="100" AType="2" Condition="" CID="100" ShowType="1" ShowTime="10" Desc="获得白色品质的装备"/>
+	<Property ID="19" AID="100" AType="2" Condition="" CID="100" ShowType="1" AName="sys_leadcomer_01016" ShowPos="2" ShowTime="10" Desc="获得绿色品质的装备"/>
+	<Property ID="20" AID="20" AType="2" Condition="color_3,color_4" CID="6" ShowType="1" AName="sys_leadcomer_01052" ShowPos="2" ShowTime="10" Desc="获得蓝色品质的装备"/>
+	<Property ID="21" AID="100" AType="2" Condition="" CID="100" ShowType="1" AName="sys_leadcomer_01025" ShowTime="10" Desc="获得紫色品质的装备"/>
+	<Property ID="22" AID="100" AType="2" Condition="" CID="100" ShowType="1" AName="sys_leadcomer_01026" ShowTime="10" Desc="获得橙色品质的装备"/>
+	<Property ID="23" AID="100" AType="0" Condition="" CID="100" ShowType="1" AName="sys_leadcomer_01027" ShowPos="5" ShowTime="10" Desc="进入新手副本"/>
+	<Property ID="24" AID="24" AType="0" Condition="1009" CID="1" ShowType="1" AName="sys_leadcomer_01053" ShowTime="10" Desc="进入副本"/>
+	<Property ID="25" AID="100" AType="0" Condition="" CID="100" ShowType="1" ShowTime="10" Desc="进入战场"/>
+	<Property ID="26" AID="100" AType="0" Condition="" CID="100" ShowType="1" ShowTime="10" Desc="进入竞技场"/>
+	<Property ID="27" AID="27" AType="0" Condition="1012" CID="2" ShowType="1" AName="sys_leadcomer_01011" ShowPos="5" ShowTime="10" Desc="遭遇事件（非播放动画）"/>
+	<Property ID="28" AID="28" AType="4" Condition="trans_npc" CID="2" ShowType="1" AName="sys_leadcomer_01019" ShowPos="2" ShowTime="10" Desc="接近界碑时显示"/>
+	<Property ID="29" AID="29" AType="0" Condition="1015" CID="3" ShowType="1" AName="sys_leadcomer_01028" ShowPos="2" ShowTime="10" Desc="接近敌方玩家（30码）"/>
+	<Property ID="30" AID="30" AType="0" Condition="1010" CID="3" ShowType="1" AName="sys_leadcomer_01029" ShowPos="5" ShowTime="10" Desc="组队后，队长提示"/>
+	<Property ID="31" AID="31" AType="0" Condition="1011" CID="1" ShowType="1" AName="sys_leadcomer_01018" ShowPos="2" ShowTime="10" Desc="有积累经验槽经验"/>
+	<Property ID="32" AID="32" AType="0" Condition="1013" CID="1" ShowType="1" AName="sys_leadcomer_01031" ShowPos="2" ShowTime="10" Desc="水下触发呼吸条"/>
+	<Property ID="33" AID="33" AType="5" Condition="" CID="100" ShowType="1" AName="sys_leadcomer_01039" ShowPos="5" ShowTime="10" CloseAID="44" Desc="触发使用载具的任务"/>
+	<Property ID="34" AID="34" AType="1" Condition="10_1" CID="6" ShowType="1" AName="sys_leadcomer_01034" ShowPos="5" ShowTime="10" Desc="10级：转职"/>
+	<Property ID="35" AID="35" AType="1" Condition="15_1" CID="4" ShowType="1" AName="sys_leadcomer_01035" ShowPos="5" ShowTime="10" Desc="15级：生活职业"/>
+	<Property ID="36" AID="100" AType="1" Condition="" CID="100" ShowType="0" AName="sys_leadcomer_01036" ShowPos="2" ShowTime="10" Desc="15级：镶嵌、合成、强化、打孔"/>
+	<Property ID="37" AID="37" AType="1" Condition="22_1" CID="3" ShowType="1" AName="sys_leadcomer_01037" ShowPos="5" ShowTime="10" Desc="22级：流浪群岛副本"/>
+	<Property ID="38" AID="38" AType="1" Condition="15_2" CID="4" ShowType="1" AName="sys_leadcomer_01046" ShowPos="5" ShowTime="10" Desc="20级：PVP活动"/>
+	<Property ID="39" AID="39" AType="1" Condition="20_3" CID="3" ShowType="1" AName="sys_leadcomer_01054" ShowPos="5" ShowTime="10" Desc="20级：竞技场"/>
+	<Property ID="40" AID="40" AType="1" Condition="32_1" CID="3" ShowType="1" AName="sys_leadcomer_01047" ShowPos="5" ShowTime="10" Desc="32级：远古之门副本"/>
+	<Property ID="41" AID="41" AType="1" Condition="36_1" CID="3" ShowType="1" AName="sys_leadcomer_01050" ShowPos="5" ShowTime="10" Desc="36级：天怒洞穴、天怒教堂"/>
+	<Property ID="42" AID="42" AType="1" Condition="40_1" CID="3" ShowType="1" AName="sys_leadcomer_01051" ShowPos="5" ShowTime="10" Desc="40级：提奥迪亚竞技场"/>
+	<Property ID="43" AID="100" AType="0" Condition="" CID="100" ShowType="0" AName="sys_leadcomer_01001" ShowPos="5" ShowTime="10" Desc="任务指引"/>
+	<Property ID="44" AID="44" AType="1" Condition="2_1" CID="1" ShowType="1" AName="sys_leadcomer_01012" ShowPos="1" ShowTime="10" Desc="升级"/>
+	<Property ID="45" AID="100" AType="2" Condition="" CID="100" ShowType="1" AName="sys_leadcomer_01014" ShowPos="2" ShowTime="10" Desc="获得背包"/>
+	<Property ID="46" AID="46" AType="0" Condition="1017" CID="1" ShowType="1" AName="sys_leadcomer_01033" ShowPos="5" ShowTime="10" Desc="收到邮件"/>
+	<Property ID="47" AID="47" AType="0" Condition="1018" CID="3" ShowType="1" AName="sys_leadcomer_01030" ShowPos="2" ShowTime="10" Desc="团队模式"/>
+	<Property ID="48" AID="48" AType="1" Condition="20_1" CID="5" ShowType="1" AName="sys_leadcomer_01038" ShowPos="2" ShowTime="10" Desc="20级：创建公会"/>
+	<Property ID="49" AID="49" AType="1" Condition="15_3" CID="4" ShowType="0" AName="sys_leadcomer_01043" ShowPos="5" ShowTime="10" Desc="15级：副本"/>
+	<Property ID="50" AID="50" AType="1" Condition="30_1" CID="3" ShowType="0" AName="sys_leadcomer_01044" ShowTime="10" Desc="30级：世界Boss"/>
+	<Property ID="51" AID="100" AType="1" Condition="" CID="100" ShowType="0" AName="sys_leadcomer_01015" ShowPos="2" ShowTime="10" Desc="10级：活跃度、离线经验"/>
+	<Property ID="52" AID="100" AType="1" Condition="" CID="100" ShowType="0" AName="" ShowPos="1" ShowTime="10" Desc="事件结束"/>
+	<Property ID="53" AID="53" AType="1" Condition="10_2" CID="3" ShowType="1" AName="sys_leadcomer_01045" ShowPos="5" ShowTime="10" Desc="10级：战场"/>
+	<Property ID="54" AID="101" AType="" Condition="" CID="" ShowType="" AName="" ShowPos="" ShowTime="" Desc=""/>
+	<Property ID="55" AID="102" AType="" Condition="" CID="" ShowType="" AName="" ShowPos="" ShowTime="" Desc=""/>
+	<Property ID="56" AID="103" AType="" Condition="" CID="" ShowType="" AName="" ShowPos="" ShowTime="" Desc=""/>
+	<Property ID="57" AID="104" AType="" Condition="" CID="" ShowType="" AName="" ShowPos="" ShowTime="" Desc=""/>
+	<Property ID="58" AID="105" AType="" Condition="" CID="" ShowType="" AName="" ShowPos="" ShowTime="" Desc=""/>
+	<Property ID="59" AID="106" AType="" Condition="" CID="" ShowType="" AName="" ShowPos="" ShowTime="" Desc=""/>
+	<Property ID="60" AID="107" AType="" Condition="" CID="" ShowType="" AName="" ShowPos="" ShowTime="" Desc=""/>
+	<Property ID="61" AID="108" AType="" Condition="" CID="" ShowType="" AName="" ShowPos="" ShowTime="" Desc=""/>
+	<Property ID="62" AID="109" AType="" Condition="" CID="" ShowType="" AName="" ShowPos="" ShowTime="" Desc=""/>
+	<Property ID="63" AID="110" AType="" Condition="" CID="" ShowType="" AName="" ShowPos="" ShowTime="" Desc=""/>
+	<Property ID="64" AID="111" AType="" Condition="" CID="" ShowType="" AName="" ShowPos="" ShowTime="" Desc=""/>
+    <Property ID="65" AID="112" AType="" Condition="" CID="" ShowType="" AName="" ShowPos="" ShowTime="" Desc=""/>
+    <Property ID="66" AID="113" AType="" Condition="" CID="" ShowType="" AName="" ShowPos="" ShowTime="" Desc=""/>
+    <Property ID="67" AID="114" AType="" Condition="" CID="" ShowType="" AName="" ShowPos="" ShowTime="" Desc=""/>
+    <Property ID="68" AID="115" AType="" Condition="" CID="" ShowType="" AName="" ShowPos="" ShowTime="" Desc=""/>
+    <Property ID="69" AID="116" AType="" Condition="" CID="" ShowType="" AName="" ShowPos="" ShowTime="" Desc=""/>
+    <Property ID="70" AID="117" AType="" Condition="" CID="" ShowType="" AName="" ShowPos="" ShowTime="" Desc=""/>
+    <Property ID="71" AID="118" AType="" Condition="" CID="" ShowType="" AName="" ShowPos="" ShowTime="" Desc=""/>
+    <Property ID="72" AID="119" AType="" Condition="" CID="" ShowType="" AName="" ShowPos="" ShowTime="" Desc=""/>
+    <Property ID="74" AID="120" AType="" Condition="" CID="" ShowType="" AName="" ShowPos="" ShowTime="" Desc=""/>
+    <Property ID="75" AID="121" AType="" Condition="" CID="" ShowType="" AName="" ShowPos="" ShowTime="" Desc=""/>
+    <Property ID="76" AID="122" AType="" Condition="" CID="" ShowType="" AName="" ShowPos="" ShowTime="" Desc=""/>
+    <Property ID="77" AID="123" AType="" Condition="" CID="" ShowType="" AName="" ShowPos="" ShowTime="" Desc=""/>
+    <Property ID="78" AID="124" AType="" Condition="" CID="" ShowType="" AName="" ShowPos="" ShowTime="" Desc=""/>
+    
+</Object>

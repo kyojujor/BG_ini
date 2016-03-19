@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--type排行榜类型 1--等级排行，2--财富排行，4--实力排行 8--荣誉排行 16--副本积分排行-->
+<!--100_0_clone_rank_rec_0中100--副本ID；0、1、2、3--副本难度；后面的0--副本评价，1--最快通关-->
+<Object>
+	<Property ID = "level_rank_rec" type = "1" MainType = "1" MainInfo = "Level" SubType = "1" SubInfo = "PlayerExp" MainLimit = "1"/>
+	<Property ID = "gold_rank_rec"  type = "2" MainType = "3" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "ability_rank_rec"  type = "4" MainType = "1" MainInfo = "FightPower" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "glory_rank_rec"  type = "8" MainType = "1" MainInfo = "PlayerHonor" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "100_0_clone_rank_rec_0"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "100_1_clone_rank_rec_0"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "100_2_clone_rank_rec_0"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "100_3_clone_rank_rec_0"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "100_0_clone_rank_rec_1"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "100_1_clone_rank_rec_1"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "100_2_clone_rank_rec_1"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "100_3_clone_rank_rec_1"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>	
+	
+	<Property ID = "101_0_clone_rank_rec_0"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "101_1_clone_rank_rec_0"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "101_2_clone_rank_rec_0"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "101_3_clone_rank_rec_0"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "101_0_clone_rank_rec_1"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "101_1_clone_rank_rec_1"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "101_2_clone_rank_rec_1"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "101_3_clone_rank_rec_1"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	
+	<Property ID = "102_0_clone_rank_rec_0"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "102_1_clone_rank_rec_0"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "102_2_clone_rank_rec_0"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "102_3_clone_rank_rec_0"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "102_0_clone_rank_rec_1"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "102_1_clone_rank_rec_1"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "102_2_clone_rank_rec_1"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "102_3_clone_rank_rec_1"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	
+	<Property ID = "103_0_clone_rank_rec_0"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "103_1_clone_rank_rec_0"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "103_2_clone_rank_rec_0"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "103_3_clone_rank_rec_0"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "103_0_clone_rank_rec_1"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "103_1_clone_rank_rec_1"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "103_2_clone_rank_rec_1"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "103_3_clone_rank_rec_1"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	
+	<Property ID = "104_0_clone_rank_rec_0"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "104_1_clone_rank_rec_0"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "104_2_clone_rank_rec_0"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "104_3_clone_rank_rec_0"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "104_0_clone_rank_rec_1"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "104_1_clone_rank_rec_1"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "104_2_clone_rank_rec_1"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "104_3_clone_rank_rec_1"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	
+	<Property ID = "105_0_clone_rank_rec_0"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "105_1_clone_rank_rec_0"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "105_2_clone_rank_rec_0"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "105_3_clone_rank_rec_0"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "105_0_clone_rank_rec_1"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "105_1_clone_rank_rec_1"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "105_2_clone_rank_rec_1"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "105_3_clone_rank_rec_1"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	
+	<Property ID = "107_0_clone_rank_rec_0"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "107_1_clone_rank_rec_0"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "107_2_clone_rank_rec_0"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "107_3_clone_rank_rec_0"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "107_0_clone_rank_rec_1"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "107_1_clone_rank_rec_1"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "107_2_clone_rank_rec_1"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "107_3_clone_rank_rec_1"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	
+	<Property ID = "115_0_clone_rank_rec_0"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "115_1_clone_rank_rec_0"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "115_2_clone_rank_rec_0"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "115_3_clone_rank_rec_0"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "115_0_clone_rank_rec_1"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "115_1_clone_rank_rec_1"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "115_2_clone_rank_rec_1"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "115_3_clone_rank_rec_1"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	
+	<Property ID = "120_0_clone_rank_rec_0"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "120_1_clone_rank_rec_0"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "120_2_clone_rank_rec_0"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "120_3_clone_rank_rec_0"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "120_0_clone_rank_rec_1"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "120_1_clone_rank_rec_1"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "120_2_clone_rank_rec_1"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "120_3_clone_rank_rec_1"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	
+	<Property ID = "114_0_clone_rank_rec_0"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "114_1_clone_rank_rec_0"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "114_2_clone_rank_rec_0"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "114_3_clone_rank_rec_0"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "114_0_clone_rank_rec_1"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "114_1_clone_rank_rec_1"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "114_2_clone_rank_rec_1"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "114_3_clone_rank_rec_1"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	
+	<Property ID = "112_0_clone_rank_rec_0"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "112_1_clone_rank_rec_0"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "112_2_clone_rank_rec_0"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "112_3_clone_rank_rec_0"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "112_0_clone_rank_rec_1"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "112_1_clone_rank_rec_1"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "112_2_clone_rank_rec_1"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "112_3_clone_rank_rec_1"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>	
+	
+	<Property ID = "122_0_clone_rank_rec_0"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "122_1_clone_rank_rec_0"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "122_2_clone_rank_rec_0"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "122_3_clone_rank_rec_0"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "122_0_clone_rank_rec_0"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "122_1_clone_rank_rec_0"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "122_2_clone_rank_rec_0"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+	<Property ID = "122_3_clone_rank_rec_0"  type = "16" MainType = "2" MainInfo = "" SubType = "0" SubInfo = "" MainLimit = "1"/>
+</object>

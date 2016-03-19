@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='gb2312' ?>
+<Object>
+	<Property ID="2013" GirdX="1" GirdY="2" FatherTask="" ChildTask="2014" IsHide="1" LastTask=""/>
+	<Property ID="2014" GirdX="2" GirdY="2" FatherTask="2013" ChildTask="2015" IsHide="1" LastTask=""/>
+	<Property ID="2015" GirdX="3" GirdY="2" FatherTask="2014" ChildTask="2016" IsHide="1" LastTask=""/>
+	<Property ID="2016" GirdX="4" GirdY="2" FatherTask="2015" ChildTask="2017" IsHide="1" LastTask=""/>
+	<Property ID="2017" GirdX="5" GirdY="2" FatherTask="2016" ChildTask="2018" IsHide="1" LastTask=""/>
+	<Property ID="2018" GirdX="6" GirdY="2" FatherTask="2017" ChildTask="2019" IsHide="1" LastTask=""/>
+	<Property ID="2019" GirdX="7" GirdY="2" FatherTask="2018" ChildTask="2020" IsHide="1" LastTask=""/>
+	<Property ID="2020" GirdX="8" GirdY="2" FatherTask="2019" ChildTask="2021" IsHide="1" LastTask=""/>
+	<Property ID="2021" GirdX="9" GirdY="2" FatherTask="2020" ChildTask="2022" IsHide="1" LastTask=""/>
+	<Property ID="2022" GirdX="10" GirdY="2" FatherTask="2021" ChildTask="2023" IsHide="1" LastTask=""/>
+	<Property ID="2023" GirdX="11" GirdY="2" FatherTask="2022" ChildTask="2024" IsHide="1" LastTask=""/>
+	<Property ID="2024" GirdX="12" GirdY="2" FatherTask="2023" ChildTask="2025" IsHide="1" LastTask=""/>
+	<Property ID="2025" GirdX="13" GirdY="2" FatherTask="2024" ChildTask="2026" IsHide="1" LastTask=""/>
+	<Property ID="2026" GirdX="14" GirdY="2" FatherTask="2025" ChildTask="" IsHide="1" LastTask="1"/>
+</Object>
+

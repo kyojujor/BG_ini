@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!-- 放逐之地功能限制包 -->
+<Object>
+	<!-- 			身份	 不能开红				不会受到卫兵攻击 不能收邮件					不能发邮件				不能使用技能		不能使用物品		不能切磋 			不能交易			不能攻击和被攻击	不能贿赂逃离-->
+	<Property ID="0" CantMurder="0" GuardAttack="1" CantReceiveMail="0" CantSendMail="0" CantUseSkill="0" CantUseItem="0" CantDuel="0" CantTrade="0" CantBeAttacked="0" CantFlee="0"	desc="平民" />
+	<Property ID="1" CantMurder="0" GuardAttack="0" CantReceiveMail="0" CantSendMail="0" CantUseSkill="0" CantUseItem="0" CantDuel="0" CantTrade="0" CantBeAttacked="0" CantFlee="0"	desc="平民" />
+	<Property ID="2" CantMurder="1" GuardAttack="1" CantReceiveMail="0" CantSendMail="0" CantUseSkill="0" CantUseItem="0" CantDuel="1" CantTrade="1" CantBeAttacked="0" CantFlee="1"	desc="平民" />
+	<Property ID="3" CantMurder="1" GuardAttack="1" CantReceiveMail="0" CantSendMail="0" CantUseSkill="0" CantUseItem="0" CantDuel="1" CantTrade="1" CantBeAttacked="0" CantFlee="0"	desc="平民" />
+	<Property ID="4" CantMurder="1" GuardAttack="1" CantReceiveMail="0" CantSendMail="1" CantUseSkill="0" CantUseItem="0" CantDuel="1" CantTrade="1" CantBeAttacked="0" CantFlee="0"	desc="平民" />
+	<Property ID="5" CantMurder="1" GuardAttack="1" CantReceiveMail="0" CantSendMail="1" CantUseSkill="1" CantUseItem="1" CantDuel="1" CantTrade="1" CantBeAttacked="1" CantFlee="0"	desc="平民" />
+</Object>

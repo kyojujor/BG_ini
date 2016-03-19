@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes" ?>
+<Processor>
+    <Base type="object" version="1.0">
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-12300.271,87.395,-11908.037,-3.131" Index="0" />
+            <Param type="6" data="CloneDoor_luerle_0002" Index="1" />
+            <Param type="6" data="csm" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP1" />
+        <Line Type="1" Event="4021">
+            <Param type="13" srctype="8" data="AUTOP1" Index="0" />
+            <Param type="2" data="0" Index="1" />
+            <Param type="6" data="task_npc_fbm103_0025_1" Index="2" />
+            <Param type="11" data=" " Index="3" />
+        </Line>
+    </Base>
+</Processor>

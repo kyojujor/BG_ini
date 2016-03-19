@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 被2011 rel. 2 sp1 (TeaM DJiNN) 使用XMLSpy vTeaM DJiNN编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2010 (http://www.altova.com) by MESMERiZE (MiZE) -->
+<!--editedwithXMLSpyv2010 (http://www.altova.com)by MESMERiZE (MiZE) -->
+<!--编辑使用XMLSpyv2006U (http://www.altova.com)由 any (any) -->
+<!--编辑使用XMLSpyv2006U (http://www.altova.com)由 any (any) -->
+<!--被2011rel.2 sp1(xx) 使用XMLSpy va编辑的(http://www.altova.com) by -->
+<!--事件触发系统:奖励信息包-->
+<!--ID:奖励信息id(1~10留给程序测试用)-->
+<!--GoalItemId:主目标奖励包id，只支持道具.按贡献由低到高（格式道具包1，道具包2，道具包3）-->
+<!--GoalAwards:主目标数值奖励(金钱,经验,猎杀点数)-->
+<!--CriteriaAwards:子目标数值奖励,按平均完成度正比分配(金钱,经验,猎杀点数)-->
+<!--CriteriaAwards_n:子目标数值奖励,n从1到11, 分别表示平均完成度按照10%的粒度划分后对应的奖励,依次为10%, 20%, ..., 100%(金钱,经验,猎杀点数) -->
+<Object>
+	<Property ID="1" GoalAwards=",,12" CriteriaAwards="100,29480,4"/>
+	<Property ID="2" GoalItemId="BX_LZ_ZQ_001,BX_CJ_zq_004,BX_CJ_zq_004" GoalAwards=",,42" CriteriaAwards="7600,437820,28"/>
+	<Property ID="3" GoalAwards=",,12" CriteriaAwards="100,29480,4"/>
+	<Property ID="4" GoalAwards=",," CriteriaAwards="100,29480,4"/>
+	<Property ID="14002"/>
+	<Property ID="14005" GoalAwards=",,12" CriteriaAwards="100,19160,4"/>
+	<Property ID="14012" GoalAwards=",,12" CriteriaAwards="100,19160,4"/>
+	<Property ID="14013" GoalItemId="BX_DL_QH_001,BX_LZ_QH_001,BX_CJ_qh_001" GoalAwards=",,6" CriteriaAwards="100,4790,4"/>
+	<Property ID="14017" GoalAwards=",,12" CriteriaAwards="100,19160,4"/>
+	<Property ID="14019" GoalAwards=",,12" CriteriaAwards="100,19160,4"/>
+	<Property ID="14023" GoalAwards=",,12" CriteriaAwards="100,19160,4"/>
+	<Property ID="14024" GoalAwards=",,6" CriteriaAwards="100,4790,4"/>
+	<Property ID="14030" GoalAwards=",,12" CriteriaAwards="100,19160,4"/>
+	<Property ID="14032"/>
+	<Property ID="14035" GoalAwards=",,12" CriteriaAwards="100,19160,4"/>
+	<Property ID="14025" GoalAwards=",,6" CriteriaAwards="100,4790,4"/>
+	<Property ID="14034" GoalAwards=",,12" CriteriaAwards="100,19160,4"/>
+	<Property ID="14036" GoalItemId="BX_DL_QH_001,BX_LZ_QH_001,BX_CJ_qh_001" GoalAwards=",,24" CriteriaAwards="100,28740,4"/>
+	<Property ID="14038"/>
+	<Property ID="14039"/>
+	<Property ID="14001"/>
+	<Property ID="14004"/>
+	<Property ID="14007"/>
+	<Property ID="14018"/>
+	<Property ID="14031"/>
+	<Property ID="15002" GoalAwards=",,12" CriteriaAwards="100,19160,4"/>
+	<Property ID="15004" GoalAwards=",,12" CriteriaAwards="100,19160,4"/>
+	<Property ID="15007" GoalAwards=",,12" CriteriaAwards="100,19160,4"/>
+	<Property ID="15008" GoalAwards=",,12" CriteriaAwards="100,19160,4"/>
+	<Property ID="15010" GoalAwards=",,12" CriteriaAwards="100,19160,4"/>
+	<Property ID="15012" GoalAwards=",,12" CriteriaAwards="100,19160,4"/>
+	<Property ID="15014" GoalAwards=",,12" CriteriaAwards="100,19160,4"/>
+	<Property ID="15015" GoalAwards=",,6" CriteriaAwards="100,4790,4"/>
+	<Property ID="15006" GoalAwards=",,12" CriteriaAwards="100,19160,4"/>
+	<Property ID="15016" GoalAwards=",,12" CriteriaAwards="100,19160,4"/>
+	<Property ID="15019" GoalAwards=",,12" CriteriaAwards="100,19160,4"/>
+	<Property ID="15020" GoalAwards=",,6" CriteriaAwards="100,9580,4"/>
+	<Property ID="15001"/>
+	<Property ID="15005"/>
+	<Property ID="15013" GoalItemId="BX_DL_QH_001,BX_LZ_QH_001,BX_CJ_qh_001" GoalAwards=",,6" CriteriaAwards="100,4790,4"/>
+	<Property ID="1003" GoalAwards=",,12" CriteriaAwards="100,19160,4"/>
+	<Property ID="1005" GoalAwards=",,12" CriteriaAwards="100,19160,4"/>
+	<Property ID="1007" GoalAwards=",,12" CriteriaAwards="100,19160,4"/>
+	<Property ID="1999" GoalAwards=",,12" CriteriaAwards="100,19160,4"/>
+	<Property ID="1020" GoalAwards=",,6" CriteriaAwards="100,4790,4"/>
+	<Property ID="1016" GoalItemId="BX_DL_ZQ_001,BX_LZ_QH_001,BX_CJ_zq_001" GoalAwards=",,6" CriteriaAwards="100,4790,4"/>
+	<Property ID="1017" GoalItemId="BX_DL_ZQ_001,BX_LZ_QH_001,BX_CJ_zq_001" GoalAwards=",,6" CriteriaAwards="100,4790,4"/>
+	<Property ID="1015"/>
+	<Property ID="1011" GoalAwards=",,12" CriteriaAwards="100,19160,4"/>
+	<Property ID="1012" GoalAwards=",,12" CriteriaAwards="100,19160,4"/>
+	<Property ID="1018" GoalAwards=",,12" CriteriaAwards="100,19160,4"/>
+	<Property ID="1019" GoalItemId="BX_DL_ZQ_001,BX_LZ_QH_001,BX_CJ_zq_001" GoalAwards=",,24" CriteriaAwards="100,28740,4"/>
+	<Property ID="1022"/>
+	<Property ID="1008"/>
+	<Property ID="1009"/>
+	<Property ID="1010"/>
+	<Property ID="1021"/>
+	<Property ID="3002" GoalAwards=",,12" CriteriaAwards="100,19160,4"/>
+	<Property ID="3003" GoalAwards=",,12" CriteriaAwards="100,19160,4"/>
+	<Property ID="3004" GoalAwards=",,12" CriteriaAwards="100,19160,4"/>
+	<Property ID="3008" GoalAwards=",,12" CriteriaAwards="100,19160,4"/>
+	<Property ID="3010" GoalAwards=",,12" CriteriaAwards="100,19160,4"/>
+	<Property ID="3011" GoalAwards=",,12" CriteriaAwards="100,19160,4"/>
+	<Property ID="3012" GoalItemId="BX_DL_ZQ_001,BX_LZ_QH_001,BX_CJ_zq_001" GoalAwards=",,6" CriteriaAwards="100,4790,4"/>
+	<Property ID="3013" GoalAwards=",,6" CriteriaAwards="100,4790,4"/>
+	<Property ID="3015" GoalAwards=",,12" CriteriaAwards="100,19160,4"/>
+	<Property ID="3016" GoalAwards=",,12" CriteriaAwards="100,19160,4"/>
+	<Property ID="3017" GoalAwards=",,12" CriteriaAwards="100,19160,4"/>
+	<Property ID="3005"/>
+	<Property ID="3006"/>
+	<Property ID="3007"/>
+	<Property ID="3009"/>
+	<Property ID="4001" GoalAwards=",,12" CriteriaAwards="450,59420,8"/>
+	<Property ID="4002" GoalAwards=",,12" CriteriaAwards="450,59420,8"/>
+	<Property ID="4010" GoalAwards=",,12" CriteriaAwards="450,59420,8"/>
+	<Property ID="4003" GoalAwards=",,12" CriteriaAwards="450,59420,8"/>
+	<Property ID="4004" GoalAwards=",,12" CriteriaAwards="450,59420,8"/>
+	<Property ID="4011" GoalAwards=",,12" CriteriaAwards="450,59420,8"/>
+	<Property ID="4005" GoalAwards=",,12" CriteriaAwards="450,59420,8"/>
+	<Property ID="4006" GoalAwards=",,12" CriteriaAwards="450,59420,8"/>
+	<Property ID="4007" GoalAwards=",,12" CriteriaAwards="450,59420,8"/>
+	<Property ID="4008" GoalAwards=",,12" CriteriaAwards="450,59420,8"/>
+	<Property ID="4009" GoalAwards=",,12" CriteriaAwards="450,59420,8"/>
+	<Property ID="4012" GoalAwards=",,12" CriteriaAwards="450,59420,8"/>
+	<Property ID="4013" GoalItemId="BX_LZ_ZQ_001,BX_CJ_zq_002,BX_CJ_zq_002" GoalAwards=",,6" CriteriaAwards="450,14855,4"/>
+	<Property ID="4014" GoalAwards=",,6" CriteriaAwards="450,14855,4"/>
+	<Property ID="17001" GoalAwards=",,12" CriteriaAwards="450,59420,8"/>
+	<Property ID="17002" GoalAwards=",,12" CriteriaAwards="450,59420,8"/>
+	<Property ID="17003" GoalAwards=",,12" CriteriaAwards="450,59420,8"/>
+	<Property ID="17004" GoalAwards=",,12" CriteriaAwards="450,59420,8"/>
+	<Property ID="17005" GoalAwards=",,12" CriteriaAwards="450,59420,8"/>
+	<Property ID="17006" GoalAwards=",,12" CriteriaAwards="450,59420,8"/>
+	<Property ID="17007"/>
+	<Property ID="17008" GoalAwards=",,12" CriteriaAwards="450,59420,8"/>
+	<Property ID="17009" GoalAwards=",,12" CriteriaAwards="450,59420,8"/>
+	<Property ID="17010" GoalAwards=",,12" CriteriaAwards="450,59420,8"/>
+	<Property ID="17011" GoalAwards=",,12" CriteriaAwards="450,59420,8"/>
+	<Property ID="17012" GoalAwards=",,6" CriteriaAwards="450,14855,4"/>
+	<Property ID="17013" GoalItemId="BX_LZ_QH_001,BX_CJ_qh_002,BX_CJ_qh_002" GoalAwards=",,6" CriteriaAwards="450,14855,4"/>
+	<Property ID="18001" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="18002" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="18003" GoalItemId="BX_LZ_QH_001,BX_CJ_qh_003,BX_CJ_qh_003" GoalAwards=",,12" CriteriaAwards="2250,28745,8"/>
+	<Property ID="18004" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="18005" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="18006" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="18007" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="18008" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="18009" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="18010" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="18011" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="18012" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="18013" GoalAwards=",,12" CriteriaAwards="2250,28745,8"/>
+	<Property ID="9010" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="9011" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="9012" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="9013" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="9014" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="9015" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="9016" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="9017" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="9018" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="9019" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="9021" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="9022" GoalAwards=",,12" CriteriaAwards="2250,28745,8"/>
+	<Property ID="19001" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="19002" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="19003" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="19004" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="19005" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="19006" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="19007" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="19009" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="19010" GoalItemId="BX_LZ_QH_001,BX_CJ_qh_002,BX_CJ_qh_002" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="19011" GoalAwards=",,12" CriteriaAwards="2250,28745,8"/>
+	<Property ID="7001" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="7002" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="7003" GoalItemId="BX_LZ_QH_001,BX_CJ_zq_003,BX_CJ_zq_003" GoalAwards=",,12" CriteriaAwards="2250,28745,8"/>
+	<Property ID="7004" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="7006" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="7007" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="7008" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="7009" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="7010" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="7011" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="7012" GoalAwards=",,12" CriteriaAwards="2250,28745,8"/>
+	<Property ID="8001" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="8002" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="8003" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="8004" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="8005" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="8006" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="8007" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="8008" GoalAwards=",,12" CriteriaAwards="2250,28745,8"/>
+	<Property ID="26001" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="26003" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="26005" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="26002" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="26007" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="26008" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="26009" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="26010" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="26011" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="26012" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="26013" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="26014" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="26015" GoalItemId="BX_LZ_QH_001,BX_CJ_qh_003,BX_CJ_qh_003" GoalAwards=",,12" CriteriaAwards="2250,28745,8"/>
+	<Property ID="26016" GoalAwards=",,12" CriteriaAwards="2250,28745,8"/>
+	<Property ID="26019" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="22001" GoalAwards=",,42" CriteriaAwards="7600,284600,28"/>
+	<Property ID="22002" GoalAwards=",,42" CriteriaAwards="7600,284600,28"/>
+	<Property ID="22003" GoalAwards=",,42" CriteriaAwards="7600,284600,28"/>
+	<Property ID="22004" GoalAwards=",,42" CriteriaAwards="7600,284600,28"/>
+	<Property ID="22005" GoalAwards=",,42" CriteriaAwards="7600,284600,28"/>
+	<Property ID="22006" GoalAwards=",,42" CriteriaAwards="7600,284600,28"/>
+	<Property ID="22007" GoalAwards=",,42" CriteriaAwards="7600,284600,28"/>
+	<Property ID="2200801" GoalItemId="BX_LZ_ZQ_001,BX_CJ_zq_004,BX_CJ_zq_004" GoalAwards=",,42" CriteriaAwards="7600,284600,28"/>
+	<Property ID="2200802" GoalItemId="BX_LZ_QH_001,BX_CJ_qh_004,BX_CJ_qh_004" GoalAwards=",,42" CriteriaAwards="7600,284600,28"/>
+	<Property ID="2200902" GoalItemId="BX_LZ_QH_001,BX_CJ_qh_004,BX_CJ_qh_004" GoalAwards=",,21" CriteriaAwards="7600,71150,14"/>
+	<Property ID="2200901" GoalItemId="BX_LZ_ZQ_001,BX_CJ_zq_004,BX_CJ_zq_004" GoalAwards=",,21" CriteriaAwards="7600,71150,14"/>
+	<Property ID="22010" GoalAwards=",,42" CriteriaAwards="7600,284600,28"/>
+	<Property ID="22011" GoalAwards=",,21" CriteriaAwards="7600,71150,14"/>
+	<Property ID="22013" GoalAwards=",,42" CriteriaAwards="7600,284600,28"/>
+	<Property ID="2201401" GoalAwards=",,42" CriteriaAwards="7600,284600,28"/>
+	<Property ID="2201402" GoalAwards=",,42" CriteriaAwards="7600,284600,28"/>
+	<Property ID="22015" GoalAwards=",,42" CriteriaAwards="7600,284600,28"/>
+	<Property ID="14014" GoalItemId="BX_LZ_QH_001,BX_CJ_qh_001,BX_CJ_qh_001" GoalAwards=",,6" CriteriaAwards="100,4790,4"/>
+	<Property ID="17014" GoalItemId="BX_LZ_QH_001,BX_CJ_qh_002,BX_CJ_qh_002" GoalAwards=",,6" CriteriaAwards="450,14855,4"/>
+	<Property ID="18014" GoalItemId="BX_LZ_QH_001,BX_CJ_qh_003,BX_CJ_qh_003" GoalAwards=",,12" CriteriaAwards="2250,28745,8"/>
+	<Property ID="15009" GoalItemId="BX_LZ_QH_001,BX_CJ_qh_001,BX_CJ_qh_001" GoalAwards=",,6" CriteriaAwards="100,4790,4"/>
+	<Property ID="19008" GoalItemId="BX_LZ_QH_001,BX_CJ_qh_002,BX_CJ_qh_002" GoalAwards=",,12" CriteriaAwards="2250,28745,8"/>
+	<Property ID="26017" GoalItemId="BX_LZ_QH_001,BX_CJ_qh_003,BX_CJ_qh_003" GoalAwards=",,12" CriteriaAwards="2250,28745,8"/>
+	<Property ID="2201202" GoalItemId="BX_LZ_QH_001,BX_CJ_qh_004,BX_CJ_qh_004" GoalAwards=",,21" CriteriaAwards="7600,71150,14"/>
+	<Property ID="2201201" GoalItemId="BX_LZ_ZQ_001,BX_CJ_zq_004,BX_CJ_zq_004" GoalAwards=",,21" CriteriaAwards="7600,71150,14"/>
+	<Property ID="2201601" GoalItemId="BX_LZ_ZQ_001,BX_CJ_zq_004,BX_CJ_zq_004" GoalAwards=",,42" CriteriaAwards="7600,284600,28"/>
+	<Property ID="2201602" GoalItemId="BX_LZ_QH_001,BX_CJ_qh_004,BX_CJ_qh_004" GoalAwards=",,42" CriteriaAwards="7600,284600,28"/>
+	<Property ID="2201701" GoalItemId="BX_LZ_QH_001,BX_CJ_qh_004,BX_CJ_qh_004" GoalAwards=",,42" CriteriaAwards="7600,284600,28"/>
+	<Property ID="2201702" GoalItemId="BX_LZ_QH_001,BX_CJ_qh_004,BX_CJ_qh_004" GoalAwards=",,42" CriteriaAwards="7600,284600,28"/>
+	<Property ID="2201801" GoalItemId="BX_LZ_QH_001,BX_CJ_qh_004,BX_CJ_qh_004" GoalAwards=",,42" CriteriaAwards="7600,284600,28"/>
+	<Property ID="2201802" GoalItemId="BX_LZ_QH_001,BX_CJ_qh_004,BX_CJ_qh_004" GoalAwards=",,42" CriteriaAwards="7600,284600,28"/>
+	<Property ID="3014" GoalItemId="BX_DL_ZQ_001,BX_LZ_ZQ_001,BX_CJ_zq_001" GoalAwards=",,6" CriteriaAwards="100,4790,4"/>
+	<Property ID="9023" GoalItemId="BX_LZ_ZQ_001,BX_CJ_zq_002,BX_CJ_zq_002" GoalAwards=",,12" CriteriaAwards="2250,28745,8"/>
+	<Property ID="9024" GoalItemId="BX_LZ_ZQ_001,BX_CJ_zq_002,BX_CJ_zq_002" GoalAwards=",,12" CriteriaAwards="2250,28745,8"/>
+	<Property ID="8009" GoalItemId="BX_LZ_ZQ_001,BX_CJ_zq_003,BX_CJ_zq_003" GoalAwards=",,12" CriteriaAwards="2250,28745,8"/>
+	<Property ID="8010" GoalItemId="BX_LZ_ZQ_001,BX_CJ_zq_003,BX_CJ_zq_003" GoalAwards=",,12" CriteriaAwards="2250,28745,8"/>
+	<Property ID="4015" GoalItemId="BX_LZ_ZQ_001,BX_CJ_zq_002,BX_CJ_zq_002" GoalAwards=",,6" CriteriaAwards="450,14855,4"/>
+	<Property ID="7013" GoalItemId="BX_LZ_ZQ_001,BX_CJ_zq_003,BX_CJ_zq_003" GoalAwards=",,12" CriteriaAwards="2250,28745,8"/>
+	<Property ID="7014" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="1024" GoalAwards=",,12" CriteriaAwards="100,19160,4"/>
+	<Property ID="4016" GoalAwards=",,12" CriteriaAwards="450,59420,8"/>
+	<Property ID="17015" GoalAwards=",,12" CriteriaAwards="450,59420,8"/>
+	<Property ID="18015" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="27001" GoalAwards=",,42" CriteriaAwards="7600,284600,28"/>
+	<Property ID="27002" GoalAwards=",,42" CriteriaAwards="7600,284600,28"/>
+	<Property ID="27003" GoalAwards=",,42" CriteriaAwards="7600,284600,28"/>
+	<Property ID="27004" GoalAwards=",,42" CriteriaAwards="7600,284600,28"/>
+	<Property ID="27005" GoalAwards=",,42" CriteriaAwards="7600,284600,28"/>
+	<Property ID="19012" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="7015" GoalAwards=",,24" CriteriaAwards="2250,114980,16"/>
+	<Property ID="4017" GoalAwards=",,12" CriteriaAwards="450,59420,8"/>
+	<Property ID="9025" GoalAwards=",,12" CriteriaAwards="450,59420,8"/>
+	<Property ID="9026" GoalAwards=",,12" CriteriaAwards="450,59420,8"/>
+</Object>

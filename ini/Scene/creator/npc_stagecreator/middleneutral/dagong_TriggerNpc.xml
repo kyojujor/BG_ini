@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Stage>
+	<Object Guid="19D69D918C9A44E39CEB709EC7D21C55" Desc="隐形门" config="Organ_zlm012_0001" x="897.380127" y="43.878544" z="2896.452881" amount="1" fOrg="0" IsPersistent="0">
+		<Event EventId="23" Processor="dagongpengdi_quest_2521"/>
+	</Object>
+	<Object Guid="B8F12C44BC40465887219BEB68D403A5" Desc="隐形门" config="Organ_zlm012_0003" x="1683.846558" y="105.941322" z="3761.96582" amount="1" fOrg="0" IsPersistent="0">
+		<Event EventId="23" Processor="dagongpengdi_quest_2526_1"/>
+	</Object>
+	<Object Guid="D9073D703E584E83AA764EC542B72FDD" Desc="隐形门" config="Organ_zlm012_0002" Layer="" MaxRefreshCount="" x="821.662903" y="76.653671" z="2392.005615" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0">
+		<Event EventId="23" Processor="dagongpengdi_quest_2522"/>
+	</Object>
+	<Object Guid="C11C446B072D4A2CBB53E8F80B9BD820" Desc="隐形点" config="Organ_dagong2575_001" Layer="" MaxRefreshCount="" x="822.037842" y="65.028725" z="3468.111816" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+</Stage>

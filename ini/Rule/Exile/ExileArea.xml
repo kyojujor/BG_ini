@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!-- 放逐之地场景区域配置 -->
+<Object>
+	<!--							阵营出生地（x,y,z,o）				放逐监狱（x,y,z,o）									关押结束的传送点-->
+	<Property ID="101" CampsiteArea = "-143,177,-70,-1" PrisonArea = "0,134,0,3" EscapeArea = "1,-515,21,847,3" desc="蒸汽人类" />
+	<Property ID="102" CampsiteArea = "-143,177,-70,-1" PrisonArea = "0,134,0,3" EscapeArea = "" desc="蒸汽血族" />
+	<Property ID="103" CampsiteArea = "-143,177,-70,-1" PrisonArea = "0,134,0,3" EscapeArea = "1,-1036,105,2410,2" desc="蒸汽矮人" />
+	<Property ID="204" CampsiteArea = "158,172,-36,1" PrisonArea = "-35,134,-85,1" EscapeArea = "3,-4386,57,6137,-1" desc="奇幻人类" />
+	<Property ID="205" CampsiteArea = "158,172,-36,1" PrisonArea = "-35,134,-85,1" EscapeArea = "" desc="奇幻野蛮人" />
+	<Property ID="206" CampsiteArea = "158,172,-36,1" PrisonArea = "-35,134,-85,1" EscapeArea = "2,3319,50,1192,0" desc="奇幻猫人" />
+</Object>

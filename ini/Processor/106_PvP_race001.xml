@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes" ?>
+<Processor>
+    <Base type="object" version="1.0">
+        <Line Type="2" Event="2002" Name="AUTOP3" />
+        <Line Type="2" Event="5086" Name="AUTOP2">
+            <Param type="13" srctype="8" data="AUTOP3" Index="0" />
+            <Param type="6" data="Buff_Pvprace001_01" Index="1" />
+        </Line>
+        <Line Type="2" Event="1106" Name="AUTOP1">
+            <Param type="13" srctype="2" data="AUTOP2" Index="0" />
+        </Line>
+        <Line Type="2" Event="2002" Name="AUTOP6" />
+        <Line Type="2" Event="1540" Name="AUTOP5">
+            <Param type="13" srctype="8" data="AUTOP6" Index="0" />
+        </Line>
+        <Line Type="2" Event="1106" Name="AUTOP4">
+            <Param type="13" srctype="2" data="AUTOP5" Index="0" />
+        </Line>
+        <Line Type="3" IncludeLines="123">
+            <Param type="13" bool="true" srctype="1" data="AUTOP1" Index="0" />
+            <Param type="13" bool="true" srctype="1" data="AUTOP4" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP8" />
+        <Line Type="2" Event="2120" Name="AUTOP7">
+            <Param type="13" srctype="8" data="AUTOP8" Index="0" />
+        </Line>
+        <Line Type="10" CaseNum="10" IncludeLines="120">
+            <Param type="13" srctype="6" data="AUTOP7" Index="0" />
+        </Line>
+        <Line Type="11" IncludeLines="25">
+            <Param type="6" data="npc_zlpvp001_0024" Index="0" />
+        </Line>
+        <Line Type="12" CaseNum="4" IncludeLines="24" />
+        <Line Type="13" IncludeLines="5" />
+        <Line Type="2" Event="2002" Name="AUTOP9" />
+        <Line Type="1" Event="5067">
+            <Param type="13" srctype="8" data="AUTOP9" Index="0" />
+            <Param type="6" data="Buff_Pvpskill_0011_01" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP10" />
+        <Line Type="2" Event="2001" Name="AUTOP11" />
+        <Line Type="1" Event="4515">
+            <Param type="13" srctype="8" data="AUTOP10" Index="0" />
+            <Param type="13" srctype="8" data="AUTOP11" Index="1" />
+        </Line>
+        <Line Type="13" IncludeLines="5" />
+        <Line Type="2" Event="2002" Name="AUTOP12" />
+        <Line Type="1" Event="5067">
+            <Param type="13" srctype="8" data="AUTOP12" Index="0" />
+            <Param type="6" data="Buff_Pvpskill_0010_01" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP13" />
+        <Line Type="2" Event="2001" Name="AUTOP14" />
+        <Line Type="1" Event="4515">
+            <Param type="13" srctype="8" data="AUTOP13" Index="0" />
+            <Param type="13" srctype="8" data="AUTOP14" Index="1" />
+        </Line>
+        <Line Type="13" IncludeLines="5" />
+        <Line Type="2" Event="2002" Name="AUTOP15" />
+        <Line Type="1" Event="5067">
+            <Param type="13" srctype="8" data="AUTOP15" Index="0" />
+            <Param type="6" data="Buff_Pvpskill_0012_01" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP16" />
+        <Line Type="2" Event="2001" Name="AUTOP17" />
+        <Line Type="1" Event="4515">
+            <Param type="13" srctype="8" data="AUTOP16" Index="0" />
+            <Param type="13" srctype="8" data="AUTOP17" Index="1" />
+        </Line>
+        <Line Type="13" IncludeLines="5" />
+        <Line Type="2" Event="2002" Name="AUTOP18" />
+        <Line Type="1" Event="5067">
+            <Param type="13" srctype="8" data="AUTOP18" Index="0" />
+            <Param type="6" data="Buff_Pvpskill_0013_01" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP19" />
+        <Line Type="2" Event="2001" Name="AUTOP20" />
+        <Line Type="1" Event="4515">
+            <Param type="13" srctype="8" data="AUTOP19" Index="0" />
+            <Param type="13" srctype="8" data="AUTOP20" Index="1" />
+        </Line>
+        <Line Type="11" IncludeLines="5">
+            <Param type="6" data="npc_zlpvp001_0025" Index="0" />
+        </Line>
+        <Line Type="2" Event="2002" Name="AUTOP21" />
+        <Line Type="1" Event="5067">
+            <Param type="13" srctype="8" data="AUTOP21" Index="0" />
+            <Param type="6" data="Buff_Pvpskill_0011_01" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP22" />
+        <Line Type="2" Event="2001" Name="AUTOP23" />
+        <Line Type="1" Event="4515">
+            <Param type="13" srctype="8" data="AUTOP22" Index="0" />
+            <Param type="13" srctype="8" data="AUTOP23" Index="1" />
+        </Line>
+        <Line Type="11" IncludeLines="5">
+            <Param type="6" data="npc_zlpvp001_0026" Index="0" />
+        </Line>
+        <Line Type="2" Event="2002" Name="AUTOP24" />
+        <Line Type="1" Event="5067">
+            <Param type="13" srctype="8" data="AUTOP24" Index="0" />
+            <Param type="6" data="Buff_Pvpskill_0012_01" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP25" />
+        <Line Type="2" Event="2001" Name="AUTOP26" />
+        <Line Type="1" Event="4515">
+            <Param type="13" srctype="8" data="AUTOP25" Index="0" />
+            <Param type="13" srctype="8" data="AUTOP26" Index="1" />
+        </Line>
+        <Line Type="11" IncludeLines="5">
+            <Param type="6" data="npc_zlpvp001_0027" Index="0" />
+        </Line>
+        <Line Type="2" Event="2002" Name="AUTOP27" />
+        <Line Type="1" Event="5067">
+            <Param type="13" srctype="8" data="AUTOP27" Index="0" />
+            <Param type="6" data="Buff_Pvpskill_0013_01" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP28" />
+        <Line Type="2" Event="2001" Name="AUTOP29" />
+        <Line Type="1" Event="4515">
+            <Param type="13" srctype="8" data="AUTOP28" Index="0" />
+            <Param type="13" srctype="8" data="AUTOP29" Index="1" />
+        </Line>
+        <Line Type="11" IncludeLines="5">
+            <Param type="6" data="npc_zlpvp001_0028" Index="0" />
+        </Line>
+        <Line Type="2" Event="2002" Name="AUTOP30" />
+        <Line Type="1" Event="5067">
+            <Param type="13" srctype="8" data="AUTOP30" Index="0" />
+            <Param type="6" data="Buff_Pvpskill_0014_02" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP31" />
+        <Line Type="2" Event="2001" Name="AUTOP32" />
+        <Line Type="1" Event="4515">
+            <Param type="13" srctype="8" data="AUTOP31" Index="0" />
+            <Param type="13" srctype="8" data="AUTOP32" Index="1" />
+        </Line>
+        <Line Type="11" IncludeLines="25">
+            <Param type="6" data="npc_zlpvp001_0029" Index="0" />
+        </Line>
+        <Line Type="12" CaseNum="4" IncludeLines="24" />
+        <Line Type="13" IncludeLines="5" />
+        <Line Type="2" Event="2002" Name="AUTOP33" />
+        <Line Type="1" Event="5067">
+            <Param type="13" srctype="8" data="AUTOP33" Index="0" />
+            <Param type="6" data="Buff_Pvpskill_0011_01" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP34" />
+        <Line Type="2" Event="2001" Name="AUTOP35" />
+        <Line Type="1" Event="4515">
+            <Param type="13" srctype="8" data="AUTOP34" Index="0" />
+            <Param type="13" srctype="8" data="AUTOP35" Index="1" />
+        </Line>
+        <Line Type="13" IncludeLines="5" />
+        <Line Type="2" Event="2002" Name="AUTOP36" />
+        <Line Type="1" Event="5067">
+            <Param type="13" srctype="8" data="AUTOP36" Index="0" />
+            <Param type="6" data="Buff_Pvpskill_0010_01" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP37" />
+        <Line Type="2" Event="2001" Name="AUTOP38" />
+        <Line Type="1" Event="4515">
+            <Param type="13" srctype="8" data="AUTOP37" Index="0" />
+            <Param type="13" srctype="8" data="AUTOP38" Index="1" />
+        </Line>
+        <Line Type="13" IncludeLines="5" />
+        <Line Type="2" Event="2002" Name="AUTOP39" />
+        <Line Type="1" Event="5067">
+            <Param type="13" srctype="8" data="AUTOP39" Index="0" />
+            <Param type="6" data="Buff_Pvpskill_0021_01" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP40" />
+        <Line Type="2" Event="2001" Name="AUTOP41" />
+        <Line Type="1" Event="4515">
+            <Param type="13" srctype="8" data="AUTOP40" Index="0" />
+            <Param type="13" srctype="8" data="AUTOP41" Index="1" />
+        </Line>
+        <Line Type="13" IncludeLines="5" />
+        <Line Type="2" Event="2002" Name="AUTOP42" />
+        <Line Type="1" Event="5067">
+            <Param type="13" srctype="8" data="AUTOP42" Index="0" />
+            <Param type="6" data="Buff_Pvpskill_0019_01" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP43" />
+        <Line Type="2" Event="2001" Name="AUTOP44" />
+        <Line Type="1" Event="4515">
+            <Param type="13" srctype="8" data="AUTOP43" Index="0" />
+            <Param type="13" srctype="8" data="AUTOP44" Index="1" />
+        </Line>
+        <Line Type="11" IncludeLines="5">
+            <Param type="6" data="npc_zlpvp001_0030" Index="0" />
+        </Line>
+        <Line Type="2" Event="2002" Name="AUTOP45" />
+        <Line Type="1" Event="5067">
+            <Param type="13" srctype="8" data="AUTOP45" Index="0" />
+            <Param type="6" data="Buff_Pvpskill_0020_01" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP46" />
+        <Line Type="2" Event="2001" Name="AUTOP47" />
+        <Line Type="1" Event="4515">
+            <Param type="13" srctype="8" data="AUTOP46" Index="0" />
+            <Param type="13" srctype="8" data="AUTOP47" Index="1" />
+        </Line>
+        <Line Type="11" IncludeLines="2">
+            <Param type="6" data="npc_zlpvp001_0031" Index="0" />
+        </Line>
+        <Line Type="2" Event="2002" Name="AUTOP48" />
+        <Line Type="1" Event="5067">
+            <Param type="13" srctype="8" data="AUTOP48" Index="0" />
+            <Param type="6" data="Buff_Pvpskill_0017_01" Index="1" />
+        </Line>
+        <Line Type="11" IncludeLines="2">
+            <Param type="6" data="npc_zlpvp001_0032" Index="0" />
+        </Line>
+        <Line Type="2" Event="2002" Name="AUTOP49" />
+        <Line Type="1" Event="5067">
+            <Param type="13" srctype="8" data="AUTOP49" Index="0" />
+            <Param type="6" data="Buff_Pvpskill_0018_02" Index="1" />
+        </Line>
+        <Line Type="11" IncludeLines="31">
+            <Param type="6" data="npc_zlpvp001_0033" Index="0" />
+        </Line>
+        <Line Type="12" CaseNum="5" IncludeLines="30" />
+        <Line Type="13" IncludeLines="5" />
+        <Line Type="2" Event="2002" Name="AUTOP50" />
+        <Line Type="1" Event="5067">
+            <Param type="13" srctype="8" data="AUTOP50" Index="0" />
+            <Param type="6" data="Buff_Pvpskill_0011_01" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP51" />
+        <Line Type="2" Event="2001" Name="AUTOP52" />
+        <Line Type="1" Event="4515">
+            <Param type="13" srctype="8" data="AUTOP51" Index="0" />
+            <Param type="13" srctype="8" data="AUTOP52" Index="1" />
+        </Line>
+        <Line Type="13" IncludeLines="5" />
+        <Line Type="2" Event="2002" Name="AUTOP53" />
+        <Line Type="1" Event="5067">
+            <Param type="13" srctype="8" data="AUTOP53" Index="0" />
+            <Param type="6" data="Buff_Pvpskill_0020_01" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP54" />
+        <Line Type="2" Event="2001" Name="AUTOP55" />
+        <Line Type="1" Event="4515">
+            <Param type="13" srctype="8" data="AUTOP54" Index="0" />
+            <Param type="13" srctype="8" data="AUTOP55" Index="1" />
+        </Line>
+        <Line Type="13" IncludeLines="5" />
+        <Line Type="2" Event="2002" Name="AUTOP56" />
+        <Line Type="1" Event="5067">
+            <Param type="13" srctype="8" data="AUTOP56" Index="0" />
+            <Param type="6" data="Buff_Pvpskill_0010_01" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP57" />
+        <Line Type="2" Event="2001" Name="AUTOP58" />
+        <Line Type="1" Event="4515">
+            <Param type="13" srctype="8" data="AUTOP57" Index="0" />
+            <Param type="13" srctype="8" data="AUTOP58" Index="1" />
+        </Line>
+        <Line Type="13" IncludeLines="5" />
+        <Line Type="2" Event="2002" Name="AUTOP59" />
+        <Line Type="1" Event="5067">
+            <Param type="13" srctype="8" data="AUTOP59" Index="0" />
+            <Param type="6" data="Buff_Pvpskill_0021_01" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP60" />
+        <Line Type="2" Event="2001" Name="AUTOP61" />
+        <Line Type="1" Event="4515">
+            <Param type="13" srctype="8" data="AUTOP60" Index="0" />
+            <Param type="13" srctype="8" data="AUTOP61" Index="1" />
+        </Line>
+        <Line Type="13" IncludeLines="5" />
+        <Line Type="2" Event="2002" Name="AUTOP62" />
+        <Line Type="1" Event="5067">
+            <Param type="13" srctype="8" data="AUTOP62" Index="0" />
+            <Param type="6" data="Buff_Pvpskill_0019_01" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP63" />
+        <Line Type="2" Event="2001" Name="AUTOP64" />
+        <Line Type="1" Event="4515">
+            <Param type="13" srctype="8" data="AUTOP63" Index="0" />
+            <Param type="13" srctype="8" data="AUTOP64" Index="1" />
+        </Line>
+    </Base>
+</Processor>

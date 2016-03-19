@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Stage>
+	<Object Guid="0AAED0C574674C5A9B5C65B0FD584189" Desc="副本离开" config="CloneDoor_tnb_0001" MaxRefreshCount="1" x="112.257278" y="-6.875935" z="-117.880112" IsY="0" Radius="0" NeedRotate="0" amount="1" fOrg="-2.010003" IsPersistent="0"/>
+	<Object Guid="37831E209C674170B86137017AEAA591" Desc="监狱执法者" config="FB_TNB_001" MaxRefreshCount="1" x="48.588825" y="21.742001" z="-153.251953" IsY="0" Radius="0" PatrolMode="1" PathID="12202" amount="1" fOrg="0.370003" IsPersistent="0">
+		<Event EventId="5" Processor="FB_TNB_052"/>
+	</Object>
+	<Object Guid="9AFBBD1AF0DC4964ABD31664A9C0EA6C" Desc="监狱审讯者" config="FB_TNB_002" MaxRefreshCount="1" x="27.858654" y="17.890001" z="-155.872574" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" fOrg="0.284986" IsPersistent="0">
+		<Event EventId="5" Processor="FB_TNB_052"/>
+	</Object>
+	<Object Guid="0F945AF513BD4A098ED8FBA282CDDD9E" Desc="监狱审讯者" config="FB_TNB_002" MaxRefreshCount="1" x="56.115772" y="23.332001" z="-135.080917" IsY="0" Radius="0" amount="1" fOrg="-2.275007" IsPersistent="0">
+		<Event EventId="23" Processor="FB_TNB_talk_012"/>
+		<Event EventId="5" Processor="FB_TNB_052"/>
+	</Object>
+	<Object Guid="2741A375459B40EEBA5DC08378290428" Desc="监狱审讯者" config="FB_TNB_002" MaxRefreshCount="1" x="54.167377" y="23.392" z="-136.541077" IsY="0" Radius="0" amount="1" fOrg="1.020007" IsPersistent="0">
+		<Event EventId="5" Processor="FB_TNB_052"/>
+	</Object>
+	<Object Guid="AB693354EEFC42DC9C279B4402D43DBC" Desc="亡者祭祀_对话1" config="FB_TNB_004" MaxRefreshCount="1" x="29.911364" y="-6.497209" z="-136.783783" IsY="0" Radius="0" amount="1" fOrg="2.500001" IsPersistent="0"/>
+	<Object Guid="87D68C2F2D0D426E8CFB0B581B67D7EF" Desc="奴役的游魂" config="FB_TNB_005" MaxRefreshCount="1" x="40.259747" y="-8.026756" z="-147.024307" IsY="1" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="024D0DB792C84652A33C047E4980A586" Desc="奴役的游魂" config="FB_TNB_005" MaxRefreshCount="1" x="40.311794" y="-7.8" z="-158.254379" IsY="0" Radius="0" PatrolMode="0" PatrolRange="10" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="57DAB413ED0C4B9A8E98B72F522A2EEA" Desc="奴役的游魂" config="FB_TNB_005" MaxRefreshCount="1" x="60.843231" y="-4.138021" z="-139.445831" IsY="1" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="76129BD202D04965A338C815ACA6DCFC" Desc="奴役的游魂" config="FB_TNB_005" MaxRefreshCount="1" x="45.093971" y="-7.8" z="-144.362045" IsY="1" Radius="0" amount="1" fOrg="3.105003" IsPersistent="0" PatrolMode="0" PatrolRange="5"/>
+	<Object Guid="786BA87CC197423D80E3549D56A595BD" Desc="奴役的游魂" config="FB_TNB_005" MaxRefreshCount="1" x="43.719776" y="-7.8" z="-148.854019" IsY="1" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" fOrg="-0.940002" IsPersistent="0"/>
+	<Object Guid="74425CE252E8423DB4C8736D4BAC0F01" Desc="奴役的游魂" config="FB_TNB_005" MaxRefreshCount="1" x="37.060638" y="-5.999422" z="-168.249374" IsY="1" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" fOrg="1.450005" IsPersistent="0"/>
+	<Object Guid="B1720E324FD04EF49A193F855E866C6E" Desc="恶魔犬" config="FB_TNB_006" MaxRefreshCount="1" x="17.180906" y="17.854" z="-154.286606" IsY="0" Radius="0" amount="1" fOrg="1.37" IsPersistent="0"/>
+	<Object Guid="A219462D33A148D3818A07710312F921" Desc="恶魔犬" config="FB_TNB_006" MaxRefreshCount="1" x="64.829132" y="20.811001" z="-121.008369" IsY="0" Radius="0" amount="1" fOrg="-2.120004" IsPersistent="0"/>
+	<Object Guid="4AF5E11C2841414A804837F7A8E076C6" Desc="恶魔犬" config="FB_TNB_006" MaxRefreshCount="1" x="75.598038" y="31.770002" z="-109.279709" IsY="0" Radius="0" amount="1" fOrg="-2.849999" IsPersistent="0"/>
+	<Object Guid="F07869769B9046BA92B705A602E98F43" Desc="恶魔犬" config="FB_TNB_006" MaxRefreshCount="1" x="51.928055" y="29.736208" z="-114.439445" IsY="0" Radius="0" amount="1" fOrg="-2.475007" IsPersistent="0"/>
+	<Object Guid="B49CF45225DF4E6FAE1EA4B448E8E302" Desc="恶魔犬" config="FB_TNB_006" MaxRefreshCount="1" x="54.877487" y="21.673" z="-184.010849" IsY="0" Radius="0" amount="1" fOrg="-1.51" IsPersistent="0"/>
+	<Object Guid="88DA3F5656404E48A887D92C7E3AA84B" Desc="恶魔犬" config="FB_TNB_006" MaxRefreshCount="1" x="55.774944" y="21.412001" z="-175.306534" IsY="0" Radius="0" amount="1" fOrg="-1.349996" IsPersistent="0"/>
+	<Object Guid="552428DD272D450CAE0180120BE147DF" Desc="恶魔犬" config="FB_TNB_006" MaxRefreshCount="1" x="55.713657" y="21.742001" z="-166.57605" IsY="0" Radius="0" amount="1" fOrg="-1.344999" IsPersistent="0"/>
+	<Object Guid="48EC047FCD3147AB9A3F006456645E41" Desc="恶魔犬" config="FB_TNB_006" MaxRefreshCount="1" x="56.707169" y="21.919001" z="-159.019943" IsY="0" Radius="0" amount="1" fOrg="-1.314997" IsPersistent="0"/>
+	<Object Guid="8E0C01D3BC3A40A4A6B2895CAE45BB4D" Desc="末日教狱卒" config="FB_TNB_007" MaxRefreshCount="1" x="23.923624" y="17.803001" z="-161.482529" IsY="0" Radius="0" amount="1" fOrg="1.775008" IsPersistent="0">
+		<Event EventId="5" Processor="FB_TNB_066"/>
+	</Object>
+	<Object Guid="89441703DBE2442FA2E3EDD1E7BCC2CD" Desc="末日教狱卒" config="FB_TNB_007" MaxRefreshCount="1" x="50.748672" y="21.595001" z="-161.7155" IsY="0" Radius="0" amount="1" fOrg="-1.425003" IsPersistent="0">
+		<Event EventId="5" Processor="FB_TNB_052"/>
+	</Object>
+	<Object Guid="8385285F6484463B85E25DB602839740" Desc="末日教狱卒" config="FB_TNB_007" MaxRefreshCount="1" x="47.867043" y="21.733002" z="-178.749847" IsY="0" Radius="0" amount="1" fOrg="-1.520002" IsPersistent="0">
+		<Event EventId="5" Processor="FB_TNB_052"/>
+	</Object>
+	<Object Guid="1D9200B1E4EB49B6ABF42B41F391B25C" Desc="末日教狱卒" config="FB_TNB_007" MaxRefreshCount="1" x="24.829878" y="17.566" z="-166.12738" IsY="0" Radius="0" amount="1" fOrg="1.255" IsPersistent="0">
+		<Event EventId="5" Processor="FB_TNB_066"/>
+	</Object>
+	<Object Guid="D27D731CF83047FEAB950E806C1A0357" Desc="末日教狱卒" config="FB_TNB_007" MaxRefreshCount="1" x="78.555275" y="31.912001" z="-143.274063" IsY="0" Radius="0" amount="1" fOrg="-1.379996" IsPersistent="0">
+		<Event EventId="5" Processor="FB_TNB_052"/>
+	</Object>
+	<Object Guid="E6550022FF0040859CD20A82F2D704AB" Desc="末日教狱卒" config="FB_TNB_007" MaxRefreshCount="1" x="76.896942" y="31.711002" z="-144.335953" IsY="0" Radius="0" amount="1" fOrg="-0.015007" IsPersistent="0">
+		<Event EventId="5" Processor="FB_TNB_052"/>
+	</Object>
+	<Object Guid="7D1DC83EA3EB493DADC6D45F55ED0B85" Desc="末日教狱卒" config="FB_TNB_007" MaxRefreshCount="1" x="60.668682" y="29.863001" z="-160.480896" IsY="0" Radius="0" amount="1" fOrg="-1.335002" IsPersistent="0">
+		<Event EventId="5" Processor="FB_TNB_052"/>
+	</Object>
+	<Object Guid="5BCE4578F45E46E2ABF58057C68DFD02" Desc="末日教狱卒" config="FB_TNB_007" MaxRefreshCount="1" x="57.843746" y="30.169001" z="-178.129257" IsY="0" Radius="0" amount="1" fOrg="-1.365002" IsPersistent="0">
+		<Event EventId="5" Processor="FB_TNB_052"/>
+	</Object>
+	<Object Guid="15C61620CC0C4CFCA5FEFC7804C72E6B" Desc="洞穴卫兵" config="FB_TNB_008" MaxRefreshCount="1" x="21.819971" y="21.058001" z="-359.123016" IsY="0" Radius="0" amount="1" fOrg="-1.563192" IsPersistent="0">
+		<Event EventId="5" Processor="FB_TNB_053"/>
+	</Object>
+	<Object Guid="31FE72BC04464676AEB44638EF2B04D3" Desc="洞穴卫兵" config="FB_TNB_008" MaxRefreshCount="1" x="18.705702" y="21.055" z="-355.705536" IsY="0" Radius="0" amount="1" fOrg="-1.873197" IsPersistent="0">
+		<Event EventId="5" Processor="FB_TNB_053"/>
+	</Object>
+	<Object Guid="A3D05D7B385F4741922C7D6F36B25F3F" Desc="洞穴卫兵" config="FB_TNB_008" MaxRefreshCount="1" x="-66.635445" y="-3.053" z="-329.347687" IsY="0" Radius="0" amount="1" fOrg="-0.150001" IsPersistent="0">
+		<Event EventId="5" Processor="FB_TNB_052"/>
+	</Object>
+	<Object Guid="113294493AD34C198B9D792A3EC05497" Desc="洞穴卫兵" config="FB_TNB_008" MaxRefreshCount="1" x="-48.193321" y="-0.384832" z="-346.526459" IsY="0" Radius="0" amount="1" fOrg="-0.950006" IsPersistent="0">
+		<Event EventId="5" Processor="FB_TNB_053"/>
+	</Object>
+	<Object Guid="4D06C5566A7F4D4BBD943438C54C9692" Desc="洞穴卫兵" config="FB_TNB_008" MaxRefreshCount="1" x="-26.175669" y="5.911" z="-335.848053" IsY="0" Radius="0" amount="1" fOrg="-2.635002" IsPersistent="0">
+		<Event EventId="23" Processor="FB_TNB_talk_013"/>
+		<Event EventId="5" Processor="FB_TNB_053"/>
+	</Object>
+	<Object Guid="24DA43A98DA6401EACA86C08BDC46A95" Desc="洞穴卫兵" config="FB_TNB_008" MaxRefreshCount="1" x="-28.305389" y="5.863" z="-337.312378" IsY="0" Radius="0" amount="1" fOrg="1.691796" IsPersistent="0">
+		<Event EventId="5" Processor="FB_TNB_053"/>
+	</Object>
+	<Object Guid="67401995DA814D249BD17BCE04F9FCED" Desc="洞穴卫兵" config="FB_TNB_008" MaxRefreshCount="1" x="-53.546013" y="-0.344" z="-352.988068" IsY="0" Radius="0" amount="1" fOrg="-0.760002" IsPersistent="0">
+		<Event EventId="5" Processor="FB_TNB_053"/>
+	</Object>
+	<Object Guid="CDA911F4D85D46669EE01E63F079AC7E" Desc="洞穴卫兵" config="FB_TNB_008" MaxRefreshCount="1" x="-36.559387" y="1.474" z="-373.865204" IsY="0" Radius="0" amount="1" fOrg="0.914997" IsPersistent="0">
+		<Event EventId="5" Processor="FB_TNB_053"/>
+	</Object>
+	<Object Guid="E3C85A6711F74EC0B25171A872C35E87" Desc="洞穴卫兵" config="FB_TNB_008" MaxRefreshCount="1" x="-43.88599" y="9.67" z="-291.596588" IsY="0" Radius="0" amount="1" fOrg="1.600002" IsPersistent="0">
+		<Event EventId="5" Processor="FB_TNB_053"/>
+	</Object>
+	<Object Guid="A6E3BDCB78684C5092D043B2619336F1" Desc="洞穴卫兵" config="FB_TNB_008" MaxRefreshCount="1" x="-43.24873" y="9.67" z="-287.835693" IsY="0" Radius="0" amount="1" fOrg="-2.415002" IsPersistent="0">
+		<Event EventId="5" Processor="FB_TNB_053"/>
+	</Object>
+	<Object Guid="C090F881CBCE4AAAA6BCA6AB44C2C994" Desc="洞穴卫兵" config="FB_TNB_008" MaxRefreshCount="1" x="-70.2771" y="-2.684" z="-333.110992" IsY="0" Radius="0" amount="1" fOrg="-0.045001" IsPersistent="0">
+		<Event EventId="5" Processor="FB_TNB_053"/>
+	</Object>
+	<Object Guid="4AA3DB56994844B2AAC5D8ED8C88F2F0" Desc="洞穴卫兵" config="FB_TNB_008" MaxRefreshCount="1" x="-41.000927" y="1.537" z="-370.40744" IsY="0" Radius="0" amount="1" fOrg="1.685008" IsPersistent="0">
+		<Event EventId="5" Processor="FB_TNB_053"/>
+	</Object>
+	<Object Guid="479C351E1B0C41D5992C294AF2A8119C" Desc="洞穴卫兵" config="FB_TNB_008" MaxRefreshCount="1" x="13.144039" y="14.326" z="-276.260437" IsY="0" Radius="0" amount="1" fOrg="-1.825006" IsPersistent="0">
+		<Event EventId="5" Processor="FB_TNB_053"/>
+	</Object>
+	<Object Guid="7CF3E8FD759446AFB72273856483887C" Desc="洞穴卫兵" config="FB_TNB_008" MaxRefreshCount="1" x="-68.224556" y="4.528" z="-302.140411" IsY="0" Radius="0" amount="1" fOrg="-2.665002" IsPersistent="0">
+		<Event EventId="5" Processor="FB_TNB_053"/>
+	</Object>
+	<Object Guid="E91B5FD620564867852CC66782884474" Desc="洞穴卫兵" config="FB_TNB_008" MaxRefreshCount="1" x="-68.392838" y="4.495" z="-304.969788" IsY="0" Radius="0" amount="1" fOrg="0.26" IsPersistent="0">
+		<Event EventId="23" Processor="FB_TNB_talk_012"/>
+		<Event EventId="5" Processor="FB_TNB_053"/>
+	</Object>
+	<Object Guid="FBC496EAEAF249509B9D8D1DF332CDAB" Desc="洞穴卫兵" config="FB_TNB_008" MaxRefreshCount="1" x="-1.451409" y="3.655" z="-371.380615" IsY="0" Radius="0" amount="1" fOrg="-0.985001" IsPersistent="0">
+		<Event EventId="5" Processor="FB_TNB_053"/>
+	</Object>
+	<Object Guid="68C08434B95D4B68AB76B4CAEA300090" Desc="洞穴卫兵" config="FB_TNB_008" MaxRefreshCount="1" x="13.194698" y="14.179001" z="-280.82428" IsY="0" Radius="0" amount="1" fOrg="-0.645007" IsPersistent="0">
+		<Event EventId="5" Processor="FB_TNB_052"/>
+	</Object>
+	<Object Guid="2E19FC372F3147AAABC29C55CF4A3E2D" Desc="洞穴卫兵" config="FB_TNB_008" MaxRefreshCount="1" x="-3.226648" y="3.652" z="-373.41745" IsY="0" Radius="0" amount="1" fOrg="0" IsPersistent="0">
+		<Event EventId="23" Processor="FB_TNB_talk_012"/>
+		<Event EventId="5" Processor="FB_TNB_053"/>
+	</Object>
+	<Object Guid="2233E25CDA6948AC82227B861178B1C8" Desc="洞穴卫兵" config="FB_TNB_008" MaxRefreshCount="1" x="-40.411213" y="9.673" z="-293.704041" IsY="0" Radius="0" amount="1" fOrg="0" IsPersistent="0">
+		<Event EventId="5" Processor="FB_TNB_053"/>
+	</Object>
+	<Object Guid="2F95747372574F00AF4DDE863A384E7A" Desc="洞穴总兵(精英)" config="FB_TNB_010" MaxRefreshCount="1" x="19.079576" y="21.055" z="-358.806183" IsY="0" Radius="0" amount="1" fOrg="-2.028188" IsPersistent="0">
+		<Event EventId="60" Processor="FB_TNB_talk_016"/>
+		<Event EventId="5" Processor="FB_TNB_054"/>
+	</Object>
+	<Object Guid="93275FE5DFA1425FAD979FED98EDEC9B" Desc="洞穴总兵(精英)" config="FB_TNB_010" MaxRefreshCount="1" x="-132.432724" y="10.0001" z="-244.757401" IsY="0" Radius="0" amount="1" fOrg="1.900005" IsPersistent="0">
+		<Event EventId="5" Processor="FB_TNB_054"/>
+	</Object>
+	<Object Guid="76058BDCA8D341F8897D109A9787A864" Desc="洞穴蜥蜴" config="FB_TNB_011" MaxRefreshCount="1" x="-76.994682" y="-30.286585" z="-360.215759" IsY="0" Radius="0" PatrolMode="0" PatrolRange="10" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="25D7369F188E454392645B962BD47730" Desc="洞穴蜥蜴" config="FB_TNB_011" MaxRefreshCount="1" x="-43.921227" y="-28.207144" z="-336.430054" IsY="0" Radius="0" PatrolMode="0" PatrolRange="10" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="54E581E4789F41D6989A5B5ADD610167" Desc="洞穴蜥蜴" config="FB_TNB_011" MaxRefreshCount="1" x="-54.764477" y="-31.100002" z="-326.264313" IsY="0" Radius="0" PatrolMode="0" PatrolRange="10" amount="1" fOrg="2.160003" IsPersistent="0"/>
+	<Object Guid="983062C7C12744019DD70ABAEE57954E" Desc="洞穴蜥蜴" config="FB_TNB_011" MaxRefreshCount="1" x="-16.407288" y="-30.259413" z="-314.027802" IsY="0" Radius="0" amount="1" fOrg="-0.120001" IsPersistent="0"/>
+	<Object Guid="6F68787C13BA46A3AF7C10D6E3E47B69" Desc="洞穴蜥蜴" config="FB_TNB_011" MaxRefreshCount="1" x="-33.704773" y="-31.100002" z="-319.123169" IsY="0" Radius="0" PatrolMode="0" PatrolRange="10" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="27F098002B4144B096CAF43E5BE723A4" Desc="洞穴蜥蜴" config="FB_TNB_011" MaxRefreshCount="1" x="-39.328346" y="-31.037209" z="-419.93576" IsY="0" Radius="0" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="8F45BCA6D473472A9E9D50F4FDA183D7" Desc="洞穴蜥蜴" config="FB_TNB_011" MaxRefreshCount="1" x="-57.994671" y="-30.587761" z="-399.126282" IsY="0" Radius="0" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="384D9232E52641D08B9D278D3379BAFD" Desc="洞穴蜥蜴" config="FB_TNB_011" MaxRefreshCount="1" x="-39.813713" y="-31.100002" z="-414.145111" IsY="0" Radius="0" PatrolMode="0" PatrolRange="8" amount="1" fOrg="-0.905" IsPersistent="0"/>
+	<Object Guid="3C505CC3FD584122B5439A2A2D0F1FFE" Desc="嗜血蜥蜴" config="FB_TNB_012" MaxRefreshCount="1" x="10.110297" y="-29.467295" z="-374.370911" IsY="0" Radius="0" amount="1" fOrg="0.935" IsPersistent="0"/>
+	<Object Guid="EEE7196EE79D44F6B54968E8D7A7DC3C" Desc="嗜血蜥蜴" config="FB_TNB_012" MaxRefreshCount="1" x="-60.265244" y="-30.623344" z="-305.284332" IsY="0" Radius="0" PatrolMode="0" PatrolRange="10" amount="1" fOrg="1.310006" IsPersistent="0"/>
+	<Object Guid="4D3DD1CFE81A46E68ADC8A0D27833CCB" Desc="嗜血蜥蜴" config="FB_TNB_012" MaxRefreshCount="1" x="83.857124" y="-29.707041" z="-354.57843" IsY="0" Radius="0" amount="1" fOrg="2.575003" IsPersistent="0"/>
+	<Object Guid="C14A6924EF5242889E3FD4122E08D913" Desc="嗜血蜥蜴" config="FB_TNB_012" MaxRefreshCount="1" x="16.241447" y="-29.467295" z="-371.560272" IsY="0" Radius="0" amount="1" fOrg="-0.88" IsPersistent="0"/>
+	<Object Guid="008B56E772864470998AEE1F0B8521B2" Desc="嗜血蜥蜴" config="FB_TNB_012" MaxRefreshCount="1" x="127.019402" y="-30.366133" z="-341.779846" IsY="0" Radius="0" amount="1" fOrg="-1.725002" IsPersistent="0"/>
+	<Object Guid="6A34F1EF777744E697514D8D6221AE67" Desc="嗜血蜥蜴" config="FB_TNB_012" MaxRefreshCount="1" x="9.844131" y="-29.130844" z="-369.246368" IsY="0" Radius="0" amount="1" fOrg="1.800001" IsPersistent="0"/>
+	<Object Guid="FADC5C62A1C74EFCB9819F08FFDC298D" Desc="嗜血蜥蜴" config="FB_TNB_012" MaxRefreshCount="1" x="-23.013481" y="-31.268618" z="-301.785187" IsY="0" Radius="0" PatrolMode="0" PatrolRange="10" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="D2540FB728504F03BB26AB51E4C84585" Desc="嗜血蜥蜴" config="FB_TNB_012" MaxRefreshCount="1" x="122.897713" y="-30.029369" z="-354.199615" IsY="0" Radius="0" amount="1" fOrg="-1.195001" IsPersistent="0"/>
+	<Object Guid="CFDD6E1C861C4DA0B1E3FB99AEF1A6C5" Desc="嗜血蜥蜴" config="FB_TNB_012" MaxRefreshCount="1" x="-58.909431" y="-30.219519" z="-374.973541" IsY="0" Radius="0" PatrolMode="0" PatrolRange="10" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="C18F0F3DC5834C81AECE44E4AA7907F7" Desc="嗜血蜥蜴" config="FB_TNB_012" MaxRefreshCount="1" x="-49.012913" y="-31.02643" z="-312.56839" IsY="0" Radius="0" PatrolMode="0" PatrolRange="10" amount="1" fOrg="1.125001" IsPersistent="0"/>
+	<Object Guid="867BBC0AF9D84AF9AD6D59C57EC1F3F0" Desc="游走蛇" config="FB_TNB_013" MaxRefreshCount="1" x="98.586716" y="-31.200933" z="-368.358917" IsY="0" Radius="0" PatrolMode="0" PatrolRange="20" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="1D875968993A4C0987DABA7E9003350A" Desc="游走蛇" config="FB_TNB_013" MaxRefreshCount="1" x="-56.855053" y="-29.082233" z="-293.091644" IsY="0" Radius="0" PatrolMode="0" PatrolRange="15" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="179350162609453A98D6FF0CA2391883" Desc="游走蛇" config="FB_TNB_013" MaxRefreshCount="1" x="-3.689288" y="-29.485228" z="-389.981476" IsY="0" Radius="0" PatrolMode="0" PatrolRange="20" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="B7759F21DE594783BC0DD4A40DA24C94" Desc="游走蛇" config="FB_TNB_013" MaxRefreshCount="1" x="-53.45747" y="-29.708429" z="-363.682037" IsY="0" Radius="0" PatrolMode="0" PatrolRange="20" amount="1" fOrg="-0.645004" IsPersistent="0"/>
+	<Object Guid="D64116775B9342D09C7E8BAD4FD49169" Desc="游走蛇" config="FB_TNB_013" MaxRefreshCount="1" x="-41.870514" y="-31.559729" z="-329.61441" IsY="0" Radius="0" PatrolMode="0" PatrolRange="10" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="A47BEC58331244CE94A11DA87F23B76A" Desc="游走蛇" config="FB_TNB_013" MaxRefreshCount="1" x="-36.67527" y="-30.438175" z="-292.78299" IsY="0" Radius="0" PatrolMode="0" PatrolRange="15" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="13B2C11472DC494A97686FD75031A093" Desc="游走蛇" config="FB_TNB_013" MaxRefreshCount="1" x="9.838214" y="-30.538691" z="-302.922943" IsY="0" Radius="0" PatrolMode="0" PatrolRange="20" amount="1" fOrg="-1.115004" IsPersistent="0"/>
+	<Object Guid="561B3756D4C244C385469EB02F666989" Desc="游走蛇" config="FB_TNB_013" MaxRefreshCount="1" x="85.976982" y="-29.549932" z="-386.122833" IsY="0" Radius="0" PatrolMode="0" PatrolRange="10" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="E4794200E35D496380ADE95FCEFF5474" Desc="游走蛇" config="FB_TNB_013" MaxRefreshCount="1" x="34.248905" y="-29.58758" z="-415.60672" IsY="0" Radius="0" PatrolMode="0" PatrolRange="10" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="6C59A6AD122944BCB4F0384EBF82B538" Desc="毒蛇" config="FB_TNB_014" MaxRefreshCount="1" x="32.182503" y="-29.149254" z="-370.962067" IsY="0" Radius="0" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="2D3190681CB4417C8EEE6910014DD270" Desc="毒蛇" config="FB_TNB_014" MaxRefreshCount="1" x="53.026897" y="-29.904634" z="-371.62149" IsY="0" Radius="0" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="D49832C5BA144D2A8376FD83A0ADC910" Desc="毒蛇" config="FB_TNB_014" MaxRefreshCount="1" x="-28.889435" y="-30.077253" z="-394.731812" IsY="0" Radius="0" PatrolMode="0" PatrolRange="10" amount="1" fOrg="-1.885003" IsPersistent="0"/>
+	<Object Guid="C25D7D60B750439AAA214FB78C10DB26" Desc="毒蛇" config="FB_TNB_014" MaxRefreshCount="1" x="13.53804" y="-30.361032" z="-418.959473" IsY="0" Radius="0" PatrolMode="0" PatrolRange="15" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="796240B1FED142DD9BC6759019430BBC" Desc="毒蛇" config="FB_TNB_014" MaxRefreshCount="1" x="106.165016" y="-30.928907" z="-368.195618" IsY="0" Radius="0" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="DEAF8B79B5C844E6B13EDDF6153D4A9D" Desc="末日教斥候" config="FB_TNB_015" MaxRefreshCount="1" x="-65.005516" y="-5.39" z="-409.009918" IsY="0" Radius="0" amount="1" fOrg="-0.300007" IsPersistent="0">
+		<Event EventId="4" Processor="FB_TNB_007"/>
+		<Event EventId="5" Processor="FB_TNB_053"/>
+	</Object>
+	<Object Guid="D3945C2F3054460182BBE9CA5A402887" Desc="巨锤勇士(精英)" config="FB_TNB_016" MaxRefreshCount="1" x="81.672119" y="13.81" z="-355.812073" IsY="0" Radius="0" PatrolMode="1" PathID="12206" amount="1" fOrg="-1.60819" IsPersistent="0">
+		<Event EventId="60" Processor="FB_TNB_talk_016"/>
+		<Event EventId="5" Processor="FB_TNB_054"/>
+	</Object>
+	<Object Guid="F6B0533976844986B370A3C6FF1100A4" Desc="巨锤勇士(精英)" config="FB_TNB_016" MaxRefreshCount="1" x="-51.955891" y="-0.719" z="-348.529358" IsY="0" Radius="0" PatrolMode="1" PathID="12211" amount="1" fOrg="-0.895002" IsPersistent="0">
+		<Event EventId="60" Processor="FB_TNB_talk_016"/>
+		<Event EventId="4" Processor="FB_TNB_010"/>
+		<Event EventId="5" Processor="FB_TNB_054"/>
+	</Object>
+	<Object Guid="FFCACA52938B45348465D678C84BF5F8" Desc="巨锤勇士(精英)" config="FB_TNB_016" MaxRefreshCount="1" x="-77.220139" y="-1.514" z="-331.435516" IsY="0" Radius="0" PatrolMode="1" PathID="12205" amount="1" fOrg="-2.545007" IsPersistent="0">
+		<Event EventId="5" Processor="FB_TNB_054"/>
+	</Object>
+	<Object Guid="CB857DFE84994BF98B9B8BEB02412D78" Desc="村民(仇恨)" config="FB_TNB_018" MaxRefreshCount="1" x="-31.529646" y="1.48" z="-364.770905" IsY="0" Radius="0" PeaceAction="pe_0h_stand2" amount="1" fOrg="2.570002" IsPersistent="0">
+		<Event EventId="5" Processor="FB_TNB_056"/>
+	</Object>
+	<Object Guid="107DBFFDE66C4EBE96E3EC1A84DE56F7" Desc="村民(仇恨)" config="FB_TNB_018" MaxRefreshCount="1" x="-29.676741" y="1.465" z="-368.146606" IsY="0" Radius="0" PeaceAction="pe_0h_stand2" amount="1" fOrg="2.685003" IsPersistent="0">
+		<Event EventId="5" Processor="FB_TNB_056"/>
+	</Object>
+	<Object Guid="888DB908EDE241618B1F139FAE481EB4" Desc="村民(仇恨)" config="FB_TNB_018" MaxRefreshCount="1" x="-25.898884" y="1.45" z="-363.940918" IsY="0" Radius="0" PeaceAction="pe_0h_stand2" amount="1" fOrg="-3.138184" IsPersistent="0">
+		<Event EventId="5" Processor="FB_TNB_056"/>
+	</Object>
+	<Object Guid="31575B0E4C30482B9ECDDA1489D68E77" Desc="村民(仇恨)" config="FB_TNB_018" MaxRefreshCount="1" x="-27.921478" y="1.42" z="-366.053345" IsY="0" Radius="0" PeaceAction="pe_0h_stand2" amount="1" fOrg="2.630001" IsPersistent="0">
+		<Event EventId="5" Processor="FB_TNB_056"/>
+	</Object>
+	<Object Guid="B6821B6E5EC149B5AF15CB5957C15B2D" Desc="村民(仇恨)" config="FB_TNB_018" MaxRefreshCount="1" x="-31.452042" y="1.471" z="-370.658447" IsY="0" Radius="0" PeaceAction="pe_0h_stand2" amount="1" fOrg="2.255001" IsPersistent="0">
+		<Event EventId="5" Processor="FB_TNB_056"/>
+	</Object>
+	<Object Guid="D4017261462F49FBBE048ED0F4169157" Desc="村民(仇恨)" config="FB_TNB_018" MaxRefreshCount="1" x="-29.291225" y="1.453" z="-362.679352" IsY="0" Radius="0" PeaceAction="pe_0h_stand2" amount="1" fOrg="2.990002" IsPersistent="0">
+		<Event EventId="5" Processor="FB_TNB_056"/>
+	</Object>
+	<Object Guid="F53FDD96AD994BA4B01DFEAE93116212" Desc="村民(仇恨)" config="FB_TNB_018" MaxRefreshCount="1" x="-32.973064" y="1.498" z="-361.945435" IsY="0" Radius="0" PeaceAction="pe_0h_stand2" amount="1" fOrg="2.435001" IsPersistent="0">
+		<Event EventId="5" Processor="FB_TNB_056"/>
+	</Object>
+	<Object Guid="A9C2B5C3B3434800BDBCCD09566473E3" Desc="村民(仇恨)" config="FB_TNB_018" MaxRefreshCount="1" x="-33.070648" y="1.501" z="-367.115875" IsY="0" Radius="0" PeaceAction="pe_0h_stand2" amount="1" fOrg="2.340003" IsPersistent="0">
+		<Event EventId="5" Processor="FB_TNB_056"/>
+	</Object>
+	<Object Guid="8C3C802F2B5B4C7684D8343D404181BC" Desc="村民(仇恨)" config="FB_TNB_018" MaxRefreshCount="1" x="-35.014412" y="1.525" z="-364.110443" IsY="0" Radius="0" PeaceAction="pe_0h_stand2" amount="1" fOrg="2.490005" IsPersistent="0">
+		<Event EventId="5" Processor="FB_TNB_056"/>
+	</Object>
+	<Object Guid="7C9AA4F88DF34450999781753F11D746" Desc="末日学者" config="FB_TNB_022" MaxRefreshCount="1" x="302.585724" y="57.991062" z="-370.651947" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" fOrg="0" IsPersistent="0">
+		<Event EventId="23" Processor="FB_TNB_talk_014"/>
+	</Object>
+	<Object Guid="9D20E8CA68E34F5AAAF6D350A5B2B24C" Desc="末日学者" config="FB_TNB_022" MaxRefreshCount="1" x="289.759705" y="58.010811" z="-371.517548" IsY="0" Radius="0" amount="1" fOrg="-2.323184" IsPersistent="0"/>
+	<Object Guid="D7086F8F3AC7417F9E0D5C461E345AA8" Desc="末日学者" config="FB_TNB_022" MaxRefreshCount="1" x="251.366928" y="57.975872" z="-245.146698" IsY="0" Radius="0" PatrolMode="0" PatrolRange="3" amount="1" fOrg="0.940001" IsPersistent="0">
+		<Event EventId="23" Processor="FB_TNB_talk_014"/>
+	</Object>
+	<Object Guid="84577B4741BC4C01B9AC214E3488DB97" Desc="黑魔法师(中立)" config="FB_TNB_023" MaxRefreshCount="1" x="260.349243" y="58.496895" z="-316.610413" IsY="0" Radius="0" amount="1" fOrg="-0.245" IsPersistent="0">
+		<Event EventId="23" Processor="FB_TNB_talk_020"/>
+	</Object>
+	<Object Guid="E113C4C4E23843998B81B1D76FFA22DA" Desc="黑魔法师(中立)" config="FB_TNB_023" MaxRefreshCount="1" x="234.415833" y="58.003391" z="-237.603683" IsY="0" Radius="0" PatrolMode="0" PatrolRange="6" amount="1" fOrg="-1.875005" IsPersistent="0"/>
+	<Object Guid="4F38F55E8A23456288E022A24B292A9C" Desc="末日教士" config="FB_TNB_024" MaxRefreshCount="1" x="240.955597" y="57.990002" z="-251.07338" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" fOrg="-2.090002" IsPersistent="0">
+		<Event EventId="23" Processor="FB_TNB_talk_014"/>
+	</Object>
+	<Object Guid="B8FFAE4C4F5A4A80988DE0D70D4446E2" Desc="末日教士" config="FB_TNB_024" MaxRefreshCount="1" x="259.786407" y="58.425247" z="-314.1185" IsY="0" Radius="0" amount="1" fOrg="2.565001" IsPersistent="0">
+		<Event EventId="23" Processor="FB_TNB_talk_021"/>
+	</Object>
+	<Object Guid="A954051607294D588D06EE9D0F674B4A" Desc="末日教巫师" config="FB_TNB_025" MaxRefreshCount="1" x="-38.288773" y="9.67" z="-287.963562" IsY="0" Radius="0" amount="1" fOrg="-2.485002" IsPersistent="0">
+		<Event EventId="23" Processor="FB_TNB_talk_013"/>
+		<Event EventId="60" Processor="FB_TNB_talk_016"/>
+		<Event EventId="5" Processor="FB_TNB_054"/>
+	</Object>
+	<Object Guid="0D98F4023FB64DADB2AD29106154EA97" Desc="末日教巫师" config="FB_TNB_025" MaxRefreshCount="1" x="-42.550373" y="1.573" z="-376.795135" IsY="0" Radius="0" amount="1" fOrg="0.295" IsPersistent="0">
+		<Event EventId="5" Processor="FB_TNB_054"/>
+	</Object>
+	<Object Guid="F485FE1C60DE4B88B1DA487985336201" Desc="嗜血大蜥蜴王" config="FB_TNB_027" MaxRefreshCount="1" x="109.988075" y="-31.100002" z="-334.534515" IsY="0" Radius="0" amount="1" fOrg="3.070002" IsPersistent="0"/>
+	<Object Guid="B4056589B2564DEEB54D4505C5A1099A" Desc="暗黑法师（头目）" config="FB_TNB_028" MaxRefreshCount="1" x="61.602432" y="32.809002" z="-169.721939" IsY="0" Radius="0" amount="1" fOrg="-1.405003" IsPersistent="0">
+		<Event EventId="60" Processor="FB_TNB_talk_016"/>
+		<Event EventId="5" Processor="FB_TNB_054"/>
+	</Object>
+	<Object Guid="C05BCCFF321C41AE915908E0173805C0" Desc="末日教狂热信徒" config="FB_TNB_029" MaxRefreshCount="1" x="7.935266" y="21.403002" z="-329.716705" IsY="0" Radius="0" amount="1" fOrg="-2.730003" IsPersistent="0"/>
+	<Object Guid="40C37D17E37240589B0503C39F28801A" Desc="末日教狂热信徒" config="FB_TNB_029" MaxRefreshCount="1" x="9.244608" y="21.400002" z="-332.096558" IsY="0" Radius="0" amount="1" fOrg="-2.585002" IsPersistent="0"/>
+	<Object Guid="B10795EF35E1421FAE365C47DF0BCCBF" Desc="末日教狂热信徒" config="FB_TNB_029" MaxRefreshCount="1" x="-2.55854" y="21.397001" z="-327.44928" IsY="0" Radius="0" amount="1" fOrg="3.050005" IsPersistent="0"/>
+	<Object Guid="55E0A3731D5D488BA87D4B20B07A4C50" Desc="末日教狂热信徒" config="FB_TNB_029" MaxRefreshCount="1" x="-3.631441" y="21.379002" z="-329.759583" IsY="0" Radius="0" amount="1" fOrg="3.055015" IsPersistent="0"/>
+	<Object Guid="8326B08901484E38992D7CD3E7DA4A36" Desc="末日教狂热信徒" config="FB_TNB_029" MaxRefreshCount="1" x="10.46283" y="21.397001" z="-334.022034" IsY="0" Radius="0" amount="1" fOrg="-2.635013" IsPersistent="0"/>
+	<Object Guid="C84A6F42A0304A7D9030770FC4216802" Desc="末日教狂热信徒" config="FB_TNB_029" MaxRefreshCount="1" x="5.89215" y="21.379002" z="-326.091492" IsY="0" Radius="0" amount="1" fOrg="-2.290001" IsPersistent="0"/>
+	<Object Guid="1FB11F500274478280CAF8BA40C013B5" Desc="末日教狂热信徒" config="FB_TNB_029" MaxRefreshCount="1" x="-1.71562" y="21.400002" z="-325.313599" IsY="0" Radius="0" amount="1" fOrg="3.050007" IsPersistent="0"/>
+	<Object Guid="CDBC602DFBA9474F9551BF0A235C30E9" Desc="末日教狂热信徒" config="FB_TNB_029" MaxRefreshCount="1" x="-5.563733" y="21.337002" z="-334.34259" IsY="0" Radius="0" amount="1" fOrg="2.98501" IsPersistent="0"/>
+	<Object Guid="7A0EB40698584A20BDEB1A36354A1200" Desc="末日教狂热信徒" config="FB_TNB_029" MaxRefreshCount="1" x="-6.473385" y="21.301001" z="-336.710327" IsY="0" Radius="0" amount="1" fOrg="-3.13318" IsPersistent="0"/>
+	<Object Guid="85CC2116F8E6408FB5137D451B828E53" Desc="末日教狂热信徒" config="FB_TNB_029" MaxRefreshCount="1" x="6.793271" y="21.409" z="-327.620819" IsY="0" Radius="0" amount="1" fOrg="-2.605002" IsPersistent="0"/>
+	<Object Guid="3C0DCFFFDCB6484ABA14F2794C984883" Desc="末日教狂热信徒" config="FB_TNB_029" MaxRefreshCount="1" x="5.077384" y="21.331001" z="-324.593811" IsY="0" Radius="0" amount="1" fOrg="-2.605003" IsPersistent="0"/>
+	<Object Guid="605D1637914843EEBF5DD72BB8F29383" Desc="末日教狂热信徒" config="FB_TNB_029" MaxRefreshCount="1" x="-4.650249" y="21.361" z="-332.014862" IsY="0" Radius="0" amount="1" fOrg="-3.138182" IsPersistent="0"/>
+	<Object Guid="6D28FABFCFA44D7187978A927A1530E1" Desc="受训的狱卒" config="FB_TNB_030" MaxRefreshCount="1" x="51.056332" y="29.656002" z="-170.690201" IsY="0" Radius="0" amount="1" fOrg="1.790005" IsPersistent="0">
+		<Event EventId="5" Processor="FB_TNB_065"/>
+	</Object>
+	<Object Guid="0DF65F567C184948BE5A34B8E40A3AF3" Desc="受训的狱卒" config="FB_TNB_030" MaxRefreshCount="1" x="54.611057" y="29.821001" z="-165.362381" IsY="0" Radius="0" amount="1" fOrg="1.885005" IsPersistent="0">
+		<Event EventId="5" Processor="FB_TNB_065"/>
+	</Object>
+	<Object Guid="4BF3BE49433D43F7BE001AB82BEB0F1F" Desc="受训的狱卒" config="FB_TNB_030" MaxRefreshCount="1" x="51.552776" y="29.794001" z="-167.192596" IsY="0" Radius="0" amount="1" fOrg="1.815003" IsPersistent="0">
+		<Event EventId="5" Processor="FB_TNB_065"/>
+	</Object>
+	<Object Guid="2546EEB17A4340CB8ADBA6CA3D1718A6" Desc="受训的狱卒" config="FB_TNB_030" MaxRefreshCount="1" x="53.882187" y="29.713001" z="-169.107895" IsY="0" Radius="0" amount="1" fOrg="1.615" IsPersistent="0">
+		<Event EventId="5" Processor="FB_TNB_065"/>
+	</Object>
+	<Object Guid="AE3B67E5E5674DD7A18551564051CE2E" Desc="受训的狱卒" config="FB_TNB_030" MaxRefreshCount="1" x="53.839474" y="29.692001" z="-172.664764" IsY="0" Radius="0" amount="1" fOrg="1.435006" IsPersistent="0">
+		<Event EventId="5" Processor="FB_TNB_065"/>
+	</Object>
+	<Object Guid="DE0514BC15034368B8A2FA2BD6769078" Desc="隐藏NPC(5m范围)" config="FB_TNB_031" MaxRefreshCount="1" x="27.475697" y="17.314001" z="-170.726807" IsY="0" Radius="0" amount="1" fOrg="0" IsPersistent="0">
+		<Event EventId="23" Processor="FB_TNB_057"/>
+	</Object>
+	<Object Guid="0F59A3199D3F4C0DB106D820079CE6D4" Desc="隐藏NPC(5m范围)" config="FB_TNB_031" MaxRefreshCount="1" x="63.405247" y="30.340002" z="-152.612091" IsY="0" Radius="0" amount="1" fOrg="0" IsPersistent="0">
+		<Event EventId="23" Processor="FB_TNB_talk_001"/>
+	</Object>
+	<Object Guid="863E8A7F566B45C3A23CE72DA420628D" Desc="隐藏NPC(5m范围)" config="FB_TNB_031" MaxRefreshCount="1" x="-80.099449" y="-19.607035" z="-345.80481" IsY="0" Radius="0" amount="1" fOrg="0" IsPersistent="1">
+		<Event EventId="23" Processor="FB_TNB_006"/>
+	</Object>
+	<Object Guid="FE796A0764CB487CB5B79E7B4F7B22CB" Desc="隐藏NPC(5m范围)" config="FB_TNB_031" MaxRefreshCount="1" x="204.172531" y="36.793961" z="-331.620819" IsY="0" Radius="0" amount="1" fOrg="0" IsPersistent="0">
+		<Event EventId="601" Processor="FB_TNB_talk_010"/>
+		<Event EventId="23" Processor="FB_TNB_talk_011"/>
+	</Object>
+	<Object Guid="24738AA758F2446C9B53B4C22C3BF73E" Desc="隐藏NPC(5m范围)" config="FB_TNB_031" MaxRefreshCount="1" x="30.576548" y="13.729001" z="-273.532135" IsY="0" Radius="0" amount="1" fOrg="0" IsPersistent="0">
+		<Event EventId="23" Processor="FB_TNB_talk_003"/>
+	</Object>
+	<Object Guid="4FC563C8EBE44535AC9CB207F83E5EA2" Desc="隐藏NPC(5m范围)" config="FB_TNB_031" MaxRefreshCount="1" x="59.757149" y="30.124001" z="-155.648468" IsY="0" Radius="0" amount="1" fOrg="0" IsPersistent="0">
+		<Event EventId="23" Processor="FB_TNB_talk_002"/>
+	</Object>
+	<Object Guid="C2CAD4BABB0240548140E65492609125" Desc="隐藏NPC(5m范围)" config="FB_TNB_031" MaxRefreshCount="1" x="-43.609581" y="1.513" z="-356.28241" IsY="0" Radius="0" amount="1" fOrg="0" IsPersistent="0">
+		<Event EventId="601" Processor="FB_TNB_talk_006"/>
+		<Event EventId="23" Processor="FB_TNB_talk_007"/>
+	</Object>
+	<Object Guid="EB745613ACFD41778CD4CE3BDEAD39D6" Desc="隐藏NPC(5m范围)" config="FB_TNB_031" MaxRefreshCount="1" x="-4.40625" y="-31.303383" z="-275.622498" amount="1" fOrg="0" IsPersistent="0">
+		<Event EventId="601" Processor="FB_TNB_talk_004"/>
+		<Event EventId="23" Processor="FB_TNB_talk_005"/>
+	</Object>
+	<Object Guid="2D6BE63AA3C14869976E0254A348D29C" Desc="亡者祭祀_对话2" config="FB_TNB_032" MaxRefreshCount="1" x="28.745054" y="-5.65837" z="-140.045029" IsY="0" Radius="0" amount="1" fOrg="0.859999" IsPersistent="0"/>
+	<Object Guid="DD810EAFCF4048268540ABBD98C32056" Desc="亡者祭祀_对话3" config="FB_TNB_033" MaxRefreshCount="1" x="27.164576" y="-5.877629" z="-137.295166" IsY="0" Radius="0" amount="1" fOrg="1.755002" IsPersistent="0"/>
+	<Object Guid="B3B51891119945B4B442D27433854EAB" Desc="村民" config="FB_TNB_036" MaxRefreshCount="1" x="304.625122" y="58.025002" z="-384.328613" IsY="0" Radius="0" amount="1" fOrg="-2.648184" IsPersistent="0"/>
+	<Object Guid="A23EDCC4EC164E5AAC3FBC366D3BC803" Desc="村民" config="FB_TNB_036" MaxRefreshCount="1" x="276.013458" y="58.581528" z="-313.817535" IsY="0" Radius="0" amount="1" fOrg="-0.815004" IsPersistent="0">
+		<Event EventId="23" Processor="FB_TNB_talk_018"/>
+	</Object>
+	<Object Guid="8EC3397B1A464E7386B52DF67DB6CF52" Desc="村民" config="FB_TNB_036" MaxRefreshCount="1" x="273.734039" y="58.670578" z="-313.10495" IsY="0" Radius="0" amount="1" fOrg="1.160003" IsPersistent="0">
+		<Event EventId="23" Processor="FB_TNB_talk_017"/>
+	</Object>
+	<Object Guid="E5276A807EF4455CB2E63BFDF88DE994" Desc="村民女" config="FB_TNB_068" MaxRefreshCount="1" x="231.709198" y="37.115925" z="-325.447235" IsY="0" Radius="0" amount="1" fOrg="1.495001" IsPersistent="0"/>
+	<Object Guid="182FD056E5964F588D61FBEC6E5665F2" Desc="村民女" config="FB_TNB_068" MaxRefreshCount="1" x="233.837143" y="37.237164" z="-326.39975" IsY="0" Radius="0" amount="1" fOrg="0.261817" IsPersistent="0"/>
+	<Object Guid="B031EF0717924E55BFE0874A865B353A" Desc="村民" config="FB_TNB_037" MaxRefreshCount="1" x="302.254974" y="58.025002" z="-385.441345" IsY="0" Radius="0" amount="1" fOrg="1.985003" IsPersistent="0"/>
+	<Object Guid="8C9658DBDDF841D2A63959BE42720CFB" Desc="村民" config="FB_TNB_037" MaxRefreshCount="1" x="275.364594" y="58.592991" z="-311.341431" IsY="0" Radius="0" amount="1" fOrg="3.140004" IsPersistent="0">
+		<Event EventId="23" Processor="FB_TNB_talk_019"/>
+	</Object>
+	<Object Guid="031B5F3CFE8B420A94945783C4AA693E" Desc="村民女" config="FB_TNB_068" MaxRefreshCount="1" x="232.164581" y="37.326721" z="-321.530579" IsY="0" Radius="0" amount="1" fOrg="2.550007" IsPersistent="0"/>
+	<Object Guid="565C235BD3FA45EE8A1D16B8361BEC0D" Desc="村民女" config="FB_TNB_068" MaxRefreshCount="1" x="231.363174" y="37.150864" z="-323.35025" IsY="0" Radius="0" amount="1" fOrg="1.400001" IsPersistent="0"/>
+	<Object Guid="4A5971F9DB574AE5892338F3FBAAC047" Desc="法罗克技能马甲" config="FB_TNB_038" MaxRefreshCount="1" x="-17.709602" y="11.509001" z="-199.472656" IsY="0" Radius="0" amount="1" fOrg="0" IsPersistent="0">
+		<Event EventId="601" Processor="FB_TNB_027"/>
+	</Object>
+	<Object Guid="C9A2C39838674745977220AED4A3BC20" Desc="末日教巫师(监狱悬崖)" config="FB_TNB_039" MaxRefreshCount="1" x="8.141539" y="14.185" z="-277.934662" IsY="0" Radius="0" amount="1" fOrg="1.500003" IsPersistent="0">
+		<Event EventId="5" Processor="FB_TNB_054"/>
+	</Object>
+	<Object Guid="665AC987877043A696E3037ED901ADD5" Desc="隐藏NPC(10m范围)" config="FB_TNB_040" MaxRefreshCount="1" x="5.154772" y="21.223001" z="-343.073761" IsY="0" Radius="0" amount="1" fOrg="0" IsPersistent="0">
+		<Event EventId="601" Processor="FB_TNB_talk_008"/>
+		<Event EventId="23" Processor="FB_TNB_talk_009"/>
+	</Object>
+	<Object Guid="DAF4A5B9C2A44E93BCD0C32D907E12CD" Desc="末日教巫师(村落演讲)" config="FB_TNB_041" MaxRefreshCount="1" x="-25.17061" y="1.399" z="-370.069519" IsY="0" Radius="0" amount="1" fOrg="-0.980002" IsPersistent="0">
+		<Event EventId="5" Processor="FB_TNB_054"/>
+	</Object>
+	<Object Guid="82405701E0AB49C7B92E8DD00E16BC05" Desc="洞穴卫兵" config="FB_TNB_045" MaxRefreshCount="1" x="-62.975246" y="-5.351" z="-409.655975" IsY="0" Radius="0" amount="1" fOrg="-1.418185" IsPersistent="0">
+		<Event EventId="5" Processor="FB_TNB_053"/>
+	</Object>
+	<Object Guid="DC73887E02DF418686E9AE20BA4587F2" Desc="洞穴卫兵" config="FB_TNB_045" MaxRefreshCount="1" x="-63.911091" y="-5.126" z="-410.640869" IsY="0" Radius="0" amount="1" fOrg="0.920001" IsPersistent="0">
+		<Event EventId="5" Processor="FB_TNB_053"/>
+	</Object>
+	<Object Guid="632844E2A23C468F9E645E02F0B39CC7" Desc="斥候(传送门)" config="FB_TNB_046" MaxRefreshCount="1" x="58.54723" y="16.09" z="-368.295868" IsY="0" Radius="0" amount="1" fOrg="0.975001" IsPersistent="0">
+		<Event EventId="23" Processor="FB_TNB_042"/>
+		<Event EventId="5" Processor="FB_TNB_053"/>
+	</Object>
+	<Object Guid="8144C355BCA34571B8D06B7E34B9A7C8" Desc="末日教斥候" config="FB_TNB_047" MaxRefreshCount="1" x="-25.007959" y="5.728" z="-340.889862" IsY="0" Radius="0" amount="1" fOrg="2.725001" IsPersistent="0">
+		<Event EventId="4" Processor="FB_TNB_011"/>
+		<Event EventId="5" Processor="FB_TNB_053"/>
+	</Object>
+	<Object Guid="E960232EDFAC4580931E3E34E4E9BCA1" Desc="洞穴卫兵" config="FB_TNB_048" MaxRefreshCount="1" x="85.489761" y="13.462001" z="-343.876801" IsY="0" Radius="0" amount="1" fOrg="2.239999" IsPersistent="0">
+		<Event EventId="5" Processor="FB_TNB_053"/>
+	</Object>
+	<Object Guid="2B9A20FB03614312BD1BD93591C41CE1" Desc="洞穴卫兵" config="FB_TNB_048" MaxRefreshCount="1" x="87.856918" y="13.552001" z="-342.014404" IsY="0" Radius="0" amount="1" fOrg="-1.795002" IsPersistent="0">
+		<Event EventId="5" Processor="FB_TNB_053"/>
+	</Object>
+	<Object Guid="2E700E0C6E574969BCB9413C69336CFF" Desc="洞穴卫兵" config="FB_TNB_048" MaxRefreshCount="1" x="87.659065" y="13.426001" z="-344.741302" IsY="0" Radius="0" amount="1" fOrg="0" IsPersistent="0">
+		<Event EventId="23" Processor="FB_TNB_talk_013"/>
+		<Event EventId="5" Processor="FB_TNB_053"/>
+	</Object>
+	<Object Guid="BB1089D7692C4A58BDC8110456F5CE10" Desc="隐藏NPC(boss马甲1)" config="FB_TNB_049" MaxRefreshCount="1" x="412.440216" y="76.359001" z="-263.9888" IsY="0" Radius="0" amount="1" fOrg="0" IsPersistent="0">
+		<Event EventId="601" Processor="FB_TNB_046"/>
+	</Object>
+	<Object Guid="31355BC480A44125AA08BE2E9C111EAB" Desc="魔法眼" config="FB_TNB_066" Layer="" MaxRefreshCount="1" x="236.317749" y="63.327003" z="-224.212479" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="1">
+		<Event EventId="5" Processor="FB_TNB_059"/>
+	</Object>
+	<Object Guid="D08A441B6ACE4CB7A03F74B6E956CA0B" Desc="魔法眼" config="FB_TNB_067" Layer="" MaxRefreshCount="1" x="307.112793" y="61.813004" z="-393.576141" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="1">
+		<Event EventId="5" Processor="FB_TNB_059"/>
+	</Object>
+	<Object Guid="98311E568AD542B3B3F0986D0A58821E" Desc="魔法眼" config="FB_TNB_057" Layer="" MaxRefreshCount="1" x="88.105957" y="-30.199545" z="-350.931305" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="1">
+		<Event EventId="5" Processor="FB_TNB_059"/>
+		<Event EventId="23" Processor="FB_TNB_073"/>
+	</Object>
+	<Object Guid="6DFC4B19915944B1A9D787BDD703ECCF" Desc="魔法眼" config="FB_TNB_064" Layer="" MaxRefreshCount="1" x="13.282545" y="-14.750001" z="-279.588806" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="1">
+		<Event EventId="5" Processor="FB_TNB_059"/>
+	</Object>
+	<Object Guid="462F85993C6945AF8B6610DCA49CE1B2" Desc="魔法眼" config="FB_TNB_063" Layer="" MaxRefreshCount="1" x="-36.601585" y="17.182001" z="-210.835266" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="1">
+		<Event EventId="5" Processor="FB_TNB_059"/>
+	</Object>
+	<Object Guid="B73BECBD532B452AB4E259AE40E254EC" Desc="魔法眼" config="FB_TNB_065" MaxRefreshCount="1" x="241.697311" y="50.817001" z="-317.841278" IsY="0" Radius="0" amount="1" fOrg="0" IsPersistent="1">
+		<Event EventId="5" Processor="FB_TNB_059"/>
+	</Object>
+	<Object Guid="1B352185BC5E4F95B3014F1D0233B41D" Desc="魔法眼" config="FB_TNB_057" MaxRefreshCount="1" x="-36.116966" y="10.441001" z="-290.100891" IsY="0" Radius="0" amount="1" fOrg="0" IsPersistent="1">
+		<Event EventId="23" Processor="FB_TNB_073"/>
+		<Event EventId="5" Processor="FB_TNB_059"/>
+	</Object>
+	<Object Guid="83D75DC63EDF4AD69F70A5B40ECB95F4" Desc="魔法眼" config="FB_TNB_057" MaxRefreshCount="1" x="-21.631752" y="4.513" z="-373.508667" IsY="0" Radius="0" amount="1" fOrg="0" IsPersistent="1">
+		<Event EventId="23" Processor="FB_TNB_073"/>
+		<Event EventId="5" Processor="FB_TNB_059"/>
+	</Object>
+	<Object Guid="782A3EB143794BACA5E5C6CD941A7B62" Desc="魔法眼" config="FB_TNB_057" MaxRefreshCount="1" x="32.578953" y="-7.365411" z="-187.285645" IsY="0" Radius="0" amount="1" fOrg="0" IsPersistent="1">
+		<Event EventId="23" Processor="FB_TNB_073"/>
+		<Event EventId="5" Processor="FB_TNB_059"/>
+	</Object>
+	<Object Guid="5F2C0B7E565E49EB834F748AA7975D85" Desc="魔法眼" config="FB_TNB_063" MaxRefreshCount="1" x="-31.20347" y="17.200001" z="-218.185776" IsY="0" Radius="0" amount="1" fOrg="0" IsPersistent="1">
+		<Event EventId="5" Processor="FB_TNB_059"/>
+	</Object>
+	<Object Guid="E80086E4EF3843CC9DEDF67C9D654A70" Desc="隐藏NPC(5m范围)(村长特殊)" config="FB_TNB_058" MaxRefreshCount="1" x="5.146114" y="21.043001" z="-354.984161" IsY="0" Radius="0" amount="1" fOrg="0" IsPersistent="1">
+		<Event EventId="601" Processor="FB_TNB_067"/>
+	</Object>
+	<Object Guid="FD5FCAC44BB0485F8CF048FEAA8E0248" Desc="隐藏NPC(传送门)" config="FB_TNB_061" MaxRefreshCount="1" x="6.512631" y="14.113001" z="-276.047943" IsY="0" Radius="0" amount="1" fOrg="-1.160003" IsPersistent="1">
+		<Event EventId="23" Processor="FB_TNB_069"/>
+	</Object>
+	<Object Guid="C502DD05D74C4A4C9E4BD334513F3415" Desc="椅子" config="FB_TNB_062" x="358.818115" y="76.431007" z="-286.71991" Layer="" MaxRefreshCount="1" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="1.18" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="EA87AC45D13D41908B482ED394C2F18E" Desc="椅子" config="FB_TNB_062" x="372.766418" y="76.398003" z="-288.7789" Layer="" MaxRefreshCount="1" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="1.18" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="B1F86C129E244A3BBDF62D9CEBBF7239" Desc="椅子" config="FB_TNB_062" x="370.090576" y="76.422005" z="-282.103821" Layer="" MaxRefreshCount="1" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="1.18" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="4A895D6B99034649ACB0419D3F265359" Desc="椅子" config="FB_TNB_062" x="382.333618" y="76.392006" z="-286.588013" Layer="" MaxRefreshCount="1" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="1.18" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="B8C22BE2D09548F5A2F2A0C123B537ED" Desc="椅子" config="FB_TNB_062" x="359.651947" y="76.413002" z="-257.833923" Layer="" MaxRefreshCount="1" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="1.18" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="2AC5AA712AB5438FBE9B24FA8A34ADB2" Desc="椅子" config="FB_TNB_062" x="356.868591" y="76.401001" z="-251.171524" Layer="" MaxRefreshCount="1" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="1.18" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="CD2E618D94154B9D8D63531E03100CBB" Desc="椅子" config="FB_TNB_062" x="368.767181" y="76.407005" z="-254.046661" Layer="" MaxRefreshCount="1" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="1.18" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="58CED662D2C445F291BA727E1DD5A359" Desc="椅子" config="FB_TNB_062" x="366.127258" y="76.392006" z="-247.380859" Layer="" MaxRefreshCount="1" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="1.18" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="20160F016F214B9B81203259B531B25B" Desc="椅子" config="FB_TNB_062" x="374.99884" y="76.401001" z="-251.484573" Layer="" MaxRefreshCount="1" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="1.18" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="486167F352A842E98A34082F84E35384" Desc="椅子" config="FB_TNB_062" x="372.309875" y="76.386002" z="-244.736359" Layer="" MaxRefreshCount="1" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="1.18" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="D946621171704F74B098BEDE22D8BC2D" Desc="椅子" config="FB_TNB_062" x="380.710754" y="76.398003" z="-248.838577" Layer="" MaxRefreshCount="1" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="1.18" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="0E0FBF2E7ED549FA8AA1EE7778F19802" Desc="椅子" config="FB_TNB_062" x="377.979614" y="76.383003" z="-242.479126" Layer="" MaxRefreshCount="1" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="1.18" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="024B9CBFDCF9458A9CCCFB9B1CE4DCF4" Desc="椅子" config="FB_TNB_062" x="390.682343" y="76.398003" z="-273.42157" Layer="" MaxRefreshCount="1" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="1.18" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="D8D6F1BD0223402AABBC90A8BAF153E6" Desc="椅子" config="FB_TNB_062" x="394.236816" y="76.380005" z="-281.723999" Layer="" MaxRefreshCount="1" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="1.18" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="739716D80FD241CDB851F560BEA4D1C6" Desc="椅子" config="FB_TNB_062" x="385.249329" y="76.413002" z="-275.750916" Layer="" MaxRefreshCount="1" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="1.18" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="F4D25CC5834A472FBE6745481F659C71" Desc="椅子" config="FB_TNB_062" x="388.821106" y="76.383003" z="-284.267303" Layer="" MaxRefreshCount="1" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="1.18" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="694EBB3F481847CD8185F216471DB64E" Desc="椅子" config="FB_TNB_062" x="378.779358" y="76.419006" z="-278.457153" Layer="" MaxRefreshCount="1" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="1.18" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="89D9694D675A450C8B8AC08384D6C1C2" Desc="椅子" config="FB_TNB_062" x="347.693268" y="76.407005" z="-254.843277" Layer="" MaxRefreshCount="1" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="1.18" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="8991385A793647F3901C4FE8E3A2D985" Desc="椅子" config="FB_TNB_062" x="350.504028" y="76.416" z="-261.711395" Layer="" MaxRefreshCount="1" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="1.18" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="8C982FD576444FA7896062B81FB942E8" Desc="椅子" config="FB_TNB_062" x="333.215515" y="76.422005" z="-261.081146" Layer="" MaxRefreshCount="1" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="1.18" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="8024C8D478CA449DACBF0E42E1986EB4" Desc="椅子" config="FB_TNB_062" x="336.097076" y="76.425003" z="-267.220978" Layer="" MaxRefreshCount="1" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="1.18" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="D0B532024EBA4C11A3E85E30853FAE7D" Desc="椅子" config="FB_TNB_062" x="318.734253" y="76.452003" z="-303.553131" Layer="" MaxRefreshCount="1" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="1.18" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="A6381B12EE1842818459DFB3F35887C7" Desc="椅子" config="FB_TNB_062" x="321.463867" y="76.452003" z="-310.136139" Layer="" MaxRefreshCount="1" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="1.18" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="3025726FC04D4CB3BDD56EC9B2FCFEA6" Desc="椅子" config="FB_TNB_062" x="352.150208" y="76.404007" z="-253.07283" Layer="" MaxRefreshCount="1" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="1.18" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="77C3E35E76154F32B09B34821B27B02A" Desc="椅子" config="FB_TNB_062" x="367.301453" y="76.404007" z="-290.997131" Layer="" MaxRefreshCount="1" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="1.18" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="88EEF12DC457404E80268B585623D8A8" Desc="椅子" config="FB_TNB_062" x="301.089874" y="76.455002" z="-282.167084" Layer="" MaxRefreshCount="1" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="1.18" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="710298E5527C4574A620AFDA6C5FE0E9" Desc="椅子" config="FB_TNB_062" x="298.267639" y="76.458" z="-275.563568" Layer="" MaxRefreshCount="1" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="1.18" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="D21300D201DC41A29C681F54834E92B0" Desc="椅子" config="FB_TNB_062" x="308.547729" y="76.449005" z="-278.927551" Layer="" MaxRefreshCount="1" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="1.18" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="A7FF244864D24DA1AD2F677D231895B7" Desc="椅子" config="FB_TNB_062" x="305.849335" y="76.449005" z="-272.496063" Layer="" MaxRefreshCount="1" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="1.18" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="6D531721EAA946C6BA198BD00DEB87F2" Desc="椅子" config="FB_TNB_062" x="317.826721" y="76.440002" z="-275.224609" Layer="" MaxRefreshCount="1" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="1.18" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="3A1116AA734F44ABABDD225A5F27CB61" Desc="椅子" config="FB_TNB_062" x="314.950256" y="76.440002" z="-268.733612" Layer="" MaxRefreshCount="1" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="1.18" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="9AC4F80D012D44D28907D2672F1FC58D" Desc="椅子" config="FB_TNB_062" x="329.250427" y="76.428001" z="-270.427704" Layer="" MaxRefreshCount="1" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="1.18" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="DD479D80242C473AA32230004DB3F851" Desc="椅子" config="FB_TNB_062" x="326.8237" y="76.428001" z="-263.662109" Layer="" MaxRefreshCount="1" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="1.18" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="D285E22C1CEA4A34A4E5342BD5AA4273" Desc="椅子" config="FB_TNB_062" x="314.001892" y="76.458" z="-313.301117" Layer="" MaxRefreshCount="1" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="1.18" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="9873ED41F1C0427DA7E2C9B4EE9347F2" Desc="椅子" config="FB_TNB_062" x="311.171448" y="76.458" z="-306.546204" Layer="" MaxRefreshCount="1" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="1.18" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="07D65066A0FE41AE8C14AE2A448A7993" Desc="椅子" config="FB_TNB_062" x="332.360016" y="76.446007" z="-305.507843" Layer="" MaxRefreshCount="1" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="1.18" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="9B12724E2FC042DC84555215C5DD3DFC" Desc="椅子" config="FB_TNB_062" x="329.652039" y="76.446007" z="-298.86911" Layer="" MaxRefreshCount="1" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="1.18" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="96E83C39211C4413B570C8496799215E" Desc="椅子" config="FB_TNB_062" x="341.641205" y="76.440002" z="-301.750824" Layer="" MaxRefreshCount="1" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="1.18" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="04DFFF3646A14C16891C4D8EA588EB02" Desc="椅子" config="FB_TNB_062" x="338.806396" y="76.440002" z="-295.060516" Layer="" MaxRefreshCount="1" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="1.18" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="74DB253277D14C86A77974C317BEBB3D" Desc="椅子" config="FB_TNB_062" x="346.970825" y="76.437004" z="-299.350342" Layer="" MaxRefreshCount="1" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="1.18" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="3F316A2B354C4C4B832C3D460CD31AD8" Desc="椅子" config="FB_TNB_062" x="344.17334" y="76.437004" z="-292.864166" Layer="" MaxRefreshCount="1" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="1.18" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="801ABD301C0F4F858BB6E89A02046D4C" Desc="椅子" config="FB_TNB_062" x="361.679993" y="76.410004" z="-293.415924" Layer="" MaxRefreshCount="1" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="1.18" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="268FF42DB89C4AAE9BFFC58CEECF6385" Desc="监狱长-法罗克" config="FB_TNB_BOSS_001" MaxRefreshCount="1" x="-18.290438" y="11.512" z="-200.216705" IsY="0" Radius="0" amount="1" fOrg="0.855001" IsPersistent="0">
+		<Event EventId="601" Processor="FB_TNB_023"/>
+		<Event EventId="61" Processor="FB_TNB_024"/>
+		<Event EventId="5" Processor="FB_TNB_025"/>
+		<Event EventId="23" Processor="FB_TNB_022"/>
+	</Object>
+	<Object Guid="C7F0F4529F024AA7A0DA353D1A6B1372" Desc="布尼安" config="FB_TNB_BOSS_002" MaxRefreshCount="1" x="7.855599" y="-31.227491" z="-259.643097" IsY="0" Radius="0" amount="1" fOrg="-2.485004" IsPersistent="0">
+		<Event EventId="5" Processor="FB_TNB_064"/>
+	</Object>
+	<Object Guid="218D1F0524424B89903CB1D05ADF6D3B" Desc="傀儡村长布里奇特" config="FB_TNB_BOSS_003" MaxRefreshCount="1" x="1.612092" y="21.358002" z="-322.954834" IsY="0" Radius="0" amount="1" fOrg="-3.008178" IsPersistent="0">
+		<Event EventId="601" Processor="FB_TNB_008"/>
+		<Event EventId="23" Processor="FB_TNB_014"/>
+		<Event EventId="5" Processor="FB_TNB_015"/>
+		<Event EventId="61" Processor="FB_TNB_068"/>
+	</Object>
+	<Object Guid="2503F474D96C485FB74BCB225FA0B727" Desc="冈萨雷斯" config="FB_TNB_BOSS_004" MaxRefreshCount="1" x="234.922104" y="37.44772" z="-323.156372" IsY="0" Radius="0" amount="1" fOrg="-2.570006" IsPersistent="0">
+		<Event EventId="23" Processor="FB_TNB_018"/>
+		<Event EventId="601" Processor="FB_TNB_019"/>
+		<Event EventId="61" Processor="FB_TNB_020"/>
+		<Event EventId="5" Processor="FB_TNB_021"/>
+	</Object>
+	<Object Guid="E1608047EBFF4764B9665284F8C73DC0" Desc="末日教长" config="FB_TNB_BOSS_005" MaxRefreshCount="1" x="237.893921" y="57.999004" z="-228.079987" IsY="0" Radius="0" amount="1" fOrg="2.890003" IsPersistent="0">
+		<Event EventId="5" Processor="FB_TNB_016"/>
+		<Event EventId="23" Processor="FB_TNB_028"/>
+		<Event EventId="601" Processor="FB_TNB_029"/>
+	</Object>
+	<Object Guid="79396D9362CA4C8C9B656F2AC425E93D" Desc="末日馆长" config="FB_TNB_BOSS_006" MaxRefreshCount="1" x="305.221741" y="58.025002" z="-389.33313" IsY="0" Radius="0" amount="1" fOrg="-0.350002" IsPersistent="0">
+		<Event EventId="5" Processor="FB_TNB_017"/>
+		<Event EventId="23" Processor="FB_TNB_031"/>
+		<Event EventId="601" Processor="FB_TNB_032"/>
+		<Event EventId="61" Processor="FB_TNB_033"/>
+	</Object>
+	<Object Guid="720A2F5BA4094A628C27D0A749905E80" Desc="贝拉里奥" config="FB_TNB_BOSS_007" MaxRefreshCount="1" x="413.365356" y="80.448662" z="-249.480316" IsY="0" Radius="0" amount="1" fOrg="-1.755004" IsPersistent="0">
+		<Event EventId="601" Processor="FB_TNB_039"/>
+		<Event EventId="61" Processor="FB_TNB_040"/>
+		<Event EventId="5" Processor="FB_TNB_041"/>
+		<Event EventId="23" Processor="FB_TNB_043"/>
+	</Object>
+	<Object Guid="C5476A88CC2A493BA2FF6736446149AE" Desc="霍利斯仔金" config="npc_TNB_0002" MaxRefreshCount="1" x="33.133362" y="-7.369216" z="-141.604477" IsY="0" Radius="0" amount="1" fOrg="1.010011" IsPersistent="0">
+		<Event EventId="23" Processor="FB_TNB_001"/>
+		<Event EventId="601" Processor="FB_TNB_002"/>
+	</Object>
+	<Object Guid="08D4852DDD214A48AC0ABBBEF3590CC7" Desc="维佳尔·风" config="npc_TNB_0003" MaxRefreshCount="1" x="10.412971" y="-31.328657" z="-250.947205" IsY="0" Radius="0" amount="1" fOrg="3.070007" IsPersistent="0"/>
+	<Object Guid="7213DE3FA2CF48678161B0C7796976A1" Desc="魔法门" config="Organ_changjing_0018" MaxRefreshCount="1" x="277.439819" y="59.241001" z="-306.245758" IsY="0" Radius="0" amount="1" fOrg="1.200006" IsPersistent="1"/>
+	<Object Guid="698BF459C00A4F96804E632A2801D5B6" Desc="魔法门" config="Organ_changjing_0019" MaxRefreshCount="1" x="291.313965" y="67.972" z="-300.214813" IsY="0" Radius="0" amount="1" fOrg="1.185003" IsPersistent="1"/>
+	<Object Guid="6BA79ACAE24C4B9ABD00DD1500F3A4F0" Desc="巡逻" config="TNB_002" MaxRefreshCount="1" x="71.502876" y="32.935001" z="-215.882202" IsY="0" Radius="0" PatrolMode="1" PathID="12203" amount="1" fOrg="-1.705007" IsPersistent="0"/>
+	<Object Guid="759BA2B1E8C5422095A2F1A840D8E685" Desc="巡逻" config="TNB_002" MaxRefreshCount="1" x="22.088186" y="14.256993" z="-281.117371" IsY="0" Radius="0" PatrolMode="1" PathID="12204" amount="1" fOrg="1.055001" IsPersistent="0"/>
+	<Object Guid="2416D3BF22E548BCB18EF1ABA38BD154" Desc="奴役的游魂" config="FB_TNB_005" Layer="" MaxRefreshCount="1" x="69.95842" y="-5.194456" z="-138.84256" IsY="1" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="5" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="92EF177800574E9DB37476BD41CF5870" Desc="奴役的游魂" config="FB_TNB_005" Layer="" MaxRefreshCount="1" x="54.349453" y="-5.765987" z="-141.387314" IsY="1" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="5" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="5C3E842D715D4690AC13AADD9061AB35" Desc="FB_TNB_072" config="FB_TNB_072" Layer="" MaxRefreshCount="1" x="38.22797" y="-8.082295" z="-185.492111" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="downloop" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0.74" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="161170DB5CA74E7693A32DF8016186F4" Desc="FB_TNB_072" config="FB_TNB_072" Layer="" MaxRefreshCount="1" x="33.032749" y="-7.666146" z="-184.776199" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="downloop" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="1.415001" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="C0FC90DEB7434FB78E6C4A6203D9C0BF" Desc="FB_TNB_072" config="FB_TNB_072" Layer="" MaxRefreshCount="1" x="38.403309" y="-8.106509" z="-181.602997" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="downloop" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="-2.605" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="3DC2CD59483945DCAB1963E1536EB2E6" Desc="FB_TNB_072" config="FB_TNB_072" Layer="" MaxRefreshCount="1" x="35.091877" y="-7.977634" z="-182.298416" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="downloop" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="-1.010001" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="92E2391DE917415FA05B659148FD3A1F" Desc="FB_TNB_072" config="FB_TNB_072" Layer="" MaxRefreshCount="1" x="36.347504" y="-8.050294" z="-185.979721" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="downloop" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="-1.39" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="05FFBD2AF56446ADA8CA553869A92583" Desc="FB_TNB_071" config="FB_TNB_071" Layer="" MaxRefreshCount="1" x="35.895119" y="-8.093327" z="-182.106415" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="atkhit1" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="74D7C6E04BB94BFFB90406FFCAA6F8CB" Desc="FB_TNB_071" config="FB_TNB_071" Layer="" MaxRefreshCount="1" x="34.323463" y="-7.883496" z="-185.323257" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="buff1" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="5E01858E7AC54F649F797B8F46D4B770" Desc="FB_TNB_071" config="FB_TNB_071" Layer="" MaxRefreshCount="1" x="36.3475" y="-8.050293" z="-185.979706" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="buff2" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="B6DA8B6B66EB4B66830BABD74869E75E" Desc="FB_TNB_071" config="FB_TNB_071" Layer="" MaxRefreshCount="1" x="37.41526" y="-8.106509" z="-183.342102" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="buff3" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="26670FD1D2BF4DA997D2920B1D8A8394" Desc="FB_TNB_071" config="FB_TNB_071" Layer="" MaxRefreshCount="1" x="38.403305" y="-8.106508" z="-181.602982" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="atkhit2" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="97D153403D544CAEA706A451D26BA23F" Desc="FB_TNB_071" config="FB_TNB_071" Layer="" MaxRefreshCount="1" x="38.403305" y="-8.106508" z="-181.602982" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="buff2" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="5003FFC1DFEC46C59992F9A02F7E4A44" Desc="FB_TNB_071" config="FB_TNB_071" Layer="" MaxRefreshCount="1" x="35.091873" y="-7.977633" z="-182.298401" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="buff3" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="4D283768B12A40E6A637D2B868DFC115" Desc="FB_TNB_071" config="FB_TNB_071" Layer="" MaxRefreshCount="1" x="33.032745" y="-7.666145" z="-184.776184" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="atkhit1" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="E9F2E41D676B49818B9FAD072B3442BA" Desc="FB_TNB_071" config="FB_TNB_071" Layer="" MaxRefreshCount="1" x="34.976799" y="-7.562504" z="-188.095108" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="buff3" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="F8F626F082DA41C489B6A38048E1A695" Desc="FB_TNB_071" config="FB_TNB_071" Layer="" MaxRefreshCount="1" x="36.3475" y="-8.050293" z="-185.979706" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="buff2" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="DF02FB8227E24AA09CA1BF867FD903CC" Desc="FB_TNB_040" config="FB_TNB_040" Layer="" MaxRefreshCount="1" x="61.028538" y="-8.267339" z="-139.537277" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0">
+		<Event EventId="23" Processor="FB_TNB_074"/>
+	</Object>
+	<Object Guid="D4E8788D114F40B88E31B7DA68CFB911" Desc="FB_TNB_071" config="FB_TNB_071" Layer="" MaxRefreshCount="1" x="35.424706" y="-8.017162" z="-185.286697" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="buff3" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="15CA700C7B2846C3BD781B98D97D9636" Desc="FB_TNB_071" config="FB_TNB_071" Layer="" MaxRefreshCount="1" x="38.761055" y="-8.106509" z="-184.149399" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="buff3" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="C8A85249C7EF4F97BD7D313D38BBFD55" Desc="FB_TNB_071" config="FB_TNB_071" Layer="" MaxRefreshCount="1" x="34.097214" y="-7.861175" z="-184.687088" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="buff3" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="9F7E6B9A13A34A959137D5F5893E3690" Desc="FB_TNB_072" config="FB_TNB_072" Layer="" MaxRefreshCount="1" x="24.62356" y="18.394001" z="-145.392334" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="6DD6440DC0F442618AED10C6CCE7BDDF" Desc="FB_TNB_072" config="FB_TNB_072" Layer="" MaxRefreshCount="1" x="25.247908" y="18.379002" z="-145.454849" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="2.265002" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="97B136CDFB1A4050836A3D9CB73EA3B2" Desc="FB_TNB_071" config="FB_TNB_071" Layer="" MaxRefreshCount="1" x="24.164228" y="18.391001" z="-145.661392" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="buff3" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="B67FE324243543469FD6D91419C0F2C5" Desc="FB_TNB_071" config="FB_TNB_071" Layer="" MaxRefreshCount="1" x="25.273458" y="18.333832" z="-146.417862" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="buff1" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="DB353B06592B497781F21219F894829E" Desc="FB_TNB_071" config="FB_TNB_071" Layer="" MaxRefreshCount="1" x="25.893936" y="18.360046" z="-145.280807" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="buff2" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="82B7AF7528B8406BABEB72DEBF29DA73" Desc="Giving_TNB_001" config="Giving_TNB_001" Layer="" MaxRefreshCount="1" x="41.10096" y="23.170002" z="-158.145309" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="E0B1374FB0844EB981A059EB50DDDD9B" Desc="FB_TNB_072" config="FB_TNB_072" Layer="" MaxRefreshCount="1" x="70.775154" y="-7.52036" z="-143.832382" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="downloop" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="CA4BE3ED3A644736ABA41D2947D7B675" Desc="FB_TNB_072" config="FB_TNB_072" Layer="" MaxRefreshCount="1" x="81.97303" y="-7.701015" z="-117.095184" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="downloop" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="4ECAF2CADEC24DB1A5554DE03C82CDCE" Desc="FB_TNB_071" config="FB_TNB_071" Layer="" MaxRefreshCount="1" x="70.31929" y="-7.022288" z="-145.410278" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="atkhit1" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="A17B86A4C9CC4CD190074683A5473C13" Desc="FB_TNB_071" config="FB_TNB_071" Layer="" MaxRefreshCount="1" x="71.397476" y="-7.407289" z="-144.181519" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="buff2" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="5FEBD518218042569FD57075F8BBE554" Desc="FB_TNB_071" config="FB_TNB_071" Layer="" MaxRefreshCount="1" x="70.037827" y="-7.371756" z="-144.296005" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="buff3" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="2F6F9DB48D734D068ED0B18632517489" Desc="FB_TNB_071" config="FB_TNB_071" Layer="" MaxRefreshCount="1" x="81.227158" y="-7.590725" z="-116.3853" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="buff3" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="D5180AFB42D54D99990CD2414AB37C80" Desc="FB_TNB_071" config="FB_TNB_071" Layer="" MaxRefreshCount="1" x="82.279495" y="-7.200982" z="-116.57959" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="buff2" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="0703309952B24ED4A0D5893DC6BA0231" Desc="FB_TNB_070" config="FB_TNB_070" Layer="" MaxRefreshCount="1" x="72.608406" y="-8.210796" z="-134.274307" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="10" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="C636C2F05FAF4683AC911AF48D1C8A0D" Desc="FB_TNB_070" config="FB_TNB_070" Layer="" MaxRefreshCount="1" x="47.722397" y="-7.8" z="-142.322876" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="10" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="9BE403BBA4A64A2586B7948BE9A5529E" Desc="FB_TNB_070" config="FB_TNB_070" Layer="" MaxRefreshCount="1" x="43.110214" y="-8.14189" z="-150.644699" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="10" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="FD05A5530C6A477CA95FB7B4C0C98460" Desc="FB_TNB_070" config="FB_TNB_070" Layer="" MaxRefreshCount="1" x="36.573536" y="-7.634174" z="-156.770096" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="10" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="093F4C7B85404DC095B2E3899DB7F4EC" Desc="FB_TNB_070" config="FB_TNB_070" Layer="" MaxRefreshCount="1" x="37.135685" y="-8.164474" z="-171.36084" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="10" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="8F9924BCFC064F50860BAABC97BBE652" Desc="FB_TNB_070" config="FB_TNB_070" Layer="" MaxRefreshCount="1" x="33.336819" y="-7.619644" z="-182.283478" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="10" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="656D8ECF0CDE467EBFA1DFB364909718" Desc="FB_TNB_070" config="FB_TNB_070" Layer="" MaxRefreshCount="1" x="60.080189" y="-8.156919" z="-141.300278" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="10" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="A4452F87B1DF42568462AF0FA9D663BC" Desc="FB_TNB_070" config="FB_TNB_070" Layer="" MaxRefreshCount="1" x="67.529022" y="-7.137913" z="-144.339645" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="10" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="403F2F6350924A188B14AD2FB698FD70" Desc="FB_TNB_070" config="FB_TNB_070" Layer="" MaxRefreshCount="1" x="50.344849" y="-8.067848" z="-146.189987" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="10" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="3791FF57EA444FE5940CAB9C7FCFFCB7" Desc="FB_TNB_070" config="FB_TNB_070" Layer="" MaxRefreshCount="1" x="38.393597" y="-7.805602" z="-148.809387" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="10" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="C9C4E80CABE84703B7B9F28B2F27F903" Desc="FB_TNB_070" config="FB_TNB_070" Layer="" MaxRefreshCount="1" x="38.614731" y="-8.19845" z="-163.407715" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="10" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="1AF6471ECD6D4855A43C612BF0EB0D25" Desc="FB_TNB_005" config="FB_TNB_005" Layer="" MaxRefreshCount="1" x="400.314148" y="86.147354" z="-261.818207" IsY="1" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="5" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="68FB16702A13437A9A23221E6DC66096" Desc="FB_TNB_005" config="FB_TNB_005" Layer="" MaxRefreshCount="1" x="399.869141" y="82.028511" z="-254.169998" IsY="1" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="5" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="40098EA7E5C8481FA9EBFCE455E14ECB" Desc="FB_TNB_005" config="FB_TNB_005" Layer="" MaxRefreshCount="1" x="392.556366" y="78.383736" z="-259.073151" IsY="1" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="5" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="6C6E8DF610C2412B87078C3FB019FCC7" Desc="FB_TNB_005" config="FB_TNB_005" Layer="" MaxRefreshCount="1" x="384.033783" y="79.040489" z="-253.53421" IsY="1" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="5" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="323DDF018E6D4AE790FC2A71456C99D6" Desc="FB_TNB_005" config="FB_TNB_005" Layer="" MaxRefreshCount="1" x="381.367889" y="76.393166" z="-245.707031" IsY="1" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="5" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="3127FFAC03B04E66ABEF660F697EF090" Desc="FB_TNB_005" config="FB_TNB_005" Layer="" MaxRefreshCount="1" x="373.332794" y="80.468666" z="-251.685715" IsY="1" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="5" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="1D902230AD334B679892F4889A2B2D27" Desc="FB_TNB_005" config="FB_TNB_005" Layer="" MaxRefreshCount="1" x="377.445892" y="81.04509" z="-259.216095" IsY="1" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="5" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="7D82DAF4D3C346658568D8CD9B732681" Desc="FB_TNB_005" config="FB_TNB_005" Layer="" MaxRefreshCount="1" x="381.918732" y="79.449188" z="-267.304688" IsY="1" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="5" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="C7706E5738BC4F72942E50B7CB4F5CC5" Desc="FB_TNB_005" config="FB_TNB_005" Layer="" MaxRefreshCount="1" x="391.269562" y="80.108223" z="-270.188049" IsY="1" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="5" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="A7B66C1B66F84DE5BAFFA01AF835C7EE" Desc="FB_TNB_005" config="FB_TNB_005" Layer="" MaxRefreshCount="1" x="386.957001" y="80.885139" z="-281.412262" IsY="1" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="5" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="5A0AF400932C492D9E0A9C1F47B21DDF" Desc="FB_TNB_005" config="FB_TNB_005" Layer="" MaxRefreshCount="1" x="380.563446" y="78.658188" z="-281.954285" IsY="1" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="5" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="2A112B44845B42E19D06478C2728132B" Desc="FB_TNB_005" config="FB_TNB_005" Layer="" MaxRefreshCount="1" x="374.857056" y="77.434708" z="-276.630859" IsY="1" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="5" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="2DA91D20808E45169B49F28BE85B4412" Desc="FB_TNB_005" config="FB_TNB_005" Layer="" MaxRefreshCount="1" x="368.18689" y="80.082932" z="-269.944885" IsY="1" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="5" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="2556A3B870C74F118EEA84B6866F816A" Desc="FB_TNB_005" config="FB_TNB_005" Layer="" MaxRefreshCount="1" x="364.432617" y="84.621536" z="-259.665741" IsY="1" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="5" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="DFFA2C672ADB4B588225DCC12304DF3E" Desc="FB_TNB_005" config="FB_TNB_005" Layer="" MaxRefreshCount="1" x="706.467957" y="164.073883" z="-548.874573" IsY="1" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="5" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="8116310FE10741C092D78608605F959D" Desc="FB_TNB_005" config="FB_TNB_005" Layer="" MaxRefreshCount="1" x="355.230011" y="89.767632" z="-266.116211" IsY="1" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="5" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="29249DE198CD4D6A81CF7BD9758563EB" Desc="FB_TNB_005" config="FB_TNB_005" Layer="" MaxRefreshCount="1" x="344.621552" y="76.413673" z="-259.523224" IsY="1" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="5" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="B49469274EEC46D4A57EA5465442199A" Desc="FB_TNB_005" config="FB_TNB_005" Layer="" MaxRefreshCount="1" x="345.806427" y="82.702316" z="-274.201752" IsY="1" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="5" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="0B4A576D72A241E2829FF9D70073625B" Desc="FB_TNB_005" config="FB_TNB_005" Layer="" MaxRefreshCount="1" x="353.877899" y="86.087555" z="-277.748138" IsY="1" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="5" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="AD3AC8A5AD874A27B3A693DB448B425C" Desc="FB_TNB_005" config="FB_TNB_005" Layer="" MaxRefreshCount="1" x="355.201965" y="79.554344" z="-289.794556" IsY="1" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="5" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="36BB7928DFC14351A6BC9B568CD32467" Desc="FB_TNB_005" config="FB_TNB_005" Layer="" MaxRefreshCount="1" x="365.525482" y="76.407768" z="-292.587555" IsY="1" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="5" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="1751A038E25D40C6B010066B54F6C315" Desc="FB_TNB_005" config="FB_TNB_005" Layer="" MaxRefreshCount="1" x="345.258148" y="80.850845" z="-299.505829" IsY="1" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="5" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="1B949DBC8AF8445EB07F95F90E6F931A" Desc="FB_TNB_005" config="FB_TNB_005" Layer="" MaxRefreshCount="1" x="336.968231" y="80.853264" z="-302.359528" IsY="1" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="5" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="7B0DDBBC45C64B2D812C1AE6D80657E9" Desc="FB_TNB_005" config="FB_TNB_005" Layer="" MaxRefreshCount="1" x="343.425537" y="77.649971" z="-278.340088" IsY="1" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="5" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="CAAB805ABF20465EBE4B0D137A8115AC" Desc="FB_TNB_005" config="FB_TNB_005" Layer="" MaxRefreshCount="1" x="329.036835" y="83.822716" z="-282.108765" IsY="1" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="5" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="95D7F909035A4FBDB74152784F84318A" Desc="FB_TNB_005" config="FB_TNB_005" Layer="" MaxRefreshCount="1" x="323.689453" y="84.698059" z="-291.068909" IsY="1" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="5" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="880FBC73061940EFA52001689212A6D9" Desc="FB_TNB_005" config="FB_TNB_005" Layer="" MaxRefreshCount="1" x="320.496735" y="81.262032" z="-283.912689" IsY="1" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="5" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="C0355C06C2894BBA814D6C2C6F2F058F" Desc="FB_TNB_005" config="FB_TNB_005" Layer="" MaxRefreshCount="1" x="324.541626" y="83.69677" z="-268.578247" IsY="1" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="5" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="AF47ADEF8248426BA45480E6A5F56C61" Desc="FB_TNB_005" config="FB_TNB_005" Layer="" MaxRefreshCount="1" x="335.093079" y="81.192093" z="-265.613129" IsY="1" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="5" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="9F145FA8F0C946788DB2FB5A0BAC75DB" Desc="FB_TNB_005" config="FB_TNB_005" Layer="" MaxRefreshCount="1" x="325.542023" y="81.931931" z="-309.940796" IsY="1" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="5" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="8A633725C5C4493993AEA6B6D71A4327" Desc="FB_TNB_005" config="FB_TNB_005" Layer="" MaxRefreshCount="1" x="316.235474" y="78.684357" z="-293.280029" IsY="1" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="5" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="BB8800C6A9AC4C5BA95F532169AFCD7F" Desc="FB_TNB_005" config="FB_TNB_005" Layer="" MaxRefreshCount="1" x="315.672058" y="77.111092" z="-270.108856" IsY="1" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="5" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="C5602AD478E8406DA90B8FEF592C7CA5" Desc="FB_TNJT_0028" config="FB_TNJT_0028" Layer="" MaxRefreshCount="1" x="397.190735" y="91.167503" z="-257.751709" IsY="1" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="1" PatrolRange="" PathID="12213" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="-2.090001" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="1"/>
+	<Object Guid="9507377602E248FE832980611660F13C" Desc="FB_TNB_005" config="FB_TNB_005" Layer="" MaxRefreshCount="1" x="368.431641" y="82.684212" z="-267.45459" IsY="1" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="5" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="E083D1C5AD804A00842F134292022A9F" Desc="FB_TNB_005" config="FB_TNB_005" Layer="" MaxRefreshCount="1" x="366.626343" y="75.945007" z="-267.56427" IsY="1" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="5" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="8A58F278E8C1429F8111EC4B69DEC4D0" Desc="FB_TNB_005" config="FB_TNB_005" Layer="" MaxRefreshCount="1" x="349.418335" y="76.034279" z="-278.25882" IsY="1" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="5" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="34AC198C435F4F18B9F74E8093BBB99D" Desc="FB_TNB_005" config="FB_TNB_005" Layer="" MaxRefreshCount="1" x="334.837677" y="78.624817" z="-282.687042" IsY="1" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="5" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="4EE6F94D1AAA470A9C1B52887F75A1E0" Desc="FB_TNB_005" config="FB_TNB_005" Layer="" MaxRefreshCount="1" x="325.518433" y="76.007668" z="-284.732086" IsY="1" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="5" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="59A2B3BFD1AA4D8DA5EC661D9CDC94DE" Desc="FB_TNB_005" config="FB_TNB_005" Layer="" MaxRefreshCount="1" x="316.71167" y="76.020546" z="-291.163788" IsY="1" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="5" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="84655E1861884D669ACDF4AEB0D6F559" Desc="FB_TNB_005" config="FB_TNB_005" Layer="" MaxRefreshCount="1" x="315.453369" y="76.023003" z="-287.090698" IsY="1" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="5" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="782136C54128448F890FA7059539C3EE" Desc="FB_TNB_005" config="FB_TNB_005" Layer="" MaxRefreshCount="1" x="357.951111" y="75.960007" z="-275.557739" IsY="1" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="5" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="731E2FC56BC0409B964BEEF9FF36AC71" Desc="FB_TNB_005" config="FB_TNB_005" Layer="" MaxRefreshCount="1" x="354.239166" y="76.433128" z="-287.708008" IsY="1" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="5" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="2C194B1B4AA64CC2BDCEC382095F54CC" Desc="FB_TNB_005" config="FB_TNB_005" Layer="" MaxRefreshCount="1" x="333.610626" y="76.444252" z="-292.419312" IsY="1" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="5" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="29E60922F52C4B6588E39C6A36B5C9E1" Desc="FB_TNB_005" config="FB_TNB_005" Layer="" MaxRefreshCount="1" x="346.258728" y="76.424065" z="-264.984222" IsY="1" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="5" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="15A804830A584184AB01A8DB4FC832A7" Desc="FB_TNB_005" config="FB_TNB_005" Layer="" MaxRefreshCount="1" x="363.81662" y="76.418388" z="-259.640991" IsY="1" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="5" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="EB343BCF27634B188207DFAD5EB3ECA8" Desc="FB_TNB_005" config="FB_TNB_005" Layer="" MaxRefreshCount="1" x="388.586609" y="76.412598" z="-270.078339" IsY="1" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="5" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+</Stage>
+
+

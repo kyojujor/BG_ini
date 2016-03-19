@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<Object>
+	<Property ID="10003" Name="召唤黑色披甲熊" EventType="6" TargetType="2" FuncNo="21" Mount_ID="1"/>
+	<Property ID="10004" Name="人形代步器" EventType="6" TargetType="2" FuncNo="21" Mount_ID="3"/>
+	<Property ID="20085" Name="敌方轰炸" EventType="5" TargetType="0" FuncNo="13" FendLockTime="1000" FendDistance="2" FendIsCanMove="0"/>
+	<Property ID="20086" Name="末日审判" EventType="5" TargetType="0" FuncNo="13" FendLockTime="1000" FendDistance="1" FendIsCanMove="0"/>
+	<Property ID="20087" Name="射击"/>
+	<Property ID="20089" Name="火烧"/>
+	<Property ID="20090" Name="挥砍"/>
+	<Property ID="20091" Name="冲锋" EventType="5" TargetType="0" FuncNo="1" BuffID="Task_Renw007_Buff01_01"/>
+	<Property ID="20092" Name="列阵" EventType="5" TargetType="0" FuncNo="1" BuffID="Task_Renw008_Buff01_01"/>
+	<Property ID="20093" Name="随意攻击"/>
+	<Property ID="20094" Name="集中攻击" EventType="5" TargetType="0" FuncNo="1" BuffID="Task_Renw010_Buff01_01"/>
+	<Property ID="20095" Name="投石机轰炸"/>
+	<Property ID="20096" Name="包扎" EventType="5" TargetType="0" FuncNo="1" BuffID="Task_Renw012_Buff01_01"/>
+	<Property ID="20097" Name="布雷" EventType="6" TargetType="0" FuncNo="2" NPCConfigID="monster_zhanchang_0016" NPCCreateCount="1" NPCLifeTime="300000" NPCTargetPosType="0" NPCCreatePosType="0"/>
+	<Property ID="20098" Name="潜入" EventType="5" TargetType="0" FuncNo="1" BuffID="Task_Renw014_Buff01_01"/>
+	<Property ID="20099" Name="末日庇护" EventType="5" TargetType="2" FuncNo="1" BuffID="Task_Renw015_Buff01_01"/>
+	<Property ID="20100" Name="野蛮人勇士" EventType="5" TargetType="0" FuncNo="1" BuffID="Task_Renw016_Buff01_01"/>
+	<Property ID="20101" Name="先祖赐福" EventType="5" TargetType="1" FuncNo="1" BuffID="Task_Renw017_Buff01_01"/>
+	<Property ID="20102" Name="定身" EventType="5" TargetType="0" FuncNo="1" BuffID="Task_Renw018_Buff01_01"/>
+	<Property ID="20103" Name="末日伪装" EventType="5" TargetType="0" FuncNo="1" BuffID="Task_Renw019_Buff01_01"/>
+	<Property ID="20104" Name="大酋长的投掷" EventType="4" TargetType="0" FuncNo="1" BuffID="Task_Renw020_Buff01_01"/>
+	<Property ID="20105" Name="投掷炸药"/>
+	<Property ID="20227" Name="变装" EventType="5" TargetType="0" FuncNo="1" BuffID="Task_Renw027_Buff01_01"/>
+	<Property ID="20232" Name="增强抵抗力" EventType="5" TargetType="0" FuncNo="1" BuffID="Task_Renw026_Buff01_01"/>
+	<Property ID="30003" Name="治疗20" EventType="6" TargetType="2" FuncNo="5" IsHealFormula="0" HealFormula="20" HealTargetType="1"/>
+	<Property ID="30004" Name="攻击1" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_healhpatk001_Buff_01"/>
+	<Property ID="30005" Name="回血1" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_healhpupatk001_Buff_01"/>
+	<Property ID="30006" Name="防御1" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_healhpdef001_Buff_01"/>
+	<Property ID="30007" Name="治疗100" EventType="6" TargetType="2" FuncNo="5" IsHealFormula="0" HealFormula="100" HealTargetType="1"/>
+	<Property ID="30008" Name="加蓝20" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_healmpatk001_Buff_01"/>
+	<Property ID="30009" Name="回蓝1" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_healmpupatk001_Buff_01"/>
+	<Property ID="30010" Name="加蓝100" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_healmp001_Buff_01"/>
+	<Property ID="20311" Name="恢复" EventType="5" TargetType="0" FuncNo="5" IsHealFormula="0" HealFormula="50" HealTargetType="0"/>
+	<Property ID="20312" Name="振奋" EventType="5" TargetType="0" FuncNo="1" BuffID="Task_Renw032_Buff01_01"/>
+	<Property ID="20313" Name="圣洁之力" EventType="5" TargetType="0" FuncNo="1" BuffID="Task_Renw033_Buff01_01"/>
+	<Property ID="20316" Name="愈合药剂" EventType="5" TargetType="0" FuncNo="5" IsHealFormula="0" HealFormula="1" HealTargetType="0"/>
+	<Property ID="30015" Name="死者复苏" EventType="6" TargetType="2" FuncNo="1" BuffID="buffer_dead07_01"/>
+	<Property ID="20329" Name="誓约之刃" EventType="5" TargetType="0" FuncNo="1" BuffID="Task_Renw040_Buff01_01"/>
+	<Property ID="20337" Name="加速" EventType="5" TargetType="0" FuncNo="1" BuffID="Vehicle_0010_Buff01_01"/>
+	<Property ID="30017" Name="毒箭" EventType="5" TargetType="0" FuncNo="1" BuffID="Item_TaskUse00020A01_Buff01_01"/>
+	<Property ID="30019" Name="火石" EventType="6" TargetType="0" FuncNo="1" BuffID="Item_TaskUse00022A01_Buff01_01"/>
+	<Property ID="30022" Name="捕兽器" EventType="5" TargetType="0" FuncNo="1" BuffID="Item_TaskUse00023B01_Buff01_01"/>
+	<Property ID="30025" Name="绳索" EventType="5" TargetType="0"/>
+	<Property ID="30032" Name="反魔法咒文" EventType="5" TargetType="0"/>
+	<Property ID="30028" Name="誓约之刃" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_TaskUse00026B01_Buff01_01"/>
+	<Property ID="30031" Name="伪装物" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_TaskUse00028A01_Buff01_01"/>
+	<Property ID="30034" Name="奥瑞克士兵服" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_TaskUse00029B01_Buff01_01"/>
+	<Property ID="30043" Name="达戈菲尔军装" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_TaskUse00031A01_Buff01_01"/>
+	<Property ID="10046" Name="独角蜘蛛" EventType="6" TargetType="2" FuncNo="21" Mount_ID="2"/>
+	<Property ID="10047" Name="白色陆行鸟" EventType="6" TargetType="2" FuncNo="21" Mount_ID="4"/>
+	<Property ID="10048" Name="深蓝石肤马" EventType="6" TargetType="2" FuncNo="21" Mount_ID="5"/>
+	<Property ID="100482" Name="深蓝石肤马" EventType="6" TargetType="2" FuncNo="21" Mount_ID="22"/>
+	<Property ID="100483" Name="白色石肤马" EventType="6" TargetType="2" FuncNo="21" Mount_ID="33"/>
+	<Property ID="100484" Name="红色石肤马" EventType="6" TargetType="2" FuncNo="21" Mount_ID="34"/>
+	<Property ID="100485" Name="黑色石肤马" EventType="6" TargetType="2" FuncNo="21" Mount_ID="35"/>
+	<Property ID="10049" Name="蒸汽三轮车" EventType="6" TargetType="2" FuncNo="21" Mount_ID="6"/>
+	<Property ID="10051" Name="召唤巨牙野猪" EventType="6" TargetType="2" FuncNo="21" Mount_ID="7"/>
+	<Property ID="10052" Name="召唤花豹" EventType="6" TargetType="2" FuncNo="21" Mount_ID="8"/>
+	<Property ID="100522" Name="白色花豹" EventType="6" TargetType="2" FuncNo="21" Mount_ID="30"/>
+	<Property ID="100523" Name="蓝色花豹" EventType="6" TargetType="2" FuncNo="21" Mount_ID="31"/>
+	<Property ID="100524" Name="黑色花豹" EventType="6" TargetType="2" FuncNo="21" Mount_ID="32"/>
+	<Property ID="10053" Name="召唤驼铃" EventType="6" TargetType="2" FuncNo="21" Mount_ID="9"/>
+	<Property ID="100532" Name="黑色驼铃" EventType="6" TargetType="2" FuncNo="21" Mount_ID="36"/>
+	<Property ID="100533" Name="棕色驼铃" EventType="6" TargetType="2" FuncNo="21" Mount_ID="37"/>
+	<Property ID="100534" Name="黄色驼铃" EventType="6" TargetType="2" FuncNo="21" Mount_ID="38"/>
+	<Property ID="10054" Name="召唤受折磨的大象" EventType="6" TargetType="2" FuncNo="21" Mount_ID="10"/>
+	<Property ID="10055" Name="召唤军用吉普" EventType="6" TargetType="2" FuncNo="21" Mount_ID="11"/>
+	<Property ID="10056" Name="召唤单人摩托车" EventType="6" TargetType="2" FuncNo="21" Mount_ID="12"/>
+	<Property ID="10057" Name="召唤外轮车" EventType="6" TargetType="2" FuncNo="21" Mount_ID="13"/>
+	<Property ID="20455" Name="召唤怪物" EventType="6" TargetType="2" FuncNo="2" NPCConfigID="summon_zlm001_0023" NPCLifeTime="0" NPCTargetPosType="0" NPCCreatePosType="1" NPCRandomRadius="5"/>
+	<Property ID="50016" Name="恢复" EventType="6" TargetType="2" FuncNo="5" IsHealFormula="0" HealFormula="50" HealTargetType="1"/>
+	<Property ID="60013" Name="血量提升" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_HpFoot_00001_Buff01_01"/>
+	<Property ID="60014" Name="血量提升" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_HpFoot_00002_Buff01_01"/>
+	<Property ID="60015" Name="血量提升" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_HpFoot_00003_Buff01_01"/>
+	<Property ID="60016" Name="血量提升" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_HpFoot_00004_Buff01_01"/>
+	<Property ID="60017" Name="血量提升" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_HpFoot_00005_Buff01_01"/>
+	<Property ID="60018" Name="血量提升" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_HpFoot_00006_Buff01_01"/>
+	<Property ID="60019" Name="血量提升" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_HpFoot_00007_Buff01_01"/>
+	<Property ID="60020" Name="血量提升" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_HpFoot_00008_Buff01_01"/>
+	<Property ID="60021" Name="血量提升" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_HpFoot_00009_Buff01_01"/>
+	<Property ID="60022" Name="血量提升" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_HpFoot_00010_Buff01_01"/>
+	<Property ID="60023" Name="血量提升" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_HpFoot_00011_Buff01_01"/>
+	<Property ID="60024" Name="血量提升" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_HpFoot_00012_Buff01_01"/>
+	<Property ID="60025" Name="血量提升" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_HpFoot_00013_Buff01_01"/>
+	<Property ID="60026" Name="血量提升" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_HpFoot_00014_Buff01_01"/>
+	<Property ID="60027" Name="血量提升" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_HpFoot_00015_Buff01_01"/>
+	<Property ID="60028" Name="血量提升" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_HpFoot_00016_Buff01_01"/>
+	<Property ID="60029" Name="血量提升" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_HpFoot_00017_Buff01_01"/>
+	<Property ID="60030" Name="血量提升" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_HpFoot_00018_Buff01_01"/>
+	<Property ID="60031" Name="血量提升" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_HpFoot_00019_Buff01_01"/>
+	<Property ID="60032" Name="血量提升" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_HpFoot_00020_Buff01_01"/>
+	<Property ID="60033" Name="血量提升" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_HpFoot_00021_Buff01_01"/>
+	<Property ID="60034" Name="血量提升" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_HpFoot_00022_Buff01_01"/>
+	<Property ID="60035" Name="血量提升" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_HpFoot_00023_Buff01_01"/>
+	<Property ID="60036" Name="血量提升" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_HpFoot_00024_Buff01_01"/>
+	<Property ID="60037" Name="法力提升" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_HpFoot_00025_Buff01_01"/>
+	<Property ID="60038" Name="法力提升" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_HpFoot_00026_Buff01_01"/>
+	<Property ID="60039" Name="法力提升" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_HpFoot_00027_Buff01_01"/>
+	<Property ID="60040" Name="法力提升" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_HpFoot_00028_Buff01_01"/>
+	<Property ID="60041" Name="法力提升" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_HpFoot_00029_Buff01_01"/>
+	<Property ID="60042" Name="法力提升" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_HpFoot_00030_Buff01_01"/>
+	<Property ID="60043" Name="法力提升" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_HpFoot_00031_Buff01_01"/>
+	<Property ID="60044" Name="法力提升" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_HpFoot_00032_Buff01_01"/>
+	<Property ID="60045" Name="法力提升" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_HpFoot_00033_Buff01_01"/>
+	<Property ID="60046" Name="法力提升" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_HpFoot_00034_Buff01_01"/>
+	<Property ID="60047" Name="法力提升" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_HpFoot_00035_Buff01_01"/>
+	<Property ID="60048" Name="法力提升" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_HpFoot_00036_Buff01_01"/>
+	<Property ID="60049" Name="法力提升" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_HpFoot_00037_Buff01_01"/>
+	<Property ID="60050" Name="法力提升" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_HpFoot_00038_Buff01_01"/>
+	<Property ID="60051" Name="法力提升" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_HpFoot_00039_Buff01_01"/>
+	<Property ID="60052" Name="法力提升" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_HpFoot_00040_Buff01_01"/>
+	<Property ID="60053" Name="法力提升" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_HpFoot_00041_Buff01_01"/>
+	<Property ID="60054" Name="法力提升" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_HpFoot_00042_Buff01_01"/>
+	<Property ID="60055" Name="法力提升" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_HpFoot_00043_Buff01_01"/>
+	<Property ID="60056" Name="法力提升" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_HpFoot_00044_Buff01_01"/>
+	<Property ID="60057" Name="法力提升" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_HpFoot_00045_Buff01_01"/>
+	<Property ID="60058" Name="法力提升" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_HpFoot_00046_Buff01_01"/>
+	<Property ID="60059" Name="法力提升" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_HpFoot_00047_Buff01_01"/>
+	<Property ID="60060" Name="法力提升" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_HpFoot_00048_Buff01_01"/>
+	<Property ID="60061" Name="力量提升" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_HpFoot_00049_Buff01_01"/>
+	<Property ID="60062" Name="敏捷提升" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_HpFoot_00050_Buff01_01"/>
+	<Property ID="60063" Name="体质提升" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_HpFoot_00051_Buff01_01"/>
+	<Property ID="60064" Name="智力提升" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_HpFoot_00052_Buff01_01"/>
+	<Property ID="60065" Name="精神提升" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_HpFoot_00053_Buff01_01"/>
+	<Property ID="60066" Name="感知提升" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_HpFoot_00054_Buff01_01"/>
+	<Property ID="60067" Name="法力恢复速度提升" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_HpFoot_00055_Buff01_01"/>
+	<Property ID="60068" Name="物理攻击强度提升" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_HpFoot_00056_Buff01_01"/>
+	<Property ID="60069" Name="远程攻击强度提升" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_HpFoot_00057_Buff01_01"/>
+	<Property ID="60070" Name="生命恢复速度提升" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_HpFoot_00058_Buff01_01"/>
+	<Property ID="49001" Name="力量+2" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00001_Buff01_01"/>
+	<Property ID="49002" Name="敏捷+2" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00002_Buff01_01"/>
+	<Property ID="49003" Name="耐力+2" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00003_Buff01_01"/>
+	<Property ID="49004" Name="智力+2" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00004_Buff01_01"/>
+	<Property ID="49005" Name="感知+2" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00005_Buff01_01"/>
+	<Property ID="49006" Name="精神+2" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00006_Buff01_01"/>
+	<Property ID="49007" Name="力量+5" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00007_Buff01_01"/>
+	<Property ID="49008" Name="敏捷+5" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00008_Buff01_01"/>
+	<Property ID="49009" Name="耐力+5" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00009_Buff01_01"/>
+	<Property ID="49010" Name="智力+5" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00010_Buff01_01"/>
+	<Property ID="49011" Name="感知+5" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00011_Buff01_01"/>
+	<Property ID="49012" Name="精神+5" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00012_Buff01_01"/>
+	<Property ID="49013" Name="力量+10" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00013_Buff01_01"/>
+	<Property ID="49014" Name="敏捷+10" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00014_Buff01_01"/>
+	<Property ID="49015" Name="耐力+10" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00015_Buff01_01"/>
+	<Property ID="49016" Name="智力+10" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00016_Buff01_01"/>
+	<Property ID="49017" Name="感知+10" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00017_Buff01_01"/>
+	<Property ID="49018" Name="精神+10" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00018_Buff01_01"/>
+	<Property ID="49019" Name="力量+20" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00019_Buff01_01"/>
+	<Property ID="49020" Name="敏捷+20" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00020_Buff01_01"/>
+	<Property ID="49021" Name="耐力+20" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00021_Buff01_01"/>
+	<Property ID="49022" Name="智力+20" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00022_Buff01_01"/>
+	<Property ID="49023" Name="感知+20" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00023_Buff01_01"/>
+	<Property ID="49024" Name="精神+20" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00024_Buff01_01"/>
+	<Property ID="49025" Name="力量+30" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00025_Buff01_01"/>
+	<Property ID="49026" Name="敏捷+30" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00026_Buff01_01"/>
+	<Property ID="49027" Name="耐力+30" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00027_Buff01_01"/>
+	<Property ID="49028" Name="智力+30" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00028_Buff01_01"/>
+	<Property ID="49029" Name="感知+30" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00029_Buff01_01"/>
+	<Property ID="49030" Name="精神+30" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00030_Buff01_01"/>
+	<Property ID="49031" Name="力量+40" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00031_Buff01_01"/>
+	<Property ID="49032" Name="敏捷+40" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00032_Buff01_01"/>
+	<Property ID="49033" Name="耐力+40" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00033_Buff01_01"/>
+	<Property ID="49034" Name="智力+40" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00034_Buff01_01"/>
+	<Property ID="49035" Name="感知+40" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00035_Buff01_01"/>
+	<Property ID="49036" Name="精神+40" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00036_Buff01_01"/>
+	<Property ID="49037" Name="暴击等级+5" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00037_Buff01_01"/>
+	<Property ID="49038" Name="暴击等级+10" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00038_Buff01_01"/>
+	<Property ID="49039" Name="暴击等级+15" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00039_Buff01_01"/>
+	<Property ID="49040" Name="暴击等级+20" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00040_Buff01_01"/>
+	<Property ID="49041" Name="命中等级+5" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00041_Buff01_01"/>
+	<Property ID="49042" Name="命中等级+10" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00042_Buff01_01"/>
+	<Property ID="49043" Name="命中等级+15" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00043_Buff01_01"/>
+	<Property ID="49044" Name="命中等级+20" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00044_Buff01_01"/>
+	<Property ID="49045" Name="急速等级+5" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00045_Buff01_01"/>
+	<Property ID="49046" Name="急速等级+10" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00046_Buff01_01"/>
+	<Property ID="49047" Name="急速等级+15" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00047_Buff01_01"/>
+	<Property ID="49048" Name="急速等级+20" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00048_Buff01_01"/>
+	<Property ID="49049" Name="法术命中+5" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00049_Buff01_01"/>
+	<Property ID="49050" Name="法术命中+10" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00050_Buff01_01"/>
+	<Property ID="49051" Name="法术命中+15" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00051_Buff01_01"/>
+	<Property ID="49052" Name="法术命中+20" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00052_Buff01_01"/>
+	<Property ID="49053" Name="法术暴击+5" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00053_Buff01_01"/>
+	<Property ID="49054" Name="法术暴击+10" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00054_Buff01_01"/>
+	<Property ID="49055" Name="法术暴击+15" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00055_Buff01_01"/>
+	<Property ID="49056" Name="法术暴击+20" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00056_Buff01_01"/>
+	<Property ID="49057" Name="闪避等级+5" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00057_Buff01_01"/>
+	<Property ID="49058" Name="闪避等级+10" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00058_Buff01_01"/>
+	<Property ID="49059" Name="闪避等级+15" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00059_Buff01_01"/>
+	<Property ID="49060" Name="闪避等级+20" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00060_Buff01_01"/>
+	<Property ID="49061" Name="招架等级+5" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00061_Buff01_01"/>
+	<Property ID="49062" Name="招架等级+10" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00062_Buff01_01"/>
+	<Property ID="49063" Name="招架等级+15" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00063_Buff01_01"/>
+	<Property ID="49064" Name="招架等级+20" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_FunPot00064_Buff01_01"/>
+	<Property ID="50017" Name="恢复" EventType="6" TargetType="2" FuncNo="6" IsFormula="0" Attribute="MP" Formula="80" AllowNegative="0"/>
+	<Property ID="50018" Name="恢复" EventType="6" TargetType="2" FuncNo="5" IsHealFormula="0" HealFormula="35" HealTargetType="1"/>
+	<Property ID="50019" Name="恢复" EventType="6" TargetType="2" FuncNo="6" IsFormula="0" Attribute="MP" Formula="50" AllowNegative="0"/>
+	<Property ID="50020" Name="恢复" EventType="6" TargetType="2" FuncNo="5" IsHealFormula="0" HealFormula="120" HealTargetType="1"/>
+	<Property ID="50021" Name="恢复" EventType="6" TargetType="2" FuncNo="6" IsFormula="0" Attribute="MP" Formula="160" AllowNegative="0"/>
+	<Property ID="50022" Name="恢复" EventType="6" TargetType="2" FuncNo="5" IsHealFormula="0" HealFormula="80" HealTargetType="1"/>
+	<Property ID="50023" Name="恢复" EventType="6" TargetType="2" FuncNo="6" IsFormula="0" Attribute="MP" Formula="100" AllowNegative="0"/>
+	<Property ID="50024" Name="恢复" EventType="6" TargetType="2" FuncNo="5" IsHealFormula="0" HealFormula="280" HealTargetType="1"/>
+	<Property ID="50025" Name="恢复" EventType="6" TargetType="2" FuncNo="6" IsFormula="0" Attribute="MP" Formula="360" AllowNegative="0"/>
+	<Property ID="50026" Name="恢复" EventType="6" TargetType="2" FuncNo="5" IsHealFormula="0" HealFormula="180" HealTargetType="1"/>
+	<Property ID="50027" Name="恢复" EventType="6" TargetType="2" FuncNo="6" IsFormula="0" Attribute="MP" Formula="220" AllowNegative="0"/>
+	<Property ID="50028" Name="恢复" EventType="6" TargetType="2" FuncNo="5" IsHealFormula="0" HealFormula="600" HealTargetType="1"/>
+	<Property ID="50029" Name="恢复" EventType="6" TargetType="2" FuncNo="6" IsFormula="0" Attribute="MP" Formula="700" AllowNegative="0"/>
+	<Property ID="50030" Name="恢复" EventType="6" TargetType="2" FuncNo="5" IsHealFormula="0" HealFormula="420" HealTargetType="1"/>
+	<Property ID="50031" Name="恢复" EventType="6" TargetType="2" FuncNo="6" IsFormula="0" Attribute="MP" Formula="480" AllowNegative="0"/>
+	<Property ID="50032" Name="恢复" EventType="6" TargetType="2" FuncNo="5" IsHealFormula="0" HealFormula="1000" HealTargetType="1"/>
+	<Property ID="50033" Name="恢复" EventType="6" TargetType="2" FuncNo="6" IsFormula="0" Attribute="MP" Formula="1200" AllowNegative="0"/>
+	<Property ID="50034" Name="恢复" EventType="6" TargetType="2" FuncNo="5" IsHealFormula="0" HealFormula="700" HealTargetType="1"/>
+	<Property ID="50035" Name="恢复" EventType="6" TargetType="2" FuncNo="6" IsFormula="0" Attribute="MP" Formula="800" AllowNegative="0"/>
+	<Property ID="50036" Name="恢复" EventType="6" TargetType="2" FuncNo="5" IsHealFormula="0" HealFormula="1800" HealTargetType="1"/>
+	<Property ID="50037" Name="恢复" EventType="6" TargetType="2" FuncNo="6" IsFormula="0" Attribute="MP" Formula="2200" AllowNegative="0"/>
+	<Property ID="50038" Name="恢复" EventType="6" TargetType="2" FuncNo="5" IsHealFormula="0" HealFormula="1400" HealTargetType="1"/>
+	<Property ID="50039" Name="恢复" EventType="6" TargetType="2" FuncNo="6" IsFormula="0" Attribute="MP" Formula="1600" AllowNegative="0"/>
+	<Property ID="20483" Name="召唤机械狼" EventType="6" TargetType="2" FuncNo="21" Mount_ID="14"/>
+	<Property ID="204832" Name="召唤机械狼" EventType="6" TargetType="2" FuncNo="21" Mount_ID="59"/>
+	<Property ID="20484" Name="召唤越野摩托" EventType="6" TargetType="2" FuncNo="21" Mount_ID="15"/>
+	<Property ID="204842" Name="召唤越野摩托" EventType="6" TargetType="2" FuncNo="21" Mount_ID="23"/>
+	<Property ID="204843" Name="蓝色越野摩托" EventType="6" TargetType="2" FuncNo="21" Mount_ID="39"/>
+	<Property ID="204844" Name="红色越野摩托" EventType="6" TargetType="2" FuncNo="21" Mount_ID="40"/>
+	<Property ID="204845" Name="紫色越野摩托" EventType="6" TargetType="2" FuncNo="21" Mount_ID="41"/>
+	<Property ID="50040" Name="普通胶水" EventType="6" TargetType="0" FuncNo="1" BuffID="Item_PecPot00001_Buff01_01"/>
+	<Property ID="50041" Name="强力胶水" EventType="6" TargetType="0" FuncNo="1" BuffID="Item_PecPot00002_Buff01_01"/>
+	<Property ID="50044" Name="梦幻药水" EventType="6" TargetType="0" FuncNo="1" BuffID="Item_PecPot00005_Buff01_01"/>
+	<Property ID="50046" Name="闪避药剂" EventType="6" TargetType="2" FuncNo="1" BuffID="Item_PecPot00006_Buff01_01"/>
+	<Property ID="50047" Name="暴击之油" EventType="6" TargetType="0" FuncNo="1" BuffID="Item_PecPot00007_Buff01_01"/>
+	<Property ID="50048" Name="恶魔胶水" EventType="6" TargetType="0" FuncNo="1" BuffID="Item_PecPot00008_Buff01_01"/>
+	<Property ID="50051" Name="奥法药剂" EventType="6" TargetType="0" FuncNo="1" BuffID="Item_PecPot00010_Buff01_01"/>
+	<Property ID="50052" Name="强力奥法药剂" EventType="6" TargetType="0" FuncNo="1" BuffID="Item_PecPot00011_Buff01_01"/>
+	<Property ID="50053" Name="物理攻击药剂" EventType="6" TargetType="0" FuncNo="1" BuffID="Item_PecPot00012_Buff01_01"/>
+	<Property ID="50054" Name="精准药剂" EventType="6" TargetType="0" FuncNo="1" BuffID="Item_PecPot00013_Buff01_01"/>
+	<Property ID="50056" Name="致命药剂" EventType="6" TargetType="0" FuncNo="1" BuffID="Item_PecPot00014_Buff01_01"/>
+	<Property ID="50067" Name="中级烟雾发射器" EventType="6" TargetType="0" FuncNo="1" BuffID="Item_LegArmC00009_Buff01_01"/>
+	<Property ID="50068" Name="初级烟雾发射器" EventType="6" TargetType="0" FuncNo="1" BuffID="Item_LegArmC00004_Buff01_01"/>
+	<Property ID="50069" Name="初级石英观瞄装置" EventType="6" TargetType="0" FuncNo="1" BuffID="Item_HeadArmC00002_Buff01_01"/>
+	<Property ID="60096" Name="初级蒸汽喷射背包" EventType="6" TargetType="2" FuncNo="4"/>
+	<Property ID="60097" Name="中级蒸汽喷射背包" EventType="6" TargetType="2" FuncNo="4"/>
+	<Property ID="50071" Name="中级石英观瞄装置" EventType="6" TargetType="0" FuncNo="1" BuffID="Item_HeadArmC00006_Buff01_01"/>
+	<Property ID="50073" Name="初级缓冲内衬" EventType="6" TargetType="0" FuncNo="5" IsHealFormula="1" HealFormula="@MAXHP*0.1" HealTargetType="1"/>
+	<Property ID="50074" Name="中级缓冲内衬" EventType="6" TargetType="0" FuncNo="5" IsHealFormula="1" HealFormula="@MAXHP*0.15" HealTargetType="1"/>
+	<Property ID="20332" Name="冲锋" EventType="5" TargetType="0" FuncNo="17" ChargeSpeed="18"/>
+	<Property ID="20634" Name="召唤双人摩托" EventType="6" TargetType="2" FuncNo="21" Mount_ID="16"/>
+	<Property ID="20659" Name="突进" EventType="6" TargetType="2" FuncNo="1" BuffID="Vehicle_0033_Buff01_01"/>
+	<Property ID="50216" Name="穿梭" EventType="5" TargetType="0" FuncNo="1" BuffID="Item_A020001_Buff01_01"/>
+	<Property ID="50217" Name="倾泻 " EventType="6" TargetType="0" FuncNo="1" BuffID="Item_A030001_Buff01_01"/>
+	<Property ID="50218" Name="威吓" EventType="5" TargetType="0" FuncNo="31"/>
+	<Property ID="50220" Name="穿刺" EventType="5" TargetType="0" FuncNo="1" BuffID="Item_A060001_Buff01_01"/>
+	<Property ID="50222" Name="扎刺" EventType="5" TargetType="0" FuncNo="1" BuffID="Item_A080001_Buff01_01"/>
+	<Property ID="50225" Name="瞄准射击" EventType="6" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageCategory="1" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="50226" Name="机械治疗" EventType="6" TargetType="0" FuncNo="5" IsHealFormula="1" HealFormula="@HP*0.3" HealTargetType="0"/>
+	<Property ID="50227" Name="精准投掷" EventType="5" TargetType="0" FuncNo="1"/>
+	<Property ID="50228" Name="基础修理 " EventType="6" TargetType="0" FuncNo="5" IsHealFormula="1" HealFormula="@Ing*3" HealTargetType="0"/>
+	<Property ID="50229" Name="秘法武器" EventType="5" TargetType="0" FuncNo="1"/>
+	<Property ID="50230" Name="秘法射击 " EventType="5" TargetType="0" FuncNo="1"/>
+	<Property ID="50231" Name="秘术爆炸" EventType="5" TargetType="0" FuncNo="1"/>
+	<Property ID="50232" Name="野蛮挥砍" EventType="5" TargetType="0" FuncNo="1"/>
+	<Property ID="50233" Name="撕裂" EventType="5" TargetType="0" FuncNo="1" BuffID="Item_A190001_Buff01_01"/>
+	<Property ID="50234" Name="钝击" EventType="5" TargetType="0" FuncNo="1"/>
+	<Property ID="50236" Name="长撩之势" EventType="5" TargetType="0" FuncNo="1" BuffID="Item_A220001_Buff01_01"/>
+	<Property ID="50237" Name="蓄力攻击" EventType="5" TargetType="0" FuncNo="1"/>
+	<Property ID="50238" Name="快速打击" EventType="5" TargetType="0" FuncNo="1"/>
+	<Property ID="50239" Name="伤刻徽记" EventType="6" TargetType="0" FuncNo="1" BuffID="Item_A250001_Buff01_01"/>
+	<Property ID="50241" Name="风驰" EventType="5" TargetType="0" FuncNo="1" BuffID="Item_A270001_Buff01_01"/>
+	<Property ID="50242" Name="割裂" EventType="5" TargetType="0" FuncNo="1" BuffID="Item_A280001_Buff01_01"/>
+	<Property ID="50243" Name="封印" EventType="5" TargetType="0" FuncNo="1" BuffID="Item_A290001_Buff01_01"/>
+	<Property ID="50244" Name="魔印" EventType="5" TargetType="0" FuncNo="1" BuffID="Item_A300001_Buff01_01"/>
+	<Property ID="50245" Name="旋风" EventType="5" TargetType="0" FuncNo="1"/>
+	<Property ID="50248" Name="时间利刃" EventType="5" TargetType="0" FuncNo="1" BuffID="Item_A340001_Buff01_01"/>
+	<Property ID="50252" Name="魔法飞弹" EventType="5" TargetType="0" FuncNo="1"/>
+	<Property ID="50253" Name="元素触摸" EventType="5" TargetType="0" FuncNo="1"/>
+	<Property ID="50256" Name="秘术祷言" EventType="5" TargetType="1" FuncNo="5" IsHealFormula="1" HealFormula="@Spi*4" HealTargetType="0"/>
+	<Property ID="50257" Name="逝去的荣誉" EventType="5" TargetType="0" FuncNo="1" BuffID="Item_A430001_Buff01_01"/>
+	<Property ID="50259" Name="猎魔法则" EventType="5" TargetType="0" FuncNo="1" BuffID="Item_A440001_Buff01_01"/>
+	<Property ID="50260" Name="炼金法阵" EventType="5" TargetType="0" FuncNo="1"/>
+	<Property ID="50261" Name="元素起源" EventType="5" TargetType="0" FuncNo="1"/>
+	<Property ID="91023" Name="朝日圣地主城传送轴" EventType="6" TargetType="2" FuncNo="506" LocationID="4001"/>
+	<Property ID="91024" Name="风语平原主城传送轴" EventType="6" TargetType="2" FuncNo="506" LocationID="4002"/>
+	<Property ID="91025" Name="晨曦丘陵主城传送轴" EventType="6" TargetType="2" FuncNo="506" LocationID="4003"/>
+	<Property ID="91026" Name="克威尔郡主城传送轴" EventType="6" TargetType="2" FuncNo="506" LocationID="4004"/>
+	<Property ID="91027" Name="裂痕丘陵主城传送轴" EventType="6" TargetType="2" FuncNo="506" LocationID="4005"/>
+	<Property ID="91028" Name="卡地亚主城传送轴" EventType="6" TargetType="2" FuncNo="506" LocationID="4006"/>
+	<Property ID="20745" Name="蒸汽弹"/>
+	<Property ID="20746" Name="狼牙石"/>
+	<Property ID="20751" Name="弩箭" EventType="5" TargetType="0" FuncNo="3" Condition="20751|207512" IsDamageFormula="0" DamageFormula="400" DamageCategory="1" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="20752" Name="冰霜之矢" EventType="5" TargetType="0" FuncNo="1" BuffID="Vehicle_0037_Buff01_01"/>
+	<Property ID="20753" Name="轰击" EventType="5" TargetType="0" FuncNo="3" Condition="20751|207512" IsDamageFormula="0" DamageFormula="800" DamageCategory="1" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="20754" Name="怒震之石" EventType="5" TargetType="0" FuncNo="1" BuffID="Vehicle_0039_Buff01_01"/>
+	<Property ID="20755" Name="突刺" EventType="5" TargetType="0" FuncNo="3" Condition="20751|207512" IsDamageFormula="0" DamageFormula="1400" DamageCategory="1" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="20756" Name="噬龙之刺" EventType="5" TargetType="0" FuncNo="13" FendLockTime="1000" FendDistance="5" FendIsCanMove="0"/>
+	<Property ID="20757" Name="践踏" EventType="5" TargetType="0" FuncNo="1" BuffID="Vehicle_0042_Buff01_01"/>
+	<Property ID="20758" Name="炽火胶" EventType="5" TargetType="0" FuncNo="1" BuffID="Vehicle_0037_Buff01_01"/>
+	<Property ID="20759" Name="暴雷石" EventType="5" TargetType="0" FuncNo="1" BuffID="Vehicle_0039_Buff01_01"/>
+	<Property ID="20760" Name="药" EventType="6" TargetType="2" FuncNo="5" IsHealFormula="0" HealFormula="30" HealTargetType="1"/>
+	<Property ID="20761" Name="高效能机油" EventType="6" TargetType="0" FuncNo="1" Condition="20762" BuffID="ItemTaskUse_00108A_Buff01_01"/>
+	<Property ID="20767" Name="蒸汽爆破" EventType="6" TargetType="0" FuncNo="1" BuffID="Vehicle_0044_Buff01_01"/>
+	<Property ID="20768" Name="蒸汽废渣" EventType="5" TargetType="0" FuncNo="1" BuffID="Vehicle_0045_Buff01_01"/>
+	<Property ID="20769" Name="蒸汽充能" EventType="5" TargetType="2" FuncNo="1" BuffID="Vehicle_0046_Buff01_01"/>
+	<Property ID="20770" Name="蒸汽庇护" EventType="5" TargetType="3" FuncNo="1" BuffID="Vehicle_0047_Buff01_01"/>
+	<Property ID="20771" Name="穿梭" EventType="5" TargetType="2" FuncNo="1" BuffID="Vehicle_0048_Buff01_01"/>
+	<Property ID="20772" Name="燃烧弹"/>
+	<Property ID="20773" Name="冷冻弹" EventType="5" TargetType="3" FuncNo="1" BuffID="Vehicle_0050_Buff01_01"/>
+	<Property ID="20774" Name="迁跃炸弹"/>
+	<Property ID="20775" Name="烈焰扫射"/>
+	<Property ID="20776" Name="蒸汽榴弹"/>
+	<Property ID="20777" Name="蒸汽爆弹"/>
+	<Property ID="20778" Name="疯狂机枪"/>
+	<Property ID="20779" Name="驱蛇药" EventType="3" TargetType="0" FuncNo="1" BuffID="ItemTaskUse_00110A_01_buff01"/>
+	<Property ID="20780" Name="秘仪黑金"/>
+	<Property ID="20781" Name="疗伤药物" EventType="5" TargetType="0" FuncNo="9" ActionName="npc_KosM_0606_001" LoopAction="0"/>
+	<Property ID="20782" Name="铁树种子"/>
+	<Property ID="20791" Name="伪装达戈菲尔" EventType="5" TargetType="2" FuncNo="1" BuffID="ItemTaskUse_00132A_Buff01_01"/>
+	<Property ID="20792" Name="达戈菲尔军装" EventType="5" TargetType="2" FuncNo="27" MetamorBuffID="ItemTaskUse_00132A_Buff02_01"/>
+	<Property ID="20793" Name="芭蕉" EventType="5" TargetType="0" FuncNo="2" NPCConfigID="summon_qhm002_0002" NPCCreateCount="1" NPCLifeTime="30000" NPCTargetPosType="0" NPCCreatePosType="1" NPCRandomRadius="2"/>
+	<Property ID="20799" Name="邮递员瓦力" EventType="6" TargetType="2" FuncNo="852"/>
+	<Property ID="20800" Name="风信子温蒂" EventType="6" TargetType="2" FuncNo="852"/>
+	<Property ID="207691" Name="蒸汽充能" EventType="6" TargetType="3" FuncNo="5" IsHealFormula="0" HealFormula="20000" HealTargetType="0"/>
+	<Property ID="20810" Name="布雷" EventType="6" TargetType="2" FuncNo="2" NPCConfigID="monster_zhanchang_0016" NPCCreateCount="1" NPCLifeTime="180000" NPCTargetPosType="0" NPCCreatePosType="0"/>
+	<Property ID="20811" Name="军服" EventType="5" TargetType="2" FuncNo="27" MetamorBuffID="ItemTaskUse_00137A_Buff01_01"/>
+	<Property ID="20812" Name="军服" EventType="5" TargetType="2" FuncNo="27" MetamorBuffID="ItemTaskUse_00138A_Buff01_01"/>
+	<Property ID="20833" Name="布雷" EventType="6" TargetType="2" FuncNo="2" NPCConfigID="monster_zhanchang_0017" NPCCreateCount="1" NPCLifeTime="180000" NPCTargetPosType="0" NPCCreatePosType="0"/>
+	<Property ID="50502" EventType="6" TargetType="0" FuncNo="19" ItemID="Task_00535A" ItemCount="1"/>
+	<Property ID="50503" EventType="5" TargetType="0" FuncNo="105" TableName="ForceReputeRecord" ForceID="2" QueryCol="0" SetCol="8" Value="2"/>
+	<Property ID="50504" EventType="5" TargetType="0" FuncNo="105" TableName="ForceReputeRecord" ForceID="2" QueryCol="0" SetCol="8" Value="5"/>
+	<Property ID="50518" EventType="3" TargetType="2" FuncNo="6" IsFormula="0" Attribute="MP" Formula="200" AllowNegative="0"/>
+	<Property ID="50519" EventType="3" TargetType="2" FuncNo="6" IsFormula="0" Attribute="HP" Formula="1000" AllowNegative="0"/>
+	<Property ID="50520" EventType="3" TargetType="2" FuncNo="6" IsFormula="0" Attribute="AV" Formula="50" AllowNegative="0"/>
+	<Property ID="50521" EventType="3" TargetType="2" FuncNo="6" IsFormula="0" Attribute="RC" Formula="50" AllowNegative="0"/>
+	<Property ID="50522" EventType="3" TargetType="2" FuncNo="1" BuffID="Item_CJ_Drug_Str_Buff01_01"/>
+	<Property ID="50523" EventType="3" TargetType="2" FuncNo="1" BuffID="Item_CJ_Drug_Dex_Buff01_01"/>
+	<Property ID="50524" EventType="3" TargetType="2" FuncNo="1" BuffID="Item_CJ_Drug_Ing_Buff01_01"/>
+	<Property ID="50525" EventType="3" TargetType="2" FuncNo="1" BuffID="Item_CJ_Drug_Spi_Buff01_01"/>
+	<Property ID="50526" EventType="3" TargetType="2" FuncNo="1" BuffID="Item_CJ_Drug_Sta_Buff01_01"/>
+	<Property ID="50527" EventType="3" TargetType="2" FuncNo="1" BuffID="Item_CJ_Drug_Esth_Buff01_01"/>
+	<Property ID="20905" EventType="8" TargetType="0" FuncNo="500" FirstDamageFormula="500" SecondDamageFormula="500" ThirdDamageFormula="500"/>
+	<Property ID="20930" Name="急速冷却仪" EventType="5" TargetType="0" FuncNo="1" BuffID="ItemTaskUse_00181A_Buff01_01"/>
+	<Property ID="23001" Name="添加buff" EventType="3" TargetType="0" FuncNo="1" BuffID="Item_TaskUse_00194A_Buff01_01"/>
+	<Property ID="23126" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23103|23113|23114|23115" BuffID="Buff_Item_S_Drug_007A_01"/>
+	<Property ID="231262" Name="回蒸汽能量" EventType="5" TargetType="0" FuncNo="1" Condition="23102|23110|23111|23112" BuffID="Buff_Item_S_Drug_013A_01"/>
+	<Property ID="231263" Name="回怒气" EventType="5" TargetType="0" FuncNo="1" Condition="23101|23107|23108|23109" BuffID="Buff_Item_S_Drug_019A_01"/>
+	<Property ID="23127" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23103" BuffID="Buff_Item_S_Drug_007A_01"/>
+	<Property ID="231272" Name="回蒸汽能量" EventType="5" TargetType="0" FuncNo="1" Condition="23102" BuffID="Buff_Item_S_Drug_013A_01"/>
+	<Property ID="231273" Name="回怒气" EventType="5" TargetType="0" FuncNo="1" Condition="23101" BuffID="Buff_Item_S_Drug_019A_01"/>
+	<Property ID="231274" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23113" BuffID="Buff_Item_S_Drug_007A_01"/>
+	<Property ID="231275" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23114" BuffID="Buff_Item_S_Drug_007A_01"/>
+	<Property ID="231276" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23115" BuffID="Buff_Item_S_Drug_007A_01"/>
+	<Property ID="231277" Name="回蒸汽能量" EventType="5" TargetType="0" FuncNo="1" Condition="23110" BuffID="Buff_Item_S_Drug_013A_01"/>
+	<Property ID="231278" Name="回蒸汽能量" EventType="5" TargetType="0" FuncNo="1" Condition="23111" BuffID="Buff_Item_S_Drug_013A_01"/>
+	<Property ID="231279" Name="回蒸汽能量" EventType="5" TargetType="0" FuncNo="1" Condition="23112" BuffID="Buff_Item_S_Drug_013A_01"/>
+	<Property ID="2312710" Name="回怒气" EventType="5" TargetType="0" FuncNo="1" Condition="23107" BuffID="Buff_Item_S_Drug_019A_01"/>
+	<Property ID="2312711" Name="回怒气" EventType="5" TargetType="0" FuncNo="1" Condition="23108" BuffID="Buff_Item_S_Drug_019A_01"/>
+	<Property ID="2312712" Name="回怒气" EventType="5" TargetType="0" FuncNo="1" Condition="23109" BuffID="Buff_Item_S_Drug_019A_01"/>
+	<Property ID="23128" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23103" BuffID="Buff_Item_S_Drug_008B_01"/>
+	<Property ID="231282" Name="回蒸汽能量" EventType="5" TargetType="0" FuncNo="1" Condition="23102" BuffID="Buff_Item_S_Drug_014B_01"/>
+	<Property ID="231283" Name="回怒气" EventType="5" TargetType="0" FuncNo="1" Condition="23101" BuffID="Buff_Item_S_Drug_020B_01"/>
+	<Property ID="231284" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23113" BuffID="Buff_Item_S_Drug_008B_01"/>
+	<Property ID="231285" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23114" BuffID="Buff_Item_S_Drug_008B_01"/>
+	<Property ID="231286" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23115" BuffID="Buff_Item_S_Drug_008B_01"/>
+	<Property ID="231287" Name="回蒸汽能量" EventType="5" TargetType="0" FuncNo="1" Condition="23110" BuffID="Buff_Item_S_Drug_014B_01"/>
+	<Property ID="231288" Name="回蒸汽能量" EventType="5" TargetType="0" FuncNo="1" Condition="23111" BuffID="Buff_Item_S_Drug_014B_01"/>
+	<Property ID="231289" Name="回蒸汽能量" EventType="5" TargetType="0" FuncNo="1" Condition="23112" BuffID="Buff_Item_S_Drug_014B_01"/>
+	<Property ID="2312810" Name="回怒气" EventType="5" TargetType="0" FuncNo="1" Condition="23107" BuffID="Buff_Item_S_Drug_020B_01"/>
+	<Property ID="2312811" Name="回怒气" EventType="5" TargetType="0" FuncNo="1" Condition="23108" BuffID="Buff_Item_S_Drug_020B_01"/>
+	<Property ID="2312812" Name="回怒气" EventType="5" TargetType="0" FuncNo="1" Condition="23109" BuffID="Buff_Item_S_Drug_020B_01"/>
+	<Property ID="23129" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23103" BuffID="Buff_Item_S_Drug_009C_01"/>
+	<Property ID="231292" Name="回蒸汽能量" EventType="5" TargetType="0" FuncNo="1" Condition="23102" BuffID="Buff_Item_S_Drug_015C_01"/>
+	<Property ID="231293" Name="回怒气" EventType="5" TargetType="0" FuncNo="1" Condition="23101" BuffID="Buff_Item_S_Drug_021C_01"/>
+	<Property ID="231294" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23113" BuffID="Buff_Item_S_Drug_009C_01"/>
+	<Property ID="231295" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23114" BuffID="Buff_Item_S_Drug_009C_01"/>
+	<Property ID="231296" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23115" BuffID="Buff_Item_S_Drug_009C_01"/>
+	<Property ID="231297" Name="回蒸汽能量" EventType="5" TargetType="0" FuncNo="1" Condition="23110" BuffID="Buff_Item_S_Drug_015C_01"/>
+	<Property ID="231298" Name="回蒸汽能量" EventType="5" TargetType="0" FuncNo="1" Condition="23111" BuffID="Buff_Item_S_Drug_015C_01"/>
+	<Property ID="231299" Name="回蒸汽能量" EventType="5" TargetType="0" FuncNo="1" Condition="23112" BuffID="Buff_Item_S_Drug_015C_01"/>
+	<Property ID="2312910" Name="回怒气" EventType="5" TargetType="0" FuncNo="1" Condition="23107" BuffID="Buff_Item_S_Drug_021C_01"/>
+	<Property ID="2312911" Name="回怒气" EventType="5" TargetType="0" FuncNo="1" Condition="23108" BuffID="Buff_Item_S_Drug_021C_01"/>
+	<Property ID="2312912" Name="回怒气" EventType="5" TargetType="0" FuncNo="1" Condition="23109" BuffID="Buff_Item_S_Drug_021C_01"/>
+	<Property ID="23130" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23103" BuffID="Buff_Item_S_Drug_010D_01"/>
+	<Property ID="231302" Name="回蒸汽能量" EventType="5" TargetType="0" FuncNo="1" Condition="23102" BuffID="Buff_Item_S_Drug_016D_01"/>
+	<Property ID="231303" Name="回怒气" EventType="5" TargetType="0" FuncNo="1" Condition="23101" BuffID="Buff_Item_S_Drug_022D_01"/>
+	<Property ID="231304" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23113" BuffID="Buff_Item_S_Drug_010D_01"/>
+	<Property ID="231305" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23114" BuffID="Buff_Item_S_Drug_010D_01"/>
+	<Property ID="231306" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23115" BuffID="Buff_Item_S_Drug_010D_01"/>
+	<Property ID="231307" Name="回蒸汽能量" EventType="5" TargetType="0" FuncNo="1" Condition="23110" BuffID="Buff_Item_S_Drug_016D_01"/>
+	<Property ID="231308" Name="回蒸汽能量" EventType="5" TargetType="0" FuncNo="1" Condition="23111" BuffID="Buff_Item_S_Drug_016D_01"/>
+	<Property ID="231309" Name="回蒸汽能量" EventType="5" TargetType="0" FuncNo="1" Condition="23112" BuffID="Buff_Item_S_Drug_016D_01"/>
+	<Property ID="2313010" Name="回怒气" EventType="5" TargetType="0" FuncNo="1" Condition="23107" BuffID="Buff_Item_S_Drug_022D_01"/>
+	<Property ID="2313011" Name="回怒气" EventType="5" TargetType="0" FuncNo="1" Condition="23108" BuffID="Buff_Item_S_Drug_022D_01"/>
+	<Property ID="2313012" Name="回怒气" EventType="5" TargetType="0" FuncNo="1" Condition="23109" BuffID="Buff_Item_S_Drug_022D_01"/>
+	<Property ID="23131" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23103" BuffID="Buff_Item_S_Drug_011E_01"/>
+	<Property ID="231312" Name="回蒸汽能量" EventType="5" TargetType="0" FuncNo="1" Condition="23102" BuffID="Buff_Item_S_Drug_017E_01"/>
+	<Property ID="231313" Name="回怒气" EventType="5" TargetType="0" FuncNo="1" Condition="23101" BuffID="Buff_Item_S_Drug_023E_01"/>
+	<Property ID="231314" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23113" BuffID="Buff_Item_S_Drug_011E_01"/>
+	<Property ID="231315" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23114" BuffID="Buff_Item_S_Drug_011E_01"/>
+	<Property ID="231316" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23115" BuffID="Buff_Item_S_Drug_011E_01"/>
+	<Property ID="231317" Name="回蒸汽能量" EventType="5" TargetType="0" FuncNo="1" Condition="23110" BuffID="Buff_Item_S_Drug_017E_01"/>
+	<Property ID="231318" Name="回蒸汽能量" EventType="5" TargetType="0" FuncNo="1" Condition="23111" BuffID="Buff_Item_S_Drug_017E_01"/>
+	<Property ID="231319" Name="回蒸汽能量" EventType="5" TargetType="0" FuncNo="1" Condition="23112" BuffID="Buff_Item_S_Drug_017E_01"/>
+	<Property ID="2313110" Name="回怒气" EventType="5" TargetType="0" FuncNo="1" Condition="23107" BuffID="Buff_Item_S_Drug_023E_01"/>
+	<Property ID="2313111" Name="回怒气" EventType="5" TargetType="0" FuncNo="1" Condition="23108" BuffID="Buff_Item_S_Drug_023E_01"/>
+	<Property ID="2313112" Name="回怒气" EventType="5" TargetType="0" FuncNo="1" Condition="23109" BuffID="Buff_Item_S_Drug_023E_01"/>
+	<Property ID="23132" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23103" BuffID="Buff_Item_S_Drug_012F_01"/>
+	<Property ID="231322" Name="回蒸汽能量" EventType="5" TargetType="0" FuncNo="1" Condition="23102" BuffID="Buff_Item_S_Drug_018F_01"/>
+	<Property ID="231323" Name="回怒气" EventType="5" TargetType="0" FuncNo="1" Condition="23101" BuffID="Buff_Item_S_Drug_024F_01"/>
+	<Property ID="231324" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23113" BuffID="Buff_Item_S_Drug_012F_01"/>
+	<Property ID="231325" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23114" BuffID="Buff_Item_S_Drug_012F_01"/>
+	<Property ID="231326" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23115" BuffID="Buff_Item_S_Drug_012F_01"/>
+	<Property ID="231327" Name="回蒸汽能量" EventType="5" TargetType="0" FuncNo="1" Condition="23110" BuffID="Buff_Item_S_Drug_018F_01"/>
+	<Property ID="231328" Name="回蒸汽能量" EventType="5" TargetType="0" FuncNo="1" Condition="23111" BuffID="Buff_Item_S_Drug_018F_01"/>
+	<Property ID="231329" Name="回蒸汽能量" EventType="5" TargetType="0" FuncNo="1" Condition="23112" BuffID="Buff_Item_S_Drug_018F_01"/>
+	<Property ID="2313210" Name="回怒气" EventType="5" TargetType="0" FuncNo="1" Condition="23107" BuffID="Buff_Item_S_Drug_024F_01"/>
+	<Property ID="2313211" Name="回怒气" EventType="5" TargetType="0" FuncNo="1" Condition="23108" BuffID="Buff_Item_S_Drug_024F_01"/>
+	<Property ID="2313212" Name="回怒气" EventType="5" TargetType="0" FuncNo="1" Condition="23109" BuffID="Buff_Item_S_Drug_024F_01"/>
+	<Property ID="23133" Name="回精神能量" EventType="5" TargetType="0" FuncNo="1" Condition="23104" BuffID="Buff_Item_S_Drug_025A_01"/>
+	<Property ID="231332" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23105" BuffID="Buff_Item_S_Drug_007A_01"/>
+	<Property ID="231333" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23106" BuffID="Buff_Item_S_Drug_007A_01"/>
+	<Property ID="231334" Name="回精神能量" EventType="5" TargetType="0" FuncNo="1" Condition="23116" BuffID="Buff_Item_S_Drug_025A_01"/>
+	<Property ID="231335" Name="回精神能量" EventType="5" TargetType="0" FuncNo="1" Condition="23117" BuffID="Buff_Item_S_Drug_025A_01"/>
+	<Property ID="231336" Name="回精神能量" EventType="5" TargetType="0" FuncNo="1" Condition="23118" BuffID="Buff_Item_S_Drug_025A_01"/>
+	<Property ID="231337" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23119" BuffID="Buff_Item_S_Drug_007A_01"/>
+	<Property ID="231338" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23120" BuffID="Buff_Item_S_Drug_007A_01"/>
+	<Property ID="231339" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23121" BuffID="Buff_Item_S_Drug_007A_01"/>
+	<Property ID="2313310" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23122" BuffID="Buff_Item_S_Drug_007A_01"/>
+	<Property ID="2313311" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23123" BuffID="Buff_Item_S_Drug_007A_01"/>
+	<Property ID="2313312" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23124" BuffID="Buff_Item_S_Drug_007A_01"/>
+	<Property ID="23134" Name="回精神能量" EventType="5" TargetType="0" FuncNo="1" Condition="23104" BuffID="Buff_Item_S_Drug_026B_01"/>
+	<Property ID="231342" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23105" BuffID="Buff_Item_S_Drug_008B_01"/>
+	<Property ID="231343" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23106" BuffID="Buff_Item_S_Drug_008B_01"/>
+	<Property ID="231344" Name="回精神能量" EventType="5" TargetType="0" FuncNo="1" Condition="23116" BuffID="Buff_Item_S_Drug_026B_01"/>
+	<Property ID="231345" Name="回精神能量" EventType="5" TargetType="0" FuncNo="1" Condition="23117" BuffID="Buff_Item_S_Drug_026B_01"/>
+	<Property ID="231346" Name="回精神能量" EventType="5" TargetType="0" FuncNo="1" Condition="23118" BuffID="Buff_Item_S_Drug_026B_01"/>
+	<Property ID="231347" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23119" BuffID="Buff_Item_S_Drug_008B_01"/>
+	<Property ID="231348" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23120" BuffID="Buff_Item_S_Drug_008B_01"/>
+	<Property ID="231349" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23121" BuffID="Buff_Item_S_Drug_008B_01"/>
+	<Property ID="2313410" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23122" BuffID="Buff_Item_S_Drug_008B_01"/>
+	<Property ID="2313411" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23123" BuffID="Buff_Item_S_Drug_008B_01"/>
+	<Property ID="2313412" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23124" BuffID="Buff_Item_S_Drug_008B_01"/>
+	<Property ID="23135" Name="回精神能量" EventType="5" TargetType="0" FuncNo="1" Condition="23104" BuffID="Buff_Item_S_Drug_027C_01"/>
+	<Property ID="231352" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23105" BuffID="Buff_Item_S_Drug_009C_01"/>
+	<Property ID="231353" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23106" BuffID="Buff_Item_S_Drug_009C_01"/>
+	<Property ID="231354" Name="回精神能量" EventType="5" TargetType="0" FuncNo="1" Condition="23116" BuffID="Buff_Item_S_Drug_027C_01"/>
+	<Property ID="231355" Name="回精神能量" EventType="5" TargetType="0" FuncNo="1" Condition="23117" BuffID="Buff_Item_S_Drug_027C_01"/>
+	<Property ID="231356" Name="回精神能量" EventType="5" TargetType="0" FuncNo="1" Condition="23118" BuffID="Buff_Item_S_Drug_027C_01"/>
+	<Property ID="231357" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23119" BuffID="Buff_Item_S_Drug_009C_01"/>
+	<Property ID="231358" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23120" BuffID="Buff_Item_S_Drug_009C_01"/>
+	<Property ID="231359" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23121" BuffID="Buff_Item_S_Drug_009C_01"/>
+	<Property ID="2313510" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23122" BuffID="Buff_Item_S_Drug_009C_01"/>
+	<Property ID="2313511" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23123" BuffID="Buff_Item_S_Drug_009C_01"/>
+	<Property ID="2313512" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23124" BuffID="Buff_Item_S_Drug_009C_01"/>
+	<Property ID="23136" Name="回精神能量" EventType="5" TargetType="0" FuncNo="1" Condition="23104" BuffID="Buff_Item_S_Drug_028D_01"/>
+	<Property ID="231362" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23105" BuffID="Buff_Item_S_Drug_010D_01"/>
+	<Property ID="231363" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23106" BuffID="Buff_Item_S_Drug_010D_01"/>
+	<Property ID="231364" Name="回精神能量" EventType="5" TargetType="0" FuncNo="1" Condition="23116" BuffID="Buff_Item_S_Drug_028D_01"/>
+	<Property ID="231365" Name="回精神能量" EventType="5" TargetType="0" FuncNo="1" Condition="23117" BuffID="Buff_Item_S_Drug_028D_01"/>
+	<Property ID="231366" Name="回精神能量" EventType="5" TargetType="0" FuncNo="1" Condition="23118" BuffID="Buff_Item_S_Drug_028D_01"/>
+	<Property ID="231367" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23119" BuffID="Buff_Item_S_Drug_010D_01"/>
+	<Property ID="231368" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23120" BuffID="Buff_Item_S_Drug_010D_01"/>
+	<Property ID="231369" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23121" BuffID="Buff_Item_S_Drug_010D_01"/>
+	<Property ID="2313610" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23122" BuffID="Buff_Item_S_Drug_010D_01"/>
+	<Property ID="2313611" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23123" BuffID="Buff_Item_S_Drug_010D_01"/>
+	<Property ID="2313612" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23124" BuffID="Buff_Item_S_Drug_010D_01"/>
+	<Property ID="23137" Name="回精神能量" EventType="5" TargetType="0" FuncNo="1" Condition="23104" BuffID="Buff_Item_S_Drug_029E_01"/>
+	<Property ID="231372" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23105" BuffID="Buff_Item_S_Drug_011E_01"/>
+	<Property ID="231373" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23106" BuffID="Buff_Item_S_Drug_011E_01"/>
+	<Property ID="231374" Name="回精神能量" EventType="5" TargetType="0" FuncNo="1" Condition="23116" BuffID="Buff_Item_S_Drug_029E_01"/>
+	<Property ID="231375" Name="回精神能量" EventType="5" TargetType="0" FuncNo="1" Condition="23117" BuffID="Buff_Item_S_Drug_029E_01"/>
+	<Property ID="231376" Name="回精神能量" EventType="5" TargetType="0" FuncNo="1" Condition="23118" BuffID="Buff_Item_S_Drug_029E_01"/>
+	<Property ID="231377" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23119" BuffID="Buff_Item_S_Drug_011E_01"/>
+	<Property ID="231378" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23120" BuffID="Buff_Item_S_Drug_011E_01"/>
+	<Property ID="231379" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23121" BuffID="Buff_Item_S_Drug_011E_01"/>
+	<Property ID="2313710" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23122" BuffID="Buff_Item_S_Drug_011E_01"/>
+	<Property ID="2313711" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23123" BuffID="Buff_Item_S_Drug_011E_01"/>
+	<Property ID="2313712" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23124" BuffID="Buff_Item_S_Drug_011E_01"/>
+	<Property ID="23138" Name="回精神能量" EventType="5" TargetType="0" FuncNo="1" Condition="23104" BuffID="Buff_Item_S_Drug_030F_01"/>
+	<Property ID="231382" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23105" BuffID="Buff_Item_S_Drug_012F_01"/>
+	<Property ID="231383" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23106" BuffID="Buff_Item_S_Drug_012F_01"/>
+	<Property ID="231384" Name="回精神能量" EventType="5" TargetType="0" FuncNo="1" Condition="23116" BuffID="Buff_Item_S_Drug_030F_01"/>
+	<Property ID="231385" Name="回精神能量" EventType="5" TargetType="0" FuncNo="1" Condition="23117" BuffID="Buff_Item_S_Drug_030F_01"/>
+	<Property ID="231386" Name="回精神能量" EventType="5" TargetType="0" FuncNo="1" Condition="23118" BuffID="Buff_Item_S_Drug_030F_01"/>
+	<Property ID="231387" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23119" BuffID="Buff_Item_S_Drug_012F_01"/>
+	<Property ID="231388" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23120" BuffID="Buff_Item_S_Drug_012F_01"/>
+	<Property ID="231389" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23121" BuffID="Buff_Item_S_Drug_012F_01"/>
+	<Property ID="2313810" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23122" BuffID="Buff_Item_S_Drug_012F_01"/>
+	<Property ID="2313811" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23123" BuffID="Buff_Item_S_Drug_012F_01"/>
+	<Property ID="2313812" Name="回魔" EventType="5" TargetType="0" FuncNo="1" Condition="23124" BuffID="Buff_Item_S_Drug_012F_01"/>
+	<Property ID="23139" Name="净化魔石" EventType="5" TargetType="0" FuncNo="54" TriggerEventID="juren_moshantaopao"/>
+	<Property ID="23145" Name="添加buff" EventType="3" TargetType="0" FuncNo="1" BuffID="Buff_Item_TaskUse_00114A_01"/>
+	<Property ID="23146" Name="调用触发器" EventType="5" TargetType="0" FuncNo="54" TriggerEventID="kewei_task_4092"/>
+	<Property ID="23148" Name="调用触发器" EventType="5" TargetType="0" FuncNo="54" TriggerEventID="kewei_task_4456"/>
+	<Property ID="23149" Name="调用触发器" EventType="5" TargetType="0" FuncNo="54" TriggerEventID="kewei_task_4092"/>
+	<Property ID="81274" Name="信封" EventType="3" TargetType="0" FuncNo="2" NPCConfigID="npc_zlm010_0128" NPCCreateCount="1" NPCLifeTime="10000" NPCTargetPosType="2" NPCCreatePosType="4" NPCDistance="1" NPCAngle="0"/>
+	<Property ID="81276" Name="熔岩节流器" EventType="3" TargetType="0" FuncNo="2" NPCConfigID="npc_zlm010_0129" NPCCreateCount="1" NPCLifeTime="10000" NPCTargetPosType="2" NPCCreatePosType="4" NPCDistance="1" NPCAngle="0"/>
+	<Property ID="81277" Name="引爆器" EventType="3" TargetType="0" FuncNo="2" NPCConfigID="npc_zlm010_0130" NPCCreateCount="1" NPCLifeTime="3500" NPCTargetPosType="2" NPCCreatePosType="4" NPCDistance="2" NPCAngle="0"/>
+	<Property ID="23151" Name="添加buff" EventType="5" TargetType="0" FuncNo="1" BuffID="Item_TaskUse_00120A_buff01_01"/>
+	<Property ID="81294" Name="加速" EventType="3" TargetType="2" FuncNo="1" BuffID="qh_kosh_mount_0001_buff01"/>
+	<Property ID="81295" Name="减速" EventType="5" TargetType="0" FuncNo="1" BuffID="qh_kosh_mount_0001_buff02"/>
+	<Property ID="23002" Name="炸药" EventType="5" TargetType="0" FuncNo="54" TriggerEventID="yayilun_task_zhahuishiyanshi"/>
+	<Property ID="23152" Name="初级两倍经验丹" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Item_JY_0006_01"/>
+	<Property ID="23153" Name="初级三倍经验丹" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Item_JY_0007_01"/>
+	<Property ID="23154" Name="中级两倍经验丹" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Item_JY_0008_01"/>
+	<Property ID="23155" Name="中级三倍经验丹" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Item_JY_0009_01"/>
+	<Property ID="23156" Name="高级两倍经验丹" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Item_JY_0010_01"/>
+	<Property ID="23157" Name="高级三倍经验丹" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Item_JY_0011_01"/>
+	<Property ID="23161" Name="竞技场的礼物" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Item_FB_TADY_002"/>
+	<Property ID="23160" Name="双足蜥蜴宝珠" Type="你觉得很冷，移动速度降低了" EventType="6" FuncNo="1" BuffID="Buff_Item_FB_LLQD_002" TargetType="0"/>
+	<Property ID="23162" Name="猫人奴隶的饭团" EventType="6" TargetType="2" FuncNo="1" BuffID="Buff_Item_FB_TNDX_001"/>
+	<Property ID="231621" Name="饭团加血" EventType="6" TargetType="2" FuncNo="5" IsHealFormula="0" HealFormula="500" HealTargetType="1"/>
+	<Property ID="231612" Name="竞技场的礼物" EventType="5" TargetType="0" FuncNo="54" TriggerEventID="FB_TADY_ItemBuff_002" NPCCreateCount=""/>
+	<Property ID="80098" Name="改变形态" EventType="6" TargetType="2" FuncNo="1" NPCBuffID="Buff_Item_skill_0017" BuffID="Buff_Item_skill_0017"/>
+	<Property ID="80085" Name="哲少的管家铃" EventType="3" TargetType="0" FuncNo="55" NPCConfigID="Watch_0_00028" CallPetType="0" PetDistance="1" PetAngle="0"/>
+	<Property ID="80086" Name="哲少的管家铃" EventType="3" TargetType="0" FuncNo="55" NPCConfigID="Watch_0_00029" CallPetType="0" PetDistance="1" PetAngle="270"/>
+	<Property ID="80084" Name="月神的“琴弦”" EventType="6" TargetType="2" FuncNo="19" ItemID="TaskUse_00245A" ItemCount="1"/>
+	<Property ID="80083" Name="脱发的诅咒" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Item_TaskUse_00237A"/>
+	<Property ID="80082" Name="击飞" EventType="6" TargetType="2" FuncNo="16" KnockFlyLockTime="1000" KnockFlyDistance="1" KnockFlySpeed="20" GravityParam="-10" FlyKnockDownAction="pe_0h_jump" FlyDownLoopAction="pe_0h_jumping"/>
+	<Property ID="23163" Name="体力恢复药剂" EventType="5" TargetType="2" FuncNo="1" BuffID="Item_Phy_0001_Buff01_01"/>
+	<Property ID="81344" Name="朱离" EventType="3" TargetType="2" FuncNo="1" BuffID="Item_TaskUse_00246A_01_buff01"/>
+	<Property ID="81345" Name="幻化" EventType="3" TargetType="2" FuncNo="1" BuffID="Item_TaskUse_00247A_01_buff01"/>
+	<Property ID="81346" Name="珠树果" EventType="3" TargetType="2" FuncNo="1" BuffID="Item_TaskUse_00248A_01_buff01"/>
+	<Property ID="81347" Name="冰火陷阱" EventType="3" TargetType="2" FuncNo="55" NPCConfigID="Fight_1_00131" CallPetType="1" PetCount="1" PetDistance="1"/>
+	<Property ID="81348" Name="龟甲" EventType="3" TargetType="2" FuncNo="1" BuffID="Item_TaskUse_00250A_01_buff01"/>
+	<Property ID="81349" Name="冰火陷阱" EventType="3" TargetType="2" FuncNo="1" BuffID="Item_TaskUse_00249A_01_buff01"/>
+	<Property ID="230431" Name="减速1" EventType="23" TargetType="2" FuncNo="1" BuffID="Buff_Item3043_01"/>
+	<Property ID="230441" Name="减速2" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Item3044_01"/>
+	<Property ID="230451" Name="眩晕" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Item3045_01"/>
+	<Property ID="230461" Name="眩晕" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Item3046_01"/>
+	<Property ID="230471" Name="提高攻击力" EventType="23" TargetType="2" FuncNo="1" BuffID="Buff_Item3047_02"/>
+	<Property ID="230481" Name="提高攻击力" EventType="23" TargetType="2" FuncNo="1" BuffID="Buff_Item3048_02"/>
+	<Property ID="230531" Name="冰冻" EventType="23" TargetType="2" FuncNo="1" BuffID="Buff_Item3053_01"/>
+	<Property ID="230541" Name="冰冻" EventType="23" TargetType="2" FuncNo="1" BuffID="Buff_Item3054_01"/>
+	<Property ID="230551" Name="加速" EventType="23" TargetType="2" FuncNo="1" BuffID="Buff_Item3055_01"/>
+	<Property ID="230561" Name="加速" EventType="23" TargetType="2" FuncNo="1" BuffID="Buff_Item3056_01"/>
+	<Property ID="230511" Name="护盾" EventType="23" TargetType="2" FuncNo="1" BuffID="Buff_Item3051_01"/>
+	<Property ID="230521" Name="护盾" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Item3052_01"/>
+	<Property ID="230011" Name="加速5%" EventType="23" TargetType="2" FuncNo="1" BuffID="Buff_Item3001_01"/>
+	<Property ID="230021" Name="加速10%" EventType="5" TargetType="2" FuncNo="1" BuffID="Buff_Item3002_01"/>
+	<Property ID="230231" Name="风系抗性2%" EventType="23" TargetType="2" FuncNo="1" BuffID="buff_Item3023_01"/>
+	<Property ID="230241" Name="风系抗性5%" EventType="23" TargetType="2" FuncNo="1" BuffID="buff_Item3024_01"/>
+	<Property ID="2302312" EventType="24" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="buff_Item3023_01"/>
+	<Property ID="2302412" EventType="24" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="buff_Item3024_01"/>
+	<Property ID="230251" Name="火系抗性2%" EventType="23" TargetType="2" FuncNo="1" BuffID="buff_Item3025_01"/>
+	<Property ID="2302512" EventType="24" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="buff_Item3025_01"/>
+	<Property ID="230261" Name="火系抗性5%" EventType="23" TargetType="2" FuncNo="1" BuffID="buff_Item3026_01"/>
+	<Property ID="2302612" EventType="24" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="buff_Item3026_01"/>
+	<Property ID="230271" Name="水系抗性2%" EventType="23" TargetType="2" FuncNo="1" BuffID="buff_Item3027_01"/>
+	<Property ID="2302712" EventType="24" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="buff_Item3027_01"/>
+	<Property ID="230281" Name="水系抗性5%" EventType="23" TargetType="2" FuncNo="1" BuffID="buff_Item3028_01"/>
+	<Property ID="2302812" EventType="24" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="buff_Item3028_01"/>
+	<Property ID="230291" Name="雷系抗性2%" EventType="23" TargetType="2" FuncNo="1" BuffID="buff_Item3029_01"/>
+	<Property ID="2302912" EventType="24" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="buff_Item3029_01"/>
+	<Property ID="230301" Name="雷系抗性5%" EventType="23" TargetType="2" FuncNo="1" BuffID="buff_Item3030_01"/>
+	<Property ID="2303012" EventType="24" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="buff_Item3030_01"/>
+	<Property ID="230311" Name="土系抗性2%" EventType="23" TargetType="2" FuncNo="1" BuffID="buff_Item3031_01"/>
+	<Property ID="2303112" EventType="24" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="buff_Item3031_01"/>
+	<Property ID="230321" Name="土系抗性5%" EventType="23" TargetType="2" FuncNo="1" BuffID="buff_Item3032_01"/>
+	<Property ID="2303212" EventType="24" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="buff_Item3032_01"/>
+	<Property ID="230331" Name="抗性10%" EventType="23" TargetType="2" FuncNo="1" BuffID="buff_Item3033_01"/>
+	<Property ID="2303312" EventType="24" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="buff_Item3033_01"/>
+	<Property ID="230341" Name="抗性20%" EventType="23" TargetType="2" FuncNo="1" BuffID="buff_Item3034_01"/>
+	<Property ID="2303412" EventType="24" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="buff_Item3034_01"/>
+	<Property ID="230351" Name="疗效加强3%" EventType="23" TargetType="2" FuncNo="1" BuffID="buff_Item3035_01"/>
+	<Property ID="2303512" EventType="24" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="buff_Item3035_01"/>
+	<Property ID="81351" Name="减速" EventType="5" TargetType="0" FuncNo="1" BuffID="Pet_Mac_0004_002_buff01"/>
+	<Property ID="230131" EventType="23" TargetType="2" FuncNo="1" BuffID="Buff_Item_Item3013_01"/>
+	<Property ID="230132" EventType="24" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Item_Item3013_01" StrClear="1"/>
+	<Property ID="230141" EventType="23" TargetType="2" FuncNo="1" BuffID="Buff_Item_Item3014_01"/>
+	<Property ID="230142" EventType="24" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Item_Item3014_01" StrClear="1"/>
+	<Property ID="230151" EventType="23" TargetType="2" FuncNo="1" BuffID="Buff_Item_Item3015_01"/>
+	<Property ID="230152" EventType="24" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Item_Item3015_01" StrClear="1"/>
+	<Property ID="230161" EventType="23" TargetType="2" FuncNo="1" BuffID="Buff_Item_Item3016_01"/>
+	<Property ID="230162" EventType="24" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Item_Item3016_01" StrClear="1"/>
+	<Property ID="230171" EventType="23" TargetType="2" FuncNo="1" BuffID="Buff_Item_Item3017_01"/>
+	<Property ID="230172" EventType="24" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Item_Item3017_01" StrClear="1"/>
+	<Property ID="230181" EventType="23" TargetType="2" FuncNo="1" BuffID="Buff_Item_Item3018_01"/>
+	<Property ID="230182" EventType="24" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Item_Item3018_01" StrClear="1"/>
+	<Property ID="230191" EventType="23" TargetType="2" FuncNo="1" BuffID="Buff_Item_Item3019_01"/>
+	<Property ID="230192" EventType="24" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Item_Item3019_01" StrClear="1"/>
+	<Property ID="230201" EventType="23" TargetType="2" FuncNo="1" BuffID="Buff_Item_Item3020_01"/>
+	<Property ID="230202" EventType="24" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Item_Item3020_01" StrClear="1"/>
+	<Property ID="230211" EventType="23" TargetType="2" FuncNo="1" BuffID="Buff_Item_Item3021_01"/>
+	<Property ID="230212" EventType="24" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Item_Item3021_01" StrClear="1"/>
+	<Property ID="230221" EventType="23" TargetType="2" FuncNo="1" BuffID="Buff_Item_Item3022_01"/>
+	<Property ID="230222" EventType="24" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Item_Item3022_01" StrClear="1"/>
+	<Property ID="230391" EventType="23" TargetType="2" FuncNo="1" BuffID="Buff_Item_Item3039_01"/>
+	<Property ID="230392" EventType="24" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Item_Item3039_01" StrClear="1"/>
+	<Property ID="230401" EventType="23" TargetType="2" FuncNo="1" BuffID="Buff_Item_Item3040_01"/>
+	<Property ID="230402" EventType="24" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Item_Item3040_01" StrClear="1"/>
+	<Property ID="230411" EventType="23" TargetType="2" FuncNo="1" BuffID="Buff_Item_Item3041_01"/>
+	<Property ID="230412" EventType="24" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Item_Item3041_01" StrClear="1"/>
+	<Property ID="230421" EventType="23" TargetType="2" FuncNo="1" BuffID="Buff_Item_Item3042_01"/>
+	<Property ID="230422" EventType="24" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Item_Item3042_01" StrClear="1"/>
+	<Property ID="82545" Name="能量护盾" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Vehicle_0071_01"/>
+	<Property ID="82546" Name="涅槃守护" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Vehicle_0072_01"/>
+	<Property ID="82547" Name="急速喷射" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Vehicle_0073_01"/>
+	<Property ID="82548" Name="急速冲刺" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Vehicle_0074_01"/>
+	<Property ID="230012" Name="删除加速5%" EventType="24" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Item3001_01" StrClear="1"/>
+	<Property ID="230022" Name="删除加速10%" EventType="24" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Item3002_01" StrClear="1"/>
+	<Property ID="230031" Name="水下呼吸10%" EventType="23" TargetType="2" FuncNo="1" BuffID="Buff_Item3003_01"/>
+	<Property ID="230032" Name="删除水下呼吸10%" EventType="24" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Item3003_01" StrClear="1"/>
+	<Property ID="230041" Name="水下呼吸20%" EventType="23" TargetType="2" FuncNo="1" BuffID="Buff_Item3004_01"/>
+	<Property ID="230051" Name="跳跃高度3%" EventType="23" TargetType="2" FuncNo="1" BuffID="Buff_Item3005_01"/>
+	<Property ID="230061" Name="跳跃高度5%" EventType="23" TargetType="2" FuncNo="1" BuffID="Buff_Item3006_01"/>
+	<Property ID="230071" Name="摔落减伤10%" EventType="23" TargetType="2" FuncNo="1" BuffID="Buff_Item3007_01"/>
+	<Property ID="230081" Name="摔落减伤20%" EventType="23" TargetType="2" FuncNo="1" BuffID="Buff_Item3008_01"/>
+	<Property ID="230091" Name="装备耐久上限5%" EventType="23" TargetType="2" FuncNo="1" BuffID="Buff_Item3009_01"/>
+	<Property ID="230101" Name="装备耐久上限6%" EventType="23" TargetType="2" FuncNo="1" BuffID="Buff_Item3010_01"/>
+	<Property ID="230111" Name="装备强度10%" EventType="23" TargetType="2" FuncNo="1" BuffID="Buff_Item3011_01"/>
+	<Property ID="230121" Name="装备强度12%" EventType="23" TargetType="2" FuncNo="1" BuffID="Buff_Item3012_01"/>
+	<Property ID="230371" Name="减少CD5%" EventType="23" TargetType="2" FuncNo="1" BuffID="Buff_Item3037_01"/>
+	<Property ID="230381" Name="减少CD10%" EventType="23" TargetType="2" FuncNo="1" BuffID="Buff_Item3038_01"/>
+	<Property ID="230042" Name="删除水下呼吸20%" EventType="24" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Item3004_01" StrClear="1"/>
+	<Property ID="230052" Name="删除跳跃高度3%" EventType="24" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Item3005_01" StrClear="1"/>
+	<Property ID="230062" Name="删除跳跃高度5%" EventType="24" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Item3006_01" StrClear="1"/>
+	<Property ID="230072" Name="删除摔落减伤10%" EventType="24" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Item3007_01" StrClear="1"/>
+	<Property ID="230082" Name="删除摔落减伤20%" EventType="24" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Item3008_01" StrClear="1"/>
+	<Property ID="230092" Name="删除装备耐久上限5%" EventType="24" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Item3009_01" StrClear="1"/>
+	<Property ID="230102" Name="删除装备耐久上限6%" EventType="24" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Item3010_01" StrClear="1"/>
+	<Property ID="230112" Name="删除装备强度10%" EventType="24" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Item3011_01" StrClear="1"/>
+	<Property ID="230122" Name="删除装备强度12%" EventType="24" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Item3012_01" StrClear="1"/>
+	<Property ID="230372" Name="删除减少CD5%" EventType="24" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Item3037_01" StrClear="1"/>
+	<Property ID="230382" Name="删除减少CD10%" EventType="24" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Item3038_01" StrClear="1"/>
+	<Property ID="2303612" EventType="24" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="buff_Item3036_01"/>
+	<Property ID="230361" Name="疗效加强5%" EventType="23" TargetType="2" FuncNo="1" BuffID="buff_Item3036_01"/>
+	<Property ID="82555" Name="蒸汽变身道具" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Item_bianshen_00001"/>
+	<Property ID="82556" Name="奇幻变身道具" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Item_bianshen_00002"/>
+	<Property ID="82557" Name="加速" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Vehicle_0083_01"/>
+	<Property ID="26002" Name="召唤飞龙" EventType="6" TargetType="2" FuncNo="21" Mount_ID="100"/>
+	<Property ID="82564" Name="初级顽强合剂" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Item_Fz_ys_0001A_01"/>
+	<Property ID="82565" Name="初级物理攻击合剂" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Item_Fz_ys_0002A_01"/>
+	<Property ID="82566" Name="初级法术攻击合剂" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Item_Fz_ys_0003A_01"/>
+	<Property ID="82567" Name="高级顽强合剂" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Item_Fz_ys_0004A_01"/>
+	<Property ID="82568" Name="高级物理攻击合剂" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Item_Fz_ys_0005A_01"/>
+	<Property ID="82569" Name="高级法术攻击合剂" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Item_Fz_ys_0006A_01"/>
+	<Property ID="82570" Name="初级属性合剂" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Item_Fz_ys_0007A_01"/>
+	<Property ID="82571" Name="初级强攻合剂" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Item_Fz_ys_0008A_01"/>
+	<Property ID="82572" Name="初级法能合剂" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Item_Fz_ys_0009A_01"/>
+	<Property ID="82573" Name="中级属性合剂" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Item_Fz_ys_0010A_01"/>
+	<Property ID="82574" Name="中级强攻合剂" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Item_Fz_ys_0011A_01"/>
+	<Property ID="82575" Name="中级法能合剂" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Item_Fz_ys_0012A_01"/>
+	<Property ID="82576" Name="高级属性合剂" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Item_Fz_ys_0013A_01"/>
+	<Property ID="82577" Name="高级强攻合剂" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Item_Fz_ys_0014A_01"/>
+	<Property ID="82578" Name="高级法能合剂" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Item_Fz_ys_0015A_01"/>
+	<Property ID="82579" Name="初级群体全能合剂" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Item_Fz_ys_0016A_01"/>
+	<Property ID="26003" Name="飞马" EventType="6" TargetType="2" FuncNo="21" Mount_ID="101"/>
+	<Property ID="230432" EventType="24" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Item3043_01" StrClear="1"/>
+	<Property ID="230442" EventType="24" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Item3044_01" StrClear="1"/>
+	<Property ID="230452" EventType="24" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Item3045_01" StrClear="1"/>
+	<Property ID="230462" EventType="24" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Item3046_01" StrClear="0"/>
+	<Property ID="230472" EventType="24" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Item3047_02" StrClear="1"/>
+	<Property ID="230482" EventType="24" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Item3048_02" StrClear="1"/>
+	<Property ID="230502" EventType="24" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Item3043_01"/>
+	<Property ID="230512" EventType="24" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Item3051_01" StrClear="1"/>
+	<Property ID="230522" EventType="24" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Item3052_01" StrClear="1"/>
+	<Property ID="230532" EventType="24" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Item3053_01" StrClear="1"/>
+	<Property ID="230542" EventType="24" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Item3054_01" StrClear="1"/>
+	<Property ID="230552" EventType="24" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Item3055_01" StrClear="1"/>
+	<Property ID="230562" EventType="24" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Item3056_01" StrClear="1"/>
+	<Property ID="23142" Name="道具技能" EventType="5" TargetType="0" FuncNo="54" TriggerEventID="juren_item_wanmeideke"/>
+	<Property ID="23143" Name="道具技能" EventType="5" TargetType="0" FuncNo="54" TriggerEventID="juren_item_yurenxinjian"/>
+	<Property ID="23144" Name="道具技能" EventType="5" TargetType="0" FuncNo="54" TriggerEventID="juren_item_yisixueji"/>
+	<Property ID="82685" Name="1小时5倍经验丹" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Item_JY_0012_01"/>
+	<Property ID="82686" Name="1.5小时5倍经验丹" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Item_JY_0013_01"/>
+	<Property ID="82687" Name="2小时5倍经验丹" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Item_JY_0014_01"/>
+	<Property ID="100582" Name="蒸汽三轮车" EventType="6" TargetType="2" FuncNo="21" Mount_ID="17"/>
+	<Property ID="100592" Name="召唤军用吉普" EventType="6" TargetType="2" FuncNo="21" Mount_ID="18"/>
+	<Property ID="100602" Name="召唤受折磨的大象" EventType="6" TargetType="2" FuncNo="21" Mount_ID="19"/>
+	<Property ID="100612" Name="召唤花豹" EventType="6" TargetType="2" FuncNo="21" Mount_ID="20"/>
+	<Property ID="100622" Name="召唤驼铃" EventType="6" TargetType="2" FuncNo="21" Mount_ID="21"/>
+	<Property ID="81375" Name="疗伤" EventType="4" TargetType="0" FuncNo="1" BuffID="ItemTaskUse_00112A_01_Buff01"/>
+	<Property ID="81378" Name="绑架" EventType="3" TargetType="0" FuncNo="1" BuffID="ItemTaskUse_00888A_01_Buff01"/>
+	<Property ID="81379" Name="旗帜" EventType="3" TargetType="0" FuncNo="2" NPCConfigID="npc_zlm010_0128" NPCCreateCount="1" NPCLifeTime="10000" NPCTargetPosType="2" NPCCreatePosType="4" NPCDistance="1" NPCAngle="0"/>
+	<Property ID="82561" Name="对指定目标造成伤害" EventType="5" TargetType="0" FuncNo="3" Condition="82561" IsDamageFormula="0" DamageFormula="1000" DamageCategory="3" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="82684" Name="对指定目标造成伤害" EventType="5" TargetType="0" FuncNo="3" Condition="82684|826842" IsDamageFormula="0" DamageFormula="500" DamageCategory="3" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="82707" Name="召唤战斗机甲" EventType="6" TargetType="2" FuncNo="24" BC_ID="zq_ywbc_001" isRiding="1"/>
+	<Property ID="82708" Name="召唤魔能石像" EventType="6" TargetType="2" FuncNo="24" BC_ID="qh_ywbc_001" isRiding="1"/>
+	<Property ID="82709" Name="减速" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Vehicle_0093_01"/>
+	<Property ID="82711" Name="寒气激射" EventType="5" TargetType="0" FuncNo="109" EffectType="8" EffectTime="3000"/>
+	<Property ID="82712" Name="召唤迅捷战车" EventType="6" TargetType="2" FuncNo="24" BC_ID="zq_ywbc_002" isRiding="1"/>
+	<Property ID="813781" Name="绑架_生成道具" EventType="6" TargetType="2" FuncNo="19" ItemID="Task_00934A" ItemCount="1"/>
+	<Property ID="82713" Name="变身" EventType="3" TargetType="0" FuncNo="1" BuffID="Buff_Item_bianshen_01"/>
+	<Property ID="82716" Name="坚硬护盾" EventType="3" TargetType="2" FuncNo="1" BuffID="Buff_Vehicle_0098_01"/>
+	<Property ID="82718" Name="高跳" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Vehicle_0100_01"/>
+	<Property ID="82719" Name="俯冲" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Vehicle_0101_01"/>
+	<Property ID="82720" Name="冲刺" EventType="5" TargetType="0" FuncNo="16" KnockFlyLockTime="100" KnockFlyDistance="10" KnockFlySpeed="5" HitOutAngle="180" GravityParam="-10" FaceType="1"/>
+	<Property ID="82721" Name="召唤水晶石像" EventType="6" TargetType="2" FuncNo="24" BC_ID="qh_ywbc_002" isRiding="1"/>
+	<Property ID="82722" Name="召唤轰炸npc" EventType="5" TargetType="0" FuncNo="58" JumpNpcConfigID="Fight_1_00140" JumpNpcUpSpeed="0"/>
+	<Property ID="827222" Name="召唤轰炸npc" EventType="3" TargetType="0" FuncNo="58" JumpNpcConfigID="monster_zqm001_0036" JumpNpcUpSpeed="0"/>
+	<Property ID="827223" Name="召唤轰炸npc" EventType="4" TargetType="0" FuncNo="58" JumpNpcConfigID="monster_zqm001_0036" JumpNpcUpSpeed="0"/>
+	<Property ID="827224" Name="召唤轰炸npc" EventType="6" TargetType="0" FuncNo="58" JumpNpcConfigID="monster_zqm001_0036" JumpNpcUpSpeed="0"/>
+	<Property ID="82724" Name="召唤咯吱的机械鸟" EventType="6" TargetType="2" FuncNo="21" Mount_ID="101"/>
+	<Property ID="82725" Name="无敌" EventType="2" TargetType="0" FuncNo="109" EffectType="12" EffectTime="30000"/>
+	<Property ID="813792" Name="旗帜_创建怪物" EventType="3" TargetType="0" FuncNo="2" NPCConfigID="monster_qhm002_0058" NPCCreateCount="1" NPCTargetPosType="2" NPCCreatePosType="1" NPCDistance="1" NPCAngle="0" NPCRandomRadius="5"/>
+	<Property ID="82726" Name="对目标造成伤害" EventType="5" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="500" DamageCategory="3" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="82728" Name="召唤轰炸npc" EventType="5" TargetType="0" FuncNo="58" JumpNpcConfigID="Fight_1_00141" JumpNpcUpSpeed="0"/>
+	<Property ID="82729" Name="对目标造成伤害" EventType="5" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="500" DamageCategory="3" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="827252" Name="无敌" EventType="2" TargetType="0" FuncNo="1" BuffID="Buff_Pvpskill_0003_01"/>
+	<Property ID="50545" Name="燃烧" EventType="3" TargetType="0" FuncNo="1" BuffID="Item_TaskUse_00189A_01_Buff01"/>
+	<Property ID="82730" Name="瞬间回血1165" EventType="5" TargetType="0" FuncNo="5" IsHealFormula="0" HealFormula="1165" HealTargetType="0" HealSenderType="0"/>
+	<Property ID="82731" Name="瞬间回血1610" EventType="5" TargetType="0" FuncNo="5" IsHealFormula="0" HealFormula="1610" HealTargetType="0" HealSenderType="0"/>
+	<Property ID="82732" Name="瞬间回血2050" EventType="5" TargetType="0" FuncNo="5" IsHealFormula="0" HealFormula="2050" HealTargetType="0" HealSenderType="0"/>
+	<Property ID="82733" Name="瞬间回血2540" EventType="5" TargetType="0" FuncNo="5" IsHealFormula="0" HealFormula="2540" HealTargetType="0" HealSenderType="0"/>
+	<Property ID="82734" Name="瞬间回血3665" EventType="5" TargetType="0" FuncNo="5" IsHealFormula="0" HealFormula="3665" HealTargetType="0" HealSenderType="0"/>
+	<Property ID="82735" Name="瞬间回怒气25点" EventType="5" TargetType="0" FuncNo="6" Condition="23101|23107|23108|23109" IsFormula="0" Formula="25" AllowNegative="0" Attribute="RC"/>
+	<Property ID="827352" Name="瞬间回魔310点" EventType="5" TargetType="0" FuncNo="6" Condition="23103|23113|23114|23115" IsFormula="0" Formula="310" AllowNegative="0" Attribute="MP"/>
+	<Property ID="82736" Name="瞬间回怒气40点" EventType="5" TargetType="0" FuncNo="6" Condition="23101|23107|23108|23109" IsFormula="0" Formula="40" AllowNegative="0" Attribute="RC"/>
+	<Property ID="827362" Name="瞬间回魔545点" EventType="5" TargetType="0" FuncNo="6" Condition="23103|23113|23114|23115" IsFormula="0" Formula="545" AllowNegative="0" Attribute="MP"/>
+	<Property ID="82737" Name="瞬间回怒气60点" EventType="5" TargetType="0" FuncNo="6" Condition="23101|23107|23108|23109" IsFormula="0" Formula="60" AllowNegative="0" Attribute="RC"/>
+	<Property ID="827372" Name="瞬间回魔780点" EventType="5" TargetType="0" FuncNo="6" Condition="23103|23113|23114|23115" IsFormula="0" Formula="780" AllowNegative="0" Attribute="MP"/>
+	<Property ID="82738" Name="瞬间回怒气70点" EventType="5" TargetType="0" FuncNo="6" Condition="23101|23107|23108|23109" IsFormula="0" Formula="70" AllowNegative="0" Attribute="RC"/>
+	<Property ID="827382" Name="瞬间回魔1120点" EventType="5" TargetType="0" FuncNo="6" Condition="23103|23113|23114|23115" IsFormula="0" Formula="1120" AllowNegative="0" Attribute="MP"/>
+	<Property ID="82739" Name="瞬间回怒气80点" EventType="5" TargetType="0" FuncNo="6" Condition="23101|23107|23108|23109" IsFormula="0" Formula="80" AllowNegative="0" Attribute="RC"/>
+	<Property ID="827392" Name="瞬间回魔1625点" EventType="5" TargetType="0" FuncNo="6" Condition="23103|23113|23114|23115" IsFormula="0" Formula="1625" AllowNegative="0" Attribute="MP"/>
+	<Property ID="82740" Name="瞬间回精神能量25点" EventType="5" TargetType="0" FuncNo="6" Condition="23104|23116|23117|23118" IsFormula="0" Formula="25" AllowNegative="0" Attribute="AV"/>
+	<Property ID="827402" Name="瞬间回魔310点" EventType="5" TargetType="0" FuncNo="6" Condition="23106|23122|23123|23124" IsFormula="0" Formula="310" AllowNegative="0" Attribute="MP"/>
+	<Property ID="82741" Name="瞬间回精神能量40点" EventType="5" TargetType="0" FuncNo="6" Condition="23104|23116|23117|23118" IsFormula="0" Formula="40" AllowNegative="0" Attribute="AV"/>
+	<Property ID="827412" Name="瞬间回魔545点" EventType="5" TargetType="0" FuncNo="6" Condition="23106|23122|23123|23124" IsFormula="0" Formula="545" AllowNegative="0" Attribute="MP"/>
+	<Property ID="82742" Name="瞬间回精神能量60点" EventType="5" TargetType="0" FuncNo="6" Condition="23104|23116|23117|23118" IsFormula="0" Formula="60" AllowNegative="0" Attribute="AV"/>
+	<Property ID="827422" Name="瞬间回魔780点" EventType="5" TargetType="0" FuncNo="6" Condition="23106|23122|23123|23124" IsFormula="0" Formula="780" AllowNegative="0" Attribute="MP"/>
+	<Property ID="82743" Name="瞬间回精神能量70点" EventType="5" TargetType="0" FuncNo="6" Condition="23104|23116|23117|23118" IsFormula="0" Formula="70" AllowNegative="0" Attribute="AV"/>
+	<Property ID="827432" Name="瞬间回魔1120点" EventType="5" TargetType="0" FuncNo="6" Condition="23106|23122|23123|23124" IsFormula="0" Formula="1120" AllowNegative="0" Attribute="MP"/>
+	<Property ID="82744" Name="瞬间回精神能量80点" EventType="5" TargetType="0" FuncNo="6" Condition="23104|23116|23117|23118" IsFormula="0" Formula="80" AllowNegative="0" Attribute="AV"/>
+	<Property ID="827442" Name="瞬间回魔1625点" EventType="5" TargetType="0" FuncNo="6" Condition="23106|23122|23123|23124" IsFormula="0" Formula="1625" AllowNegative="0" Attribute="MP"/>
+	<Property ID="82745" Name="瞬间回血1235" EventType="5" TargetType="0" FuncNo="5" IsHealFormula="0" HealFormula="1235" HealTargetType="0" HealSenderType="0"/>
+	<Property ID="82746" Name="瞬间回血1525" EventType="5" TargetType="0" FuncNo="5" IsHealFormula="0" HealFormula="1525" HealTargetType="0" HealSenderType="0"/>
+	<Property ID="82747" Name="瞬间回血2200" EventType="5" TargetType="0" FuncNo="5" IsHealFormula="0" HealFormula="2200" HealTargetType="0" HealSenderType="0"/>
+	<Property ID="82757" Name="炸弹" EventType="3" TargetType="0" FuncNo="1" BuffID="Buff_Item_zhadan_01"/>
+	<Property ID="82758" Name="对目标造成伤害" EventType="5" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="800" DamageCategory="3" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="81405" Name="挖宝_生成道具" EventType="6" TargetType="2" FuncNo="19" ItemID="BX_BW_0001" ItemCount="1"/>
+	<Property ID="82761" Name="加速" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Pvpskill_0005_01"/>
+	<Property ID="82762" Name="加速" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Pvpskill_0005_01"/>
+	<Property ID="82763" Name="武装" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Pvpskill_0007_01"/>
+	<Property ID="82764" Name="武装" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Pvpskill_0007_01"/>
+	<Property ID="82765" Name="增援" EventType="5" TargetType="2" FuncNo="55" NPCConfigID="Fight_1_00271" CallPetType="0" PetCount="1" PetDistance="2"/>
+	<Property ID="82766" Name="增援" EventType="5" TargetType="2" FuncNo="55" NPCConfigID="Fight_1_00270" CallPetType="0" PetCount="1" PetDistance="2"/>
+	<Property ID="100032" Name="召唤白色披甲熊" EventType="6" TargetType="2" FuncNo="21" Mount_ID="24"/>
+	<Property ID="100033" Name="召唤黄色披甲熊" EventType="6" TargetType="2" FuncNo="21" Mount_ID="25"/>
+	<Property ID="100034" Name="召唤红色披甲熊" EventType="6" TargetType="2" FuncNo="21" Mount_ID="26"/>
+	<Property ID="100472" Name="粉色陆行鸟" EventType="6" TargetType="2" FuncNo="21" Mount_ID="27"/>
+	<Property ID="100473" Name="蓝色陆行鸟" EventType="6" TargetType="2" FuncNo="21" Mount_ID="28"/>
+	<Property ID="100474" Name="黄色陆行鸟" EventType="6" TargetType="2" FuncNo="21" Mount_ID="29"/>
+	<Property ID="100475" Name="白色陆行鸟" EventType="6" TargetType="2" FuncNo="21" Mount_ID="58"/>
+	<Property ID="82774" Name="驱鼠药" EventType="3" TargetType="0" FuncNo="1" BuffID="Buff_Item_qushuyao_01"/>
+	<Property ID="82769" Name="坚硬护盾" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Vehicle_0107_01"/>
+	<Property ID="82714" Name="钻头冲撞" EventType="6" TargetType="2" FuncNo="50" VibrateType="BG_zd008"/>
+	<Property ID="82776" Name="地刺" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Skill_kadiya_0001_001"/>
+	<Property ID="82787" Name="召唤" EventType="5" TargetType="2" FuncNo="55" NPCConfigID="Fight_1_00264" CallPetType="0" PetCount="1" PetDistance="1"/>
+	<Property ID="82788" Name="召唤" EventType="5" TargetType="2" FuncNo="55" NPCConfigID="Fight_1_00265" CallPetType="0" PetCount="1" PetDistance="1"/>
+	<Property ID="81411" Name="钉刺" EventType="3" TargetType="2" FuncNo="55" NPCConfigID="Fight_1_00266" CallPetType="1" PetCount="1" PetDistance="1"/>
+	<Property ID="81412" Name="炸弹" EventType="3" TargetType="2" FuncNo="55" NPCConfigID="Fight_1_00267" CallPetType="1" PetCount="1" PetDistance="1"/>
+	<Property ID="82792" Name="减速" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Vehicle_0115_01"/>
+	<Property ID="81413" Name="钉刺_伤害" EventType="5" TargetType="0" FuncNo="3" Condition="81411|81412|81413" IsDamageFormula="1" DamageFormula="$MaxHP*0.03" DamageCategory="1" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="81414" Name="爆炸_伤害" EventType="5" TargetType="0" FuncNo="3" Condition="81411|81412|81413" IsDamageFormula="1" DamageFormula="$MaxHP*0.07" DamageCategory="3" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="82793" Name="保护" EventType="5" TargetType="0" FuncNo="109" EffectType="12" EffectTime="5000"/>
+	<Property ID="82794" Name="眩晕" EventType="5" TargetType="0" FuncNo="109" EffectType="1" EffectTime="3000"/>
+	<Property ID="827932" Name="保护特效" EventType="5" TargetType="0" FuncNo="1" BuffID="BUff_Item_TaskUse_00262A_01"/>
+	<Property ID="23140" Name="网" EventType="3" TargetType="0" FuncNo="1" BuffID="Item_TaskUse_00216A_buff01_01"/>
+	<Property ID="23141" Name="绳索" EventType="3" TargetType="0" FuncNo="1" BuffID="Item_TaskUse_00216A_buff01_01"/>
+	<Property ID="23147" Name="施肥" EventType="3" TargetType="0" FuncNo="1" BuffID="Item_TaskUse_00114A_buff01_02"/>
+	<Property ID="82901" Name="让NPC逃跑" EventType="5" TargetType="0" FuncNo="54" TriggerEventID="yatilun_tasktaopao"/>
+	<Property ID="81380" Name="治愈_动作" EventType="3" TargetType="0" FuncNo="9" ActionName="Item_TaskUse_00228A_01" LoopAction="0"/>
+	<Property ID="813802" Name="治愈" EventType="5" TargetType="0" FuncNo="1" BuffID="Item_TaskUse_00228A_01_Buff01"/>
+	<Property ID="82789" Name="对指定目标造成伤害" EventType="5" TargetType="0" FuncNo="3" Condition="827762|827763|827764" IsDamageFormula="0" DamageFormula="500" DamageCategory="1" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="82790" Name="对指定目标造成伤害" EventType="5" TargetType="0" FuncNo="3" Condition="827762|827763|827764" IsDamageFormula="0" DamageFormula="1000" DamageCategory="3" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="81431" Name="探测" EventType="3" TargetType="2" FuncNo="1" BuffID="Item_TaskUse_00265A_01_Buff01"/>
+	<Property ID="82813" Name="机械之心" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Item_TaskUse_00266A_01"/>
+	<Property ID="82820" Name="闪耀冲刺" EventType="5" TargetType="2" FuncNo="531" NTChargeType="0" NTStopType="0" NTIsCarry="0" NTChargeSpeed="10" NTChargeDist="10" NTChargeAction="Vehicle_0121_01"/>
+	<Property ID="82822" Name="布雷之道" EventType="5" TargetType="2" FuncNo="55" NPCConfigID="Fight_1_00142" CallPetType="0" PetCount="1" PetDistance="1" PetAngle="0"/>
+	<Property ID="82824" Name="魔灵弹跳" EventType="5" TargetType="2" FuncNo="531" NTChargeType="0" NTStopType="0" NTIsCarry="0" NTChargeSpeed="10" NTChargeDist="10" NTChargeAction="Vehicle_0125_01"/>
+	<Property ID="82826" Name="布雷之道" EventType="5" TargetType="2" FuncNo="55" NPCConfigID="Fight_1_00143" CallPetType="0" PetCount="1" PetDistance="1" PetAngle="0"/>
+	<Property ID="82819" Name="左右轮转" EventType="6" TargetType="2" FuncNo="18" UseSkillID="Vehicle_0128_01"/>
+	<Property ID="82818" Name="冰天雪地" EventType="5" TargetType="0" FuncNo="109" EffectType="8" EffectTime="1000"/>
+	<Property ID="81439" Name="坚硬护盾" EventType="3" TargetType="2" FuncNo="1" BuffID="Buff_Vehicle_0129_01"/>
+	<Property ID="81441" Name="火箭炮_击飞" EventType="5" TargetType="0" FuncNo="16" KnockFlyLockTime="1500" KnockFlyDistance="7" KnockFlySpeed="8" GravityParam="-30" FlyKnockDownAction="down" FlyDownLoopAction="kickout" DownLandAction="flydown" DownLandEffect="BGskill_20128" DownLandLoopAction="downloop" FlyGetUpAction="down" KnockFlyIsCanMove="0"/>
+	<Property ID="82828" Name="齿轮" EventType="5" TargetType="0" FuncNo="54" TriggerEventID="kewei_quest_605_01"/>
+	<Property ID="82829" Name="齿轮" EventType="5" TargetType="0" FuncNo="54" TriggerEventID="kewei_quest_605_02"/>
+	<Property ID="82830" Name="空水桶" EventType="6" TargetType="2" FuncNo="19" ItemID="TaskUse_00271A" ItemCount="1"/>
+	<Property ID="82831" Name="装满水的桶" EventType="6" TargetType="2" FuncNo="54" ItemID="TaskUse_00270A" ItemCount="1"/>
+	<Property ID="82833" Name="日记" EventType="6" TargetType="2" FuncNo="54" TriggerEventID="kewei_quest_612_01"/>
+	<Property ID="100462" Name="千毒蛛" EventType="6" TargetType="2" FuncNo="21" Mount_ID="42"/>
+	<Property ID="100463" Name="火纹蛛" EventType="6" TargetType="2" FuncNo="21" Mount_ID="43"/>
+	<Property ID="100464" Name="黑寡妇" EventType="6" TargetType="2" FuncNo="21" Mount_ID="44"/>
+	<Property ID="100562" Name="刀锋C1" EventType="6" TargetType="2" FuncNo="21" Mount_ID="45"/>
+	<Property ID="100563" Name="刀锋X2" EventType="6" TargetType="2" FuncNo="21" Mount_ID="46"/>
+	<Property ID="100564" Name="刀锋V3" EventType="6" TargetType="2" FuncNo="21" Mount_ID="47"/>
+	<Property ID="100565" Name="单人摩托车" EventType="6" TargetType="2" FuncNo="21" Mount_ID="60"/>
+	<Property ID="100593" Name="奔雷C" EventType="6" TargetType="2" FuncNo="21" Mount_ID="48"/>
+	<Property ID="100594" Name="奔雷X2" EventType="6" TargetType="2" FuncNo="21" Mount_ID="49"/>
+	<Property ID="100595" Name="奔雷V3" EventType="6" TargetType="2" FuncNo="21" Mount_ID="50"/>
+	<Property ID="82836" Name="坩埚" EventType="6" TargetType="2" FuncNo="2" NPCConfigID="monster_qhm002_0027" NPCCreateCount="1" NPCTargetPosType="2" NPCCreatePosType="1" NPCRandomRadius="1"/>
+	<Property ID="828312" Name="添加buff" EventType="6" TargetType="2" FuncNo="1" BuffID="Buff_Item_TaskUse_00271A_01"/>
+	<Property ID="82821" Name="穿甲弹_燃烧" EventType="12" TargetType="0" FuncNo="1" BuffID="Buff_Vehicle_0117_01"/>
+	<Property ID="43005" Name="电磁冲击" EventType="6" TargetType="0" FuncNo="13" FendLockTime="500" FendDistance="3" FendIsCanMove="0"/>
+	<Property ID="82839" Name="空水桶" EventType="5" TargetType="2" FuncNo="19" ItemID="Task_00938A" ItemCount="1"/>
+	<Property ID="82838" Name="抓捕袋" EventType="5" TargetType="2" FuncNo="19" ItemID="Task_00940A" ItemCount="1"/>
+	<Property ID="44003" Name="装满水的桶" EventType="5" TargetType="0" FuncNo="54" ItemID="TaskUse_00270A" ItemCount="1" TriggerEventID="kewei_quest_604_01"/>
+	<Property ID="82840" Name="齿轮" EventType="5" TargetType="0" FuncNo="54" TriggerEventID="kewei_quest_606_01"/>
+	<Property ID="230571" Name="物理暴击等级+5" EventType="23" TargetType="2" FuncNo="1" BuffID="Buff_Item3057_01"/>
+	<Property ID="2305712" EventType="24" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Item3057_01" Name="取消被动技能" StrClear="1"/>
+	<Property ID="230581" Name="物理暴击等级+8" EventType="23" TargetType="2" FuncNo="1" BuffID="Buff_Item3058_01"/>
+	<Property ID="2305812" EventType="24" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Item3058_01" Name="取消被动技能" StrClear="1"/>
+	<Property ID="828211" Name="穿甲弹_冷却" EventType="4" TargetType="2" FuncNo="110" SkillID="Vehicle_0122_01_1" PropCalcType="0" PropValue="-3000"/>
+	<Property ID="828212" Name="穿甲弹_冷却" EventType="6" TargetType="2" FuncNo="12" CoolSkillID="Vehicle_0122_01_1" CoolClearType="1"/>
+	<Property ID="828392" Name="进入战斗状态" EventType="5" TargetType="0" FuncNo="535"/>
+	<Property ID="29201" Name="被驯服的鹿" EventType="6" TargetType="2" FuncNo="21" Mount_ID="51"/>
+	<Property ID="82842" Name="添加buff" EventType="5" TargetType="2" FuncNo="1" BuffID="Buff_Item_TaskUse_00292A_01"/>
+	<Property ID="82843" Name="眩晕" EventType="5" TargetType="0" FuncNo="109" EffectType="1" EffectTime="2000"/>
+	<Property ID="828432" Name="调用触发器" EventType="5" TargetType="0" FuncNo="54" TriggerEventID="kewei_quest_650_01"/>
+	<Property ID="82845" Name="生成道具" EventType="5" TargetType="2" FuncNo="19" ItemCount="1" ItemID="Task_00825A"/>
+	<Property ID="82846" Name="普通隐身" EventType="5" TargetType="2" FuncNo="1" BuffID="Buff_Item_TaskUse_00297A_02"/>
+	<Property ID="82847" Name="变羊水" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Item_TaskUse_00298A_01"/>
+	<Property ID="81445" Name="反隐" EventType="3" TargetType="2" FuncNo="1" BuffID="Buff_Pvp_battle_002_01"/>
+	<Property ID="29202" Name="单人飞行器" EventType="6" TargetType="2" FuncNo="21" Mount_ID="52"/>
+	<Property ID="82849" Name="调用触发器" EventType="5" TargetType="0" FuncNo="54" TriggerEventID="kewei_quest_623_01"/>
+	<Property ID="82850" Name="调用触发器" EventType="5" TargetType="0" FuncNo="54" TriggerEventID="kewei_quest_645_03"/>
+	<Property ID="29203" Name="ACE斗机" EventType="6" TargetType="2" FuncNo="21" Mount_ID="53"/>
+	<Property ID="828382" Name="绑架" EventType="3" TargetType="0" FuncNo="1" BuffID="Buff_Item_TaskUse_00288A_01"/>
+	<Property ID="82851" Name="绑架" EventType="3" TargetType="0" FuncNo="1" BuffID="Buff_Item_TaskUse_00300A_01"/>
+	<Property ID="29204" Name="蒸汽蜘蛛" EventType="6" TargetType="2" FuncNo="21" Mount_ID="54"/>
+	<Property ID="29205" Name="摩托车" EventType="6" TargetType="2" FuncNo="21" Mount_ID="55"/>
+	<Property ID="29206" Name="独角兽" EventType="6" TargetType="2" FuncNo="21" Mount_ID="56"/>
+	<Property ID="29207" Name="雷芒" EventType="6" TargetType="2" FuncNo="21" Mount_ID="57"/>
+	<Property ID="82854" Name="对指定目标造成伤害" EventType="5" TargetType="0" FuncNo="3" Condition="82854|82858" IsDamageFormula="0" DamageFormula="5000" DamageCategory="3" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="82856" Name="土壤" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Item_TaskUse_00304A_01"/>
+	<Property ID="81447" Name="爆裂炮" EventType="12" TargetType="0" FuncNo="1" BuffID="Buff_zq_bc_015_02_01"/>
+	<Property ID="82860" Name="永恒之心" EventType="6" TargetType="2" FuncNo="2" NPCConfigID="monster_zlm008_0200" NPCCreateCount="1" NPCTargetPosType="2" NPCCreatePosType="1" NPCRandomRadius="1"/>
+	<Property ID="81449" Name="减速" EventType="9" TargetType="0" FuncNo="1" BuffID="Buff_qh_bc_015_02_01"/>
+	<Property ID="82861" Name="号角" EventType="6" TargetType="2" FuncNo="2" NPCConfigID="npc_zlm008_0214" NPCCreateCount="3" NPCTargetPosType="2" NPCCreatePosType="1" NPCRandomRadius="1"/>
+	<Property ID="82864" Name="击晕目标" EventType="5" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="1000" DamageCategory="1" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="828642" Name="创建npc" EventType="5" TargetType="2" FuncNo="19" ItemID="Task_00852A" ItemCount="1" NPCDistance="1" NPCAngle="0"/>
+	<Property ID="82866" Name="潜行" EventType="5" TargetType="2" FuncNo="1" BuffID="Buff_Item_TaskUse_00297A_01"/>
+	<Property ID="828662" Name="变身" EventType="5" TargetType="2" FuncNo="1" BuffID="Buff_Item_TaskUse_00317A_01"/>
+	<Property ID="82867" Name="号角" EventType="6" TargetType="2" FuncNo="2" NPCConfigID="npc_zlm008_0217" NPCCreateCount="1" NPCTargetPosType="2" NPCCreatePosType="1" NPCRandomRadius="1" NPCLifeTime="5000"/>
+	<Property ID="81448" Name="毒箭" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_qh_bc_015_01_01" Condition="81448"/>
+	<Property ID="828689" Name="挑衅战旗" EventType="3" TargetType="0" FuncNo="2" NPCCreateCount="1" NPCLifeTime="10000" NPCTargetPosType="2" NPCCreatePosType="4" NPCDistance="1" NPCAngle="0" NPCConfigID="npc_zlm010_0128" NPCRandomRadius="5"/>
+	<Property ID="828690" Name="挑衅战旗刷怪" EventType="6" TargetType="0" FuncNo="2" NPCCreateCount="1" NPCTargetPosType="2" NPCCreatePosType="4" NPCDistance="3" NPCAngle="60" NPCConfigID="monster_zlm010_0048"/>
+	<Property ID="45002" Name="绑架" EventType="6" TargetType="0" FuncNo="1" BuffID="ItemTaskUse_00288A_01_Buff01"/>
+	<Property ID="82871" Name="调用触发器" EventType="5" TargetType="0" FuncNo="54" TriggerEventID="kwnlj_zhiliao"/>
+	<Property ID="82908" Name="对指定目标造成伤害" EventType="5" TargetType="0" FuncNo="3" Condition="82908" IsDamageFormula="0" DamageFormula="4000" DamageCategory="3" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="81451" Name="毒球" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_qh_bc_016_02_01"/>
+	<Property ID="81452" Name="撕裂" EventType="5" TargetType="0" FuncNo="1" Condition="81452" BuffID="Buff_qh_bc_017_01_01"/>
+	<Property ID="45010" Name="虚弱药剂" EventType="5" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="$HP*0.8" DamageCategory="1" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="82998" Name="抓捕疯狂者" EventType="5" TargetType="0" FuncNo="1" ItemCount="1" BuffID="buff_TaskUse_313A"/>
+	<Property ID="828452" Name="对指定目标造成伤害" EventType="5" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="5000" DamageCategory="1" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="82999" Name="空水桶" EventType="5" TargetType="2" FuncNo="19" ItemID="Task_00947A" ItemCount="1"/>
+	<Property ID="83000" Name="进入战斗" EventType="5" TargetType="0" FuncNo="535"/>
+	<Property ID="830001" Name="加速" EventType="5" TargetType="0" FuncNo="1" BuffID="Item_TaskUse_00325A_01_Buff01"/>
+	<Property ID="830002" Name="水灵精华眩晕" EventType="5" TargetType="0" FuncNo="109" EffectType="1" EffectTime="60000"/>
+	<Property ID="83111" Name="减少百分之50血量" EventType="5" TargetType="0" FuncNo="1" BuffID="TaskUse_xuruo1"/>
+	<Property ID="81454" Name="回复" EventType="3" TargetType="0" FuncNo="5" IsHealFormula="1" HealFormula="$MaxHP*0.05" HealTargetType="0"/>
+	<Property ID="83222" Name="获得道具" EventType="5" TargetType="0" FuncNo="19" ItemID="Task_00841A" ItemCount="1"/>
+	<Property ID="81455" Name="回复" EventType="3" TargetType="0" FuncNo="5" IsHealFormula="1" HealFormula="$MaxHP" HealTargetType="0"/>
+	<Property ID="83223" Name="减少攻防50%" EventType="5" TargetType="0" FuncNo="1" BuffID="ItemTaskUse_miluan01"/>
+	<Property ID="82858" Name="对指定目标造成伤害" EventType="5" TargetType="0" FuncNo="3" Condition="82858" IsDamageFormula="0" DamageFormula="5000" DamageCategory="3" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="82859" Name="触发器" EventType="6" TargetType="2" FuncNo="54" TriggerEventID="12_33_12_0"/>
+	<Property ID="82869" Name="召唤鸵鸟" EventType="6" TargetType="2" FuncNo="21" Mount_ID="200"/>
+	<Property ID="82879" Name="删除npc" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_shexian_01"/>
+	<Property ID="81453" Name="力顶_击飞" EventType="5" TargetType="0" FuncNo="16" KnockFlyLockTime="2000" KnockFlyDistance="7" KnockFlySpeed="8" GravityParam="-30" FlyKnockDownAction="down" FlyDownLoopAction="kickout" DownLandAction="flydown" DownLandEffect="BGskill_20128" DownLandLoopAction="downloop" FlyGetUpAction="downup" KnockFlyIsCanMove="0"/>
+	<Property ID="81499" Name="击退" EventType="5" TargetType="0" FuncNo="13" FendLockTime="3000" FendDistance="5" FendAction="combat"/>
+	<Property ID="81599" Name="击飞" EventType="4" TargetType="2" FuncNo="16" KnockFlyLockTime="2000" KnockFlyDistance="7" KnockFlySpeed="8" GravityParam="-20" FlyKnockDownAction="down" FlyDownLoopAction="kickout" DownLandAction="flydown" DownLandEffect="BGskill_20128" DownLandLoopAction="downloop" FlyGetUpAction="downup" KnockFlyIsCanMove="0"/>
+	<Property ID="81699" Name="减少血量" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_ItemUse00332"/>
+	<Property ID="46201" Name="能量喷射" EventType="3" TargetType="2" FuncNo="1" BuffID="Buff_zq_bc_018_02_01" FloorCount="1"/>
+	<Property ID="81799" Name="生成煤晶" EventType="5" TargetType="0" FuncNo="19" ItemID="Task_00955A" ItemCount="1"/>
+	<Property ID="87514" Name="测试功能68" EventType="6" TargetType="2" FuncNo="68"/>
+	<Property ID="81479" Name="电磁护盾" EventType="3" TargetType="2" FuncNo="1" BuffID="Buff_zq_bc_010_04_01"/>
+	<Property ID="81481" EventType="5" TargetType="0" FuncNo="109" Name="电磁炮_麻痹" EffectType="3" EffectTime="3000"/>
+	<Property ID="82816" Name="榴弹炮_击飞" EventType="5" TargetType="0" FuncNo="16" KnockFlyLockTime="1500" KnockFlyDistance="7" KnockFlySpeed="8" GravityParam="-30" FlyKnockDownAction="down" FlyDownLoopAction="kickout" DownLandAction="flydown" DownLandEffect="BGskill_20128" DownLandLoopAction="downloop" FlyGetUpAction="down" KnockFlyIsCanMove="0"/>
+	<Property ID="41011" Name="盆地轰炸" EventType="5" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="99999"/>
+	<Property ID="41009" Name="进入隐身" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_00335A_01"/>
+	<Property ID="87515" Name="虚弱" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Item_CQZH_001_01" Condition="87515|875152|875153|875154|875155|875156|875157|875158|875159|8751510|8751511|8751512"/>
+	<Property ID="87516" Name="虚弱" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Item_CQZH_002_01" Condition="87516|875162|875163|875164|875165|875166|875167|875168|875169|8751610|8751611|8751612"/>
+	<Property ID="87517" Name="虚弱" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Item_CQZH_003_01" Condition="87517|875172|875173|875174|875175|875176|875177|875178|875179|8751710|8751711|8751712"/>
+	<Property ID="87518" Name="虚弱" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Item_CQZH_004_01" Condition="87518|875182|875183|875184|875185|875186|875187|875188|875189|8751810|8751811|8751812"/>
+	<Property ID="4102577" Name="盆地轰炸" EventType="5" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="99999" Condition="4102577|4112577|4122577" DamageCategory="1" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="41012" Name="达贡轰炸" EventType="5" TargetType="0" FuncNo="3" Condition="41010" IsDamageFormula="0" DamageFormula="9999" DamageCategory="1" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="81477" Name="感电" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_zq_bc_004_04_01"/>
+	<Property ID="43215" Name="凝血草" EventType="5" TargetType="0" FuncNo="54" TriggerEventID="event_15020_04"/>
+	<Property ID="46204" Name="麻痹" EventType="5" TargetType="0" FuncNo="109" EffectType="3" EffectTime="3000"/>
+	<Property ID="82855" Name="对指定目标造成伤害" EventType="5" TargetType="0" FuncNo="3" Condition="82866" IsDamageFormula="0" DamageFormula="3000" DamageCategory="3" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="46206" Name="电流" EventType="5" TargetType="0" FuncNo="109" EffectType="3" EffectTime="3000" Condition="46216"/>
+	<Property ID="41014" Name="无敌buff" EventType="5" TargetType="2" FuncNo="1" BuffID="Buff_00339A"/>
+	<Property ID="46304" Name="践踏" EventType="5" TargetType="0" FuncNo="109" EffectType="1" EffectTime="3000"/>
+	<Property ID="46227" Name="气流冲击_冲刺" EventType="3" TargetType="2" FuncNo="1"/>
+	<Property ID="82549" Name="爆裂炸弹" EventType="5" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="2000" DamageCategory="1" DamageTargetType="0" DamageCaster="1" Condition="8254901|8254902"/>
+	<Property ID="82550" Name="火之利羽" EventType="5" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="2000" DamageCategory="3" DamageTargetType="0" DamageCaster="1" Condition="8255001|8255002"/>
+	<Property ID="46098" Name="蒸汽投弹爆炸" EventType="5" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="500" DamageCategory="1" DamageTargetType="0" DamageCaster="1" Condition="8254901|8254902"/>
+	<Property ID="46099" Name="奇幻投蛋爆炸" EventType="5" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="500" DamageCategory="3" DamageTargetType="0" DamageCaster="1" Condition="8255001|8255002"/>
+	<Property ID="81508" Name="破甲" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_zq_bc_022_02_01"/>
+	<Property ID="87556" Name="初级两倍经验丹" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Item_JYD_0001_01"/>
+	<Property ID="87557" Name="初级两倍经验丹" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Item_JYD_0002_01"/>
+	<Property ID="87558" Name="初级两倍经验丹" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Item_JYD_0003_01"/>
+	<Property ID="81494" Name="护甲削弱" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_zq_bc_022_02_01"/>
+	<Property ID="41025" Name="破碎的剑" EventType="6" TargetType="2" FuncNo="2" NPCConfigID="npc_zlm008_0217" NPCCreateCount="1" NPCLifeTime="8000" NPCTargetPosType="2" NPCCreatePosType="1" NPCRandomRadius="3"/>
+	<Property ID="81489" Name="眩晕炮_眩晕" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_zq_bc_015_06_01"/>
+	<Property ID="81512" Name="导弹_减速" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_zq_bc_015_04_01"/>
+	<Property ID="82872" Name="传入伤害" EventType="5" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="3000" DamageCategory="1" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="82551" Name="能量护盾" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Vehicle_0072_02"/>
+	<Property ID="46216" Name="剧毒" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_qh_bc_015_01_02" Condition="46216"/>
+	<Property ID="81450" Name="裂风_破甲" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_qh_bc_016_03_01"/>
+	<Property ID="46215" Name="裂风_破甲" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_qh_bc_016_03_02"/>
+	<Property ID="82817" Name="寒冰飞弹" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_qh_bc_001_01_01"/>
+	<Property ID="46226" Name="减甲" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_qh_bc_024_01_01"/>
+	<Property ID="87559" Name="初级两倍经验丹" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Item_JY_0015_01"/>
+	<Property ID="87560" Name="初级两倍经验丹" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Item_JY_0016_01"/>
+	<Property ID="87561" Name="初级两倍经验丹" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Item_JY_0017_01"/>
+	<Property ID="87562" Name="初级两倍经验丹" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Item_JY_0018_01"/>
+	<Property ID="87563" Name="初级两倍经验丹" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Item_JY_0019_01"/>
+	<Property ID="87564" Name="初级两倍经验丹" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Item_JY_0020_01"/>
+	<Property ID="43218" Name="军阶战场修机器人A" EventType="5" TargetType="0" FuncNo="54" TriggerEventID="Campaign_Level_8_1_02"/>
+	<Property ID="43219" Name="军阶战场修机器人B" EventType="5" TargetType="0" FuncNo="54" TriggerEventID="Campaign_Level_8_1_03"/>
+	<Property ID="43220" Name="军阶战场修机器人C" EventType="5" TargetType="0" FuncNo="54" TriggerEventID="Campaign_Level_8_1_04"/>
+	<Property ID="43221" Name="军阶战场修机器人D" EventType="5" TargetType="0" FuncNo="54" TriggerEventID="Campaign_Level_8_1_05"/>
+	<Property ID="81525" Name="能量喷射" EventType="3" TargetType="2" FuncNo="1" BuffID="Buff_zq_bc_018_04_01" FloorCount="1"/>
+	<Property ID="87565" Name="鱼鹰" EventType="6" TargetType="2" FuncNo="21" Mount_ID="102"/>
+	<Property ID="87566" Name="飞虎" EventType="6" TargetType="2" FuncNo="21" Mount_ID="103"/>
+	<Property ID="46317" Name="沉默" EventType="5" TargetType="0" FuncNo="109" EffectType="2" EffectTime="3000"/>
+	<Property ID="82929" Name="自杀" EventType="6" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="@MaxHp*2" DamageCategory="1" DamageTargetType="1" DamageCaster="1"/>
+	<Property ID="43231" Name="军阶战场修载具（奇幻）A" EventType="5" TargetType="0" FuncNo="54" TriggerEventID="Campaign_Level_8_1_QH_01"/>
+	<Property ID="43232" Name="军阶战场修载具（奇幻）B" EventType="5" TargetType="0" FuncNo="54" TriggerEventID="Campaign_Level_8_1_QH_02"/>
+	<Property ID="43233" Name="军阶战场修载具（奇幻）C" EventType="5" TargetType="0" FuncNo="54" TriggerEventID="Campaign_Level_8_1_QH_03"/>
+	<Property ID="43234" Name="军阶战场修载具（奇幻）D" EventType="5" TargetType="0" FuncNo="54" TriggerEventID="Campaign_Level_8_1_QH_04"/>
+	<Property ID="82930" Name="维修" EventType="5" TargetType="0" FuncNo="5" IsHealFormula="0" HealFormula="10000" HealTargetType="0" HealSenderType="0"/>
+	<Property ID="82931" Name="召唤自爆载具" EventType="3" TargetType="0" FuncNo="2" NPCConfigID="npc_ZQEW000_0007" NPCCreateCount="1" NPCLifeTime="1800000" NPCTargetPosType="0" NPCCreatePosType="1" AttackBySummoner="1" NPCRandomRadius="5"/>
+	<Property ID="46318" Name="厚羽" EventType="3" TargetType="2" FuncNo="1" BuffID="Buff_qh_bc_022_01"/>
+	<Property ID="46319" Name="厚羽_升级" EventType="3" TargetType="2" FuncNo="1" BuffID="Buff_qh_bc_022_02"/>
+</Object>
+
+

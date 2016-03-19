@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--
+mode0:1小时免费模式，mode1:2小时免费模式，mode2:4小时免费模式,mode3:6小时预购模式,
+time:是改模式下的时间
+money:是购买所需点券
+-->
+<Object>
+	<Property ID="mode0" time="60" money="1" />
+	<Property ID="mode1" time="120" money="2" />
+	<Property ID="mode2" time="240" money="3" />
+	<Property ID="mode3" time="360" money="3" />
+</Object>

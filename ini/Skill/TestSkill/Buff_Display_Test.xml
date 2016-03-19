@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+	<Property ID="3" Name="增加移速" Photo="icon\buff\skillicon_0455.png" effect="buff_heal001"/>
+	<Property ID="4" Photo="icon\buff\skillicon_0455.png" effect="BGskill_Dazuo_01"/>
+	<Property ID="6" Photo="icon\buff\skillicon_0455.png"/>
+	<Property ID="7" Photo="icon\buff\skillicon_0455.png"/>
+	<Property ID="8" Photo="icon\buff\skillicon_0455.png"/>
+	<Property ID="20325" Name="BUFF测试技能" Photo="icon\buff\skillicon_0455.png"/>
+	<Property ID="20330" Name="测试小精灵" effect="func_raid_154"/>
+	<Property ID="10062" Name="测试Buff_Effect" Photo="icon\buff\skillicon_0455.png"/>
+	<Property ID="10066" Name="测试Buff_Effect" Photo="icon\buff\skillicon_0455.png"/>
+	<Property ID="20667" Name="测试被动技能" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="20671" Name="测试减少消耗" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="20674" Name="攻击附加伤害" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="20675" Name="受击附加伤害" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="20676" Name="受击回复" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="20677" Name="受击免疫" Photo="icon\BG_Pet\Pet_Mac_0004.png"/>
+	<Property ID="20678" Name="受击吸收" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="20679" Name="分担伤害" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="20680" Name="伤害限制" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="20681" Name="受击转换" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="20682" Name="缴械功能" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="20694" Name="测试强迫攻击" Photo="icon\buff\skillicon_0480.png"/>
+	<Property ID="20695" Name="测试光环" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="20700" Name="伤害转移" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="20701" Name="击杀计数" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="20702" Name="测试吸收伤害" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="20705" Name="测试延迟" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="123456" Photo="icon\BG_Skill\skillicon_0086.png"/>
+	<Property ID="55555" Name="隐身" Photo="icon\BG_Skill\jineng_zaishengaomiao.png"/>
+	<Property ID="20706" Name="测试免疫治疗" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="20707" Name="测试仇恨转移" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="50320" Name="飞行浮空" Photo="icon\BG_Skill\skillicon_0410.png"/>
+	<Property ID="20736" Name="标记目标" Photo="icon\buff\chanhui.png"/>
+	<Property ID="20735" Name="战斗渴望" Photo="icon\buff\skillicon_0452.png"/>
+	<Property ID="49101" Name="魔法明亮" Photo="icon\buff\skillicon_0534.png"/>
+	<Property ID="20211" Name="风雨交加" Photo="icon\buff\skillicon_0530.png" effect="BGskill_49999"/>
+	<Property ID="20789" Name="增益BUFF" Photo="icon\BG_Skill\skillicon_0270.png"/>
+	<Property ID="20790" Name="减益BUFF" Photo="icon\BG_Skill\skillicon_0347.png"/>
+	<Property ID="20813" Name="测试缩放" Photo="icon\BG_Skill\skillicon_0186.png" ModelScale="2"/>
+	<Property ID="20872" Name="测试BUFF残影" Photo="icon\BG_Skill\skillicon_0009.png" ModelGhost="test2"/>
+	<Property ID="20873" Name="显影（真眼，能看到隐身目标）" Photo="icon\BG_Skill\skillicon_0009.png"/>
+	<Property ID="20874" Name="显影（使目标可视）" Photo="icon\BG_Skill\skillicon_0008.png"/>
+	<Property ID="31019" Name="假死" Photo="icon\buff\skillicon_0464.png" action="stun" effect="func_raid_162_new_1" ModelGhost="0"/>
+	<Property ID="20918" Photo="icon\buff\skillicon_0476.png"/>
+	<Property ID="15665" Photo="icon\BG_Skill\heijin_huo.PNG" effect="BGskill_61093" color="255,0,0,255"/>
+	<Property ID="20944" Name="测试吸收伤害后释放技能" Photo="icon\BG_Skill\heijin_jineng_fengkuangsaoshe.png"/>
+	<Property ID="20963" Photo="icon\BG_Skill\heijin_jineng_xuligongji.png"/>
+	<Property ID="21004" Photo="icon\buff\mumang.png"/>
+	<Property ID="21007" Photo="icon\BG_Skill\heijin_jineng_qishirongyan.png"/>
+	<Property ID="21008" Name="测试变身" Photo="icon\BG_Skill\heijin_jineng_xuligongji.png"/>
+	<Property ID="20101" Photo="icon\BG_Skill\heijin_jineng_qishe.png" action="sit_cast_0h"/>
+	<Property ID="21018" Name="测试变身" Photo="icon\BG_Skill\heijin_jineng_qishirongyan.png"/>
+	<Property ID="21021" Name="测试BUFF击杀目标事件" Photo="icon\BG_Skill\heijin_jineng_fengkuangsaoshe.png"/>
+	<Property ID="21023" Name="测试修正仇恨" Photo="icon\buff\chanhui.png"/>
+	<Property ID="21025" Name="测试跌落伤害修正" Photo="icon\buff\jiaoshang.png"/>
+	<Property ID="21026" Name="测试新变身" Photo="icon\buff\chanhui.png"/>
+	<Property ID="21027" Name="测试治疗加强" Photo="icon\BG_Skill\heijin_lei.PNG"/>
+	<Property ID="21028" Name="测试耐久加强" Photo="icon\BG_Skill\heijin_jineng_qiangji.png"/>
+	<Property ID="20673" Name="攻击吸收" Photo="icon\buff\liuxue.png"/>
+	<Property ID="21029" Name="测试消耗附加" Photo="icon\buff\skillicon_0452.png"/>
+	<Property ID="21030" Name="测试110" Photo="icon\buff\erlong.png"/>
+</Object>
+
+

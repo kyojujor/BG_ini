@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 被2011 rel. 2 sp1 (TeaM DJiNN) 使用XMLSpy vTeaM DJiNN编辑的 (http://www.altova.com) by -->
+<Object>
+	<!-- 载具座位包-->
+	<!--ID座位包ID-->
+	<!--seatindex座位Index-->
+	<!--seatfun人员功能 1 为控制-->
+	<!--seatshow玩家是否可见0,坐在内部，1,坐在外面-->
+	<!--npcid对应的npcid-->
+    <!--seatleft相对于控制界面的left坐标-->
+	<!--seattop相对于控制界面的top坐标-->
+	<!--lskill：左键对应技能id-->
+	<!--rskill：右键对应技能id-->
+	<Property ID="SeatPack_0001" seatindex="1" seatfun="1" seatshow="1" lskill="Vehicle_0117_01" seatleft="70" seattop="70" rskill="Vehicle_0116_01"/>
+	<Property ID="SeatPack_0002" seatindex="1" seatfun="1" seatshow="0" seatleft="70" seattop="70"/>
+	<Property ID="SeatPack_0003" seatindex="2" seatfun="0" seatshow="1" npcid="seat01" seatleft="50" seattop="80"/>
+	<Property ID="SeatPack_0004" seatindex="2" seatfun="0" seatshow="0" seatleft="90" seattop="80"/>
+	<Property ID="SeatPack_0005" seatindex="3" seatfun="0" seatshow="1" npcid="seat01" seatleft="90" seattop="80"/>
+	<Property ID="SeatPack_0006" seatindex="3" seatfun="0" seatshow="0" seatleft="70" seattop="100"/>
+	<Property ID="SeatPack_0007" seatindex="4" seatfun="0" seatshow="1" seatleft="70" seattop="100"/>
+	<Property ID="SeatPack_0008" seatindex="4" seatfun="0" seatshow="0" seatleft="50" seattop="80"/>
+	<Property ID="SeatPack_0009" seatindex="2" seatfun="0" seatshow="0" npcid="zq_duoren_001_1" seatleft="50" seattop="80"/>
+	<Property ID="SeatPack_0010" seatindex="2" seatfun="0" seatshow="0" npcid="zq_fpsbc_004_1" seatleft="50" seattop="80"/>
+	<Property ID="SeatPack_0011" seatindex="1" seatfun="1" seatshow="1" seatleft="70" seattop="70"/>
+	<Property ID="SeatPack_0012" seatindex="2" seatfun="0" seatshow="1" seatleft="70" seattop="70"/>
+	<Property ID="SeatPack_0013" seatindex="1" seatfun="1" seatshow="1" seatleft="70" seattop="70"/>
+</Object>

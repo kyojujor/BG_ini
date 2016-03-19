@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes" ?>
+<Processor>
+    <Base type="object" version="1.0">
+        <Line Type="2" Event="2001" Name="AUTOP3" />
+        <Line Type="2" Event="5047" Name="AUTOP2">
+            <Param type="13" srctype="8" data="AUTOP3" Index="0" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP1">
+            <Param type="13" srctype="4" data="AUTOP2" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="55" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="2">
+            <Param type="13" bool="true" srctype="1" data="AUTOP1" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP4" />
+        <Line Type="1" Event="4021">
+            <Param type="13" srctype="8" data="AUTOP4" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="6" data="talk_special_zhuanzhi_001" Index="2" />
+            <Param type="11" data=" " Index="3" />
+        </Line>
+        <Line Type="7" IncludeLines="0" />
+        <Line Type="2" Event="2001" Name="AUTOP9" />
+        <Line Type="2" Event="2119" Name="AUTOP8">
+            <Param type="13" srctype="8" data="AUTOP9" Index="0" />
+            <Param type="6" data="npc_xinshou_0062" Index="1" />
+        </Line>
+        <Line Type="2" Event="3002" Name="AUTOP7">
+            <Param type="13" srctype="8" data="AUTOP8" Index="0" />
+            <Param type="6" data="texiao108" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP6">
+            <Param type="13" srctype="4" data="AUTOP7" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="1" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP12" />
+        <Line Type="2" Event="5047" Name="AUTOP11">
+            <Param type="13" srctype="8" data="AUTOP12" Index="0" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP10">
+            <Param type="13" srctype="4" data="AUTOP11" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="54" Index="2" />
+        </Line>
+        <Line Type="8" Name="AUTOP5">
+            <Param type="13" bool="true" srctype="1" data="AUTOP6" Index="0" />
+            <Param type="13" bool="true" srctype="1" data="AUTOP10" Index="0" />
+        </Line>
+        <Line Type="3" IncludeLines="12">
+            <Param type="13" bool="true" srctype="1" data="AUTOP5" Index="" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP14" />
+        <Line Type="2" Event="3011" Name="AUTOP13">
+            <Param type="13" srctype="8" data="AUTOP14" Index="0" />
+            <Param type="6" data="GroupID" Index="1" />
+        </Line>
+        <Line Type="1" Event="5020">
+            <Param type="4" data="-1014.035" Index="0" />
+            <Param type="4" data="279.452" Index="1" />
+            <Param type="4" data="502.714" Index="2" />
+            <Param type="4" data="-0.871" Index="3" />
+            <Param type="6" data="Organ_changjing_0010" Index="4" />
+            <Param type="6" data="Act" Index="5" />
+            <Param type="13" srctype="2" data="AUTOP13" Index="6" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP16" />
+        <Line Type="2" Event="3011" Name="AUTOP15">
+            <Param type="13" srctype="8" data="AUTOP16" Index="0" />
+            <Param type="6" data="GroupID" Index="1" />
+        </Line>
+        <Line Type="1" Event="5020">
+            <Param type="4" data="-1030.355" Index="0" />
+            <Param type="4" data="279.452" Index="1" />
+            <Param type="4" data="502.511" Index="2" />
+            <Param type="4" data="0.665" Index="3" />
+            <Param type="6" data="Organ_changjing_0010" Index="4" />
+            <Param type="6" data="Act" Index="5" />
+            <Param type="13" srctype="2" data="AUTOP15" Index="6" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP18" />
+        <Line Type="2" Event="3011" Name="AUTOP17">
+            <Param type="13" srctype="8" data="AUTOP18" Index="0" />
+            <Param type="6" data="GroupID" Index="1" />
+        </Line>
+        <Line Type="1" Event="5020">
+            <Param type="4" data="-1030.572" Index="0" />
+            <Param type="4" data="279.378" Index="1" />
+            <Param type="4" data="519.208" Index="2" />
+            <Param type="4" data="2.310" Index="3" />
+            <Param type="6" data="Organ_changjing_0010" Index="4" />
+            <Param type="6" data="Act" Index="5" />
+            <Param type="13" srctype="2" data="AUTOP17" Index="6" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP20" />
+        <Line Type="2" Event="3011" Name="AUTOP19">
+            <Param type="13" srctype="8" data="AUTOP20" Index="0" />
+            <Param type="6" data="GroupID" Index="1" />
+        </Line>
+        <Line Type="1" Event="5020">
+            <Param type="4" data="-1014.265" Index="0" />
+            <Param type="4" data="279.452" Index="1" />
+            <Param type="4" data="519.160" Index="2" />
+            <Param type="4" data="-2.391" Index="3" />
+            <Param type="6" data="Organ_changjing_0010" Index="4" />
+            <Param type="6" data="Act" Index="5" />
+            <Param type="13" srctype="2" data="AUTOP19" Index="6" />
+        </Line>
+        <Line Type="7" IncludeLines="0" />
+        <Line Type="2" Event="2001" Name="AUTOP25" />
+        <Line Type="2" Event="2119" Name="AUTOP24">
+            <Param type="13" srctype="8" data="AUTOP25" Index="0" />
+            <Param type="6" data="npc_xinshou_0062" Index="1" />
+        </Line>
+        <Line Type="2" Event="3002" Name="AUTOP23">
+            <Param type="13" srctype="8" data="AUTOP24" Index="0" />
+            <Param type="6" data="texiao108" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP22">
+            <Param type="13" srctype="4" data="AUTOP23" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="1" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP28" />
+        <Line Type="2" Event="5047" Name="AUTOP27">
+            <Param type="13" srctype="8" data="AUTOP28" Index="0" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP26">
+            <Param type="13" srctype="4" data="AUTOP27" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="48" Index="2" />
+        </Line>
+        <Line Type="8" Name="AUTOP21">
+            <Param type="13" bool="true" srctype="1" data="AUTOP22" Index="0" />
+            <Param type="13" bool="true" srctype="1" data="AUTOP26" Index="0" />
+        </Line>
+        <Line Type="3" IncludeLines="12">
+            <Param type="13" bool="true" srctype="1" data="AUTOP21" Index="" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP30" />
+        <Line Type="2" Event="3011" Name="AUTOP29">
+            <Param type="13" srctype="8" data="AUTOP30" Index="0" />
+            <Param type="6" data="GroupID" Index="1" />
+        </Line>
+        <Line Type="1" Event="5020">
+            <Param type="4" data="-1010.780" Index="0" />
+            <Param type="4" data="279.452" Index="1" />
+            <Param type="4" data="510.953" Index="2" />
+            <Param type="4" data="-1.613" Index="3" />
+            <Param type="6" data="Organ_changjing_0010" Index="4" />
+            <Param type="6" data="Act" Index="5" />
+            <Param type="13" srctype="2" data="AUTOP29" Index="6" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP32" />
+        <Line Type="2" Event="3011" Name="AUTOP31">
+            <Param type="13" srctype="8" data="AUTOP32" Index="0" />
+            <Param type="6" data="GroupID" Index="1" />
+        </Line>
+        <Line Type="1" Event="5020">
+            <Param type="4" data="-1022.259" Index="0" />
+            <Param type="4" data="279.452" Index="1" />
+            <Param type="4" data="499.508" Index="2" />
+            <Param type="4" data="-0.015" Index="3" />
+            <Param type="6" data="Organ_changjing_0010" Index="4" />
+            <Param type="6" data="Act" Index="5" />
+            <Param type="13" srctype="2" data="AUTOP31" Index="6" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP34" />
+        <Line Type="2" Event="3011" Name="AUTOP33">
+            <Param type="13" srctype="8" data="AUTOP34" Index="0" />
+            <Param type="6" data="GroupID" Index="1" />
+        </Line>
+        <Line Type="1" Event="5020">
+            <Param type="4" data="-1033.931" Index="0" />
+            <Param type="4" data="279.452" Index="1" />
+            <Param type="4" data="510.953" Index="2" />
+            <Param type="4" data="1.509" Index="3" />
+            <Param type="6" data="Organ_changjing_0010" Index="4" />
+            <Param type="6" data="Act" Index="5" />
+            <Param type="13" srctype="2" data="AUTOP33" Index="6" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP36" />
+        <Line Type="2" Event="3011" Name="AUTOP35">
+            <Param type="13" srctype="8" data="AUTOP36" Index="0" />
+            <Param type="6" data="GroupID" Index="1" />
+        </Line>
+        <Line Type="1" Event="5020">
+            <Param type="4" data="-1022.213" Index="0" />
+            <Param type="4" data="279.452" Index="1" />
+            <Param type="4" data="522.400" Index="2" />
+            <Param type="4" data="3.097" Index="3" />
+            <Param type="6" data="Organ_changjing_0010" Index="4" />
+            <Param type="6" data="Act" Index="5" />
+            <Param type="13" srctype="2" data="AUTOP35" Index="6" />
+        </Line>
+        <Line Type="7" IncludeLines="0" />
+        <Line Type="2" Event="2001" Name="AUTOP41" />
+        <Line Type="2" Event="2119" Name="AUTOP40">
+            <Param type="13" srctype="8" data="AUTOP41" Index="0" />
+            <Param type="6" data="npc_xinshou_0062" Index="1" />
+        </Line>
+        <Line Type="2" Event="3002" Name="AUTOP39">
+            <Param type="13" srctype="8" data="AUTOP40" Index="0" />
+            <Param type="6" data="texiao108" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP38">
+            <Param type="13" srctype="4" data="AUTOP39" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="1" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP44" />
+        <Line Type="2" Event="5047" Name="AUTOP43">
+            <Param type="13" srctype="8" data="AUTOP44" Index="0" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP42">
+            <Param type="13" srctype="4" data="AUTOP43" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="44" Index="2" />
+        </Line>
+        <Line Type="8" Name="AUTOP37">
+            <Param type="13" bool="true" srctype="1" data="AUTOP38" Index="0" />
+            <Param type="13" bool="true" srctype="1" data="AUTOP42" Index="0" />
+        </Line>
+        <Line Type="3" IncludeLines="2">
+            <Param type="13" bool="true" srctype="1" data="AUTOP37" Index="" />
+        </Line>
+        <Line Type="2" Event="2002" Name="AUTOP45" />
+        <Line Type="1" Event="4575">
+            <Param type="13" srctype="8" data="AUTOP45" Index="0" />
+            <Param type="6" data="BG_other_086_2" Index="1" />
+            <Param type="4" data="-1022.101" Index="2" />
+            <Param type="4" data="511.040" Index="3" />
+        </Line>
+        <Line Type="7" IncludeLines="0" />
+        <Line Type="2" Event="2001" Name="AUTOP50" />
+        <Line Type="2" Event="2119" Name="AUTOP49">
+            <Param type="13" srctype="8" data="AUTOP50" Index="0" />
+            <Param type="6" data="npc_xinshou_0062" Index="1" />
+        </Line>
+        <Line Type="2" Event="3002" Name="AUTOP48">
+            <Param type="13" srctype="8" data="AUTOP49" Index="0" />
+            <Param type="6" data="texiao108" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP47">
+            <Param type="13" srctype="4" data="AUTOP48" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="1" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP53" />
+        <Line Type="2" Event="5047" Name="AUTOP52">
+            <Param type="13" srctype="8" data="AUTOP53" Index="0" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP51">
+            <Param type="13" srctype="4" data="AUTOP52" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="43" Index="2" />
+        </Line>
+        <Line Type="8" Name="AUTOP46">
+            <Param type="13" bool="true" srctype="1" data="AUTOP47" Index="0" />
+            <Param type="13" bool="true" srctype="1" data="AUTOP51" Index="0" />
+        </Line>
+        <Line Type="3" IncludeLines="6">
+            <Param type="13" bool="true" srctype="1" data="AUTOP46" Index="" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP55" />
+        <Line Type="2" Event="3011" Name="AUTOP54">
+            <Param type="13" srctype="8" data="AUTOP55" Index="0" />
+            <Param type="6" data="GroupID" Index="1" />
+        </Line>
+        <Line Type="1" Event="5020">
+            <Param type="4" data="-1022.226" Index="0" />
+            <Param type="4" data="281.518" Index="1" />
+            <Param type="4" data="510.904" Index="2" />
+            <Param type="4" data="-0.007" Index="3" />
+            <Param type="6" data="Organ_changjing_0017" Index="4" />
+            <Param type="6" data="Act" Index="5" />
+            <Param type="13" srctype="2" data="AUTOP54" Index="6" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP57" />
+        <Line Type="2" Event="2119" Name="AUTOP56">
+            <Param type="13" srctype="8" data="AUTOP57" Index="0" />
+            <Param type="6" data="npc_xinshou_0061" Index="1" />
+        </Line>
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP56" Index="0" />
+            <Param type="6" data="texiao108" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="2" Index="3" />
+        </Line>
+        <Line Type="7" IncludeLines="0" />
+        <Line Type="2" Event="2001" Name="AUTOP60" />
+        <Line Type="2" Event="5047" Name="AUTOP59">
+            <Param type="13" srctype="8" data="AUTOP60" Index="0" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP58">
+            <Param type="13" srctype="4" data="AUTOP59" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="41" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="6">
+            <Param type="13" bool="true" srctype="1" data="AUTOP58" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP61" />
+        <Line Type="1" Event="3205">
+            <Param type="13" srctype="8" data="AUTOP61" Index="0" />
+            <Param type="6" data="Force" Index="1" />
+            <Param type="4" data="71" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP62" />
+        <Line Type="1" Event="3205">
+            <Param type="13" srctype="8" data="AUTOP62" Index="0" />
+            <Param type="6" data="NPCCanSelect" Index="1" />
+            <Param type="4" data="0" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP63" />
+        <Line Type="1" Event="4021">
+            <Param type="13" srctype="8" data="AUTOP63" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="6" data="talk_special_zhuanzhi_002" Index="2" />
+            <Param type="11" data=" " Index="3" />
+        </Line>
+        <Line Type="7" IncludeLines="0" />
+        <Line Type="2" Event="2001" Name="AUTOP66" />
+        <Line Type="2" Event="5047" Name="AUTOP65">
+            <Param type="13" srctype="8" data="AUTOP66" Index="0" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP64">
+            <Param type="13" srctype="4" data="AUTOP65" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="40" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="4">
+            <Param type="13" bool="true" srctype="1" data="AUTOP64" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP67" />
+        <Line Type="1" Event="5030">
+            <Param type="13" srctype="8" data="AUTOP67" Index="0" />
+            <Param type="6" data="pe_0h_stand1" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP68" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP68" Index="0" />
+            <Param type="6" data="zouchuqu" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="1" Index="3" />
+        </Line>
+        <Line Type="7" IncludeLines="0" />
+    </Base>
+</Processor>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+	<!--AID			行为编号-->
+	<!--Classify		分类(0:通用 1:蒸汽 2:奇幻 3:蒸汽人类 4:蒸汽矮人 5:奇幻猫人 6:奇幻人类)-->
+	<!--Title		标题(中文包，多个用","隔开)-->
+	<!--Content		内容(中文包，多个用","隔开)-->
+	<!--Picture		图片(路径，多个用","隔开)-->
+	<!--Content_Big		宝典内容(中文包，多个用","隔开)-->
+	<!--Picture_Big		宝典图片(路径，多个用","隔开)-->
+	
+	
+	<Property ID="1" AID="1" Classify="0" Title="sys_leadcomer_01000,sys_leadcomer_01000" Content="sys_leadcomer_02000,sys_leadcomer_02001;sys_leadcomer_02002" Content_Big="sys_leadcomer_22000,sys_leadcomer_22001;sys_leadcomer_22002" Picture="QH\help\move_1.png,QH\help\move_2.png"/>
+	<Property ID="2" AID="2" Classify="0" Title="sys_leadcomer_01002" Content="sys_leadcomer_02005,sys_leadcomer_02006" Content_Big="sys_leadcomer_22005,sys_leadcomer_22006" Picture="QH\help\NPC_interact.png"/>
+	<Property ID="3" AID="3" Classify="0" Title="sys_leadcomer_01003" Content="sys_leadcomer_02007,sys_leadcomer_02072" Content_Big="sys_leadcomer_22007,sys_leadcomer_22072" Picture="QH\help\submit.png"/>
+	<!--<Property ID="4" AID="4" Classify="5"/>-->
+	<Property ID="5" AID="5" Classify="0" Title="sys_leadcomer_01004" Content="sys_leadcomer_02008" Content_Big="sys_leadcomer_22008" Picture="QH\help\fight.png"/>
+	<Property ID="601" AID="6" Classify="1" Title="sys_leadcomer_01005" Content="sys_leadcomer_02009" Content_Big="sys_leadcomer_22009" Picture="ZQ\help\drop.png"/>
+	<Property ID="602" AID="6" Classify="2" Title="sys_leadcomer_01005" Content="sys_leadcomer_02009" Content_Big="sys_leadcomer_22009" Picture="QH\help\drop.png"/>
+	<Property ID="7" AID="7" Classify="0" Title="sys_leadcomer_01006" Content="sys_leadcomer_02010,sys_leadcomer_02011" Content_Big="sys_leadcomer_22010,sys_leadcomer_22011" Picture="QH\help\skill.png"/>
+	<Property ID="8" AID="8" Classify="0" Title="sys_leadcomer_01007" Content="sys_leadcomer_02012" Content_Big="sys_leadcomer_22012" Picture="QH\help\collect.png"/>
+	<Property ID="901" AID="9" Classify="1" Title="sys_leadcomer_01008" Content="sys_leadcomer_02013,sys_leadcomer_02014" Content_Big="sys_leadcomer_22013,sys_leadcomer_22014" Picture="ZQ\help\player_interact.png"/>
+	<Property ID="902" AID="9" Classify="2" Title="sys_leadcomer_01008" Content="sys_leadcomer_02013,sys_leadcomer_02014" Content_Big="sys_leadcomer_22013,sys_leadcomer_22014" Picture="QH\help\player_interact.png"/>
+	<Property ID="1001" AID="10" Classify="1" Title="sys_leadcomer_01009" Content="sys_leadcomer_02015" Content_Big="sys_leadcomer_22015" Picture="ZQ\help\restore.png"/>
+	<Property ID="1002" AID="10" Classify="2" Title="sys_leadcomer_01009" Content="sys_leadcomer_02015" Content_Big="sys_leadcomer_22015" Picture="QH\help\restore.png"/>
+	<Property ID="1101" AID="11" Classify="1" Title="sys_leadcomer_01020" Content="sys_leadcomer_02042,sys_leadcomer_02043" Content_Big="sys_leadcomer_22042,sys_leadcomer_22043" Picture="ZQ\help\revive.png"/>
+	<Property ID="1102" AID="11" Classify="2" Title="sys_leadcomer_01020" Content="sys_leadcomer_02042,sys_leadcomer_02043" Content_Big="sys_leadcomer_22042,sys_leadcomer_22043" Picture="QH\help\revive.png"/>
+	<Property ID="12" AID="12" Classify="0" Title="sys_leadcomer_01010" Content="sys_leadcomer_02016,sys_leadcomer_02017" Content_Big="sys_leadcomer_22016,sys_leadcomer_22017" Picture="QH\help\task_item.png"/>
+	<Property ID="1301" AID="13" Classify="1" Title="sys_leadcomer_01021" Content="sys_leadcomer_02044,sys_leadcomer_02045" Content_Big="sys_leadcomer_22044,sys_leadcomer_22045" Picture="ZQ\help\pet.png"/>
+    <Property ID="1302" AID="13" Classify="2" Title="sys_leadcomer_01021" Content="sys_leadcomer_02044,sys_leadcomer_02045" Content_Big="sys_leadcomer_22044,sys_leadcomer_22045" Picture="QH\help\pet.png"/>
+	<Property ID="1401" AID="14" Classify="1" Title="sys_leadcomer_01017" Content="sys_leadcomer_02028,sys_leadcomer_02029" Content_Big="sys_leadcomer_22028,sys_leadcomer_22029" Picture="ZQ\help\mount.png"/>
+	<Property ID="1402" AID="14" Classify="2" Title="sys_leadcomer_01017" Content="sys_leadcomer_02028,sys_leadcomer_02029" Content_Big="sys_leadcomer_22028,sys_leadcomer_22029" Picture="QH\help\mount.png"/>
+	<Property ID="15" AID="15" Classify="0" Title="sys_leadcomer_01013" Content="sys_leadcomer_02021,sys_leadcomer_02022" Content_Big="sys_leadcomer_22021,sys_leadcomer_22022" Picture="QH\help\active.png"/>
+	<Property ID="1601" AID="16" Classify="1" Title="sys_leadcomer_01022" Content="sys_leadcomer_02034,sys_leadcomer_02035" Content_Big="sys_leadcomer_22034,sys_leadcomer_22035" Picture="ZQ\help\energy.png"/>
+	<Property ID="1602" AID="16" Classify="2" Title="sys_leadcomer_01022" Content="sys_leadcomer_02034,sys_leadcomer_02035" Content_Big="sys_leadcomer_22034,sys_leadcomer_22035" Picture="QH\help\energy.png"/>
+	<Property ID="1701" AID="17" Classify="1" Title="sys_leadcomer_01023" Content="sys_leadcomer_02041" Content_Big="sys_leadcomer_22041" Picture="ZQ\help\binding.png"/>
+	<Property ID="1702" AID="17" Classify="2" Title="sys_leadcomer_01023" Content="sys_leadcomer_02041" Content_Big="sys_leadcomer_22041" Picture="QH\help\binding.png"/>
+	<!--<Property ID="18" AID="18" Classify="0" Title="白色"  Content="" Picture="" ShowType="0"/>-->
+	<Property ID="19" AID="19" Classify="0" Title="sys_leadcomer_01016" Content="sys_leadcomer_02027,sys_leadcomer_02031" Content_Big="sys_leadcomer_22027,sys_leadcomer_22031" Picture="QH\help\quality.png"/>
+	<Property ID="20" AID="20" Classify="0" Title="sys_leadcomer_01052" Content="sys_leadcomer_02075,sys_leadcomer_02076" Content_Big="sys_leadcomer_22075,sys_leadcomer_22076" Picture="QH\help\character_bijiao.png"/>
+	<!--<Property ID="21" AID="21" Classify="0" Title="sys_leadcomer_01025" Content="sys_leadcomer_02038" Content_Big="" Picture="QH\help\紫装.png"/>-->
+	<!--<Property ID="22" AID="22" Classify="0" Title="sys_leadcomer_01026" Content="sys_leadcomer_02039" Content_Big="" Picture="QH\help\橙装.png"/>-->
+	<!--<Property ID="23" AID="23" Classify="0" Title="sys_leadcomer_01027" Content="sys_leadcomer_02040" Content_Big="" Picture="QH\help\新手副本.png"/>-->
+	<Property ID="24" AID="24" Classify="0" Title="sys_leadcomer_01053" Content="sys_leadcomer_02079" Content_Big="sys_leadcomer_22079" Picture="QH\help\clone_boss.png"/>
+	<!--<Property ID="25" AID="25" Classify="0" Title="战场" Content="25" Picture=""/>-->
+	<!--<Property ID="26" AID="26" Classify="0" Title="竞技场" Content="26" Picture=""/>-->
+	<Property ID="2701" AID="27" Classify="1" Title="sys_leadcomer_01011" Content="sys_leadcomer_02018" Content_Big="sys_leadcomer_22018" Picture="ZQ\help\event_1.png"/>
+	<Property ID="2702" AID="27" Classify="2" Title="sys_leadcomer_01011" Content="sys_leadcomer_02018" Content_Big="sys_leadcomer_22018" Picture="QH\help\event_1.png"/>
+	<Property ID="2801" AID="28" Classify="1" Title="sys_leadcomer_01019" Content="sys_leadcomer_02032,sys_leadcomer_02033" Content_Big="sys_leadcomer_22032,sys_leadcomer_22033" Picture="ZQ\help\stele.png"/>
+	<Property ID="2802" AID="28" Classify="2" Title="sys_leadcomer_01019" Content="sys_leadcomer_02032,sys_leadcomer_02033" Content_Big="sys_leadcomer_22032,sys_leadcomer_22033" Picture="QH\help\stele.png"/>
+	<Property ID="29" AID="29" Classify="0" Title="sys_leadcomer_01028" Content="sys_leadcomer_02047" Content_Big="sys_leadcomer_22047" Picture="QH\help\PVP.png"/>
+	<Property ID="3001" AID="30" Classify="1" Title="sys_leadcomer_01029" Content="sys_leadcomer_02048,sys_leadcomer_02049" Content_Big="sys_leadcomer_22048,sys_leadcomer_22049" Picture="ZQ\help\team.png"/>
+	<Property ID="3002" AID="30" Classify="2" Title="sys_leadcomer_01029" Content="sys_leadcomer_02048,sys_leadcomer_02049" Content_Big="sys_leadcomer_22048,sys_leadcomer_22049" Picture="QH\help\team.png"/>
+	<Property ID="3101" AID="31" Classify="1" Title="sys_leadcomer_01018" Content="sys_leadcomer_02025,sys_leadcomer_02026" Content_Big="sys_leadcomer_22025,sys_leadcomer_22026" Picture="ZQ\help\off_line.png"/>
+	<Property ID="3102" AID="31" Classify="2" Title="sys_leadcomer_01018" Content="sys_leadcomer_02025,sys_leadcomer_02026" Content_Big="sys_leadcomer_22025,sys_leadcomer_22026" Picture="QH\help\off_line.png"/>
+	<Property ID="32" AID="32" Classify="0" Title="sys_leadcomer_01031" Content="sys_leadcomer_02050" Content_Big="sys_leadcomer_22050" Picture="QH\help\breath.png"/>
+	<Property ID="3301" AID="33" Classify="1" Title="sys_leadcomer_01040,sys_leadcomer_01041" Content="sys_leadcomer_02057;sys_leadcomer_02058" Content_Big="sys_leadcomer_22057;sys_leadcomer_22058" Picture="ZQ\help\mount_2.png,ZQ\help\mount_1.png"/>
+	<Property ID="3302" AID="33" Classify="2" Title="sys_leadcomer_01040,sys_leadcomer_01041" Content="sys_leadcomer_02057;sys_leadcomer_02058" Content_Big="sys_leadcomer_22057;sys_leadcomer_22058" Picture="QH\help\mount_2.png,QH\help\mount_1.png"/>
+	<Property ID="3401" AID="34" Classify="1" Title="sys_leadcomer_01034" Content="sys_leadcomer_02036" Content_Big="sys_leadcomer_22036" Picture="ZQ\help\job_change.png"/>
+	<Property ID="3402" AID="34" Classify="2" Title="sys_leadcomer_01034" Content="sys_leadcomer_02036" Content_Big="sys_leadcomer_22036" Picture="QH\help\job_change.png"/>
+	<Property ID="3501" AID="35" Classify="1" Title="sys_leadcomer_01035" Content="sys_leadcomer_02051,sys_leadcomer_02052" Content_Big="sys_leadcomer_22051,sys_leadcomer_22052" Picture="ZQ\help\life.png"/>
+	<Property ID="3502" AID="35" Classify="2" Title="sys_leadcomer_01035" Content="sys_leadcomer_02051,sys_leadcomer_02052" Content_Big="sys_leadcomer_22051,sys_leadcomer_22052" Picture="QH\help\life.png"/>
+	<!--<Property ID="36" AID="36" Classify="0" Title="sys_leadcomer_01036" Content="sys_leadcomer_02062" Content_Big="" Picture="QH\help\item.png"/>-->
+	<Property ID="37" AID="37" Classify="0" Title="sys_leadcomer_01037" Content="sys_leadcomer_02059" Content_Big="sys_leadcomer_22059" Picture="QH\help\clone_liulang.png"/>
+	<Property ID="3801" AID="38" Classify="1" Title="sys_leadcomer_01046" Content="sys_leadcomer_02066" Content_Big="sys_leadcomer_22066" Picture="ZQ\help\PVP_task.png"/>
+	<Property ID="3802" AID="38" Classify="2" Title="sys_leadcomer_01046" Content="sys_leadcomer_02066" Content_Big="sys_leadcomer_22066" Picture="QH\help\PVP_task.png"/>
+	<Property ID="3901" AID="39" Classify="1" Title="sys_leadcomer_01054" Content="sys_leadcomer_02065" Content_Big="sys_leadcomer_22065" Picture="ZQ\help\arena.png"/>
+	<Property ID="3902" AID="39" Classify="2" Title="sys_leadcomer_01054" Content="sys_leadcomer_02065" Content_Big="sys_leadcomer_22065" Picture="QH\help\arena.png"/>
+	<Property ID="40" AID="40" Classify="0" Title="sys_leadcomer_01047" Content="sys_leadcomer_02067" Content_Big="sys_leadcomer_22067" Picture="QH\help\clone_yuangu.png"/>
+	<Property ID="41" AID="41" Classify="0" Title="sys_leadcomer_01048" Content="sys_leadcomer_02068" Content_Big="sys_leadcomer_22068" Picture="QH\help\clone_1.png"/>
+	<Property ID="42" AID="42" Classify="0" Title="sys_leadcomer_01051" Content="sys_leadcomer_02078,sys_leadcomer_02069" Content_Big="sys_leadcomer_22078,sys_leadcomer_22069" Picture="QH\help\clone_tiaodiya.png"/>
+	<Property ID="4301" AID="43" Classify="1" Title="sys_leadcomer_01001,sys_leadcomer_01001" Content="sys_leadcomer_02003,sys_leadcomer_02004;sys_leadcomer_02003,sys_leadcomer_02004" Content_Big="sys_leadcomer_22003,sys_leadcomer_22004;sys_leadcomer_22003,sys_leadcomer_22004" Picture="ZQ\help\track_1.png,ZQ\help\track_2.png" EffectCtrl="lbl_opeffect_1,Face1"/>
+	<Property ID="4302" AID="43" Classify="2" Title="sys_leadcomer_01001,sys_leadcomer_01001" Content="sys_leadcomer_02003,sys_leadcomer_02004;sys_leadcomer_02003,sys_leadcomer_02004" Content_Big="sys_leadcomer_22003,sys_leadcomer_22004;sys_leadcomer_22003,sys_leadcomer_22004" Picture="QH\help\track_1.png,QH\help\track_2.png" EffectCtrl="lbl_opeffect_1,Face1"/>
+	<Property ID="4401" AID="44" Classify="1" Title="sys_leadcomer_01012" Content="sys_leadcomer_02019,sys_leadcomer_02020" Content_Big="sys_leadcomer_22019,sys_leadcomer_22020" Picture="ZQ\help\level_up.png"/>
+	<Property ID="4402" AID="44" Classify="2" Title="sys_leadcomer_01012" Content="sys_leadcomer_02019,sys_leadcomer_02020" Content_Big="sys_leadcomer_22019,sys_leadcomer_22020" Picture="QH\help\level_up.png"/>
+	<Property ID="4501" AID="45" Classify="1" Title="sys_leadcomer_01014" Content="sys_leadcomer_02023,sys_leadcomer_02073" Content_Big="sys_leadcomer_22023,sys_leadcomer_22073" Picture="ZQ\help\bag.png"/>
+	<Property ID="4502" AID="45" Classify="2" Title="sys_leadcomer_01014" Content="sys_leadcomer_02023,sys_leadcomer_02073" Content_Big="sys_leadcomer_22023,sys_leadcomer_22073" Picture="QH\help\bag.png"/>
+	<Property ID="4601" AID="46" Classify="1" Title="sys_leadcomer_01033,sys_leadcomer_01033" Content="sys_leadcomer_02046;sys_leadcomer_02056" Content_Big="sys_leadcomer_22046;sys_leadcomer_22056" Picture="ZQ\help\mail.png,QH\help\mail2.png"/>
+	<Property ID="4602" AID="46" Classify="2" Title="sys_leadcomer_01033,sys_leadcomer_01033" Content="sys_leadcomer_02046;sys_leadcomer_02056" Content_Big="sys_leadcomer_22046;sys_leadcomer_22056" Picture="QH\help\mail.png,QH\help\mail2.png"/>
+	<Property ID="4701" AID="47" Classify="1" Title="sys_leadcomer_01030" Content="sys_leadcomer_02070,sys_leadcomer_02071" Content_Big="sys_leadcomer_22070,sys_leadcomer_22071" Picture="ZQ\help\group.png"/>
+	<Property ID="4702" AID="47" Classify="2" Title="sys_leadcomer_01030" Content="sys_leadcomer_02070,sys_leadcomer_02071" Content_Big="sys_leadcomer_22070,sys_leadcomer_22071" Picture="QH\help\group.png"/>
+	<Property ID="4801" AID="48" Classify="1" Title="sys_leadcomer_01038" Content="sys_leadcomer_02053" Content_Big="sys_leadcomer_22053" Picture="ZQ\help\guild.png"/>
+	<Property ID="4802" AID="48" Classify="2" Title="sys_leadcomer_01038" Content="sys_leadcomer_02053" Content_Big="sys_leadcomer_22053" Picture="QH\help\guild.png"/>
+	<Property ID="4901" AID="49" Classify="1" Title="sys_leadcomer_01043" Content="sys_leadcomer_02060" Content_Big="sys_leadcomer_22060" Picture="ZQ\help\clone_dixia.png"/>
+	<Property ID="4902" AID="49" Classify="2" Title="sys_leadcomer_01043" Content="sys_leadcomer_02061" Content_Big="sys_leadcomer_22061" Picture="QH\help\clone_yuhui.png"/>
+	<Property ID="50" AID="50" Classify="0" Title="sys_leadcomer_01044" Content="sys_leadcomer_02063,sys_leadcomer_02074" Content_Big="sys_leadcomer_22063,sys_leadcomer_22074" Picture="QH\help\world_BOSS.png"/>
+	<Property ID="5101" AID="51" Classify="1" Title="sys_leadcomer_01015" Content="sys_leadcomer_02030" Content_Big="sys_leadcomer_22030" Picture="ZQ\help\active_open2.png"/>
+	<Property ID="5102" AID="51" Classify="2" Title="sys_leadcomer_01015" Content="sys_leadcomer_02030" Content_Big="sys_leadcomer_22030" Picture="QH\help\active_open2.png"/>
+	<!--<Property ID="52" AID="52" Classify="0" Title="" Content="" Picture="事件结束"/>-->
+	<Property ID="5301" AID="53" Classify="1" Title="sys_leadcomer_01045" Content="sys_leadcomer_02064" Content_Big="sys_leadcomer_22064" Picture="ZQ\help\war.png"/>
+	<Property ID="5302" AID="53" Classify="2" Title="sys_leadcomer_01045" Content="sys_leadcomer_02064" Content_Big="sys_leadcomer_22064" Picture="QH\help\war.png"/>
+</Object>

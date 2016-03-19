@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes" ?>
+<Processor>
+    <Base type="object" version="1.0">
+        <Line Type="2" Event="2115" Name="AUTOP2" />
+        <Line Type="2" Event="3002" Name="AUTOP1">
+            <Param type="13" srctype="8" data="AUTOP2" Index="0" />
+            <Param type="6" data="FieldMonster03" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="3071.072,107.487,-940.253,-2.609" Index="0" />
+            <Param type="13" srctype="6" data="AUTOP1" Index="1" />
+            <Param type="6" data="fm1" Index="2" />
+        </Line>
+        <Line Type="2" Event="2115" Name="AUTOP4" />
+        <Line Type="2" Event="3002" Name="AUTOP3">
+            <Param type="13" srctype="8" data="AUTOP4" Index="0" />
+            <Param type="6" data="FieldMonster03" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="3075.915,107.634,-939.396,2.281" Index="0" />
+            <Param type="13" srctype="6" data="AUTOP3" Index="1" />
+            <Param type="6" data="fm2" Index="2" />
+        </Line>
+        <Line Type="2" Event="2115" Name="AUTOP6" />
+        <Line Type="2" Event="3002" Name="AUTOP5">
+            <Param type="13" srctype="8" data="AUTOP6" Index="0" />
+            <Param type="6" data="FieldMonster03" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="3065.580,107.694,-936.108,-2.445" Index="0" />
+            <Param type="13" srctype="6" data="AUTOP5" Index="1" />
+            <Param type="6" data="fm3" Index="2" />
+        </Line>
+        <Line Type="2" Event="2115" Name="AUTOP8" />
+        <Line Type="2" Event="3002" Name="AUTOP7">
+            <Param type="13" srctype="8" data="AUTOP8" Index="0" />
+            <Param type="6" data="FieldMonster03" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="3061.687,107.242,-960.921,0.719" Index="0" />
+            <Param type="13" srctype="6" data="AUTOP7" Index="1" />
+            <Param type="6" data="fm4" Index="2" />
+        </Line>
+        <Line Type="2" Event="2115" Name="AUTOP10" />
+        <Line Type="2" Event="3002" Name="AUTOP9">
+            <Param type="13" srctype="8" data="AUTOP10" Index="0" />
+            <Param type="6" data="FieldMonster03" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="3081.890,107.205,-968.102,2.608" Index="0" />
+            <Param type="13" srctype="6" data="AUTOP9" Index="1" />
+            <Param type="6" data="fm5" Index="2" />
+        </Line>
+        <Line Type="2" Event="2115" Name="AUTOP12" />
+        <Line Type="2" Event="3002" Name="AUTOP11">
+            <Param type="13" srctype="8" data="AUTOP12" Index="0" />
+            <Param type="6" data="FieldMonster03" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="3101.583,107.391,-983.801,3.134" Index="0" />
+            <Param type="13" srctype="6" data="AUTOP11" Index="1" />
+            <Param type="6" data="fm6" Index="2" />
+        </Line>
+    </Base>
+</Processor>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+	<Property ID="30031" Name="伪装物"/>
+	<Property ID="30034" Name="奥瑞克士兵服" EventType="10" TargetType="2" FuncNo="803" ReboundDamageType="1"/>
+	<Property ID="30043" Name="达戈菲尔军装"/>
+	<Property ID="50067" Name="下马" EventType="2" TargetType="2" FuncNo="854"/>
+	<Property ID="50068" Name="初级烟雾发射器"/>
+	<Property ID="50215" Name="倾泻 "/>
+	<Property ID="50236" Name="长撩之势" EventType="8" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Item_A220001_Buff01_01"/>
+	<Property ID="50239" Name="伤刻徽记" EventType="18" TargetType="0" FuncNo="806" BeAttackDamageRatio="5" BeAttackDamageType="1"/>
+	<Property ID="50282" Name="穿梭" EventType="8" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Item_A020001_Buff01_01"/>
+	<Property ID="20792" Name="达戈菲尔军装" EventType="1" TargetType="2" FuncNo="105" TableName="ForceReputeRecord" ForceID="101" QueryCol="0" SetCol="8" Value="4"/>
+	<Property ID="23007" Name="回精神能量" EventType="1" TargetType="2" FuncNo="30" SetFormula="5" SetAttribute="AV"/>
+	<Property ID="23161" Name="竞技场的礼物"/>
+	<Property ID="80088" Name="变身" EventType="10" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Item_skill_0017"/>
+	<Property ID="80087" Name="变身" EventType="1" TargetType="2" FuncNo="30" SetAttribute="ChangeIndex" SetFormula="1"/>
+	<Property ID="23163" Name="体力恢复药剂" EventType="3" TargetType="2" FuncNo="6" IsFormula="0" Attribute="Physical" Formula="100" AllowNegative="0"/>
+	<Property ID="81344" Name="朱离_掉血" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="@HP*0.01" DamageCategory="3" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="81345" Name="幻化" EventType="1" TargetType="2" FuncNo="20" ChangeModelPath="npc\job_2128"/>
+	<Property ID="81347" Name="冰火两重天" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="@HP*0.1" DamageCategory="3" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="813471" Name="灼烧掉血" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="@HP*0.01" DamageCategory="3" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="813472" Name="冰火两重天_冰冻" EventType="12" TargetType="0" FuncNo="109" EffectType="1" EffectTime="2000"/>
+	<Property ID="813452" Name="幻化_关闭" EventType="2" TargetType="2" FuncNo="20"/>
+	<Property ID="230531" Name="冰冻" EventType="10" TargetType="1" FuncNo="109" Condition="230451" EffectType="8" EffectTime="2000"/>
+	<Property ID="230541" Name="冰冻" EventType="10" TargetType="1" FuncNo="109" Condition="230461" EffectType="8" EffectTime="2000"/>
+	<Property ID="230551" Name="加速" EventType="10" TargetType="2" FuncNo="1" Condition="230431" BuffID="Buff_Item3055_02"/>
+	<Property ID="230561" Name="加速" EventType="10" TargetType="2" FuncNo="1" Condition="230441" BuffID="Buff_Item3055_02"/>
+	<Property ID="230511" Name="护盾" EventType="1" TargetType="2" FuncNo="828" AbsorbDamageType="1" CountType="0" AbsorbValue="600" Condition="230441"/>
+	<Property ID="230521" Name="护盾" EventType="1" TargetType="2" FuncNo="828" AbsorbDamageType="1" CountType="0" AbsorbValue="600" Condition="230441"/>
+	<Property ID="230471" Name="攻强" EventType="8" TargetType="2" FuncNo="1" Condition="230431" BuffID="Buff_Item3047_01"/>
+	<Property ID="230481" Name="攻强" EventType="8" TargetType="2" FuncNo="1" Condition="230441" BuffID="Buff_Item3048_01"/>
+	<Property ID="230391" Condition="230391" EventType="8" TargetType="5" FuncNo="1" BuffID="Buff_Item_Item3039_01_2"/>
+	<Property ID="230392" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="0" DamageFormula="10" DamageCategory="6" DamageTargetType="1" DamageCaster="2"/>
+	<Property ID="230401" Condition="230431" EventType="8" TargetType="5" FuncNo="1" BuffID="Buff_Item_Item3039_01_2"/>
+	<Property ID="230412" EventType="2" TargetType="2" FuncNo="3" IsDamageFormula="0" DamageFormula="200" DamageCategory="3" DamageTargetType="1" DamageCaster="2"/>
+	<Property ID="230411" EventType="8" TargetType="5" FuncNo="1" Condition="230391" BuffID="Buff_Item_Item3041_01_2"/>
+	<Property ID="230421" EventType="8" TargetType="5" FuncNo="1" Condition="230431" BuffID="Buff_Item_Item3041_01_2"/>
+	<Property ID="82545" Name="能量护盾" EventType="1" TargetType="2" FuncNo="844" ImmunityDamageType="10" ImmunityValue="99" IsPercent="1"/>
+	<Property ID="825452" Name="能量护盾" EventType="2" TargetType="2" FuncNo="845"/>
+	<Property ID="82546" Name="涅槃守护" EventType="1" TargetType="2" FuncNo="844" ImmunityDamageType="10" ImmunityValue="50" IsPercent="1"/>
+	<Property ID="825462" Name="涅槃守护-恢复生命" EventType="1" TargetType="2" FuncNo="842" ResumeRatio="50" ResumeType="0"/>
+	<Property ID="825463" Name="能量护盾" EventType="2" TargetType="2" FuncNo="845"/>
+	<Property ID="825464" Name="能量护盾" EventType="2" TargetType="2" FuncNo="843"/>
+	<Property ID="230351" EventType="1" TargetType="2"/>
+	<Property ID="230361" EventType="1" TargetType="2"/>
+	<Property ID="82555" Name="变身" EventType="1" TargetType="2" FuncNo="20" ChangeModelPath="npc\monster_Ani_0082"/>
+	<Property ID="82556" Name="变身" EventType="1" TargetType="2" FuncNo="20" ChangeModelPath="npc\monster_Ani_0139"/>
+	<Property ID="80086" Name="变身" EventType="2" TargetType="2" FuncNo="30" SetAttribute="ChangeIndex" SetFormula="0"/>
+	<Property ID="23043" EventType="8" TargetType="0" FuncNo="109" Condition="230461" EffectType="1" EffectTime="2000"/>
+	<Property ID="81378" Name="绑架_改变模型" EventType="1" TargetType="2" FuncNo="20" ChangeModelPath="npc\Giving_0053"/>
+	<Property ID="813781" Name="绑架_关闭" EventType="2" TargetType="2" FuncNo="1" BuffID="ItemTaskUse_00888A_01_Buff02"/>
+	<Property ID="82713" Name="变身" EventType="1" TargetType="2" FuncNo="20" ChangeModelPath="npc\monster_Hum_0057_1"/>
+	<Property ID="827132" Name="临时改变势力关系" EventType="1" TargetType="2" FuncNo="105" TableName="ForceReputeRecord" ForceID="10" QueryCol="0" SetCol="8" Value="5"/>
+	<Property ID="81439" Name="坚硬护盾" EventType="10" TargetType="3" FuncNo="803" PRebound="20" ReboundDamageType="1"/>
+	<Property ID="82718" Name="高跳" EventType="1" TargetType="0" FuncNo="30" SetFormula="15" SetAttribute="JumpSpeed"/>
+	<Property ID="827182" Name="高跳" EventType="2" TargetType="0" FuncNo="30" SetFormula="8" SetAttribute="JumpSpeed"/>
+	<Property ID="82719" Name="俯冲" EventType="3" TargetType="2" FuncNo="11" Condition="82719|827192" BufferClearType="3" BufferClearValue="Buff_Vehicle_0101_01"/>
+	<Property ID="82763" Name="武装" EventType="1" TargetType="2" FuncNo="844" ImmunityDamageType="10" ImmunityValue="15" IsPercent="1"/>
+	<Property ID="82767" Name="高空轰炸" EventType="3" TargetType="2" FuncNo="11" Condition="82719" BufferClearType="3" BufferClearValue="Buff_Vehicle_0103_01" StrClear="1"/>
+	<Property ID="82768" Name="火焰爆蛋" EventType="3" TargetType="2" FuncNo="11" Condition="82719" BufferClearType="3" BufferClearValue="Buff_Vehicle_0104_01" StrClear="1"/>
+	<Property ID="82821" Name="穿甲弹_流血" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="0" DamageFormula="50" DamageCategory="1" DamageTargetType="1" DamageCaster="2"/>
+	<Property ID="82816" Name="穿甲弹_灼烧" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="$MinMagicAttack*0.1" DamageCategory="3" DamageTargetType="1" DamageCaster="2"/>
+	<Property ID="230571" Condition="230571" EventType="8" TargetType="2" FuncNo="1" BuffID="Buff_Item3057_02" Name="狂暴"/>
+	<Property ID="230581" Condition="230571" EventType="8" TargetType="2" FuncNo="1" BuffID="Buff_Item3058_02" Name="狂暴"/>
+	<Property ID="82842" Name="变身" EventType="1" TargetType="2" FuncNo="20" ChangeModelPath="npc\npc_ManM_0015"/>
+	<Property ID="828422" Name="变身" EventType="2" TargetType="2" FuncNo="20"/>
+	<Property ID="82847" Name="变小动物" EventType="1" TargetType="2" FuncNo="20" ChangeModelPath="npc\Watch_0_00027"/>
+	<Property ID="828472" EventType="2" TargetType="2" FuncNo="20"/>
+	<Property ID="81215" Name="反隐_开始" EventType="1" TargetType="2" FuncNo="30" SetFormula="1" SetAttribute="TrueSight"/>
+	<Property ID="812152" Name="反隐_结束" EventType="2" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="TrueSight"/>
+	<Property ID="82856" Name="变身" EventType="1" TargetType="2" FuncNo="20" ChangeModelPath="npc\Giving_0047"/>
+	<Property ID="828562" Name="变身" EventType="2" TargetType="2" FuncNo="20"/>
+	<Property ID="81447" Name="爆裂" EventType="2" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="$MinMagicAttack*0.5" DamageCategory="1" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="82866" Name="变身" EventType="1" TargetType="2" FuncNo="20" ChangeModelPath="npc\monster_Hum_0055"/>
+	<Property ID="828662" Name="变身" EventType="2" TargetType="2" FuncNo="20"/>
+	<Property ID="81448" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="$MinMagicAttack*0.5" DamageCategory="8" DamageTargetType="1" DamageCaster="2"/>
+	<Property ID="45002" Name="绑架_关闭" EventType="2" TargetType="2" FuncNo="1" BuffID="ItemTaskUse_00288A_01_Buff02,copy_ItemTaskUse_00288A_01_Buff02"/>
+	<Property ID="81451" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="$MinMagicAttack*0.5" DamageCategory="8" DamageTargetType="1" DamageCaster="2"/>
+	<Property ID="81452" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="$MinMagicAttack*0.5" DamageCategory="1" DamageTargetType="1" DamageCaster="2"/>
+	<Property ID="81453" EventType="1" TargetType="2" FuncNo="20" NPCLifeTime="1000" ChangeModelPath="npc\Giving_0053"/>
+	<Property ID="81454" EventType="2" TargetType="2" FuncNo="1" BuffID="buff_TaskUse_313A_1"/>
+	<Property ID="43212" Name="撞击" EventType="1" TargetType="0" FuncNo="16" Condition="43212" KnockFlyLockTime="1000" KnockFlyDistance="15" KnockFlySpeed="20" FaceType="1" GravityParam="-35" FlyKnockDownAction="down" FlyDownLoopAction="downloop" DownLandAction="kickout" DownLandEffect="flydown" FlyGetUpAction="downup" KnockFlyIsCanMove="0"/>
+	<Property ID="43211" Name="伤害" EventType="1" TargetType="0" FuncNo="3" Condition="43212" IsDamageFormula="0" DamageFormula="2000" DamageCategory="1" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="43213" Name="伤害" EventType="1" TargetType="0" FuncNo="3" Condition="43214" IsDamageFormula="0" DamageFormula="2000" DamageCategory="1" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="43214" Name="撞击" EventType="1" TargetType="0" FuncNo="16" Condition="43214" KnockFlyLockTime="1000" KnockFlyDistance="15" KnockFlySpeed="20" FaceType="1" GravityParam="-35" FlyKnockDownAction="down" FlyDownLoopAction="downloop" DownLandAction="kickout" DownLandEffect="flydown" FlyGetUpAction="downup" KnockFlyIsCanMove="0"/>
+	<Property ID="81474" Name="修理" EventType="1" TargetType="2" FuncNo="5" IsHealFormula="1" HealFormula="$MaxHP*0.05" HealTargetType="1" HealSenderType="0"/>
+	<Property ID="81475" Name="修理" EventType="1" TargetType="2" FuncNo="5" IsHealFormula="1" HealFormula="$MaxHP*1" HealTargetType="1" HealSenderType="0"/>
+	<Property ID="46001" Name="增加角色移动速度" EventType="1" TargetType="2" FuncNo="30" SetAttribute="RunSpeed" SetFormula="6"/>
+	<Property ID="46002" Name="击退" EventType="1" TargetType="0" FuncNo="13" FendLockTime="1000" FendDistance="5" FendAction="knockback" DefaultFendAction="knockback" FendIsCanMove="0"/>
+	<Property ID="46003" Name="增加角色移动速度" EventType="1" TargetType="2" FuncNo="30" SetAttribute="RunSpeed" SetFormula="6.5"/>
+	<Property ID="46004" Name="增加角色移动速度" EventType="1" TargetType="2" FuncNo="30" SetAttribute="RunSpeed" SetFormula="7.5"/>
+	<Property ID="46005" Name="增加角色移动速度" EventType="1" TargetType="2" FuncNo="30" SetAttribute="RunSpeed" SetFormula="9"/>
+	<Property ID="46006" Name="无视陷阱" EventType="1" TargetType="2" FuncNo="1" BuffID="Buff_Pvpskill_0014_01"/>
+	<Property ID="46007" Name="减速" EventType="1" TargetType="2" FuncNo="30" SetAttribute="RunSpeed" SetFormula="4"/>
+	<Property ID="46008" Name="减速" EventType="1" TargetType="2" FuncNo="30" SetAttribute="RunSpeed" SetFormula="3.5"/>
+	<Property ID="46009" Name="定身" EventType="1" TargetType="2" FuncNo="30" SetAttribute="CantMove" SetFormula="1"/>
+	<Property ID="46010" Name="击退" EventType="1" TargetType="2" FuncNo="1" BuffID="Buff_Pvpskill_0018_01"/>
+	<Property ID="46011" Name="减速" EventType="1" TargetType="2" FuncNo="1" BuffID="Buff_Pvpskill_0019_01"/>
+	<Property ID="81479" Name="电磁护盾" EventType="1" TargetType="2" FuncNo="813" UpperLimitDamage="10000"/>
+	<Property ID="41008" Name="解除隐身" EventType="6" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_00335A_01" StrClear="1"/>
+	<Property ID="460012" Name="恢复角色移动速度" EventType="2" TargetType="2" FuncNo="30" SetFormula="7.5" SetAttribute="RunSpeed"/>
+	<Property ID="460091" Name="定身恢复" EventType="1" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="CantMove"/>
+	<Property ID="81477" EventType="18" TargetType="3" FuncNo="806" BeAttackDamageRatio="50" BeAttackDamageType="4"/>
+	<Property ID="81499" Name="冲能" EventType="1" TargetType="2" FuncNo="6" IsFormula="1" Attribute="MP" Formula="$MaxMP*0.05" AllowNegative="0"/>
+	<Property ID="81500" Name="冲能" EventType="1" TargetType="2" FuncNo="6" IsFormula="1" Attribute="MP" Formula="$MaxMP*1" AllowNegative="0"/>
+	<Property ID="41019" Name="变身" EventType="1" TargetType="0" FuncNo="20" ChangeModelPath="npc\monster_Shu_0020_2"/>
+	<Property ID="41021" Name="变回人" EventType="2" TargetType="0" FuncNo="20"/>
+	<Property ID="812153" Name="反隐_掉血" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="$MaxHP*0.01" DamageCategory="8" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="812151" Name="反隐_开始" EventType="1" TargetType="2" FuncNo="1" BuffID="Buff_Pvp_battle_002_03"/>
+	<Property ID="46012" Name="跳跃" EventType="1" TargetType="2" FuncNo="30" SetFormula="12" SetAttribute="JumpSpeed"/>
+	<Property ID="46013" Name="恢复跳跃速度" EventType="2" TargetType="2" FuncNo="30" SetFormula="4.5" SetAttribute="JumpSpeed"/>
+	<Property ID="81520" Name="魔化" EventType="1" TargetType="2" FuncNo="842" ResumeRatio="100" ResumeType="0"/>
+	<Property ID="815201" Name="魔化_结束" EventType="2" TargetType="2" FuncNo="843"/>
+	<Property ID="46216" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="$MinMagicAttack*0.5" DamageCategory="8" DamageTargetType="1" DamageCaster="2" Name="剧毒"/>
+	<Property ID="81489" Name="爆裂_眩晕" EventType="2" TargetType="2" FuncNo="109" EffectType="1" EffectTime="1000"/>
+	<Property ID="42010" Name="制服隐身" EventType="1" TargetType="2" FuncNo="30" SetFormula="1" SetAttribute="RoleHide"/>
+	<Property ID="42011" Name="制服显隐" EventType="2" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="RoleHide"/>
+	<Property ID="42012" Name="技能显隐" EventType="6" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Item_TaskUse_00297A_01"/>
+	<Property ID="46318" Name="吸收伤害" EventType="1" TargetType="2" FuncNo="844" ImmunityDamageType="10" ImmunityValue="30" IsPercent="1"/>
+	<Property ID="46319" Name="吸收伤害" EventType="1" TargetType="2" FuncNo="844" ImmunityDamageType="10" ImmunityValue="50" IsPercent="1"/>
+	<Property ID="463182" EventType="2" TargetType="2" FuncNo="845"/>
+	<Property ID="463192" Name="吸收伤害" EventType="1" TargetType="2" FuncNo="845"/>
+</Object>
+
+

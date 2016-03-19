@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='gb2312' ?>
+<!--铭刻激活属性表-->
+<Object>
+	<!--ID:编号, effectskill:影响到的技能,逗号隔开可以填写多个技能， prop:影响类型参考定义EInsEffectType, op:影响方式（增加减少等）参考定义EInsEffectOp, damagetype:伤害类型参考定义DAMAGE_TYPE，某些op类型会忽略此字段, value:影响的值， disc：描述-->
+  <Property ID = "1" effectskill = "test030,test104" prop = "1" op = "3" damagetype = "0" value = "20" disc = "ins_prop_1"/>
+  <Property ID = "2" effectskill = "test030,test104" prop = "2" op = "2" damagetype = "0" value = "-20" disc = "ins_prop_2"/>
+  <Property ID = "3" effectskill = "test030,test104" prop = "3" op = "2" damagetype = "0" value = "-10" disc = "ins_prop_3"/>
+  <Property ID = "4" effectskill = "test030,test104" prop = "4" op = "2" damagetype = "0" value = "-10" disc = "ins_prop_4"/>
+  <!--<Property ID = "5" effectskill = "test030,test104" prop = "5" op = "2" damagetype = "0" value = "2.5" disc = "技能作用时间增加2.5s"/>--><!--使用增加效果实现（增加一个buffer，对技能修正）-->
+  <!--<Property ID = "6" effectskill = "test030,test104" prop = "6" op = "2" damagetype = "0" value = "2" disc = "技能作用人数增加2"/>--><!--使用增加效果实现（增加一个buffer，对技能修正）-->
+  <Property ID = "7" effectskill = "test030,test104" prop = "7" op = "1" damagetype = "" value = "20116,20117" disc = "ins_prop_7"/><!--value, 前一值代表原效果，后一值代表改变后的效果-->
+  <Property ID = "8" effectskill = "test104" 				 prop = "8" op = "1" damagetype = "" value = "test106" disc = "ins_prop_8"/>
+  <Property ID = "9" effectskill = "test104"         prop = "9" op = "1" damagetype = "" value = "20116" disc = "ins_prop_9"/>
+  <Property ID = "10" effectskill = "test104"        prop = "10" op = "1" damagetype = "" value = "822" disc = "ins_prop_10"/><!--某些可以使用增加效果实现（增加一个buffer，对技能修正）-->
+  <Property ID = "11" effectskill = "test104"        prop = "11" op = "4" damagetype = "2" value = "20" disc = "ins_prop_11"/><!--增加一种伤害-->
+  <Property ID = "12" effectskill = "test104"        prop = "12" op = "1" damagetype = "" value = "20116" disc = "ins_prop_12"/><!--增加一种效果-->
+  <!--<Property ID = "13" effectskill = "test104"        prop = "13" op = "1" damagetype = "" value = "822" disc = "增加buffer"/>--><!--增加buffer,对技能和buffer进行修正, 用增加效果实现-->
+</Object>

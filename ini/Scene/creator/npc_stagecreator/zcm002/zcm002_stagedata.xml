@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Stage>
+	<Object Guid="29096F2D95AA4DB3BA3FBE9836477B4C" Desc="门" config="BattlewarDoor_0007" MaxRefreshCount="1" x="-5965.009277" y="30.3811" z="5339.118652" IsY="0" Radius="0" amount="1" fOrg="1.250005" IsPersistent="1"/>
+	<Object Guid="819720F12A894E8D98A0022CFB64987E" Desc="门" config="BattlewarDoor_0008" MaxRefreshCount="1" x="-5531.679199" y="38.056412" z="5082.681641" IsY="0" Radius="0" amount="1" fOrg="-1.608185" IsPersistent="1"/>
+	<Object Guid="B2336CBC5B094C8A8CDB6DECF303C6ED" Desc="临冬湖" config="BannerNpc_zc01_0001" MaxRefreshCount="1" x="-5835.685" y="20.839" z="4971.754" IsY="0" Radius="0" amount="1" fOrg="0" IsPersistent="0">
+		<Event EventId="40" Processor="202_zc_yiji01"/>
+		<Event EventId="42" Processor="202_zc_yiji02"/>
+		<Event EventId="41" Processor="202_zc_yiji03"/>
+	</Object>
+	<Object Guid="AC753C7424B74D9C9091933CC0AFE48F" Desc="上古遗迹" config="BannerNpc_zc01_0002" MaxRefreshCount="1" x="-5758.565" y="55.940" z="5207.205" IsY="0" Radius="0" amount="1" fOrg="0" IsPersistent="0">
+		<Event EventId="40" Processor="202_zc_lindonghu01"/>
+		<Event EventId="42" Processor="202_zc_lindonghu02"/>
+		<Event EventId="41" Processor="202_zc_lindonghu03"/>
+	</Object>
+	<Object Guid="9A038E43556B45E48F2D39FC6025F82C" Desc="隐形NPC" config="npc_zhanchang_0001" MaxRefreshCount="-1" x="-5877.722168" y="34.447929" z="5366.472168" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="3008F14EB42741D39E6F2E9A7FA88368" Desc="隐形NPC" config="npc_zhanchang_0002" MaxRefreshCount="-1" x="-5956.049805" y="14.674077" z="5230.864258" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="7C8F9F1ADCDD4EABBF810873C34C4115" Desc="隐形NPC" config="npc_zhanchang_0003" MaxRefreshCount="-1" x="-5670.536621" y="21.228937" z="5074.657715" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="CDA5E4C051E44882B0C180D8E24E8710" Desc="隐形NPC" config="npc_zhanchang_0004" MaxRefreshCount="-1" x="-5563.506348" y="21.354315" z="5252.608398" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="02E4524BD1B4494CA3E66578F3AC1798" Desc="隐形NPC" config="npc_zhanchang_0005" MaxRefreshCount="-1" x="-5633.999512" y="46.53693" z="5243.927734" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="23440C33B05748C8B0024351F38092EC" Desc="隐形NPC" config="npc_zhanchang_0006" MaxRefreshCount="-1" x="-5832.197754" y="42.693928" z="5216.023438" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="AC131FF662F544DC8B73D198BCE685C7" Desc="凛风石林" config="BannerNpc_zc01_0003" MaxRefreshCount="1" x="-5703.714355" y="28.117001" z="5436.776855" amount="1" fOrg="0" IsPersistent="0">
+		<Event EventId="40" Processor="202_zc_shilin01"/>
+		<Event EventId="42" Processor="202_zc_shilin02"/>
+		<Event EventId="41" Processor="202_zc_shilin03"/>
+	</Object>
+</Stage>
+
+

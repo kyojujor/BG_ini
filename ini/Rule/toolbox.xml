@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="gb2312"?>
+<!-- BaseCap基础容量 
+CapitalType="资金类型"
+MoneyNum   ="资金数目"
+-->
+<Object>
+<Property ID = "Capacity" BaseCap = "20" BagContainerCap = "4" BagMaxContainerCap = "2" BagMaxCap = "26" BagLevelCount = "9" />
+<Property ID = "BagCapacity" 0 = "0" 1 = "4" 2 = "6" 3 = "8" 4 = "10" 5 = "12" 6 = "14" 7 = "16" 8 = "18" />
+<Property ID = "ExtBagItem"  CapitalType ="0" MoneyNum="750"/>
+<Property ID = "ExtDepotItem" CapitalType ="0" MoneyNum="750"/>
+<Property ID = "ShopLink"  CapitalType ="0" MoneyNum="25"/>
+<Property ID = "DepotLink" CapitalType ="0" MoneyNum="25"/>
+</Object>

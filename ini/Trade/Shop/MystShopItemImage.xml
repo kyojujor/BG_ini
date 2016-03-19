@@ -1,0 +1,58 @@
+<!-- 神秘商店物品图片资源配置 -->
+<!-- ID           物品类型                                          int     -->
+<!-- Image        图片资源                                          string  -->
+<!-- Desc         描述          仅为方便配置而设，无实际意义                  -->
+<Object>
+    <!--        【武器】        -->
+    <Property ID="101" Image="icon\\equip\\BG\\Hand\\Hand_A00005B.png" Desc="剑"/>
+    <Property ID="102" Image="icon\\equip\\BG\\Hand\\Hand_A00005B.png" Desc="匕首"/>
+    <Property ID="103" Image="icon\\equip\\BG\\Hand\\Hand_A00005B.png" Desc="锤子"/>
+    <Property ID="104" Image="icon\\equip\\BG\\Hand\\Hand_A00005B.png" Desc="斧"/>
+    <Property ID="107" Image="icon\\equip\\BG\\Hand\\Hand_A00005B.png" Desc="盾"/>
+    <Property ID="108" Image="icon\\equip\\BG\\Hand\\Hand_A00005B.png" Desc="魔棒"/>
+    <Property ID="114" Image="icon\\equip\\BG\\Hand\\Hand_A00005B.png" Desc="枪"/>
+    <Property ID="118" Image="icon\\equip\\BG\\Hand\\Hand_A00005B.png" Desc="法杖"/>
+    <Property ID="124" Image="icon\\equip\\BG\\Hand\\Hand_A00005B.png" Desc="魔瓶"/>
+    <!--        【防具】        -->
+    <Property ID="139" Image="icon\\equip\\BG\\Hand\\Hand_A00005B.png" Desc="腰带"/>
+    <Property ID="140" Image="icon\\equip\\BG\\Hand\\Hand_A00005B.png" Desc="帽子"/>
+    <Property ID="141" Image="icon\\equip\\BG\\Hand\\Hand_A00005B.png" Desc="上装"/>
+    <Property ID="142" Image="icon\\equip\\BG\\Hand\\Hand_A00005B.png" Desc="下装"/>
+    <Property ID="143" Image="icon\\equip\\BG\\Hand\\Hand_A00005B.png" Desc="鞋子"/>
+    <Property ID="145" Image="icon\\equip\\BG\\Hand\\Hand_A00005B.png" Desc="护腕"/>
+    <Property ID="146" Image="icon\\equip\\BG\\Hand\\Hand_A00005B.png" Desc="手套"/>
+    <Property ID="11139" Image="icon\\equip\\BG\\Hand\\Hand_A00005B.png" Desc="腰带（布甲）"/>
+    <Property ID="11140" Image="icon\\equip\\BG\\Hand\\Hand_A00005B.png" Desc="帽子（布甲）"/>
+    <Property ID="11141" Image="icon\\equip\\BG\\Hand\\Hand_A00005B.png" Desc="上装（布甲）"/>
+    <Property ID="11142" Image="icon\\equip\\BG\\Hand\\Hand_A00005B.png" Desc="下装（布甲）"/>
+    <Property ID="11143" Image="icon\\equip\\BG\\Hand\\Hand_A00005B.png" Desc="鞋子（布甲）"/>
+    <Property ID="11145" Image="icon\\equip\\BG\\Hand\\Hand_A00005B.png" Desc="护腕（布甲）"/>
+    <Property ID="11146" Image="icon\\equip\\BG\\Hand\\Hand_A00005B.png" Desc="手套（布甲）"/>
+    <Property ID="11239" Image="icon\\equip\\BG\\Hand\\Hand_A00005B.png" Desc="腰带（皮甲）"/>
+    <Property ID="11240" Image="icon\\equip\\BG\\Hand\\Hand_A00005B.png" Desc="帽子（皮甲）"/>
+    <Property ID="11241" Image="icon\\equip\\BG\\Hand\\Hand_A00005B.png" Desc="上装（皮甲）"/>
+    <Property ID="11242" Image="icon\\equip\\BG\\Hand\\Hand_A00005B.png" Desc="下装（皮甲）"/>
+    <Property ID="11243" Image="icon\\equip\\BG\\Hand\\Hand_A00005B.png" Desc="鞋子（皮甲）"/>
+    <Property ID="11245" Image="icon\\equip\\BG\\Hand\\Hand_A00005B.png" Desc="护腕（皮甲）"/>
+    <Property ID="11246" Image="icon\\equip\\BG\\Hand\\Hand_A00005B.png" Desc="手套（皮甲）"/>
+    <Property ID="11339" Image="icon\\equip\\BG\\Hand\\Hand_A00005B.png" Desc="腰带（中甲）"/>
+    <Property ID="11340" Image="icon\\equip\\BG\\Hand\\Hand_A00005B.png" Desc="帽子（中甲）"/>
+    <Property ID="11341" Image="icon\\equip\\BG\\Hand\\Hand_A00005B.png" Desc="上装（中甲）"/>
+    <Property ID="11342" Image="icon\\equip\\BG\\Hand\\Hand_A00005B.png" Desc="下装（中甲）"/>
+    <Property ID="11343" Image="icon\\equip\\BG\\Hand\\Hand_A00005B.png" Desc="鞋子（中甲）"/>
+    <Property ID="11345" Image="icon\\equip\\BG\\Hand\\Hand_A00005B.png" Desc="护腕（中甲）"/>
+    <Property ID="11346" Image="icon\\equip\\BG\\Hand\\Hand_A00005B.png" Desc="手套（中甲）"/>
+    <Property ID="11439" Image="icon\\equip\\BG\\Hand\\Hand_A00005B.png" Desc="腰带（重甲）"/>
+    <Property ID="11440" Image="icon\\equip\\BG\\Hand\\Hand_A00005B.png" Desc="帽子（重甲）"/>
+    <Property ID="11441" Image="icon\\equip\\BG\\Hand\\Hand_A00005B.png" Desc="上装（重甲）"/>
+    <Property ID="11442" Image="icon\\equip\\BG\\Hand\\Hand_A00005B.png" Desc="下装（重甲）"/>
+    <Property ID="11443" Image="icon\\equip\\BG\\Hand\\Hand_A00005B.png" Desc="鞋子（重甲）"/>
+    <Property ID="11445" Image="icon\\equip\\BG\\Hand\\Hand_A00005B.png" Desc="护腕（重甲）"/>
+    <Property ID="11446" Image="icon\\equip\\BG\\Hand\\Hand_A00005B.png" Desc="手套（重甲）"/>
+    <!--      【饰品】      -->
+    <Property ID="147" Image="icon\\equip\\BG\\Hand\\Hand_A00005B.png" Desc="项链"/>
+    <Property ID="148" Image="icon\\equip\\BG\\Hand\\Hand_A00005B.png" Desc="披风"/>
+    <Property ID="149" Image="icon\\equip\\BG\\Hand\\Hand_A00005B.png" Desc="戒指"/>
+    <Property ID="150" Image="icon\\equip\\BG\\Hand\\Hand_A00005B.png" Desc="饰物"/>
+    <Property ID="171" Image="icon\\equip\\BG\\Hand\\Hand_A00005B.png" Desc="能量盾"/>
+</Object>

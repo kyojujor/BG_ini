@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- edited with XMLSpy v2010 (http://www.altova.com) by wangshuai (MiZE) -->
+<!--这里面的holdtype是武器共有的默认类型影响系数，防止weaponmodifyrule.xml没有配置导致一系列错误-->
+<Object>
+	<Property ID="-1" ColorLevel0="0" ColorLevel1="1" ColorLevel2="2" ColorLevel3="3" ColorLevel4="4" ColorLevel5="5" ColorLevel6="6" Color0="7" Color1="8" Color2="9" Color3="10" Color4="11" Color5="12" Color6="13" HoldType_1="14" HoldType_2="15" HoldType_3="16" HoldType_4="17"/>
+	<Property ID="0" ColorLevel0="6" ColorLevel1="6" ColorLevel2="6" ColorLevel3="6" ColorLevel4="6" ColorLevel5="6" ColorLevel6="6" Color0="4" Color1="4" Color2="4" Color3="4" Color4="4" Color5="4" Color6="4" HoldType_1="4" HoldType_2="4" HoldType_3="4" HoldType_4="4"/>
+	<Property ID="1" ColorLevel0="0,0" ColorLevel1="1,1" ColorLevel2="1,1" ColorLevel3="2,2" ColorLevel4="3,3" ColorLevel5="3,4" ColorLevel6="3,5" Color0="0" Color1="0.21" Color2="0.35" Color3="0.47" Color4="0.7" Color5="1.1" Color6="1.7" HoldType_1="0.6" HoldType_2="0.7" HoldType_3="1" HoldType_4="0.5"/>
+</Object>

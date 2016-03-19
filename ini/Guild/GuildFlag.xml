@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--   <Property ID = "1" GuildSignIndex = "标志索引改变消耗" GuildSignColor= "标志颜色改变消耗" GuildFrameIndex = "边框索引该表消耗" GuildFrameColor = "边框颜色该表消耗" GuildFlagIndex = "旗帜改变消耗" />
+  --> 
+<Object>
+ <Property ID = "1"  SignConsume = "200000" SignColorConsume = "200000" FrameConsume = "200000" FrameColorConsume = "200000" FlagConsume = "200000"/>
+</Object>

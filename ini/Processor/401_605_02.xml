@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes" ?>
+<Processor>
+    <Base type="object" version="1.0">
+        <Line Type="2" Event="2002" Name="AUTOP1" />
+        <Line Type="2" Event="2002" Name="AUTOP3" />
+        <Line Type="2" Event="2119" Name="AUTOP2">
+            <Param type="13" srctype="8" data="AUTOP3" Index="0" />
+            <Param type="6" data="npc_zqm001_0219" Index="1" />
+        </Line>
+        <Line Type="1" Event="5071">
+            <Param type="13" srctype="8" data="AUTOP1" Index="0" />
+            <Param type="13" srctype="8" data="AUTOP2" Index="1" />
+            <Param type="6" data="Item_TaskUse_00271A_01" Index="2" />
+        </Line>
+        <Line Type="2" Event="2002" Name="AUTOP5" />
+        <Line Type="2" Event="2119" Name="AUTOP4">
+            <Param type="13" srctype="8" data="AUTOP5" Index="0" />
+            <Param type="6" data="npc_zqm001_0219" Index="1" />
+        </Line>
+        <Line Type="1" Event="4509">
+            <Param type="13" srctype="8" data="AUTOP4" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP6" />
+        <Line Type="1" Event="4530">
+            <Param type="13" srctype="8" data="AUTOP6" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="6" data="trigger_kewei_quest_604_01_1" Index="2" />
+            <Param type="11" data=" " Index="3" />
+        </Line>
+        <Line Type="2" Event="2002" Name="AUTOP7" />
+        <Line Type="1" Event="4607">
+            <Param type="13" srctype="8" data="AUTOP7" Index="0" />
+            <Param type="2" data="604" Index="1" />
+            <Param type="2" data="1" Index="2" />
+        </Line>
+        <Line Type="2" Event="2002" Name="AUTOP8" />
+        <Line Type="1" Event="4556">
+            <Param type="13" srctype="8" data="AUTOP8" Index="0" />
+            <Param type="6" data="Item_TaskUse_00271A_01" Index="1" />
+        </Line>
+    </Base>
+</Processor>

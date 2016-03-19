@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+<Property ID = "1" Type = "2" Name = "ToolBox" Para1 = "yaopin90001" min = "5" Desc = "判断容器中物件数量" />
+<Property ID = "2" Type = "3" Name = "NeiGongContainer" Para1 = "ng_jh_001" Para2 = "Level" min = "25" Desc = "判断容器中某物件的属性" />
+<Property ID = "4" Type = "1" Name = "HPRatio" Para1 = "<>" min = "0" max = "100" Desc = "hpratio<100%" />
+<Property ID = "5" Type = "3" Name = "QingGongContainer" Para1 = "QG_SL_001" Para2 = "Level" min = "1" Desc = "判断容器中某物件的属性" />
+<Property ID = "6" Type = "2" Name = "ToolBox" Para1 = "yaopin90001" min = "1" Desc = "需要 培元丹（1）" />
+<Property ID = "7" Type = "7" Name = "RelationRec" Para1 = "4" Para2 = "player" min = "100" max = "200" Desc = "贫富值在100与200之间" />
+<Property ID = "8" Type = "1" Name = "Sex" Para1 = "==" min = "1" Desc = "性别为女" />
+<Property ID = "9" Type = "1" Name = "Ene" Para1 = "<>" min = "60" max = "100" Desc = "体力大于60" />
+<Property ID = "10" Type = "1" Name = "HPRatio" Para1 = "<>" min = "50" max = "80" Desc = "血量在50%到80%" />
+<Property ID = "11" Type = "1" Name = "HPRatio" Para1 = "==" min = "100" Desc = "满血" />
+<Property ID = "12" Type = "1" Name = "HPRatio" Para1 = "<>" min = "90" max = "100" Desc = "血量大于90%" />
+<Property ID = "13" Type = "1" Name = "HP" Para1 = "<>" min = "300" Desc = "血量大于300" />
+<Property ID = "14" Type = "1" Name = "HPRatio" Para1 = "<>" min = "75" max = "100" Desc = "血量大于75%" />
+<Property ID = "15" Type = "1" Name = "HPRatio" Para1 = "<>" min = "0" max = "75" Desc = "血量小于75%" />
+<Property ID = "16" Type = "1" Name = "Ene" Para1 = "<>" min = "80" max = "100" Desc = "体力大于80" />
+<Property ID = "17" Type = "1" Name = "MPRatio" Para1 = "<>" min = "0" max = "50" Desc = "MP<50%" />
+<Property ID = "18" Type = "1" Name = "MPRatio" Para1 = "==" min = "100" Desc = "MP=100%" />
+<Property ID = "19" Type = "1" Name = "MaxHP" Para1 = "<>" min = "300" Desc = "HP上限超过300" />
+<Property ID = "20" Type = "1" Name = "HP" Para1 = "<>" min = "250" Desc = "HP>250" />
+<Property ID = "21" Type = "1" Name = "MaxMP" Para1 = "<>" min = "150" Desc = "MP上限超过150" />
+<Property ID = "22" Type = "1" Name = "Sat" Para1 = "<>" min = "70" Desc = "饱食度大于70" />
+<Property ID = "23" Type = "1" Name = "Ene" Para1 = "<>" max = "50" Desc = "体力小于50" />
+<Property ID = "24" Type = "1" Name = "CapitalType1" Para1 = "<>" min = "10000" Desc = "银子超过1锭" />
+<Property ID = "25" Type = "3" Name = "NeiGongContainer" Para1 = "ng_jh_001" Para2 = "Level" min = "5" Desc = "坐忘功达到5级" />
+<Property ID = "26" Type = "1" Name = "CapitalType1" Para1 = "<>" max = "50000" Desc = "银两小于5锭" />
+<Property ID = "27" Type = "1" Name = "Act" Para1 = "<>" min = "80" Desc = "精力大于80" />
+<Property ID = "28" Type = "1" Name = "Faculty" Para1 = "<>" min = "3000" Desc = "修为大于3000" />
+<Property ID = "29" Type = "1" Name = "MPRatio" Para1 = "<>" min = "80" Desc = "MP>80%" />
+<Property ID = "30" Type = "1" Name = "Sat" Para1 = "<>" min = "50" Desc = "饱食度大于50" />
+<Property ID = "31" Type = "1" Name = "MP" Para1 = "<>" min = "125" Desc = "MP>125" />
+<Property ID = "32" Type = "1" Name = "Faculty" Para1 = "<>" min = "2000" Desc = "修为大于2000" />
+<Property ID = "33" Type = "1" Name = "MPRatio" Para1 = "<>" min = "50" max = "60" Desc = "50%<MP<60%" />
+<Property ID = "34" Type = "1" Name = "PKValue" Para1 = "<>" min = "10" Desc = "PK值大于10" />
+<Property ID = "35" Type = "1" Name = "CapitalType1" Para1 = "<>" min = "100" Desc = "银子超过100两" />
+<Property ID = "36" Type = "1" Name = "HPRatio" Para1 = "==" min = "99" Desc = "HP=99%" />
+<Property ID = "37" Type = "1" Name = "CapitalType1" Para1 = "<>" min = "400" Desc = "银两大于4两" />
+<Property ID = "38" Type = "1" Name = "CapitalType1" Para1 = "<>" min = "200" Desc = "银两大于2两" />
+<Property ID = "39" Type = "1" Name = "Sat" Para1 = "==" min = "100" Desc = "饱食度100" />
+<Property ID = "40" Type = "1" Name = "Sat" Para1 = "==" min = "50" Desc = "饱食度50" />
+<Property ID = "41" Type = "1" Name = "CapitalType1" Para1 = "<>" min = "500" Desc = "银两大于5两" />
+<Property ID = "42" Type = "4" Name = "Repute_Record" Para1 = "1" Para2 = "repute_jianghu" min = "100" Desc = "江湖声望超过100" />
+<Property ID = "43" Type = "1" Name = "Faculty" Para1 = "<>" min = "1000" Desc = "修为大于1000" />
+<Property ID = "44" Type = "1" Name = "Faculty" Para1 = "<>" min = "10000" Desc = "修为大于10000" />
+<Property ID = "45" Type = "4" Name = "job_rec" Para1 = "1" Para2 = "sh_kg" min = "20" Desc = "矿工等级超过20" />
+<Property ID = "46" Type = "4" Name = "job_rec" Para1 = "1" Para2 = "sh_cf" min = "20" Desc = "裁缝等级超过20" />
+<Property ID = "47" Type = "4" Name = "job_rec" Para1 = "1" Para2 = "sh_ys" min = "20" Desc = "药师等级超过20" />
+<Property ID = "48" Type = "1" Name = "HPRatio" Para1 = "<>" min = "60" max = "70" Desc = "60%<HP<70%" />
+<Property ID = "49" Type = "1" Name = "Faculty" Para1 = "<>" min = "5000" Desc = "修为大于5000" />
+<Property ID = "50" Type = "1" Name = "HPRatio" Para1 = "<>" min = "30" max = "40" Desc = "30%<HP<40%" />
+<Property ID = "51" Type = "1" Name = "CurState" Para1 = "==" min = "2" Desc = "进入战斗" />
+<Property ID = "52" Type = "1" Name = "CapitalType0" Para1 = "<>" min = "200" Desc = "金子>200" />
+<Property ID = "53" Type = "1" Name = "CapitalType0" Para1 = "<>" min = "300" Desc = "金子>300" />
+<Property ID = "54" Type = "4" Name = "Repute_Record" Para1 = "1" Para2 = "repute_jianghu" min = "500" Desc = "江湖声望超过500" />
+<Property ID = "55" Type = "3" Name = "NeiGongContainer" Para1 = "ng_jh_001" Para2 = "Level" min = "2" Desc = "坐忘功超过2级" />
+<Property ID = "56" Type = "4" Name = "job_rec" Para1 = "1" Para2 = "sh_ys" min = "75" max = "80" Desc = "药师等级75-80" />
+<Property ID = "57" Type = "1" Name = "MaxHP" Para1 = "<>" min = "700" max = "800" Desc = "700<MaxHP<800" />
+<Property ID = "58" Type = "1" Name = "MaxMP" Para1 = "<>" min = "150" max = "170" Desc = "150<MaxMP<170" />
+<Property ID = "59" Type = "1" Name = "MaxHP" Para1 = "<>" min = "600" max = "650" Desc = "600<MaxHP<650" />
+<Property ID = "60" Type = "1" Name = "MaxMP" Para1 = "<>" min = "130" max = "150" Desc = "130<MaxMP<150" />
+<Property ID = "61" Type = "4" Name = "job_rec" Para1 = "1" Para2 = "sh_kg" min = "22" max = "54" Desc = "矿工等级22——54" />
+<Property ID = "62" Type = "3" Name = "SkillContainer" Para1 = "zs_base01_0h" Para2 = "Level" min = "3" max = "4" Desc = "踏步冲拳3——4" />
+<Property ID = "63" Type = "1" Name = "MaxHP" Para1 = "<>" min = "650" max = "700" Desc = "650<MaxHP<700" />
+<Property ID = "64" Type = "4" Name = "Repute_Record" Para1 = "1" Para2 = "repute_shaolin" min = "160" Desc = "少林声望达到160以上" />
+<Property ID = "65" Type = "1" Name = "CurNeiGong" Para1 = "==" min = "ng_sl_001" Desc = "装备禅定功" />
+<Property ID = "66" Type = "2" Name = "EquipBox" Para1 = "blade00256" Desc = "装备上文刀" />
+<Property ID = "67" Type = "14" Name = "CurSkill" Para1 = "==" Para2 = "ConfigID" min = "zs_sl_01_01" Desc = "装备仙掌推云" />
+<Property ID = "68" Type = "8" Name = "Origin_Completed" Para1 = "2" min = "1" Desc = "必须获得小沙弥身份" />
+<Property ID = "69" Type = "3" Name = "SkillContainer" Para1 = "zs_em_01_01" Para2 = "Level" min = "1" Desc = "学习班姬赋诗" />
+<Property ID = "70" Type = "3" Name = "SkillContainer" Para1 = "zs_tm_02_01" Para2 = "Level" min = "1" Desc = "学习暴风骤雨" />
+<Property ID = "71" Type = "3" Name = "NeiGongContainer" Para1 = "ng_tm_001" Para2 = "Level" min = "7" Desc = "五毒经7级以上" />
+<Property ID = "72" Type = "3" Name = "SkillContainer" Para1 = "zs_tm_05_05" Para2 = "Level" min = "5" Desc = "力劈华山5级" />
+<Property ID = "73" Type = "3" Name = "NeiGongContainer" Para1 = "ng_sl_001" Para2 = "Level" min = "5" Desc = "禅定功5级以上" />
+<Property ID = "74" Type = "3" Name = "NeiGongContainer" Para1 = "ng_sl_001" Para2 = "Level" min = "15" Desc = "禅定功15级以上" />
+<Property ID = "75" Type = "3" Name = "NeiGongContainer" Para1 = "ng_sl_002" Para2 = "Level" min = "15" Desc = "罗汉功15级以上" />
+<Property ID = "76" Type = "3" Name = "NeiGongContainer" Para1 = "ng_sl_003" Para2 = "Level" min = "15" Desc = "伏魔功15级以上" />
+<Property ID = "77" Type = "4" Name = "job_rec" Para1 = "1" Para2 = "sh_ys" min = "100" Desc = "药师等级达到100级以上" />
+<Property ID = "78" Type = "8" Name = "Origin_Completed" Para1 = "501" min = "1" Desc = "必须获得略有小成身份" />
+<Property ID = "79" Type = "8" Name = "Origin_Completed" Para1 = "502" min = "1" Desc = "必须获得武林高手身份" />
+<Property ID = "80" Type = "8" Name = "Origin_Completed" Para1 = "503" min = "1" Desc = "必须获得傲视群雄身份" />
+<Property ID = "81" Type = "3" Name = "NeiGongContainer" Para1 = "ng_sl_001" Para2 = "Level" min = "20" Desc = "禅定功20级以上" />
+<Property ID = "82" Type = "4" Name = "job_rec" Para1 = "1" Para2 = "sh_cs" min = "150" Desc = "厨师等级达到150级以上" />
+<Property ID = "83" Type = "3" Name = "NeiGongContainer" Para1 = "ng_jysg" Para2 = "Level" min = "9" Desc = "九阳神功满级" />
+<Property ID = "84" Type = "1" Name = "PKValue" Para1 = "<>" min = "8000" Desc = "PK值大于8000" />
+<Property ID = "85" Type = "3" Name = "SkillContainer" Para1 = "zs_sl_05_08" Para2 = "Level" min = "5" Desc = "无上大力5级" />
+<Property ID = "86" Type = "14" Name = "CurSkill" Para1 = "==" Para2 = "ConfigID" min = "zs_sl_01_04" Desc = "使用排山倒海" />
+<Property ID = "89" Type = "9" Name = "NeiGongContainer" Para1 = "Level" Para2 = "1" min = "10" Desc = "任意1个内功达到10级以上" />
+<Property ID = "90" Type = "9" Name = "SkillContainer" Para1 = "Level" Para2 = "30" min = "5" Desc = "任意30个招式达到5级" />
+<Property ID = "91" Type = "4" Name = "job_rec" Para1 = "1" Para2 = "sh_jq" min = "80" Desc = "金匠等级达到80级以上" />
+<Property ID = "92" Type = "4" Name = "job_rec" Para1 = "1" Para2 = "sh_cf" min = "80" Desc = "裁缝等级达到80级以上" />
+<Property ID = "93" Type = "13" Name = "FormulaRec" min = "20" Desc = "学习任意配方20个以上" />
+<Property ID = "94" Type = "9" Name = "NeiGongContainer" Para1 = "Level" Para2 = "5" min = "36" Desc = "任意5个内功达到36级以上" />
+<Property ID = "95" Type = "1" Name = "KillCount" Para1 = "<>" min = "10" Desc = "杀人次数达到10次以上" />
+<Property ID = "96" Type = "10" Name = "friend_rec" Para1 = "4" Para2 = "80" min = "300" Desc = "好友列表中有80个人的好友度达到300以上" />
+<Property ID = "97" Type = "11" Name = "OpenMapRec" min = "13" Desc = "去过13个场景以上" />
+<Property ID = "98" Type = "9" Name = "SkillContainer" Para1 = "Level" Para2 = "5" min = "5" Desc = "任意5个招式达到5级" />
+<Property ID = "99" Type = "3" Name = "NeiGongContainer" Para1 = "ng_jh_405" Para2 = "Level" min = "3" Desc = "化功大法3级以上" />
+<Property ID = "100" Type = "10" Name = "friend_rec" Para1 = "4" Para2 = "20" min = "300" Desc = "好友列表中有20个人的好友度达到300以上" />
+<Property ID = "101" Type = "14" Name = "CurSkill" Para1 = "==" Para2 = "ConfigID" min = "zs_base01_0h" Desc = "使用踏步冲拳" />
+<Property ID = "102" Type = "8" Name = "Origin_Completed" Para1 = "1" min = "1" Desc = "必须获得无名之辈身份" />
+<Property ID = "103" Type = "13" Name = "FormulaRec" min = "50" Desc = "学习任意配方50个以上" />
+<Property ID = "104" Type = "9" Name = "NeiGongContainer" Para1 = "Level" Para2 = "4" min = "15" Desc = "任意4个内功达到15级以上" />
+<Property ID = "105" Type = "10" Name = "job_rec" Para1 = "1" Para2 = "1" min = "1" Desc = "学习任意1个生活技能" />
+<Property ID = "106" Type = "4" Name = "Repute_Record" Para1 = "1" Para2 = "repute_jianghu" min = "500" Desc = "江湖声望达到500以上" />
+<Property ID = "107" Type = "4" Name = "Repute_Record" Para1 = "1" Para2 = "repute_jianghu" min = "1000" Desc = "江湖声望达到1000以上" />
+<Property ID = "109" Type = "13" Name = "QingGongContainer" min = "3" Desc = "学习3个以上轻功" />
+<Property ID = "110" Type = "4" Name = "QingGongContainer" Para1 = "0" Para2 = "qinggong_2" min = "0" Desc = "学习踏波行" />
+<Property ID = "111" Type = "13" Name = "QingGongRec" min = "3" Desc = "学习3个以上轻功" />
+<Property ID = "112" Type = "4" Name = "QingGongRec" Para1 = "0" Para2 = "qinggong_2" min = "0" Desc = "学习踏波行" />
+<Property ID = "114" Type = "4" Name = "Repute_Record" Para1 = "1" Para2 = "repute_jianghu" min = "800" Desc = "江湖声望超过800" />
+<Property ID = "115" Type = "10" Name = "friend_rec" Para1 = "4" Para2 = "10" min = "300" Desc = "好友列表中有20个人的好友度达到300以上" />
+<Property ID = "116" Type = "1" Name = "Ing" Para1 = "<>" min = "9" max = "15" Desc = "悟性在9-15之间" />
+<Property ID = "117" Type = "2" Name = "EquipBox" Para1 = "lstuff01456" min = "1" Desc = "装备缘觉" />
+<Property ID = "118" Type = "3" Name = "SkillContainer" Para1 = "zs_tm_04_08" Para2 = "Level" min = "5" Desc = "冰谷初虹5级" />
+<Property ID = "119" Type = "3" Name = "SkillContainer" Para1 = "zs_wd_05_08" Para2 = "Level" min = "5" Desc = "贯日长虹5级" />
+<Property ID = "120" Type = "8" Name = "Origin_Completed" Para1 = "16" min = "1" Desc = "必须获得达摩院首座身份" />
+<Property ID = "121" Type = "1" Name = "MaxHP" Para1 = "<>" min = "200" max = "350" Desc = "200<MaxHP<350" />
+<Property ID = "122" Type = "3" Name = "NeiGongContainer" Para1 = "ng_jh_001" Para2 = "Level" min = "3" Desc = "坐忘功超过3级" />
+<Property ID = "123" Type = "1" Name = "KillCount" Para1 = "<>" min = "2" Desc = "杀人次数达到2次以上" />
+<Property ID = "124" Type = "1" Name = "PKValue" Para1 = "<>" min = "1000" Desc = "是否是红名" />
+<Property ID = "125" Type = "13" Name = "FormulaRec" min = "1" Desc = "学习任意配方1个以上" />
+<Property ID = "126" Type = "13" Name = "friend_rec" min = "1" Desc = "至少有1个好友" />
+<Property ID = "127" Type = "1" Name = "LogicState" Para1 = "==" min = "102" Desc = "是否是打坐状态" />
+<Property ID = "128" Type = "1" Name = "LogicState" Para1 = "==" min = "108" Desc = "是否是修炼状态" />
+<Property ID = "129" Type = "1" Name = "LogicState" Para1 = "==" min = "2" Desc = "是否是拔刀状态" />
+<Property ID = "130" Type = "11" Name = "OpenMapRec" min = "2" Desc = "去过2个场景以上" />
+<Property ID = "131" Type = "1" Name = "Mount" Para1 = "!=" Desc = "骑马状态" />
+<Property ID = "132" Type = "13" Name = "QingGongRec" min = "5" Desc = "学习5个以上轻功" />
+<Property ID = "133" Type = "13" Name = "friend_rec" min = "10" Desc = "至少有10个好友" />
+<Property ID = "134" Type = "1" Name = "BeKillCount" Para1 = "<>" min = "2" Desc = "被杀次数达到2次以上" />" />
+<Property ID = "135" Type = "8" Name = "QuestRewarded" Para1 = "10881" min = "0" Desc = "绿野侠踪承接条件" />
+<Property ID = "136" Type = "16"Name = "SkillContainer" Para1 = "==" Para2 = "0" Para3 = "2" Para4 = "StaticData" Para5 = "5" min = "2" Desc = "学会5个虚招" />
+<Property ID = "137" Type = "16"Name = "SkillContainer" Para1 = "==" Para2 = "0" Para3 = "2" Para4 = "StaticData" Para5 = "5" min = "3" Desc = "学会5个架招" />
+<Property ID = "138" Type = "16"Name = "SkillContainer" Para1 = "==" Para2 = "StaticData" Para3 = "0" Para4 = "8" Para5 = "4" min = "tl_sl_01" Desc = "学会太祖长拳4个招式" />
+<Property ID = "139" Type = "4" Name = "ForceReputeRecord" Para1 = "2" Para2 = "4" min = "8" Desc = "蒸汽人类的势力关系到达崇拜以上" />
+<Property ID = "140" Type = "1" Name = "Camp" Para1 = "==" min = "1" Desc = "阵营为蒸汽" />
+<Property ID = "141" Type = "1" Name = "Camp" Para1 = "==" min = "2" Desc = "阵营为奇幻" />
+<Property ID="142" Type="1" Name="Level" Para1="<>" min="1" Desc="等级1"/>
+<Property ID="143" Type="1" Name="Level" Para1="<>" min="2" Desc="等级2"/>
+<Property ID="144" Type="1" Name="Level" Para1="<>" min="3" Desc="等级3"/>
+<Property ID="145" Type="1" Name="Level" Para1="<>" min="4" Desc="等级4"/>
+<Property ID="146" Type="1" Name="Level" Para1="<>" min="5" Desc="等级5"/>
+<Property ID="147" Type="1" Name="Level" Para1="<>" min="6" Desc="等级6"/>
+<Property ID="148" Type="1" Name="Level" Para1="<>" min="7" Desc="等级7"/>
+<Property ID="149" Type="1" Name="Level" Para1="<>" min="8" Desc="等级8"/>
+<Property ID="150" Type="1" Name="Level" Para1="<>" min="9" Desc="等级9"/>
+<Property ID="151" Type="1" Name="Level" Para1="<>" min="10" Desc="等级10"/>
+<Property ID="152" Type="1" Name="Level" Para1="<>" min="11" Desc="等级11"/>
+<Property ID="153" Type="1" Name="Level" Para1="<>" min="12" Desc="等级12"/>
+<Property ID="154" Type="1" Name="Level" Para1="<>" min="13" Desc="等级13"/>
+<Property ID="155" Type="1" Name="Level" Para1="<>" min="14" Desc="等级14"/>
+<Property ID="156" Type="1" Name="Level" Para1="<>" min="15" Desc="等级15"/>
+<Property ID="157" Type="1" Name="Level" Para1="<>" min="16" Desc="等级16"/>
+<Property ID="158" Type="1" Name="Level" Para1="<>" min="17" Desc="等级17"/>
+<Property ID="159" Type="1" Name="Level" Para1="<>" min="18" Desc="等级18"/>
+<Property ID="160" Type="1" Name="Level" Para1="<>" min="19" Desc="等级19"/>
+<Property ID="161" Type="1" Name="Level" Para1="<>" min="20" Desc="等级20"/>
+<Property ID="162" Type="1" Name="Level" Para1="<>" min="21" Desc="等级21"/>
+<Property ID="163" Type="1" Name="Level" Para1="<>" min="22" Desc="等级22"/>
+<Property ID="164" Type="1" Name="Level" Para1="<>" min="23" Desc="等级23"/>
+<Property ID="165" Type="1" Name="Level" Para1="<>" min="24" Desc="等级24"/>
+<Property ID="166" Type="1" Name="Level" Para1="<>" min="25" Desc="等级25"/>
+<Property ID="167" Type="1" Name="Level" Para1="<>" min="26" Desc="等级26"/>
+<Property ID="168" Type="1" Name="Level" Para1="<>" min="27" Desc="等级27"/>
+<Property ID="169" Type="1" Name="Level" Para1="<>" min="28" Desc="等级28"/>
+<Property ID="170" Type="1" Name="Level" Para1="<>" min="29" Desc="等级29"/>
+<Property ID="171" Type="1" Name="Level" Para1="<>" min="30" Desc="等级30"/>
+<Property ID="172" Type="1" Name="Level" Para1="<>" min="31" Desc="等级31"/>
+<Property ID="173" Type="1" Name="Level" Para1="<>" min="32" Desc="等级32"/>
+<Property ID="174" Type="1" Name="Level" Para1="<>" min="33" Desc="等级33"/>
+<Property ID="175" Type="1" Name="Level" Para1="<>" min="34" Desc="等级34"/>
+<Property ID="176" Type="1" Name="Level" Para1="<>" min="35" Desc="等级35"/>
+<Property ID="177" Type="1" Name="Level" Para1="<>" min="36" Desc="等级36"/>
+<Property ID="178" Type="1" Name="Level" Para1="<>" min="37" Desc="等级37"/>
+<Property ID="179" Type="1" Name="Level" Para1="<>" min="38" Desc="等级38"/>
+<Property ID="180" Type="1" Name="Level" Para1="<>" min="39" Desc="等级39"/>
+<Property ID="181" Type="1" Name="Level" Para1="<>" min="40" Desc="等级40"/>
+<Property ID="182" Type="1" Name="Level" Para1="<>" min="41" Desc="等级41"/>
+<Property ID="183" Type="1" Name="Level" Para1="<>" min="42" Desc="等级42"/>
+<Property ID="184" Type="1" Name="Level" Para1="<>" min="43" Desc="等级43"/>
+<Property ID="185" Type="1" Name="Level" Para1="<>" min="44" Desc="等级44"/>
+<Property ID="186" Type="1" Name="Level" Para1="<>" min="45" Desc="等级45"/>
+<Property ID="187" Type="1" Name="Level" Para1="<>" min="46" Desc="等级46"/>
+<Property ID="188" Type="1" Name="Level" Para1="<>" min="47" Desc="等级47"/>
+<Property ID="189" Type="1" Name="Level" Para1="<>" min="48" Desc="等级48"/>
+<Property ID="190" Type="1" Name="Level" Para1="<>" min="49" Desc="等级49"/>
+<Property ID="191" Type="1" Name="Level" Para1="<>" min="50" Desc="等级50"/>
+<Property ID="192" Type="1" Name="Level" Para1="<>" min="51" Desc="等级51"/>
+<Property ID="193" Type="1" Name="Level" Para1="<>" min="52" Desc="等级52"/>
+<Property ID="194" Type="1" Name="Level" Para1="<>" min="53" Desc="等级53"/>
+<Property ID="195" Type="1" Name="Level" Para1="<>" min="54" Desc="等级54"/>
+<Property ID="196" Type="1" Name="Level" Para1="<>" min="55" Desc="等级55"/>
+<Property ID="197" Type="1" Name="Level" Para1="<>" min="56" Desc="等级56"/>
+<Property ID="198" Type="1" Name="Level" Para1="<>" min="57" Desc="等级57"/>
+<Property ID="199" Type="1" Name="Level" Para1="<>" min="58" Desc="等级58"/>
+<Property ID="200" Type="1" Name="Level" Para1="<>" min="59" Desc="等级59"/>
+<Property ID="201" Type="1" Name="Level" Para1="<>" min="60" Desc="等级60"/>
+<Property ID="202" Type="1" Name="Level" Para1="<>" min="61" Desc="等级61"/>
+<Property ID="203" Type="1" Name="Level" Para1="<>" min="62" Desc="等级62"/>
+<Property ID="204" Type="1" Name="Level" Para1="<>" min="63" Desc="等级63"/>
+<Property ID="205" Type="1" Name="Level" Para1="<>" min="64" Desc="等级64"/>
+<Property ID="206" Type="1" Name="Level" Para1="<>" min="65" Desc="等级65"/>
+<Property ID="207" Type="1" Name="Level" Para1="<>" min="66" Desc="等级66"/>
+<Property ID="208" Type="1" Name="Level" Para1="<>" min="67" Desc="等级67"/>
+<Property ID="209" Type="1" Name="Level" Para1="<>" min="68" Desc="等级68"/>
+<Property ID="210" Type="1" Name="Level" Para1="<>" min="69" Desc="等级69"/>
+<Property ID="211" Type="1" Name="Level" Para1="<>" min="70" Desc="等级70"/>
+<Property ID="212" Type="1" Name="Level" Para1="<>" min="71" Desc="等级71"/>
+<Property ID="213" Type="1" Name="Level" Para1="<>" min="72" Desc="等级72"/>
+<Property ID="214" Type="1" Name="Level" Para1="<>" min="73" Desc="等级73"/>
+<Property ID="215" Type="1" Name="Level" Para1="<>" min="74" Desc="等级74"/>
+<Property ID="216" Type="1" Name="Level" Para1="<>" min="75" Desc="等级75"/>
+<Property ID="217" Type="1" Name="Level" Para1="<>" min="76" Desc="等级76"/>
+<Property ID="218" Type="1" Name="Level" Para1="<>" min="77" Desc="等级77"/>
+<Property ID="219" Type="1" Name="Level" Para1="<>" min="78" Desc="等级78"/>
+<Property ID="220" Type="1" Name="Level" Para1="<>" min="79" Desc="等级79"/>
+<Property ID="221" Type="1" Name="Level" Para1="<>" min="80" Desc="等级80"/>
+<Property ID = "222" Type = "1" Name = "Sex" Para1 = "==" min = "1" Desc = "性别为女" />
+<Property ID = "223" Type = "1" Name = "HPRatio" Para1 = "==" min = "100" Desc = "满血" />
+<Property ID = "224" Type = "1" Name = "Job" Para1 = "==" min = "7" Desc = "转职初始职业为炼金师" />
+<Property ID = "225" Type = "1" Name = "Job" Para1 = "==" min = "8" Desc = "转职初始职业为元素法师" />
+<Property ID = "226" Type = "1" Name = "Job" Para1 = "==" min = "6" Desc = "转职初始职业为猎魔人" />
+<Property ID = "227" Type = "1" Name = "Job" Para1 = "==" min = "5" Desc = "转职初始野性守护着" />
+<Property ID = "228" Type = "1" Name = "Job" Para1 = "==" min = "1" Desc = "转职初始职业为仲裁者" />
+<Property ID = "229" Type = "1" Name = "Job" Para1 = "==" min = "2" Desc = "转职初始职业为蒸汽学徒" />
+<Property ID = "230" Type = "1" Name = "Job" Para1 = "==" min = "3" Desc = "转职初始职业为秘法师" />
+<Property ID = "231" Type = "1" Name = "Job" Para1 = "==" min = "4" Desc = "转职初始职业为麦克骑士" />
+<Property ID = "232" Type = "1" Name = "Race" Para1 = "==" min = "1" Desc = "种族为蒸汽人类" />
+<Property ID = "233" Type = "1" Name = "Race" Para1 = "==" min = "2" Desc = "种族为血族" />
+<Property ID = "234" Type = "1" Name = "Race" Para1 = "==" min = "3" Desc = "种族为矮人" />
+<Property ID = "235" Type = "1" Name = "Race" Para1 = "==" min = "4" Desc = "种族为奇幻人类" />
+<Property ID = "236" Type = "1" Name = "Race" Para1 = "==" min = "5" Desc = "种族为野蛮人" />
+<Property ID = "237" Type = "1" Name = "Race" Para1 = "==" min = "6" Desc = "种族为喀什" />
+<Property ID = "238" Type = "8" Name = "QuestRewarded" Para1 = "13001" min = "1" Desc = "完成任务" />
+<Property ID = "239" Type = "8" Name = "QuestRewarded" Para1 = "13002" min = "1" Desc = "完成任务" />
+<Property ID = "240" Type = "8" Name = "QuestRewarded" Para1 = "13003" min = "1" Desc = "完成任务" />
+<Property ID = "241" Type = "8" Name = "QuestRewarded" Para1 = "13001" min = "0" Desc = "未完成任务" />
+<Property ID = "242" Type = "8" Name = "QuestRewarded" Para1 = "13002" min = "0" Desc = "未完成任务" />
+<Property ID = "243" Type = "8" Name = "QuestRewarded" Para1 = "13003" min = "0" Desc = "未完成任务" />
+<Property ID = "244" Type = "4" Name = "QuestRecord" Para1 = "0" Para2 = "13001" max = "-1" Desc = "没有接受任务" />
+<Property ID = "245" Type = "4" Name = "QuestRecord" Para1 = "0" Para2 = "13002" max = "-1" Desc = "没有接受任务" />
+<Property ID = "246" Type = "4" Name = "QuestRecord" Para1 = "0" Para2 = "13003" max = "-1" Desc = "没有接受任务" />
+<Property ID = "247" Type = "4" Name = "QuestRecord"  Para1 = "0" Para2 = "13107" min = "0"  Desc = "13107已经承接" />
+<Property ID = "248" Type = "4" Name = "QuestRecord"  Para1 = "0" Para2 = "3045" min = "0"  Desc = "3045已经承接" />
+<Property ID = "249" Type = "4" Name = "QuestRecord"  Para1 = "0" Para2 = "19082" min = "0" Desc = "19082已经承接" />
+<Property ID = "4176" Type = "4" Name = "QuestRecord"  Para1 = "0" Para2 = "4176" min = "0"  Desc = "4176已经承接" />
+<Property ID = "4155" Type = "4" Name = "QuestRecord"  Para1 = "0" Para2 = "4155" min = "0"  Desc = "4155已经承接" />
+<Property ID = "7110" Type = "4" Name = "QuestRecord"  Para1 = "0" Para2 = "7110" min = "0"  Desc = "7110已经承接" />
+<Property ID = "250" Type = "1" Name = "LifeOccupFirstType" Para1 = "==" min = "1" Desc = "职业为锻造师" />
+<Property ID = "251" Type = "1" Name = "LifeOccupFirstType" Para1 = "==" min = "2" Desc = "职业为裁缝" />
+<Property ID = "252" Type = "1" Name = "LifeOccupFirstType" Para1 = "==" min = "3" Desc = "职业为炼金师" />
+<Property ID = "253" Type = "1" Name = "LifeOccupFirstType" Para1 = "==" min = "4" Desc = "职业为珠宝师" />
+<Property ID = "295" Type = "1" Name = "LifeOccupFirstType" Para1 = "==" min = "5" Desc = "职业为制甲师" />
+<Property ID = "296" Type = "1" Name = "LifeJobLevel" Para1 = "==" min = "1" Desc = "副职等级为1级" />
+<Property ID = "297" Type = "1" Name = "LifeJobLevel" Para1 = "==" min = "2" Desc = "副职等级为2级" />
+<Property ID = "298" Type = "1" Name = "LifeJobLevel" Para1 = "==" min = "3" Desc = "副职等级为3级" />
+<Property ID = "299" Type = "1" Name = "LifeJobLevel" Para1 = "==" min = "4" Desc = "副职等级为4级" />
+<Property ID = "300" Type = "1" Name = "LifeJobLevel" Para1 = "==" min = "5" Desc = "副职等级为5级" />
+<Property ID="254" Type="1" Name="Level" Para1="<>" max="1" Desc="小于等级1"/>
+<Property ID="255" Type="1" Name="Level" Para1="<>" max="2" Desc="小于等级2"/>
+<Property ID="256" Type="1" Name="Level" Para1="<>" max="3" Desc="小于等级3"/>
+<Property ID="257" Type="1" Name="Level" Para1="<>" max="4" Desc="小于等级4"/>
+<Property ID="258" Type="1" Name="Level" Para1="<>" max="5" Desc="小于等级5"/>
+<Property ID="259" Type="1" Name="Level" Para1="<>" max="6" Desc="小于等级6"/>
+<Property ID="260" Type="1" Name="Level" Para1="<>" max="7" Desc="小于等级7"/>
+<Property ID="261" Type="1" Name="Level" Para1="<>" max="8" Desc="小于等级8"/>
+<Property ID="262" Type="1" Name="Level" Para1="<>" max="9" Desc="小于等级9"/>
+<Property ID="263" Type="1" Name="Level" Para1="<>" max="10" Desc="小于等级10"/>
+<Property ID="264" Type="1" Name="Level" Para1="<>" max="11" Desc="小于等级11"/>
+<Property ID="265" Type="1" Name="Level" Para1="<>" max="12" Desc="小于等级12"/>
+<Property ID="266" Type="1" Name="Level" Para1="<>" max="13" Desc="小于等级13"/>
+<Property ID="267" Type="1" Name="Level" Para1="<>" max="14" Desc="小于等级14"/>
+<Property ID="268" Type="1" Name="Level" Para1="<>" max="15" Desc="小于等级15"/>
+<Property ID="269" Type="1" Name="Level" Para1="<>" max="16" Desc="小于等级16"/>
+<Property ID="270" Type="1" Name="Level" Para1="<>" max="17" Desc="小于等级17"/>
+<Property ID="271" Type="1" Name="Level" Para1="<>" max="18" Desc="小于等级18"/>
+<Property ID="272" Type="1" Name="Level" Para1="<>" max="19" Desc="小于等级19"/>
+<Property ID="273" Type="1" Name="Level" Para1="<>" max="20" Desc="小于等级20"/>
+<Property ID="274" Type="1" Name="Level" Para1="<>" max="21" Desc="小于等级21"/>
+<Property ID="275" Type="1" Name="Level" Para1="<>" max="22" Desc="小于等级22"/>
+<Property ID="276" Type="1" Name="Level" Para1="<>" max="23" Desc="小于等级23"/>
+<Property ID="277" Type="1" Name="Level" Para1="<>" max="24" Desc="小于等级24"/>
+<Property ID="278" Type="1" Name="Level" Para1="<>" max="25" Desc="小于等级25"/>
+<Property ID="279" Type="1" Name="Level" Para1="<>" max="26" Desc="小于等级26"/>
+<Property ID="280" Type="1" Name="Level" Para1="<>" max="27" Desc="小于等级27"/>
+<Property ID="281" Type="1" Name="Level" Para1="<>" max="28" Desc="小于等级28"/>
+<Property ID="282" Type="1" Name="Level" Para1="<>" max="29" Desc="小于等级29"/>
+<Property ID="283" Type="1" Name="Level" Para1="<>" max="30" Desc="小于等级30"/>
+<Property ID="284" Type="1" Name="Level" Para1="<>" max="31" Desc="小于等级31"/>
+<Property ID="285" Type="1" Name="Level" Para1="<>" max="32" Desc="小于等级32"/>
+<Property ID="286" Type="1" Name="Level" Para1="<>" max="33" Desc="小于等级33"/>
+<Property ID="287" Type="1" Name="Level" Para1="<>" max="34" Desc="小于等级34"/>
+<Property ID="288" Type="1" Name="Level" Para1="<>" max="35" Desc="小于等级35"/>
+<Property ID="289" Type="1" Name="Level" Para1="<>" max="36" Desc="小于等级36"/>
+<Property ID="290" Type="1" Name="Level" Para1="<>" max="37" Desc="小于等级37"/>
+<Property ID="291" Type="1" Name="Level" Para1="<>" max="38" Desc="小于等级38"/>
+<Property ID="292" Type="1" Name="Level" Para1="<>" max="39" Desc="小于等级39"/>
+<Property ID="293" Type="1" Name="Level" Para1="<>" max="40" Desc="小于等级40"/>
+<Property ID="294" Type="1" Name="Level" Para1="<>" max="41" Desc="小于等级41"/>
+<Property ID = "301" Type = "1" Name = "Force" Para1 = "==" min = "104" Desc = "势力为进攻方" />
+<Property ID = "302" Type = "1" Name = "Force" Para1 = "==" min = "105" Desc = "势力为防守方" />
+<Property ID = "303" Type = "5" Name = "guild_member_rec" Para1 = "1" Para2 = "Name" min = "1" max = "1" Desc = "是不是会长" />
+<Property ID="10080" Type="5" Name="QuestRepeatRecord" Para1="1" Para2="371" min="1"  Desc="371完成任务"/>
+<Property ID="10081" Type="5" Name="QuestRepeatRecord" Para1="1" Para2="372" min="1"  Desc="372完成任务"/>
+<Property ID="10082" Type="5" Name="QuestRepeatRecord" Para1="1" Para2="373" min="1"  Desc="373完成任务"/>
+<Property ID="10083" Type="5" Name="QuestRepeatRecord" Para1="1" Para2="374" min="1"  Desc="374完成任务"/>
+<Property ID="10084" Type="5" Name="QuestRepeatRecord" Para1="1" Para2="375" min="1"  Desc="375完成任务"/>
+<Property ID="10085" Type="5" Name="QuestRepeatRecord" Para1="1" Para2="10100" min="1"  Desc="10100完成任务"/>
+<Property ID="10086" Type="5" Name="QuestRepeatRecord" Para1="1" Para2="12002" min="1"  Desc="12002完成任务"/>
+<Property ID="10087" Type="5" Name="QuestRepeatRecord" Para1="1" Para2="12003" min="1"  Desc="12003完成任务"/>
+<Property ID="10088" Type="5" Name="QuestRepeatRecord" Para1="1" Para2="12004" min="1"  Desc="12004完成任务"/>
+<Property ID="10089" Type="5" Name="QuestRepeatRecord" Para1="1" Para2="2114" min="1"   Desc="2114完成任务"/>
+<Property ID = "10090" Type = "4" Name = "QuestRecord"  Para1 = "0" Para2 = "3954" min = "0"  Desc = "3954已经承接" />
+<Property ID = "10091" Type = "4" Name = "QuestRecord"  Para1 = "0" Para2 = "6047" min = "0"  Desc = "6047已经承接" />
+<Property ID = "10092" Type = "4" Name = "QuestRecord"  Para1 = "0" Para2 = "6057" min = "0"  Desc = "6057已经承接" />
+<Property ID = "10100" Type = "4" Name = "QuestRecord"  Para1 = "0" Para2 = "90" min = "0"  Desc = "90已经承接" />
+<Property ID="10093" Type="5" Name="QuestRepeatRecord" Para1="1" Para2="12001" min="1"  Desc="12001完成任务"/>
+<Property ID = "10094" Type = "4" Name = "QuestRecord"  Para1 = "0" Para2 = "10084" min = "0"  Desc = "10084已经承接" />
+<Property ID = "10095" Type = "4" Name = "QuestRecord"  Para1 = "0" Para2 = "10089" min = "0"  Desc = "10089已经承接" />
+<Property ID = "10096" Type = "4" Name = "QuestRecord"  Para1 = "0" Para2 = "10090" min = "0"  Desc = "10090已经承接" />
+<Property ID = "10097" Type = "4" Name = "QuestRecord"  Para1 = "0" Para2 = "10043" min = "0"  Desc = "10043已经承接" />
+<Property ID="10098" Type="5" Name="QuestRepeatRecord" Para1="1" Para2="10373" min="1"  Desc="10373完成任务"/>
+<Property ID="10099" Type="5" Name="QuestRepeatRecord" Para1="1" Para2="2767" min="1"  Desc="2767完成任务"/>
+<Property ID = "10121" Type = "4" Name = "QuestRecord"  Para1 = "0" Para2 = "6103" min = "0"  Desc = "6103已经承接" />
+<Property ID = "10101" Type = "4" Name = "QuestRecord"  Para1 = "0" Para2 = "6105" min = "0"  Desc = "6105已经承接" />
+<Property ID = "10102" Type = "4" Name = "QuestRecord"  Para1 = "0" Para2 = "6107" min = "0"  Desc = "6107已经承接" />
+<Property ID = "10103" Type = "4" Name = "QuestRecord"  Para1 = "0" Para2 = "6203" min = "0"  Desc = "6203已经承接" />
+<Property ID = "10104" Type = "4" Name = "QuestRecord"  Para1 = "0" Para2 = "6205" min = "0"  Desc = "6205已经承接" />
+<Property ID = "10105" Type = "4" Name = "QuestRecord"  Para1 = "0" Para2 = "6207" min = "0"  Desc = "6207已经承接" />
+<Property ID = "10106" Type = "4" Name = "QuestRecord"  Para1 = "0" Para2 = "6303" min = "0"  Desc = "6303已经承接" />
+<Property ID = "10107" Type = "4" Name = "QuestRecord"  Para1 = "0" Para2 = "6305" min = "0"  Desc = "6305已经承接" />
+<Property ID = "10108" Type = "4" Name = "QuestRecord"  Para1 = "0" Para2 = "6307" min = "0"  Desc = "6307已经承接" />
+<Property ID = "10109" Type = "4" Name = "QuestRecord"  Para1 = "0" Para2 = "6403" min = "0"  Desc = "6403已经承接" />
+<Property ID = "10110" Type = "4" Name = "QuestRecord"  Para1 = "0" Para2 = "6405" min = "0"  Desc = "6405已经承接" />
+<Property ID = "10111" Type = "4" Name = "QuestRecord"  Para1 = "0" Para2 = "6407" min = "0"  Desc = "6407已经承接" />
+<Property ID = "10112" Type = "4" Name = "QuestRecord"  Para1 = "0" Para2 = "6503" min = "0"  Desc = "6503已经承接" />
+<Property ID = "10113" Type = "4" Name = "QuestRecord"  Para1 = "0" Para2 = "6505" min = "0"  Desc = "6505已经承接" />
+<Property ID = "10114" Type = "4" Name = "QuestRecord"  Para1 = "0" Para2 = "6507" min = "0"  Desc = "6507已经承接" />
+<Property ID = "10115" Type = "4" Name = "QuestRecord"  Para1 = "0" Para2 = "6603" min = "0"  Desc = "6603已经承接" />
+<Property ID = "10116" Type = "4" Name = "QuestRecord"  Para1 = "0" Para2 = "6605" min = "0"  Desc = "6605已经承接" />
+<Property ID = "10117" Type = "4" Name = "QuestRecord"  Para1 = "0" Para2 = "6607" min = "0"  Desc = "6607已经承接" />
+<Property ID = "10118" Type = "4" Name = "QuestRecord"  Para1 = "0" Para2 = "6703" min = "0"  Desc = "6703已经承接" />
+<Property ID = "10119" Type = "4" Name = "QuestRecord"  Para1 = "0" Para2 = "6705" min = "0"  Desc = "6705已经承接" />
+<Property ID = "10120" Type = "4" Name = "QuestRecord"  Para1 = "0" Para2 = "6707" min = "0"  Desc = "6707已经承接" />
+<Property ID = "10122" Type = "4" Name = "QuestRecord" Para1 = "0" Para2 = "4181" max = "-1" Desc = "4181没有接受任务" />
+<Property ID = "10123" Type = "4" Name = "QuestRecord" Para1 = "0" Para2 = "4182" max = "-1" Desc = "4182没有接受任务" />
+<Property ID = "10124" Type = "4" Name = "QuestRecord" Para1 = "0" Para2 = "4183" max = "-1" Desc = "4183没有接受任务" />
+<Property ID = "10125" Type = "4" Name = "QuestRecord" Para1 = "0" Para2 = "4184" max = "-1" Desc = "4184没有接受任务" />
+<Property ID = "10126" Type = "4" Name = "QuestRecord"  Para1 = "0" Para2 = "510" min = "0"  Desc = "510已经承接" />
+<Property ID = "10127" Type = "4" Name = "QuestRecord"  Para1 = "0" Para2 = "308" min = "0"  Desc = "308已经承接" />
+<Property ID = "10128" Type = "4" Name = "QuestRecord"  Para1 = "0" Para2 = "7100" min = "0"  Desc = "7100已经承接" />
+<Property ID = "10129" Type = "4" Name = "QuestRecord"  Para1 = "0" Para2 = "7105" min = "0"  Desc = "7105已经承接" />
+<Property ID = "10130" Type = "4" Name = "QuestRecord"  Para1 = "0" Para2 = "7110" min = "0"  Desc = "7110已经承接" />
+<Property ID = "10131" Type = "4" Name = "QuestRecord"  Para1 = "0" Para2 = "7114" min = "0"  Desc = "7114已经承接" />
+<Property ID = "1101" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10001" min = "1"  TextID = "energywell_10001_1" Desc = "蒸汽之渊名望等级大于1级" />
+<Property ID = "1102" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10001" min = "2"  TextID = "energywell_10001_2" Desc = "蒸汽之渊名望等级大于2级" />
+<Property ID = "1103" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10001" min = "3"  TextID = "energywell_10001_3" Desc = "蒸汽之渊名望等级大于3级" />
+<Property ID = "1104" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10001" min = "4"  TextID = "energywell_10001_4" Desc = "蒸汽之渊名望等级大于4级" />
+<Property ID = "1105" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10001" min = "5"  TextID = "energywell_10001_5" Desc = "蒸汽之渊名望等级大于5级" />
+<Property ID = "1201" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10002" min = "1"  TextID = "energywell_10002_1" Desc = "神谕之地名望等级大于1级" />
+<Property ID = "1202" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10002" min = "2"  TextID = "energywell_10002_2" Desc = "神谕之地名望等级大于2级" />
+<Property ID = "1203" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10002" min = "3"  TextID = "energywell_10002_3" Desc = "神谕之地名望等级大于3级" />
+<Property ID = "1204" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10002" min = "4"  TextID = "energywell_10002_4" Desc = "神谕之地名望等级大于4级" />
+<Property ID = "1205" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10002" min = "5"  TextID = "energywell_10002_5" Desc = "神谕之地名望等级大于5级" />
+<Property ID = "1301" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10003" min = "1"  TextID = "energywell_10003_1" Desc = "达贡古城名望等级大于1级" />
+<Property ID = "1302" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10003" min = "2"  TextID = "energywell_10003_2" Desc = "达贡古城名望等级大于2级" />
+<Property ID = "1303" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10003" min = "3"  TextID = "energywell_10003_3" Desc = "达贡古城名望等级大于3级" />
+<Property ID = "1304" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10003" min = "4"  TextID = "energywell_10003_4" Desc = "达贡古城名望等级大于4级" />
+<Property ID = "1305" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10003" min = "5"  TextID = "energywell_10003_5" Desc = "达贡古城名望等级大于5级" />
+<Property ID = "1401" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10004" min = "1"  TextID = "energywell_10004_1" Desc = "古老遗迹名望等级大于1级" />
+<Property ID = "1402" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10004" min = "2"  TextID = "energywell_10004_2" Desc = "古老遗迹名望等级大于2级" />
+<Property ID = "1403" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10004" min = "3"  TextID = "energywell_10004_3" Desc = "古老遗迹名望等级大于3级" />
+<Property ID = "1404" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10004" min = "4"  TextID = "energywell_10004_4" Desc = "古老遗迹名望等级大于4级" />
+<Property ID = "1405" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10004" min = "5"  TextID = "energywell_10004_5" Desc = "古老遗迹名望等级大于5级" />
+<Property ID = "1501" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10005" min = "1"  TextID = "energywell_10005_1" Desc = "虚空之源名望等级大于1级" />
+<Property ID = "1502" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10005" min = "2"  TextID = "energywell_10005_2" Desc = "虚空之源名望等级大于2级" />
+<Property ID = "1503" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10005" min = "3"  TextID = "energywell_10005_3" Desc = "虚空之源名望等级大于3级" />
+<Property ID = "1504" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10005" min = "4"  TextID = "energywell_10005_4" Desc = "虚空之源名望等级大于4级" />
+<Property ID = "1505" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10005" min = "5"  TextID = "energywell_10005_5" Desc = "虚空之源名望等级大于5级" />
+<Property ID = "1601" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10006" min = "1"  TextID = "energywell_10006_1" Desc = "生命奇迹名望等级大于1级" />
+<Property ID = "1602" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10006" min = "2"  TextID = "energywell_10006_2" Desc = "生命奇迹名望等级大于2级" />
+<Property ID = "1603" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10006" min = "3"  TextID = "energywell_10006_3" Desc = "生命奇迹名望等级大于3级" />
+<Property ID = "1604" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10006" min = "4"  TextID = "energywell_10006_4" Desc = "生命奇迹名望等级大于4级" />
+<Property ID = "1605" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10006" min = "5"  TextID = "energywell_10006_5" Desc = "生命奇迹名望等级大于5级" />
+<Property ID = "1701" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10007" min = "1"  TextID = "energywell_10007_1" Desc = "万兽之地名望等级大于1级" />
+<Property ID = "1702" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10007" min = "2"  TextID = "energywell_10007_2" Desc = "万兽之地名望等级大于2级" />
+<Property ID = "1703" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10007" min = "3"  TextID = "energywell_10007_3" Desc = "万兽之地名望等级大于3级" />
+<Property ID = "1704" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10007" min = "4"  TextID = "energywell_10007_4" Desc = "万兽之地名望等级大于4级" />
+<Property ID = "1705" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10007" min = "5"  TextID = "energywell_10007_5" Desc = "万兽之地名望等级大于5级" />
+<Property ID = "1801" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10008" min = "1"  TextID = "energywell_10008_1" Desc = "圣临群岛名望等级大于1级" />
+<Property ID = "1802" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10008" min = "2"  TextID = "energywell_10008_2" Desc = "圣临群岛名望等级大于2级" />
+<Property ID = "1803" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10008" min = "3"  TextID = "energywell_10008_3" Desc = "圣临群岛名望等级大于3级" />
+<Property ID = "1804" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10008" min = "4"  TextID = "energywell_10008_4" Desc = "圣临群岛名望等级大于4级" />
+<Property ID = "1805" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10008" min = "5"  TextID = "energywell_10008_5" Desc = "圣临群岛名望等级大于5级" />
+<Property ID = "1901" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10009" min = "1"  TextID = "energywell_10009_1" Desc = "能源矿脉名望等级大于1级" />
+<Property ID = "1902" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10009" min = "2"  TextID = "energywell_10009_2" Desc = "能源矿脉名望等级大于2级" />
+<Property ID = "1903" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10009" min = "3"  TextID = "energywell_10009_3" Desc = "能源矿脉名望等级大于3级" />
+<Property ID = "1904" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10009" min = "4"  TextID = "energywell_10009_4" Desc = "能源矿脉名望等级大于4级" />
+<Property ID = "1905" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10009" min = "5"  TextID = "energywell_10009_5" Desc = "能源矿脉名望等级大于5级" />
+<Property ID = "11001" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10010" min = "1"  TextID = "energywell_10010_1" Desc = "远古废墟名望等级大于1级" />
+<Property ID = "11002" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10010" min = "2"  TextID = "energywell_10010_2" Desc = "远古废墟名望等级大于2级" />
+<Property ID = "11003" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10010" min = "3"  TextID = "energywell_10010_3" Desc = "远古废墟名望等级大于3级" />
+<Property ID = "11004" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10010" min = "4"  TextID = "energywell_10010_4" Desc = "远古废墟名望等级大于4级" />
+<Property ID = "11005" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10010" min = "5"  TextID = "energywell_10010_5" Desc = "远古废墟名望等级大于5级" />
+<Property ID = "11101" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10011" min = "1"  TextID = "energywell_10011_1" Desc = "海岸钻井名望等级大于1级" />
+<Property ID = "11102" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10011" min = "2"  TextID = "energywell_10011_2" Desc = "海岸钻井名望等级大于2级" />
+<Property ID = "11103" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10011" min = "3"  TextID = "energywell_10011_3" Desc = "海岸钻井名望等级大于3级" />
+<Property ID = "11104" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10011" min = "4"  TextID = "energywell_10011_4" Desc = "海岸钻井名望等级大于4级" />
+<Property ID = "11105" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10011" min = "5"  TextID = "energywell_10011_5" Desc = "海岸钻井名望等级大于5级" />
+<Property ID = "11201" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10012" min = "1"  TextID = "energywell_10012_1" Desc = "水晶塔名望等级大于1级" />
+<Property ID = "11202" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10012" min = "2"  TextID = "energywell_10012_2" Desc = "水晶塔名望等级大于2级" />
+<Property ID = "11203" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10012" min = "3"  TextID = "energywell_10012_3" Desc = "水晶塔名望等级大于3级" />
+<Property ID = "11204" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10012" min = "4"  TextID = "energywell_10012_4" Desc = "水晶塔名望等级大于4级" />
+<Property ID = "11205" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10012" min = "5"  TextID = "energywell_10012_5" Desc = "水晶塔名望等级大于5级" />
+<Property ID = "11301" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10013" min = "1"  TextID = "energywell_10013_1" Desc = "高地之塔名望等级大于1级" />
+<Property ID = "11302" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10013" min = "2"  TextID = "energywell_10013_2" Desc = "高地之塔名望等级大于2级" />
+<Property ID = "11303" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10013" min = "3"  TextID = "energywell_10013_3" Desc = "高地之塔名望等级大于3级" />
+<Property ID = "11304" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10013" min = "4"  TextID = "energywell_10013_4" Desc = "高地之塔名望等级大于4级" />
+<Property ID = "11305" Type = "7" Name = "player_energy_well_record"  Para1 = "1" Para2 = "10013" min = "5"  TextID = "energywell_10013_5" Desc = "高地之塔名望等级大于5级" />
+<Property ID = "10132" Type = "4" Name = "QuestRecord"  Para1 = "0" Para2 = "2577" min = "0"  Desc = "2577已经承接" />
+<Property ID = "10136" Type = "4" Name = "QuestRecord"  Para1 = "0" Para2 = "2569" min = "0"  Desc = "2569已经承接" />
+</Object>

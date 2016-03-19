@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+  <!-- 奖励类型 奖励方式 -->
+  <Property Type="RewardPveTask"   Way="5,0,5" Picturebig="gui\ZQ\help\active_bg_task.png" PictureReward="ZQ\help\active_bg_1.png"/>
+  <Property Type="RewardEvent"     Way="5,0,5" Picturebig="gui\ZQ\help\active_bg_event.png" PictureReward="ZQ\help\active_bg_1.png"/>
+  <Property Type="RewardScene"     Way="30,0,1" Picturebig="gui\ZQ\help\active_bg_clone.png" PictureReward="ZQ\help\active_bg_4.png"/>
+  <Property Type="RewardPvpTask"   Way="5,0,7" Picturebig="gui\ZQ\help\active_bg_pvp.png" PictureReward="ZQ\help\active_bg_1.png"/>
+  <Property Type="RewardBattle"    Way="30,0,1" Picturebig="gui\ZQ\help\active_bg_war.png" PictureReward="ZQ\help\active_bg_3.png"/>
+  <Property Type="RewardAthletics" Way="5,0,2" Picturebig="gui\ZQ\help\active_bg_risk.png" PictureReward="ZQ\help\active_bg_3.png"/>
+</Object>

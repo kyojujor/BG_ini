@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="gb2312"?><!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!--ID 流水号 
+    PackageID 附加物品包ID 
+    Name 附加物品包名称 
+    ItemID 物品ID 
+    Rate 掉落率 
+    MaxNum 掉落数量上限(在0至MaxNum之间随机)-->
+<Object>
+	<Property ID="1" Name="给予物品" PackageID="Test001" ItemID="EnergyF_ty_00003C" Rate="0.3" MaxNum="1"/>
+	<Property ID="2" Name="给予物品" PackageID="Test002" ItemID="Defensive_00005B" Rate="0.5" MaxNum="10"/>
+	<Property ID="3" Name="给予物品" PackageID="Test003" ItemID="Defensive_00006C" Rate="0.5" MaxNum="3"/>
+	<Property ID="4" Name="给予物品" PackageID="Test004" ItemID="Defensive_00010D" Rate="0.5" MaxNum="5"/>
+	<Property ID="5" Name="给予物品" PackageID="Test005" ItemID="Defensive_00012D" Rate="0.5" MaxNum="5"/>
+	<Property ID="6" Name="给予物品" PackageID="Test006" ItemID="Defensive_00013D" Rate="0.5" MaxNum="8"/>
+</Object>

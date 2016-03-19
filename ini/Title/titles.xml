@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2010 (http://www.altova.com) by zhangcq (snail) -->
+<!--阵营种族职业性别对应的为位串，对应的位为零则相关的类型不支持这个称号-->
+<!--ID：称号的ID，以100为例子：1代表称号ID，00代表此称号有效时间为永久有效，若为01则会对应参数t01-=1，20.其中“1”代表此称号可以通过多次获得叠加时间，若为0则表示时间不可叠加，“20”代表时间为20x小时。若为02则对应参数未t02-,以此类推；
+Levle：称号的条件限制；
+Camp：阵营条件，从左到右，对应蒸汽，奇幻，1为符合，0为不符合；
+Race：种族条件，从左到右，分别对应人族，血族，矮人，奇幻人类，野蛮人，喀什，1为符合，0为不符合；
+Job：职业条件，从左到右，分别为仲裁者，蒸汽学徒，秘法师，麦克骑士，野性守护者，猎魔人，炼金师，魔法师，惩罚者，神枪手，执行者，器械师，构造师，异教徒，咒术师，黑暗祭祀，女巫，泰坦骑士，风暴骑士，破碎骑士，熊人，蛮牛人，狼人，刀锋战士，狩猎者，魔剑士，炼器师，医师，变能师，控火者，大地使者，御风者，1为符合，0为不符合；
+
+PropAddBuffID：称号添加的BUFF，不同的BUFFID给予不同的称号实际效果；
+Name: 称号的名称，需要在中文包里另行配置；
+
+type: 称号的类型，1 角色,2 生活,3 任务,4 副本,5 节日,6 社交,7 PVP  
+
+classify 称号所属大类   
+	TITLE_TYPE_ALL,	   //总揽   100    对应   type 0
+	TITLE_TYPE_ROLE,   //角色   101                1
+	TITLE_TYPE_LIFE,   //生活   102                2
+	TITLE_TYPE_TASK,   //任务   103                3
+	TITLE_TYPE_FUBEN,  //副本   104                4
+	TITLE_TYPE_FESTIVAL,//节日  105                5
+	TITLE_TYPE_SOCIAL,  //社交  106                6
+	TITLE_TYPE_PVP,    //PVP    107                7
+
+
+classify2 称号所属小类
+	TITLE_TYPE_NONE        //总揽小类 200
+	TITLE_TYPE_MONEY,	   //金钱   201
+	TITLE_TYPE_LEVEL,   //等级      202
+	TITLE_TYPE_ITEM,   //道具       203
+注意：  总揽100 和 总揽小类 200 不需要配置任何称号
+
+PictureGetNoSelect 以获得称号 未点击时的背景图
+PictureGetSelect   以获得称号 点击时的背景图
+PictureNoGetNoSelect 未获得称号 未点击时的背景图
+PictureNoGetSelect 未获得称号 点击时的背景图
+
+desc：称号的描述，需要在中文包里另行配置；  title_desc_xxx
+buff_desc 属性加成的说明                    title_buff_desc_xxx
+lock_desc 未解锁称号 显示的说明信息         title_lock_desc_xxx
+achieve_picture 获得方式的图标
+achieve_name    获得方式的文字说明          title_achieve_name_xxx
+notify_send 该称号获得时是否需要通告全服 0为不通告；1为需要通告
+notify_id 通告的中文范例ID，具体通告内容参见Notify_Info.idres中对应的ID
+
+中文包路径：client\Exec\res\text\ChineseS Title.idres
+所有BUFF说明：
+title_buff0001_01 所有属性+5 应用称号ID=100
+title_buff0002_01 所有属性+1-->
+<Object>
+	<Property ID="100" Name="新人" Level="1-10" Camp="11" Race="111111" Job="11111111111111111111111111111111" Sex="11" PropAddBuffID="" type="1" classify="101" classify2="202" PictureGetNoSelect="gui\\QH\\common_new\\Btn_common_1_up.png" PictureGetSelect="gui\\QH\\common_new\\Btn_common_1_over.png" PictureNoGetNoSelect="gui\\QH\\common_new\\Btn_common_2_up.png" PictureNoGetSelect="gui\\QH\\common_new\\Btn_common_2_over.png" desc="title_desc_100" buff_desc="" lock_desc="title_lock_desc_100" achieve_picture="gui\\mainform_BG\\baioqing_04.png" achieve_name="title_achieve_name_100" notify_send="0" notify_id=""/>
+</Object>

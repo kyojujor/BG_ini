@@ -1,0 +1,44 @@
+<root version="1.0">
+    <node type="1" name="ItemNpc.xml" path="ItemNpc.xml" desc="ItemNpc.xml请输入描述" />
+    <node type="1" name="RoadandItem.xml" path="RoadandItem.xml" desc="RoadandItem.xml请输入描述" />
+    <node type="1" name="Task.xml" path="Task.xml" desc="Task.xml请输入描述" />
+    <node type="0" name="裂痕丘陵" desc="裂痕丘陵">
+        <node type="1" name="liehen_ItemNpc.xml" path="liehen_ItemNpc.xml" desc="裂痕丘陵触发器类,物件类Npc" />
+        <node type="1" name="liehen_monsterNpc.xml" path="liehen_monsterNpc.xml" desc="裂痕丘陵怪物Npc" />
+        <node type="1" name="liehen_FuncNpc.xml" path="liehen_FuncNpc.xml" desc="裂痕丘陵功能Npc" />
+        <node type="1" name="liehen_TriggerNpc.xml" path="liehen_TriggerNpc.xml" desc="裂痕丘陵触发器" />
+        <node type="1" name="liehen_TaskNpc.xml" path="liehen_TaskNpc.xml" desc="裂痕丘陵任务Npc" />
+    </node>
+    <node type="0" name="克威尔郡" desc="克威尔郡">
+        <node type="1" name="kewei_ItemNpc.xml" path="kewei_ItemNpc.xml" desc="克威尔郡触发器类,物件类Npc" />
+        <node type="1" name="kewei_FuncNpc.xml" path="kewei_FuncNpc.xml" desc="克威尔郡功能Npc" />
+        <node type="1" name="kewei_TriggerNpc.xml" path="kewei_TriggerNpc.xml" desc="克威尔郡触发器" />
+        <node type="1" name="kewei_monsterNpc.xml" path="kewei_monsterNpc.xml" desc="克威尔郡怪物Npc" />
+        <node type="1" name="kewei_TaskNpc.xml" path="kewei_TaskNpc.xml" desc="克威尔郡任务Npc" />
+    </node>
+    <node type="0" name="卡地亚" desc="卡地亚">
+        <node type="1" name="kadiya_ItemNpc.xml" path="kadiya_ItemNpc.xml" desc="卡地亚触发器类,物件类Npc" />
+        <node type="1" name="kadiya_monsterNpc.xml" path="kadiya_monsterNpc.xml" desc="卡地亚怪物Npc" />
+        <node type="1" name="kadiya_FuncNpc.xml" path="kadiya_FuncNpc.xml" desc="卡地亚功能Npc" />
+        <node type="1" name="kadiya_TriggerNpc.xml" path="kadiya_TriggerNpc.xml" desc="卡地亚触发器" />
+        <node type="1" name="kadiya_TaskNpc.xml" path="kadiya_TaskNpc.xml" desc="卡地亚任务Npc" />
+    </node>
+    <node type="0" name="亚提伦" desc="亚提伦">
+        <node type="1" name="yatilun_ItemNpc.xml" path="yatilun_ItemNpc.xml" desc="亚提伦触发器类,物件类Npc" />
+        <node type="1" name="yatilun_monsterNpc.xml" path="yatilun_monsterNpc.xml" desc="亚提伦怪物Npc" />
+        <node type="1" name="yatilun_FuncNpc.xml" path="yatilun_FuncNpc.xml" desc="亚提伦功能Npc" />
+        <node type="1" name="yatilun_TriggerNpc.xml" path="yatilun_TriggerNpc.xml" desc="亚提伦触发器" />
+        <node type="1" name="yatilun_TaskNpc.xml" path="yatilun_TaskNpc.xml" desc="亚提伦任务Npc" />
+    </node>
+    <node type="0" name="克瑞托尔" desc="克瑞托尔">
+        <node type="1" name="kerui_ItemNpc.xml" path="kerui_ItemNpc.xml" desc="克瑞托尔触发器类,物件类Npc" />
+        <node type="1" name="kerui_monsterNpc.xml" path="kerui_monsterNpc.xml" desc="克瑞托尔怪物Npc" />
+        <node type="1" name="kerui_FuncNpc.xml" path="kerui_FuncNpc.xml" desc="克瑞托尔功能Npc" />
+        <node type="1" name="kerui_TriggerNpc.xml" path="kerui_TriggerNpc.xml" desc="克瑞托尔触发器" />
+        <node type="1" name="kerui_TaskNpc.xml" path="kerui_TaskNpc.xml" desc="克瑞托尔任务Npc" />
+    </node>
+    <node type="0" name="新建文件夹" desc="废墟镜像副本">
+        <node type="1" name="keruiFB_monsterNpc.xml" path="keruiFB_monsterNpc.xml" desc="废墟分组场景副本怪物NPC" />
+        <node type="1" name="keruiFB_FuncNpc.xml" path="keruiFB_FuncNpc.xml" desc="废墟分组场景功能NPC" />
+    </node>
+</root>

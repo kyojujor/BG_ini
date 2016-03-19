@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+	<Property ID = "Hat" SkinList = "hat_skin" MtlList = "HairColor" EquList = "hat" ColorType="HairColor"/>
+	<Property ID = "Cloth" SkinList = "cloth_skin" MtlList = "SkinMtl,SkinColor" EquList = "cloth,cloth_more" ColorType="SkinColor"/>
+	<Property ID = "Pants" SkinList = "pants_skin" MtlList = "SkinMtl,SkinColor" EquList = "pants,pants_more" ColorType="SkinColor"/>
+	<Property ID = "Gloves" SkinList = "gloves_skin" MtlList = "SkinMtl,SkinColor" EquList = "gloves,gloves_more" ColorType="SkinColor"/>
+	<Property ID = "Shoes" SkinList = "shoes_skin" MtlList = "SkinMtl,SkinColor" EquList = "shoes,shoes_more" ColorType="SkinColor"/>
+	<Property ID = "Mantle" ColorType="SkinColor"/>
+	<Property ID = "Face" SkinList = "face" MtlList = "SkinColor"  ColorType="SkinColor"/>
+	<Property ID = "Eyes" ColorType="EyesColor"/>
+	<Property ID = "Beard" SkinList = "beard,chin_beard" MtlList = "HairColor"  ColorType="BeardColor"/>
+	<Property ID = "Ears"  MtlList = "SkinColor" ColorType="SkinColor"/>
+	<Property ID = "Tail"  MtlList = "SkinColor" ColorType="SkinColor"/>
+	<Property ID = "Finger" ColorType="FingerColor"/>
+	<Property ID = "Trait" ColorType=""/>
+	<Property ID = "Special" ColorType="SkinColor"/>
+	<Property ID = "LWeapon" ColorType=""/>
+	<Property ID = "RWeapon" ColorType=""/>
+</Object>

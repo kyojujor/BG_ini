@@ -1,0 +1,50 @@
+<root version="1.0">
+    <node type="1" name="chenghaotest.xml" path="chenghaotest.xml" desc="chenghaotest.xml请输入描述" />
+    <node type="1" name="GivingNpc.xml" path="GivingNpc.xml" desc="GivingNpc.xml请输入描述" />
+    <node type="1" name="ItemNpc.xml" path="ItemNpc.xml" desc="ItemNpc.xml请输入描述" />
+    <node type="1" name="NPC.xml" path="NPC.xml" desc="NPC.xml请输入描述" />
+    <node type="1" name="RoadandItem.xml" path="RoadandItem.xml" desc="RoadandItem.xml请输入描述" />
+    <node type="1" name="stage_data_clone_door.xml" path="stage_data_clone_door.xml" desc="stage_data_clone_door.xml请输入描述" />
+    <node type="1" name="Task.xml" path="Task.xml" desc="Task.xml请输入描述" />
+    <node type="1" name="testfly.xml" path="testfly.xml" desc="testfly.xml请输入描述" />
+    <node type="1" name="testj.xml" path="testj.xml" desc="testj.xml请输入描述" />
+    <node type="1" name="FYPY.xml" path="FYPY.xml" desc="FYPY.xml请输入描述" />
+    <node type="1" name="RENZEYU TEST.xml" path="RENZEYU TEST.xml" desc="RENZEYU TEST.xml请输入描述" />
+    <node type="1" name="ZRSD_door.xml" path="ZRSD_door.xml" desc="ZRSD_door.xml请输入描述" />
+    <node type="0" name="ChenXiQiuLing" desc="新建文件夹请输入描述" />
+    <node type="0" name="晨曦丘陵" desc="晨曦丘陵">
+        <node type="1" name="chenxi_ItemNpc.xml" path="chenxi_ItemNpc.xml" desc="晨曦丘陵触发器类,物件类Npc" />
+        <node type="1" name="chenxi_monsterNpc.xml" path="chenxi_monsterNpc.xml" desc="晨曦丘陵怪物Npc" />
+        <node type="1" name="chenxi_FuncNpc.xml" path="chenxi_FuncNpc.xml" desc="晨曦丘陵功能Npc" />
+        <node type="1" name="chenxi_TriggerNpc.xml" path="chenxi_TriggerNpc.xml" desc="晨曦丘陵触发器" />
+        <node type="1" name="chenxi_TaskNpc.xml" path="chenxi_TaskNpc.xml" desc="晨曦丘陵任务Npc" />
+    </node>
+    <node type="0" name="风雨平原" desc="风雨平原">
+        <node type="1" name="fengyu_ItemNpc.xml" path="fengyu_ItemNpc.xml" desc="风雨平原触发器类,物件类Npc" />
+        <node type="1" name="fengyu_monsterNpc.xml" path="fengyu_monsterNpc.xml" desc="风雨平原怪物Npc" />
+        <node type="1" name="fengyu_FuncNpc.xml" path="fengyu_FuncNpc.xml" desc="风雨平原功能Npc" />
+        <node type="1" name="fengyu_TriggerNpc.xml" path="fengyu_TriggerNpc.xml" desc="风雨平原触发器" />
+        <node type="1" name="fengyu_TaskNpc.xml" path="fengyu_TaskNpc.xml" desc="风雨平原任务Npc" />
+    </node>
+    <node type="0" name="朝日圣地" desc="朝日圣地">
+        <node type="1" name="chaori_ItemNpc.xml" path="chaori_ItemNpc.xml" desc="朝日圣地触发器类,物件类Npc" />
+        <node type="1" name="chaori_monsterNpc.xml" path="chaori_monsterNpc.xml" desc="朝日圣地怪物Npc" />
+        <node type="1" name="chaori_FuncNpc.xml" path="chaori_FuncNpc.xml" desc="朝日圣地功能Npc" />
+        <node type="1" name="chaori_TriggerNpc.xml" path="chaori_TriggerNpc.xml" desc="朝日圣地触发器" />
+        <node type="1" name="chaori_TaskNpc.xml" path="chaori_TaskNpc.xml" desc="朝日圣地任务Npc" />
+    </node>
+    <node type="0" name="巨树沼泽" desc="巨树沼泽">
+        <node type="1" name="jushu_ItemNpc.xml" path="jushu_ItemNpc.xml" desc="巨树沼泽触发器类,物件类Npc" />
+        <node type="1" name="jushu_monsterNpc.xml" path="jushu_monsterNpc.xml" desc="巨树沼泽怪物Npc" />
+        <node type="1" name="jushu_FuncNpc.xml" path="jushu_FuncNpc.xml" desc="巨树沼泽功能Npc" />
+        <node type="1" name="jushu_TriggerNpc.xml" path="jushu_TriggerNpc.xml" desc="巨树沼泽触发器" />
+        <node type="1" name="jushu_TaskNpc.xml" path="jushu_TaskNpc.xml" desc="巨树沼泽任务Npc" />
+    </node>
+    <node type="0" name="蒂加海岸" desc="蒂加海岸">
+        <node type="1" name="dijia_ItemNpc.xml" path="dijia_ItemNpc.xml" desc="蒂加海岸触发器类,物件类Npc" />
+        <node type="1" name="dijia_monsterNpc.xml" path="dijia_monsterNpc.xml" desc="蒂加海岸怪物Npc" />
+        <node type="1" name="dijia_FuncNpc.xml" path="dijia_FuncNpc.xml" desc="蒂加海岸功能Npc" />
+        <node type="1" name="dijia_TriggerNpc.xml" path="dijia_TriggerNpc.xml" desc="蒂加海岸触发器" />
+        <node type="1" name="dijia_TaskNpc.xml" path="dijia_TaskNpc.xml" desc="蒂加海岸任务Npc" />
+    </node>
+</root>

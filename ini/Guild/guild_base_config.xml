@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+	<!-- ID=设施ID号  Level=设施等级 res_0~res_5=设施资源图片 des=注释 -->
+	<!--
+		Level = 0 时设施处于未激活状态
+		Level > 0 时设施已经激活
+		没有等级的设施也是一样的只是Level只有两个值0和>0的值
+	-->
+	<Property ID = "Guild_Base_Storage" Level = "0,1" res_0="skin\\png\\common\\button\\logo.png" res_1="skin\\png\\common\\button\\logo.png" des="公会仓库"/>
+	<Property ID = "Guild_Base_Cook" Level = "0,1,2,3,4,5" res_0="skin\\png\\common\\button\\logo.png" res_1="skin\\png\\common\\button\\logo.png" res_2="skin\\png\\common\\button\\logo.png" res_3="skin\\png\\common\\button\\logo.png" res_4="skin\\png\\common\\button\\logo.png" res_5="skin\\png\\common\\button\\logo.png" des="烹饪工坊"/>
+	<Property ID = "Guild_Base_Sewing" Level = "0,1,2,3,4,5" res_0="skin\\png\\common\\button\\logo.png" res_1="skin\\png\\common\\button\\logo.png" res_2="skin\\png\\common\\button\\logo.png" res_3="skin\\png\\common\\button\\logo.png" res_4="skin\\png\\common\\button\\logo.png" res_5="skin\\png\\common\\button\\logo.png" des="缝纫工坊"/>
+	<Property ID = "Guild_Base_Smelt" Level = "0,1,2,3,4,5" res_0="skin\\png\\common\\button\\logo.png" res_1="skin\\png\\common\\button\\logo.png" res_2="skin\\png\\common\\button\\logo.png" res_3="skin\\png\\common\\button\\logo.png" res_4="skin\\png\\common\\button\\logo.png" res_5="skin\\png\\common\\button\\logo.png" des="炼金工坊"/>
+	<Property ID = "Guild_Base_Ironsmith" Level = "0,1,2,3,4,5" res_0="skin\\png\\common\\button\\logo.png" res_1="skin\\png\\common\\button\\logo.png" res_2="skin\\png\\common\\button\\logo.png" res_3="skin\\png\\common\\button\\logo.png" res_4="skin\\png\\common\\button\\logo.png" res_5="skin\\png\\common\\button\\logo.png" des="铁匠工坊"/>
+	<Property ID = "Guild_Base_Miracle" Level = "0,1" res_0="skin\\png\\common\\button\\logo.png" res_1="skin\\png\\common\\button\\logo.png" des="奇迹"/>
+	<Property ID = "Guild_Base_Shop" Level = "0,1,2,3,4,5" res_0="skin\\png\\common\\button\\logo.png" res_1="skin\\png\\common\\button\\logo.png" res_2="skin\\png\\common\\button\\logo.png" res_3="skin\\png\\common\\button\\logo.png" res_4="skin\\png\\common\\button\\logo.png" res_5="skin\\png\\common\\button\\logo.png" des="商店"/>
+	<Property ID = "Guild_Base_House" Level = "0,1,2,3,4,5" res_0="skin\\png\\common\\button\\logo.png" res_1="skin\\png\\common\\button\\logo.png" res_2="skin\\png\\common\\button\\logo.png" res_3="skin\\png\\common\\button\\logo.png" res_4="skin\\png\\common\\button\\logo.png" res_5="skin\\png\\common\\button\\logo.png" des="住宅"/>
+	<Property ID = "Guild_Base_Study" Level = "0,1,2,3,4,5" res_0="skin\\png\\common\\button\\logo.png" res_1="skin\\png\\common\\button\\logo.png" res_2="skin\\png\\common\\button\\logo.png" res_3="skin\\png\\common\\button\\logo.png" res_4="skin\\png\\common\\button\\logo.png" res_5="skin\\png\\common\\button\\logo.png" des="研究院"/>
+</Object>

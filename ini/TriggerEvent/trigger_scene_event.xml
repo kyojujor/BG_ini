@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<Stage>
+	<Scene SceneId="" Param="">
+		<Object SceneId="1">
+			<TriggerEvent EventId="210" Processor="EventInit_1019"/>
+			<TriggerEvent EventId="601" Processor="EventRun_Scene1"/>
+			<TriggerEvent EventId="211" Processor="EventDestory_1019"/>
+		</Object>
+		<Object SceneId="101">
+			<TriggerEvent EventId="601" Processor="12081309250124"/>
+			<TriggerEvent EventId="206" Processor="12081309222912"/>
+		</Object>
+		<Object SceneId="106">
+			<TriggerEvent EventId="209" Processor="FB_XSTY_MC_01"/>
+		</Object>
+		<Object SceneId="126">
+			<TriggerEvent EventId="209" Processor="FB_XSTY_MC_01"/>
+		</Object>
+		<Object SceneId="108">
+			<TriggerEvent EventId="209" Processor="fenzu108"/>
+		</Object>
+		<Object SceneId="109">
+			<TriggerEvent EventId="209" Processor="fenzu109"/>
+		</Object>
+		<Object SceneId="110">
+			<TriggerEvent EventId="209" Processor="fenzu110"/>
+		</Object>
+		<Object SceneId="111">
+			<TriggerEvent EventId="209" Processor="fenzu111"/>
+		</Object>
+		<Object SceneId="116">
+			<TriggerEvent EventId="209" Processor="FB_XSTY_ZQ_001"/>
+			<TriggerEvent EventId="209" Processor="xinshou116music"/>
+		</Object>
+		<Object SceneId="127">
+			<TriggerEvent EventId="209" Processor="FB_XSTY_ZQ_001"/>
+		</Object>
+		<Object SceneId="2">
+			<TriggerEvent EventId="210" Processor="EventInit_14036"/>
+			<TriggerEvent EventId="601" Processor="EventRun_Scene2"/>
+			<TriggerEvent EventId="211" Processor="Event14036_Destory"/>
+		</Object>
+		<Object SceneId="205">
+			<TriggerEvent EventId="201" Processor="zqnlj_music"/>
+		</Object>
+		<Object SceneId="3">
+			<TriggerEvent EventId="210" Processor="EventInit_3"/>
+			<TriggerEvent EventId="211" Processor="Event_Start_1501601"/>
+			<TriggerEvent EventId="601" Processor="EventRun_3"/>
+		</Object>
+		<Object SceneId="5">
+			<TriggerEvent EventId="211" Processor="event_7015_05"/>
+		</Object>
+		<Object SceneId="7">
+			<TriggerEvent EventId="210" Processor="Event_Start_3015"/>
+			<TriggerEvent EventId="211" Processor="Event_End_3015"/>
+		</Object>
+	</Scene>
+</Stage>

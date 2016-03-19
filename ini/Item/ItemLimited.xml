@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!--UserArea 物品限制格式说明：场景id|X坐标,Y,Z|范围 [;id|x,y,z|radius;...] ?-->
+<Object>
+	<Property ID="-1" Job="0" Level="1" Camp="2" Prestige="3" Rank="4" Race="5" UseArea="6" Name="7"/>
+	<Property ID="0" Job="6" Level="2" Camp="6" Prestige="6" Rank="6" Race="6" UseArea="6" Name="6"/>
+	<Property ID="1" Job="1,2" Level="2" Camp="1,2" Prestige="0,2,4" Rank="0,5" Name="限制等级为2阵营为1,2"/>
+	<Property ID="2" Job="2,4" Level="2" Camp="1,2" Prestige="0,24" Rank="0,1" Name="限制等级为2阵营为1,2"/>
+	<Property ID="3" Job="1,21,22,23" Level="1" Name="限制等级为1"/>
+	<Property ID="4" Job="2,24,25,26" Level="1" Name="限制等级为1"/>
+	<Property ID="5" Job="3,27,28,29" Level="1" Name="限制等级为1"/>
+	<Property ID="6" Job="4,30,31,32" Level="1" Name="限制等级为1"/>
+	<Property ID="7" Job="5,33,34,35" Level="1" Name="限制等级为1"/>
+	<Property ID="8" Job="6,36,37,38" Level="1" Name="限制等级为1"/>
+	<Property ID="9" Job="7,39,40,41" Level="1" Name="限制等级为1"/>
+	<Property ID="10" Job="8,42,43,44" Level="1" Name="限制等级为1"/>
+	<Property ID="11" Camp="1" Name="阵营为1"/>
+	<Property ID="12" Camp="2" Name="阵营为2"/>
+	<Property ID="100" Job="24" Level="1" Camp="1" Name="限制等级为1阵营为1"/>
+	<Property ID="101" Level="1" Camp="1" Name="限制等级为1阵营为1"/>
+	<Property ID="102" Level="1" Camp="2" Name="限制等级为1阵营为2"/>
+	<Property ID="103" Level="1" Camp="2" Name="限制等级为1阵营为2"/>
+	<Property ID="104" Level="1" Camp="1" Name="限制等级为1阵营为1"/>
+	<Property ID="105" Level="1" Camp="2" Name="限制等级为1阵营为2"/>
+	<Property ID="106" Level="1" Camp="2" Name="限制等级为1阵营为2"/>
+	<Property ID="107" Level="1" Name="限制等级为1"/>
+	<Property ID="108" Level="1" Camp="2" Name="限制等级为1阵营为2"/>
+	<Property ID="109" Level="1" Camp="2" Name="限制等级为1阵营为2"/>
+	<Property ID="110" Level="1" Camp="1" Name="限制等级为1阵营为1"/>
+	<Property ID="111" Level="1" Camp="1" Name="限制等级为1阵营为1"/>
+	<Property ID="112" Level="1" Name="限制等级为1"/>
+	<Property ID="113" Level="1" Name="限制等级为1"/>
+	<Property ID="114" Level="1" Name="限制等级为1"/>
+	<Property ID="115" Level="1" Name="限制等级为1"/>
+	<Property ID="116" Level="1" Camp="1" Name="限制等级为1阵营为1"/>
+	<Property ID="117" Level="1" Name="限制等级为1"/>
+	<Property ID="118" Level="1" Name="限制等级为1"/>
+	<Property ID="119" Level="1" Name="限制等级为1"/>
+	<Property ID="120" Level="1" Name="限制等级为1"/>
+	<Property ID="121" Level="1" Camp="1" Name="限制等级为1阵营为1"/>
+	<Property ID="122" Level="1" Camp="2" Name="限制等级为1阵营为2"/>
+	<Property ID="123" Level="1" Camp="1" Name="限制等级为1阵营为1"/>
+	<Property ID="124" Level="1" Camp="2" Name="限制等级为1阵营为2"/>
+	<Property ID="125" Level="1" Camp="2" Name="限制等级为1阵营为2"/>
+	<Property ID="126" Level="1" Camp="1" Name="限制等级为1阵营为1"/>
+	<Property ID="127" Level="1" Camp="2" Name="限制等级为1阵营为2"/>
+	<Property ID="128" Level="1" Camp="1" Name="限制等级为1阵营为1"/>
+	<Property ID="129" Level="1" Camp="2" Name="限制等级为1阵营为2"/>
+	<Property ID="130" Job="25" Level="1" Camp="1" Name="限制等级为1阵营为1"/>
+	<Property ID="131" Level="1" Camp="1" Name="限制等级为1阵营为1"/>
+	<Property ID="132" Level="1" Camp="1" Name="限制等级为1阵营为1"/>
+	<Property ID="133" Level="1" Camp="2" Name="限制等级为1阵营为2"/>
+	<Property ID="134" Level="1" Name="限制等级为1"/>
+	<Property ID="135" Level="2" Name="限制等级为2"/>
+	<Property ID="136" Level="3" Name="限制等级为3"/>
+	<Property ID="137" Level="4" Name="限制等级为4"/>
+	<Property ID="138" Level="5" Name="限制等级为5"/>
+	<Property ID="139" Level="6" Name="限制等级为6"/>
+	<Property ID="140" Level="7" Name="限制等级为7"/>
+	<Property ID="141" Level="8" Name="限制等级为8"/>
+	<Property ID="142" Level="9" Name="限制等级为9"/>
+	<Property ID="143" Level="10" Name="限制等级为10"/>
+	<Property ID="144" Level="11" Name="限制等级为11"/>
+	<Property ID="145" Level="12" Name="限制等级为12"/>
+	<Property ID="146" Level="13" Name="限制等级为13"/>
+	<Property ID="147" Level="14" Name="限制等级为14"/>
+	<Property ID="148" Level="15" Name="限制等级为15"/>
+	<Property ID="149" Level="16" Name="限制等级为16"/>
+	<Property ID="150" Level="17" Name="限制等级为17"/>
+	<Property ID="151" Level="18" Name="限制等级为18"/>
+	<Property ID="152" Level="19" Name="限制等级为19"/>
+	<Property ID="153" Level="20" Name="限制等级为20"/>
+	<Property ID="154" Level="21" Name="限制等级为21"/>
+	<Property ID="155" Level="22" Name="限制等级为22"/>
+	<Property ID="156" Level="23" Name="限制等级为23"/>
+	<Property ID="157" Level="24" Name="限制等级为24"/>
+	<Property ID="158" Level="25" Name="限制等级为25"/>
+	<Property ID="159" Level="26" Name="限制等级为26"/>
+	<Property ID="160" Level="27" Name="限制等级为27"/>
+	<Property ID="161" Level="28" Name="限制等级为28"/>
+	<Property ID="162" Level="29" Name="限制等级为29"/>
+	<Property ID="163" Level="30" Name="限制等级为30"/>
+	<Property ID="164" Level="31" Name="限制等级为31"/>
+	<Property ID="165" Level="32" Name="限制等级为32"/>
+	<Property ID="166" Level="33" Name="限制等级为33"/>
+	<Property ID="167" Level="34" Name="限制等级为34"/>
+	<Property ID="168" Level="35" Name="限制等级为35"/>
+	<Property ID="169" Level="36" Name="限制等级为36"/>
+	<Property ID="170" Level="37" Name="限制等级为37"/>
+	<Property ID="171" Level="38" Name="限制等级为38"/>
+	<Property ID="172" Level="39" Name="限制等级为39"/>
+	<Property ID="173" Level="40" Name="限制等级为40"/>
+	<Property ID="174" Level="41" Name="限制等级为41"/>
+	<Property ID="175" Level="42" Name="限制等级为42"/>
+	<Property ID="176" Level="43" Name="限制等级为43"/>
+	<Property ID="177" Level="44" Name="限制等级为44"/>
+	<Property ID="178" Level="45" Name="限制等级为45"/>
+	<Property ID="179" Level="46" Name="限制等级为46"/>
+	<Property ID="180" Level="47" Name="限制等级为47"/>
+	<Property ID="181" Level="48" Name="限制等级为48"/>
+	<Property ID="182" Level="49" Name="限制等级为49"/>
+	<Property ID="183" Level="50" Name="限制等级为50"/>
+	<Property ID="184" Level="51" Name="限制等级为51"/>
+	<Property ID="185" Level="52" Name="限制等级为52"/>
+	<Property ID="186" Level="53" Name="限制等级为53"/>
+	<Property ID="187" Level="54" Name="限制等级为54"/>
+	<Property ID="188" Level="55" Name="限制等级为55"/>
+	<Property ID="189" Level="56" Name="限制等级为56"/>
+	<Property ID="190" Level="57" Name="限制等级为57"/>
+	<Property ID="191" Level="58" Name="限制等级为58"/>
+	<Property ID="192" Level="59" Name="限制等级为59"/>
+	<Property ID="193" Level="60" Name="限制等级为60"/>
+	<Property ID="194" Level="61" Name="限制等级为61"/>
+	<Property ID="195" Level="62" Name="限制等级为62"/>
+	<Property ID="196" Level="63" Name="限制等级为63"/>
+	<Property ID="197" Level="64" Name="限制等级为64"/>
+	<Property ID="198" Level="65" Name="限制等级为65"/>
+	<Property ID="199" Level="66" Name="限制等级为66"/>
+	<Property ID="200" Level="67" Name="限制等级为67"/>
+	<Property ID="201" Level="68" Name="限制等级为68"/>
+	<Property ID="202" Level="69" Name="限制等级为69"/>
+	<Property ID="203" Level="70" Name="限制等级为70"/>
+	<Property ID="1000" Job="30,31,32" Level="1" Name="限制等级为1"/>
+	<Property ID="1001" Job="30" Level="1" Name="限制等级为1"/>
+	<Property ID="1002" Job="31" Level="1" Name="限制等级为1"/>
+	<Property ID="1003" Job="32" Level="1" Name="限制等级为1"/>
+	<Property ID="2001" Job="01" Level="10" Name="限制等级为10"/>
+	<Property ID="2002" Job="02" Level="10" Name="限制等级为10"/>
+	<Property ID="2003" Job="03" Level="10" Name="限制等级为10"/>
+	<Property ID="2004" Job="04" Level="10" Name="限制等级为10"/>
+	<Property ID="2005" Job="05" Level="10" Name="限制等级为10"/>
+	<Property ID="2006" Job="06" Level="10" Name="限制等级为10"/>
+	<Property ID="2007" Job="07" Level="10" Name="限制等级为10"/>
+	<Property ID="2008" Job="08" Level="10" Name="限制等级为10"/>
+	<Property ID="2021" Job="21" Level="10" Name="限制等级为10"/>
+	<Property ID="2022" Job="22" Level="10" Name="限制等级为10"/>
+	<Property ID="2023" Job="23" Level="10" Name="限制等级为10"/>
+	<Property ID="2024" Job="24" Level="10" Name="限制等级为10"/>
+	<Property ID="2025" Job="25" Level="10" Name="限制等级为10"/>
+	<Property ID="2026" Job="26" Level="10" Name="限制等级为10"/>
+	<Property ID="2027" Job="27" Level="10" Name="限制等级为10"/>
+	<Property ID="2028" Job="28" Level="10" Name="限制等级为10"/>
+	<Property ID="2029" Job="29" Level="10" Name="限制等级为10"/>
+	<Property ID="2030" Job="30" Level="10" Name="限制等级为10"/>
+	<Property ID="2031" Job="31" Level="10" Name="限制等级为10"/>
+	<Property ID="2032" Job="32" Level="10" Name="限制等级为10"/>
+	<Property ID="2033" Job="33" Level="10" Name="限制等级为10"/>
+	<Property ID="2034" Job="34" Level="10" Name="限制等级为10"/>
+	<Property ID="2035" Job="35" Level="10" Name="限制等级为10"/>
+	<Property ID="2036" Job="36" Level="10" Name="限制等级为10"/>
+	<Property ID="2037" Job="37" Level="10" Name="限制等级为10"/>
+	<Property ID="2038" Job="38" Level="10" Name="限制等级为10"/>
+	<Property ID="2039" Job="39" Level="10" Name="限制等级为10"/>
+	<Property ID="2040" Job="40" Level="10" Name="限制等级为10"/>
+	<Property ID="2041" Job="41" Level="10" Name="限制等级为10"/>
+	<Property ID="2042" Job="42" Level="10" Name="限制等级为10"/>
+	<Property ID="2043" Job="43" Level="10" Name="限制等级为10"/>
+	<Property ID="2044" Job="44" Level="10" Name="限制等级为10"/>
+	<Property ID="5001" Level="5" Camp="2" Name="限制等级为5阵营为2"/>
+	<Property ID="5002" Level="5" Camp="1" Name="限制等级为5阵营为1"/>
+	<Property ID="5003" Level="10" Camp="2" Name="限制等级为10阵营为2"/>
+	<Property ID="5004" Level="10" Camp="1" Name="限制等级为10阵营为1"/>
+	<Property ID="5005" Level="15" Camp="2" Name="限制等级为15阵营为2"/>
+	<Property ID="5006" Level="15" Camp="1" Name="限制等级为15阵营为1"/>
+	<Property ID="5007" Level="20" Camp="2" Name="限制等级为20阵营为2"/>
+	<Property ID="5008" Level="20" Camp="1" Name="限制等级为20阵营为1"/>
+	<Property ID="5009" Level="25" Camp="2" Name="限制等级为25阵营为2"/>
+	<Property ID="5010" Level="25" Camp="1" Name="限制等级为25阵营为1"/>
+	<Property ID="5011" Level="30" Camp="2" Name="限制等级为30阵营为2"/>
+	<Property ID="5012" Level="30" Camp="1" Name="限制等级为30阵营为1"/>
+	<Property ID="5013" Level="40" Camp="2" Name="限制等级为40阵营为2"/>
+	<Property ID="5014" Level="40" Camp="1" Name="限制等级为40阵营为1"/>
+	<Property ID="5015" Level="50" Camp="2" Name="限制等级为50阵营为2"/>
+	<Property ID="5016" Level="50" Camp="1" Name="限制等级为50阵营为1"/>
+	<Property ID="6001" Level="60" Camp="2" Name="限制等级为60阵营为2"/>
+	<Property ID="6002" Level="60" Camp="1" Name="限制等级为60阵营为1"/>
+	<Property ID="5017" Job="6"/>
+	<Property ID="5018" UseArea="1|-441,11,812|20" Name="区域限制"/>
+	<Property ID="5019" UseArea="1|-584,19,-880|2" Name="区域限制"/>
+	<Property ID="5020" UseArea="1|63,2,11|2" Name="区域限制"/>
+	<Property ID="5021" UseArea="1|-295,15,-879|10" Name="区域限制"/>
+	<Property ID="5022" UseArea="1|-17,9,-27|2" Name="区域限制"/>
+	<Property ID="5023" UseArea="1|370,60,-1897|2" Name="区域限制"/>
+	<Property ID="5024" UseArea="1|-774,6,-2814|2" Name="区域限制"/>
+	<Property ID="5025" UseArea="1|115,-19,-3101|2" Name="区域限制"/>
+	<Property ID="5026" UseArea="1|-580,102,-2566|2" Name="区域限制"/>
+	<Property ID="5027" UseArea="3|3142,134,039|10" Name="区域限制"/>
+	<Property ID="5028" UseArea="3|2766,160,2597|10" Name="区域限制"/>
+	<Property ID="5029" UseArea="7|-2982,24,1293|2" Name="区域限制"/>
+	<Property ID="5030" UseArea="1|-3339,74,871|10" Name="区域限制"/>
+	<Property ID="5032" UseArea="1|-3427,52,1169|2" Name="区域限制"/>
+	<Property ID="5033" UseArea="7|-3666,46,1202|2" Name="区域限制"/>
+	<Property ID="5034" UseArea="7|-3428,72,85|3" Name="区域限制"/>
+	<Property ID="5035" UseArea="1|-3244,55,333|10" Name="区域限制"/>
+	<Property ID="5036" UseArea="1|-3111,94,328|2;1|-3127,93,239|2;1|-3216,93,241|2;1|-3173,100,182|2" Name="区域限制"/>
+	<Property ID="5037" UseArea="7|-3216,93,241|2" Name="区域限制"/>
+	<Property ID="5038" UseArea="3|-4017,150,3113|2" Name="区域限制"/>
+	<Property ID="5039" UseArea="3|-2766,160,2597|2" Name="区域限制"/>
+	<Property ID="5040" UseArea="3|-3142,134,3039|2" Name="区域限制"/>
+	<Property ID="5041" UseArea="2|4651,121,-1764|2" Name="区域限制"/>
+	<Property ID="5042" UseArea="5|5598,15,4179|2" Name="区域限制"/>
+	<Property ID="5043" UseArea="5|4707,135,2566|2" Name="区域限制"/>
+	<Property ID="5044" UseArea="5|4956,152,2858|2" Name="区域限制"/>
+	<Property ID="5045" UseArea="1|-1560,175,1608|2" Name="区域限制"/>
+	<Property ID="5046" UseArea="6|-859.035,106.712,2443.414|2" Name="区域限制"/>
+	<Property ID="5047" UseArea="6|-895.695,71.695,2213.614|2" Name="区域限制"/>
+	<Property ID="5048" UseArea="6|-2109.431,187.056,3255.653|2" Name="区域限制"/>
+	<Property ID="5049" UseArea="6|-1906.218,88.891,2738.277|2" Name="区域限制"/>
+	<Property ID="5050" UseArea="6|-770.417,136.374,3065.345|2" Name="区域限制"/>
+	<Property ID="5051" UseArea="6|-676.824,149.635,3010.690|2" Name="区域限制"/>
+	<Property ID="5052" UseArea="6|-1391.279,65.323,3674.377|2" Name="区域限制"/>
+	<Property ID="5053" Name="区域限制"/>
+	<Property ID="5054" UseArea="1|-773,-1,-68|20"/>
+	<Property ID="5055" Camp="1" Name="阵营为1"/>
+	<Property ID="5056" Camp="2" Name="阵营为2"/>
+	<Property ID="5057" UseArea="2|3636,33,1145|2;2|3656,33,1180|2;2|3704,33,1183|2" Name="区域限制"/>
+	<Property ID="5058" UseArea="5|3345,20,4441|2;5|3573,22,4367|2;5|3383,19,4295|2" Name="区域限制"/>
+	<Property ID="5059" UseArea="2|3703,73,742|5" Name="区域限制"/>
+	<Property ID="5060" UseArea="2|3406,134,-124|5" Name="区域限制"/>
+	<Property ID="5061" UseArea="2|3929.,28,229|5" Name="区域限制"/>
+	<Property ID="5062" UseArea="2|3340,69,680|5" Name="区域限制"/>
+	<Property ID="5063" UseArea="2|2892,29,-228|5" Name="区域限制"/>
+	<Property ID="5064" UseArea="2|4835,7,-1324|5" Name="区域限制"/>
+	<Property ID="5065" UseArea="2|4510,77,-1659|5" Name="区域限制"/>
+	<Property ID="5066" UseArea="2|3751,164,-1180|5" Name="区域限制"/>
+	<Property ID="5067" UseArea="2|3181,222,-1537|5" Name="区域限制"/>
+	<Property ID="5068" UseArea="2|2957,209,-1713|5" Name="区域限制"/>
+	<Property ID="5069" UseArea="2|4509,45,522|5" Name="区域限制"/>
+	<Property ID="5070" UseArea="2|4550,98,1439|5" Name="区域限制"/>
+	<Property ID="5071" UseArea="2|4889,76,1475|5" Name="区域限制"/>
+	<Property ID="5072" UseArea="2|5094,0,949|5" Name="区域限制"/>
+	<Property ID="5073" UseArea="2|5431,103,296|5" Name="区域限制"/>
+	<Property ID="5074" UseArea="6|-459,115,1979|5" Name="区域限制"/>
+	<Property ID="5075" UseArea="6|-1516,116,2165|5" Name="区域限制"/>
+	<Property ID="5076" UseArea="6|-1770,63,2533|5" Name="区域限制"/>
+	<Property ID="5077" UseArea="6|-1290,154,3004|5" Name="区域限制"/>
+	<Property ID="5078" UseArea="6|-1295,166,3541|5" Name="区域限制"/>
+	<Property ID="5079" UseArea="3|-4671,132,6266|5" Name="区域限制"/>
+	<Property ID="5080" UseArea="3|-4350,168,6702|5" Name="区域限制"/>
+	<Property ID="5081" UseArea="3|-5635,51,6421|5" Name="区域限制"/>
+	<Property ID="5082" UseArea="3|-4678,102,5809|5" Name="区域限制"/>
+	<Property ID="5083" UseArea="3|-4910,134,5552|5" Name="区域限制"/>
+	<Property ID="5084" UseArea="3|-3638,63,5432|5" Name="区域限制"/>
+	<Property ID="5085" UseArea="3|-4049,61,4955|5" Name="区域限制"/>
+	<Property ID="5086" UseArea="3|-4639,43,4164|5" Name="区域限制"/>
+	<Property ID="5087" UseArea="3|-5597,34,4485|5" Name="区域限制"/>
+	<Property ID="5088" UseArea="3|-5802,177,3814|5" Name="区域限制"/>
+	<Property ID="5089" UseArea="3|-4105,185,2750|5" Name="区域限制"/>
+	<Property ID="5090" UseArea="3|-3824,199,2846|5" Name="区域限制"/>
+	<Property ID="5091" UseArea="3|-3170,177,3532|5" Name="区域限制"/>
+	<Property ID="5092" UseArea="3|-3334,129,2783|5" Name="区域限制"/>
+	<Property ID="5093" UseArea="3|-3310,175,2440|5" Name="区域限制"/>
+	<Property ID="5094" UseArea="1|-633,-18,-582|5" Name="区域限制"/>
+	<Property ID="5095" UseArea="1|-734,2,-119|5" Name="区域限制"/>
+	<Property ID="5096" UseArea="1|295,3,35|5" Name="区域限制"/>
+	<Property ID="5097" UseArea="1|235,-5,-692|5" Name="区域限制"/>
+	<Property ID="5098" UseArea="1|-836,41,-861|5" Name="区域限制"/>
+	<Property ID="5099" UseArea="1|221,31,-2648|5" Name="区域限制"/>
+	<Property ID="5100" UseArea="1|170,-17,-2989|5" Name="区域限制"/>
+	<Property ID="5101" UseArea="1|-155,77,-2995|5" Name="区域限制"/>
+	<Property ID="5102" UseArea="1|-541,-2,-3341|5" Name="区域限制"/>
+	<Property ID="5103" UseArea="1|-701,-5,-2992|5" Name="区域限制"/>
+	<Property ID="5104" UseArea="5|6036,38,3853|5" Name="区域限制"/>
+	<Property ID="5105" UseArea="5|4677,19,2830|5" Name="区域限制"/>
+	<Property ID="5106" UseArea="5|4225,142,2717|5" Name="区域限制"/>
+	<Property ID="5107" UseArea="5|4349,146,3103|5" Name="区域限制"/>
+	<Property ID="5108" UseArea="5|4821,143,3901|5" Name="区域限制"/>
+	<Property ID="5109" UseArea="7|-1761,121,1756|5" Name="区域限制"/>
+	<Property ID="5110" UseArea="7|-1952,163,1453|5" Name="区域限制"/>
+	<Property ID="5111" UseArea="7|-2169,101,1339|5" Name="区域限制"/>
+	<Property ID="5112" UseArea="7|-2090,143,1258|5" Name="区域限制"/>
+	<Property ID="5113" UseArea="7|-1550,246,1130|5" Name="区域限制"/>
+	<Property ID="5114" UseArea="7|-2969,35,1328|5" Name="区域限制"/>
+	<Property ID="5115" UseArea="7|-3186,67,787|5" Name="区域限制"/>
+	<Property ID="5116" UseArea="7|-3163,69,395|5" Name="区域限制"/>
+	<Property ID="5117" UseArea="7|-3128,101,140|5" Name="区域限制"/>
+	<Property ID="5118" UseArea="7|-3931,46,292|5" Name="区域限制"/>
+	<Property ID="5119" UseArea="5|3567,121,2420|5" Name="区域限制"/>
+	<Property ID="5120" UseArea="5|3782,429,2522|5" Name="区域限制"/>
+	<Property ID="5121" UseArea="5|3677,41,4388|5" Name="区域限制"/>
+	<Property ID="5122" UseArea="5|3147,79,3025|5" Name="区域限制"/>
+	<Property ID="5123" UseArea="5|2268,114,2048|5" Name="区域限制"/>
+	<Property ID="5124" UseArea="2|4187,56,741|30" Name="区域限制"/>
+	<Property ID="5125" UseArea="1|-660,-13,408|2;1|-723,-14,406|2;1|-778,-18,368|2;1|-720,-19,363|2" Name="区域限制"/>
+	<Property ID="5126" UseArea="2|3881,70,795|2" Name="区域限制"/>
+	<Property ID="5127" UseArea="1|-468,11,828|2" Name="区域限制"/>
+	<Property ID="5128" UseArea="1|-469,11,827|5" Name="区域限制"/>
+	<Property ID="5129" UseArea="1|-1197,-4,-250|2" Name="区域限制"/>
+	<Property ID="5130" Name="区域限制" UseArea="1|-525,10,815|2"/>
+	<Property ID="5131" UseArea="6|-1482,113,1926|2" Name="区域限制"/>
+	<Property ID="5132" UseArea="5|3529,17,4513|2" Name="区域限制"/>
+	<Property ID="5133" UseArea="5|4520.160,154.539,3589.568|2" Name="区域限制"/>
+	<Property ID="5134" UseArea="1|-690,-19,-570|2" Name="区域限制"/>
+	<Property ID="5135" UseArea="6|-1471,142,3064|2" Name="区域限制"/>
+	<Property ID="5136" UseArea="3|-4368,55,6129|2" Name="区域限制"/>
+	<Property ID="5137" Name="高温炸弹使用区域" UseArea="7|-3421,52,1164|2;7|-3428,52,1177|2;7|-3436,52,1164|2"/>
+	<Property ID="5237" Name="常青之水使用区域" UseArea="5|3558,43,3683|2"/>
+	<Property ID="5238" Name="挑衅战旗区域限制" UseArea="6|-723,135,3065|2"/>
+	<Property ID="5138" UseArea="6|1456,80,2895|5" Name="区域限制"/>
+	<Property ID="5139" UseArea="5|5715,167,2928|5" Name="区域限制"/>
+	<Property ID="5140" UseArea="7|-4119,202,885|5" Name="区域限制"/>
+	<Property ID="5141" UseArea="2|6325,207,786|5" Name="区域限制"/>
+	<Property ID="5142" UseArea="3|-6416,42,3910|5" Name="区域限制"/>
+	<Property ID="5143" Name="肉块区域限制" UseArea="6|121,340,3060|2;6|49,343,3019|2;6|59,213,3296|2"/>
+	<Property ID="5144" Name="肉块区域限制" UseArea="6|145,369,3019|2"/>
+</Object>

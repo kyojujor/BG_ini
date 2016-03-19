@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Stage>
+	<Object Guid="FC62F0B3B3D6449C91ACA4EFD01A54AD" Desc="隐形门" config="Organ_zlm008_0101" Layer="" MaxRefreshCount="" x="2097.131592" y="110.250069" z="3572.307373" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0">
+		<Event EventId="23" Processor="quest2796"/>
+	</Object>
+	<Object Guid="3BE5EF34538F4DED9E29C7CCC20FC709" Desc="Organ_zlm008_0010" config="Organ_zlm008_0010" Layer="" MaxRefreshCount="" x="2486.027" y="83.051" z="2877.653" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0">
+		<Event EventId="23" Processor="kala_quest_2780_1"/>
+	</Object>
+	<Object Guid="D0ABCA034FD5476CBA6AD748EDB90D38" Desc="Organ_zlm008_0011" config="Organ_zlm008_0010" Layer="" MaxRefreshCount="" x="2646.432" y="72.461" z="2931.548" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0">
+		<Event EventId="23" Processor="kala_quest_2780_2"/>
+	</Object>
+</Stage>
+
+

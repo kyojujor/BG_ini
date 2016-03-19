@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 被2011 rel. 2 sp1 (CLOUD) 使用XMLSpy vCLOUD编辑的 (http://www.altova.com) by -->
+<!-- 载具信息 -->
+<!-- ID					载具ID										int		-->
+<!-- StatsID			载具显示信息包								int		-->
+<!-- Type				载具类型		1=小/2=中/3=大/4=多人		int		-->
+<!-- RequireRank		制造此载具所需军阶-->
+<!-- CarrierNpcID		载具NpcID									string  -->
+<!-- Time			  	载具制造耗时	小时数,分钟数				string  -->
+<!-- PersonalMaterial	个人材料消耗	道具A,数量;道具B,数量...	string	-->
+<!-- SmallImage			小图地址	-->
+<!-- BigImage			大图地址	-->
+<!-- RepairHPCost		HP修改费	-->
+<!-- RepairMPcost		MP修理费	-->
+<!-- BIGImage		大背景图	-->
+<!-- IConImage		图标	-->
+<!-- Label		标签	-->
+<!-- IntroduceInfo		介绍信息-->
+<!-- BGCost				制造载具黑金消耗		黑金值	int -->
+<!-- ModelCoe			模型显示距离		    0.8	    float -->
+<Object>
+	<Property ID="1" Type="1" RequireRank="1" StatsID="1" CarrierNpcID="land_zqs_001" RepairHPCost="1000" RepairMPcost="1000" Time="0,0" PersonalMaterial="NL_ZJ_0001,1" SmallImage="gui\\ZQ\\armour_personal\\zq_bc_015.png" BIGImage="gui\\ZQ\\armour_personal\\zq_bc_015.png" IConImage="icon\\Carry\\64\\zq_bc_015.png" Label="" IntroduceInfo="desc_zq015" BGCost="40" ModelCoe="1.4"/>
+	<Property ID="2" Type="1" RequireRank="2" StatsID="2" CarrierNpcID="land_zqs_002" RepairHPCost="1000" RepairMPcost="1000" Time="0,0" PersonalMaterial="NL_ZJ_0001,1" SmallImage="gui\\ZQ\\armour_personal\\zq_bc_026.png" BIGImage="gui\\ZQ\\armour_personal\\zq_bc_026.png" IConImage="icon\\Carry\\64\\zq_bc_026.png" Label="" IntroduceInfo="desc_zq026" BGCost="180" ModelCoe="1.4"/>
+	<Property ID="3" Type="2" RequireRank="2" StatsID="3" CarrierNpcID="land_zqm_001" RepairHPCost="1000" RepairMPcost="1000" Time="0,0" PersonalMaterial="NL_ZJ_0001,1" SmallImage="gui\\ZQ\\armour_personal\\zq_bc_010.png" BIGImage="gui\\ZQ\\armour_personal\\zq_bc_010.png" IConImage="icon\\Carry\\64\\zq_bc_010.png" Label="" IntroduceInfo="desc_zq010" BGCost="180" ModelCoe="1.2"/>
+	<Property ID="4" Type="2" RequireRank="3" StatsID="4" CarrierNpcID="land_zqm_002" RepairHPCost="1000" RepairMPcost="1000" Time="0,0" PersonalMaterial="NL_ZJ_0001,1" SmallImage="gui\\ZQ\\armour_personal\\zq_bc_022.png" BIGImage="gui\\ZQ\\armour_personal\\zq_bc_022.png" IConImage="icon\\Carry\\64\\zq_bc_022.png" Label="" IntroduceInfo="desc_zq022" BGCost="460" ModelCoe="1.2"/>
+	<Property ID="5" Type="1" RequireRank="4" StatsID="5" CarrierNpcID="land_zqs_001_2" RepairHPCost="1000" RepairMPcost="1000" Time="0,0" PersonalMaterial="NL_ZJ_0001,1" SmallImage="gui\\ZQ\\armour_personal\\zq_bc_015_2.png" BIGImage="gui\\ZQ\\armour_personal\\zq_bc_015_2.png" IConImage="icon\\Carry\\64\\zq_bc_015_2.png" Label="" IntroduceInfo="desc_zq015_2" BGCost="750" ModelCoe="1.4"/>
+	<Property ID="6" Type="2" RequireRank="5" StatsID="6" CarrierNpcID="land_zqm_003" RepairHPCost="1000" RepairMPcost="1000" Time="0,0" PersonalMaterial="NL_ZJ_0001,1" SmallImage="gui\\ZQ\\armour_personal\\zq_bc_025.png" BIGImage="gui\\ZQ\\armour_personal\\zq_bc_025.png" IConImage="icon\\Carry\\64\\zq_bc_025.png" Label="" IntroduceInfo="desc_zq025" BGCost="1375" ModelCoe="1.2"/>
+	<Property ID="7" Type="2" RequireRank="5" StatsID="7" CarrierNpcID="land_zqm_001_2" RepairHPCost="1000" RepairMPcost="1000" Time="0,0" PersonalMaterial="NL_ZJ_0001,1" SmallImage="gui\\ZQ\\armour_personal\\zq_bc_010_2.png" BIGImage="gui\\ZQ\\armour_personal\\zq_bc_010_2.png" IConImage="icon\\Carry\\64\\zq_bc_010_2.png" Label="" IntroduceInfo="desc_zq010_2" BGCost="1375" ModelCoe="1.2"/>
+	<Property ID="8" Type="1" RequireRank="1" StatsID="8" CarrierNpcID="land_qhs_001" RepairHPCost="1000" RepairMPcost="1000" Time="0,0" PersonalMaterial="NL_ZJ_0003,1" SmallImage="gui\\ZQ\\armour_personal\\qh_bc_015.png" BIGImage="gui\\ZQ\\armour_personal\\qh_bc_015.png" IConImage="icon\\Carry\\64\\qh_bc_015.png" Label="" IntroduceInfo="desc_qh015" BGCost="40" ModelCoe="1.4"/>
+	<Property ID="9" Type="1" RequireRank="2" StatsID="9" CarrierNpcID="land_qhs_002" RepairHPCost="1000" RepairMPcost="1000" Time="0,0" PersonalMaterial="NL_ZJ_0003,1" SmallImage="gui\\ZQ\\armour_personal\\qh_bc_027.png" BIGImage="gui\\ZQ\\armour_personal\\qh_bc_027.png" IConImage="icon\\Carry\\64\\qh_bc_027.png" Label="" IntroduceInfo="desc_qh027" BGCost="180" ModelCoe="1.4"/>
+	<Property ID="10" Type="2" RequireRank="2" StatsID="10" CarrierNpcID="land_qhm_001" RepairHPCost="1000" RepairMPcost="1000" Time="0,0" PersonalMaterial="NL_ZJ_0003,1" SmallImage="gui\\ZQ\\armour_personal\\qh_bc_016.png" BIGImage="gui\\ZQ\\armour_personal\\qh_bc_016.png" IConImage="icon\\Carry\\64\\qh_bc_016.png" Label="" IntroduceInfo="desc_qh016" BGCost="180" ModelCoe="1.2"/>
+	<Property ID="11" Type="2" RequireRank="3" StatsID="11" CarrierNpcID="land_qhm_002" RepairHPCost="1000" RepairMPcost="1000" Time="0,0" PersonalMaterial="NL_ZJ_0003,1" SmallImage="gui\\ZQ\\armour_personal\\qh_bc_001_1.png" BIGImage="gui\\ZQ\\armour_personal\\qh_bc_001_1.png" IConImage="icon\\Carry\\64\\qh_bc_001_1.png" Label="" IntroduceInfo="desc_qh001_1" BGCost="460" ModelCoe="1.2"/>
+	<Property ID="12" Type="1" RequireRank="4" StatsID="12" CarrierNpcID="land_qhs_001_2" RepairHPCost="1000" RepairMPcost="1000" Time="0,0" PersonalMaterial="NL_ZJ_0003,1" SmallImage="gui\\ZQ\\armour_personal\\qh_bc_015_2.png" BIGImage="gui\\ZQ\\armour_personal\\qh_bc_015_2.png" IConImage="icon\\Carry\\64\\qh_bc_015_2.png" Label="" IntroduceInfo="desc_qh015_2" BGCost="750" ModelCoe="1.4"/>
+	<Property ID="13" Type="2" RequireRank="5" StatsID="13" CarrierNpcID="land_qhm_001_2" RepairHPCost="1000" RepairMPcost="1000" Time="0,0" PersonalMaterial="NL_ZJ_0003,1" SmallImage="gui\\ZQ\\armour_personal\\qh_bc_016_2.png" BIGImage="gui\\ZQ\\armour_personal\\qh_bc_016_2.png" IConImage="icon\\Carry\\64\\qh_bc_016_2.png" Label="" IntroduceInfo="desc_qh016_2" BGCost="1375" ModelCoe="1.2"/>
+	<Property ID="14" Type="2" RequireRank="5" StatsID="14" CarrierNpcID="land_qhm_003" RepairHPCost="1000" RepairMPcost="1000" Time="0,0" PersonalMaterial="NL_ZJ_0003,1" SmallImage="gui\\ZQ\\armour_personal\\qh_bc_024.png" BIGImage="gui\\ZQ\\armour_personal\\qh_bc_024.png" IConImage="icon\\Carry\\64\\qh_bc_024.png" Label="" IntroduceInfo="desc_qh024" BGCost="1375" ModelCoe="1.2"/>
+	<Property ID="15" Type="1" RequireRank="6" StatsID="15" CarrierNpcID="land_zqs_001_1" RepairHPCost="1000" RepairMPcost="1000" Time="0,0" PersonalMaterial="NL_ZJ_0001,1" SmallImage="gui\\ZQ\\armour_personal\\zq_bc_015_1.png" BIGImage="gui\\ZQ\\armour_personal\\zq_bc_015_1.png" IConImage="icon\\Carry\\64\\zq_bc_015_1.png" Label="" IntroduceInfo="desc_zq015_1" BGCost="2000" ModelCoe="1.4"/>
+	<Property ID="16" Type="2" RequireRank="7" StatsID="16" CarrierNpcID="land_zqm_001_1" RepairHPCost="1000" RepairMPcost="1000" Time="0,0" PersonalMaterial="NL_ZJ_0001,1" SmallImage="gui\\ZQ\\armour_personal\\zq_bc_010_1.png" BIGImage="gui\\ZQ\\armour_personal\\zq_bc_010_1.png" IConImage="icon\\Carry\\64\\zq_bc_010_1.png" Label="" IntroduceInfo="desc_zq010_1" BGCost="2000" ModelCoe="1.2"/>
+	<Property ID="17" Type="1" RequireRank="6" StatsID="17" CarrierNpcID="land_qhs_001_1" RepairHPCost="1000" RepairMPcost="1000" Time="0,0" PersonalMaterial="NL_ZJ_0003,1" SmallImage="gui\\ZQ\\armour_personal\\qh_bc_015_1.png" BIGImage="gui\\ZQ\\armour_personal\\qh_bc_015_1.png" IConImage="icon\\Carry\\64\\qh_bc_015_1.png" IntroduceInfo="desc_qh015_1" BGCost="2000" ModelCoe="1.4"/>
+	<Property ID="18" Type="2" RequireRank="7" StatsID="18" CarrierNpcID="land_qhm_001_1" RepairHPCost="1000" RepairMPcost="1000" Time="0,0" PersonalMaterial="NL_ZJ_0003,1" SmallImage="gui\\ZQ\\armour_personal\\qh_bc_016_1.png" BIGImage="gui\\ZQ\\armour_personal\\qh_bc_016_1.png" IConImage="icon\\Carry\\64\\qh_bc_016_1.png" IntroduceInfo="desc_qh016_1" BGCost="2000" ModelCoe="1.2"/>
+</Object>

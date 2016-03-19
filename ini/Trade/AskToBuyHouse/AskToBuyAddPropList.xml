@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 求购行附加属性列表 -->
+<!-- ID        附加属性ID                                        int      -->
+<!-- PropName  附加属性名(注意!名字不能错，问下属性相关策划)       string   -->
+<!-- TextID    中文包(见Exec\res\text\ChineseS\AskToBuy.idres)   string   -->
+
+<Object>
+  <Property ID="0" PropName=""        TextID="asktobuy_menuitem_0" Desc="无"  />
+  <Property ID="1" PropName="StrAdd"  TextID="asktobuy_menuitem_1" Desc="力量"/>
+  <Property ID="2" PropName="DexAdd"  TextID="asktobuy_menuitem_2" Desc="敏捷"/>
+  <Property ID="3" PropName="IngAdd"  TextID="asktobuy_menuitem_3" Desc="智力"/>
+  <Property ID="4" PropName="SpiAdd"  TextID="asktobuy_menuitem_4" Desc="精神"/>
+  <Property ID="5" PropName="StaAdd"  TextID="asktobuy_menuitem_5" Desc="体质"/>
+  <Property ID="6" PropName="EsthAdd" TextID="asktobuy_menuitem_6" Desc="感知"/>
+</Object>

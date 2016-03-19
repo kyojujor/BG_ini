@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 被2011 rel. 2 sp1 (TeaM DJiNN) 使用XMLSpy vTeaM DJiNN编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2010 (http://www.altova.com) by MESMERiZE (MiZE) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<Object>
+<Property ID="601" GirdX="1" GirdY="2" ChildTask="602" IsHide="1"/> 
+<Property ID="602" GirdX="2" GirdY="2" FatherTask="601" ChildTask="603" IsHide="1"/>
+<Property ID="603" GirdX="3" GirdY="2" FatherTask="602" ChildTask="604" IsHide="1"/>
+<Property ID="604" GirdX="4" GirdY="2" FatherTask="603" ChildTask="605" IsHide="1"/>
+<Property ID="605" GirdX="5" GirdY="2" FatherTask="604" ChildTask="606" IsHide="1"/>
+<Property ID="606" GirdX="6" GirdY="2" FatherTask="605" ChildTask="607" IsHide="1"/>
+<Property ID="607" GirdX="7" GirdY="2" FatherTask="606" ChildTask="682" IsHide="1"/>
+<Property ID="682" GirdX="8" GirdY="2" FatherTask="607" ChildTask="683" IsHide="1"/>
+<Property ID="683" GirdX="9" GirdY="2" FatherTask="682" ChildTask="608" IsHide="1"/>
+<Property ID="608" GirdX="10" GirdY="2" FatherTask="683" ChildTask="684" IsHide="1"/>
+<Property ID="684" GirdX="11" GirdY="2" FatherTask="608" ChildTask="689" IsHide="1"/>
+<Property ID="689" GirdX="12" GirdY="2" FatherTask="684" ChildTask="685" IsHide="1"/>
+<Property ID="685" GirdX="13" GirdY="2" FatherTask="689" ChildTask="610" IsHide="1"/>
+<Property ID="610" GirdX="14" GirdY="2" FatherTask="685" ChildTask="611" IsHide="1"/>
+<Property ID="611" GirdX="15" GirdY="2" FatherTask="610" ChildTask="612" IsHide="1"/>
+<Property ID="612" GirdX="16" GirdY="2" FatherTask="611" ChildTask="613" IsHide="1"/>
+<Property ID="613" GirdX="17" GirdY="2" FatherTask="612" ChildTask="614" IsHide="1"/>
+<Property ID="614" GirdX="18" GirdY="2" FatherTask="613" ChildTask="615" IsHide="1"/>
+<Property ID="615" GirdX="19" GirdY="2" FatherTask="614" ChildTask="616" IsHide="1"/>
+<Property ID="616" GirdX="20" GirdY="2" FatherTask="615" ChildTask="691" IsHide="1"/>
+<Property ID="691" GirdX="21" GirdY="2" FatherTask="616" ChildTask="692" IsHide="1"/>
+<Property ID="692" GirdX="22" GirdY="2" FatherTask="691" ChildTask="617" IsHide="1"/>
+<Property ID="617" GirdX="23" GirdY="2" FatherTask="692" ChildTask="618" IsHide="1"/>
+<Property ID="618" GirdX="24" GirdY="2" FatherTask="617" ChildTask="619" IsHide="1"/>
+<Property ID="619" GirdX="25" GirdY="2" FatherTask="618" IsHide="1" LastTask="1"/>
+</Object>

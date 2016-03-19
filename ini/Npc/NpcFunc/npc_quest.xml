@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 被2011 rel. 2 sp1 (TeaM DJiNN) 使用XMLSpy vTeaM DJiNN编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2010 (http://www.altova.com) by MESMERiZE (MiZE) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<Object>
+	<Property ID="npc_qhm003_0106" Name="亚当·斯图尔特" Kind="19" QuestCanAccept="317" QuestCanSubmit="317"/>
+	<Property ID="npc_qhm002_0164" Name="战场管理员" Kind="17" QuestCanAccept="316" QuestCanSubmit="316"/>
+	<Property ID="npc_zlm010_0174" Name="体能训练师" Kind="17" QuestCanAccept="309,310,311,312,313,314,315,360,361,362,363,364,365,366,367,368,369,370,376" QuestCanSubmit="309,310,311,312,313,314,315,360,361,362,363,364,365,366,367,368,369,370,376"/>
+	<Property ID="npc_qhm002_0160" Name="希图亚" Kind="17" QuestCanAccept="306"/>
+	<Property ID="npc_qhm002_0161" Name="希图斯" Kind="17" QuestCanSubmit="306"/>
+	<Property ID="npc_qhm002_0104" Name="尤莱亚·幻语" Kind="17" QuestCanAccept="72"/>
+	<Property ID="npc_qhm002_0188" Name="卡莉娜" Kind="17" QuestCanAccept="301" QuestCanSubmit="301"/>
+	<Property ID="npc_qhm003_0118" Name="卓里希" Kind="19" QuestCanAccept="302" QuestCanSubmit="302"/>
+	<Property ID="npc_qhm004_0062" Name="玛丽莲" Kind="21" QuestCanAccept="303" QuestCanSubmit="303"/>
+	<Property ID="npc_qhm005_0074" Name="卢卡尔" Kind="20" QuestCanAccept="304" QuestCanSubmit="304"/>
+	<Property ID="npc_zlm010_0136" Name="桑奇龙" Kind="7" QuestCanAccept="305" QuestCanSubmit="305"/>
+	<Property ID="npc_qhm002_0035" Name="亚摩斯·曙光" Kind="17"/>
+	<Property ID="Ceshi_qh_1027" Name="祈福管理员" QuestCanAccept="19002,19003,19004,19005,19006,19007,19008,19010" QuestCanSubmit="19001,19002,19003,19004,19005,19006,19007,19008,19010"/>
+	<Property ID="Ceshi_qh_058" Name="小强" QuestCanAccept="19009" QuestCanSubmit="19009"/>
+	<Property ID="Ceshi_zq_1027" Name="祈福管理员" QuestCanAccept="19011,19012" QuestCanSubmit="19011,19012"/>
+	<Property ID="npc_zqS005_0003" Name="老树人德比" Kind="5" QuestCanAccept="2109" QuestCanSubmit="2110"/>
+	<Property ID="npc_zqS005_0004" Name="树人宝宝" Kind="5" QuestCanAccept="2110" QuestCanSubmit="2109"/>
+	<Property ID="npc_tiyan_0001" Name="威利斯_亮银" Kind="58" QuestCanAccept="6061,6064,6065" QuestCanSubmit="6064,6065"/>
+	<Property ID="npc_tiyan_0002" Name="蕾妮布_冯特" Kind="58" QuestCanAccept="6063"/>
+	<Property ID="npc_tiyan_0003" Name="布鲁斯_布冯特" Kind="58" QuestCanAccept="6062"/>
+	<Property ID="npc_tiyan_0004" Name="霆杰_怒吼" Kind="58" QuestCanAccept="6066,6069,6070" QuestCanSubmit="6069,6070"/>
+	<Property ID="npc_tiyan_0005" Name="邓戈 _战吼" Kind="58" QuestCanAccept="6067"/>
+	<Property ID="npc_tiyan_0006" Name="琳霞_控魔" Kind="58" QuestCanAccept="6068"/>
+	<Property ID="npc_zqm002_0089" Name="斯丁·卡夫" Kind="3" QuestCanAccept="4263" QuestCanSubmit="4263"/>
+	<Property ID="npc_zqm002_0090" Name="npc_zqm002_0090" Kind="3" QuestCanAccept="8264" QuestCanSubmit="8264"/>
+	<Property ID="npc_zqm002_0085" Name="路易·威登" Kind="3" QuestCanAccept="4265,4267" QuestCanSubmit="4265,4267"/>
+	<Property ID="npc_zqm003_0045" Name="龙喉要塞指挥官" Kind="2" QuestCanAccept="10019" QuestCanSubmit="10059"/>
+	<Property ID="npc_zqm002_0031" Name="梅琳·迪莉娅" Kind="3" QuestCanAccept="4217" QuestCanSubmit="4216"/>
+	<Property ID="npc_qhm002_0001" Name="阿奇伯德_尘风" Kind="17" QuestCanAccept="501"/>
+	<Property ID="npc_qhm002_0004" Name="摩里斯_逆水" Kind="17" QuestCanAccept="502" QuestCanSubmit="702"/>
+	<Property ID="npc_qhm002_0005" Name="伦纳德_灼日" Kind="17"/>
+	<Property ID="npc_qhm002_0006" Name="亚述_尘风" Kind="17" QuestCanAccept="705,507,506" QuestCanSubmit="505,705,507"/>
+	<Property ID="npc_qhm002_0007" Name="埃尔曼_逐风" Kind="17" QuestCanAccept="515,516,700,528,750" QuestCanSubmit="513,514,515,516,522,700"/>
+	<Property ID="npc_qhm002_0008" Name="亚撒_控魔" Kind="17" QuestCanAccept="518,519,520,521,522" QuestCanSubmit="518,519,520,521,528"/>
+	<Property ID="npc_qhm002_0010" Name="朱莉尔_控魔" Kind="17"/>
+	<Property ID="npc_qhm002_0013" Name="尤莉亚_逆水" Kind="17" QuestCanAccept="89,90,524,523" QuestCanSubmit="89,523,751"/>
+	<Property ID="npc_qhm002_0014" Name="朵丽儿_沉星" Kind="17" QuestCanAccept="23" QuestCanSubmit="23,"/>
+	<Property ID="npc_qhm002_0015" Name="罗伊·逐风" Kind="17" QuestCanAccept="536" QuestCanSubmit="531"/>
+	<Property ID="npc_qhm002_0016" Name="霍里斯_逐风" Kind="17" QuestCanAccept="29,30,37,38,42" QuestCanSubmit="29,33,37,41,535"/>
+	<Property ID="npc_qhm002_0017" Name="奥德维德_星语" Kind="17" QuestCanAccept="31" QuestCanSubmit="30"/>
+	<Property ID="npc_qhm002_0018" Name="纳恩_沉星" Kind="17" QuestCanAccept="32,33,91,706,707" QuestCanSubmit="31,32,91,706,707"/>
+	<Property ID="npc_qhm002_0019" Name="博雷斯科特_逆水" Kind="17" QuestCanAccept="34,36" QuestCanSubmit="34,36"/>
+	<Property ID="npc_qhm002_0020" Name="莫蒂尼_焚炎" Kind="17" QuestCanAccept="35" QuestCanSubmit="35"/>
+	<Property ID="npc_qhm002_0021" Name="莫多威尔_控魔" Kind="17" QuestCanAccept="39,40,41,53,71" QuestCanSubmit="38,39,40,52"/>
+	<Property ID="npc_qhm002_0022" Name="哲罗姆_逆水" Kind="17" QuestCanAccept="43,44,45" QuestCanSubmit="42,43,44,48"/>
+	<Property ID="npc_qhm002_0023" Name="英格玛" Kind="17" QuestCanAccept="48"/>
+	<Property ID="npc_qhm002_0024" Name="安格拉姆" Kind="17" QuestCanAccept="46,47" QuestCanSubmit="46,47"/>
+	<Property ID="npc_qhm002_0025" Name="英格玛_逐风" Kind="17" QuestCanAccept="50,51,49" QuestCanSubmit="49,51,45,50"/>
+	<Property ID="npc_qhm002_0026" Name="安格拉姆_逆水" Kind="17" QuestCanAccept="52"/>
+	<Property ID="npc_qhm002_0027" Name="锡德_尘风" Kind="17" QuestCanAccept="54,58,69" QuestCanSubmit="53,56,58,761"/>
+	<Property ID="npc_qhm002_0111" Name="文森特—日炎" Kind="17" QuestCanAccept="59" QuestCanSubmit="59"/>
+	<Property ID="npc_qhm002_0028" Name="阿木木" Kind="17" QuestCanAccept="55,56" QuestCanSubmit="54,55"/>
+	<Property ID="npc_qhm002_0029" Name="维维安_逐风" Kind="17" QuestCanAccept="57" QuestCanSubmit="57"/>
+	<Property ID="npc_qhm002_0030" Name="西斯廷_控魔" Kind="17" QuestCanAccept="60,61,66,68,70,100,761" QuestCanSubmit="60,65,66,68,70,71,100,2230"/>
+	<Property ID="npc_qhm002_0031" Name="肖恩_沉星" Kind="17" QuestCanAccept="62,63,762,763,65" QuestCanSubmit="61,62,64,762,763"/>
+	<Property ID="npc_qhm002_0032" Name="提莉亚_余晖" Kind="17" QuestCanAccept="64" QuestCanSubmit="63"/>
+	<Property ID="npc_qhm002_0033" Name="耶奈尔_晨蔷" Kind="17" QuestCanAccept="67" QuestCanSubmit="67"/>
+	<Property ID="npc_qhm002_0075" Name="维德_星语" Kind="17" QuestCanAccept="73"/>
+	<Property ID="npc_qhm002_0155" Name="罗德·逐风" Kind="17" QuestCanAccept="538,532" QuestCanSubmit="538,537"/>
+	<Property ID="npc_qhm002_0038" Name="艾富里_尘风" Kind="17" QuestCanAccept="74" QuestCanSubmit="73,74"/>
+	<Property ID="npc_qhm002_0077" Name="史宾杜_日炎" Kind="17" QuestCanAccept="75" QuestCanSubmit="75"/>
+	<Property ID="npc_qhm002_0089" Name="婓萠_日炎" Kind="17" QuestCanAccept="76" QuestCanSubmit="76"/>
+	<Property ID="npc_qhm002_0076" Name="特瑞西_曙光" Kind="17" QuestCanAccept="77" QuestCanSubmit="77"/>
+	<Property ID="npc_qhm002_0110" Name="阿普顿_克里斯丁" Kind="17" QuestCanAccept="78" QuestCanSubmit="78"/>
+	<Property ID="npc_zqm001_0001" Name="墨菲_朗曼" Kind="1"/>
+	<Property ID="npc_zqm001_0004" Name="阿萨雷_克顿" Kind="1" QuestCanAccept="4002,4004,4082,4146,4003,4084" QuestCanSubmit="4002,4001,4082,4146,4003,4084"/>
+	<Property ID="npc_zqm001_0117" Name="菲尔逊" Kind="1" QuestCanAccept="4007,4006,4148" QuestCanSubmit="4005,4148,4006"/>
+	<Property ID="npc_zqm001_0180" Name="卡萨雷" Kind="1" QuestCanAccept="4127,4128,4150,4008" QuestCanSubmit="4007,4127,4128,4150"/>
+	<Property ID="npc_zqm001_0003" Name="安格拉_菲尔德" Kind="1" QuestCanAccept="610" QuestCanSubmit="685"/>
+	<Property ID="npc_zqm001_0016" Name="奥莱特_科鲁" Kind="1" QuestCanAccept="4005,4083,682" QuestCanSubmit="4004,4083,607"/>
+	<Property ID="npc_zqm001_0088" Name="阿克里特_西尼尔" Kind="1" QuestCanAccept="4011,4013,82,4015,4020,4176,4178" QuestCanSubmit="4009,4011,4012,81,4013,4020,4176,4178"/>
+	<Property ID="npc_zqm001_0064" Name="拉莫斯_莱尔" Kind="1" QuestCanAccept="4032,4136" QuestCanSubmit="4017,4027,4093,4136,6300,6307"/>
+	<Property ID="npc_zqm001_0118" Name="柯克" Kind="1" QuestCanAccept="4009" QuestCanSubmit="4008"/>
+	<Property ID="npc_zqm001_0062" Name="胡里_沃利斯" Kind="1" QuestCanAccept="4029,4030,4090,4091,4089" QuestCanSubmit="4029,4030,4090,4091,4028"/>
+	<Property ID="npc_zqm001_0093" Name="路易彬·克里斯" Kind="1" QuestCanAccept="4100" QuestCanSubmit="4100"/>
+	<Property ID="npc_zqm001_0094" Name="卡特·罗杰" Kind="1" QuestCanAccept="4033,4034,4098,4099,4132" QuestCanSubmit="4032,4033,4034,4098,4099"/>
+	<Property ID="npc_zqm001_0030" Name="克鲁特·泰勒" Kind="1" QuestCanAccept="4135,4041,4102,4103,4106,4107" QuestCanSubmit="4262,4133,4134,4041,4101,4103,4106,4107"/>
+	<Property ID="npc_zqm001_0099" Name="内奈尔_克顿" Kind="1" QuestCanAccept="4075,4076" QuestCanSubmit="4074,4075"/>
+	<Property ID="npc_zqm001_0031" Name="克劳斯_沃尔顿" Kind="1" QuestCanAccept="4133"/>
+	<Property ID="npc_zqm001_0097" Name="西米斯_洛克菲勒" Kind="1" QuestCanAccept="4016,4023,4017,4014,691,692" QuestCanSubmit="4015,4016,4023,4014,616,691"/>
+	<Property ID="npc_zqm001_0067" Name="托克_斯宾塞" Kind="1" QuestCanAccept="4093,4092,660,661,662" QuestCanSubmit="4089,4092,659,660,661,662"/>
+	<Property ID="npc_zqm001_0066" Name="西米_泰勒" Kind="1" QuestCanAccept="4094,4095" QuestCanSubmit="4094"/>
+	<Property ID="npc_zqm001_0071" Name="戴安娜_西蒙" Kind="1" QuestCanAccept="4096" QuestCanSubmit="4096"/>
+	<Property ID="npc_zqm001_0120" Name="比恩_罗杰" Kind="1" QuestCanAccept="4031,4151" QuestCanSubmit="4031,4151"/>
+	<Property ID="npc_zqm001_0082" Name="凯奇_瑟维斯" Kind="1" QuestCanAccept="668" QuestCanSubmit="4115"/>
+	<Property ID="npc_zqm001_0100" Name="耐邱雷_斯诺" Kind="1" QuestCanAccept="4120" QuestCanSubmit="4120"/>
+	<Property ID="npc_zqm001_0089" Name="唐金_普里特" Kind="1" QuestCanAccept="4122,4123,672,673,674,675,676" QuestCanSubmit="4122,671,672,673,674,675,676"/>
+	<Property ID="npc_zqm001_0112" Name="勘察队卫兵卡克" Kind="1" QuestCanAccept="4124,4125" QuestCanSubmit="4124,4125"/>
+	<Property ID="npc_qhm002_0052" Name="皮罗_曙光" Kind="17" QuestCanAccept="79" QuestCanSubmit="79"/>
+	<Property ID="npc_zqm001_0041" Name="彼得萨姆·弗林" Kind="1" QuestCanAccept="8001" QuestCanSubmit="8001"/>
+	<Property ID="npc_zqm001_0039" Name="培西·汉弗莱" Kind="1" QuestCanAccept="8003" QuestCanSubmit="8003"/>
+	<Property ID="npc_zqm001_0040" Name="麦维斯·伦纳德" Kind="1" QuestCanAccept="8004" QuestCanSubmit="8004"/>
+	<Property ID="npc_zqm001_0037" Name="米莉·普兰" Kind="1" QuestCanAccept="4103" QuestCanSubmit="4102"/>
+	<Property ID="npc_qhm005_0001" Name="安斯顿·语风" Kind="20" QuestCanAccept="109,115" QuestCanSubmit="108,113"/>
+	<Property ID="npc_qhm005_0002" Name="班森·逐日" Kind="20" QuestCanAccept="110,113,112" QuestCanSubmit="109,110,112"/>
+	<Property ID="npc_qhm005_0003" Name="布拉德利·控魔" Kind="20"/>
+	<Property ID="npc_qhm005_0004" Name="布鲁诺·尘风" Kind="20" QuestCanAccept="114" QuestCanSubmit="114"/>
+	<Property ID="npc_qhm005_0005" Name="奥德烈·焚炎" Kind="20" QuestCanAccept="116,117,119,120,9013" QuestCanSubmit="115,116,117,119,9013"/>
+	<Property ID="npc_qhm005_0006" Name="巴里特·逆水" Kind="20" QuestCanAccept="118,121" QuestCanSubmit="118"/>
+	<Property ID="npc_qhm005_0007" Name="索拉卡·魔须" Kind="20" QuestCanAccept="122,130,199" QuestCanSubmit="120,128,199"/>
+	<Property ID="npc_qhm005_0008" Name="纳里斯·逆水" Kind="20" QuestCanSubmit="121,137" QuestCanAccept="141"/>
+	<Property ID="npc_qhm005_0009" Name="穆特·阔叶" Kind="20" QuestCanAccept="123" QuestCanSubmit="122"/>
+	<Property ID="npc_qhm005_0010" Name="莫萨多·树语" Kind="20" QuestCanAccept="124,125" QuestCanSubmit="123,124"/>
+	<Property ID="npc_qhm005_0011" Name="欧卡登·巡林" Kind="20" QuestCanAccept="126,128" QuestCanSubmit="125,126"/>
+	<Property ID="npc_qhm005_0012" Name="翁卡·阔叶" Kind="20" QuestCanAccept="127,129" QuestCanSubmit="127,129"/>
+	<Property ID="npc_qhm005_0013" Name="阿贝·巡林" Kind="20" QuestCanAccept="131" QuestCanSubmit="130"/>
+	<Property ID="npc_qhm005_0014" Name="温斯艾尔·喀什尼" Kind="20" QuestCanAccept="148,153,154,155,157,159" QuestCanSubmit="136,154,155,156,157"/>
+	<Property ID="npc_qhm005_0015" Name="克里克·幻语" Kind="20" QuestCanAccept="139"/>
+	<Property ID="npc_qhm005_0016" Name="布隆威斯特·逆水" Kind="20" QuestCanAccept="158" QuestCanSubmit="158"/>
+	<Property ID="npc_qhm005_0017" Name="扬·喀什尼" Kind="20" QuestCanAccept="164,165,166,167,9016" QuestCanSubmit="163,164,165,166,162,9016"/>
+	<Property ID="npc_qhm005_0018" Name="黑斯廷·控魔" Kind="20" QuestCanAccept="168,169,170,171,172" QuestCanSubmit="167,168,169,170,171"/>
+	<Property ID="npc_qhm005_0019" Name="达蒙·卡萨" Kind="20" QuestCanAccept="149,150,151,152,156,185" QuestCanSubmit="148,149,150,151,152,153,172,147"/>
+	<Property ID="npc_qhm005_0020" Name="阿鲁·硬木" Kind="20" QuestCanAccept="132,134,133,137,9014" QuestCanSubmit="131,132,134,133,9014"/>
+	<Property ID="npc_qhm005_0021" Name="乔鲁·阔叶" Kind="20" QuestCanAccept="160,162,163" QuestCanSubmit="159,160"/>
+	<Property ID="npc_qhm005_0022" Name="凯鲁·树语" Kind="20" QuestCanAccept="147"/>
+	<Property ID="npc_qhm005_0023" Name="尚·硬木" Kind="20"/>
+	<Property ID="npc_qhm005_0024" Name="林克·巡林" Kind="20" QuestCanAccept="135" QuestCanSubmit="135"/>
+	<Property ID="npc_qhm005_0025" Name="徐德瑞特" Kind="20" QuestCanAccept="142" QuestCanSubmit="141"/>
+	<Property ID="npc_qhm005_0026" Name="老师" Kind="20" QuestCanAccept="145,136" QuestCanSubmit="145,146"/>
+	<Property ID="npc_qhm005_0027" Name="003" Kind="20" QuestCanAccept="146"/>
+	<Property ID="npc_qhm005_0028" Name="废钢" Kind="20" QuestCanAccept="111" QuestCanSubmit="111"/>
+	<Property ID="npc_qhm005_0029" Name="万鬓" Kind="20" QuestCanAccept="140" QuestCanSubmit="140"/>
+	<Property ID="npc_qhm005_0030" Name="鱼汤" Kind="20" QuestCanAccept="144" QuestCanSubmit="144"/>
+	<Property ID="npc_qhm005_0031" Name="易大师" Kind="20" QuestCanAccept="143,9015" QuestCanSubmit="142,143,9015"/>
+	<Property ID="npc_qhm005_0032" Name="万斯马特" Kind="20" QuestCanAccept="141" QuestCanSubmit="139"/>
+	<Property ID="npc_qhm005_0033" Name="酋希" Kind="20" QuestCanAccept="138" QuestCanSubmit="138"/>
+	<Property ID="npc_qhm005_0034" Name="康纳利士" Kind="20" QuestCanAccept="174,175,176,177,178,183,184" QuestCanSubmit="174,175,176,177,178,183,184"/>
+	<Property ID="npc_qhm005_0035" Name="温瑟尔·幻语" Kind="20" QuestCanAccept="101,102,103,104,105,200,9012" QuestCanSubmit="101,102,103,104,438,200,10371,9012"/>
+	<Property ID="npc_qhm005_0036" Name="萨拉丁·逐风" Kind="20" QuestCanAccept="106,107,108" QuestCanSubmit="105,106,107"/>
+	<Property ID="npc_qhm005_0037" Name="金·弗拉尼" Kind="20" QuestCanAccept="161" QuestCanSubmit="161"/>
+	<Property ID="npc_qhm005_0063" Name="假死的迪兰达" Kind="20" QuestCanAccept="179,180,181" QuestCanSubmit="179,180,181"/>
+	<Property ID="npc_zqm005_0001" Name="克林·亮银" Kind="5" QuestCanAccept="2001,2002,2003,2004,2007,2013,2109" QuestCanSubmit="2001,2002,2003,2004,2007,4135,10053,2109"/>
+	<Property ID="npc_zqm005_0002" Name="阿坎萨·佐图" Kind="5" QuestCanAccept="3001,2015,2017,3003,2020,2025,2026,9071" QuestCanSubmit="2013,2014,2015,2017,2024,2025,9071"/>
+	<Property ID="npc_zqm005_0005" Name="阿尔托利亚·坚铜" Kind="5" QuestCanAccept="2027,2028,2031,2034,2035,2043,2044,2033,2032,2029,9072" QuestCanSubmit="2026,2027,2030,2031,2032,2034,2043,2033,2302,9072"/>
+	<Property ID="npc_zqm005_0006" Name="迪菲斯·庞达" Kind="5" QuestCanAccept="2030" QuestCanSubmit="2028,2029"/>
+	<Property ID="npc_zqm005_0007" Name="奴亚达·奥柏" Kind="5" QuestCanAccept="2036,2037,2038,2039,2040,2041,2042" QuestCanSubmit="2035,2036,2037,2038,2039,2040,2041,2042"/>
+	<Property ID="npc_zqm005_0010" Name="埃德加·斯达克" Kind="5" QuestCanAccept="2045,2046,2047,2048,2052" QuestCanSubmit="2044,2045,2046,2047,2051,2055"/>
+	<Property ID="npc_zqm005_0013" Name="康德·伦隆" Kind="5" QuestCanAccept="2050" QuestCanSubmit="2048"/>
+	<Property ID="npc_zqm005_0014" Name="鲁巴卡·坚铜" Kind="5" QuestCanAccept="2049,2051" QuestCanSubmit="2049,2050"/>
+	<Property ID="npc_zqm005_0015" Name="汉尼鲁" Kind="5" QuestCanAccept="2053,2054,2055" QuestCanSubmit="2053,2054"/>
+	<Property ID="npc_zqm005_0017" Name="塞西莉亚·斯达克" Kind="5" QuestCanAccept="2056,2058,2060,2063,2064,9073" QuestCanSubmit="2056,2052,2058,2060,2063,9073"/>
+	<Property ID="npc_zqm005_0018" Name="麦林·坚铜" Kind="5" QuestCanAccept="2066,2067,2068" QuestCanSubmit="2064,2066,2067"/>
+	<Property ID="npc_zqm005_0020" Name="凯瑟琳·赫本" Kind="5" QuestCanAccept="2072,2076,2077,2078" QuestCanSubmit="2068,2072,2076,2077"/>
+	<Property ID="npc_zqm005_0019" Name="塞拉扬·亮银" Kind="5" QuestCanAccept="2069,2070" QuestCanSubmit="2069,2070"/>
+	<Property ID="npc_zqm005_0021" Name="003" Kind="5" QuestCanAccept="2073,2074,2075" QuestCanSubmit="2073,2074"/>
+	<Property ID="npc_zqm005_0025" Name="废钢" Kind="5" QuestCanAccept="2085,2086,2087" QuestCanSubmit="2075,2085,2086"/>
+	<Property ID="npc_zqm005_0022" Name="埃莲娜·黛西" Kind="5" QuestCanAccept="2079,2080,2082,2083,2081,9074" QuestCanSubmit="2078,2079,2082,2083,2080,9074"/>
+	<Property ID="npc_zqm005_0023" Name="托瓦克·迪塞尔" Kind="5" QuestCanAccept="2084" QuestCanSubmit="2081"/>
+	<Property ID="npc_zqm005_0024" Name="范特伦特·维加" Kind="5" QuestCanAccept="2088,2089,2090,9075" QuestCanSubmit="2084,2088,2089,9075"/>
+	<Property ID="npc_zqm005_0027" Name="鱼汤" Kind="5" QuestCanAccept="2094,2095,2096" QuestCanSubmit="2087,2094,2095,2096"/>
+	<Property ID="npc_zqm005_0026" Name="艾丽卡·多兰" Kind="5" QuestCanAccept="2091,2092,2093,2097,2099,2100,2101" QuestCanSubmit="2090,2091,2092,2098,2100,2101"/>
+	<Property ID="npc_zqm005_0029" Name="尤涅乌·萨迦" Kind="5" QuestCanAccept="2102,2106,2107,2108,3954,9076" QuestCanSubmit="2093,2102,2106,2107,3953,3954,9076"/>
+	<Property ID="npc_zqm005_0028" Name="弥斯·奥柏" Kind="5" QuestCanAccept="2098" QuestCanSubmit="2097,2099"/>
+	<Property ID="npc_zqm005_0093" Name="唐璜·卢尔" Kind="5" QuestCanAccept="2120,3004,9077" QuestCanSubmit="2108,3004,9077"/>
+	<Property ID="npc_zqm005_0099" Name="哈奇斯·坚铜" Kind="5" QuestCanAccept="2005,2006" QuestCanSubmit="2005,2006"/>
+	<Property ID="npc_zqm005_0100" Name="罗德曼·坚铜" Kind="5" QuestCanAccept="2008,2009,2010,2011,2012" QuestCanSubmit="2008,2009,2010,2011,2012"/>
+	<Property ID="npc_zqm005_0101" Name="帕里斯·伊恩" Kind="5" QuestCanAccept="3000,2018" QuestCanSubmit="2016,2018"/>
+	<Property ID="npc_zqm005_0102" Name="弗朗哥·德玛" Kind="5" QuestCanAccept="2021,2022,2023,2024,2111,2112,2019" QuestCanSubmit="2019,2020,2021,2022,2023,2111,2112,3003"/>
+	<Property ID="npc_zqm005_0103" Name="布鲁托·昆汀" Kind="5" QuestCanAccept="2057,2059,2061,2062" QuestCanSubmit="2057,2059,2061,2062"/>
+	<Property ID="npc_zqm005_0104" Name="玛德雷·黑曜" Kind="5" QuestCanAccept="2065" QuestCanSubmit="2065"/>
+	<Property ID="npc_zqm005_0105" Name="奎托斯·坚铜" Kind="5" QuestCanAccept="2103,2104,2105,2113" QuestCanSubmit="2103,2104,2105,2113"/>
+	<Property ID="npc_zqm002_0007" Name="德尔·法斯特" Kind="3" QuestCanAccept="4200"/>
+	<Property ID="npc_zqm002_0008" Name="狄拉·艾伦" Kind="3" QuestCanAccept="4201,4202,4203,4204,4266,4268" QuestCanSubmit="4200,4201,4202,4203,4204,4266"/>
+	<Property ID="npc_zqm002_0074" Name="格里菲斯·布罗德" Kind="3" QuestCanAccept="4246,4206" QuestCanSubmit="4205,4246"/>
+	<Property ID="npc_zqm002_0075" Name="达德格·鲍勃" Kind="3" QuestCanAccept="4207,4208" QuestCanSubmit="4206,4207"/>
+	<Property ID="npc_zqm002_0076" Name="艾德琳·伊迪丝" Kind="3" QuestCanAccept="4209,4210,4247,4269,4205" QuestCanSubmit="4208,4209,4247,4269,4268"/>
+	<Property ID="npc_zqm002_0028" Name="拉夏尔·兰伯特" Kind="3" QuestCanAccept="4211,4212,4213,4214,4224,4235" QuestCanSubmit="4210,4211,4212,4213,4231,4242,4223"/>
+	<Property ID="npc_zqm002_0030" Name="劳埃德·埃伦" Kind="3" QuestCanAccept="4215,4216" QuestCanSubmit="4214,4215"/>
+	<Property ID="npc_zqm002_0051" Name="罗德里克·穆迪" Kind="3" QuestCanAccept="4218,4219,4220,4221,4222,4223" QuestCanSubmit="4217,4218,4219,4220,4221,4222"/>
+	<Property ID="npc_zqm002_0058" Name="罗茨·克罗特" Kind="3" QuestCanAccept="4225,4226,4227,4228,4229,4230,4256,4235" QuestCanSubmit="4224,4225,4226,4227,4228,4229,4230,4256"/>
+	<Property ID="npc_zqm002_0032" Name="希诺·阿瑟" Kind="3"/>
+	<Property ID="npc_zqm002_0070" Name="兰斯·布卢尔" Kind="3" QuestCanAccept="4236,4237,4238,4239,4240,4241,4242" QuestCanSubmit="4235,4236,4237,4238,4239,4240,4241"/>
+	<Property ID="npc_zqm002_0080" Name="安贝尔·布罗德" Kind="3" QuestCanAccept="4243" QuestCanSubmit="4243"/>
+	<Property ID="npc_zqm002_0081" Name="赛得里克·布罗德" Kind="3" QuestCanAccept="4244,4245" QuestCanSubmit="4244,4245"/>
+	<Property ID="npc_zqm002_0035" Name="保罗·艾利克斯" Kind="3" QuestCanAccept="4248,4249,4250" QuestCanSubmit="4248,4249,4250"/>
+	<Property ID="npc_zqm002_0087" Name="阿卡利·克伦威尔" Kind="3" QuestCanAccept="4251,4252,4253" QuestCanSubmit="4251,4252,4253"/>
+	<Property ID="npc_zqm002_0077" Name="莱恩·伍德曼" Kind="3"/>
+	<Property ID="npc_qhm003_0005" Name="费迪南德·安苏" Kind="19" QuestCanAccept="224" QuestCanSubmit="224"/>
+	<Property ID="npc_qhm003_0006" Name="埃里森·柯特" Kind="19" QuestCanAccept="223" QuestCanSubmit="223"/>
+	<Property ID="npc_qhm003_0013" Name="卡姆·帆鳍" Kind="19" QuestCanAccept="229,10103" QuestCanSubmit="229,10103"/>
+	<Property ID="npc_qhm003_0014" Name="尼克尔·细鳞" Kind="19" QuestCanAccept="231"/>
+	<Property ID="npc_qhm003_0015" Name="波特·哈瑞斯" Kind="19" QuestCanSubmit="235"/>
+	<Property ID="npc_qhm003_0016" Name="劳尔·雷诺" Kind="19" QuestCanAccept="236" QuestCanSubmit="236"/>
+	<Property ID="npc_qhm003_0046" Name="劳斯·施罗德" Kind="19" QuestCanAccept="221,255,253" QuestCanSubmit="201,221,255"/>
+	<Property ID="npc_qhm003_0047" Name="路易·卡洛斯" Kind="19" QuestCanAccept="222,262,263" QuestCanSubmit="202,262,263"/>
+	<Property ID="npc_qhm003_0049" Name="奥多·兰道尔" Kind="19" QuestCanAccept="201"/>
+	<Property ID="npc_qhm003_0054" Name="罗格·费尔南多" Kind="19" QuestCanAccept="204,225" QuestCanSubmit="203,225"/>
+	<Property ID="npc_qhm003_0055" Name="阿尔文·布兰多" Kind="19" QuestCanAccept="205,257,6701,6501,256" QuestCanSubmit="204,256,6700,6500,6707,6507"/>
+	<Property ID="npc_qhm003_0059" Name="卡戎多·金鳍" Kind="19" QuestCanSubmit="232"/>
+	<Property ID="npc_qhm003_0063" Name="喀戎·帆鳍" Kind="19" QuestCanAccept="229,10102,232,230,207" QuestCanSubmit="206,229,231,10102,230"/>
+	<Property ID="npc_qhm003_0064" Name="安丝妮·闪光" Kind="19"/>
+	<Property ID="npc_qhm003_0065" Name="克罗多·尤里乌" Kind="19"/>
+	<Property ID="npc_qhm003_0068" Name="安东尼奥·里卡鲁多" Kind="19" QuestCanAccept="239" QuestCanSubmit="239"/>
+	<Property ID="npc_qhm003_0069" Name="凯瑟琳·尤里乌" Kind="19" QuestCanAccept="216,259,10107,271,10118,10119,10120" QuestCanSubmit="215,259,10107,271,10118,10119,10120"/>
+	<Property ID="npc_qhm003_0070" Name="巴洛斯·尤里乌" Kind="19" QuestCanAccept="219,211" QuestCanSubmit="218,219,243,246"/>
+	<Property ID="npc_qhm003_0071" Name="失控的安东尼奥" Kind="19" QuestCanAccept="227,228,6500,6700" QuestCanSubmit="205,227,228"/>
+	<Property ID="npc_qhm003_0072" Name="夏洛克·里卡鲁多" Kind="19" QuestCanAccept="10130,220" QuestCanSubmit="211"/>
+	<Property ID="npc_qhm003_0073" Name="芙兰·歌妮亚" Kind="19" QuestCanAccept="208,209,233,234,10104,10105" QuestCanSubmit="207,208,209,233,234,10104,10105"/>
+	<Property ID="npc_qhm003_0074" Name="兰瑟斯·藤森" Kind="19" QuestCanAccept="210,238,212" QuestCanSubmit="209,210"/>
+	<Property ID="npc_qhm003_0075" Name="牧羊人" Kind="19" QuestCanAccept="226,254" QuestCanSubmit="222,226"/>
+	<Property ID="npc_qhm003_0078" Name="亚德里恩·巴奈特" Kind="19" QuestCanAccept="214,235" QuestCanSubmit="213"/>
+	<Property ID="npc_qhm003_0079" Name="奥布里·博伊斯" Kind="19" QuestCanAccept="215" QuestCanSubmit="214"/>
+	<Property ID="npc_qhm003_0080" Name="布拉得里克·钱宁" Kind="19" QuestCanAccept="213,237,270" QuestCanSubmit="212,237,238,270"/>
+	<Property ID="npc_qhm003_0081" Name="夏佐·康奈尔" Kind="19" QuestCanAccept="217,218,242" QuestCanSubmit="216,217,242"/>
+	<Property ID="npc_qhm003_0082" Name="达伦·德文" Kind="19" QuestCanAccept="240,241" QuestCanSubmit="240,241"/>
+	<Property ID="npc_qhm003_0083" Name="霍华德·摩尔蒂尼" Kind="19" QuestCanAccept="245,246,10124,10125,10126" QuestCanSubmit="245,10124,10125,10126"/>
+	<Property ID="npc_qhm003_0084" Name="卡萨卡·施罗德" Kind="19" QuestCanAccept="243"/>
+	<Property ID="npc_qhm003_0085" Name="阿瑟尔.洛萨" Kind="19" QuestCanAccept="244" QuestCanSubmit="244"/>
+	<Property ID="npc_qhm003_0024" Name="罗纳德_史东" Kind="19" QuestCanAccept="247,250" QuestCanSubmit="248"/>
+	<Property ID="npc_qhm003_0017" Name="汉克斯_菲尔" Kind="19" QuestCanAccept="249,10122" QuestCanSubmit="249,10122"/>
+	<Property ID="npc_qhm003_0020" Name="鲁尼_阿克顿" Kind="19" QuestCanAccept="251" QuestCanSubmit="250,251"/>
+	<Property ID="npc_qhm003_0025" Name="雷哲_罗伯特" Kind="19" QuestCanAccept="248,10121" QuestCanSubmit="247,10121"/>
+	<Property ID="npc_qhm003_0034" Name="威廉_汉森姆" Kind="19" QuestCanAccept="252" QuestCanSubmit="252"/>
+	<Property ID="npc_zqm005_0108" Name="加里奥·寇克" Kind="5" QuestCanAccept="3950,3953" QuestCanSubmit="3952"/>
+	<Property ID="npc_qhm003_0002" Name="泰勒·莱恩斯" Kind="19" QuestCanAccept="202" QuestCanSubmit="253"/>
+	<Property ID="npc_qhm003_0004" Name="哈里森·罗兰" Kind="19"/>
+	<Property ID="npc_qhm003_0012" Name="莱安·罗纳德" Kind="19" QuestCanAccept="206,10101" QuestCanSubmit="257,10101"/>
+	<Property ID="npc_qhm003_0058" Name="萨姆·温德尔" Kind="19" QuestCanAccept="258" QuestCanSubmit="258"/>
+	<Property ID="npc_zqm003_0063" Name="麦肯·黑曜" Kind="2" QuestCanAccept="10001,10060,10091" QuestCanSubmit="10001,10060"/>
+	<Property ID="npc_zqm003_0064" Name="隆多·黑曜" Kind="2" QuestCanAccept="10002,10085" QuestCanSubmit="10091,10400"/>
+	<Property ID="npc_zqm003_0065" Name="布莱特·黑曜" Kind="2" QuestCanAccept="10086,10092" QuestCanSubmit="10085,10003"/>
+	<Property ID="npc_zqm003_0066" Name="奥莱恩·黑曜" Kind="2" QuestCanAccept="10004,10007,10087" QuestCanSubmit="10086,10093,10094"/>
+	<Property ID="npc_zqm003_0067" Name="温特门·黑曜" Kind="2" QuestCanAccept="10005,10088" QuestCanSubmit="10005,10087"/>
+	<Property ID="npc_zqm003_0068" Name="卡雷萨·黑曜" Kind="2" QuestCanAccept="10006,10076,10090,10094" QuestCanSubmit="10076,10088,10090,10006"/>
+	<Property ID="npc_zqm003_0069" Name="法尔考·坚铜" Kind="2" QuestCanAccept="10008,10096" QuestCanSubmit="10095"/>
+	<Property ID="npc_zqm003_0071" Name="布兰登·罗根" Kind="2" QuestCanAccept="10011,10012,10070" QuestCanSubmit="10009,10011,10070"/>
+	<Property ID="npc_zqm003_0072" Name="阿兰德·克伦" Kind="2" QuestCanAccept="10010,10064" QuestCanSubmit="10010,10064"/>
+	<Property ID="npc_zqm003_0073" Name="鲁德·耀金" Kind="2" QuestCanAccept="10014,10015" QuestCanSubmit="10056,10402,10013"/>
+	<Property ID="npc_zqm003_0074" Name="波西丝·耀金" Kind="2" QuestCanAccept="10016,10054,10055,10056,10021,10098" QuestCanSubmit="10016,10054,10055,10021"/>
+	<Property ID="npc_zqm003_0075" Name="盖伯文·黑曜" Kind="2" QuestCanAccept="10018,10065,10098" QuestCanSubmit="10018,10065,10097"/>
+	<Property ID="npc_zqm003_0076" Name="穆里扎·坚铜" Kind="2" QuestCanAccept="10022,10023" QuestCanSubmit="10019,10022"/>
+	<Property ID="npc_zqm003_0077" Name="狄米兰斯·坚铜" Kind="2" QuestCanAccept="10020" QuestCanSubmit="10020"/>
+	<Property ID="npc_zqm003_0078" Name="塞伯拉斯·坚铜" Kind="2" QuestCanAccept="10024,3010" QuestCanSubmit="10023,10024,3010"/>
+	<Property ID="npc_zqm003_0079" Name="托尔金·坚铜" Kind="2" QuestCanAccept="10025,10026" QuestCanSubmit="10025,10026"/>
+	<Property ID="npc_zqm003_0080" Name="尤涅乌·赫兰" Kind="2" QuestCanAccept="10027"/>
+	<Property ID="npc_zqm003_0081" Name="洛克菲尔·赤铁" Kind="2" QuestCanAccept="3005,10028,10034,10066,10067,10068" QuestCanSubmit="3006,10027,10066,10067,10068,10404"/>
+	<Property ID="npc_zqm003_0082" Name="谢尔曼·坚铜" Kind="2" QuestCanAccept="10029,10077,10081" QuestCanSubmit="10029,10077,10081"/>
+	<Property ID="npc_zqm003_0083" Name="阿斯兰·亮银" Kind="2" QuestCanAccept="10035,10036,10082" QuestCanSubmit="10034,10035,10082"/>
+	<Property ID="npc_zqm003_0084" Name="科里森·岩火" Kind="2" QuestCanAccept="10037,10040,10069,10038,10042,3007" QuestCanSubmit="10036,10037,10040,10069,10038,10042"/>
+	<Property ID="npc_zqm003_0085" Name="卡崔娜·耀金" Kind="2" QuestCanAccept="10039,10041" QuestCanSubmit="10039,10041"/>
+	<Property ID="npc_zqm003_0087" Name="德罗乌·亮银" Kind="2" QuestCanAccept="10043" QuestCanSubmit="3007"/>
+	<Property ID="npc_zqm003_0088" Name="达鲁文·坚铜" Kind="2" QuestCanAccept="10045,10046,10047,10049,3009" QuestCanSubmit="10043,10045,10046,10047,10049"/>
+	<Property ID="npc_zqm003_0089" Name="范比滕·坚铜" Kind="2" QuestCanAccept="10044,10048" QuestCanSubmit="10044,10048"/>
+	<Property ID="npc_zqm003_0090" Name="崔斯特里·黑曜" Kind="2" QuestCanAccept="10050,10051,3008,10052" QuestCanSubmit="10050,10051,10052,3009"/>
+	<Property ID="npc_zqm003_0091" Name="莫萨多·赤铁" Kind="2" QuestCanAccept="10053,10078" QuestCanSubmit="3008"/>
+	<Property ID="npc_zqm003_0094" Name="法比奥·坚铜" Kind="2" QuestCanAccept="10057,10059" QuestCanSubmit="10057,10098"/>
+	<Property ID="npc_zqm003_0095" Name="亚萨斯·赤铁" Kind="2" QuestCanAccept="10058" QuestCanSubmit="10058"/>
+	<Property ID="npc_zlm010_0001" Name="凯尔瑟斯" Kind="7" QuestCanAccept="2301,2302,2303,2304,2305,2310,2321,2463,2464,9020" QuestCanSubmit="2301,2302,2303,2304,2309,2320,2444,2463,173,2464,9020"/>
+	<Property ID="npc_zlm010_0002" Name="格里芬·哈维" Kind="7" QuestCanAccept="2306,2307,2308,2309,2444,2448" QuestCanSubmit="2305,2306,2307,2308,2309,2448"/>
+	<Property ID="npc_zlm010_0004" Name="米加·利爪" Kind="7" QuestCanAccept="2317,2318,2319,2320,2445,9021" QuestCanSubmit="2310,2317,2318,2319,2445,9021"/>
+	<Property ID="npc_zlm010_0003" Name="哈里斯" Kind="7" QuestCanAccept="2311,2312,2313,2314" QuestCanSubmit="2311,2312,2313,2315"/>
+	<Property ID="npc_zlm010_0006" Name="太阳之子教徒" Kind="7" QuestCanAccept="2315" QuestCanSubmit="2314"/>
+	<Property ID="npc_zlm010_0007" Name="巴尔加·洛斯拉" Kind="7" QuestCanAccept="2324,2325,2326,2446" QuestCanSubmit="2321,2324,2325,2446,2449"/>
+	<Property ID="npc_zlm010_0008" Name="克伦萨·战吼" Kind="7" QuestCanAccept="2322,2323" QuestCanSubmit="2322,2323"/>
+	<Property ID="npc_zlm010_0009" Name="佐拉娅" Kind="7" QuestCanAccept="2327,2329,2450" QuestCanSubmit="2326,2329,2328"/>
+	<Property ID="npc_zlm010_0010" Name="托里斯·岩火" Kind="7" QuestCanAccept="2328" QuestCanSubmit="2327"/>
+	<Property ID="npc_zlm010_0011" Name="贾克斯" Kind="7" QuestCanAccept="2332,2333,2381,2382,9065" QuestCanSubmit="2332,2370,2381,2450,9065"/>
+	<Property ID="npc_zlm010_0012" Name="洛佩兹·达利安" Kind="7" QuestCanAccept="2330,2331" QuestCanSubmit="2330,2331"/>
+	<Property ID="npc_zlm010_0013" Name="康德" Kind="7" QuestCanAccept="2334,2347,2383,2405,2411,2418,2419,2499,2467" QuestCanSubmit="2333,2342,2351,2382,2404,2410,2417"/>
+	<Property ID="npc_zlm010_0014" Name="徐希尔冯" Kind="7" QuestCanAccept="2337,2338,2339,2340,2341,2460,2461,2451,9022,9023" QuestCanSubmit="2334,2337,2338,2339,2340,2341,2460,2451,9022,9023"/>
+	<Property ID="npc_zlm010_0015" Name="埃尔维斯" Kind="7" QuestCanAccept="2335,2336,2384,2385" QuestCanSubmit="2335,2336,2384,2385"/>
+	<Property ID="npc_zlm010_0016" Name="卡拉" Kind="7" QuestCanAccept="2342,2343,2344,2345,2346" QuestCanSubmit="2343,2344,2345,2346"/>
+	<Property ID="npc_zlm010_0017" Name="鲍德温" Kind="7" QuestCanAccept="2351,2352,2353" QuestCanSubmit="2347,2352,2354"/>
+	<Property ID="npc_zlm010_0018" Name="瑞吉尔" Kind="7" QuestCanAccept="2348,2349,2350,2447,9024" QuestCanSubmit="2348,2349,2350,2447,9024"/>
+	<Property ID="npc_zlm010_0019" Name="克拉斯" Kind="7" QuestCanAccept="2354" QuestCanSubmit="2353"/>
+	<Property ID="npc_zlm010_0020" Name="梵纳" Kind="7" QuestCanAccept="2355,2356,2362" QuestCanSubmit="2355,2361,2765"/>
+	<Property ID="npc_zlm010_0021" Name="鲁尔森" Kind="7" QuestCanAccept="2359,2360,2361" QuestCanSubmit="2356,2359,2360"/>
+	<Property ID="npc_zlm010_0022" Name="拉尔" Kind="7" QuestCanAccept="2357,2358" QuestCanSubmit="2357,2358"/>
+	<Property ID="npc_zlm010_0023" Name="马汀" Kind="7" QuestCanAccept="2365,2366,2367,2368,2369,2370" QuestCanSubmit="2362,2365,2366,2367,2368,2369"/>
+	<Property ID="npc_zlm010_0024" Name="加西亚" Kind="7" QuestCanAccept="2363,2364" QuestCanSubmit="2363,2364"/>
+	<Property ID="npc_zlm010_0025" Name="酋希" Kind="7" QuestCanAccept="2371,2372,2374" QuestCanSubmit="2371,2373,2374"/>
+	<Property ID="npc_zlm010_0026" Name="老师" Kind="7" QuestCanAccept="2373" QuestCanSubmit="2372"/>
+	<Property ID="npc_zlm010_0027" Name="废钢" Kind="7" QuestCanAccept="2375,2376,2377,2378" QuestCanSubmit="2375,2376,2377,2378"/>
+	<Property ID="npc_zlm010_0028" Name="康纳利士" Kind="7" QuestCanAccept="2379,2380" QuestCanSubmit="2379,2380"/>
+	<Property ID="npc_zlm010_0029" Name="阿吉雷" Kind="7" QuestCanAccept="2386,2388,2389,9066" QuestCanSubmit="2383,2387,2388,9066"/>
+	<Property ID="npc_zlm010_0030" Name="卡尔迪伦" Kind="7" QuestCanAccept="2387" QuestCanSubmit="2386"/>
+	<Property ID="npc_zlm010_0031" Name="桑切斯" Kind="7" QuestCanAccept="2390,2394,2395,2396" QuestCanSubmit="2389,2390,2393,2395"/>
+	<Property ID="npc_zlm010_0032" Name="博尔赫斯" Kind="7" QuestCanAccept="2391,2392,2420,2393" QuestCanSubmit="2391,2392"/>
+	<Property ID="npc_zlm010_0033" Name="费尔南德" Kind="7" QuestCanAccept="2401,2402,2403,2404" QuestCanSubmit="2394,2401,2402,2403"/>
+	<Property ID="npc_zlm010_0120" Name="老师" Kind="7" QuestCanAccept="2397,2398,2399,2400" QuestCanSubmit="2396,2397,2398,2399,2400"/>
+	<Property ID="npc_zlm010_0116" Name="道格拉" Kind="7" QuestCanAccept="2442,2443" QuestCanSubmit="2442,2443"/>
+	<Property ID="npc_zlm010_0034" Name="贾拉德" Kind="7" QuestCanAccept="2406,2407,2410,2412,9067" QuestCanSubmit="2405,2406,2412,2419,2441,9067"/>
+	<Property ID="npc_zlm010_0035" Name="兰迪" Kind="7" QuestCanAccept="2408,2409,2413,2462" QuestCanSubmit="2407,2408,2409,2413,2462"/>
+	<Property ID="npc_zlm010_0036" Name="罗伊" Kind="7" QuestCanAccept="2414,2415,2416,2417,2465,2466" QuestCanSubmit="2411,2414,2415,2416,2465,2466"/>
+	<Property ID="npc_zlm010_0121" Name="安东尼" Kind="7" QuestCanAccept="2421" QuestCanSubmit="2420"/>
+	<Property ID="npc_zlm010_0122" Name="布兰登" Kind="7" QuestCanAccept="2422,2423,2424,2425,9068" QuestCanSubmit="2421,2422,2423,2424,2425,9068"/>
+	<Property ID="npc_zlm010_0083" Name="巴里恩托斯" Kind="7" QuestCanAccept="2426"/>
+	<Property ID="npc_zlm010_0072" Name="海布里·嘉文" Kind="7" QuestCanSubmit="2426"/>
+	<Property ID="npc_zlm010_0084" Name="巴斯蒂安" Kind="7" QuestCanAccept="2427"/>
+	<Property ID="npc_zlm010_0069" Name="加古林" Kind="7" QuestCanSubmit="2427"/>
+	<Property ID="npc_zlm010_0071" Name="古洛" Kind="7" QuestCanAccept="2428"/>
+	<Property ID="npc_zlm010_0085" Name="贝塞罗" Kind="7" QuestCanSubmit="2428"/>
+	<Property ID="npc_zlm010_0086" Name="本哈明" Kind="7" QuestCanAccept="2429"/>
+	<Property ID="npc_zlm010_0066" Name="多比伦迪" Kind="7" QuestCanSubmit="2429"/>
+	<Property ID="npc_zlm010_0078" Name="阿尼塔" Kind="7" QuestCanAccept="2430"/>
+	<Property ID="npc_zlm010_0065" Name="克林斯曼" Kind="7" QuestCanSubmit="2430"/>
+	<Property ID="npc_zlm010_0064" Name="孔特" Kind="7" QuestCanAccept="2431"/>
+	<Property ID="npc_zlm010_0079" Name="安索拉" Kind="7" QuestCanSubmit="2431"/>
+	<Property ID="npc_zlm010_0117" Name="米歇尔" Kind="7" QuestCanAccept="2432"/>
+	<Property ID="npc_zlm010_0126" Name="吉尔贝特" Kind="7" QuestCanSubmit="2432"/>
+	<Property ID="npc_qhm001_0001" Name="雷恩·战吼" Kind="18" QuestCanAccept="2151,2152,2153,2154,2156,2157" QuestCanSubmit="2151,2152,2153,2157"/>
+	<Property ID="npc_qhm001_0006" Name="梅丽莎·尖牙" Kind="18" QuestCanAccept="2162,2164,2167,2516,2520" QuestCanSubmit="2156,2167,2504"/>
+	<Property ID="npc_qhm001_0007" Name="奥格瑞" Kind="18" QuestCanAccept="2158,2155,2513" QuestCanSubmit="2154,2158,2155,2513"/>
+	<Property ID="npc_qhm001_0008" Name="瓦拉娅" Kind="18" QuestCanAccept="2161,2501,2505" QuestCanSubmit="2161,2156,2505"/>
+	<Property ID="npc_qhm001_0009" Name="卡雷斯·战吼" Kind="18" QuestCanAccept="2163,2166,2514" QuestCanSubmit="2162,2163,2166,2518"/>
+	<Property ID="npc_qhm001_0010" Name="托雷斯塔·战吼" Kind="18" QuestCanAccept="2171,2173,2523,2524,2525" QuestCanSubmit="2171,2509,2523,2524,2525"/>
+	<Property ID="npc_qhm001_0011" Name="罗恩·利爪" Kind="18" QuestCanAccept="2172,2174" QuestCanSubmit="2172,2173,2528"/>
+	<Property ID="npc_qhm001_0012" Name="米然达·鹰眼" Kind="18" QuestCanAccept="2178,2179,2181,2182,2193,2194" QuestCanSubmit="2178,2179,2180,2181,2192,2193"/>
+	<Property ID="npc_qhm001_0013" Name="索菲亚·鹰眼" Kind="18" QuestCanAccept="2180"/>
+	<Property ID="npc_qhm001_0014" Name="孔特雷加斯·利爪" Kind="18" QuestCanAccept="2183" QuestCanSubmit="2182"/>
+	<Property ID="npc_qhm001_0015" Name="维杜里·战吼" Kind="18" QuestCanAccept="2184,2185" QuestCanSubmit="2183,2184"/>
+	<Property ID="npc_qhm001_0017" Name="克拉雷斯·尖牙" Kind="18" QuestCanAccept="2186" QuestCanSubmit="2185"/>
+	<Property ID="npc_qhm001_0016" Name="卡特琳·尖牙" Kind="18" QuestCanAccept="2187,2188" QuestCanSubmit="2186,2187"/>
+	<Property ID="npc_qhm001_0018" Name="赫谢尔·利爪" Kind="18" QuestCanAccept="2189" QuestCanSubmit="2188"/>
+	<Property ID="npc_qhm001_0019" Name="卡莱德里·鹰眼" Kind="18" QuestCanAccept="2190,2191" QuestCanSubmit="2189,2190"/>
+	<Property ID="npc_qhm001_0021" Name="莫斯拉·利爪" Kind="18" QuestCanAccept="2192" QuestCanSubmit="2191"/>
+	<Property ID="npc_qhm001_0022" Name="赫拉特·战吼" Kind="18" QuestCanAccept="2195,2200,2201,2209" QuestCanSubmit="2194,2198,2200,2208,2210"/>
+	<Property ID="npc_qhm001_0042" Name="维洛·利爪" Kind="18" QuestCanAccept="2196,2197,2198" QuestCanSubmit="2195,2196,2197"/>
+	<Property ID="npc_qhm001_0041" Name="鱼汤" Kind="18" QuestCanAccept="2199" QuestCanSubmit="2199"/>
+	<Property ID="npc_qhm001_0023" Name="索伦森" Kind="18" QuestCanAccept="2202,2203,2206,2207,2208" QuestCanSubmit="2201,2202,2204,2205,2206,2207"/>
+	<Property ID="npc_qhm001_0025" Name="阿坎萨·鹰眼" Kind="18" QuestCanAccept="2219,2220,2221" QuestCanSubmit="2209,2219,2220"/>
+	<Property ID="npc_qhm001_0026" Name="鸠特尔" Kind="18" QuestCanAccept="2210"/>
+	<Property ID="npc_qhm001_0027" Name="泰伯妮" Kind="18" QuestCanAccept="2211"/>
+	<Property ID="npc_qhm001_0029" Name="丹伯乌" Kind="18" QuestCanAccept="2212" QuestCanSubmit="2211"/>
+	<Property ID="npc_qhm001_0030" Name="阿冽扎·鹰眼" Kind="18" QuestCanAccept="2213,2214" QuestCanSubmit="2213,2214"/>
+	<Property ID="npc_qhm001_0031" Name="阿蕾莎" Kind="18" QuestCanAccept="2215" QuestCanSubmit="2215"/>
+	<Property ID="npc_qhm001_0032" Name="格罗斯·鹰眼" Kind="18" QuestCanAccept="2216,2233" QuestCanSubmit="2216,2224,2233"/>
+	<Property ID="npc_qhm001_0035" Name="丹门托·利爪" Kind="18" QuestCanAccept="2218" QuestCanSubmit="2218"/>
+	<Property ID="npc_qhm001_0034" Name="威德利·利爪" Kind="18" QuestCanAccept="2217" QuestCanSubmit="2217"/>
+	<Property ID="npc_qhm001_0036" Name="伊拉斐尔" Kind="18" QuestCanAccept="2226,2228" QuestCanSubmit="2221,2227"/>
+	<Property ID="npc_qhm001_0037" Name="扎加隆" Kind="18" QuestCanAccept="2222" QuestCanSubmit="2222"/>
+	<Property ID="npc_qhm001_0038" Name="加菲尔德" Kind="18" QuestCanAccept="2223" QuestCanSubmit="2223"/>
+	<Property ID="npc_qhm001_0039" Name="威德兰" Kind="18" QuestCanAccept="2224"/>
+	<Property ID="npc_qhm001_0040" Name="易大师" Kind="18" QuestCanAccept="2225" QuestCanSubmit="2225"/>
+	<Property ID="npc_qhm001_0043" Name="昆卡鲁" Kind="18" QuestCanAccept="2227" QuestCanSubmit="2226"/>
+	<Property ID="npc_qhm001_0044" Name="迪奥斯" Kind="18" QuestCanAccept="2229,2230" QuestCanSubmit="2228,2229"/>
+	<Property ID="npc_qhm001_0047" Name="卡瑟尔" Kind="18" QuestCanAccept="2231,2232" QuestCanSubmit="2231,2232"/>
+	<Property ID="npc_qhm001_0024" Name="格雷德" Kind="18" QuestCanAccept="2204,2205" QuestCanSubmit="2203"/>
+	<Property ID="npc_qhm001_0028" Name="格拉斯" Kind="18" QuestCanSubmit="2212"/>
+	<Property ID="npc_qhm001_0122" Name="加里斯通·利爪" Kind="18" QuestCanAccept="2517,2518,2522" QuestCanSubmit="2164,2514,2517,2522"/>
+	<Property ID="npc_qhm001_0129" Name="马斯狄·尖牙" Kind="18" QuestCanAccept="2175,2177,2528" QuestCanSubmit="2174,2177"/>
+	<Property ID="npc_qhm001_0110" Name="文德利尔" Kind="18" QuestCanSubmit="2175"/>
+	<Property ID="npc_qhm001_0120" Name="卡斯坦·怒吼" Kind="18" QuestCanAccept="2502,2503,2504" QuestCanSubmit="2501,2502,2503"/>
+	<Property ID="npc_qhm001_0123" Name="瓦尔特·尖牙" Kind="18" QuestCanAccept="2506,2507,2509,2510,2168" QuestCanSubmit="2506,2507,2510,2520,2168"/>
+	<Property ID="npc_qhm001_0127" Name="霍莱尼·怒吼" Kind="18" QuestCanAccept="2511,2512" QuestCanSubmit="2511,2512"/>
+	<Property ID="npc_qhm001_0077" Name="安瑟尔莫·尖牙" Kind="18" QuestCanAccept="2515,2519" QuestCanSubmit="2515,2516,2519"/>
+	<Property ID="npc_qhm001_0124" Name="马兰尼·鹰眼" Kind="18" QuestCanAccept="2521" QuestCanSubmit="2521"/>
+	<Property ID="npc_qhm001_0128" Name="亚尼曼恩·鹰眼" Kind="18" QuestCanAccept="2526,2527" QuestCanSubmit="2526,2527"/>
+	<Property ID="npc_zqm001_0139" Name="巴恩" Kind="1" QuestCanAccept="12001" QuestCanSubmit="12001"/>
+	<Property ID="npc_zqm001_0046" Name="艾德撒·普赖斯" Kind="1" QuestCanSubmit="4095"/>
+	<Property ID="npc_zqm001_0183" Name="科尔·弗兰特" Kind="1" QuestCanAccept="4140,4040,4051,4052" QuestCanSubmit="4048,4140,4040,4052"/>
+	<Property ID="npc_zqm001_0182" Name="鲁尼·莱尔" Kind="1" QuestCanAccept="4048,4049,4144" QuestCanSubmit="4105,4050,4049,4144"/>
+	<Property ID="npc_zqm001_0184" Name="鲁尔" Kind="1" QuestCanAccept="4115" QuestCanSubmit="4058,4179"/>
+	<Property ID="npc_zlm010_0127" Name="马卡斯" Kind="7" QuestCanAccept="2441"/>
+	<Property ID="npc_zqm001_0137" Name="麦仑·威尔" Kind="1" QuestCanAccept="601"/>
+	<Property ID="npc_zqm001_0144" Name="费尔特·博肯" Kind="1" QuestCanSubmit="4095"/>
+	<Property ID="npc_zqm001_0025" Name="法恩斯·米尔" Kind="1" QuestCanAccept="4140" QuestCanSubmit="4140"/>
+	<Property ID="npc_zqm001_0145" Name="薇薇安·博肯" Kind="1" QuestCanAccept="4141,4142" QuestCanSubmit="4141,4142"/>
+	<Property ID="npc_zqm001_0147" Name="米亚·弗兰特" Kind="1" QuestCanAccept="4104,4152" QuestCanSubmit="4104,4152"/>
+	<Property ID="npc_zqm001_0148" Name="帕勃·铸铁" Kind="1" QuestCanAccept="4108,4109" QuestCanSubmit="4108,4109"/>
+	<Property ID="npc_qhm004_0046" Name="比特森·尘风" Kind="21" QuestCanAccept="448"/>
+	<Property ID="npc_qhm004_0047" Name="莫里克·利刃" Kind="21" QuestCanAccept="449,450,451" QuestCanSubmit="448,449,450"/>
+	<Property ID="npc_qhm004_0048" Name="老凯森" Kind="21" QuestCanAccept="452,453" QuestCanSubmit="451,452,453"/>
+	<Property ID="npc_qhm004_0049" Name="老猎人" Kind="21" QuestCanAccept="444,445" QuestCanSubmit="444,445"/>
+	<Property ID="npc_qhm002_0156" Name="巴里伯格_烈阳" Kind="17"/>
+	<Property ID="npc_qhm003_0092" Name="凯瑟琳·弗拉瓦" Kind="19" QuestCanAccept="10106,10127" QuestCanSubmit="10106,10127"/>
+	<Property ID="npc_qhm003_0091" Name="尤利·巴拉斯" Kind="19" QuestCanAccept="10102"/>
+	<Property ID="npc_qhm003_0032" Name="特里·福瑞尔" Kind="19" QuestCanAccept="10123" QuestCanSubmit="10123"/>
+	<Property ID="npc_qhm003_0029" Name="艾伯特·里奇" Kind="19" QuestCanSubmit="10131"/>
+	<Property ID="npc_qhm003_0031" Name="安迪·伯尼斯" Kind="19" QuestCanAccept="10128,10129" QuestCanSubmit="10128,10129"/>
+	<Property ID="npc_qhm004_0006" Name="德利卡多" Kind="21" QuestCanAccept="401" QuestCanSubmit="69"/>
+	<Property ID="npc_qhm004_0007" Name="艾略特·尘风" Kind="21" QuestCanAccept="402,403,460" QuestCanSubmit="401,403,457,460"/>
+	<Property ID="npc_qhm004_0008" Name="诺亚·逐风" Kind="21" QuestCanAccept="404,405,406" QuestCanSubmit="404,405,406"/>
+	<Property ID="npc_qhm004_0012" Name="阿特里奥·逐风" Kind="21" QuestCanAccept="407,410,411" QuestCanSubmit="402,410,411"/>
+	<Property ID="npc_qhm004_0018" Name="莫萨·蛮蹄" Kind="21" QuestCanAccept="417,418,459,464,465,467,9001" QuestCanSubmit="412,417,459,464,466,9001"/>
+	<Property ID="npc_qhm004_0019" Name="洛萨·蛮蹄" Kind="21" QuestCanAccept="420,421" QuestCanSubmit="420,421"/>
+	<Property ID="npc_qhm004_0023" Name="穆卡·蛮蹄" Kind="21" QuestCanAccept="408,409,446,447" QuestCanSubmit="407,408,446,447"/>
+	<Property ID="npc_qhm004_0024" Name="莫多·蛮蹄" Kind="21" QuestCanAccept="412,413,414,415,416,461,462,9000" QuestCanSubmit="409,413,414,415,416,461,463,9000"/>
+	<Property ID="npc_qhm004_0028" Name="卡塞尔·克劳" Kind="21" QuestCanAccept="437,438,439,440,441,442,443" QuestCanSubmit="434,437,439,440,441,442,443"/>
+	<Property ID="npc_qhm004_0035" Name="阿丝琪·闪光" Kind="21" QuestCanAccept="468,424,430,475" QuestCanSubmit="436,471,467"/>
+	<Property ID="npc_qhm004_0036" Name="蒂娜" Kind="21" QuestCanAccept="428"/>
+	<Property ID="npc_qhm004_0037" Name="兰诺" Kind="21" QuestCanAccept="429" QuestCanSubmit="429"/>
+	<Property ID="npc_qhm004_0038" Name="亚特森" Kind="21" QuestCanAccept="455" QuestCanSubmit="428,454,455"/>
+	<Property ID="npc_qhm004_0039" Name="奥里特罗" Kind="21" QuestCanAccept="426,427" QuestCanSubmit="426,427,456"/>
+	<Property ID="npc_qhm004_0041" Name="卡鲁铎·金鳍" Kind="21" QuestCanAccept="431,432,435,458,472,429,477,9005" QuestCanSubmit="429,430,472,431,433,435,458,9005"/>
+	<Property ID="npc_qhm004_0042" Name="诺萨·金鳍" Kind="21" QuestCanAccept="433,436" QuestCanSubmit="432,475"/>
+	<Property ID="npc_qhm004_0043" Name="哈姆·金鳍" Kind="21" QuestCanAccept="419,466,9002" QuestCanSubmit="418,465,419,9002"/>
+	<Property ID="npc_qhm004_0050" Name="曼妮斯" Kind="21" QuestCanAccept="422,423" QuestCanSubmit="422,423"/>
+	<Property ID="npc_zqm003_0110" Name="穆图·亮银" Kind="2" QuestCanAccept="10072,10061" QuestCanSubmit="10071,10073"/>
+	<Property ID="npc_zqm003_0109" Name="巴秋·坚铜" Kind="2" QuestCanAccept="10073" QuestCanSubmit="10072"/>
+	<Property ID="npc_yuhuidongxue_0005" Name="布尔诺" Kind="58" QuestCanAccept="6001" QuestCanSubmit="10130,72"/>
+	<Property ID="npc_yuhuidongxue_0001" Name="探查队员" Kind="58" QuestCanAccept="6002" QuestCanSubmit="6001,6800"/>
+	<Property ID="npc_zqm004_0056" Name="米赛利夫" Kind="4" QuestCanAccept="4400,4401,4403,4404" QuestCanSubmit="4400,4401,4403,4081,4532"/>
+	<Property ID="npc_zqm004_0059" Name="米莉亚" Kind="4" QuestCanAccept="4406,4411,4412,4533" QuestCanSubmit="4404,4410,4411,4412,4533"/>
+	<Property ID="npc_zqm004_0060" Name="托马" Kind="4" QuestCanAccept="4414,4420,4422,4424" QuestCanSubmit="4406,4419,4421,4423"/>
+	<Property ID="npc_zqm004_0058" Name="赫尔蒙得" Kind="4" QuestCanAccept="4407,4408,4525,4530" QuestCanSubmit="4407,4408,4525,4530"/>
+	<Property ID="npc_zqm004_0061" Name="马格" Kind="4" QuestCanSubmit="4424"/>
+	<Property ID="npc_zqm004_0109" Name="海格" Kind="4" QuestCanAccept="4416,4418,4419,4420,9050" QuestCanSubmit="4414,4416,4418,4419,9050"/>
+	<Property ID="npc_zqm004_0063" Name="奄奄一息的琼斯" Kind="4" QuestCanAccept="4423" QuestCanSubmit="4422"/>
+	<Property ID="npc_zqm004_0062" Name="指挥官萨勒特·奎斯" Kind="4" QuestCanAccept="4432,4433,4436" QuestCanSubmit="4420,4432,4435"/>
+	<Property ID="npc_zqm004_0128" Name="威斯克" Kind="4" QuestCanSubmit="4428"/>
+	<Property ID="npc_zqm004_0064" Name="肯尼" Kind="4" QuestCanAccept="4425" QuestCanSubmit="4425"/>
+	<Property ID="npc_zqm004_0065" Name="迪尔科" Kind="4" QuestCanAccept="4426"/>
+	<Property ID="npc_zqm004_0066" Name="梅利" Kind="4" QuestCanSubmit="4426"/>
+	<Property ID="npc_zqm004_0067" Name="帕斯" Kind="4" QuestCanAccept="4428,4429,4531" QuestCanSubmit="4429,4531"/>
+	<Property ID="npc_zqm004_0068" Name="博莱" Kind="4" QuestCanAccept="4435,4431,9051" QuestCanSubmit="4433,4431,9051"/>
+	<Property ID="npc_zqm004_0069" Name="梅夫" Kind="4" QuestCanAccept="4445,4446,4447,4453,4455,4456,4459,4441,9052" QuestCanSubmit="4437,4445,4446,4453,4454,4455,4459,4441,9052"/>
+	<Property ID="npc_zqm004_0070" Name="威利" Kind="4" QuestCanAccept="4439,4440" QuestCanSubmit="4438,4439,4440"/>
+	<Property ID="npc_zqm004_0071" Name="赫特" Kind="4" QuestCanAccept="4437" QuestCanSubmit="4436"/>
+	<Property ID="npc_zqm004_0072" Name="酒馆厨师" Kind="4" QuestCanAccept="4443" QuestCanSubmit="4443"/>
+	<Property ID="npc_zqm004_0074" Name="杜乐" Kind="4" QuestCanAccept="4444" QuestCanSubmit="4444"/>
+	<Property ID="npc_zqm004_0075" Name="柯尔勒" Kind="4" QuestCanAccept="4448,4449,4450,4461,4478,4457" QuestCanSubmit="4447,4448,4449,4461,4477,4478"/>
+	<Property ID="npc_zqm004_0076" Name="赛利" Kind="4" QuestCanAccept="4462,4463,4465,4466,4473,4477,9053" QuestCanSubmit="4462,4463,4465,4473,4450,9053"/>
+	<Property ID="npc_zqm004_0077" Name="波非" Kind="4" QuestCanAccept="4454" QuestCanSubmit="4456"/>
+	<Property ID="npc_zqm004_0078" Name="莽撞的鲁尔" Kind="4" QuestCanAccept="4458" QuestCanSubmit="4457,4458"/>
+	<Property ID="npc_zqm004_0084" Name="伐木场管理员" Kind="4" QuestCanAccept="4467,4468,4481,4483,4469,4474" QuestCanSubmit="4466,4467,4474,4481,4468"/>
+	<Property ID="npc_zqm004_0088" Name="塞恩" Kind="4" QuestCanSubmit="4483"/>
+	<Property ID="npc_zqm004_0089" Name="杜勒斯" Kind="4" QuestCanAccept="4470,4471,4472,4482,4534,9054" QuestCanSubmit="4469,4470,4471,4482,4534,9054"/>
+	<Property ID="npc_zqm004_0090" Name="帕里森·多隆" Kind="4" QuestCanAccept="4484,4527,4528,4535" QuestCanSubmit="4472,4513,4527"/>
+	<Property ID="npc_zqm004_0085" Name="多特" Kind="4" QuestCanAccept="4479" QuestCanSubmit="4479"/>
+	<Property ID="npc_zqm004_0086" Name="洛夫斯基" Kind="4" QuestCanAccept="4480,4526" QuestCanSubmit="4480,4526"/>
+	<Property ID="npc_zqm004_0091" Name="银鳞使者" Kind="4" QuestCanAccept="4485" QuestCanSubmit="4484"/>
+	<Property ID="npc_zqm004_0092" Name="洛萨·夫卢斯" Kind="4" QuestCanAccept="4487,4488,4489,4490,4502,4512,4513,9055" QuestCanSubmit="4485,4487,4488,4489,4502,4511,4512,9055"/>
+	<Property ID="npc_zqm004_0093" Name="诺德" Kind="4" QuestCanAccept="4493,4505" QuestCanSubmit="4490,4505"/>
+	<Property ID="npc_zqm004_0094" Name="兰特" Kind="4" QuestCanAccept="4506,4514,4515,4519,4520" QuestCanSubmit="4493,4514,4515,4519,4520,4522"/>
+	<Property ID="npc_zqm004_0095" Name="多隆" Kind="4" QuestCanAccept="4494" QuestCanSubmit="4494"/>
+	<Property ID="npc_zqm004_0096" Name="木斯" Kind="4" QuestCanAccept="4495" QuestCanSubmit="4495"/>
+	<Property ID="npc_zqm004_0098" Name="艾诺·班" Kind="4" QuestCanAccept="4497" QuestCanSubmit="4497"/>
+	<Property ID="npc_zqm004_0099" Name="钓鱼爱好者" Kind="4" QuestCanAccept="4498" QuestCanSubmit="4498"/>
+	<Property ID="npc_zqm004_0100" Name="梅斯" Kind="4" QuestCanAccept="4499" QuestCanSubmit="4499"/>
+	<Property ID="npc_zqm004_0101" Name="厄尔" Kind="4" QuestCanAccept="4501" QuestCanSubmit="4501"/>
+	<Property ID="npc_zqm004_0104" Name="黑商勃兰特" Kind="4" QuestCanAccept="4503" QuestCanSubmit="4503"/>
+	<Property ID="npc_zqm004_0105" Name="银鳞先遣队长" Kind="4" QuestCanAccept="4507,4508,4509,4510,4511,9056" QuestCanSubmit="4506,4507,4508,4509,4510,9056"/>
+	<Property ID="npc_zqm004_0108" Name="被绑架的镇民" Kind="4" QuestCanAccept="4522" QuestCanSubmit="4521"/>
+	<Property ID="npc_zqm004_0106" Name="银鳞先遣祭司" Kind="4" QuestCanAccept="4523,4524" QuestCanSubmit="4523,4524"/>
+	<Property ID="Newtest300_qh_2001" Name="爱德华" Kind="59" QuestCanAccept="19301,19308,19309" QuestCanSubmit="19306,19308,19309"/>
+	<Property ID="Newtest300_qh_2002" Name="罗密欧" Kind="59" QuestCanAccept="19302,19303,19304,19305" QuestCanSubmit="19301,19302,19303,19304"/>
+	<Property ID="Newtest300_qh_2004" Name="史蒂芬" Kind="59" QuestCanAccept="19306" QuestCanSubmit="19305"/>
+	<Property ID="Newtest300_qh_1009" Name="转职大师" Kind="59" QuestCanAccept="19307" QuestCanSubmit="19307"/>
+	<Property ID="Newtest300_zq_2001" Name="神秘使者" Kind="59" QuestCanAccept="19311,19318,19319" QuestCanSubmit="19316,19318,19319"/>
+	<Property ID="Newtest300_zq_2002" Name="维修大师" Kind="59" QuestCanAccept="19312,19313,19314,19315" QuestCanSubmit="19311,19312,19313,19314"/>
+	<Property ID="Newtest300_zq_2004" Name="黑金军需官" Kind="59" QuestCanAccept="19316" QuestCanSubmit="19315"/>
+	<Property ID="Newtest300_zq_1009" Name="转职大师" Kind="59" QuestCanAccept="19317" QuestCanSubmit="19317"/>
+	<Property ID="npc_zqm001_0038" Name="托比·佩恩" Kind="1" QuestCanAccept="4147,4177" QuestCanSubmit="4147,10078,4177"/>
+	<Property ID="npc_zlm015_0073" Name="盖联·西维尔" Kind="22" QuestCanAccept="10201" QuestCanSubmit="10371,10283,185"/>
+	<Property ID="npc_zlm015_0098" Name="桑蒂·克森" Kind="22" QuestCanAccept="10203,10204,10205,10206,10207,10208,10210" QuestCanSubmit="10201,10203,10204,10205,10207"/>
+	<Property ID="npc_zlm015_0074" Name="克劳迪娅·婕西" Kind="22" QuestCanAccept="10202,10209" QuestCanSubmit="10202,10208,10209"/>
+	<Property ID="npc_zlm015_0075" Name="马利·索尔" Kind="22" QuestCanAccept="10211,10207,10210" QuestCanSubmit="10210,10206,10207"/>
+	<Property ID="npc_zlm015_0076" Name="琼森·古斯塔" Kind="22" QuestCanAccept="10212,10213,10214,10215,10216,10217,10218,10219" QuestCanSubmit="10211,10212,10213,10214,10215,10216,10217"/>
+	<Property ID="npc_zlm015_0097" Name="艾尔伦斯·古斯塔" Kind="22" QuestCanAccept="10220,10221,10222,10223,10224,10225,10226,10227,10285" QuestCanSubmit="10218,10219,10220,10221,10222,10223,10224,10225,10226,10285"/>
+	<Property ID="npc_zlm015_0006" Name="梵妮·赫莉" Kind="22" QuestCanAccept="10228,10229,10230" QuestCanSubmit="10227,10228"/>
+	<Property ID="npc_zlm015_0001" Name="拉迪·埃墨森" Kind="22" QuestCanAccept="10230" QuestCanSubmit="10229,10230"/>
+	<Property ID="npc_zlm015_0016" Name="范亚·克里斯" Kind="22" QuestCanAccept="10231"/>
+	<Property ID="npc_zlm015_0015" Name="潘肖尔·克里斯" Kind="22" QuestCanAccept="10232,10233" QuestCanSubmit="10232,10234"/>
+	<Property ID="npc_zlm015_0095" Name="罗伊·克里斯" Kind="22" QuestCanAccept="10234" QuestCanSubmit="10233"/>
+	<Property ID="npc_zlm015_0089" Name="瑞新交·海格" Kind="22" QuestCanAccept="10235,10236,10237,10248" QuestCanSubmit="10235,10236,10243,10231"/>
+	<Property ID="npc_zlm015_0049" Name="泰德·奥卡姆" Kind="22" QuestCanAccept="10238,10244,10245,10246,10247" QuestCanSubmit="10237,10244,10245,10246,10247"/>
+	<Property ID="npc_zlm015_0050" Name="瑞德·奥卡姆" Kind="22" QuestCanAccept="10239,10240,10241,10242,10243,10286" QuestCanSubmit="10238,10239,10240,10241,10242,10286"/>
+	<Property ID="npc_zlm015_0099" Name="阿瑞斯·新月" Kind="22" QuestCanAccept="10249,10250,10251,10252,10253,10254,9017" QuestCanSubmit="10248,10249,10250,10251,10252,10253,9017"/>
+	<Property ID="npc_zlm015_0011" Name="彭格·克里斯" Kind="22" QuestCanAccept="10283" QuestCanSubmit="182"/>
+	<Property ID="npc_zlm015_0014" Name="强森·克里斯" Kind="22" QuestCanAccept="10256,10259" QuestCanSubmit="10258"/>
+	<Property ID="npc_zlm015_0096" Name="血迹斑斑的剑" Kind="22" QuestCanAccept="10257,10258" QuestCanSubmit="10256,10257"/>
+	<Property ID="npc_zlm015_0062" Name="佛罗斯·瑞克" Kind="22" QuestCanAccept="10260,10261,10255,10265,9018" QuestCanSubmit="10259,10260,10254,10255,9018"/>
+	<Property ID="npc_zlm015_0063" Name="伦纳德·加登" Kind="22" QuestCanAccept="10262" QuestCanSubmit="10261,10262"/>
+	<Property ID="npc_zlm015_0064" Name="桑妮·内贝罗" Kind="22" QuestCanAccept="10263,10264" QuestCanSubmit="10263,10264"/>
+	<Property ID="npc_zlm015_0084" Name="皮克·雷尔夫" Kind="22" QuestCanAccept="10281,10287" QuestCanSubmit="10265,10277"/>
+	<Property ID="npc_zlm015_0083" Name="比尔·盖理" Kind="22" QuestCanAccept="10266,10267,10268,10269,10270" QuestCanSubmit="10266,10267,10268,10269,10270"/>
+	<Property ID="npc_zlm015_0087" Name="智旻·拉塞尔" Kind="22" QuestCanAccept="10274,10288,10277,9019" QuestCanSubmit="10272,10274,10276,10280,9019"/>
+	<Property ID="npc_zlm015_0086" Name="彬森·赫特" Kind="22" QuestCanAccept="10278,10279,10280,10273,10275,10289,10276" QuestCanSubmit="10278,10279,10273,10275,10288,10289"/>
+	<Property ID="npc_qhm004_0054" Name="加毕利·维奇" Kind="21" QuestCanAccept="457"/>
+	<Property ID="npc_zlm011_0033" Name="帕罗拉" Kind="11" QuestCanAccept="901" QuestCanSubmit="4601,4528,3004"/>
+	<Property ID="npc_zlm011_0034" Name="喀波摩尔·波隆" Kind="11" QuestCanAccept="4602,4603,902,903" QuestCanSubmit="901,4602,4603,4604"/>
+	<Property ID="npc_zlm011_0035" Name="乔默" Kind="11" QuestCanAccept="4606" QuestCanSubmit="4605"/>
+	<Property ID="npc_zlm011_0036" Name="叽斯" Kind="11" QuestCanSubmit="4608"/>
+	<Property ID="npc_zlm011_0037" Name="拉默契科" Kind="11" QuestCanAccept="4609" QuestCanSubmit="4609"/>
+	<Property ID="npc_zlm011_0038" Name="厄尔夫" Kind="11" QuestCanAccept="4610" QuestCanSubmit="4610"/>
+	<Property ID="npc_zlm011_0039" Name="雇佣兵莫里" Kind="11"/>
+	<Property ID="npc_zlm011_0040" Name="赫拉梅利" Kind="11" QuestCanAccept="4612" QuestCanSubmit="4612"/>
+	<Property ID="npc_zlm011_0041" Name="欧兰" Kind="11" QuestCanAccept="4613" QuestCanSubmit="4613"/>
+	<Property ID="npc_zlm011_0096" Name="咖鲁" Kind="11" QuestCanAccept="4614" QuestCanSubmit="4614"/>
+	<Property ID="npc_zlm011_0043" Name="喀波摩尔先锋队长" Kind="11" QuestCanAccept="909,910,4619" QuestCanSubmit="908,999,4619"/>
+	<Property ID="npc_zlm011_0044" Name="被困的波默" Kind="11" QuestCanAccept="999" QuestCanSubmit="909"/>
+	<Property ID="npc_zlm011_0045" Name="喀波摩尔鱼人勇士" Kind="11" QuestCanAccept="4623" QuestCanSubmit="4623"/>
+	<Property ID="npc_zlm011_0046" Name="喀波摩尔银鳞祭司" Kind="11" QuestCanAccept="907,908,4624" QuestCanSubmit="906,907,4624"/>
+	<Property ID="npc_zlm011_0047" Name="泰斯特·克尔摩" Kind="11" QuestCanAccept="4608,4615" QuestCanSubmit="4607,4608"/>
+	<Property ID="npc_zlm011_0048" Name="先锋哨站情报员" Kind="11" QuestCanAccept="904,4630" QuestCanSubmit="2766,4629,904"/>
+	<Property ID="npc_zlm011_0049" Name="博尔·帕克" Kind="11" QuestCanAccept="4637,905,911,4651" QuestCanSubmit="4630,4637,910,4651"/>
+	<Property ID="npc_zqm003_0305" Name="柯达" Kind="11" QuestCanAccept="4627,4629,9057" QuestCanSubmit="4615,9057"/>
+	<Property ID="npc_zlm011_0051" Name="可爱的斯琳" Kind="11" QuestCanAccept="4632" QuestCanSubmit="4632"/>
+	<Property ID="npc_zlm011_0052" Name="琳娜·梅菲" Kind="11" QuestCanSubmit="4633"/>
+	<Property ID="npc_zlm011_0053" Name="柯尔·梅隆" Kind="11" QuestCanAccept="4634" QuestCanSubmit="4634"/>
+	<Property ID="npc_zlm011_0054" Name="徒步旅行商" Kind="11" QuestCanAccept="4635,4636" QuestCanSubmit="4635,4636"/>
+	<Property ID="npc_zlm011_0056" Name="阿萨·帕博" Kind="11" QuestCanAccept="4640,4641,914,4652" QuestCanSubmit="913,4639,4640,4641,4652"/>
+	<Property ID="npc_zlm011_0057" Name="克兰·峒山" Kind="11"/>
+	<Property ID="npc_zlm011_0059" Name="布鲁·厄特" Kind="11" QuestCanAccept="4646,4649,4650" QuestCanSubmit="4646,4649,4650"/>
+	<Property ID="npc_zlm011_0060" Name="蓝达·厄特" Kind="11" QuestCanAccept="4647,4648" QuestCanSubmit="4647,4648"/>
+	<Property ID="npc_zlm011_0063" Name="福尔德·峒山" Kind="11" QuestCanAccept="4660,921,922" QuestCanSubmit="921,920"/>
+	<Property ID="npc_zlm011_0062" Name="妮特·岚" Kind="11" QuestCanAccept="4655" QuestCanSubmit="4655"/>
+	<Property ID="npc_zlm011_0065" Name="摩萨特" Kind="11" QuestCanAccept="919,920" QuestCanSubmit="918,919"/>
+	<Property ID="npc_zlm011_0066" Name="洛克兰德·隆" Kind="11" QuestCanAccept="4665,4666,4679" QuestCanSubmit="4660,4665,4678"/>
+	<Property ID="npc_zlm011_0069" Name="泰德·隆" Kind="11" QuestCanAccept="4667,4668,4670,4669,9059,9060" QuestCanSubmit="4666,4667,4668,4670,4669,9059,9060"/>
+	<Property ID="npc_zlm011_0070" Name="诺尔夫·隆" Kind="11" QuestCanAccept="4673,4671,4672" QuestCanSubmit="4671,4672"/>
+	<Property ID="npc_zlm011_0071" Name="森莉·波" Kind="11" QuestCanAccept="4674,4675,4678" QuestCanSubmit="4673,4674,4675"/>
+	<Property ID="npc_zlm011_0072" Name="博尔波特" Kind="11" QuestCanAccept="4680,4681,4682,4687,927" QuestCanSubmit="4679,4680,4681,4682"/>
+	<Property ID="npc_zlm011_0073" Name="菲力" Kind="11" QuestCanAccept="4683" QuestCanSubmit="4683"/>
+	<Property ID="npc_zlm011_0074" Name="兰迪·波" Kind="11" QuestCanAccept="4685,4686" QuestCanSubmit="4685,4686"/>
+	<Property ID="npc_zlm011_0067" Name="兰尼" Kind="11" QuestCanAccept="915,916,4662" QuestCanSubmit="914,915,4662"/>
+	<Property ID="npc_zlm011_0085" Name="多米亚·珈蓝" Kind="11" QuestCanAccept="4663" QuestCanSubmit="4663"/>
+	<Property ID="npc_zlm008_0001" Name="坎比亚索" Kind="12"/>
+	<Property ID="npc_zlm008_0002" Name="米歇尔" Kind="12" QuestCanAccept="2702,2432,9061" QuestCanSubmit="2700,2120,9061"/>
+	<Property ID="npc_zlm008_0003" Name="萨米" Kind="12" QuestCanAccept="2700,2703,2704,2712,2706,2705,2780" QuestCanSubmit="2702,2703,2711,2706,2705,2780,3004,928"/>
+	<Property ID="npc_zlm008_0004" Name="特林?岩石" Kind="12" QuestCanAccept="2708,2709,2710,2711,2781,2782,2783" QuestCanSubmit="2704,2708,2709,2710,2781,2782"/>
+	<Property ID="npc_zlm008_0005" Name="提蒙" Kind="12" QuestCanAccept="2850" QuestCanSubmit="2850"/>
+	<Property ID="npc_zlm008_0006" Name="亚尼曼恩" Kind="12" QuestCanAccept="2715,2716,2717,2722,2723,2770,2784" QuestCanSubmit="2706,2712,2715,2716,2722,2768,2770,2784"/>
+	<Property ID="npc_zlm008_0007" Name="图尔度?岩石" Kind="12" QuestCanAccept="2713,2714" QuestCanSubmit="2713,2714"/>
+	<Property ID="npc_zlm008_0008" Name="辛格尼" Kind="12" QuestCanAccept="2718,2720,2721,2766,2785,2786,2787,9062" QuestCanSubmit="2717,2719,2720,2723,2785,2786,2787,9062"/>
+	<Property ID="npc_zlm008_0009" Name="梅诺" Kind="12" QuestCanAccept="2719" QuestCanSubmit="2718"/>
+	<Property ID="npc_zlm008_0010" Name="卡夏尔" Kind="12" QuestCanAccept="2726,2727,2728,2729,2788,9063" QuestCanSubmit="2721,2726,2727,2728,2733,4687,2788,9063"/>
+	<Property ID="npc_zlm008_0011" Name="海尔劳德" Kind="12" QuestCanAccept="2724,2725" QuestCanSubmit="2724,2725"/>
+	<Property ID="npc_zlm008_0012" Name="克林福特" Kind="12" QuestCanAccept="2734,2735,2736,2789" QuestCanSubmit="2729,2734,2735,2789"/>
+	<Property ID="npc_zlm008_0013" Name="维洛" Kind="12" QuestCanAccept="2730,2731,2851" QuestCanSubmit="2730,2731,2851"/>
+	<Property ID="npc_zlm008_0014" Name="奥斯顿" Kind="12" QuestCanAccept="2732,2733" QuestCanSubmit="2732"/>
+	<Property ID="npc_zlm008_0015" Name="伯格" Kind="12" QuestCanAccept="2742,2745,2746,2773,2790" QuestCanSubmit="2736,2745,2744,2773,2790"/>
+	<Property ID="npc_zlm008_0016" Name="夏佐?岩石" Kind="12" QuestCanAccept="2737,2738,2852,2772,2771" QuestCanSubmit="3737,2738,2852,2771"/>
+	<Property ID="npc_zlm008_0017" Name="查理斯" Kind="12" QuestCanAccept="2740,2741" QuestCanSubmit="2740,2741,2772"/>
+	<Property ID="npc_zlm008_0018" Name="艾吉斯" Kind="12" QuestCanAccept="2743,2747,2769,9064" QuestCanSubmit="2743,2747,2742,9064"/>
+	<Property ID="npc_zlm008_0019" Name="海曼" Kind="12" QuestCanAccept="2744,2748" QuestCanSubmit="2748,2769"/>
+	<Property ID="npc_zlm008_0020" Name="阿夏鲁尼思" Kind="12" QuestCanAccept="2749,2750,2751,2791,2792" QuestCanSubmit="2746,2749,2750,2791,2792"/>
+	<Property ID="npc_zlm008_0021" Name="布莉安塔" Kind="12" QuestCanAccept="2793" QuestCanSubmit="2751"/>
+	<Property ID="npc_zlm008_0022" Name="拉蒂尔玛赛" Kind="12" QuestCanAccept="2752,2753" QuestCanSubmit="2752,2753"/>
+	<Property ID="npc_zlm008_0023" Name="吉洛" Kind="12" QuestCanAccept="2754" QuestCanSubmit="2754"/>
+	<Property ID="npc_zlm008_0024" Name="维格达西" Kind="12" QuestCanAccept="2756,2755,2794" QuestCanSubmit="2755,2756,2793"/>
+	<Property ID="npc_zlm008_0025" Name="萨格宁" Kind="12" QuestCanAccept="2762,2763,2765,2795,2796" QuestCanSubmit="2757,2762,2763,2795,2796"/>
+	<Property ID="npc_zlm008_0026" Name="华葛斯特" Kind="12" QuestCanAccept="2758" QuestCanSubmit="2758"/>
+	<Property ID="npc_zlm008_0027" Name="索伊度" Kind="12" QuestCanAccept="2759,2760,2761,2853" QuestCanSubmit="2759,2760,2761,2853"/>
+	<Property ID="npc_zlm008_0028" Name="扎奇亚德" Kind="12" QuestCanAccept="2764" QuestCanSubmit="2764"/>
+	<Property ID="npc_qhm005_0049" Name="达内尔·星语" Kind="20" QuestCanAccept="182"/>
+	<Property ID="npc_zlm002_0067" Name="梵克多·霍根" Kind="23" QuestCanAccept="10307" QuestCanSubmit="10306"/>
+	<Property ID="npc_zlm002_0053" Name="史蒂夫·吉特" Kind="23" QuestCanAccept="10302,10304,10306,10303" QuestCanSubmit="10302,10307,220"/>
+	<Property ID="npc_zlm002_0009" Name="霍卡·斯顿" Kind="23" QuestCanSubmit="10303" QuestCanAccept="10375"/>
+	<Property ID="npc_zlm002_0044" Name="科瑞恩·班特" Kind="23" QuestCanAccept="10305" QuestCanSubmit="10304,10305"/>
+	<Property ID="npc_zlm002_0054" Name="汤姆·科瑞特" Kind="23" QuestCanAccept="10308,10310,10323,10303,10376,10317" QuestCanSubmit="10309,10312,10318,10375"/>
+	<Property ID="npc_zlm002_0073" Name="谢尔盖·格林" Kind="23" QuestCanAccept="10311,10312" QuestCanSubmit="10310,10311"/>
+	<Property ID="npc_zlm002_0051" Name="查尔斯·盖亚" Kind="23" QuestCanAccept="10313,10314,10315" QuestCanSubmit="10313,10314,10315"/>
+	<Property ID="npc_zlm002_0055" Name="沃锐·汤普森" Kind="23" QuestCanAccept="10324,10325,10326,9008" QuestCanSubmit="10323,10324,9008"/>
+	<Property ID="npc_zlm002_0056" Name="艾尔·洛特" Kind="23" QuestCanAccept="10330,10331,10332,10338,9009" QuestCanSubmit="10325,10330,10331,9009"/>
+	<Property ID="npc_zlm002_0047" Name="亚伦·埃尔森" Kind="23" QuestCanAccept="10327,10328,10329" QuestCanSubmit="10326,10327,10328,10329"/>
+	<Property ID="npc_zlm002_0045" Name="马丁·波尔" Kind="23" QuestCanAccept="10333,10334,10335,10336,10337" QuestCanSubmit="10332,10334,10335,10336,10333"/>
+	<Property ID="npc_zlm002_0050" Name="科林·丹尼尔" Kind="23" QuestCanAccept="10339,10340,10341,10343,10344,10342,9010" QuestCanSubmit="10338,10339,10340,10341,10343,10344,10337,9010"/>
+	<Property ID="npc_zlm002_0057" Name="卡雷斯·新月" Kind="23" QuestCanAccept="10345,10346,10349,10347,10348" QuestCanSubmit="10342,10345,10346,10347,10348"/>
+	<Property ID="npc_zlm002_0058" Name="马森特·新月" Kind="23" QuestCanAccept="10350,10351,10355,10354,9011" QuestCanSubmit="10349,10350,10354,9011"/>
+	<Property ID="npc_zlm002_0052" Name="杜克·艾文" Kind="23" QuestCanAccept="10362,10363,10364" QuestCanSubmit="10361,10362,10363"/>
+	<Property ID="npc_zlm002_0059" Name="劳森·新月" Kind="23" QuestCanAccept="10356,10357,10358,10359,10360,10361" QuestCanSubmit="10355,10356,10357,10358,10359"/>
+	<Property ID="npc_zlm002_0060" Name="卢克·布兰登" Kind="23" QuestCanAccept="10366,10367,10371" QuestCanSubmit="10360,10370,10367"/>
+	<Property ID="npc_zlm002_0049" Name="亚瑟·凯森" Kind="23" QuestCanAccept="10365" QuestCanSubmit="10364,10365"/>
+	<Property ID="npc_zlm002_0048" Name="阿尔瓦·艾登" Kind="23" QuestCanAccept="10368" QuestCanSubmit="10368"/>
+	<Property ID="npc_zlm002_0029" Name="安东尼奥·库勒" Kind="23" QuestCanAccept="10369" QuestCanSubmit="10366"/>
+	<Property ID="npc_zlm002_0022" Name="安东尼·福克斯" Kind="23" QuestCanAccept="10370" QuestCanSubmit="10369"/>
+	<Property ID="npc_qhm003_0101" Name="艾丽莎·科林" Kind="19" QuestCanAccept="10372,308,203,264" QuestCanSubmit="10372,308,254,264"/>
+	<Property ID="npc_zqm003_0121" Name="蒸汽机技师" Kind="2" QuestCanAccept="10079,10093,10450" QuestCanSubmit="10079,10004,10450"/>
+	<Property ID="npc_qhm003_0104" Name="戈登·弗雷" Kind="19" QuestCanAccept="10374" QuestCanSubmit="10374"/>
+	<Property ID="npc_zlm008_0086" Name="伦斯" Kind="12" QuestCanAccept="2707"/>
+	<Property ID="npc_zqm005_0003" Name="阿尔玛·瑞拉" Kind="5" QuestCanAccept="2014" QuestCanSubmit="3001"/>
+	<Property ID="npc_zqm005_0004" Name="凯利·本杰明" Kind="5" QuestCanAccept="2016" QuestCanSubmit="3000"/>
+	<Property ID="npc_zqm003_0133" Name="泰伯利亚" Kind="2" QuestCanAccept="10084" QuestCanSubmit="10084"/>
+	<Property ID="npc_zqm003_0134" Name="普拉托" Kind="2" QuestCanAccept="10085" QuestCanSubmit="10085"/>
+	<Property ID="npc_zqm003_0135" Name="沃尔特" QuestCanAccept="10086" QuestCanSubmit="10086"/>
+	<Property ID="npc_zqm003_0136" Name="法拉格" Kind="2" QuestCanAccept="10087" QuestCanSubmit="10087"/>
+	<Property ID="npc_zqm001_0191" Name="安娜" Kind="1" QuestCanAccept="4154" QuestCanSubmit="4154"/>
+	<Property ID="npc_zqm004_0116" Name="科林" Kind="4" QuestCanAccept="4529" QuestCanSubmit="4529"/>
+	<Property ID="npc_zlm011_0127" Name="赛克" Kind="11" QuestCanAccept="4688" QuestCanSubmit="4688"/>
+	<Property ID="npc_zlm015_0108" Name="克劳福德" Kind="22" QuestCanAccept="10282" QuestCanSubmit="10282"/>
+	<Property ID="npc_zlm002_0082" Name="多林" Kind="23" QuestCanAccept="10174" QuestCanSubmit="10174"/>
+	<Property ID="npc_zlm008_0088" Name="克拉夫" Kind="12" QuestCanAccept="2854" QuestCanSubmit="2854"/>
+	<Property ID="npc_zqm005_0137" Name="福特亚" Kind="5" QuestCanAccept="3002" QuestCanSubmit="3002"/>
+	<Property ID="npc_zqm003_0153" Name="巴尔加托·坚铜" Kind="2" QuestCanAccept="10089" QuestCanSubmit="10089"/>
+	<Property ID="npc_zqm003_0140" Name="伊利亚斯菲尔" Kind="2" QuestCanAccept="10003" QuestCanSubmit="10092"/>
+	<Property ID="npc_zqm003_0137" Name="吉尔伽美什" Kind="2" QuestCanAccept="10095" QuestCanSubmit="10007"/>
+	<Property ID="npc_zqm003_0026" Name="药水商莫伦特斯" Kind="2" QuestCanSubmit="10096"/>
+	<Property ID="npc_zqm003_0138" Name="兰斯洛托" Kind="2" QuestCanAccept="10009,10071" QuestCanSubmit="10008,10061"/>
+	<Property ID="npc_zqm003_0111" Name="托瓦斯·坚铜" Kind="2" QuestCanAccept="10017,10097,10099,10080" QuestCanSubmit="10015,10017,10099,10080"/>
+	<Property ID="npc_zqm003_0156" Name="受伤的矿工" Kind="2" QuestCanAccept="3006,10031,10032,10033,10030" QuestCanSubmit="3005,10031,10032,10033,10030"/>
+	<Property ID="npc_qhm002_0036" Name="安格斯盖尔·焚炎" Kind="17" QuestCanAccept="504,505" QuestCanSubmit="502,504,"/>
+	<Property ID="npc_qhm002_0086" Name="希尔保特·幻语" Kind="17" QuestCanAccept="525,6400,6600" QuestCanSubmit="524,525"/>
+	<Property ID="npc_qhm002_0095" Name="雷蒙德·星语" Kind="17" QuestCanAccept="526,527" QuestCanSubmit="526,527"/>
+	<Property ID="npc_qhm002_0196" Name="达科·狼牙" Kind="17" QuestCanAccept="534" QuestCanSubmit="533,534"/>
+	<Property ID="npc_zqm003_0116" Name="议会审判长" Kind="2" QuestCanAccept="6201,10013,6200" QuestCanSubmit="6207,10012"/>
+	<Property ID="npc_qhm002_0070" Name="德维特 _沉星" Kind="17" QuestCanAccept="6401,6601,529" QuestCanSubmit="6400,6600,6407,6607"/>
+	<Property ID="npc_qhm002_0003" Name="奥格斯格·沉星" Kind="17" QuestCanAccept="702" QuestCanSubmit="501"/>
+	<Property ID="npc_yuhuidongxue_0006" Name="维泰格村民" Kind="58" QuestCanAccept="8002" QuestCanSubmit="8002"/>
+	<Property ID="npc_FB103_0001" Name="雷娜" Kind="1" QuestCanAccept="4184"/>
+	<Property ID="npc_FB103_0043" Name="雷娜" Kind="1" QuestCanAccept="4181" QuestCanSubmit="4180"/>
+	<Property ID="npc_FB103_0050" Name="雷娜" Kind="1" QuestCanAccept="4182,4183,4184" QuestCanSubmit="4181,4182"/>
+	<Property ID="npc_FB103_0054" Name="拉杆" Kind="1"/>
+	<Property ID="npc_zqm003_0160" Name="神秘商人" Kind="2" QuestCanAccept="10100," QuestCanSubmit="10100"/>
+	<Property ID="npc_FB103_0054_1" Name="雷娜"/>
+	<Property ID="npc_yuhuidongxue_0003" Name="达文西" Kind="58" QuestCanSubmit="6002"/>
+	<Property ID="npc_zqm005_0142" Name="神秘商人" Kind="5" QuestCanAccept="2114" QuestCanSubmit="2114"/>
+	<Property ID="npc_zlm002_0087" Name="神秘商人" Kind="23" QuestCanAccept="10373" QuestCanSubmit="10373"/>
+	<Property ID="npc_zlm008_0089" Name="神秘商人" Kind="12" QuestCanAccept="2767" QuestCanSubmit="2767"/>
+	<Property ID="npc_qhm002_0199" Name="神秘商人" Kind="14" QuestCanAccept="371" QuestCanSubmit="371"/>
+	<Property ID="npc_qhm003_0126" Name="神秘商人" Kind="15" QuestCanAccept="372" QuestCanSubmit="372"/>
+	<Property ID="npc_qhm004_0070" Name="神秘商人" Kind="17" QuestCanAccept="373" QuestCanSubmit="373"/>
+	<Property ID="npc_qhm005_0078" Name="神秘商人" Kind="18" QuestCanAccept="374" QuestCanSubmit="374"/>
+	<Property ID="npc_zlm010_0158" Name="神秘商人" Kind="22" QuestCanAccept="375" QuestCanSubmit="375"/>
+	<Property ID="npc_zqm004_0127" Name="神秘商人" Kind="4" QuestCanAccept="12002" QuestCanSubmit="12002"/>
+	<Property ID="npc_zlm011_0135" Name="神秘商人" Kind="7" QuestCanAccept="12003" QuestCanSubmit="12003"/>
+	<Property ID="npc_zlm015_0115" Name="神秘商人" Kind="26" QuestCanAccept="12004" QuestCanSubmit="12004"/>
+	<Property ID="npc_zlm002_0088" Name="诺里斯·艾林" Kind="23" QuestCanAccept="10318,10319,10320,10321,10322,10316,10317,9007" QuestCanSubmit="10317,10319,10320,10321,10322,10376,10316,9007"/>
+	<Property ID="npc_zlm002_0068" Name="米修尔·新月" Kind="23" QuestCanAccept="10352,10353" QuestCanSubmit="10351,10352,10353"/>
+	<Property ID="npc_xinshou_0061" Name="永生之灵" Kind="58" QuestCanAccept="6103,6105,6107,6203,6205,6207,6303,6305,6307" QuestCanSubmit="6101,6103,6105,6201,6203,6205,6301,6303,6305"/>
+	<Property ID="npc_xinshou_0062" Name="永生之灵" Kind="58" QuestCanAccept="6403,6405,6407,6503,6505,6507,6603,6605,6607,6703,6705,6707" QuestCanSubmit="6401,6403,6405,6501,6503,6505,6601,6603,6605,6701,6703,6705"/>
+	<Property ID="npc_zlm010_0175" Name="体能训练师" Kind="1" QuestCanAccept="4156,4157,4158,4159,4160,2855,2856,348,349,350,351,352,353,354,355,356,357,358,359," QuestCanSubmit="4156,4157,4158,4159,4160,2855,2856,348,349,350,351,352,353,354,355,356,357,358,359"/>
+	<Property ID="npc_yuhuidongxue_0008" Name="布尔诺" Kind="58" QuestCanAccept="6800"/>
+	<Property ID="npc_tiannudongxue_0001" Name="库雷亚" Kind="22" QuestCanAccept="6804,6801" QuestCanSubmit="6804"/>
+	<Property ID="npc_tiannudongxue_0002" Name="阿加塔" Kind="22" QuestCanSubmit="6801"/>
+	<Property ID="npc_m301_0012" Name="塞恩思·克顿" Kind="1" QuestCanAccept="4185" QuestCanSubmit="4185"/>
+	<Property ID="npc_tiannudongxue_0003" Name="西诺彼" Kind="22" QuestCanAccept="6803" QuestCanSubmit="6803"/>
+	<Property ID="NPC_TNJT_NPC_01" Name="复仇者加西亚" Kind="58" QuestCanAccept="7500"/>
+	<Property ID="NPC_TNJT_NPC_02" Name="复仇者加西亚" Kind="58" QuestCanAccept="7501" QuestCanSubmit="7500"/>
+	<Property ID="NPC_TNJT_NPC_03" Name="复仇者加西亚" Kind="58" QuestCanSubmit="7501" QuestCanAccept="7502"/>
+	<Property ID="NPC_TNJT_NPC_04" Name="复仇者加西亚" Kind="58" QuestCanSubmit="7502"/>
+	<Property ID="npc_FB103_0055" Name="机关" Kind="58" QuestCanSubmit="4183"/>
+	<Property ID="npc_zqm003_0041" Name="泽卡·坚铜" Kind="2" QuestCanAccept="10108" QuestCanSubmit="10108"/>
+	<Property ID="npc_ZQEW001_0001" Name="克里乌斯" Kind="1" QuestCanAccept="7000,7101,7102,7103," QuestCanSubmit="7000,7101,7102,7103"/>
+	<Property ID="npc_ZQEW001_0005" Name="墨克威" Kind="1" QuestCanAccept="6999,6998,6997,7109,7110,7111" QuestCanSubmit="6999,6998,6997,7109,7110,7111"/>
+	<Property ID="npc_zqm001_0221" Name="法罗尔" Kind="1"/>
+	<Property ID="npc_zqm001_0228" Name="阿萨雷·克顿" Kind="1" QuestCanAccept="603,604" QuestCanSubmit="602,603"/>
+	<Property ID="npc_zqm001_0231" Name="菲尔逊·索尔" Kind="1" QuestCanAccept="608,610,684,685,689" QuestCanSubmit="683,684,689,608"/>
+	<Property ID="npc_zqm001_0222" Name="艾里克" Kind="1" QuestCanAccept="611,612,613" QuestCanSubmit="610,611,612"/>
+	<Property ID="npc_zqm001_0224" Name="梅丽尔" Kind="1" QuestCanAccept="614,615,616,690" QuestCanSubmit="613,614,615"/>
+	<Property ID="npc_zqm001_0229" Name="拉莫斯" Kind="1" QuestCanAccept="617,618,619,6100,6101,6300,6301,4136,619,620" QuestCanSubmit="617,618,6100,6107,6300,6307,692,4136,619"/>
+	<Property ID="npc_zqm001_0226" Name="布兰德·洛克" Kind="1" QuestCanAccept="4028" QuestCanSubmit="4028"/>
+	<Property ID="npc_zqm001_0227" Name="蒙莱特" Kind="1" QuestCanAccept="621,622,623,624,663" QuestCanSubmit="620,621,622,623"/>
+	<Property ID="npc_zqm001_0140" Name="克里夫_乔斯" Kind="1" QuestCanAccept="625,626,630,636,637,680" QuestCanSubmit="624,625,635,636,693,4184"/>
+	<Property ID="npc_zqm001_0141" Name="福斯特" Kind="1" QuestCanAccept="627,693" QuestCanSubmit="627,626"/>
+	<Property ID="npc_zqm001_0142" Name="乔伊" Kind="1" QuestCanAccept="628" QuestCanSubmit="628"/>
+	<Property ID="npc_zqm001_0143" Name="杜尔" Kind="1" QuestCanAccept="629" QuestCanSubmit="629"/>
+	<Property ID="npc_zqm001_0239" Name="科尔" Kind="1" QuestCanAccept="631,634,635,632" QuestCanSubmit="630,631,633,634"/>
+	<Property ID="npc_zqm001_0240" Name="笛卡尔" Kind="1" QuestCanAccept="633" QuestCanSubmit="632"/>
+	<Property ID="npc_zqm001_0054" Name="米诺维奇" Kind="1" QuestCanAccept="638,639,640,641" QuestCanSubmit="637,638,639,640"/>
+	<Property ID="npc_zqm001_0241" Name="格鲁" Kind="1" QuestCanAccept="642" QuestCanSubmit="641"/>
+	<Property ID="npc_zqm001_0083" Name="斯威夫特" Kind="1" QuestCanAccept="643,647" QuestCanSubmit="642,646"/>
+	<Property ID="npc_zqm001_0086" Name="格里斯" Kind="1" QuestCanAccept="644,645,646,666" QuestCanSubmit="643,644,645"/>
+	<Property ID="npc_zqm001_0074" Name="洛伦特_斯通" Kind="1" QuestCanAccept="648,649,650,651,652,658,671" QuestCanSubmit="647,648,649,650,651,656"/>
+	<Property ID="npc_zqm001_0075" Name="卡布思迪" Kind="1" QuestCanAccept="653,654,655,656," QuestCanSubmit="652,653,654,655"/>
+	<Property ID="npc_zqm001_0111" Name="奥雷卡" Kind="1" QuestCanSubmit="658" QuestCanAccept="4532"/>
+	<Property ID="npc_TNB_0002" Name="霍利斯仔金" QuestCanAccept="6900"/>
+	<Property ID="npc_TNB_0003" Name="维佳尔·风" QuestCanAccept="6902" QuestCanSubmit="6901"/>
+	<Property ID="npc_TNB_0004" Name="醒悟的布里奇特" QuestCanAccept="6903,6904" QuestCanSubmit="6902,6903,6904"/>
+	<Property ID="npc_TNB_0005" Name="霍利斯仔金" QuestCanAccept="6901" QuestCanSubmit="6900"/>
+	<Property ID="npc_zlm010_0109" Name="巴罗什" Kind="7" QuestCanSubmit="2461" QuestCanAccept="2342"/>
+	<Property ID="npc_zlm008_0078" Name="辛德尔" Kind="12" QuestCanAccept="2768" QuestCanSubmit="2712"/>
+	<Property ID="npc_zqm001_0251" Name="辛亚提船长" Kind="4" QuestCanAccept="4601" QuestCanSubmit="4535"/>
+	<Property ID="npc_zlm011_0014" Name="洛琳" Kind="11" QuestCanAccept="4604" QuestCanSubmit="902"/>
+	<Property ID="npc_zlm011_0097" Name="受伤的车夫" Kind="11" QuestCanAccept="4605" QuestCanSubmit="903"/>
+	<Property ID="npc_zlm011_0075" Name="罗斯塔" Kind="11" QuestCanAccept="4607" QuestCanSubmit="4606"/>
+	<Property ID="npc_zlm008_0204" Name="希尔" Kind="11" QuestCanAccept="4628" QuestCanSubmit="4627,4628"/>
+	<Property ID="npc_zlm011_0058" Name="梅菲尔·克里特" Kind="11" QuestCanAccept="4638,4645" QuestCanSubmit="905,4645"/>
+	<Property ID="npc_zlm008_0203" Name="艾琳·艾恩斯" Kind="11" QuestCanAccept="4639,4640,9058" QuestCanSubmit="4638,4639,9058"/>
+	<Property ID="npc_zlm008_0205" Name="血卫联络使伊莱文" Kind="11" QuestCanAccept="4641,906" QuestCanSubmit="4640,4641"/>
+	<Property ID="npc_zlm008_0206" Name="卡尔·萨多" Kind="11" QuestCanAccept="912,913" QuestCanSubmit="911,912"/>
+	<Property ID="npc_zlm008_0218" Name="布伦·塔纳" Kind="11" QuestCanAccept="917,918" QuestCanSubmit="916,917"/>
+	<Property ID="npc_zlm008_0211" Name="摩拉·芬瑟里" Kind="11" QuestCanAccept="923,924,925" QuestCanSubmit="922,923,924"/>
+	<Property ID="npc_zlm008_0212" Name="安妮·琼斯" Kind="11" QuestCanAccept="926,4660" QuestCanSubmit="926,925"/>
+	<Property ID="npc_zlm008_0213" Name="米格" Kind="11" QuestCanAccept="928" QuestCanSubmit="927"/>
+	<Property ID="npc_zlm010_0178" Name="菲斯克·魔控" Kind="7" QuestCanAccept="2449" QuestCanSubmit="2446"/>
+	<Property ID="npc_zqm001_0230" Name="布兰德·洛克镇长" Kind="1" QuestCanAccept="659"/>
+	<Property ID="npc_zqm001_348" Name="乔伊丝" Kind="1" QuestCanAccept="667" QuestCanSubmit="666,667"/>
+	<Property ID="npc_zqm001_349" Name="乔·帆鳍" Kind="1" QuestCanAccept="669,670" QuestCanSubmit="668,669,670"/>
+	<Property ID="npc_zqm001_357" Name="凯斯·费拉尔" Kind="1" QuestCanAccept="677" QuestCanSubmit="677"/>
+	<Property ID="npc_zqm001_351" Name="亚瑟·安哥拉" Kind="1" QuestCanAccept="678" QuestCanSubmit="678"/>
+	<Property ID="npc_zqm001_352" Name="鲁宾斯" Kind="1" QuestCanAccept="679" QuestCanSubmit="679"/>
+	<Property ID="npc_zqm001_0146" Name="多姆·博肯" Kind="1" QuestCanAccept="681" QuestCanSubmit="680,681"/>
+	<Property ID="npc_zqm001_0242" Name="罗恩" Kind="1" QuestCanAccept="664,665" QuestCanSubmit="663,664,665"/>
+	<Property ID="npc_zqm001_324" Name="强森·拉莱" Kind="1" QuestCanAccept="683" QuestCanSubmit="682"/>
+	<Property ID="npc_zqm001_0187" Name="吉安妮妮" Kind="1" QuestCanAccept="318" QuestCanSubmit="318"/>
+	<Property ID="npc_zqm004_0125" Name="缪西娅_普拉达" Kind="4" QuestCanAccept="319" QuestCanSubmit="319"/>
+	<Property ID="npc_zlm010_0148" Name="雅若狄尔·瑟微" Kind="7" QuestCanAccept="320" QuestCanSubmit="320"/>
+	<Property ID="npc_zqm001_0207" Name="保尔·柯察金" Kind="1" QuestCanAccept="321" QuestCanSubmit="321"/>
+	<Property ID="npc_zqm004_0130" Name="阿尔焦姆·柯察金" Kind="4" QuestCanAccept="322" QuestCanSubmit="322"/>
+	<Property ID="npc_zlm010_0176" Name="伊万·扎尔基" Kind="7" QuestCanAccept="323" QuestCanSubmit="323"/>
+	<Property ID="npc_zqm001_0185" Name="肯·塔尔博特" Kind="1" QuestCanAccept="324" QuestCanSubmit="324"/>
+	<Property ID="npc_zqm004_0123" Name="莱茵哈特·托克" Kind="4" QuestCanAccept="325" QuestCanSubmit="325"/>
+	<Property ID="npc_zlm010_0146" Name="霍夫·维格达" Kind="7" QuestCanAccept="326" QuestCanSubmit="326"/>
+	<Property ID="npc_zqm001_0186" Name="宝格丽" Kind="1" QuestCanAccept="327" QuestCanSubmit="327"/>
+	<Property ID="npc_zqm004_0124" Name="佐卡伊_拉瓦哈" Kind="4" QuestCanAccept="328" QuestCanSubmit="328"/>
+	<Property ID="npc_zlm010_0147" Name="罗西那克·亚林" Kind="7" QuestCanAccept="329" QuestCanSubmit="329"/>
+	<Property ID="npc_zqm001_0188" Name="卡尔·鲍林" Kind="1" QuestCanAccept="330" QuestCanSubmit="330"/>
+	<Property ID="npc_zqm004_0126" Name="汉斯特·罗里可" Kind="4" QuestCanAccept="331" QuestCanSubmit="331"/>
+	<Property ID="npc_zlm010_0149" Name="迈多拉·奴里夫" Kind="7" QuestCanAccept="332" QuestCanSubmit="332"/>
+	<Property ID="npc_qhm002_0185" Name="罗斯·卡萨" Kind="17" QuestCanAccept="333" QuestCanSubmit="333"/>
+	<Property ID="npc_qhm004_0068" Name="阿德拉·追风" Kind="21" QuestCanAccept="334" QuestCanSubmit="334"/>
+	<Property ID="npc_zlm010_0152" Name="安妮亚·追风" Kind="7" QuestCanAccept="335" QuestCanSubmit="335"/>
+	<Property ID="npc_qhm002_0200" Name="达雅·柯察金娜" Kind="17" QuestCanAccept="336" QuestCanSubmit="336"/>
+	<Property ID="npc_qhm004_0071" Name="尼古拉·奥库涅夫" Kind="21" QuestCanAccept="337" QuestCanSubmit="337"/>
+	<Property ID="npc_zlm010_0177" Name="托卡列夫" Kind="7" QuestCanAccept="338" QuestCanSubmit="338"/>
+	<Property ID="npc_qhm002_0183" Name="利卫·逐日" Kind="17" QuestCanAccept="339" QuestCanSubmit="339"/>
+	<Property ID="npc_qhm004_0066" Name="西琳妮纱·控魔" Kind="21" QuestCanAccept="340" QuestCanSubmit="340"/>
+	<Property ID="npc_zlm010_0150" Name="卡斯坦·逐日" Kind="7" QuestCanAccept="341" QuestCanSubmit="341"/>
+	<Property ID="npc_qhm002_0184" Name="劳伦斯·追风" Kind="17" QuestCanAccept="342" QuestCanSubmit="342"/>
+	<Property ID="npc_qhm004_0067" Name="卡纱丽·逐日" Kind="21" QuestCanAccept="343" QuestCanSubmit="343"/>
+	<Property ID="npc_zlm010_0151" Name="巴里迪安·日灼" Kind="7" QuestCanAccept="344" QuestCanSubmit="344"/>
+	<Property ID="npc_qhm002_0186" Name="伊雷娜·控魔" Kind="17" QuestCanAccept="345" QuestCanSubmit="345"/>
+	<Property ID="npc_qhm004_0069" Name="妲尔蕾依_卡萨" Kind="21" QuestCanAccept="346" QuestCanSubmit="346"/>
+	<Property ID="npc_zlm010_0153" Name="凯尔雅·卡萨" Kind="7" QuestCanAccept="347" QuestCanSubmit="347"/>
+	<Property ID="npc_zlm010_0159" Name="冒险军需商" Kind="1" QuestCanAccept="687" QuestCanSubmit="686,687"/>
+	<Property ID="npc_qhm004_0075" Name="被劫持的商人" Kind="17" QuestCanAccept="537" QuestCanSubmit="536"/>
+	<Property ID="npc_qhm002_0223" Name="安卓玛·逐风" Kind="17" QuestCanSubmit="750" QuestCanAccept="751"/>
+	<Property ID="npc_QHEW002_0005" Name="吉莫" Kind="17" QuestCanAccept="7104,7106,7107,7108,7112,7113,7113,7114,7115" QuestCanSubmit="7104,7106,7107,7108,7112,7113,7113,7114,7115"/>
+	<Property ID="npc_zlm010_0169" Name="冒险军需官" Kind="17" QuestCanAccept="753" QuestCanSubmit="752,753"/>
+	<Property ID="npc_qhm002_0157" Name="西恩斯·焚炎" Kind="17" QuestCanSubmit="90"/>
+	<Property ID="npc_zqm003_0300" Name="波比" Kind="2" QuestCanAccept="10400" QuestCanSubmit="10002"/>
+	<Property ID="npc_zqm003_0301" Name="损坏的伐木机" Kind="2" QuestCanAccept="10401,10402" QuestCanSubmit="10014,10401"/>
+	<Property ID="npc_zqm003_0304" Name="罗克萨·赤铁" Kind="2" QuestCanAccept="10403,10404" QuestCanSubmit="10028,10403"/>
+	<Property ID="npc_zlm002_0090" Name="汤姆·克鲁兹" Kind="23" QuestCanAccept="10309,9006" QuestCanSubmit="10308,9006"/>
+	<Property ID="npc_zlm015_0080" Name="杰罗西·海格" Kind="22" QuestCanAccept="10271,10272" QuestCanSubmit="10287,10271"/>
+	<Property ID="npc_zlm012_0021" Name="罗斯勒" Kind="27" QuestCanAccept="2551,2557,9025" QuestCanSubmit="2551,2556,2467,9025"/>
+	<Property ID="npc_zlm012_0022" Name="研究员瑟拉" Kind="27" QuestCanAccept="2552,2555,2556" QuestCanSubmit="2552,2554,2555"/>
+	<Property ID="npc_zlm012_0023" Name="助手罗恩" Kind="27" QuestCanAccept="2553,2554" QuestCanSubmit="2553"/>
+	<Property ID="npc_zlm012_0024" Name="福比斯" Kind="27" QuestCanAccept="2560,2561,2562,2564,2563,2558" QuestCanSubmit="2559,2560,2561,2562,2564,2557"/>
+	<Property ID="npc_zlm012_0025" Name="塔图" QuestCanAccept="2559" Kind="27" QuestCanSubmit="2558"/>
+	<Property ID="npc_zlm012_0026" Name="格林奇" Kind="27" QuestCanAccept="2565,2566,2579,2567,2571" QuestCanSubmit="2563,2565,2566,2578,2570"/>
+	<Property ID="npc_zlm012_0027" Name="古蒂" QuestCanAccept="2568,2569,2570,9026" QuestCanSubmit="2567,2568,2569,9026" Kind="27"/>
+	<Property ID="npc_zlm012_0020" Name="克里斯诺" QuestCanAccept="2573" QuestCanSubmit="2573" Kind="27"/>
+	<Property ID="npc_zlm012_0030" Name="费斯" QuestCanAccept="2575,2576,2577,2578,2572,2574" QuestCanSubmit="2575,2576,2577,2571,2572,2574" Kind="27"/>
+	<Property ID="npc_zlm012_0031" Name="尤利西斯·鹰啸" QuestCanAccept="2580,2582,2589" QuestCanSubmit="2579,2581,2583,2588" Kind="27"/>
+	<Property ID="npc_zlm012_0032" Name="背誓者的仆人" Kind="27" QuestCanAccept="2581" QuestCanSubmit="2580"/>
+	<Property ID="npc_zlm012_0033" Name="斯坦德隆" Kind="27" QuestCanSubmit="2589,2590" QuestCanAccept="2590"/>
+	<Property ID="npc_zlm012_0008" Name="博尔赫" Kind="7" QuestCanAccept="2514,2515,2519,2526" QuestCanSubmit="2513,2514,2525,2518"/>
+	<Property ID="npc_zlm012_0010" Name="幽灵" QuestCanAccept="2520,2521,2522,2523,2524,2525,9070" QuestCanSubmit="2519,2520,2521,2522,2523,2524,9070"/>
+	<Property ID="npc_zlm012_0012" Name="安娜·塔西娅" QuestCanAccept="2527,2529" QuestCanSubmit="2526,2528"/>
+	<Property ID="npc_zlm012_0013" Name="背誓者的仆人" QuestCanSubmit="2527" QuestCanAccept="2528" Kind="27"/>
+	<Property ID="npc_QHEW005_0005" Name="巨树能量井日常" Kind="20" QuestCanAccept="6984,6983,6982,6981,6980,6979" QuestCanSubmit="6984,6983,6982,6981,6980,6979"/>
+	<Property ID="npc_ZLEW002_0005" Name="雾月能量井日常" Kind="23" QuestCanAccept="6972,6971,6970,6969,6968,6967" QuestCanSubmit="6972,6971,6970,6969,6968,6967"/>
+	<Property ID="npc_ZLEW011_0005" Name="巨人能量井日常" Kind="11" QuestCanAccept="6996,6995,6994,6993,6992,6991" QuestCanSubmit="6996,6995,6994,6993,6992,6991"/>
+	<Property ID="npc_ZQEW005_0005" Name="废墟能量井日常" Kind="5" QuestCanAccept="6990,6989,6988,6987,6986,6985" QuestCanSubmit="6990,6989,6988,6987,6986,6985"/>
+	<Property ID="npc_ZLEW012_2005" Name="达贡能量井日常" Kind="7" QuestCanAccept="6954,6953,6952,6951,6950,6949" QuestCanSubmit="6954,6953,6952,6951,6950,6949"/>
+	<Property ID="npc_zlm012_0015" Name="阿卡鲁" Kind="27" QuestCanAccept="2530,2533,2583,2586,2587" QuestCanSubmit="2529,2530,2582,2532,2585"/>
+	<Property ID="npc_zlm012_0014" Name="安娜·塔西娅2" Kind="27" QuestCanAccept="2531,2532,2534,2535,2536,2585" QuestCanSubmit="2531,2533,2534,2535,2536,2584"/>
+	<Property ID="npc_zlm012_0001" Name="罗斯勒" Kind="7" QuestCanAccept="2500,2505,2506,9069" QuestCanSubmit="2505,2499,9069"/>
+	<Property ID="npc_zlm012_0002" Name="研究员瑟拉" Kind="7" QuestCanAccept="2503,2504" QuestCanSubmit="2500,2503,2504"/>
+	<Property ID="npc_zlm012_0003" Name="助手罗恩" Kind="7" QuestCanAccept="2502" QuestCanSubmit="2502"/>
+	<Property ID="npc_zlm012_0004" Name="罗斯福" Kind="7" QuestCanAccept="2507,2509,2511,2512,2513,2537,2538" QuestCanSubmit="2506,2508,2509,2511,2512,2537,2538"/>
+	<Property ID="npc_zlm012_0007" Name="斯瑞文" Kind="7" QuestCanAccept="2508" QuestCanSubmit="2507"/>
+	<Property ID="npc_zlm012_0009" Name="里斯" Kind="7" QuestCanAccept="2516,2517,2518" QuestCanSubmit="2515,2516,2517"/>
+	<Property ID="npc_zlm012_0016" Name="尤利西斯·鹰啸" Kind="27" QuestCanAccept="2589,2584" QuestCanSubmit="2583,2588"/>
+	<Property ID="npc_llqd_0004_01" Name="鱼龙骑卫队长鱼龙骑卫队长" Kind="24" QuestCanAccept="6805"/>
+	<Property ID="fb_llqd_024" Name="能量水晶" Kind="24" QuestCanSubmit="6805"/>
+	<Property ID="npc_zlm012_0011" Name="暗影" Kind="27" QuestCanAccept="2539" QuestCanSubmit="2539"/>
+	<Property ID="npc_zlm012_0034" Name="阿卡鲁" Kind="27" QuestCanAccept="2587,2588" QuestCanSubmit="2586,2587"/>
+	<Property ID="npc_qhm002_0228" Name="安德烈·焚炎" Kind="17" QuestCanAccept="703,510" QuestCanSubmit="708,703"/>
+	<Property ID="npc_qhm002_0229" Name="萨马里奥·逆水" Kind="17" QuestCanAccept="514" QuestCanSubmit="511"/>
+	<Property ID="npc_qhm002_0230" Name="杰拉尔·沉星" Kind="17" QuestCanAccept="530,531" QuestCanSubmit="529,530"/>
+	<Property ID="npc_qhm002_0231" Name="里尔·鬃尾" Kind="17" QuestCanAccept="533" QuestCanSubmit="532"/>
+	<Property ID="npc_qhm002_0232" Name="达格拉尔·狼牙" Kind="17" QuestCanAccept="535"/>
+	<Property ID="npc_zlm008_0076" Name="施德尔" Kind="12" QuestCanAccept="2757" QuestCanSubmit="2794"/>
+	<Property ID="npc_zlm008_0100" Name="冒险者苏觅" Kind="12" QuestCanAccept="2710" QuestCanSubmit="2783"/>
+	<Property ID="npc_zlm012_0091" Name="多罗萨" Kind="21" QuestCanAccept="463" QuestCanSubmit="462"/>
+	<Property ID="npc_qhm004_0053" Name="哈姆德·金鳍" Kind="12" QuestCanAccept="425,434,469,470,471,9003,9004" QuestCanSubmit="468,469,424,470,425,477,9003,9004"/>
+	<Property ID="npc_zlm008_0090" Name="富力克斯" Kind="12" QuestCanAccept="2801,2802" QuestCanSubmit="2801,2802"/>
+	<Property ID="npc_zqm003_0130" Name="安妮亚耀金" Kind="2" QuestCanAccept="377" QuestCanSubmit="377"/>
+	<Property ID="npc_zqm005_0140" Name="格兰妮塔耀金" Kind="5" QuestCanAccept="378" QuestCanSubmit="378"/>
+	<Property ID="npc_zqm003_0169" Name="冬妮亚图曼诺娃" Kind="2" QuestCanAccept="379" QuestCanSubmit="379"/>
+	<Property ID="npc_zqm005_0143" Name="费奥多尔朱赫来" Kind="5" QuestCanAccept="380" QuestCanSubmit="380"/>
+	<Property ID="npc_zqm003_0128" Name="马兰妮亮银" Kind="2" QuestCanAccept="381" QuestCanSubmit="381"/>
+	<Property ID="npc_zqm005_0138" Name="达莎妮亮银" Kind="5" QuestCanAccept="382" QuestCanSubmit="382"/>
+	<Property ID="npc_zqm003_0129" Name="巴诺岩火" Kind="2" QuestCanAccept="383" QuestCanSubmit="383"/>
+	<Property ID="npc_zqm005_0139" Name="利诺岩火" Kind="5" QuestCanAccept="384" QuestCanSubmit="384"/>
+	<Property ID="npc_zqm003_0131" Name="马斯狄岩火" Kind="2" QuestCanAccept="385" QuestCanSubmit="385"/>
+	<Property ID="npc_zqm005_0141" Name="穆力尔岩火" Kind="5" QuestCanAccept="386" QuestCanSubmit="386"/>
+	<Property ID="npc_qhm003_0115" Name="简克莱恩" Kind="19" QuestCanAccept="387" QuestCanSubmit="387"/>
+	<Property ID="npc_zlm002_0085" Name="佩林莉亚" Kind="23" QuestCanAccept="388" QuestCanSubmit="388"/>
+	<Property ID="npc_qhm003_0127" Name="瓦莉娅布鲁扎克" Kind="19" QuestCanAccept="389" QuestCanSubmit="389"/>
+	<Property ID="npc_zlm002_0089" Name="谢廖沙布鲁扎克" Kind="23" QuestCanAccept="390" QuestCanSubmit="390"/>
+	<Property ID="npc_qhm003_0113" Name="派克拉格斐" Kind="19" QuestCanAccept="391" QuestCanSubmit="391"/>
+	<Property ID="npc_zlm002_0083" Name="拉然托利奴斯" Kind="23" QuestCanAccept="392" QuestCanSubmit="392"/>
+	<Property ID="npc_qhm003_0114" Name="蒂芬妮格拉夫" Kind="19" QuestCanAccept="393" QuestCanSubmit="393"/>
+	<Property ID="npc_zlm002_0084" Name="伊里宾柯力纳" Kind="23" QuestCanAccept="394" QuestCanSubmit="394"/>
+	<Property ID="npc_qhm003_0116" Name="玛丽居里" Kind="19" QuestCanAccept="395" QuestCanSubmit="395"/>
+	<Property ID="npc_zlm002_0086" Name="冉拉德尤利娅" Kind="23" QuestCanAccept="396" QuestCanSubmit="396"/>
+	<Property ID="npc_FB105_0022" Name="德维克" Kind="58" QuestCanAccept="6806,6807" QuestCanSubmit="6806,6807"/>
+	<Property ID="npc_qhm002_0234" Name="斯塔诺·幻语" Kind="17" QuestCanAccept="508,708" QuestCanSubmit="506,508"/>
+	<Property ID="npc_qhm002_0235" Name="拉法·逐风" QuestCanAccept="509,704,511" QuestCanSubmit="510,509,704"/>
+	<Property ID="npc_zqm001_369" Name="斯维因·诺雷" Kind="1" QuestCanAccept="602" QuestCanSubmit="601"/>
+	<Property ID="npc_zqm001_370" Name="安德鲁森·佩雷斯" QuestCanAccept="605,606,607" QuestCanSubmit="604,605,606"/>
+	<Property ID="npc_FB105_kunnan" Name="德维克" Kind="58" QuestCanAccept="6808,6809" QuestCanSubmit="6808,6809"/>
+	<Property ID="npc_ZQEW003_0005" Name="达伦" Kind="2" QuestCanAccept="7100,7116,7117,7118,6966,6965,6964,6963,6962,6961" QuestCanSubmit="7100,7116,7117,7118,6966,6965,6964,6963,6962,6961"/>
+	<Property ID="npc_QHEW003_0005" Name="米路" Kind="19" QuestCanAccept="7105,7119,7120,7121,6960,6959,6958,6957,6956,6955" QuestCanSubmit="7105,7119,7120,7121,6960,6959,6958,6957,6956,6955"/>
+	<Property ID="npc_ZLEW012_1005" Name="达贡能量井奇幻" Kind="27" QuestCanAccept="6974,6973,6975,6976,6977,6978" QuestCanSubmit="6974,6973,6975,6976,6977,6978"/>
+	<Property ID="npc_zlm011_0050" Name="柯达" Kind="11" QuestCanAccept="4631" QuestCanSubmit="4631"/>
+	<Property ID="npc_zqm405_00210" Name="大卫·潘森" Kind="58" QuestCanAccept="5021,5022,5033,5037,5040" QuestCanSubmit="5021,5028,5040"/>
+	<Property ID="npc_zqm405_00217" Name="柯南·德尔波" Kind="58" QuestCanAccept="5023,5024" QuestCanSubmit="5022,5023,5024"/>
+	<Property ID="npc_zqm405_00213" Name="伊蒂·卡伦特" Kind="58" QuestCanAccept="5025,5026,5029" QuestCanSubmit="5025"/>
+	<Property ID="npc_zqm405_00211" Name="杰森·西渥" Kind="58" QuestCanAccept="5027,5028" QuestCanSubmit="5026,5027"/>
+	<Property ID="npc_zqm405_00212" Name="强森·特鲁斯" Kind="58" QuestCanAccept="5030,5031" QuestCanSubmit="5029,5030"/>
+	<Property ID="npc_zqm405_00224" Name="娜克西丝" Kind="58" QuestCanAccept="5032" QuestCanSubmit="5031,5032"/>
+	<Property ID="npc_zqm405_00216" Name="克古拉·里肯撒" Kind="58" QuestCanAccept="5034,5035,5036" QuestCanSubmit="5033,5034,5035,5036"/>
+	<Property ID="npc_zqm405_00246" Name="安特罗格·罗宾" Kind="58" QuestCanSubmit="5037"/>
+	<Property ID="npc_zqm405_00233" Name="罗克·海风" Kind="58" QuestCanAccept="5038"/>
+	<Property ID="npc_zqm405_00247" Name="贝蒂·海斯特" Kind="58" QuestCanAccept="5039" QuestCanSubmit="5038,5039"/>
+	<Property ID="npc_zqm405_00225" Name="安得烈·破风" Kind="58" QuestCanAccept="5001,5002,5017,5020" QuestCanSubmit="5001,5008,5020"/>
+	<Property ID="npc_zqm405_00228" Name="密特罗·坠星" Kind="58" QuestCanAccept="5003,5004" QuestCanSubmit="5002,5003,5004"/>
+	<Property ID="npc_zqm405_00229" Name="卡特琳娜·追月" Kind="58" QuestCanAccept="5005,5006,5009" QuestCanSubmit="5005"/>
+	<Property ID="npc_zqm405_00226" Name="蒙哥多兰·逆水" Kind="58" QuestCanAccept="5007,5008" QuestCanSubmit="5006,5007"/>
+	<Property ID="npc_zqm405_00227" Name="多兰·坠星" Kind="58" QuestCanAccept="5010,5011" QuestCanSubmit="5009,5010"/>
+	<Property ID="npc_zqm405_00242" Name="克罗索·追风" Kind="58" QuestCanAccept="5012,5013" QuestCanSubmit="5011,5012"/>
+	<Property ID="npc_zqm405_00232" Name="克罗克·绿藤" Kind="58" QuestCanAccept="5014,5015,5016" QuestCanSubmit="5013,5014,5015,5016"/>
+	<Property ID="npc_zqm405_00248" Name="伊渥尔·落星" Kind="58" QuestCanAccept="5018" QuestCanSubmit="5017"/>
+	<Property ID="npc_zqm405_00249" Name="璱琳娜·控魔" Kind="58" QuestCanAccept="5019" QuestCanSubmit="5018,5019"/>
+
+</Object>

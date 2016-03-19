@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- ID：序号 -->
+<!-- itemtype：物品类型 -->
+<!-- Nums1：单手装备的空数和不区分单双手的物品空数 -->
+<!-- Nums2：双手装备的空数 （holdtype为4）-->
+<Object>
+	<Property ID="1" itemtype="141" Nums1="2" Nums2="2"/>
+	<Property ID="2" itemtype="142" Nums1="2" Nums2="2"/>
+	<Property ID="3" itemtype="143" Nums1="2" Nums2="2"/>
+	<Property ID="4" itemtype="139" Nums1="2" Nums2="2"/>
+	<Property ID="5" itemtype="145" Nums1="2" Nums2="2"/>
+	<Property ID="6" itemtype="146" Nums1="2" Nums2="2"/>
+	<Property ID="7" itemtype="140" Nums1="2" Nums2="2"/>
+	<Property ID="13" itemtype="108" Nums1="2" Nums2="3"/>
+	<Property ID="14" itemtype="124" Nums1="2" Nums2="3"/>
+	<Property ID="15" itemtype="101" Nums1="2" Nums2="3"/>
+	<Property ID="16" itemtype="107" Nums1="2" Nums2="3"/>
+	<Property ID="17" itemtype="102" Nums1="2" Nums2="3"/>
+	<Property ID="18" itemtype="118" Nums1="3" Nums2="3"/>
+	<Property ID="19" itemtype="115" Nums1="3" Nums2="3"/>
+	<Property ID="20" itemtype="104" Nums1="2" Nums2="3"/>
+</Object>

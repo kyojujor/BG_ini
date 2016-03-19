@@ -1,0 +1,105 @@
+<!-- 物品类型总表 -->
+<!-- ID           物品类型                                          int     -->
+<!-- FatherType   物品父类型    55555为全部，是所有物品类型的根类     int     -->
+<!--                            支持任意深度的物品层级，示例：                -->
+<!--                            剑  -> 武器  -> 全部                        -->
+<!--                            101 -> 10000 -> 55555                       -->
+<!-- TextID       对应中文包                                        string  -->
+<!-- Desc         描述          仅为方便配置而设，无实际意义                  -->
+<Object>
+    <Property ID="10000" FatherType="55555" TextID="zx_djtype_10000" Desc="武器"/>
+        <Property ID="101" FatherType="10000" TextID="zx_djtype_101" Desc="剑"/>
+        <Property ID="102" FatherType="10000" TextID="zx_djtype_102" Desc="匕首"/>
+        <!-- <Property ID="103" FatherType="10000" TextID="zx_djtype_103" Desc="锤子"/> -->
+        <Property ID="104" FatherType="10000" TextID="zx_djtype_104" Desc="斧"/>
+        <Property ID="107" FatherType="10000" TextID="zx_djtype_107" Desc="盾"/>
+        <Property ID="108" FatherType="10000" TextID="zx_djtype_108" Desc="魔棒"/>
+        <Property ID="114" FatherType="10000" TextID="zx_djtype_114" Desc="枪"/>
+        <Property ID="118" FatherType="10000" TextID="zx_djtype_118" Desc="法杖"/>
+        <Property ID="124" FatherType="10000" TextID="zx_djtype_124" Desc="魔瓶"/>
+    <Property ID="11000" FatherType="55555" TextID="zx_djtype_11000" Desc="防具"/>
+        <Property ID="139" FatherType="11000" TextID="zx_djtype_139" Desc="腰带"/>
+        <Property ID="140" FatherType="11000" TextID="zx_djtype_140" Desc="帽子"/>
+        <Property ID="141" FatherType="11000" TextID="zx_djtype_141" Desc="上装"/>
+        <Property ID="142" FatherType="11000" TextID="zx_djtype_142" Desc="下装"/>
+        <Property ID="143" FatherType="11000" TextID="zx_djtype_143" Desc="鞋子"/>
+        <Property ID="145" FatherType="11000" TextID="zx_djtype_145" Desc="护腕"/>
+        <Property ID="146" FatherType="11000" TextID="zx_djtype_146" Desc="手套"/>
+        <Property ID="11100" FatherType="11000" TextID="zx_djtype_11100" Desc="布甲"/>
+            <Property ID="11139" FatherType="11100" TextID="zx_djtype_11139" Desc="腰带（布甲）"/>
+            <Property ID="11140" FatherType="11100" TextID="zx_djtype_11140" Desc="帽子（布甲）"/>
+            <Property ID="11141" FatherType="11100" TextID="zx_djtype_11141" Desc="上装（布甲）"/>
+            <Property ID="11142" FatherType="11100" TextID="zx_djtype_11142" Desc="下装（布甲）"/>
+            <Property ID="11143" FatherType="11100" TextID="zx_djtype_11143" Desc="鞋子（布甲）"/>
+            <Property ID="11145" FatherType="11100" TextID="zx_djtype_11145" Desc="护腕（布甲）"/>
+            <Property ID="11146" FatherType="11100" TextID="zx_djtype_11146" Desc="手套（布甲）"/>
+        <Property ID="11200" FatherType="11000" TextID="zx_djtype_11200" Desc="皮甲"/>
+            <Property ID="11239" FatherType="11200" TextID="zx_djtype_11239" Desc="腰带（皮甲）"/>
+            <Property ID="11240" FatherType="11200" TextID="zx_djtype_11240" Desc="帽子（皮甲）"/>
+            <Property ID="11241" FatherType="11200" TextID="zx_djtype_11241" Desc="上装（皮甲）"/>
+            <Property ID="11242" FatherType="11200" TextID="zx_djtype_11242" Desc="下装（皮甲）"/>
+            <Property ID="11243" FatherType="11200" TextID="zx_djtype_11243" Desc="鞋子（皮甲）"/>
+            <Property ID="11245" FatherType="11200" TextID="zx_djtype_11245" Desc="护腕（皮甲）"/>
+            <Property ID="11246" FatherType="11200" TextID="zx_djtype_11246" Desc="手套（皮甲）"/>
+        <Property ID="11300" FatherType="11000" TextID="zx_djtype_11300" Desc="中甲"/>
+            <Property ID="11339" FatherType="11300" TextID="zx_djtype_11339" Desc="腰带（中甲）"/>
+            <Property ID="11340" FatherType="11300" TextID="zx_djtype_11340" Desc="帽子（中甲）"/>
+            <Property ID="11341" FatherType="11300" TextID="zx_djtype_11341" Desc="上装（中甲）"/>
+            <Property ID="11342" FatherType="11300" TextID="zx_djtype_11342" Desc="下装（中甲）"/>
+            <Property ID="11343" FatherType="11300" TextID="zx_djtype_11343" Desc="鞋子（中甲）"/>
+            <Property ID="11345" FatherType="11300" TextID="zx_djtype_11345" Desc="护腕（中甲）"/>
+            <Property ID="11346" FatherType="11300" TextID="zx_djtype_11346" Desc="手套（中甲）"/>
+        <Property ID="11400" FatherType="11000" TextID="zx_djtype_11400" Desc="重甲"/>
+            <Property ID="11439" FatherType="11400" TextID="zx_djtype_11439" Desc="腰带（重甲）"/>
+            <Property ID="11440" FatherType="11400" TextID="zx_djtype_11440" Desc="帽子（重甲）"/>
+            <Property ID="11441" FatherType="11400" TextID="zx_djtype_11441" Desc="上装（重甲）"/>
+            <Property ID="11442" FatherType="11400" TextID="zx_djtype_11442" Desc="下装（重甲）"/>
+            <Property ID="11443" FatherType="11400" TextID="zx_djtype_11443" Desc="鞋子（重甲）"/>
+            <Property ID="11445" FatherType="11400" TextID="zx_djtype_11445" Desc="护腕（重甲）"/>
+            <Property ID="11446" FatherType="11400" TextID="zx_djtype_11446" Desc="手套（重甲）"/>
+    <Property ID="12000" FatherType="55555" TextID="zx_djtype_12000" Desc="饰物"/>
+        <Property ID="147" FatherType="12000" TextID="zx_djtype_147" Desc="项链"/>
+        <Property ID="148" FatherType="12000" TextID="zx_djtype_148" Desc="披风"/>
+        <Property ID="149" FatherType="12000" TextID="zx_djtype_149" Desc="戒指"/>
+        <Property ID="150" FatherType="12000" TextID="zx_djtype_150" Desc="饰物"/>
+        <Property ID="171" FatherType="12000" TextID="zx_djtype_171" Desc="能量盾"/>
+    <Property ID="13000" FatherType="55555" TextID="zx_djtype_13000" Desc="骑乘宠物"/>
+        <Property ID="89" FatherType="13000" TextID="zx_djtype_89" Desc="战斗载具"/>
+        <Property ID="90" FatherType="13000" TextID="zx_djtype_90" Desc="坐骑"/>
+        <Property ID="201" FatherType="13000" TextID="zx_djtype_201" Desc="战斗宠物"/>
+        <Property ID="202" FatherType="13000" TextID="zx_djtype_202" Desc="观赏宠物"/>
+    <Property ID="14000" FatherType="55555" TextID="zx_djtype_14000" Desc="镶嵌"/>
+        <Property ID="75" FatherType="14000" TextID="zx_djtype_75" Desc="蓝宝石"/>
+        <Property ID="76" FatherType="14000" TextID="zx_djtype_76" Desc="绿宝石"/>
+        <Property ID="77" FatherType="14000" TextID="zx_djtype_77" Desc="黄宝石"/>
+        <Property ID="78" FatherType="14000" TextID="zx_djtype_78" Desc="红宝石"/>
+        <Property ID="79" FatherType="14000" TextID="zx_djtype_79" Desc="紫宝石"/>
+    <Property ID="15000" FatherType="55555" TextID="zx_djtype_15000" Desc="容器"/>
+        <Property ID="31" FatherType="15000" TextID="zx_djtype_31" Desc="背包"/>
+    <Property ID="16000" FatherType="55555" TextID="zx_djtype_16000" Desc="消耗品"/>
+        <Property ID="1" FatherType="16000" TextID="zx_djtype_1" Desc="药水I"/>
+        <Property ID="2" FatherType="16000" TextID="zx_djtype_2" Desc="药水II"/>
+        <Property ID="10" FatherType="16000" TextID="zx_djtype_10" Desc="传送卷轴"/>
+        <Property ID="36" FatherType="16000" TextID="zx_djtype_36" Desc="宝箱"/>
+        <Property ID="258" FatherType="16000" TextID="zx_djtype_258" Desc="能量晶体"/>
+    <Property ID="17000" FatherType="55555" TextID="zx_djtype_17000" Desc="副职配方"/>
+        <Property ID="34" FatherType="17000" TextID="zx_djtype_34" Desc="随机产出配方"/>
+        <Property ID="35" FatherType="17000" TextID="zx_djtype_35" Desc="固定产出配方"/>
+    <Property ID="18000" FatherType="55555" TextID="zx_djtype_18000" Desc="材料"/>
+        <Property ID="500" FatherType="18000" TextID="zx_djtype_500" Desc="矿石"/>
+        <Property ID="501" FatherType="18000" TextID="zx_djtype_501" Desc="金属"/>
+        <Property ID="502" FatherType="18000" TextID="zx_djtype_502" Desc="草药"/>
+        <Property ID="503" FatherType="18000" TextID="zx_djtype_503" Desc="布料"/>
+        <Property ID="504" FatherType="18000" TextID="zx_djtype_504" Desc="珠宝原石"/>
+    <Property ID="49000" FatherType="55555" TextID="zx_djtype_49000" Desc="其他"/>
+        <Property ID="3" FatherType="49000" TextID="zx_djtype_3" Desc="附魔道具"/>
+        <Property ID="4" FatherType="49000" TextID="zx_djtype_4" Desc="特殊效果"/>
+        <Property ID="14" FatherType="49000" TextID="zx_djtype_14" Desc="碎片"/>
+        <Property ID="18" FatherType="49000" TextID="zx_djtype_18" Desc="任务类"/>
+        <Property ID="60" FatherType="49000" TextID="zx_djtype_60" Desc="特殊"/>
+        <Property ID="257" FatherType="49000" TextID="zx_djtype_257" Desc="经验丹"/>
+        <Property ID="259" FatherType="49000" TextID="zx_djtype_259" Desc="VIP道具"/>
+        <Property ID="300" FatherType="49000" TextID="zx_djtype_300" Desc="藏宝图"/>
+        <Property ID="1200" FatherType="49000" TextID="zx_djtype_1200" Desc="杂物"/>
+    <Property ID="55555" FatherType="55555" TextID="zx_djtype_55555" Desc="全部"/>
+</Object>

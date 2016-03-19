@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- edited with XMLSpy v2010 (http://www.altova.com) by MESMERiZE (MiZE) -->
+<!-- ID				序号
+	 Desc			玩法描述
+	 Type			玩法类型号
+			1.  夺旗玩法			endcondition="旗子的ID" awards ="1,2;0;0" 
+			2。 据点玩法			endcondition="据点的ID" awards ="1,2;0;0"
+			3。 击杀boss玩法		endcondition="boss的ID， 个数" awards ="1,2;0;0"
+			4。 击杀玩家人头玩法	endcondition="玩家个数" awards =""
+			5。 采集玩法			endcondition="采集的npc的ID， 个数" awards =""
+			6。 扛旗玩法			endcondition="抢到的旗子个数" awards =""
+			7。 护送玩法			endcondition="护送成功次数" awards =""
+			8。 积分玩法			endcondition="开始积分，结束积分" awards =""
+			9。 炸弹玩法
+            10。击杀载具玩法
+	
+
+	 awards			积分奖励或者是荣誉奖励，具体按照battlewar_prize.xml文件奖励包填写对应id-->
+
+<Object>
+		<Property ID="1" Desc="夺旗玩法"			Type="1" EndCondition=""  Awards="3"/>
+		<Property ID="2" Desc="据点玩法"			Type="2" EndCondition=""  Awards="2"/>
+		<Property ID="3" Desc="击杀boss玩法"		Type="3" EndCondition="npc1,10;npc2,20;npc3,20"  Awards="1,2,3,4;"/>
+		<Property ID="4" Desc="击杀玩家人头玩法"	Type="4" EndCondition=""  Awards="1"/>
+		<Property ID="5" Desc="采集玩法"			Type="5" EndCondition=""  Awards=""/>
+		<Property ID="6" Desc="扛旗玩法"			Type="6" EndCondition=""  Awards=""/>
+		<Property ID="7" Desc="护送玩法"			Type="7" EndCondition=""  Awards=""/>
+		<Property ID="8" Desc="积分玩法"			Type="8" EndCondition="0,1500"  Awards=""/>
+		<Property ID="9" Desc="炸弹玩法"	        Type="9" EndCondition=""  Awards=""/>
+		<Property ID="10" Desc="击杀载具玩法"	Type="10" EndCondition=""  Awards="8"/>
+</Object>

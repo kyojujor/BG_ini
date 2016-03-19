@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes" ?>
+<Processor>
+    <Base type="object" version="1.0">
+        <Line Type="2" Event="2001" Name="AUTOP1" />
+        <Line Type="1" Event="5059">
+            <Param type="13" srctype="8" data="AUTOP1" Index="0" />
+            <Param type="2" data="900" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP2" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP2" Index="0" />
+            <Param type="6" data="jieduan" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="1" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP3" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP3" Index="0" />
+            <Param type="6" data="N" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="0" Index="3" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-4913.327,194.970,6743.036,2.730" Index="0" />
+            <Param type="6" data="monster_qhS003_0045" Index="1" />
+            <Param type="6" data="NPC_1" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-4910.005,195.852,6744.421,2.905" Index="0" />
+            <Param type="6" data="monster_qhS003_0045" Index="1" />
+            <Param type="6" data="NPC_2" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP5" />
+        <Line Type="2" Event="3002" Name="AUTOP4">
+            <Param type="13" srctype="8" data="AUTOP5" Index="0" />
+            <Param type="6" data="NPC_2" Index="1" />
+        </Line>
+        <Line Type="1" Event="3017">
+            <Param type="13" srctype="8" data="AUTOP4" Index="0" />
+            <Param type="6" data="NpcNickName" Index="1" />
+            <Param type="6" data="monster_qhS003_0045_01" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-4899.064,197.214,6735.043,-1.891" Index="0" />
+            <Param type="6" data="monster_qhS003_0048" Index="1" />
+            <Param type="6" data="NPC_3" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-4898.214,196.691,6726.119,-1.335" Index="0" />
+            <Param type="6" data="monster_qhS003_0046" Index="1" />
+            <Param type="6" data="NPC_4" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-4899.070,196.532,6723.500,-1.145" Index="0" />
+            <Param type="6" data="monster_qhS003_0046" Index="1" />
+            <Param type="6" data="NPC_5" Index="2" />
+        </Line>
+    </Base>
+</Processor>

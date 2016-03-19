@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Stage>
+	<Object Guid="449BB0A250864FF3A638E408917963B3" Desc="隐身NPC" config="Organ_qhm003_0001" x="-5468.991041" y="75.865637" z="6131.601535" IsY="0" Radius="0" amount="1" RefreshTime="1" fOrg="0" IsPersistent="0">
+		<Event EventId="23" Processor="chenxi_quest_213"/>
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="850E3C041DC34383ACFD02ADBFF61360" Desc="黎明港" config="npc_qhm003_0111" x="-5450.754395" y="70.779785" z="5326.790527" IsY="1" Radius="0" amount="1" RefreshTime="1" fOrg="2.260008" IsPersistent="0"/>
+	<Object Guid="9D86267613C04E7BA11A2327E046AEEF" Desc="山色镇" config="npc_qhm003_0112" x="-5031.842773" y="160.486069" z="6748.083008" IsY="1" Radius="0" amount="1" RefreshTime="1" fOrg="-1.540009" IsPersistent="0"/>
+	<Object Guid="9914C256065B40A4AA0381388BEA703B" Desc="圣临者广场" config="npc_qhm003_0117" Layer="" MaxRefreshCount="" x="-5190.601074" y="100.512558" z="6144.426758" IsY="1" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="-0.125003" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="EAC290E5B8EA47739B771D2FDDB6488E" Desc="湖光镇界碑" config="npc_jiebei_0002" Layer="" MaxRefreshCount="" x="-4395.191406" y="73.133911" z="6198.339355" IsY="1" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="1.385013" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+</Stage>
+
+

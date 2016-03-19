@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Stage>
+	<Object Guid="21DA315A4CBC4C51A03CD85EA5F6FAA8" Desc="赛克" config="npc_zlm011_0127" x="5699.568359" y="71.009575" z="3683.240234" IsY="0" Radius="0" NeedRotate="1" amount="1" RefreshTime="30" fOrg="-0.670001" IsPersistent="0"/>
+	<Object Guid="A68C4B7FD4CD41AF8BAD973B8EE559C5" Desc="咖斯贝" config="npc_zlm011_0082" x="5145.73291" y="103.187408" z="3562.324463" IsY="0" Radius="0" NeedRotate="1" PatrolMode="1" amount="1" RefreshTime="30" fOrg="0.735" IsPersistent="0"/>
+	<Object Guid="393EEB6526B34449AA8E01772DC951C1" Desc="佩斯" config="npc_zlm011_0055" x="4679.546387" y="153.856445" z="3657.399658" IsY="0" Radius="0" NeedRotate="1" PatrolMode="1" amount="1" RefreshTime="30" fOrg="-2.508177" IsPersistent="0"/>
+	<Object Guid="4FD72EBEE64D4509AADA9B53C788280A" Desc="杂货商邓肯" config="npc_zlm011_0032" x="4585.478516" y="135.618515" z="2581.14209" IsY="0" Radius="0" NeedRotate="1" amount="1" RefreshTime="30" fOrg="-1.870006" IsPersistent="0"/>
+	<Object Guid="F66D32CE2DBE4599A8543605F9895B8E" Desc="卡扎_索尔" config="npc_zqm001_0029" x="5697.619629" y="81.521461" z="3652.177246" IsY="0" Radius="0" NeedRotate="1" amount="1" RefreshTime="30" fOrg="2.825003" IsPersistent="0"/>
+	<Object Guid="9ECD54E763B64A05836BDF8B68ABF564" Desc="卡扎_索尔" config="npc_zqm001_0029" x="4990.72998" y="81.316658" z="4015.911133" IsY="0" Radius="0" NeedRotate="1" amount="1" RefreshTime="30" fOrg="2.080001" IsPersistent="0"/>
+	<Object Guid="339747836ECF465BB63D8477E616021F" Desc="宝藏猎人" config="Event_zlm011_0006" x="4953.34668" y="143.184875" z="3180.565674" IsY="0" Radius="0.1" NeedRotate="1" amount="1" RefreshMode="2" RefreshPointSet="juren_0001" RefreshTime="3600" fOrg="0" IsPersistent="0"/>
+	<Object Guid="EE1D1F0B60BC41E0847F3E6DD8DAC887" Desc="Organ_fjd_0001" config="Organ_fjd_0001" x="4661.98291" y="133.147491" z="2598.068848" IsY="0" Radius="0" amount="1" RefreshTime="30" fOrg="1.450003" IsPersistent="0">
+		<Event EventId="3" Processor="jurenxiawanfengjingdian1"/>
+	</Object>
+	<Object Guid="626B5CECCE954E2E9EFDF0D957B77B77" Desc="Organ_fjd_0001" config="Organ_fjd_0001" x="4792.392578" y="149.184235" z="3803.923584" IsY="0" Radius="0" amount="1" RefreshTime="30" fOrg="-2.475002" IsPersistent="0">
+		<Event EventId="3" Processor="jurenxiawanfengjingdian3"/>
+	</Object>
+	<Object Guid="68526F20CA364DA2AEA8E075042A91F9" Desc="Organ_fjd_0001" config="Organ_fjd_0001" x="5794.586914" y="29.534401" z="3983.253662" IsY="0" Radius="0" amount="1" RefreshTime="30" fOrg="-1.559999" IsPersistent="0">
+		<Event EventId="3" Processor="jurenxiawanfengjingdian2"/>
+	</Object>
+	<Object Guid="9D45AFA39B544C2B8ACFA0FA4C194D92" Desc="猎杀商店" config="npc_zlm010_0161" x="4649.642578" y="134.561386" z="2555.676758" IsY="0" Radius="0" PatrolMode="0" PatrolRange="0" amount="1" RefreshTime="10" fOrg="2.630001" IsPersistent="0"/>
+	<Object Guid="C533C78968054A49A25264C9A6AF9631" Desc="猎杀商店" config="npc_zlm010_0161" x="5656.700684" y="82.133163" z="3628.008545" IsY="0" Radius="0" PatrolMode="0" amount="1" RefreshTime="10" fOrg="0" IsPersistent="0"/>
+	<Object Guid="86C22008EC4E4B5E88BA6F2C9BE11257" Desc="神秘商人" config="npc_zlm011_0135" x="4981.636719" y="147.654709" z="3098.641846" amount="1" RefreshPointSet="juren_0003" RefreshTime="21600" fOrg="0" IsPersistent="0"/>
+	<Object Guid="162A26D682BD4623B36607D0A08DEC17" Desc="艾琳·艾恩斯" config="npc_zlm008_0203" x="5192.638672" y="28.377842" z="4101.568848" PatrolMode="0" PatrolRange="8" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="87F3421442A14FDB9EF66FD8297BFD30" Desc="希尔" config="npc_zlm008_0204" x="5443.512695" y="98.489418" z="3556.812256" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="DD1C80BD275A4DE39EC2BF374C36CC35" Desc="卡拉福德守护者" config="npc_zlm008_0200" x="3535.293701" y="17.790077" z="4510.16748" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="9644DC8B1160411694CA5D46E6952459" Desc="卡拉福德守护者" config="npc_zlm008_0200" x="3523.469971" y="17.790077" z="4516.713379" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="A8631F4B8BAD4DF4BA88D19B10D48AD0" Desc="卡拉福德守护者" config="npc_zlm008_0200" x="3528.987793" y="17.790077" z="4508.757324" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="A124423EB797461ABD88B5D26F4B08F6" Desc="卡拉福德守护者" config="npc_zlm008_0200" x="3531.17041" y="17.790077" z="4517.764648" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="11C2A635B307441EBAB02E458E0E0322" Desc="卡拉福德执法者" config="npc_zlm008_0201" x="3524.165039" y="17.790077" z="4509.508301" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="884F8B92C27545E6B1EFA93EFF7B702F" Desc="卡拉福德执法者" config="npc_zlm008_0201" x="3536.549561" y="17.790077" z="4517.259277" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="7C89D6D7B9C44455966740CBC2665AF8" Desc="血色护卫官" config="monster_zlm011_0041" x="5273.947754" y="20.563967" z="4142.112305" amount="1" fOrg="0" IsPersistent="0" RefreshTime="5"/>
+	<Object Guid="913D94EC80F4417C889CE00CA89F5D46" Desc="血色联络使伊莱文" config="npc_zlm008_0205" x="5366.362793" y="18.248772" z="4122.362305" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="986E4794D3CA4425B7B9B75A9E09F0FF" Desc="血色看守" config="monster_zlm008_0005" x="4460.704102" y="152.310165" z="3411.771973" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="B3066113FFAC4A329AE8D9CA412FFABD" Desc="血色看守" config="monster_zlm008_0005" x="4455.383301" y="151.646515" z="3408.58252" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="5DC4420BAE2F42F989D9D800C3CA8646" Desc="萨耐斯金鳞弄潮者" config="monster_zlm011_0045" x="5599.282227" y="16.39406" z="4196.606445" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="E3DC8CC6BA724B2B9319E7D29B4BCDB0" Desc="萨耐斯金鳞弄潮者" config="monster_zlm011_0045" x="5582.825684" y="15.450931" z="4172.741211" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="6321C7364F9045889E7E530E85B9E560" Desc="萨耐斯金鳞弄潮者" config="monster_zlm011_0045" x="5580.280273" y="16.621895" z="4195.519531" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="04FE990ED1D24F6CAFAD031154A4E7B3" Desc="卡尔·萨多" config="npc_zlm008_0206" x="4560.067871" y="153.8396" z="3778.893799" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="6AE65BB315B94A699A8EE583B18BB4C5" Desc="莎娜·布莱曼" config="npc_zlm008_0208" x="4557.938477" y="153.33931" z="3780.612305" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="4E9A845DB469424391754651E44115E8" Desc="布伦·塔纳" config="npc_zlm008_0218" x="4923.898926" y="140.889542" z="3436.355469" amount="1" fOrg="-1.283185" IsPersistent="0"/>
+	<Object Guid="41EBCCFC546A454794E91E478741E4B8" Desc="npc_zlm008_0210" config="npc_zlm008_0210" x="4923.005371" y="140.740204" z="3437.663818" amount="1" fOrg="3" IsPersistent="0"/>
+	<Object Guid="16B66041EE594C09A8F963B912914342" Desc="摩拉·芬瑟里" config="npc_zlm008_0211" x="4955.898926" y="160.997208" z="2993.662842" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="B6E904BAAD6E4C7FBCC53F44F95F61E7" Desc="安妮·琼斯" config="npc_zlm008_0212" x="4786.268555" y="106.375778" z="2940.30957" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="9632F964287E4E01B1702263CF9431E5" Desc="米格" config="npc_zlm008_0213" x="4249.315918" y="125.87368" z="2676.358154" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="D1A1098E972E4C52A181AF829C895126" Desc="帕罗拉" config="npc_zlm011_0033" x="5832.729492" y="17.089001" z="4171.877441" amount="1" fOrg="2" IsPersistent="0"/>
+	<Object Guid="309FAA09245B43EB9FE9677070CF259F" Desc="npc_zqm012_00204" config="npc_zqm012_00204" Layer="" MaxRefreshCount="" x="4582.090332" y="137.166565" z="2532.602783" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="B95256F089124E778365A0DC322E860B" Desc="传送门" config="CloneDoor_tnjt_0003" Layer="" MaxRefreshCount="1" x="5693.614258" y="82.257004" z="3626.4375" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="1"/>
+</Stage>
+
+

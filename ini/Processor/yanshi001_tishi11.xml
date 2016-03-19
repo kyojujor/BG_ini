@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes" ?>
+<Processor>
+    <Base type="object" version="1.0">
+        <Line Type="1" Event="5005">
+            <Param type="2" data="0" Index="0" />
+            <Param type="2" data="2" Index="1" />
+            <Param type="6" data="talk_special_yanshi001_tishi11" Index="2" />
+            <Param type="6" data="6" Index="3" />
+            <Param type="6" data=" " Index="4" />
+            <Param type="6" data=" " Index="5" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-6453.592,76.703,5444.185,1.569" Index="0" />
+            <Param type="6" data="Cs_bc_001" Index="1" />
+            <Param type="6" data="Act" Index="2" />
+        </Line>
+    </Base>
+</Processor>

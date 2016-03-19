@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- EasyMode="tady\file,20,30,0,3,600,10,60,1,102_0,clone_115" 
+
+tady\file, NPC加载文件的路径  
+
+LevelMin=20 最小等级 
+
+LevelMax=30 最大等级 
+
+EnterLimited=0 进入类型 0时不限制，1：个人，2：组队，3：团队，4：个人和组队，5：个人和团队，6：组队和团队
+
+manlimit=25   团队副本限制人数 
+
+BossNum=3 boss数量 
+
+LimitedTime 限制时间 
+
+SceneOnce 进入次数 
+
+CloseTime 副本倒计时时间 
+
+special 是否特殊副本  0否，1是
+
+GradeID 评分包，调用 CloneSceneGrade.xml
+
+Intoduce=""介绍,调用中文包Clone.idres
+
+##########################################以上是难度包中的信息
+
+
+
+
+##########################################以下是副本的基本信息
+
+ ID=115 副本原型,必须是对应的场景ID
+
+ Name=desc_map_115 名字
+
+ ServerMaxNum=1000 最大创建数量 
+
+ SceneCamp允许阵营的玩家进入0不限制，1允许蒸汽，2允许奇幻
+
+ ScenePk是否限制红名玩家进入0允许，1不允许
+
+ SceneBattle是否允许战斗状态的玩家进入0不允许，1允许
+
+ LeaveTime被T玩家离队离开副本时间，单位秒
+
+ LeaveSceneQH	奇幻所在地及离开副本ID
+
+ LeaveNameQH	奇幻所在地(中文名称)	map_chaori
+
+ LeavePosQH	奇幻所在地及离开的副本坐标	1,1,1,1
+
+ LeaveSceneZQ	蒸汽所在地及离开副本ID	300
+
+ LeaveNameZQ	蒸汽所在地(中文名称)	map_ceshi
+
+ ResetType	重置类型；0:按天的间隔重置 1:按每星期几重置 2:按每月几号重置  3:指定日期（xxyy月日）	
+
+ ResetDayTime	重置时间值；副本类型中时间值（如果ResetType填0,ResetDayTime的值表示每隔几天重置，如果ResetType填1,ResetDayTime的值表示每周的星期几重置,  当ResetType=3时表示指定具体的哪一天重置，格式XX月XX日）	
+
+ ResetTimeInfo	重置时间格式，具体的时间格式，1600表示16点重置副本	1600
+
+ EasyModeRewardID 简单副本奖励编号，调用ClonseSceneReward.xml,格式：（xx,yy,zz,ww）xx表示SSS调用的包，yy表示SS调用的包，ZZ表示S、A调用的包，ww表示其他调用的包
+
+ HardModeRewardID 困难副本的奖励编号，调用ClonseSceneReward.xml,格式：（xx,yy,zz,ww）xx表示SSS调用的包，yy表示SS调用的包，ZZ表示S、A调用的包，ww表示其他调用的包
+
+ HeroModeRewardID 英雄副本的奖励编号，调用ClonseSceneReward.xml,格式：（xx,yy,zz,ww）xx表示SSS调用的包，yy表示SS调用的包，ZZ表示S、A调用的包，ww表示其他调用的包
+
+ HeroicModeRewardID 史诗副本的奖励编号，调用ClonseSceneReward.xml,格式：（xx,yy,zz,ww）xx表示SSS调用的包，yy表示SS调用的包，ZZ表示S、A调用的包，ww表示其他调用的包
+
+ Well   进入副本所需占领的能量井，该字段下填写能量井ID
+
+ EnergyWell   进入副本所需占领的能量柱，该字段下填写能量柱ID
+
+	CloneType  副本类型：
+			    类型1——活动副本：用于节假日副本
+			    类型3——普通副本：设定为普通的副本。
+			    类型4——剧情副本：设定为相应的触发器来开启和关闭副本
+			    类型5——冒险副本：分波次阶段的副本。
+ -->
+
+
+<Object>
+	<Property ID="0" Name="weeklimit" weeklimit="7" weektime="2,0000"/>
+	<!--<Property ID="100" Name="desc_map_100" ServerMaxNum="150" SceneCamp="0" EasyMode="fbm001\file,36,0,2,0,2,3600,2,300,0,100_0,Clone_100_Easy" HardMode="fbm001_1\file,40,0,2,0,2,3600,2,600,0,100_1,Clone_100_Hard" ResetType="0" ResetDayTime="1" ResetTimeInfo="0400" LeaveTime="180" LeaveSceneZQ="3" LeaveSceneQH="3" LeavePosZQ="-2835,145,1953,1.428" LeavePosQH="-2835,145,1953,1.428" SceneBattle="1" LeaveNameQH="desc_map_100" LeaveNameZQ="desc_map_100" EasyModeRewardID="100_Easy_SSS,100_Easy_SS,100_Easy_SA,100_Easy_BCDE" HardModeRewardID="100_Hard_SSS,100_Hard_SS,100_Hard_SA,100_Hard_BCDE"/>-->
+	<Property ID="101" Name="desc_map_101" ServerMaxNum="100" SceneCamp="0" EasyMode="fbm101\file,23,0,2,0,3,3600,2,300,0,101_0,Clone_101_Easy" HardMode="fbm101_1\file,38,0,2,0,3,14400,2,180,0,101_1,Clone_101_Hard" ResetType="0" ResetDayTime="1" ResetTimeInfo="0400" LeaveTime="60" LeaveSceneZQ="1" LeaveSceneQH="2" LeavePosZQ="-410.280,-16.708,-3314.894,3.054" LeavePosQH="4516.073,8.246,-1536.516,-1.409" CoinDisplay="1" SceneBattle="1" LeaveNameQH="desc_map_101_2" LeaveNameZQ="desc_map_101_1" EasyModeRewardID="101_Easy_SSS,101_Easy_SS,101_Easy_SA,101_Easy_BCDE" CloneType="5"/>
+	<Property ID="102" Name="desc_map_102" ServerMaxNum="100" SceneCamp="2" EasyMode="fbm002\file,15,0,2,0,2,7200,2,300,0,102_0,Clone_102_Easy" HardMode="fbm002_1\file,34,0,2,0,3,7200,2,600,0,102_1,Clone_102_Hard" ResetType="0" ResetDayTime="1" ResetTimeInfo="0400" LeaveTime="180" LeaveSceneZQ="2" LeaveSceneQH="2" LeavePosZQ="2980.311,31.281,388.493,-1.485" LeavePosQH="2980.311,31.281,388.493,-1.485" SceneBattle="1" LeaveNameQH="desc_map_102_1" LeaveNameZQ="desc_map_102_2" EasyModeRewardID="102_Easy_SSS,102_Easy_SS,102_Easy_SA,102_Easy_BCDE" HardModeRewardID="102_Hard_SSS,102_Hard_SS,102_Hard_SA,102_Hard_BCDE"/>
+	<Property ID="103" Name="desc_map_103" ServerMaxNum="100" SceneCamp="1" EasyMode="fbm003\file,15,0,2,0,2,7200,2,600,0,103_0,Clone_103_Easy" HardMode="fbm003_1\file,34,0,2,0,3,7200,2,600,0,103_0,Clone_103_Easy" ResetType="0" ResetDayTime="1" ResetTimeInfo="0400" LeaveTime="60" LeaveSceneZQ="1" LeaveSceneQH="1" LeavePosZQ="-51.268,-1.096,-85.037,1.029" LeavePosQH="-51.268,-1.096,-85.037,1.029" SceneBattle="1" LeaveNameQH="desc_map_103_1" LeaveNameZQ="desc_map_103_2" EasyModeRewardID="103_Easy_SSS,103_Easy_SS,103_Easy_SA,103_Easy_BCDE" HardModeRewardID="103_Hard_SSS,103_Hard_SS,103_Hard_SA,103_Hard_BCDE"/>
+	<!--<Property ID="104" Name="desc_map_104" ServerMaxNum="150" SceneCamp="0" EasyMode="fbm004\file,36,0,2,0,3,3600,2,300,0,104_0,Clone_104_Easy" HardMode="fbm004_1\file,40,0,2,0,3,3600,2,600,0,104_1,Clone_104_Easy" ResetType="0" ResetDayTime="1" ResetTimeInfo="0400" LeaveTime="180" LeaveSceneZQ="3" LeaveSceneQH="3" LeavePosZQ="-2978,196,1903,1.455" LeavePosQH="-2978,196,1903,1.455" SceneBattle="1" LeaveNameQH="desc_map_104" LeaveNameZQ="desc_map_104" EasyModeRewardID="104_Easy_SSS,104_Easy_SS,104_Easy_SA,104_Easy_BCDE" HardModeRewardID="104_Hard_SSS,104_Hard_SS,104_Hard_SA,104_Hard_BCDE"/>-->
+	<Property ID="105" Name="desc_map_105" ServerMaxNum="100" SceneCamp="0" EasyMode="fbm005\file,34,0,2,0,3,0,2,300,0,105_0,Clone_105_Easy" HardMode="fbm005_1\file,40,0,3,10,5,14400,2,180,0,105_1,Clone_105_Hard" ResetType="0" ResetDayTime="1" ResetTimeInfo="0400" LeaveTime="60" LeaveSceneZQ="5" LeaveSceneQH="2" LeavePosZQ="2949.718,120.718,2845.653,0.093" LeavePosQH="4498.967,68.619,-245.547,-0.318" SceneBattle="1" LeaveNameQH="desc_map_105_1" LeaveNameZQ="desc_map_105_2" EasyModeRewardID="105_Hard_SSS,105_Hard_SS,105_Hard_SA,105_Hard_BCDE" HardModeRewardID="105_Hard_SSS,105_Hard_SS,105_Hard_SA,105_Hard_BCDE"/>
+	<Property ID="107" Name="desc_map_107" ServerMaxNum="100" SceneCamp="0" EasyMode="fbm107\file,30,0,3,10,2,14400,1,300,0,107_0,Clone_107_Easy" ResetType="0" ResetDayTime="1" ResetTimeInfo="1800" LeaveTime="60" LeaveSceneZQ="1" LeaveSceneQH="2" LeavePosZQ="-1341.448,61.359,-29.909,3.038" LeavePosQH="2756.081,131.587,1206.200,-2.182" SceneBattle="1" LeaveNameQH="desc_map_107_1" LeaveNameZQ="desc_map_107_2" EasyModeRewardID="107_Easy_SSS,107_Easy_SS,107_Easy_SA,107_Easy_BCDE" HardModeRewardID="107_Hard_SSS,107_Hard_SS,107_Hard_SA,107_Hard_BCDE"/>
+	<!--<Property ID="112" Name="desc_map_101" ServerMaxNum="150" SceneCamp="0" EasyMode="fbm112\file,23,0,2,0,3,3600,2,300,0,112_0,Clone_101_Easy" HardMode="fbm112_1\file,40,0,2,0,3,3600,2,600,0,112_0,Clone_101_Hard" ResetType="0" ResetDayTime="1" ResetTimeInfo="0400" LeaveTime="180" LeaveSceneZQ="1" LeaveSceneQH="2" LeavePosZQ="-410.280,-16.708,-3314.894,3.054" LeavePosQH="4516.073,8.246,-1536.516,-1.409" CoinDisplay="1" SceneBattle="1" LeaveNameQH="desc_map_101" LeaveNameZQ="desc_map_101" EasyModeRewardID="112_Easy_SSS,112_Easy_SS,112_Easy_SA,112_Easy_BCDE" HardModeRewardID="112_Easy_SSS,112_Easy_SS,112_Easy_SA,112_Easy_BCDE"/>-->
+	<Property ID="114" Name="desc_map_114" ServerMaxNum="100" SceneCamp="0" EasyMode="fbm114\file,30,0,2,0,4,14400,2,300,0,114_0,Clone_114_Easy" ResetType="0" ResetDayTime="1" ResetTimeInfo="0400" LeaveTime="180" LeaveSceneZQ="7" LeaveSceneQH="3" LeavePosZQ="-3870.356,127.779,1113.556,2.850" LeavePosQH="-2981.355,196.8,1899.565,0.531" SceneBattle="1" LeaveNameQH="desc_map_114_1" LeaveNameZQ="desc_map_114_2" EasyModeRewardID="114_Easy_SSS,114_Easy_SS,114_Easy_SA,114_Easy_BCDE"/>
+	<Property ID="115" Name="desc_map_115" ServerMaxNum="100" SceneCamp="0" EasyMode="tady\file,38,0,2,0,3,3600,2,300,0,115_0,Clone_115_Easy" HardMode="tady_1\file,40,0,2,0,3,3600,2,180,0,115_1,Clone_115_Hard" ResetType="0" ResetDayTime="1" ResetTimeInfo="0400" LeaveTime="180" LeaveSceneZQ="6" LeaveSceneQH="6" LeavePosZQ="-1424,246,2802,0" LeavePosQH="-1424,246,2802,0" SceneBattle="1" LeaveNameQH="desc_map_115_1" LeaveNameZQ="desc_map_115_1" EasyModeRewardID="115_Easy_SSS,115_Easy_SS,115_Easy_SA,115_Easy_BCDE" HardModeRewardID="115_Hard_SSS,115_Hard_SS,115_Hard_SA,115_Hard_BCDE"/>
+	<Property ID="118" Name="desc_map_118" ServerMaxNum="100" SceneCamp="0" EasyMode="fbm118\file,40,0,3,15,7,604800,1,300,0,104_0,Clone_118_Easy" ResetType="1" ResetDayTime="6" ResetTimeInfo="0400" LeaveTime="180" LeaveSceneZQ="6" LeaveSceneQH="6" LeavePosZQ="421,85,2938,1.574" LeavePosQH="421,85,2938,1.574" SceneBattle="1" LeaveNameQH="desc_map_118_1" LeaveNameZQ="desc_map_118_1" EasyModeRewardID="118_Easy_SSS,118_Easy_SS,118_Easy_SA,118_Easy_BCDE" HardModeRewardID=""/>
+	<Property ID="120" Name="desc_map_120" ServerMaxNum="100" SceneCamp="0" EasyMode="fbm020\file,27,0,2,0,3,14400,2,60,0,120_0,Clone_120_Easy" ResetType="0" ResetDayTime="1" ResetTimeInfo="0400" LeaveTime="300" LeaveSceneZQ="7" LeaveSceneQH="3" LeavePosZQ="-3242,100,935,2.693" LeavePosQH="-4015,59,4621,0.394" SceneBattle="1" LeaveNameQH="desc_map_120_3" LeaveNameZQ="desc_map_120_2" EasyModeRewardID="120_Easy_SSS,120_Easy_SS,120_Easy_SA,120_Easy_BCDE"/>
+	<Property ID="122" Name="desc_map_122" ServerMaxNum="100" SceneCamp="0" HardMode="fbm122\file,40,0,3,10,7,14400,2,600,0,122_0,Clone_122_Hard" ResetType="0" ResetDayTime="1" ResetTimeInfo="0400" LeaveTime="180" LeaveSceneZQ="7" LeaveSceneQH="3" LeavePosZQ="-3870.356,127.779,1113.556,2.850" LeavePosQH="-2981.355,196.8,1899.565,0.531" SceneBattle="1" LeaveNameQH="desc_map_122_1" LeaveNameZQ="desc_map_122_2" HardModeRewardID="122_Hard_SSS,122_Hard_SS,122_Hard_SA,122_Hard_BCDE"/>
+</Object>

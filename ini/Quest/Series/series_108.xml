@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<Object>
+	<Property ID="201" GirdX="1" GirdY="2" ChildTask="221" IsHide="1"/>
+	<Property ID="221" GirdX="2" GirdY="2" FatherTask="201" ChildTask="255" IsHide="1"/>
+	<Property ID="255" GirdX="3" GirdY="2" FatherTask="221" ChildTask="253" IsHide="1"/>
+	<Property ID="253" GirdX="4" GirdY="2" FatherTask="255" ChildTask="202" IsHide="1"/>
+	<Property ID="202" GirdX="5" GirdY="2" FatherTask="253" ChildTask="262" IsHide="1"/>
+	<Property ID="262" GirdX="6" GirdY="2" FatherTask="202" ChildTask="263" IsHide="1"/>
+	<Property ID="263" GirdX="7" GirdY="2" FatherTask="262" ChildTask="222" IsHide="1"/>
+	<Property ID="222" GirdX="8" GirdY="2" FatherTask="263" ChildTask="226" IsHide="1"/>
+	<Property ID="226" GirdX="9" GirdY="2" FatherTask="222" ChildTask="254" IsHide="1"/>
+	<Property ID="254" GirdX="10" GirdY="2" FatherTask="226" ChildTask="10372" IsHide="1"/>
+	<Property ID="10372" GirdX="11" GirdY="2" FatherTask="254" ChildTask="264" IsHide="1"/>
+	<Property ID="264" GirdX="12" GirdY="2" FatherTask="10372" ChildTask="308" IsHide="1"/>
+	<Property ID="308" GirdX="13" GirdY="2" FatherTask="264" ChildTask="203" IsHide="1"/>
+	<Property ID="203" GirdX="14" GirdY="2" FatherTask="308" ChildTask="223" IsHide="1"/>
+	<Property ID="223" GirdX="15" GirdY="2" FatherTask="203" ChildTask="224" IsHide="1"/>
+	<Property ID="224" GirdX="16" GirdY="2" FatherTask="223" ChildTask="225" IsHide="1"/>
+	<Property ID="225" GirdX="17" GirdY="2" FatherTask="224" ChildTask="204" IsHide="1"/>
+	<Property ID="204" GirdX="18" GirdY="2" FatherTask="225" ChildTask="205" IsHide="1"/>
+	<Property ID="205" GirdX="19" GirdY="2" FatherTask="204" ChildTask="228" IsHide="1"/>
+	<Property ID="228" GirdX="20" GirdY="2" FatherTask="205" ChildTask="227" IsHide="1"/>
+	<Property ID="227" GirdX="21" GirdY="2" FatherTask="228" ChildTask="" IsHide="1" LastTask="1"/>
+</Object>

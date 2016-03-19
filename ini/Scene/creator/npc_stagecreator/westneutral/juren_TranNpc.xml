@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Stage>
+	<Object Guid="C316C32EAD324D4586CF383D5C327A4D" Desc="文森_帕克" config="npc_zlm011_0077" x="5640.734863" y="84.434471" z="3654.554932" IsY="0" Radius="0" NeedRotate="1" PatrolMode="0" amount="1" RefreshTime="30" fOrg="0.29" IsPersistent="0"/>
+	<Object Guid="15B96F58A2F34565B06C5F1EA8E0E20A" Desc="克里夫_乔斯" config="npc_zlm011_0079" x="4969.846191" y="81.24736" z="4026.359619" IsY="0" Radius="0" NeedRotate="1" PatrolMode="1" amount="1" RefreshTime="30" fOrg="2.733184" IsPersistent="0">
+		<Event EventId="23" Processor="juren_qioasi"/>
+	</Object>
+	<Object Guid="BAB1220CB0C7434891017CE7AB407342" Desc="巴赫·豪夫斯基" config="npc_zqm012_00207" x="4578.532715" y="136.974045" z="2534.300537" amount="1" fOrg="0" IsPersistent="0"/>
+</Stage>
+
+

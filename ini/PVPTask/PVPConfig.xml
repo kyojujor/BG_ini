@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 被2011 rel. 2 sp1 (TeaM DJiNN) 使用XMLSpy vTeaM DJiNN编辑的 (http://www.altova.com) by -->
+<!-- max_angry_val 最大的愤怒值  
+	 Ratio         根据实力值增加任务完成奖励 a1 <= x && x < a2 则 value = a3
+	 Degree		   用于提高玩家可以参加活动上限
+	 RefreshTime   刷新时间每天的几点
+	 RandGroupRefreshTime   分组类型活动刷新时间
+	 NpcHPNotice  奇袭npc血量低于多少时有提示信息血量，tips,血量,tips
+	 HorseRaceTimeParts 赛马活动时间段定义，准备时间，进行比赛时间，预留时间
+	 TowerDefenceWar 主表活动号与开战开战号对应表
+	 TowerWarTimeParts 塔防副本准备时间，可投降时间，副本结束时间，强制离开副本时间s
+	 TowerOffTime 玩家离线等待时间
+-->
+<Object>
+	<Property ID="1" max_angry_val = "500" Ratio = "0.6,1.1;0.7,1.2;0.8,1.3;0.9,1.4;1.0,1.5" Degree = "20,50,100,200,500" RefreshTime="6:00" SGHPFactor="5" RandGroupRefreshTime="6:00" NpcHPNotice="0.7,pvp_task_npc_bedamage,0.8,pvp_task_npc_bedamage" HorseRaceTimeParts="5,20,5" TowerDefenceWar="Task600,1;Task601,1" TowerWarTimeParts="60,30,60,30" TowerOffTime="30"/>
+</Object>

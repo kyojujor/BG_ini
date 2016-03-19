@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes" ?>
+<Processor>
+    <Base type="object" version="1.0">
+        <Line Type="2" Event="4501" Name="AUTOP2">
+            <Param type="2" data="4" Index="0" />
+            <Param type="2" data="0" Index="1" />
+            <Param type="2" data="210" Index="2" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP1">
+            <Param type="13" srctype="4" data="AUTOP2" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="15019" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="7">
+            <Param type="13" bool="true" srctype="1" data="AUTOP1" Index="0" />
+        </Line>
+        <Line Type="2" Event="2115" Name="AUTOP3" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP3" Index="0" />
+            <Param type="6" data="EventStatus_15019" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2115" Name="AUTOP4" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP4" Index="0" />
+            <Param type="6" data="EventTime_15019" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2115" Name="AUTOP5" />
+        <Line Type="1" Event="5059">
+            <Param type="13" srctype="8" data="AUTOP5" Index="0" />
+            <Param type="2" data="300" Index="1" />
+        </Line>
+        <Line Type="7" IncludeLines="0" />
+        <Line Type="2" Event="4501" Name="AUTOP7">
+            <Param type="2" data="4" Index="0" />
+            <Param type="2" data="0" Index="1" />
+            <Param type="2" data="210" Index="2" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP6">
+            <Param type="13" srctype="4" data="AUTOP7" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="15016" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="50">
+            <Param type="13" bool="true" srctype="1" data="AUTOP6" Index="0" />
+        </Line>
+        <Line Type="2" Event="2115" Name="AUTOP8" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP8" Index="0" />
+            <Param type="6" data="Eventjisha_10001" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2115" Name="AUTOP9" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP9" Index="0" />
+            <Param type="6" data="Eventstart_10001" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2115" Name="AUTOP10" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP10" Index="0" />
+            <Param type="6" data="Eventdachen_10001" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2115" Name="AUTOP11" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP11" Index="0" />
+            <Param type="6" data="Eventtime_10001" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2115" Name="AUTOP12" />
+        <Line Type="1" Event="5059">
+            <Param type="13" srctype="8" data="AUTOP12" Index="0" />
+            <Param type="2" data="300" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-5096.742,119.130,5948.079,2.576" Index="0" />
+            <Param type="6" data="convoy_qhm003_0005" Index="1" />
+            <Param type="6" data="TempUnit01" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-5095.992,119.236,5949.192,2.576" Index="0" />
+            <Param type="6" data="convoy_qhm003_0005" Index="1" />
+            <Param type="6" data="TempUnit03" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-5096.083,119.474,5952.019,2.606" Index="0" />
+            <Param type="6" data="convoy_qhm003_0005" Index="1" />
+            <Param type="6" data="TempUnit04" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-5097.918,119.474,5950.924,2.606" Index="0" />
+            <Param type="6" data="convoy_qhm003_0005" Index="1" />
+            <Param type="6" data="TempUnit05" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-5099.644,119.474,5949.899,2.606" Index="0" />
+            <Param type="6" data="convoy_qhm003_0005" Index="1" />
+            <Param type="6" data="TempUnit06" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-5102.045,119.474,5948.473,2.606" Index="0" />
+            <Param type="6" data="convoy_qhm003_0005" Index="1" />
+            <Param type="6" data="TempUnit07" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-5104.350,119.474,5949.855,2.672" Index="0" />
+            <Param type="6" data="convoy_qhm003_0005" Index="1" />
+            <Param type="6" data="TempUnit08" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-5099.986,119.474,5952.782,2.782" Index="0" />
+            <Param type="6" data="convoy_qhm003_0005" Index="1" />
+            <Param type="6" data="TempUnit09" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-5096.441,119.474,5954.728,2.770" Index="0" />
+            <Param type="6" data="convoy_qhm003_0005" Index="1" />
+            <Param type="6" data="TempUnit" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-5095.441,119.474,5954.728,2.770" Index="0" />
+            <Param type="6" data="convoy_qhm003_0005" Index="1" />
+            <Param type="6" data="TempUnit02" Index="2" />
+        </Line>
+        <Line Type="2" Event="2115" Name="AUTOP14" />
+        <Line Type="2" Event="3002" Name="AUTOP13">
+            <Param type="13" srctype="8" data="AUTOP14" Index="0" />
+            <Param type="6" data="TempUnit01" Index="1" />
+        </Line>
+        <Line Type="1" Event="4205">
+            <Param type="13" srctype="8" data="AUTOP13" Index="0" />
+            <Param type="6" data="chengyiyb001" Index="1" />
+        </Line>
+        <Line Type="2" Event="2115" Name="AUTOP16" />
+        <Line Type="2" Event="3002" Name="AUTOP15">
+            <Param type="13" srctype="8" data="AUTOP16" Index="0" />
+            <Param type="6" data="TempUnit03" Index="1" />
+        </Line>
+        <Line Type="1" Event="4205">
+            <Param type="13" srctype="8" data="AUTOP15" Index="0" />
+            <Param type="6" data="chengyiyb001" Index="1" />
+        </Line>
+        <Line Type="2" Event="2115" Name="AUTOP18" />
+        <Line Type="2" Event="3002" Name="AUTOP17">
+            <Param type="13" srctype="8" data="AUTOP18" Index="0" />
+            <Param type="6" data="TempUnit04" Index="1" />
+        </Line>
+        <Line Type="1" Event="4205">
+            <Param type="13" srctype="8" data="AUTOP17" Index="0" />
+            <Param type="6" data="chengyiyb001" Index="1" />
+        </Line>
+        <Line Type="2" Event="2115" Name="AUTOP20" />
+        <Line Type="2" Event="3002" Name="AUTOP19">
+            <Param type="13" srctype="8" data="AUTOP20" Index="0" />
+            <Param type="6" data="TempUnit05" Index="1" />
+        </Line>
+        <Line Type="1" Event="4205">
+            <Param type="13" srctype="8" data="AUTOP19" Index="0" />
+            <Param type="6" data="chengyiyb001" Index="1" />
+        </Line>
+        <Line Type="2" Event="2115" Name="AUTOP22" />
+        <Line Type="2" Event="3002" Name="AUTOP21">
+            <Param type="13" srctype="8" data="AUTOP22" Index="0" />
+            <Param type="6" data="TempUnit06" Index="1" />
+        </Line>
+        <Line Type="1" Event="4205">
+            <Param type="13" srctype="8" data="AUTOP21" Index="0" />
+            <Param type="6" data="chengyiyb001" Index="1" />
+        </Line>
+        <Line Type="2" Event="2115" Name="AUTOP24" />
+        <Line Type="2" Event="3002" Name="AUTOP23">
+            <Param type="13" srctype="8" data="AUTOP24" Index="0" />
+            <Param type="6" data="TempUnit07" Index="1" />
+        </Line>
+        <Line Type="1" Event="4205">
+            <Param type="13" srctype="8" data="AUTOP23" Index="0" />
+            <Param type="6" data="chengyiyb001" Index="1" />
+        </Line>
+        <Line Type="2" Event="2115" Name="AUTOP26" />
+        <Line Type="2" Event="3002" Name="AUTOP25">
+            <Param type="13" srctype="8" data="AUTOP26" Index="0" />
+            <Param type="6" data="TempUnit08" Index="1" />
+        </Line>
+        <Line Type="1" Event="4205">
+            <Param type="13" srctype="8" data="AUTOP25" Index="0" />
+            <Param type="6" data="chengyiyb001" Index="1" />
+        </Line>
+        <Line Type="2" Event="2115" Name="AUTOP28" />
+        <Line Type="2" Event="3002" Name="AUTOP27">
+            <Param type="13" srctype="8" data="AUTOP28" Index="0" />
+            <Param type="6" data="TempUnit09" Index="1" />
+        </Line>
+        <Line Type="1" Event="4205">
+            <Param type="13" srctype="8" data="AUTOP27" Index="0" />
+            <Param type="6" data="chengyiyb001" Index="1" />
+        </Line>
+        <Line Type="2" Event="2115" Name="AUTOP30" />
+        <Line Type="2" Event="3002" Name="AUTOP29">
+            <Param type="13" srctype="8" data="AUTOP30" Index="0" />
+            <Param type="6" data="TempUnit" Index="1" />
+        </Line>
+        <Line Type="1" Event="4205">
+            <Param type="13" srctype="8" data="AUTOP29" Index="0" />
+            <Param type="6" data="chengyiyb001" Index="1" />
+        </Line>
+        <Line Type="2" Event="2115" Name="AUTOP32" />
+        <Line Type="2" Event="3002" Name="AUTOP31">
+            <Param type="13" srctype="8" data="AUTOP32" Index="0" />
+            <Param type="6" data="TempUnit02" Index="1" />
+        </Line>
+        <Line Type="1" Event="4205">
+            <Param type="13" srctype="8" data="AUTOP31" Index="0" />
+            <Param type="6" data="chengyiyb001" Index="1" />
+        </Line>
+        <Line Type="7" IncludeLines="0" />
+    </Base>
+</Processor>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object ClassifyId="Kind">
+	<Property Id="ID" Name="编号" Type="string" Kind="BasalProperty" EditType="" DefinedKey="" Desc="QTE事件编号，该编号可在QTE系统中调用"/>
+	<Property Id="KeyMode" Name="按键模式" Type="int" Kind="BasalProperty" EditType="" DefinedKey="" DefaultValue="0" Desc="0:为引导模式 1:多键值判定模式,默认为0"/>
+	<Property Id="Name" Name="名称" Type="string" Kind="BasalProperty" EditType="" DefinedKey="QteKey"/>
+	<Property Id="Kind" Name="类型" Type="string" Kind="BasalProperty" EditType="" DefinedKey="" Desc="QTE事件类型"/>
+	<Property Id="ValueExmple" Name="查看键值" Type="int" Kind="BasalProperty" EditType="DropDown" DefinedKey="KeyValue" Desc="键名|键值,用于查看键值数据,不会被程序读取"/>
+	<Property Id="Value" Name="键值" Type="string" Kind="BasalProperty" EditType="" DefinedKey="" Desc="需要按下的键值"/>
+	<Property Id="Count" Name="按键数量" Type="int" Kind="BasalProperty" EditType="" DefinedKey="" DefaultValue="1" Desc="需要按键的次数"/>
+	<Property Id="Time" Name="等待时间" Type="int" Kind="BasalProperty" EditType="" DefinedKey="" DefaultValue="2000" Desc="等待回应的超时时间"/>
+	<Property Id="KeepPush" Name="按住时长" Type="int" Kind="BasalProperty" EditType="" DefinedKey="" DefaultValue="0" Desc="按住键不放持续的时间"/>
+	<Property Id="Delay" Name="延时执行时间" Type="int" Kind="BasalProperty" EditType="" DefinedKey="" DefaultValue="0" Desc="此事件被激活后延时执行的时间"/>
+	<Property Id="IsNotify" Name="是否提示文字" Type="Boolean" Kind="BasalProperty" EditType="BooleanType" DefinedKey="IsNotify" DefaultValue="1" Desc="客户是否提示玩家按键信息， 如果设为1会显示提示信息，但不能控制是否进行动画提示，只要设置了动画名称就会提示"/>
+	<Property Id="IskeyAnimNotify" Name="是否显示按键移除动画" Type="Boolean" Kind="BasalProperty" EditType="BooleanType" DefinedKey="IsNotify" DefaultValue="1" Desc="客户是否显示按键移除动画控件,如果没有设置IskeyAnimNotify属性,默认为显示设为1"/>
+	<Property Id="Isdecide" Name="是否执行前置动画特效显示判定" Type="Boolean" Kind="BasalProperty" EditType="BooleanType" DefinedKey="IsNotify" DefaultValue="1" Desc="是否执行前置动画特效显示判定,默认为显示设为1"/>
+	<Property Id="SoundEffect" Name="前置音效名称" Type="string" Kind="BasalProperty" EditType="" DefinedKey="" Desc="前置音效，调用音效文件名。在激活此按键时播放。不填或文件名不正确表示不需要前置音效"/>
+	<Property Id="ImageTrack" Name="动画轨迹文件名" Type="string" Kind="BasalProperty" EditType="" DefinedKey="" Desc="动画轨迹，调用动画编辑器文件名。不填或文件名不正确表示不需要动画轨迹。"/>
+	<Property Id="PreposedImage" Name="前置动画名称" Type="string" Kind="BasalProperty" EditType="" DefinedKey="" Desc="提示的动画名称，如果设置了，提示的时候会显示此图像，动画需要到\res\skin\ImageAnimations.xml中设置"/>
+	<Property Id="NotifyImage" Name="提示动画名称" Type="string" Kind="BasalProperty" EditType="" DefinedKey="" Desc="提示的动画名称，如果设置了，提示的时候会显示此图像，动画需要到\res\skin\ImageAnimations.xml中设置"/>
+	<Property Id="AlignType" Name="对齐方式" Type="int" Kind="BasalProperty" EditType="DropDown" DefinedKey="RectAlignType" DefaultValue="0" Desc="相对屏幕位置的对齐方式"/>
+	<Property Id="AlignOffsetX" Name="位置X偏移量" Type="int" Kind="BasalProperty" EditType="" DefinedKey="" DefaultValue="0" Desc="与相对屏幕位置对齐点的偏移量"/>
+	<Property Id="AlignOffsetY" Name="位置Y偏移量" Type="int" Kind="BasalProperty" EditType="" DefinedKey="" DefaultValue="0" Desc="与相对屏幕位置对齐点的偏移量"/>
+	<Property Id="AlignOffsetXY" Name="多键值模式相对偏移量" Type="string" Kind="BasalProperty" EditType="" DefinedKey="" Desc="[1]按键模式下多个键值相对于首键值的偏移量"/>
+	<Property Id="SucceedEvent" Name="成功执行的行为" Type="string" Kind="BasalProperty" EditType="Processor" DefinedKey="" Desc="本次按键成功后执行听行为"/>
+	<Property Id="FailedEvent" Name="失败执行的行为" Type="string" Kind="BasalProperty" EditType="Processor" DefinedKey="" Desc="本次按键失败后执行听行为"/>
+	<Property Id="EventEffect" Name="成功或失败执行的特效" Type="string" Kind="BasalProperty" EditType="" DefinedKey="" Desc="本次按键成功或失败后玩家身上执行的特效"/>
+	<Property Id="Condition" Name="继续执行的条件" Type="string" Kind="BasalProperty" EditType="" DefinedKey="" Desc="判断是否继续执行下一个事件，默认的判断为按键成功，此处可以另行指定"/>
+	<Property Id="QTEKey" Name="下一个按键" Type="string" Kind="BasalProperty" EditType="PartSelect" DefinedKey="ID" Desc="衍接的按键事件"/>
+</Object>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 被2011 rel. 2 sp1 (TeaM DJiNN) 使用XMLSpy vTeaM DJiNN编辑的 (http://www.altova.com) by -->
+<!--
+"类型名称, 普通最大携带量, vip最大携带量, 每日最大可获得量(0表示不限制，金币除外，见下条规则), 每日最大可消耗量(0表示不限制), 抵用汇率(1黑金可抵用该货币的数量), 是否可交易, 图标"
+金币每日最大可获得量须和 capital_gold_limit.xml 中 L0 保持一致
+抵用汇率不可小于0 不可抵用填0
+C0:黑金 C1:金币 C2:点券 C3:代金券 C4:猎杀点数 C5:斩首荣誉勋章 C6:英勇点数 C7:公会贡献点 C8:能量井贡献点
+BGRate   1点券兑换的黑金数量
+GoldRate 1黑金兑换金币数量(铜)
+SysTaxDirect 直接交易税率 (10 表示 10%)
+SysTaxPost 邮件交易税率 (10 表示 10%)
+除了金币以外，其他类型货币配置数额不能超过 21亿
+-->
+<Object>
+	<Property ID="CapitalType" TypeCount="9" C0="CapitalType0,999999999,999999999,0,100000,0,1,icon" C1="CapitalType1,100000000,100000000,10000000,0,50000,0,icon" C2="CapitalType2,999999,999999,0,0,0,0,icon" C3="CapitalType3,1000000000,1000000000,10000000,0,10,0,icon" C4="CapitalType4,5000,5000,1000,0,10,0,icon" C5="CapitalType5,2000,2000,200,0,10,0,icon" C6="CapitalType6,2000,2000,400,0,10,0,icon" C7="CapitalType7,1000000,1000000,1000000,0,10,0,icon" C8="CapitalType8,5000,5000,500,0,10,0,icon" BGRate="10" GoldRate="10000" SysTaxDirect="10" SysTaxPost="10"/>
+</Object>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+	<Property ID="2" Name="buffer_testfire" EventType="1" TargetType="0" FuncNo="4" MoveTargetPosType="0" MoveCreatePosType="1" MoveRandomRadius="1" MoveType="0"/>
+	<Property ID="20118" Name="还原变身" EventType="2" TargetType="2" FuncNo="20"/>
+	<Property ID="20120" Name="刚毅熊魂" EventType="1" TargetType="2" FuncNo="20" ChangeModelPath="npc\Role_bear"/>
+	<Property ID="20468" Name="先祖牛魂" EventType="1" TargetType="2" FuncNo="20" ChangeModelPath="npc\Role_cow"/>
+	<Property ID="20116" Name="野性狼魂" EventType="1" TargetType="2" FuncNo="20" ChangeModelPath="npc\Role_wolf"/>
+	<Property ID="20117" Name="泰坦召唤" EventType="1" TargetType="2" FuncNo="20" ChangeModelPath="npc\Role_titan"/>
+	<Property ID="20469" Name="风暴召唤" EventType="1" TargetType="2" FuncNo="30"/>
+	<Property ID="20119" Name="破碎召唤" EventType="1" TargetType="2" FuncNo="20" ChangeModelPath="npc\Role_cru"/>
+	<Property ID="10036" Name="测试变羊" EventType="1" TargetType="2" FuncNo="20" ChangeModelPath="npc\Pet_Mac_0001"/>
+	<Property ID="10063" Name="测试Buff_Effect" EventType="5" TargetType="0" FuncNo="2" NPCConfigID="monster_qhm002_0023" NPCCreateCount="1" NPCLifeTime="500000" NPCTargetPosType="0" NPCCreatePosType="1" NPCRandomRadius="5"/>
+	<Property ID="10064" Name="测试Buff_Effect" EventType="6" TargetType="0" FuncNo="2" NPCConfigID="monster_qhm002_0023" NPCCreateCount="1" NPCLifeTime="500000" NPCTargetPosType="0" NPCCreatePosType="1" NPCRandomRadius="5"/>
+	<Property ID="10065" Name="测试Buff_Effect" EventType="7" TargetType="0" FuncNo="2" NPCConfigID="monster_qhm002_0023" NPCCreateCount="1" NPCLifeTime="500000" NPCTargetPosType="0" NPCCreatePosType="1" NPCRandomRadius="5"/>
+	<Property ID="10067" Name="测试Buff_Effect" EventType="8" TargetType="0" FuncNo="18" BuffID="test269_Buff01_01"/>
+	<Property ID="10068" Name="测试Buff_Effect" EventType="10" TargetType="3" FuncNo="803" PRebound="50" ReboundDamageType="1"/>
+	<Property ID="10069" Name="测试Buff_Effect" EventType="12" TargetType="0" FuncNo="2" NPCConfigID="monster_qhm002_0023" NPCCreateCount="1" NPCLifeTime="500000" NPCTargetPosType="0" NPCCreatePosType="1" NPCRandomRadius="5"/>
+	<Property ID="10070" Name="测试Buff_Effect" EventType="14" TargetType="0" FuncNo="2" NPCConfigID="monster_qhm002_0023" NPCCreateCount="1" NPCLifeTime="500000" NPCTargetPosType="0" NPCCreatePosType="1" NPCRandomRadius="5"/>
+	<Property ID="10071" Name="测试Buff_Effect" EventType="15" TargetType="0" FuncNo="2" NPCConfigID="monster_qhm002_0023" NPCCreateCount="1" NPCLifeTime="500000" NPCTargetPosType="0" NPCCreatePosType="1" NPCRandomRadius="5"/>
+	<Property ID="10072" Name="测试Buff_Effect" EventType="16" TargetType="0" FuncNo="2" NPCConfigID="monster_qhm002_0023" NPCCreateCount="1" NPCLifeTime="500000" NPCTargetPosType="0" NPCCreatePosType="1" NPCRandomRadius="5"/>
+	<Property ID="60071" Name="极限闪避"/>
+	<Property ID="60072" Name="裂宇之玄"/>
+	<Property ID="60077" Name="电弧" IsDamageFormula="1"/>
+	<Property ID="60090" Name="横冲直撞" EventType="1" TargetType="2" FuncNo="9"/>
+	<Property ID="60098" Name="高级命中减震装置"/>
+	<Property ID="60099" Name="高级精准减震装置"/>
+	<Property ID="60100" Name="初级行动协调机"/>
+	<Property ID="20523" Name="程序测试用" EventType="2" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="DVActive"/>
+	<Property ID="20526" Name="“猎火战狼”变身技能" EventType="1" TargetType="0" FuncNo="20" ChangeModelPath="npc\Pet_Mac_0004"/>
+	<Property ID="40089" EventType="1" TargetType="2"/>
+	<Property ID="60102" Name="中级行动协调机"/>
+	<Property ID="60121" Name="荆棘陷阱"/>
+	<Property ID="60168"/>
+	<Property ID="60169" Name="巨蛇之吻"/>
+	<Property ID="60202" Name="烈焰加持" EventType="8" TargetType="1" FuncNo="3" IsDamageFormula="0" DamageFormula="15" DamageCategory="3" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="91001" Name="炮轰形态" EventType="1" TargetType="2" FuncNo="20" ChangeModelPath="npc\Pet_Mac_0004"/>
+	<Property ID="91002" Name="神力形态" EventType="1" TargetType="2" FuncNo="20" ChangeModelPath="npc\Pet_Mac_0005"/>
+	<Property ID="91003" Name="陷阱形态" EventType="1" TargetType="2" FuncNo="20" ChangeModelPath="npc\Pet_Mac_0007"/>
+	<Property ID="91004" Name="水晶形态" EventType="1" TargetType="2" FuncNo="20" ChangeModelPath="npc\Pet_Mac_0008"/>
+	<Property ID="201201" Name="刚毅熊魂2" EventType="1" TargetType="2" FuncNo="30" SetFormula="1" SetAttribute="RoleChangeType"/>
+	<Property ID="201161" Name="野性狼魂2" EventType="1" TargetType="2" FuncNo="30" SetFormula="2" SetAttribute="RoleChangeType"/>
+	<Property ID="201171" Name="泰坦召唤2" EventType="1" TargetType="2" FuncNo="30" SetFormula="4" SetAttribute="RoleChangeType"/>
+	<Property ID="201191" Name="破碎召唤2" EventType="1" TargetType="2" FuncNo="30" SetFormula="6" SetAttribute="RoleChangeType"/>
+	<Property ID="204681" Name="先祖牛魂2" EventType="1" TargetType="2" FuncNo="30" SetFormula="3" SetAttribute="RoleChangeType"/>
+	<Property ID="204691" Name="风暴召唤2" EventType="1" TargetType="2" FuncNo="30" SetFormula="5" SetAttribute="RoleChangeType"/>
+	<Property ID="201181" Name="还原属性值" EventType="2" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="RoleChangeType"/>
+	<Property ID="20648"/>
+	<Property ID="910013" EventType="1" TargetType="2" FuncNo="810" ChangeValue="02"/>
+	<Property ID="910014" EventType="2" TargetType="2" FuncNo="811"/>
+	<Property ID="910015" EventType="1" TargetType="2" FuncNo="810" ChangeValue="03"/>
+	<Property ID="20709" Name="魔物融合1" EventType="1" TargetType="2" FuncNo="20" ChangeModelPath="npc/Pet_Hme_C_0001"/>
+	<Property ID="50294" Name="兽魂强化变身1" EventType="1" TargetType="2" FuncNo="20" ChangeModelPath="npc\Pet_Hme_0001"/>
+	<Property ID="50297" Name="兽魂强化变身2" EventType="1" TargetType="2" FuncNo="20" ChangeModelPath="npc\Pet_Hme_0002"/>
+	<Property ID="50300" Name="兽魂强化变身3" EventType="1" TargetType="2" FuncNo="20" ChangeModelPath="npc\Pet_Hme_0003"/>
+	<Property ID="20213" Name="风灵" EventType="18" TargetType="2" FuncNo="828" AbsorbValue="99999"/>
+	<Property ID="20214" Name="风暴之眼" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="188" DamageCategory="2" DamageTargetType="1" DamageCaster="2"/>
+	<Property ID="910341" EventType="1" TargetType="2" FuncNo="105" TableName="ForceReputeRecord" ForceID="8" SetCol="8" Value="7"/>
+	<Property ID="910342" EventType="2" TargetType="2" FuncNo="105" TableName="ForceReputeRecord" ForceID="8" SetCol="8"/>
+	<Property ID="207833" Name="反射"/>
+	<Property ID="41003" EventType="1" TargetType="2"/>
+	<Property ID="20791" Name="达戈菲尔军装" EventType="1" TargetType="2" FuncNo="20" ChangeModelPath="npc\monster_Hum_0057"/>
+	<Property ID="20811" Name="军服" EventType="1" TargetType="2" FuncNo="20" ChangeModelPath="npc\monster_Hum_0051_3"/>
+	<Property ID="208112" Name="军服" EventType="2" TargetType="2" FuncNo="20"/>
+	<Property ID="31110" Name="残影" EventType="9" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Ex1110_01_1"/>
+	<Property ID="32513" Name="超载" EventType="1" TargetType="3" FuncNo="840" FloatHeight="6" UpSpeed="3"/>
+	<Property ID="32525" Name="冰棺送葬" EventType="1" TargetType="2" FuncNo="20" IsDamageFormula="0" DamageFormula="5" DamageCategory="3" DamageTargetType="0" ChangeModelPath="npc\Boss_0041"/>
+	<Property ID="326132" Name="还原变身烟雾" EventType="2" TargetType="2" FuncNo="7" EffectName="skill_drop_change"/>
+	<Property ID="99001" EventType="3" TargetType="2" FuncNo="13" FendLockTime="300" FendDistance="5" FendAction="knockback" DefaultFendAction="knockback" FendIsCanMove="0"/>
+	<Property ID="990012" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="300" DamageCategory="1" DamageTargetType="1" DamageCaster="2"/>
+	<Property ID="99104" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="@MaxPhyAttack*0.6" DamageCategory="1" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="310151" Name="旋风" EventType="1" TargetType="2" FuncNo="30" IsDamageFormula="0" DamageFormula="188" DamageCategory="2" DamageTargetType="0" DamageCaster="2" SetFormula="attack5_cast_1h" SetAttribute="LockState"/>
+	<Property ID="310152" Name="旋风" EventType="2" TargetType="2" FuncNo="30" IsDamageFormula="0" DamageFormula="188" DamageCategory="2" DamageTargetType="0" DamageCaster="2" SetAttribute="LockState"/>
+	<Property ID="60422" Name="变小动物" EventType="1" TargetType="0" FuncNo="20" ChangeModelPath="npc\monster_Ani_0141"/>
+	<Property ID="31802" Name="腐蚀术-叠加" EventType="10" TargetType="2" FuncNo="102" OverlayBufferID="Buff_Ri1802_01_1" PRebound="50" ReboundDamageType="1"/>
+	<Property ID="60423" Name="变小动物" EventType="2" TargetType="0" FuncNo="20"/>
+	<Property ID="329021" Name="法术盾消除" EventType="14" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Mw2902_01_1"/>
+	<Property ID="329031" Name="火焰附加伤害" EventType="1" TargetType="2" FuncNo="3" IsDamageFormula="0" DamageFormula="10" DamageCategory="3" DamageTargetType="0" DamageCaster="2" AttackDamageRatio="10" AttackDamageType="3"/>
+	<Property ID="20920" Name="测试通过BUFF攻击吸收" EventType="9" TargetType="0" FuncNo="32" AbsorbDamageRatio="10" AbsorbType="0" IsTargetDeduction="0"/>
+	<Property ID="20924" Name="测试分身" EventType="1" TargetType="2" FuncNo="20" ChangeModelPath="clone"/>
+	<Property ID="209242" Name="测试分身" EventType="2" TargetType="2" FuncNo="20"/>
+	<Property ID="31813" Name="定身" EventType="1" TargetType="0" FuncNo="6" IsFormula="0" Attribute="RC" Formula="20" AllowNegative="0"/>
+	<Property ID="318151" Name="反伤-异度空间" EventType="9" TargetType="2" FuncNo="3" IsDamageFormula="0" DamageFormula="150" DamageCategory="5" DamageTargetType="1" DamageCaster="2"/>
+	<Property ID="31820" Name="伤害转移-灵魂锁链" EventType="1" TargetType="0" FuncNo="817" TransDamageType="1" TransRate="100"/>
+	<Property ID="318201" Name="伤害转移-灵魂锁链" EventType="1" TargetType="0" FuncNo="817" TransDamageType="2" TransRate="100"/>
+	<Property ID="318202" Name="伤害转移-灵魂锁链" EventType="1" TargetType="0" FuncNo="817" TransDamageType="3" TransRate="100"/>
+	<Property ID="318203" Name="伤害转移-灵魂锁链" EventType="1" TargetType="0" FuncNo="817" TransDamageType="4" TransRate="100"/>
+	<Property ID="318204" Name="伤害转移-灵魂锁链" EventType="1" TargetType="0" FuncNo="817" TransDamageType="5" TransRate="100"/>
+	<Property ID="318205" Name="伤害转移-灵魂锁链" EventType="1" TargetType="0" FuncNo="817" TransDamageType="6" TransRate="100"/>
+	<Property ID="20923" Name="隐身" EventType="1" TargetType="2" FuncNo="30" SetFormula="1" SetAttribute="RoleHide"/>
+	<Property ID="209232" Name="隐身" EventType="2" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="RoleHide"/>
+	<Property ID="15663" EventType="1" TargetType="2" FuncNo="20" ChangeModelPath="npc\boss_0032"/>
+	<Property ID="31709" Name="变兔子-变形术" EventType="1" TargetType="0" FuncNo="20" ChangeModelPath="npc/Watch_0_00027"/>
+	<Property ID="317091" Name="还原变身" EventType="2" TargetType="2" FuncNo="20"/>
+	<Property ID="317092" Name="受伤清除BUFF" Type="11" EventType="10" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Wm2703_01_1"/>
+	<Property ID="20931" Name="测试绑触发器" EventType="1" TargetType="2" FuncNo="54" TriggerEventID="12061813505129"/>
+	<Property ID="99045" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="200" DamageCategory="1" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="310072" EventType="9" TargetType="5" FuncNo="3" IsDamageFormula="1" DamageFormula="@DEX*0.2" DamageCategory="2" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="310024" EventType="1"/>
+	<Property ID="310043" EventType="9" TargetType="5" FuncNo="3" IsDamageFormula="1" DamageFormula="@Dex*0.9" DamageCategory="2" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="31010" EventType="10" TargetType="2" FuncNo="1" BuffID="Buff_In1010_01_2"/>
+	<Property ID="505162" EventType="1" TargetType="2" FuncNo="5" IsHealFormula="1" HealFormula="@MaxHP*0.03" HealTargetType="1" Condition="50516"/>
+	<Property ID="505163" EventType="1" TargetType="2" FuncNo="5" IsHealFormula="1" HealFormula="@MaxMP*0.03" HealTargetType="1" Condition="50517"/>
+	<Property ID="20933" Name="分身" EventType="1" TargetType="2" FuncNo="20" ChangeModelPath="clone"/>
+	<Property ID="156652" EventType="1" TargetType="2" FuncNo="5" IsHealFormula="1" HealFormula="@MaxHP*0.1" HealTargetType="0" Condition="15665"/>
+	<Property ID="60434" Name="吸血" EventType="8" TargetType="1" FuncNo="32" AbsorbDamageRatio="10" AbsorbType="0" IsTargetDeduction="1"/>
+	<Property ID="505312" EventType="1" TargetType="2" FuncNo="3" IsDamageFormula="0" DamageFormula="10" DamageCategory="1" DamageTargetType="1" DamageCaster="2"/>
+	<Property ID="311142" Name="背刺加成" EventType="8" TargetType="5" FuncNo="3"/>
+	<Property ID="330043" Name="百分比扣血" EventType="1" TargetType="2"/>
+	<Property ID="99993" EventType="1" TargetType="2" FuncNo="30" SetAttribute="CantBreakAction" SetFormula="1" Name="打断"/>
+	<Property ID="29008" Name="昏迷" EventType="10" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Status007_01"/>
+	<Property ID="29009" Name="冰冻" EventType="10" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Status008_01"/>
+	<Property ID="29011" Name="嘲讽" EventType="1" TargetType="0" FuncNo="30" SetFormula="1" SetAttribute="AttackForcedType"/>
+	<Property ID="290112" Name="嘲讽" EventType="2" TargetType="0" FuncNo="30" SetFormula="0" SetAttribute="AttackForcedType"/>
+	<Property ID="29012" Name="隐身" EventType="1" TargetType="0" FuncNo="30" SetFormula="1" SetAttribute="RoleHide"/>
+	<Property ID="290122" Name="隐身" EventType="2" TargetType="0" FuncNo="30" SetFormula="0" SetAttribute="RoleHide"/>
+	<Property ID="29013" Name="无敌" EventType="1" TargetType="0" FuncNo="30" SetFormula="1" SetAttribute="CantBeAttack2"/>
+	<Property ID="290132" Name="取消无敌" EventType="2" TargetType="0" FuncNo="30" SetFormula="0" SetAttribute="CantBeAttack2"/>
+	<Property ID="29006" Name="缠绕-播放特性" EventType="1" TargetType="0" FuncNo="7" EffectName="BGskill_20121" EffectParam="1"/>
+	<Property ID="290062" Name="缠绕-播放特性" EventType="2" TargetType="0" FuncNo="7" EffectName="BGskill_20122" EffectParam="1"/>
+	<Property ID="999932" Name="打断" EventType="2" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="CantBreakAction"/>
+	<Property ID="29014" Name="动作暂停" EventType="1" TargetType="2" FuncNo="30" SetFormula="1" SetAttribute="PauseAction"/>
+	<Property ID="290142" Name="动作暂停" EventType="2" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="PauseAction"/>
+	<Property ID="325022" EventType="1" TargetType="2" FuncNo="30" SetFormula="1" SetAttribute="ShowHide"/>
+	<Property ID="3250223" EventType="2" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="ShowHide"/>
+	<Property ID="29005" Name="通用状态-霸体" EventType="1" TargetType="0" FuncNo="30" SetFormula="1" SetAttribute="CantBeLtd"/>
+	<Property ID="290052" Name="通用状态-霸体" EventType="2" TargetType="0" FuncNo="30" SetFormula="0" SetAttribute="CantBeLtd"/>
+	<Property ID="291011" Name="被攻击清除BUFF" EventType="10" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Dazuo_01_1"/>
+	<Property ID="291012" Name="请求移动清除BUFF" EventType="12" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Dazuo_01_1"/>
+	<Property ID="291013" Name="播放动作" EventType="2" TargetType="2" FuncNo="9" ActionName="standup_0h" LoopAction="0"/>
+	<Property ID="291014" Name="关闭BUFF" EventType="2" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Dazuo_01_1"/>
+	<Property ID="291015" Name="起身无法移动" EventType="2" TargetType="2" FuncNo="1" BuffID="Buff_Dazuo_01_3"/>
+	<Property ID="291016" Name="使用技能打断" EventType="6" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_Dazuo_01_1"/>
+	<Property ID="501024" Name="回蓝" EventType="3" TargetType="2" FuncNo="6" IsFormula="1" Attribute="MP" Formula="@MaxMP*0.15" AllowNegative="0" Condition="23103|23105|23106|23113|23114|23115|23119|23120|23121|23122|23123|23124"/>
+	<Property ID="501025" Name="回血" EventType="3" TargetType="2" FuncNo="6" IsFormula="1" Attribute="HP" Formula="@MaxHP*0.15" AllowNegative="0"/>
+	<Property ID="501026" Name="回精神" EventType="3" TargetType="2" FuncNo="6" IsFormula="1" Attribute="AV" Formula="@MaxAV*0.15" AllowNegative="0" Condition="23116|23117|23118|23104"/>
+	<Property ID="501027" Name="回能量" EventType="3" TargetType="2" FuncNo="6" IsFormula="1" Attribute="EY" Formula="@MaxEY*0.15" AllowNegative="0" Condition="23102|23110|23111|23112"/>
+	<Property ID="29105" Name="新手副本-回怒气" EventType="3" TargetType="2" FuncNo="6" IsFormula="0" Attribute="RC" Formula="10" AllowNegative="0" Condition="23101"/>
+	<Property ID="501028" EventType="2" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="test_skillsitcross_Buff01_01"/>
+	<Property ID="501029" EventType="12" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="test_skillsitcross_Buff01_01"/>
+	<Property ID="291052" Name="新手副本-加血" EventType="1" TargetType="2" FuncNo="6" IsFormula="0" Attribute="HP" Formula="10000" AllowNegative="0"/>
+	<Property ID="291053" Name="新手副本-加蓝" EventType="1" TargetType="2" FuncNo="6" IsFormula="0" Attribute="MP" Formula="2000" AllowNegative="0" Condition="23103|23105|23106|23113|23114|23115|23119|23120|23121|23122|23123|23124"/>
+	<Property ID="501021" Name="打坐buffer事件-启动" EventType="1" TargetType="2" FuncNo="855" SitCross="1" BuffID="test_skillsitcross_Buff01_01"/>
+	<Property ID="501022" Name="打坐buffer事件-关闭" EventType="2" TargetType="2" FuncNo="855" SitCross="0"/>
+	<Property ID="501023" Name="打坐buffer事件-关闭回复" EventType="2" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="test_skillsitcross_Buff01_02" StrClear="1"/>
+	<Property ID="29016" Name="无敌" EventType="1" TargetType="0" FuncNo="30" SetFormula="1" SetAttribute="CantBeAttack2"/>
+	<Property ID="290162" Name="取消无敌" EventType="2" TargetType="0" FuncNo="30" SetFormula="0" SetAttribute="CantBeAttack2"/>
+	<Property ID="81890" Name="新手副本回血" EventType="3" TargetType="2" FuncNo="5" Condition="81890" IsHealFormula="0" HealFormula="5000"/>
+	<Property ID="81899" Name="瞬间回复100HP" EventType="1" TargetType="2" FuncNo="5" IsHealFormula="0" HealFormula="100" HealTargetType="0"/>
+	<Property ID="460011" Name="恢复角色初始速度" EventType="2" TargetType="2" FuncNo="30" SetFormula="5" SetAttribute="RunSpeed"/>
+</Object>
+
+

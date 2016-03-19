@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2010 (http://www.altova.com) by hahah (memem) -->
+<Object>
+	<!-- 引导配置 -->
+	<!-- 任务NPC引导配置：TaskNpc_1：阵营1； TaskNpc_2：阵营2 -->
+	<Property GuideId="TaskNpc_1" GuideParma="npc_xinshou_0012"/>
+	<Property GuideId="TaskNpc_2" GuideParma="npc_xinshou_0022"/>
+	<!-- 初级任务引导配置：Task1_1：阵营1； Task1_2：阵营2 -->
+	<Property GuideId="Task1_1" GuideParma="6039"/>
+	<Property GuideId="Task1_2" GuideParma="6059"/>
+	<!-- 中级任务引导配置：Task2_1：阵营1； Task2_2：阵营2 -->
+	<Property GuideId="Task2_1" GuideParma="6040"/>
+	<Property GuideId="Task2_2" GuideParma="6050"/>
+	<!-- 高级任务引导配置：Task3_1：阵营1； Task3_2：阵营2 -->
+	<Property GuideId="Task3_1" GuideParma="6041"/>
+	<Property GuideId="Task3_2" GuideParma="6051"/>
+	<!-- 任务奖励的物品配置：Equip_Job:装备_职业 -->
+	<Property GuideId="Equip_1" GuideParma="Lead_Sword_02"/>
+	<Property GuideId="Equip_2" GuideParma="Lead_Mace_01"/>
+	<Property GuideId="Equip_3" GuideParma="Lead_Staff_02"/>
+	<Property GuideId="Equip_4" GuideParma="Lead_Sword_02"/>
+	<Property GuideId="Equip_5" GuideParma="Lead_Axe_01"/>
+	<Property GuideId="Equip_6" GuideParma="Lead_Sword_01"/>
+	<Property GuideId="Equip_7" GuideParma="Lead_Runewand_01"/>
+	<Property GuideId="Equip_8" GuideParma="Lead_Staff_01"/>
+</Object>

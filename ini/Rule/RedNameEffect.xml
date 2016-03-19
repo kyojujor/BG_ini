@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!--
+	(27)GrayNameTime:黄名消失时间,单位为：秒不需要了暂时
+	(24)ChangeTitleSet:改称号设置:0不能,1能
+	(25)ChangeNameSet:改姓名设置:0不能,1能
+  -->
+<!--红名效果配置
+  (1)ID:效果编号
+  (2)RedNameLowRange:红名范围最小值
+  (3)RedNameHighRange:红名范围最大值
+  (4)RoleNameColor:角色名称颜色
+  (5)RoleNamePKG:中文包ID,该范围的名称,用于界面显示。
+  (6)CanTitleName:能否佩戴称号开关:0不能,1能
+  (7)AddKillValue:杀人增加的值
+  (8)LessenRate:单位为：秒
+  (9)DecKillValue:减小的值
+  (10)GainBuff:达到什么阶段获得的Buff
+  (11)CanEnterArenaSide:竞技场进入:0不能,1能
+  (12)CanEnterFB:副本进入:0不能,1能
+  (13)CanEnterBattleWar:战场进入:0不能,1能
+  (14)CanAmryNPCBeAttack:卫兵攻击:0不能,1能
+  (15)CanChangePVPSet:更改PVP设置,能否开红:0不能,1能
+  (16)CanSendMail:能否发送邮件:0不能,1能
+  (17)CanUseSkill:能否使用技能:0不能,1能
+  (18)CanUseItem:能否使用道具:0不能,1能
+  (19)CanQieCuo:能否切磋:0不能,1能
+  (20)CanBuySell:能否交易:0不能,1能
+  (21)CanAttackBeAttack:能否攻击和被攻击:0能,1不能
+  (22)CampaignTranslate:监狱传送:0不传送,1死亡传送,2直接传送
+  (23)CampaignPlacePoint:监狱传送点:0-外测,1-中心
+  (26)DeadEquipDurable:死亡装备损耗耐久,修改为整数
+  (28)EngDropOdds:能量晶体掉落概率,例如20
+  (29)EngDropRate:能量晶体掉落数量比例,配成自然数,例如50
+  (30)EngRewards:掉落的能量晶体,字符串;例如:EngRewards="1:Crystal_A00001A:50;2:Crystal_A00002A:50;3:Crystal_A00003A:50"
+-->
+<Object>
+	<Property ID="1" RedNameLowRange="1" RedNameHighRange="199" RoleNameColor="255,250,250,118 " CanTitleName="0" AddKillValue="100" LessenRate="30" DecKillValue="12" CanEnterArenaSide="1" CanEnterFB="1" CanEnterBattleWar="1" CanAmryNPCBeAttack="0" CanChangePVPSet="1" CanSendMail="1" CanUseSkill="1" CanUseItem="1" CanQieCuo="1" CanBuySell="1" CanAttackBeAttack="1" CampaignTranslate="0" CampaignPlacePoint="0" DeadEquipDurable="20" EngDropOdds="20" EngDropRate="50" EngRewards="1:Crystal_A00001A:50;2:Crystal_A00002A:50;3:Crystal_A00003A:50"/>
+	<Property ID="2" RedNameLowRange="200" RedNameHighRange="399" RoleNameColor="255,255,65,57" RoleNamePKG="RedName_title_01" CanTitleName="0" AddKillValue="100" LessenRate="30" DecKillValue="10" GainBuff="Buff_Mw2971_01_1" CanEnterArenaSide="0" CanEnterFB="0" CanEnterBattleWar="0" CanAmryNPCBeAttack="0" CanChangePVPSet="1" CanSendMail="0" CanUseSkill="1" CanUseItem="1" CanQieCuo="0" CanBuySell="0" CanAttackBeAttack="1" CampaignTranslate="1" CampaignPlacePoint="0" DeadEquipDurable="20" EngDropOdds="20" EngDropRate="50" EngRewards="1:Crystal_A00001A:50;2:Crystal_A00002A:50;3:Crystal_A00003A:50"/>
+	<Property ID="3" RedNameLowRange="400" RedNameHighRange="599" RoleNameColor="255,255,65,57" RoleNamePKG="RedName_title_02" CanTitleName="0" AddKillValue="100" LessenRate="30" DecKillValue="8" GainBuff="Buff_Mw2972_01_1" CanEnterArenaSide="0" CanEnterFB="0" CanEnterBattleWar="0" CanAmryNPCBeAttack="1" CanChangePVPSet="1" CanSendMail="0" CanUseSkill="1" CanUseItem="1" CanQieCuo="0" CanBuySell="0" CanAttackBeAttack="1" CampaignTranslate="1" CampaignPlacePoint="0" DeadEquipDurable="20" EngDropOdds="20" EngDropRate="50" EngRewards="1:Crystal_A00001A:50;2:Crystal_A00002A:50;3:Crystal_A00003A:50"/>
+	<Property ID="4" RedNameLowRange="600" RedNameHighRange="799" RoleNameColor="255,255,65,57" RoleNamePKG="RedName_title_03" CanTitleName="0" AddKillValue="100" LessenRate="30" DecKillValue="6" GainBuff="Buff_Mw2973_01_1" CanEnterArenaSide="0" CanEnterFB="0" CanEnterBattleWar="0" CanAmryNPCBeAttack="1" CanChangePVPSet="1" CanSendMail="0" CanUseSkill="1" CanUseItem="1" CanQieCuo="0" CanBuySell="0" CanAttackBeAttack="1" CampaignTranslate="1" CampaignPlacePoint="0" DeadEquipDurable="20" EngDropOdds="20" EngDropRate="50" EngRewards="1:Crystal_A00001A:50;2:Crystal_A00002A:50;3:Crystal_A00003A:50"/>
+	<Property ID="5" RedNameLowRange="800" RedNameHighRange="12500" RoleNameColor="255,255,65,57" RoleNamePKG="RedName_title_04" CanTitleName="0" AddKillValue="100" LessenRate="30" DecKillValue="4" GainBuff="Buff_Mw2974_01_1" CanEnterArenaSide="0" CanEnterFB="0" CanEnterBattleWar="0" CanAmryNPCBeAttack="1" CanChangePVPSet="0" CanSendMail="0" CanUseSkill="0" CanUseItem="0" CanQieCuo="0" CanBuySell="0" CanAttackBeAttack="1" CampaignTranslate="2" CampaignPlacePoint="0" DeadEquipDurable="20" EngDropOdds="20" EngDropRate="50" EngRewards="1:Crystal_A00001A:50;2:Crystal_A00002A:50;3:Crystal_A00003A:50"/>
+	<Property ID="6" RedNameLowRange="30000" RedNameHighRange="30000" RoleNameColor="255,255,65,57" CanTitleName="0" AddKillValue="100" LessenRate="30" DecKillValue="5" GainBuff="" CanEnterArenaSide="0" CanEnterFB="0" CanEnterBattleWar="0" CanAmryNPCBeAttack="0" CanChangePVPSet="0" CanSendMail="0" CanUseSkill="0" CanUseItem="0" CanQieCuo="0" CanBuySell="0" CanAttackBeAttack="0" CampaignTranslate="2" CampaignPlacePoint="1" DeadEquipDurable="20" EngDropOdds="20" EngDropRate="50" EngRewards="1:Crystal_A00001A:50;2:Crystal_A00002A:50;3:Crystal_A00003A:50"/>
+</Object>

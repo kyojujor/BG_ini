@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes"?>
+<!-- 被2011 rel. 2 sp1 (TeaM DJiNN) 使用XMLSpy vTeaM DJiNN编辑的 (http://www.altova.com) by -->
+<!-- <Property ID="101010" Desc="蒸汽人类-仲裁者-男" ArtKey="101010"/>
+	 <Property ID="101011" Desc="蒸汽人类-仲裁者-女" ArtKey="101011"/>
+	 <Property ID="103020" Desc="蒸汽矮人-蒸汽学徒-男" ArtKey="103000"/>
+	 <Property ID="103011" Desc="蒸汽矮人-仲裁者-女" ArtKey="103011"/>
+	 <Property ID="206080" Desc="奇幻猫人-元素法师-男" ArtKey="206080"/>
+	 <Property ID="206081" Desc="奇幻猫人-元素法师-女" ArtKey="206081"/>
+	 <Property ID="204060" Desc="奇幻人类-猎魔人-男" ArtKey="204060"/>
+	 <Property ID="204061" Desc="奇幻人类-猎魔人-女" ArtKey="204061"/>
+-->
+<Object>
+	<!-- 蒸汽25-30-->
+	<Property ID="1" EquList="XG_Cloth_A00005A,XG_Pants_A00005A,XG_Shoes_A00005A,XG_Hand_A00005A,FZ1_Sword_00023C" ArtKey="101010"/>
+	<Property ID="2" EquList="BO_Cloth_A00008B1,BO_Pants_A00008B1,XG_Shoes_A00013A,XG_Hand_A00005A,FZ1_Sword_00023C" ArtKey="101011"/>
+	<Property ID="3" EquList="XG_Cloth_A00021A,XG_Pants_A00021A,BO_Shoes_D00030D1,BO_Hand_A00030D1,Sword_00001A" ArtKey="101010"/>
+	<Property ID="4" EquList="BO_Cloth_A00016C1,XG_Pants_A00021A,BO_Shoes_D00030D1,BO_Hand_A00030D1,Sword_00001A" ArtKey="101011"/>
+	<Property ID="5" EquList="XG_Cloth_A00028A,XG_Pants_A00028A,XG_Shoes_A00028A,BO_Hand_A00030D1,Sword_00001A" ArtKey="101010"/>
+	<Property ID="6" EquList="XG_Cloth_A00013B1,XG_Pants_A00013B1,XG_Shoes_A00013B1,BO_Hand_A00030D1,Sword_00001A" ArtKey="101011"/>
+	<Property ID="7" EquList="BO_Cloth_B00008B1,BO_Pants_B00008B1,XG_Shoes_A00021B1,BO_Hand_A00030D1,Sword_00001A" ArtKey="101010"/>
+	<Property ID="8" EquList="XG_Cloth_A00028B1,XG_Pants_A00028B1,XG_Shoes_A00028B1,BO_Hand_A00030D1,Sword_00001A" ArtKey="101011"/>
+	<Property ID="9" EquList="BO_Cloth_C00008B1,XG_Pants_A00035B1,XG_Pants_A00035B1,BO_Hand_A00030D1,Sword_00001A" ArtKey="101010"/>
+	<Property ID="10" EquList="XG_Cloth_D00028C1,XG_Pants_D00028C1,XG_Shoes_D00028C1,XG_Hand_D00028C1,BO_Sword_00030C" ArtKey="101011"/>
+	<Property ID="11" EquList="BO_Cloth_D00008B1,XG_Pants_D00028C1,XG_Shoes_D00028C1,XG_Hand_D00028C1,BO_Sword_00035C" ArtKey="101010"/>
+	<Property ID="12" EquList="XG_Cloth_B00028C1,XG_Pants_B00028C1,XG_Shoes_B00028C1,XG_Hand_B00028C1,BO_Sword_00040C" ArtKey="101011"/>
+	<Property ID="13" EquList="S_Cloth_A00008A,S_Pants_A00008A,XG_Shoes_B00028C1,XG_Hand_B00028C1,S_Sword_00035B" ArtKey="101011"/>
+	<Property ID="14" EquList="XG_Cloth_C00028C1,XG_Pants_C00028C1,XG_Shoes_C00028C1,XG_Hand_C00028C1,PVE_Sword_00040C" ArtKey="101010"/>
+	<Property ID="15" EquList="S_Cloth_D00008A,S_Pants_D00008A,XG_Shoes_C00028C1,XG_Hand_C00028C1,PVP_Sword_00030C" ArtKey="101011"/>
+	<Property ID="16" EquList="XG_Cloth_A00013B1,XG_Pants_A00028C1,XG_Shoes_A00028C1,XG_Hand_A00028C1,PVP_Sword_00040C" ArtKey="101010"/>
+	<Property ID="17" EquList="XG_Cloth_A00028C1,XG_Pants_A00028C1,XG_Shoes_A00028C1,XG_Hand_A00028C1,FZ1_Sword_00016B" ArtKey="101011"/>
+	<Property ID="18" EquList="zq_cloth_0001d,zq_pants_0002d,zq_shoes_0003d,wit_hand_0001,XG_Sword_00028C" ArtKey="101010"/>
+	<Property ID="19" EquList="zq_cloth_0001d,zq_pants_0002d,zq_shoes_0003d,inq_hand_0001,XG_Sword_00035C" ArtKey="101011"/>
+	<Property ID="20" EquList="zq_cloth_0001b,zq_pants_0002b,zq_shoes_0003b,tec_hand_0001,BO_Sword_00008B" ArtKey="101010"/>
+	<Property ID="21" EquList="zq_cloth_0001b,zq_pants_0002b,zq_shoes_0003b,tec_hand_0001,BO_Sword_00016B" ArtKey="101011"/>
+
+	<!-- 蒸汽31-35-->
+	<Property ID="22" EquList="XG_Cloth_A00021C1,XG_Pants_A00021C1,XG_Shoes_A00021C1,BO_Hand_A00030D1,Rw_Staff_0002A" ArtKey="101010"/>
+	<Property ID="23" EquList="XG_Cloth_B00021C1,XG_Pants_B00021C1,XG_Shoes_B00021C1,XG_Hand_B00021C1,FZ1_Sword_00023C" ArtKey="101011"/>
+	<Property ID="24" EquList="S_Cloth_A00008A,XG_Pants_B00028C1,XG_Shoes_B00028C1,XG_Hand_B00028C1,FZ1_Sword_00040B" ArtKey="101010"/>
+	<Property ID="25" EquList="XG_Cloth_C00013A,XG_Pants_C00013A,XG_Shoes_C00013A,XG_Hand_C00013A,FZ1_Sword_00023C" ArtKey="101011"/>
+	<Property ID="26" EquList="S_Cloth_A00008A,XG_Pants_C00028A,XG_Shoes_C00028A,XG_Hand_C00028A,FZ1_Sword_00023B" ArtKey="101010"/>
+	<Property ID="27" EquList="XG_Cloth_C00021C1,XG_Pants_C00021C1,XG_Shoes_C00021C1,XG_Hand_C00021C1,FZ1_Sword_00023C" ArtKey="101011"/>
+	<Property ID="28" EquList="XG_Cloth_C00035C1,XG_Pants_C00028C1,XG_Shoes_C00028C1,XG_Hand_C00028C1,PVP_Sword_00030C" ArtKey="101010"/>
+	<Property ID="29" EquList="XG_Cloth_C00035C1,XG_Pants_C00035C1,XG_Shoes_C00035C1,XG_Hand_C00035C1,FZ1_Sword_00023C" ArtKey="101011"/>
+	<Property ID="30" EquList="XG_Cloth_D00028A,XG_Pants_D00028A,XG_Shoes_D00028A,XG_Hand_D00028A,Rw_Sword_0004A_01" ArtKey="101010"/>
+	<Property ID="31" EquList="XG_Cloth_D00035B1,XG_Pants_D00035B1,XG_Shoes_D00035B1,XG_Hand_D00035B1,Rw_Handgun_0004A" ArtKey="101011"/>
+
+	
+	
+	<!-- 蒸汽36-40-->
+	<Property ID="32" EquList="XG_Cloth_D00035B1,BO_Pants_D00040D1,BO_Shoes_D00040D1,BO_Hand_D00040D1,XG_Sword_00013B" ArtKey="101010"/>
+	<Property ID="33" EquList="BO_Cloth_D00040D1,zq_pants_0002d,BO_Shoes_D00040D1,BO_Hand_D00040D1,XG_Sword_00021B" ArtKey="101011"/>
+	<Property ID="34" EquList="BO_Cloth_B00040D1,BO_Pants_B00040D1,BO_Shoes_B00040D1,BO_Hand_B00040D1,Sword_00001A" ArtKey="103000"/>
+	<Property ID="35" EquList="BO_Cloth_B00040D1,BO_Pants_B00040D1,BO_Shoes_B00040D1,BO_Hand_B00040D1,XG_Sword_00028B" ArtKey="103001"/>
+	<Property ID="36" EquList="BO_Cloth_D00030D1,BO_Pants_D00030D1,BO_Shoes_D00030D1,BO_Hand_D00030D1,FZ1_Sword_00035B" ArtKey="101010"/>
+	<Property ID="37" EquList="BO_Cloth_D00030D1,BO_Pants_D00030D1,BO_Shoes_D00030D1,BO_Hand_D00030D1,FZ1_Sword_00040B" ArtKey="101011"/>
+	<Property ID="38" EquList="BO_Cloth_A00030D1,BO_Pants_A00030D1,BO_Shoes_A00030D1,BO_Hand_A00030D1,Sword_00001A" ArtKey="103000"/>
+	<Property ID="39" EquList="BO_Cloth_A00030D1,BO_Pants_A50030D1,BO_Shoes_A00030D1,BO_Hand_A00030D1,FZ1_Sword_00023C" ArtKey="103001"/>
+	<Property ID="40" EquList="XG_Cloth_D00035C1,XG_Pants_D00035C1,XG_Shoes_D00035C1,XG_Hand_D00035C1,FZ1_Sword_00023C" ArtKey="103001"/>
+	
+	
+	
+	<!-- 奇幻25-30-->
+	<Property ID="41" EquList="XG_Cloth_A50005A,XG_Pants_A50005A,XG_Shoes_A50005A,XG_Hand_A50005A,Staff_00001A" ArtKey="206080"/>
+	<Property ID="42" EquList="XG_Cloth_A50013A,XG_Pants_A50013A,XG_Shoes_A50013A,XG_Hand_A50013A,S_Staff_00040B" ArtKey="206081"/>
+	<Property ID="43" EquList="BO_Cloth_A50008B1,XG_Pants_A50021A,XG_Shoes_A50021A,XG_Hand_A50021A,XG_Sword_00035B" ArtKey="206080"/>
+	<Property ID="44" EquList="XG_Cloth_A50028A,XG_Pants_A50028A,XG_Shoes_A50028A,XG_Hand_A50028A,XG_Sword_00021C" ArtKey="206081"/>
+	<Property ID="45" EquList="qh_cloth_0001a,qh_pants_0002a,qh_shoes_0003a,mage_hand_0001,Staff_00001A" ArtKey="206080"/>
+	<Property ID="46" EquList="qh_cloth_0001a,qh_pants_0002a,qh_shoes_0003a,mage_hand_0001,Staff_00001A" ArtKey="206081"/>
+	<Property ID="47" EquList="qh_cloth_0001d,qh_pants_0002d,qh_shoes_0003d,wit_hand_0001,BO_Sword_00023B" ArtKey="206080"/>
+	<Property ID="48" EquList="qh_cloth_0001d,qh_pants_0002d,qh_shoes_0003d,wit_hand_0001,BO_Sword_00023C" ArtKey="206081"/>
+	<Property ID="49" EquList="BO_Cloth_D50008B1,XG_Pants_A50028C1,XG_Shoes_A50028C1,XG_Hand_A50028C1,Staff_00001A" ArtKey="206080"/>
+	<Property ID="50" EquList="BO_Cloth_C50008B1,XG_Pants_A50028C1,XG_Shoes_A50028C1,XG_Hand_A50028C1,BO_Staff_00040C" ArtKey="206081"/>
+	<Property ID="51" EquList="XG_Cloth_D50028C1,XG_Pants_D50028C1,XG_Shoes_D50028C1,XG_Hand_D50028C1,S_Sword_00040B" ArtKey="206080"/>
+	<Property ID="52" EquList="XG_Cloth_D50028C1,XG_Pants_D50028C1,XG_Shoes_D50028C1,XG_Hand_D50028C1,PVE_Sword_00030C" ArtKey="206081"/>
+	<Property ID="53" EquList="qh_cloth_0001a,XG_Pants_B50028C1,XG_Shoes_B50028C1,XG_Hand_B50028C1,BO_Staff_00023B" ArtKey="206080"/>
+	<Property ID="54" EquList="XG_Cloth_B50028C1,XG_Pants_B50028C1,XG_Shoes_B50028C1,XG_Hand_B50028C1,XG_Staff_00028B" ArtKey="206081"/>
+	<Property ID="55" EquList="XG_Cloth_A50028A,XG_Pants_C50028C1,XG_Shoes_C50028C1,XG_Hand_C50028C1,FZ1_Sword_00023B" ArtKey="206080"/>
+	<Property ID="56" EquList="XG_Cloth_C50028C1,XG_Pants_C50028C1,XG_Shoes_C50028C1,XG_Hand_C50028C1,FZ1_Sword_00030B" ArtKey="206081"/>
+	<Property ID="57" EquList="BO_Cloth_A50030D1,BO_Pants_A50030D1,BO_Shoes_A50030D1,BO_Hand_A50030D1,Staff_00001A" ArtKey="206080"/>
+	<Property ID="58" EquList="BO_Cloth_A50030D1,BO_Pants_A50030D1,BO_Shoes_A50030D1,BO_Hand_A50030D1,XG_Staff_00013B" ArtKey="206081"/>
+	<Property ID="59" EquList="PVP_Cloth_A50030C1,BO_Pants_D50030D1,BO_Shoes_D50030D1,BO_Hand_D50030D1,FZ1_Sword_00030C" ArtKey="206080"/>
+	<Property ID="60" EquList="XG_Cloth_A50013A,BO_Pants_D50030D1,BO_Shoes_D50030D1,BO_Hand_D50030D1,FZ1_Sword_00035C" ArtKey="206081"/>
+	<Property ID="61" EquList="XG_Cloth_A50013B1,XG_Pants_A50013B1,XG_Shoes_A50013B1,XG_Hand_A50013B1,FZ1_Sword_00035C" ArtKey="206080"/>
+	<Property ID="62" EquList="XG_Cloth_A50021B1,XG_Pants_A50021B1,XG_Shoes_A50021B1,XG_Hand_A50021B1,FZ1_Sword_00035C" ArtKey="206081"/>
+	<Property ID="63" EquList="XG_Cloth_B50005A,XG_Pants_B50005A,XG_Shoes_B50005A,XG_Hand_B50005A,FZ1_Sword_00035C" ArtKey="206080"/>
+	<Property ID="64" EquList="XG_Cloth_B50013A,XG_Pants_B50013A,XG_Shoes_B50013A,XG_Hand_B50013A,FZ1_Sword_00035C" ArtKey="206081"/>
+	<Property ID="65" EquList="XG_Cloth_B50021A,XG_Pants_B50021A,XG_Shoes_B50021A,XG_Hand_B50021A,FZ1_Sword_00035C" ArtKey="206080"/>
+	<Property ID="66" EquList="XG_Cloth_B50028A,XG_Pants_B50028A,XG_Shoes_B50028A,XG_Hand_B50028A,FZ1_Sword_00035C" ArtKey="206081"/>
+	<Property ID="67" EquList="XG_Cloth_D50005A,XG_Pants_D50005A,XG_Shoes_D50005A,XG_Hand_D50005A,FZ1_Sword_00035C" ArtKey="206080"/>
+	<Property ID="68" EquList="XG_Cloth_D50013A,XG_Pants_D50013A,XG_Shoes_D50013A,XG_Hand_D50013A,FZ1_Sword_00035C" ArtKey="206081"/>
+	<Property ID="69" EquList="PVP_Cloth_C50030C1,XG_Pants_D50021A,XG_Shoes_D50021A,XG_Hand_D50021A,FZ1_Sword_00035C" ArtKey="206080"/>
+	<Property ID="70" EquList="XG_Cloth_D50028A,XG_Pants_D50028A,XG_Shoes_D50028A,XG_Hand_D50028A,FZ1_Sword_00035C" ArtKey="206081"/>
+
+	
+	
+	
+
+	<!-- 奇幻31-35-->
+	<Property ID="71" EquList="XG_Cloth_A50035B1,XG_Pants_A50035B1,XG_Shoes_A50035B1,XG_Hand_A50035B1,XG_Staff_00021C" ArtKey="204060"/>
+	<Property ID="72" EquList="PVP_Cloth_D50030C1,XG_Pants_A50028C1,XG_Shoes_A50028C1,XG_Hand_A50028C1,BO_Claymore_00035C" ArtKey="204061"/>
+	<Property ID="73" EquList="XG_Cloth_D50035C1,XG_Pants_B50028B1,XG_Shoes_B50028B1,XG_Hand_B50028B1,BO_Poleaxe_00035C" ArtKey="204060"/>
+	<Property ID="74" EquList="XG_Cloth_B50035B1,XG_Pants_B50035B1,XG_Shoes_B50035B1,XG_Hand_B50035B1,PVE1_Poleaxe_00030B" ArtKey="204061"/>
+	<Property ID="75" EquList="XG_Cloth_B50028C1,XG_Pants_B50028C1,XG_Shoes_B50028C1,XG_Hand_B50028C1,FZ1_Sword_00035C" ArtKey="204060"/>
+	<Property ID="76" EquList="XG_Cloth_C50028A,XG_Pants_C50028A,XG_Shoes_C50028A,XG_Hand_C50028A,FZ1_Sword_00035C" ArtKey="204061"/>
+	<Property ID="77" EquList="PVP_Cloth_B50030C1,XG_Pants_C50035B1,XG_Shoes_C50035B1,XG_Hand_C50035B1,FZ1_Sword_00035C" ArtKey="204060"/>
+	<Property ID="78" EquList="BO_Cloth_C50023B1,BO_Pants_C50023B1,XG_Shoes_C50035B1,XG_Hand_C50035B1,Rw_Poleaxe_00003A" ArtKey="204061"/>
+	<Property ID="79" EquList="XG_Cloth_D50035B1,XG_Pants_D50035B1,XG_Shoes_C50035B1,XG_Hand_C50035B1,Rw_Claymore_00003A" ArtKey="204061"/>
+	<Property ID="80" EquList="S_Cloth_A50035B1,S_Pants_A50035B1,XG_Shoes_C50035B1,XG_Hand_C50035B1,PVE1_Staff_00030B" ArtKey="204061"/>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+</Object>

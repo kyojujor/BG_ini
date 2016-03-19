@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes"?>
+<Stage>
+	<Scene>
+		<Object SceneId="100">
+			<Type CloneSceneType="1">
+				<TriggerEvent EventId="206" Processor="FB_TNDX_CreateScene"/>
+				<TriggerEvent EventId="601" Processor="FB_TNDX_SceneTime"/>
+				<TriggerEvent EventId="201" Processor="FB_TNDX_PlayerEnter"/>
+			</Type>
+			<Type CloneSceneType="2">
+				<TriggerEvent EventId="206" Processor="FB_TNDX_CreateScene_Le2"/>
+				<TriggerEvent EventId="601" Processor="FB_TNDX_SceneTime"/>
+				<TriggerEvent EventId="201" Processor="FB_TNDX_PlayerEnter"/>
+			</Type>
+		</Object>
+		<Object SceneId="101">
+			<Type CloneSceneType="1">
+				<TriggerEvent EventId="601" Processor="FB_LLQD_SceneTimer"/>
+				<TriggerEvent EventId="206" Processor="FB_LLQD_SceneCreate"/>
+				<TriggerEvent EventId="209" Processor="FB_LLQD_PlayerEnter"/>
+				<TriggerEvent EventId="202" Processor="FB_LLQD_PlayerLeave"/>
+			</Type>
+			<Type CloneSceneType="2">
+				<TriggerEvent EventId="601" Processor="FB_LLQD_SceneTimer"/>
+				<TriggerEvent EventId="206" Processor="FB_LLQD_SceneCreate_L2"/>
+				<TriggerEvent EventId="209" Processor="FB_LLQD_PlayerEnter"/>
+				<TriggerEvent EventId="202" Processor="FB_LLQD_PlayerLeave"/>
+			</Type>
+		</Object>
+		<Object SceneId="102">
+			<Type CloneSceneType="1">
+				<TriggerEvent EventId="209" Processor="FB_YHDX_128"/>
+			</Type>
+			<Type CloneSceneType="2">
+				<TriggerEvent EventId="209" Processor="FB_YHDX_128"/>
+			</Type>
+		</Object>
+		<Object SceneId="103">
+			<Type CloneSceneType="1">
+				<TriggerEvent EventId="209" Processor="FB_XDXGX_Area_01"/>
+				<TriggerEvent EventId="601" Processor="FB_XDXGX_Area_02"/>
+				<TriggerEvent EventId="201" Processor="FB_DXGX_Area_03"/>
+			</Type>
+			<Type CloneSceneType="2">
+				<TriggerEvent EventId="209" Processor="FB_HDXGX_Area_01"/>
+				<TriggerEvent EventId="601" Processor="FB_HDXGX_Area_02"/>
+				<TriggerEvent EventId="201" Processor="FB_DXGX_Area_03"/>
+			</Type>
+		</Object>
+		<Object SceneId="105">
+			<Type CloneSceneType="1">
+				<TriggerEvent EventId="201" Processor="FB_YGZM_43"/>
+			</Type>
+		</Object>
+		<Object SceneId="107">
+			<Type CloneSceneType="1">
+				<TriggerEvent EventId="209" Processor="FB_CHNJ_016"/>
+				<TriggerEvent EventId="202" Processor="FB_CHNJ_017"/>
+			</Type>
+		</Object>
+		<Object SceneId="112">
+			<Type CloneSceneType="1">
+				<TriggerEvent EventId="206" Processor="FB_NewLLQD_SceneCreate"/>
+				<TriggerEvent EventId="209" Processor="FB_NewLLQD_PlayerEnter"/>
+				<TriggerEvent EventId="601" Processor="FB_NewLLQD_SenceTimer"/>
+				<TriggerEvent EventId="202" Processor="FB_NewLLQD_PlayerLeave"/>
+			</Type>
+		</Object>
+		<Object SceneId="115">
+			<Type CloneSceneType="1">
+				<TriggerEvent EventId="206" Processor="FB_TADY_SceneCreate"/>
+				<TriggerEvent EventId="601" Processor="FB_TADY_SceneTimer"/>
+				<TriggerEvent EventId="201" Processor="FB_TADY_PlayerEnter"/>
+			</Type>
+			<Type CloneSceneType="2">
+				<TriggerEvent EventId="206" Processor="FB_TADY_SceneCreate"/>
+				<TriggerEvent EventId="601" Processor="FB_TADY_SceneTimer_L2"/>
+				<TriggerEvent EventId="201" Processor="FB_TADY_PlayerEnter"/>
+			</Type>
+		</Object>
+		<Object SceneId="116">
+			<Type CloneSceneType="1">
+				<TriggerEvent EventId="201" Processor="12061420313362"/>
+				<TriggerEvent EventId="601" Processor="12061420340129"/>
+			</Type>
+		</Object>
+		<Object SceneId="117">
+			<Type CloneSceneType="1">
+				<TriggerEvent EventId="201" Processor="12061822231217"/>
+				<TriggerEvent EventId="601" Processor="12061823285658"/>
+			</Type>
+		</Object>
+		<Object SceneId="118">
+			<Type CloneSceneType="1">
+				<TriggerEvent EventId="209" Processor="FB_CQZH_001"/>
+				<TriggerEvent EventId="202" Processor="FB_CQZH_002"/>
+			</Type>
+		</Object>
+		<Object SceneId="120">
+			<Type CloneSceneType="1">
+				<TriggerEvent EventId="206" Processor="FB_TNDX_074"/>
+			</Type>
+		</Object>
+		<Object SceneId="122">
+			<Type CloneSceneType="1">
+				<TriggerEvent EventId="209" Processor="FB_TNB_071"/>
+			</Type>
+		</Object>
+		<Object SceneId="303">
+			<Type CloneSceneType="1">
+				<TriggerEvent EventId="601" Processor="yanshi002_damen02"/>
+				<TriggerEvent EventId="201" Processor="yanshi002_yinyue"/>
+			</Type>
+		</Object>
+		<Object SceneId="402">
+			<Type CloneSceneType="1">
+				<TriggerEvent EventId="201" Processor="dota_scene_playerenter"/>
+				<TriggerEvent EventId="202" Processor="dota_scene_playerleave"/>
+				<TriggerEvent EventId="206" Processor="dota_scene_create"/>
+				<TriggerEvent EventId="208" Processor="dota_scene_playerdead"/>
+				<TriggerEvent EventId="601" Processor="dota_scene_refresh"/>
+			</Type>
+		</Object>
+	</Scene>
+</Stage>

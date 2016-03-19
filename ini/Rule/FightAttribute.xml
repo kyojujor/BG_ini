@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2010 (http://www.altova.com) by wangshuai (MiZE) -->
+<Object>
+	<!--elementhurtPOPara 附加元素伤害系数1
+	elementhurtPTPara 附加元素伤害系数2
+	cureCritPara 恢复法术暴击系数
+
+    
+    MaxDodgeRate1 等级差>=30级时使用的闪避率
+    MaxDodgeRate2 30>等级差>=10级时使用的闪避率
+    MaxDodgeRate 等级差<10级时的闪避率上限
+    MaxMagDodgeRate1 等级差>=30级时使用的法术躲避率
+    MaxMagDodgeRate2 30>等级差>=10级时使用的法术躲避率 
+    MaxMagDodgeRate 等级差<10级时的法术躲避率上限 
+    MaxCritRate 暴击率上限
+    MaxMagCritRate 法术暴击率上限
+    GuardDecayRate1 等级差>=30级时使用的护甲减免率衰减系数
+    GuardDecayRate2 30>等级差>=10级时使用的护甲减免率衰减系数
+    AllresistDecayRate1 等级差>=30级时使用的法术减伤率衰减系数
+    AllresistDecayRate2 30>等级差>=10级时使用的法术减伤率衰减系数
+    MaxGuardRateProb 护甲伤害减免率上限
+    MaxAllResistProb 法术减伤率上限
+-->
+	<Property ID="ElementhurtPOPara" AttributeValue="0.00093"/>
+	<Property ID="ElementhurtPTPara" AttributeValue="0.00093"/>
+	<Property ID="CureCritPara" AttributeValue="0.5"/>
+	<Property ID="MaxDodgeRate1" AttributeValue="0.8"/>
+	<Property ID="MaxDodgeRate2" AttributeValue="0.6"/>
+	<Property ID="MaxDodgeRate" AttributeValue="0.6"/>
+	<Property ID="MaxMagDodgeRate1" AttributeValue="0.8"/>
+	<Property ID="MaxMagDodgeRate2" AttributeValue="0.6"/>
+	<Property ID="MaxMagDodgeRate" AttributeValue="0.6"/>
+	<Property ID="MaxCritRate" AttributeValue="0.8"/>
+	<Property ID="MaxMagCritRate" AttributeValue="0.8"/>
+	<Property ID="GuardDecayRate1" AttributeValue="0"/>
+	<Property ID="GuardDecayRate2" AttributeValue="0"/>
+	<Property ID="AllresistDecayRate1" AttributeValue="0"/>
+	<Property ID="AllresistDecayRate2" AttributeValue="0"/>
+	<Property ID="MaxGuardRateProb" AttributeValue="0.8"/>
+	<Property ID="MaxAllResistProb" AttributeValue="0.8"/>
+</Object>

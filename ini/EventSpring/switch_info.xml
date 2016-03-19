@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 事件触发系统: 传送信息包 -->
+<!-- ID: 传送信息id(1~10留给程序测试用) -->
+<!-- SwitchType: 传送类型(0 对话框传送; 1 强制传送; 2 事件面板传送) -->
+<!-- SteamPos: 蒸汽玩家的传送位置(格式为"x,y,z") -->
+<!-- FantasyPos: 奇幻玩家的传送位置(格式为"x,y,z") -->
+<!-- 以下参数属于选择传送player的筛选条件, 仅在传送类型为0和1时使用 -->
+<!-- MaxPlayerNum: 传送player的最大数量(配0表示无限制) -->
+<!-- SceneId: 传送player所在的场景id(配0表示游戏内的所有场景) -->
+<!-- AreaId: 传送player所在的区域id(配0表示SceneId场景内的所有区域) -->
+<!-- Camp: player所在的阵营要求(0 全阵营; 1 蒸汽; 2 奇幻) -->
+<!-- MinLevel: player的最低等级要求 -->
+<!-- MaxLevel: player的最高等级要求 -->
+<Object>
+	<Property ID="1" SwitchType="2" SteamPos="-592.884,19.949,-832.024" FantasyPos="" SceneId="300" AreaId="0" Camp="0" MinLevel="1" MaxLevel="60"/>
+	<Property ID="2" SwitchType="0" SteamPos="-592.884,19.949,-832.024" FantasyPos="" SceneId="300" AreaId="0" Camp="0" MinLevel="1" MaxLevel="60"/>
+	<Property ID="3" SwitchType="0" SteamPos="-592.884,19.949,-832.024" FantasyPos="" SceneId="300" AreaId="0" Camp="0" MinLevel="1" MaxLevel="60"/>
+	<Property ID="199901" SwitchType="0" SteamPos="-525.926,10.306,-283.610" SceneId="1" AreaId="010000000" Camp="1" MinLevel="10" MaxLevel="20" BelongType="1"/>
+	<Property ID="199902" SwitchType="2" SteamPos="-525.926,10.306,-283.610" SceneId="1" AreaId="0" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="3011" SwitchType="2" SteamPos="-437.982,0.677,-314.239" FantasyPos="-392.355,1.595,-334.592" SceneId="0" AreaId="0" Camp="0" MinLevel="1" MaxLevel="60"/>
+	<Property ID="100301" SwitchType="2" SteamPos="-722.928,2.569,21.240" SceneId="1" AreaId="0" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="100501" SwitchType="2" SteamPos="-722.928,2.569,21.240" SceneId="1" AreaId="0" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="100701" SwitchType="2" SteamPos="-509.606,14.221,-822.697" SceneId="1" AreaId="0" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="100801" SwitchType="2" SteamPos="0.881,2.256,117.981" SceneId="1" AreaId="0" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="901001" SwitchType="2" SteamPos="-2926.575,25.899,1352.319" SceneId="1" AreaId="0" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="1500101" SwitchType="2" FantasyPos="-5125.241,196.881,6547.451" SceneId="3" AreaId="0" Camp="2" MinLevel="1" MaxLevel="60" BelongType="2"/>
+	<Property ID="1500201" SwitchType="2" FantasyPos="-5323.286,14.491,7065.104" SceneId="3" AreaId="150502000" Camp="2" MinLevel="1" MaxLevel="60" BelongType="2"/>
+	<Property ID="300302" SwitchType="0" SteamPos="-2257.319,76.305,1317.171" SceneId="7" AreaId="030000000" Camp="1" MinLevel="15" MaxLevel="20" BelongType="1"/>
+	<Property ID="300402" SwitchType="0" SteamPos="-1475.009,227.222,1324.632" SceneId="7" AreaId="030000000" Camp="1" MinLevel="8" MaxLevel="15" BelongType="1"/>
+	<Property ID="300301" SwitchType="2" SteamPos="-2257.319,76.305,1317.171" SceneId="7" AreaId="0" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="300401" SwitchType="2" SteamPos="-1475.009,227.222,1324.632" SceneId="7" AreaId="0" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="1031001" SwitchType="2" FantasyPos="2502.106,190.550,1176.136" SceneId="2" AreaId="0" Camp="2" MinLevel="1" MaxLevel="60"/>
+	<Property ID="1031002" SwitchType="2" FantasyPos="2502.106,190.550,1176.136" SceneId="2" AreaId="0" Camp="2" MinLevel="1" MaxLevel="60"/>
+	<Property ID="1031003" SwitchType="2" FantasyPos="2502.106,190.550,1176.136" SceneId="2" AreaId="0" Camp="2" MinLevel="1" MaxLevel="60"/>
+	<Property ID="2600101" SwitchType="2" SteamPos="-4204.797,142.492,3226.565" FantasyPos="-4177.880,142.864,3300.155" SceneId="3" AreaId="0" Camp="0" MinLevel="1" MaxLevel="60"/>
+	<Property ID="2600301" SwitchType="2" FantasyPos="-3951.964,143.636,3531.013" SceneId="3" AreaId="0" Camp="2" MinLevel="1" MaxLevel="60"/>
+	<Property ID="2600201" SwitchType="2" FantasyPos="-3337.450,128.905,2816.051" SceneId="3" AreaId="0" Camp="0" MinLevel="1" MaxLevel="60"/>
+	<Property ID="1016" SwitchType="0" SteamPos="-614.772,-6.726,271.727" SceneId="1" AreaId="010000000" Camp="1" MinLevel="1" MaxLevel="10" BelongType="1"/>
+	<Property ID="1017" SwitchType="0" SteamPos="2.043,2.636,-344.121" SceneId="1" AreaId="010000000" Camp="1" MinLevel="10" MaxLevel="20" BelongType="1"/>
+	<Property ID="1015" SwitchType="2" SteamPos="-567.271,-8.246,475.026" SceneId="1" AreaId="0" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="1009" SwitchType="2" SteamPos="-904.309,-18.235,272.370" SceneId="1" AreaId="0" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="1010" SwitchType="2" SteamPos="-904.309,-18.235,272.370" SceneId="1" AreaId="0" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="1011" SwitchType="2" SteamPos="-725.475,-12.902,668.224" SceneId="1" AreaId="0" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="1012" SwitchType="2" SteamPos="52.747,-5.423,-956.684" SceneId="1" AreaId="0" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="1018" SwitchType="2" SteamPos="-741.281,-17.620,-566.456" SceneId="1" AreaId="0" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="15012" SwitchType="2" FantasyPos="-4998.523,155.537,6699.998" SceneId="3" AreaId="0" Camp="2" MinLevel="1" MaxLevel="60" BelongType="2"/>
+	<Property ID="15014" SwitchType="2" FantasyPos="-5635.715,11.389,6908.514" SceneId="3" AreaId="0" Camp="2" MinLevel="5" MaxLevel="60" BelongType="2"/>
+	<Property ID="26011" SwitchType="2" FantasyPos="-2767.486,186.016,3044.321" SceneId="3" AreaId="0" Camp="2" MinLevel="1" MaxLevel="60" BelongType="2"/>
+	<Property ID="26012" SwitchType="2" FantasyPos="-4089.318,138.022,3406.492" SceneId="3" AreaId="0" Camp="2" MinLevel="1" MaxLevel="60" BelongType="2"/>
+	<Property ID="26013" SwitchType="2" FantasyPos="-3723.081,132.361,3450.477" SceneId="3" AreaId="0" Camp="2" MinLevel="1" MaxLevel="60" BelongType="2"/>
+	<Property ID="26014" SwitchType="2" FantasyPos="-4258.735,161.573,2942.054" SceneId="3" AreaId="0" Camp="2" MinLevel="1" MaxLevel="60" BelongType="2"/>
+	<Property ID="26005" SwitchType="2" FantasyPos="-3337.237,130.933,2783.704" SceneId="3" AreaId="0" Camp="2" MinLevel="1" MaxLevel="60" BelongType="2"/>
+	<Property ID="26007" SwitchType="2" FantasyPos="-3228.764,179.164,3466.763" SceneId="3" AreaId="0" Camp="2" MinLevel="1" MaxLevel="60" BelongType="2"/>
+	<Property ID="26008" SwitchType="2" FantasyPos="-3055.355,134.168,2967.299" SceneId="3" AreaId="0" Camp="2" MinLevel="1" MaxLevel="60" BelongType="2"/>
+	<Property ID="26009" SwitchType="2" FantasyPos="-3805.577,206.037,2784.692" SceneId="3" AreaId="0" Camp="2" MinLevel="1" MaxLevel="60" BelongType="2"/>
+	<Property ID="26010" SwitchType="2" FantasyPos="-3869.558,210.814,2706.752" SceneId="3" AreaId="0" Camp="2" MinLevel="1" MaxLevel="60" BelongType="2"/>
+	<Property ID="300501" SwitchType="2" SteamPos="-1887.061,163.435,1510.556" SceneId="7" AreaId="0" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="300701" SwitchType="2" SteamPos="-1308.333,228.080,1327.900" SceneId="7" AreaId="0" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="300901" SwitchType="2" SteamPos="-1685.489,159.279,1594.479" SceneId="7" AreaId="0" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="301001" SwitchType="2" SteamPos="-2262.357,109.679,1383.677" SceneId="7" AreaId="0" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="300801" SwitchType="2" SteamPos="-1723.980,182.207,1182.767" SceneId="7" AreaId="0" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="300601" SwitchType="2" SteamPos="-1439.143,202.003,1508.582" SceneId="7" AreaId="0" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="7001" SwitchType="2" SteamPos="5915.853,18.211,4108.924" SceneId="5" AreaId="0" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="7002" SwitchType="2" SteamPos="5604.102,106.269,3609.529" SceneId="5" AreaId="0" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="7003" SwitchType="0" SteamPos="5007.564,156.610,3158.495" SceneId="5" AreaId="070000000" Camp="1" MinLevel="25" MaxLevel="32" BelongType="1"/>
+	<Property ID="7004" SwitchType="2" SteamPos="4992.962,160.832,2873.376" SceneId="5" AreaId="0" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="7006" SwitchType="2" SteamPos="4062.342,96.771,2594.135" SceneId="5" AreaId="0" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="7007" SwitchType="2" SteamPos="4504.753,150.015,3259.869" SceneId="5" AreaId="0" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="701001" SwitchType="0" SteamPos="4258.097,143.871,3420.191" SceneId="5" AreaId="070000000" Camp="1" MinLevel="26" MaxLevel="35" BelongType="1"/>
+	<Property ID="701002" SwitchType="2" SteamPos="4258.097,143.871,3420.191" SceneId="5" AreaId="0" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="7008" SwitchType="2" SteamPos="4792.978,145.570,3909.695" SceneId="5" AreaId="0" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="7009" SwitchType="2" SteamPos="4477.666,149.577,3557.150" SceneId="5" AreaId="0" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="7011" SwitchType="2" SteamPos="5597.754,16.394,4407.852" SceneId="5" AreaId="0" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="26015" SwitchType="2" FantasyPos="-3333.674,132.507,3111.547" SceneId="3" AreaId="0" Camp="2" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="800101" SwitchType="2" SteamPos="2340.529,84.994,2498.106" SceneId="5" AreaId="0" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="800201" SwitchType="2" SteamPos="2130.624,108.023,3370.624" SceneId="5" AreaId="0" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="800102" SwitchType="0" SteamPos="2340.529,84.994,2498.106" SceneId="5" AreaId="080000000" Camp="1" MinLevel="26" MaxLevel="32" BelongType="1"/>
+	<Property ID="800202" SwitchType="0" SteamPos="2130.624,108.023,3370.624" SceneId="5" AreaId="080000000" Camp="1" MinLevel="30" MaxLevel="38" BelongType="1"/>
+	<Property ID="800401" SwitchType="2" SceneId="5" AreaId="0" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="800402" SwitchType="2" SteamPos="3669.480,148.289,2352.124" SceneId="5" AreaId="0" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="4001" SwitchType="2" SteamPos="-9.957,40.603,-1700.661" SceneId="1" AreaId="0" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="4002" SwitchType="2" SteamPos="67.253,79.851,-2116.440" SceneId="1" AreaId="0" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="4010" SwitchType="2" SteamPos="67.253,79.851,-2116.440" SceneId="1" AreaId="0" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="4003" SwitchType="2" SteamPos="398.397,78.677,-2551.338" SceneId="1" AreaId="0" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="4004" SwitchType="2" SteamPos="-102.011,85.544,-3031.199" SceneId="1" AreaId="0" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="401101" SwitchType="0" SteamPos="-102.011,85.544,-3031.199" SceneId="1" AreaId="040601000" Camp="1" MinLevel="21" MaxLevel="31" BelongType="1"/>
+	<Property ID="401102" SwitchType="2" SteamPos="-102.011,85.544,-3031.199" SceneId="1" AreaId="0" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="4005" SwitchType="2" SteamPos="-534.601,110.588,-2493.466" SceneId="1" AreaId="0" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="4006" SwitchType="2" SteamPos="-278.524,33.362,-2818.936" SceneId="1" AreaId="0" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="4007" SwitchType="2" SteamPos="128.952,52.130,-2700.062" SceneId="1" AreaId="0" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="4008" SwitchType="2" SteamPos="-792.312,-3.587,-2908.775" SceneId="1" AreaId="0" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="4009" SwitchType="2" SteamPos="2.953,38.423,-2942.783" SceneId="1" AreaId="0" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="4012" SwitchType="2" SteamPos="-62.914,37.366,-1185.970" SceneId="1" AreaId="0" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="4013" SwitchType="0" SteamPos="-484.248,12.686,-3103.177" SceneId="1" AreaId="040000000" Camp="1" MinLevel="23" MaxLevel="32" BelongType="1"/>
+	<Property ID="19002" SwitchType="2" FantasyPos="-3806.209,52.902,4678.481" SceneId="3" AreaId="0" Camp="2" MinLevel="1" MaxLevel="60" BelongType="2"/>
+	<Property ID="19003" SwitchType="2" FantasyPos="-3534.575,60.654,4789.881" SceneId="3" AreaId="0" Camp="2" MinLevel="1" MaxLevel="60" BelongType="2"/>
+	<Property ID="1900301" SwitchType="0" FantasyPos="-3534.575,60.654,4789.881" SceneId="3" AreaId="190000000" Camp="2" MinLevel="20" MaxLevel="28" BelongType="2"/>
+	<Property ID="19005" SwitchType="2" FantasyPos="-4447.204,48.289,4105.669" SceneId="3" AreaId="0" Camp="2" MinLevel="1" MaxLevel="60" BelongType="2"/>
+	<Property ID="19006" SwitchType="2" FantasyPos="-4516.845,51.572,4053.618" SceneId="3" AreaId="0" Camp="2" MinLevel="1" MaxLevel="60" BelongType="2"/>
+	<Property ID="1900601" SwitchType="2" FantasyPos="-4516.845,51.572,4053.618" SceneId="3" AreaId="190000000" Camp="2" MinLevel="22" MaxLevel="32" BelongType="2"/>
+	<Property ID="19007" SwitchType="2" FantasyPos="-5040.985,46.427,3908.194" SceneId="3" AreaId="0" Camp="2" MinLevel="1" MaxLevel="60" BelongType="2"/>
+	<Property ID="19009" SwitchType="2" FantasyPos="-5199.992,32.936,3546.676" SceneId="3" AreaId="0" Camp="2" MinLevel="1" MaxLevel="60" BelongType="2"/>
+	<Property ID="19001" SwitchType="2" FantasyPos="-4784.500,55.837,4562.809" SceneId="3" AreaId="0" Camp="2" MinLevel="1" MaxLevel="60" BelongType="2"/>
+	<Property ID="19010" SwitchType="2" FantasyPos="-4200,114,3747" SceneId="3" AreaId="0" Camp="2" MinLevel="1" MaxLevel="60" BelongType="2"/>
+	<Property ID="14004" SwitchType="2" FantasyPos="3428.513,132.104,-48.671" SceneId="2" AreaId="0" Camp="2" MinLevel="0" MaxLevel="60" BelongType="2"/>
+	<Property ID="14005" SwitchType="2" FantasyPos="2950.717,30.018,-10.309" SceneId="2" AreaId="0" Camp="2" MinLevel="0" MaxLevel="60" BelongType="2"/>
+	<Property ID="14007" SwitchType="2" FantasyPos="2958.216,31.282,385.635" SceneId="2" AreaId="0" Camp="2" MinLevel="0" MaxLevel="60" BelongType="2"/>
+	<Property ID="1401201" SwitchType="0" FantasyPos="3235.425,62.905,-460.219" SceneId="2" AreaId="140000000" Camp="2" MinLevel="10" MaxLevel="20" BelongType="2"/>
+	<Property ID="1401202" SwitchType="2" FantasyPos="3235.425,62.905,-460.219" SceneId="2" AreaId="0" Camp="2" MinLevel="0" MaxLevel="60" BelongType="2"/>
+	<Property ID="14017" SwitchType="2" FantasyPos="3945.521,31.770,291.06" SceneId="2" AreaId="0" Camp="2" MinLevel="0" MaxLevel="60" BelongType="2"/>
+	<Property ID="14018" SwitchType="2" FantasyPos="2703.547,32.419,352.90" SceneId="2" AreaId="0" Camp="2" MinLevel="0" MaxLevel="60" BelongType="2"/>
+	<Property ID="14019" SwitchType="2" FantasyPos="4193.402,56.501,753.893" SceneId="2" AreaId="0" Camp="2" MinLevel="0" MaxLevel="60" BelongType="2"/>
+	<Property ID="1402301" SwitchType="0" FantasyPos="4119.914,49.841,281.334" SceneId="2" AreaId="140000000" Camp="2" MinLevel="10" MaxLevel="20" BelongType="2"/>
+	<Property ID="1402302" SwitchType="2" FantasyPos="4119.914,49.841,281.334" SceneId="2" AreaId="0" Camp="2" MinLevel="0" MaxLevel="60" BelongType="2"/>
+	<Property ID="1403001" SwitchType="0" FantasyPos="3815.021,34.958,922.187" SceneId="2" AreaId="140000000" Camp="2" MinLevel="7" MaxLevel="17" BelongType="2"/>
+	<Property ID="1403002" SwitchType="2" FantasyPos="3815.021,34.958,922.187" SceneId="2" AreaId="0" Camp="2" MinLevel="0" MaxLevel="60" BelongType="2"/>
+	<Property ID="14031" SwitchType="2" FantasyPos="3419.466,32.426,922.070" SceneId="2" AreaId="0" Camp="2" MinLevel="0" MaxLevel="60" BelongType="2"/>
+	<Property ID="14032" SwitchType="2" FantasyPos="3471.012,39.099,1183.096" SceneId="2" AreaId="0" Camp="2" MinLevel="0" MaxLevel="60" BelongType="2"/>
+	<Property ID="14034" SwitchType="2" FantasyPos="3806.617,34.722,921.593" SceneId="2" AreaId="0" Camp="2" MinLevel="0" MaxLevel="60" BelongType="2"/>
+	<Property ID="14035" SwitchType="2" FantasyPos="3634.767,33.440,1235.901" SceneId="2" AreaId="0" Camp="2" MinLevel="0" MaxLevel="60" BelongType="2"/>
+	<Property ID="17001" SwitchType="2" FantasyPos="4633.524,104.767,-969.611" SceneId="2" AreaId="0" Camp="2" MinLevel="0" MaxLevel="60" BelongType="2"/>
+	<Property ID="17002" SwitchType="2" FantasyPos="4651.607,19.763,-1344.021" SceneId="2" AreaId="0" Camp="2" MinLevel="0" MaxLevel="60" BelongType="2"/>
+	<Property ID="17003" SwitchType="2" FantasyPos="4403.175,49.094,-1621.950" SceneId="2" AreaId="0" Camp="2" MinLevel="0" MaxLevel="60" BelongType="2"/>
+	<Property ID="17004" SwitchType="2" FantasyPos="3924.114,157.630,-1244.079" SceneId="2" AreaId="0" Camp="2" MinLevel="0" MaxLevel="60" BelongType="2"/>
+	<Property ID="17005" SwitchType="2" FantasyPos="3544.429,169.417,-1999.602" SceneId="2" AreaId="0" Camp="2" MinLevel="0" MaxLevel="60" BelongType="2"/>
+	<Property ID="17006" SwitchType="2" FantasyPos="3939.512,187.922,-902.612" SceneId="2" AreaId="0" Camp="2" MinLevel="0" MaxLevel="60" BelongType="2"/>
+	<Property ID="17007" SwitchType="2" FantasyPos="3936.222,84.814,-1668.132" SceneId="2" AreaId="0" Camp="2" MinLevel="0" MaxLevel="60" BelongType="2"/>
+	<Property ID="17008" SwitchType="2" FantasyPos="3423.586,166.047,-1945.644" SceneId="2" AreaId="0" Camp="2" MinLevel="0" MaxLevel="60" BelongType="2"/>
+	<Property ID="1700901" SwitchType="0" FantasyPos="3364.950,211.539,-1286.481" SceneId="2" AreaId="170000000" Camp="2" MinLevel="20" MaxLevel="27" BelongType="2"/>
+	<Property ID="1701001" SwitchType="0" FantasyPos="4117.741,95.236,-1412.184" SceneId="2" AreaId="170000000" Camp="2" MinLevel="20" MaxLevel="27" BelongType="2"/>
+	<Property ID="1701101" SwitchType="0" FantasyPos="3155.952,203.742,-1910.756" SceneId="2" AreaId="170000000" Camp="2" MinLevel="20" MaxLevel="27" BelongType="2"/>
+	<Property ID="1700902" SwitchType="2" FantasyPos="3364.950,211.539,-1286.481" SceneId="2" AreaId="0" Camp="2" MinLevel="0" MaxLevel="60" BelongType="2"/>
+	<Property ID="1701002" SwitchType="2" FantasyPos="4117.741,95.236,-1412.184" SceneId="2" AreaId="0" Camp="2" MinLevel="0" MaxLevel="60" BelongType="2"/>
+	<Property ID="1701102" SwitchType="2" FantasyPos="3155.952,203.742,-1910.756" SceneId="2" AreaId="0" Camp="2" MinLevel="0" MaxLevel="60" BelongType="2"/>
+	<Property ID="1800102" SwitchType="2" FantasyPos="4799.610,73.909,979.509" SceneId="2" AreaId="0" Camp="2" MinLevel="0" MaxLevel="60" BelongType="2"/>
+	<Property ID="1800202" SwitchType="2" FantasyPos="5023.118,68.725,465.021" SceneId="2" AreaId="0" Camp="2" MinLevel="0" MaxLevel="60" BelongType="2"/>
+	<Property ID="1800101" SwitchType="0" FantasyPos="4799.610,73.909,979.509" SceneId="2" AreaId="180000000" Camp="2" MinLevel="28" MaxLevel="34" BelongType="2"/>
+	<Property ID="1800201" SwitchType="0" FantasyPos="5023.118,68.725,465.021" SceneId="2" AreaId="180000000" Camp="2" MinLevel="28" MaxLevel="35" BelongType="2"/>
+	<Property ID="18004" SwitchType="2" FantasyPos="4505.901,98.799,1528.387" SceneId="2" AreaId="0" Camp="2" MinLevel="0" MaxLevel="60" BelongType="2"/>
+	<Property ID="18005" SwitchType="2" FantasyPos="4880.254,76.418,1475.178" SceneId="2" AreaId="0" Camp="2" MinLevel="0" MaxLevel="60" BelongType="2"/>
+	<Property ID="18006" SwitchType="2" FantasyPos="5070.832,59.954,1612.834" SceneId="2" AreaId="0" Camp="2" MinLevel="0" MaxLevel="60" BelongType="2"/>
+	<Property ID="18007" SwitchType="2" FantasyPos="5165.966,56.848,810.317" SceneId="2" AreaId="0" Camp="2" MinLevel="0" MaxLevel="60" BelongType="2"/>
+	<Property ID="18008" SwitchType="2" FantasyPos="4962.553,71.284,183.763" SceneId="2" AreaId="0" Camp="2" MinLevel="0" MaxLevel="60" BelongType="2"/>
+	<Property ID="18009" SwitchType="2" FantasyPos="4502.158,68.792,-246.280" SceneId="2" AreaId="0" Camp="2" MinLevel="0" MaxLevel="60" BelongType="2"/>
+	<Property ID="18010" SwitchType="2" FantasyPos="4739.961,88.359,-382.098" SceneId="2" AreaId="0" Camp="2" MinLevel="0" MaxLevel="60" BelongType="2"/>
+	<Property ID="18011" SwitchType="2" FantasyPos="5258.139,66.891,1449.294" SceneId="2" AreaId="0" Camp="2" MinLevel="0" MaxLevel="60" BelongType="2"/>
+	<Property ID="18012" SwitchType="2" FantasyPos="5236.793,56.820,1315.729" SceneId="2" AreaId="0" Camp="2" MinLevel="0" MaxLevel="60" BelongType="2"/>
+	<Property ID="2200101" SwitchType="0" SteamPos="-665.842,152.448,2933.489" FantasyPos="-647.278,154.370,2975.302" SceneId="6" AreaId="220000000" Camp="0" MinLevel="36" MaxLevel="40" BelongType="0"/>
+	<Property ID="2200102" SwitchType="2" SteamPos="-665.842,152.448,2933.489" FantasyPos="-647.278,154.370,2975.302" SceneId="6" AreaId="0" Camp="0" MinLevel="0" MaxLevel="60" BelongType="0"/>
+	<Property ID="22002" SwitchType="2" SteamPos="-1397.916,115.986,1900.577" FantasyPos="-1499.440,112.690,2014.148" SceneId="6" AreaId="0" Camp="0" MinLevel="0" MaxLevel="60" BelongType="0"/>
+	<Property ID="22003" SwitchType="2" SteamPos="-816.753,102.470,2331.326" FantasyPos="-841.708,99.230,2345.099" SceneId="6" AreaId="0" Camp="0" MinLevel="0" MaxLevel="60" BelongType="0"/>
+	<Property ID="22004" SwitchType="2" SteamPos="-1712.322,56.270,2884.100" FantasyPos="-1667.018,56.873,2854.867" SceneId="6" AreaId="0" Camp="0" MinLevel="0" MaxLevel="60" BelongType="0"/>
+	<Property ID="22005" SwitchType="2" SteamPos="-1283.786,162.380,2918.867" FantasyPos="-1324.094,133.297,2706.635" SceneId="6" AreaId="0" Camp="0" MinLevel="0" MaxLevel="60" BelongType="0"/>
+	<Property ID="22006" SwitchType="2" SteamPos="-967.137,79.736,2282.427" FantasyPos="-961.997,83.181,2330.535" SceneId="6" AreaId="0" Camp="0" MinLevel="0" MaxLevel="60" BelongType="0"/>
+	<Property ID="22007" SwitchType="2" SteamPos="-1295.392,108.776,3813.885" FantasyPos="-1327.312,107.758,3792.078" SceneId="6" AreaId="0" Camp="0" MinLevel="0" MaxLevel="60" BelongType="0"/>
+	<Property ID="2200801" SwitchType="0" SteamPos="-984.939,95.315,2613.389" FantasyPos="-981.175,94.095,2652.850" SceneId="6" AreaId="220000000" Camp="0" MinLevel="36" MaxLevel="40" BelongType="0"/>
+	<Property ID="2201001" SwitchType="0" SteamPos="-967.006,168.379,3264.206" FantasyPos="-1157.475,169.604,3248.654" SceneId="6" AreaId="220000000" Camp="0" MinLevel="36" MaxLevel="40" BelongType="0"/>
+	<Property ID="2200802" SwitchType="2" SteamPos="-984.939,95.315,2613.389" FantasyPos="-981.175,94.095,2652.850" SceneId="6" AreaId="0" Camp="0" MinLevel="0" MaxLevel="60" BelongType="0"/>
+	<Property ID="2201002" SwitchType="2" SteamPos="-967.006,168.379,3264.206" FantasyPos="-1157.475,169.604,3248.654" SceneId="6" AreaId="0" Camp="0" MinLevel="0" MaxLevel="60" BelongType="0"/>
+	<Property ID="1500301" SwitchType="2" FantasyPos="-5185.275,112.745,6269.056" SceneId="3" AreaId="0" Camp="2" MinLevel="1" MaxLevel="60" BelongType="2"/>
+	<Property ID="1500401" SwitchType="2" FantasyPos="-5939.245,8.460,6977.391" SceneId="3" AreaId="0" Camp="2" MinLevel="1" MaxLevel="60" BelongType="2"/>
+	<Property ID="1500501" SwitchType="2" FantasyPos="-5521.898,57.200,6480.556" SceneId="3" AreaId="0" Camp="2" MinLevel="1" MaxLevel="60" BelongType="2"/>
+	<Property ID="1500601" SwitchType="0" FantasyPos="-5017.788,129.639,5596.772" SceneId="3" AreaId="150000000" Camp="2" MinLevel="1" MaxLevel="60" BelongType="2"/>
+	<Property ID="1500602" SwitchType="2" FantasyPos="-5017.788,129.639,5596.772" SceneId="3" AreaId="0" Camp="2" MinLevel="1" MaxLevel="60" BelongType="2"/>
+	<Property ID="1500701" SwitchType="2" FantasyPos="-4903.232,194.356,5221.950" SceneId="3" AreaId="151501000" Camp="2" MinLevel="1" MaxLevel="60" BelongType="2"/>
+	<Property ID="1500702" SwitchType="0" FantasyPos="-4903.232,194.356,5221.950" SceneId="3" AreaId="151501000" Camp="2" MinLevel="1" MaxLevel="60" BelongType="2"/>
+	<Property ID="1500801" SwitchType="2" FantasyPos="-5412.038,73.284,6110.980" SceneId="3" AreaId="0" Camp="2" MinLevel="1" MaxLevel="60" BelongType="2"/>
+	<Property ID="1501001" SwitchType="0" FantasyPos="-5415.475,80.029,5924.302" SceneId="3" AreaId="150000000" Camp="2" MinLevel="1" MaxLevel="60" BelongType="2"/>
+	<Property ID="1501002" SwitchType="2" FantasyPos="-5415.475,80.029,5924.302" SceneId="3" AreaId="0" Camp="2" MinLevel="1" MaxLevel="60" BelongType="2"/>
+	<Property ID="301101" SwitchType="3" SceneId="7" AreaId="030000000" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="301102" SwitchType="2" SteamPos="-1035.694,144.116,2272.236" SceneId="7" AreaId="030000000" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="300201" SwitchType="2" SteamPos="-1371.635,203.279,1620.038" SceneId="7" AreaId="030000000" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="800301" SwitchType="2" SteamPos="1846.793,126.495,1910.822" SceneId="5" AreaId="080000000" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="800501" SwitchType="2" SteamPos="3602.156,33.570,3382.204" SceneId="5" AreaId="080000000" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="800601" SwitchType="2" SteamPos="2769.168,81.327,2801.525" SceneId="5" AreaId="080000000" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="800701" SwitchType="2" SteamPos="3886.375,89.687,3893.284" SceneId="5" AreaId="080000000" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="901501" SwitchType="2" SteamPos="-3191.698,52.179,672.380" SceneId="1" AreaId="090000000" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="901601" SwitchType="2" SteamPos="-3191.698,52.179,672.380" SceneId="1" AreaId="090000000" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="901701" SwitchType="2" SteamPos="-3162.797,93.666,239.217" SceneId="1" AreaId="090000000" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="901901" SwitchType="2" SteamPos="-3903.929,59.909,555.667" SceneId="1" AreaId="090000000" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="902101" SwitchType="2" SteamPos="-3351.573,68.142,431.771" SceneId="1" AreaId="090000000" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="901101" SwitchType="2" SteamPos="-2926.575,25.899,1352.319" SceneId="1" AreaId="0" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="901201" SwitchType="2" SteamPos="-2926.575,25.899,1352.319" SceneId="1" AreaId="0" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="901301" SwitchType="2" SteamPos="-2926.575,25.899,1352.319" SceneId="1" AreaId="0" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="901401" SwitchType="2" SteamPos="-3047.000,19.688,1255.000" SceneId="1" AreaId="0" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="1900401" SwitchType="2" FantasyPos="-5322.628,39.781,4226.733" SceneId="3" AreaId="0" Camp="2" MinLevel="1" MaxLevel="60" BelongType="2"/>
+	<Property ID="901801" SwitchType="2" SteamPos="-4349.000,87.128,556.000" SceneId="1" AreaId="010000000" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="102101" SwitchType="2" SteamPos="-454.146,7.658,886.563" SceneId="1" AreaId="0" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="14001" SwitchType="2" FantasyPos="3181.645,53.727,982.455" SceneId="2" AreaId="140000000" Camp="2" MinLevel="1" MaxLevel="60" BelongType="2"/>
+	<Property ID="102201" SwitchType="2" SteamPos="-241.325,2.507,-205.655" SceneId="1" AreaId="0" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="14002" SwitchType="2" FantasyPos="2956.778,71.547,805.849" SceneId="2" AreaId="140000000" Camp="2" MinLevel="1" MaxLevel="60" BelongType="2"/>
+	<Property ID="301701" SwitchType="2" SteamPos="-454.146,7.658,886.563" SceneId="7" AreaId="030000000" Camp="1" MinLevel="5" MaxLevel="15" BelongType="1"/>
+	<Property ID="301501" SwitchType="2" SteamPos="-1936.757,163.461,1504.767" SceneId="7" AreaId="031101000" Camp="1" MinLevel="8" MaxLevel="20" BelongType="1"/>
+	<Property ID="3016" SwitchType="2" SteamPos="-1219.209,210.128,1671.173" SceneId="7" AreaId="031401000" Camp="1" MinLevel="8" MaxLevel="20" BelongType="1"/>
+	<Property ID="1501601" SwitchType="2" FantasyPos="-4984.903,111.701,5900.487" SceneId="3" AreaId="151101000" Camp="2" MinLevel="8" MaxLevel="20" BelongType="1"/>
+	<Property ID="1019" SwitchType="2" SteamPos="-280.848,2.716,29.676" SceneId="1" AreaId="011400000" Camp="1" MinLevel="5" MaxLevel="25" BelongType="1"/>
+	<Property ID="1403601" SwitchType="2" FantasyPos="3765.375,27.273,948.518" SceneId="2" Camp="2" MinLevel="1" MaxLevel="60"/>
+	<Property ID="1403801" SwitchType="2" FantasyPos="4154.396,53.143,9.941" SceneId="2" AreaId="140000000" Camp="2" MinLevel="5" MaxLevel="15" BelongType="2"/>
+	<Property ID="15019" SwitchType="2" FantasyPos="-5250.205,93.682,6234.637" SceneId="3" AreaId="150702000" Camp="2" MinLevel="10" MaxLevel="20" BelongType="1"/>
+	<Property ID="1023005" SwitchType="2" SteamPos="-1065.867,-17.883,58.797" SceneId="1" AllowNum="99"/>
+	<Property ID="2601801" SwitchType="2" FantasyPos="-3432.332,135.755,2943.549" SceneId="3" AreaId="260600000" Camp="2" MinLevel="29" MaxLevel="36" BelongType="2"/>
+	<Property ID="2201301" SwitchType="2" FantasyPos="-920.252,92.943,2362.992" SceneId="6" AreaId="221002000" Camp="2" MinLevel="36" MaxLevel="40" BelongType="2"/>
+	<Property ID="2201401" SwitchType="2" SteamPos="-1458.042,94.139,2339.037" FantasyPos="-1486.141,97.112,2413.607" SceneId="6" AreaId="221501000" Camp="0" MinLevel="36" MaxLevel="40" BelongType="0"/>
+	<Property ID="2201501" SwitchType="2" SteamPos="-1000.257,74.980,3110.866" SceneId="6" AreaId="220701000" Camp="1" MinLevel="36" MaxLevel="40" BelongType="1"/>
+	<Property ID="15020" SwitchType="2" SceneId="2" AreaId="150403000" Camp="2" MinLevel="1" MaxLevel="1" AllowNum="1" BelongType="2" FantasyPos="-4911.771,193.926,6730.326"/>
+	<Property ID="2700101" SwitchType="0" SteamPos="620.000,71.607,2872.961" FantasyPos="622.000,71.607,2872.961" SceneId="6" AreaId="270501000" Camp="0" MinLevel="36" MaxLevel="40" BelongType="0"/>
+	<Property ID="2700102" SwitchType="2" SteamPos="620.000,71.607,2872.961" FantasyPos="622.000,71.607,2872.961" SceneId="6" AreaId="0" Camp="0" MinLevel="0" MaxLevel="60" BelongType="0"/>
+	<Property ID="2700201" SwitchType="0" SteamPos="2300.036,23.021,2809.992" FantasyPos="2306.036,23.021,2809.992" SceneId="6" AreaId="270801000" Camp="0" MinLevel="36" MaxLevel="40" BelongType="0"/>
+	<Property ID="2700202" SwitchType="2" SteamPos="2300.036,23.021,2809.992" FantasyPos="2306.036,23.021,2809.992" SceneId="6" AreaId="0" Camp="0" MinLevel="0" MaxLevel="60" BelongType="0"/>
+	<Property ID="2700301" SwitchType="0" SteamPos="1082.685,25.147,2074.948" FantasyPos="1088.685,25.147,2074.948" SceneId="6" AreaId="270401000" Camp="0" MinLevel="36" MaxLevel="40" BelongType="0"/>
+	<Property ID="2700302" SwitchType="2" SteamPos="1082.685,25.147,2074.948" FantasyPos="1088.685,25.147,2074.948" SceneId="6" AreaId="0" Camp="0" MinLevel="0" MaxLevel="60" BelongType="0"/>
+	<Property ID="2700401" SwitchType="0" SteamPos="1232.831,24.708,3443.638" FantasyPos="1238.831,24.708,3443.638" SceneId="6" AreaId="270601000" Camp="0" MinLevel="36" MaxLevel="40" BelongType="0"/>
+	<Property ID="2700402" SwitchType="2" SteamPos="1232.831,24.708,3443.638" FantasyPos="1238.831,24.708,3443.638" SceneId="6" AreaId="0" Camp="0" MinLevel="0" MaxLevel="60" BelongType="0"/>
+	<Property ID="2700501" SwitchType="0" SteamPos="2216.762,5.800,3315.968" FantasyPos="2222.762,5.800,3315.968" SceneId="6" AreaId="270802000" Camp="0" MinLevel="36" MaxLevel="40" BelongType="0"/>
+	<Property ID="2700502" SwitchType="2" SteamPos="2216.762,5.800,3315.968" FantasyPos="2222.762,5.800,3315.968" SceneId="6" AreaId="0" Camp="0" MinLevel="0" MaxLevel="60" BelongType="0"/>
+	<Property ID="26019" SwitchType="2" FantasyPos="-3706.572,129.891,3554.833" SceneId="3" AreaId="0" Camp="2" MinLevel="1" MaxLevel="60" BelongType="2"/>
+	<Property ID="7015" SwitchType="2" SteamPos="4531.070,151.840,3339.022" SceneId="1" AreaId="070500000" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="4017" SwitchType="2" SteamPos="-474.773,13.468,-3099.188" SceneId="1" AreaId="0" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="19012" SwitchType="2" FantasyPos="-3794.328,55.581,4777.125" SceneId="3" AreaId="0" Camp="2" MinLevel="1" MaxLevel="60" BelongType="2"/>
+	<Property ID="102401" SwitchType="2" SteamPos="-692.521,-5.465,299.741" SceneId="1" AreaId="010000000" Camp="1" MinLevel="10" MaxLevel="15" BelongType="1"/>
+	<Property ID="401601" SwitchType="2" SteamPos="-665.472,86.652,-2759.205" SceneId="1" AreaId="0" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="1701501" SwitchType="2" FantasyPos="3992.825,7.694,-1984.172" SceneId="2" AreaId="0" Camp="2" MinLevel="1" MaxLevel="60" BelongType="2"/>
+	<Property ID="1801501" SwitchType="2" FantasyPos="5277.627,57.449,1293.094" SceneId="2" AreaId="0" Camp="2" MinLevel="1" MaxLevel="60" BelongType="2"/>
+	<Property ID="701401" SwitchType="2" SceneId="5" AreaId="0" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1"/>
+	<Property ID="902501" SwitchType="2" SceneId="1" AreaId="090000000" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1" SteamPos="-3357.000,57.645,600.000"/>
+	<Property ID="902601" SwitchType="2" SceneId="1" Camp="1" MinLevel="1" MaxLevel="60" BelongType="1" SteamPos="-4023.521,63.217,273.637"/>
+</Object>
+
+

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes" ?>
+<Processor>
+    <Base type="object" version="1.0">
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-12520.513,105.621,-11835.290,0.030" Index="0" />
+            <Param type="6" data="Technology_FB103_T_0003_1" Index="1" />
+            <Param type="6" data="0301" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-12516.094,105.323,-11835.422,0.030" Index="0" />
+            <Param type="6" data="Technology_FB103_T_0003_2" Index="1" />
+            <Param type="6" data="0302" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-12507.890,105.618,-11836.157,0.156" Index="0" />
+            <Param type="6" data="Technology_FB103_T_0003_3" Index="1" />
+            <Param type="6" data="0303" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-12500.792,105.653,-11836.271,0.087" Index="0" />
+            <Param type="6" data="Technology_FB103_T_0003_4" Index="1" />
+            <Param type="6" data="0304" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-12492.319,105.340,-11836.977,0.093" Index="0" />
+            <Param type="6" data="Technology_FB103_T_0003_5" Index="1" />
+            <Param type="6" data="0305" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-12485.779,105.489,-11836.050,0.093" Index="0" />
+            <Param type="6" data="Technology_FB103_T_0003_6" Index="1" />
+            <Param type="6" data="0306" Index="2" />
+        </Line>
+        <Line Type="2" Event="2114" Name="AUTOP1">
+            <Param type="6" data="npc_FB103_0001" Index="0" />
+        </Line>
+        <Line Type="1" Event="4007">
+            <Param type="13" srctype="8" data="AUTOP1" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="6" data="1,60301;5,60302" Index="2" />
+        </Line>
+        <Line Type="2" Event="2114" Name="AUTOP2">
+            <Param type="6" data="Skill_dixiaganxian_0003" Index="0" />
+        </Line>
+        <Line Type="1" Event="5059">
+            <Param type="13" srctype="8" data="AUTOP2" Index="0" />
+            <Param type="2" data="15" Index="1" />
+        </Line>
+    </Base>
+</Processor>

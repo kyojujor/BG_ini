@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 被2011 rel. 2 sp1 (TeaM DJiNN) 使用XMLSpy vTeaM DJiNN编辑的 (http://www.altova.com) by -->
+<!-- CarrierLimit		载具制造条件限制（可多个）		 条件号1,条件号2...		string	-->
+<!-- CancelCoe			取消制造材料返还系数(0.0 ~ 1.0)							float	-->
+<!-- CarrierPosition	载具制造中的坐标和朝向			 x,y,z,orientation		int		-->
+<!-- Expression			载具制造机器NPC的坐标和朝向与动作			 config_id,x,y,z,orientation,play1,play2;...		string-->
+<Object>
+	<Property ID="1" ZQCarrierID="1,2,3,4,5,6,7"/>
+	<Property ID="2" QHCarrierID="9,10,11,12,13,14"/>
+	<Property ID="3" ZQCarrierID="15,16" QHCarrierID="17,18"/>
+</Object>

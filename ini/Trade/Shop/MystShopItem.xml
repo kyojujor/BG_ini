@@ -1,0 +1,1102 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 被2011 rel. 2 sp1 (TeaM DJiNN) 使用XMLSpy vTeaM DJiNN编辑的 (http://www.altova.com) by -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 神秘商店可能刷出的物品包 -->
+<!-- ID         神秘商店出售品ID  格式：MystShopItem_大类_小类_品质_等级区间_编号                              string  -->
+<!-- Desc       物品名，只是为了方便观察而已，无实际效用                                                      string  -->
+<!-- ItemType   物品类型，只是为了方便观察而已，无实际效用                                                    string  -->
+<!-- ColorLevel 物品品质，只是为了方便观察而已，无实际效用                                                    string  -->
+<!-- Level      物品等级，只是为了方便观察而已，无实际效用                                                    string  -->
+<!-- ItemID     物品的ConfigID                                                                              string  -->
+<!-- Camp       物品的阵营（阵营不符不会刷出来）                                                                 int  -->
+<!-- Prob       同品质下，被刷出的可能性，取值范围[1,7]，1极低->2低->3较低->4中->5较高->6高->7极高                 int  -->
+<Object>
+	<!--        【武器】        -->
+	<!--    <剑>    -->
+	<Property ID="MystShopItem_1_101_B_0_01" Desc="新兵长剑" ItemType="101" ColorLevel="2" Level="8" ItemID="BO_Sword_00008B" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_101_B_1_01" Desc="魔焰剑" ItemType="101" ColorLevel="2" Level="13" ItemID="XG_Sword_00013B" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_101_B_1_02" Desc="西多夫之剑" ItemType="101" ColorLevel="2" Level="16" ItemID="BO_Sword_00016B" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_101_B_1_03" Desc="亵渎大剑" ItemType="101" ColorLevel="2" Level="16" ItemID="BO_Claymore_00016B" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_101_B_2_01" Desc="刺客剑" ItemType="101" ColorLevel="2" Level="21" ItemID="XG_Sword_00021B" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_101_B_2_02" Desc="血怒剑" ItemType="101" ColorLevel="2" Level="23" ItemID="BO_Sword_00023B" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_101_B_2_03" Desc="暴风大剑" ItemType="101" ColorLevel="2" Level="23" ItemID="BO_Claymore_00023B" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_101_C_2_04" Desc="破刃剑" ItemType="101" ColorLevel="3" Level="23" ItemID="BO_Sword_00023C" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_101_C_2_05" Desc="守护之刃" ItemType="101" ColorLevel="3" Level="23" ItemID="BO_Claymore_00023C" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_101_B_2_06" Desc="破甲剑" ItemType="101" ColorLevel="2" Level="28" ItemID="XG_Sword_00028B" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_101_B_2_07" Desc="血色苍穹" ItemType="101" ColorLevel="2" Level="28" ItemID="XG_Claymore_00028B" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_101_C_2_08" Desc="命运之剑" ItemType="101" ColorLevel="3" Level="30" ItemID="BO_Sword_00030C" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_101_C_2_09" Desc="血色光辉" ItemType="101" ColorLevel="3" Level="30" ItemID="BO_Claymore_00030C" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_101_D_2_10" ItemType="101" ColorLevel="4" Level="30" ItemID="BO_Sword_00030D" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_101_D_2_11" ItemType="101" ColorLevel="4" Level="30" ItemID="BO_Claymore_00030D" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_101_B_3_01" Desc="野性双手剑" ItemType="101" ColorLevel="2" Level="35" ItemID="XG_Claymore_00035B" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_101_C_3_02" Desc="迅影剑" ItemType="101" ColorLevel="3" Level="35" ItemID="BO_Sword_00035C" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_101_C_3_03" Desc="堕落深渊之力" ItemType="101" ColorLevel="3" Level="35" ItemID="BO_Claymore_00035C" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_101_D_3_04" ItemType="101" ColorLevel="4" Level="35" ItemID="BO_Sword_00035D" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_101_D_3_05" ItemType="101" ColorLevel="4" Level="35" ItemID="BO_Claymore_00035D" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_101_C_3_06" Desc="裂空长剑" ItemType="101" ColorLevel="3" Level="40" ItemID="BO_Sword_00040C" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_101_C_3_07" Desc="血色之辉" ItemType="101" ColorLevel="3" Level="40" ItemID="BO_Claymore_00040C" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_101_D_3_08" ItemType="101" ColorLevel="4" Level="40" ItemID="BO_Sword_00040D" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_101_D_3_09" ItemType="101" ColorLevel="4" Level="40" ItemID="BO_Claymore_00040D" Camp="3" Prob="4"/>
+	<!--    <匕首>    -->
+	<Property ID="MystShopItem_1_102_B_1_01" Desc="光影匕首" ItemType="102" ColorLevel="2" Level="16" ItemID="BO_Dagger_00016B" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_102_B_2_01" Desc="迅捷匕首" ItemType="102" ColorLevel="2" Level="21" ItemID="XG_Dagger_00021B" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_102_C_2_02" Desc="华丽之击" ItemType="102" ColorLevel="3" Level="21" ItemID="XG_Dagger_00021C" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_102_B_2_03" Desc="黑煞匕首" ItemType="102" ColorLevel="2" Level="23" ItemID="BO_Dagger_00023B" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_102_C_2_04" Desc="酷刑匕首" ItemType="102" ColorLevel="3" Level="23" ItemID="BO_Dagger_00023C" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_102_B_2_05" Desc="致命匕首" ItemType="102" ColorLevel="2" Level="28" ItemID="XG_Dagger_00028B" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_102_C_2_06" Desc="血怒匕首" ItemType="102" ColorLevel="3" Level="30" ItemID="BO_Dagger_00030C" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_102_D_2_07" ItemType="102" ColorLevel="4" Level="30" ItemID="BO_Dagger_00030D" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_102_B_3_01" Desc="断发匕首" ItemType="102" ColorLevel="2" Level="35" ItemID="XG_Dagger_00035B" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_102_C_3_02" Desc="灼热匕首" ItemType="102" ColorLevel="3" Level="35" ItemID="BO_Dagger_00035C" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_102_D_3_03" ItemType="102" ColorLevel="4" Level="35" ItemID="BO_Dagger_00035D" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_102_C_3_04" Desc="星月之光" ItemType="102" ColorLevel="3" Level="40" ItemID="BO_Dagger_00040C" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_102_D_3_05" ItemType="102" ColorLevel="4" Level="40" ItemID="BO_Dagger_00040D" Camp="3" Prob="4"/>
+	<!--    <锤子>    -->
+	<!--    <斧>    -->
+	<Property ID="MystShopItem_1_104_B_0_01" Desc="新兵重斧" ItemType="104" ColorLevel="2" Level="8" ItemID="BO_Poleaxe_00008B" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_104_B_1_01" Desc="灼热战斧" ItemType="104" ColorLevel="2" Level="13" ItemID="XG_Poleaxe_00013B" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_104_B_1_02" Desc="47军团长大斧" ItemType="104" ColorLevel="2" Level="16" ItemID="BO_Poleaxe_00016B" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_104_B_2_01" Desc="斩首大斧" ItemType="104" ColorLevel="2" Level="21" ItemID="XG_Poleaxe_00021B" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_104_B_2_02" Desc="贝尔格的大斧" ItemType="104" ColorLevel="2" Level="23" ItemID="BO_Poleaxe_00023B" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_104_C_2_03" Desc="无尽战斧" ItemType="104" ColorLevel="3" Level="23" ItemID="BO_Poleaxe_00023C" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_104_B_2_04" Desc="坚韧战斧" ItemType="104" ColorLevel="2" Level="28" ItemID="XG_Poleaxe_00028B" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_104_C_2_05" Desc="风暴战斧" ItemType="104" ColorLevel="3" Level="30" ItemID="BO_Poleaxe_00030C" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_104_D_2_06" ItemType="104" ColorLevel="4" Level="30" ItemID="BO_Poleaxe_00030D" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_104_B_3_01" Desc="巨力战斧" ItemType="104" ColorLevel="2" Level="35" ItemID="XG_Poleaxe_00035B" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_104_C_3_02" Desc="狂野巨斧" ItemType="104" ColorLevel="3" Level="35" ItemID="XG_Poleaxe_00035C" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_104_C_3_03" Desc="十字战斧" ItemType="104" ColorLevel="3" Level="35" ItemID="BO_Poleaxe_00035C" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_104_D_3_04" ItemType="104" ColorLevel="4" Level="35" ItemID="BO_Poleaxe_00035D" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_104_C_3_05" Desc=" 格拉图战斧" ItemType="104" ColorLevel="3" Level="40" ItemID="BO_Poleaxe_00040C" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_104_D_3_06" ItemType="104" ColorLevel="4" Level="40" ItemID="BO_Poleaxe_00040D" Camp="3" Prob="4"/>
+	<!--    <盾>    -->
+	<Property ID="MystShopItem_1_107_B_1_01" Desc="灼热盾" ItemType="107" ColorLevel="2" Level="13" ItemID="XG_Shield_00013B" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_107_B_1_02" Desc="暴风盾" ItemType="107" ColorLevel="2" Level="16" ItemID="BO_Shield_00016B" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_107_B_2_01" Desc="精致新兵盾" ItemType="107" ColorLevel="2" Level="21" ItemID="XG_Shield_00021B" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_107_C_2_02" Desc="龟甲之盾" ItemType="107" ColorLevel="3" Level="21" ItemID="XG_Shield_00021C" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_107_B_2_03" Desc="因特盾" ItemType="107" ColorLevel="2" Level="23" ItemID="BO_Shield_00023B" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_107_C_2_04" Desc="冲锋盾" ItemType="107" ColorLevel="3" Level="23" ItemID="BO_Shield_00023C" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_107_B_2_05" Desc="坚韧精灵盾" ItemType="107" ColorLevel="2" Level="28" ItemID="XG_Shield_00028B" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_107_C_2_06" Desc="石甲之盾" ItemType="107" ColorLevel="3" Level="28" ItemID="XG_Shield_00028C" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_107_C_2_07" Desc="鬼蚀盾" ItemType="107" ColorLevel="3" Level="30" ItemID="BO_Shield_00030C" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_107_D_2_08" ItemType="107" ColorLevel="4" Level="30" ItemID="BO_Shield_00030D" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_107_B_3_01" Desc="耀光盾" ItemType="107" ColorLevel="2" Level="35" ItemID="XG_Shield_00035B" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_107_C_3_02" Desc="铸骨之盾" ItemType="107" ColorLevel="3" Level="35" ItemID="XG_Shield_00035C" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_107_C_3_03" Desc="暴风金刚盾" ItemType="107" ColorLevel="3" Level="35" ItemID="BO_Shield_00035C" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_107_D_3_04" ItemType="107" ColorLevel="4" Level="35" ItemID="BO_Shield_00035D" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_107_C_3_05" Desc="同盟之力" ItemType="107" ColorLevel="3" Level="40" ItemID="BO_Shield_00040C" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_107_D_3_06" ItemType="107" ColorLevel="4" Level="40" ItemID="BO_Shield_00040D" Camp="3" Prob="4"/>
+	<!--    <魔棒>    -->
+	<Property ID="MystShopItem_1_108_B_0_01" Desc="学徒魔棒" ItemType="108" ColorLevel="2" Level="8" ItemID="BO_Runewand_00008B" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_108_B_1_01" Desc="古老的精灵魔棒" ItemType="108" ColorLevel="2" Level="13" ItemID="XG_Runewand_00013B" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_108_B_1_02" Desc="长者魔棒" ItemType="108" ColorLevel="2" Level="16" ItemID="BO_Runewand_00016B" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_108_B_2_01" Desc="精致新兵魔棒" ItemType="108" ColorLevel="2" Level="21" ItemID="XG_Runewand_00021B" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_108_C_2_02" Desc="灼热魔棒" ItemType="108" ColorLevel="3" Level="21" ItemID="XG_Runewand_00021C" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_108_B_2_03" Desc="科多魔棒" ItemType="108" ColorLevel="2" Level="23" ItemID="BO_Runewand_00023B" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_108_C_2_04" Desc="褪色的黑煞魔棒" ItemType="108" ColorLevel="3" Level="23" ItemID="BO_Runewand_00023C" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_108_B_2_05" Desc="精灵石魔棒" ItemType="108" ColorLevel="2" Level="28" ItemID="XG_Runewand_00028B" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_108_C_2_06" Desc="血怒魔棒" ItemType="108" ColorLevel="3" Level="28" ItemID="XG_Runewand_00028C" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_108_C_2_07" Desc="古老的灼热魔棒" ItemType="108" ColorLevel="3" Level="30" ItemID="BO_Runewand_00030C" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_108_D_2_08" ItemType="108" ColorLevel="4" Level="30" ItemID="BO_Runewand_00030D" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_108_B_3_01" Desc="风行魔棒" ItemType="108" ColorLevel="2" Level="35" ItemID="XG_Runewand_00035B" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_108_C_3_02" Desc="魔能棒" ItemType="108" ColorLevel="3" Level="35" ItemID="XG_Runewand_00035C" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_108_C_3_03" Desc="精灵魔棒" ItemType="108" ColorLevel="3" Level="35" ItemID="BO_Runewand_00035C" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_108_D_3_04" ItemType="108" ColorLevel="4" Level="35" ItemID="BO_Runewand_00035D" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_108_C_3_05" Desc="T.J.C的发簪" ItemType="108" ColorLevel="3" Level="40" ItemID="BO_Runewand_00040C" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_108_D_3_06" ItemType="108" ColorLevel="4" Level="40" ItemID="BO_Runewand_00040D" Camp="3" Prob="4"/>
+	<!--    <枪>    -->
+	<Property ID="MystShopItem_1_114_B_1_01" Desc="还愿猎枪" ItemType="114" ColorLevel="2" Level="13" ItemID="XG_Gun_00013B" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_114_B_1_02" Desc="渎夺枪械" ItemType="114" ColorLevel="2" Level="16" ItemID="BO_Gun_00016B" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_114_B_2_01" Desc="黎明之光猎枪" ItemType="114" ColorLevel="2" Level="21" ItemID="XG_Gun_00021B" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_114_C_2_02" Desc="强袭步枪" ItemType="114" ColorLevel="3" Level="21" ItemID="XG_Gun_00021C" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_114_B_2_03" Desc="蛮牛枪械" ItemType="114" ColorLevel="2" Level="23" ItemID="BO_Gun_00023B" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_114_C_2_04" Desc="风魂猎枪" ItemType="114" ColorLevel="3" Level="23" ItemID="BO_Gun_00023C" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_114_C_2_05" Desc="冲锋步枪" ItemType="114" ColorLevel="3" Level="28" ItemID="XG_Gun_00028C" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_114_C_2_06" Desc="暗影猎枪" ItemType="114" ColorLevel="3" Level="30" ItemID="BO_Gun_00030C" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_114_D_2_07" ItemType="114" ColorLevel="4" Level="30" ItemID="BO_Gun_00030D" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_114_C_3_01" Desc="嗜血之力猎枪" ItemType="114" ColorLevel="3" Level="35" ItemID="BO_Gun_00035C" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_114_D_3_02" ItemType="114" ColorLevel="4" Level="35" ItemID="BO_Gun_00035D" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_114_C_3_03" Desc="ME—狮牙" ItemType="114" ColorLevel="3" Level="40" ItemID="BO_Gun_00040C" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_114_D_3_04" ItemType="114" ColorLevel="4" Level="40" ItemID="BO_Gun_00040D" Camp="3" Prob="4"/>
+	<!--    <法杖>    -->
+	<Property ID="MystShopItem_1_118_B_0_01" Desc="学徒法杖" ItemType="118" ColorLevel="2" Level="8" ItemID="BO_Staff_00008B" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_118_B_1_01" Desc="长者法杖" ItemType="118" ColorLevel="2" Level="16" ItemID="BO_Staff_00016B" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_118_B_2_01" Desc="科多法杖" ItemType="118" ColorLevel="2" Level="23" ItemID="BO_Staff_00023B" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_118_C_2_02" Desc="碎胫法杖" ItemType="118" ColorLevel="3" Level="23" ItemID="BO_Staff_00023C" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_118_C_2_03" Desc="沉碧法杖" ItemType="118" ColorLevel="3" Level="28" ItemID="XG_Staff_00028C" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_118_C_2_04" Desc="盗魔法杖" ItemType="118" ColorLevel="3" Level="30" ItemID="BO_Staff_00030C" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_118_D_2_05" ItemType="118" ColorLevel="4" Level="30" ItemID="BO_Staff_00030D" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_118_B_3_01" Desc="斯里兰法杖" ItemType="118" ColorLevel="2" Level="35" ItemID="XG_Staff_00035B" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_118_C_3_02" Desc="紫晶法杖" ItemType="118" ColorLevel="3" Level="35" ItemID="XG_Staff_00035C" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_118_C_3_03" Desc="奥拉德杖" ItemType="118" ColorLevel="3" Level="35" ItemID="BO_Staff_00035C" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_118_D_3_04" ItemType="118" ColorLevel="4" Level="35" ItemID="BO_Staff_00035D" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_118_C_3_05" Desc="辉日法杖" ItemType="118" ColorLevel="3" Level="40" ItemID="BO_Staff_00040C" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_118_D_3_06" ItemType="118" ColorLevel="4" Level="40" ItemID="BO_Staff_00040D" Camp="3" Prob="4"/>
+	<!--    <魔瓶>    -->
+	<Property ID="MystShopItem_1_124_B_1_01" Desc="黑炎魔瓶" ItemType="124" ColorLevel="2" Level="13" ItemID="XG_Magicbottle_00013B" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_124_B_1_02" Desc="极乐魔瓶" ItemType="124" ColorLevel="2" Level="16" ItemID="BO_Magicbottle_00016B" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_124_C_2_01" Desc="御风魔瓶" ItemType="124" ColorLevel="3" Level="21" ItemID="XG_Magicbottle_00021C" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_124_B_2_02" Desc="贝鲁斯兰的雪" ItemType="124" ColorLevel="2" Level="23" ItemID="BO_Magicbottle_00023B" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_124_C_2_03" Desc="守望者魔瓶" ItemType="124" ColorLevel="3" Level="23" ItemID="BO_Magicbottle_00023C" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_124_C_2_04" Desc="傲嗜魔瓶" ItemType="124" ColorLevel="3" Level="28" ItemID="XG_Magicbottle_00028C" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_124_C_2_05" Desc="孤傲魔瓶" ItemType="124" ColorLevel="3" Level="30" ItemID="BO_Magicbottle_00030C" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_124_D_2_06" ItemType="124" ColorLevel="4" Level="30" ItemID="BO_Magicbottle_00030D" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_124_C_3_01" Desc="夙愿者魔瓶" ItemType="124" ColorLevel="3" Level="35" ItemID="XG_Magicbottle_00035C" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_124_C_3_02" Desc="盈烟烈魔瓶" ItemType="124" ColorLevel="3" Level="35" ItemID="BO_Magicbottle_00035C" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_124_D_3_03" ItemType="124" ColorLevel="4" Level="35" ItemID="BO_Magicbottle_00035D" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_124_C_3_04" Desc="魔力凝聚者" ItemType="124" ColorLevel="3" Level="40" ItemID="BO_Magicbottle_00040C" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_1_124_D_3_05" ItemType="124" ColorLevel="4" Level="40" ItemID="BO_Magicbottle_00040D" Camp="3" Prob="4"/>
+	<!--        【防具】        -->
+	<!--    <腰带（布甲）>    -->
+	<Property ID="MystShopItem_2_11139_B_1_01" Desc="简单的布制腰带" ItemType="139" ColorLevel="2" Level="13" ItemID="XG_Belt_A00013B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11139_B_1_02" Desc="简单的布甲腰带" ItemType="139" ColorLevel="2" Level="13" ItemID="XG_Belt_A50013B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11139_B_1_03" ItemType="139" ColorLevel="2" Level="16" ItemID="PVE_Belt_A00016B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11139_B_1_04" ItemType="139" ColorLevel="2" Level="16" ItemID="PVE_Belt_A50016B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11139_B_2_01" Desc="精致的布制腰带" ItemType="139" ColorLevel="2" Level="21" ItemID="XG_Belt_A00021B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11139_C_2_02" Desc="神谕者破血腰带" ItemType="139" ColorLevel="3" Level="21" ItemID="XG_Belt_A00021C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11139_B_2_03" Desc="精致的布甲腰带" ItemType="139" ColorLevel="2" Level="21" ItemID="XG_Belt_A50021B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11139_C_2_04" Desc="怒焰腰带" ItemType="139" ColorLevel="3" Level="21" ItemID="XG_Belt_A50021C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11139_B_2_05" ItemType="139" ColorLevel="2" Level="23" ItemID="PVE_Belt_A00023B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11139_B_2_06" ItemType="139" ColorLevel="2" Level="23" ItemID="PVE_Belt_A50023B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11139_B_2_07" Desc="优越的布制腰带" ItemType="139" ColorLevel="2" Level="28" ItemID="XG_Belt_A00028B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11139_C_2_08" Desc="智慧魔法腰带" ItemType="139" ColorLevel="3" Level="28" ItemID="XG_Belt_A00028C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11139_B_2_09" Desc="优越的布甲腰带" ItemType="139" ColorLevel="2" Level="28" ItemID="XG_Belt_A50028B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11139_C_2_10" Desc="龙鳞腰带" ItemType="139" ColorLevel="3" Level="28" ItemID="XG_Belt_A50028C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11139_B_2_11" ItemType="139" ColorLevel="2" Level="30" ItemID="PVE_Belt_A00030B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11139_B_2_12" ItemType="139" ColorLevel="2" Level="30" ItemID="PVE_Belt_A50030B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11139_B_3_01" Desc="华丽的布制腰带" ItemType="139" ColorLevel="2" Level="35" ItemID="XG_Belt_A00035B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11139_C_3_02" Desc="祭祀腰带" ItemType="139" ColorLevel="3" Level="35" ItemID="XG_Belt_A00035C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11139_B_3_03" Desc="华丽的布甲腰带" ItemType="139" ColorLevel="2" Level="35" ItemID="XG_Belt_A50035B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11139_C_3_04" Desc="祝福腰带" ItemType="139" ColorLevel="3" Level="35" ItemID="XG_Belt_A50035C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11139_D_3_05" Desc="强袭新能源腰带" ItemType="139" ColorLevel="4" Level="35" ItemID="BO_Belt_A00035D1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11139_D_3_06" Desc="神谕者腰带" ItemType="139" ColorLevel="4" Level="35" ItemID="BO_Belt_A50035D1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11139_B_3_07" ItemType="139" ColorLevel="2" Level="40" ItemID="PVE_Belt_A00040B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11139_B_3_08" ItemType="139" ColorLevel="2" Level="40" ItemID="PVE_Belt_A50040B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11139_C_3_09" ItemType="139" ColorLevel="3" Level="40" ItemID="PVE_Belt_A00040C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11139_C_3_10" ItemType="139" ColorLevel="3" Level="40" ItemID="PVE_Belt_A50040C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11139_D_3_11" Desc="末日毁灭者腰带" ItemType="139" ColorLevel="4" Level="40" ItemID="BO_Belt_A00040D1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11139_D_3_12" Desc="虚境之主腰带" ItemType="139" ColorLevel="4" Level="40" ItemID="BO_Belt_A50040D1" Camp="2" Prob="4"/>
+	<!--    <帽子（布甲）>    -->
+	<Property ID="MystShopItem_2_11140_B_1_01" Desc="简单的布制帽子" ItemType="140" ColorLevel="2" Level="13" ItemID="XG_Hat_A00013B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11140_B_1_02" Desc="简单的布甲帽子" ItemType="140" ColorLevel="2" Level="13" ItemID="XG_Hat_A50013B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11140_B_1_03" ItemType="140" ColorLevel="2" Level="16" ItemID="PVE_Hat_A00016B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11140_B_1_04" ItemType="140" ColorLevel="2" Level="16" ItemID="PVE_Hat_A50016B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11140_B_2_01" Desc="精致的布制帽子" ItemType="140" ColorLevel="2" Level="21" ItemID="XG_Hat_A00021B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11140_C_2_02" Desc="强能之风帽子" ItemType="140" ColorLevel="3" Level="21" ItemID="XG_Hat_A00021C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11140_B_2_03" Desc="精致的布甲帽子" ItemType="140" ColorLevel="2" Level="21" ItemID="XG_Hat_A50021B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11140_C_2_04" Desc="怨灵帽子" ItemType="140" ColorLevel="3" Level="21" ItemID="XG_Hat_A50021C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11140_B_2_05" ItemType="140" ColorLevel="2" Level="23" ItemID="PVE_Hat_A00023B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11140_B_2_06" ItemType="140" ColorLevel="2" Level="23" ItemID="PVE_Hat_A50023B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11140_B_2_07" Desc="优越的布制帽子" ItemType="140" ColorLevel="2" Level="28" ItemID="XG_Hat_A00028B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11140_C_2_08" Desc="封印强能帽子" ItemType="140" ColorLevel="3" Level="28" ItemID="XG_Hat_A00028C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11140_B_2_09" Desc="优越的布甲帽子" ItemType="140" ColorLevel="2" Level="28" ItemID="XG_Hat_A50028B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11140_C_2_10" Desc="烈焰帽子" ItemType="140" ColorLevel="3" Level="28" ItemID="XG_Hat_A50028C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11140_B_2_11" ItemType="140" ColorLevel="2" Level="30" ItemID="PVE_Hat_A00030B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11140_B_2_12" ItemType="140" ColorLevel="2" Level="30" ItemID="PVE_Hat_A50030B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11140_B_3_01" Desc="华丽的布制帽子" ItemType="140" ColorLevel="2" Level="35" ItemID="XG_Hat_A00035B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11140_C_3_02" Desc="曦恒帽子" ItemType="140" ColorLevel="3" Level="35" ItemID="XG_Hat_A00035C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11140_B_3_03" Desc="华丽的布甲帽子" ItemType="140" ColorLevel="2" Level="35" ItemID="XG_Hat_A50035B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11140_C_3_04" Desc="蓝龙帽子" ItemType="140" ColorLevel="3" Level="35" ItemID="XG_Hat_A50035C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11140_D_3_05" Desc="强袭新能源帽子" ItemType="140" ColorLevel="4" Level="35" ItemID="BO_Hat_A00035D1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11140_D_3_06" Desc="神谕者兜帽" ItemType="140" ColorLevel="4" Level="35" ItemID="BO_Hat_A50035D1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11140_B_3_07" ItemType="140" ColorLevel="2" Level="40" ItemID="PVE_Hat_A00040B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11140_B_3_08" ItemType="140" ColorLevel="2" Level="40" ItemID="PVE_Hat_A50040B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11140_C_3_09" ItemType="140" ColorLevel="3" Level="40" ItemID="PVE_Hat_A00040C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11140_C_3_10" ItemType="140" ColorLevel="3" Level="40" ItemID="PVE_Hat_A50040C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11140_D_3_11" Desc="末日毁灭者帽子" ItemType="140" ColorLevel="4" Level="40" ItemID="BO_Hat_A00040D1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11140_D_3_12" Desc="虚境之主兜帽" ItemType="140" ColorLevel="4" Level="40" ItemID="BO_Hat_A50040D1" Camp="2" Prob="4"/>
+	<!--    <上装（布甲）>    -->
+	<Property ID="MystShopItem_2_11141_B_1_01" Desc="简单的布制上装" ItemType="141" ColorLevel="2" Level="13" ItemID="XG_Cloth_A00013B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11141_B_1_02" Desc="简单的布甲上装" ItemType="141" ColorLevel="2" Level="13" ItemID="XG_Cloth_A50013B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11141_B_1_03" ItemType="141" ColorLevel="2" Level="16" ItemID="PVE_Cloth_A00016B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11141_B_1_04" ItemType="141" ColorLevel="2" Level="16" ItemID="PVE_Cloth_A50016B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11141_B_2_01" Desc="精致的布制上装" ItemType="141" ColorLevel="2" Level="21" ItemID="XG_Cloth_A00021B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11141_C_2_02" Desc="随和之风上装" ItemType="141" ColorLevel="3" Level="21" ItemID="XG_Cloth_A00021C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11141_B_2_03" Desc="精致的布甲上装" ItemType="141" ColorLevel="2" Level="21" ItemID="XG_Cloth_A50021B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11141_C_2_04" Desc="自然之风上装" ItemType="141" ColorLevel="3" Level="21" ItemID="XG_Cloth_A50021C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11141_B_2_05" ItemType="141" ColorLevel="2" Level="23" ItemID="PVE_Cloth_A00023B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11141_B_2_06" ItemType="141" ColorLevel="2" Level="23" ItemID="PVE_Cloth_A50023B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11141_B_2_07" Desc="优越的布制上装" ItemType="141" ColorLevel="2" Level="28" ItemID="XG_Cloth_A00028B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11141_C_2_08" Desc="自然融合上装" ItemType="141" ColorLevel="3" Level="28" ItemID="XG_Cloth_A00028C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11141_B_2_09" Desc="优越的布甲上装" ItemType="141" ColorLevel="2" Level="28" ItemID="XG_Cloth_A50028B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11141_C_2_10" Desc="复苏之语上装" ItemType="141" ColorLevel="3" Level="28" ItemID="XG_Cloth_A50028C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11141_B_2_11" ItemType="141" ColorLevel="2" Level="30" ItemID="PVE_Cloth_A00030B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11141_B_2_12" ItemType="141" ColorLevel="2" Level="30" ItemID="PVE_Cloth_A50030B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11141_B_3_01" Desc="华丽的布制上装" ItemType="141" ColorLevel="2" Level="35" ItemID="XG_Cloth_A00035B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11141_C_3_02" Desc="雷之闪耀上装" ItemType="141" ColorLevel="3" Level="35" ItemID="XG_Cloth_A00035C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11141_B_3_03" Desc="华丽的布甲上装" ItemType="141" ColorLevel="2" Level="35" ItemID="XG_Cloth_A50035B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11141_C_3_04" Desc="雄鹰之翼上装" ItemType="141" ColorLevel="3" Level="35" ItemID="XG_Cloth_A50035C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11141_D_3_05" Desc="强袭新能源上装" ItemType="141" ColorLevel="4" Level="35" ItemID="BO_Cloth_A00035D1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11141_D_3_06" Desc="神谕者长袍" ItemType="141" ColorLevel="4" Level="35" ItemID="BO_Cloth_A50035D1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11141_B_3_07" ItemType="141" ColorLevel="2" Level="40" ItemID="PVE_Cloth_A00040B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11141_B_3_08" ItemType="141" ColorLevel="2" Level="40" ItemID="PVE_Cloth_A50040B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11141_C_3_09" ItemType="141" ColorLevel="3" Level="40" ItemID="PVE_Cloth_A00040C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11141_C_3_10" ItemType="141" ColorLevel="3" Level="40" ItemID="PVE_Cloth_A50040C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11141_D_3_11" Desc="末日毁灭者上装" ItemType="141" ColorLevel="4" Level="40" ItemID="BO_Cloth_A00040D1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11141_D_3_12" Desc="虚境之主长袍" ItemType="141" ColorLevel="4" Level="40" ItemID="BO_Cloth_A50040D1" Camp="2" Prob="4"/>
+	<!--    <下装（布甲）>    -->
+	<Property ID="MystShopItem_2_11142_B_1_01" Desc="简单的布制下装" ItemType="142" ColorLevel="2" Level="13" ItemID="XG_Pants_A00013B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11142_B_1_02" Desc="简单的布甲下装" ItemType="142" ColorLevel="2" Level="13" ItemID="XG_Pants_A50013B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11142_B_1_03" ItemType="142" ColorLevel="2" Level="16" ItemID="PVE_Pants_A00016B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11142_B_1_04" ItemType="142" ColorLevel="2" Level="16" ItemID="PVE_Pants_A50016B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11142_B_2_01" Desc="精致的布制下装" ItemType="142" ColorLevel="2" Level="21" ItemID="XG_Pants_A00021B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11142_B_2_02" Desc="奥法精工下装" ItemType="142" ColorLevel="2" Level="21" ItemID="XG_Pants_A00021C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11142_B_2_03" Desc="精致的布甲下装" ItemType="142" ColorLevel="2" Level="21" ItemID="XG_Pants_A50021B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11142_C_2_04" Desc="风袭之灵下装" ItemType="142" ColorLevel="3" Level="21" ItemID="XG_Pants_A50021C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11142_B_2_05" ItemType="142" ColorLevel="2" Level="23" ItemID="PVE_Pants_A00023B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11142_B_2_06" ItemType="142" ColorLevel="2" Level="23" ItemID="PVE_Pants_A50023B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11142_B_2_07" Desc="优越的布制下装" ItemType="142" ColorLevel="2" Level="28" ItemID="XG_Pants_A00028B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11142_B_2_08" Desc="魔力加持下装" ItemType="142" ColorLevel="2" Level="28" ItemID="XG_Pants_A00028C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11142_B_2_09" Desc="优越的布甲下装" ItemType="142" ColorLevel="2" Level="28" ItemID="XG_Pants_A50028B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11142_C_2_10" Desc="放逐之风下装" ItemType="142" ColorLevel="3" Level="28" ItemID="XG_Pants_A50028C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11142_B_2_11" ItemType="142" ColorLevel="2" Level="30" ItemID="PVE_Pants_A00030B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11142_B_2_12" ItemType="142" ColorLevel="2" Level="30" ItemID="PVE_Pants_A50030B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11142_B_3_01" Desc="华丽的布制下装" ItemType="142" ColorLevel="2" Level="35" ItemID="XG_Pants_A00035B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11142_B_3_02" Desc="晨曦秘纹下装" ItemType="142" ColorLevel="2" Level="35" ItemID="XG_Pants_A00035C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11142_B_3_03" Desc="华丽的布甲下装" ItemType="142" ColorLevel="2" Level="35" ItemID="XG_Pants_A50035B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11142_C_3_04" Desc="地狱之火下装" ItemType="142" ColorLevel="3" Level="35" ItemID="XG_Pants_A50035C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11142_D_3_05" Desc="强袭新能源下装" ItemType="142" ColorLevel="4" Level="35" ItemID="BO_Pants_A00035D1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11142_D_3_06" Desc="神谕者长裤" ItemType="142" ColorLevel="4" Level="35" ItemID="BO_Pants_A50035D1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11142_B_3_07" ItemType="142" ColorLevel="2" Level="40" ItemID="PVE_Pants_A00040B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11142_B_3_08" ItemType="142" ColorLevel="2" Level="40" ItemID="PVE_Pants_A50040B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11142_C_3_09" ItemType="142" ColorLevel="3" Level="40" ItemID="PVE_Pants_A00040C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11142_C_3_10" ItemType="142" ColorLevel="3" Level="40" ItemID="PVE_Pants_A50040C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11142_D_3_11" Desc="末日毁灭者下装" ItemType="142" ColorLevel="4" Level="40" ItemID="BO_Pants_A00040D1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11142_D_3_12" Desc="虚境之主长裤" ItemType="142" ColorLevel="4" Level="40" ItemID="BO_Pants_A50040D1" Camp="2" Prob="4"/>
+	<!--    <鞋子（布甲）>    -->
+	<Property ID="MystShopItem_2_11143_B_1_01" Desc="简单的布制鞋子" ItemType="143" ColorLevel="2" Level="13" ItemID="XG_Shoes_A00013B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11143_B_1_02" Desc="简单的布甲鞋子" ItemType="143" ColorLevel="2" Level="13" ItemID="XG_Shoes_A50013B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11143_B_1_03" ItemType="143" ColorLevel="2" Level="16" ItemID="PVE_Shoes_A00016B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11143_B_1_04" ItemType="143" ColorLevel="2" Level="16" ItemID="PVE_Shoes_A50016B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11143_B_2_01" Desc="精致的布制鞋子" ItemType="143" ColorLevel="2" Level="21" ItemID="XG_Shoes_A00021B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11143_C_2_02" Desc="智慧之心鞋子" ItemType="143" ColorLevel="3" Level="21" ItemID="XG_Shoes_A00021C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11143_B_2_03" Desc="精致的布甲鞋子" ItemType="143" ColorLevel="2" Level="21" ItemID="XG_Shoes_A50021B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11143_C_2_04" Desc="自由之风鞋子" ItemType="143" ColorLevel="3" Level="21" ItemID="XG_Shoes_A50021C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11143_B_2_05" ItemType="143" ColorLevel="2" Level="23" ItemID="PVE_Shoes_A00023B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11143_B_2_06" ItemType="143" ColorLevel="2" Level="23" ItemID="PVE_Shoes_A50023B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11143_B_2_07" Desc="优越的布制鞋子" ItemType="143" ColorLevel="2" Level="28" ItemID="XG_Shoes_A00028B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11143_C_2_08" Desc="心灵束缚鞋子" ItemType="143" ColorLevel="3" Level="28" ItemID="XG_Shoes_A00028C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11143_B_2_09" Desc="优越的布甲鞋子" ItemType="143" ColorLevel="2" Level="28" ItemID="XG_Shoes_A50028B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11143_C_2_10" Desc="启灵之念鞋子" ItemType="143" ColorLevel="3" Level="28" ItemID="XG_Shoes_A50028C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11143_B_2_11" ItemType="143" ColorLevel="2" Level="30" ItemID="PVE_Shoes_A00030B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11143_B_2_12" ItemType="143" ColorLevel="2" Level="30" ItemID="PVE_Shoes_A50030B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11143_B_3_01" Desc="华丽的布制鞋子" ItemType="143" ColorLevel="2" Level="35" ItemID="XG_Shoes_A00035B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11143_C_3_02" Desc="流浪之风鞋子" ItemType="143" ColorLevel="3" Level="35" ItemID="XG_Shoes_A00035C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11143_B_3_03" Desc="华丽的布甲鞋子" ItemType="143" ColorLevel="2" Level="35" ItemID="XG_Shoes_A50035B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11143_C_3_04" Desc="彷徨精灵鞋子" ItemType="143" ColorLevel="3" Level="35" ItemID="XG_Shoes_A50035C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11143_D_3_05" Desc="强袭新能源鞋子" ItemType="143" ColorLevel="4" Level="35" ItemID="BO_Shoes_A00035D1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11143_D_3_06" Desc="神谕者软靴" ItemType="143" ColorLevel="4" Level="35" ItemID="BO_Shoes_A50035D1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11143_B_3_07" ItemType="143" ColorLevel="2" Level="40" ItemID="PVE_Shoes_A00040B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11143_B_3_08" ItemType="143" ColorLevel="2" Level="40" ItemID="PVE_Shoes_A50040B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11143_C_3_09" ItemType="143" ColorLevel="3" Level="40" ItemID="PVE_Shoes_A00040C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11143_C_3_10" ItemType="143" ColorLevel="3" Level="40" ItemID="PVE_Shoes_A50040C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11143_D_3_11" Desc="末日毁灭者鞋子" ItemType="143" ColorLevel="4" Level="40" ItemID="BO_Shoes_A00040D1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11143_D_3_12" Desc="虚境之主软靴" ItemType="143" ColorLevel="4" Level="40" ItemID="BO_Shoes_A50040D1" Camp="2" Prob="4"/>
+	<!--    <护腕（布甲）>    -->
+	<Property ID="MystShopItem_2_11145_B_1_01" Desc="简单的布制护腕" ItemType="145" ColorLevel="2" Level="13" ItemID="XG_Wrist_A00013B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11145_B_1_02" Desc="简单的布甲护腕" ItemType="145" ColorLevel="2" Level="13" ItemID="XG_Wrist_A50013B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11145_B_1_03" ItemType="145" ColorLevel="2" Level="16" ItemID="PVE_Wrist_A00016B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11145_B_1_04" ItemType="145" ColorLevel="2" Level="16" ItemID="PVE_Wrist_A50016B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11145_B_2_01" Desc="精致的布制护腕" ItemType="145" ColorLevel="2" Level="21" ItemID="XG_Wrist_A00021B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11145_C_2_02" Desc="自然魔法护腕" ItemType="145" ColorLevel="3" Level="21" ItemID="XG_Wrist_A00021C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11145_B_2_03" Desc="精致的布甲护腕" ItemType="145" ColorLevel="2" Level="21" ItemID="XG_Wrist_A50021B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11145_C_2_04" Desc="怨恨护腕" ItemType="145" ColorLevel="3" Level="21" ItemID="XG_Wrist_A50021C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11145_B_2_05" ItemType="145" ColorLevel="2" Level="23" ItemID="PVE_Wrist_A00023B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11145_B_2_06" ItemType="145" ColorLevel="2" Level="23" ItemID="PVE_Wrist_A50023B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11145_B_2_07" Desc="优越的布制护腕" ItemType="145" ColorLevel="2" Level="28" ItemID="XG_Wrist_A00028B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11145_C_2_08" Desc="野性智慧护腕" ItemType="145" ColorLevel="3" Level="28" ItemID="XG_Wrist_A00028C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11145_B_2_09" Desc="优越的布甲护腕" ItemType="145" ColorLevel="2" Level="28" ItemID="XG_Wrist_A50028B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11145_C_2_10" Desc="秘法护腕" ItemType="145" ColorLevel="3" Level="28" ItemID="XG_Wrist_A50028C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11145_B_2_11" ItemType="145" ColorLevel="2" Level="30" ItemID="PVE_Wrist_A00030B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11145_B_2_12" ItemType="145" ColorLevel="2" Level="30" ItemID="PVE_Wrist_A50030B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11145_B_3_01" Desc="华丽的布制护腕" ItemType="145" ColorLevel="2" Level="35" ItemID="XG_Wrist_A00035B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11145_C_3_02" Desc="强能之火护腕" ItemType="145" ColorLevel="3" Level="35" ItemID="XG_Wrist_A00035C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11145_B_3_03" Desc="华丽的布甲护腕" ItemType="145" ColorLevel="2" Level="35" ItemID="XG_Wrist_A50035B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11145_C_3_04" Desc="灵曦护腕" ItemType="145" ColorLevel="3" Level="35" ItemID="XG_Wrist_A50035C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11145_D_3_05" Desc="强袭新能源护腕" ItemType="145" ColorLevel="4" Level="35" ItemID="BO_Wrist_A00035D1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11145_D_3_06" Desc="神谕者护臂" ItemType="145" ColorLevel="4" Level="35" ItemID="BO_Wrist_A50035D1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11145_B_3_07" ItemType="145" ColorLevel="2" Level="40" ItemID="PVE_Wrist_A00040B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11145_B_3_08" ItemType="145" ColorLevel="2" Level="40" ItemID="PVE_Wrist_A50040B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11145_C_3_09" ItemType="145" ColorLevel="3" Level="40" ItemID="PVE_Wrist_A00040C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11145_C_3_10" ItemType="145" ColorLevel="3" Level="40" ItemID="PVE_Wrist_A50040C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11145_D_3_11" Desc="末日毁灭者护腕" ItemType="145" ColorLevel="4" Level="40" ItemID="BO_Wrist_A00040D1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11145_D_3_12" Desc="虚境之主护臂" ItemType="145" ColorLevel="4" Level="40" ItemID="BO_Wrist_A50040D1" Camp="2" Prob="4"/>
+	<!--    <手套（布甲）>    -->
+	<Property ID="MystShopItem_2_11146_B_1_01" Desc="简单的布制手套" ItemType="146" ColorLevel="2" Level="13" ItemID="XG_Hand_A00013B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11146_B_1_02" Desc="简单的布甲手套" ItemType="146" ColorLevel="2" Level="13" ItemID="XG_Hand_A50013B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11146_B_1_03" ItemType="146" ColorLevel="2" Level="16" ItemID="PVE_Hand_A00016B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11146_B_1_04" ItemType="146" ColorLevel="2" Level="16" ItemID="PVE_Hand_A50016B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11146_B_2_01" Desc="精致的布制手套" ItemType="146" ColorLevel="2" Level="21" ItemID="XG_Hand_A00021B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11146_C_2_02" Desc="聚光手套" ItemType="146" ColorLevel="3" Level="21" ItemID="XG_Hand_A00021C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11146_B_2_03" Desc="精致的布甲手套" ItemType="146" ColorLevel="2" Level="21" ItemID="XG_Hand_A50021B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11146_C_2_04" Desc="祥和之音手套" ItemType="146" ColorLevel="3" Level="21" ItemID="XG_Hand_A50021C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11146_B_2_05" ItemType="146" ColorLevel="2" Level="23" ItemID="PVE_Hand_A00023B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11146_B_2_06" ItemType="146" ColorLevel="2" Level="23" ItemID="PVE_Hand_A50023B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11146_B_2_07" Desc="优越的布制手套" ItemType="146" ColorLevel="2" Level="28" ItemID="XG_Hand_A00028B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11146_C_2_08" Desc="谕知者手套" ItemType="146" ColorLevel="3" Level="28" ItemID="XG_Hand_A00028C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11146_B_2_09" Desc="优越的布甲手套" ItemType="146" ColorLevel="2" Level="28" ItemID="XG_Hand_A50028B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11146_C_2_10" Desc="睿智之光手套" ItemType="146" ColorLevel="3" Level="28" ItemID="XG_Hand_A50028C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11146_B_2_11" ItemType="146" ColorLevel="2" Level="30" ItemID="PVE_Hand_A00030B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11146_B_2_12" ItemType="146" ColorLevel="2" Level="30" ItemID="PVE_Hand_A50030B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11146_B_3_01" Desc="华丽的布制手套" ItemType="146" ColorLevel="2" Level="35" ItemID="XG_Hand_A00035B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11146_C_3_02" Desc="魔力赞叹手套" ItemType="146" ColorLevel="3" Level="35" ItemID="XG_Hand_A00035C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11146_B_3_03" Desc="华丽的布甲手套" ItemType="146" ColorLevel="2" Level="35" ItemID="XG_Hand_A50035B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11146_C_3_04" Desc="荒原之火手套" ItemType="146" ColorLevel="3" Level="35" ItemID="XG_Hand_A50035C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11146_D_3_05" Desc="强袭新能源手套" ItemType="146" ColorLevel="4" Level="35" ItemID="BO_Hand_A00035D1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11146_D_3_06" Desc="神谕者护手" ItemType="146" ColorLevel="4" Level="35" ItemID="BO_Hand_A50035D1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11146_B_3_07" ItemType="146" ColorLevel="2" Level="40" ItemID="PVE_Hand_A00040B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11146_B_3_08" ItemType="146" ColorLevel="2" Level="40" ItemID="PVE_Hand_A50040B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11146_C_3_09" ItemType="146" ColorLevel="3" Level="40" ItemID="PVE_Hand_A00040C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11146_C_3_10" ItemType="146" ColorLevel="3" Level="40" ItemID="PVE_Hand_A50040C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11146_D_3_11" Desc="末日毁灭者手套" ItemType="146" ColorLevel="4" Level="40" ItemID="BO_Hand_A00040D1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11146_D_3_12" Desc="虚境之主护手" ItemType="146" ColorLevel="4" Level="40" ItemID="BO_Hand_A50040D1" Camp="2" Prob="4"/>
+	<!--    <腰带（皮甲）>    -->
+	<Property ID="MystShopItem_2_11239_B_1_01" Desc="简单的皮制腰带" ItemType="139" ColorLevel="2" Level="13" ItemID="XG_Belt_B00013B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11239_B_1_02" Desc="简单的皮甲腰带" ItemType="139" ColorLevel="2" Level="13" ItemID="XG_Belt_B50013B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11239_B_1_03" ItemType="139" ColorLevel="2" Level="16" ItemID="PVE_Belt_B00016B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11239_B_1_04" ItemType="139" ColorLevel="2" Level="16" ItemID="PVE_Belt_B50016B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11239_B_2_01" Desc="精致的皮制腰带" ItemType="139" ColorLevel="2" Level="21" ItemID="XG_Belt_B00021B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11239_C_2_02" Desc="刺语腰带" ItemType="139" ColorLevel="3" Level="21" ItemID="XG_Belt_B00021C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11239_B_2_03" Desc="精致的皮甲腰带" ItemType="139" ColorLevel="2" Level="21" ItemID="XG_Belt_B50021B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11239_C_2_04" Desc="狼皮上装" ItemType="139" ColorLevel="3" Level="21" ItemID="XG_Belt_B50021C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11239_B_2_05" ItemType="139" ColorLevel="2" Level="23" ItemID="PVE_Belt_B00023B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11239_B_2_06" ItemType="139" ColorLevel="2" Level="23" ItemID="PVE_Belt_B50023B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11239_B_2_07" Desc="优越的皮制腰带" ItemType="139" ColorLevel="2" Level="28" ItemID="XG_Belt_B00028B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11239_C_2_08" Desc="裂痕腰带" ItemType="139" ColorLevel="3" Level="28" ItemID="XG_Belt_B00028C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11239_B_2_09" Desc="优越的皮甲腰带" ItemType="139" ColorLevel="2" Level="28" ItemID="XG_Belt_B50028B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11239_C_2_10" Desc="黑刺上装" ItemType="139" ColorLevel="3" Level="28" ItemID="XG_Belt_B50028C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11239_B_2_11" ItemType="139" ColorLevel="2" Level="30" ItemID="PVE_Belt_B00030B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11239_B_2_12" ItemType="139" ColorLevel="2" Level="30" ItemID="PVE_Belt_B50030B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11239_B_3_01" Desc="华丽的皮制腰带" ItemType="139" ColorLevel="2" Level="35" ItemID="XG_Belt_B00035B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11239_C_3_02" Desc="怒罚腰带" ItemType="139" ColorLevel="3" Level="35" ItemID="XG_Belt_B00035C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11239_B_3_03" Desc="华丽的皮甲腰带" ItemType="139" ColorLevel="2" Level="35" ItemID="XG_Belt_B50035B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11239_C_3_04" Desc="龙鳞上装" ItemType="139" ColorLevel="3" Level="35" ItemID="XG_Belt_B50035C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11239_D_3_05" Desc="暗影腰带" ItemType="139" ColorLevel="4" Level="35" ItemID="BO_Belt_B00035D1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11239_D_3_06" Desc="无悯会腰带" ItemType="139" ColorLevel="4" Level="35" ItemID="BO_Belt_B50035D1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11239_B_3_07" ItemType="139" ColorLevel="2" Level="40" ItemID="PVE_Belt_B00040B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11239_B_3_08" ItemType="139" ColorLevel="2" Level="40" ItemID="PVE_Belt_B50040B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11239_C_3_09" ItemType="139" ColorLevel="3" Level="40" ItemID="PVE_Belt_B00040C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11239_C_3_10" ItemType="139" ColorLevel="3" Level="40" ItemID="PVE_Belt_B50040C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11239_D_3_11" Desc="蚀颅者腰带" ItemType="139" ColorLevel="4" Level="40" ItemID="BO_Belt_B00040D1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11239_D_3_12" Desc="指引者的腰带" ItemType="139" ColorLevel="4" Level="40" ItemID="BO_Belt_B50040D1" Camp="2" Prob="4"/>
+	<!--    <帽子（皮甲）>    -->
+	<Property ID="MystShopItem_2_11240_B_1_01" Desc="简单的皮制头盔" ItemType="140" ColorLevel="2" Level="13" ItemID="XG_Hat_B00013B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11240_B_1_02" Desc="简单的皮甲头盔" ItemType="140" ColorLevel="2" Level="13" ItemID="XG_Hat_B50013B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11240_B_1_03" ItemType="140" ColorLevel="2" Level="16" ItemID="PVE_Hat_B00016B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11240_B_1_04" ItemType="140" ColorLevel="2" Level="16" ItemID="PVE_Hat_B50016B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11240_B_2_01" Desc="精致的皮制头盔" ItemType="140" ColorLevel="2" Level="21" ItemID="XG_Hat_B00021B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11240_C_2_02" Desc="黑夜加护头盔" ItemType="140" ColorLevel="3" Level="21" ItemID="XG_Hat_B00021C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11240_B_2_03" Desc="精致的皮甲头盔" ItemType="140" ColorLevel="2" Level="21" ItemID="XG_Hat_B50021B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11240_C_2_04" Desc="兽皮头盔" ItemType="140" ColorLevel="3" Level="21" ItemID="XG_Hat_B50021C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11240_B_2_05" ItemType="140" ColorLevel="2" Level="23" ItemID="PVE_Hat_B00023B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11240_B_2_06" ItemType="140" ColorLevel="2" Level="23" ItemID="PVE_Hat_B50023B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11240_B_2_07" Desc="优越的皮制头盔" ItemType="140" ColorLevel="2" Level="28" ItemID="XG_Hat_B00028B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11240_C_2_08" Desc="破血精工头盔" ItemType="140" ColorLevel="3" Level="28" ItemID="XG_Hat_B00028C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11240_B_2_09" Desc="优越的皮甲头盔" ItemType="140" ColorLevel="2" Level="28" ItemID="XG_Hat_B50028B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11240_C_2_10" Desc="劈天头盔" ItemType="140" ColorLevel="3" Level="28" ItemID="XG_Hat_B50028C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11240_B_2_11" ItemType="140" ColorLevel="2" Level="30" ItemID="PVE_Hat_B00030B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11240_B_2_12" ItemType="140" ColorLevel="2" Level="30" ItemID="PVE_Hat_B50030B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11240_B_3_01" Desc="华丽的皮制头盔" ItemType="140" ColorLevel="2" Level="35" ItemID="XG_Hat_B00035B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11240_C_3_02" Desc="野性裂痕头盔" ItemType="140" ColorLevel="3" Level="35" ItemID="XG_Hat_B00035C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11240_B_3_03" Desc="华丽的皮甲头盔" ItemType="140" ColorLevel="2" Level="35" ItemID="XG_Hat_B50035B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11240_C_3_04" Desc="蛮荒头盔" ItemType="140" ColorLevel="3" Level="35" ItemID="XG_Hat_B50035C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11240_D_3_05" Desc="暗影头盔" ItemType="140" ColorLevel="4" Level="35" ItemID="BO_Hat_B00035D1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11240_D_3_06" Desc="无悯会兜帽" ItemType="140" ColorLevel="4" Level="35" ItemID="BO_Hat_B50035D1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11240_B_3_07" ItemType="140" ColorLevel="2" Level="40" ItemID="PVE_Hat_B00040B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11240_B_3_08" ItemType="140" ColorLevel="2" Level="40" ItemID="PVE_Hat_B50040B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11240_C_3_09" ItemType="140" ColorLevel="3" Level="40" ItemID="PVE_Hat_B00040C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11240_C_3_10" ItemType="140" ColorLevel="3" Level="40" ItemID="PVE_Hat_B50040C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11240_D_3_11" Desc="蚀颅者头盔" ItemType="140" ColorLevel="4" Level="40" ItemID="BO_Hat_B00040D1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11240_D_3_12" Desc="指引者的头盔" ItemType="140" ColorLevel="4" Level="40" ItemID="BO_Hat_B50040D1" Camp="2" Prob="4"/>
+	<!--    <上装（皮甲）>    -->
+	<Property ID="MystShopItem_2_11241_B_1_01" Desc="简单的皮制上装" ItemType="141" ColorLevel="2" Level="13" ItemID="XG_Cloth_B00013B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11241_B_1_02" Desc="简单的皮甲上装" ItemType="141" ColorLevel="2" Level="13" ItemID="XG_Cloth_B50013B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11241_B_1_03" ItemType="141" ColorLevel="2" Level="16" ItemID="PVE_Cloth_B00016B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11241_B_1_04" ItemType="141" ColorLevel="2" Level="16" ItemID="PVE_Cloth_B50016B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11241_B_2_01" Desc="精致的皮制上装" ItemType="141" ColorLevel="2" Level="21" ItemID="XG_Cloth_B00021B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11241_C_2_02" Desc="晦暗指引上装" ItemType="141" ColorLevel="3" Level="21" ItemID="XG_Cloth_B00021C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11241_B_2_03" Desc="精致的皮甲上装" ItemType="141" ColorLevel="2" Level="21" ItemID="XG_Cloth_B50021B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11241_C_2_04" Desc="暗影灵心上装" ItemType="141" ColorLevel="3" Level="21" ItemID="XG_Cloth_B50021C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11241_B_2_05" ItemType="141" ColorLevel="2" Level="23" ItemID="PVE_Cloth_B00023B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11241_B_2_06" ItemType="141" ColorLevel="2" Level="23" ItemID="PVE_Cloth_B50023B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11241_B_2_07" Desc="优越的皮制上装" ItemType="141" ColorLevel="2" Level="28" ItemID="XG_Cloth_B00028B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11241_C_2_08" Desc="灵敏技巧上装" ItemType="141" ColorLevel="3" Level="28" ItemID="XG_Cloth_B00028C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11241_B_2_09" Desc="优越的皮甲上装" ItemType="141" ColorLevel="2" Level="28" ItemID="XG_Cloth_B50028B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11241_C_2_10" Desc="暗影锁语上装" ItemType="141" ColorLevel="3" Level="28" ItemID="XG_Cloth_B50028C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11241_B_2_11" ItemType="141" ColorLevel="2" Level="30" ItemID="PVE_Cloth_B00030B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11241_B_2_12" ItemType="141" ColorLevel="2" Level="30" ItemID="PVE_Cloth_B50030B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11241_B_3_01" Desc="华丽的皮制上装" ItemType="141" ColorLevel="2" Level="35" ItemID="XG_Cloth_B00035B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11241_C_3_02" Desc="杀意之念上装" ItemType="141" ColorLevel="3" Level="35" ItemID="XG_Cloth_B00035C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11241_B_3_03" Desc="华丽的皮甲上装" ItemType="141" ColorLevel="2" Level="35" ItemID="XG_Cloth_B50035B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11241_C_3_04" Desc="暗影灼烈上装" ItemType="141" ColorLevel="3" Level="35" ItemID="XG_Cloth_B50035C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11241_D_3_05" Desc="暗影上装" ItemType="141" ColorLevel="4" Level="35" ItemID="BO_Cloth_B00035D1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11241_D_3_06" Desc="无悯会胸甲" ItemType="141" ColorLevel="4" Level="35" ItemID="BO_Cloth_B50035D1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11241_B_3_07" ItemType="141" ColorLevel="2" Level="40" ItemID="PVE_Cloth_B00040B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11241_B_3_08" ItemType="141" ColorLevel="2" Level="40" ItemID="PVE_Cloth_B50040B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11241_C_3_09" ItemType="141" ColorLevel="3" Level="40" ItemID="PVE_Cloth_B00040C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11241_C_3_10" ItemType="141" ColorLevel="3" Level="40" ItemID="PVE_Cloth_B50040C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11241_D_3_11" Desc="蚀颅者上装" ItemType="141" ColorLevel="4" Level="40" ItemID="BO_Cloth_B00040D1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11241_D_3_12" Desc="指引者的胸甲" ItemType="141" ColorLevel="4" Level="40" ItemID="BO_Cloth_B50040D1" Camp="2" Prob="4"/>
+	<!--    <下装（皮甲）>    -->
+	<Property ID="MystShopItem_2_11242_B_1_01" Desc="简单的皮制下装" ItemType="142" ColorLevel="2" Level="13" ItemID="XG_Pants_B00013B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11242_B_1_02" Desc="简单的皮甲下装" ItemType="142" ColorLevel="2" Level="13" ItemID="XG_Pants_B50013B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11242_B_1_03" ItemType="142" ColorLevel="2" Level="16" ItemID="PVE_Pants_B00016B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11242_B_1_04" ItemType="142" ColorLevel="2" Level="16" ItemID="PVE_Pants_B50016B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11242_B_2_01" Desc="精致的皮制下装" ItemType="142" ColorLevel="2" Level="21" ItemID="XG_Pants_B00021B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11242_C_2_02" Desc="迅捷流风下装" ItemType="142" ColorLevel="3" Level="21" ItemID="XG_Pants_B00021C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11242_B_2_03" Desc="精致的皮甲下装" ItemType="142" ColorLevel="2" Level="21" ItemID="XG_Pants_B50021B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11242_C_2_04" Desc="蛇皮下装" ItemType="142" ColorLevel="3" Level="21" ItemID="XG_Pants_B50021C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11242_B_2_05" ItemType="142" ColorLevel="2" Level="23" ItemID="PVE_Pants_B00023B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11242_B_2_06" ItemType="142" ColorLevel="2" Level="23" ItemID="PVE_Pants_B50023B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11242_B_2_07" Desc="优越的皮制下装" ItemType="142" ColorLevel="2" Level="28" ItemID="XG_Pants_B00028B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11242_C_2_08" Desc="追踪者下装" ItemType="142" ColorLevel="3" Level="28" ItemID="XG_Pants_B00028C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11242_B_2_09" Desc="优越的皮甲下装" ItemType="142" ColorLevel="2" Level="28" ItemID="XG_Pants_B50028B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11242_C_2_10" Desc="狂猿下装" ItemType="142" ColorLevel="3" Level="28" ItemID="XG_Pants_B50028C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11242_B_2_11" ItemType="142" ColorLevel="2" Level="30" ItemID="PVE_Pants_B00030B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11242_B_2_12" ItemType="142" ColorLevel="2" Level="30" ItemID="PVE_Pants_B50030B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11242_B_3_01" Desc="华丽的皮制下装" ItemType="142" ColorLevel="2" Level="35" ItemID="XG_Pants_B00035B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11242_C_3_02" Desc="执法者下装" ItemType="142" ColorLevel="3" Level="35" ItemID="XG_Pants_B00035C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11242_B_3_03" Desc="华丽的皮甲下装" ItemType="142" ColorLevel="2" Level="35" ItemID="XG_Pants_B50035B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11242_C_3_04" Desc="巨兽下装" ItemType="142" ColorLevel="3" Level="35" ItemID="XG_Pants_B50035C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11242_D_3_05" Desc="暗影下装" ItemType="142" ColorLevel="4" Level="35" ItemID="BO_Pants_B00035D1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11242_D_3_06" Desc="无悯会护腿" ItemType="142" ColorLevel="4" Level="35" ItemID="BO_Pants_B50035D1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11242_B_3_07" ItemType="142" ColorLevel="2" Level="40" ItemID="PVE_Pants_B00040B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11242_B_3_08" ItemType="142" ColorLevel="2" Level="40" ItemID="PVE_Pants_B50040B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11242_C_3_09" ItemType="142" ColorLevel="3" Level="40" ItemID="PVE_Pants_B00040C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11242_C_3_10" ItemType="142" ColorLevel="3" Level="40" ItemID="PVE_Pants_B50040C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11242_D_3_11" Desc="蚀颅者下装" ItemType="142" ColorLevel="4" Level="40" ItemID="BO_Pants_B00040D1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11242_D_3_12" Desc="指引者的护腿" ItemType="142" ColorLevel="4" Level="40" ItemID="BO_Pants_B50040D1" Camp="2" Prob="4"/>
+	<!--    <鞋子（皮甲）>    -->
+	<Property ID="MystShopItem_2_11243_B_1_01" Desc="简单的皮制靴子" ItemType="143" ColorLevel="2" Level="13" ItemID="XG_Shoes_B00013B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11243_B_1_02" Desc="简单的皮甲靴子" ItemType="143" ColorLevel="2" Level="13" ItemID="XG_Shoes_B50013B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11243_B_1_03" ItemType="143" ColorLevel="2" Level="16" ItemID="PVE_Shoes_B00016B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11243_B_1_04" ItemType="143" ColorLevel="2" Level="16" ItemID="PVE_Shoes_B50016B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11243_B_2_01" Desc="精致的皮制靴子" ItemType="143" ColorLevel="2" Level="21" ItemID="XG_Shoes_B00021B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11243_C_2_02" Desc="迅捷加持靴子" ItemType="143" ColorLevel="3" Level="21" ItemID="XG_Shoes_B00021C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11243_B_2_03" Desc="精致的皮甲靴子" ItemType="143" ColorLevel="2" Level="21" ItemID="XG_Shoes_B50021B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11243_C_2_04" Desc="随风鞋子" ItemType="143" ColorLevel="3" Level="21" ItemID="XG_Shoes_B50021C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11243_B_2_05" ItemType="143" ColorLevel="2" Level="23" ItemID="PVE_Shoes_B00023B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11243_B_2_06" ItemType="143" ColorLevel="2" Level="23" ItemID="PVE_Shoes_B50023B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11243_B_2_07" Desc="优越的皮制靴子" ItemType="143" ColorLevel="2" Level="28" ItemID="XG_Shoes_B00028B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11243_C_2_08" Desc="灵巧飞跃靴子" ItemType="143" ColorLevel="3" Level="28" ItemID="XG_Shoes_B00028C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11243_B_2_09" Desc="优越的皮甲靴子" ItemType="143" ColorLevel="2" Level="28" ItemID="XG_Shoes_B50028B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11243_C_2_10" Desc="勇士靴子" ItemType="143" ColorLevel="3" Level="28" ItemID="XG_Shoes_B50028C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11243_B_2_11" ItemType="143" ColorLevel="2" Level="30" ItemID="PVE_Shoes_B00030B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11243_B_2_12" ItemType="143" ColorLevel="2" Level="30" ItemID="PVE_Shoes_B50030B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11243_B_3_01" Desc="华丽的皮制靴子" ItemType="143" ColorLevel="2" Level="35" ItemID="XG_Shoes_B00035B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11243_C_3_02" Desc="放逐之风靴子" ItemType="143" ColorLevel="3" Level="35" ItemID="XG_Shoes_B00035C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11243_B_3_03" Desc="华丽的皮甲靴子" ItemType="143" ColorLevel="2" Level="35" ItemID="XG_Shoes_B50035B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11243_C_3_04" Desc="禁地靴子" ItemType="143" ColorLevel="3" Level="35" ItemID="XG_Shoes_B50035C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11243_D_3_05" Desc="暗影靴子" ItemType="143" ColorLevel="4" Level="35" ItemID="BO_Shoes_B00035D1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11243_D_3_06" Desc="无悯会皮靴" ItemType="143" ColorLevel="4" Level="35" ItemID="BO_Shoes_B50035D1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11243_B_3_07" ItemType="143" ColorLevel="2" Level="40" ItemID="PVE_Shoes_B00040B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11243_B_3_08" ItemType="143" ColorLevel="2" Level="40" ItemID="PVE_Shoes_B50040B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11243_C_3_09" ItemType="143" ColorLevel="3" Level="40" ItemID="PVE_Shoes_B00040C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11243_C_3_10" ItemType="143" ColorLevel="3" Level="40" ItemID="PVE_Shoes_B50040C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11243_D_3_11" Desc="蚀颅者靴子" ItemType="143" ColorLevel="4" Level="40" ItemID="BO_Shoes_B00040D1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11243_D_3_12" Desc="指引者的皮靴" ItemType="143" ColorLevel="4" Level="40" ItemID="BO_Shoes_B50040D1" Camp="2" Prob="4"/>
+	<!--    <护腕（皮甲）>    -->
+	<Property ID="MystShopItem_2_11245_B_1_01" Desc="简单的皮制护腕" ItemType="145" ColorLevel="2" Level="13" ItemID="XG_Wrist_B00013B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11245_B_1_02" Desc="简单的皮甲护腕" ItemType="145" ColorLevel="2" Level="13" ItemID="XG_Wrist_B50013B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11245_B_1_03" ItemType="145" ColorLevel="2" Level="16" ItemID="PVE_Wrist_B00016B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11245_B_1_04" ItemType="145" ColorLevel="2" Level="16" ItemID="PVE_Wrist_B50016B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11245_B_2_01" Desc="精致的皮制护腕" ItemType="145" ColorLevel="2" Level="21" ItemID="XG_Wrist_B00021B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11245_C_2_02" Desc="灵敏加工护腕" ItemType="145" ColorLevel="3" Level="21" ItemID="XG_Wrist_B00021C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11245_B_2_03" Desc="精致的皮甲护腕" ItemType="145" ColorLevel="2" Level="21" ItemID="XG_Wrist_B50021B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11245_C_2_04" Desc="碧血护腕" ItemType="145" ColorLevel="3" Level="21" ItemID="XG_Wrist_B50021C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11245_B_2_05" ItemType="145" ColorLevel="2" Level="23" ItemID="PVE_Wrist_B00023B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11245_B_2_06" ItemType="145" ColorLevel="2" Level="23" ItemID="PVE_Wrist_B50023B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11245_B_2_07" Desc="优越的皮制护腕" ItemType="145" ColorLevel="2" Level="28" ItemID="XG_Wrist_B00028B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11245_C_2_08" Desc="灵活轻便护腕" ItemType="145" ColorLevel="3" Level="28" ItemID="XG_Wrist_B00028C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11245_B_2_09" Desc="优越的皮甲护腕" ItemType="145" ColorLevel="2" Level="28" ItemID="XG_Wrist_B50028B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11245_C_2_10" Desc="缠绕护腕" ItemType="145" ColorLevel="3" Level="28" ItemID="XG_Wrist_B50028C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11245_B_2_11" ItemType="145" ColorLevel="2" Level="30" ItemID="PVE_Wrist_B00030B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11245_B_2_12" ItemType="145" ColorLevel="2" Level="30" ItemID="PVE_Wrist_B50030B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11245_B_3_01" Desc="华丽的皮制护腕" ItemType="145" ColorLevel="2" Level="35" ItemID="XG_Wrist_B00035B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11245_C_3_02" Desc="暗影加持护腕" ItemType="145" ColorLevel="3" Level="35" ItemID="XG_Wrist_B00035C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11245_B_3_03" Desc="华丽的皮甲护腕" ItemType="145" ColorLevel="2" Level="35" ItemID="XG_Wrist_B50035B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11245_C_3_04" Desc="抉择护腕" ItemType="145" ColorLevel="3" Level="35" ItemID="XG_Wrist_B50035C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11245_D_3_05" Desc="暗影护腕" ItemType="145" ColorLevel="4" Level="35" ItemID="BO_Wrist_B00035D1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11245_D_3_06" Desc="无悯会护臂" ItemType="145" ColorLevel="4" Level="35" ItemID="BO_Wrist_B50035D1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11245_B_3_07" ItemType="145" ColorLevel="2" Level="40" ItemID="PVE_Wrist_B00040B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11245_B_3_08" ItemType="145" ColorLevel="2" Level="40" ItemID="PVE_Wrist_B50040B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11245_C_3_09" ItemType="145" ColorLevel="3" Level="40" ItemID="PVE_Wrist_B00040C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11245_C_3_10" ItemType="145" ColorLevel="3" Level="40" ItemID="PVE_Wrist_B50040C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11245_D_3_11" Desc="蚀颅者护腕" ItemType="145" ColorLevel="4" Level="40" ItemID="BO_Wrist_B00040D1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11245_D_3_12" Desc="指引者的护臂" ItemType="145" ColorLevel="4" Level="40" ItemID="BO_Wrist_B50040D1" Camp="2" Prob="4"/>
+	<!--    <手套（皮甲）>    -->
+	<Property ID="MystShopItem_2_11246_B_1_01" Desc="简单的皮制手套" ItemType="146" ColorLevel="2" Level="13" ItemID="XG_Hand_B00013B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11246_B_1_02" Desc="简单的皮甲手套" ItemType="146" ColorLevel="2" Level="13" ItemID="XG_Hand_B50013B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11246_B_1_03" ItemType="146" ColorLevel="2" Level="16" ItemID="PVE_Hand_B00016B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11246_B_1_04" ItemType="146" ColorLevel="2" Level="16" ItemID="PVE_Hand_B50016B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11246_B_2_01" Desc="精致的皮制手套" ItemType="146" ColorLevel="2" Level="21" ItemID="XG_Hand_B00021B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11246_C_2_02" Desc="灵巧之心手套" ItemType="146" ColorLevel="3" Level="21" ItemID="XG_Hand_B00021C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11246_B_2_03" Desc="精致的皮甲手套" ItemType="146" ColorLevel="2" Level="21" ItemID="XG_Hand_B50021B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11246_C_2_04" Desc="自然加持手套" ItemType="146" ColorLevel="3" Level="21" ItemID="XG_Hand_B50021C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11246_B_2_05" ItemType="146" ColorLevel="2" Level="23" ItemID="PVE_Hand_B00023B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11246_B_2_06" ItemType="146" ColorLevel="2" Level="23" ItemID="PVE_Hand_B50023B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11246_B_2_07" Desc="优越的皮制手套" ItemType="146" ColorLevel="2" Level="28" ItemID="XG_Hand_B00028B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11246_C_2_08" Desc="迅捷守护手套" ItemType="146" ColorLevel="3" Level="28" ItemID="XG_Hand_B00028C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11246_B_2_09" Desc="优越的皮甲手套" ItemType="146" ColorLevel="2" Level="28" ItemID="XG_Hand_B50028B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11246_C_2_10" Desc="猛兽嘶吼手套" ItemType="146" ColorLevel="3" Level="28" ItemID="XG_Hand_B50028C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11246_B_2_11" ItemType="146" ColorLevel="2" Level="30" ItemID="PVE_Hand_B00030B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11246_B_2_12" ItemType="146" ColorLevel="2" Level="30" ItemID="PVE_Hand_B50030B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11246_B_3_01" Desc="华丽的皮制手套" ItemType="146" ColorLevel="2" Level="35" ItemID="XG_Hand_B00035B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11246_C_3_02" Desc="灵巧之星手套" ItemType="146" ColorLevel="3" Level="35" ItemID="XG_Hand_B00035C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11246_B_3_03" Desc="华丽的皮甲手套" ItemType="146" ColorLevel="2" Level="35" ItemID="XG_Hand_B50035B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11246_C_3_04" Desc="放逐银鳞手套" ItemType="146" ColorLevel="3" Level="35" ItemID="XG_Hand_B50035C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11246_D_3_05" Desc="暗影手套" ItemType="146" ColorLevel="4" Level="35" ItemID="BO_Hand_B00035D1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11246_D_3_06" Desc="无悯会手套" ItemType="146" ColorLevel="4" Level="35" ItemID="BO_Hand_B50035D1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11246_B_3_07" ItemType="146" ColorLevel="2" Level="40" ItemID="PVE_Hand_B00040B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11246_B_3_08" ItemType="146" ColorLevel="2" Level="40" ItemID="PVE_Hand_B50040B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11246_C_3_09" ItemType="146" ColorLevel="3" Level="40" ItemID="PVE_Hand_B00040C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11246_C_3_10" ItemType="146" ColorLevel="3" Level="40" ItemID="PVE_Hand_B50040C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11246_D_3_11" Desc="蚀颅者手套" ItemType="146" ColorLevel="4" Level="40" ItemID="BO_Hand_B00040D1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11246_D_3_12" Desc="指引者的手套" ItemType="146" ColorLevel="4" Level="40" ItemID="BO_Hand_B50040D1" Camp="2" Prob="4"/>
+	<!--    <腰带（中甲）>    -->
+	<Property ID="MystShopItem_2_11339_B_1_01" Desc="简单的中甲腰带" ItemType="139" ColorLevel="2" Level="13" ItemID="XG_Belt_C00013B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11339_B_1_02" Desc="简单的中甲护腰" ItemType="139" ColorLevel="2" Level="13" ItemID="XG_Belt_C50013B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11339_B_1_03" ItemType="139" ColorLevel="2" Level="16" ItemID="PVE_Belt_C00016B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11339_B_1_04" ItemType="139" ColorLevel="2" Level="16" ItemID="PVE_Belt_C50016B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11339_B_2_01" Desc="精致的中甲腰带" ItemType="139" ColorLevel="2" Level="21" ItemID="XG_Belt_C00021B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11339_C_2_02" Desc="曙光腰带" ItemType="139" ColorLevel="3" Level="21" ItemID="XG_Belt_C00021C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11339_B_2_03" Desc="精致的中甲护腰" ItemType="139" ColorLevel="2" Level="21" ItemID="XG_Belt_C50021B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11339_C_2_04" Desc="守卫腰带" ItemType="139" ColorLevel="3" Level="21" ItemID="XG_Belt_C50021C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11339_B_2_05" ItemType="139" ColorLevel="2" Level="23" ItemID="PVE_Belt_C00023B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11339_B_2_06" ItemType="139" ColorLevel="2" Level="23" ItemID="PVE_Belt_C50023B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11339_B_2_07" Desc="优越的中甲腰带" ItemType="139" ColorLevel="2" Level="28" ItemID="XG_Belt_C00028B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11339_C_2_08" Desc="暗芒腰带" ItemType="139" ColorLevel="3" Level="28" ItemID="XG_Belt_C00028C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11339_B_2_09" Desc="优越的中甲护腰" ItemType="139" ColorLevel="2" Level="28" ItemID="XG_Belt_C50028B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11339_C_2_10" Desc="顽强腰带" ItemType="139" ColorLevel="3" Level="28" ItemID="XG_Belt_C50028C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11339_B_2_11" ItemType="139" ColorLevel="2" Level="30" ItemID="PVE_Belt_C00030B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11339_B_2_12" ItemType="139" ColorLevel="2" Level="30" ItemID="PVE_Belt_C50030B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11339_B_3_01" Desc="华丽的中甲腰带" ItemType="139" ColorLevel="2" Level="35" ItemID="XG_Belt_C00035B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11339_C_3_02" Desc="辉光腰带" ItemType="139" ColorLevel="3" Level="35" ItemID="XG_Belt_C00035C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11339_B_3_03" Desc="华丽的中甲护腰" ItemType="139" ColorLevel="2" Level="35" ItemID="XG_Belt_C50035B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11339_C_3_04" Desc="蛟纹腰带" ItemType="139" ColorLevel="3" Level="35" ItemID="XG_Belt_C50035C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11339_D_3_05" Desc="光之机械强能腰带" ItemType="139" ColorLevel="4" Level="35" ItemID="BO_Belt_C00035D1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11339_D_3_06" Desc="格里芬的腰带" ItemType="139" ColorLevel="4" Level="35" ItemID="BO_Belt_C50035D1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11339_B_3_07" ItemType="139" ColorLevel="2" Level="40" ItemID="PVE_Belt_C00040B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11339_B_3_08" ItemType="139" ColorLevel="2" Level="40" ItemID="PVE_Belt_C50040B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11339_C_3_09" ItemType="139" ColorLevel="3" Level="40" ItemID="PVE_Belt_C00040C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11339_C_3_10" ItemType="139" ColorLevel="3" Level="40" ItemID="PVE_Belt_C50040C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11339_D_3_11" Desc="闪耀之强能腰带" ItemType="139" ColorLevel="4" Level="40" ItemID="BO_Belt_C00040D1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11339_D_3_12" Desc="天怒者腰带" ItemType="139" ColorLevel="4" Level="40" ItemID="BO_Belt_C50040D1" Camp="2" Prob="4"/>
+	<!--    <帽子（中甲）>    -->
+	<Property ID="MystShopItem_2_11340_B_1_01" Desc="简单的中甲头盔" ItemType="140" ColorLevel="2" Level="13" ItemID="XG_Hat_C00013B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11340_B_1_02" Desc="简单的中甲头饰" ItemType="140" ColorLevel="2" Level="13" ItemID="XG_Hat_C50013B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11340_B_1_03" ItemType="140" ColorLevel="2" Level="16" ItemID="PVE_Hat_C00016B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11340_B_1_04" ItemType="140" ColorLevel="2" Level="16" ItemID="PVE_Hat_C50016B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11340_B_2_01" Desc="精致的中甲头盔" ItemType="140" ColorLevel="2" Level="21" ItemID="XG_Hat_C00021B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11340_C_2_02" Desc="轻型护目头盔" ItemType="140" ColorLevel="3" Level="21" ItemID="XG_Hat_C00021C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11340_B_2_03" Desc="精致的中甲头饰" ItemType="140" ColorLevel="2" Level="21" ItemID="XG_Hat_C50021B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11340_C_2_04" Desc="破日头盔" ItemType="140" ColorLevel="3" Level="21" ItemID="XG_Hat_C50021C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11340_B_2_05" ItemType="140" ColorLevel="2" Level="23" ItemID="PVE_Hat_C00023B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11340_B_2_06" ItemType="140" ColorLevel="2" Level="23" ItemID="PVE_Hat_C50023B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11340_B_2_07" Desc="优越的中甲头盔" ItemType="140" ColorLevel="2" Level="28" ItemID="XG_Hat_C00028B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11340_C_2_08" Desc="强化之能头盔" ItemType="140" ColorLevel="3" Level="28" ItemID="XG_Hat_C00028C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11340_B_2_09" Desc="优越的中甲头饰" ItemType="140" ColorLevel="2" Level="28" ItemID="XG_Hat_C50028B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11340_C_2_10" Desc="月痕头盔" ItemType="140" ColorLevel="3" Level="28" ItemID="XG_Hat_C50028C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11340_B_2_11" ItemType="140" ColorLevel="2" Level="30" ItemID="PVE_Hat_C00030B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11340_B_2_12" ItemType="140" ColorLevel="2" Level="30" ItemID="PVE_Hat_C50030B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11340_B_3_01" Desc="华丽的中甲头盔" ItemType="140" ColorLevel="2" Level="35" ItemID="XG_Hat_C00035B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11340_C_3_02" Desc="闪亮之能头盔" ItemType="140" ColorLevel="3" Level="35" ItemID="XG_Hat_C00035C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11340_B_3_03" Desc="华丽的中甲头饰" ItemType="140" ColorLevel="2" Level="35" ItemID="XG_Hat_C50035B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11340_C_3_04" Desc="失魂头盔" ItemType="140" ColorLevel="3" Level="35" ItemID="XG_Hat_C50035C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11340_D_3_05" Desc="光之机械强能头盔" ItemType="140" ColorLevel="4" Level="35" ItemID="BO_Hat_C00035D1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11340_D_3_06" Desc="格里芬的头盔" ItemType="140" ColorLevel="4" Level="35" ItemID="BO_Hat_C50035D1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11340_B_3_07" ItemType="140" ColorLevel="2" Level="40" ItemID="PVE_Hat_C00040B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11340_B_3_08" ItemType="140" ColorLevel="2" Level="40" ItemID="PVE_Hat_C50040B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11340_C_3_09" ItemType="140" ColorLevel="3" Level="40" ItemID="PVE_Hat_C00040C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11340_C_3_10" ItemType="140" ColorLevel="3" Level="40" ItemID="PVE_Hat_C50040C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11340_D_3_11" Desc="闪耀之强能头盔" ItemType="140" ColorLevel="4" Level="40" ItemID="BO_Hat_C00040D1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11340_D_3_12" Desc="天怒者头盔" ItemType="140" ColorLevel="4" Level="40" ItemID="BO_Hat_C50040D1" Camp="2" Prob="4"/>
+	<!--    <上装（中甲）>    -->
+	<Property ID="MystShopItem_2_11341_B_1_01" Desc="简单的中甲上装" ItemType="141" ColorLevel="2" Level="13" ItemID="XG_Cloth_C00013B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11341_B_1_02" Desc="简单的中甲上衣" ItemType="141" ColorLevel="2" Level="13" ItemID="XG_Cloth_C50013B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11341_B_1_03" ItemType="141" ColorLevel="2" Level="16" ItemID="PVE_Cloth_C00016B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11341_B_1_04" ItemType="141" ColorLevel="2" Level="16" ItemID="PVE_Cloth_C50016B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11341_B_2_01" Desc="精致的中甲上装" ItemType="141" ColorLevel="2" Level="21" ItemID="XG_Cloth_C00021B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11341_C_2_02" Desc="亡语勇士上装" ItemType="141" ColorLevel="3" Level="21" ItemID="XG_Cloth_C00021C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11341_B_2_03" Desc="精致的中甲上衣" ItemType="141" ColorLevel="2" Level="21" ItemID="XG_Cloth_C50021B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11341_C_2_04" Desc="蓝晶上装" ItemType="141" ColorLevel="3" Level="21" ItemID="XG_Cloth_C50021C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11341_B_2_05" ItemType="141" ColorLevel="2" Level="23" ItemID="PVE_Cloth_C00023B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11341_B_2_06" ItemType="141" ColorLevel="2" Level="23" ItemID="PVE_Cloth_C50023B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11341_B_2_07" Desc="优越的中甲上装" ItemType="141" ColorLevel="2" Level="28" ItemID="XG_Cloth_C00028B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11341_C_2_08" Desc="逆袭者上装" ItemType="141" ColorLevel="3" Level="28" ItemID="XG_Cloth_C00028C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11341_B_2_09" Desc="优越的中甲上衣" ItemType="141" ColorLevel="2" Level="28" ItemID="XG_Cloth_C50028B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11341_C_2_10" Desc="新月上装" ItemType="141" ColorLevel="3" Level="28" ItemID="XG_Cloth_C50028C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11341_B_2_11" ItemType="141" ColorLevel="2" Level="30" ItemID="PVE_Cloth_C00030B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11341_B_2_12" ItemType="141" ColorLevel="2" Level="30" ItemID="PVE_Cloth_C50030B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11341_B_3_01" Desc="华丽的中甲上装" ItemType="141" ColorLevel="2" Level="35" ItemID="XG_Cloth_C00035B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11341_C_3_02" Desc="破裂之能上装" ItemType="141" ColorLevel="3" Level="35" ItemID="XG_Cloth_C00035C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11341_B_3_03" Desc="华丽的中甲上衣" ItemType="141" ColorLevel="2" Level="35" ItemID="XG_Cloth_C50035B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11341_C_3_04" Desc="兽灵上装" ItemType="141" ColorLevel="3" Level="35" ItemID="XG_Cloth_C50035C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11341_D_3_05" Desc="光之机械强能上装" ItemType="141" ColorLevel="4" Level="35" ItemID="BO_Cloth_C00035D1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11341_D_3_06" Desc="格里芬的胸甲" ItemType="141" ColorLevel="4" Level="35" ItemID="BO_Cloth_C50035D1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11341_B_3_07" ItemType="141" ColorLevel="2" Level="40" ItemID="PVE_Cloth_C00040B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11341_B_3_08" ItemType="141" ColorLevel="2" Level="40" ItemID="PVE_Cloth_C50040B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11341_C_3_09" ItemType="141" ColorLevel="3" Level="40" ItemID="PVE_Cloth_C00040C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11341_C_3_10" ItemType="141" ColorLevel="3" Level="40" ItemID="PVE_Cloth_C50040C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11341_D_3_11" Desc="闪耀之强能上装" ItemType="141" ColorLevel="4" Level="40" ItemID="BO_Cloth_C00040D1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11341_D_3_12" Desc="天怒者铠甲" ItemType="141" ColorLevel="4" Level="40" ItemID="BO_Cloth_C50040D1" Camp="2" Prob="4"/>
+	<!--    <下装（中甲）>    -->
+	<Property ID="MystShopItem_2_11342_B_1_01" Desc="简单的中甲下装" ItemType="142" ColorLevel="2" Level="13" ItemID="XG_Pants_C00013B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11342_B_1_02" Desc="简单的中甲下衣" ItemType="142" ColorLevel="2" Level="13" ItemID="XG_Pants_C50013B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11342_B_1_03" ItemType="142" ColorLevel="2" Level="16" ItemID="PVE_Pants_C00016B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11342_B_1_04" ItemType="142" ColorLevel="2" Level="16" ItemID="PVE_Pants_C50016B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11342_B_2_01" Desc="精致的中甲下装" ItemType="142" ColorLevel="2" Level="21" ItemID="XG_Pants_C00021B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11342_C_2_02" Desc="怒炎之能上装" ItemType="142" ColorLevel="3" Level="21" ItemID="XG_Pants_C00021C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11342_B_2_03" Desc="精致的中甲下衣" ItemType="142" ColorLevel="2" Level="21" ItemID="XG_Pants_C50021B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11342_C_2_04" Desc="野性下装" ItemType="142" ColorLevel="3" Level="21" ItemID="XG_Pants_C50021C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11342_B_2_05" ItemType="142" ColorLevel="2" Level="23" ItemID="PVE_Pants_C00023B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11342_B_2_06" ItemType="142" ColorLevel="2" Level="23" ItemID="PVE_Pants_C50023B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11342_B_2_07" Desc="优越的中甲下装" ItemType="142" ColorLevel="2" Level="28" ItemID="XG_Pants_C00028B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11342_C_2_08" Desc="防护之力上装" ItemType="142" ColorLevel="3" Level="28" ItemID="XG_Pants_C00028C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11342_B_2_09" Desc="优越的中甲下衣" ItemType="142" ColorLevel="2" Level="28" ItemID="XG_Pants_C50028B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11342_C_2_10" Desc="石英下装" ItemType="142" ColorLevel="3" Level="28" ItemID="XG_Pants_C50028C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11342_B_2_11" ItemType="142" ColorLevel="2" Level="30" ItemID="PVE_Pants_C00030B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11342_B_2_12" ItemType="142" ColorLevel="2" Level="30" ItemID="PVE_Pants_C50030B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11342_B_3_01" Desc="华丽的中甲下装" ItemType="142" ColorLevel="2" Level="35" ItemID="XG_Pants_C00035B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11342_C_3_02" Desc="勇者之力上装" ItemType="142" ColorLevel="3" Level="35" ItemID="XG_Pants_C00035C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11342_B_3_03" Desc="华丽的中甲下衣" ItemType="142" ColorLevel="2" Level="35" ItemID="XG_Pants_C50035B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11342_C_3_04" Desc="破血下装" ItemType="142" ColorLevel="3" Level="35" ItemID="XG_Pants_C50035C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11342_D_3_05" Desc="光之机械强能下装" ItemType="142" ColorLevel="4" Level="35" ItemID="BO_Pants_C00035D1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11342_D_3_06" Desc="格里芬的护腿" ItemType="142" ColorLevel="4" Level="35" ItemID="BO_Pants_C50035D1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11342_B_3_07" ItemType="142" ColorLevel="2" Level="40" ItemID="PVE_Pants_C00040B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11342_B_3_08" ItemType="142" ColorLevel="2" Level="40" ItemID="PVE_Pants_C50040B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11342_C_3_09" ItemType="142" ColorLevel="3" Level="40" ItemID="PVE_Pants_C00040C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11342_C_3_10" ItemType="142" ColorLevel="3" Level="40" ItemID="PVE_Pants_C50040C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11342_D_3_11" Desc="闪耀之强能下装" ItemType="142" ColorLevel="4" Level="40" ItemID="BO_Pants_C00040D1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11342_D_3_12" Desc="天怒者护腿" ItemType="142" ColorLevel="4" Level="40" ItemID="BO_Pants_C50040D1" Camp="2" Prob="4"/>
+	<!--    <鞋子（中甲）>    -->
+	<Property ID="MystShopItem_2_11343_B_1_01" Desc="简单的中甲靴子" ItemType="143" ColorLevel="2" Level="13" ItemID="XG_Shoes_C00013B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11343_B_1_02" Desc="简单的中甲鞋子" ItemType="143" ColorLevel="2" Level="13" ItemID="XG_Shoes_C50013B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11343_B_1_03" ItemType="143" ColorLevel="2" Level="16" ItemID="PVE_Shoes_C00016B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11343_B_1_04" ItemType="143" ColorLevel="2" Level="16" ItemID="PVE_Shoes_C50016B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11343_B_2_01" Desc="精致的中甲靴子" ItemType="143" ColorLevel="2" Level="21" ItemID="XG_Shoes_C00021B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11343_C_2_02" Desc="卫兵靴子" ItemType="143" ColorLevel="3" Level="21" ItemID="XG_Shoes_C00021C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11343_B_2_03" Desc="精致的中甲鞋子" ItemType="143" ColorLevel="2" Level="21" ItemID="XG_Shoes_C50021B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11343_C_2_04" Desc="悔恨靴子" ItemType="143" ColorLevel="3" Level="21" ItemID="XG_Shoes_C50021C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11343_B_2_05" ItemType="143" ColorLevel="2" Level="23" ItemID="PVE_Shoes_C00023B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11343_B_2_06" ItemType="143" ColorLevel="2" Level="23" ItemID="PVE_Shoes_C50023B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11343_B_2_07" Desc="优越的中甲靴子" ItemType="143" ColorLevel="2" Level="28" ItemID="XG_Shoes_C00028B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11343_C_2_08" Desc="破风靴子" ItemType="143" ColorLevel="3" Level="28" ItemID="XG_Shoes_C00028C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11343_B_2_09" Desc="优越的中甲鞋子" ItemType="143" ColorLevel="2" Level="28" ItemID="XG_Shoes_C50028B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11343_C_2_10" Desc="破空靴子" ItemType="143" ColorLevel="3" Level="28" ItemID="XG_Shoes_C50028C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11343_B_2_11" ItemType="143" ColorLevel="2" Level="30" ItemID="PVE_Shoes_C00030B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11343_B_2_12" ItemType="143" ColorLevel="2" Level="30" ItemID="PVE_Shoes_C50030B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11343_B_3_01" Desc="华丽的中甲靴子" ItemType="143" ColorLevel="2" Level="35" ItemID="XG_Shoes_C00035B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11343_C_3_02" Desc="勇者强袭靴子" ItemType="143" ColorLevel="3" Level="35" ItemID="XG_Shoes_C00035C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11343_B_3_03" Desc="华丽的中甲鞋子" ItemType="143" ColorLevel="2" Level="35" ItemID="XG_Shoes_C50035B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11343_C_3_04" Desc="护卫靴子" ItemType="143" ColorLevel="3" Level="35" ItemID="XG_Shoes_C50035C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11343_D_3_05" Desc="光之机械强能靴子" ItemType="143" ColorLevel="4" Level="35" ItemID="BO_Shoes_C00035D1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11343_D_3_06" Desc="格里芬的长靴" ItemType="143" ColorLevel="4" Level="35" ItemID="BO_Shoes_C50035D1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11343_B_3_07" ItemType="143" ColorLevel="2" Level="40" ItemID="PVE_Shoes_C00040B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11343_B_3_08" ItemType="143" ColorLevel="2" Level="40" ItemID="PVE_Shoes_C50040B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11343_C_3_09" ItemType="143" ColorLevel="3" Level="40" ItemID="PVE_Shoes_C00040C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11343_C_3_10" ItemType="143" ColorLevel="3" Level="40" ItemID="PVE_Shoes_C50040C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11343_D_3_11" Desc="闪耀之强能靴子" ItemType="143" ColorLevel="4" Level="40" ItemID="BO_Shoes_C00040D1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11343_D_3_12" Desc="天怒者战靴" ItemType="143" ColorLevel="4" Level="40" ItemID="BO_Shoes_C50040D1" Camp="2" Prob="4"/>
+	<!--    <护腕（中甲）>    -->
+	<Property ID="MystShopItem_2_11345_B_1_01" Desc="简单的中甲护腕" ItemType="145" ColorLevel="2" Level="13" ItemID="XG_Wrist_C00013B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11345_B_1_02" Desc="简单的中甲护臂" ItemType="145" ColorLevel="2" Level="13" ItemID="XG_Wrist_C50013B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11345_B_1_03" ItemType="145" ColorLevel="2" Level="16" ItemID="PVE_Wrist_C00016B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11345_B_1_04" ItemType="145" ColorLevel="2" Level="16" ItemID="PVE_Wrist_C50016B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11345_B_2_01" Desc="精致的中甲护腕" ItemType="145" ColorLevel="2" Level="21" ItemID="XG_Wrist_C00021B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11345_C_2_02" Desc="铁之强能护腕" ItemType="145" ColorLevel="3" Level="21" ItemID="XG_Wrist_C00021C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11345_B_2_03" Desc="精致的中甲护臂" ItemType="145" ColorLevel="2" Level="21" ItemID="XG_Wrist_C50021B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11345_C_2_04" Desc="防御护腕" ItemType="145" ColorLevel="3" Level="21" ItemID="XG_Wrist_C50021C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11345_B_2_05" ItemType="145" ColorLevel="2" Level="23" ItemID="PVE_Wrist_C00023B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11345_B_2_06" ItemType="145" ColorLevel="2" Level="23" ItemID="PVE_Wrist_C50023B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11345_B_2_07" Desc="优越的中甲护腕" ItemType="145" ColorLevel="2" Level="28" ItemID="XG_Wrist_C00028B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11345_C_2_08" Desc="破能护腕" ItemType="145" ColorLevel="3" Level="28" ItemID="XG_Wrist_C00028C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11345_B_2_09" Desc="优越的中甲护臂" ItemType="145" ColorLevel="2" Level="28" ItemID="XG_Wrist_C50028B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11345_C_2_10" Desc="野兽护腕" ItemType="145" ColorLevel="3" Level="28" ItemID="XG_Wrist_C50028C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11345_B_2_11" ItemType="145" ColorLevel="2" Level="30" ItemID="PVE_Wrist_C00030B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11345_B_2_12" ItemType="145" ColorLevel="2" Level="30" ItemID="PVE_Wrist_C50030B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11345_B_3_01" Desc="华丽的中甲护腕" ItemType="145" ColorLevel="2" Level="35" ItemID="XG_Wrist_C00035B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11345_C_3_02" Desc="暗影之能护腕" ItemType="145" ColorLevel="3" Level="35" ItemID="XG_Wrist_C00035C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11345_B_3_03" Desc="华丽的中甲护臂" ItemType="145" ColorLevel="2" Level="35" ItemID="XG_Wrist_C50035B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11345_C_3_04" Desc="强者护腕" ItemType="145" ColorLevel="3" Level="35" ItemID="XG_Wrist_C50035C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11345_D_3_05" Desc="光之机械强能护腕" ItemType="145" ColorLevel="4" Level="35" ItemID="BO_Wrist_C00035D1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11345_D_3_06" Desc="格里芬的护臂" ItemType="145" ColorLevel="4" Level="35" ItemID="BO_Wrist_C50035D1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11345_B_3_07" ItemType="145" ColorLevel="2" Level="40" ItemID="PVE_Wrist_C00040B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11345_B_3_08" ItemType="145" ColorLevel="2" Level="40" ItemID="PVE_Wrist_C50040B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11345_C_3_09" ItemType="145" ColorLevel="3" Level="40" ItemID="PVE_Wrist_C00040C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11345_C_3_10" ItemType="145" ColorLevel="3" Level="40" ItemID="PVE_Wrist_C50040C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11345_D_3_11" Desc="闪耀之强能护腕" ItemType="145" ColorLevel="4" Level="40" ItemID="BO_Wrist_C00040D1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11345_D_3_12" Desc="天怒者护臂" ItemType="145" ColorLevel="4" Level="40" ItemID="BO_Wrist_C50040D1" Camp="2" Prob="4"/>
+	<!--    <手套（中甲）>    -->
+	<Property ID="MystShopItem_2_11346_B_1_01" Desc="简单的中甲手套" ItemType="146" ColorLevel="2" Level="13" ItemID="XG_Hand_C00013B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11346_B_1_02" Desc="简单的中甲护手" ItemType="146" ColorLevel="2" Level="13" ItemID="XG_Hand_C50013B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11346_B_1_03" ItemType="146" ColorLevel="2" Level="16" ItemID="PVE_Hand_C00016B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11346_B_1_04" ItemType="146" ColorLevel="2" Level="16" ItemID="PVE_Hand_C50016B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11346_B_2_01" Desc="精致的中甲手套" ItemType="146" ColorLevel="2" Level="21" ItemID="XG_Hand_C00021B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11346_C_2_02" Desc="勇者之能手套" ItemType="146" ColorLevel="3" Level="21" ItemID="XG_Hand_C00021C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11346_B_2_03" Desc="精致的中甲护手" ItemType="146" ColorLevel="2" Level="21" ItemID="XG_Hand_C50021B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11346_C_2_04" Desc="日炎手套" ItemType="146" ColorLevel="3" Level="21" ItemID="XG_Hand_C50021C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11346_B_2_05" ItemType="146" ColorLevel="2" Level="23" ItemID="PVE_Hand_C00023B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11346_B_2_06" ItemType="146" ColorLevel="2" Level="23" ItemID="PVE_Hand_C50023B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11346_B_2_07" Desc="优越的中甲手套" ItemType="146" ColorLevel="2" Level="28" ItemID="XG_Hand_C00028B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11346_C_2_08" Desc="驭龙手套" ItemType="146" ColorLevel="3" Level="28" ItemID="XG_Hand_C00028C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11346_B_2_09" Desc="优越的中甲护手" ItemType="146" ColorLevel="2" Level="28" ItemID="XG_Hand_C50028B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11346_C_2_10" Desc="狂热手套" ItemType="146" ColorLevel="3" Level="28" ItemID="XG_Hand_C50028C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11346_B_2_11" ItemType="146" ColorLevel="2" Level="30" ItemID="PVE_Hand_C00030B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11346_B_2_12" ItemType="146" ColorLevel="2" Level="30" ItemID="PVE_Hand_C50030B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11346_B_3_01" Desc="华丽的中甲手套" ItemType="146" ColorLevel="2" Level="35" ItemID="XG_Hand_C00035B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11346_C_3_02" Desc="暗泽新能手套" ItemType="146" ColorLevel="3" Level="35" ItemID="XG_Hand_C00035C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11346_B_3_03" Desc="华丽的中甲护手" ItemType="146" ColorLevel="2" Level="35" ItemID="XG_Hand_C50035B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11346_C_3_04" Desc="焚日手套" ItemType="146" ColorLevel="3" Level="35" ItemID="XG_Hand_C50035C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11346_D_3_05" Desc="光之机械强能手套" ItemType="146" ColorLevel="4" Level="35" ItemID="BO_Hand_C00035D1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11346_D_3_06" Desc="格里芬的手套" ItemType="146" ColorLevel="4" Level="35" ItemID="BO_Hand_C50035D1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11346_B_3_07" ItemType="146" ColorLevel="2" Level="40" ItemID="PVE_Hand_C00040B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11346_B_3_08" ItemType="146" ColorLevel="2" Level="40" ItemID="PVE_Hand_C50040B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11346_C_3_09" ItemType="146" ColorLevel="3" Level="40" ItemID="PVE_Hand_C00040C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11346_C_3_10" ItemType="146" ColorLevel="3" Level="40" ItemID="PVE_Hand_C50040C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11346_D_3_11" Desc="闪耀之强能手套" ItemType="146" ColorLevel="4" Level="40" ItemID="BO_Hand_C00040D1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11346_D_3_12" Desc="天怒者手甲" ItemType="146" ColorLevel="4" Level="40" ItemID="BO_Hand_C50040D1" Camp="2" Prob="4"/>
+	<!--    <腰带（重甲）>    -->
+	<Property ID="MystShopItem_2_11439_B_1_01" Desc="简单的重甲腰带" ItemType="139" ColorLevel="2" Level="13" ItemID="XG_Belt_D00013B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11439_B_1_02" Desc="简单的重甲护腰" ItemType="139" ColorLevel="2" Level="13" ItemID="XG_Belt_D50013B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11439_B_1_03" ItemType="139" ColorLevel="2" Level="16" ItemID="PVE_Belt_D00016B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11439_B_1_04" ItemType="139" ColorLevel="2" Level="16" ItemID="PVE_Belt_D50016B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11439_B_2_01" Desc="精致的重甲腰带" ItemType="139" ColorLevel="2" Level="21" ItemID="XG_Belt_D00021B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11439_C_2_02" Desc="铁血腰带" ItemType="139" ColorLevel="3" Level="21" ItemID="XG_Belt_D00021C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11439_B_2_03" Desc="精致的重甲护腰" ItemType="139" ColorLevel="2" Level="21" ItemID="XG_Belt_D50021B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11439_C_2_04" Desc="坚固腰带" ItemType="139" ColorLevel="3" Level="21" ItemID="XG_Belt_D50021C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11439_B_2_05" ItemType="139" ColorLevel="2" Level="23" ItemID="PVE_Belt_D00023B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11439_B_2_06" ItemType="139" ColorLevel="2" Level="23" ItemID="PVE_Belt_D50023B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11439_B_2_07" Desc="优越的重甲腰带" ItemType="139" ColorLevel="2" Level="28" ItemID="XG_Belt_D00028B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11439_C_2_08" Desc="钢骑腰带" ItemType="139" ColorLevel="3" Level="28" ItemID="XG_Belt_D00028C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11439_B_2_09" Desc="优越的重甲护腰" ItemType="139" ColorLevel="2" Level="28" ItemID="XG_Belt_D50028B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11439_C_2_10" Desc="沉稳腰带" ItemType="139" ColorLevel="3" Level="28" ItemID="XG_Belt_D50028C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11439_B_2_11" ItemType="139" ColorLevel="2" Level="30" ItemID="PVE_Belt_D00030B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11439_B_2_12" ItemType="139" ColorLevel="2" Level="30" ItemID="PVE_Belt_D50030B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11439_B_3_01" Desc="华丽的重甲腰带" ItemType="139" ColorLevel="2" Level="35" ItemID="XG_Belt_D00035B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11439_C_3_02" Desc="铁制强能腰带" ItemType="139" ColorLevel="3" Level="35" ItemID="XG_Belt_D00035C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11439_B_3_03" Desc="华丽的重甲护腰" ItemType="139" ColorLevel="2" Level="35" ItemID="XG_Belt_D50035B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11439_C_3_04" Desc="蛮力腰带" ItemType="139" ColorLevel="3" Level="35" ItemID="XG_Belt_D50035C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11439_D_3_05" Desc="北境利刃军腰带" ItemType="139" ColorLevel="4" Level="35" ItemID="BO_Belt_D00035D1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11439_D_3_06" Desc="斯坦德隆的腰带" ItemType="139" ColorLevel="4" Level="35" ItemID="BO_Belt_D50035D1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11439_B_3_07" ItemType="139" ColorLevel="2" Level="40" ItemID="PVE_Belt_D00040B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11439_B_3_08" ItemType="139" ColorLevel="2" Level="40" ItemID="PVE_Belt_D50040B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11439_C_3_09" ItemType="139" ColorLevel="3" Level="40" ItemID="PVE_Belt_D00040C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11439_C_3_10" ItemType="139" ColorLevel="3" Level="40" ItemID="PVE_Belt_D50040C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11439_D_3_11" Desc="战争之主的腰带" ItemType="139" ColorLevel="4" Level="40" ItemID="BO_Belt_D00040D1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11439_D_3_12" Desc="虚荣" ItemType="139" ColorLevel="4" Level="40" ItemID="BO_Belt_D50040D1" Camp="2" Prob="4"/>
+	<!--    <帽子（重甲）>    -->
+	<Property ID="MystShopItem_2_11440_B_1_01" Desc="简单的重甲头盔" ItemType="140" ColorLevel="2" Level="13" ItemID="XG_Hat_D00013B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11440_B_1_02" Desc="简单的重甲头饰" ItemType="140" ColorLevel="2" Level="13" ItemID="XG_Hat_D50013B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11440_B_1_03" ItemType="140" ColorLevel="2" Level="16" ItemID="PVE_Hat_D00016B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11440_B_1_04" ItemType="140" ColorLevel="2" Level="16" ItemID="PVE_Hat_D50016B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11440_B_2_01" Desc="精致的重甲头盔" ItemType="140" ColorLevel="2" Level="21" ItemID="XG_Hat_D00021B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11440_C_2_02" Desc="深渊之眼" ItemType="140" ColorLevel="3" Level="21" ItemID="XG_Hat_D00021C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11440_B_2_03" Desc="精致的重甲头饰" ItemType="140" ColorLevel="2" Level="21" ItemID="XG_Hat_D50021B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11440_C_2_04" Desc="勇者头盔" ItemType="140" ColorLevel="3" Level="21" ItemID="XG_Hat_D50021C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11440_B_2_05" ItemType="140" ColorLevel="2" Level="23" ItemID="PVE_Hat_D00023B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11440_B_2_06" ItemType="140" ColorLevel="2" Level="23" ItemID="PVE_Hat_D50023B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11440_B_2_07" Desc="优越的重甲头盔" ItemType="140" ColorLevel="2" Level="28" ItemID="XG_Hat_D00028B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11440_C_2_08" Desc="惩罚之能头盔" ItemType="140" ColorLevel="3" Level="28" ItemID="XG_Hat_D00028C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11440_B_2_09" Desc="优越的重甲头饰" ItemType="140" ColorLevel="2" Level="28" ItemID="XG_Hat_D50028B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11440_C_2_10" Desc="皓月头盔" ItemType="140" ColorLevel="3" Level="28" ItemID="XG_Hat_D50028C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11440_B_2_11" ItemType="140" ColorLevel="2" Level="30" ItemID="PVE_Hat_D00030B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11440_B_2_12" ItemType="140" ColorLevel="2" Level="30" ItemID="PVE_Hat_D50030B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11440_B_3_01" Desc="华丽的重甲头盔" ItemType="140" ColorLevel="2" Level="35" ItemID="XG_Hat_D00035B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11440_C_3_02" Desc="毁灭之心头盔" ItemType="140" ColorLevel="3" Level="35" ItemID="XG_Hat_D00035C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11440_B_3_03" Desc="华丽的重甲头饰" ItemType="140" ColorLevel="2" Level="35" ItemID="XG_Hat_D50035B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11440_C_3_04" Desc="噩梦头盔" ItemType="140" ColorLevel="3" Level="35" ItemID="XG_Hat_D50035C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11440_D_3_05" Desc="北境利刃军头盔" ItemType="140" ColorLevel="4" Level="35" ItemID="BO_Hat_D00035D1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11440_D_3_06" Desc="斯坦德隆的头盔" ItemType="140" ColorLevel="4" Level="35" ItemID="BO_Hat_D50035D1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11440_B_3_07" ItemType="140" ColorLevel="2" Level="40" ItemID="PVE_Hat_D00040B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11440_B_3_08" ItemType="140" ColorLevel="2" Level="40" ItemID="PVE_Hat_D50040B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11440_C_3_09" ItemType="140" ColorLevel="3" Level="40" ItemID="PVE_Hat_D00040C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11440_C_3_10" ItemType="140" ColorLevel="3" Level="40" ItemID="PVE_Hat_D50040C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11440_D_3_11" Desc="战争之主的头盔" ItemType="140" ColorLevel="4" Level="40" ItemID="BO_Hat_D00040D1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11440_D_3_12" Desc="忿怒" ItemType="140" ColorLevel="4" Level="40" ItemID="BO_Hat_D50040D1" Camp="2" Prob="4"/>
+	<!--    <上装（重甲）>    -->
+	<Property ID="MystShopItem_2_11441_B_1_01" Desc="简单的重甲上装" ItemType="141" ColorLevel="2" Level="13" ItemID="XG_Cloth_D00013B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11441_B_1_02" Desc="简单的重甲上衣" ItemType="141" ColorLevel="2" Level="13" ItemID="XG_Cloth_D50013B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11441_B_1_03" ItemType="141" ColorLevel="2" Level="16" ItemID="PVE_Cloth_D00016B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11441_B_1_04" ItemType="141" ColorLevel="2" Level="16" ItemID="PVE_Cloth_D50016B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11441_B_2_01" Desc="精致的重甲上装" ItemType="141" ColorLevel="2" Level="21" ItemID="XG_Cloth_D00021B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11441_C_2_02" Desc="重型防护上装" ItemType="141" ColorLevel="3" Level="21" ItemID="XG_Cloth_D00021C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11441_B_2_03" Desc="精致的重甲上衣" ItemType="141" ColorLevel="2" Level="21" ItemID="XG_Cloth_D50021B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11441_C_2_04" Desc="锁子上装" ItemType="141" ColorLevel="3" Level="21" ItemID="XG_Cloth_D50021C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11441_B_2_05" ItemType="141" ColorLevel="2" Level="23" ItemID="PVE_Cloth_D00023B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11441_B_2_06" ItemType="141" ColorLevel="2" Level="23" ItemID="PVE_Cloth_D50023B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11441_B_2_07" Desc="优越的重甲上装" ItemType="141" ColorLevel="2" Level="28" ItemID="XG_Cloth_D00028B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11441_C_2_08" Desc="钢铁之能上装" ItemType="141" ColorLevel="3" Level="28" ItemID="XG_Cloth_D00028C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11441_B_2_09" Desc="优越的重甲上衣" ItemType="141" ColorLevel="2" Level="28" ItemID="XG_Cloth_D50028B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11441_C_2_10" Desc="龙骨上装" ItemType="141" ColorLevel="3" Level="28" ItemID="XG_Cloth_D50028C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11441_B_2_11" ItemType="141" ColorLevel="2" Level="30" ItemID="PVE_Cloth_D00030B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11441_B_2_12" ItemType="141" ColorLevel="2" Level="30" ItemID="PVE_Cloth_D50030B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11441_B_3_01" Desc="华丽的重甲上装" ItemType="141" ColorLevel="2" Level="35" ItemID="XG_Cloth_D00035B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11441_C_3_02" Desc="大地守护上装" ItemType="141" ColorLevel="3" Level="35" ItemID="XG_Cloth_D00035C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11441_B_3_03" Desc="华丽的重甲上衣" ItemType="141" ColorLevel="2" Level="35" ItemID="XG_Cloth_D50035B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11441_C_3_04" Desc="勇士上装" ItemType="141" ColorLevel="3" Level="35" ItemID="XG_Cloth_D50035C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11441_D_3_05" Desc="北境利刃军胸铠" ItemType="141" ColorLevel="4" Level="35" ItemID="BO_Cloth_D00035D1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11441_D_3_06" Desc="斯坦德隆的胸铠" ItemType="141" ColorLevel="4" Level="35" ItemID="BO_Cloth_D50035D1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11441_B_3_07" ItemType="141" ColorLevel="2" Level="40" ItemID="PVE_Cloth_D00040B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11441_B_3_08" ItemType="141" ColorLevel="2" Level="40" ItemID="PVE_Cloth_D50040B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11441_C_3_09" ItemType="141" ColorLevel="3" Level="40" ItemID="PVE_Cloth_D00040C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11441_C_3_10" ItemType="141" ColorLevel="3" Level="40" ItemID="PVE_Cloth_D50040C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11441_D_3_11" Desc="战争之主的胸铠" ItemType="141" ColorLevel="4" Level="40" ItemID="BO_Cloth_D00040D1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11441_D_3_12" Desc="嫉妒" ItemType="141" ColorLevel="4" Level="40" ItemID="BO_Cloth_D50040D1" Camp="2" Prob="4"/>
+	<!--    <下装（重甲）>    -->
+	<Property ID="MystShopItem_2_11442_B_1_01" Desc="简单的重甲下装" ItemType="142" ColorLevel="2" Level="13" ItemID="XG_Pants_D00013B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11442_B_1_02" Desc="简单的重甲下衣" ItemType="142" ColorLevel="2" Level="13" ItemID="XG_Pants_D50013B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11442_B_1_03" ItemType="142" ColorLevel="2" Level="16" ItemID="PVE_Pants_D00016B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11442_B_1_04" ItemType="142" ColorLevel="2" Level="16" ItemID="PVE_Pants_D50016B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11442_B_2_01" Desc="精致的重甲下装" ItemType="142" ColorLevel="2" Level="21" ItemID="XG_Pants_D00021B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11442_C_2_02" Desc="永恒守护下装" ItemType="142" ColorLevel="3" Level="21" ItemID="XG_Pants_D00021C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11442_B_2_03" Desc="精致的重甲下衣" ItemType="142" ColorLevel="2" Level="21" ItemID="XG_Pants_D50021B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11442_C_2_04" Desc="秘银下装" ItemType="142" ColorLevel="3" Level="21" ItemID="XG_Pants_D50021C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11442_B_2_05" ItemType="142" ColorLevel="2" Level="23" ItemID="PVE_Pants_D00023B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11442_B_2_06" ItemType="142" ColorLevel="2" Level="23" ItemID="PVE_Pants_D50023B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11442_B_2_07" Desc="优越的重甲下装" ItemType="142" ColorLevel="2" Level="28" ItemID="XG_Pants_D00028B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11442_C_2_08" Desc="平衡之能下装" ItemType="142" ColorLevel="3" Level="28" ItemID="XG_Pants_D00028C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11442_B_2_09" Desc="优越的重甲下衣" ItemType="142" ColorLevel="2" Level="28" ItemID="XG_Pants_D50028B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11442_C_2_10" Desc="紫金下装" ItemType="142" ColorLevel="3" Level="28" ItemID="XG_Pants_D50028C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11442_B_2_11" ItemType="142" ColorLevel="2" Level="30" ItemID="PVE_Pants_D00030B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11442_B_2_12" ItemType="142" ColorLevel="2" Level="30" ItemID="PVE_Pants_D50030B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11442_B_3_01" Desc="华丽的重甲下装" ItemType="142" ColorLevel="2" Level="35" ItemID="XG_Pants_D00035B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11442_C_3_02" Desc="守护之能下装" ItemType="142" ColorLevel="3" Level="35" ItemID="XG_Pants_D00035C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11442_B_3_03" Desc="华丽的重甲下衣" ItemType="142" ColorLevel="2" Level="35" ItemID="XG_Pants_D50035B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11442_C_3_04" Desc="裁决者下装" ItemType="142" ColorLevel="3" Level="35" ItemID="XG_Pants_D50035C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11442_D_3_05" Desc="北境利刃军腿铠" ItemType="142" ColorLevel="4" Level="35" ItemID="BO_Pants_D00035D1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11442_D_3_06" Desc="斯坦德隆的护腿" ItemType="142" ColorLevel="4" Level="35" ItemID="BO_Pants_D50035D1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11442_B_3_07" ItemType="142" ColorLevel="2" Level="40" ItemID="PVE_Pants_D00040B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11442_B_3_08" ItemType="142" ColorLevel="2" Level="40" ItemID="PVE_Pants_D50040B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11442_C_3_09" ItemType="142" ColorLevel="3" Level="40" ItemID="PVE_Pants_D00040C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11442_C_3_10" ItemType="142" ColorLevel="3" Level="40" ItemID="PVE_Pants_D50040C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11442_D_3_11" Desc="战争之主的腿铠" ItemType="142" ColorLevel="4" Level="40" ItemID="BO_Pants_D00040D1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11442_D_3_12" Desc="荒欲" ItemType="142" ColorLevel="4" Level="40" ItemID="BO_Pants_D50040D1" Camp="2" Prob="4"/>
+	<!--    <鞋子（重甲）>    -->
+	<Property ID="MystShopItem_2_11443_B_1_01" Desc="简单的重甲靴子" ItemType="143" ColorLevel="2" Level="13" ItemID="XG_Shoes_D00013B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11443_B_1_02" Desc="简单的重甲鞋子" ItemType="143" ColorLevel="2" Level="13" ItemID="XG_Shoes_D50013B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11443_B_1_03" ItemType="143" ColorLevel="2" Level="16" ItemID="PVE_Shoes_D00016B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11443_B_1_04" ItemType="143" ColorLevel="2" Level="16" ItemID="PVE_Shoes_D50016B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11443_B_2_01" Desc="精致的重甲靴子" ItemType="143" ColorLevel="2" Level="21" ItemID="XG_Shoes_D00021B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11443_C_2_02" Desc="永恒靴子" ItemType="143" ColorLevel="3" Level="21" ItemID="XG_Shoes_D00021C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11443_B_2_03" Desc="精致的重甲鞋子" ItemType="143" ColorLevel="2" Level="21" ItemID="XG_Shoes_D50021B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11443_C_2_04" Desc="黑铁靴子" ItemType="143" ColorLevel="3" Level="21" ItemID="XG_Shoes_D50021C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11443_B_2_05" ItemType="143" ColorLevel="2" Level="23" ItemID="PVE_Shoes_D00023B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11443_B_2_06" ItemType="143" ColorLevel="2" Level="23" ItemID="PVE_Shoes_D50023B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11443_B_2_07" Desc="优越的重甲靴子" ItemType="143" ColorLevel="2" Level="28" ItemID="XG_Shoes_D00028B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11443_C_2_08" Desc="坚固加持靴子" ItemType="143" ColorLevel="3" Level="28" ItemID="XG_Shoes_D00028C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11443_B_2_09" Desc="优越的重甲鞋子" ItemType="143" ColorLevel="2" Level="28" ItemID="XG_Shoes_D50028B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11443_C_2_10" Desc="熔岩靴子" ItemType="143" ColorLevel="3" Level="28" ItemID="XG_Shoes_D50028C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11443_B_2_11" ItemType="143" ColorLevel="2" Level="30" ItemID="PVE_Shoes_D00030B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11443_B_2_12" ItemType="143" ColorLevel="2" Level="30" ItemID="PVE_Shoes_D50030B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11443_B_3_01" Desc="华丽的重甲靴子" ItemType="143" ColorLevel="2" Level="35" ItemID="XG_Shoes_D00035B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11443_C_3_02" Desc="钢铁之怒靴子" ItemType="143" ColorLevel="3" Level="35" ItemID="XG_Shoes_D00035C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11443_B_3_03" Desc="华丽的重甲鞋子" ItemType="143" ColorLevel="2" Level="35" ItemID="XG_Shoes_D50035B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11443_C_3_04" Desc="荣誉靴子" ItemType="143" ColorLevel="3" Level="35" ItemID="XG_Shoes_D50035C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11443_D_3_05" Desc="北境利刃军战靴" ItemType="143" ColorLevel="4" Level="35" ItemID="BO_Shoes_D00035D1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11443_D_3_06" Desc="斯坦德隆的战靴" ItemType="143" ColorLevel="4" Level="35" ItemID="BO_Shoes_D50035D1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11443_B_3_07" ItemType="143" ColorLevel="2" Level="40" ItemID="PVE_Shoes_D00040B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11443_B_3_08" ItemType="143" ColorLevel="2" Level="40" ItemID="PVE_Shoes_D50040B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11443_C_3_09" ItemType="143" ColorLevel="3" Level="40" ItemID="PVE_Shoes_D00040C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11443_C_3_10" ItemType="143" ColorLevel="3" Level="40" ItemID="PVE_Shoes_D50040C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11443_D_3_11" Desc="战争之主的长靴" ItemType="143" ColorLevel="4" Level="40" ItemID="BO_Shoes_D00040D1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11443_D_3_12" Desc="傲慢" ItemType="143" ColorLevel="4" Level="40" ItemID="BO_Shoes_D50040D1" Camp="2" Prob="4"/>
+	<!--    <护腕（重甲）>    -->
+	<Property ID="MystShopItem_2_11445_B_1_01" Desc="简单的重甲护腕" ItemType="145" ColorLevel="2" Level="13" ItemID="XG_Wrist_D00013B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11445_B_1_02" Desc="简单的重甲护臂" ItemType="145" ColorLevel="2" Level="13" ItemID="XG_Wrist_D50013B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11445_B_1_03" ItemType="145" ColorLevel="2" Level="16" ItemID="PVE_Wrist_D00016B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11445_B_1_04" ItemType="145" ColorLevel="2" Level="16" ItemID="PVE_Wrist_D50016B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11445_B_2_01" Desc="精致的重甲护腕" ItemType="145" ColorLevel="2" Level="21" ItemID="XG_Wrist_D00021B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11445_C_2_02" Desc="防护之能护腕" ItemType="145" ColorLevel="3" Level="21" ItemID="XG_Wrist_D00021C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11445_B_2_03" Desc="精致的重甲护臂" ItemType="145" ColorLevel="2" Level="21" ItemID="XG_Wrist_D50021B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11445_C_2_04" Desc="战斗护腕" ItemType="145" ColorLevel="3" Level="21" ItemID="XG_Wrist_D50021C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11445_B_2_05" ItemType="145" ColorLevel="2" Level="23" ItemID="PVE_Wrist_D00023B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11445_B_2_06" ItemType="145" ColorLevel="2" Level="23" ItemID="PVE_Wrist_D50023B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11445_B_2_07" Desc="优越的重甲护腕" ItemType="145" ColorLevel="2" Level="28" ItemID="XG_Wrist_D00028B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11445_C_2_08" Desc="火炬之能护腕" ItemType="145" ColorLevel="3" Level="28" ItemID="XG_Wrist_D00028C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11445_B_2_09" Desc="优越的重甲护臂" ItemType="145" ColorLevel="2" Level="28" ItemID="XG_Wrist_D50028B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11445_C_2_10" Desc="钉刺护腕" ItemType="145" ColorLevel="3" Level="28" ItemID="XG_Wrist_D50028C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11445_B_2_11" ItemType="145" ColorLevel="2" Level="30" ItemID="PVE_Wrist_D00030B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11445_B_2_12" ItemType="145" ColorLevel="2" Level="30" ItemID="PVE_Wrist_D50030B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11445_B_3_01" Desc="华丽的重甲护腕" ItemType="145" ColorLevel="2" Level="35" ItemID="XG_Wrist_D00035B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11445_C_3_02" Desc="毁灭之能护腕" ItemType="145" ColorLevel="3" Level="35" ItemID="XG_Wrist_D00035C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11445_B_3_03" Desc="华丽的重甲护臂" ItemType="145" ColorLevel="2" Level="35" ItemID="XG_Wrist_D50035B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11445_C_3_04" Desc="蛇纹护腕" ItemType="145" ColorLevel="3" Level="35" ItemID="XG_Wrist_D50035C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11445_D_3_05" Desc="北境利刃军护臂" ItemType="145" ColorLevel="4" Level="35" ItemID="BO_Wrist_D00035D1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11445_D_3_06" Desc="斯坦德隆的护臂" ItemType="145" ColorLevel="4" Level="35" ItemID="BO_Wrist_D50035D1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11445_B_3_07" ItemType="145" ColorLevel="2" Level="40" ItemID="PVE_Wrist_D00040B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11445_B_3_08" ItemType="145" ColorLevel="2" Level="40" ItemID="PVE_Wrist_D50040B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11445_C_3_09" ItemType="145" ColorLevel="3" Level="40" ItemID="PVE_Wrist_D00040C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11445_C_3_10" ItemType="145" ColorLevel="3" Level="40" ItemID="PVE_Wrist_D50040C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11445_D_3_11" Desc="战争之主的护臂" ItemType="145" ColorLevel="4" Level="40" ItemID="BO_Wrist_D00040D1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11445_D_3_12" Desc="懒惰" ItemType="145" ColorLevel="4" Level="40" ItemID="BO_Wrist_D50040D1" Camp="2" Prob="4"/>
+	<!--    <手套（重甲）>    -->
+	<Property ID="MystShopItem_2_11446_B_1_01" Desc="简单的重甲手套" ItemType="146" ColorLevel="2" Level="13" ItemID="XG_Hand_D00013B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11446_B_1_02" Desc="简单的重甲护手" ItemType="146" ColorLevel="2" Level="13" ItemID="XG_Hand_D50013B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11446_B_1_03" ItemType="146" ColorLevel="2" Level="16" ItemID="PVE_Hand_D00016B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11446_B_1_04" ItemType="146" ColorLevel="2" Level="16" ItemID="PVE_Hand_D50016B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11446_B_2_01" Desc="精致的重甲手套" ItemType="146" ColorLevel="2" Level="21" ItemID="XG_Hand_D00021B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11446_C_2_02" Desc="光能手套" ItemType="146" ColorLevel="3" Level="21" ItemID="XG_Hand_D00021C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11446_B_2_03" Desc="精致的重甲护手" ItemType="146" ColorLevel="2" Level="21" ItemID="XG_Hand_D50021B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11446_C_2_04" Desc="骑士手套" ItemType="146" ColorLevel="3" Level="21" ItemID="XG_Hand_D50021C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11446_B_2_05" ItemType="146" ColorLevel="2" Level="23" ItemID="PVE_Hand_D00023B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11446_B_2_06" ItemType="146" ColorLevel="2" Level="23" ItemID="PVE_Hand_D50023B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11446_B_2_07" Desc="优越的重甲手套" ItemType="146" ColorLevel="2" Level="28" ItemID="XG_Hand_D00028B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11446_C_2_08" Desc="暗能手套" ItemType="146" ColorLevel="3" Level="28" ItemID="XG_Hand_D00028C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11446_B_2_09" Desc="优越的重甲护手" ItemType="146" ColorLevel="2" Level="28" ItemID="XG_Hand_D50028B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11446_C_2_10" Desc="精钢手套" ItemType="146" ColorLevel="3" Level="28" ItemID="XG_Hand_D50028C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11446_B_2_11" ItemType="146" ColorLevel="2" Level="30" ItemID="PVE_Hand_D00030B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11446_B_2_12" ItemType="146" ColorLevel="2" Level="30" ItemID="PVE_Hand_D50030B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11446_B_3_01" Desc="华丽的重甲手套" ItemType="146" ColorLevel="2" Level="35" ItemID="XG_Hand_D00035B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11446_C_3_02" Desc="焚炎手套" ItemType="146" ColorLevel="3" Level="35" ItemID="XG_Hand_D00035C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11446_B_3_03" Desc="华丽的重甲护手" ItemType="146" ColorLevel="2" Level="35" ItemID="XG_Hand_D50035B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11446_C_3_04" Desc="精炼手套" ItemType="146" ColorLevel="3" Level="35" ItemID="XG_Hand_D50035C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11446_D_3_05" Desc="北境利刃军护手" ItemType="146" ColorLevel="4" Level="35" ItemID="BO_Hand_D00035D1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11446_D_3_06" Desc="斯坦德隆的手套" ItemType="146" ColorLevel="4" Level="35" ItemID="BO_Hand_D50035D1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11446_B_3_07" ItemType="146" ColorLevel="2" Level="40" ItemID="PVE_Hand_D00040B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11446_B_3_08" ItemType="146" ColorLevel="2" Level="40" ItemID="PVE_Hand_D50040B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11446_C_3_09" ItemType="146" ColorLevel="3" Level="40" ItemID="PVE_Hand_D00040C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11446_C_3_10" ItemType="146" ColorLevel="3" Level="40" ItemID="PVE_Hand_D50040C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_2_11446_D_3_11" Desc="战争之主的手套" ItemType="146" ColorLevel="4" Level="40" ItemID="BO_Hand_D00040D1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_2_11446_D_3_12" Desc="贪婪" ItemType="146" ColorLevel="4" Level="40" ItemID="BO_Hand_D50040D1" Camp="2" Prob="4"/>
+	<!--    <腰带（无类型）>    -->
+	<!--    <帽子（无类型）>    -->
+	<!--    <上装（无类型）>    -->
+	<!--    <下装（无类型）>    -->
+	<!--    <鞋子（无类型）>    -->
+	<!--    <护腕（无类型）>    -->
+	<!--    <手套（无类型）>    -->
+	<!--      【饰品】      -->
+	<!--    <项链>    -->
+	<Property ID="MystShopItem_3_147_B_1_01" Desc="睿智者项链" ItemType="147" ColorLevel="2" Level="13" ItemID="XG_Necklace_00013B1" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_147_B_1_02" ItemType="147" ColorLevel="2" Level="16" ItemID="PVE_Necklace_00016B1" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_147_B_1_03" ItemType="147" ColorLevel="2" Level="16" ItemID="PVE_Necklace_00016B2" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_147_C_1_04" ItemType="147" ColorLevel="3" Level="16" ItemID="PVE_Necklace_00016C1" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_147_C_1_05" ItemType="147" ColorLevel="3" Level="16" ItemID="PVE_Necklace_00016C2" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_147_B_2_01" Desc="暗之诅咒项链" ItemType="147" ColorLevel="2" Level="21" ItemID="XG_Necklace_00021B1" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_147_C_2_02" Desc="黑暗项链" ItemType="147" ColorLevel="3" Level="21" ItemID="XG_Necklace_00021C1" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_147_B_2_03" ItemType="147" ColorLevel="2" Level="23" ItemID="PVE_Necklace_00023B1" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_147_B_2_04" ItemType="147" ColorLevel="2" Level="23" ItemID="PVE_Necklace_00023B2" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_147_C_2_05" ItemType="147" ColorLevel="3" Level="23" ItemID="PVE_Necklace_00023C1" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_147_C_2_06" ItemType="147" ColorLevel="3" Level="23" ItemID="PVE_Necklace_00023C2" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_147_B_2_07" Desc="失魂项链" ItemType="147" ColorLevel="2" Level="28" ItemID="XG_Necklace_00028B1" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_147_C_2_08" Desc="火焰之魂项链" ItemType="147" ColorLevel="3" Level="28" ItemID="XG_Necklace_00028C1" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_147_B_2_09" ItemType="147" ColorLevel="2" Level="30" ItemID="PVE_Necklace_00030B1" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_147_B_2_10" ItemType="147" ColorLevel="2" Level="30" ItemID="PVE_Necklace_00030B2" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_147_C_2_11" ItemType="147" ColorLevel="3" Level="30" ItemID="PVE_Necklace_00030C1" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_147_C_2_12" ItemType="147" ColorLevel="3" Level="30" ItemID="PVE_Necklace_00030C2" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_147_C_3_01" ItemType="147" ColorLevel="3" Level="35" ItemID="PVE_Necklace_00035C1" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_147_C_3_02" ItemType="147" ColorLevel="3" Level="35" ItemID="PVE_Necklace_00035C2" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_147_B_3_03" Desc="闪耀者项链" ItemType="147" ColorLevel="2" Level="35" ItemID="XG_Necklace_00035B1" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_147_C_3_04" Desc="月神的祝福项链" ItemType="147" ColorLevel="3" Level="35" ItemID="XG_Necklace_00035C1" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_147_D_3_05" Desc="锋刃之链" ItemType="147" ColorLevel="4" Level="35" ItemID="BO_Necklace_00035D1" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_147_B_3_06" ItemType="147" ColorLevel="2" Level="40" ItemID="PVE_Necklace_00040B1" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_147_B_3_07" ItemType="147" ColorLevel="2" Level="40" ItemID="PVE_Necklace_00040B2" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_147_C_3_08" ItemType="147" ColorLevel="3" Level="40" ItemID="PVE_Necklace_00040C1" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_147_C_3_09" ItemType="147" ColorLevel="3" Level="40" ItemID="PVE_Necklace_00040C2" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_147_D_3_10" Desc="不亡者的遗失吊坠" ItemType="147" ColorLevel="4" Level="40" ItemID="BO_Necklace_00040D1" Camp="3" Prob="4"/>
+	<!--    <披风>    -->
+	<Property ID="MystShopItem_3_148_B_1_01" Desc="光芒披风" ItemType="148" ColorLevel="2" Level="13" ItemID="XG_Mantle_00013B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_3_148_B_1_02" Desc="智者披风" ItemType="148" ColorLevel="2" Level="13" ItemID="XG_Mantle_50013B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_3_148_B_1_03" ItemType="148" ColorLevel="2" Level="16" ItemID="PVE_Mantle_00016B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_3_148_B_1_04" ItemType="148" ColorLevel="2" Level="16" ItemID="PVE_Mantle_00016B2" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_3_148_B_1_05" ItemType="148" ColorLevel="2" Level="16" ItemID="PVE_Mantle_50016B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_3_148_B_1_06" ItemType="148" ColorLevel="2" Level="16" ItemID="PVE_Mantle_50016B2" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_3_148_C_1_07" ItemType="148" ColorLevel="3" Level="16" ItemID="PVE_Mantle_00016C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_3_148_C_1_08" ItemType="148" ColorLevel="3" Level="16" ItemID="PVE_Mantle_00016C2" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_3_148_C_1_09" ItemType="148" ColorLevel="3" Level="16" ItemID="PVE_Mantle_50016C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_3_148_C_1_10" ItemType="148" ColorLevel="3" Level="16" ItemID="PVE_Mantle_50016C2" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_3_148_B_2_01" Desc="驱逐者披风" ItemType="148" ColorLevel="2" Level="21" ItemID="XG_Mantle_00021B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_3_148_C_2_02" Desc="恶灵披风" ItemType="148" ColorLevel="3" Level="21" ItemID="XG_Mantle_00021C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_3_148_B_2_03" Desc="自然披风" ItemType="148" ColorLevel="2" Level="21" ItemID="XG_Mantle_50021B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_3_148_C_2_04" Desc="灵魂披风" ItemType="148" ColorLevel="3" Level="21" ItemID="XG_Mantle_50021C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_3_148_B_2_05" ItemType="148" ColorLevel="2" Level="23" ItemID="PVE_Mantle_00023B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_3_148_B_2_06" ItemType="148" ColorLevel="2" Level="23" ItemID="PVE_Mantle_50023B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_3_148_C_2_07" ItemType="148" ColorLevel="3" Level="23" ItemID="PVE_Mantle_00023C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_3_148_C_2_08" ItemType="148" ColorLevel="3" Level="23" ItemID="PVE_Mantle_00023C2" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_3_148_C_2_09" ItemType="148" ColorLevel="3" Level="23" ItemID="PVE_Mantle_50023C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_3_148_C_2_10" ItemType="148" ColorLevel="3" Level="23" ItemID="PVE_Mantle_50023C2" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_3_148_B_2_11" Desc="影月披风" ItemType="148" ColorLevel="2" Level="28" ItemID="XG_Mantle_00028B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_3_148_C_2_12" Desc="暗之诅咒披风" ItemType="148" ColorLevel="3" Level="28" ItemID="XG_Mantle_00028C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_3_148_B_2_13" Desc="暗影披风" ItemType="148" ColorLevel="2" Level="28" ItemID="XG_Mantle_50028B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_3_148_C_2_14" Desc="怜悯披风" ItemType="148" ColorLevel="3" Level="28" ItemID="XG_Mantle_50028C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_3_148_B_2_15" ItemType="148" ColorLevel="2" Level="30" ItemID="PVE_Mantle_00030B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_3_148_B_2_16" ItemType="148" ColorLevel="2" Level="30" ItemID="PVE_Mantle_50030B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_3_148_C_2_17" ItemType="148" ColorLevel="3" Level="30" ItemID="PVE_Mantle_00030C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_3_148_C_2_18" ItemType="148" ColorLevel="3" Level="30" ItemID="PVE_Mantle_00030C2" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_3_148_C_2_19" ItemType="148" ColorLevel="3" Level="30" ItemID="PVE_Mantle_50030C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_3_148_C_2_20" ItemType="148" ColorLevel="3" Level="30" ItemID="PVE_Mantle_50030C2" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_3_148_C_3_01" ItemType="148" ColorLevel="3" Level="35" ItemID="PVE_Mantle_00035C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_3_148_C_3_02" ItemType="148" ColorLevel="3" Level="35" ItemID="PVE_Mantle_00035C2" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_3_148_C_3_03" ItemType="148" ColorLevel="3" Level="35" ItemID="PVE_Mantle_50035C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_3_148_C_3_04" ItemType="148" ColorLevel="3" Level="35" ItemID="PVE_Mantle_50035C2" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_3_148_B_3_05" Desc="逆袭披风" ItemType="148" ColorLevel="2" Level="35" ItemID="XG_Mantle_00035B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_3_148_C_3_06" Desc="恶魔披风" ItemType="148" ColorLevel="3" Level="35" ItemID="XG_Mantle_00035C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_3_148_B_3_07" Desc="怒灵披风" ItemType="148" ColorLevel="2" Level="35" ItemID="XG_Mantle_50035B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_3_148_C_3_08" Desc="怒炎披风" ItemType="148" ColorLevel="3" Level="35" ItemID="XG_Mantle_50035C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_3_148_D_3_09" Desc="布冯特皇家卫队披风" ItemType="148" ColorLevel="4" Level="35" ItemID="BO_Mantle_00035D1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_3_148_D_3_10" Desc="莫多威尔的披风" ItemType="148" ColorLevel="4" Level="35" ItemID="BO_Mantle_50035D1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_3_148_B_3_11" ItemType="148" ColorLevel="2" Level="40" ItemID="PVE_Mantle_00040B1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_3_148_B_3_12" ItemType="148" ColorLevel="2" Level="40" ItemID="PVE_Mantle_50040B1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_3_148_C_3_13" ItemType="148" ColorLevel="3" Level="40" ItemID="PVE_Mantle_00040C1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_3_148_C_3_14" ItemType="148" ColorLevel="3" Level="40" ItemID="PVE_Mantle_00040C2" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_3_148_C_3_15" ItemType="148" ColorLevel="3" Level="40" ItemID="PVE_Mantle_50040C1" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_3_148_C_3_16" ItemType="148" ColorLevel="3" Level="40" ItemID="PVE_Mantle_50040C2" Camp="2" Prob="4"/>
+	<Property ID="MystShopItem_3_148_D_3_17" Desc="王国守护者披风" ItemType="148" ColorLevel="4" Level="40" ItemID="BO_Mantle_00040D1" Camp="1" Prob="4"/>
+	<Property ID="MystShopItem_3_148_D_3_18" Desc="君王披风" ItemType="148" ColorLevel="4" Level="40" ItemID="BO_Mantle_50040D1" Camp="2" Prob="4"/>
+	<!--    <戒指>    -->
+	<Property ID="MystShopItem_3_149_B_1_01" Desc="星云戒指" ItemType="149" ColorLevel="2" Level="13" ItemID="XG_Ring_00013B1" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_149_B_1_02" ItemType="149" ColorLevel="2" Level="16" ItemID="PVE_Ring_00016B1" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_149_B_1_03" ItemType="149" ColorLevel="2" Level="16" ItemID="PVE_Ring_00016B2" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_149_C_1_04" ItemType="149" ColorLevel="3" Level="16" ItemID="PVE_Ring_00016C1" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_149_C_1_05" ItemType="149" ColorLevel="3" Level="16" ItemID="PVE_Ring_00016C2" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_149_B_2_01" Desc="蓝月戒指" ItemType="149" ColorLevel="2" Level="21" ItemID="XG_Ring_00021B1" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_149_C_2_02" Desc="亡骨戒指" ItemType="149" ColorLevel="3" Level="21" ItemID="XG_Ring_00021C1" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_149_B_2_03" ItemType="149" ColorLevel="2" Level="23" ItemID="PVE_Ring_00023B1" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_149_B_2_04" ItemType="149" ColorLevel="2" Level="23" ItemID="PVE_Ring_00023B2" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_149_C_2_05" ItemType="149" ColorLevel="3" Level="23" ItemID="PVE_Ring_00023C1" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_149_C_2_06" ItemType="149" ColorLevel="3" Level="23" ItemID="PVE_Ring_00023C2" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_149_B_2_07" Desc="信仰戒指" ItemType="149" ColorLevel="2" Level="28" ItemID="XG_Ring_00028B1" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_149_C_2_08" Desc="厄运戒指" ItemType="149" ColorLevel="3" Level="28" ItemID="XG_Ring_00028C1" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_149_B_2_09" ItemType="149" ColorLevel="2" Level="30" ItemID="PVE_Ring_00030B1" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_149_B_2_10" ItemType="149" ColorLevel="2" Level="30" ItemID="PVE_Ring_00030B2" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_149_C_2_11" ItemType="149" ColorLevel="3" Level="30" ItemID="PVE_Ring_00030C1" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_149_C_2_12" ItemType="149" ColorLevel="3" Level="30" ItemID="PVE_Ring_00030C2" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_149_C_3_01" ItemType="149" ColorLevel="3" Level="35" ItemID="PVE_Ring_00035C1" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_149_C_3_02" ItemType="149" ColorLevel="3" Level="35" ItemID="PVE_Ring_00035C2" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_149_B_3_03" Desc="炎狱戒指" ItemType="149" ColorLevel="2" Level="35" ItemID="XG_Ring_00035B1" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_149_C_3_04" Desc="黄昏之语戒指" ItemType="149" ColorLevel="3" Level="35" ItemID="XG_Ring_00035C1" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_149_D_3_05" Desc="锋刃之戒" ItemType="149" ColorLevel="4" Level="35" ItemID="BO_Ring_00035D1" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_149_B_3_06" ItemType="149" ColorLevel="2" Level="40" ItemID="PVE_Ring_00040B1" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_149_B_3_07" ItemType="149" ColorLevel="2" Level="40" ItemID="PVE_Ring_00040B2" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_149_C_3_08" ItemType="149" ColorLevel="3" Level="40" ItemID="PVE_Ring_00040C1" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_149_C_3_09" ItemType="149" ColorLevel="3" Level="40" ItemID="PVE_Ring_00040C2" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_149_D_3_10" Desc="不亡者的遗失戒指" ItemType="149" ColorLevel="4" Level="40" ItemID="BO_Ring_00040D1" Camp="3" Prob="4"/>
+	<!--    <饰物>    -->
+	<Property ID="MystShopItem_3_150_B_1_01" Desc="混沌饰物" ItemType="150" ColorLevel="2" Level="13" ItemID="XG_Jewelry_00013B1" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_150_B_1_02" ItemType="150" ColorLevel="2" Level="16" ItemID="PVE_Jewelry_00016B1" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_150_B_1_03" ItemType="150" ColorLevel="2" Level="16" ItemID="PVE_Jewelry_00016B2" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_150_C_1_04" ItemType="150" ColorLevel="3" Level="16" ItemID="PVE_Jewelry_00016C1" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_150_C_1_05" ItemType="150" ColorLevel="3" Level="16" ItemID="PVE_Jewelry_00016C2" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_150_B_2_01" Desc="暗纹饰物" ItemType="150" ColorLevel="2" Level="21" ItemID="XG_Jewelry_00021B1" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_150_C_2_02" Desc="辉光饰物" ItemType="150" ColorLevel="3" Level="21" ItemID="XG_Jewelry_00021C1" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_150_B_2_03" ItemType="150" ColorLevel="2" Level="23" ItemID="PVE_Jewelry_00023B1" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_150_B_2_04" ItemType="150" ColorLevel="2" Level="23" ItemID="PVE_Jewelry_00023B2" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_150_C_2_05" ItemType="150" ColorLevel="3" Level="23" ItemID="PVE_Jewelry_00023C1" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_150_C_2_06" ItemType="150" ColorLevel="3" Level="23" ItemID="PVE_Jewelry_00023C2" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_150_B_2_07" Desc="蚀心饰物" ItemType="150" ColorLevel="2" Level="28" ItemID="XG_Jewelry_00028B1" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_150_C_2_08" Desc="怒炎饰物" ItemType="150" ColorLevel="3" Level="28" ItemID="XG_Jewelry_00028C1" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_150_B_2_09" ItemType="150" ColorLevel="2" Level="30" ItemID="PVE_Jewelry_00030B1" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_150_B_2_10" ItemType="150" ColorLevel="2" Level="30" ItemID="PVE_Jewelry_00030B2" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_150_C_2_11" ItemType="150" ColorLevel="3" Level="30" ItemID="PVE_Jewelry_00030C1" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_150_C_2_12" ItemType="150" ColorLevel="3" Level="30" ItemID="PVE_Jewelry_00030C2" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_150_C_3_01" ItemType="150" ColorLevel="3" Level="35" ItemID="PVE_Jewelry_00035C1" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_150_C_3_02" ItemType="150" ColorLevel="3" Level="35" ItemID="PVE_Jewelry_00035C2" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_150_B_3_03" Desc="碎梦饰物" ItemType="150" ColorLevel="2" Level="35" ItemID="XG_Jewelry_00035B1" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_150_C_3_04" Desc="暴怒之心饰物" ItemType="150" ColorLevel="3" Level="35" ItemID="XG_Jewelry_00035C1" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_150_D_3_05" Desc="锋刃之心" ItemType="150" ColorLevel="4" Level="35" ItemID="BO_Jewelry_00035D1" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_150_B_3_06" ItemType="150" ColorLevel="2" Level="40" ItemID="PVE_Jewelry_00040B1" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_150_B_3_07" ItemType="150" ColorLevel="2" Level="40" ItemID="PVE_Jewelry_00040B2" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_150_C_3_08" ItemType="150" ColorLevel="3" Level="40" ItemID="PVE_Jewelry_00040C1" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_150_C_3_09" ItemType="150" ColorLevel="3" Level="40" ItemID="PVE_Jewelry_00040C2" Camp="3" Prob="4"/>
+	<Property ID="MystShopItem_3_150_D_3_10" Desc="不亡者的遗失饰品" ItemType="150" ColorLevel="4" Level="40" ItemID="BO_Jewelry_00040D1" Camp="3" Prob="4"/>
+</Object>

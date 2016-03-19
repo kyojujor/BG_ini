@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- edited with XMLSpy v2010 (http://www.altova.com) by MESMERiZE (MiZE) -->
+<!-- 被2011 rel. 2 sp1 (TeaM DJiNN) 使用XMLSpy vTeaM DJiNN编辑的 (http://www.altova.com) by -->
+<!-- MaintainID			维护系数包号	见EWMaintanance.xml		int	-->
+<!-- CarrierProduceID	载具制造包号	见EWCarrierProduce.xml	int	-->
+<!-- welfarebagID  		能量井福利包描述ID							-->
+<!-- NpcFile  		Npc刷新文件							-->
+<!-- shop_desc  		商店描述									-->
+<!-- Image  			能量井图片									-->
+<Object>
+	<Property ID="10001" Name="Energywell_Name_1" Des="ui_energy_jieshao_zqzy" Type="2" Level="3" InitCamp="1" Open="1" Sceneid="1" Area="013800000" BuffID="Buff_Ew10001_01_1" LimitAreas="013800000,960600000" MaintainID="1" CarrierProduceID="1" NpcFile="Npc10001.xml" MatFile="Mat10001.xml" IsValid="1" RenownFile="Renown10001.xml" CarPosFile="CarPos10001.xml" ParkingSpaceFile="ParkingSpace10001.xml" welfarebagID="1" shop_desc="ui_energy_fuli_sd_01" Image="gui\ZQ\energywell_new\energywell_bg_2.png"/>
+	<Property ID="10002" Name="Energywell_Name_2" Des="ui_energy_jieshao_syzd" Type="2" Level="3" InitCamp="2" Open="1" Sceneid="2" Area="141900000" BuffID="Buff_Ew10002_01_1" LimitAreas="141900000,140000000" MaintainID="1" CarrierProduceID="2" NpcFile="Npc10002.xml" MatFile="Mat10002.xml" IsValid="1" RenownFile="Renown10002.xml" CarPosFile="CarPos10002.xml" ParkingSpaceFile="ParkingSpace10002.xml" welfarebagID="2" shop_desc="ui_energy_fuli_sd_02" Image="gui\QH\energywell_new\energywell_bg_2.png"/>
+	<Property ID="10003" Name="Energywell_Name_3" Des="ui_energy_jieshao_dggc" Type="2" Level="3" InitCamp="3" Open="1" Sceneid="6" Area="270900000" BuffID="Buff_Ew10003_01_1" LimitAreas="270900000,270000000" MaintainID="1" CarrierProduceID="3" NpcFile="Npc10003.xml" MatFile="Mat10003.xml" IsValid="1" RenownFile="Renown10003.xml" CarPosFile="CarPos10003.xml" ParkingSpaceFile="ParkingSpace10003.xml" welfarebagID="3" shop_desc="ui_energy_fuli_sd_03" Image="gui\QH\energywell_new\dagongpendi.png"/>
+	<Property ID="10004" Name="Energywell_Name_4" Des="ui_energy_jieshao_glyj" Type="1" Level="2" InitCamp="1" Open="1" Sceneid="5" Area="071900000" BuffID="Buff_Ew10004_01_1" LimitAreas="071900000,070000000" MaintainID="2" CarrierProduceID="4" NpcFile="Npc10004.xml" MatFile="Mat10004.xml" IsValid="1" RenownFile="Renown10004.xml" CarPosFile="CarPos10004.xml" ParkingSpaceFile="ParkingSpace10004.xml" welfarebagID="4" shop_desc="ui_energy_fuli_sd_04" Image="gui\ZQ\energywell_new\jurenxiawan.png"/>
+	<Property ID="10005" Name="Energywell_Name_5" Des="ui_energy_jieshao_xkzy" Type="1" Level="2" InitCamp="1" Open="1" Sceneid="7" Area="091800000" BuffID="Buff_Ew10005_01_1" LimitAreas="091800000,090000000" MaintainID="2" CarrierProduceID="5" NpcFile="Npc10005.xml" MatFile="Mat10005.xml" IsValid="1" RenownFile="Renown10005.xml" CarPosFile="CarPos10005.xml" ParkingSpaceFile="ParkingSpace10005.xml" welfarebagID="5" shop_desc="ui_energy_fuli_sd_05" Image="gui\ZQ\energywell_new\keruituoerfeixu.png"/>
+	<Property ID="10006" Name="Energywell_Name_6" Des="ui_energy_jieshao_smqj" Type="1" Level="2" InitCamp="2" Open="1" Sceneid="2" Area="181400000" BuffID="Buff_Ew10006_01_1" LimitAreas="181400000,180000000" MaintainID="2" CarrierProduceID="6" NpcFile="Npc10006.xml" MatFile="Mat10006.xml" IsValid="1" RenownFile="Renown10006.xml" CarPosFile="CarPos10006.xml" ParkingSpaceFile="ParkingSpace10006.xml" welfarebagID="6" shop_desc="ui_energy_fuli_sd_06" Image="gui\QH\energywell_new\jushuzhaoze.png"/>
+	<Property ID="10007" Name="Energywell_Name_7" Des="ui_energy_jieshao_wszd" Type="1" Level="2" InitCamp="2" Open="1" Sceneid="3" Area="192000000" BuffID="Buff_Ew10007_01_1" LimitAreas="192000000,190000000" MaintainID="2" CarrierProduceID="7" NpcFile="Npc10007.xml" MatFile="Mat10007.xml" IsValid="1" RenownFile="Renown10007.xml" CarPosFile="CarPos10007.xml" ParkingSpaceFile="ParkingSpace10007.xml" welfarebagID="7" shop_desc="ui_energy_fuli_sd_07" Image="gui\QH\energywell_new\wuyueconglin.png"/>
+	<Property ID="10008" Name="Energywell_Name_8" Des="ui_energy_jieshao_slqd" Type="0" Level="2" InitCamp="2" Open="1" Sceneid="3" Area="151700000" BuffID="Buff_Ew10008_01_1" LimitAreas="151700000,150000000" MaintainID="3" CarrierProduceID="8" NpcFile="Npc10008.xml" MatFile="Mat10008.xml" IsValid="1" RenownFile="Renown10008.xml" CarPosFile="CarPos10008.xml" ParkingSpaceFile="ParkingSpace10008.xml" welfarebagID="8" shop_desc="ui_energy_fuli_sd_08" Image="gui\QH\energywell_new\shenglinqundao.png"/>
+	<Property ID="10009" Name="Energywell_Name_9" Des="ui_energy_jieshao_nykm" Type="0" Level="2" InitCamp="1" Open="1" Sceneid="7" Area="031700000" BuffID="Buff_Ew10009_01_1" LimitAreas="031700000,030000000" MaintainID="3" CarrierProduceID="9" NpcFile="Npc10009.xml" MatFile="Mat10009.xml" IsValid="1" RenownFile="Renown10009.xml" CarPosFile="CarPos10009.xml" ParkingSpaceFile="ParkingSpace10009.xml" welfarebagID="9" shop_desc="ui_energy_fuli_sd_09" Image="gui\ZQ\energywell_new\nengyuankuangqu.png"/>
+</Object>

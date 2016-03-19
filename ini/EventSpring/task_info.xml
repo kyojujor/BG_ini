@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 被2011 rel. 2 sp1 (xx) 使用XMLSpy va编辑的 (http://www.altova.com) by -->
+<!-- 事件触发系统: 任务信息包 -->
+<!-- ID: 任务信息id -->
+<!-- SteamGoalCriteriaId: 蒸汽阵营的主目标id -->
+<!-- SteamCriteriaId: 蒸汽阵营玩家的子目标id集合(不随机) -->
+<!-- SteamRandomCriteriaId: 蒸汽阵营玩家的子目标id集合(随机) -->
+<!-- SteamRandomNum: 从蒸汽阵营子目标id集合中随机的个数(默认为不随机) -->
+<!-- FantasyGoalCriteriaId: 奇幻阵营的主目标id -->
+<!-- FantasyCriteriaId: 奇幻阵营玩家的子目标id集合(不随机) -->
+<!-- FantasyRandomCriteriaId: 蒸汽阵营玩家的子目标id集合(随机) -->
+<!-- FantasyRandomNum: 从奇幻阵营子目标id集合中随机的个数(默认为不随机) -->
+<Object>
+	<Property ID="1" SteamCriteriaId="30007" SteamGoalCriteriaId="30008"/>
+	<Property ID="2" SteamGoalCriteriaId="2054" SteamCriteriaId="2055" FantasyGoalCriteriaId="30059" FantasyCriteriaId="2038"/>
+	<Property ID="3" FantasyCriteriaId="22039" SteamGoalCriteriaId="2056" FantasyGoalCriteriaId="20004" SteamCriteriaId="22037"/>
+	<Property ID="4" FantasyCriteriaId="2060" SteamCriteriaId="2061"/>
+	<Property ID="1999" SteamCriteriaId="30142" SteamGoalCriteriaId="30000"/>
+	<Property ID="1001" SteamCriteriaId="30002,30003" SteamGoalCriteriaId="30001"/>
+	<Property ID="1003" SteamCriteriaId="30025,30026,30007" SteamGoalCriteriaId="30008"/>
+	<Property ID="1005" SteamCriteriaId="30029" SteamGoalCriteriaId="30028"/>
+	<Property ID="1007" SteamCriteriaId="30013" SteamGoalCriteriaId="30017"/>
+	<Property ID="1008" SteamCriteriaId="30011,30012" SteamGoalCriteriaId="30010"/>
+	<Property ID="1009" SteamCriteriaId="30094" SteamGoalCriteriaId="30005"/>
+	<Property ID="1010" SteamCriteriaId="30095" SteamGoalCriteriaId="30006"/>
+	<Property ID="1011" SteamCriteriaId="30096" SteamGoalCriteriaId="30019"/>
+	<Property ID="1012" SteamCriteriaId="30098" SteamGoalCriteriaId="30020"/>
+	<Property ID="4001" SteamCriteriaId="30065" SteamGoalCriteriaId="30066"/>
+	<Property ID="4002" SteamCriteriaId="30143" SteamGoalCriteriaId="30067"/>
+	<Property ID="4010" SteamCriteriaId="30068" SteamGoalCriteriaId="30069"/>
+	<Property ID="4003" SteamCriteriaId="30144" SteamGoalCriteriaId="30070"/>
+	<Property ID="4004" SteamCriteriaId="30140" SteamGoalCriteriaId="30080"/>
+	<Property ID="4011" SteamCriteriaId="30141" SteamGoalCriteriaId="30071"/>
+	<Property ID="4005" SteamCriteriaId="30073" SteamGoalCriteriaId="30072"/>
+	<Property ID="4006" SteamCriteriaId="30074" SteamGoalCriteriaId="30075"/>
+	<Property ID="4007" SteamCriteriaId="30146" SteamGoalCriteriaId="30076"/>
+	<Property ID="4008" SteamCriteriaId="30149" SteamGoalCriteriaId="30077"/>
+	<Property ID="4009" SteamCriteriaId="30078" SteamGoalCriteriaId="30079"/>
+	<Property ID="4012" SteamCriteriaId="30081,30083" SteamGoalCriteriaId="30082"/>
+	<Property ID="4013" SteamCriteriaId="30147" SteamGoalCriteriaId="30148"/>
+	<Property ID="14004" FantasyCriteriaId="20011" FantasyGoalCriteriaId="20049"/>
+	<Property ID="14005" FantasyCriteriaId="22025" FantasyGoalCriteriaId="20012"/>
+	<Property ID="14006" FantasyGoalCriteriaId="20013" FantasyCriteriaId="20058"/>
+	<Property ID="14007" FantasyCriteriaId="20014" FantasyGoalCriteriaId="20059"/>
+	<Property ID="14012" FantasyGoalCriteriaId="20227" FantasyCriteriaId="1999"/>
+	<Property ID="14013" FantasyCriteriaId="22026" FantasyGoalCriteriaId="20002"/>
+	<Property ID="9010" SteamCriteriaId="4115" SteamGoalCriteriaId="4116"/>
+	<Property ID="9011" SteamGoalCriteriaId="4117" SteamCriteriaId="22049"/>
+	<Property ID="9012" SteamGoalCriteriaId="4118" SteamCriteriaId="22050"/>
+	<Property ID="9013" SteamGoalCriteriaId="4119" SteamCriteriaId="22051"/>
+	<Property ID="9014" SteamGoalCriteriaId="4124" SteamCriteriaId="22052"/>
+	<Property ID="9015" SteamGoalCriteriaId="4111" SteamCriteriaId="22053"/>
+	<Property ID="9016" SteamCriteriaId="4113,4112" SteamGoalCriteriaId="4114"/>
+	<Property ID="9017" SteamGoalCriteriaId="4125" SteamCriteriaId="22054"/>
+	<Property ID="9018" SteamGoalCriteriaId="4121" SteamCriteriaId="4122"/>
+	<Property ID="9019" SteamCriteriaId="4126" SteamGoalCriteriaId="4127"/>
+	<Property ID="9021" SteamGoalCriteriaId="4120" SteamCriteriaId="22055"/>
+	<Property ID="15001" FantasyCriteriaId="20200,20201" FantasyGoalCriteriaId="20202"/>
+	<Property ID="15002" FantasyCriteriaId="20203,20234" FantasyGoalCriteriaId="20205"/>
+	<Property ID="15004" FantasyCriteriaId="20208" FantasyGoalCriteriaId="20209"/>
+	<Property ID="15005" FantasyCriteriaId="20210" FantasyGoalCriteriaId="20232"/>
+	<Property ID="15006" FantasyCriteriaId="20211" FantasyGoalCriteriaId="20231"/>
+	<Property ID="15007" FantasyCriteriaId="20213" FantasyGoalCriteriaId="20212"/>
+	<Property ID="15008" FantasyCriteriaId="20214" FantasyGoalCriteriaId="20215"/>
+	<Property ID="14017" FantasyGoalCriteriaId="20031" FantasyCriteriaId="20064"/>
+	<Property ID="14018" FantasyCriteriaId="20032" FantasyGoalCriteriaId="20062"/>
+	<Property ID="14019" FantasyCriteriaId="20034" FantasyGoalCriteriaId="20033"/>
+	<Property ID="18004" FantasyCriteriaId="20104" FantasyGoalCriteriaId="20121"/>
+	<Property ID="18005" FantasyGoalCriteriaId="20105" FantasyCriteriaId="20130"/>
+	<Property ID="18006" FantasyCriteriaId="20106" FantasyGoalCriteriaId="20119"/>
+	<Property ID="18007" FantasyCriteriaId="20107" FantasyGoalCriteriaId="20118"/>
+	<Property ID="18008" FantasyCriteriaId="20108" FantasyGoalCriteriaId="20117"/>
+	<Property ID="18009" FantasyGoalCriteriaId="20109" FantasyCriteriaId="20131"/>
+	<Property ID="18010" FantasyCriteriaId="20110" FantasyGoalCriteriaId="20115"/>
+	<Property ID="18011" FantasyGoalCriteriaId="20111" FantasyCriteriaId="20125"/>
+	<Property ID="18012" FantasyGoalCriteriaId="20112" FantasyCriteriaId="20126"/>
+	<Property ID="3002" SteamCriteriaId="50011" SteamGoalCriteriaId="50010"/>
+	<Property ID="3003" SteamCriteriaId="50021" SteamGoalCriteriaId="50020"/>
+	<Property ID="3004" SteamCriteriaId="50061" SteamGoalCriteriaId="50030"/>
+	<Property ID="3005" SteamCriteriaId="50041" SteamGoalCriteriaId="50040"/>
+	<Property ID="3006" SteamCriteriaId="50051" SteamGoalCriteriaId="50050"/>
+	<Property ID="3007" SteamCriteriaId="50062" SteamGoalCriteriaId="50060"/>
+	<Property ID="3008" SteamCriteriaId="50071" SteamGoalCriteriaId="50070"/>
+	<Property ID="3009" SteamCriteriaId="50071" SteamGoalCriteriaId="50080"/>
+	<Property ID="3010" SteamCriteriaId="50091,50092" SteamGoalCriteriaId="50090"/>
+	<Property ID="26001" FantasyCriteriaId="31001" FantasyGoalCriteriaId="31005"/>
+	<Property ID="26002" FantasyCriteriaId="31018" FantasyGoalCriteriaId="31012"/>
+	<Property ID="26003" FantasyCriteriaId="31013,31014" FantasyGoalCriteriaId="31015"/>
+	<Property ID="26005" FantasyCriteriaId="31018" FantasyGoalCriteriaId="31017"/>
+	<Property ID="26007" FantasyCriteriaId="31024,31025" FantasyGoalCriteriaId="31023"/>
+	<Property ID="26008" FantasyCriteriaId="31027" FantasyGoalCriteriaId="31026"/>
+	<Property ID="26009" FantasyCriteriaId="31029" FantasyGoalCriteriaId="31028"/>
+	<Property ID="26010" FantasyCriteriaId="31031,31032" FantasyGoalCriteriaId="31030"/>
+	<Property ID="1020" SteamCriteriaId="42002" SteamGoalCriteriaId="22209"/>
+	<Property ID="4014" SteamCriteriaId="30201" SteamGoalCriteriaId="22215"/>
+	<Property ID="7012" SteamCriteriaId="30203" SteamGoalCriteriaId="22211"/>
+	<Property ID="26016" FantasyCriteriaId="30205" FantasyGoalCriteriaId="22212"/>
+	<Property ID="14023" FantasyCriteriaId="20018" FantasyGoalCriteriaId="20020"/>
+	<Property ID="1501001" FantasyCriteriaId="30062" FantasyGoalCriteriaId="30061"/>
+	<Property ID="17001" FantasyCriteriaId="20302" FantasyGoalCriteriaId="20301"/>
+	<Property ID="17002" FantasyCriteriaId="20304" FantasyGoalCriteriaId="20303"/>
+	<Property ID="17003" FantasyCriteriaId="20321" FantasyGoalCriteriaId="20305"/>
+	<Property ID="17004" FantasyCriteriaId="20322" FantasyGoalCriteriaId="20308"/>
+	<Property ID="17005" FantasyCriteriaId="20310,20311" FantasyGoalCriteriaId="20309"/>
+	<Property ID="17006" FantasyCriteriaId="20307" FantasyGoalCriteriaId="20306"/>
+	<Property ID="17007" FantasyCriteriaId="20323,20328" FantasyGoalCriteriaId="20315"/>
+	<Property ID="17008" FantasyCriteriaId="20324" FantasyGoalCriteriaId="20316"/>
+	<Property ID="17009" FantasyCriteriaId="20313,20314" FantasyGoalCriteriaId="20312"/>
+	<Property ID="17010" FantasyCriteriaId="20318" FantasyGoalCriteriaId="20317"/>
+	<Property ID="17011" FantasyCriteriaId="20320" FantasyGoalCriteriaId="20319"/>
+	<Property ID="14034" FantasyCriteriaId="20051" FantasyGoalCriteriaId="20052"/>
+	<Property ID="14031" FantasyCriteriaId="20037" FantasyGoalCriteriaId="20047"/>
+	<Property ID="14035" FantasyCriteriaId="20054" FantasyGoalCriteriaId="20055"/>
+	<Property ID="14030" FantasyCriteriaId="20038,20039" FantasyGoalCriteriaId="20048"/>
+	<Property ID="1401301" FantasyCriteriaId="22026" FantasyGoalCriteriaId="20002"/>
+	<Property ID="1400101" FantasyGoalCriteriaId="20061" FantasyCriteriaId="30063"/>
+	<Property ID="14032" FantasyCriteriaId="20040" FantasyGoalCriteriaId="20041"/>
+	<Property ID="1016" SteamCriteriaId="30086" SteamGoalCriteriaId="30087"/>
+	<Property ID="1017" SteamCriteriaId="30088" SteamGoalCriteriaId="30089"/>
+	<Property ID="1015" SteamCriteriaId="30084" SteamGoalCriteriaId="30093"/>
+	<Property ID="1018" SteamCriteriaId="30090" SteamGoalCriteriaId="30092"/>
+	<Property ID="15012" FantasyCriteriaId="36001,36002" FantasyGoalCriteriaId="36003"/>
+	<Property ID="1501301" FantasyCriteriaId="22023" FantasyGoalCriteriaId="30064"/>
+	<Property ID="15014" FantasyGoalCriteriaId="36005" FantasyCriteriaId="20233"/>
+	<Property ID="301101" SteamCriteriaId="50101" SteamGoalCriteriaId="50100"/>
+	<Property ID="301201" SteamGoalCriteriaId="30063" SteamCriteriaId="22061"/>
+	<Property ID="26011" FantasyCriteriaId="37001,37002" FantasyGoalCriteriaId="37003"/>
+	<Property ID="26012" FantasyCriteriaId="37004" FantasyGoalCriteriaId="37005"/>
+	<Property ID="26013" FantasyCriteriaId="37006" FantasyGoalCriteriaId="37007"/>
+	<Property ID="26014" FantasyCriteriaId="30145" FantasyGoalCriteriaId="37008"/>
+	<Property ID="18001" FantasyCriteriaId="20122,20123" FantasyGoalCriteriaId="20124"/>
+	<Property ID="7001" SteamCriteriaId="30099" SteamGoalCriteriaId="30101"/>
+	<Property ID="7002" SteamCriteriaId="30102" SteamGoalCriteriaId="30105"/>
+	<Property ID="7003" SteamCriteriaId="30106" SteamGoalCriteriaId="30107"/>
+	<Property ID="7004" SteamCriteriaId="30108" SteamGoalCriteriaId="30110"/>
+	<Property ID="7006" SteamCriteriaId="30111" SteamGoalCriteriaId="30112"/>
+	<Property ID="7007" SteamCriteriaId="30113" SteamGoalCriteriaId="30114"/>
+	<Property ID="7010" SteamCriteriaId="30122" SteamGoalCriteriaId="30123"/>
+	<Property ID="7008" SteamCriteriaId="30115" SteamGoalCriteriaId="30116"/>
+	<Property ID="7009" SteamCriteriaId="30117" SteamGoalCriteriaId="30119"/>
+	<Property ID="7011" SteamCriteriaId="30120" SteamGoalCriteriaId="30121"/>
+	<Property ID="902201" SteamCriteriaId="30124"/>
+	<Property ID="26015" FantasyCriteriaId="22035" FantasyGoalCriteriaId="37010"/>
+	<Property ID="18002" FantasyCriteriaId="20128,20129" FantasyGoalCriteriaId="20127"/>
+	<Property ID="800101" SteamGoalCriteriaId="30124" SteamCriteriaId="22063"/>
+	<Property ID="800201" SteamGoalCriteriaId="30125" SteamCriteriaId="30126"/>
+	<Property ID="800301" SteamCriteriaId="30128,30129" SteamGoalCriteriaId="30127"/>
+	<Property ID="800401" SteamCriteriaId="30131" SteamGoalCriteriaId="30130"/>
+	<Property ID="800501" SteamCriteriaId="30133" SteamGoalCriteriaId="30132"/>
+	<Property ID="19002" FantasyGoalCriteriaId="39001" FantasyCriteriaId="30155"/>
+	<Property ID="19003" FantasyCriteriaId="22041" FantasyGoalCriteriaId="39002"/>
+	<Property ID="19005" FantasyGoalCriteriaId="39003" FantasyCriteriaId="30154"/>
+	<Property ID="19006" FantasyCriteriaId="22042" FantasyGoalCriteriaId="39004"/>
+	<Property ID="19007" FantasyCriteriaId="39005,39006" FantasyGoalCriteriaId="39007"/>
+	<Property ID="19009" FantasyCriteriaId="39008" FantasyGoalCriteriaId="39009"/>
+	<Property ID="19001" FantasyCriteriaId="39010" FantasyGoalCriteriaId="39011"/>
+	<Property ID="19010" FantasyCriteriaId="22043" FantasyGoalCriteriaId="39015"/>
+	<Property ID="19004" FantasyCriteriaId="39012,39013" FantasyGoalCriteriaId="39014"/>
+	<Property ID="22001" SteamGoalCriteriaId="2040" SteamCriteriaId="2041" FantasyGoalCriteriaId="2022" FantasyCriteriaId="2023"/>
+	<Property ID="22002" SteamGoalCriteriaId="2042" SteamCriteriaId="2043" FantasyGoalCriteriaId="2024" FantasyCriteriaId="2030"/>
+	<Property ID="22003" SteamGoalCriteriaId="2044" SteamCriteriaId="2045" FantasyGoalCriteriaId="2025" FantasyCriteriaId="2031"/>
+	<Property ID="22004" SteamGoalCriteriaId="2046" SteamCriteriaId="2047" FantasyGoalCriteriaId="2026" FantasyCriteriaId="2032"/>
+	<Property ID="22005" SteamGoalCriteriaId="2048" SteamCriteriaId="2049" FantasyGoalCriteriaId="2027" FantasyCriteriaId="2033"/>
+	<Property ID="22006" SteamGoalCriteriaId="2050" SteamCriteriaId="2051" FantasyGoalCriteriaId="2028" FantasyCriteriaId="2034"/>
+	<Property ID="22007" SteamGoalCriteriaId="2052" SteamCriteriaId="2053" FantasyGoalCriteriaId="2029" FantasyCriteriaId="2035"/>
+	<Property ID="22008" SteamGoalCriteriaId="2054" SteamCriteriaId="2055" FantasyGoalCriteriaId="30059" FantasyCriteriaId="2038"/>
+	<Property ID="800601" SteamCriteriaId="30135" SteamGoalCriteriaId="30134"/>
+	<Property ID="800701" SteamCriteriaId="30137" SteamGoalCriteriaId="30136"/>
+	<Property ID="22009" FantasyCriteriaId="22039" SteamGoalCriteriaId="2056" FantasyGoalCriteriaId="20004" SteamCriteriaId="22037"/>
+	<Property ID="22010" SteamGoalCriteriaId="2057" SteamCriteriaId="2058" FantasyGoalCriteriaId="2036" FantasyCriteriaId="2037"/>
+	<Property ID="14024" FantasyCriteriaId="22027" FantasyGoalCriteriaId="42003"/>
+	<Property ID="14025" FantasyCriteriaId="42004" FantasyGoalCriteriaId="22204"/>
+	<Property ID="3013" SteamCriteriaId="42005" SteamGoalCriteriaId="22213"/>
+	<Property ID="15015" FantasyCriteriaId="20236" FantasyGoalCriteriaId="22205"/>
+	<Property ID="17012" FantasyCriteriaId="20326" FantasyGoalCriteriaId="22206"/>
+	<Property ID="18013" FantasyCriteriaId="20133" FantasyGoalCriteriaId="22207"/>
+	<Property ID="22011" FantasyCriteriaId="2060" FantasyGoalCriteriaId="22208" SteamCriteriaId="2061" SteamGoalCriteriaId="22217"/>
+	<Property ID="1901101" FantasyCriteriaId="30138" FantasyGoalCriteriaId="22210"/>
+	<Property ID="902202" SteamCriteriaId="42007" SteamGoalCriteriaId="22214"/>
+	<Property ID="8008" SteamCriteriaId="30139" SteamGoalCriteriaId="22216"/>
+	<Property ID="1021" SteamCriteriaId="42011" SteamGoalCriteriaId="42010"/>
+	<Property ID="17013" FantasyCriteriaId="22029" FantasyGoalCriteriaId="20327"/>
+	<Property ID="18003" FantasyCriteriaId="22032" FantasyGoalCriteriaId="20134"/>
+	<Property ID="14001" FantasyCriteriaId="20067" FantasyGoalCriteriaId="20066"/>
+	<Property ID="1022" SteamCriteriaId="42013,42014" SteamGoalCriteriaId="42015"/>
+	<Property ID="14002" FantasyCriteriaId="20069,20070" FantasyGoalCriteriaId="20068"/>
+	<Property ID="3017" SteamCriteriaId="51061,51062" SteamGoalCriteriaId="51063"/>
+	<Property ID="1019" SteamGoalCriteriaId="20402" SteamCriteriaId="20403"/>
+	<Property ID="14036" FantasyGoalCriteriaId="20400" FantasyCriteriaId="20401"/>
+	<Property ID="15019" FantasyGoalCriteriaId="20207" FantasyCriteriaId="20206"/>
+	<Property ID="3015" SteamCriteriaId="51066" SteamGoalCriteriaId="51064"/>
+	<Property ID="14039" SteamGoalCriteriaId="1403901" SteamCriteriaId="1403901"/>
+	<Property ID="15016" FantasyCriteriaId="20219" FantasyGoalCriteriaId="20218"/>
+	<Property ID="3016" SteamGoalCriteriaId="30161" SteamCriteriaId="30162"/>
+	<Property ID="14038" FantasyCriteriaId="20071" FantasyGoalCriteriaId="20073"/>
+	<Property ID="14014" FantasyCriteriaId="22028" FantasyGoalCriteriaId="30171"/>
+	<Property ID="17014" FantasyCriteriaId="22030" FantasyGoalCriteriaId="30172"/>
+	<Property ID="18014" FantasyCriteriaId="22033" FantasyGoalCriteriaId="30173"/>
+	<Property ID="15009" FantasyCriteriaId="22024" FantasyGoalCriteriaId="30174"/>
+	<Property ID="19008" FantasyCriteriaId="22044" FantasyGoalCriteriaId="30175"/>
+	<Property ID="26017" FantasyCriteriaId="22036" FantasyGoalCriteriaId="30176"/>
+	<Property ID="22012" FantasyCriteriaId="22040" FantasyGoalCriteriaId="30177" SteamGoalCriteriaId="30178" SteamCriteriaId="22038"/>
+	<Property ID="3014" SteamGoalCriteriaId="30179" SteamCriteriaId="22062"/>
+	<Property ID="9023" SteamGoalCriteriaId="30180" SteamCriteriaId="22056"/>
+	<Property ID="9024" SteamGoalCriteriaId="30181" SteamCriteriaId="22057"/>
+	<Property ID="8009" SteamGoalCriteriaId="30182" SteamCriteriaId="22058"/>
+	<Property ID="8010" SteamGoalCriteriaId="30183" SteamCriteriaId="22059"/>
+	<Property ID="4015" SteamGoalCriteriaId="30184" SteamCriteriaId="22060"/>
+	<Property ID="7013" SteamGoalCriteriaId="30185" SteamCriteriaId="22046"/>
+	<Property ID="1023006" SteamGoalCriteriaId="20404" SteamCriteriaId="20405"/>
+	<Property ID="26018" FantasyCriteriaId="37011" FantasyGoalCriteriaId="37012"/>
+	<Property ID="22013" FantasyGoalCriteriaId="30186" FantasyCriteriaId="30187"/>
+	<Property ID="22014" SteamGoalCriteriaId="30188" SteamCriteriaId="30190" FantasyGoalCriteriaId="30189" FantasyCriteriaId="30191"/>
+	<Property ID="22015" SteamGoalCriteriaId="30192" SteamCriteriaId="30193"/>
+	<Property ID="22016" SteamGoalCriteriaId="30194" SteamCriteriaId="30195" FantasyGoalCriteriaId="30196" FantasyCriteriaId="30197"/>
+	<Property ID="22017" SteamGoalCriteriaId="30198" SteamCriteriaId="30199" FantasyGoalCriteriaId="30207" FantasyCriteriaId="30208"/>
+	<Property ID="22018" SteamGoalCriteriaId="30209" SteamCriteriaId="30210" FantasyGoalCriteriaId="30211" FantasyCriteriaId="30212"/>
+	<Property ID="7014" SteamGoalCriteriaId="22104" SteamCriteriaId="22048"/>
+	<Property ID="1024" SteamGoalCriteriaId="22103" SteamCriteriaId="22047"/>
+	<Property ID="17015" FantasyCriteriaId="22031" FantasyGoalCriteriaId="22101"/>
+	<Property ID="18015" FantasyCriteriaId="22034" FantasyGoalCriteriaId="22102"/>
+	<Property ID="19012" FantasyCriteriaId="22045" FantasyGoalCriteriaId="22100"/>
+	<Property ID="4016" SteamGoalCriteriaId="22105" SteamCriteriaId="22064"/>
+	<Property ID="15020" FantasyGoalCriteriaId="20406"/>
+	<Property ID="27001" SteamGoalCriteriaId="22003" SteamCriteriaId="22001" FantasyGoalCriteriaId="22004" FantasyCriteriaId="22002"/>
+	<Property ID="27002" SteamGoalCriteriaId="22007" SteamCriteriaId="22005" FantasyGoalCriteriaId="22008" FantasyCriteriaId="22006"/>
+	<Property ID="27003" SteamGoalCriteriaId="22011" SteamCriteriaId="22009" FantasyGoalCriteriaId="22012" FantasyCriteriaId="22010"/>
+	<Property ID="27004" SteamGoalCriteriaId="22015" SteamCriteriaId="22013" FantasyGoalCriteriaId="22016" FantasyCriteriaId="22014"/>
+	<Property ID="27005" SteamGoalCriteriaId="22019" SteamCriteriaId="22017" FantasyGoalCriteriaId="22020" FantasyCriteriaId="22018"/>
+	<Property ID="26019" FantasyCriteriaId="22021" FantasyGoalCriteriaId="22022"/>
+	<Property ID="7015" SteamGoalCriteriaId="20407" SteamCriteriaId="20408,20409"/>
+	<Property ID="4017" SteamGoalCriteriaId="20410" SteamCriteriaId="20411"/>
+	<Property ID="19013" FantasyGoalCriteriaId="22106" FantasyCriteriaId="22107"/>
+	<Property ID="9025" SteamGoalCriteriaId="22201" SteamCriteriaId="22200"/>
+	<Property ID="9026" SteamGoalCriteriaId="22202" SteamCriteriaId="22203"/>
+</Object>
+
+

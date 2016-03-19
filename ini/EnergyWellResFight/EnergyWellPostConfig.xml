@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<Object>
+	<!--
+	WellId 能量井ID
+	PostId 能量住Id
+	TransmitXPos   传送点X坐标
+	TransmitYPos   传送点Y坐标
+	TransmitZPos   传送点Z坐标
+	TransmitOrient 传送点朝向
+    WellmitXPos   能量柱X坐标
+    WellmitZPos   能量柱Z坐标
+	ReviveId   复活点ID
+	CarrierNpc 载具NPCID 
+	Gate	城门
+-->
+	<Property ID="1" WellId="energy_well_zq0001" PostId="FB_PVP_0001" AreaId="410100000" TransmitXPos="-1348.245" TransmitYPos="35.527" TransmitZPos="-556.198" TransmitOrient="-3.077" WellmitXPos="-1329.648682" WellmitZPos="-574.985718" ReviveId="Relive_zqnljzc_01" CarrierNpc="zq_fangshou_001,zq_fangshou_002,zq_fangshou_003,zq_fangshou_004" Gate="monster_zhanchang_0001,monster_zhanchang_0002" Number="1"/>
+	<Property ID="2" WellId="energy_well_zq0001" PostId="FB_PVP_0002" AreaId="410200000" TransmitXPos="-1116.000" TransmitYPos="152.958" TransmitZPos="198.000" TransmitOrient="1.335" WellmitXPos="-1033.352417" WellmitZPos="130.838806" ReviveId="Relive_zqnljzc_02" CarrierNpc="zq_fangshou_001,zq_fangshou_002,zq_fangshou_003,zq_fangshou_004" Gate="monster_zhanchang_0003,monster_zhanchang_0004" Number="2"/>
+	<Property ID="3" WellId="energy_well_zq0001" PostId="FB_PVP_0003" AreaId="410300000" TransmitXPos="-1786.766" TransmitYPos="102.087" TransmitZPos="262.876" TransmitOrient="-2.694" WellmitXPos="-1650.051147" WellmitZPos="211.784698" ReviveId="Relive_zqnljzc_03" CarrierNpc="zq_fangshou_001,zq_fangshou_002,zq_fangshou_003,zq_fangshou_004" Gate="monster_zhanchang_0005,monster_zhanchang_0006" Number="3"/>
+	
+	<Property ID="4" WellId="energy_well_zq0002" PostId="FB_PVP_0004" AreaId="420100000" TransmitXPos="-1348.245" TransmitYPos="35.527" TransmitZPos="-556.198" TransmitOrient="-3.077" WellmitXPos="-1329.648682" WellmitZPos="-574.985718" ReviveId="Relive_qhnljzc_01" CarrierNpc="qh_fangshou_001,qh_fangshou_002,qh_fangshou_003,zq_fangshou_004" Gate="monster_zhanchang_0007,monster_zhanchang_0008" Number="1"/>
+	<Property ID="5" WellId="energy_well_zq0002" PostId="FB_PVP_0005" AreaId="420200000" TransmitXPos="-1116.000" TransmitYPos="152.958" TransmitZPos="198.000" TransmitOrient="1.335" WellmitXPos="-1033.352417" WellmitZPos="130.838806" ReviveId="Relive_qhnljzc_02" CarrierNpc="qh_fangshou_001,qh_fangshou_002,qh_fangshou_003,zq_fangshou_004" Gate="monster_zhanchang_0009,monster_zhanchang_0010" Number="2"/>
+	<Property ID="6" WellId="energy_well_zq0002" PostId="FB_PVP_0006" AreaId="420300000" TransmitXPos="-1786.766" TransmitYPos="102.087" TransmitZPos="262.876" TransmitOrient="-2.694" WellmitXPos="-1650.051147" WellmitZPos="211.784698" ReviveId="Relive_qhnljzc_03" CarrierNpc="qh_fangshou_001,qh_fangshou_002,qh_fangshou_003,zq_fangshou_004" Gate="monster_zhanchang_0011,monster_zhanchang_0012" Number="3"/>
+</Object>

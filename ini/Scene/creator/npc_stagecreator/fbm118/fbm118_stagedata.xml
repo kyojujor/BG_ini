@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<Stage>
+	<Object Guid="715AC0BCABE844B5AD93069D92A6492A" Desc="FB_DGPD_0043" config="FB_DGPD_0043" x="3156.636963" y="17.085913" z="7115.030273" PeaceAction="stand_0h" amount="1" RefreshTime="-1" fOrg="-1.660001" IsPersistent="1"/>
+	<Object Guid="10796D851D134A8BB5FC06F1ECB8E96C" Desc="FB_DGPD_0043" config="FB_DGPD_0043" x="3168.633789" y="17.357859" z="7160.145508" PeaceAction="stand_0h" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="1"/>
+	<Object Guid="1BA94439F22447BA96C13BE62C5FE289" Desc="FB_DGPD_0001" config="FB_DGPD_0001" x="3148.54834" y="17.085913" z="7129.337402" amount="1" fOrg="-0.795" IsPersistent="1" RefreshTime="-1"/>
+	<Object Guid="B811BE8E6F6F4E7892E83536D7FF7898" Desc="FB_DGPD_0003" config="FB_DGPD_0003" x="3148.158447" y="17.321869" z="7124.023438" amount="1" fOrg="-0.254999" IsPersistent="1" RefreshTime="-1"/>
+	<Object Guid="2658FD6007E1402F92A650A44AEA46C8" Desc="FB_DGPD_0002" config="FB_DGPD_0002" x="3147.789063" y="17.412996" z="7126.555176" amount="1" fOrg="3.048183" IsPersistent="1" RefreshTime="-1">
+		<Event EventId="601" Processor="FB_CQZH_ZZ_009_1"/>
+		<Event EventId="4" Processor="FB_CQZH_ZZ_009"/>
+	</Object>
+	<Object Guid="BF4CC3648DFB48068B64788F5FEB9F18" Desc="FB_DGPD_0004" config="FB_DGPD_0004" x="3144.176514" y="17.16464" z="7126.62207" amount="1" fOrg="1.105003" IsPersistent="1" RefreshTime="-1"/>
+	<Object Guid="CED63CE0789B4F9BA070CDC5D0CAD103" Desc="FB_DGPD_0002" config="FB_DGPD_0002" x="3146.164063" y="17.242573" z="7128.375977" amount="1" fOrg="-2.715002" IsPersistent="1" RefreshTime="-1">
+		<Event EventId="601" Processor="FB_CQZH_ZZ_009_1"/>
+		<Event EventId="4" Processor="FB_CQZH_ZZ_009"/>
+	</Object>
+	<Object Guid="EF3146C5E90A4BCCA6727AD1F1AFABFC" Desc="FB_DGPD_0043" config="FB_DGPD_0043" x="3145.381348" y="17.838865" z="7145.464844" PeaceAction="stand_0h" amount="1" RefreshTime="-1" fOrg="0.465008" IsPersistent="1"/>
+	<Object Guid="74911D2C4D13421EAA11004E45665D44" Desc="FB_DGPD_0002" config="FB_DGPD_0002" x="3144.093506" y="17.234499" z="7141.649902" amount="1" fOrg="-0.415006" IsPersistent="1" RefreshTime="-1"/>
+	<Object Guid="C1B991B72CC3418487468ED2C03680DE" Desc="FB_DGPD_0001" config="FB_DGPD_0001" x="3146.196533" y="17.309338" z="7142.456055" amount="1" fOrg="1.385008" IsPersistent="1" RefreshTime="-1">
+		<Event EventId="601" Processor="FB_CQZH_ZZ_009_1"/>
+		<Event EventId="4" Processor="FB_CQZH_ZZ_009"/>
+	</Object>
+	<Object Guid="3F4F0C7DDE404B01B18C384D96818A2D" Desc="FB_DGPD_0043" config="FB_DGPD_0043" x="3138.872559" y="17.284" z="7118.325684" PeaceAction="stand_0h" amount="1" RefreshTime="-1" fOrg="-1.545002" IsPersistent="1"/>
+	<Object Guid="2330B649AB8B494C845460FE6CB5FC44" Desc="FB_DGPD_0004" config="FB_DGPD_0004" x="3123.327148" y="17.395676" z="7139.431641" amount="1" fOrg="1.495001" IsPersistent="1" RefreshTime="-1"/>
+	<Object Guid="776C345CE9514C8586DFC563C37064B4" Desc="FB_DGPD_0002" config="FB_DGPD_0002" x="3126.097656" y="17.085913" z="7136.702637" amount="1" fOrg="-2.100002" IsPersistent="1" RefreshTime="-1">
+		<Event EventId="601" Processor="FB_CQZH_ZZ_009_1"/>
+		<Event EventId="4" Processor="FB_CQZH_ZZ_009"/>
+	</Object>
+	<Object Guid="67EA302564114BBCA999F5044F84F2CF" Desc="FB_DGPD_0001" config="FB_DGPD_0001" x="3128.000488" y="17.085913" z="7138.333008" amount="1" fOrg="0" IsPersistent="1" RefreshTime="-1">
+		<Event EventId="601" Processor="FB_CQZH_ZZ_009_1"/>
+		<Event EventId="4" Processor="FB_CQZH_ZZ_009"/>
+	</Object>
+	<Object Guid="E763EF67B0804955A19A9333D3BE8DF2" Desc="FB_DGPD_0002" config="FB_DGPD_0002" x="3125.463867" y="17.289177" z="7139.068359" amount="1" fOrg="-1.520002" IsPersistent="1" RefreshTime="-1"/>
+	<Object Guid="0A4E850FD9B34C3A8B3F89E32DBEC290" Desc="FB_DGPD_0004" config="FB_DGPD_0004" x="3123.633545" y="17.085913" z="7135.640137" amount="1" fOrg="1.195001" IsPersistent="1" RefreshTime="-1"/>
+	<Object Guid="205B5650A8974C8ABD56D298D2BF01F1" Desc="FB_DGPD_0044_1" config="FB_DGPD_0044_1" x="3062.434082" y="17.26" z="7127.920898" amount="1" RefreshTime="-1" fOrg="1.17001" IsPersistent="1"/>
+	<Object Guid="B5D110E2FC7A4546955153B244AB2D62" Desc="FB_DGPD_0005_1" config="FB_DGPD_0005_1" x="3062.595215" y="17.26" z="7149.021973" amount="1" RefreshTime="-1" fOrg="2.005007" IsPersistent="1"/>
+	<Object Guid="00056CAA3036453583EC36E631C34632" Desc="FB_DGPD_0043" config="FB_DGPD_0043" x="3101.379883" y="17.085913" z="7123.720215" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="1"/>
+	<Object Guid="5F59F03981F846A69401058CBEBC627D" Desc="FB_DGPD_0003" config="FB_DGPD_0003" x="3090.987061" y="17.085913" z="7162.76416" amount="1" RefreshTime="-1" fOrg="2.738182" IsPersistent="1"/>
+	<Object Guid="57ED34D8F082483A9113C34E902F6955" Desc="FB_DGPD_0004" config="FB_DGPD_0004" x="3092.77417" y="17.085913" z="7162.369141" amount="1" fOrg="0.940001" IsPersistent="1" RefreshTime="-1"/>
+	<Object Guid="8473BEDA344D4343B590F9625F387BD3" Desc="FB_DGPD_0043" config="FB_DGPD_0043" x="3126.128662" y="17.085913" z="7128.327148" PeaceAction="stand_0h" amount="1" RefreshTime="-1" fOrg="1.150002" IsPersistent="1"/>
+	<Object Guid="28EE81C88BDF4A4A86CE12E73AAFABDC" Desc="FB_DGPD_0043" config="FB_DGPD_0043" x="3097.311768" y="17.085913" z="7163.352051" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="1"/>
+	<Object Guid="E438B3D7D7C84789BC0C47EED20FDC2E" Desc="FB_DGPD_0004" config="FB_DGPD_0004" x="3145.382813" y="17.354992" z="7124.976563" amount="1" fOrg="-0.795" IsPersistent="1" RefreshTime="-1"/>
+	<Object Guid="11F281E9FFB54C3B955F3C4060C303E1" Desc="FB_DGPD_0003" config="FB_DGPD_0003" x="3142.955078" y="17.693285" z="7144.805664" amount="1" fOrg="2.715003" IsPersistent="1" RefreshTime="-1"/>
+	<Object Guid="BE71FE08C9664BB9B3DAD5DF441D2487" Desc="FB_DGPD_0003" config="FB_DGPD_0003" x="3147.377441" y="17.420441" z="7144.155273" amount="1" fOrg="-2.688188" IsPersistent="1" RefreshTime="-1"/>
+	<Object Guid="99B21011334E42618DD371A76A2BB2E7" Desc="FB_DGPD_0004" config="FB_DGPD_0004" x="3091.009521" y="17.085913" z="7159.874023" amount="1" fOrg="-0.655001" IsPersistent="1" RefreshTime="-1"/>
+	<Object Guid="E73E94D887074C49897CD3FC49455BAD" Desc="FB_DGPD_0043" config="FB_DGPD_0043" x="3091.230469" y="17.085913" z="7106.132813" amount="1" RefreshTime="-1" fOrg="-0.295001" IsPersistent="1"/>
+	<Object Guid="4CD3E130FF034FBBAC53BC3BBF50BCA3" Desc="FB_DGPD_0003" config="FB_DGPD_0003" x="3088.520752" y="17.085913" z="7106.852051" amount="1" fOrg="2.165001" IsPersistent="1" RefreshTime="-1"/>
+	<Object Guid="FDA3CA4A70BB4D97ADEF0E8A42600AE9" Desc="FB_DGPD_0004" config="FB_DGPD_0004" x="3091.103027" y="17.085913" z="7110.286133" PatrolMode="0" PatrolRange="5" amount="1" fOrg="-3.028184" IsPersistent="1" RefreshTime="-1"/>
+	<Object Guid="9BAEEE0D19BC432289412A0DDE491D6C" Desc="FB_DGPD_0004" config="FB_DGPD_0004" x="3090.716797" y="17.085814" z="7102.975098" amount="1" fOrg="0" IsPersistent="1" RefreshTime="-1"/>
+	<Object Guid="1E821A4E40684BECBD71DD54E41DA6F7" Desc="FB_DGPD_0007" config="FB_DGPD_0007" x="2982.99292" y="-6.771962" z="7082.772461" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="C1405FDC9D9A4441BF65722161353FE3" Desc="FB_DGPD_0009" config="FB_DGPD_0009" x="2987.713623" y="-6.771962" z="7084.544922" PatrolMode="1" PathID="XST-02" amount="1" RefreshTime="-1" fOrg="-2.165011" IsPersistent="0"/>
+	<Object Guid="B5074B6354704F3FB21A7A4E8C406ABE" Desc="FB_DGPD_0009" config="FB_DGPD_0009" x="2982.263184" y="-6.771962" z="7079.01709" amount="1" RefreshTime="-1" fOrg="1.219998" IsPersistent="0"/>
+	<Object Guid="2484570786DC4446A2EB8A7654ECB37D" Desc="FB_DGPD_0009" config="FB_DGPD_0009" x="2981.463867" y="-6.771962" z="7086.833984" PatrolMode="2" PathID="XST-01" amount="1" RefreshTime="-1" fOrg="1.755" IsPersistent="0"/>
+	<Object Guid="709A1EF058B5439396DBE929361D2F42" Desc="FB_DGPD_0009" config="FB_DGPD_0009" x="2918.820801" y="-6.771962" z="7062.20752" amount="1" RefreshTime="-1" fOrg="-2.005008" IsPersistent="0" PeaceAction="downloop"/>
+	<Object Guid="EFAB1F3DF6774C8782E1B5695149E167" Desc="FB_DGPD_0007" config="FB_DGPD_0007" x="2915.529541" y="-6.771962" z="7061.883301" amount="1" RefreshTime="-1" fOrg="2.100004" IsPersistent="0"/>
+	<Object Guid="C97555DBB6E9490EAEB9E1CDD488F66B" Desc="FB_DGPD_0006" config="FB_DGPD_0006" x="2917.30127" y="-6.771962" z="7058.42041" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="3709A0992B21454BBD37E7305AEA57A9" Desc="FB_DGPD_0009" config="FB_DGPD_0009" x="2914.878662" y="-6.771962" z="7053.740723" PatrolMode="1" PathID="XST-03" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="4F4A2433FD7E4A22B9E6C8F59FD70ACF" Desc="FB_DGPD_0007" config="FB_DGPD_0007" x="2912.094971" y="-6.379373" z="7059.357422" amount="1" RefreshTime="-1" fOrg="0.730002" IsPersistent="0"/>
+	<Object Guid="F971A398C940429F8A96D91908BF3652" Desc="formation" config="CQZH_001" x="2903.290771" y="-6.771671" z="7056.657715" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="8B97A3E547B64F92BFA46696CE3AE3BB" Desc="formation" config="FB_CQZH_001" x="2877.784424" y="-6.869992" z="7073.766113" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="F5FAA0653F8846BEAF75F5400641F266" Desc="FB_DGPD_0049" config="FB_DGPD_0049" x="2848.593262" y="-6.771962" z="7020.125977" amount="1" fOrg="-1.515004" IsPersistent="0" RefreshTime="-1">
+		<Event EventId="23" Processor="FB_CQZH_SW_004_2"/>
+	</Object>
+	<Object Guid="7D5083D526F4452F95C0E65054BDE542" Desc="FB_DGPD_0006" config="FB_DGPD_0006" x="2929.075439" y="-7.233902" z="7078.65625" amount="1" RefreshTime="-1" fOrg="1.600002" IsPersistent="0"/>
+	<Object Guid="AA71680C47D248078AC9EB23AD25512B" Desc="FB_DGPD_0007" config="FB_DGPD_0007" x="2933.050781" y="-7.001447" z="7080.913086" amount="1" RefreshTime="-1" fOrg="0.74" IsPersistent="0"/>
+	<Object Guid="1B4FC8DE1F1F4D6BAF64262E9FAF7658" Desc="FB_DGPD_0007" config="FB_DGPD_0007" x="2931.317383" y="-7.054165" z="7077.07959" amount="1" fOrg="1.065001" IsPersistent="0" RefreshTime="-1"/>
+	<Object Guid="A473623FD42E4BE58C65BA4672C056A4" Desc="FB_DGPD_0009" config="FB_DGPD_0009" x="2929.247803" y="-7.138836" z="7081.260254" amount="1" RefreshTime="-1" fOrg="1.910002" IsPersistent="0"/>
+	<Object Guid="A9368F2583D34D829BC77EA5780AE251" Desc="FB_DGPD_0009" config="FB_DGPD_0009" x="2931.522217" y="-6.850554" z="7075.220215" amount="1" RefreshTime="-1" fOrg="1.505" IsPersistent="0"/>
+	<Object Guid="CD49FC6572EB4B6C83AF8D772583DE3E" Desc="FB_DGPD_0006" config="FB_DGPD_0006" x="2886.912354" y="-6.772651" z="7044.929688" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="1FB1BA8BFE8E40EB8D60A0ADB61FC050" Desc="FB_DGPD_0007" config="FB_DGPD_0007" x="2884.988037" y="-6.774133" z="7041.809082" amount="1" RefreshTime="-1" fOrg="-0.205" IsPersistent="0"/>
+	<Object Guid="62CBF95965454E89A5A49B3DE67B2388" Desc="FB_DGPD_0007" config="FB_DGPD_0007" x="2874.812744" y="-6.968765" z="7040.995117" amount="1" RefreshTime="-1" fOrg="-0.398187" IsPersistent="0"/>
+	<Object Guid="D613A2DB03BE4E3E99EA98FFC0CA2D48" Desc="FB_DGPD_0006" config="FB_DGPD_0006" x="2883.359375" y="-7.011977" z="7044.27832" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="9401C02A1BCA47AEBFE823C69886055B" Desc="FB_DGPD_0006" config="FB_DGPD_0006" x="2876.557129" y="-7.196409" z="7043.687988" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="584CA3B197094F8D8ABE78F7C5E5B44C" Desc="FB_DGPD_0006" config="FB_DGPD_0006" x="2873.315186" y="-6.833019" z="7043.639648" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="2163A120BE424446A93B3F8815ADC646" Desc="FB_DGPD_0009" config="FB_DGPD_0009" x="2871.498535" y="-6.771962" z="7080.062988" PeaceAction="downloop" amount="1" RefreshTime="-1" fOrg="0.94" IsPersistent="0"/>
+	<Object Guid="F7B2F43C3F1A4870987FA00F7790B47A" Desc="FB_DGPD_0009" config="FB_DGPD_0009" x="2870.485596" y="-6.771962" z="7083.864258" PeaceAction="downloop" amount="1" RefreshTime="-1" fOrg="1.900005" IsPersistent="0"/>
+	<Object Guid="56F4CFA9B92D40DCB4DAB69F0013B1D8" Desc="FB_DGPD_0008" config="FB_DGPD_0008" x="2855.828125" y="-6.771962" z="7017.583496" amount="1" RefreshTime="-1" fOrg="1.405001" IsPersistent="0"/>
+	<Object Guid="093FFF1732C645D9BFE86F5054E161E1" Desc="FB_DGPD_0007" config="FB_DGPD_0007" x="2875.503906" y="-6.772401" z="7082.083984" amount="1" fOrg="-1.920002" IsPersistent="0" RefreshTime="-1"/>
+	<Object Guid="4A0564D0A4144DF7B8C153E8704F9DCF" Desc="FB_DGPD_0007" config="FB_DGPD_0007" x="2874.066162" y="-6.28427" z="7086.698242" amount="1" fOrg="2.360004" IsPersistent="0" RefreshTime="-1"/>
+	<Object Guid="F86C14C5D85845E49F1A1C73EB3801E7" Desc="FB_DGPD_0008" config="FB_DGPD_0008" x="2855.422852" y="-6.771962" z="7022.31543" amount="1" RefreshTime="-1" fOrg="-1.908185" IsPersistent="0"/>
+	<Object Guid="A62C647376084CD8994A2E9408D58DB4" Desc="FB_DGPD_0009" config="FB_DGPD_0009" x="2857.070557" y="-6.771962" z="7015.196777" amount="1" RefreshTime="-1" fOrg="1.145001" IsPersistent="0"/>
+	<Object Guid="84C14430EF664659A38CA0A6BF5D415A" Desc="FB_DGPD_0007" config="FB_DGPD_0007" x="2862.088135" y="-6.771962" z="7020.211914" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="93A22FF0E7954838981BD69DDD30EFB4" Desc="FB_DGPD_0049" config="FB_DGPD_0049" x="2899.311279" y="-6.771962" z="7017.244629" amount="1" RefreshTime="-1" fOrg="1.515003" IsPersistent="0">
+		<Event EventId="23" Processor="FB_CQZH_SW_004_3"/>
+	</Object>
+	<Object Guid="3391E131D015457A8F2CA7C49C66BF43" Desc="FB_DGPD_0009" config="FB_DGPD_0009" x="2895.351563" y="-6.563208" z="7010.953125" amount="1" RefreshTime="-1" fOrg="-0.725" IsPersistent="0"/>
+	<Object Guid="7A29028CD0F440C6B4DDEB4BE27AF2F5" Desc="FB_DGPD_0007" config="FB_DGPD_0007" x="2896.253418" y="-6.771962" z="7021.825684" amount="1" RefreshTime="-1" fOrg="2.010005" IsPersistent="0"/>
+	<Object Guid="FBE1200A06C348CE926C923B292BE8DA" Desc="FB_DGPD_0008" config="FB_DGPD_0008" x="2897.065186" y="-6.771962" z="7013.034668" amount="1" RefreshTime="-1" fOrg="0.790001" IsPersistent="0"/>
+	<Object Guid="98AC9C1502524F11BE8ADC8C115B7A21" Desc="FB_DGPD_0009" config="FB_DGPD_0009" x="2893.42749" y="-6.771962" z="7016.596191" PatrolMode="0" PatrolRange="3" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="98C687C9DFE34FC2BF5E1201AA03E000" Desc="FB_DGPD_0009" config="FB_DGPD_0009" x="2900.946045" y="-6.772062" z="6986.702637" amount="1" RefreshTime="-1" fOrg="-2.77" IsPersistent="0"/>
+	<Object Guid="8358658773B84201A81BF0C02BA2A198" Desc="FB_DGPD_0009" config="FB_DGPD_0009" x="2901.376465" y="-6.772062" z="6977.813477" amount="1" RefreshTime="-1" fOrg="-0.960002" IsPersistent="0"/>
+	<Object Guid="9ADAD82236334E0B92C572A00A58C86E" Desc="FB_DGPD_0009" config="FB_DGPD_0009" x="2895.09082" y="-6.771962" z="6978.24707" amount="1" RefreshTime="-1" fOrg="0.600001" IsPersistent="0"/>
+	<Object Guid="34056C5860FA4D5C9BE92D1597C8732B" Desc="FB_DGPD_0007" config="FB_DGPD_0007" x="2897.398682" y="-6.772062" z="6984.442871" amount="1" RefreshTime="-1" fOrg="1.140001" IsPersistent="0"/>
+	<Object Guid="1963A469DA2A47BD8098D174208938C7" Desc="FB_DGPD_0007" config="FB_DGPD_0007" x="2899.378662" y="-6.771962" z="6981.584473" amount="1" RefreshTime="-1" fOrg="3.025001" IsPersistent="0"/>
+	<Object Guid="20EA7EFE7B274B5E9F4E18F5AA4FD951" Desc="FB_DGPD_0049" config="FB_DGPD_0049" x="2859.41748" y="-6.771962" z="6983.032715" amount="1" RefreshTime="-1" fOrg="-1.545004" IsPersistent="0">
+		<Event EventId="23" Processor="FB_CQZH_SW_004_4"/>
+	</Object>
+	<Object Guid="81DB252154E7439AB530034F6F119190" Desc="FB_DGPD_0008" config="FB_DGPD_0008" x="2863.386719" y="-6.771962" z="6979.492188" amount="1" RefreshTime="-1" fOrg="2.165001" IsPersistent="0"/>
+	<Object Guid="2EF5581EA0A14C8A9B10F8BEBD313125" Desc="FB_DGPD_0008" config="FB_DGPD_0008" x="2864.757568" y="-6.771962" z="6985.504883" amount="1" RefreshTime="-1" fOrg="-1.945004" IsPersistent="0"/>
+	<Object Guid="6B18F30CB48448FC8C8343CBBCFA9ED9" Desc="FB_DGPD_0007" config="FB_DGPD_0007" x="2866.019287" y="-6.771962" z="6982.665527" amount="1" RefreshTime="-1" fOrg="-2.11" IsPersistent="0"/>
+	<Object Guid="8D6BF234704D4995AF283FF7948D4832" Desc="FB_DGPD_0009" config="FB_DGPD_0009" x="2865.019531" y="-6.771962" z="6976.310547" amount="1" RefreshTime="-1" fOrg="0.87" IsPersistent="0"/>
+	<Object Guid="D9436E670A3E4BFE95DA11CF26078453" Desc="FB_DGPD_0049" config="FB_DGPD_0049" x="2861.390869" y="-6.771962" z="7068.816895" amount="1" RefreshTime="-1" fOrg="-1.600006" IsPersistent="0">
+		<Event EventId="23" Processor="FB_CQZH_SW_004_1"/>
+	</Object>
+	<Object Guid="936554B6E64D4486BE551C90E51469DE" Desc="FB_DGPD_0006" config="FB_DGPD_0006" x="2876.799561" y="-6.74168" z="7085.095215" amount="1" RefreshTime="-1" fOrg="-2.140002" IsPersistent="0"/>
+	<Object Guid="004EDB7D096C4AD1AD1143F9E12B6F0A" Desc="FB_DGPD_0049" config="FB_DGPD_0049" x="2897.265137" y="-6.819833" z="7085.613281" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0">
+		<Event EventId="23" Processor="FB_CQZH_SW_004"/>
+	</Object>
+	<Object Guid="0BC4D99E040A4E5187FB6D3CEAD5B3C1" Desc="FB_DGPD_0008" config="FB_DGPD_0008" x="2894.134033" y="-7.058723" z="7081.374023" amount="1" RefreshTime="-1" fOrg="2.865001" IsPersistent="0"/>
+	<Object Guid="56ACAA1939484945B1F3940E918F6FD4" Desc="FB_DGPD_0008" config="FB_DGPD_0008" x="2900.445313" y="-7.274985" z="7081.395996" amount="1" RefreshTime="-1" fOrg="-2.710004" IsPersistent="0"/>
+	<Object Guid="74E4E6BDD9B74A3B8993674B6A28604A" Desc="FB_DGPD_0007" config="FB_DGPD_0007" x="2897.229492" y="-7.355192" z="7078.6875" amount="1" fOrg="0" IsPersistent="0" RefreshTime="-1"/>
+	<Object Guid="D9A0B470C5FD404E84F44201F635BB0C" Desc="FB_DGPD_0014" config="FB_DGPD_0014" x="3024.164307" y="-14.277049" z="6771.05127" IsY="0" Radius="0" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="9D1C6829643F4BAAA67854A8A10F09FA" Desc="FB_DGPD_0014" config="FB_DGPD_0014" x="3017.32959" y="-14.27446" z="6771.651367" IsY="0" Radius="0" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="21B624381E394F29BEFA1AC6BE9F797B" Desc="FB_DGPD_0017" config="FB_DGPD_0017" x="3024.41748" y="-13.14326" z="6777.324219" IsY="0" Radius="0" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="3FFB42C29CF647389BEEACAEF00A2147" Desc="FB_DGPD_0017" config="FB_DGPD_0017" x="3017.981201" y="-13.487997" z="6776.941406" IsY="0" Radius="0" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="5FD6898D4864411F8613FAF2C9120AFB" Desc="FB_DGPD_0015" config="FB_DGPD_0015_01" x="3175.696777" y="11.489471" z="6848.729004" amount="1" RefreshTime="-1" fOrg="-2.035406" IsPersistent="0"/>
+	<Object Guid="7794DFC7E49E41BC8321F1BFE8DCD55C" Desc="FB_DGPD_0015" config="FB_DGPD_0015_02" x="3219.007324" y="13.491163" z="6879.360352" IsY="0" Radius="0" amount="1" RefreshTime="-1" fOrg="-2" IsPersistent="0"/>
+	<Object Guid="2C75DD460399453C837550B613FB4CB0" Desc="FB_DGPD_0017" config="FB_DGPD_0017_05" x="3181.085693" y="11.502197" z="6879.454102" amount="1" fOrg="2.783185" IsPersistent="0" RefreshTime="-1"/>
+	<Object Guid="7FD9BC9420E9442A9DB0D5B21D05204C" Desc="FB_DGPD_0017" config="FB_DGPD_0017" x="3181.170166" y="11.49954" z="6875.813965" PatrolMode="1" PathID="CQZH-SM008" amount="1" fOrg="0" IsPersistent="0" RefreshTime="-1">
+		<Event EventId="23" Processor="FB_CQZH_SM_021"/>
+		<Event EventId="601" Processor="FB_CQZH_SM_022"/>
+		<Event EventId="62" Processor="FB_CQZH_SM_023"/>
+	</Object>
+	<Object Guid="A47EC46D7EFB4A6DB0E03531F62EB870" Desc="FB_DGPD_0017" config="FB_DGPD_0017_05" x="3183.85498" y="11.542771" z="6879.586914" amount="1" fOrg="-3" IsPersistent="0" RefreshTime="-1"/>
+	<Object Guid="5FD7726A424B4B3BB17153C6BA6B7B91" Desc="FB_DGPD_0017" config="FB_DGPD_0017_05" x="3178.091553" y="11.499367" z="6879.297363" amount="1" fOrg="-4" IsPersistent="0" RefreshTime="-1"/>
+	<Object Guid="928D73F6BBB944DC9E336E9102CEB527" Desc="FB_DGPD_0016" config="leader_CQZH_007" x="3162.589844" y="10.184937" z="6839.735352" PatrolMode="1" PathID="CQZH-SM009" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="A900DE662FCA418F9205EA5FC5856648" Desc="FB_DGPD_0016" config="leader_CQZH_007" x="3260.570557" y="24.407698" z="6876.162598" PatrolMode="2" PathID="CQZH-SM010" amount="1" fOrg="0" IsPersistent="0" RefreshTime="-1"/>
+	<Object Guid="7ACECDC3607148858F79B50EBD62F5D0" Desc="FB_DGPD_0019" config="FB_DGPD_0019_8" x="3257.259521" y="25.90831" z="6848.162109" amount="1" fOrg="0" IsPersistent="0" RefreshTime="-1"/>
+	<Object Guid="F6EB00EA10E248B3A5367A55482AF682" Desc="FB_DGPD_0019" config="FB_DGPD_0019_10" x="3254.01709" y="26.039169" z="6853.431152" amount="1" fOrg="2" IsPersistent="0" RefreshTime="-1"/>
+	<Object Guid="03203F591C8F4A70A8DA5AE96D429CC3" Desc="FB_DGPD_0019" config="FB_DGPD_0019_10" x="3255.85083" y="25.993595" z="6855.665039" amount="1" fOrg="2.5" IsPersistent="0" RefreshTime="-1"/>
+	<Object Guid="033C06FB2E3A4B97A8EB41C3817EF4E8" Desc="FB_DGPD_0018" config="FB_DGPD_0018_5" x="3254.695557" y="25.959837" z="6850.435547" amount="1" fOrg="0.8" IsPersistent="0" RefreshTime="-1">
+		<Event EventId="23" Processor="FB_CQZH_SM_021"/>
+		<Event EventId="601" Processor="FB_CQZH_SM_028"/>
+		<Event EventId="62" Processor="FB_CQZH_SM_023"/>
+	</Object>
+	<Object Guid="D3D7DE33FF4D404D905C50BB6DCC5553" Desc="FB_DGPD_0015" config="FB_DGPD_0015_03" x="3270.239502" y="27.098682" z="6866.65918" amount="1" RefreshTime="-1" fOrg="-0.5" IsPersistent="0"/>
+	<Object Guid="56ED58CEAED14375B1F7C61FF19CEFB6" Desc="FB_DGPD_0015" config="FB_DGPD_0015_04" x="3306.289551" y="26.554131" z="6868.164063" IsY="0" Radius="0" amount="1" RefreshTime="-1" fOrg="-0.5" IsPersistent="0"/>
+	<Object Guid="BDA9A0F3D0CE45FCB29BDFFF98F41ACE" Desc="FB_DGPD_0019" config="FB_DGPD_0019_9" x="3260.725342" y="25.901472" z="6849.430176" amount="1" RefreshTime="-1" fOrg="-1" IsPersistent="0"/>
+	<Object Guid="2BFFB3A252CE483AA645C791928F464D" Desc="FB_DGPD_0018" config="FB_DGPD_0018_6" x="3323.510498" y="26.402" z="6827.003906" amount="1" RefreshTime="-1" fOrg="-2." IsPersistent="0" PeaceAction="attack01"/>
+	<Object Guid="C1C3ACBCE0424B6A91679E8F0D63454A" Desc="FB_DGPD_0018" config="FB_DGPD_0018" x="3315.712891" y="26.402" z="6824.813965" amount="1" RefreshTime="-1" fOrg="2" IsPersistent="0" PeaceAction="attack01"/>
+	<Object Guid="3C56EC1F2CA841408C3BCEC1A6B82EA7" Desc="FB_DGPD_0018" config="FB_DGPD_0018" x="3318.022705" y="26.402" z="6826.918945" amount="1" RefreshTime="-1" fOrg="2" IsPersistent="0" PeaceAction="attack01"/>
+	<Object Guid="7937D9C9783641B5B53C4673E9D36C0C" Desc="FB_DGPD_0018" config="FB_DGPD_0018" x="3313.314697" y="26.402" z="6823.033691" amount="1" RefreshTime="-1" fOrg="2" IsPersistent="0" PeaceAction="attack01"/>
+	<Object Guid="245EFA5DA8E14B908A303D7426DA4509" Desc="FB_DGPD_0018" config="FB_DGPD_0018" x="3320.378174" y="26.402" z="6828.961914" amount="1" RefreshTime="-1" fOrg="2.4" IsPersistent="0" PeaceAction="attack01"/>
+	<Object Guid="978D7076DB654140BA5AE47E6B3CCB75" Desc="FB_DGPD_0018" config="FB_DGPD_0018_2" x="3278.157227" y="25.933378" z="6830.467773" amount="1" RefreshTime="-1" fOrg="-2" IsPersistent="0"/>
+	<Object Guid="F3F1A0C4D3574997A0F9A8641F32F7C9" Desc="FB_DGPD_0018" config="FB_DGPD_0018_3" x="3277.550293" y="25.991743" z="6825.519043" amount="1" RefreshTime="-1" fOrg="-1.2" IsPersistent="0"/>
+	<Object Guid="FD31CA2914D44C4E973D51268425E7B7" Desc="FB_DGPD_0018" config="FB_DGPD_0018_4" x="3276.570801" y="26.348467" z="6820.535645" amount="1" RefreshTime="-1" fOrg="-0.8" IsPersistent="0"/>
+	<Object Guid="206E13609BE74E3587438C481A8AB817" Desc="FB_DGPD_0019" config="FB_DGPD_0019_7" x="3272.916504" y="25.761843" z="6828.097168" amount="1" RefreshTime="-1" fOrg="1.5" IsPersistent="0"/>
+	<Object Guid="078D7F4949224422BC515DF0AFB2E83B" Desc="FB_DGPD_0019" config="FB_DGPD_0019_6" x="3272.364014" y="26.121405" z="6823.307617" amount="1" RefreshTime="-1" fOrg="1" IsPersistent="0">
+		<Event EventId="23" Processor="FB_CQZH_SM_021"/>
+		<Event EventId="601" Processor="FB_CQZH_SM_027"/>
+		<Event EventId="62" Processor="FB_CQZH_SM_023"/>
+	</Object>
+	<Object Guid="30B2C0D2336940F2A6A481906D61B3B6" Desc="FB_DGPD_0019" config="FB_DGPD_0019_1" x="3267.234375" y="25.883825" z="6885.79541" amount="1" RefreshTime="-1" fOrg="1.5" IsPersistent="0">
+		<Event EventId="23" Processor="FB_CQZH_SM_021"/>
+		<Event EventId="601" Processor="FB_CQZH_SM_024"/>
+		<Event EventId="62" Processor="FB_CQZH_SM_023"/>
+	</Object>
+	<Object Guid="349B41308B0F4A1FB7171692CDC7A7D3" Desc="FB_DGPD_0019" config="FB_DGPD_0019_2" x="3271.434814" y="26.340794" z="6884.806152" amount="1" RefreshTime="-1" fOrg="-1.5" IsPersistent="0"/>
+	<Object Guid="9591B016CB3E474BB3EF92CF6720D03D" Desc="FB_DGPD_0019" config="FB_DGPD_0019_3" x="3275.901367" y="26.974176" z="6883.553711" IsY="0" Radius="0" amount="1" RefreshTime="-1" fOrg="1.5" IsPersistent="0"/>
+	<Object Guid="D3E40976663141269AFB027569D2DEB5" Desc="FB_DGPD_0019" config="FB_DGPD_0019_4" x="3279.281494" y="27.098186" z="6882.602539" IsY="0" Radius="0" amount="1" RefreshTime="-1" fOrg="-1.5" IsPersistent="0"/>
+	<Object Guid="0A2B3CE9B0444A7C80AA22DA6529B459" Desc="FB_DGPD_0019" config="FB_DGPD_0019_5" x="3301.217041" y="26.792694" z="6875.73584" IsY="0" Radius="0" amount="1" RefreshTime="-1" fOrg="2." IsPersistent="0">
+		<Event EventId="23" Processor="FB_CQZH_SM_021"/>
+		<Event EventId="601" Processor="FB_CQZH_SM_026"/>
+		<Event EventId="62" Processor="FB_CQZH_SM_023"/>
+	</Object>
+	<Object Guid="BDA7C133B3B84EE5AA592FDF0A34A050" Desc="FB_DGPD_0018" config="FB_DGPD_0018_1" x="3303.848633" y="26.702011" z="6873.556641" IsY="0" Radius="0" amount="1" RefreshTime="-1" fOrg="-1." IsPersistent="0"/>
+	<Object Guid="F74B60E9CE514D97B4C1BEBD72C275A8" Desc="FB_DGPD_0017" config="FB_DGPD_0017_06" x="3299.360352" y="26.260248" z="6871.083984" amount="1" RefreshTime="-1" fOrg="0.2" IsPersistent="0" PeaceAction="spell2_10h"/>
+	<Object Guid="51233B1B96654E40841A2175331B50A3" Desc="FB_DGPD_0014" config="FB_DGPD_0014_05" x="3297.577148" y="26.476686" z="6874.18457" amount="1" RefreshTime="-1" fOrg="1.5" IsPersistent="0"/>
+	<Object Guid="018D5CB2A76C42CEBF99264D5765532E" Desc="FB_DGPD_0016" config="FB_DGPD_0016_1" x="3302.606445" y="26.470688" z="6869.078613" amount="1" RefreshTime="-1" fOrg="-0.5" IsPersistent="0" PeaceAction="stun"/>
+	<Object Guid="4A9527A8A2E44BFCB65BE2DD48678FF4" Desc="FB_DGPD_0020" config="FB_DGPD_0020" x="3354.068115" y="8.81693" z="6786.760742" IsY="0" Radius="0" PatrolMode="1" PathID="CQZH-SM014" amount="1" RefreshTime="-1" fOrg="2" IsPersistent="0"/>
+	<Object Guid="8462CBA6729747F69C4EE48ABC74E243" Desc="FB_DGPD_0056" config="FB_DGPD_0056_7" x="3365.110596" y="8.789586" z="6782.285645" amount="1" RefreshTime="-1" fOrg="2." IsPersistent="0"/>
+	<Object Guid="0B5BA4B31E8D453E9D1870D795743E28" Desc="FB_DGPD_0056" config="FB_DGPD_0056_3" x="3357.539063" y="8.591171" z="6775.057617" amount="1" RefreshTime="-1" fOrg="2." IsPersistent="0"/>
+	<Object Guid="6B61E5B3ABF5426996A3B0AF84FA87D3" Desc="FB_DGPD_0056" config="FB_DGPD_0056_2" x="3351.807861" y="8.535729" z="6770.584961" amount="1" RefreshTime="-1" fOrg="2." IsPersistent="0"/>
+	<Object Guid="7102738DF4AA4337B922C534EC1EA606" Desc="FB_DGPD_0056" config="FB_DGPD_0056_1" x="3346.611572" y="8.42312" z="6765.885742" amount="1" RefreshTime="-1" fOrg="2." IsPersistent="0"/>
+	<Object Guid="4F4AFAF110EF4F79AD4AD1DA978AE1FB" Desc="FB_DGPD_0056" config="FB_DGPD_0056_8" x="3370.450684" y="8.760159" z="6786.926758" amount="1" RefreshTime="-1" fOrg="2." IsPersistent="0"/>
+	<Object Guid="470425AC7F134DE281523D20FB62BDF9" Desc="FB_DGPD_0056" config="FB_DGPD_0056_9" x="3376.119629" y="8.596371" z="6791.338379" amount="1" RefreshTime="-1" fOrg="2." IsPersistent="0"/>
+	<Object Guid="C36C78B763E545B3BC4A6E5FF0A72B05" Desc="FB_DGPD_0056" config="FB_DGPD_0056_10" x="3371.398438" y="8.43716" z="6776.096191" amount="1" RefreshTime="-1" fOrg="2." IsPersistent="0"/>
+	<Object Guid="6D5210FF673949609A9EFDD17C6987A4" Desc="FB_DGPD_0017" config="FB_DGPD_0057_9" x="3378.090088" y="8.452947" z="6788.367676" amount="1" RefreshTime="-1" fOrg="-1." IsPersistent="0"/>
+	<Object Guid="48F765B4778544949D196F61DFB4032D" Desc="FB_DGPD_0017" config="FB_DGPD_0057_8" x="3372.733643" y="8.59278" z="6783.97998" amount="1" RefreshTime="-1" fOrg="-1." IsPersistent="0"/>
+	<Object Guid="A879B7096FF44333BAA3934388298E66" Desc="FB_DGPD_0017" config="FB_DGPD_0057_7" x="3367.926758" y="8.620858" z="6779.588379" amount="1" RefreshTime="-1" fOrg="-1." IsPersistent="0"/>
+	<Object Guid="FC49929EC6B94BA385FDE4D4F4753FD3" Desc="FB_DGPD_0017" config="FB_DGPD_0057_3" x="3359.970215" y="8.428572" z="6772.391113" amount="1" RefreshTime="-1" fOrg="-1." IsPersistent="0"/>
+	<Object Guid="690300CFAAA94B5D8844768D43B60483" Desc="FB_DGPD_0017" config="FB_DGPD_0057_2" x="3354.828369" y="8.42072" z="6767.783203" amount="1" RefreshTime="-1" fOrg="-1." IsPersistent="0"/>
+	<Object Guid="0B75207CEC4D4E3CBC0F24C496F7F111" Desc="FB_DGPD_0017" config="FB_DGPD_0057_1" x="3349.673828" y="8.363612" z="6763.172852" amount="1" RefreshTime="-1" fOrg="-1" IsPersistent="0"/>
+	<Object Guid="2CEF3EEC5B6742229FFFE84F29402248" Desc="FB_DGPD_0017" config="FB_DGPD_0057_4" x="3356.367432" y="8.362868" z="6757.544434" amount="1" RefreshTime="-1" fOrg="-1." IsPersistent="0"/>
+	<Object Guid="AF8855493EF54212B7304EE242D913BF" Desc="FB_DGPD_0017" config="FB_DGPD_0057_5" x="3360.546387" y="8.362868" z="6761.783203" amount="1" RefreshTime="-1" fOrg="-1." IsPersistent="0"/>
+	<Object Guid="5CA198AD96F04B6186D7E12893E1C238" Desc="FB_DGPD_0017" config="FB_DGPD_0057_6" x="3365.413086" y="8.362868" z="6766.148438" amount="1" RefreshTime="-1" fOrg="-1." IsPersistent="0"/>
+	<Object Guid="885971D47F31428D937C9BB6086115A0" Desc="FB_DGPD_0017" config="FB_DGPD_0057_10" x="3373.64917" y="8.376704" z="6774.060547" amount="1" RefreshTime="-1" fOrg="-1" IsPersistent="0"/>
+	<Object Guid="89BF55BA80224614A3D37FE9893DC2AC" Desc="FB_DGPD_0017" config="FB_DGPD_0057_11" x="3378.162109" y="8.3787" z="6778.234863" amount="1" RefreshTime="-1" fOrg="-1." IsPersistent="0"/>
+	<Object Guid="586E40063C5648FABC4E7AC86B7150FB" Desc="FB_DGPD_0017" config="FB_DGPD_0057_12" x="3383.115479" y="8.366576" z="6782.893555" amount="1" RefreshTime="-1" fOrg="-1." IsPersistent="0"/>
+	<Object Guid="9205D6E9CA1443A89A6D701BDA55BD0B" Desc="FB_DGPD_0056" config="FB_DGPD_0056_11" x="3376.286865" y="8.423997" z="6780.666992" amount="1" RefreshTime="-1" fOrg="2." IsPersistent="0"/>
+	<Object Guid="A594F008262F4BA5BABB0F9111DD14D4" Desc="FB_DGPD_0056" config="FB_DGPD_0056_12" x="3381.258789" y="8.373026" z="6785.34668" amount="1" RefreshTime="-1" fOrg="2." IsPersistent="0"/>
+	<Object Guid="32BB5E040C114F6C8FF1A6EA1665EB98" Desc="FB_DGPD_0056" config="FB_DGPD_0056_6" x="3363.18335" y="8.362868" z="6768.441895" amount="1" RefreshTime="-1" fOrg="2." IsPersistent="0"/>
+	<Object Guid="FA5AFA04BB674EE7B92118697B398F53" Desc="FB_DGPD_0056" config="FB_DGPD_0056_5" x="3358.404297" y="8.362868" z="6763.932617" amount="1" RefreshTime="-1" fOrg="2." IsPersistent="0"/>
+	<Object Guid="22E12FEA6BAF4408AE99832766848A28" Desc="FB_DGPD_0056" config="FB_DGPD_0056_4" x="3354.027832" y="8.362868" z="6759.895508" amount="1" RefreshTime="-1" fOrg="2." IsPersistent="0"/>
+	<Object Guid="9027A650854347C88DB6F2C659DBBCF5" Desc="FB_DGPD_0014" config="FB_DGPD_0058_9" x="3389.719482" y="8.362868" z="6774.003906" amount="1" RefreshTime="-1" fOrg="3" IsPersistent="0"/>
+	<Object Guid="B5D7BCAEB470459DB213F03806A3EC65" Desc="FB_DGPD_0014" config="FB_DGPD_0058_8" x="3386.062256" y="8.362868" z="6770.6875" amount="1" RefreshTime="-1" fOrg="3" IsPersistent="0"/>
+	<Object Guid="B071267562374B038CA7F31C6BA99CF2" Desc="FB_DGPD_0014" config="FB_DGPD_0058_7" x="3381.895752" y="8.362868" z="6766.989258" amount="1" RefreshTime="-1" fOrg="3" IsPersistent="0"/>
+	<Object Guid="D5EE5C8FCE814B5C8A50D0B21E8ED137" Desc="FB_DGPD_0014" config="FB_DGPD_0058_3" x="3369.480957" y="8.362868" z="6755.743164" amount="1" RefreshTime="-1" fOrg="3" IsPersistent="0"/>
+	<Object Guid="0CAA68561E8943AEAC2393FC741C3289" Desc="FB_DGPD_0014" config="FB_DGPD_0058_2" x="3365.955566" y="8.362868" z="6752.099609" amount="1" RefreshTime="-1" fOrg="3" IsPersistent="0"/>
+	<Object Guid="083517A213F9449C865CEE8899C1A4A7" Desc="FB_DGPD_0014" config="FB_DGPD_0058_1" x="3362.192871" y="8.362868" z="6748.489258" amount="1" RefreshTime="-1" fOrg="3" IsPersistent="0"/>
+	<Object Guid="9902E6211BC949018101546EFB6F0FC6" Desc="FB_DGPD_0014" config="FB_DGPD_0058_4" x="3370.416016" y="8.362868" z="6740.837402" amount="1" RefreshTime="-1" fOrg="3" IsPersistent="0"/>
+	<Object Guid="A734928495FC45A598ABF6F02188A743" Desc="FB_DGPD_0014" config="FB_DGPD_0058_5" x="3374.251709" y="8.362868" z="6744.36377" amount="1" RefreshTime="-1" fOrg="3" IsPersistent="0"/>
+	<Object Guid="9C81261A8DEF4E2EB04EFDB7DAFDD9A8" Desc="FB_DGPD_0014" config="FB_DGPD_0058_6" x="3377.893311" y="8.362868" z="6748.080566" amount="1" RefreshTime="-1" fOrg="3" IsPersistent="0"/>
+	<Object Guid="FBA2DC18205042F0B10B0E410BB593FA" Desc="FB_DGPD_0014" config="FB_DGPD_0058_10" x="3388.982666" y="8.362868" z="6758.115234" amount="1" RefreshTime="-1" fOrg="3" IsPersistent="0"/>
+	<Object Guid="3B5D5F0272104B2BA0964A578EE9E306" Desc="FB_DGPD_0014" config="FB_DGPD_0058_11" x="3393.396729" y="8.362868" z="6762.129395" amount="1" RefreshTime="-1" fOrg="3" IsPersistent="0"/>
+	<Object Guid="7C06025A4605475E9ED65FFE25DE0975" Desc="FB_DGPD_0014" config="FB_DGPD_0058_12" x="3397.740479" y="8.362868" z="6766.610352" amount="1" RefreshTime="-1" fOrg="3" IsPersistent="0"/>
+	<Object Guid="BACAA5B7C6BB4A3B88DD0034EDCA01BA" Desc="FB_DGPD_0018" config="FB_DGPD_0059_9" x="3393.459961" y="8.362868" z="6771.268555" amount="1" RefreshTime="-1" fOrg="-1." IsPersistent="0"/>
+	<Object Guid="1522A3328BD546C49663240037EEA8BA" Desc="FB_DGPD_0018" config="FB_DGPD_0059_8" x="3389.301025" y="8.362868" z="6767.329102" amount="1" RefreshTime="-1" fOrg="-1." IsPersistent="0"/>
+	<Object Guid="18053863118B4AE1B559576BE3A75027" Desc="FB_DGPD_0018" config="FB_DGPD_0059_7" x="3384.894531" y="8.362868" z="6763.563477" amount="1" RefreshTime="-1" fOrg="-1" IsPersistent="0"/>
+	<Object Guid="3D8FCE4C97BD4F37B7CEF0C00280B79A" Desc="FB_DGPD_0018" config="FB_DGPD_0059_3" x="3373.443359" y="8.362868" z="6752.399902" amount="1" RefreshTime="-1" fOrg="-1." IsPersistent="0"/>
+	<Object Guid="79103E80893F45078B161F370D854D09" Desc="FB_DGPD_0018" config="FB_DGPD_0059_2" x="3369.559082" y="8.362868" z="6748.864746" amount="1" RefreshTime="-1" fOrg="-1." IsPersistent="0"/>
+	<Object Guid="100B82B5D1994D3693C15C09A505971C" Desc="FB_DGPD_0018" config="FB_DGPD_0059_1" x="3365.776123" y="8.362868" z="6745.399414" amount="1" RefreshTime="-1" fOrg="-1." IsPersistent="0"/>
+	<Object Guid="13BC6723684B4A468C5D91FA2F43D721" Desc="FB_DGPD_0018" config="FB_DGPD_0059_4" x="3374.430908" y="8.362868" z="6737.528809" amount="1" RefreshTime="-1" fOrg="-1." IsPersistent="0"/>
+	<Object Guid="CE3C00BE0F0244C6B03DE63ACCF6DD00" Desc="FB_DGPD_0018" config="FB_DGPD_0059_5" x="3378.126953" y="8.362868" z="6740.773926" amount="1" RefreshTime="-1" fOrg="-1." IsPersistent="0"/>
+	<Object Guid="12D68964375947C4B9DF68E0D61CA9D9" Desc="FB_DGPD_0018" config="FB_DGPD_0059_6" x="3381.339355" y="8.362868" z="6744.394043" amount="1" RefreshTime="-1" fOrg="-1." IsPersistent="0"/>
+	<Object Guid="4C06E0CD2E784DC0ABCCB33221255FE5" Desc="FB_DGPD_0018" config="FB_DGPD_0059_10" x="3392.333252" y="8.362868" z="6754.755859" amount="1" RefreshTime="-1" fOrg="-1." IsPersistent="0"/>
+	<Object Guid="63D15FD88A8C49B686E5D1ACE479C6F7" Desc="FB_DGPD_0018" config="FB_DGPD_0059_11" x="3396.664551" y="8.362868" z="6758.70459" amount="1" RefreshTime="-1" fOrg="-1." IsPersistent="0"/>
+	<Object Guid="DE26E80A411A481383CAD94EB64E5FBE" Desc="FB_DGPD_0018" config="FB_DGPD_0059_12" x="3401.345459" y="8.362868" z="6763.275879" amount="1" RefreshTime="-1" fOrg="-1." IsPersistent="0"/>
+	<Object Guid="DC44EF63EDED471197F4EC5A9E2E02E5" Desc="FB_DGPD_0013" config="FB_DGPD_0013" x="2922.360107" y="-6.771962" z="6930.018555" amount="1" RefreshTime="-1" fOrg="-1.565002" IsPersistent="0"/>
+	<Object Guid="0939774C6AD94D26B563C322FE239AFE" Desc="FB_DGPD_0033" config="FB_DGPD_0033" x="3082.462891" y="44.271004" z="6150.076172" amount="1" RefreshTime="-1" fOrg="2.885004" IsPersistent="0"/>
+	<Object Guid="1C1BA048CA7B4ED6ADBA625967F9B089" Desc="FB_DGPD_0028" config="FB_DGPD_0028" x="3064.284668" y="44.271004" z="6255.675293" amount="1" RefreshTime="-1" fOrg="0.755001" IsPersistent="0"/>
+	<Object Guid="E015E6DDF7FA4B33A1666C3677819292" Desc="FB_DGPD_0031" config="FB_DGPD_0031" x="3062.582764" y="44.271004" z="6258.686035" PeaceAction="stun" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="1D111A6EC7E543CFAA94AA190392A9D0" Desc="FB_DGPD_0030" config="FB_DGPD_0030" x="3089.880859" y="44.271004" z="6181.483398" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="B58EBBDF658A4C5885C5853BE31CB1B7" Desc="FB_DGPD_0029" config="FB_DGPD_0029" x="3066.056152" y="44.271004" z="6259.752441" amount="1" RefreshTime="-1" fOrg="2.830001" IsPersistent="0"/>
+	<Object Guid="232DB76ABA504CB59F939D294B1151E6" Desc="FB_DGPD_0028" config="FB_DGPD_0028" x="3060.57959" y="44.271004" z="6256.201172" amount="1" RefreshTime="-1" fOrg="-1.435001" IsPersistent="0"/>
+	<Object Guid="8367F5BA250F44B6ADB89A7335E5351D" Desc="FB_DGPD_0028" config="FB_DGPD_0028" x="3062.130615" y="44.271004" z="6261.742676" amount="1" RefreshTime="-1" fOrg="2.230002" IsPersistent="0"/>
+	<Object Guid="080AFAAEA95049B983583EC778DBC0AC" Desc="FB_DGPD_0030" config="FB_DGPD_0030" x="3078.949219" y="44.419003" z="6180.457031" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="AEE8999C8AD94EE981953E94C1BE9144" Desc="FB_DGPD_0030" config="FB_DGPD_0030" x="3067.910156" y="44.271004" z="6182.634766" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="25AB0D254F8B462CA027958A2FA0358D" Desc="FB_DGPD_0031" config="FB_DGPD_0031" x="3096.978271" y="44.271004" z="6241.665039" PeaceAction="stun" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="C110F4EB2BBE44ADBDDF0EAF8E0223D8" Desc="FB_DGPD_0028" config="FB_DGPD_0028" x="3094.583008" y="44.271004" z="6238.923828" amount="1" RefreshTime="-1" fOrg="0.475" IsPersistent="0"/>
+	<Object Guid="B2715E370C944CC8B3693C6D6484E519" Desc="FB_DGPD_0029" config="FB_DGPD_0029" x="3102.022217" y="44.271004" z="6242.948242" amount="1" RefreshTime="-1" fOrg="2.290004" IsPersistent="0"/>
+	<Object Guid="ABE9958A834B45BEAD0BA83C0EE7C098" Desc="FB_DGPD_0028" config="FB_DGPD_0028" x="3099.679199" y="44.271004" z="6239.024414" amount="1" RefreshTime="-1" fOrg="-1.635004" IsPersistent="0"/>
+	<Object Guid="3DC6CBAC552E44638E57A834C0C895B8" Desc="FB_DGPD_0028" config="FB_DGPD_0028" x="3096.68457" y="44.271004" z="6244.424805" amount="1" RefreshTime="-1" fOrg="2.310005" IsPersistent="0"/>
+	<Object Guid="B8417388F0D34147B435BB8F772B708D" Desc="FB_DGPD_0030" config="FB_DGPD_0030" x="3081.449219" y="44.675003" z="6219.946289" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0" PatrolMode="1" PathID="CQZH-YJ007"/>
+	<Object Guid="54F7D3CDD8664826951FF4AACC9E09B0" Desc="FB_DGPD_0030" config="FB_DGPD_0030" x="3076.425049" y="44.675003" z="6219.656738" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0" PathID="CQZH-YJ008" PatrolMode="1"/>
+	<Object Guid="730AD1C9C119480387C2749194287C09" Desc="FB_DGPD_0029" config="FB_DGPD_0029" x="3079.139404" y="44.675003" z="6219.164063" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0" PathID="CQZH-YJ006" PatrolMode="1"/>
+	<Object Guid="767F696AB1E24746B6BC6DD76997ED1E" Desc="FB_DGPD_0030" config="FB_DGPD_0030" x="3103.068115" y="44.271004" z="6240.445313" amount="1" RefreshTime="-1" fOrg="-0.745003" IsPersistent="0"/>
+	<Object Guid="281E8A9AA32A4BD5A9D1954F37ADA149" Desc="FB_DGPD_0030" config="FB_DGPD_0030" x="3066.749023" y="44.271004" z="6257.144531" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="CC49136BDE7F473DB956A3B69CF18B11" Desc="FB_DGPD_0028" config="FB_DGPD_0028" x="3053.869385" y="44.271004" z="6221.108398" amount="1" RefreshTime="-1" fOrg="-1.005" IsPersistent="0"/>
+	<Object Guid="B72615BF88A24104AB30D0BBE703E93A" Desc="FB_DGPD_0031" config="FB_DGPD_0031" x="3051.201416" y="44.271004" z="6223.945801" PeaceAction="stun" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="ED23940943C84C09B8AC4FA0677643AD" Desc="FB_DGPD_0028" config="FB_DGPD_0028" x="3052.876953" y="44.271004" z="6227.29834" amount="1" RefreshTime="-1" fOrg="2.683185" IsPersistent="0"/>
+	<Object Guid="CB3B048F33964617BA73235F1DDCAAD4" Desc="FB_DGPD_0031" config="FB_DGPD_0031" x="3047.61792" y="44.271004" z="6224.589844" PeaceAction="stun" amount="1" RefreshTime="-1" fOrg="-1.450001" IsPersistent="0"/>
+	<Object Guid="4ACC377226394420B775DA42F2DB9340" Desc="FB_DGPD_0028" config="FB_DGPD_0028" x="3047.098145" y="44.271004" z="6227.164551" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="1E3A962E538543C79B00B79D411C074B" Desc="FB_DGPD_0028" config="FB_DGPD_0028" x="3043.419678" y="44.271004" z="6221.526367" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="46C2BCCE587544AEA1EC253BC132B150" Desc="FB_DGPD_0030" config="FB_DGPD_0030" x="3048.822754" y="44.271004" z="6217.26709" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="3A59A6A0B85B4BD7AB3274C5BE3068B5" Desc="FB_DGPD_0029" config="FB_DGPD_0029" x="3090.67334" y="44.271004" z="6183.932129" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="0B68FE3D157843FBA20B5127832B6708" Desc="FB_DGPD_0029" config="FB_DGPD_0029" x="3069.704834" y="44.271004" z="6184.370605" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="BAD2E831CAE64C37A89BE23F2F7CD802" Desc="FB_DGPD_0031" config="FB_DGPD_0031" x="3153.599121" y="44.289001" z="6302.873047" PeaceAction="stun" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="A73638178AA44977BF9976D7C3576D1A" Desc="FB_DGPD_0028" config="FB_DGPD_0028" x="3151.296875" y="44.292004" z="6301.408691" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="F51D59AFF3B047A48FD4F98004B12C06" Desc="FB_DGPD_0028" config="FB_DGPD_0028" x="3153.362305" y="44.292004" z="6305.567383" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="76DC58C4FAFD40739F76225F5E8741FE" Desc="FB_DGPD_0028" config="FB_DGPD_0028" x="3155.89209" y="44.289001" z="6301.003906" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="CF4F0D491C2E42DDB64D658673469DA8" Desc="FB_DGPD_0043" config="FB_DGPD_0043" x="3075.995605" y="17.085913" z="7095.872559" amount="1" RefreshTime="-1" fOrg="1.52" IsPersistent="0"/>
+	<Object Guid="D2E484E496814249B020C02010601D76" Desc="formation" config="leader_CQZH_001" x="3090.528076" y="17.085913" z="7119.39502" PatrolMode="2" PathID="CQZH-ZZ001" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="8F26E8EABB0A4F1E9AD73563F8A62031" Desc="formation" config="leader_CQZH_002" x="2893.35791" y="-6.854454" z="7059.904785" PatrolMode="1" PathID="CQZH-SW001" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="5B59153F65934BE9A12EC9F6872C8A4A" Desc="formation" config="leader_CQZH_002" x="2878.968506" y="-6.994133" z="7032.679688" PatrolMode="1" PathID="CQZH-SW003" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="6767ED6A96EE44E5B11C135BF984AEF6" Desc="FB_DGPD_0027" config="FB_DGPD_0027" x="3277.212891" y="39.945065" z="6233.271973" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="9D0BB8FC2DB747039673A0CAF466933F" Desc="FB_DGPD_0028" config="FB_DGPD_0028" x="3129.818604" y="44.292004" z="6309.949219" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="7C51FD0A26B84379AE56B909D0029BA5" Desc="FB_DGPD_0031" config="FB_DGPD_0031" x="3128.531494" y="44.292004" z="6312.426758" PeaceAction="stun" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="45556AF1C7A24A9C9059AC9DD6665D61" Desc="FB_DGPD_0028" config="FB_DGPD_0028" x="3125.567871" y="44.295002" z="6312.315918" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="E0E136C0009D454A9C6442E4FBD1E9D7" Desc="FB_DGPD_0028" config="FB_DGPD_0028" x="3130.911865" y="44.292004" z="6313.807617" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="01D80F3372E24DBBB692E90A680E846E" Desc="formation" config="leader_CQZH_003" x="3133.523193" y="44.293419" z="6303.938965" PatrolMode="1" PathID="CQZH-YJ003" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="CCBC202494214702828F71102037E997" Desc="formation" config="leader_CQZH_003" x="3107.743652" y="44.273323" z="6257.709961" PatrolMode="1" PathID="CQZH-YJ004" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="0200841D35AA4D09ACA740E5463C3582" Desc="FB_DGPD_0002" config="FB_DGPD_0002" x="3095.446289" y="17.089136" z="7158.330566" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="53A8C1D386E543F5B4C27B2789D3F071" Desc="FB_DGPD_0002" config="FB_DGPD_0002" x="3093.220459" y="17.085913" z="7159.290527" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0">
+		<Event EventId="601" Processor="FB_CQZH_ZZ_009_1"/>
+		<Event EventId="4" Processor="FB_CQZH_ZZ_009"/>
+	</Object>
+	<Object Guid="DEF352C693244114A582CBBAFD11EA0A" Desc="FB_DGPD_0001" config="FB_DGPD_0001" x="3092.383789" y="17.085913" z="7157.25293" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0">
+		<Event EventId="601" Processor="FB_CQZH_ZZ_009_1"/>
+		<Event EventId="4" Processor="FB_CQZH_ZZ_009"/>
+	</Object>
+	<Object Guid="1BFC0DA467A64AE5A49116E00F57CE42" Desc="FB_DGPD_0004" config="FB_DGPD_0004" x="3121.84668" y="17.085913" z="7136.864258" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="0FEF75BC7E7A42698ED4E46B324AD92C" Desc="formation" config="leader_CQZH_004" x="2885.481201" y="-6.871991" z="7004.754395" PatrolMode="1" PathID="CQZH-SW004" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="24FFB1BD839440C289D404B12529A03E" Desc="formation" config="leader_CQZH_004" x="2880.127197" y="-7.021298" z="7008.425293" PatrolMode="1" PathID="CQZH-SW005" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="2F2316DE10FD4A218EADA8C0F9D35562" Desc="FB_DGPD_0034" config="FB_DGPD_0034_1" x="2863.788818" y="-8.288504" z="6555.88623" RefreshTime="-1" amount="1" fOrg="0.8" IsPersistent="0"/>
+	<Object Guid="90D1F275B3864005A297CA7DBA41CE93" Desc="FB_DGPD_0034" config="FB_DGPD_0034" x="2869.714355" y="-8.145879" z="6563.976074" RefreshTime="-1" amount="1" fOrg="-1.8" IsPersistent="0"/>
+	<Object Guid="43EBB0BEB8764A37875E637EBC228B53" Desc="FB_DGPD_0034" config="FB_DGPD_0034" x="2866.781006" y="-8.555124" z="6554.324707" RefreshTime="-1" amount="1" fOrg="0.8" IsPersistent="0">
+		<Event EventId="62" Processor="FB_CQZH_GC_006"/>
+		<Event EventId="601" Processor="FB_CQZH_GC_005"/>
+	</Object>
+	<Object Guid="5B248280EB2149C48E8A773C854EB619" Desc="FB_DGPD_0034" config="FB_DGPD_0034" x="2871.843018" y="-8.480558" z="6562.193848" RefreshTime="-1" amount="1" fOrg="-1.8" IsPersistent="0"/>
+	<Object Guid="A28566172F084458AE5280F82BFE051D" Desc="FB_DGPD_0035" config="FB_DGPD_0035" x="2829.70459" y="0.854" z="6674.273438" RefreshTime="-1" amount="1" fOrg="3.5" IsPersistent="0" PeaceAction="attackL_0h"/>
+	<Object Guid="B2317E1FD8EE4FC981C63E3B49DBADBB" Desc="FB_DGPD_0036" config="FB_DGPD_0036" x="2824.732178" y="-1.00043" z="6671.706055" RefreshTime="-1" amount="1" fOrg="1" IsPersistent="0"/>
+	<Object Guid="6B12EA3D69DE48AE952C250D85694B23" Desc="FB_DGPD_0036" config="FB_DGPD_0036" x="2826.564941" y="-1.125761" z="6669.957031" RefreshTime="-1" amount="1" fOrg="0.5" IsPersistent="0"/>
+	<Object Guid="1EB13689A6BD4465A027772A1DD17028" Desc="FB_DGPD_0036" config="FB_DGPD_0036" x="2829.94165" y="-1.10976" z="6669.345215" RefreshTime="-1" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="2303937C255C4B358891F62AE5743FEE" Desc="FB_DGPD_0034" config="FB_DGPD_0034" x="2663.483154" y="31.638615" z="6615.680176" RefreshTime="-1" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="1A0A89683FB24476ADF81E54113D70E8" Desc="FB_DGPD_0034" config="FB_DGPD_0034" x="2663.542969" y="31.201187" z="6626.084961" RefreshTime="-1" amount="1" fOrg="-2." IsPersistent="0"/>
+	<Object Guid="B94114F2C091460196C0D291037952D5" Desc="FB_DGPD_0034" config="FB_DGPD_0034" x="2655.292725" y="31.658985" z="6616.787109" RefreshTime="-1" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="3991CE358429460DB48482752B834946" Desc="FB_DGPD_0034" config="FB_DGPD_0034" x="2654.810303" y="31.658985" z="6625.633301" RefreshTime="-1" amount="1" fOrg="-2.5" IsPersistent="0"/>
+	<Object Guid="47EE5DB656354FD18B05DE6E0C18FFED" Desc="FB_DGPD_0038" config="FB_DGPD_0038" x="2657.813477" y="31.658985" z="6621.39502" RefreshTime="-1" PatrolMode="0" PatrolRange="5" amount="1" fOrg="1." IsPersistent="0"/>
+	<Object Guid="882BF07B011A4FCE85135C105E35DD2B" Desc="FB_DGPD_0035" config="FB_DGPD_0035" x="2740.751221" y="8.778001" z="6655.79541" RefreshTime="-1" amount="1" fOrg="-2." IsPersistent="0" PeaceAction="downloop"/>
+	<Object Guid="D03B5A5AE5B54D6E8011F91AD35CC901" Desc="FB_DGPD_0035" config="FB_DGPD_0035" x="2739.742188" y="8.778001" z="6658.870117" RefreshTime="-1" amount="1" fOrg="-2" IsPersistent="0" PeaceAction="downloop"/>
+	<Object Guid="6B2C73981BA544AFB8A42AD2833679F1" Desc="FB_DGPD_0035" config="FB_DGPD_0035" x="2736.834229" y="8.778001" z="6667.109375" RefreshTime="-1" amount="1" fOrg="-2." IsPersistent="0" PeaceAction="downloop"/>
+	<Object Guid="D7187C64DA7244ECB93432B82CE3959B" Desc="FB_DGPD_0035" config="FB_DGPD_0035" x="2735.860352" y="8.740126" z="6669.726563" RefreshTime="-1" amount="1" fOrg="-2" IsPersistent="0" PeaceAction="downloop"/>
+	<Object Guid="0E930C5280C64702B91036CBC80982FF" Desc="FB_DGPD_0035" config="FB_DGPD_0035" x="2752.324463" y="5.161251" z="6661.26416" RefreshTime="-1" amount="1" fOrg="-2" IsPersistent="0" PeaceAction="downloop"/>
+	<Object Guid="56800ADBE43C4196B5B1B114E4754EC6" Desc="FB_DGPD_0035" config="FB_DGPD_0035" x="2751.221436" y="5.197765" z="6664.220215" RefreshTime="-1" amount="1" fOrg="-2" IsPersistent="0" PeaceAction="downloop"/>
+	<Object Guid="D105324585EC4E3B8E1262149FFE0D63" Desc="FB_DGPD_0035" config="FB_DGPD_0035" x="2747.882568" y="5.142654" z="6673.82666" RefreshTime="-1" amount="1" fOrg="-2." IsPersistent="0" PeaceAction="downloop"/>
+	<Object Guid="7899EB14EB464E9399B019AE367F980F" Desc="FB_DGPD_0035" config="FB_DGPD_0035" x="2748.833252" y="5.191058" z="6671.144043" RefreshTime="-1" amount="1" fOrg="-2." IsPersistent="0" PeaceAction="downloop"/>
+	<Object Guid="2F1D6B407453485492BEC6CE93930576" Desc="FB_DGPD_0038" config="leader_CQZH_010" x="2868.449463" y="-8.854823" z="6558.942383" RefreshTime="-1" PatrolMode="2" PathID="CQZH-GC001" amount="1" fOrg="-2" IsPersistent="0"/>
+	<Object Guid="483E66A9935C4CE9AFEF3FE7F91EE927" Desc="FB_DGPD_0038" config="FB_DGPD_0038_2" x="2799.536133" y="1.314" z="6743.525391" RefreshTime="-1" amount="1" fOrg="-2" IsPersistent="0"/>
+	<Object Guid="02A0D87641B341B1A02A56CF12628B6F" Desc="FB_DGPD_0034" config="FB_DGPD_0034_2" x="2795.882324" y="-0.171153" z="6746.655762" RefreshTime="-1" amount="1" fOrg="-3" IsPersistent="0"/>
+	<Object Guid="46E4CDF80DE546E3A21223B2AC199B3E" Desc="FB_DGPD_0034" config="FB_DGPD_0034_3" x="2794.959473" y="-0.264804" z="6744.145508" RefreshTime="-1" amount="1" fOrg="2" IsPersistent="0"/>
+	<Object Guid="FF375457CDB041DF8C1B70F5E0DA1483" Desc="FB_DGPD_0034" config="FB_DGPD_0034_4" x="2795.990723" y="-0.219707" z="6741.664063" RefreshTime="-1" amount="1" fOrg="1" IsPersistent="0">
+		<Event EventId="23" Processor="FB_CQZH_SM_021"/>
+		<Event EventId="601" Processor="FB_CQZH_GC_013"/>
+		<Event EventId="61" Processor="FB_CQZH_SM_048"/>
+	</Object>
+	<Object Guid="1460874589EA4BCFAE3485FAF2EFCE98" Desc="FB_DGPD_0036" config="FB_DGPD_0036" x="2829.61499" y="-3.447028" z="6625.047852" RefreshTime="-1" amount="1" fOrg="-1" IsPersistent="0">
+		<Event EventId="23" Processor="FB_CQZH_GC_007"/>
+		<Event EventId="62" Processor="FB_CQZH_GC_006"/>
+		<Event EventId="601" Processor="FB_CQZH_GC_008"/>
+	</Object>
+	<Object Guid="F91CCC3085524C568CFD5F65435B34A6" Desc="FB_DGPD_0036" config="FB_DGPD_0036" x="2834.404297" y="-4.270058" z="6616.336914" RefreshTime="-1" amount="1" fOrg="0.5" IsPersistent="0"/>
+	<Object Guid="AA4742019F87436D890C5FE71084E507" Desc="FB_DGPD_0036" config="FB_DGPD_0036" x="2834.963379" y="-4.109703" z="6619.231445" RefreshTime="-1" amount="1" fOrg="0.5" IsPersistent="0"/>
+	<Object Guid="D496D771BC7E4C149793A48FA0FC5171" Desc="FB_DGPD_0036" config="FB_DGPD_0036" x="2835.715332" y="-3.965165" z="6621.793945" RefreshTime="-1" amount="1" fOrg="0.5" IsPersistent="0"/>
+	<Object Guid="E2253469301C417F9CBB4CD37B7FF454" Desc="FB_DGPD_0034" config="FB_DGPD_0034" x="2803.773926" y="-0.863389" z="6665.087402" RefreshTime="-1" amount="1" fOrg="1." IsPersistent="0"/>
+	<Object Guid="94DB9F49C8734432A49FE252E7C22F5E" Desc="FB_DGPD_0034" config="FB_DGPD_0034" x="2802.51416" y="-0.91752" z="6665.840332" RefreshTime="-1" amount="1" fOrg="1" IsPersistent="0">
+		<Event EventId="23" Processor="FB_CQZH_GC_004"/>
+	</Object>
+	<Object Guid="F6DD4B1C13E4442285C4A7B58C75778F" Desc="FB_DGPD_0034" config="FB_DGPD_0034" x="2806.067627" y="-0.831047" z="6665.727051" RefreshTime="-1" amount="1" fOrg="-0.5" IsPersistent="0"/>
+	<Object Guid="079CA6CB0C2C42348E5950990BFDB777" Desc="FB_DGPD_0034" config="FB_DGPD_0034" x="2802.616699" y="-0.993453" z="6668.15332" RefreshTime="-1" amount="1" fOrg="-3" IsPersistent="0"/>
+	<Object Guid="612F9C79BEAA4371AA8C52B24579B264" Desc="FB_DGPD_0035" config="FB_DGPD_0035" x="2796.802246" y="-0.710452" z="6694.533203" RefreshTime="-1" amount="1" fOrg="1.5" IsPersistent="0" PeaceAction="pe_0h_help"/>
+	<Object Guid="2D95DDE2823A43F2AA86A96D3F17370A" Desc="FB_DGPD_0035" config="FB_DGPD_0035" x="2797.580322" y="-0.772581" z="6691.066406" RefreshTime="-1" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="3E5DC53C9BC74511A337F6823FA53073" Desc="FB_DGPD_0035" config="FB_DGPD_0035" x="2800.240234" y="-0.950141" z="6692.771484" RefreshTime="-1" amount="1" fOrg="-1" IsPersistent="0"/>
+	<Object Guid="521AB523B0EA415E97BE961C09A4EDB6" Desc="FB_DGPD_0035" config="FB_DGPD_0035" x="2800.536865" y="-1.061382" z="6695.678711" RefreshTime="-1" amount="1" fOrg="-2" IsPersistent="0"/>
+	<Object Guid="1B7F46466A86426CA8A253EA1714A960" Desc="FB_DGPD_0035" config="FB_DGPD_0035" x="2797.821533" y="-0.748442" z="6697.761719" RefreshTime="-1" amount="1" fOrg="-3" IsPersistent="0"/>
+	<Object Guid="85A082A3F73A42598CAE42BF6994B75E" Desc="FB_DGPD_0037" config="FB_DGPD_0037" x="2763.180664" y="-0.048657" z="6699.337402" RefreshTime="-1" amount="1" fOrg="0" IsPersistent="0">
+		<Event EventId="23" Processor="FB_CQZH_SM_021"/>
+		<Event EventId="601" Processor="FB_CQZH_GC_012"/>
+		<Event EventId="61" Processor="FB_CQZH_SM_048"/>
+	</Object>
+	<Object Guid="093F17DD18DA48CAA563D2988BAF7090" Desc="FB_DGPD_0036" config="FB_DGPD_0036" x="2767.204834" y="-0.0569" z="6695.05127" RefreshTime="-1" amount="1" fOrg="0" IsPersistent="0" PatrolMode="0" PatrolRange="5"/>
+	<Object Guid="96A6DB9E44094A70AD7FEF2F7D772E9F" Desc="FB_DGPD_0036" config="FB_DGPD_0036" x="2769.692383" y="-0.655191" z="6697.635254" RefreshTime="-1" amount="1" fOrg="-1" IsPersistent="0" PatrolMode="0" PatrolRange="5"/>
+	<Object Guid="EB9658D9657647E89E83670A369B7656" Desc="FB_DGPD_0036" config="FB_DGPD_0036" x="2769.857178" y="-0.885891" z="6700.07666" RefreshTime="-1" amount="1" fOrg="-2" IsPersistent="0" PatrolMode="0" PatrolRange="5"/>
+	<Object Guid="CF8C55BA30E24B3093733EF59569589A" Desc="FB_DGPD_0036" config="FB_DGPD_0036" x="2768.926758" y="-0.927276" z="6702.797852" RefreshTime="-1" amount="1" fOrg="-3" IsPersistent="0" PatrolMode="0" PatrolRange="5"/>
+	<Object Guid="6DF9A450EB664E53BF5ABC7A5BC01926" Desc="FB_DGPD_0038" config="leader_CQZH_009" x="2609.12085" y="50.42664" z="6571.399902" RefreshTime="-1" PatrolMode="2" PathID="CQZH-GC002" amount="1" fOrg="1" IsPersistent="0"/>
+	<Object Guid="C198D559FF9B4B029330371AA028A570" Desc="FB_DGPD_0037" config="FB_DGPD_0037" x="2567.380127" y="50.588001" z="6615.333496" RefreshTime="-1" amount="1" fOrg="-2" IsPersistent="0">
+		<Event EventId="5" Processor="FB_CQZH_GC_018"/>
+	</Object>
+	<Object Guid="947D3F29801C4A01B2FD4EE27039736A" Desc="FB_DGPD_0037" config="FB_DGPD_0037" x="2563.361572" y="50.612003" z="6611.682617" RefreshTime="-1" amount="1" fOrg="0.5" IsPersistent="0">
+		<Event EventId="5" Processor="FB_CQZH_GC_018"/>
+	</Object>
+	<Object Guid="4D65AC63889646BB9838C59E854F2CC9" Desc="FB_DGPD_0037" config="FB_DGPD_0037" x="2571.500488" y="50.612003" z="6618.5625" RefreshTime="-1" amount="1" fOrg="-2.5" IsPersistent="0">
+		<Event EventId="5" Processor="FB_CQZH_GC_018"/>
+	</Object>
+	<Object Guid="9CB9BC9708124F2A9BE262882ECB22A3" Desc="FB_DGPD_0037" config="FB_DGPD_0037" x="2564.011963" y="50.608002" z="6619.385742" RefreshTime="-1" amount="1" fOrg="2." IsPersistent="0">
+		<Event EventId="5" Processor="FB_CQZH_GC_018"/>
+	</Object>
+	<Object Guid="0F0BF09CDB5C4357B5D34B435A383A44" Desc="FB_DGPD_0037" config="FB_DGPD_0037" x="2570.938232" y="50.608002" z="6611.542969" RefreshTime="-1" amount="1" fOrg="-1." IsPersistent="0">
+		<Event EventId="5" Processor="FB_CQZH_GC_018"/>
+	</Object>
+	<Object Guid="A0E64729C878490D87ACEA25873CAA59" Desc="FB_DGPD_0034" config="FB_DGPD_0034" x="2808.619873" y="-1.073526" z="6707.40918" RefreshTime="-1" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="EF9BD4B73DD84EF990E05F1E205F896B" Desc="FB_DGPD_0034" config="FB_DGPD_0034" x="2805.987061" y="-0.98769" z="6711.660156" RefreshTime="-1" amount="1" fOrg="3" IsPersistent="0"/>
+	<Object Guid="DCFE93E7ED1646CD81863C06F16374B3" Desc="FB_DGPD_0034" config="FB_DGPD_0034" x="2808.895996" y="-0.930155" z="6710.55127" RefreshTime="-1" amount="1" fOrg="2" IsPersistent="0"/>
+	<Object Guid="81444C90238044D382E9CEE7833FCE65" Desc="FB_DGPD_0036" config="FB_DGPD_0036" x="2813.744629" y="0.854" z="6713.375977" RefreshTime="-1" amount="1" fOrg="-2" IsPersistent="0"/>
+	<Object Guid="041034A6DC944476AE8E5D94A71411C0" Desc="FB_DGPD_0007" config="FB_DGPD_0007" x="2983.429443" y="1.482715" z="7141.105469" amount="1" fOrg="2.005003" IsPersistent="0" RefreshTime="-1"/>
+	<Object Guid="EDB5DEDCE0A44EBCBF159423AE046B60" Desc="FB_DGPD_0001" config="FB_DGPD_0001_1" x="3157.340332" y="17.085913" z="7136.374512" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="137CFCA459A14F76B170435AA0940A5C" Desc="FB_DGPD_0002" config="FB_DGPD_0002_1" x="3168.311768" y="17.085913" z="7124.275391" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="E919209C24674F02A493DA1F68F43DBD" Desc="FB_DGPD_0003" config="FB_DGPD_0003_1" x="3167.989502" y="17.085913" z="7120.329102" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="A6C5012856964EF28CA31409E3409C46" Desc="FB_DGPD_0004" config="FB_DGPD_0004_1" x="3165.399902" y="17.085913" z="7121.990234" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="617E646769FA4A63B204D1D136D8E92C" Desc="FB_DGPD_0001" config="FB_DGPD_0001_1" x="3163.480469" y="17.402477" z="7152.084473" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="EB2E67F734B44D84AE3A7765296AB37C" Desc="FB_DGPD_0004" config="FB_DGPD_0004_1" x="3164.471436" y="17.085913" z="7148.875977" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="5BD3556B17F94D729AB3C99422C508AC" Desc="FB_DGPD_0004" config="FB_DGPD_0004_1" x="3129.70166" y="17.42362" z="7128.533203" amount="1" RefreshTime="-1" fOrg="2.555001" IsPersistent="0"/>
+	<Object Guid="447899022C73436DBE60B43107DCD692" Desc="FB_DGPD_0001" config="FB_DGPD_0001_1" x="3125.141602" y="17.085913" z="7122.124512" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="73F4C8E83C95450D9F8B40727B00AF8F" Desc="FB_DGPD_0001" config="FB_DGPD_0001_1" x="3108.966064" y="17.085814" z="7147.818359" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="70F4C542634646359F99F1881779F147" Desc="FB_DGPD_0002" config="FB_DGPD_0002_1" x="3074.10498" y="17.260487" z="7142.40918" amount="1" RefreshTime="-1" fOrg="1.525" IsPersistent="0"/>
+	<Object Guid="851B790B81DC4697AB74F582F00ED98D" Desc="FB_DGPD_0001" config="FB_DGPD_0001_1" x="3069.798828" y="17.260483" z="7132.740723" amount="1" RefreshTime="-1" fOrg="-2.170002" IsPersistent="0"/>
+	<Object Guid="90D2DF48FE8C4F9FB1C5DC904F6C9DA2" Desc="FB_DGPD_0002" config="FB_DGPD_0002_1" x="3049.626465" y="17.732298" z="7144.000977" amount="1" RefreshTime="-1" fOrg="2.670001" IsPersistent="0"/>
+	<Object Guid="70EC241532084F77A2F003F90427F155" Desc="FB_DGPD_0001" config="FB_DGPD_0001_1" x="3049.537109" y="17.260504" z="7149.346191" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="33ABEF23460B444BBA0B40E555BB1377" Desc="FB_DGPD_0001" config="FB_DGPD_0001_1" x="3050.947754" y="17.26" z="7146.654785" amount="1" RefreshTime="-1" fOrg="-2.589999" IsPersistent="0"/>
+	<Object Guid="4801C6D1166340C0A001CAA7ED0EEB6D" Desc="FB_DGPD_0001" config="FB_DGPD_0001_1" x="3045.682861" y="17.085814" z="7166.036133" amount="1" RefreshTime="-1" fOrg="2.764998" IsPersistent="0"/>
+	<Object Guid="71265FA67C354358A3CC8D399678C612" Desc="FB_DGPD_0001" config="FB_DGPD_0001_1" x="3075.187256" y="17.085814" z="7177.091797" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="AD4FDE611CB34D67A48479D3585AC671" Desc="FB_DGPD_0002" config="FB_DGPD_0002" x="3089.535889" y="17.085913" z="7100.916504" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="9A4E6F2618174D86B251F633A0999A34" Desc="FB_DGPD_0002" config="FB_DGPD_0002" x="3086.041992" y="17.085913" z="7104.954102" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0">
+		<Event EventId="4" Processor="FB_CQZH_ZZ_009"/>
+		<Event EventId="601" Processor="FB_CQZH_ZZ_009_1"/>
+	</Object>
+	<Object Guid="739F21B6479F44618B8EDC2B8D4008BD" Desc="FB_DGPD_0001" config="FB_DGPD_0001" x="3086.55835" y="17.105513" z="7102.331543" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="1F179C14662D4C1CB1C035860DD1CA31" Desc="FB_DGPD_0006" config="FB_DGPD_0006" x="2986.593994" y="1.482715" z="7138.733398" amount="1" RefreshTime="-1" fOrg="-2.065003" IsPersistent="0"/>
+	<Object Guid="FB6B4E50D3C84914A484EDF0C8794751" Desc="FB_DGPD_0006" config="FB_DGPD_0006" x="2982.079834" y="1.482715" z="7137.510254" amount="1" RefreshTime="-1" fOrg="0.765004" IsPersistent="0"/>
+	<Object Guid="A3415060A3C147ABAF8592E52427D3CC" Desc="FB_DGPD_0009" config="FB_DGPD_0009" x="2897.601563" y="-7.419284" z="6937.590332" amount="1" RefreshTime="-1" fOrg="-2.465" IsPersistent="0"/>
+	<Object Guid="BA7E5F000C784C4991DE77625661DB6F" Desc="FB_DGPD_0009" config="FB_DGPD_0009" x="2894.279785" y="-6.793239" z="6942.057617" amount="1" RefreshTime="-1" fOrg="-3.083183" IsPersistent="0"/>
+	<Object Guid="FFCAD9CF9CC54C45A18DD3FA007DF3D0" Desc="FB_DGPD_0009" config="FB_DGPD_0009" x="2889.777832" y="-7.040354" z="6937.626953" amount="1" RefreshTime="-1" fOrg="2.603186" IsPersistent="0"/>
+	<Object Guid="A28D5BBD90E346A6B888336E8E39E327" Desc="FB_DGPD_0007" config="FB_DGPD_0007" x="2893.313721" y="-7.349673" z="6933.605469" PatrolMode="" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="3A1532758B354379A4B58BB7A11BAC57" Desc="FB_DGPD_0009" config="FB_DGPD_0009" x="2897.376953" y="-6.889914" z="6921.680176" amount="1" RefreshTime="-1" fOrg="-1.505" IsPersistent="0"/>
+	<Object Guid="3D1408D69E594E418EA56E5A73CEDE2B" Desc="FB_DGPD_0007" config="FB_DGPD_0007" x="2893.846191" y="-6.889914" z="6924.447754" PatrolMode="" amount="1" RefreshTime="-1" fOrg="2.350002" IsPersistent="0"/>
+	<Object Guid="F791D083165E42EC98558DCB07BC186E" Desc="FB_DGPD_0009" config="FB_DGPD_0009" x="2894.85498" y="-6.772913" z="6917.582031" amount="1" RefreshTime="-1" fOrg="-0.015001" IsPersistent="0"/>
+	<Object Guid="2EDEA8B7A755425AA6B9E66C7CCC5F05" Desc="FB_DGPD_0009" config="FB_DGPD_0009" x="2890.893799" y="-6.889913" z="6919.963379" amount="1" RefreshTime="-1" fOrg="0.405001" IsPersistent="0"/>
+	<Object Guid="6A46826B9E7C4A82AEBFFFA2F39F6A77" Desc="FB_DGPD_0040" config="FB_DGPD_0040" x="3323.490234" y="39.673" z="6361.800293" amount="1" RefreshTime="-1" fOrg="-1.535003" IsPersistent="0"/>
+	<Object Guid="B700E4DB864344D7A3F0BD40164E2AE7" Desc="FB_DGPD_0040" config="FB_DGPD_0040" x="3322.784668" y="39.672001" z="6381.331543" amount="1" RefreshTime="-1" fOrg="-1.545002" IsPersistent="0"/>
+	<Object Guid="C9E18F13CEBD4DFFBA01F90321A149EE" Desc="FB_DGPD_0040" config="FB_DGPD_0040" x="3238.276123" y="39.732002" z="6362.508789" amount="1" RefreshTime="-1" fOrg="1.600002" IsPersistent="0"/>
+	<Object Guid="437D6E1AE55D4CEF88B15C5EA7282C6F" Desc="FB_DGPD_0040" config="FB_DGPD_0040" x="3238.625732" y="39.733002" z="6380.672363" amount="1" RefreshTime="-1" fOrg="1.635004" IsPersistent="0"/>
+	<Object Guid="16034BC9E65B480AB5934827C2BF6996" Desc="FB_DGPD_0067" config="FB_DGPD_0067" x="3031.931641" y="17.085913" z="7158.878906" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="23E6C160242541139208834BF95FB5E6" Desc="FB_DGPD_0067" config="FB_DGPD_0067" x="3031.04541" y="18.280001" z="7115.726563" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="FCF7EBFF79384688976AD0E5E6B1C013" Desc="FB_DGPD_0068" config="FB_DGPD_0068" x="2879.104004" y="-7.056243" z="6895.220703" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0" PeaceAction="pe_0h_downloop"/>
+	<Object Guid="41DB6542B5E64801B0ED0FC4CBFBFD4A" Desc="FB_DGPD_0069" config="FB_DGPD_0069" x="3425.712646" y="7.733384" z="6695.694336" PeaceAction="close" amount="1" RefreshTime="-1" fOrg="2.5" IsPersistent="0"/>
+	<Object Guid="F4E05021FF3245858EA4E9F4B378AFB6" Desc="FB_DGPD_0021" config="FB_DGPD_0021" x="3291.212646" y="38.335003" z="6339.463867" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="63B5879942AE4175A2C74D81C2A598AB" Desc="FB_DGPD_0021" config="FB_DGPD_0021" x="3278.624756" y="38.336002" z="6335.410156" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="06E51746436D4F898283F890570B2DDC" Desc="FB_DGPD_0021" config="FB_DGPD_0021" x="3273.666748" y="38.336002" z="6334.928711" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="69F551BC5D574F7780ECF7F0F2054ABD" Desc="FB_DGPD_0021" config="FB_DGPD_0021" x="3265.458496" y="38.336002" z="6339.230469" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="318645A12B2B4C48848A18B0990F4811" Desc="FB_DGPD_0021" config="FB_DGPD_0021" x="3360.285889" y="29.158968" z="6496.924805" amount="1" RefreshTime="-1" fOrg="1.355005" IsPersistent="0"/>
+	<Object Guid="EC29FCF3B177410DB3325D244656CC4F" Desc="FB_DGPD_0021" config="FB_DGPD_0021" x="3360.247803" y="29.147369" z="6504.294922" amount="1" RefreshTime="-1" fOrg="1.600003" IsPersistent="0"/>
+	<Object Guid="AAEB943D7BE74D11AEF6708335D20E75" Desc="FB_DGPD_0021" config="FB_DGPD_0021" x="3360.375488" y="29.27379" z="6490.500977" amount="1" RefreshTime="-1" fOrg="1.680002" IsPersistent="0"/>
+	<Object Guid="EB41D19FCBDD482DAA5A512D85B12FFD" Desc="FB_DGPD_0021" config="FB_DGPD_0021" x="3360.396484" y="29.141581" z="6510.260254" amount="1" RefreshTime="-1" fOrg="1.625004" IsPersistent="0"/>
+	<Object Guid="C1146EB7160549568B403A5C0EDF33DF" Desc="formation" config="leader_CQZH_005" x="3272.60791" y="38.137001" z="6479.574707" PatrolMode="1" PathID="CQZH-JX003" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="F644C1C746014DE7AFC35B2604EA620E" Desc="formation" config="leader_CQZH_006" x="3313.23877" y="38.137001" z="6493.755371" PatrolMode="1" PathID="CQZH-JX-001" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="5795EB8873E246F6B984CCF63A11A19D" Desc="formation" config="leader_CQZH_006" x="3301.647949" y="38.137241" z="6496.090332" PatrolMode="1" PathID="CQZH-JX-002" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="117921170E88456B9801ED1D7CA66D38" Desc="FB_DGPD_0026_1" config="FB_DGPD_0026_1" x="3290.168213" y="38.137001" z="6481.583008" PeaceAction="" amount="1" RefreshTime="-1" fOrg="-0.775" IsPersistent="0">
+		<Event EventId="23" Processor="FB_CQZH_JX_003"/>
+		<Event EventId="601" Processor="FB_CQZH_JX_003_1"/>
+		<Event EventId="1" Processor="FB_CQZH_JX_001"/>
+	</Object>
+	<Object Guid="BEF53D553EC94725A94EB2AC1D2A8CEE" Desc="FB_DGPD_0026_1" config="FB_DGPD_0026_1" x="3281.621826" y="38.137001" z="6511.772461" PeaceAction="" amount="1" RefreshTime="-1" fOrg="0.455002" IsPersistent="0">
+		<Event EventId="23" Processor="FB_CQZH_JX_003"/>
+		<Event EventId="601" Processor="FB_CQZH_JX_003_1"/>
+		<Event EventId="1" Processor="FB_CQZH_JX_001"/>
+	</Object>
+	<Object Guid="98A4171819D2471AA917914328E2CCEC" Desc="FB_DGPD_0026_1" config="FB_DGPD_0026_1" x="3249.448486" y="38.137001" z="6477.13916" PeaceAction="" amount="1" RefreshTime="-1" fOrg="0.915005" IsPersistent="0">
+		<Event EventId="23" Processor="FB_CQZH_JX_003"/>
+		<Event EventId="601" Processor="FB_CQZH_JX_003_1"/>
+		<Event EventId="1" Processor="FB_CQZH_JX_001"/>
+	</Object>
+	<Object Guid="7E881239F0754712AF64D96479BDC9A9" Desc="FB_DGPD_0026_1" config="FB_DGPD_0026_1" x="3265.72168" y="37.869003" z="6529.234375" PeaceAction="" amount="1" RefreshTime="-1" fOrg="2.500001" IsPersistent="0">
+		<Event EventId="23" Processor="FB_CQZH_JX_003"/>
+		<Event EventId="601" Processor="FB_CQZH_JX_003_1"/>
+		<Event EventId="1" Processor="FB_CQZH_JX_001"/>
+	</Object>
+	<Object Guid="ACA72D7712D24A628C3100C9447DDB55" Desc="FB_DGPD_0026_1" config="FB_DGPD_0026_1" x="3325.883057" y="38.137001" z="6523.837402" PeaceAction="" amount="1" RefreshTime="-1" fOrg="-1.99" IsPersistent="0">
+		<Event EventId="23" Processor="FB_CQZH_JX_003"/>
+		<Event EventId="601" Processor="FB_CQZH_JX_003_1"/>
+		<Event EventId="1" Processor="FB_CQZH_JX_001"/>
+	</Object>
+	<Object Guid="5EB68A5C2D4D4C068CC8654DC7061D01" Desc="FB_DGPD_0026_1" config="FB_DGPD_0026_1" x="3301.355469" y="38.136002" z="6546.444824" PeaceAction="" amount="1" RefreshTime="-1" fOrg="-1.965001" IsPersistent="0">
+		<Event EventId="23" Processor="FB_CQZH_JX_003"/>
+		<Event EventId="601" Processor="FB_CQZH_JX_003_1"/>
+		<Event EventId="1" Processor="FB_CQZH_JX_001"/>
+	</Object>
+	<Object Guid="A8E9B2D2D09D4987B749A09ECBF5CB17" Desc="FB_DGPD_0026_1" config="FB_DGPD_0026_1" x="3304.447021" y="38.136002" z="6546.42627" PeaceAction="" amount="1" RefreshTime="-1" fOrg="1.320002" IsPersistent="0">
+		<Event EventId="23" Processor="FB_CQZH_JX_003"/>
+		<Event EventId="601" Processor="FB_CQZH_JX_003_1"/>
+		<Event EventId="1" Processor="FB_CQZH_JX_001"/>
+	</Object>
+	<Object Guid="A8F8928320F84AEA9119204F6D39ACDC" Desc="FB_DGPD_0066" config="FB_DGPD_0066" x="3331.072754" y="38.137001" z="6494.320313" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="6336B454360F4050B93EDAC5006E60F3" Desc="FB_DGPD_0066" config="FB_DGPD_0066" x="3350.443115" y="32.653" z="6502.874023" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="DE0A166D740348F0BA4DD751C5CB4390" Desc="FB_DGPD_0066" config="FB_DGPD_0066" x="3311.501953" y="38.317001" z="6481.04541" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="10CA9FE32097447EB49FADE3F9CED106" Desc="FB_DGPD_0066" config="FB_DGPD_0066" x="3291.377197" y="38.137001" z="6508.888672" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="ACB5B41A285442A1AEDB14250B2BF4CB" Desc="FB_DGPD_0066" config="FB_DGPD_0066" x="3291.553955" y="38.137241" z="6533.527832" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="8233E554BC7B4BCDB2BC40554306C318" Desc="FB_DGPD_0066" config="FB_DGPD_0066" x="3264.759277" y="38.137001" z="6483.053223" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="739C1D66178C43FE9CD15251191E7477" Desc="FB_DGPD_0066" config="FB_DGPD_0066" x="3293.431641" y="38.137001" z="6479.598145" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="118097BD82C349E69E7A9529BF642C33" Desc="FB_DGPD_0066" config="FB_DGPD_0066" x="3344.961426" y="38.156147" z="6529.694336" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="BAF88421555241EC93D74353EA7FCBAA" Desc="FB_DGPD_0066" config="FB_DGPD_0066" x="3272.822998" y="38.137241" z="6514.896973" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="80B1BF1EA5D74FFC8929A77FCFAFAFC9" Desc="FB_DGPD_0017" config="FB_DGPD_0017" x="3208.512939" y="11.979615" z="6871.938477" PatrolMode="1" PathID="CQZH-SM016" amount="1" RefreshTime="-1" fOrg="2.5" IsPersistent="0">
+		<Event EventId="23" Processor="FB_CQZH_SM_021"/>
+		<Event EventId="601" Processor="FB_CQZH_SM_022"/>
+		<Event EventId="62" Processor="FB_CQZH_SM_023"/>
+	</Object>
+	<Object Guid="3DE3D87D5C3441E689D2BE9CD20A5664" Desc="FB_DGPD_0017" config="FB_DGPD_0017_05" x="3205.646729" y="11.597136" z="6867.887695" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="A6C9F086347C4EBD99E4FDD6F87D72EA" Desc="FB_DGPD_0017" config="FB_DGPD_0017_05" x="3208.905273" y="11.669266" z="6868.419922" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="AE9E85AA069C4416806924D1E6321418" Desc="FB_DGPD_0017" config="FB_DGPD_0017_05" x="3212.291748" y="11.833907" z="6868.842285" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="5D7FAD69C8534A0F8C57528D404D692A" Desc="formation" config="leader_CQZH_007" x="3068.506592" y="-11.220809" z="6827.890137" PatrolMode="1" PathID="CQZH-SM001" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="35637F81E52C4805A1FB526924CB7541" Desc="FB_DGPD_0066" config="FB_DGPD_0066" x="3342.548096" y="35.302002" z="6495.055176" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="B24B985E0C144412B8995E2BA5023C3B" Desc="FB_DGPD_0066" config="FB_DGPD_0066" x="3354.65918" y="31.091444" z="6491.32666" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="DFA44DEE77B3470DA69DB688A249EE5E" Desc="FB_DGPD_0066" config="FB_DGPD_0066" x="3341.681641" y="38.157192" z="6540.393066" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="88DC5A9B152C4B5990D5AA6DF539A394" Desc="FB_DGPD_0066" config="FB_DGPD_0066" x="3254.022217" y="38.137241" z="6467.182129" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="D956C0CAC54D4EE283BE63DA7BF5E8EA" Desc="FB_DGPD_0021" config="FB_DGPD_0021" x="3325.527344" y="38.137001" z="6520.124023" amount="1" RefreshTime="-1" fOrg="-2.235002" IsPersistent="0"/>
+	<Object Guid="D162967C0FFF4119A00A1AAED9E930B6" Desc="FB_DGPD_0021" config="FB_DGPD_0021" x="3322.544434" y="38.137001" z="6525.65625" amount="1" RefreshTime="-1" fOrg="-2.520002" IsPersistent="0"/>
+	<Object Guid="D88813DA7775429B9DEF90D99D682327" Desc="FB_DGPD_0021" config="FB_DGPD_0021" x="3284.599609" y="38.137001" z="6511.050781" amount="1" RefreshTime="-1" fOrg="0.400003" IsPersistent="0"/>
+	<Object Guid="174B42F621E64998AFFC562C2906B6F0" Desc="FB_DGPD_0021" config="FB_DGPD_0021" x="3280.261475" y="38.137001" z="6514.865234" amount="1" RefreshTime="-1" fOrg="0.400003" IsPersistent="0"/>
+	<Object Guid="2F83D2A87999408984EB4E2A1B8AF09A" Desc="FB_DGPD_0021" config="FB_DGPD_0021" x="3290.581543" y="38.137001" z="6485.192383" amount="1" RefreshTime="-1" fOrg="-1.230002" IsPersistent="0"/>
+	<Object Guid="E6383450FD8940E39C5DEAEAFACD2D08" Desc="FB_DGPD_0021" config="FB_DGPD_0021" x="3286.279541" y="38.137001" z="6481.429199" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="51D0FB27E8884D7BADA7CDA5358ECBB5" Desc="FB_DGPD_0021" config="FB_DGPD_0021" x="3265.852295" y="38.312237" z="6524.92627" amount="1" RefreshTime="-1" fOrg="1.630002" IsPersistent="0"/>
+	<Object Guid="8AFFD3465CAE4A4693B0BD254523B6D7" Desc="FB_DGPD_0021" config="FB_DGPD_0021" x="3269.403076" y="38.312241" z="6530.535156" amount="1" RefreshTime="-1" fOrg="2.240003" IsPersistent="0"/>
+	<Object Guid="FF9B0BC34F0548D89F7F6E377E888934" Desc="FB_DGPD_0066" config="FB_DGPD_0066" x="3253.47583" y="38.137241" z="6502.51123" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="3DB157F82F9842F09E5EBFE4B91B54BE" Desc="formation" config="leader_CQZH_005" x="3253.560059" y="38.137241" z="6515.73584" PatrolMode="1" PathID="CQZH-JX011" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="44E93287649F49DFA5EDD0B0A7311DE8" Desc="FB_DGPD_0074" config="FB_DGPD_0074" x="2828.530518" y="-5.25757" z="6566.624023" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="8DD22F836E6940FDA022D412C9BA7BF0" Desc="FB_DGPD_0073" config="FB_DGPD_0073" x="2829.413086" y="-4.590065" z="6601.423828" amount="1" RefreshTime="-1" fOrg="2" IsPersistent="0"/>
+	<Object Guid="51E9BFF8C1FD4975839D48315FEED8AE" Desc="FB_DGPD_0072" config="FB_DGPD_0072" x="2840.025879" y="-4.932132" z="6595.922852" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="B8E9E147567740F6963398562A7A3F31" Desc="FB_DGPD_0074" config="FB_DGPD_0074" x="2854.329834" y="-3.504333" z="6627.542969" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="3E826FED233A4CBEA29C286D6DF77D64" Desc="FB_DGPD_0073" config="FB_DGPD_0073" x="2855.631592" y="-2.877961" z="6642.35498" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="AC7F3930426444459DDA4E832AF822AA" Desc="FB_DGPD_0072" config="FB_DGPD_0072" x="2821.788818" y="-1.340931" z="6650.80957" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="8651145754BC401E8A0A91152BF74A45" Desc="FB_DGPD_0073" config="FB_DGPD_0073" x="2846.393555" y="-2.13191" z="6660.786621" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="F55E2685BC774555B06139A1860DD94B" Desc="FB_DGPD_0073" config="FB_DGPD_0073" x="2775.063965" y="-0.925357" z="6732.827148" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="79A5C8862E234434A1BBD24089E93949" Desc="FB_DGPD_0072" config="FB_DGPD_0072" x="2789.819336" y="-0.924986" z="6725.221191" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="A48A27C05CE34962BA6674DB2AB22045" Desc="FB_DGPD_0073" config="FB_DGPD_0073" x="2773.328613" y="0.606512" z="6671.498047" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="99C8718517A4440EBE7ADB3FA0615756" Desc="FB_DGPD_0072" config="FB_DGPD_0072" x="2775.55835" y="-0.284187" z="6680.668457" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="11EBCCE1563840D9954820640AEA9733" Desc="CloneDoor_CQZH_0002" config="CloneDoor_CQZH_0002" x="3211.092" y="17.204" z="7137.453" amount="1" RefreshTime="-1" fOrg="-1.576" IsPersistent="0"/>
+	<Object Guid="F6C9460C4B6848978F9D6BFDD4DCA0F0" Desc="FB_DGPD_0049" config="FB_DGPD_0078" x="3382.080322" y="8.362868" z="6732.453125" amount="1" fOrg="-2.3" IsPersistent="0"/>
+	<Object Guid="AAED1FC2A4F7428C93D234BC1AF8BDA7" Desc="FB_DGPD_0049" config="FB_DGPD_0077" x="3401.538574" y="8.362868" z="6749.629883" amount="1" fOrg="0.9" IsPersistent="0"/>
+	<Object Guid="3358A7597EF44BFB9298A9B4F74B307D" Desc="npc_FB118_0001" config="npc_FB118_0001" x="3401.607422" y="8.362868" z="6748.885742" PatrolMode="0" PatrolRange="3" amount="1" RefreshTime="-1" fOrg="-0.8" IsPersistent="0"/>
+	<Object Guid="B86F45607C1D46979C886D7F45432015" Desc="npc_FB118_0001" config="npc_FB118_0002" x="3382.057617" y="8.362868" z="6732.366211" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="FA3FBBDC38524B5D8127728BDBEE01C5" Desc="FB_DGPD_0028" config="FB_DGPD_0028" x="3128.824707" y="38.118" z="6365.494141" amount="1" RefreshTime="-1" fOrg="0.425" IsPersistent="0"/>
+	<Object Guid="0482051C49F648C1AB1B3A72D0EB8263" Desc="FB_DGPD_0031" config="FB_DGPD_0031" x="3130.443604" y="38.118" z="6368.456055" PeaceAction="stun" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="59D089D6C5C2430695FC99BCEACCCE6B" Desc="FB_DGPD_0028" config="FB_DGPD_0028" x="3133.466553" y="38.118" z="6369.170898" amount="1" RefreshTime="-1" fOrg="-1.905001" IsPersistent="0"/>
+	<Object Guid="F4ECCAB6A7184E3E8EE9D4D20BBAACB6" Desc="FB_DGPD_0028" config="FB_DGPD_0028" x="3127.700928" y="38.118" z="6370.730957" amount="1" RefreshTime="-1" fOrg="2.080001" IsPersistent="0"/>
+	<Object Guid="BD846AAE47F84AD8AE607A705D7440F9" Desc="FB_DGPD_0014" config="FB_DGPD_0014" x="3083.449219" y="-9.199245" z="6827.20459" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="D55A888D500144B184520AB24EDB3BB0" Desc="FB_DGPD_0014" config="FB_DGPD_0014" x="3081.579102" y="-9.41841" z="6838.722656" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="4C9B8557A6494ADE83E168822D720CB7" Desc="FB_DGPD_0017" config="FB_DGPD_0017" x="3087.670898" y="-9.467471" z="6836.58252" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="A5D63D2280EC4A68803F19CCDD3FFB51" Desc="FB_DGPD_0017" config="FB_DGPD_0017" x="3088.448975" y="-9.238555" z="6831.937988" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="D4B6B57FED20403889CF8DE0A3FCD099" Desc="formation" config="leader_CQZH_003" x="3147.674805" y="38.119179" z="6368.979004" PatrolMode="1" PathID="CQZH-YJ001" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="104E719CD733466E9DCBDD6F6CA8053A" Desc="formation" config="leader_CQZH_003" x="3126.786621" y="38.118" z="6377.093262" PatrolMode="1" PathID="CQZH-YJ002" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="C467E46052A9416AA92F79A59AD8FAE2" Desc="FB_DGPD_0031" config="FB_DGPD_0031" x="3154.307373" y="38.118" z="6367.89502" PeaceAction="stun" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="561082B1C51F413881EB764EF41671C7" Desc="FB_DGPD_0028" config="FB_DGPD_0028" x="3151.879395" y="38.118" z="6368.791992" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="EA664BD74A124E74949A0AFBF343EF16" Desc="FB_DGPD_0028" config="FB_DGPD_0028" x="3154.431152" y="38.118" z="6363.98877" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="8A105F74B2324BEB803F18153DC94D8F" Desc="FB_DGPD_0028" config="FB_DGPD_0028" x="3157.274414" y="38.118" z="6369.237793" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="1A522248AD874526A1B832DED1FB0B15" Desc="FB_DGPD_0052" config="FB_DGPD_0052" x="3063.811035" y="44.271004" z="6155.210938" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="C6E32855653D42029545792842C4F0DE" Desc="FB_DGPD_0051" config="FB_DGPD_0051" x="3094.831299" y="44.271004" z="6155.15625" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="3A58C4763E6047EBA043CA66A762626D" Desc="formation" config="leader_CQZH_003" x="3018.501465" y="44.251003" z="6250.378418" PatrolMode="1" PathID="CQZH-YJ005" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="C6EE36C65778430D9993521067802376" Desc="FB_DGPD_0053" config="FB_DGPD_0053_01" x="2545.140625" y="50.432003" z="6616.650391" amount="1" RefreshTime="-1" fOrg="1" IsPersistent="0"/>
+	<Object Guid="DF7D7E210EA74462A44106EDD7B103A0" Desc="FB_DGPD_0026" config="FB_DGPD_0026" x="3288.507324" y="38.131001" z="6430.046875" amount="1" RefreshTime="-1" fOrg="-1.588185" IsPersistent="0"/>
+	<Object Guid="5ED85143E7614DD49FC385925680DE76" Desc="FB_DGPD_0022" config="FB_DGPD_0022" x="3285.135254" y="38.131001" z="6429.924316" amount="1" RefreshTime="-1" fOrg="1.606818" IsPersistent="0"/>
+	<Object Guid="C86447DD2DC442F1A1FE7EF16AD0D7D6" Desc="FB_DGPD_0021" config="FB_DGPD_0021" x="3288.488281" y="38.131001" z="6434.305176" amount="1" RefreshTime="-1" fOrg="-1.588185" IsPersistent="0"/>
+	<Object Guid="D30913924E644E8E8A1A65EA552121B3" Desc="FB_DGPD_0021" config="FB_DGPD_0021" x="3287.402588" y="38.336002" z="6339.277832" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="171A24EB69A54D05BADD9F0E695C2A23" Desc="FB_DGPD_0021" config="FB_DGPD_0021" x="3283.51416" y="38.336002" z="6339.26123" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="512542DC55CC4A419563F1DCC58BDED8" Desc="FB_DGPD_0021" config="FB_DGPD_0021" x="3274.272705" y="38.336002" z="6338.558594" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="F88C980C47604BACAB00CCCC2D95DFA8" Desc="FB_DGPD_0021" config="FB_DGPD_0021" x="3270.258545" y="38.335003" z="6339.003418" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="AAC8368DC5CA418CB3EDEA13BED3B47D" Desc="FB_DGPD_0026" config="FB_DGPD_0026" x="3269.316895" y="38.336002" z="6334.533691" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="4D949BDD8F614CAEBCEDEE267AF33B03" Desc="FB_DGPD_0006" config="FB_DGPD_0006" x="2890.357422" y="-7.370505" z="6932.660156" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="0754EF18BA2F44BDBAB508B0DB662CA1" Desc="FB_DGPD_0009" config="FB_DGPD_0009" x="2896.731934" y="-6.893304" z="6932.129395" amount="1" RefreshTime="-1" fOrg="-1.020002" IsPersistent="0"/>
+	<Object Guid="2274D87ECFE649C3B1EA04D309E04ED4" Desc="FB_DGPD_0009" config="FB_DGPD_0009" x="2896.657227" y="-6.889914" z="6926.509766" amount="1" RefreshTime="-1" fOrg="-2.455002" IsPersistent="0"/>
+	<Object Guid="6081401145874376AB02DE61A8FD907F" Desc="FB_DGPD_0006" config="FB_DGPD_0006" x="2890.641113" y="-6.890295" z="6924.51123" amount="1" RefreshTime="-1" fOrg="2.905002" IsPersistent="0"/>
+	<Object Guid="E7442C00487147048159936F5F21CCBE" Desc="FB_DGPD_0021" config="FB_DGPD_0021" x="3288.632813" y="38.131001" z="6425.14209" amount="1" RefreshTime="-1" fOrg="-1.588185" IsPersistent="0"/>
+	<Object Guid="F9D04FCCEB844B31BCD57F0119342FC8" Desc="FB_DGPD_0021" config="FB_DGPD_0021" x="3292.152344" y="38.088001" z="6371.779785" amount="1" RefreshTime="-1" fOrg="-1.430002" IsPersistent="0"/>
+	<Object Guid="B002D12C32D343E68F7FA9D0B2221E72" Desc="FB_DGPD_0021" config="FB_DGPD_0021" x="3291.793213" y="38.088001" z="6363.196777" amount="1" RefreshTime="-1" fOrg="-1.430002" IsPersistent="0"/>
+	<Object Guid="4F96BF2AA7EF4E84A204EB2695F5D416" Desc="FB_DGPD_0022" config="FB_DGPD_0022" x="3287.878906" y="38.087002" z="6369.660156" amount="1" RefreshTime="-1" fOrg="2.505007" IsPersistent="0"/>
+	<Object Guid="6CE6A3651F704748A6BC619ACC68F0BE" Desc="FB_DGPD_0026" config="FB_DGPD_0026" x="3264.449463" y="38.087002" z="6362.78418" amount="1" RefreshTime="-1" fOrg="1.565003" IsPersistent="0"/>
+	<Object Guid="0E6BA3D5B96C441FB415D791F3F3F473" Desc="FB_DGPD_0021" config="FB_DGPD_0021" x="3266.034424" y="38.316002" z="6366.40332" amount="1" RefreshTime="-1" fOrg="2.280002" IsPersistent="0"/>
+	<Object Guid="0B1F153C538740D9BB77FF8D7C3D44CB" Desc="FB_DGPD_0021" config="FB_DGPD_0021" x="3265.757813" y="38.087002" z="6359.899902" amount="1" RefreshTime="-1" fOrg="0.97" IsPersistent="0"/>
+	<Object Guid="B2EE0F826D234419B1B04518D483C13C" Desc="FB_DGPD_0022" config="FB_DGPD_0022" x="3268.621094" y="38.087002" z="6361.875977" amount="1" RefreshTime="-1" fOrg="-1.710004" IsPersistent="0"/>
+	<Object Guid="F911EB99896D44CD8D09B94ABF823BEC" Desc="FB_DGPD_0021" config="FB_DGPD_0021" x="3283.584961" y="38.336002" z="6334.701172" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="9151B66668AC467FA2307288801E2972" Desc="FB_DGPD_0024" config="FB_DGPD_0024" x="3300.157471" y="38.131001" z="6274.30127" amount="1" RefreshTime="-1" fOrg="-0.120004" IsPersistent="0"/>
+	<Object Guid="48FF295736804173A7597AB19724291A" Desc="FB_DGPD_0024" config="FB_DGPD_0024" x="3295.49585" y="38.131001" z="6273.974121" amount="1" RefreshTime="-1" fOrg="-0.040002" IsPersistent="0"/>
+	<Object Guid="D88E5860322D4CD3846067ED713BE8F4" Desc="FB_DGPD_0024" config="FB_DGPD_0024" x="3290.956787" y="38.131001" z="6273.722168" amount="1" RefreshTime="-1" fOrg="-0.050005" IsPersistent="0"/>
+	<Object Guid="FA6075AAFC1549168FDCBCD0F72EDBC9" Desc="FB_DGPD_0024" config="FB_DGPD_0024" x="3297.766357" y="38.131001" z="6278.187012" amount="1" RefreshTime="-1" fOrg="-0.045004" IsPersistent="0"/>
+	<Object Guid="2A7B26A0F35F41509844EB3E3DF8CC81" Desc="FB_DGPD_0024" config="FB_DGPD_0024" x="3293.305664" y="38.131001" z="6277.909668" amount="1" RefreshTime="-1" fOrg="-0.130004" IsPersistent="0"/>
+	<Object Guid="971535D3C69A4F12AD5868B2F79BA12B" Desc="FB_DGPD_0024" config="FB_DGPD_0024" x="3299.192627" y="38.131001" z="6281.460449" amount="1" RefreshTime="-1" fOrg="0.004997" IsPersistent="0"/>
+	<Object Guid="65593D404E104FF289EC42EEE1FFE019" Desc="FB_DGPD_0024" config="FB_DGPD_0024" x="3295.120117" y="38.131001" z="6281.228516" amount="1" RefreshTime="-1" fOrg="-0.005007" IsPersistent="0"/>
+	<Object Guid="EDC2D1179CE64220B354BF9BA014F8BD" Desc="FB_DGPD_0024" config="FB_DGPD_0024" x="3290.292969" y="38.131001" z="6280.75" amount="1" RefreshTime="-1" fOrg="-0.020002" IsPersistent="0"/>
+	<Object Guid="A314ECEF67A041868531925EE9CD7351" Desc="FB_DGPD_0024" config="FB_DGPD_0024" x="3271.586182" y="38.131001" z="6281.80957" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="02D29B4D5E4E4E91AEA32DBD6273C296" Desc="FB_DGPD_0024" config="FB_DGPD_0024" x="3266.719238" y="38.131001" z="6281.962891" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="37E16766C6C94DBDAF2CEACE44C1ED78" Desc="FB_DGPD_0024" config="FB_DGPD_0024" x="3261.788086" y="38.131001" z="6282.25" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="2B17373323434193B2A4D9930AC07241" Desc="FB_DGPD_0024" config="FB_DGPD_0024" x="3257.42749" y="38.131001" z="6281.664063" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="4C8864BBA3DF4B29A368E1EA4B749FE9" Desc="FB_DGPD_0024" config="FB_DGPD_0024" x="3269.192139" y="38.131001" z="6278.532715" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="9AC4FC0FD6274D59834070E08A89E6C4" Desc="FB_DGPD_0024" config="FB_DGPD_0024" x="3264.033691" y="38.131001" z="6278.240723" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="8F7279B83D094C419B5FF707BEDD5F4D" Desc="FB_DGPD_0024" config="FB_DGPD_0024" x="3259.51123" y="38.131001" z="6278.387207" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="D56769DB8DFD4C16A9B8BB3C241A3C57" Desc="FB_DGPD_0024" config="FB_DGPD_0024" x="3272.039307" y="38.131001" z="6275.269531" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="3A0BD147B5C041139A7000FD714CF612" Desc="FB_DGPD_0024" config="FB_DGPD_0024" x="3267.19043" y="38.131001" z="6275.159668" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="80A6B694413C4C0DBE7C8C0FB306BD3C" Desc="FB_DGPD_0024" config="FB_DGPD_0024" x="3261.785889" y="38.131001" z="6274.85498" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="85D6273C3C7143E0851DC38BD722BF2C" Desc="FB_DGPD_0024" config="FB_DGPD_0024" x="3256.402588" y="38.131001" z="6274.784668" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="4DB6223985554410A3030301A38EABDA" Desc="FB_DGPD_0023" config="FB_DGPD_0023" x="3278.9375" y="38.336002" z="6339.236328" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="9F9ECFA318994D84A9805B62B2A25BCA" Desc="FB_DGPD_0028" config="FB_DGPD_0028" x="3088.814209" y="44.271004" z="6185.961426" PatrolMode="0" PatrolRange="3" amount="1" RefreshTime="-1" fOrg="0.59" IsPersistent="0"/>
+	<Object Guid="151B2C74F6914D049967025B3D4FA2F5" Desc="FB_DGPD_0028" config="FB_DGPD_0028" x="3071.530029" y="44.271004" z="6186.20166" PatrolMode="0" PatrolRange="3" amount="1" RefreshTime="-1" fOrg="-2.475001" IsPersistent="0"/>
+	<Object Guid="A8E8B0B099EC412CA0A48975C8323718" Desc="FB_DGPD_0030" config="FB_DGPD_0030" x="2999.571045" y="44.163002" z="6346.125" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="FE3C11330EDA4EE7957296B64612C7BE" Desc="FB_DGPD_0028" config="FB_DGPD_0028" x="3002.631592" y="44.193001" z="6403.338867" amount="1" RefreshTime="-1" fOrg="-2.48" IsPersistent="0"/>
+	<Object Guid="F268DA0F37634638989F4DF4FCF38E48" Desc="FB_DGPD_0028" config="FB_DGPD_0028" x="3004.783691" y="44.193001" z="6401.728516" amount="1" RefreshTime="-1" fOrg="-2.48" IsPersistent="0"/>
+	<Object Guid="730F8ED5E655408A986046236830B6F7" Desc="FB_DGPD_0028" config="FB_DGPD_0028" x="3006.990723" y="44.193001" z="6400.026855" amount="1" RefreshTime="-1" fOrg="-2.48" IsPersistent="0"/>
+	<Object Guid="791836D9CA864E0C9004775812838799" Desc="FB_DGPD_0028" config="FB_DGPD_0028" x="3008.884766" y="44.193001" z="6397.905762" amount="1" RefreshTime="-1" fOrg="-2.48" IsPersistent="0"/>
+	<Object Guid="80E20927799B4249B2B9F9B2C61C7AC0" Desc="FB_DGPD_0030" config="FB_DGPD_0030" x="3003.373291" y="44.193001" z="6397.118652" PatrolMode="0" PatrolRange="3" amount="1" RefreshTime="-1" fOrg="0.464998" IsPersistent="0"/>
+	<Object Guid="B2E59957BCC84231B4F0CFE936ACF062" Desc="FB_DGPD_0028" config="FB_DGPD_0028" x="2983.578125" y="44.163002" z="6364.066406" amount="1" RefreshTime="-1" fOrg="1.600002" IsPersistent="0"/>
+	<Object Guid="11BD56DC18334AA7AE92735125C57F27" Desc="FB_DGPD_0028" config="FB_DGPD_0028" x="2981.950195" y="44.163002" z="6367.096191" amount="1" RefreshTime="-1" fOrg="1.600002" IsPersistent="0"/>
+	<Object Guid="61E0DD2C7F8D443B80CE17CF940F452A" Desc="FB_DGPD_0028" config="FB_DGPD_0028" x="2981.091309" y="44.166" z="6370.279785" amount="1" RefreshTime="-1" fOrg="1.600002" IsPersistent="0"/>
+	<Object Guid="96AF80143BB04132B684E062E3B49C48" Desc="FB_DGPD_0028" config="FB_DGPD_0028" x="2981.931396" y="44.166" z="6373.599609" amount="1" RefreshTime="-1" fOrg="1.600002" IsPersistent="0"/>
+	<Object Guid="65C2F0FA78CC4C19A0A55A4B29B216C1" Desc="FB_DGPD_0028" config="FB_DGPD_0028" x="2983.328125" y="44.166" z="6376.355469" amount="1" RefreshTime="-1" fOrg="1.600002" IsPersistent="0"/>
+	<Object Guid="A189EDEA49114614B2F767DF88D78555" Desc="FB_DGPD_0030" config="FB_DGPD_0030" x="2989.212646" y="44.163002" z="6369.489258" PatrolMode="0" PatrolRange="3" amount="1" RefreshTime="-1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="533F88B654F340D8B21F63AB2F47CB8E" Desc="FB_DGPD_0022" config="FB_DGPD_0022" Layer="" MaxRefreshCount="" x="3268.23291" y="38.317001" z="6364.805176" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="-1" sx="" sy="" sz="" fOrg="-1.920002" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="1144170DED164022BED8406BC453FB5B" Desc="FB_DGPD_0022" config="FB_DGPD_0022" Layer="" MaxRefreshCount="" x="3288.240723" y="38.088001" z="6364.301758" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="-1" sx="" sy="" sz="" fOrg="0.83" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="9E2B42D6F3C24212ABAA8A389A8A18A6" Desc="FB_DGPD_0023" config="FB_DGPD_0023" Layer="" MaxRefreshCount="" x="3289.428711" y="38.087002" z="6362.88623" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="-1" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="66705E0A131C481AA6A5A16DAEB1D326" Desc="FB_DGPD_0023" config="FB_DGPD_0023" Layer="" MaxRefreshCount="" x="3267.83252" y="38.318001" z="6367.007324" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="-1" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="7595E55CD6844C5DB72BFECA036B5B3C" Desc="FB_DGPD_0024" config="FB_DGPD_0024" Layer="" MaxRefreshCount="" x="3303.475586" y="38.131001" z="6281.751953" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="-1" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="571AF3F1E3E148A4AB6E62E3DFA4671D" Desc="FB_DGPD_0024" config="FB_DGPD_0024" Layer="" MaxRefreshCount="" x="3302.213379" y="38.131001" z="6278.102539" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="-1" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="849DCA5388DB4F38A58A52A2310E4E72" Desc="FB_DGPD_0024" config="FB_DGPD_0024" Layer="" MaxRefreshCount="" x="3304.013184" y="38.131001" z="6274.018066" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="-1" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="3E02E16BF0CA49329F35930F7ADCA80A" Desc="FB_DGPD_0021" config="FB_DGPD_0021" Layer="" MaxRefreshCount="" x="3287.898438" y="38.284" z="6396.11084" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="-1" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="A103963B713849119FE00F3AC1DB6819" Desc="FB_DGPD_0021" config="FB_DGPD_0021" Layer="" MaxRefreshCount="" x="3291.612549" y="38.284" z="6396.228027" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="-1" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="7E7E51299EDE48129C6CE9AB36C871AC" Desc="FB_DGPD_0021" config="FB_DGPD_0021" Layer="" MaxRefreshCount="" x="3284.167236" y="38.284" z="6393.47168" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="-1" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="8343B42D8E624236A6BE215B34BA9DD2" Desc="FB_DGPD_0021" config="FB_DGPD_0021" Layer="" MaxRefreshCount="" x="3274.541748" y="38.284" z="6396.125" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="-1" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="F57FDE62E1504422AD47F9F7789F086E" Desc="FB_DGPD_0021" config="FB_DGPD_0021" Layer="" MaxRefreshCount="" x="3269.967773" y="38.284" z="6396.204102" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="-1" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="543A65FA9EF4489B84DD376051031194" Desc="FB_DGPD_0021" config="FB_DGPD_0021" Layer="" MaxRefreshCount="" x="3265.333496" y="38.284" z="6396.257324" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="-1" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="292372407CDC4AEABAC2B8F012F69D27" Desc="FB_DGPD_0023" config="FB_DGPD_0023" Layer="" MaxRefreshCount="" x="3278.976318" y="38.284" z="6396.208496" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="-1" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="B29640EAC17F46948E74D890BFF8A9E3" Desc="FB_DGPD_0021" config="FB_DGPD_0021" Layer="" MaxRefreshCount="" x="3279.047363" y="38.283752" z="6393.134277" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="-1" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="EF8834DC7EC94724A95C5D0179F88078" Desc="FB_DGPD_0021" config="FB_DGPD_0021" Layer="" MaxRefreshCount="" x="3284.194092" y="38.283997" z="6396.120117" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="-1" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="0958A6D0DC644EA5A08B51212FF5E1C9" Desc="FB_DGPD_0021" config="FB_DGPD_0021" Layer="" MaxRefreshCount="" x="3274.293213" y="38.284" z="6393.207031" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="-1" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="6716EC0D23054E7784C815F81933659C" Desc="FB_DGPD_0025" config="FB_DGPD_0025" Layer="" MaxRefreshCount="" x="3269.257568" y="38.281002" z="6391.640137" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="-1" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="852E12A77B814ECD91A6FC3C9EB84328" Desc="FB_DGPD_0025" config="FB_DGPD_0025" Layer="" MaxRefreshCount="" x="3288.854248" y="38.088001" z="6391.293945" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="-1" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="5486DF22601F4E07A08E20C84877577E" Desc="FB_DGPD_0025" config="FB_DGPD_0025" Layer="" MaxRefreshCount="" x="3290.933594" y="38.087002" z="6367.467285" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="-1" sx="" sy="" sz="" fOrg="-1.41" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="8ADD41F52B4545078DC3926D97A68058" Desc="FB_DGPD_0025" config="FB_DGPD_0025" Layer="" MaxRefreshCount="" x="3287.815674" y="38.335003" z="6334.46582" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="-1" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="1EC0A7C8FBFC4F44A9475F7FA4823626" Desc="FB_DGPD_0007" config="FB_DGPD_0007" Layer="" MaxRefreshCount="" x="2884.914063" y="-6.772007" z="6963.730469" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="-1" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="EBA268614AED41E9ACA43952702F683D" Desc="FB_DGPD_0007" config="FB_DGPD_0007" Layer="" MaxRefreshCount="" x="2874.189941" y="-6.772658" z="6963.709961" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="-1" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="0E372443BE1E4E2B9BBFC8C5D764F30A" Desc="FB_DGPD_0006" config="FB_DGPD_0006" Layer="" MaxRefreshCount="" x="2883.240479" y="-6.978059" z="6965.990234" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="-1" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="AB4D49BA442247A7AEA404A2D5563E7E" Desc="FB_DGPD_0006" config="FB_DGPD_0006" Layer="" MaxRefreshCount="" x="2886.249756" y="-6.771972" z="6966.535156" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="-1" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="4F399FAE24B04E62B2D5A13D38780806" Desc="FB_DGPD_0006" config="FB_DGPD_0006" Layer="" MaxRefreshCount="" x="2875.932129" y="-6.924736" z="6965.824707" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="-1" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="3C71ED7311BA43929B4F03DF87ABC70C" Desc="FB_DGPD_0006" config="FB_DGPD_0006" Layer="" MaxRefreshCount="" x="2872.550781" y="-6.772659" z="6966.138672" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="-1" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="7F6D9B824CB74328A2FB21B3D9C05972" Desc="FB_DGPD_0008" config="FB_DGPD_0008" Layer="" MaxRefreshCount="" x="2868.363525" y="-6.771962" z="7065.242188" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="3" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="-1" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="6B2D7CA56A374A3EB626702542D636AB" Desc="FB_DGPD_0008" config="FB_DGPD_0008" Layer="" MaxRefreshCount="" x="2871.011475" y="-6.771962" z="7071.103516" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="3" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="-1" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="5E88A2E806254F3AABE04AA3C25A99E6" Desc="FB_DGPD_0028" config="FB_DGPD_0028" Layer="" MaxRefreshCount="" x="3087.599609" y="44.273323" z="6182.625" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="3" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="-1" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="BF64BC0A0BD0419CA68A7D92A974787F" Desc="FB_DGPD_0028" config="FB_DGPD_0028" Layer="" MaxRefreshCount="" x="3065.867676" y="44.273323" z="6185.008301" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="3" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="-1" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="E09F0F98D0B949EF8939DF22F077F1BC" Desc="FB_DGPD_0028" config="FB_DGPD_0028" Layer="" MaxRefreshCount="" x="2986.01123" y="44.163002" z="6365.891602" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="-1" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="180D5A9CFE404646AC4177678526433E" Desc="FB_DGPD_0028" config="FB_DGPD_0028" Layer="" MaxRefreshCount="" x="2985.119873" y="44.165134" z="6368.508789" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="-1" sx="" sy="" sz="" fOrg="1.420002" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="AC7BF5D571934585AF87CB2687334CCC" Desc="FB_DGPD_0028" config="FB_DGPD_0028" Layer="" MaxRefreshCount="" x="2985.283203" y="44.165302" z="6371.286621" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="-1" sx="" sy="" sz="" fOrg="2.030004" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="4A2BD1BD7C2D47ED9CB084EC3E9A67D6" Desc="FB_DGPD_0028" config="FB_DGPD_0028" Layer="" MaxRefreshCount="" x="2986.181396" y="44.166" z="6373.907715" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="-1" sx="" sy="" sz="" fOrg="2.425001" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="E62494596CE44B9D966E7BC39727A295" Desc="FB_DGPD_0028" config="FB_DGPD_0028" Layer="" MaxRefreshCount="" x="3001.381104" y="44.193001" z="6406.375" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="-1" sx="" sy="" sz="" fOrg="3.023185" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="49BE1189036C4BA0BCB62D80486025E9" Desc="FB_DGPD_0028" config="FB_DGPD_0028" Layer="" MaxRefreshCount="" x="3003.854492" y="44.193001" z="6405.657227" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="-1" sx="" sy="" sz="" fOrg="-2.750001" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="43C4390939BA4E619A30E86D67EA04B8" Desc="FB_DGPD_0028" config="FB_DGPD_0028" Layer="" MaxRefreshCount="" x="3006.626709" y="44.193001" z="6404.17041" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="-1" sx="" sy="" sz="" fOrg="-2.723181" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="80BA24D2B3914BAB8B97F3D80AE6ADEE" Desc="FB_DGPD_0028" config="FB_DGPD_0028" Layer="" MaxRefreshCount="" x="3009.206787" y="44.193001" z="6402.021484" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="-1" sx="" sy="" sz="" fOrg="-2.384999" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="C4680DC86EE844EC9A7F54F59B65A8DC" Desc="FB_DGPD_0028" config="FB_DGPD_0028" Layer="" MaxRefreshCount="" x="3011.420898" y="44.193001" z="6399.192871" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="-1" sx="" sy="" sz="" fOrg="-1.805002" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="AE89952961B940C38DEED6EF5A3F0929" Desc="FB_DGPD_0028" config="FB_DGPD_0028" Layer="" MaxRefreshCount="" x="3003.471924" y="44.163242" z="6347.33252" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="-1" sx="" sy="" sz="" fOrg="-1.830002" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="F35C99CFF5F54830BB7BB8E60AB59528" Desc="FB_DGPD_0028" config="FB_DGPD_0028" Layer="" MaxRefreshCount="" x="3000.946289" y="44.163403" z="6348.914063" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="-1" sx="" sy="" sz="" fOrg="-2.435" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="E1126369C1A6423AB8F4FA6F7CC0C911" Desc="FB_DGPD_0028" config="FB_DGPD_0028" Layer="" MaxRefreshCount="" x="2998.122559" y="44.163479" z="6349.20752" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="-1" sx="" sy="" sz="" fOrg="2.250001" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="D030A8CF14044236A2BAB27932A5EC49" Desc="FB_DGPD_0028" config="FB_DGPD_0028" Layer="" MaxRefreshCount="" x="2994.942871" y="44.163364" z="6346.885254" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="-1" sx="" sy="" sz="" fOrg="1.910002" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="B8F9E35FAAD742C2840028FDBAF068F4" Desc="FB_DGPD_0028" config="FB_DGPD_0028" Layer="" MaxRefreshCount="" x="3005.464111" y="44.163002" z="6348.803711" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="-1" sx="" sy="" sz="" fOrg="-2.140001" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="95A09D50D05E44B9B838147C433D325C" Desc="FB_DGPD_0028" config="FB_DGPD_0028" Layer="" MaxRefreshCount="" x="3002.885986" y="44.163002" z="6351.400879" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="-1" sx="" sy="" sz="" fOrg="-2.180003" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="50A9CD6AEB2A45D6B5B46E9A77509BF7" Desc="FB_DGPD_0028" config="FB_DGPD_0028" Layer="" MaxRefreshCount="" x="2999.742188" y="44.163002" z="6352.313477" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="-1" sx="" sy="" sz="" fOrg="-3.123184" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="E838E5AEA3BA456495D0B2D6646EE327" Desc="FB_DGPD_0028" config="FB_DGPD_0028" Layer="" MaxRefreshCount="" x="2996.117188" y="44.163002" z="6351.826172" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="-1" sx="" sy="" sz="" fOrg="2.810001" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="F4D027774B0A46C3893AFA90AABEA36D" Desc="FB_DGPD_0028" config="FB_DGPD_0028" Layer="" MaxRefreshCount="" x="2993.265381" y="44.163002" z="6349.32959" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="-1" sx="" sy="" sz="" fOrg="0.945" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="3E8452368B5640D4869CB6381A338B23" Desc="FB_DGPD_0068_1" config="FB_DGPD_0068_1" Layer="" MaxRefreshCount="" x="2879.920654" y="-7.121633" z="6958.910156" IsY="" Radius="" UseSuicideTime="" PeaceAction="pe_0h_openloop" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="-1" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+</Stage>
+
+

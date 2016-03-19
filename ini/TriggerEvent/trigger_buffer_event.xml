@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<Stage>
+	<Scene>
+		<Object BufferId="BattleWarState_Buff01_01">
+			<TriggerEvent EventId="611" Processor="12042316350914"/>
+			<TriggerEvent EventId="612" Processor="12042316363108"/>
+		</Object>
+		<Object BufferId="Buffer_test">
+			<TriggerEvent EventId="507" Processor="12042517254014"/>
+		</Object>
+		<Object BufferId="TNDX_girlbuff">
+			<TriggerEvent EventId="611" Processor="12062010403587"/>
+			<TriggerEvent EventId="601" Processor="12062010411865"/>
+		</Object>
+		<Object BufferId="Buff_boss_0121_01">
+			<TriggerEvent EventId="611" Processor="chaori_npc_shanggujulongBUFFbangchufaqi"/>
+		</Object>
+		<Object BufferId="Item_TaskUse_00194A_Buff01_01">
+			<TriggerEvent EventId="612" Processor="yatl_nongfushiti"/>
+		</Object>
+		<Object BufferId="Buff_npc_zlm015_0101_016">
+			<TriggerEvent EventId="612" Processor="zlm015_npc_huoba"/>
+		</Object>
+		<Object BufferId="Item_TaskUse_00216A_buff01_01">
+			<TriggerEvent EventId="612" Processor="juren_task_4614"/>
+		</Object>
+		<Object BufferId="Buff_Boss_0116_05">
+			<TriggerEvent EventId="611" Processor="juren_BOSS01"/>
+		</Object>
+		<Object BufferId="Buff_npc_zlm002_0061_016">
+			<TriggerEvent EventId="612" Processor="zlm015_npc_huoba"/>
+		</Object>
+		<Object BufferId="Item_TaskUse_00120A_buff01_01">
+			<TriggerEvent EventId="611" Processor="kewei_task_4067"/>
+			<TriggerEvent EventId="612" Processor="kewei_task_40671"/>
+		</Object>
+		<Object BufferId="Buff_Boss_0129_01">
+			<TriggerEvent EventId="611" Processor="FB_XSTY_QTE_01"/>
+		</Object>
+		<Object BufferId="ItemTaskUse_00110A_01_buff01">
+			<TriggerEvent EventId="611" Processor="chaori_quest_7"/>
+			<TriggerEvent EventId="612" Processor="chaori_quest_7_2"/>
+		</Object>
+		<Object BufferId="Buff_monster_zqm001_0074">
+			<TriggerEvent EventId="612" Processor="kewei_task4084_3"/>
+		</Object>
+		<Object BufferId="ItemTaskUse_00112A_01_Buff01">
+			<TriggerEvent EventId="611" Processor="chaori_quest_36"/>
+			<TriggerEvent EventId="612" Processor="chaori_quest_36_2"/>
+		</Object>
+		<Object BufferId="Item_TaskUse_00228A_01_Buff01">
+			<TriggerEvent EventId="611" Processor="chaori_quest_36"/>
+			<TriggerEvent EventId="612" Processor="chaori_quest_36_2"/>
+		</Object>
+		<Object BufferId="ItemTaskUse_00888A_01_Buff02">
+			<TriggerEvent EventId="611" Processor="chaori_zhubu_1"/>
+			<TriggerEvent EventId="612" Processor="chaori_quest_36_2"/>
+		</Object>
+		<Object BufferId="Buff_npc_qhm002_0040_01">
+			<TriggerEvent EventId="612" Processor="chaori_quest_36_2"/>
+		</Object>
+		<Object BufferId="Buff_Boss_0129_06">
+			<TriggerEvent EventId="611" Processor="FB_XSTY_DY_07"/>
+		</Object>
+		<Object BufferId="Item_TaskUse_00189A_01_Buff01">
+			<TriggerEvent EventId="612" Processor="chaori_quest_36_2"/>
+		</Object>
+		<Object BufferId="Buff_Item_TaskUse_00114A_01">
+			<TriggerEvent EventId="612" Processor="kewei_task_4003_3"/>
+		</Object>
+		<Object BufferId="Buff_Item_zhadan_01">
+			<TriggerEvent EventId="612" Processor="kewei_task4080"/>
+		</Object>
+		<Object BufferId="Buff_Vehicle_0101_01">
+			<TriggerEvent EventId="612" Processor="106_PvP_enewar"/>
+		</Object>
+		<Object BufferId="Buff_Vehicle_0103_01">
+			<TriggerEvent EventId="612" Processor="kongxizaiju_01"/>
+		</Object>
+		<Object BufferId="buff_fb_chnj_npc_01">
+			<TriggerEvent EventId="611" Processor="FB_CHNJ_012"/>
+		</Object>
+		<Object BufferId="Buff_Vehicle_0104_01">
+			<TriggerEvent EventId="612" Processor="kongxizaiju_02"/>
+			<TriggerEvent EventId="601" Processor="kongxizaiju_04"/>
+		</Object>
+		<Object BufferId="ItemTaskUse_00288A_01_Buff01">
+			<TriggerEvent EventId="611" Processor="zhaori_quest_024"/>
+		</Object>
+		<Object BufferId="Buff_Carrier_qhm002_002">
+			<TriggerEvent EventId="612" Processor="zhaori_quest_025"/>
+		</Object>
+		<Object BufferId="buff_FB_DGPD_0050_0021">
+			<TriggerEvent EventId="611" Processor="FB_CQZH_ZZ_007"/>
+		</Object>
+		<Object BufferId="buff_TaskUse_313A_1">
+			<TriggerEvent EventId="611" Processor="kewei_quest_675"/>
+		</Object>
+		<Object BufferId="Buff_shexian_01">
+			<TriggerEvent EventId="611" Processor="shexian_shanchu"/>
+		</Object>
+		<Object BufferId="buff_Itemnpc_sn_0003_07">
+			<TriggerEvent EventId="611" Processor="FB_CQZH_YJ_002_5"/>
+		</Object>
+		<Object BufferId="buff_Itemnpc_sn_0003_08">
+			<TriggerEvent EventId="611" Processor="FB_CQZH_YJ_003_5"/>
+		</Object>
+		<Object BufferId="buff_Itemnpc_sn_0003_09">
+			<TriggerEvent EventId="611" Processor="FB_CQZH_YJ_002_6"/>
+		</Object>
+		<Object BufferId="buff_Itemnpc_sn_0003_10">
+			<TriggerEvent EventId="611" Processor="FB_CQZH_YJ_003_6"/>
+		</Object>
+		<Object BufferId="buff_boss_0108_02">
+			<TriggerEvent EventId="611" Processor="FB_CQZH_SW_011"/>
+		</Object>
+	</Scene>
+</Stage>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes" ?>
+<Processor>
+    <Base type="object" version="1.0">
+        <Line Type="2" Event="1537" Name="AUTOP2">
+            <Param type="2" data="100" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="0" Index="2" />
+            <Param type="6" data="xinshouyindao3" Index="3" />
+            <Param type="6" data="xinshouyindao4" Index="4" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP1">
+            <Param type="13" srctype="4" data="AUTOP2" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="1" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="9">
+            <Param type="13" bool="true" srctype="1" data="AUTOP1" Index="0" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="2918.827,133.888,-1337.269,2.318" Index="0" />
+            <Param type="6" data="fb_nllqd_003" Index="1" />
+            <Param type="6" data="Act" Index="2" />
+        </Line>
+        <Line Type="2" Event="2114" Name="AUTOP3">
+            <Param type="6" data="fb_nllqd_yd02" Index="0" />
+        </Line>
+        <Line Type="1" Event="4021">
+            <Param type="13" srctype="8" data="AUTOP3" Index="0" />
+            <Param type="2" data="0" Index="1" />
+            <Param type="6" data="talk_special_FB_NewLLQD_leadingC_2" Index="2" />
+            <Param type="11" data=" " Index="3" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="2921.617,134.105,-1338.192,2.831" Index="0" />
+            <Param type="6" data="fb_nllqd_001" Index="1" />
+            <Param type="6" data="Act" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="2922.196,133.514,-1341.347,2.797" Index="0" />
+            <Param type="6" data="fb_nllqd_001" Index="1" />
+            <Param type="6" data="Act" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="2919.193,133.416,-1342.257,2.330" Index="0" />
+            <Param type="6" data="fb_nllqd_002" Index="1" />
+            <Param type="6" data="Act" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="2921.952,133.442,-1343.384,2.038" Index="0" />
+            <Param type="6" data="fb_nllqd_002" Index="1" />
+            <Param type="6" data="Act" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="2924.759,134.251,-1341.470,2.163" Index="0" />
+            <Param type="6" data="fb_nllqd_002" Index="1" />
+            <Param type="6" data="Act" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="2924.687,133.573,-1345.073,3.080" Index="0" />
+            <Param type="6" data="fb_nllqd_003" Index="1" />
+            <Param type="6" data="Act" Index="2" />
+        </Line>
+    </Base>
+</Processor>

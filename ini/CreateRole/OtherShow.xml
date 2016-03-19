@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="GB2312" standalone="yes"?>
+<!-- edited with XMLSpy v2010 (http://www.altova.com) by MESMERiZE (MiZE) -->
+<!-- 
+//角色创建配置
+//装备选择:手套
+//第一位阵营,接着两位种族,接着两位职业,最后一位性别
+//阵营:1蒸汽,2奇幻
+//种族:1蒸汽下的种族为1人类,2血族,3矮人
+//种族:2奇幻下的种族为4人类,5野蛮人,6喀什
+//职业:1蒸汽下的职业为1仲裁者,2蒸汽学徒,3秘法师,4麦克骑士
+//职业:1奇幻下的职业为5野性守护者,6猎魔人,7炼金师,8法师
+//性别:0男性,1女性
+//例子:蒸汽阵营下的男矮人麦克骑士表示为103040 -->
+<Object>
+	<Property ID="1013200" Desc="破碎装甲-人类后" Config="ini\npc\zq_stur_0001.ini" PosX="3.787" PosY="10" PosZ="-11.196" Angle="348.2" InitialPose="pe_0h_stand" Create="1" Valid="1"/>
+	<Property ID="1013201" Desc="破碎装甲-矮人后" Config="ini\npc\zq_cru_0001.ini" PosX="-9.227" PosY="10" PosZ="5.597" Angle="108.5" InitialPose="pe_0h_stand" Create="1" Valid="1"/>
+  <Property ID="1013500" Desc="狼人-野蛮人后" Config="ini\npc\qh_cow_0001.ini" PosX="-1.361" PosY="10" PosZ="10.937" Angle="161.8" InitialPose="pe_0h_stand" Create="1" Valid="1"/>
+</Object>

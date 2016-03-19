@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+	<!--Distance			触发距离-->
+	<!--Npc ID			NPC的ConfigID串(NpcID,NpcID)-->
+	<!--最大支持范围         30-->
+	<Property ID="1" Distance="9" NpcID="npc_zqm003_0063,Giving_zqm003_0014"/>
+	<Property ID="2" Distance="13" NpcID="monster_zqm001_0109,summon_qhm002_0001,monster_qhm002_0002,monster_qhm003_0001,monster_zqm003_0001,monster_zqm001_0080,monster_qhm002_0001,npc_zqm003_0108,monster_zqm003_0201,npc_zlm002_0074"/>
+	<Property ID="3" Distance="14" NpcID="npc_zqm001_0228,npc_qhm002_0003,npc_qhm003_0046,npc_zqm003_0063,Giving_zqm001_0034,Giving_qhm003_0001,Giving_qhm002_0001,Giving_zqm001_0035,npc_zqm001_0137"/>
+</Object>

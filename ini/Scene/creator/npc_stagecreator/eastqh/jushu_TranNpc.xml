@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Stage>
+	<Object Guid="E119EAC8EC10407F8B8A2838ED048FBA" Desc="托雷德_尘风" config="npc_qhm005_0067" x="5321.583496" y="106.53595" z="-90.462563" IsY="0" Radius="0" amount="1" RefreshTime="30" fOrg="1.470003">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="7D3F097C6FBF41A2B8A90CF655652A25" Desc="巴洛特_焚炎" config="npc_qhm005_0070" x="4652.455078" y="60.084259" z="1119.004639" IsY="0" Radius="0" amount="1" RefreshTime="30" fOrg="-2.545001" IsPersistent="0">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="4EC907483F424FDB8BF2385369D95FCF" Desc="远古之门" config="CloneDoor_FB105_0001" x="4495.604004" y="73.298004" z="-187.346161" IsY="1" Radius="0" amount="1" RefreshTime="1" fOrg="2.595004" IsPersistent="0" sx="3" sy="3" sz="3">
+		<OrganControllerStateMapping ControllerState="" State=""/>
+	</Object>
+</Stage>

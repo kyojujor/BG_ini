@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object ClassifyId="Kind">
+	<Property Id="ID" Name="编号" Type="string" Kind="BasalProperty" EditType="" DefinedKey="" Desc="QTE系统编号"/>
+	<Property Id="QTEMode" Name="QTE模式" Type="string" Kind="BasalProperty" EditType="" DefinedKey="" DefaultValue="0" Desc="QTE模式 0为引导模式 1.多键值判定模式 2为剧情模式 默认为0"/>
+	<Property Id="Name" Name="名称" Type="string" Kind="BasalProperty" EditType="" DefinedKey=""/>
+	<Property Id="OnlyOnce" Name="事件启动次数" Type="Boolean" Kind="BasalProperty" EditType="BooleanType" DefinedKey="onlyonce" DefaultValue="0" Desc=".1:只启动一次 0: 不限次数"/>
+	<Property Id="Kind" Name="类型" Type="string" Kind="BasalProperty" EditType="" DefinedKey="" Desc="QTE类型"/>
+	<Property Id="BaseEvent" Name="基础事件ID" Type="string" Kind="BasalProperty" EditType="" DefinedKey="" Desc="基础事件的ID"/>
+	<Property Id="Time" Name="持续时间" Type="string" Kind="BasalProperty" EditType="" DefinedKey="" Desc="最长持续时间，毫秒单位"/>
+	<Property Id="QTEKey" Name="起始键" Type="string" Kind="BasalProperty" EditType="PartSelect" DefinedKey="ID" Desc="按键事件列表"/>
+</Object>

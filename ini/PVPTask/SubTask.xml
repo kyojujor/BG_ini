@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- edited with XMLSpy v2010 (http://www.altova.com) by caixc (snail) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 被2011 rel. 2 sp1 (TeaM DJiNN) 使用XMLSpy vTeaM DJiNN编辑的 (http://www.altova.com) by -->
+<!--camp: 1蒸汽, 2奇幻; 种族RACE_INFO-->
+<!-- NoticeChannel 0 全服务器，1场景 2 区域 -->
+<Object>
+	<Property ID="1" TrackInfo="des_1" TaskType="0" NpcID="FB_yuanguzhimen_0003" Count="3" Progress="10"/>
+	<Property ID="2" TrackInfo="des_2" TaskType="1" CampLimit="2" RaceLimit="1,6" BufferLimit="test_skill0078_Buff01_01" Count="1" Progress="10"/>
+	<Property ID="3" TrackInfo="des_3" TaskType="0" NpcID="npc_zlm010_0132" nExp="19597" nMoney="6051" nPoint="5" Count="2" Progress="50" SceneID="6" CustomTrackPos="-1057.201,75.498,3060.370" LinkArea="221000000"/>
+	<Property ID="4" TrackInfo="des_4" TaskType="0" NpcID="npc_zlm010_0131" nExp="19597" nMoney="6051" nPoint="5" Count="2" Progress="50" SceneID="6" CustomTrackPos="-967.927,101.645,2485.625" LinkArea="220700000"/>
+	<Property ID="5" TrackInfo="pvp_task_trackinfo_5" TaskType="4" NpcID="npc_qhpvp001_0001" CampLimit="2" RaceLimit="" Count="1" SceneID="6" CustomTrackPos="-955.489,103.649,2486.719" LinkArea="221000000" AcceptNpc="npc_qhpvp001_0001" ConvoyConfigID="convoy_qhpvp001_0001" NoticeCamp="" NoticeChannel="0" NoticeSceneID="" NoticeArea="" NoticeMsg="" ActivityID="ProActivity2"/>
+	<Property ID="6" TrackInfo="des_6" TaskType="0" NpcID="pvp_mxqixi_001" ItemID="Task_00791A" DropNpc="pvp_mxqixi_001" Count="1" SceneID="2" CustomTrackPos="4137.524,76.943,-93.143" LinkArea="140100000" DeadDrop="1"/>
+	<Property ID="7" TrackInfo="des_7" TaskType="0" NpcID="pvp_mxqixi_002" ItemID="Task_00792A" DropNpc="pvp_mxqixi_002" Count="1" SceneID="2" CustomTrackPos="3205.850,68.373,-328.372" LinkArea="140100000" DeadDrop="1"/>
+	<Property ID="8" TrackInfo="des_8" TaskType="0" NpcID="pvp_mxqixi_003" ItemID="Task_00793A" DropNpc="pvp_mxqixi_003" Count="1" SceneID="2" CustomTrackPos="2674.596,113.288,1114.821" LinkArea="140100000" DeadDrop="1"/>
+	<Property ID="11" TaskType="6" NpcID="FB_yuanguzhimen_0003" Count="5" Progress="10"/>
+	<Property ID="12" TaskType="6" NpcID="FB_yuanguzhimen_0003" Count="7" Progress="10"/>
+	<Property ID="13" TrackInfo="des_3" TaskType="2" ItemID="Rw_Cloth_C5001A" Count="2" Progress="10"/>
+	<Property ID="14" TrackInfo="des_4" TaskType="2" ItemID="Rw_Cloth_A5001A" SceneID=""/>
+	<Property ID="15" TrackInfo="des_15" TaskType="0" NpcID="pvp_mxqixi_004" ItemID="Task_00794A" DropNpc="pvp_mxqixi_004" Count="1" SceneID="1" CustomTrackPos="-628.785,10.305,-266.104" LinkArea="010300000" DeadDrop="1"/>
+	<Property ID="16" TrackInfo="des_16" TaskType="0" NpcID="pvp_mxqixi_005" ItemID="Task_00795A" DropNpc="pvp_mxqixi_005" Count="1" SceneID="1" CustomTrackPos="-88.796,18.236,-352.166" LinkArea="011100000" DeadDrop="1"/>
+	<Property ID="17" TrackInfo="des_17" TaskType="0" NpcID="pvp_mxqixi_006" ItemID="Task_00796A" DropNpc="pvp_mxqixi_006" Count="1" SceneID="1" CustomTrackPos="-205.758,12.973,210.101" LinkArea="011100000" DeadDrop="1"/>
+	<Property ID="18" TrackInfo="des_18" TaskType="2" ItemID="Task_00797A" Count="3" DeadDrop="1"/>
+	<Property ID="19" TrackInfo="des_19" TaskType="2" ItemID="Task_00798A" Count="1" DeadDrop="1"/>
+	<Property ID="20" TrackInfo="des_20" TaskType="2" ItemID="Task_00799A" Count="3" DeadDrop="1"/>
+	<Property ID="21" TrackInfo="des_21" TaskType="2" ItemID="Task_00800A" Count="1" DeadDrop="1"/>
+	<Property ID="22" TrackInfo="pvp_task_trackinfo_6" TaskType="4" NpcID="npc_zqpvp001_0002" CampLimit="1" Count="1" SceneID="6" CustomTrackPos="-1024.760,69.958,3016.213" LinkArea="220700000" AcceptNpc="npc_zqpvp001_0002" ConvoyConfigID="convoy_zqpvp001_0002" NoticeCamp="" NoticeChannel="0" NoticeSceneID="" NoticeArea="" NoticeMsg="" ActivityID="ProActivity3"/>
+	<Property ID="23" TrackInfo="pvp_task_trackinfo_7" TaskType="4" NpcID="npc_zqpvp001_0003" CampLimit="1" Count="1" SceneID="6" CustomTrackPos="-1304.997,158.770,2960.636" LinkArea="220500000" AcceptNpc="npc_zqpvp001_0003" ConvoyConfigID="convoy_zqpvp001_0003" NoticeChannel="0" ActivityID="ProActivity5"/>
+	<Property ID="24" TrackInfo="pvp_task_trackinfo_8" TaskType="4" NpcID="npc_qhpvp001_0002" CampLimit="2" Count="1" SceneID="6" CustomTrackPos="-1504.596,130.330,3135.931" LinkArea="220100000" AcceptNpc="npc_qhpvp001_0002" ConvoyConfigID="convoy_qhpvp001_0002" NoticeChannel="0" ActivityID="ProActivity4"/>
+	<Property ID="25" TrackInfo="pvp_task_trackinfo_9" TaskType="4" NpcID="npc_zqpvp001_0004" CampLimit="1" Count="1" SceneID="6" CustomTrackPos="-1595.920,80.472,2722.897" LinkArea="221600000" AcceptNpc="npc_zqpvp001_0002" ConvoyConfigID="convoy_zqpvp001_0004" NoticeChannel="0"/>
+	<Property ID="26" TrackInfo="pvp_task_trackinfo_10" TaskType="4" NpcID="npc_qhpvp001_0003" CampLimit="2" Count="1" SceneID="6" CustomTrackPos="-1304.799,158.770,2959.916" LinkArea="220500000" AcceptNpc="npc_qhpvp001_0001" ConvoyConfigID="convoy_qhpvp001_0003" NoticeChannel="0"/>
+	<Property ID="101" TrackInfo="des_101" TrackInfo2="des_201" TaskType="6" Count="1" KillBuffer="Buff_cuobai_01" FlagBuffer="" AwardItem="Task_00933A" AwardItemCount="5" QuickTransConsume="0" AskKillConsume="0" Stage2Time="600" SceneID="6" LinkArea=""/>
+	<Property ID="100" TrackInfo="des_100" TrackInfo2="des_200" TaskType="6" Count="1" KillBuffer="Buff_cuobai_01" FlagBuffer="" AwardItem="Task_00932A" AwardItemCount="5" QuickTransConsume="0" AskKillConsume="0" Stage2Time="600" SceneID="6" LinkArea=""/>
+	<Property ID="30" TrackInfo="des_30" TaskType="7" Count="1" Progress="20" DeadDrop="0"/>
+	<Property ID="31" TrackInfo="des_31" TaskType="7" NpcID="PVP_kongxi004" nExp="" nMoney="" nPoint="" Count="1" Progress="10" SceneID="6" CustomTrackPos="-956.062,101.513,2462.993" LinkArea="221000000" DeadDrop="0"/>
+	<Property ID="32" TrackInfo="des_32" TaskType="7" NpcID="PVP_kongxi003" nExp="" nMoney="" nPoint="" Count="1" Progress="10" SceneID="6" CustomTrackPos="-1033.436,70,3065.172" LinkArea="220700000" DeadDrop="0"/>
+	<Property ID="102" TrackInfo="des_102" TaskType="8" Count="1" AskHelpConsume="0" AcceptBuffer="Buff_fenyong_01"/>
+	<Property ID="103" TrackInfo="des_103" TaskType="8" Count="1" AskHelpConsume="0" AcceptBuffer="Buff_fenyong_01"/>
+	<Property ID="121" TrackInfo="pvp_task_trackinfo_section_1" TaskType="0" NpcID="FB_SLZD_0012" Count="10" Progress="10"/>
+	<Property ID="122" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0012" Count="10" Progress="10"/>
+	<Property ID="123" TrackInfo="pvp_task_trackinfo_section_2" TaskType="0" NpcID="FB_SLZD_0013" Count="5" Progress="10"/>
+	<Property ID="124" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0014" Count="5" Progress="10"/>
+	<Property ID="125" TrackInfo="pvp_task_trackinfo_section_3" TaskType="0" NpcID="FB_SLZD_0014" Count="5" Progress="10"/>
+	<Property ID="126" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0015" Count="5" Progress="10"/>
+	<Property ID="127" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0016" Count="5" Progress="10"/>
+	<Property ID="128" TrackInfo="pvp_task_trackinfo_section_4" TaskType="0" NpcID="FB_SLZD_0016" Count="5" Progress="10"/>
+	<Property ID="129" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0017" Count="5" Progress="10"/>
+	<Property ID="130" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0018" Count="5" Progress="10"/>
+	<Property ID="131" TrackInfo="pvp_task_trackinfo_section_5" TaskType="0" NpcID="FB_SLZD_0017" Count="5" Progress="10"/>
+	<Property ID="132" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0018" Count="5" Progress="10"/>
+	<Property ID="133" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0019" Count="5" Progress="10"/>
+	<Property ID="134" TrackInfo="pvp_task_trackinfo_section_6" TaskType="0" NpcID="FB_SLZD_0033" Count="1" Progress="10"/>
+	<Property ID="135" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0033" Count="1" Progress="10"/>
+	<Property ID="136" TrackInfo="pvp_task_trackinfo_section_7" TaskType="0" NpcID="FB_SLZD_0020" Count="5" Progress="10"/>
+	<Property ID="137" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0021" Count="5" Progress="10"/>
+	<Property ID="138" TrackInfo="pvp_task_trackinfo_section_8" TaskType="0" NpcID="FB_SLZD_0022" Count="5" Progress="10"/>
+	<Property ID="139" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0023" Count="5" Progress="10"/>
+	<Property ID="140" TrackInfo="pvp_task_trackinfo_section_9" TaskType="0" NpcID="FB_SLZD_0024" Count="5" Progress="10"/>
+	<Property ID="141" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0025" Count="5" Progress="10"/>
+	<Property ID="142" TrackInfo="pvp_task_trackinfo_section_10" TaskType="0" NpcID="FB_SLZD_0025" Count="5" Progress="10"/>
+	<Property ID="143" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0026" Count="5" Progress="10"/>
+	<Property ID="144" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0027" Count="5" Progress="10"/>
+	<Property ID="145" TrackInfo="pvp_task_trackinfo_section_11" TaskType="0" NpcID="FB_SLZD_0027" Count="5" Progress="10"/>
+	<Property ID="146" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0028" Count="5" Progress="10"/>
+	<Property ID="147" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0030" Count="5" Progress="10"/>
+	<Property ID="148" TrackInfo="pvp_task_trackinfo_section_12" TaskType="0" NpcID="FB_SLZD_0029" Count="1" Progress="10"/>
+	<Property ID="149" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0029" Count="1" Progress="10"/>
+	<Property ID="150" TrackInfo="pvp_task_trackinfo_section_13" TaskType="0" NpcID="FB_SLZD_0053" Count="10" Progress="10"/>
+	<Property ID="151" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0054" Count="5" Progress="10"/>
+	<Property ID="152" TrackInfo="pvp_task_trackinfo_section_14" TaskType="0" NpcID="FB_SLZD_0053" Count="10" Progress="10"/>
+	<Property ID="153" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0054" Count="5" Progress="10"/>
+	<Property ID="154" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0055" Count="3" Progress="10"/>
+	<Property ID="155" TrackInfo="pvp_task_trackinfo_section_15" TaskType="0" NpcID="FB_SLZD_0054" Count="5" Progress="10"/>
+	<Property ID="156" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0055" Count="5" Progress="10"/>
+	<Property ID="157" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0056" Count="3" Progress="10"/>
+	<Property ID="158" TrackInfo="pvp_task_trackinfo_section_16" TaskType="0" NpcID="FB_SLZD_0056" Count="5" Progress="10"/>
+	<Property ID="159" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0057" Count="3" Progress="10"/>
+	<Property ID="160" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0058" Count="1" Progress="10"/>
+	<Property ID="161" TrackInfo="pvp_task_trackinfo_section_17" TaskType="0" NpcID="FB_SLZD_0057" Count="5" Progress="10"/>
+	<Property ID="162" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0058" Count="3" Progress="10"/>
+	<Property ID="163" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0059" Count="1" Progress="10"/>
+	<Property ID="164" TrackInfo="pvp_task_trackinfo_section_18" TaskType="0" NpcID="FB_SLZD_0059" Count="2" Progress="10"/>
+	<Property ID="165" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0060" Count="1" Progress="10"/>
+	<Property ID="166" TrackInfo="pvp_task_trackinfo_section_19" TaskType="0" NpcID="FB_SLZD_0061" Count="10" Progress="10"/>
+	<Property ID="167" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0062" Count="5" Progress="10"/>
+	<Property ID="168" TrackInfo="pvp_task_trackinfo_section_20" TaskType="0" NpcID="FB_SLZD_0061" Count="10" Progress="10"/>
+	<Property ID="169" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0062" Count="5" Progress="10"/>
+	<Property ID="170" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0063" Count="1" Progress="10"/>
+	<Property ID="171" TrackInfo="pvp_task_trackinfo_section_21" TaskType="0" NpcID="FB_SLZD_0063" Count="3" Progress="10"/>
+	<Property ID="172" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0064" Count="3" Progress="10"/>
+	<Property ID="173" TrackInfo="pvp_task_trackinfo_section_22" TaskType="0" NpcID="FB_SLZD_0064" Count="5" Progress="10"/>
+	<Property ID="174" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0065" Count="1" Progress="10"/>
+	<Property ID="175" TrackInfo="pvp_task_trackinfo_section_23" TaskType="0" NpcID="FB_SLZD_0065" Count="3" Progress="10"/>
+	<Property ID="176" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0066" Count="3" Progress="10"/>
+	<Property ID="177" TrackInfo="pvp_task_trackinfo_section_24" TaskType="0" NpcID="FB_SLZD_0067" Count="2" Progress="10"/>
+	<Property ID="178" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0068" Count="1" Progress="10"/>
+	<Property ID="179" TrackInfo="pvp_task_trackinfo_section_25" TaskType="0" NpcID="FB_SLZD_0069" Count="5" Progress="10"/>
+	<Property ID="180" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0070" Count="5" Progress="10"/>
+	<Property ID="181" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0071" Count="5" Progress="10"/>
+	<Property ID="182" TrackInfo="pvp_task_trackinfo_section_26" TaskType="0" NpcID="FB_SLZD_0071" Count="5" Progress="10"/>
+	<Property ID="183" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0072" Count="5" Progress="10"/>
+	<Property ID="184" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0073" Count="5" Progress="10"/>
+	<Property ID="185" TrackInfo="pvp_task_trackinfo_section_27" TaskType="0" NpcID="FB_SLZD_0073" Count="5" Progress="10"/>
+	<Property ID="186" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0074" Count="5" Progress="10"/>
+	<Property ID="187" TrackInfo="pvp_task_trackinfo_section_28" TaskType="0" NpcID="FB_SLZD_0073" Count="5" Progress="10"/>
+	<Property ID="188" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0074" Count="5" Progress="10"/>
+	<Property ID="189" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0075" Count="5" Progress="10"/>
+	<Property ID="190" TrackInfo="pvp_task_trackinfo_section_29" TaskType="0" NpcID="FB_SLZD_0075" Count="5" Progress="10"/>
+	<Property ID="191" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0076" Count="5" Progress="10"/>
+	<Property ID="192" TrackInfo="pvp_task_trackinfo_section_30" TaskType="0" NpcID="FB_SLZD_0076" Count="5" Progress="10"/>
+	<Property ID="193" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0077" Count="1" Progress="10"/>
+	<Property ID="194" TrackInfo="pvp_task_trackinfo_section_31" TaskType="0" NpcID="FB_SLZD_0078" Count="10" Progress="10"/>
+	<Property ID="195" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0079" Count="5" Progress="10"/>
+	<Property ID="196" TrackInfo="pvp_task_trackinfo_section_32" TaskType="0" NpcID="FB_SLZD_0078" Count="10" Progress="10"/>
+	<Property ID="197" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0079" Count="5" Progress="10"/>
+	<Property ID="198" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0080" Count="5" Progress="10"/>
+	<Property ID="199" TrackInfo="pvp_task_trackinfo_section_33" TaskType="0" NpcID="FB_SLZD_0079" Count="5" Progress="10"/>
+	<Property ID="200" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0080" Count="5" Progress="10"/>
+	<Property ID="201" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0081" Count="5" Progress="10"/>
+	<Property ID="202" TrackInfo="pvp_task_trackinfo_section_34" TaskType="0" NpcID="FB_SLZD_0081" Count="5" Progress="10"/>
+	<Property ID="203" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0082" Count="5" Progress="10"/>
+	<Property ID="204" TrackInfo="pvp_task_trackinfo_section_35" TaskType="0" NpcID="FB_SLZD_0081" Count="5" Progress="10"/>
+	<Property ID="205" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0082" Count="5" Progress="10"/>
+	<Property ID="206" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0083" Count="5" Progress="10"/>
+	<Property ID="207" TrackInfo="pvp_task_trackinfo_section_36" TaskType="0" NpcID="FB_SLZD_0084" Count="5" Progress="10"/>
+	<Property ID="208" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0085" Count="5" Progress="10"/>
+	<Property ID="209" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0086" Count="1" Progress="10"/>
+	<Property ID="210" TrackInfo="pvp_task_trackinfo_section_37" TaskType="0" NpcID="FB_SLZD_0087" Count="10" Progress="10"/>
+	<Property ID="211" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0088" Count="5" Progress="10"/>
+	<Property ID="212" TrackInfo="pvp_task_trackinfo_section_38" TaskType="0" NpcID="FB_SLZD_0089" Count="10" Progress="10"/>
+	<Property ID="213" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0090" Count="5" Progress="10"/>
+	<Property ID="214" TrackInfo="pvp_task_trackinfo_section_39" TaskType="0" NpcID="FB_SLZD_0089" Count="5" Progress="10"/>
+	<Property ID="215" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0090" Count="5" Progress="10"/>
+	<Property ID="216" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0091" Count="5" Progress="10"/>
+	<Property ID="217" TrackInfo="pvp_task_trackinfo_section_40" TaskType="0" NpcID="FB_SLZD_0092" Count="1" Progress="10"/>
+	<Property ID="1217" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0092" Count="1" Progress="10"/>
+	<Property ID="218" TrackInfo="pvp_task_trackinfo_section_41" TaskType="0" NpcID="FB_SLZD_0093" Count="10" Progress="10"/>
+	<Property ID="219" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0094" Count="5" Progress="10"/>
+	<Property ID="220" TrackInfo="pvp_task_trackinfo_section_42" TaskType="0" NpcID="FB_SLZD_0094" Count="10" Progress="10"/>
+	<Property ID="221" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0095" Count="5" Progress="10"/>
+	<Property ID="222" TrackInfo="pvp_task_trackinfo_section_43" TaskType="0" NpcID="FB_SLZD_0096" Count="10" Progress="10"/>
+	<Property ID="223" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0097" Count="10" Progress="10"/>
+	<Property ID="224" TrackInfo="pvp_task_trackinfo_section_44" TaskType="0" NpcID="FB_SLZD_0098" Count="1" Progress="10"/>
+	<Property ID="1224" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0098" Count="1" Progress="10"/>
+	<Property ID="225" TrackInfo="pvp_task_trackinfo_section_45" TaskType="0" NpcID="FB_SLZD_0099" Count="10" Progress="10"/>
+	<Property ID="226" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0100" Count="5" Progress="10"/>
+	<Property ID="227" TrackInfo="pvp_task_trackinfo_section_46" TaskType="0" NpcID="FB_SLZD_0101" Count="10" Progress="10"/>
+	<Property ID="228" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0102" Count="5" Progress="10"/>
+	<Property ID="229" TrackInfo="pvp_task_trackinfo_section_47" TaskType="0" NpcID="FB_SLZD_0103" Count="10" Progress="10"/>
+	<Property ID="230" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0104" Count="10" Progress="10"/>
+	<Property ID="231" TrackInfo="pvp_task_trackinfo_section_48" TaskType="0" NpcID="FB_SLZD_0105" Count="1" Progress="10"/>
+	<Property ID="1231" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0105" Count="1" Progress="10"/>
+	<Property ID="232" TrackInfo="pvp_task_trackinfo_section_49" TaskType="0" NpcID="FB_SLZD_0106" Count="1" Progress="10"/>
+	<Property ID="233" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0107" Count="1" Progress="10"/>
+	<Property ID="234" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0108" Count="1" Progress="10"/>
+	<Property ID="235" TrackInfo="pvp_task_trackinfo_section_50" TaskType="0" NpcID="FB_SLZD_0109" Count="1" Progress="10"/>
+	<Property ID="236" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0110" Count="1" Progress="10"/>
+	<Property ID="237" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0111" Count="1" Progress="10"/>
+	<Property ID="238" TrackInfo="pvp_task_trackinfo_section_51" TaskType="0" NpcID="FB_SLZD_0112" Count="1" Progress="10"/>
+	<Property ID="239" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0113" Count="1" Progress="10"/>
+	<Property ID="240" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_0114" Count="1" Progress="10"/>
+	<Property ID="521" TrackInfo="pvp_task_trackinfo_section_1" TaskType="0" NpcID="FB_SLZD_2012" Count="10" Progress="10"/>
+	<Property ID="522" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2012" Count="10" Progress="10"/>
+	<Property ID="523" TrackInfo="pvp_task_trackinfo_section_2" TaskType="0" NpcID="FB_SLZD_2013" Count="5" Progress="10"/>
+	<Property ID="524" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2014" Count="5" Progress="10"/>
+	<Property ID="525" TrackInfo="pvp_task_trackinfo_section_3" TaskType="0" NpcID="FB_SLZD_2014" Count="5" Progress="10"/>
+	<Property ID="526" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2015" Count="5" Progress="10"/>
+	<Property ID="527" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2016" Count="5" Progress="10"/>
+	<Property ID="528" TrackInfo="pvp_task_trackinfo_section_4" TaskType="0" NpcID="FB_SLZD_2016" Count="5" Progress="10"/>
+	<Property ID="529" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2017" Count="5" Progress="10"/>
+	<Property ID="530" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2018" Count="5" Progress="10"/>
+	<Property ID="531" TrackInfo="pvp_task_trackinfo_section_5" TaskType="0" NpcID="FB_SLZD_2017" Count="5" Progress="10"/>
+	<Property ID="532" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2018" Count="5" Progress="10"/>
+	<Property ID="533" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2019" Count="5" Progress="10"/>
+	<Property ID="534" TrackInfo="pvp_task_trackinfo_section_6" TaskType="0" NpcID="FB_SLZD_2033" Count="1" Progress="10"/>
+	<Property ID="535" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2033" Count="1" Progress="10"/>
+	<Property ID="536" TrackInfo="pvp_task_trackinfo_section_7" TaskType="0" NpcID="FB_SLZD_2020" Count="5" Progress="10"/>
+	<Property ID="537" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2021" Count="5" Progress="10"/>
+	<Property ID="538" TrackInfo="pvp_task_trackinfo_section_8" TaskType="0" NpcID="FB_SLZD_2022" Count="5" Progress="10"/>
+	<Property ID="539" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2023" Count="5" Progress="10"/>
+	<Property ID="540" TrackInfo="pvp_task_trackinfo_section_9" TaskType="0" NpcID="FB_SLZD_2024" Count="5" Progress="10"/>
+	<Property ID="541" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2025" Count="5" Progress="10"/>
+	<Property ID="542" TrackInfo="pvp_task_trackinfo_section_10" TaskType="0" NpcID="FB_SLZD_2025" Count="5" Progress="10"/>
+	<Property ID="543" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2026" Count="5" Progress="10"/>
+	<Property ID="544" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2027" Count="5" Progress="10"/>
+	<Property ID="545" TrackInfo="pvp_task_trackinfo_section_11" TaskType="0" NpcID="FB_SLZD_2027" Count="5" Progress="10"/>
+	<Property ID="546" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2028" Count="5" Progress="10"/>
+	<Property ID="547" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2030" Count="5" Progress="10"/>
+	<Property ID="548" TrackInfo="pvp_task_trackinfo_section_12" TaskType="0" NpcID="FB_SLZD_2029" Count="1" Progress="10"/>
+	<Property ID="549" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2029" Count="1" Progress="10"/>
+	<Property ID="550" TrackInfo="pvp_task_trackinfo_section_13" TaskType="0" NpcID="FB_SLZD_2053" Count="10" Progress="10"/>
+	<Property ID="551" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2054" Count="5" Progress="10"/>
+	<Property ID="552" TrackInfo="pvp_task_trackinfo_section_14" TaskType="0" NpcID="FB_SLZD_2053" Count="10" Progress="10"/>
+	<Property ID="553" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2054" Count="5" Progress="10"/>
+	<Property ID="554" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2055" Count="3" Progress="10"/>
+	<Property ID="555" TrackInfo="pvp_task_trackinfo_section_15" TaskType="0" NpcID="FB_SLZD_2054" Count="5" Progress="10"/>
+	<Property ID="556" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2055" Count="5" Progress="10"/>
+	<Property ID="557" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2056" Count="3" Progress="10"/>
+	<Property ID="558" TrackInfo="pvp_task_trackinfo_section_16" TaskType="0" NpcID="FB_SLZD_2056" Count="5" Progress="10"/>
+	<Property ID="559" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2057" Count="3" Progress="10"/>
+	<Property ID="560" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2058" Count="1" Progress="10"/>
+	<Property ID="561" TrackInfo="pvp_task_trackinfo_section_17" TaskType="0" NpcID="FB_SLZD_2057" Count="5" Progress="10"/>
+	<Property ID="562" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2058" Count="3" Progress="10"/>
+	<Property ID="563" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2059" Count="1" Progress="10"/>
+	<Property ID="564" TrackInfo="pvp_task_trackinfo_section_18" TaskType="0" NpcID="FB_SLZD_2059" Count="2" Progress="10"/>
+	<Property ID="565" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2060" Count="1" Progress="10"/>
+	<Property ID="566" TrackInfo="pvp_task_trackinfo_section_19" TaskType="0" NpcID="FB_SLZD_2061" Count="10" Progress="10"/>
+	<Property ID="567" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2062" Count="5" Progress="10"/>
+	<Property ID="568" TrackInfo="pvp_task_trackinfo_section_20" TaskType="0" NpcID="FB_SLZD_2061" Count="10" Progress="10"/>
+	<Property ID="569" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2062" Count="5" Progress="10"/>
+	<Property ID="570" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2063" Count="1" Progress="10"/>
+	<Property ID="571" TrackInfo="pvp_task_trackinfo_section_21" TaskType="0" NpcID="FB_SLZD_2063" Count="3" Progress="10"/>
+	<Property ID="572" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2064" Count="1" Progress="10"/>
+	<Property ID="573" TrackInfo="pvp_task_trackinfo_section_22" TaskType="0" NpcID="FB_SLZD_2064" Count="5" Progress="10"/>
+	<Property ID="574" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2065" Count="1" Progress="10"/>
+	<Property ID="575" TrackInfo="pvp_task_trackinfo_section_23" TaskType="0" NpcID="FB_SLZD_2065" Count="3" Progress="10"/>
+	<Property ID="576" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2066" Count="3" Progress="10"/>
+	<Property ID="577" TrackInfo="pvp_task_trackinfo_section_24" TaskType="0" NpcID="FB_SLZD_2067" Count="2" Progress="10"/>
+	<Property ID="578" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2068" Count="1" Progress="10"/>
+	<Property ID="579" TrackInfo="pvp_task_trackinfo_section_25" TaskType="0" NpcID="FB_SLZD_2069" Count="10" Progress="10"/>
+	<Property ID="580" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2070" Count="10" Progress="10"/>
+	<Property ID="581" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2071" Count="10" Progress="10"/>
+	<Property ID="582" TrackInfo="pvp_task_trackinfo_section_26" TaskType="0" NpcID="FB_SLZD_2071" Count="10" Progress="10"/>
+	<Property ID="583" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2072" Count="10" Progress="10"/>
+	<Property ID="584" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2073" Count="5" Progress="10"/>
+	<Property ID="585" TrackInfo="pvp_task_trackinfo_section_27" TaskType="0" NpcID="FB_SLZD_2073" Count="5" Progress="10"/>
+	<Property ID="586" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2074" Count="5" Progress="10"/>
+	<Property ID="587" TrackInfo="pvp_task_trackinfo_section_28" TaskType="0" NpcID="FB_SLZD_2073" Count="5" Progress="10"/>
+	<Property ID="588" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2074" Count="5" Progress="10"/>
+	<Property ID="589" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2075" Count="10" Progress="10"/>
+	<Property ID="590" TrackInfo="pvp_task_trackinfo_section_29" TaskType="0" NpcID="FB_SLZD_2075" Count="10" Progress="10"/>
+	<Property ID="591" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2076" Count="15" Progress="10"/>
+	<Property ID="592" TrackInfo="pvp_task_trackinfo_section_30" TaskType="0" NpcID="FB_SLZD_2076" Count="15" Progress="10"/>
+	<Property ID="593" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2077" Count="1" Progress="10"/>
+	<Property ID="594" TrackInfo="pvp_task_trackinfo_section_31" TaskType="0" NpcID="FB_SLZD_2078" Count="10" Progress="10"/>
+	<Property ID="595" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2079" Count="5" Progress="10"/>
+	<Property ID="596" TrackInfo="pvp_task_trackinfo_section_32" TaskType="0" NpcID="FB_SLZD_2078" Count="10" Progress="10"/>
+	<Property ID="597" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2079" Count="5" Progress="10"/>
+	<Property ID="598" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2080" Count="5" Progress="10"/>
+	<Property ID="599" TrackInfo="pvp_task_trackinfo_section_33" TaskType="0" NpcID="FB_SLZD_2079" Count="5" Progress="10"/>
+	<Property ID="600" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2080" Count="5" Progress="10"/>
+	<Property ID="601" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2081" Count="5" Progress="10"/>
+	<Property ID="602" TrackInfo="pvp_task_trackinfo_section_34" TaskType="0" NpcID="FB_SLZD_2081" Count="5" Progress="10"/>
+	<Property ID="603" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2082" Count="5" Progress="10"/>
+	<Property ID="604" TrackInfo="pvp_task_trackinfo_section_35" TaskType="0" NpcID="FB_SLZD_2081" Count="5" Progress="10"/>
+	<Property ID="605" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2082" Count="5" Progress="10"/>
+	<Property ID="606" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2083" Count="5" Progress="10"/>
+	<Property ID="607" TrackInfo="pvp_task_trackinfo_section_36" TaskType="0" NpcID="FB_SLZD_2084" Count="5" Progress="10"/>
+	<Property ID="608" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2085" Count="5" Progress="10"/>
+	<Property ID="609" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2086" Count="1" Progress="10"/>
+	<Property ID="610" TrackInfo="pvp_task_trackinfo_section_37" TaskType="0" NpcID="FB_SLZD_2087" Count="10" Progress="10"/>
+	<Property ID="611" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2088" Count="5" Progress="10"/>
+	<Property ID="612" TrackInfo="pvp_task_trackinfo_section_38" TaskType="0" NpcID="FB_SLZD_2089" Count="10" Progress="10"/>
+	<Property ID="613" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2090" Count="5" Progress="10"/>
+	<Property ID="614" TrackInfo="pvp_task_trackinfo_section_39" TaskType="0" NpcID="FB_SLZD_2089" Count="5" Progress="10"/>
+	<Property ID="615" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2090" Count="5" Progress="10"/>
+	<Property ID="616" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2091" Count="5" Progress="10"/>
+	<Property ID="617" TrackInfo="pvp_task_trackinfo_section_40" TaskType="0" NpcID="FB_SLZD_2092" Count="1" Progress="10"/>
+	<Property ID="1617" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2092" Count="1" Progress="10"/>
+	<Property ID="618" TrackInfo="pvp_task_trackinfo_section_41" TaskType="0" NpcID="FB_SLZD_2093" Count="10" Progress="10"/>
+	<Property ID="619" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2094" Count="5" Progress="10"/>
+	<Property ID="620" TrackInfo="pvp_task_trackinfo_section_42" TaskType="0" NpcID="FB_SLZD_2094" Count="10" Progress="10"/>
+	<Property ID="621" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2095" Count="5" Progress="10"/>
+	<Property ID="622" TrackInfo="pvp_task_trackinfo_section_43" TaskType="0" NpcID="FB_SLZD_2096" Count="10" Progress="10"/>
+	<Property ID="623" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2097" Count="10" Progress="10"/>
+	<Property ID="624" TrackInfo="pvp_task_trackinfo_section_44" TaskType="0" NpcID="FB_SLZD_2098" Count="1" Progress="10"/>
+	<Property ID="1624" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2098" Count="1" Progress="10"/>
+	<Property ID="625" TrackInfo="pvp_task_trackinfo_section_45" TaskType="0" NpcID="FB_SLZD_2099" Count="10" Progress="10"/>
+	<Property ID="626" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2100" Count="5" Progress="10"/>
+	<Property ID="627" TrackInfo="pvp_task_trackinfo_section_46" TaskType="0" NpcID="FB_SLZD_2101" Count="10" Progress="10"/>
+	<Property ID="628" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2102" Count="5" Progress="10"/>
+	<Property ID="629" TrackInfo="pvp_task_trackinfo_section_47" TaskType="0" NpcID="FB_SLZD_2103" Count="10" Progress="10"/>
+	<Property ID="630" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2104" Count="10" Progress="10"/>
+	<Property ID="631" TrackInfo="pvp_task_trackinfo_section_48" TaskType="0" NpcID="FB_SLZD_2105" Count="1" Progress="10"/>
+	<Property ID="1631" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2105" Count="1" Progress="10"/>
+	<Property ID="632" TrackInfo="pvp_task_trackinfo_section_49" TaskType="0" NpcID="FB_SLZD_2106" Count="1" Progress="10"/>
+	<Property ID="633" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2107" Count="1" Progress="10"/>
+	<Property ID="634" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2108" Count="1" Progress="10"/>
+	<Property ID="635" TrackInfo="pvp_task_trackinfo_section_50" TaskType="0" NpcID="FB_SLZD_2109" Count="1" Progress="10"/>
+	<Property ID="636" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2110" Count="1" Progress="10"/>
+	<Property ID="637" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2111" Count="1" Progress="10"/>
+	<Property ID="638" TrackInfo="pvp_task_trackinfo_section_51" TaskType="0" NpcID="FB_SLZD_2112" Count="1" Progress="10"/>
+	<Property ID="639" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2113" Count="1" Progress="10"/>
+	<Property ID="640" TrackInfo="pvp_task_trackinfo_npc_36" TaskType="0" NpcID="FB_SLZD_2114" Count="1" Progress="10"/>
+	<Property ID="118" TrackInfo="pvp_task_trackinfo_36" TaskType="9" Count="1" Progress="20" DeadDrop="0"/>
+	<Property ID="108" TrackInfo="pvp_task_trackinfo_37" TaskType="9" Count="1" Progress="20" DeadDrop="0"/>
+	<Property ID="119" TrackInfo="des_36" TaskType="9" NpcID="" Count="1" Progress="10"/>
+	<Property ID="120" TrackInfo="pvp_task_trackinfo_wait" TaskType="10" NpcID="" Count="1"/>
+	<Property ID="35" TrackInfo="des_35" TaskType="0" Count="1"/>
+	<Property ID="36" TrackInfo="des_35" TaskType="0" Count="1"/>
+	<Property ID="500" TrackInfo="Task500_500_1" TaskType="11" HRRaceScene="3" HRPathNpcID="wy" HRCount="2" Count="1" SpecialAward="BX_QHMX_003;BX_QHMX_002;BX_QHMX_001" PathImage="gui\\QH\\PVP_task_new\\racing_match_001.png"  ItemNpcBag="44,45,46,47,59,60,61" MaxPlayerCount="15"/>
+	<Property ID="501" TrackInfo="Task500_501_1" TaskType="11" HRRaceScene="5" HRPathNpcID="kl" HRCount="2" Count="1" SpecialAward="BX_ZQMX_003;BX_ZQMX_002;BX_ZQMX_001" PathImage="gui\\ZQ\\PVP_task_new\\racing_match_001.png" ItemNpcBag="52,53,56,57,58" MaxPlayerCount="15"/>
+</Object>

@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2010 (http://www.altova.com) by MESMERiZE (MiZE) -->
+<Stage>
+	<Object Guid="73C7D136A9BE4462B742002BEF0F758C" Desc="蜘蛛卵" config="FB_yuhuidongxue_0036" MaxRefreshCount="1" x="-100.915031" y="90.119003" z="89.759422" amount="1" fOrg="0" IsPersistent="1">
+		<Event EventId="5" Processor="102_npc_shijian"/>
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="AF1400DEE4324447BBBBFFE40D6955B4" Desc="蜘蛛卵" config="FB_yuhuidongxue_0036" MaxRefreshCount="1" x="-38.204205" y="34.838669" z="38.158226" amount="1" fOrg="0" IsPersistent="1">
+		<Event EventId="5" Processor="102_npc_kunnanzhizhu_1"/>
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="97FFC1D722E846B69BFC60FEAB97BD5E" Desc="蜘蛛卵" config="FB_yuhuidongxue_0036" MaxRefreshCount="1" x="-36.025551" y="35.136185" z="70.175194" amount="1" fOrg="0" IsPersistent="1">
+		<Event EventId="5" Processor="102_npc_kunnanzhizhu_3"/>
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="521B0657D28B43D9A1FE74DFD635E869" Desc="蜘蛛卵" config="FB_yuhuidongxue_0036" x="-27.37462" y="34.814548" z="43.164917" amount="1" fOrg="0" IsPersistent="1" MaxRefreshCount="1" IsY="0" Radius="0">
+		<Event EventId="5" Processor="102_npc_kunnanzhizhu_2"/>
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="9BA49CC698294BFBAB22849C37861ADE" Desc="蜘蛛卵" config="FB_yuhuidongxue_0036" MaxRefreshCount="1" x="14.277514" y="34.499001" z="12.129997" amount="1" fOrg="0" IsPersistent="1">
+		<Event EventId="5" Processor="102_npc_kunnanzhizhu_9"/>
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="18E0AB9C3FDE4934A4A3F0F613E0FBCF" Desc="维泰格猎杀者" config="monster_qhm002_0049" MaxRefreshCount="1" x="-66.162369" y="12.142809" z="-21.451443" amount="1" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="0CA207BD44A34471ADA556904905580C" Desc="蜘蛛卵" config="FB_yuhuidongxue_0036" MaxRefreshCount="1" x="-0.943092" y="34.849316" z="42.631424" amount="1" fOrg="2.403178" IsPersistent="1">
+		<Event EventId="5" Processor="102_npc_shijian_7"/>
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="ECAD4B8E57C24058A67DB9D2E363C3EA" Desc="蜘蛛卵" config="FB_yuhuidongxue_0036" MaxRefreshCount="1" x="-12.767282" y="34.469616" z="47.28841" amount="1" fOrg="2.010004" IsPersistent="1">
+		<Event EventId="5" Processor="102_npc_kunnanzhizhu_5"/>
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="253C5CFB39FB4FA4A094727CC7D618C4" Desc="蜘蛛卵" config="FB_yuhuidongxue_0036" MaxRefreshCount="1" x="-15.799927" y="34.757393" z="49.371063" amount="1" fOrg="1.750003" IsPersistent="1">
+		<Event EventId="5" Processor="102_npc_kunnanzhizhu_4"/>
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="611DC9ED02034FCA9DDD62500E0F9804" Desc="蜘蛛卵" config="FB_yuhuidongxue_0036" MaxRefreshCount="1" x="22.407906" y="35.094509" z="16.671858" amount="1" fOrg="2.195002" IsPersistent="1">
+		<Event EventId="5" Processor="102_npc_kunnanzhizhu_10"/>
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="CDDD56588B4249C48DD3586E06D114EF" Desc="维泰格卫兵" config="monster_qhm002_0048" MaxRefreshCount="1" x="115.516411" y="15.790544" z="-142.741272" amount="1" fOrg="-2.055004" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="7EA2F197F14F40ADABDE4045079A0FCE" Desc="维泰格平民" config="monster_qhm002_0047" MaxRefreshCount="1" x="114.586029" y="15.790544" z="-142.953827" amount="1" fOrg="1.375001" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="322B0A413AF941DD9ADBFC232F1DEC0E" Desc="蜘蛛卵" config="FB_yuhuidongxue_0036" MaxRefreshCount="1" x="25.14072" y="34.931057" z="12.082807" amount="1" fOrg="0" IsPersistent="1">
+		<Event EventId="5" Processor="102_npc_kunanzhizhu_11"/>
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="8C7601B275CC404EA88182875BB262C7" Desc="祭坛" config="FB_yuhuidongxue_0037" MaxRefreshCount="1" x="-145.955658" y="28.656982" z="-53.086082" IsY="1" Radius="0" amount="1" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="EAAF5FBFEDE04A769FEF994ADB7F2F8C" Desc="火球" config="FB_yuhuidongxue_0034" MaxRefreshCount="1" x="-140.595917" y="10.812204" z="20.111401" IsY="0" Radius="0" NeedRotate="1" PatrolMode="1" PathID="yuhui04" amount="1" RefreshTime="1" sx="3" sy="3" sz="3" fOrg="1.675012" IsPersistent="1">
+		<Event EventId="23" Processor="102_npc_gunshi"/>
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="07FC56E09D374E4884D464F0243149DE" Desc="石柱" config="FB_yuhuidongxue_0035" MaxRefreshCount="1" x="-14.152405" y="14.890723" z="-102.636688" IsY="0" Radius="0" amount="1" fOrg="0" IsPersistent="1">
+		<Event EventId="4" Processor="102_npc_zhuzixiaohui"/>
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="5ECC1216F5614062AD642A2201255F9C" Desc="石柱" config="FB_yuhuidongxue_0035" MaxRefreshCount="1" x="-40.464642" y="14.890723" z="-124.287811" amount="1" fOrg="0" IsPersistent="1">
+		<Event EventId="4" Processor="102_npc_zhuzixiaohui"/>
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="71BE4C81E1794B88AD384AB99B7B9FEB" Desc="石柱" config="FB_yuhuidongxue_0035" MaxRefreshCount="1" x="-14.662995" y="14.890723" z="-122.942482" amount="1" fOrg="0" IsPersistent="1">
+		<Event EventId="4" Processor="102_npc_zhuzixiaohui"/>
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="98D658F18CED467B979B2ACD662B3FFC" Desc="石柱" config="FB_yuhuidongxue_0035" MaxRefreshCount="1" x="-38.210087" y="14.890723" z="-99.627365" amount="1" fOrg="0" IsPersistent="1">
+		<Event EventId="4" Processor="102_npc_zhuzixiaohui"/>
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="371A309887214545B0445D307E4BE440" Desc="地刺" config="Skill_yuhuidongxue_0001" MaxRefreshCount="1" x="-90.457695" y="10.399173" z="2.594068" IsY="0" Radius="0" amount="1" fOrg="2.260007" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="28319578284B4749BDEB38213E71F914" Desc="地刺" config="Skill_yuhuidongxue_0001" MaxRefreshCount="1" x="-131.825607" y="11.397282" z="23.795992" IsY="0" Radius="0" amount="1" fOrg="1.590016" IsPersistent="1" RefreshTime="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="4C632A8AF8C04FA9AE8481BDE34BA224" Desc="地刺" config="Skill_yuhuidongxue_0001" MaxRefreshCount="1" x="-78.962204" y="11.52965" z="-1.257285" IsY="0" Radius="0" amount="1" fOrg="2.065016" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="F39202865CE2454CA6DFE1502E03AA4D" Desc="地刺" config="Skill_yuhuidongxue_0001" MaxRefreshCount="1" x="-69.81752" y="11.553452" z="-16.030088" IsY="0" Radius="0" amount="1" fOrg="2.375005" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="9D5E7EC2875643B7BB43C9C7F24A2976" Desc="地刺" config="Skill_yuhuidongxue_0001" MaxRefreshCount="1" x="-58.106586" y="11.022862" z="-22.752108" IsY="0" Radius="0" amount="1" fOrg="1.985016" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="F45B4D92ECDB41D5BDE6531C622F6B96" Desc="地刺" config="Skill_yuhuidongxue_0001" MaxRefreshCount="1" x="-79.987991" y="10.839454" z="-3.664584" IsY="0" Radius="0" amount="1" fOrg="1.910007" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="85D82FAA1B0E4ED8ACC50BD240A10ACD" Desc="地刺" config="Skill_yuhuidongxue_0001" MaxRefreshCount="1" x="-120.689568" y="10.757955" z="15.191631" IsY="0" Radius="0" amount="1" fOrg="1.515006" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="3775B0AB85C8469BB7E36198E898E27E" Desc="地刺" config="Skill_yuhuidongxue_0001" MaxRefreshCount="1" x="-150.780228" y="10.962912" z="15.531064" IsY="0" Radius="0" amount="1" fOrg="-1.720005" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="3DFFECBC72A44C1F95E1D2B737F7555D" Desc="地刺" config="Skill_yuhuidongxue_0001" MaxRefreshCount="1" x="-151.473816" y="11.043081" z="24.947802" IsY="0" Radius="0" amount="1" fOrg="-1.440015" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="DC9B55F627234B24B390307D284D9997" Desc="维泰格猎杀者" config="monster_qhm002_0049" MaxRefreshCount="1" x="-238.099823" y="10.0001" z="14.429048" amount="1" fOrg="1.340004" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="D61EAC37555B482FA07F9487897A2ACB" Desc="食人花" config="FB_yuhuidongxue_0039" MaxRefreshCount="-1" x="-175.677414" y="14.443277" z="-84.598091" amount="1" RefreshTime="10" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="0BAFC4AB13AF4B2A9FD28AD27E9F16E8" Desc="食人花" config="FB_yuhuidongxue_0039" MaxRefreshCount="-1" x="-162.508972" y="14.847707" z="-94.815155" amount="1" RefreshTime="10" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="7FC1F6414378460091C27903129568AA" Desc="食人花" config="FB_yuhuidongxue_0039" MaxRefreshCount="1" x="-144.552856" y="12.86766" z="-96.509636" amount="1" RefreshTime="10" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="97B72BBF92454DE4AB992D17BB38ABD4" Desc="食人花" config="FB_yuhuidongxue_0039" MaxRefreshCount="1" x="-141.964508" y="12.525309" z="-96.265327" amount="1" RefreshTime="10" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="97E5678BE37C4AD8B5DC77A37A30117F" Desc="食人花" config="FB_yuhuidongxue_0039" MaxRefreshCount="1" x="-109.376854" y="13.070794" z="-101.885567" amount="1" RefreshTime="10" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="1471C820A4934B8AA72C5AFEB0B21A36" Desc="食人花" config="FB_yuhuidongxue_0039" MaxRefreshCount="1" x="-125.488152" y="14.542897" z="-101.123085" amount="1" RefreshTime="10" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="D4994D640A5E473DBB268A51DD2C065B" Desc="食人花" config="FB_yuhuidongxue_0039" MaxRefreshCount="1" x="-118.959572" y="12.47641" z="-95.543503" amount="1" RefreshTime="10" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="4FAA8F4A1A9F4D24B917C7BB5B81B688" Desc="食人花" config="FB_yuhuidongxue_0039" MaxRefreshCount="1" x="-111.424156" y="12.273495" z="-93.651428" amount="1" RefreshTime="10" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="36AEDA55EE6E4F408D86C29B19B7AB79" Desc="食人花" config="FB_yuhuidongxue_0039" MaxRefreshCount="1" x="-109.466934" y="12.218359" z="-89.135239" amount="1" RefreshTime="10" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="F61F8366BFA84573904800E0F8917996" Desc="食人花" config="FB_yuhuidongxue_0039" MaxRefreshCount="1" x="-110.536354" y="11.455551" z="-83.751465" amount="1" RefreshTime="10" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="EC1C6AD6A3E64DB38CEB492C0AB45D6A" Desc="食人花" config="FB_yuhuidongxue_0039" MaxRefreshCount="1" x="-105.124184" y="13.035707" z="-87.449615" amount="1" RefreshTime="10" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="6ACCE6C8DD6E45E7B314A4EDCC580B5B" Desc="食人花" config="FB_yuhuidongxue_0039" MaxRefreshCount="1" x="-99.932602" y="15.643023" z="-52.411583" amount="1" RefreshTime="10" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="5208BBC4472B45F199101F2BF14DF2AF" Desc="食人花" config="FB_yuhuidongxue_0039" MaxRefreshCount="1" x="-102.268494" y="17.022596" z="-46.856075" amount="1" RefreshTime="10" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="13571FF7F027451E931FDF9E636B7166" Desc="食人花" config="FB_yuhuidongxue_0039" MaxRefreshCount="1" x="-104.725716" y="16.544147" z="-42.395622" amount="1" RefreshTime="10" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="076C3FD5678247D38F1BA80CFEF02254" Desc="食人花" config="FB_yuhuidongxue_0039" MaxRefreshCount="1" x="-107.692551" y="15.684093" z="-34.595516" amount="1" RefreshTime="10" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="3DA52AA8034C4E30A0AC33D80E654702" Desc="食人花" config="FB_yuhuidongxue_0039" MaxRefreshCount="1" x="-111.11441" y="13.75918" z="-40.399406" amount="1" RefreshTime="10" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="9D8DEAD7FCD4489ABACAA90189FFEC61" Desc="食人花" config="FB_yuhuidongxue_0039" MaxRefreshCount="1" x="-136.486832" y="12.401337" z="-97.272995" amount="1" RefreshTime="10" fOrg="0" IsPersistent="1">
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="639ABA4815704220BE1092D62312F29A" Desc="蜘蛛卵" config="FB_yuhuidongxue_0036" MaxRefreshCount="1" x="-4.983117" y="34.827061" z="29.100454" amount="1" RefreshTime="1" fOrg="0" IsPersistent="1"/>
+	<Object Guid="E8B50BD94307404ABDE6079EB20DE917" Desc="蜘蛛卵" config="FB_yuhuidongxue_0036" MaxRefreshCount="1" x="-7.508644" y="34.538074" z="43.640186" amount="1" RefreshTime="1" fOrg="2.250007" IsPersistent="1">
+		<Event EventId="5" Processor="102_npc_kunnanzhizhu_6"/>
+		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
+	</Object>
+	<Object Guid="471B5D06892B4FF7B285C8B8A09E4397" Desc="传送门" config="CloneDoor_yuhuidongxue_0002" MaxRefreshCount="1" x="-108.693085" y="35.398529" z="52.793232" IsY="0" Radius="1" amount="1" fOrg="2.425004"/>
+	<Object Guid="7245AF7285B5455ABE9F20D73BC3F2A5" Desc="仇二" config="npc_yuhuidongxue_0001" x="-6.537184" y="16.883001" z="-156.093643" fOrg="1.260002" amount="1" IsPersistent="1" MaxRefreshCount="5" IsY="0" Radius="0" RefreshTime="5">
+		<Event EventId="601" Processor="102_quest_nienan_taopao2"/>
+	</Object>
+	<Object Guid="D5006A89BDF3460BA54137EF766602E4" Desc="树根" config="FB_yuhuidongxue_0045" MaxRefreshCount="1" x="-5.263769" y="16.678457" z="-71.096413" IsY="0" Radius="0" fOrg="-0.11" amount="1" IsPersistent="0"/>
+	<Object Guid="8B7E4C3ECCDC43BDA5F6F8B940EBB355" Desc="蜘蛛卵2" config="FB_yuhuidongxue_0047_1" MaxRefreshCount="1" x="-19.575481" y="52.901001" z="-21.963356" IsY="0" Radius="1" fOrg="0"/>
+	<Object Guid="9E1A7E68ECD04EF09AF6B5FC65C9E5F5" Desc="蜘蛛卵2" config="FB_yuhuidongxue_0047_1" MaxRefreshCount="-1" x="-55.75061" y="12.002168" z="-29.472569" IsY="0" Radius="0" fOrg="0" RefreshTime="120" amount="1" IsPersistent="0">
+		<Event EventId="23" Processor="102_zhizhuzibao3"/>
+	</Object>
+	<Object Guid="C934E6D560C849EEAC1574849C0B3280" Desc="蜘蛛卵2" config="FB_yuhuidongxue_0047_1" MaxRefreshCount="1" x="-66.658478" y="11.550669" z="-4.444438" IsY="0" Radius="0" fOrg="-1.415927" amount="1" IsPersistent="0" RefreshTime="120">
+		<Event EventId="23" Processor="102_zhizhuzibao4_1"/>
+	</Object>
+	<Object Guid="198260F5512542EAAD8CD9EB39B41E33" Desc="蜘蛛卵2" config="FB_yuhuidongxue_0047_1" MaxRefreshCount="1" x="-90.629967" y="11.614779" z="-7.072735" IsY="0" Radius="0" fOrg="-1.415927" amount="1" RefreshTime="120" IsPersistent="0">
+		<Event EventId="23" Processor="102_zhizhuzibao5_1"/>
+	</Object>
+	<Object Guid="467ACB5778784DECB576A2875377B298" Desc="蜘蛛卵2" config="FB_yuhuidongxue_0047_1" MaxRefreshCount="-1" x="-106.296478" y="10.816029" z="17.150167" IsY="0" Radius="0" fOrg="0" amount="1" RefreshTime="120" IsPersistent="0">
+		<Event EventId="23" Processor="102_zhizhuzibao6_1"/>
+	</Object>
+	<Object Guid="AAE2AB6EA8C645BAB91E3AF0FDA83BED" Desc="蜘蛛卵2" config="FB_yuhuidongxue_0047_1" MaxRefreshCount="-1" x="-130.913986" y="11.689437" z="15.837358" IsY="0" Radius="0" fOrg="0" amount="1" RefreshTime="120" IsPersistent="0">
+		<Event EventId="23" Processor="102_zhizhuzibao7_1"/>
+	</Object>
+	<Object Guid="D7E90320A8254603BFFE94E94A2A5B3E" Desc="地刺" config="Skill_yuhuidongxue_0001" MaxRefreshCount="1" x="-120.816605" y="10.793801" z="18.697794" IsY="0" Radius="0" amount="1" fOrg="1.545016" IsPersistent="1"/>
+	<Object Guid="BA1BDEA13260401A821B8767B0828D9A" Desc="地刺" config="Skill_yuhuidongxue_0001" MaxRefreshCount="1" x="-100.182922" y="10.440195" z="13.445086" IsY="0" Radius="0" amount="1" fOrg="2.190002" IsPersistent="1"/>
+	<Object Guid="344DA96A5BC547C4A52E5AD24435C483" Desc="地刺" config="Skill_yuhuidongxue_0001" MaxRefreshCount="1" x="-104.638405" y="10.794308" z="5.431231" IsY="0" Radius="0" amount="1" fOrg="2.305002" IsPersistent="1"/>
+	<Object Guid="F9250E8443B44F3EB9D2A41EE6082805" Desc="地刺" config="Skill_yuhuidongxue_0001" MaxRefreshCount="1" x="-102.954552" y="10.288078" z="7.984283" IsY="0" Radius="0" amount="1" fOrg="2.210002" IsPersistent="1"/>
+	<Object Guid="5AD4F494663042AC94AE6057BA4600D8" Desc="地刺" config="Skill_yuhuidongxue_0001" MaxRefreshCount="1" x="-101.533302" y="10.155122" z="10.746506" IsY="0" Radius="0" amount="1" fOrg="2.020003" IsPersistent="1"/>
+	<Object Guid="F3752B7DE3974A418ABD1601760190EC" Desc="地刺" config="Skill_yuhuidongxue_0001" MaxRefreshCount="1" x="-98.793762" y="10.760001" z="15.988712" IsY="0" Radius="0" amount="1" fOrg="2.050004" IsPersistent="1"/>
+	<Object Guid="60D396177E8E40D48A58EC7969728FFB" Desc="血荆棘" config="FB_yuhuidongxue_0046" MaxRefreshCount="1" x="-163.235107" y="91.742004" z="-50.611446" IsY="0" Radius="0" amount="1" sx="1.5" sy="1.5" sz="1.5" fOrg="0" IsPersistent="0"/>
+	<Object Guid="DD2412C97C734304BA60F05FA5154412" Desc="火球" config="FB_yuhuidongxue_0034" MaxRefreshCount="1" x="-211.677582" y="9.914304" z="-54.939991" IsY="0" Radius="0" PatrolMode="2" PathID="yuhui01" amount="1" sx="3" sy="3" sz="3" fOrg="-1.025002" IsPersistent="0">
+		<Event EventId="23" Processor="102_npc_gunshi"/>
+	</Object>
+	<Object Guid="39A14AEFA7334A80B91DD8EE85AB634D" Desc="食人花" config="FB_yuhuidongxue_0047" MaxRefreshCount="1" x="-232.867142" y="10.43447" z="-42.676136" IsY="0" Radius="0" amount="1" sx="0.5" sy="0.5" sz="0.5" fOrg="0.435003" IsPersistent="0" RefreshTime="2"/>
+	<Object Guid="0993F8A6E7094BFFAD738F55B44D59ED" Desc="食人花" config="FB_yuhuidongxue_0047" MaxRefreshCount="1" x="-221.3452" y="11.484295" z="12.901116" IsY="0" Radius="0" amount="1" fOrg="-1.039999" IsPersistent="0" RefreshTime="2"/>
+	<Object Guid="E2DD86F1528447DE85051E4570FB8324" Desc="食人花" config="FB_yuhuidongxue_0047" MaxRefreshCount="1" x="-242.11087" y="10.733485" z="2.825778" IsY="0" Radius="0" amount="1" fOrg="0.970001" IsPersistent="0"/>
+	<Object Guid="A2939C2CC3AB4D7EAB5352BC2FADBDE3" Desc="食人花" config="FB_yuhuidongxue_0047" MaxRefreshCount="1" x="-238.440033" y="11.095122" z="-16.658327" IsY="0" Radius="0" amount="1" fOrg="0.785" IsPersistent="0" NeedRotate="0"/>
+	<Object Guid="AD2A67FD3E24401B838D4ADCF970BC4B" Desc="食人花" config="FB_yuhuidongxue_0047" MaxRefreshCount="1" x="-228.208862" y="11.349439" z="-51.55764" IsY="0" Radius="0" fOrg="1.255004" IsPersistent="0" amount="1" RefreshTime="3"/>
+	<Object Guid="6FB7AFECF37342EC84376A27EF09FEEC" Desc="被毒打的冒险家" config="npc_yuhuidongxue_0002" MaxRefreshCount="1" x="64.481911" y="15.224141" z="-121.742912" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="48A32DF3CB7741AB9CB19BC588BFD121" Desc="被抓住的冒险者" config="npc_yuhuidongxue_0003" MaxRefreshCount="1" x="93.154915" y="15.224141" z="-133.665344" amount="1" fOrg="-1.925004" IsPersistent="0"/>
+	<Object Guid="A1362C6503D34B6780E1C3C12CC380C8" Desc="被抓住的村民" config="npc_yuhuidongxue_0004" MaxRefreshCount="1" x="93.080956" y="15.224141" z="-130.33696" amount="1" fOrg="-1.425008" IsPersistent="0"/>
+	<Object Guid="D316E3A41913485793357AE82B5DC122" Desc="被抓住的村民" config="npc_yuhuidongxue_0004" x="92.996384" y="15.224141" z="-137.230698" amount="1" fOrg="-1.815003" IsPersistent="0"/>
+	<Object Guid="F3062D37FD014CE2858D2C54B7583B1C" Desc="被抓住的冒险者" config="npc_yuhuidongxue_0003" MaxRefreshCount="1" x="70.959641" y="15.224141" z="-142.999771" PeaceAction="diedownloop" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="940FECEBD3624EE980DE2BB6EBA53B99" Desc="布尔诺" config="npc_yuhuidongxue_0005" MaxRefreshCount="1" x="-86.817657" y="34.779636" z="43.152168" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="7DF1BC1D2CA948D09390784B4C174C94" Desc="蜘蛛卵2" config="FB_yuhuidongxue_0047_1" MaxRefreshCount="-1" x="-27.285774" y="13.109714" z="-58.148033" IsY="0" Radius="0" amount="1" RefreshTime="120" fOrg="0" IsPersistent="0">
+		<Event EventId="23" Processor="102_zhizhuzibao_1"/>
+	</Object>
+	<Object Guid="7C8936D126AF4EA088E421152038EA91" Desc="蜘蛛卵2" config="FB_yuhuidongxue_0047_1" MaxRefreshCount="-1" x="-33.437901" y="13.092806" z="-28.110504" IsY="0" Radius="0" amount="1" RefreshTime="120" fOrg="0" IsPersistent="0">
+		<Event EventId="23" Processor="102_zhizhuzibao2_1"/>
+	</Object>
+	<Object Guid="FA9B90ABCE33453895A853B60F0A1E63" Desc="FB_yuhuidongxue_0048" config="FB_yuhuidongxue_0048" MaxRefreshCount="1" x="-69.205841" y="34.499001" z="48.216091" amount="1" fOrg="0" IsPersistent="0">
+		<Event EventId="23" Processor="102_Xitong"/>
+	</Object>
+	<Object Guid="1C44992B200544B8A2F75533EF881C95" Desc="FB_yuhuidongxue_0049" config="FB_yuhuidongxue_0049" MaxRefreshCount="1" x="-141.768463" y="10.118959" z="-56.257435" amount="1" fOrg="0" IsPersistent="0">
+		<Event EventId="601" Processor="102_npc_BossB5"/>
+	</Object>
+	<Object Guid="BCDB10B521E84CD4B18D125AA7597118" Desc="地刺" config="Skill_yuhuidongxue_0001" MaxRefreshCount="1" x="-56.325813" y="10.778716" z="-20.151737" IsY="0" Radius="0" amount="1" fOrg="2.229998" IsPersistent="1"/>
+	<Object Guid="C1A58F940D4247A5B0F0736BE3D5C550" Desc="地刺" config="Skill_yuhuidongxue_0001" MaxRefreshCount="1" x="-54.51907" y="11.297608" z="-17.307966" IsY="0" Radius="0" amount="1" fOrg="2.15" IsPersistent="1"/>
+	<Object Guid="E3BF50179DB24275A88ED4F1CA4C06F7" Desc="地刺" config="Skill_yuhuidongxue_0001" MaxRefreshCount="1" x="-59.607613" y="11.780266" z="-25.207083" IsY="0" Radius="0" amount="1" fOrg="2.225009" IsPersistent="1"/>
+	<Object Guid="D4353A053D7347D7AD60B62166611AF4" Desc="地刺" config="Skill_yuhuidongxue_0001" MaxRefreshCount="1" x="-67.997299" y="10.832761" z="-13.736526" IsY="0" Radius="0" amount="1" fOrg="2.285007" IsPersistent="1"/>
+	<Object Guid="3AB0C28BC3BF4930ADD4E2AE8671784E" Desc="地刺" config="Skill_yuhuidongxue_0001" MaxRefreshCount="1" x="-131.948746" y="11.155959" z="20.759333" IsY="0" Radius="0" amount="1" RefreshTime="1" fOrg="1.610002" IsPersistent="1"/>
+	<Object Guid="905413A79F7E4140B246F197E6488CB9" Desc="地刺" config="Skill_yuhuidongxue_0001" MaxRefreshCount="1" x="-151.693237" y="10.582917" z="21.780169" IsY="0" Radius="0" amount="1" fOrg="-1.535001" IsPersistent="1"/>
+	<Object Guid="72A7E1288D7046C595590DE3BAD795E4" Desc="地刺" config="Skill_yuhuidongxue_0001" MaxRefreshCount="1" x="-45.735062" y="10.908747" z="-30.463991" amount="1" RefreshTime="5" fOrg="1.965001" IsPersistent="0"/>
+	<Object Guid="4D66E29C54C049C0B5F16EC34C66AE76" Desc="地刺" config="Skill_yuhuidongxue_0001" MaxRefreshCount="1" x="-44.507431" y="10.734532" z="-27.903028" IsY="0" Radius="0" amount="1" RefreshTime="5" fOrg="2.080002" IsPersistent="0"/>
+	<Object Guid="E7F4072C46F945A6B764248F4774F46D" Desc="地刺" config="Skill_yuhuidongxue_0001" MaxRefreshCount="1" x="-110.7407" y="10.747393" z="19.375427" IsY="0" Radius="0" amount="1" fOrg="1.795002" IsPersistent="1"/>
+	<Object Guid="3F8C9C7683894F1097A140CE48E72873" Desc="地刺" config="Skill_yuhuidongxue_0001" MaxRefreshCount="1" x="-111.323952" y="10.246727" z="16.180782" IsY="0" Radius="0" amount="1" fOrg="1.750002" IsPersistent="1"/>
+	<Object Guid="D1D6560361D343F6B2A717A775F2C911" Desc="地刺" config="Skill_yuhuidongxue_0001" MaxRefreshCount="1" x="-92.527466" y="10.593813" z="-0.158385" IsY="0" Radius="0" amount="1" fOrg="2.210001" IsPersistent="1"/>
+	<Object Guid="D9CB2C81087C404382CC807F7C7FD129" config="FB_yuhuidongxue_0048" MaxRefreshCount="1" x="19.743837" y="7.999001" z="-32.730843" IsY="0" Radius="0" amount="1" fOrg="0" IsPersistent="0" RefreshTime="1">
+		<Event EventId="23" Processor="102_npc_heimu"/>
+	</Object>
+	<Object Guid="14F4CD4CA1AD437096AEDCE943E6CDC4" Desc="食人花" config="FB_yuhuidongxue_0047_01" MaxRefreshCount="1" x="-213.261124" y="11.577975" z="40.145874" IsY="0" Radius="0" amount="1" sx="2" sy="2" sz="2" fOrg="2.745004" IsPersistent="0"/>
+	<Object Guid="93876C76FF3341B9BFA7A0BF81CD239F" Desc="食人花" config="FB_yuhuidongxue_0047_02" MaxRefreshCount="1" x="-241.297928" y="10.132177" z="11.953254" IsY="0" Radius="0" amount="1" fOrg="2.275012" IsPersistent="0"/>
+	<Object Guid="6B528E63A32A43EB8BAB0FF7F3615453" Desc="食人花" config="FB_yuhuidongxue_0047_02" MaxRefreshCount="1" x="-226.876007" y="10.870483" z="-9.877613" IsY="0" Radius="0" amount="1" sx="2" sy="2" sz="2" fOrg="-0.935006" IsPersistent="0"/>
+	<Object Guid="38632BE7CD5F4D32862F69FFC0DDA725" Desc="食人花" config="FB_yuhuidongxue_0047_01" MaxRefreshCount="1" x="-223.573593" y="11.065681" z="-32.765648" IsY="0" Radius="0" amount="1" sx="1.5" sy="1.5" sz="1.5" fOrg="-0.840013" IsPersistent="0"/>
+	<Object Guid="12C0B38BE51B447D8B44651495157169" Desc="食人花" config="FB_yuhuidongxue_0047_01" MaxRefreshCount="1" x="-207.082901" y="11.345523" z="-65.54776" IsY="0" Radius="0" amount="1" sx="1.5" sy="1.5" sz="1.5" fOrg="0" IsPersistent="0"/>
+	<Object Guid="E66A48E60BB3420DAC63F1579FB7C55C" Desc="食人花" config="FB_yuhuidongxue_0047_02" MaxRefreshCount="1" x="-233.920959" y="10.762104" z="-34.872398" IsY="0" Radius="0" amount="1" fOrg="1.685003" IsPersistent="0"/>
+	<Object Guid="D1749022F85D435093D90CBADFB39B57" Desc="洞穴蜘蛛" config="FB_yuhuidongxue_0057" MaxRefreshCount="1" x="-38.224426" y="34.826752" z="40.396965" IsY="0" Radius="0" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="7C14ACAAC0534CBD8D786E5FA7B31983" Desc="洞穴蜘蛛" config="FB_yuhuidongxue_0057" MaxRefreshCount="1" x="-31.479017" y="35.0089" z="56.798279" IsY="0" Radius="0" amount="1" fOrg="-1.760007" IsPersistent="0"/>
+	<Object Guid="CA70587A49DB4F7FBFA7A29015BFF3FC" Desc="洞穴蜘蛛" config="FB_yuhuidongxue_0057" MaxRefreshCount="1" x="-20.828583" y="34.767479" z="36.633305" IsY="0" Radius="0" amount="1" sx="1.2" sy="1.2" sz="1.2" fOrg="0" IsPersistent="0"/>
+	<Object Guid="A6E03899B0F04A37BB1CED8B4B6BDF26" Desc="洞穴蜘蛛" config="FB_yuhuidongxue_0057" MaxRefreshCount="1" x="-9.476891" y="34.610764" z="45.212681" IsY="0" Radius="0" PatrolMode="0" PatrolRange="3" amount="1" fOrg="-2.895" IsPersistent="0"/>
+	<Object Guid="CFA80D8D6B0C4B0597A8DBAF46B587B5" Desc="洞穴蜘蛛" config="FB_yuhuidongxue_0057" MaxRefreshCount="1" x="-2.610455" y="34.843601" z="29.104973" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" sx="1.1" sy="1.1" sz="1.1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="2A7D712FAA1E41A5865F10EA75DAB0C0" Desc="洞穴蜘蛛" config="FB_yuhuidongxue_0057" MaxRefreshCount="1" x="8.877454" y="34.82436" z="32.743843" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" fOrg="-1.205002" IsPersistent="0"/>
+	<Object Guid="113DB8B183E84000825B7F4CB8C29B54" Desc="洞穴蜘蛛" config="FB_yuhuidongxue_0057" MaxRefreshCount="1" x="12.916883" y="34.579609" z="12.524525" IsY="0" Radius="0" amount="1" sx="0.6" sy="0.6" sz="0.6" fOrg="0" IsPersistent="0"/>
+	<Object Guid="5AC063FEEF16442FB62C3DA9104858EE" Desc="洞穴蜘蛛" config="FB_yuhuidongxue_0057" MaxRefreshCount="1" x="21.939569" y="34.53455" z="12.887622" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="7F6DC43B4CAA48EFAB1CC1EAB002C245" Desc="洞穴蜘蛛" config="FB_yuhuidongxue_0057" MaxRefreshCount="1" x="18.520262" y="34.815002" z="-15.624799" IsY="0" Radius="0" amount="1" sx="2.3" sy="2.3" sz="2.3" fOrg="0.745001" IsPersistent="0"/>
+	<Object Guid="94AE2705A50D41649F478728AA88B7DA" Desc="维泰格平民" config="FB_yuhuidongxue_0054" MaxRefreshCount="1" x="48.724655" y="7.788847" z="-80.668198" IsY="0" Radius="0" PeaceAction="pe_0h_stand1" amount="1" fOrg="-1.095005" IsPersistent="0">
+		<Event EventId="4" Processor="102_npc_shijian01"/>
+		<Event EventId="21" Processor="102_npc_shijian02"/>
+		<Event EventId="601" Processor="102_npc_shijian03"/>
+	</Object>
+	<Object Guid="CBA32FEA879B4F638E68C04ABE60F976" Desc="维泰格卫兵" config="FB_yuhuidongxue_0055" MaxRefreshCount="1" x="65.142479" y="15.223231" z="-93.044212" IsY="0" Radius="0" amount="1" fOrg="-0.965003" IsPersistent="0"/>
+	<Object Guid="60114CC08EF040359EBDD7F50A633716" Desc="维泰格卫兵" config="FB_yuhuidongxue_0055" MaxRefreshCount="1" x="60.741024" y="15.214651" z="-94.882019" IsY="0" Radius="0" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="61F9135981804120A8F4FA179A305034" Desc="维泰格卫兵" config="FB_yuhuidongxue_0055" MaxRefreshCount="1" x="64.4114" y="15.224141" z="-102.811447" IsY="0" Radius="0" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="C22655A0B6B34B02B8C9A6C748F79356" Desc="维泰格卫兵" config="FB_yuhuidongxue_0055" MaxRefreshCount="1" x="66.13829" y="15.224141" z="-101.434822" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" RefreshTime="10" fOrg="-2.554997" IsPersistent="0"/>
+	<Object Guid="69631C77EF384CF39E6863716F9C43ED" Desc="维泰格斥候" config="FB_yuhuidongxue_0053" MaxRefreshCount="1" x="78.055298" y="15.224141" z="-105.016235" IsY="0" Radius="0" PatrolMode="0" PatrolRange="6" amount="1" fOrg="2.863184" IsPersistent="0"/>
+	<Object Guid="EDAFC6B0FFC34DBFA2C04F33B1EB6ECD" Desc="维泰格斥候" config="FB_yuhuidongxue_0053" MaxRefreshCount="1" x="81.208122" y="15.224141" z="-107.389038" IsY="0" Radius="0" PatrolMode="0" PatrolRange="5" amount="1" fOrg="-2.68" IsPersistent="0"/>
+	<Object Guid="917C17E426F746EAA999E092C4A5B2CE" Desc="维泰格卫兵" config="FB_yuhuidongxue_0055" MaxRefreshCount="1" x="63.732738" y="15.224141" z="-120.690178" IsY="0" Radius="0" amount="1" fOrg="2.580001" IsPersistent="0"/>
+	<Object Guid="7E4B70970A024FF79B25F0F249FB331D" Desc="维泰格卫兵" config="FB_yuhuidongxue_0055" MaxRefreshCount="1" x="66.056824" y="15.224141" z="-124.251816" IsY="0" Radius="0" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="20B8B7C2587542CA9426C1A73F380BE2" Desc="维泰格猎杀者" config="FB_yuhuidongxue_0056" MaxRefreshCount="1" x="67.555489" y="15.224041" z="-122.52343" IsY="0" Radius="0" amount="1" fOrg="-2.06" IsPersistent="0"/>
+	<Object Guid="1E478F16D6A54086B4E9C48E46B4DED7" Desc="维泰格祭司" config="FB_yuhuidongxue_0050" MaxRefreshCount="1" x="62.05418" y="15.224141" z="-124.320442" amount="1" fOrg="0.755001" IsPersistent="0"/>
+	<Object Guid="601CE00333DB4302B6FB1DB8436EED84" Desc="维泰格猎杀者" config="FB_yuhuidongxue_0056" MaxRefreshCount="1" x="72.332878" y="15.224041" z="-133.337906" IsY="0" Radius="0" PatrolMode="0" PatrolRange="3" amount="1" fOrg="2.260002" IsPersistent="0"/>
+	<Object Guid="888D5479A4084BBD95B1278D8312078F" Desc="维泰格猎杀者" config="FB_yuhuidongxue_0056" MaxRefreshCount="1" x="85.302322" y="15.224141" z="-130.460327" amount="1" fOrg="1.510001" IsPersistent="0"/>
+	<Object Guid="A2E9D8F76B254A2F8063BF2C488C496C" Desc="维泰格猎杀者" config="FB_yuhuidongxue_0056" MaxRefreshCount="1" x="85.52491" y="15.224141" z="-132.410126" amount="1" fOrg="1.370003" IsPersistent="0"/>
+	<Object Guid="20DEE997AE96413F817C02BEC988E765" Desc="维泰格猎杀者" config="FB_yuhuidongxue_0056" MaxRefreshCount="1" x="85.642868" y="15.224141" z="-134.124939" amount="1" fOrg="1.490001" IsPersistent="0"/>
+	<Object Guid="D75FE756125649B082E6E6419623F41A" Desc="维泰格猎杀者" config="FB_yuhuidongxue_0056" MaxRefreshCount="1" x="85.888031" y="15.224141" z="-135.645386" amount="1" fOrg="0.805002" IsPersistent="0"/>
+	<Object Guid="828371B2033D433591181D11960A6C9B" Desc="维泰格卫兵" config="FB_yuhuidongxue_0055" MaxRefreshCount="1" x="90.325211" y="15.224141" z="-142.380203" IsY="0" Radius="0" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="CCD353D919D8493E9400A98FB350627C" Desc="维泰格卫兵" config="FB_yuhuidongxue_0055" MaxRefreshCount="1" x="92.381966" y="15.224141" z="-125.068161" amount="1" fOrg="-2.75" IsPersistent="0"/>
+	<Object Guid="7CBC0595979944F39EE18F459CB081E0" Desc="维泰格卫兵" config="FB_yuhuidongxue_0055" MaxRefreshCount="1" x="85.894905" y="15.224041" z="-148.032745" IsY="0" Radius="0" PatrolMode="0" PatrolRange="10" amount="1" fOrg="-1.625004" IsPersistent="0"/>
+	<Object Guid="E3455C86B0B148FC859D20FF0E342830" Desc="维泰格卫兵" config="FB_yuhuidongxue_0055" MaxRefreshCount="1" x="78.974678" y="15.224041" z="-149.692078" IsY="0" Radius="0" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="4D121253F4A44CEAAA496F5E95F5FD05" Desc="维泰格卫兵" config="FB_yuhuidongxue_0055" MaxRefreshCount="1" x="86.752975" y="15.224141" z="-161.562225" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="F4246D567EA140C9B03FEF8F404CB324" Desc="维泰格卫兵" config="FB_yuhuidongxue_0055" MaxRefreshCount="1" x="80.649979" y="15.224141" z="-161.5177" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="62F8180B59D2489C82F207B1BEE48D15" Desc="维泰格长矛手" config="FB_yuhuidongxue_0052" MaxRefreshCount="1" x="73.039093" y="15.242365" z="-141.522034" amount="1" fOrg="-2.843184" IsPersistent="0"/>
+	<Object Guid="2634FA8E463246D2A512F9D705BC015B" Desc="维泰格长矛手" config="FB_yuhuidongxue_0052" MaxRefreshCount="1" x="69.293602" y="15.224141" z="-141.527969" amount="1" fOrg="2.465001" IsPersistent="0"/>
+	<Object Guid="32E0FEE396A946FE95D5F7D5B4E81DC4" Desc="维泰格平民" config="FB_yuhuidongxue_0054" MaxRefreshCount="1" x="43.517532" y="13.048615" z="-100.575562" IsY="0" Radius="1" amount="1" RefreshTime="10" fOrg="-0.515001" IsPersistent="0"/>
+	<Object Guid="A8EBB0F4A1A649248B6D48E952AA1A42" Desc="维泰格平民" config="FB_yuhuidongxue_0054" MaxRefreshCount="1" x="42.117424" y="13.048615" z="-99.083733" IsY="0" Radius="0" amount="1" RefreshTime="10" fOrg="2.435001" IsPersistent="0"/>
+	<Object Guid="81A0931EE1F648168D21B3528002F1EB" Desc="维泰格平民" config="FB_yuhuidongxue_0054" MaxRefreshCount="1" x="33.050774" y="13.523001" z="-108.654114" IsY="0" Radius="0" PeaceAction="pe_0h_stand2" amount="1" fOrg="-2.689999" IsPersistent="0"/>
+	<Object Guid="7A7E46301F484F319180E349C21DD6B4" Desc="维泰格平民" config="FB_yuhuidongxue_0054" MaxRefreshCount="1" x="31.271933" y="13.523001" z="-108.633385" IsY="0" Radius="0" PeaceAction="pe_0h_stand2" amount="1" fOrg="2.505002" IsPersistent="0"/>
+	<Object Guid="49EA298723554C0BBEF07D275E169ACC" Desc="维泰格平民" config="FB_yuhuidongxue_0054" MaxRefreshCount="1" x="33.308594" y="13.523001" z="-110.824593" IsY="0" Radius="0" PeaceAction="pe_0h_stand2" amount="1" fOrg="-1.005" IsPersistent="0"/>
+	<Object Guid="3C5B58B445E2440A9A16E331B1CC50E2" Desc="维泰格祭司" config="FB_yuhuidongxue_0050" MaxRefreshCount="1" x="31.224854" y="13.523001" z="-110.900162" IsY="0" Radius="0" PeaceAction="pe_0h_stand1" amount="1" fOrg="0.525" IsPersistent="0"/>
+	<Object Guid="E63C35CFD8A64E37BA775BA18610B6FD" Desc="维泰格卫兵" config="FB_yuhuidongxue_0058" MaxRefreshCount="1" x="41.424744" y="13.073001" z="-116.810341" IsY="0" Radius="0" PatrolMode="1" PathID="yuhui02" amount="1" RefreshTime="10" fOrg="1.360004" IsPersistent="0"/>
+	<Object Guid="53078F4620F4476C8AD7CD5B3ED36951" Desc="维泰格卫兵" config="FB_yuhuidongxue_0058" MaxRefreshCount="1" x="44.456646" y="13.073001" z="-128.107391" IsY="0" Radius="0" amount="1" fOrg="2.225001" IsPersistent="0"/>
+	<Object Guid="293CE517E330438B8ED8E89F1D84278A" Desc="维泰格卫兵" config="FB_yuhuidongxue_0058" MaxRefreshCount="1" x="46.899277" y="13.048615" z="-129.507813" IsY="0" Radius="0" PeaceAction="pe_0h_stand1" amount="1" fOrg="-1.010001" IsPersistent="0"/>
+	<Object Guid="5B2F12A1770947EE86873FF0AC22FB3C" Desc="维泰格卫兵" config="FB_yuhuidongxue_0055" MaxRefreshCount="1" x="40.151066" y="13.073001" z="-134.651794" IsY="0" Radius="1" amount="1" fOrg="1.010004" IsPersistent="0"/>
+	<Object Guid="29892991808F4CA19BC77813F0CFC3EC" Desc="维泰格卫兵" config="FB_yuhuidongxue_0055" MaxRefreshCount="1" x="43.168686" y="13.048615" z="-135.144211" IsY="0" Radius="0" PeaceAction="pe_0h_stand1" amount="1" fOrg="-1.075003" IsPersistent="0"/>
+	<Object Guid="CDD68BFFB2EB46C6B23736590F9CFFF6" Desc="维泰格平民" config="FB_yuhuidongxue_0054" MaxRefreshCount="1" x="41.682617" y="13.073001" z="-133.032394" IsY="0" Radius="0" PeaceAction="pe_0h_stand2" amount="1" fOrg="2.990001" IsPersistent="0"/>
+	<Object Guid="365D4DCA7CEA4075AA141AC9AAC95C84" Desc="维泰格卫兵" config="FB_yuhuidongxue_0055" MaxRefreshCount="1" x="28.989054" y="13.073001" z="-138.373184" IsY="0" Radius="0" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="7236855635E045F0A7DD0F41333B6B92" Desc="维泰格卫兵" config="FB_yuhuidongxue_0055" MaxRefreshCount="1" x="20.949032" y="13.073001" z="-138.156616" IsY="0" Radius="0" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="E779F784BBDC4491A06A13B69264EFB3" Desc="维泰格卫兵" config="FB_yuhuidongxue_0058" MaxRefreshCount="1" x="25.979288" y="13.523001" z="-131.017563" IsY="0" Radius="0" PatrolMode="0" PatrolRange="6" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="28F2428971A64BAFA2170F2675115CC1" Desc="维泰格平民" config="FB_yuhuidongxue_0054" MaxRefreshCount="1" x="29.856956" y="14.147" z="-121.971626" IsY="0" Radius="0" PeaceAction="pe_0h_stand1" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="51ED02DC1E2041C1A626CF42476D109C" Desc="维泰格平民" config="FB_yuhuidongxue_0054" MaxRefreshCount="1" x="20.935049" y="14.150291" z="-123.927559" IsY="0" Radius="0" PeaceAction="pe_0h_stand1" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="BDA8CAEAE3164D418D2B58304B2309D3" Desc="维泰格平民" config="FB_yuhuidongxue_0054" MaxRefreshCount="1" x="18.792418" y="13.524644" z="-123.890709" IsY="0" Radius="0" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="8E43244FE8354E40A156839239840E6C" Desc="维泰格卫兵" config="FB_yuhuidongxue_0058" MaxRefreshCount="1" x="22.637167" y="13.524644" z="-102.659225" IsY="0" Radius="0" PatrolMode="0" PatrolRange="6" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="8AF6EEA957CF472A88BD63F72930098F" Desc="维泰格卫兵" config="FB_yuhuidongxue_0058" MaxRefreshCount="1" x="8.410655" y="13.073001" z="-107.032722" IsY="0" Radius="0" PatrolMode="0" PatrolRange="6" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="5B48F213EEA4420AB9E3A53788DCECE6" Desc="维泰格卫兵" config="FB_yuhuidongxue_0058" MaxRefreshCount="1" x="5.790189" y="13.074823" z="-116.049271" IsY="0" Radius="0" PatrolMode="0" PatrolRange="6" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="0AD39C203C9E466093606CBBCD88D8D7" Desc="维泰格卫兵" config="FB_yuhuidongxue_0058" MaxRefreshCount="1" x="13.240073" y="13.524644" z="-127.651527" IsY="0" Radius="0" PatrolMode="0" PatrolRange="6" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="4869D76420CA4A039BC35AD0870EE1B4" Desc="维泰格卫兵" config="FB_yuhuidongxue_0058" MaxRefreshCount="1" x="18.303938" y="13.073001" z="-133.53479" IsY="0" Radius="0" PatrolMode="0" PatrolRange="6" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="CB7E2271F5714B35BAF231B9FABD9C0E" Desc="维泰格卫兵" config="FB_yuhuidongxue_0055" MaxRefreshCount="1" x="6.690055" y="13.038451" z="-132.382034" IsY="0" Radius="0" amount="1" fOrg="2.590001" IsPersistent="0"/>
+	<Object Guid="AA629E4011F748268B21A9A08B94FE64" Desc="维泰格卫兵" config="FB_yuhuidongxue_0055" MaxRefreshCount="1" x="6.590524" y="13.048615" z="-135.275406" IsY="0" Radius="0" PeaceAction="pe_0h_stand1" amount="1" fOrg="0" IsPersistent="0"/>
+	<Object Guid="C8F64BD9567040AF903231118519435A" Desc="维泰格卫兵" config="FB_yuhuidongxue_0055" MaxRefreshCount="1" x="8.074367" y="13.073001" z="-134.192673" IsY="0" Radius="0" PeaceAction="pe_0h_stand1" amount="1" fOrg="-1.345009" IsPersistent="0"/>
+	<Object Guid="5ACB48DDB81B415DA725CD87AADDB199" Desc="撒门拉托_余晖" config="FB_yuhuidongxue_0059" MaxRefreshCount="1" x="-37.158867" y="14.890723" z="-110.851578" IsY="0" Radius="1" amount="1" fOrg="0.855002" IsPersistent="0"/>
+	<Object Guid="CAFB3FB07F2A4B4BB31BA2D90E352284" Desc="洞穴蜘蛛" config="FB_yuhuidongxue_0057" MaxRefreshCount="1" x="2.321006" y="34.932182" z="22.314894" IsY="0" Radius="0" amount="1" sx="0.6" sy="0.6" sz="0.6" fOrg="0" IsPersistent="0"/>
+	<Object Guid="B61110BB8BEA4AC88DED31BFE643F7F3" Desc="维泰格卫兵" config="FB_yuhuidongxue_0055" Layer="" MaxRefreshCount="1" x="27.773674" y="17.077002" z="-157.081604" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="pe_0h_stand1" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="2.845" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="F6B22B80DEEA4634B9DEA8421833A5B4" Desc="维泰格卫兵" config="FB_yuhuidongxue_0055" Layer="" MaxRefreshCount="1" x="30.194626" y="17.077002" z="-157.233871" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="pe_0h_stand1" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="-2.520002" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="C6A0FAC2D15B472CB73EA440CDC80832" Desc="维泰格平民" config="FB_yuhuidongxue_0054" Layer="" MaxRefreshCount="1" x="28.829008" y="17.077002" z="-159.627136" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="EB65043352204924BEE6E30B5E406B3B" Desc="维泰格平民" config="FB_yuhuidongxue_0054" Layer="" MaxRefreshCount="1" x="5.254011" y="16.437162" z="-156.567291" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="26450907ABB046189E3A203B2A846699" Desc="维泰格平民" config="FB_yuhuidongxue_0054" Layer="" MaxRefreshCount="1" x="5.082275" y="16.437162" z="-155.278763" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="-2.974999" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="F686D64064C44123A3BDDFB6B71E5570" Desc="维泰格卫兵" config="FB_yuhuidongxue_0055" Layer="" MaxRefreshCount="1" x="1.477152" y="16.437063" z="-153.902832" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="1.700006" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="2AC1B9D0FBEF46D2AC76FE45A6959FFE" Desc="维泰格卫兵" config="FB_yuhuidongxue_0055" Layer="" MaxRefreshCount="1" x="1.546277" y="16.437063" z="-157.916092" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="1.36" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="5BDAEF5FDEFB45518E389EFF274F259F" Desc="维泰格战斗祭司" config="FB_yuhuidongxue_0051" Layer="" MaxRefreshCount="1" x="-4.760836" y="16.883001" z="-155.961227" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="-1.845003" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="FED93D8116F849A393BB4A678103E3AF" Desc="维泰格战斗祭司" config="FB_yuhuidongxue_0051" Layer="" MaxRefreshCount="1" x="83.617386" y="19.232351" z="-171.215271" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="3817E6A519C445339DFA468A1A6E917A" Desc="洞穴蜘蛛" config="FB_yuhuidongxue_0057" Layer="" MaxRefreshCount="1" x="-104.594009" y="10.450107" z="14.679603" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="B5E38719DFD44C8F9B2F75C67B370161" Desc="洞穴蜘蛛" config="FB_yuhuidongxue_0057" Layer="" MaxRefreshCount="1" x="-85.402344" y="11.592274" z="-8.555156" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="98839468D7AD4A139AEEF41018717F79" Desc="维泰格猎杀者" config="FB_yuhuidongxue_0056" Layer="" MaxRefreshCount="1" x="-192.895233" y="10.328243" z="34.458115" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="6" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="AF47B8CA3B8141B394025A2BD5AD9D08" Desc="维泰格猎杀者" config="FB_yuhuidongxue_0056" Layer="" MaxRefreshCount="1" x="-185.549286" y="10.328354" z="32.61512" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="AB1A01C94F884025A804C889900F8AAA" Desc="维泰格战斗祭司" config="FB_yuhuidongxue_0051" Layer="" MaxRefreshCount="1" x="-172.951935" y="10.374472" z="-62.032185" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="3" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="DFD346B2840644B8B092234AA9892971" Desc="维泰格祭司" config="FB_yuhuidongxue_0050" Layer="" MaxRefreshCount="1" x="-163.722549" y="10.087263" z="-66.072571" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="-1.210003" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="2DE80623990A4EB08E7086ACF2360ACF" Desc="维泰格卫兵" config="FB_yuhuidongxue_0055" Layer="" MaxRefreshCount="1" x="-161.816208" y="10.0977" z="-66.036469" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="-1.255003" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="EFC84B7C38C64FF38B7E0DF8CB338F2F" Desc="维泰格卫兵" config="FB_yuhuidongxue_0055" Layer="" MaxRefreshCount="1" x="-163.296097" y="10.336239" z="-68.228584" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="-0.695" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="08DCCECD07904B779B4C59F058E64133" Desc="维泰格祭司" config="FB_yuhuidongxue_0050" Layer="" MaxRefreshCount="1" x="-164.203033" y="10.132806" z="-50.419273" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="-2.43" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="4278CC1C5F764386A9AC5A6C61E8A4EA" Desc="维泰格卫兵" config="FB_yuhuidongxue_0055" Layer="" MaxRefreshCount="1" x="-162.532272" y="10.132873" z="-49.350449" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="-2.49" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="8CB2DE9E3768446BBC256FC90F4377BE" Desc="维泰格卫兵" config="FB_yuhuidongxue_0055" Layer="" MaxRefreshCount="1" x="-164.745697" y="10.128596" z="-48.270641" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="-2.720002" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="5DBD1A222D984C3AA92318F787204BF1" Desc="格里墨菲_余晖" config="FB_yuhuidongxue_0060" Layer="" MaxRefreshCount="1" x="-144.786819" y="10.149905" z="-57.294041" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="1.485002" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0">
+		<Event EventId="62" Processor="102_npc_BossB1"/>
+		<Event EventId="601" Processor="102_npc_BossB2"/>
+		<Event EventId="5" Processor="102_npc_BossB4"/>
+	</Object>
+	<Object Guid="CF44FB3418DF48BCAC8283A52D2EEC51" Desc="血荆棘" config="FB_yuhuidongxue_0066" Layer="" MaxRefreshCount="1" x="-203.280792" y="11.235336" z="-67.683609" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="B3BABC47BB2542BAA2B2AABCAF427C4F" Desc="血荆棘" config="FB_yuhuidongxue_0066" Layer="" MaxRefreshCount="1" x="-216.988312" y="10.50818" z="-58.405861" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="2" sy="2" sz="2" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="4A6CDC6E4E9E4B8ABC526209CDD9F854" Desc="血荆棘" config="FB_yuhuidongxue_0066" Layer="" MaxRefreshCount="1" x="-222.032593" y="10.691467" z="-36.729362" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="1.5" sy="1.5" sz="1.5" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="DDF4A3BF7E1D48A9A4177524F9DBD17E" Desc="血荆棘" config="FB_yuhuidongxue_0066" Layer="" MaxRefreshCount="1" x="-228.395782" y="10.778133" z="-12.768934" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="2" sy="2" sz="2" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="151085BD32264DE4BB7CC59B587586A2" Desc="血荆棘" config="FB_yuhuidongxue_0066" Layer="" MaxRefreshCount="1" x="-206.309067" y="12.225771" z="21.12026" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="53FFBA4D6B27499DAC96BF815480B238" Desc="血荆棘" config="FB_yuhuidongxue_0066" Layer="" MaxRefreshCount="1" x="-231.079834" y="10.638297" z="25.039598" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="3" sy="3" sz="3" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="E7C65A576E6948FFBE18153F775E4513" Desc="血荆棘" config="FB_yuhuidongxue_0066" Layer="" MaxRefreshCount="1" x="-241.865005" y="10.646602" z="-2.955827" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
+	<Object Guid="B321DEC3621E4E4D90D44DFDB403F3F3" Desc="蜘蛛卵2" config="FB_yuhuidongxue_0047_1" MaxRefreshCount="1" x="-226.295517" y="11.721463" z="8.713259" IsY="0" Radius="0" amount="1" RefreshTime="1" fOrg="0" IsPersistent="0">
+		<Event EventId="23" Processor="102_zhizhuzibao8"/>
+	</Object>
+	<Object Guid="B8BA00604D0Y486E96B95762072A1F10" Desc="蜘蛛卵2" config="FB_yuhuidongxue_0047_1" MaxRefreshCount="1" x="-235.366959" y="11.111773" z="-31.267988" IsY="0" Radius="0" amount="1" fOrg="0" IsPersistent="0">
+		<Event EventId="23" Processor="102_zhizhuzibao9"/>
+	</Object>
+	<Object Guid="233AF4EEADA0O5D881A5764AC479A415" Desc="蜘蛛卵2" config="FB_yuhuidongxue_0047_1" MaxRefreshCount="1" x="-197.938675" y="10.79367" z="-53.174492" IsY="0" Radius="0" amount="1" fOrg="0" IsPersistent="0">
+		<Event EventId="23" Processor="102_zhizhuzibao10"/>
+	</Object>
+</Stage>

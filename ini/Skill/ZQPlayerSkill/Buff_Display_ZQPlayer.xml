@@ -1,0 +1,871 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+	<Property ID="60088" Name="鼓舞" Photo="icon\BG_Skill\skillicon_1084.png" effect="skill_buff_0107"/>
+	<Property ID="310031" Name="挫志怒吼" Photo="icon\buff\skillicon_0464.png" effect="BGskill_82063" ModelGhost="0"/>
+	<Property ID="310032" Name="挫志怒吼" Photo="icon\buff\skillicon_0464.png" effect="BGskill_82063" ModelGhost="0"/>
+	<Property ID="310033" Name="挫志怒吼" Photo="icon\buff\skillicon_0464.png" effect="BGskill_82063" ModelGhost="0"/>
+	<Property ID="310034" Name="挫志怒吼" Photo="icon\buff\skillicon_0464.png" effect="BGskill_82063" ModelGhost="0"/>
+	<Property ID="310035" Name="挫志怒吼" Photo="icon\buff\skillicon_0464.png" effect="BGskill_82063" ModelGhost="0"/>
+	<Property ID="310036" Name="挫志怒吼" Photo="icon\buff\skillicon_0464.png" effect="BGskill_82063" ModelGhost="0"/>
+	<Property ID="310051" Name="坚韧" Photo="icon\BG_Skill\skillicon_1083.png" effect="BGskill_82061" BuffSnd="in_jianrenbaofa_02" Buffjudge="1"/>
+	<Property ID="310052" Name="坚韧" Photo="icon\BG_Skill\skillicon_1083.png" effect="BGskill_82061"/>
+	<Property ID="310053" Name="坚韧" Photo="icon\BG_Skill\skillicon_1083.png" effect="BGskill_82061"/>
+	<Property ID="310054" Name="坚韧" Photo="icon\BG_Skill\skillicon_1083.png" effect="BGskill_82061"/>
+	<Property ID="310055" Name="坚韧" Photo="icon\BG_Skill\skillicon_1083.png" effect="BGskill_82061"/>
+	<Property ID="310056" Name="坚韧" Photo="icon\BG_Skill\skillicon_1083.png" effect="BGskill_82061"/>
+	<Property ID="312031" Name="子母弹" Photo="icon\buff\skillicon_0453.png"/>
+	<Property ID="3120512" Name="穿甲弹流血" Photo="icon\BG_Skill\skillicon_0311.png"/>
+	<Property ID="31208" Name="燃烧弹" Photo="icon\BG_Skill\heijin_huo.PNG"/>
+	<Property ID="31210" Name="悬空调整" Photo="icon\BG_Skill\skillicon_0009.png"/>
+	<Property ID="31214" Name="破甲-瞄准" Photo="icon\buff\skillicon_0459.png"/>
+	<Property ID="31217" Name="BUFF敏捷" Photo="icon\BG_Skill\skillicon_0007.png"/>
+	<Property ID="311011" Name="普通隐身" Photo="icon\buff\skillicon_0476.png"/>
+	<Property ID="311012" Name="普通隐身" Photo="icon\buff\skillicon_0476.png"/>
+	<Property ID="311013" Name="普通隐身" Photo="icon\buff\skillicon_0476.png"/>
+	<Property ID="311014" Name="普通隐身" Photo="icon\buff\skillicon_0476.png"/>
+	<Property ID="311015" Name="普通隐身" Photo="icon\buff\skillicon_0476.png"/>
+	<Property ID="311016" Name="普通隐身" Photo="icon\buff\skillicon_0476.png"/>
+	<Property ID="311031" Name="背刺" Photo="icon\buff\skillicon_0455.png" action="stun" effect="Skill_Buff0001_New"/>
+	<Property ID="311032" Name="背刺" Photo="icon\buff\skillicon_0455.png" action="stun" effect="Skill_Buff0001_New"/>
+	<Property ID="311033" Name="背刺" Photo="icon\buff\skillicon_0455.png" action="stun" effect="Skill_Buff0001_New"/>
+	<Property ID="311034" Name="背刺" Photo="icon\buff\skillicon_0455.png" action="stun" effect="Skill_Buff0001_New"/>
+	<Property ID="311035" Name="背刺" Photo="icon\buff\skillicon_0455.png" action="stun" effect="Skill_Buff0001_New"/>
+	<Property ID="311036" Name="背刺" Photo="icon\buff\skillicon_0455.png" action="stun" effect="Skill_Buff0001_New"/>
+	<Property ID="31104" Name="下毒A" Photo="icon\buff\skillicon_0455.png" effect="BGskill_61013"/>
+	<Property ID="3110511" Name="致命毒雾" Photo="icon\buff\jianshang.png" effect="BGskill_82045"/>
+	<Property ID="3110521" Name="致命毒雾" Photo="icon\buff\jianshang.png" effect="BGskill_82045"/>
+	<Property ID="3110531" Name="致命毒雾" Photo="icon\buff\jianshang.png" effect="BGskill_82045"/>
+	<Property ID="3110541" Name="致命毒雾" Photo="icon\buff\jianshang.png" effect="BGskill_82045"/>
+	<Property ID="3110551" Name="致命毒雾" Photo="icon\buff\jianshang.png" effect="BGskill_82045"/>
+	<Property ID="3110561" Name="致命毒雾" Photo="icon\buff\jianshang.png" effect="BGskill_82045"/>
+	<Property ID="31106" Name="下毒C" Photo="icon\buff\skillicon_0459.png" effect="BGskill_61014"/>
+	<Property ID="31107" Name="强隐" Photo="icon\buff\skillicon_0476.png"/>
+	<Property ID="311091" Name="元素斗篷" Photo="icon\BG_Skill\skillicon_1139.png"/>
+	<Property ID="311092" Name="元素斗篷" Photo="icon\BG_Skill\skillicon_1139.png"/>
+	<Property ID="311093" Name="元素斗篷" Photo="icon\BG_Skill\skillicon_1139.png"/>
+	<Property ID="311094" Name="元素斗篷" Photo="icon\BG_Skill\skillicon_1139.png"/>
+	<Property ID="311095" Name="元素斗篷" Photo="icon\BG_Skill\skillicon_1139.png"/>
+	<Property ID="311096" Name="元素斗篷" Photo="icon\BG_Skill\skillicon_1139.png"/>
+	<Property ID="311111" Name="毒刀" Photo="icon\buff\skillicon_0471.png" effect="BGskill_82115"/>
+	<Property ID="311112" Name="毒刀" Photo="icon\buff\skillicon_0471.png" effect="BGskill_82115"/>
+	<Property ID="311113" Name="毒刀" Photo="icon\buff\skillicon_0471.png" effect="BGskill_82115"/>
+	<Property ID="311114" Name="毒刀" Photo="icon\buff\skillicon_0471.png" effect="BGskill_82115"/>
+	<Property ID="311115" Name="毒刀" Photo="icon\buff\skillicon_0471.png" effect="BGskill_82115"/>
+	<Property ID="311116" Name="毒刀" Photo="icon\buff\skillicon_0471.png" effect="BGskill_82115"/>
+	<Property ID="311121" Name="闪避" Photo="icon\buff\skillicon_0487.png"/>
+	<Property ID="311122" Name="闪避" Photo="icon\buff\skillicon_0487.png"/>
+	<Property ID="311123" Name="闪避" Photo="icon\buff\skillicon_0487.png"/>
+	<Property ID="311124" Name="闪避" Photo="icon\buff\skillicon_0487.png"/>
+	<Property ID="311125" Name="闪避" Photo="icon\buff\skillicon_0487.png"/>
+	<Property ID="311126" Name="闪避" Photo="icon\buff\skillicon_0487.png"/>
+	<Property ID="31114" Name="背刺加成" Photo="icon\buff\skillicon_0457.png"/>
+	<Property ID="311151" Name="突袭" Photo="icon\buff\mumang.png"/>
+	<Property ID="311152" Name="突袭" Photo="icon\buff\mumang.png"/>
+	<Property ID="311153" Name="突袭" Photo="icon\buff\mumang.png"/>
+	<Property ID="311154" Name="突袭" Photo="icon\buff\mumang.png"/>
+	<Property ID="311155" Name="突袭" Photo="icon\buff\mumang.png"/>
+	<Property ID="311156" Name="突袭" Photo="icon\buff\mumang.png"/>
+	<Property ID="311161" Name="刀轮舞" Photo="icon\buff\touyun.png"/>
+	<Property ID="311162" Name="刀轮舞" Photo="icon\buff\touyun.png"/>
+	<Property ID="311163" Name="刀轮舞" Photo="icon\buff\touyun.png"/>
+	<Property ID="311164" Name="刀轮舞" Photo="icon\buff\touyun.png"/>
+	<Property ID="311165" Name="刀轮舞" Photo="icon\buff\touyun.png"/>
+	<Property ID="311166" Name="刀轮舞" Photo="icon\buff\touyun.png"/>
+	<Property ID="31117" Name="buffA" Photo="icon\buff\skillicon_0473.png"/>
+	<Property ID="31118" Name="buffB" Photo="icon\buff\skillicon_0516.png"/>
+	<Property ID="31119" Name="buffC" Photo="icon\buff\skillicon_0462.png" effect="BGskill_6102"/>
+	<Property ID="311201" Name="减速" Photo="icon\buff\skillicon_0524.png" effect="BGskill_82046"/>
+	<Property ID="311202" Name="减速" Photo="icon\buff\skillicon_0524.png"/>
+	<Property ID="311203" Name="减速" Photo="icon\buff\skillicon_0524.png" effect="BGskill_82046"/>
+	<Property ID="311204" Name="减速" Photo="icon\buff\skillicon_0524.png" effect="BGskill_82046"/>
+	<Property ID="311205" Name="减速" Photo="icon\buff\skillicon_0524.png" effect="BGskill_82046"/>
+	<Property ID="311206" Name="减速" Photo="icon\buff\skillicon_0524.png" effect="BGskill_82046"/>
+	<Property ID="31120" Photo="icon\buff\skillicon_0480.png" Name="减速"/>
+	<Property ID="31901" Name="坚毅守护" Photo="icon\buff\chanhui.png"/>
+	<Property ID="31902" Name="坚盾" Photo="icon\buff\skillicon_0483.png"/>
+	<Property ID="31903" Name="坚定意志" Photo="icon\buff\skillicon_0473.png"/>
+	<Property ID="31904" Name="邀战" Photo="icon\buff\skillicon_0490.png"/>
+	<Property ID="31905" Name="骑士信条" Photo="icon\buff\skillicon_0472.png"/>
+	<Property ID="31906" Name="威慑" Photo="icon\buff\skillicon_0479.png"/>
+	<Property ID="31909" Name="蒸汽弥漫" Photo="icon\buff\skillicon_0492.png"/>
+	<Property ID="31912" Name="同归于尽" Photo="icon\buff\skillicon_0480.png"/>
+	<Property ID="31917" Name="盾击" Photo="icon\buff\touyun.png"/>
+	<Property ID="31918" Name="泰坦掌握" Photo="icon\buff\skillicon_0476.png"/>
+	<Property ID="31919" Name="泰坦学识" Photo="icon\buff\skillicon_0489.png"/>
+	<Property ID="32104" Name="弹幕射击" Photo="icon\buff\mumang.png"/>
+	<Property ID="32105" Name="后座射击" Photo="icon\buff\touyun.png"/>
+	<Property ID="32112" Name="精准守护" Photo="icon\buff\skillicon_0528.png"/>
+	<Property ID="32113" Name="破碎学识" Photo="icon\buff\skillicon_0526.png"/>
+	<Property ID="32114" Name="破碎掌握" Photo="icon\buff\skillicon_0516.png"/>
+	<Property ID="32117" Name="碎甲弹" Photo="icon\buff\skillicon_0476.png"/>
+	<Property ID="31222" Name="枪手模式" Photo="icon\buff\skillicon_0476.png"/>
+	<Property ID="20683" Name="假死" Photo="icon\buff\skillicon_0464.png" action="stun" ModelGhost="0"/>
+	<Property ID="310071" Name="冲锋" Photo="icon\BG_Skill\skillicon_1085.png" effect="BGskill_82010" ModelGhost="1" BuffSnd="in_congfeng_01"/>
+	<Property ID="310072" Name="冲锋" Photo="icon\buff\qh_bru_mount_0001.png" effect="BGskill_82010" ModelGhost="1" BuffSnd="in_congfeng_01"/>
+	<Property ID="310073" Name="冲锋" Photo="icon\buff\qh_bru_mount_0001.png" effect="BGskill_82010" ModelGhost="1" BuffSnd="in_congfeng_01"/>
+	<Property ID="310074" Name="冲锋" Photo="icon\buff\qh_bru_mount_0001.png" effect="BGskill_82010" ModelGhost="1" BuffSnd="in_congfeng_01"/>
+	<Property ID="310075" Name="冲锋" Photo="icon\buff\qh_bru_mount_0001.png" effect="BGskill_82010" ModelGhost="1" BuffSnd="in_congfeng_01"/>
+	<Property ID="310076" Name="冲锋" Photo="icon\buff\qh_bru_mount_0001.png" effect="BGskill_82010" ModelGhost="1" BuffSnd="in_congfeng_01"/>
+	<Property ID="310181" Name="防护罩" Photo="icon\buff\skillicon_0453.png" effect="BGskill_82022"/>
+	<Property ID="310182" Name="防护罩" Photo="icon\buff\skillicon_0453.png" effect="BGskill_82022"/>
+	<Property ID="310183" Name="防护罩" Photo="icon\buff\skillicon_0453.png" effect="BGskill_82022"/>
+	<Property ID="310184" Name="防护罩" Photo="icon\buff\skillicon_0453.png" effect="BGskill_82022"/>
+	<Property ID="310185" Name="防护罩" Photo="icon\buff\skillicon_0453.png" effect="BGskill_82022"/>
+	<Property ID="310186" Name="防护罩" Photo="icon\buff\skillicon_0453.png" effect="BGskill_82022"/>
+	<Property ID="310131" Name="武器精通" Photo="icon\buff\skillicon_0453.png" BuffSnd="in_cuozhilh_01"/>
+	<Property ID="310132" Name="武器精通" Photo="icon\buff\skillicon_0453.png"/>
+	<Property ID="310133" Name="武器精通" Photo="icon\buff\skillicon_0453.png"/>
+	<Property ID="310134" Name="武器精通" Photo="icon\buff\skillicon_0453.png"/>
+	<Property ID="310135" Name="武器精通" Photo="icon\buff\skillicon_0453.png"/>
+	<Property ID="310136" Name="武器精通" Photo="icon\buff\skillicon_0453.png"/>
+	<Property ID="310021" Name="眩晕" Photo="icon\buff\touyun.png" action="stun" effect="Skill_Buff0001_New" ModelGhost="0"/>
+	<Property ID="310022" Name="眩晕" Photo="icon\buff\touyun.png" action="stun" effect="Skill_Buff0001_New" ModelGhost="0"/>
+	<Property ID="310023" Name="眩晕" Photo="icon\buff\touyun.png" action="stun" effect="Skill_Buff0001_New" ModelGhost="0"/>
+	<Property ID="310024" Name="眩晕" Photo="icon\buff\touyun.png" action="stun" effect="Skill_Buff0001_New" ModelGhost="0"/>
+	<Property ID="310025" Name="眩晕" Photo="icon\buff\touyun.png" action="stun" effect="Skill_Buff0001_New" ModelGhost="0"/>
+	<Property ID="310026" Name="眩晕" Photo="icon\buff\touyun.png" action="stun" effect="Skill_Buff0001_New" ModelGhost="0"/>
+	<Property ID="310171" Name="信念护盾" Photo="icon\BG_Skill\skillicon_in_0008.png" effect="buff_In1017" Buffjudge="1" BuffSnd="in_xinnianshouhu_02"/>
+	<Property ID="310161" Name="雷神之力" Photo="icon\buff\skillicon_0479.png" effect="BGskill_82021"/>
+	<Property ID="310162" Name="雷神之力" Photo="icon\buff\skillicon_0479.png" effect="BGskill_82021"/>
+	<Property ID="310163" Name="雷神之力" Photo="icon\buff\skillicon_0479.png" effect="BGskill_82021"/>
+	<Property ID="310164" Name="雷神之力" Photo="icon\buff\skillicon_0479.png" effect="BGskill_82021"/>
+	<Property ID="310165" Name="雷神之力" Photo="icon\buff\skillicon_0479.png" effect="BGskill_82021"/>
+	<Property ID="310166" Name="雷神之力" Photo="icon\buff\skillicon_0479.png" effect="BGskill_82021"/>
+	<Property ID="310101" Name="反击" Photo="icon\buff\skillicon_1124.png"/>
+	<Property ID="310102" Name="反击" Photo="icon\buff\skillicon_1124.png"/>
+	<Property ID="310103" Name="反击" Photo="icon\buff\skillicon_1124.png"/>
+	<Property ID="310104" Name="反击" Photo="icon\buff\skillicon_1124.png"/>
+	<Property ID="310105" Name="反击" Photo="icon\buff\skillicon_1124.png"/>
+	<Property ID="310106" Name="反击" Photo="icon\buff\skillicon_1124.png"/>
+	<Property ID="312152" Photo="icon\BG_Skill\skillicon_0154.png" effect="BGskill_61094"/>
+	<Property ID="312153" Photo="icon\buff\skillicon_1129.png" effect="BGskill_61014"/>
+	<Property ID="3162011" Name="无尽魔咒" Photo="icon\buff\skillicon_0482.png" effect="skill_buff_0162_2"/>
+	<Property ID="3161711" Name="幽梦之灵沉睡buff1" Photo="icon\BG_Skill\skillicon_1372.png" effect="BGskill_ch_50633" action="stun"/>
+	<Property ID="3161721" Name="幽梦之灵沉睡buff2" Photo="icon\BG_Skill\skillicon_1372.png" effect="func_raid_32920_wyj_1"/>
+	<Property ID="3161731" Name="幽梦之灵沉睡buff3" Photo="icon\BG_Skill\skillicon_1372.png" effect="func_raid_32920_wyj_1"/>
+	<Property ID="3161741" Name="幽梦之灵沉睡buff4" Photo="icon\BG_Skill\skillicon_1372.png" effect="func_raid_32920_wyj_1"/>
+	<Property ID="3161751" Name="幽梦之灵沉睡buff5" Photo="icon\BG_Skill\skillicon_1372.png" effect="func_raid_32920_wyj_1"/>
+	<Property ID="3161761" Name="幽梦之灵沉睡buff6" Photo="icon\BG_Skill\skillicon_1372.png" effect="func_raid_32920_wyj_1"/>
+	<Property ID="31603" Name="禁锢" Photo="icon\buff\skillicon_0470.png" effect="BGskill_40019_new"/>
+	<Property ID="3160111" Name="咒法烙印dot1" Photo="icon\buff\skillicon_0510.png" effect="BGskill_ch_50645"/>
+	<Property ID="3160711" Name="幻灵附体敌方-减抗1" Photo="icon\BG_Skill\skillicon_1388.png" effect="BGskill_ch_50656"/>
+	<Property ID="3160721" Name="幻灵附体敌方-减抗2" Photo="icon\BG_Skill\skillicon_1388.png" effect="BGskill_ch_50656"/>
+	<Property ID="3160731" Name="幻灵附体敌方-减抗3" Photo="icon\BG_Skill\skillicon_1388.png" effect="BGskill_ch_50656"/>
+	<Property ID="3160741" Name="幻灵附体敌方-减抗4" Photo="icon\BG_Skill\skillicon_1388.png" effect="BGskill_ch_50656"/>
+	<Property ID="3160751" Name="幻灵附体敌方-减抗5" Photo="icon\BG_Skill\skillicon_1388.png" effect="BGskill_ch_50656"/>
+	<Property ID="3160761" Name="幻灵附体敌方-减抗6" Photo="icon\BG_Skill\skillicon_1388.png" effect="BGskill_ch_50656"/>
+	<Property ID="3160911" Name="苍穹魔咒1" Photo="icon\BG_Skill\skillicon_1229.png" effect="BGskill_ch_50637" color="255,96,174,254"/>
+	<Property ID="31613" Name="咒灵" Photo="icon\buff\skillicon_0480.png" color="255,96,174,254"/>
+	<Property ID="318051" Name="尸魂送葬" Photo="icon\BG_Skill\skillicon_1365.png" effect="skill_buff_0180"/>
+	<Property ID="317021" Name="能量盾-吸收伤害" Photo="icon\BG_Skill\skillicon_1442.png" effect="BGskill_wt170211" BuffSnd="wt_nengliangdun_01" Buffjudge="1"/>
+	<Property ID="317031" Name="女巫之躯" Photo="icon\BG_Skill\skillicon_1443.png" effect="BGskill_48015"/>
+	<Property ID="317041" Name="巫毒愈合特效" Photo="icon\BG_Skill\skillicon_1448.png" effect="BGskill_48011"/>
+	<Property ID="317061" Name="幻术之墙" Photo="icon\BG_Skill\skillicon_1446.png" effect="Skill_Buff0002_New"/>
+	<Property ID="317071" Name="祝福术" Photo="icon\BG_Skill\skillicon_1444.png" effect="BGskill_wt17071" ModelGhost="1" BuffSnd="wt_heianzm_02"/>
+	<Property ID="317131" Name="黑暗赞美" Photo="icon\BG_Skill\skillicon_1451.png" effect="BGskill_wt172811" ModelGhost="1"/>
+	<Property ID="31715" Name="薄葬" Photo="icon\buff\skillicon_0473.png" effect="skill_buff_0148" ModelGhost="1"/>
+	<Property ID="317181" Name="天使降临" Photo="icon\BG_skill\skillicon_1454.png" effect="BGskill_49004"/>
+	<Property ID="99043" Photo="icon\buff\skillicon_0470.png" effect="BGskill_61058"/>
+	<Property ID="3100421" Photo="icon\buff\skillicon_0530.png"/>
+	<Property ID="3100422" Photo="icon\buff\skillicon_0530.png"/>
+	<Property ID="3100423" Photo="icon\buff\skillicon_0530.png"/>
+	<Property ID="3100424" Photo="icon\buff\skillicon_0530.png"/>
+	<Property ID="3100425" Photo="icon\buff\skillicon_0530.png"/>
+	<Property ID="3100426" Photo="icon\buff\skillicon_0530.png"/>
+	<Property ID="310081" Photo="icon\buff\skillicon_0535.png" effect="Skill_Buff0001_New"/>
+	<Property ID="310082" Photo="icon\buff\skillicon_0535.png" effect="Skill_Buff0001_New"/>
+	<Property ID="310083" Photo="icon\buff\skillicon_0535.png" effect="Skill_Buff0001_New"/>
+	<Property ID="310084" Photo="icon\buff\skillicon_0535.png" effect="Skill_Buff0001_New"/>
+	<Property ID="310085" Photo="icon\buff\skillicon_0535.png" effect="Skill_Buff0001_New"/>
+	<Property ID="310086" Photo="icon\buff\skillicon_0535.png" effect="Skill_Buff0001_New"/>
+	<Property ID="310044" Photo="icon\buff\skillicon_0535.png" effect="BGskill_61094"/>
+	<Property ID="3161811" Name="魔力激发1" Photo="icon\buff\skillicon_0533.png" effect="BGskill_ch_50659"/>
+	<Property ID="3161821" Name="魔力激发2" Photo="icon\buff\skillicon_0533.png" effect="BGskill_ch_50659"/>
+	<Property ID="3161831" Name="魔力激发3" Photo="icon\buff\skillicon_0533.png" effect="BGskill_ch_50659"/>
+	<Property ID="3161841" Name="魔力激发4" Photo="icon\buff\skillicon_0533.png" effect="BGskill_ch_50659"/>
+	<Property ID="3161851" Name="魔力激发5" Photo="icon\buff\skillicon_0533.png" effect="BGskill_ch_50659"/>
+	<Property ID="3161861" Name="魔力激发6" Photo="icon\buff\skillicon_0533.png" effect="BGskill_ch_50659"/>
+	<Property ID="317211" Name="能量盾-击晕" Photo="icon\buff\touyun.png" action="stun" effect="Skill_Buff0001_New" ModelGhost="0"/>
+	<Property ID="317121" Name="法力爆炸-晕眩" Photo="icon\BG_Skill\skillicon_1450.png" effect="Buff_Em2621"/>
+	<Property ID="317191" Name="血之净化伤害特效" Photo="icon\buff\skillicon_1125.png" effect="BGskill_49007"/>
+	<Property ID="3170712" Name="祝福术-持续治疗" Photo="icon\BG_Skill\skillicon_1444.png" TimeEffect="BGskill_40051"/>
+	<Property ID="3100721" Name="冲锋霸体" Photo="icon\buff\skillicon_0454.png"/>
+	<Property ID="3100722" Name="冲锋霸体" Photo="icon\buff\skillicon_0454.png"/>
+	<Property ID="3100723" Name="冲锋霸体" Photo="icon\buff\skillicon_0454.png"/>
+	<Property ID="3100724" Name="冲锋霸体" Photo="icon\buff\skillicon_0454.png"/>
+	<Property ID="3100725" Name="冲锋霸体" Photo="icon\buff\skillicon_0454.png"/>
+	<Property ID="3100726" Name="冲锋霸体" Photo="icon\buff\skillicon_0454.png"/>
+	<Property ID="310172" Name="信念审判" Photo="icon\BG_Skill\skillicon_in_0008.png"/>
+	<Property ID="311221" Name="疾奔" Photo="icon\buff\skillicon_0535.png" effect="BGskill_82060" Buffjudge="ex_ex1122_02"/>
+	<Property ID="311222" Name="疾奔" Photo="icon\buff\skillicon_0535.png" effect="BGskill_82060" BuffSnd="ex_ex1122_02"/>
+	<Property ID="311223" Name="疾奔" Photo="icon\buff\skillicon_0535.png" effect="BGskill_82060" BuffSnd="ex_ex1122_02"/>
+	<Property ID="311224" Name="疾奔" Photo="icon\buff\skillicon_0535.png" effect="BGskill_82060" BuffSnd="ex_ex1122_02"/>
+	<Property ID="311225" Name="疾奔" Photo="icon\buff\skillicon_0535.png" effect="BGskill_82060" BuffSnd="ex_ex1122_02"/>
+	<Property ID="311226" Name="疾奔" Photo="icon\buff\skillicon_0535.png" effect="BGskill_82060" BuffSnd="ex_ex1122_02"/>
+	<Property ID="3112311" Name="烟雾弹" Photo="icon\buff\skillicon_0476.png"/>
+	<Property ID="3112312" Name="烟雾弹" Photo="icon\buff\skillicon_1421.png"/>
+	<Property ID="3112321" Name="烟雾弹" Photo="icon\buff\skillicon_0476.png"/>
+	<Property ID="3112322" Name="烟雾弹" Photo="icon\buff\skillicon_1421.png"/>
+	<Property ID="3112331" Name="烟雾弹" Photo="icon\buff\skillicon_0476.png"/>
+	<Property ID="3112332" Name="烟雾弹" Photo="icon\buff\skillicon_1421.png"/>
+	<Property ID="3112341" Name="烟雾弹" Photo="icon\buff\skillicon_0476.png"/>
+	<Property ID="3112342" Name="烟雾弹" Photo="icon\buff\skillicon_1421.png"/>
+	<Property ID="3112351" Name="烟雾弹" Photo="icon\buff\skillicon_0476.png"/>
+	<Property ID="3112352" Name="烟雾弹" Photo="icon\buff\skillicon_1421.png"/>
+	<Property ID="3112361" Name="烟雾弹" Photo="icon\buff\skillicon_0476.png"/>
+	<Property ID="3112362" Name="烟雾弹" Photo="icon\buff\skillicon_1421.png"/>
+	<Property ID="31722" Name="法力沼泽" Photo="icon\buff\skillicon_0470.png"/>
+	<Property ID="318031" Photo="icon\BG_Skill\jineng_shandianjian.png" Name="清除CDbuff"/>
+	<Property ID="31811" Name="死神威慑" Photo="icon\BG_Skill\skillicon_1252.png" effect="skill_ri1811_01" action="combat1_fear"/>
+	<Property ID="31812" Name="魂之心跳" Photo="icon\BG_Skill\skillicon_1367.png" effect="skill_ri1812_01"/>
+	<Property ID="31813" Name="暗影诅咒" Photo="icon\BG_Skill\skillicon_1258.png" effect="skill_buff_0148"/>
+	<Property ID="31815" Name="摄魂之光-暴击" Photo="icon\BG_Skill\skillicon_1382.png" effect="skill_buff_0096"/>
+	<Property ID="318152" Name="摄魂之光-加速" Photo="icon\BG_Skill\skillicon_1318.png" effect="func_raid_523"/>
+	<Property ID="317011" Name="邪恶凝视" Photo="icon\BG_Skill\skillicon_1448.PNG" effect="BGskill_48007" BuffSnd="wt_shouji_01"/>
+	<Property ID="317141" Name="痛苦预言-回蓝" Photo="icon\BG_Skill\skillicon_1449.png" effect="BGskill_40054"/>
+	<Property ID="31806" Name="恶魔梦境" Photo="icon\BG_Skill\skillicon_1234.png" effect="BGskill_82111"/>
+	<Property ID="318062" Name="恶魔梦境" Photo="icon\BG_Skill\skillicon_1234.png" effect="BGskill_82111"/>
+	<Property ID="318063" Name="恶魔梦境" Photo="icon\BG_Skill\skillicon_1234.png" effect="BGskill_82111"/>
+	<Property ID="318064" Name="恶魔梦境" Photo="icon\BG_Skill\skillicon_1234.png" effect="BGskill_82111"/>
+	<Property ID="318065" Name="恶魔梦境" Photo="icon\BG_Skill\skillicon_1234.png" effect="BGskill_82111"/>
+	<Property ID="318066" Name="恶魔梦境" Photo="icon\BG_Skill\skillicon_1234.png" effect="BGskill_82111"/>
+	<Property ID="31807" Name="衰弱诅咒" Photo="icon\BG_Skill\skillicon_1236.png" effect="BGskill_65032"/>
+	<Property ID="318072" Name="衰弱诅咒" Photo="icon\BG_Skill\skillicon_1236.png" effect="BGskill_65032"/>
+	<Property ID="318073" Name="衰弱诅咒" Photo="icon\BG_Skill\skillicon_1236.png" effect="BGskill_65032"/>
+	<Property ID="318074" Name="衰弱诅咒" Photo="icon\BG_Skill\skillicon_1236.png" effect="BGskill_65032"/>
+	<Property ID="318075" Name="衰弱诅咒" Photo="icon\BG_Skill\skillicon_1236.png" effect="BGskill_65032"/>
+	<Property ID="318077" Name="无法移动" Photo="icon\buff\skillicon_0535.png"/>
+	<Property ID="31808" Name="恶灵诅咒" Photo="icon\BG_Skill\skillicon_1247.png" effect="BGskill_65033"/>
+	<Property ID="318082" Name="恶灵诅咒" Photo="icon\BG_Skill\skillicon_1247.png" effect="BGskill_65033"/>
+	<Property ID="318083" Name="恶灵诅咒" Photo="icon\BG_Skill\skillicon_1247.png" effect="BGskill_65033"/>
+	<Property ID="318084" Name="恶灵诅咒" Photo="icon\BG_Skill\skillicon_1247.png" effect="BGskill_65033"/>
+	<Property ID="318085" Name="恶灵诅咒" Photo="icon\BG_Skill\skillicon_1247.png" effect="BGskill_65033"/>
+	<Property ID="318086" Name="恶灵诅咒" Photo="icon\BG_Skill\skillicon_1247.png" effect="BGskill_65033"/>
+	<Property ID="31810" Name="鬼火灼烧" Photo="icon\BG_Skill\skillicon_1257.png" TimeEffect="BGskill_650351"/>
+	<Property ID="318102" Name="鬼火灼烧" Photo="icon\BG_Skill\skillicon_1257.png" TimeEffect="BGskill_650351"/>
+	<Property ID="318103" Name="死亡燃烧" Photo="icon\BG_Skill\skillicon_1257.png" TimeEffect="BGskill_650351"/>
+	<Property ID="318104" Name="鬼火灼烧" Photo="icon\BG_Skill\skillicon_1257.png" TimeEffect="BGskill_650351"/>
+	<Property ID="318105" Name="鬼火灼烧" Photo="icon\BG_Skill\skillicon_1257.png" TimeEffect="BGskill_650351"/>
+	<Property ID="318106" Name="鬼火灼烧" Photo="icon\BG_Skill\skillicon_1257.png" TimeEffect="BGskill_650351"/>
+	<Property ID="3172812" Name="洗礼-减速" Photo="icon\BG_Skill\skillicon_1452.png" effect="BGskill_49002"/>
+	<Property ID="318141" Name="幽鬼减速buff" Type="幽鬼减速buff" Photo="icon\BG_Skill\heijin_shui.PNG"/>
+	<Property ID="3181421" Name="幽鬼减速buff2" Type="幽鬼减速buff" Photo="icon\BG_Skill\heijin_shui.PNG"/>
+	<Property ID="3181431" Name="幽鬼减速buff3" Type="幽鬼减速buff" Photo="icon\BG_Skill\heijin_shui.PNG"/>
+	<Property ID="3181441" Name="幽鬼减速buff4" Type="幽鬼减速buff" Photo="icon\BG_Skill\heijin_shui.PNG"/>
+	<Property ID="3181451" Name="幽鬼减速buff5" Type="幽鬼减速buff" Photo="icon\BG_Skill\heijin_shui.PNG"/>
+	<Property ID="3181461" Name="幽鬼减速buff6" Type="幽鬼减速buff" Photo="icon\BG_Skill\heijin_shui.PNG"/>
+	<Property ID="318041" Name="魂碑光环1" Photo="icon\BG_Skill\skillicon_0074.png" effect="BGskill_50618"/>
+	<Property ID="3180421" Name="魂碑光环2" Photo="icon\BG_Skill\skillicon_0074.png" effect="BGskill_50618"/>
+	<Property ID="3180431" Name="魂碑光环3" Photo="icon\BG_Skill\skillicon_0074.png" effect="BGskill_50618"/>
+	<Property ID="3180441" Name="魂碑光环4" Photo="icon\BG_Skill\skillicon_0074.png" effect="BGskill_50618"/>
+	<Property ID="3180451" Name="魂碑光环5" Photo="icon\BG_Skill\skillicon_0074.png" effect="BGskill_50618"/>
+	<Property ID="3180461" Name="魂碑光环6" Photo="icon\BG_Skill\skillicon_0074.png" effect="BGskill_50618"/>
+	<Property ID="318042" Name="魂碑光环二1" Photo="icon\BG_Skill\skillicon_0162.png" TimeEffect="BGskill_50617"/>
+	<Property ID="3180422" Name="魂碑光环二2" Photo="icon\BG_Skill\skillicon_0162.png" TimeEffect="BGskill_50617"/>
+	<Property ID="3180432" Name="魂碑光环二3" Photo="icon\BG_Skill\skillicon_0162.png" TimeEffect="BGskill_50617"/>
+	<Property ID="3180442" Name="魂碑光环二4" Photo="icon\BG_Skill\skillicon_0162.png" TimeEffect="BGskill_50617"/>
+	<Property ID="3180452" Name="魂碑光环二5" Photo="icon\BG_Skill\skillicon_0162.png" TimeEffect="BGskill_50617"/>
+	<Property ID="3180462" Name="魂碑光环二6" Photo="icon\BG_Skill\skillicon_0162.png" TimeEffect="BGskill_50617"/>
+	<Property ID="31809" Name="眩晕" Photo="icon\BG_Skill\skillicon_1239.png" action="stun"/>
+	<Property ID="318092" Name="眩晕" Photo="icon\BG_Skill\skillicon_1239.png"/>
+	<Property ID="318093" Name="眩晕" Photo="icon\BG_Skill\skillicon_1239.png"/>
+	<Property ID="318094" Name="眩晕" Photo="icon\BG_Skill\skillicon_1239.png"/>
+	<Property ID="318095" Name="眩晕" Photo="icon\BG_Skill\skillicon_1239.png"/>
+	<Property ID="318096" Name="眩晕" Photo="icon\BG_Skill\skillicon_1239.png"/>
+	<Property ID="317132" Name="黑暗赞美" Photo="icon\BG_Skill\skillicon_1451.png" effect="BGskill_wt172811" ModelGhost="1"/>
+	<Property ID="317133" Name="黑暗赞美" Photo="icon\BG_Skill\skillicon_1451.png" effect="BGskill_wt172811" ModelGhost="1"/>
+	<Property ID="317134" Name="黑暗赞美" Photo="icon\BG_Skill\skillicon_1451.png" effect="BGskill_wt172811" ModelGhost="1"/>
+	<Property ID="317135" Name="黑暗赞美" Photo="icon\BG_Skill\skillicon_1451.png" effect="BGskill_wt172811" ModelGhost="1"/>
+	<Property ID="317136" Name="黑暗赞美" Photo="icon\BG_Skill\skillicon_1451.png" effect="BGskill_wt172811" ModelGhost="1"/>
+	<Property ID="317062" Name="幻术之墙" Photo="icon\BG_Skill\skillicon_1446.png" effect="Skill_Buff0002_New"/>
+	<Property ID="317063" Name="幻术之墙" Photo="icon\BG_Skill\skillicon_1446.png" effect="Skill_Buff0002_New"/>
+	<Property ID="317064" Name="幻术之墙" Photo="icon\BG_Skill\skillicon_1446.png" effect="Skill_Buff0002_New"/>
+	<Property ID="317065" Name="幻术之墙" Photo="icon\BG_Skill\skillicon_1446.png" effect="Skill_Buff0002_New"/>
+	<Property ID="317066" Name="幻术之墙" Photo="icon\BG_Skill\skillicon_1446.png" effect="Skill_Buff0002_New"/>
+	<Property ID="3180911" Name="腐尸毒素" Photo="icon\BG_Skill\skillicon_1256.png" effect="BGskill_650341"/>
+	<Property ID="3180611" Name="沉默" Photo="icon\BG_Skill\skillicon_1240.png"/>
+	<Property ID="317281" Name="洗礼-恢复" Photo="icon\BG_Skill\skillicon_1452.png" effect="BGskill_wt172812"/>
+	<Property ID="3170212" Name="能量盾-加速" Photo="icon\BG_Skill\skillicon_1442.png"/>
+	<Property ID="318132" Photo="icon\BG_Skill\skillicon_1258.png" effect="skill_ri1813_02"/>
+	<Property ID="317142" Name="痛苦预言-回蓝" Photo="icon\BG_Skill\skillicon_1449.png" effect="BGskill_40054"/>
+	<Property ID="317143" Name="痛苦预言-回蓝" Photo="icon\BG_Skill\skillicon_1449.png" effect="BGskill_40054"/>
+	<Property ID="317144" Name="痛苦预言-回蓝" Photo="icon\BG_Skill\skillicon_1449.png" effect="BGskill_40054"/>
+	<Property ID="317145" Name="痛苦预言-回蓝" Photo="icon\BG_Skill\skillicon_1449.png" effect="BGskill_40054"/>
+	<Property ID="317146" Name="痛苦预言-回蓝" Photo="icon\BG_Skill\skillicon_1449.png" effect="BGskill_40054"/>
+	<Property ID="317022" Name="能量盾-吸收伤害" Photo="icon\BG_Skill\skillicon_1442.png" effect="BGskill_wt170211"/>
+	<Property ID="317023" Name="能量盾-吸收伤害" Photo="icon\BG_Skill\skillicon_1442.png" effect="BGskill_wt170211"/>
+	<Property ID="317024" Name="能量盾-吸收伤害" Photo="icon\BG_Skill\skillicon_1442.png" effect="BGskill_wt170211"/>
+	<Property ID="317025" Name="能量盾-吸收伤害" Photo="icon\BG_Skill\skillicon_1442.png" effect="BGskill_wt170211"/>
+	<Property ID="317026" Name="能量盾-吸收伤害" Photo="icon\BG_Skill\skillicon_1442.png" effect="BGskill_wt170211"/>
+	<Property ID="317032" Name="女巫之躯" Photo="icon\BG_Skill\skillicon_1443.png" effect="BGskill_48015"/>
+	<Property ID="317033" Name="女巫之躯" Photo="icon\BG_Skill\skillicon_1443.png" effect="BGskill_48015"/>
+	<Property ID="317034" Name="女巫之躯" Photo="icon\BG_Skill\skillicon_1443.png" effect="BGskill_48015"/>
+	<Property ID="317035" Name="女巫之躯" Photo="icon\BG_Skill\skillicon_1443.png" effect="BGskill_48015"/>
+	<Property ID="317036" Name="女巫之躯" Photo="icon\BG_Skill\skillicon_1443.png" effect="BGskill_48015"/>
+	<Property ID="317072" Name="祝福术" Photo="icon\BG_Skill\skillicon_1444.png" effect="BGskill_wt17071" ModelGhost="1" BuffSnd="wt_heianzm_02"/>
+	<Property ID="3170722" Name="祝福术-持续治疗" Photo="icon\BG_Skill\skillicon_1444.png" TimeEffect="BGskill_40051"/>
+	<Property ID="317073" Name="祝福术" Photo="icon\BG_Skill\skillicon_1444.png" effect="BGskill_wt17071" ModelGhost="1" BuffSnd="wt_heianzm_02"/>
+	<Property ID="3170732" Name="祝福术-持续治疗" Photo="icon\BG_Skill\skillicon_1444.png" TimeEffect="BGskill_40051"/>
+	<Property ID="317074" Name="祝福术" Photo="icon\BG_Skill\skillicon_1444.png" effect="BGskill_wt17071" ModelGhost="1" BuffSnd="wt_heianzm_02"/>
+	<Property ID="3170742" Name="祝福术-持续治疗" Photo="icon\BG_Skill\skillicon_1444.png" TimeEffect="BGskill_40051"/>
+	<Property ID="317075" Name="祝福术" Photo="icon\BG_Skill\skillicon_1444.png" effect="BGskill_wt17071" ModelGhost="1" BuffSnd="wt_heianzm_02"/>
+	<Property ID="3170752" Name="祝福术-持续治疗" Photo="icon\BG_Skill\skillicon_1444.png" TimeEffect="BGskill_40051"/>
+	<Property ID="317076" Name="祝福术" Photo="icon\BG_Skill\skillicon_1444.png" effect="BGskill_wt17071" ModelGhost="1" BuffSnd="wt_heianzm_02"/>
+	<Property ID="3170762" Name="祝福术-持续治疗" Photo="icon\BG_Skill\skillicon_1444.png" TimeEffect="BGskill_40051"/>
+	<Property ID="317122" Name="法力爆炸-晕眩" Photo="icon\BG_Skill\skillicon_1450.png" effect="Buff_Em2621"/>
+	<Property ID="317123" Name="法力爆炸-晕眩" Photo="icon\BG_Skill\skillicon_1450.png" effect="Buff_Em2621"/>
+	<Property ID="317124" Name="法力爆炸-晕眩" Photo="icon\BG_Skill\skillicon_1450.png" effect="Buff_Em2621"/>
+	<Property ID="317125" Name="法力爆炸-晕眩" Photo="icon\BG_Skill\skillicon_1450.png" effect="Buff_Em2621"/>
+	<Property ID="317126" Name="法力爆炸-晕眩" Photo="icon\BG_Skill\skillicon_1450.png" effect="Buff_Em2621"/>
+	<Property ID="3170114" Name="凝视之愈" Photo="icon\BG_Skill\skillicon_1448.png" TimeEffect="BGskill_48011" BuffSnd="wt_zhiliaolian_03"/>
+	<Property ID="3170124" Name="凝视之愈" Photo="icon\BG_Skill\skillicon_1448.png" TimeEffect="BGskill_48011" BuffSnd="wt_zhiliaolian_03"/>
+	<Property ID="3170134" Name="凝视之愈" Photo="icon\BG_Skill\skillicon_1448.png" TimeEffect="BGskill_48011" BuffSnd="wt_zhiliaolian_03"/>
+	<Property ID="3170144" Name="凝视之愈" Photo="icon\BG_Skill\skillicon_1448.png" TimeEffect="BGskill_48011" BuffSnd="wt_zhiliaolian_03"/>
+	<Property ID="3170154" Name="凝视之愈" Photo="icon\BG_Skill\skillicon_1448.png" TimeEffect="BGskill_48011" BuffSnd="wt_zhiliaolian_03"/>
+	<Property ID="317212" Name="能量盾-击晕" Photo="icon\buff\touyun.png" action="stun" effect="Skill_Buff0001_New" ModelGhost="0"/>
+	<Property ID="317213" Name="能量盾-击晕" Photo="icon\buff\touyun.png" action="stun" effect="Skill_Buff0001_New" ModelGhost="0"/>
+	<Property ID="317214" Name="能量盾-击晕" Photo="icon\buff\touyun.png" action="stun" effect="Skill_Buff0001_New" ModelGhost="0"/>
+	<Property ID="317215" Name="能量盾-击晕" Photo="icon\buff\touyun.png" action="stun" effect="Skill_Buff0001_New" ModelGhost="0"/>
+	<Property ID="317216" Name="能量盾-击晕" Photo="icon\buff\touyun.png" action="stun" effect="Skill_Buff0001_New" ModelGhost="0"/>
+	<Property ID="317182" Name="天使降临" Photo="icon\BG_skill\skillicon_1454.png" effect="BGskill_49004"/>
+	<Property ID="317183" Name="天使降临" Photo="icon\BG_skill\skillicon_1454.png" effect="BGskill_49004"/>
+	<Property ID="317184" Name="天使降临" Photo="icon\BG_skill\skillicon_1454.png" effect="BGskill_49004"/>
+	<Property ID="317185" Name="天使降临" Photo="icon\BG_skill\skillicon_1454.png" effect="BGskill_49004"/>
+	<Property ID="317186" Name="天使降临" Photo="icon\BG_skill\skillicon_1454.png" effect="BGskill_49004"/>
+	<Property ID="317282" Name="洗礼-恢复" Photo="icon\BG_Skill\skillicon_1452.png" effect="BGskill_wt172812"/>
+	<Property ID="317283" Name="洗礼-恢复" Photo="icon\BG_Skill\skillicon_1452.png" effect="BGskill_wt172812"/>
+	<Property ID="317284" Name="洗礼-恢复" Photo="icon\BG_Skill\skillicon_1452.png" effect="BGskill_wt172812"/>
+	<Property ID="317285" Name="洗礼-恢复" Photo="icon\BG_Skill\skillicon_1452.png" effect="BGskill_wt172812"/>
+	<Property ID="317286" Name="洗礼-恢复" Photo="icon\BG_Skill\skillicon_1452.png" effect="BGskill_wt172812"/>
+	<Property ID="3172822" Name="洗礼-减速" Photo="icon\BG_Skill\skillicon_1452.png" effect="BGskill_49002"/>
+	<Property ID="3172832" Name="洗礼-减速" Photo="icon\BG_Skill\skillicon_1452.png" effect="BGskill_49002"/>
+	<Property ID="3172842" Name="洗礼-减速" Photo="icon\BG_Skill\skillicon_1452.png" effect="BGskill_49002"/>
+	<Property ID="3172852" Name="洗礼-减速" Photo="icon\BG_Skill\skillicon_1452.png" effect="BGskill_49002"/>
+	<Property ID="3172862" Name="洗礼-减速" Photo="icon\BG_Skill\skillicon_1452.png" effect="BGskill_49002"/>
+	<Property ID="317012" Name="邪恶凝视" Photo="icon\BG_Skill\skillicon_1448.PNG" effect="BGskill_48007" BuffSnd="wt_shouji_01"/>
+	<Property ID="317013" Name="邪恶凝视" Photo="icon\BG_Skill\skillicon_1448.PNG" effect="BGskill_48007" BuffSnd="wt_shouji_01"/>
+	<Property ID="317014" Name="邪恶凝视" Photo="icon\BG_Skill\skillicon_1448.PNG" effect="BGskill_48007" BuffSnd="wt_shouji_01"/>
+	<Property ID="317015" Name="邪恶凝视" Photo="icon\BG_Skill\skillicon_1448.PNG" effect="BGskill_48007" BuffSnd="wt_shouji_01"/>
+	<Property ID="317016" Name="邪恶凝视" Photo="icon\BG_Skill\skillicon_1448.PNG" effect="BGskill_48007" BuffSnd="wt_shouji_01"/>
+	<Property ID="3160211" Photo="icon\BG_Skill\skillicon_1379.png" Name="咒术爆发减速1"/>
+	<Property ID="3160221" Photo="icon\BG_Skill\skillicon_1379.png" Name="烈炎咒减速2"/>
+	<Property ID="3160231" Photo="icon\BG_Skill\skillicon_1379.png" Name="烈炎咒减速3"/>
+	<Property ID="3160241" Photo="icon\BG_Skill\skillicon_1379.png" Name="烈炎咒减速4"/>
+	<Property ID="3160251" Photo="icon\BG_Skill\skillicon_1379.png" Name="烈炎咒减速5"/>
+	<Property ID="3160261" Photo="icon\BG_Skill\skillicon_1379.png" Name="烈炎咒减速6"/>
+	<Property ID="316001" Name="移除咒灵效果buff" Photo="icon\BG_Skill\skillicon_0006.png"/>
+	<Property ID="3160511" Name="咒术缠绕定身1" Photo="icon\BG_Skill\skillicon_1249.png" effect="BGskill_ch_48009"/>
+	<Property ID="3160521" Name="咒术缠绕定身2" Photo="icon\BG_Skill\skillicon_1249.png" effect="BGskill_ch_48009"/>
+	<Property ID="3160531" Name="咒术缠绕定身3" Photo="icon\BG_Skill\skillicon_1249.png" effect="BGskill_ch_48009"/>
+	<Property ID="3160541" Name="咒术缠绕定身4" Photo="icon\BG_Skill\skillicon_1249.png" effect="BGskill_ch_48009"/>
+	<Property ID="3160551" Name="咒术缠绕定身5" Photo="icon\BG_Skill\skillicon_1249.png" effect="BGskill_ch_48009"/>
+	<Property ID="3160561" Name="咒术缠绕定身6" Photo="icon\BG_Skill\skillicon_1249.png" effect="BGskill_ch_48009"/>
+	<Property ID="3161511" Name="行影术清除CDbuff1" Photo="icon\BG_Skill\skillicon_1390.png"/>
+	<Property ID="3161521" Name="恐惧降临减耗2" Photo="icon\BG_Skill\skillicon_1390.png"/>
+	<Property ID="3161531" Name="恐惧降临减耗3" Photo="icon\BG_Skill\skillicon_1390.png"/>
+	<Property ID="3161541" Name="恐惧降临减耗4" Photo="icon\BG_Skill\skillicon_1390.png"/>
+	<Property ID="3161551" Name="恐惧降临减耗5" Photo="icon\BG_Skill\skillicon_1390.png"/>
+	<Property ID="3161561" Name="恐惧降临减耗6" Photo="icon\BG_Skill\skillicon_1390.png"/>
+	<Property ID="3161411" Name="咒灵回归吸血buff1" Photo="icon\BG_Skill\skillicon_1369.png"/>
+	<Property ID="3161421" Name="咒灵回归吸血buff2" Photo="icon\BG_Skill\skillicon_1369.png"/>
+	<Property ID="3161431" Name="咒灵回归吸血buff3" Photo="icon\BG_Skill\skillicon_1369.png"/>
+	<Property ID="3161441" Name="咒灵回归吸血buff4" Photo="icon\BG_Skill\skillicon_1369.png"/>
+	<Property ID="3161451" Name="咒灵回归吸血buff5" Photo="icon\BG_Skill\skillicon_1369.png"/>
+	<Property ID="3161461" Name="咒灵回归吸血buff6" Photo="icon\BG_Skill\skillicon_1369.png"/>
+	<Property ID="3161412" Name="咒灵回归提高暴击1" Photo="icon\BG_Skill\skillicon_1369.png"/>
+	<Property ID="3161422" Name="咒灵回归提高暴击2" Photo="icon\BG_Skill\skillicon_1369.png"/>
+	<Property ID="3161432" Name="咒灵回归提高暴击3" Photo="icon\BG_Skill\skillicon_1369.png"/>
+	<Property ID="3161442" Name="咒灵回归提高暴击4" Photo="icon\BG_Skill\skillicon_1369.png"/>
+	<Property ID="3161452" Name="咒灵回归提高暴击5" Photo="icon\BG_Skill\skillicon_1369.png"/>
+	<Property ID="3161462" Name="咒灵回归提高暴击6" Photo="icon\BG_Skill\skillicon_1369.png"/>
+	<Property ID="3162311" Name="魂之解放1" Photo="icon\BG_Skill\skillicon_0028.png"/>
+	<Property ID="3162321" Name="魂之解放2" Photo="icon\BG_Skill\skillicon_0028.png"/>
+	<Property ID="3162331" Name="魂之解放3" Photo="icon\BG_Skill\skillicon_0028.png"/>
+	<Property ID="3162341" Name="魂之解放4" Photo="icon\BG_Skill\skillicon_0028.png"/>
+	<Property ID="3162351" Name="魂之解放5" Photo="icon\BG_Skill\skillicon_0028.png"/>
+	<Property ID="3162361" Name="魂之解放6" Photo="icon\BG_Skill\skillicon_0028.png"/>
+	<Property ID="3162111" Name="咒术飞弹吟唱时间修正1" Photo="icon\BG_Skill\skillicon_1254.png"/>
+	<Property ID="3162121" Name="延迟添加咒灵2" Photo="icon\BG_Skill\skillicon_1254.png" effect="BGskill_ch_50607"/>
+	<Property ID="3162131" Name="延迟添加咒灵3" Photo="icon\BG_Skill\skillicon_1254.png" effect="BGskill_ch_50607"/>
+	<Property ID="3162141" Name="延迟添加咒灵4" Photo="icon\BG_Skill\skillicon_1254.png" effect="BGskill_ch_50607"/>
+	<Property ID="3162151" Name="延迟添加咒灵5" Photo="icon\BG_Skill\skillicon_1254.png" effect="BGskill_ch_50607"/>
+	<Property ID="3162161" Name="延迟添加咒灵6" Photo="icon\BG_Skill\skillicon_1254.png" effect="BGskill_ch_50607"/>
+	<Property ID="3162211" Name="咒灵护体伤害免疫buff1" Photo="icon\BG_Skill\skillicon_1298.png" effect="BGskill_ch_50636"/>
+	<Property ID="3162221" Name="咒灵护体伤害免疫buff2" Photo="icon\BG_Skill\skillicon_1298.png" effect="BGskill_ch_50636"/>
+	<Property ID="3162231" Name="咒灵护体伤害免疫buff3" Photo="icon\BG_Skill\skillicon_1298.png" effect="BGskill_ch_50636"/>
+	<Property ID="3162241" Name="咒灵护体伤害免疫buff4" Photo="icon\BG_Skill\skillicon_1298.png" effect="BGskill_ch_50636"/>
+	<Property ID="3162251" Name="咒灵护体伤害免疫buff5" Photo="icon\BG_Skill\skillicon_1298.png" effect="BGskill_ch_50636"/>
+	<Property ID="3162261" Name="咒灵护体伤害免疫buff6" Photo="icon\BG_Skill\skillicon_1298.png" effect="BGskill_ch_50636"/>
+	<Property ID="3162411" Name="亡灵降临眩晕1" Photo="icon\BG_Skill\skillicon_0199.png"/>
+	<Property ID="3162421" Name="亡灵降临眩晕2" Photo="icon\BG_Skill\skillicon_0199.png"/>
+	<Property ID="3162431" Name="亡灵降临眩晕3" Photo="icon\BG_Skill\skillicon_0199.png"/>
+	<Property ID="3162441" Name="亡灵降临眩晕4" Photo="icon\BG_Skill\skillicon_0199.png"/>
+	<Property ID="3162451" Name="亡灵降临眩晕5" Photo="icon\BG_Skill\skillicon_0199.png"/>
+	<Property ID="3162461" Name="亡灵降临眩晕6" Photo="icon\BG_Skill\skillicon_0199.png"/>
+	<Property ID="3162412" Name="亡灵降临光环1" Photo="icon\BG_Skill\skillicon_0183.png"/>
+	<Property ID="3162422" Name="亡灵降临光环2" Photo="icon\BG_Skill\skillicon_0183.png"/>
+	<Property ID="3162432" Name="亡灵降临光环3" Photo="icon\BG_Skill\skillicon_0183.png"/>
+	<Property ID="3162442" Name="亡灵降临光环4" Photo="icon\BG_Skill\skillicon_0183.png"/>
+	<Property ID="3162452" Name="亡灵降临光环5" Photo="icon\BG_Skill\skillicon_0183.png"/>
+	<Property ID="3162462" Name="亡灵降临光环6" Photo="icon\BG_Skill\skillicon_0183.png"/>
+	<Property ID="3162413" Name="亡灵降临光环二1" Photo="icon\BG_Skill\skillicon_0161.png"/>
+	<Property ID="3162423" Name="亡灵降临光环二2" Photo="icon\BG_Skill\skillicon_0161.png"/>
+	<Property ID="3162433" Name="亡灵降临光环二3" Photo="icon\BG_Skill\skillicon_0161.png"/>
+	<Property ID="3162443" Name="亡灵降临光环二4" Photo="icon\BG_Skill\skillicon_0161.png"/>
+	<Property ID="3162453" Name="亡灵降临光环二5" Photo="icon\BG_Skill\skillicon_0161.png"/>
+	<Property ID="3162463" Name="亡灵降临光环二6" Photo="icon\BG_Skill\skillicon_0161.png"/>
+	<Property ID="3162414" Name="亡灵降临攻击减速1" Photo="icon\BG_Skill\skillicon_1223.png"/>
+	<Property ID="3162424" Name="亡灵降临攻击减速2" Photo="icon\BG_Skill\skillicon_1223.png"/>
+	<Property ID="3162434" Name="亡灵降临攻击减速3" Photo="icon\BG_Skill\skillicon_1223.png"/>
+	<Property ID="3162444" Name="亡灵降临攻击减速4" Photo="icon\BG_Skill\skillicon_1223.png"/>
+	<Property ID="3162454" Name="亡灵降临攻击减速5" Photo="icon\BG_Skill\skillicon_1223.png"/>
+	<Property ID="3162464" Name="亡灵降临攻击减速6" Photo="icon\BG_Skill\skillicon_1223.png"/>
+	<Property ID="3160912" Name="魔咒1" Photo="icon\BG_Skill\skillicon_0210.png"/>
+	<Property ID="3162112" Name="延迟添加咒灵解1" Photo="icon\BG_Skill\skillicon_0160.png"/>
+	<Property ID="3162122" Name="延迟添加咒灵解2" Photo="icon\BG_Skill\skillicon_0160.png"/>
+	<Property ID="3162132" Name="延迟添加咒灵解3" Photo="icon\BG_Skill\skillicon_0160.png"/>
+	<Property ID="3162142" Name="延迟添加咒灵解4" Photo="icon\BG_Skill\skillicon_0160.png"/>
+	<Property ID="3162152" Name="延迟添加咒灵解5" Photo="icon\BG_Skill\skillicon_0160.png"/>
+	<Property ID="3162162" Name="延迟添加咒灵解6" Photo="icon\BG_Skill\skillicon_0160.png"/>
+	<Property ID="316002" Name="移除咒灵解" Photo="icon\BG_Skill\skillicon_0136.png"/>
+	<Property ID="3181413" Name="幽鬼回蓝光环" Photo="icon\BG_Skill\skillicon_1251.png"/>
+	<Property ID="3181412" Name="幽鬼回蓝" Photo="icon\BG_Skill\skillicon_1251.png" TimeEffect="BGskill_48018"/>
+	<Property ID="3181423" Name="幽鬼回蓝光环" Photo="icon\BG_Skill\skillicon_1251.png"/>
+	<Property ID="3181422" Name="幽鬼回蓝" Photo="icon\BG_Skill\skillicon_1251.png" TimeEffect="BGskill_48018"/>
+	<Property ID="3181433" Name="幽鬼回蓝光环" Photo="icon\BG_Skill\skillicon_1251.png"/>
+	<Property ID="3181432" Name="幽鬼回蓝" Photo="icon\BG_Skill\skillicon_1251.png" TimeEffect="BGskill_48018"/>
+	<Property ID="3181443" Name="幽鬼回蓝光环" Photo="icon\BG_Skill\skillicon_1251.png"/>
+	<Property ID="3181442" Name="幽鬼回蓝" Photo="icon\BG_Skill\skillicon_1251.png" TimeEffect="BGskill_48018"/>
+	<Property ID="3181453" Name="幽鬼回蓝光环" Photo="icon\BG_Skill\skillicon_1251.png"/>
+	<Property ID="3181452" Name="幽鬼回蓝" Photo="icon\BG_Skill\skillicon_1251.png" TimeEffect="BGskill_48018"/>
+	<Property ID="3181463" Name="幽鬼回蓝光环" Photo="icon\BG_Skill\skillicon_1251.png"/>
+	<Property ID="3181462" Name="幽鬼回蓝" Photo="icon\BG_Skill\skillicon_1251.png" TimeEffect="BGskill_48018"/>
+	<Property ID="318011" Name="自爆" Photo="icon\BG_Skill\skillicon_1380.png" action="attcakR_0h"/>
+	<Property ID="3180112" Name="骷髅回血" Photo="icon\BG_Skill\skillicon_1380.png" TimeEffect="BGskill_48017"/>
+	<Property ID="318012" Name="骷髅回血光环" Photo="icon\BG_Skill\skillicon_1380.png" effect="BGskill_82155"/>
+	<Property ID="3180122" Name="骷髅回血" Photo="icon\BG_Skill\skillicon_1380.png" TimeEffect="BG_skill48017"/>
+	<Property ID="318013" Name="骷髅回血光环" Photo="icon\BG_Skill\skillicon_1380.png"/>
+	<Property ID="3180132" Name="骷髅回血" Photo="icon\BG_Skill\skillicon_1380.png" TimeEffect="BG_skill48017"/>
+	<Property ID="318014" Name="骷髅回血光环" Photo="icon\BG_Skill\skillicon_1380.png"/>
+	<Property ID="3180142" Name="骷髅回血" Photo="icon\BG_Skill\skillicon_1380.png" TimeEffect="BG_skill48017"/>
+	<Property ID="318015" Name="骷髅回血光环" Photo="icon\BG_Skill\skillicon_1380.png"/>
+	<Property ID="3180152" Name="骷髅回血" Photo="icon\BG_Skill\skillicon_1380.png" TimeEffect="BG_skill48017"/>
+	<Property ID="318016" Name="骷髅回血光环" Photo="icon\BG_Skill\skillicon_1380.png"/>
+	<Property ID="3180162" Name="骷髅回血" Photo="icon\BG_Skill\skillicon_1380.png" TimeEffect="BG_skill48017"/>
+	<Property ID="3162212" Name="咒灵护体绝对暴击1" Photo="icon\BG_Skill\skillicon_0186.png" effect="BGskill_ch_50616" action="skill3805_1h"/>
+	<Property ID="3162222" Name="格挡回蓝2" Photo="icon\BG_Skill\skillicon_0186.png" effect="BGskill_ch_50616" action="skill3805_1h"/>
+	<Property ID="3162232" Name="格挡回蓝3" Photo="icon\BG_Skill\skillicon_0186.png" effect="BGskill_ch_50616" action="skill3805_1h"/>
+	<Property ID="3162242" Name="格挡回蓝4" Photo="icon\BG_Skill\skillicon_0186.png" effect="BGskill_ch_50616" action="skill3805_1h"/>
+	<Property ID="3162252" Name="格挡回蓝5" Photo="icon\BG_Skill\skillicon_0186.png" effect="BGskill_ch_50616" action="skill3805_1h"/>
+	<Property ID="3162262" Name="格挡回蓝6" Photo="icon\BG_Skill\skillicon_0186.png" effect="BGskill_ch_50616" action="skill3805_1h"/>
+	<Property ID="3161613" Name="DEATH技之A" effect="BGskill_Th_50609"/>
+	<Property ID="3170112" Name="DEATH-E" effect="BGskill_Th_50607"/>
+	<Property ID="3170113" Name="DEATH-H" effect="BGskill_Th_50610"/>
+	<Property ID="3180913"/>
+	<Property ID="3100111" Name="嘲讽" Photo="icon\buff\skillicon_0480.png"/>
+	<Property ID="3100112" Name="嘲讽" Photo="icon\buff\skillicon_0480.png"/>
+	<Property ID="3100113" Name="嘲讽" Photo="icon\buff\skillicon_0480.png"/>
+	<Property ID="3100114" Name="嘲讽" Photo="icon\buff\skillicon_0480.png"/>
+	<Property ID="3100115" Name="嘲讽" Photo="icon\buff\skillicon_0480.png"/>
+	<Property ID="3100116" Name="嘲讽" Photo="icon\buff\skillicon_0480.png"/>
+	<Property ID="312281" Name="点燃" Photo="icon\buff\skillicon_0513.png"/>
+	<Property ID="312291" Name="精准" Photo="icon\buff\skillicon_0509.png" effect="BGskill_82066"/>
+	<Property ID="312311" Name="加速" Photo="icon\buff\skillicon_0535.png" effect="BGskill_82060"/>
+	<Property ID="312331" Name="枪手之威" Photo="icon\buff\skillicon_0476.png" effect="BGskill_82071"/>
+	<Property ID="310111" Name="流血" Photo="icon\buff\liuxue.png"/>
+	<Property ID="310112" Name="流血" Photo="icon\buff\liuxue.png"/>
+	<Property ID="310113" Name="流血" Photo="icon\buff\liuxue.png"/>
+	<Property ID="310114" Name="流血" Photo="icon\buff\liuxue.png"/>
+	<Property ID="310115" Name="流血" Photo="icon\buff\liuxue.png"/>
+	<Property ID="310116" Name="流血" Photo="icon\buff\liuxue.png"/>
+	<Property ID="312051" Name="穿甲弹装备" Photo="icon\BG_Skill\skillicon_1102.png"/>
+	<Property ID="312181" Name="冰霜射击" Photo="icon\BG_Skill\skillicon_0072.png"/>
+	<Property ID="3130611" Name="战争怒吼1" Photo="icon\BG_Skill\skillicon_1408.png" effect="BGskill_Tk_50609"/>
+	<Property ID="3130621" Name="战争怒吼2" Photo="icon\BG_Skill\skillicon_1408.png" effect="BGskill_Tk_50609"/>
+	<Property ID="3130631" Name="战争怒吼3" Photo="icon\BG_Skill\skillicon_1408.png" effect="BGskill_Tk_50609"/>
+	<Property ID="3130641" Name="战争怒吼4" Photo="icon\BG_Skill\skillicon_1408.png" effect="BGskill_Tk_50609"/>
+	<Property ID="3130651" Name="战争怒吼5" Photo="icon\BG_Skill\skillicon_1408.png" effect="BGskill_Tk_50609"/>
+	<Property ID="3130661" Name="战争怒吼6" Photo="icon\BG_Skill\skillicon_1408.png" effect="BGskill_Tk_50609"/>
+	<Property ID="3130711" Name="碎骨锤1" Photo="icon\BG_Skill\skillicon_1403.png"/>
+	<Property ID="3130721" Name="碎骨锤2" Photo="icon\BG_Skill\skillicon_1403.png"/>
+	<Property ID="3130731" Name="碎骨锤3" Photo="icon\BG_Skill\skillicon_1403.png"/>
+	<Property ID="3130741" Name="碎骨锤4" Photo="icon\BG_Skill\skillicon_1403.png"/>
+	<Property ID="3130751" Name="碎骨锤5" Photo="icon\BG_Skill\skillicon_1403.png"/>
+	<Property ID="3130761" Name="碎骨锤6" Photo="icon\BG_Skill\skillicon_1403.png"/>
+	<Property ID="3130811" Name="能量提升1" Photo="icon\BG_Skill\skillicon_1414.png" effect="BGskill_Tk_50612"/>
+	<Property ID="3130821" Name="能量提升2" Photo="icon\BG_Skill\skillicon_1414.png" effect="BGskill_Tk_50612"/>
+	<Property ID="3130831" Name="能量提升3" Photo="icon\BG_Skill\skillicon_1414.png" effect="BGskill_Tk_50612"/>
+	<Property ID="3130841" Name="能量提升4" Photo="icon\BG_Skill\skillicon_1414.png" effect="BGskill_Tk_50612"/>
+	<Property ID="3130851" Name="能量提升5" Photo="icon\BG_Skill\skillicon_1414.png" effect="BGskill_Tk_50612"/>
+	<Property ID="3130861" Name="能量提升6" Photo="icon\BG_Skill\skillicon_1414.png" effect="BGskill_Tk_50612"/>
+	<Property ID="3131011" Name="气锤·灼伤1" Photo="icon\BG_Skill\skillicon_1412.png"/>
+	<Property ID="3131021" Name="气锤·灼伤2" Photo="icon\BG_Skill\skillicon_1412.png"/>
+	<Property ID="3131031" Name="气锤·灼伤3" Photo="icon\BG_Skill\skillicon_1412.png"/>
+	<Property ID="3131041" Name="气锤·灼伤4" Photo="icon\BG_Skill\skillicon_1412.png"/>
+	<Property ID="3131051" Name="气锤·灼伤5" Photo="icon\BG_Skill\skillicon_1412.png"/>
+	<Property ID="3131061" Name="气锤·灼伤6" Photo="icon\BG_Skill\skillicon_1412.png"/>
+	<Property ID="3131111" Name="灼热蒸汽·后续触发1" Photo="icon\BG_Skill\heijing_jijie.PNG"/>
+	<Property ID="3131121" Name="灼热蒸汽·后续触发2" Photo="icon\BG_Skill\heijing_jijie.PNG"/>
+	<Property ID="3131131" Name="灼热蒸汽·后续触发3" Photo="icon\BG_Skill\heijing_jijie.PNG"/>
+	<Property ID="3131141" Name="灼热蒸汽·后续触发4" Photo="icon\BG_Skill\heijing_jijie.PNG"/>
+	<Property ID="3131151" Name="灼热蒸汽·后续触发5" Photo="icon\BG_Skill\heijing_jijie.PNG"/>
+	<Property ID="3131161" Name="灼热蒸汽·后续触发6" Photo="icon\BG_Skill\heijing_jijie.PNG"/>
+	<Property ID="3131112" Photo="icon\BG_Skill\heijin_tu.PNG"/>
+	<Property ID="3131122" Photo="icon\BG_Skill\heijin_tu.PNG"/>
+	<Property ID="3131132" Photo="icon\BG_Skill\heijin_tu.PNG"/>
+	<Property ID="3131142" Photo="icon\BG_Skill\heijin_tu.PNG"/>
+	<Property ID="3131152" Photo="icon\BG_Skill\heijin_tu.PNG"/>
+	<Property ID="3131162" Photo="icon\BG_Skill\heijin_tu.PNG"/>
+	<Property ID="3131211" Name="极光·触发1" Photo="icon\BG_Skill\skillicon_1401.png"/>
+	<Property ID="3131221" Name="极光·触发2" Photo="icon\BG_Skill\skillicon_1401.png"/>
+	<Property ID="3131231" Name="极光·触发3" Photo="icon\BG_Skill\skillicon_1401.png"/>
+	<Property ID="3131241" Name="极光·触发4" Photo="icon\BG_Skill\skillicon_1401.png"/>
+	<Property ID="3131251" Name="极光·触发5" Photo="icon\BG_Skill\skillicon_1401.png"/>
+	<Property ID="3131261" Name="极光·触发6" Photo="icon\BG_Skill\skillicon_1401.png"/>
+	<Property ID="3132011" Name="纠缠·宠物1" Photo="icon\BG_Skill\skillicon_1355.png"/>
+	<Property ID="3132021" Name="纠缠·宠物2" Photo="icon\BG_Skill\skillicon_1355.png"/>
+	<Property ID="3132031" Name="纠缠·宠物3" Photo="icon\BG_Skill\skillicon_1355.png"/>
+	<Property ID="3132041" Name="纠缠·宠物4" Photo="icon\BG_Skill\skillicon_1355.png"/>
+	<Property ID="3132051" Name="纠缠·宠物5" Photo="icon\BG_Skill\skillicon_1355.png"/>
+	<Property ID="3132061" Name="纠缠·宠物6" Photo="icon\BG_Skill\skillicon_1355.png"/>
+	<Property ID="3132111" Name="中粒子炮·宠物1" Photo="icon\BG_Skill\skillicon_1358.png" effect="BGskill_Fm_50601"/>
+	<Property ID="3132121" Name="中粒子炮·宠物2" Photo="icon\BG_Skill\skillicon_1358.png" effect="BGskill_Fm_50601"/>
+	<Property ID="3132131" Name="中粒子炮·宠物3" Photo="icon\BG_Skill\skillicon_1358.png" effect="BGskill_Fm_50601"/>
+	<Property ID="3132141" Name="中粒子炮·宠物4" Photo="icon\BG_Skill\skillicon_1358.png" effect="BGskill_Fm_50601"/>
+	<Property ID="3132151" Name="中粒子炮·宠物5" Photo="icon\BG_Skill\skillicon_1358.png" effect="BGskill_Fm_50601"/>
+	<Property ID="3132161" Name="中粒子炮·宠物6" Photo="icon\BG_Skill\skillicon_1358.png" effect="BGskill_Fm_50601"/>
+	<Property ID="3131311" Name="疯狂撕咬·触发1" Photo="icon\BG_Skill\skillicon_1356.png"/>
+	<Property ID="3131321" Name="疯狂撕咬·触发2" Photo="icon\BG_Skill\skillicon_1356.png"/>
+	<Property ID="3131331" Name="疯狂撕咬·触发3" Photo="icon\BG_Skill\skillicon_1356.png"/>
+	<Property ID="3131341" Name="疯狂撕咬·触发4" Photo="icon\BG_Skill\skillicon_1356.png"/>
+	<Property ID="3131351" Name="疯狂撕咬·触发5" Photo="icon\BG_Skill\skillicon_1356.png"/>
+	<Property ID="3131361" Name="疯狂撕咬·触发6" Photo="icon\BG_Skill\skillicon_1356.png"/>
+	<Property ID="3131411" Name="超火球弹·触发1" Photo="icon\BG_Skill\skillicon_1352.png"/>
+	<Property ID="3131421" Name="超火球弹·触发2" Photo="icon\BG_Skill\skillicon_1352.png"/>
+	<Property ID="3131431" Name="超火球弹·触发3" Photo="icon\BG_Skill\skillicon_1352.png"/>
+	<Property ID="3131441" Name="超火球弹·触发4" Photo="icon\BG_Skill\skillicon_1352.png"/>
+	<Property ID="3131451" Name="超火球弹·触发5" Photo="icon\BG_Skill\skillicon_1352.png"/>
+	<Property ID="3131461" Name="超火球弹·触发6" Photo="icon\BG_Skill\skillicon_1352.png"/>
+	<Property ID="3131412" Name="超火球弹·后续1" Photo="icon\BG_Skill\skillicon_1352.png"/>
+	<Property ID="3131422" Name="超火球弹·后续2" Photo="icon\BG_Skill\skillicon_1352.png"/>
+	<Property ID="3131432" Name="超火球弹·后续3" Photo="icon\BG_Skill\skillicon_1352.png"/>
+	<Property ID="3131442" Name="超火球弹·后续4" Photo="icon\BG_Skill\skillicon_1352.png"/>
+	<Property ID="3131452" Name="超火球弹·后续5" Photo="icon\BG_Skill\skillicon_1352.png"/>
+	<Property ID="3131462" Name="超火球弹·后续6" Photo="icon\BG_Skill\skillicon_1352.png"/>
+	<Property ID="3131511" Name="超重拳·触发1" Photo="icon\BG_Skill\skillicon_1364.png"/>
+	<Property ID="3131521" Name="超重拳·触发2" Photo="icon\BG_Skill\skillicon_1364.png"/>
+	<Property ID="3131531" Name="超重拳·触发3" Photo="icon\BG_Skill\skillicon_1364.png"/>
+	<Property ID="3131541" Name="超重拳·触发4" Photo="icon\BG_Skill\skillicon_1364.png"/>
+	<Property ID="3131551" Name="超重拳·触发5" Photo="icon\BG_Skill\skillicon_1364.png"/>
+	<Property ID="3131561" Name="超重拳·触发6" Photo="icon\BG_Skill\skillicon_1364.png"/>
+	<Property ID="3120321" Name="子母弹" Photo="icon\buff\skillicon_0453.png"/>
+	<Property ID="3120331" Name="子母弹" Photo="icon\buff\skillicon_0453.png"/>
+	<Property ID="3120341" Name="子母弹" Photo="icon\buff\skillicon_0453.png"/>
+	<Property ID="3120351" Name="子母弹" Photo="icon\buff\skillicon_0453.png"/>
+	<Property ID="3120361" Name="子母弹" Photo="icon\buff\skillicon_0453.png"/>
+	<Property ID="3120521" Name="穿甲弹装备" Photo="icon\BG_Skill\skillicon_1102.png"/>
+	<Property ID="3120522" Name="穿甲弹流血" Photo="icon\BG_Skill\skillicon_0311.png"/>
+	<Property ID="3120531" Name="穿甲弹装备" Photo="icon\BG_Skill\skillicon_1102.png"/>
+	<Property ID="3120532" Name="穿甲弹流血" Photo="icon\BG_Skill\skillicon_0311.png"/>
+	<Property ID="3120541" Name="穿甲弹装备" Photo="icon\BG_Skill\skillicon_1102.png"/>
+	<Property ID="3120542" Name="穿甲弹流血" Photo="icon\BG_Skill\skillicon_0311.png"/>
+	<Property ID="3120551" Name="穿甲弹装备" Photo="icon\BG_Skill\skillicon_1102.png"/>
+	<Property ID="3120552" Name="穿甲弹流血" Photo="icon\BG_Skill\skillicon_0311.png"/>
+	<Property ID="3120561" Name="穿甲弹装备" Photo="icon\BG_Skill\skillicon_1102.png"/>
+	<Property ID="3120562" Name="穿甲弹流血" Photo="icon\BG_Skill\skillicon_0311.png"/>
+	<Property ID="3122821" Name="点燃" Photo="icon\buff\skillicon_0513.png"/>
+	<Property ID="3122831" Name="点燃" Photo="icon\buff\skillicon_0513.png"/>
+	<Property ID="3122841" Name="点燃" Photo="icon\buff\skillicon_0513.png"/>
+	<Property ID="3122851" Name="点燃" Photo="icon\buff\skillicon_0513.png"/>
+	<Property ID="3122861" Name="点燃" Photo="icon\buff\skillicon_0513.png"/>
+	<Property ID="3122921" Name="精准" Photo="icon\buff\skillicon_0509.png" effect="BGskill_82066"/>
+	<Property ID="3122931" Name="精准" Photo="icon\buff\skillicon_0509.png" effect="BGskill_82066"/>
+	<Property ID="3122941" Name="精准" Photo="icon\buff\skillicon_0509.png" effect="BGskill_82066"/>
+	<Property ID="3122951" Name="精准" Photo="icon\buff\skillicon_0509.png" effect="BGskill_82066"/>
+	<Property ID="3122961" Name="精准" Photo="icon\buff\skillicon_0509.png" effect="BGskill_82066"/>
+	<Property ID="3121821" Name="冰霜射击" Photo="icon\BG_Skill\skillicon_0072.png"/>
+	<Property ID="3121831" Name="冰霜射击" Photo="icon\BG_Skill\skillicon_0072.png"/>
+	<Property ID="3121841" Name="冰霜射击" Photo="icon\BG_Skill\skillicon_0072.png"/>
+	<Property ID="3121851" Name="冰霜射击" Photo="icon\BG_Skill\skillicon_0072.png"/>
+	<Property ID="3121861" Name="冰霜射击" Photo="icon\BG_Skill\skillicon_0072.png"/>
+	<Property ID="3123121" Name="加速" Photo="icon\buff\skillicon_0535.png" effect="BGskill_82060"/>
+	<Property ID="3123131" Name="加速" Photo="icon\buff\skillicon_0535.png" effect="BGskill_82060"/>
+	<Property ID="3123141" Name="加速" Photo="icon\buff\skillicon_0535.png" effect="BGskill_82060"/>
+	<Property ID="3123151" Name="加速" Photo="icon\buff\skillicon_0535.png" effect="BGskill_82060"/>
+	<Property ID="3123161" Name="加速" Photo="icon\buff\skillicon_0535.png" effect="BGskill_82060"/>
+	<Property ID="3123321" Name="枪手之威" Photo="icon\buff\skillicon_0476.png" effect="BGskill_82071"/>
+	<Property ID="3123331" Name="枪手之威" Photo="icon\buff\skillicon_0476.png" effect="BGskill_82071"/>
+	<Property ID="3123341" Name="枪手之威" Photo="icon\buff\skillicon_0476.png" effect="BGskill_82071"/>
+	<Property ID="3123351" Name="枪手之威" Photo="icon\buff\skillicon_0476.png" effect="BGskill_82071"/>
+	<Property ID="3123361" Name="枪手之威" Photo="icon\buff\skillicon_0476.png" effect="BGskill_82071"/>
+	<Property ID="3131611" Name="深度解析加速" Photo="icon\BG_Skill\skillicon_1416.png"/>
+	<Property ID="3131621" Name="深度解析加速" Photo="icon\BG_Skill\skillicon_1416.png"/>
+	<Property ID="3131631" Name="深度解析加速" Photo="icon\BG_Skill\skillicon_1416.png"/>
+	<Property ID="3131641" Name="深度解析加速" Photo="icon\BG_Skill\skillicon_1416.png"/>
+	<Property ID="3131651" Name="深度解析加速" Photo="icon\BG_Skill\skillicon_1416.png"/>
+	<Property ID="3131661" Name="深度解析加速" Photo="icon\BG_Skill\skillicon_1416.png"/>
+	<Property ID="3131612" Photo="icon\BG_Skill\skillicon_1416.png"/>
+	<Property ID="3131622" Photo="icon\BG_Skill\skillicon_1416.png"/>
+	<Property ID="3131632" Photo="icon\BG_Skill\skillicon_1416.png"/>
+	<Property ID="3131642" Photo="icon\BG_Skill\skillicon_1416.png"/>
+	<Property ID="3131652" Photo="icon\BG_Skill\skillicon_1416.png"/>
+	<Property ID="3131662" Photo="icon\BG_Skill\skillicon_1416.png"/>
+	<Property ID="31502" Name="净化弹" Photo="icon\BG_Skill\skillicon_1394.png"/>
+	<Property ID="31503" Name="狂暴弹" Photo="icon\BG_Skill\skillicon_1395.png"/>
+	<Property ID="31504" Name="医疗之雾" Photo="icon\BG_Skill\skillicon_1396.png"/>
+	<Property ID="31507" Name="隐身" Photo="icon\BG_Skill\skillicon_1397.png"/>
+	<Property ID="31508" Name="不死药剂" Photo="icon\BG_Skill\skillicon_1398.png" effect="BGskill_82089"/>
+	<Property ID="31509" Name="战争迷雾" Photo="icon\BG_Skill\skillicon_1399.png"/>
+	<Property ID="31510" Name="麻醉" Photo="icon\BG_Skill\skillicon_1400.png"/>
+	<Property ID="315161" Name="机械守卫" Photo="icon\BG_Skill\skillicon_1406.png"/>
+	<Property ID="315162" Name="回血" Photo="icon\buff\skillicon_1425.png" effect="BGskill_82095"/>
+	<Property ID="314011" Name="酸性蒸汽" Photo="icon\BG_Skill\skillicon_0004.png" TimeAction="combat" TimeEffect="BGskill_48060"/>
+	<Property ID="314021" Name="碱性蒸汽" Photo="icon\BG_Skill\jineng_yexingsilie.PNG" effect="BGskill_48059"/>
+	<Property ID="315171" Name="机械防护" Photo="icon\buff\skillicon_0483.png"/>
+	<Property ID="315172" Name="吸收伤害" Photo="icon\buff\skillicon_0454.png" effect="BGskill_82090"/>
+	<Property ID="315191" Name="机械磁场" Photo="icon\BG_Skill\skillicon_1409.png"/>
+	<Property ID="315192" Name="机械磁场" Photo="icon\BG_Skill\skillicon_1409.png" effect="BGskill_82094"/>
+	<Property ID="310121" Name="盾牌精通" Photo="icon\buff\skillicon_0452png" BuffSnd="in_cuozhilh_01"/>
+	<Property ID="310122" Name="盾牌精通" Photo="icon\buff\skillicon_0452png"/>
+	<Property ID="310123" Name="盾牌精通" Photo="icon\buff\skillicon_0452png"/>
+	<Property ID="310124" Name="盾牌精通" Photo="icon\buff\skillicon_0452png"/>
+	<Property ID="310125" Name="盾牌精通" Photo="icon\buff\skillicon_0452png"/>
+	<Property ID="310126" Name="盾牌精通" Photo="icon\buff\skillicon_0452png"/>
+	<Property ID="314061" Name="腐蚀蒸汽" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG" effect="BGskill_48055"/>
+	<Property ID="314071" Name="蒸汽抑制" Photo="icon\BG_Skill\heijing_jijie.PNG" effect="BGskill_48056"/>
+	<Property ID="314091" Name="契约之力" Photo="icon\BG_Skill\jineng_yexingxuemai.PNG" color="0,255,0,0"/>
+	<Property ID="314111" Name="暴走" Photo="icon\BG_Skill\skillicon_0444.png" effect="BGskill_48052"/>
+	<Property ID="314121" Name="蒸汽盾" Photo="icon\BG_Skill\skillicon_0290.png" effect="BGskill_48054"/>
+	<Property ID="314151" Name="异教徒仪式" Photo="icon\buff\skillicon_0508.png"/>
+	<Property ID="310501" Name="流血" Photo="icon\buff\liuxue.png"/>
+	<Property ID="310511" Name="惩罚之怒" Photo="icon\buff\skillicon_0491.png" EffectIndex="1" EffectCount="1" EffectInner="skill_01" EffectOuter="skill_03" EffectUpper="skill_05"/>
+	<Property ID="3100411" Name="雷击提高暴击1" Photo="icon\BG_Skill\skillicon_1082.PNG"/>
+	<Property ID="3100412" Name="雷击提高暴击2" Photo="icon\BG_Skill\skillicon_1082.PNG"/>
+	<Property ID="3100413" Name="雷击提高暴击3" Photo="icon\BG_Skill\skillicon_1082.PNG"/>
+	<Property ID="3100414" Name="雷击提高暴击4" Photo="icon\BG_Skill\skillicon_1082.PNG"/>
+	<Property ID="3100415" Name="雷击提高暴击5" Photo="icon\BG_Skill\skillicon_1082.PNG"/>
+	<Property ID="3100321" Name="挫志怒吼" Photo="icon\buff\skillicon_0535.png" ModelGhost="0"/>
+	<Property ID="3100322" Name="挫志怒吼" Photo="icon\buff\skillicon_0535.png" ModelGhost="0"/>
+	<Property ID="3100323" Name="挫志怒吼" Photo="icon\buff\skillicon_0535.png" ModelGhost="0"/>
+	<Property ID="3100324" Name="挫志怒吼" Photo="icon\buff\skillicon_0535.png" ModelGhost="0"/>
+	<Property ID="3100325" Name="挫志怒吼" Photo="icon\buff\skillicon_0535.png" ModelGhost="0"/>
+	<Property ID="3100326" Name="挫志怒吼" Photo="icon\buff\skillicon_0535.png" ModelGhost="0"/>
+	<Property ID="311501" Name="杀戮印记" Photo="icon\buff\skillicon_0457.png" EffectIndex="1" EffectCount="1" EffectInner="skill_01" EffectOuter="skill_03" EffectUpper="skill_05"/>
+	<Property ID="3112511" Name="杀戮渴望" Photo="icon\BG_Skill\skillicon_1150.png" effect="BGskill_82046"/>
+	<Property ID="3112521" Name="杀戮渴望" Photo="icon\BG_Skill\skillicon_1150.png" effect="BGskill_82046"/>
+	<Property ID="3112531" Name="杀戮渴望" Photo="icon\BG_Skill\skillicon_1150.png" effect="BGskill_82046"/>
+	<Property ID="3112541" Name="杀戮渴望" Photo="icon\BG_Skill\skillicon_1150.png" effect="BGskill_82046"/>
+	<Property ID="3112551" Name="杀戮渴望" Photo="icon\BG_Skill\skillicon_1150.png" effect="BGskill_82046"/>
+	<Property ID="3112561" Name="杀戮渴望" Photo="icon\BG_Skill\skillicon_1150.png" effect="BGskill_82046"/>
+	<Property ID="310502" Name="流血" Photo="icon\buff\skillicon_1423.png"/>
+	<Property ID="310503" Name="流血" Photo="icon\buff\skillicon_1423.png"/>
+	<Property ID="310504" Name="流血" Photo="icon\buff\skillicon_1423.png"/>
+	<Property ID="310505" Name="流血" Photo="icon\buff\skillicon_1423.png"/>
+	<Property ID="310506" Name="流血" Photo="icon\buff\skillicon_1423.png"/>
+	<Property ID="3160812" Name="刺骨阴风惩罚" Photo="icon\BG_Skill\heijin_ronghe.PNG"/>
+	<Property ID="3160822" Name="刺骨阴风惩罚2" Photo="icon\BG_Skill\heijin_ronghe.PNG"/>
+	<Property ID="3160832" Name="刺骨阴风惩罚3" Photo="icon\BG_Skill\heijin_ronghe.PNG"/>
+	<Property ID="3160842" Name="刺骨阴风惩罚4" Photo="icon\BG_Skill\heijin_ronghe.PNG"/>
+	<Property ID="3160852" Name="刺骨阴风惩罚5" Photo="icon\BG_Skill\heijin_ronghe.PNG"/>
+	<Property ID="3160862" Name="刺骨阴风惩罚6" Photo="icon\BG_Skill\heijin_ronghe.PNG"/>
+	<Property ID="3162611" Name="灵媒体质" Photo="icon\BG_Skill\skillicon_1314.png" effect="BGskill_ch_50641"/>
+	<Property ID="3162621" Name="灵媒体质" Photo="icon\BG_Skill\skillicon_1314.png"/>
+	<Property ID="3162631" Name="灵媒体质" Photo="icon\BG_Skill\skillicon_1314.png"/>
+	<Property ID="3162641" Name="灵媒体质" Photo="icon\BG_Skill\skillicon_1314.png"/>
+	<Property ID="3162651" Name="灵媒体质" Photo="icon\BG_Skill\skillicon_1314.png"/>
+	<Property ID="3162661" Name="灵媒体质" Photo="icon\BG_Skill\skillicon_1314.png"/>
+	<Property ID="3162711" Name="咒灵涌动" Photo="icon\BG_Skill\skillicon_1302.png"/>
+	<Property ID="3162721" Name="咒灵涌动" Photo="icon\BG_Skill\skillicon_1302.png"/>
+	<Property ID="3162731" Name="咒灵涌动" Photo="icon\BG_Skill\skillicon_1302.png"/>
+	<Property ID="3162741" Name="咒灵涌动" Photo="icon\BG_Skill\skillicon_1302.png"/>
+	<Property ID="3162751" Name="咒灵涌动" Photo="icon\BG_Skill\skillicon_1302.png"/>
+	<Property ID="3162761" Name="咒灵涌动" Photo="icon\BG_Skill\skillicon_1302.png"/>
+	<Property ID="318211" Name="黑暗灵魂" Photo="icon\BG_Skill\skillicon_1257.png"/>
+	<Property ID="318212" Name="黑暗灵魂" Photo="icon\BG_Skill\skillicon_1257.png"/>
+	<Property ID="318213" Name="黑暗灵魂" Photo="icon\BG_Skill\skillicon_1257.png"/>
+	<Property ID="318214" Name="黑暗灵魂" Photo="icon\BG_Skill\skillicon_1257.png"/>
+	<Property ID="318215" Name="黑暗灵魂" Photo="icon\BG_Skill\skillicon_1257.png"/>
+	<Property ID="318216" Name="黑暗灵魂" Photo="icon\BG_Skill\skillicon_1257.png"/>
+	<Property ID="318221" Name="魔法掌控" Photo="icon\BG_Skill\skillicon_1258.png"/>
+	<Property ID="318222" Name="魔法掌控" Photo="icon\BG_Skill\skillicon_1258.png"/>
+	<Property ID="318223" Name="魔法掌控" Photo="icon\BG_Skill\skillicon_1258.png"/>
+	<Property ID="318224" Name="魔法掌控" Photo="icon\BG_Skill\skillicon_1258.png"/>
+	<Property ID="318225" Name="魔法掌控" Photo="icon\BG_Skill\skillicon_1258.png"/>
+	<Property ID="318226" Name="魔法掌控" Photo="icon\BG_Skill\skillicon_1258.png"/>
+	<Property ID="318052" Name="尸魂送葬" Photo="icon\BG_Skill\skillicon_1365.png" effect="skill_buff_0180"/>
+	<Property ID="318053" Name="尸魂送葬" Photo="icon\BG_Skill\skillicon_1365.png" effect="skill_buff_0180"/>
+	<Property ID="318054" Name="尸魂送葬" Photo="icon\BG_Skill\skillicon_1365.png" effect="skill_buff_0180"/>
+	<Property ID="318055" Name="尸魂送葬" Photo="icon\BG_Skill\skillicon_1365.png" effect="skill_buff_0180"/>
+	<Property ID="318056" Name="尸魂送葬" Photo="icon\BG_Skill\skillicon_1365.png" effect="skill_buff_0180"/>
+	<Property ID="312361" Name="意犹未尽" Photo="icon\BG_Skill\skillicon_1465.png"/>
+	<Property ID="312371" Name="冷血再生" Photo="icon\buff\skillicon_1462.png"/>
+	<Property ID="3124011" Photo="icon\BG_Skill\skillicon_0242.png" effect="BGskill_82046"/>
+	<Property ID="3120211" Name="破甲" Photo="icon\BG_Skill\skillicon_1132.png"/>
+	<Property ID="3182311" Name="黑暗" Photo="icon\BG_Skill\skillicon_0581.png" effect="BGskill_Wt_50601"/>
+	<Property ID="31031" Name="刚毅" Photo="icon\BG_Skill\heijin_jineng_zhongjia.png"/>
+	<Property ID="3103211" color="255,238,242,57"/>
+	<Property ID="3161011" Name="恶灵狂舞dot" Photo="icon\BG_Skill\skillicon_1230.png" effect="BGskill_ch_50635"/>
+	<Property ID="3161021" Photo="icon\BG_Skill\skillicon_1230.png" TimeEffect="BGskill_ch_50635"/>
+	<Property ID="3161031" Photo="icon\BG_Skill\skillicon_1230.png" TimeEffect="BGskill_ch_50635"/>
+	<Property ID="3161041" Photo="icon\BG_Skill\skillicon_1230.png" TimeEffect="BGskill_ch_50635"/>
+	<Property ID="3161051" Photo="icon\BG_Skill\skillicon_1230.png" TimeEffect="BGskill_ch_50635"/>
+	<Property ID="3161061" Photo="icon\BG_Skill\skillicon_1230.png" TimeEffect="BGskill_ch_50635"/>
+	<Property ID="317051" Name="治疗链特效" Photo="icon\BG_Skill\skillicon_1445.png" effect="BGskill_48011"/>
+	<Property ID="3170164" Name="凝视之愈" Photo="icon\BG_Skill\skillicon_1448.png" TimeEffect="BGskill_48011" BuffSnd="wt_zhiliaolian_03"/>
+	<Property ID="312471" Name="眩光手雷" Photo="icon\buff\mumang.png"/>
+	<Property ID="3124721" Name="眩光手雷" Photo="icon\buff\mumang.png"/>
+	<Property ID="3124731" Name="眩光手雷" Photo="icon\buff\mumang.png"/>
+	<Property ID="3124741" Name="眩光手雷" Photo="icon\buff\mumang.png"/>
+	<Property ID="3124751" Name="眩光手雷" Photo="icon\buff\mumang.png"/>
+	<Property ID="3124761" Name="眩光手雷" Photo="icon\buff\mumang.png"/>
+	<Property ID="312481" Name="刺杀之手" Photo="icon\buff\mumang.png" effect="BGskill_48048"/>
+	<Property ID="3124821" Name="刺杀之手" Photo="icon\buff\mumang.png" effect="BGskill_48048"/>
+	<Property ID="3124831" Name="刺杀之手" Photo="icon\buff\mumang.png" effect="BGskill_48048"/>
+	<Property ID="3124841" Name="刺杀之手" Photo="icon\buff\mumang.png" effect="BGskill_48048"/>
+	<Property ID="3124851" Name="刺杀之手" Photo="icon\buff\mumang.png" effect="BGskill_48048"/>
+	<Property ID="3124861" Name="刺杀之手" Photo="icon\buff\mumang.png" effect="BGskill_48048"/>
+	<Property ID="312301" Name="手雷-重伤" Photo="icon\buff\jiaoshang.png"/>
+	<Property ID="3123021" Name="手雷-重伤" Photo="icon\buff\jiaoshang.png"/>
+	<Property ID="3123031" Name="手雷-重伤" Photo="icon\buff\jiaoshang.png"/>
+	<Property ID="3123041" Name="手雷-重伤" Photo="icon\buff\jiaoshang.png"/>
+	<Property ID="3123051" Name="手雷-重伤" Photo="icon\buff\jiaoshang.png"/>
+	<Property ID="3123061" Name="手雷-重伤" Photo="icon\buff\jiaoshang.png"/>
+	<Property ID="317311" Name="睿智" Photo="icon\BG_Skill\skillicon_1278.png"/>
+	<Property ID="312911" Name="护甲精通" Photo="icon\buff\chanhui.png"/>
+	<Property ID="31828" Name="黑暗降临" Photo="icon\buff\jiaoshang.png"/>
+	<Property ID="3103411" Photo="icon\BG_Skill\skillicon_1476.png" effect="buff_In10341" Buffjudge="1" BuffSnd="in_diancifushe_02"/>
+	<Property ID="3103412" Photo="icon\BG_Skill\skillicon_1476.png"/>
+	<Property ID="310611" Name="惩罚重甲精通" Photo="icon\BG_Skill\skillicon_1496.png"/>
+	<Property ID="312611" Name="神枪中甲精通" Photo="icon\BG_Skill\skillicon_1495.png"/>
+	<Property ID="311611" Name="执行中甲精通" Photo="icon\BG_Skill\skillicon_1495.png"/>
+	<Property ID="316611" Name="咒术皮甲精通" Photo="icon\BG_Skill\skillicon_1494.png"/>
+	<Property ID="318611" Name="黑暗布甲精通" Photo="icon\BG_Skill\skillicon_1493.png"/>
+	<Property ID="317611" Name="女巫布甲精通" Photo="icon\BG_Skill\skillicon_1493.png"/>
+	<Property ID="311101" Name="杀戮盛宴" Photo="icon\BG_Skill\skillicon_1503.png"/>
+	<Property ID="311102" Name="杀戮盛宴" Photo="icon\BG_Skill\skillicon_1503.png"/>
+	<Property ID="311103" Name="杀戮盛宴" Photo="icon\BG_Skill\skillicon_1503.png"/>
+	<Property ID="311104" Name="杀戮盛宴" Photo="icon\BG_Skill\skillicon_1503.png"/>
+	<Property ID="311105" Name="杀戮盛宴" Photo="icon\BG_Skill\skillicon_1503.png"/>
+	<Property ID="311106" Name="杀戮盛宴" Photo="icon\BG_Skill\skillicon_1503.png"/>
+	<Property ID="312491" Name="焚喉烈焰1级" Photo="icon\buff\skillicon_0526.png"/>
+	<Property ID="3124921" Name="焚喉烈焰2级" Photo="icon\buff\skillicon_0526.png"/>
+	<Property ID="3124931" Name="焚喉烈焰3级" Photo="icon\buff\skillicon_0526.png"/>
+	<Property ID="3124941" Name="焚喉烈焰4级" Photo="icon\buff\skillicon_0526.png"/>
+	<Property ID="3124951" Name="焚喉烈焰5级" Photo="icon\buff\skillicon_0526.png"/>
+	<Property ID="3124961" Name="焚喉烈焰6级" Photo="icon\buff\skillicon_0526.png"/>
+	<Property ID="311262" Name="移形换步" Photo="icon\buff\skillicon_0454.png"/>
+	<Property ID="3161611" Name="暗黑龙枪" Photo="icon\BG_Skill\skillicon_1237.png"/>
+	<Property ID="3162612" Name="灵媒" Photo="icon\BG_Skill\skillicon_1314.png"/>
+	<Property ID="317301" Name="巫术增幅" Photo="icon\BG_Skill\skillicon_1453.PNG"/>
+	<Property ID="317361" Name="暗涌" Photo="icon\BG_Skill\skillicon_1448.png" effect="BGskill_48021"/>
+	<Property ID="3173621" Name="暗涌" Photo="icon\BG_Skill\skillicon_1448.png"/>
+	<Property ID="3173631" Name="暗涌" Photo="icon\BG_Skill\skillicon_1448.png"/>
+	<Property ID="3173641" Name="暗涌" Photo="icon\BG_Skill\skillicon_1448.png"/>
+	<Property ID="3173651" Name="暗涌" Photo="icon\BG_Skill\skillicon_1448.png"/>
+	<Property ID="3173661" Name="暗涌" Photo="icon\BG_Skill\skillicon_1448.png"/>
+	<Property ID="600881" Name="鼓舞-恢复怒气" Photo="icon\BG_Skill\skillicon_1084.png"/>
+	<Property ID="310152" Name="旋风环绕" Photo="icon\BG_Skill\skillicon_1093.png" effect="skill_In10151"/>
+	<Property ID="3101914" Name="光耀阵" Photo="icon\BG_Skill\skillicon_1097.png" effect="skill_In1019"/>
+	<Property ID="3173612" Name="暗涌特效" Photo="icon\BG_Skill\skillicon_1448.png" effect="BGskill_48021"/>
+	<Property ID="3162021" Name="无尽魔咒" Photo="icon\buff\skillicon_0482.png" effect="skill_buff_0162_2"/>
+	<Property ID="3162031" Name="无尽魔咒" Photo="icon\buff\skillicon_0482.png" effect="skill_buff_0162_2"/>
+	<Property ID="3162041" Name="无尽魔咒" Photo="icon\buff\skillicon_0482.png" effect="skill_buff_0162_2"/>
+	<Property ID="3162051" Name="无尽魔咒" Photo="icon\buff\skillicon_0482.png" effect="skill_buff_0162_2"/>
+	<Property ID="3162061" Name="无尽魔咒" Photo="icon\buff\skillicon_0482.png" effect="skill_buff_0162_2"/>
+	<Property ID="318291" Name="庇护" Photo="icon\BG_Skill\skillicon_1507.png"/>
+	<Property ID="318292" Name="黑暗的意志" Photo="icon\BG_Skill\skillicon_1507.PNG"/>
+	<Property ID="41828" Name="月蚀" Photo="icon\BG_Skill\skillicon_1139.png"/>
+	<Property ID="41829" Name="月蚀" Photo="icon\BG_Skill\skillicon_1139.png" effect="BGskill_40083"/>
+	<Property ID="418051" Name="尸魂缠绕" Photo="icon\BG_Skill\skillicon_1246.png"/>
+	<Property ID="31130" Name="追魂夺魄" Photo="icon\buff\liuxue.png"/>
+	<Property ID="3182912" Name="庇护" Photo="icon\BG_Skill\skillicon_1507.png"/>
+	<Property ID="3182913" Name="庇护" Photo="icon\BG_Skill\skillicon_1507.png"/>
+	<Property ID="3182914" Name="庇护" Photo="icon\BG_Skill\skillicon_1507.png"/>
+	<Property ID="3182915" Name="庇护" Photo="icon\BG_Skill\skillicon_1507.png"/>
+	<Property ID="3182916" Name="庇护" Photo="icon\BG_Skill\skillicon_1507.png"/>
+	<Property ID="3182922" Name="黑暗的意志" Photo="icon\BG_Skill\skillicon_1507.PNG"/>
+	<Property ID="3182923" Name="黑暗的意志" Photo="icon\BG_Skill\skillicon_1507.PNG"/>
+	<Property ID="3182924" Name="黑暗的意志" Photo="icon\BG_Skill\skillicon_1507.PNG"/>
+	<Property ID="3182925" Name="黑暗的意志" Photo="icon\BG_Skill\skillicon_1507.PNG"/>
+	<Property ID="3182926" Name="黑暗的意志" Photo="icon\BG_Skill\skillicon_1507.PNG"/>
+	<Property ID="317391" Name="巫血契约" Photo="icon\BG_Skill\skillicon_1452.png" effect="BGskill_wt172812"/>
+	<Property ID="3170512" Name="治疗链减伤" Photo="icon\BG_Skill\skillicon_1445.png"/>
+	<Property ID="3160112" Name="咒法烙印自身1" Photo="icon\BG_Skill\dazuo.png" effect="BGskill_ch_50642"/>
+	<Property ID="3160611" Name="幻术标记对目标沉默buff1" Photo="icon\BG_Skill\skillicon_1499.png" effect="BGskill_ch_50651"/>
+	<Property ID="3160612" Name="幻术标记对自身buff1" Photo="icon\BG_Skill\skillicon_1502.png" effect="BGskill_ch_50649"/>
+	<Property ID="3160621" Name="幻术标记对目标沉默buff2" Photo="icon\BG_Skill\skillicon_1499.png" effect="BGskill_ch_50651"/>
+	<Property ID="3160622" Name="幻术标记对自身buff2" Photo="icon\BG_Skill\skillicon_1502.png" effect="BGskill_ch_50649"/>
+	<Property ID="3160631" Name="幻术标记对目标沉默buff3" Photo="icon\BG_Skill\skillicon_1499.png" effect="BGskill_ch_50651"/>
+	<Property ID="3160632" Name="幻术标记对自身buff3" Photo="icon\BG_Skill\skillicon_1502.png" effect="BGskill_ch_50649"/>
+	<Property ID="3160641" Name="幻术标记对目标沉默buff4" Photo="icon\BG_Skill\skillicon_1499.png" effect="BGskill_ch_50651"/>
+	<Property ID="3160642" Name="幻术标记对自身buff4" Photo="icon\BG_Skill\skillicon_1502.png" effect="BGskill_ch_50649"/>
+	<Property ID="3160651" Name="幻术标记对目标沉默buff5" Photo="icon\BG_Skill\skillicon_1499.png" effect="BGskill_ch_50651"/>
+	<Property ID="3160652" Name="幻术标记对自身buff5" Photo="icon\BG_Skill\skillicon_1502.png" effect="BGskill_ch_50649"/>
+	<Property ID="3160661" Name="幻术标记对目标沉默buff6" Photo="icon\BG_Skill\skillicon_1499.png" effect="BGskill_ch_50651"/>
+	<Property ID="3160662" Name="幻术标记对自身buff6" Photo="icon\BG_Skill\skillicon_1502.png" effect="BGskill_ch_50649"/>
+	<Property ID="2161612" Name="暗黑龙枪-贯穿1" Photo="icon\BG_Skill\skillicon_1500.png"/>
+	<Property ID="2161622" Name="暗黑龙枪-贯穿2" Photo="icon\BG_Skill\skillicon_1500.png"/>
+	<Property ID="2161632" Name="暗黑龙枪-贯穿3" Photo="icon\BG_Skill\skillicon_1500.png"/>
+	<Property ID="2161642" Name="暗黑龙枪-贯穿4" Photo="icon\BG_Skill\skillicon_1500.png"/>
+	<Property ID="2161652" Name="暗黑龙枪-贯穿5" Photo="icon\BG_Skill\skillicon_1500.png"/>
+	<Property ID="2161662" Name="暗黑龙枪-贯穿6" Photo="icon\BG_Skill\skillicon_1500.png"/>
+	<Property ID="3160813" Name="刺骨阴风自身-标记-加速buff图标1" Photo="icon\BG_Skill\skillicon_1510.png"/>
+	<Property ID="3160823" Name="刺骨阴风自身-标记-加速buff图标2" Photo="icon\BG_Skill\skillicon_1510.png"/>
+	<Property ID="3160833" Name="刺骨阴风自身-标记-加速buff图标3" Photo="icon\BG_Skill\skillicon_1510.png"/>
+	<Property ID="3160843" Name="刺骨阴风自身-标记-加速buff图标4" Photo="icon\BG_Skill\skillicon_1510.png"/>
+	<Property ID="3160853" Name="刺骨阴风自身-标记-加速buff图标5" Photo="icon\BG_Skill\skillicon_1510.png"/>
+	<Property ID="3160863" Name="刺骨阴风自身-标记-加速buff图标6" Photo="icon\BG_Skill\skillicon_1510.png"/>
+	<Property ID="3160814" Name="刺骨阴风目标-烙印-减速buff图标1" Photo="icon\BG_Skill\skillicon_1510.png"/>
+	<Property ID="3160824" Name="刺骨阴风目标-烙印-减速buff图标2" Photo="icon\BG_Skill\skillicon_1510.png"/>
+	<Property ID="3160834" Name="刺骨阴风目标-烙印-减速buff图标3" Photo="icon\BG_Skill\skillicon_1510.png"/>
+	<Property ID="3160844" Name="刺骨阴风目标-烙印-减速buff图标4" Photo="icon\BG_Skill\skillicon_1510.png"/>
+	<Property ID="3160854" Name="刺骨阴风目标-烙印-减速buff图标5" Photo="icon\BG_Skill\skillicon_1510.png"/>
+	<Property ID="3160864" Name="刺骨阴风目标-烙印-减速buff图标6" Photo="icon\BG_Skill\skillicon_1510.png"/>
+	<Property ID="3162511" Name="怒焰1" Photo="icon\BG_Skill\skillicon_1506.png"/>
+	<Property ID="3162521" Name="怒焰2" Photo="icon\BG_Skill\skillicon_1506.png"/>
+	<Property ID="3162531" Name="怒焰3" Photo="icon\BG_Skill\skillicon_1506.png"/>
+	<Property ID="3162541" Name="怒焰4" Photo="icon\BG_Skill\skillicon_1506.png"/>
+	<Property ID="3162551" Name="怒焰5" Photo="icon\BG_Skill\skillicon_1506.png"/>
+	<Property ID="3162561" Name="怒焰6" Photo="icon\BG_Skill\skillicon_1506.png"/>
+	<Property ID="310351" Name="以守代攻" Photo="icon\BG_Skill\skillicon_1489.png" effect="buff_In1035" Buffjudge="1" BuffSnd="in_yishoudaigong_02"/>
+	<Property ID="3101111" Name="粉碎" Photo="icon\BG_Skill\skillicon_1089.png"/>
+	<Property ID="310361" Name="战术掩护" Photo="icon\BG_Skill\skillicon_1085.png" effect="skill_In10361"/>
+	<Property ID="310371" Name="固守姿态" Photo="icon\BG_Skill\skillicon_0559.png" effect="skill_buff_0104"/>
+	<Property ID="310381" Name="万人敌" Photo="icon\BG_Skill\skillicon_1079.png" effect="buff_In10381"/>
+	<Property ID="3161111" Name="波动地表1" Photo="icon\BG_Skill\skillicon_ri_0013.png"/>
+	<Property ID="3161121" Name="波动地表2" Photo="icon\BG_Skill\skillicon_ri_0013.png"/>
+	<Property ID="3161131" Name="波动地表3" Photo="icon\BG_Skill\skillicon_ri_0013.png"/>
+	<Property ID="3161141" Name="波动地表4" Photo="icon\BG_Skill\skillicon_ri_0013.png"/>
+	<Property ID="3161151" Name="波动地表5" Photo="icon\BG_Skill\skillicon_ri_0013.png"/>
+	<Property ID="3161161" Name="波动地表6" Photo="icon\BG_Skill\skillicon_ri_0013.png"/>
+	<Property ID="3162213" Name="咒灵护体绝对闪避" Photo="icon\BG_Skill\skillicon_ri_0011.png"/>
+	<Property ID="310352" effect="skill_In1035" Name="震波"/>
+	<Property ID="3160712" Name="幻灵附体友方加法伤1" Photo="icon\BG_Skill\skillicon_ri_0014.png" effect="BGskill_ch_50655"/>
+	<Property ID="3160722" Name="幻灵附体友方加法伤2" Photo="icon\BG_Skill\skillicon_ri_0014.png" effect="BGskill_ch_50655"/>
+	<Property ID="3160732" Name="幻灵附体友方加法伤3" Photo="icon\BG_Skill\skillicon_ri_0014.png" effect="BGskill_ch_50655"/>
+	<Property ID="3160742" Name="幻灵附体友方加法伤4" Photo="icon\BG_Skill\skillicon_ri_0014.png" effect="BGskill_ch_50655"/>
+	<Property ID="3160752" Name="幻灵附体友方加法伤5" Photo="icon\BG_Skill\skillicon_ri_0014.png" effect="BGskill_ch_50655"/>
+	<Property ID="3160762" Name="幻灵附体友方加法伤6" Photo="icon\BG_Skill\skillicon_ri_0014.png" effect="BGskill_ch_50655"/>
+	<Property ID="3171912" Name="血之净化治疗特效" Photo="icon\buff\skillicon_1125.png" effect="BGskill_49010"/>
+	<Property ID="31834" Photo="icon\buff\mumang.png" effect="BGskill_82144"/>
+	<Property ID="31835" action="fi_0h_stand" Photo="icon\BG_Skill\skillicon_ri_0023.png"/>
+	<Property ID="3160913" Name="咒灵侵袭" Photo="icon\BG_Skill\skillicon_in_0016.png"/>
+	<Property ID="3160212" Name="烈炎-降低物强法强1" Photo="icon\BG_Skill\skillicon_fm_0003.png"/>
+	<Property ID="318076" Name="衰弱诅咒" Photo="icon\BG_Skill\skillicon_1236.png" effect="BGskill_65032"/>
+	<Property ID="310173" Name="减速" Photo="icon\BG_Skill\skillicon_in_0008.png" effect="skill_In1015"/>
+	<Property ID="310151" Name="减速" Photo="icon\BG_Skill\skillicon_1093.png" effect="skill_In1015"/>
+	<Property ID="31170" Name="执行者被动" Photo="icon\BG_Skill\heijing_jijie.PNG"/>
+	<Property ID="31270" Name="神枪手被动" Photo="icon\BG_Skill\heijing_jijie.PNG"/>
+	<Property ID="31770" Name="女巫被动" Photo="icon\BG_Skill\heijing_jijie.PNG"/>
+	<Property ID="31670" Name="咒术师被动" Photo="icon\BG_Skill\heijing_jijie.PNG"/>
+	<Property ID="318122" Name="魂之心跳" Photo="icon\BG_Skill\skillicon_1367.png" effect="BGskill_82154"/>
+	<Property ID="3110512" Name="致命毒雾-自身" Photo="icon\buff\jianshang.png" effect="BGskill_82163"/>
+	<Property ID="3110522" Name="致命毒雾-自身" Photo="icon\buff\jianshang.png"/>
+	<Property ID="3110532" Name="致命毒雾-自身" Photo="icon\buff\jianshang.png"/>
+	<Property ID="3110542" Name="致命毒雾-自身" Photo="icon\buff\jianshang.png"/>
+	<Property ID="3110552" Name="致命毒雾-自身" Photo="icon\buff\jianshang.png"/>
+	<Property ID="3110562" Name="致命毒雾-自身" Photo="icon\buff\jianshang.png"/>
+	<Property ID="3113211" Name="诡步" Photo="icon\BG_Skill\boss_fenshen.png"/>
+</Object>
+
+

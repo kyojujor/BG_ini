@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes" ?>
+<Processor>
+    <Base type="object" version="1.0">
+        <Line Type="2" Event="2001" Name="AUTOP1" />
+        <Line Type="1" Event="5201">
+            <Param type="13" srctype="8" data="AUTOP1" Index="0" />
+            <Param type="6" data="kaishi" Index="1" />
+            <Param type="4" data="1" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP4" />
+        <Line Type="2" Event="3002" Name="AUTOP3">
+            <Param type="13" srctype="8" data="AUTOP4" Index="0" />
+            <Param type="6" data="kaishi" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP2">
+            <Param type="13" srctype="4" data="AUTOP3" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="1" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="10">
+            <Param type="13" bool="true" srctype="1" data="AUTOP2" Index="0" />
+        </Line>
+        <Line Type="2" Event="2114" Name="AUTOP5">
+            <Param type="6" data="SkillNpc_FB105_0001" Index="0" />
+        </Line>
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP5" Index="0" />
+            <Param type="6" data="dead" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="1" Index="3" />
+        </Line>
+        <Line Type="2" Event="2114" Name="AUTOP6">
+            <Param type="6" data="SkillNpc_FB105_0001" Index="0" />
+        </Line>
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP6" Index="0" />
+            <Param type="6" data="aboss" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP7" />
+        <Line Type="1" Event="5201">
+            <Param type="13" srctype="8" data="AUTOP7" Index="0" />
+            <Param type="6" data="kaishi" Index="1" />
+            <Param type="4" data="1" Index="2" />
+        </Line>
+        <Line Type="1" Event="4720">
+            <Param type="4" data="332" Index="0" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-12439.036,101.802,-11958.536,1.504" Index="0" />
+            <Param type="6" data="npc_FB103_0051" Index="1" />
+            <Param type="6" data="ln10" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP8" />
+        <Line Type="1" Event="4509">
+            <Param type="13" srctype="8" data="AUTOP8" Index="0" />
+        </Line>
+        <Line Type="7" IncludeLines="0" />
+    </Base>
+</Processor>

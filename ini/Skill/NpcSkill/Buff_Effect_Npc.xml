@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+	<Property ID="40027" Name="荆棘韧甲" EventType="10" TargetType="3" FuncNo="803" PRebound="100" ReboundDamageType="3"/>
+	<Property ID="40031" Name="新月之牙" EventType="2" TargetType="0" FuncNo="1" BuffID="Monster_Npc0051_Buff01_02"/>
+	<Property ID="50066" Name="血卫韧甲" EventType="1" TargetType="2" FuncNo="803"/>
+	<Property ID="60087" Name="噬魂"/>
+	<Property ID="60089" Name="狂怒挥击"/>
+	<Property ID="60091" Name="绝望咆哮"/>
+	<Property ID="60092" Name="冰雪碎击"/>
+	<Property ID="50115" Name="毒爆" EventType="2" TargetType="0" FuncNo="18"/>
+	<Property ID="60163"/>
+	<Property ID="60170" Name="沥心毒"/>
+	<Property ID="60174" Name="精湛剑术"/>
+	<Property ID="60176" Name="呕吐"/>
+	<Property ID="60177" Name="气"/>
+	<Property ID="60179" Name="火焰喷射"/>
+	<Property ID="60181" Name="失控"/>
+	<Property ID="60182" Name="空间禁锢"/>
+	<Property ID="60191" Name="机械武装"/>
+	<Property ID="60199" Name="机械强化"/>
+	<Property ID="60204" Name="屠杀"/>
+	<Property ID="60205" Name="长者智慧"/>
+	<Property ID="60206" Name="利爪切割"/>
+	<Property ID="60207" Name="感染撕咬"/>
+	<Property ID="60208" Name="野兽本能"/>
+	<Property ID="60210" Name="无辜"/>
+	<Property ID="60212" Name="粉碎撕咬"/>
+	<Property ID="60213" Name="剧毒气息"/>
+	<Property ID="60214" Name="烈毒饮品"/>
+	<Property ID="60215" Name="静默剧毒"/>
+	<Property ID="60216" Name="猛毒风暴"/>
+	<Property ID="50147" Name="阿瓦隆" EventType="1" TargetType="2" FuncNo="803" PRebound="100"/>
+	<Property ID="50161" Name="暗魔盾" EventType="1" TargetType="2" FuncNo="803" PRebound="100" ReboundDamageType="4"/>
+	<Property ID="50162" Name="厚土盾" EventType="1" TargetType="2" FuncNo="803" PRebound="100" ReboundDamageType="1"/>
+	<Property ID="60218"/>
+	<Property ID="60264" Name="长眠入梦" EventType="10" TargetType="0" FuncNo="11" BufferClearType="3" BufferClearValue="Monster_Npc0384_Buff01_01"/>
+	<Property ID="60267"/>
+	<Property ID="20794" Name="火焰强化" EventType="9" TargetType="1" FuncNo="3" Condition="20794" IsDamageFormula="0" DamageFormula="50" DamageCategory="3" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="20795" Name="冰冻强化" EventType="9" TargetType="1" FuncNo="3" Condition="20795" IsDamageFormula="0" DamageFormula="50" DamageCategory="1" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="990022" EventType="1" TargetType="2" FuncNo="30" SetFormula="attack5_cast_1h" SetAttribute="LockState"/>
+	<Property ID="99002" EventType="2" TargetType="2" FuncNo="30" SetAttribute="LockState"/>
+	<Property ID="990453" EventType="1" TargetType="2" FuncNo="30" SetFormula="attack05_cast_2" SetAttribute="LockState"/>
+	<Property ID="990454" EventType="2" TargetType="2" FuncNo="30" SetAttribute="LockState"/>
+	<Property ID="81807" Name="强化龟甲" EventType="10" TargetType="3" FuncNo="803" PRebound="100" ReboundDamageType="1"/>
+	<Property ID="80608" EventType="1" TargetType="2" FuncNo="3" IsDamageFormula="0" DamageFormula="5000" DamageCategory="3" DamageTargetType="1" DamageCaster="2"/>
+	<Property ID="81234" Name="流血" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="10" DamageCategory="1" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="81241" Name="流血" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="30" DamageCategory="1" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="81802" Name="流血" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="10" DamageCategory="1" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="80001" Name="流血" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="10" DamageCategory="1" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="81900" Name="撕咬" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="200" DamageCategory="1" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="81906" Name="火焰吐息" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="300" DamageCategory="3" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="81280" Name="灼烧" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="10" DamageCategory="3" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="99071" Name="灼烧掉血" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="R[137,564]" DamageCategory="3" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="81806" Name="撕裂" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="10" DamageCategory="1" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="81988" Name="点燃" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="$MaxMagicAttack*0.05" DamageCategory="3" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="82510" Name="变身" EventType="1" TargetType="2" FuncNo="30" SetAttribute="ChangeIndex" SetFormula="5,13,21,29,37" Random="1"/>
+	<Property ID="82512" Name="变身" EventType="1" TargetType="2" FuncNo="30" SetFormula="6,14,22,30,38" SetAttribute="ChangeIndex" Random="1"/>
+	<Property ID="82513" Name="变身" EventType="1" TargetType="2" FuncNo="30" SetFormula="7,15,23,31,39" SetAttribute="ChangeIndex" Random="1"/>
+	<Property ID="82514" Name="变身" EventType="1" TargetType="2" FuncNo="30" SetFormula="8,16,24,32,40" SetAttribute="ChangeIndex" Random="1"/>
+	<Property ID="82515" Name="变身" EventType="1" TargetType="2" FuncNo="30" SetFormula="1,9,17,25,33" SetAttribute="ChangeIndex" Random="1"/>
+	<Property ID="82516" Name="变身" EventType="1" TargetType="2" FuncNo="30" SetFormula="2,10,18,26,34" SetAttribute="ChangeIndex" Random="1"/>
+	<Property ID="82517" Name="变身" EventType="1" TargetType="2" FuncNo="30" SetFormula="3,11,19,27,35" SetAttribute="ChangeIndex" Random="1"/>
+	<Property ID="82518" Name="变身" EventType="1" TargetType="2" FuncNo="30" SetFormula="4,12,20,28,36" SetAttribute="ChangeIndex" Random="1"/>
+	<Property ID="81327" Name="中毒" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="50" DamageCategory="8" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="81842" Name="流血" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="$MaxPhyAttack*0.1" DamageCategory="1" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="81855" Name="灼烧" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="$MaxMagicAttack*0.1" DamageCategory="3" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="82528" Name="吸收伤害" EventType="1" TargetType="2" FuncNo="828" AbsorbDamageType="1" CountType="0" AbsorbValue="500"/>
+	<Property ID="82540" Name="变身" EventType="1" TargetType="2" FuncNo="20" ChangeModelPath="Npc\Watch_0_00027"/>
+	<Property ID="825102" Name="变身还原" EventType="2" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="ChangeIndex"/>
+	<Property ID="82075" Name="饱和" EventType="8" TargetType="5" FuncNo="3" IsDamageFormula="0" DamageFormula="300" DamageCategory="3" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="81361" Name="上古林龙_中毒" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="10" DamageCategory="6" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="825103" Name="pvp属性" EventType="1" TargetType="2" FuncNo="30" SetAttribute="PVPChangeForce" SetFormula="1"/>
+	<Property ID="825104" Name="pvp属性" EventType="2" TargetType="2" FuncNo="30" SetAttribute="PVPChangeForce" SetFormula="0"/>
+	<Property ID="82688" Name="伪装" EventType="3" TargetType="2" FuncNo="11" Condition="82670|82689&amp;46002&amp;46006" BufferClearType="3" BufferClearValue="Buff_npc_bianshen_01" BufferClearOLCount="8"/>
+	<Property ID="825105" Name="清除buffer" EventType="2" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_weizhuang_01"/>
+	<Property ID="82689" Name="伪装" EventType="3" TargetType="2" FuncNo="11" Condition="82670|82689&amp;46002&amp;46006" BufferClearType="3" BufferClearValue="Buff_npc_bianshen_02" BufferClearOLCount="8"/>
+	<Property ID="82690" Name="伪装" EventType="3" TargetType="2" FuncNo="11" Condition="82670|82689&amp;46002&amp;46006" BufferClearType="3" BufferClearValue="Buff_npc_bianshen_03" BufferClearOLCount="8"/>
+	<Property ID="82691" Name="伪装" EventType="3" TargetType="2" FuncNo="11" Condition="82670|82689&amp;46002&amp;46006" BufferClearType="3" BufferClearValue="Buff_npc_bianshen_04" BufferClearOLCount="8"/>
+	<Property ID="82692" Name="伪装" EventType="3" TargetType="2" FuncNo="11" Condition="82670|82688&amp;82690&amp;82691&amp;82692&amp;82693&amp;82694&amp;46004" BufferClearType="3" BufferClearValue="Buff_npc_bianshen_05" BufferClearOLCount="8"/>
+	<Property ID="82693" Name="伪装" EventType="3" TargetType="2" FuncNo="11" Condition="82670|82688&amp;82690&amp;82691&amp;82692&amp;82693&amp;82694&amp;46004" BufferClearType="3" BufferClearValue="Buff_npc_bianshen_06" BufferClearOLCount="8"/>
+	<Property ID="82694" Name="伪装" EventType="3" TargetType="2" FuncNo="11" Condition="82670|82688&amp;82690&amp;82691&amp;82692&amp;82693&amp;82694&amp;46004" BufferClearType="3" BufferClearValue="Buff_npc_bianshen_07" BufferClearOLCount="8"/>
+	<Property ID="82695" Name="伪装" EventType="3" TargetType="2" FuncNo="11" Condition="82670|82688&amp;82690&amp;82691&amp;82692&amp;82693&amp;82694&amp;46004" BufferClearType="3" BufferClearValue="Buff_npc_bianshen_08" BufferClearOLCount="8"/>
+	<Property ID="825125" Name="清除buffer" EventType="2" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_weizhuang_02"/>
+	<Property ID="825135" Name="清除buffer" EventType="2" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_weizhuang_03"/>
+	<Property ID="825145" Name="清除buffer" EventType="2" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_weizhuang_04"/>
+	<Property ID="825155" Name="清除buffer" EventType="2" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_weizhuang_05"/>
+	<Property ID="825165" Name="清除buffer" EventType="2" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_weizhuang_06"/>
+	<Property ID="825175" Name="清除buffer" EventType="2" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_weizhuang_07"/>
+	<Property ID="825185" Name="清除buffer" EventType="2" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_weizhuang_08"/>
+	<Property ID="82384" Name="影身" EventType="1" TargetType="2" FuncNo="851"/>
+	<Property ID="82084" Name="强隐" EventType="1" TargetType="2" FuncNo="30" SetAttribute="RoleHide" SetFormula="1"/>
+	<Property ID="820841" Name="影遁" EventType="2" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="RoleHide"/>
+	<Property ID="820842" Name="解除隐身" EventType="6" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_monster_Hum_0214_017"/>
+	<Property ID="81382" Name="流血" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="10" DamageCategory="1" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="82106" Name="毁灭" EventType="1" TargetType="2" FuncNo="828" AbsorbDamageType="10" CountType="0" AbsorbValue="8000"/>
+	<Property ID="82108" Name="极寒喷雾" EventType="1" TargetType="2" FuncNo="56" RotateAngle="180" RotateSpeed="30"/>
+	<Property ID="821081" Name="极寒喷雾" EventType="2" TargetType="2" FuncNo="57"/>
+	<Property ID="82109" Name="能量过载" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="@MaxHP*0.005" DamageCategory="4" DamageTargetType="1" DamageCaster="2"/>
+	<Property ID="820843" Name="解除隐身" EventType="6" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="RoleHide"/>
+	<Property ID="82115" Name="影遁清CD" EventType="6" TargetType="2" FuncNo="12" CoolSkillID="monster_Hum_0028_018" CoolClearType="0"/>
+	<Property ID="821151" Name="影遁" EventType="2" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="RoleHide"/>
+	<Property ID="821152" Name="解除隐身" EventType="6" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_monster_Hum_0028_018" StrClear="1"/>
+	<Property ID="821153" Name="解除隐身" EventType="6" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="RoleHide"/>
+	<Property ID="821154" Name="强隐" EventType="1" TargetType="2" FuncNo="30" SetAttribute="RoleHide" SetFormula="1"/>
+	<Property ID="821061" Name="毁灭" EventType="2" TargetType="2" FuncNo="829"/>
+	<Property ID="81402" Name="隐身" EventType="1" TargetType="2" FuncNo="30" SetFormula="1" SetAttribute="RoleHide"/>
+	<Property ID="814022" Name="隐身_解除" EventType="2" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="RoleHide"/>
+	<Property ID="814023" Name="隐身_解除" EventType="8" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="RoleHide"/>
+	<Property ID="814024" Name="隐身_解除" EventType="10" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="RoleHide"/>
+	<Property ID="825106" Name="受到攻击清除变身buff" EventType="10" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_npc_bianshen_01" BufferClearOLCount="1"/>
+	<Property ID="825126" Name="受到攻击清除变身buff" EventType="10" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_npc_bianshen_02" BufferClearOLCount="1"/>
+	<Property ID="825136" Name="受到攻击清除变身buff" EventType="10" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_npc_bianshen_03" BufferClearOLCount="1"/>
+	<Property ID="825146" Name="受到攻击清除变身buff" EventType="10" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_npc_bianshen_04" BufferClearOLCount="1"/>
+	<Property ID="825156" Name="受到攻击清除变身buff" EventType="10" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_npc_bianshen_05" BufferClearOLCount="1"/>
+	<Property ID="825166" Name="受到攻击清除变身buff" EventType="10" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_npc_bianshen_06" BufferClearOLCount="1"/>
+	<Property ID="825176" Name="受到攻击清除变身buff" EventType="10" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_npc_bianshen_07" BufferClearOLCount="1"/>
+	<Property ID="825186" Name="受到攻击清除变身buff" EventType="10" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_npc_bianshen_08" BufferClearOLCount="1"/>
+	<Property ID="825107" Name="免疫伤害40%" EventType="1" TargetType="2" FuncNo="844" ImmunityDamageType="10" ImmunityValue="40" IsPercent="1"/>
+	<Property ID="825108" Name="虚弱" EventType="2" TargetType="2" FuncNo="1" BuffID="Buff_xuruo_001"/>
+	<Property ID="825109" Name="暴露" EventType="2" TargetType="2" FuncNo="1" BuffID="Buff_baolu_001"/>
+	<Property ID="8251010" Name="识破" EventType="2" TargetType="2" FuncNo="1" BuffID="Buff_shipo_001"/>
+	<Property ID="8251011" Name="逃逸" EventType="2" TargetType="2" FuncNo="1" BuffID="Buff_pvpskill_007"/>
+	<Property ID="82122" Name="吸收伤害" EventType="1" TargetType="2" FuncNo="828" AbsorbDamageType="10" CountType="1" AbsorbValue="@MaxHP*0.2"/>
+	<Property ID="821221" Name="治疗1" EventType="2" TargetType="2" FuncNo="5" IsHealFormula="1" HealFormula="$MaxHP*0.04" HealTargetType="0"/>
+	<Property ID="821222" Name="关闭吸伤" EventType="2" TargetType="0" FuncNo="829"/>
+	<Property ID="8251012" EventType="1" TargetType="0" FuncNo="30" SetFormula="1" SetAttribute="CantBeLtdSpd"/>
+	<Property ID="8251013" EventType="1" TargetType="0" FuncNo="30" SetFormula="1" SetAttribute="CantBeLtdHitMove"/>
+	<Property ID="8251014" EventType="1" TargetType="0" FuncNo="30" SetFormula="1" SetAttribute="CantBeLtdMove"/>
+	<Property ID="8251015" EventType="2" TargetType="0" FuncNo="30" SetFormula="0" SetAttribute="CantBeLtdSpd"/>
+	<Property ID="8251016" EventType="2" TargetType="0" FuncNo="30" SetFormula="0" SetAttribute="CantBeLtdHitMove"/>
+	<Property ID="8251017" EventType="2" TargetType="0" FuncNo="30" SetFormula="0" SetAttribute="CantBeLtdMove"/>
+	<Property ID="82139" Name="破釜-击中回血" EventType="9" TargetType="2" FuncNo="5" IsHealFormula="1" HealFormula="@MaxHP*0.005" HealTargetType="1"/>
+	<Property ID="821391" EventType="1" TargetType="2" FuncNo="844" ImmunityDamageType="10" ImmunityValue="99" IsPercent="1"/>
+	<Property ID="821392" EventType="2" TargetType="2" FuncNo="845"/>
+	<Property ID="82131" Name="暗影诅咒buff" EventType="3" TargetType="1" FuncNo="3" IsDamageFormula="1" DamageFormula="$MaxMagicAttack*0.25" DamageCategory="5" DamageTargetType="1" DamageCaster="2"/>
+	<Property ID="821311" EventType="3" TargetType="2" FuncNo="5" Name="击中吸血" IsHealFormula="1" HealFormula="@MaxMagicAttack*0.3" HealTargetType="1" HealSenderType="2"/>
+	<Property ID="82779" Name="变身预加载" EventType="1" TargetType="2" FuncNo="30" SetAttribute="PreChangeIndex" SetFormula="41,42,43,44,45,46,47,48,49,50" Random="1" Condition="8279901&amp;&amp;8279902"/>
+	<Property ID="82780" Name="变身预加载" EventType="1" TargetType="2" FuncNo="30" SetFormula="51,52,53,54,55,56,57,58,59,60" SetAttribute="PreChangeIndex" Random="1" Condition="8279901&amp;&amp;8279902"/>
+	<Property ID="82781" Name="变身预加载" EventType="1" TargetType="2" FuncNo="30" SetFormula="61,62,63,64,65,66,67,68,69,70" SetAttribute="PreChangeIndex" Random="1" Condition="8279901&amp;&amp;8279902"/>
+	<Property ID="82782" Name="变身预加载" EventType="1" TargetType="2" FuncNo="30" SetFormula="42,45,46,48,49,50,52,53" SetAttribute="PreChangeIndex" Random="1" Condition="8279901&amp;&amp;8279902"/>
+	<Property ID="82783" Name="变身预加载" EventType="1" TargetType="2" FuncNo="30" SetFormula="1,2,3,4,5,6,7,8,9,10" SetAttribute="PreChangeIndex" Random="1" Condition="8279901&amp;&amp;8279902"/>
+	<Property ID="82784" Name="变身预加载" EventType="1" TargetType="2" FuncNo="30" SetFormula="11,12,13,14,15,16,17,18,19,20" SetAttribute="PreChangeIndex" Random="1" Condition="8279901&amp;&amp;8279902"/>
+	<Property ID="82785" Name="变身预加载" EventType="1" TargetType="2" FuncNo="30" SetFormula="21,22,23,24,25,26,27,28,29,30" SetAttribute="PreChangeIndex" Random="1" Condition="8279901&amp;&amp;8279902"/>
+	<Property ID="82786" Name="变身预加载" EventType="1" TargetType="2" FuncNo="30" SetFormula="2,4,6,8,10,12,13,16,17" SetAttribute="PreChangeIndex" Random="1" Condition="8279901&amp;&amp;8279902"/>
+	<Property ID="827792" Name="变身预加载还原" EventType="2" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="PreChangeIndex"/>
+	<Property ID="827793" Name="变身" EventType="2" TargetType="2" FuncNo="59" SetFormula="1" SourceProerty="PreChangeIndex" TargetProerty="ChangeIndex"/>
+	<Property ID="82901" Name="毒雾" EventType="1" FuncNo="3" IsDamageFormula="1" DamageFormula="P1" DamageCategory="8" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="99019" Name="持续受到毒性伤害" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="@MinPhyAttack*0.5" DamageCategory="1" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="80603" Name="烈焰" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="$MaxMagicAttack*0.5" DamageCategory="3" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="82795" Name="移动清除预加载" EventType="12" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="PreChangeIndex"/>
+	<Property ID="827952" Name="被攻击清除预加载" EventType="10" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="PreChangeIndex"/>
+	<Property ID="82796" Name="移动清除预加载" EventType="12" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="PreChangeIndex"/>
+	<Property ID="827962" Name="被攻击清除预加载" EventType="10" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="PreChangeIndex"/>
+	<Property ID="82797" Name="移动清除预加载" EventType="12" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="PreChangeIndex"/>
+	<Property ID="827972" Name="被攻击清除预加载" EventType="10" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="PreChangeIndex"/>
+	<Property ID="82798" Name="移动清除预加载" EventType="12" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="PreChangeIndex"/>
+	<Property ID="827982" Name="被攻击清除预加载" EventType="10" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="PreChangeIndex"/>
+	<Property ID="82799" Name="移动清除预加载" EventType="12" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="PreChangeIndex"/>
+	<Property ID="827992" Name="被攻击清除预加载" EventType="10" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="PreChangeIndex"/>
+	<Property ID="82800" Name="移动清除预加载" EventType="12" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="PreChangeIndex"/>
+	<Property ID="828002" Name="被攻击清除预加载" EventType="10" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="PreChangeIndex"/>
+	<Property ID="82801" Name="移动清除预加载" EventType="12" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="PreChangeIndex"/>
+	<Property ID="828012" Name="被攻击清除预加载" EventType="10" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="PreChangeIndex"/>
+	<Property ID="82802" Name="移动清除预加载" EventType="12" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="PreChangeIndex"/>
+	<Property ID="828022" Name="被攻击清除预加载" EventType="10" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="PreChangeIndex"/>
+	<Property ID="826882" Name="客户端发送消息" EventType="3" TargetType="2" FuncNo="60" TipType="17" TipPacket="sys_pvptask_0130" Condition="82689&amp;46002&amp;46006"/>
+	<Property ID="826892" Name="客户端发送消息" EventType="3" TargetType="2" FuncNo="60" TipType="17" TipPacket="sys_pvptask_0130" Condition="82689&amp;46002&amp;46006"/>
+	<Property ID="826902" Name="客户端发送消息" EventType="3" TargetType="2" FuncNo="60" TipType="17" TipPacket="sys_pvptask_0130" Condition="82689&amp;46002&amp;46006"/>
+	<Property ID="826912" Name="客户端发送消息" EventType="3" TargetType="2" FuncNo="60" TipType="17" TipPacket="sys_pvptask_0130" Condition="82689&amp;46002&amp;46006"/>
+	<Property ID="826922" Name="客户端发送消息" EventType="3" TargetType="2" FuncNo="60" TipType="17" TipPacket="sys_pvptask_0130" Condition="82688&amp;82690&amp;82691&amp;82692&amp;82693&amp;82694&amp;46004"/>
+	<Property ID="826932" Name="客户端发送消息" EventType="3" TargetType="2" FuncNo="60" TipType="17" TipPacket="sys_pvptask_0130" Condition="82688&amp;82690&amp;82691&amp;82692&amp;82693&amp;82694&amp;46004"/>
+	<Property ID="826942" Name="客户端发送消息" EventType="3" TargetType="2" FuncNo="60" TipType="17" TipPacket="sys_pvptask_0130" Condition="82688&amp;82690&amp;82691&amp;82692&amp;82693&amp;82694&amp;46004"/>
+	<Property ID="826952" Name="客户端发送消息" EventType="3" TargetType="2" FuncNo="60" TipType="17" TipPacket="sys_pvptask_0130" Condition="82688&amp;82690&amp;82691&amp;82692&amp;82693&amp;82694&amp;46004"/>
+	<Property ID="81430" Name="变形" EventType="1" TargetType="0" FuncNo="20" ChangeModelPath="npc\monster_Ani_0140"/>
+	<Property ID="814302" Name="变形_结束" EventType="2" TargetType="0" FuncNo="20"/>
+	<Property ID="82803" Name="清除预加载buff" EventType="2" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_weizhuangyujiazai_01" StrClear="1"/>
+	<Property ID="82804" Name="清除预加载buff" EventType="2" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_weizhuangyujiazai_02" StrClear="1"/>
+	<Property ID="82805" Name="清除预加载buff" EventType="2" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_weizhuangyujiazai_03" StrClear="1"/>
+	<Property ID="82806" Name="清除预加载buff" EventType="2" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_weizhuangyujiazai_04" StrClear="1"/>
+	<Property ID="82807" Name="清除预加载buff" EventType="2" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_weizhuangyujiazai_05" StrClear="1"/>
+	<Property ID="82808" Name="清除预加载buff" EventType="2" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_weizhuangyujiazai_06" StrClear="1"/>
+	<Property ID="82809" Name="清除预加载buff" EventType="2" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_weizhuangyujiazai_07" StrClear="1"/>
+	<Property ID="82810" Name="清除预加载buff" EventType="2" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_weizhuangyujiazai_08" StrClear="1"/>
+	<Property ID="82159" Name="火系魔法书1" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="$MaxMagicAttack*0.1" DamageCategory="3" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="821591" Name="火系魔法书2" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="$MaxMagicAttack*0.1" DamageCategory="3" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="825402" Name="被攻击清除变身buff" EventType="10" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff_bianshenji_001" StrClear="1"/>
+	<Property ID="82811" Name="击飞" EventType="1" TargetType="0" FuncNo="16" KnockFlyLockTime="1000" KnockFlyDistance="5" KnockFlySpeed="8" GravityParam="-30" FlyKnockDownAction="down" FlyDownLoopAction="downloop" FlyGetUpAction="downup" KnockFlyIsCanMove="0"/>
+	<Property ID="82161" Name="暗系魔法书" EventType="1" TargetType="2" FuncNo="20" ChangeModelPath="npc\Watch_0_00027"/>
+	<Property ID="821611" Name="暗系魔法书" EventType="2" TargetType="2" FuncNo="20"/>
+	<Property ID="82160" Name="冰系魔法书" EventType="1" TargetType="2" FuncNo="30" SetFormula="1" SetAttribute="PauseAction"/>
+	<Property ID="821592" Name="火焰种子buff" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="@MaxHP*0.2" DamageCategory="3" DamageTargetType="1" DamageCaster="2"/>
+	<Property ID="82163" Name="时空禁锢" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="@MaxHP*0.025" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="821601" Name="动作暂停" EventType="2" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="PauseAction"/>
+	<Property ID="821701" Name="免疫伤害30%" EventType="1" TargetType="2" FuncNo="844" ImmunityDamageType="10" ImmunityValue="30" IsPercent="1"/>
+	<Property ID="821702" Name="免疫伤害30%关闭" EventType="2" TargetType="2" FuncNo="845"/>
+	<Property ID="821703" Name="雷电" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="@MaxHP*0.025" DamageCategory="4" DamageTargetType="1" DamageCaster="2"/>
+	<Property ID="81433" Name="灼烧" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="2" DamageCategory="3" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="8277902" Name="变身预加载" EventType="1" TargetType="2" FuncNo="30" SetAttribute="PreChangeIndex" SetFormula="71,72,73,74,75,76,77,78,79,80" Random="1" Condition="8279903&amp;&amp;8279904"/>
+	<Property ID="8278002" Name="变身预加载" EventType="1" TargetType="2" FuncNo="30" SetFormula="71,72,73,74,75,76,77,78,79,80" SetAttribute="PreChangeIndex" Random="1" Condition="8279903&amp;&amp;8279904"/>
+	<Property ID="8278202" Name="变身预加载" EventType="1" TargetType="2" FuncNo="30" SetFormula="71,72,73,74,75,76,77,78,79,80" SetAttribute="PreChangeIndex" Random="1" Condition="8279903&amp;&amp;8279904"/>
+	<Property ID="8278102" Name="变身预加载" EventType="1" TargetType="2" FuncNo="30" SetFormula="71,72,73,74,75,76,77,78,79,80" SetAttribute="PreChangeIndex" Random="1" Condition="8279903&amp;&amp;8279904"/>
+	<Property ID="8278302" Name="变身预加载" EventType="1" TargetType="2" FuncNo="30" SetFormula="31,32,33,34,35,36,37,38,39,40" SetAttribute="PreChangeIndex" Random="1" Condition="8279903&amp;&amp;8279904"/>
+	<Property ID="8278402" Name="变身预加载" EventType="1" TargetType="2" FuncNo="30" SetFormula="31,32,33,34,35,36,37,38,39,40" SetAttribute="PreChangeIndex" Random="1" Condition="8279903&amp;&amp;8279904"/>
+	<Property ID="8278502" Name="变身预加载" EventType="1" TargetType="2" FuncNo="30" SetFormula="31,32,33,34,35,36,37,38,39,40" SetAttribute="PreChangeIndex" Random="1" Condition="8279903&amp;&amp;8279904"/>
+	<Property ID="8278602" Name="变身预加载" EventType="1" TargetType="2" FuncNo="30" SetFormula="31,32,33,34,35,36,37,38,39,40" SetAttribute="PreChangeIndex" Random="1" Condition="8279903&amp;&amp;8279904"/>
+	<Property ID="81444" Name="灼伤掉血" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="30" DamageCategory="3" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="44006" Name="变鱼隐身" EventType="1" TargetType="0" FuncNo="30" SetAttribute="RoleHide" SetFormula="1"/>
+	<Property ID="44007" Name="变鱼隐身解除" EventType="2" TargetType="0" FuncNo="30" SetAttribute="RoleHide" SetFormula="0"/>
+	<Property ID="44008" Name="变鱼隐身解除" EventType="6" TargetType="2" FuncNo="11" BufferClearType="3" StrClear="1" BufferClearValue="Buff_npc_zqm001_0245"/>
+	<Property ID="82172" Name="死亡汲取" EventType="3" TargetType="2" FuncNo="3" IsDamageFormula="1" DamageFormula="@MaxHP*0.2" DamageCategory="7" DamageTargetType="1" DamageCaster="2"/>
+	<Property ID="80621" Name="毒液传播" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="100" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="44009" Name="副本变身" EventType="1" TargetType="0" FuncNo="20" ChangeModelPath="Npc\zq_hum_mount_0001"/>
+	<Property ID="44010" Name="关闭副本变身" EventType="2" TargetType="0" FuncNo="20"/>
+	<Property ID="87050" Name="拷问-持续扣血" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="$MaxPhyAttack*0.2" DamageCategory="1" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="87051" Name="元素侵袭-减速"/>
+	<Property ID="11001" Name="无敌" EventType="1" TargetType="0" FuncNo="844" ImmunityDamageType="10" ImmunityValue="500" IsPercent="0"/>
+	<Property ID="82174" Name="法术狂暴" EventType="1" TargetType="2" FuncNo="5" IsHealFormula="0" HealFormula="200000" HealTargetType="1" HealSenderType="2"/>
+	<Property ID="80623" Name="毒液池" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="$MaxMagicAttack" DamageCategory="8" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="80624" Name="溶酸" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="1000" DamageCategory="8" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="8144999" Name="灼伤掉血" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="5" DamageCategory="3" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="99072" EventType="1" TargetType="0" FuncNo="54" TriggerEventID="E14036_NpcRunAway"/>
+	<Property ID="99073" EventType="2" TargetType="0" FuncNo="54" TriggerEventID="E14036_NpcBuffOff"/>
+	<Property ID="99074" EventType="2" TargetType="0" FuncNo="54" TriggerEventID="E14036_NpcBuffStop"/>
+	<Property ID="80620" Name="镇魂" EventType="3" TargetType="0" FuncNo="1"/>
+	<Property ID="80643" Name="正极能量" EventType="1" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="1000" DamageCategory="4" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="80644" Name="负极能量" EventType="1" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="1000" DamageCategory="4" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="80645" Name="异性相斥" EventType="1" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="1000" DamageCategory="4" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="80647" Name="炸弹" EventType="1" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="1000" DamageCategory="3" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="8064701" Name="炸弹2" EventType="1" TargetType="0" FuncNo="16" KnockFlyLockTime="3000" KnockFlyDistance="20" KnockFlySpeed="8" HitOutAngle="0" FlyDownLoopAction="kickout" DownLandAction="flydown" FlyKnockDownAction="down" DownLandLoopAction="downloop" FlyGetUpAction="downup" KnockFlyIsCanMove="0" GravityParam="-10"/>
+	<Property ID="80648" Name="绝缘" EventType="1" TargetType="2" FuncNo="844" ImmunityDamageType="10" IsPercent="1" ImmunityValue="100"/>
+	<Property ID="80649" Name="科学献身" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="@MaxHP*0.005" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="80650" Name="疯狂" EventType="18" TargetType="3" FuncNo="806" BeAttackDamageRatio="50" BeAttackDamageType="7"/>
+	<Property ID="80625" Name="燃烧" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="@MaxHP*0.01" DamageCategory="3" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="80657" Name="正极掉血buff" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="@MaxMagicAttack*1.2" DamageCategory="4" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="80658" Name="负极掉血buff" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="@MaxMagicAttack*1.2" DamageCategory="4" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="80626" Name="无敌" EventType="1" TargetType="0" FuncNo="844" ImmunityDamageType="10" ImmunityValue="100" IsPercent="1"/>
+	<Property ID="80622" Name="麻痹" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="@MaxHP*0.015" DamageCategory="8" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="80663" Name="正极充能" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="1000" DamageCategory="4" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="80664" Name="负极充能" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="1000" DamageCategory="4" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="80665" Name="过载" EventType="1" TargetType="0" FuncNo="806" BeAttackDamageRatio="10" BeAttackDamageType="4"/>
+	<Property ID="80666" Name="正极磁场" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="1000" DamageCategory="4" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="80667" Name="负极磁场" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="1000" DamageCategory="4" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="8063001" Name="炸弹2" EventType="1" TargetType="0" FuncNo="16" KnockFlyLockTime="3000" KnockFlyDistance="10" KnockFlySpeed="5" HitOutAngle="0" FlyDownLoopAction="kickout" DownLandAction="flydown" FlyKnockDownAction="down" DownLandLoopAction="downloop" FlyGetUpAction="downup" KnockFlyIsCanMove="0" GravityParam="-20"/>
+	<Property ID="80630" Name="炸弹" EventType="1" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="@HP*0.3" DamageCategory="3" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="80632" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="1228" DamageCategory="3" DamageTargetType="0" DamageCaster="2" Name="灼烧"/>
+	<Property ID="80633" Name="电磁回复" EventType="3" TargetType="0" FuncNo="5" IsHealFormula="1" HealFormula="@MaxHP*0.1" HealTargetType="0" HealSenderType="2"/>
+	<Property ID="87211" EventType="1" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="1000" DamageCategory="1" DamageTargetType="0" DamageCaster="2" Name="旋风斩"/>
+	<Property ID="87212" Name="流血" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="1000" DamageCategory="1" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="387215" Name="回血" EventType="1" TargetType="2" FuncNo="5" IsHealFormula="1" HealFormula="@MaxHP*0.5" HealTargetType="1" HealSenderType="0"/>
+	<Property ID="806481" Name="绝缘" EventType="2" TargetType="2" FuncNo="845"/>
+	<Property ID="806261" Name="无敌" EventType="2" TargetType="0" FuncNo="845"/>
+	<Property ID="80711" Name="爆裂" EventType="1" TargetType="0" FuncNo="16" KnockFlyLockTime="3000" KnockFlyDistance="5" KnockFlySpeed="5" HitOutAngle="0" GravityParam="-10" FlyKnockDownAction="down" FlyDownLoopAction="kickout" DownLandAction="flydown" DownLandLoopAction="downloop" FlyGetUpAction="downup" KnockFlyIsCanMove="0"/>
+	<Property ID="807111" Name="爆裂2" EventType="1" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="15000" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="80712" Name="磁能电浆" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="5000" DamageCategory="4" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="80713" Name="漏电" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="10000" DamageCategory="4" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="387238" Name="灼烧" EventType="1" TargetType="0" FuncNo="3" DamageFormula="1000"/>
+	<Property ID="387247" Name="嗜血渴望" EventType="3" TargetType="0" FuncNo="3" DamageFormula="5000" IsDamageFormula="0" DamageCategory="7" DamageTargetType="0" DamageCaster="2"/>
+	<Property ID="80710" Name="缓慢" EventType="3" TargetType="0" FuncNo="1" BuffID="buff_boss_0133_07_02"/>
+	<Property ID="80103" Name="旋转" EventType="1" TargetType="2" FuncNo="56" RotateAngle="-180" RotateSpeed="60"/>
+	<Property ID="801031" Name="旋转" EventType="2" TargetType="2" FuncNo="57"/>
+	<Property ID="80805" Name="炙热能量" EventType="1" TargetType="2" FuncNo="3" IsDamageFormula="0" DamageFormula="1000" DamageCategory="1" DamageTargetType="1" DamageCaster="2"/>
+	<Property ID="821801" Name="石化" EventType="3" TargetType="0" FuncNo="109" EffectType="6" EffectTime="1000"/>
+	<Property ID="387241" Name="撼地" EventType="1" TargetType="0" FuncNo="14" KnockDownLockTime="500" GetUpAction="downup" KnockDownAction="down" DownLoopAction="donwloop"/>
+	<Property ID="387231" Name="烟雾弹" EventType="1" TargetType="2" FuncNo="30" SetFormula="1" SetAttribute="RoleHide"/>
+	<Property ID="387232" Name="烟雾弹2" EventType="2" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="RoleHide"/>
+	<Property ID="80807" Name="诅咒之核" EventType="1" TargetType="0" FuncNo="3"/>
+</Object>
+
+

@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes" ?>
+<Processor>
+    <Base type="object" version="1.0">
+        <Line Type="2" Event="1101" Name="AUTOP1">
+            <Param type="4" data="1" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="2" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="16">
+            <Param type="13" bool="true" srctype="1" data="AUTOP1" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP4" />
+        <Line Type="2" Event="3002" Name="AUTOP3">
+            <Param type="13" srctype="8" data="AUTOP4" Index="0" />
+            <Param type="6" data="dead" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP2">
+            <Param type="13" srctype="4" data="AUTOP3" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="0" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="2">
+            <Param type="13" bool="true" srctype="1" data="AUTOP2" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP5" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP5" Index="0" />
+            <Param type="6" data="dead" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="1" Index="3" />
+        </Line>
+        <Line Type="7" IncludeLines="9" />
+        <Line Type="2" Event="2001" Name="AUTOP8" />
+        <Line Type="2" Event="3002" Name="AUTOP7">
+            <Param type="13" srctype="8" data="AUTOP8" Index="0" />
+            <Param type="6" data="dead" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP6">
+            <Param type="13" srctype="4" data="AUTOP7" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="1" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="2">
+            <Param type="13" bool="true" srctype="1" data="AUTOP6" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP9" />
+        <Line Type="1" Event="5201">
+            <Param type="13" srctype="8" data="AUTOP9" Index="0" />
+            <Param type="6" data="aboss" Index="1" />
+            <Param type="4" data="1" Index="2" />
+        </Line>
+        <Line Type="7" IncludeLines="2" />
+        <Line Type="2" Event="2001" Name="AUTOP10" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP10" Index="0" />
+            <Param type="6" data="aboss" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="0" Index="3" />
+        </Line>
+        <Line Type="7" IncludeLines="0" />
+        <Line Type="2" Event="1101" Name="AUTOP11">
+            <Param type="4" data="1" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="2" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="71">
+            <Param type="13" bool="true" srctype="1" data="AUTOP11" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP13" />
+        <Line Type="2" Event="3002" Name="AUTOP12">
+            <Param type="13" srctype="8" data="AUTOP13" Index="0" />
+            <Param type="6" data="aboss" Index="1" />
+        </Line>
+        <Line Type="10" CaseNum="8" IncludeLines="68">
+            <Param type="13" srctype="6" data="AUTOP12" Index="0" />
+        </Line>
+        <Line Type="11" IncludeLines="8">
+            <Param type="6" data="15" Index="0" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-12459.430,101.766,-11930.896,-2.792" Index="0" />
+            <Param type="6" data="monster_zqm005_0072" Index="1" />
+            <Param type="6" data="0072" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-12472.065,101.756,-11932.236,3.078" Index="0" />
+            <Param type="6" data="monster_zqm005_0073" Index="1" />
+            <Param type="6" data="0073" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-12484.189,101.747,-11934.231,2.594" Index="0" />
+            <Param type="6" data="monster_zqm005_0074" Index="1" />
+            <Param type="6" data="0074" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-12495.718,101.745,-11939.963,2.023" Index="0" />
+            <Param type="6" data="monster_zqm005_0075" Index="1" />
+            <Param type="6" data="0075" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-12496.909,101.756,-11960.575,1.434" Index="0" />
+            <Param type="6" data="monster_zqm005_0076" Index="1" />
+            <Param type="6" data="0076" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-12487.783,101.798,-11976.075,0.487" Index="0" />
+            <Param type="6" data="monster_zqm005_0085" Index="1" />
+            <Param type="6" data="0085" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-12474.028,101.786,-11982.335,0.144" Index="0" />
+            <Param type="6" data="monster_zqm005_0101" Index="1" />
+            <Param type="6" data="0101" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-12460.376,101.799,-11983.096,-0.267" Index="0" />
+            <Param type="6" data="monster_zqm005_0102" Index="1" />
+            <Param type="6" data="0102" Index="2" />
+        </Line>
+        <Line Type="11" IncludeLines="8">
+            <Param type="6" data="30" Index="0" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-12459.430,101.766,-11930.896,-2.792" Index="0" />
+            <Param type="6" data="monster_zqm005_0072" Index="1" />
+            <Param type="6" data="0072" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-12472.065,101.756,-11932.236,3.078" Index="0" />
+            <Param type="6" data="monster_zqm005_0073" Index="1" />
+            <Param type="6" data="0073" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-12484.189,101.747,-11934.231,2.594" Index="0" />
+            <Param type="6" data="monster_zqm005_0074" Index="1" />
+            <Param type="6" data="0074" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-12495.718,101.745,-11939.963,2.023" Index="0" />
+            <Param type="6" data="monster_zqm005_0075" Index="1" />
+            <Param type="6" data="0075" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-12496.909,101.756,-11960.575,1.434" Index="0" />
+            <Param type="6" data="monster_zqm005_0076" Index="1" />
+            <Param type="6" data="0076" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-12487.783,101.798,-11976.075,0.487" Index="0" />
+            <Param type="6" data="monster_zqm005_0085" Index="1" />
+            <Param type="6" data="0085" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-12474.028,101.786,-11982.335,0.144" Index="0" />
+            <Param type="6" data="monster_zqm005_0101" Index="1" />
+            <Param type="6" data="0101" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-12460.376,101.799,-11983.096,-0.267" Index="0" />
+            <Param type="6" data="monster_zqm005_0102" Index="1" />
+            <Param type="6" data="0102" Index="2" />
+        </Line>
+        <Line Type="11" IncludeLines="8">
+            <Param type="6" data="45" Index="0" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-12459.430,101.766,-11930.896,-2.792" Index="0" />
+            <Param type="6" data="monster_zqm005_0072" Index="1" />
+            <Param type="6" data="0072" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-12472.065,101.756,-11932.236,3.078" Index="0" />
+            <Param type="6" data="monster_zqm005_0073" Index="1" />
+            <Param type="6" data="0073" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-12484.189,101.747,-11934.231,2.594" Index="0" />
+            <Param type="6" data="monster_zqm005_0074" Index="1" />
+            <Param type="6" data="0074" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-12495.718,101.745,-11939.963,2.023" Index="0" />
+            <Param type="6" data="monster_zqm005_0075" Index="1" />
+            <Param type="6" data="0075" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-12496.909,101.756,-11960.575,1.434" Index="0" />
+            <Param type="6" data="monster_zqm005_0076" Index="1" />
+            <Param type="6" data="0076" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-12487.783,101.798,-11976.075,0.487" Index="0" />
+            <Param type="6" data="monster_zqm005_0085" Index="1" />
+            <Param type="6" data="0085" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-12474.028,101.786,-11982.335,0.144" Index="0" />
+            <Param type="6" data="monster_zqm005_0101" Index="1" />
+            <Param type="6" data="0101" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-12460.376,101.799,-11983.096,-0.267" Index="0" />
+            <Param type="6" data="monster_zqm005_0102" Index="1" />
+            <Param type="6" data="0102" Index="2" />
+        </Line>
+        <Line Type="11" IncludeLines="8">
+            <Param type="6" data="60" Index="0" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-12459.430,101.766,-11930.896,-2.792" Index="0" />
+            <Param type="6" data="monster_zqm005_0072" Index="1" />
+            <Param type="6" data="0072" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-12472.065,101.756,-11932.236,3.078" Index="0" />
+            <Param type="6" data="monster_zqm005_0073" Index="1" />
+            <Param type="6" data="0073" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-12484.189,101.747,-11934.231,2.594" Index="0" />
+            <Param type="6" data="monster_zqm005_0074" Index="1" />
+            <Param type="6" data="0074" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-12495.718,101.745,-11939.963,2.023" Index="0" />
+            <Param type="6" data="monster_zqm005_0075" Index="1" />
+            <Param type="6" data="0075" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-12496.909,101.756,-11960.575,1.434" Index="0" />
+            <Param type="6" data="monster_zqm005_0076" Index="1" />
+            <Param type="6" data="0076" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-12487.783,101.798,-11976.075,0.487" Index="0" />
+            <Param type="6" data="monster_zqm005_0085" Index="1" />
+            <Param type="6" data="0085" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-12474.028,101.786,-11982.335,0.144" Index="0" />
+            <Param type="6" data="monster_zqm005_0101" Index="1" />
+            <Param type="6" data="0101" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-12460.376,101.799,-11983.096,-0.267" Index="0" />
+            <Param type="6" data="monster_zqm005_0102" Index="1" />
+            <Param type="6" data="0102" Index="2" />
+        </Line>
+        <Line Type="11" IncludeLines="8">
+            <Param type="6" data="75" Index="0" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-12459.430,101.766,-11930.896,-2.792" Index="0" />
+            <Param type="6" data="monster_zqm005_0072" Index="1" />
+            <Param type="6" data="0072" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-12472.065,101.756,-11932.236,3.078" Index="0" />
+            <Param type="6" data="monster_zqm005_0073" Index="1" />
+            <Param type="6" data="0073" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-12484.189,101.747,-11934.231,2.594" Index="0" />
+            <Param type="6" data="monster_zqm005_0074" Index="1" />
+            <Param type="6" data="0074" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-12495.718,101.745,-11939.963,2.023" Index="0" />
+            <Param type="6" data="monster_zqm005_0075" Index="1" />
+            <Param type="6" data="0075" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-12496.909,101.756,-11960.575,1.434" Index="0" />
+            <Param type="6" data="monster_zqm005_0076" Index="1" />
+            <Param type="6" data="0076" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-12487.783,101.798,-11976.075,0.487" Index="0" />
+            <Param type="6" data="monster_zqm005_0085" Index="1" />
+            <Param type="6" data="0085" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-12474.028,101.786,-11982.335,0.144" Index="0" />
+            <Param type="6" data="monster_zqm005_0101" Index="1" />
+            <Param type="6" data="0101" Index="2" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="-12460.376,101.799,-11983.096,-0.267" Index="0" />
+            <Param type="6" data="monster_zqm005_0102" Index="1" />
+            <Param type="6" data="0102" Index="2" />
+        </Line>
+        <Line Type="11" IncludeLines="6">
+            <Param type="6" data="100" Index="0" />
+        </Line>
+        <Line Type="2" Event="2114" Name="AUTOP14">
+            <Param type="6" data="npc_FB103_0049" Index="0" />
+        </Line>
+        <Line Type="1" Event="4021">
+            <Param type="13" srctype="8" data="AUTOP14" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="6" data="talk_special_FB_DXGX_Yxnpc_002_2" Index="2" />
+            <Param type="11" data=" " Index="3" />
+        </Line>
+        <Line Type="2" Event="2114" Name="AUTOP15">
+            <Param type="6" data="monster_zqm005_0070" Index="0" />
+        </Line>
+        <Line Type="1" Event="4519">
+            <Param type="13" srctype="8" data="AUTOP15" Index="0" />
+            <Param type="6" data="pe_0h_stand1" Index="1" />
+        </Line>
+        <Line Type="2" Event="2114" Name="AUTOP16">
+            <Param type="6" data="monster_zqm005_0070" Index="0" />
+        </Line>
+        <Line Type="1" Event="4001">
+            <Param type="13" srctype="8" data="AUTOP16" Index="0" />
+            <Param type="2" data="3" Index="1" />
+            <Param type="2" data="0" Index="2" />
+            <Param type="6" data="testID" Index="3" />
+            <Param type="6" data="-12473.828,101.827,-11954.734" Index="4" />
+        </Line>
+        <Line Type="11" IncludeLines="2">
+            <Param type="6" data="102" Index="0" />
+        </Line>
+        <Line Type="2" Event="2114" Name="AUTOP17">
+            <Param type="6" data="monster_zqm005_0070" Index="0" />
+        </Line>
+        <Line Type="1" Event="4001">
+            <Param type="13" srctype="8" data="AUTOP17" Index="0" />
+            <Param type="2" data="3" Index="1" />
+            <Param type="2" data="0" Index="2" />
+            <Param type="6" data="testID" Index="3" />
+            <Param type="6" data="-12473.828,101.827,-11954.734" Index="4" />
+        </Line>
+        <Line Type="11" IncludeLines="12">
+            <Param type="6" data="110" Index="0" />
+        </Line>
+        <Line Type="2" Event="2114" Name="AUTOP18">
+            <Param type="6" data="monster_zqm005_0070" Index="0" />
+        </Line>
+        <Line Type="1" Event="3205">
+            <Param type="13" srctype="8" data="AUTOP18" Index="0" />
+            <Param type="6" data="NPCCanSelect" Index="1" />
+            <Param type="4" data="0" Index="2" />
+        </Line>
+        <Line Type="2" Event="2114" Name="AUTOP19">
+            <Param type="6" data="monster_zqm005_0070" Index="0" />
+        </Line>
+        <Line Type="1" Event="3205">
+            <Param type="13" srctype="8" data="AUTOP19" Index="0" />
+            <Param type="6" data="CantAttack" Index="1" />
+            <Param type="4" data="0" Index="2" />
+        </Line>
+        <Line Type="2" Event="2114" Name="AUTOP20">
+            <Param type="6" data="monster_zqm005_0070" Index="0" />
+        </Line>
+        <Line Type="1" Event="3205">
+            <Param type="13" srctype="8" data="AUTOP20" Index="0" />
+            <Param type="6" data="CantBeAttack" Index="1" />
+            <Param type="4" data="0" Index="2" />
+        </Line>
+        <Line Type="2" Event="2114" Name="AUTOP21">
+            <Param type="6" data="monster_zqm005_0070" Index="0" />
+        </Line>
+        <Line Type="1" Event="3205">
+            <Param type="13" srctype="8" data="AUTOP21" Index="0" />
+            <Param type="6" data="ShowHeadUI" Index="1" />
+            <Param type="4" data="0" Index="2" />
+        </Line>
+        <Line Type="2" Event="2114" Name="AUTOP22">
+            <Param type="6" data="monster_zqm005_0070" Index="0" />
+        </Line>
+        <Line Type="1" Event="3205">
+            <Param type="13" srctype="8" data="AUTOP22" Index="0" />
+            <Param type="6" data="CantShowHeadInfo" Index="1" />
+            <Param type="4" data="0" Index="2" />
+        </Line>
+        <Line Type="2" Event="2114" Name="AUTOP23">
+            <Param type="6" data="monster_zqm005_0070" Index="0" />
+        </Line>
+        <Line Type="1" Event="3205">
+            <Param type="13" srctype="8" data="AUTOP23" Index="0" />
+            <Param type="6" data="WarnType" Index="1" />
+            <Param type="4" data="4" Index="2" />
+        </Line>
+        <Line Type="7" IncludeLines="0" />
+    </Base>
+</Processor>

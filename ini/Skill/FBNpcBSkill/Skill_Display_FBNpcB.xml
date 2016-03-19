@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<Object>
+	<Property ID="29999" Name="填装子弹" Photo="icon\BG_Skill\heijin_jineng_fengkuangsaoshe.png"/>
+	<Property ID="60798" Name="带电攻击" Photo="icon\BG_Skill\skillicon_0054.png" ActionEffect="fb_tady_eff_0003" HitAction="attackR_0h" HitEffect="func_raid_157_new"/>
+	<Property ID="60791" Name="投掷土炸弹" Photo="icon\BG_Skill\skillicon_0195.png" HurtAction="combat" HitAction="attackR_0h" ActionEffect="fb_tady_eff_1001"/>
+	<Property ID="60792" Name="给目标治疗" Photo="icon\BG_Skill\skillicon_0006.png" ActionEffect="BGskill_40039" HitAction="attackR_0h" HitEffect="BGskill_40050"/>
+	<Property ID="60793" Name="蓄力一击" Photo="icon\BG_Skill\jineng_putonggongji.png" HurtAction="combat" ActionEffect="fb_tady_eff_0002" HitEffect="func_raid_505_new"/>
+	<Property ID="60795" Photo="icon\BG_Skill\skillicon_0014.png" HitAction="fi_0h_run" HitEffect="BGskill_20036_new" HurtAction="combat"/>
+	<Property ID="60786" Name="跳跃振地" Photo="icon\BG_Skill\skillicon_0168.png" HurtAction="combat"/>
+	<Property ID="60429" Name="火炮攻击" Photo="icon\BG_Skill\skillicon_0020.png" HitEffect="skill_dota_003" HitAction="attackR_0h"/>
+	<Property ID="60430" Name="投石车攻击" Photo="icon\BG_Skill\skillicon_0195.png" HitAction="dota_zq_attack02" EffectSpeed="30"/>
+	<Property ID="60431" Name="蒸汽枪手攻击" Photo="icon\BG_Skill\skillicon_0016.png" HitEffect="skill_dota_005_2" ActionEffect="skill_dota_005_1" HitAction="attackR_0h"/>
+	<Property ID="60432" Name="奇幻魔法师攻击" Photo="icon\BG_Skill\skillicon_0048.png" HitAction="attackL_0h" HitEffect="skill_dota_006_3" ActionEffect="skill_dota_006_2"/>
+	<Property ID="60433"/>
+	<Property ID="20921" Name="红药" Photo="icon\BG_Skill\skillicon_0006.png" HitEffect="BGskill_400512"/>
+	<Property ID="20922" Name="蓝药" Photo="icon\BG_Skill\skillicon_0008.png" HitEffect="BGskill_400512"/>
+	<Property ID="20925" Name="奇幻塔" Photo="icon\BG_Skill\skillicon_0016.png" ActionEffect="skill_dota_001" HitEffect="skill_dota_001"/>
+	<Property ID="20926" Name="蒸汽塔" Photo="icon\BG_Skill\skillicon_0008.png" HitEffect="skill_dota_002"/>
+	<Property ID="99100" Name="回城术" Photo="icon\BG_Skill\skillicon_0023.png" PrepareAction="fi_10h_ready" PrepareEffect="BGskill_20054_new"/>
+	<Property ID="99101" Name="闪现" Photo="icon\BG_Skill\skillicon_0137.png" ActionEffect="BGskill_20027_new" HitAction="spell1_10h"/>
+	<Property ID="99102" Name="疾跑" Photo="icon\BG_Skill\skillicon_0037.png" ActionEffect="BGskill_20031_new" HitAction="spell2_10h"/>
+	<Property ID="99105" Name="火焰箭" Photo="icon\BG_Skill\skillicon_0078.png" ActionEffect="skill_fly_0003_new" HitAction="attack_5h" HitEffect="func_raid_99_new" HurtAction="combat"/>
+	<Property ID="99106" Name="套索" Photo="icon\BG_Skill\skillicon_0185.png" ActionEffect="skill_fly_0028" HitAction="spell2_10h" HitEffect="skill_drop_32505_wyj" HurtAction="combat"/>
+	<Property ID="99107" Name="净化" Photo="icon\BG_Skill\skillicon_0006.png" ActionEffect="func_raid_96_new" HitAction="spell2_10h"/>
+	<Property ID="99108" Name="震撼弹" Type="震撼弹" Photo="icon\BG_Skill\heijin_jineng_fengkuangsaoshe.png" ActionEffect="BGskill_40042_new" HitAction="attack_6h" HitEffect="func_raid_324_new" HurtAction="combat"/>
+	<Property ID="99109" Name="山寨RPG" Photo="icon\BG_Skill\skillicon_0038.png" ActionEffect="skill_fly_0043" HitAction="spell1_10h" HitEffect="func_raid_261_new" HurtAction="combat"/>
+	<Property ID="99110" Name="蒸汽能量罩" Photo="icon\BG_Skill\skillicon_0074.png" ActionEffect="BG_Mg_0001_new" HitAction="spell2_10h"/>
+	<Property ID="60787"/>
+	<Property ID="60788"/>
+	<Property ID="60789"/>
+	<Property ID="60794"/>
+	<Property ID="60797"/>
+	<Property ID="60799"/>
+	<Property ID="60800" Name="给目标治疗" Photo="icon\BG_Skill\skillicon_0006.png" HitEffect="BGskill_40050"/>
+	<Property ID="60801" ActionEffect="skill_fb_tady_0016"/>
+	<Property ID="60802"/>
+	<Property ID="60803"/>
+	<Property ID="60804"/>
+	<Property ID="60805"/>
+	<Property ID="60806"/>
+	<Property ID="60807"/>
+	<Property ID="60809" Name="立场维护" Photo="icon\BG_Skill\skillicon_1021.png" LeadEffect="Skilleff_fb_tady_0024" ActivePhotoID="icon\BG_Skill\skillicon_1021.png" EffcctActive="1"/>
+	<Property ID="99602" Name="普通攻击" HitAction="FB_TNDX_MS_01_01,FB_TNDX_MS_01_02" AutoStop="1" HitActionTime="1000" HurtEffect="tady_eff_0001_1"/>
+	<Property ID="99604" Name="普通攻击" HitAction="FB_TNDX_MS_02_01,FB_TNDX_MS_02_02" AutoStop="1" HitActionTime="1000" Photo="icon\BG_Skill\heijin_huo.PNG" HurtAction="combat" HurtEffect="tady_eff_0001_1"/>
+	<Property ID="99606" Name="普通攻击" HitAction="FB_TNDX_MS_03_01,FB_TNDX_MS_03_02" HitActionTime="1000" AutoStop="1" HurtAction="combat" HurtEffect="tady_eff_0001_1" Photo="icon\BG_Skill\jineng_putonggongji.png"/>
+	<Property ID="99608" Name="普通攻击" HitAction="FB_TNDX_MS_04_01,FB_TNDX_MS_04_02" AutoStop="1" HitActionTime="1000" HurtAction="combat" HurtEffect="tady_eff_0001_1" Photo="icon\BG_Skill\jineng_putonggongji.png"/>
+	<Property ID="99610" Name="普通攻击" HitAction="FB_TNDX_MS_05_01,FB_TNDX_MS_05_02" AutoStop="1" HitActionTime="1000" HurtAction="combat" HurtEffect="tady_eff_0001_1" Photo="icon\BG_Skill\jineng_putonggongji.png"/>
+	<Property ID="99611" Name="投掷标枪" HitAction="FB_TNDX_MS_06_03" Photo="icon\BG_Skill\skillicon_0021.png" AutoStop="1" HitActionTime="600" HurtAction="combat" HurtEffect="tady_eff_0001_1"/>
+	<Property ID="99614" Name="普通攻击" HitAction="FB_TNDX_MS_07_03" AutoStop="1" HitActionTime="500"/>
+	<Property ID="99615" Name="普通攻击" HitAction="FB_TNDX_MS_08_01" AutoStop="1" HitActionTime="1000"/>
+	<Property ID="99618" Name="普通攻击" HitAction="FB_TNDX_MS_10_01,FB_TNDX_MS_10_02" AutoStop="1" HitActionTime="1100" HurtAction="combat" HurtEffect="tady_eff_0001_1"/>
+	<Property ID="99607" Name="三连击" Photo="icon\BG_Skill\boss_zhong.png" HitAction="FB_TNDX_MS_04_03" AutoStop="1" HitActionTime="2400" HurtEffect="tady_eff_0001_1" HurtAction="combat"/>
+	<Property ID="99603" Name="群疗术" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG" ActionEffect="func_raid_140_new"/>
+	<Property ID="99612" Name="普通攻击" HitAction="FB_TNDX_MS_06_01,FB_TNDX_MS_06_02" AutoStop="1" HitActionTime="700" HurtEffect="tady_eff_0001_1" HurtAction="combat"/>
+	<Property ID="99605" Name="直刺穿击" Photo="icon\BG_Skill\boss_di.png" HitAction="FB_TNDX_MS_03_03" AutoStop="1" HitActionTime="600" HurtEffect="tady_eff_0004_1" HurtAction="combat"/>
+	<Property ID="99613" Name="普通攻击" Photo="icon\BG_Skill\jineng_putonggongji.png" HitAction="FB_TNDX_MS_07_01,FB_TNDX_MS_07_02" AutoStop="1" HitActionTime="1000" HurtEffect="tady_eff_0001_1" HurtAction="combat"/>
+	<Property ID="99616" Name="头顶" Photo="icon\BG_Skill\skillicon_0096.png" HitAction="FB_TNDX_MS_08_02" AutoStop="1" HitActionTime="800"/>
+	<Property ID="99619" Name="吸血攻击" Photo="icon\BG_Skill\skillicon_0091.png" HitAction="FB_TNDX_MS_10_03" AutoStop="1" HitActionTime="1800"/>
+	<Property ID="99620" Name="召唤NPC" Photo="icon\BG_Skill\skillicon_0009.png" AutoStop="1" HitActionTime="2200" HitAction="attack03" ActionEffect="FB_TNDX_BOSS_Spellcast_010101" HitActionSnd="TNDX_BOSS_01_01"/>
+	<Property ID="99624" Name="飓风打击" Photo="icon\BG_Skill\boss_gao.png" AutoStop="1" HitActionTime="3200" LockRotateTime="3200" PrepareAction="attack01"/>
+	<Property ID="99626" Name="落雷" Photo="icon\BG_Skill\boss_gao.png" AutoStop="0" HitAction="attack02" HurtEffect="FB_TNDX_BOSS_BeAction_010302" ActionEffect="FB_TNDX_BOSS_Spellcast_010302" HitActionSnd="TNDX_BOSS_01_07"/>
+	<Property ID="99628" Name="普通攻击" Photo="icon\BG_Skill\skillicon_1303.png" HitAction="FB_TNDX_BOSS_02_01" AutoStop="1" HitActionTime="1200"/>
+	<Property ID="29998" Name="变身" Photo="icon\BG_Skill\skillicon_0041.png"/>
+	<Property ID="299991" Name="变回自己" Photo="icon\BG_Skill\skillicon_0067.png"/>
+	<Property ID="99636" Name="普通攻击" AutoStop="1" HitAction="attackR_0h,attackL_0h" HurtAction="combat" HurtEffect="tady_eff_0001_1" Photo="icon\BG_Skill\jineng_putonggongji.png"/>
+	<Property ID="99629" Name="普通攻击" AutoStop="1" HurtAction="combat" HurtEffect="tady_eff_0001_1" HitAction="attackR_0h,attackL_0h" Photo="icon\BG_Skill\jineng_putonggongji.png"/>
+	<Property ID="99630" Name="狂暴" ActionEffect="FB_TNDX_SKILL_07" Photo="icon\BG_Skill\boss_di.png"/>
+	<Property ID="99631" Name="普通攻击" AutoStop="1" HurtAction="combat" HurtEffect="tady_eff_0001_1" HitAction="attackR_0h,attackL_0h"/>
+	<Property ID="99632" Name="普通攻击" AutoStop="1" HitAction="attackR_0h,attackL_0h" HurtAction="combat" HurtEffect="tady_eff_0001_1" Photo="icon\BG_Skill\jineng_putonggongji.png"/>
+	<Property ID="99633" Name="致残" AutoStop="1" HitAction="attackR_0h" HurtAction="combat" HurtEffect="tady_eff_0001_1" Photo="icon\BG_Skill\boss_di.png"/>
+	<Property ID="99634" Name="普通攻击" AutoStop="1" HurtEffect="tady_eff_0001_1" HurtAction="combat" HitAction="attackR_0h" Photo="icon\BG_Skill\jineng_putonggongji.png"/>
+	<Property ID="99635" Name="疯狂连击" AutoStop="1" HurtEffect="tady_eff_0001_1" HurtAction="combat" HitAction="attackR_0h,attackL_0h"/>
+	<Property ID="99642" Name="普通攻击" AutoStop="1" HitAction="FB_TNDX_BOSS_03_05" HurtAction="combat" HitActionTime="1500" LockRotateTime="1500" LockZhaoshi="1" Photo="icon\BG_Skill\jineng_putonggongji.png"/>
+	<Property ID="99644" Name="斩首" AutoStop="1" Photo="icon\BG_Skill\boss_gao.png" HitAction="FB_TNDX_BOSS_03_02" HurtAction="combat" HurtEffect="skill_FB_TNDX_BOSS_03_02" HitActionTime="1500" LockZhaoshi="1" LockRotateTime="1500" DemoZhaoShi="FB_TNDX_BOSS_03_02"/>
+	<Property ID="996450" Name="三连斩" AutoStop="1" Photo="icon\BG_Skill\boss_gao.png" HitAction="FB_TNDX_BOSS_03_01" HurtAction="combat" HitActionTime="2500" HurtEffect="skill_FB_TNDX_BOSS_03_02" LockRotateTime="2500" LockZhaoshi="1" BossInfo="4009" DemoZhaoShi="FB_TNDX_BOSS_03_01"/>
+	<Property ID="99646" Name="断头台" AutoStop="1" Photo="icon\BG_Skill\boss_gao.png" HurtEffect="skill_FB_TNDX_BOSS_03_02" HurtAction="combat" PrepareAction="attack06" HitActionTime="3400" LockRotateTime="3400"/>
+	<Property ID="99654" Name="普通铁链" AutoStop="0" Photo="icon\BG_Skill\jineng_putonggongji.png" HitAction="FB_TNDX_BOSS_06_05" HurtAction="combat"/>
+	<Property ID="99655" Name="震地" AutoStop="1" HurtAction="combat" HitAction="FB_TNDX_BOSS_06_04" Photo="icon\BG_Skill\boss_gao.png" HitActionTime="2000" LockRotateTime="2000" LockZhaoshi="1" DemoZhaoShi="FB_TNDX_BOSS_06_04"/>
+	<Property ID="99656" Name="蓄力锤击" AutoStop="1" HitAction="FB_TNDX_BOSS_06_01" Photo="icon\BG_Skill\boss_gao.png" HitEffect="skill_FB_TNDX_BOSS_03_08" HurtAction="combat" HitActionTime="5000" LockRotateTime="5000" BossInfo="4010" DemoZhaoShi="FB_TNDX_BOSS_06_01"/>
+	<Property ID="99657" Name="砸地" AutoStop="1" HurtAction="combat" HitAction="FB_TNDX_BOSS_06_03" Photo="icon\BG_Skill\boss_zhong.png" HitEffect="skill_FB_TNJT_BOSS_03_07" HitActionTime="4500" LockRotateTime="4500" LockZhaoshi="1" DemoZhaoShi="FB_TNDX_BOSS_06_03"/>
+	<Property ID="99658" Name="横扫" AutoStop="1" HitAction="FB_TNDX_BOSS_06_02" HurtAction="combat" HitEffect="skill_FB_TNDX_BOSS_03_08" HitActionTime="3500" LockRotateTime="3500" LockZhaoshi="1" DemoZhaoShi="FB_TNDX_BOSS_06_02" Photo="icon\BG_Skill\boss_gao.png"/>
+	<Property ID="99638" Name="普通攻击" AutoStop="1" HurtAction="combat" HurtEffect="tady_eff_0001_1" HitAction="attackR_0h,attackL_0h" Photo="icon\BG_Skill\jineng_putonggongji.png"/>
+	<Property ID="99639" Name="坚硬皮肤" AutoStop="1" ActionEffect="FB_TNDX_SKILL_04" Photo="icon\BG_Skill\boss_di.png"/>
+	<Property ID="99640" Name="普通攻击" AutoStop="1" HurtAction="combat" HitAction="FB_TNDX_BOSS_01_01" HurtEffect="tady_eff_0001_1" HitActionTime="1300" LockRotateTime="1300" Photo="icon\BG_Skill\jineng_putonggongji.png"/>
+	<Property ID="99641" Name="巫毒" AutoStop="1" HitAction="attackL_0h" HurtAction="combat" Photo="icon\BG_Skill\boss_di.png" ActionEffect="FB_TNDX_SKILL_09"/>
+	<Property ID="60811" Photo="icon\BG_Skill\skillicon_0075.png" ActionEffect="BG_effect_action_77672" EffectSpeed="12" HitAction="attack01" AutoStop="1" HurtAction="combat" HurtEffect="tady_eff_0001_1" LockZhaoshi="1"/>
+	<Property ID="60812" Photo="icon\BG_Skill\skillicon_0227.png" EffectSpeed="20" ActionEffect="tady_eff_0005"/>
+	<Property ID="60813" Photo="icon\BG_Skill\skillicon_0105.png" HitAction="fb_tady_0021" ActionEffect="BGskill_61149"/>
+	<Property ID="20949" Name="BOSS自爆" Photo="icon\BG_Skill\heijing_jijie.PNG" PrepareEffect="BGskill_20079" ActionEffect="BGskill_20078" HitEffect="BGskill_20081"/>
+	<Property ID="20950" Name="尸卫集结" Photo="icon\BG_Skill\heijing_jijie.PNG" PrepareEffect="BGskill_20080" HitAction="attack02"/>
+	<Property ID="996500" Name="黑咒" Photo="icon\BG_Skill\heijin_jineng_qishe.png"/>
+	<Property ID="85026" Name="普通攻击" EffcctActive="0" HitAction="skill_fb_llqd_001_01,skill_fb_llqd_001_02" AutoStop="1" HitActionTime="2500" HurtEffect="skill_fb_llqd_001_3"/>
+	<Property ID="85027" Name="普通攻击" EffcctActive="0" HitAction="skill_fb_llqd_002_01,skill_fb_llqd_002_02" AutoStop="1" HitActionTime="1100" Photo="icon\achievement\2.png" HitEffect="skill_fb_llqd_002_3"/>
+	<Property ID="85028" Name="普通攻击" EffcctActive="0" HitAction="skill_fb_llqd_003_01,skill_fb_llqd_003_02" AutoStop="1" HitActionTime="1100" HurtEffect="skill_fb_llqd_003"/>
+	<Property ID="85029" Name="普通攻击" EffcctActive="0" HitAction="skill_fb_llqd_004_01,skill_fb_llqd_004_02" AutoStop="1" HitActionTime="1100" HurtEffect="skill_fb_llqd_004_01" Photo="icon\BG_Chatroom\chatroom_005.png"/>
+	<Property ID="85033" Name="普通攻击" EffcctActive="0" HitAction="skill_fb_llqd_005_01,skill_fb_llqd_005_02" AutoStop="1" HitActionTime="1100" HurtEffect="skill_fb_llqd_005"/>
+	<Property ID="85034" Name="普通攻击" EffcctActive="0" HitAction="skill_fb_llqd_06_01_02" AutoStop="1" HitActionTime="1100" HurtEffect="skill_fb_llqd_06_01_02_2"/>
+	<Property ID="85035" Name="普通攻击" EffcctActive="0" HitAction="attackR_0h,attackL_0h" AutoStop="1" HitActionTime="1100" Photo="icon\BG_mail\mail_gold_001.png" HurtEffect="skill_fb_llqd_008" IsLeadOther="0"/>
+	<Property ID="85036" Name="普通攻击" EffcctActive="0" HitAction="fb_llqd_008_01,fb_llqd_008_02" AutoStop="1" HitActionTime="1100" HurtEffect="tady_eff_0001_1" Photo="icon\BG_Armored\Chest Arm_2.png"/>
+	<Property ID="85022" Name="普通攻击" EffcctActive="0" HitAction="skill_fb_llqd_012_02" AutoStop="1" HitActionTime="2000" HurtEffect="tady_eff_0001_1"/>
+	<Property ID="85031" Name="普通攻击" EffcctActive="0" HitAction="skill_fb_llqd_021,skill_fb_llqd_021_01" AutoStop="1" HitActionTime="1100"/>
+	<Property ID="85032" Name="普通攻击" EffcctActive="0" HitAction="skill_fb_llqd_022,skill_fb_llqd_022_01" AutoStop="1" HitActionTime="1100" HitEffect="fb_llqd_022"/>
+	<Property ID="82400" Name="坠剑" Photo="icon\BG_Skill\boss_zhong.png" AutoStop="1" HurtAction="combat" HitAction="FB_Boss0053_1h" HitActionTime="1600" LockZhaoshi="1" HurtEffect="tady_eff_0001_1" LockRotateTime="1600"/>
+	<Property ID="82399" Name="千钧" HurtAction="combat" HitAction="FB_Boss0053_2h" AutoStop="1" HitActionTime="2100" LockZhaoshi="1" HurtEffect="tady_eff_0001_1" LockRotateTime="2100" Photo="icon\BG_Skill\boss_zhong.png"/>
+	<Property ID="82398" Name="蓄力射击" HurtAction="combat" HitAction="FB_Boss0012_1h" AutoStop="1" HurtEffect="tady_eff_0001_1" HitActionTime="3000" LockZhaoshi="1" LockRotateTime="3000" Photo="icon\BG_Skill\boss_di.png"/>
+	<Property ID="82396" Name="失控" IsPrepareOther="0" PrepareAction="attack4" Photo="icon\BG_Skill\boss_zhong.png" EffcctActive="0" PrepareEffect="BGskill_50725" AutoStop="1" HitActionTime="4500" LockRotateTime="4500" LockZhaoshi="1" LeadAction="FB_Boss0012_4h"/>
+	<Property ID="82397" Name="机械践踏" IsLeadOther="0" HurtAction="combat" HitAction="FB_Boss0012_2h" AutoStop="1" LockZhaoshi="1" HurtEffect="tady_eff_0001_1" HitActionTime="5000" LockRotateTime="5000" Photo="icon\BG_Skill\boss_di.png"/>
+	<Property ID="82395" Name="充能" PrepareAction="attack4" HitAction="attack5" PrepareEffect="BG_effect_prepare_82551" AutoStop="1" ActionEffect="BGskill_50726" HitActionTime="5000" LockZhaoshi="1" Photo="icon\BG_Skill\boss_zhong.png"/>
+	<Property ID="82394" Name="钢管掉落" ActionEffect="BGskill_50734" PrepareEffect="BGskill_50752" HurtVibrateType="BG_zd002"/>
+	<Property ID="82393" Name="蒸汽喷射" ActionEffect="BGskill_50735" PrepareEffect="BGskill_50751"/>
+	<Property ID="82392" Name="石块掉落" ActionEffect="BGskill_50733" PrepareEffect="BGskill_50757" HurtVibrateType="BG_zd002"/>
+	<Property ID="80601" Name="远程攻击" HitAction="BG_monster_skill_127" Photo="icon\BG_Skill\jineng_putonggongji.PNG" AutoStop="1" HitActionTime="1400" LockZhaoshi="1" HurtAction="combat" HitEffect="tady_eff_0001_1"/>
+	<Property ID="80602" HitAction="attackL_0h" Name="普攻" Photo="icon\BG_Skill\jineng_jifengzhua.png" AutoStop="1" HitActionTime="1000" HurtAction="combat" HurtEffect="tady_eff_0001_1"/>
+	<Property ID="80603" Name="石块掉落"/>
+	<Property ID="80604" HitAction="attackL_0h" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG" AutoStop="1" HitActionTime="1100" LockZhaoshi="1" HurtAction="combat" HurtEffect="tady_eff_0001_1" ActionEffect="BG_effect_action_77503"/>
+	<Property ID="80605" Photo="icon\BG_Skill\jineng_putonggongji.png" HitAction="attackL_0h" AutoStop="1" HitActionTime="1200" LockZhaoshi="1" HurtAction="combat" HurtEffect="tady_eff_0001_1" Name="普通攻击" ActionEffect="BG_effect_action_77502"/>
+	<Property ID="85003" Name="法术加强25%" Photo="icon\BG_Skill\heijin_jineng_dianshe.png" AutoStop="1" ActionEffect="FB_LLQD_buff_05" HitAction="skill3605_1h"/>
+	<Property ID="85001" Name="加攻25%" Photo="icon\BG_Skill\heijin_huo.PNG" ActionEffect="FB_LLQD_buff_05" HitAction="skill3605_1h" AutoStop="1"/>
+	<Property ID="85004" Name="加防御25%" Photo="icon\BG_Skill\heijin_jineng_qishirongyan.png" ActionEffect="FB_LLQD_buff_05" AutoStop="1" HitAction="skill3605_1h"/>
+	<Property ID="82391" Name="普通攻击" Photo="icon\BG_Skill\jineng_putonggongji.png" HitAction="FB_Boss0012_3h" AutoStop="1" HitActionTime="1000" LockZhaoshi="1" HurtAction="combat" HurtEffect="tady_eff_0001_1" LockRotateTime="1000"/>
+	<Property ID="85002" Name="加最大生命10%" Photo="icon\BG_Skill\heijin_jineng_fengkuangsaoshe.png" ActionEffect="FB_LLQD_buff_05" HitAction="skill3605_1h" AutoStop="1"/>
+	<Property ID="85005" Name="邪恶方攻击加10%" Photo="icon\achievement\1.png" HitAction="skill3605_1h"/>
+	<Property ID="85006" Name="邪恶方攻击加20%" Photo="icon\achievement\0.png" HitAction="skill3605_1h"/>
+	<Property ID="85007" Name="邪恶方攻击加30%" Photo="icon\achievement\2.png" HitAction="skill3605_1h"/>
+	<Property ID="85008" Name="邪恶方生命上限10%" Photo="icon\achievement\3.png" HitAction="skill3605_1h"/>
+	<Property ID="85009" Name="邪恶方生命上限20%" Photo="icon\achievement\4.png" HitAction="skill3605_1h"/>
+	<Property ID="85010" Name="邪恶方生命上限30%" Photo="icon\achievement\7.png" HitAction="skill3605_1h"/>
+	<Property ID="996310" Name="恶魔刺击" Photo="icon\BG_Skill\jineng_yexingsilie_tiaoci.png" HitAction="attackR_0h" AutoStop="1" ActionEffect="FB_TNDX_TEMP_0901" HurtAction="combat" HurtEffect="BGskill_20028_new"/>
+	<Property ID="85011" Name="金鳍普通攻击" Photo="icon\achievement\4.png" HitAction="attackR_0h" AutoStop="1" HurtEffect="skill_fb_llqd_016_03" HitEffect="skill_fb_llqd_016_01"/>
+	<Property ID="85012" Name="吐小粘液球" Photo="icon\achievement\2.png" AutoStop="1" HitAction="skill_fb_llqd_017" HitActionTime="1900"/>
+	<Property ID="85013" Name="吐大粘液球" Photo="icon\achievement\3.png" AutoStop="1" HitAction="skill_fb_llqd_018" HurtEffect="skill_fb_llqd_018_02" HitActionTime="4000"/>
+	<Property ID="85014" Name="乱喷粘液" Photo="icon\achievement\0.png" AutoStop="1" HitAction="skill_fb_llqd_019" HitActionTime="5000"/>
+	<Property ID="82389" Name="右手普攻" HitAction="attackR_0h" HurtAction="combat" HurtEffect="tady_eff_0001_1" AutoStop="1" HitActionTime="1600" Photo="icon\BG_Skill\jineng_putonggongji.png"/>
+	<Property ID="82390" Name="左手普攻" HitAction="attackL_0h" HurtAction="combat" HurtEffect="tady_eff_0001_1" AutoStop="1" HitActionTime="1600" IsPrepareOther="0" Photo="icon\BG_Skill\jineng_putonggongji.png"/>
+	<Property ID="85015" Name="金鳍普通攻击" Photo="icon\achievement\7.png" HitAction="attackL_0h" AutoStop="1" HurtEffect="skill_fb_llqd_016_03" ActionEffect="skill_fb_llqd_016_02" HitActionTime="2800"/>
+	<Property ID="82387" Name="绿珠" HitAction="attackR_0h" HurtAction="combat" Photo="icon\BG_Skill\heijin_ronghe.PNG" HurtEffect="BG_effect_hit_72507" EffectSpeed="15" ActionEffectDelay="1000" ActionEffect="BG_effect_fly_92530"/>
+	<Property ID="85016" Name="圣光术" Photo="icon\BG_Armored\Batclass_4.png" EffcctActive="0" AutoStop="1" HitAction="skill_fb_llqd_007" HitEffect="skill_fb_llqd_007_02"/>
+	<Property ID="85017" Name="灌铅子弹" Photo="icon\BG_Armored\Batclass_5.png" EffcctActive="0" HitAction="skill_fb_llqd_010" AutoStop="1" HitActionTime="2000"/>
+	<Property ID="85018" Name="安妮弹幕" Photo="icon\BG_Armored\Batclass_6.png" AutoStop="1" HitAction="skill_fb_llqd_011" HitActionTime="8000"/>
+	<Property ID="85019" Name="冲撞" Photo="icon\BG_Armored\Batclass_13.png" AutoStop="1" HitAction="skill_fb_llqd_013" HurtEffect="skill_fb_llqd_013_03" ActionEffect="skill_fb_llqd_013_02" HitActionTime="2000"/>
+	<Property ID="85020" Name="示威怒吼" Photo="icon\BG_Armored\Chest Arm_3.png" AutoStop="1" HitAction="skill_fb_llqd_014" HitActionTime="3020"/>
+	<Property ID="85021" Name="狂暴" Photo="icon\BG_Chatroom\chatroom_007.png" AutoStop="1" HitAction="skill_fb_llqd_015" HitActionTime="3000"/>
+	<Property ID="82386" Name="瞬移" Photo="icon\BG_Skill\skillicon_0104.png"/>
+	<Property ID="82380" Name="辉耀斩" PrepareAction="FB_Boss0053_3h" LeadAction="attack3_2" HurtAction="combat" HurtEffect="BG_effect_hit_72501" Photo="icon\BG_Skill\jineng_shandianjian.png" AutoStop="0" LeadEffect="BG_effect_action_77504" IsLeadOther="1" LeadEndAction="attack3_3" LeadEndTime="1133"/>
+	<Property ID="85030" Name="光明防御塔" EffcctActive="0" HitAction="attackL_0h" AutoStop="0" ActionEffect="skill_fb_llqd_020"/>
+	<Property ID="85040" Name="喷火器" Photo="icon\buff\jianshang.png" AutoStop="1" ActionEffect="skill_fb_llqd_040_002"/>
+	<Property ID="85051" Name="洞穴蜘蛛普通攻击" Photo="icon\BG_mail\mail_gold_001.png" HitAction="attackR_0h" AutoStop="1" HurtEffect="tady_eff_0001_1" HurtAction="combat"/>
+	<Property ID="85052" Name="末日教护教骑士普通攻击" Photo="icon\BG_Skill\jineng_putonggongji.png" HitAction="attackR_0h" AutoStop="1" HurtEffect="tady_eff_0001_1" HurtAction="combat"/>
+	<Property ID="85054" Name="末日学者普通攻击" Photo="icon\BG_Skill\jineng_putonggongji.png" HitAction="attackR_0h" AutoStop="1" HurtEffect="tady_eff_0001_1" HurtAction="combat"/>
+	<Property ID="85053" Name="末日教侍卫普通攻击" Photo="icon\BG_mail\wenbenyoujian_001_1.png" HitAction="attack_2h" AutoStop="1" HurtEffect="tady_eff_0001_1" HurtAction="combat"/>
+	<Property ID="85055" Name="护教卫士普通攻击" Photo="icon\BG_mail\wenbenyoujian_001_2.png" HitAction="attackR_0h" AutoStop="1" HurtEffect="tady_eff_0001_1" HurtAction="combat"/>
+	<Property ID="85056" Name="末日教士普通攻击" Photo="icon\BG_Skill\jineng_putonggongji.png" HitAction="attackR_0h" AutoStop="1" HurtEffect="tady_eff_0001_1" HurtAction="combat"/>
+	<Property ID="85057" Name="末日教护法普通攻击" Photo="icon\BG_mail\wupinyoujian_001_2.png" HitAction="attackR_0h" AutoStop="1" HurtEffect="tady_eff_0001_1" HurtAction="combat"/>
+	<Property ID="85058" Name="基层传教士普通攻击" Photo="icon\BG_mail\zq_anymail_001.png" AutoStop="1" HurtEffect="tady_eff_0001_1" HitAction="attackR_0h"/>
+	<Property ID="85059" Name="黑魔法师普通攻击" Photo="icon\BG_Skill\jineng_putonggongji.png" HitAction="attackR_0h" AutoStop="1" HurtEffect="tady_eff_0001_1" HurtAction="combat"/>
+	<Property ID="85060" Name="末日教长守卫普通攻击" Photo="icon\BG_Use\Batclass_29.png" HitAction="attackR_0h" AutoStop="1" HurtEffect="tady_eff_0001_1" HurtAction="combat"/>
+	<Property ID="85061" Name="猫刺客普通攻击" Photo="icon\BG_Skill\heijin_feng.PNG" HitAction="attackR_0h" AutoStop="1" HurtEffect="tady_eff_0001_1" HurtAction="combat"/>
+	<Property ID="85062" Name="猫人复仇者普通攻击" Photo="icon\BG_Skill\heijin_huo.PNG" HitAction="attackR_0h" AutoStop="1" HurtEffect="tady_eff_0001_1" HurtAction="combat"/>
+	<Property ID="85063" Name="双手锤砸地普通攻击" Photo="icon\buff\chanhui.png" HitAction="FB_TNJT_BOSS_01_01" AutoStop="1" HitActionTime="2000"/>
+	<Property ID="85064" Name="横扫普通攻击" Photo="icon\buff\erlong.png" HitAction="FB_TNJT_BOSS_01_02" AutoStop="1" HitActionTime="2000" ActionEffect="FB_TNJT_BOSS_01_02_01,FB_TNJT_BOSS_01_02_02"/>
+	<Property ID="85065" Name="天魔之怒" Photo="icon\buff\jianshang.png" HitAction="FB_TNJT_BOSS_01_03" AutoStop="1" IsLeadOther="0" HitActionTime="5000"/>
+	<Property ID="85066" Name="回旋风刃" Photo="icon\buff\jiaoshang.png" HitAction="FB_TNJT_BOSS_01_04" AutoStop="1" HitActionTime="2000"/>
+	<Property ID="85067" Name="反手锤" Photo="icon\buff\liuxue.png" HitAction="FB_TNJT_BOSS_01_05" AutoStop="1" HitActionTime="4000"/>
+	<Property ID="85068" Name="双手锤砸地" Photo="icon\buff\qh_bru_mount_0001.png" HitAction="FB_TNJT_BOSS_01_06" AutoStop="1" EffcctActive="0" IsPrepareOther="1" HitActionTime="3000"/>
+	<Property ID="85069" Name="教长普通攻击" Photo="icon\BG_Pet\Fight_3_00002.png" HitAction="FB_TNJT_BOSS_02_01" AutoStop="1" IsPrepareOther="0" HurtEffect="FB_TNJT_BOSS_02_01_02" HitActionTime="2000"/>
+	<Property ID="85070" Name="献祭" Photo="icon\BG_Pet\Fight_11_00001.png" HitAction="attack1" AutoStop="1" ActionEffect="FB_TNJT_BOSS_02_02"/>
+	<Property ID="85071" Name="火焰鞭策" Photo="icon\BG_Pet\Fight_11_00001.png" EffcctActive="0" HitAction="FB_TNJT_BOSS_02_03" AutoStop="1" HurtEffect="FB_TNJT_BOSS_02_03_2" HitActionTime="2500"/>
+	<Property ID="85072" Name="烈焰火环" Photo="icon\BG_Pet\Fight_11_00050.png" HitAction="FB_TNJT_BOSS_02_04" AutoStop="1" HitActionTime="3000"/>
+	<Property ID="85073" Name="烈焰流星" Photo="icon\BG_Pet\Fight_13_00001.png" HitAction="FB_TNJT_BOSS_02_05" AutoStop="1" HitActionTime="3000"/>
+	<Property ID="85074" Name="黑暗魔爆" Photo="icon\BG_Armored\Batclass_4.png" IsLeadOther="0" HitAction="FB_TNJT_BOSS_03_01" AutoStop="1"/>
+	<Property ID="85075" Name="落雷" Photo="icon\BG_Armored\Batclass_5.png" HitAction="FB_TNJT_BOSS_03_02" AutoStop="1"/>
+	<Property ID="85076" Name="末日审判" Photo="icon\BG_Armored\Batclass_6.png" HitAction="FB_TNJT_BOSS_03_03" AutoStop="1"/>
+	<Property ID="85077" Name="末日寒冰" Photo="icon\BG_Armored\Batclass_13.png" HitAction="FB_TNJT_BOSS_04_03" AutoStop="1" LockZhaoshi="3500"/>
+	<Property ID="85078" Name="末日烈焰" Photo="icon\BG_Chatroom\chatroom_001.png" HitAction="FB_TNJT_BOSS_04_01" AutoStop="1" HitActionTime="4000"/>
+	<Property ID="85079" Name="净世狂雷" ActivePhotoID="icon\buff\mumang.png" HitAction="FB_TNJT_BOSS_04_02" AutoStop="1" HitActionTime="5000"/>
+	<Property ID="85080" Name="末日预言" Photo="icon\BG_Chatroom\chatroom_007.png" HitAction="FB_TNJT_BOSS_04_03" AutoStop="1"/>
+	<Property ID="85081" Name="末日雷击" Photo="icon\BG_Armored\Chest Arm_3.png" HitAction="FB_TNJT_BOSS_04_04" AutoStop="1" HitActionTime="3500"/>
+	<Property ID="85082" Name="洞穴蜘蛛_减速" Photo="icon\buff\erlong.png" HitAction="attackR_0h" AutoStop="1" ActionEffect="FB_TNJT_MS_01_01_02"/>
+	<Property ID="85083" Name="精英末日学者" Photo="icon\BG_Skill\boss_di.png" HitAction="FB_TNJT_MS_11_01" AutoStop="1" HurtEffect="tady_eff_0001_1" HurtAction="combat"/>
+	<Property ID="85084" Name="精英末日教士" Photo="icon\BG_Skill\boss_di.png" IsLeadOther="0" HitAction="FB_TNJT_MS_12_01" AutoStop="1" HurtEffect="tady_eff_0001_1" HurtAction="combat"/>
+	<Property ID="85085" Name="精英黑魔法师" Photo="icon\BG_Skill\boss_di.png" HitAction="FB_TNJT_MS_13_01" AutoStop="1" HurtEffect="tady_eff_0001_1" HurtAction="combat"/>
+	<Property ID="85086" Name="灭世预言" Photo="icon\BG_Skill\heijin_jineng_fengkuangsaoshe.png" HitAction="FB_TNJT_BOSS_04_05" AutoStop="1" HitActionTime="2500"/>
+	<Property ID="82350" Name="光影爆" Photo="icon\BG_Skill\skillicon_1455.png" HitAction="FB_Boss0018_1h" AutoStop="1" HitActionTime="4600" LockZhaoshi="1" HurtAction="combat" HurtEffect="func_raid_133_new" LockRotateTime="4600" BossInfo="4003"/>
+	<Property ID="82351" Name="爆光天际" Photo="icon\BG_Skill\skillicon_1455.png" HitAction="FB_Boss0018_2h" AutoStop="1" HitActionTime="6667" LockZhaoshi="1" ActionEffect="BG_effect_action_77536" HurtAction="combat" HurtEffect="func_raid_133_new" LockRotateTime="6667"/>
+	<Property ID="82352" Name="黑洞" AutoStop="1" HitAction="FB_Boss0018_3h" HitActionTime="4000" LockZhaoshi="1" LockRotateTime="4000" Photo="icon\BG_Skill\boss_gao.png"/>
+	<Property ID="82353" Name="光影破碎" Photo="icon\BG_Skill\skillicon_05.png" HitAction="FB_Boss0018_4h" AutoStop="1" HitActionTime="2400" LockZhaoshi="1" HurtAction="combat" LockRotateTime="2400"/>
+	<Property ID="82354" Name="神之炼灵" Photo="icon\BG_Skill\skillicon_0035.png" HitAction="FB_Boss0018_5h" AutoStop="1" HitActionTime="2600" LockZhaoshi="1" LockRotateTime="2600"/>
+	<Property ID="82355" Name="神罚" Photo="icon\BG_Skill\jineng_yexingxuemai.PNG" HitAction="FB_Boss0018_6h" AutoStop="1" HitActionTime="2000" LockZhaoshi="1" HurtAction="combat" LockRotateTime="2000"/>
+	<Property ID="82356" Name="神旋" Photo="icon\BG_Skill\skillicon_0003.png" AutoStop="0" HurtAction="combat" LeadAction="attack07" PrepareAction="attack06" PrepareEffect="BG_effect_prepare_82507" LeadEffect="BG_effect_action_77539" IsLeadOther="1" LeadEndAction="attack08" LeadEndTime="2033"/>
+	<Property ID="90001" Name="萨德瓦伊普通攻击" Photo="icon\BG_Skill\skillicon_0077.png" HitAction="attackR_0h,tear_0h,attackL_0h,skill3404_0h" ActionEffect="BG_effect_action_75004" HitEffect="tady_eff_0001_1" HurtAction="combat_bang" IsLeadOther="0" AutoStop="1" HitActionTime="1100"/>
+	<Property ID="90002" Name="萨德瓦伊旱地震击" Photo="icon\BG_Skill\heijing_jijie.PNG" HitAction="ny_sadewayi_001" HurtAction="down" AutoStop="1" PrepareAction="spell2_10h_half" PrepareEffect="BGskill_61127"/>
+	<Property ID="90003" Name="萨德瓦伊咆哮" Photo="icon\BG_Skill\skillicon_0160.png" HitAction="ny_sadewayi_002" AutoStop="1" HitActionTime="1100" HurtAction="stun"/>
+	<Property ID="90005" Name="萨德瓦伊野蛮冲刺" Photo="icon\BG_Skill\skillicon_1117.png" HitAction="ny_sadewayi_003" PrepareAction="spell1_10h_half" PrepareEffect="BGskill_61125" AutoStop="1" HurtAction="down" HitActionTime="2000"/>
+	<Property ID="90006" Name="定身技能（石柱技能）" Photo="icon\BG_Skill\heijin_feng.PNG" AutoStop="1" HitActionTime="2000"/>
+	<Property ID="90007" Name="战争践踏" Photo="icon\BG_Skill\skillicon_0218.png" PrepareAction="fi_10h_ready" PrepareEffect="Skill_Fm2512_cast" HitAction="ny_sadewayi_004" AutoStop="1" HurtAction="down" HitActionTime="2000"/>
+	<Property ID="90008" Name="旱地震击（高级）" Photo="icon\BG_Skill\skillicon_0157.png" HitAction="ny_sadewayi_005" HurtAction="down" PrepareAction="spell2_10h_half" PrepareEffect="BGskill_61127" IsPrepareOther="0" AutoStop="1" HitActionTime="1100"/>
+	<Property ID="90009" Name="战争践踏（场景版）" Photo="icon\BG_Skill\skillicon_0218.png" PrepareAction="fi_0h_skill3401_res" PrepareEffect="BG_effect_action_77528" HitAction="ny_sadewayi_006" AutoStop="1" HurtAction="down"/>
+	<Property ID="90010" Name="旱地震击(雷电版)" Photo="icon\BG_Skill\skillicon_0044.png" PrepareAction="spell2_10h_half" PrepareEffect="BGskill_61127" HitAction="ny_sadewayi_001" AutoStop="1"/>
+	<Property ID="90011" Name="萨德瓦伊普通攻击雷电版" Photo="icon\BG_Skill\skillicon_0005.png" HitAction="attackR_0h,attackL_0h,skill3404_0h" AutoStop="1" ActionEffect="BG_effect_action_75004"/>
+	<Property ID="90012" Name="野蛮冲刺雷电版" Photo="icon\BG_Skill\heijin_lei.PNG" PrepareAction="spell1_10h_half" PrepareEffect="BGskill_61125" LeadAction="spell2_cast_10h" HitAction="ny_sadewayi_003" AutoStop="1" HurtAction="down"/>
+	<Property ID="100001" Name="萨德瓦伊普通攻击" Photo="icon\BG_Skill\skillicon_0077.png" HitAction="ny_sadewayi_006" AutoStop="1" HitActionTime="2500" ActionEffect="" HitEffect="tady_eff_0001_1" HurtAction="combat"/>
+	<Property ID="100002" Name="萨德瓦伊旱地震击" Photo="icon\BG_Skill\heijing_jijie.PNG" PrepareAction="fi_3h_jumpdown_b" PrepareEffect="BGskill_61127" HitAction="ny_sadewayi_001" AutoStop="1" HitActionTime="2000" HurtAction="down" ActionEffect="" HurtEffect="skill_hurt_0108"/>
+	<Property ID="100003" Name="萨德瓦伊咆哮" Photo="icon\BG_Skill\skillicon_0160.png" HitAction="ny_sadewayi_002" AutoStop="1" HitActionTime="2000" HurtAction="stun" IsLeadOther="0" LeadAction="skill3405_0h"/>
+	<Property ID="82357" Name="葫芦娃喷火" HitAction="monster_Hbr_0013_1h" AutoStop="1" HitActionTime="1467" LockZhaoshi="1" HurtAction="combat" HurtEffect="func_raid_135_new" LockRotateTime="1467"/>
+	<Property ID="82358" Name="边翼激光" Photo="icon\BG_Skill\skillicon_0035.png" AutoStop="0" HurtAction="combat" HurtEffect="func_raid_138_new" PrepareAction="fi_0h_stand" PrepareEffect="BG_effect_prepare_82511" LeadEffect="BG_effect_action_77543" LeadAction="fi_0h_stand"/>
+	<Property ID="82359" Name="群体恐惧" Photo="icon\BG_Skill\skillicon_0035.png" HitAction="monster_Hbr_0013_2h" AutoStop="1" HitActionTime="1667" LockZhaoshi="1" HurtAction="combat" HurtEffect="func_raid_138_new" LockRotateTime="1667"/>
+	<Property ID="82360" Name="镭射带" Photo="icon\BG_Skill\skillicon_0035.png" HitAction="monster_Hbr_0013_3h" AutoStop="1" HitActionTime="1667" LockZhaoshi="1" HurtAction="combat" HurtEffect="func_raid_138_new" LockRotateTime="1667" PrepareAction="fi_0h_stand" PrepareEffect="BG_effect_prepare_82511"/>
+	<Property ID="82361" Name="流星雨" Photo="icon\BG_Skill\skillicon_0035.png" AutoStop="0" HurtAction="combat" HurtEffect="func_raid_138_new" LeadAction="fi_0h_stand" PrepareAction="fi_0h_stand" PrepareEffect="BG_effect_prepare_82511" LeadEffect="BG_effect_action_77544"/>
+	<Property ID="82362" Name="激光" HurtAction="combat" ActionEffect="BG_effect_action_77551"/>
+	<Property ID="85087" Name="育母蜘蛛普通攻击" Photo="icon\BG_Pet\Fight_11_00050.png" HitAction="attackR_0h" AutoStop="1" HurtAction="combat" HurtEffect="tady_eff_0001_1"/>
+	<Property ID="82363" Name="激光" ActionEffect="BG_effect_action_77550" HurtAction="combat" Photo="icon\buff\skillicon_0453.png"/>
+	<Property ID="85089" Name="末日牵引" Photo="icon\BG_Skill\skillicon_0108.png" HitAction="FB_TNJT_BOSS_04_7" AutoStop="0"/>
+	<Property ID="85090" Name="死亡领域" Photo="icon\BG_Skill\skillicon_0120.png" PrepareAction="spell1_cast_10h" PrepareEffect="skill_FB_TNJT_BOSS_04_08" HitAction="spell2_10h" AutoStop="1" HitActionSnd="TNJT_BOSS_04_08"/>
+	<Property ID="100004" Name="萨德瓦伊转换状态2" Photo="icon\BG_Skill\heijin_jineng_qishe.png" HitAction="fi_10h_ready" AutoStop="1" HitActionTime="1000" ActionEffect="BGskill_40080"/>
+	<Property ID="90015" Name="萨德瓦伊普通攻击1" Photo="icon\BG_Skill\jineng_jifengzhua.png" HitAction="ny_sadewayi_007" AutoStop="1" HitActionTime="2000" HitEffect="tady_eff_0001_1" HurtAction="combat"/>
+	<Property ID="90016" Name="萨德瓦伊普通攻击2" Photo="icon\BG_Skill\jineng_jifengzhua.png" HitAction="ny_sadewayi_008" AutoStop="1" HitActionTime="2000" HitEffect="tady_eff_0001_1" HurtAction="combat"/>
+	<Property ID="90017" Name="萨德瓦伊普通攻击3" Photo="icon\BG_Skill\jineng_jifengzhua.png" HitAction="ny_sadewayi_009" AutoStop="1" HitActionTime="2000" HitEffect="tady_eff_0001_1" HurtAction="combat"/>
+	<Property ID="90018" Name="萨德瓦伊普通攻击1(高级)" Photo="icon\BG_Skill\jineng_jifengzhua.png" HitAction="ny_sadewayi_010" AutoStop="1" HitActionTime="2000" HitEffect="tady_eff_0001_1" HurtAction="combat"/>
+	<Property ID="90019" Name="萨德瓦伊普通攻击2(高级)" Photo="icon\BG_Skill\jineng_jifengzhua.png" HitAction="ny_sadewayi_011" AutoStop="1" HitActionTime="2000" HitEffect="tady_eff_0001_1" HurtAction="combat"/>
+	<Property ID="90020" Name="萨德瓦伊普通攻击3(高级)" Photo="icon\BG_Skill\jineng_jifengzhua.png" HitAction="ny_sadewayi_012" AutoStop="1" HitActionTime="2000" HitEffect="tady_eff_0001_1" HurtAction="combat"/>
+	<Property ID="100005" Name="萨德瓦伊转换状态4" Photo="icon\BG_Skill\skillicon_0272.png" HitAction="fi_10h_ready" AutoStop="1" HitActionTime="1000" ActionEffect="BGskill_50708"/>
+	<Property ID="100006" Name="萨德瓦伊充能状态" Photo="icon\BG_Skill\skillicon_1067.png" PrepareAction="" IsLeadOther="0" AutoStop="1" HitActionTime="10000" HitAction="fi_10h_ready" LeadAction="fi_10h_ready" ActionEffect="tady_eff_0001"/>
+	<Property ID="90021" Name="萨德瓦伊普通攻击1闪电" Photo="icon\BG_Skill\skillicon_1039.png" HitAction="ny_sadewayi_014" AutoStop="1" HitActionTime="2000" HitEffect="tady_eff_0001_1" HurtAction="combat"/>
+	<Property ID="90022" Name="萨德瓦伊普通攻击2闪电" Photo="icon\BG_Skill\skillicon_1039.png" HitAction="ny_sadewayi_015" AutoStop="1" HitActionTime="2000" HitEffect="tady_eff_0001_1" HurtAction="combat"/>
+	<Property ID="90023" Name="萨德瓦伊普通攻击3闪电" Photo="icon\BG_Skill\skillicon_1039.png" HitAction="ny_sadewayi_016" AutoStop="1" HitActionTime="2000" HitEffect="tady_eff_0001_1" HurtAction="combat"/>
+	<Property ID="90024" Name="萨德瓦伊践踏闪电" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG" PrepareAction="fi_10h_ready" PrepareEffect="Skill_Fm2512_cast" HitAction="ny_sadewayi_017" AutoStop="1" HitActionTime="2000" HurtAction="down"/>
+	<Property ID="90025" Name="战争践踏拖拽" Photo="icon\BG_Skill\skillicon_0005.png" HitAction="spell2_cast_10h" ActionEffect="BGskill_81245"/>
+	<Property ID="82349" Name="冰门" Photo="icon\BG_Skill\skillicon_0002.png" ActionEffect="BG_effect_action_77570"/>
+	<Property ID="82348" Name="火门" Photo="icon\BG_Skill\skillicon_0002.png" ActionEffect="BG_effect_action_77571"/>
+	<Property ID="82347" Name="陨石" Photo="icon\BG_Skill\skillicon_0002.png" ActionEffect="BG_effect_action_77572"/>
+	<Property ID="82030" Name="恢复" Photo="icon\BG_Skill\skillicon_0007.png" HitEffect="BG_effect_buff_97520"/>
+	<Property ID="82031" Name="回魔" Photo="icon\BG_Skill\heijin_lei.PNG" HitEffect="BG_effect_buff_97519"/>
+	<Property ID="82040" Name="急速" Photo="icon\BG_Skill\skillicon_0007.png" ActionEffect="BG_effect_buff_97522" EffcctActive="0"/>
+	<Property ID="82046" Name="机械践踏" IsLeadOther="0" HitAction="FB_Boss0012_5h" AutoStop="1" LockZhaoshi="1" HitActionTime="1667" LockRotateTime="1667"/>
+	<Property ID="85156" Name="充能井王者普通攻击" Photo="icon\BG_Skill\heijin_feng.PNG" AutoStop="1" HitAction="attackR_0h" HitActionTime="2500" LockRotateTime="2500" LockZhaoshi="1" HurtAction="combat"/>
+	<Property ID="85157" Name="清理" Photo="icon\buff\mumang.png" AutoStop="1" HitAction="fb_chnj_boss_13" HitActionTime="3000" LockZhaoshi="1" LockRotateTime="3000"/>
+	<Property ID="85158" Name="能量喷泉" Photo="icon\BG_Skill\heijin_jineng_qishirongyan.png" AutoStop="1" HitAction="fb_chnj_boss_14" HitActionTime="2500" LockRotateTime="2500" LockZhaoshi="1" HurtEffect="skill_fb_chnj_boss_02_03_05" HurtAction="combat"/>
+	<Property ID="85159" Name="压制" Photo="icon\BG_Skill\heijin_jineng_xuligongji.png" AutoStop="1" HitAction="fb_chnj_boss_12" HitActionTime="4000" LockRotateTime="4000" LockZhaoshi="1"/>
+	<Property ID="85150" Name="普通攻击" HitAction="attackL_0h" AutoStop="1" HurtAction="combat" Photo="icon\BG_Skill\skillicon_0011.png" HitActionTime="2000" LockRotateTime="2000"/>
+	<Property ID="85151" Name="能量过载" Photo="icon\BG_Skill\skillicon_0019.png" HitAction="fb_chnj_boss_07" AutoStop="1" HurtAction="combat" HitActionTime="3000" LockRotateTime="3000" LockZhaoshi="1"/>
+	<Property ID="85152" Name="飞跃重踏" Photo="icon\BG_Skill\skillicon_0014.png" AutoStop="1" HitAction="fb_chnj_boss_08" HurtAction="combat" IsPrepareOther="0" HitActionTime="3100" LockZhaoshi="1"/>
+	<Property ID="85153" Name="冰霜吐息" Photo="icon\BG_Skill\jineng_yexingxuemai.PNG" HurtAction="combat" AutoStop="1" HitActionTime="6000" LockRotateTime="6000" LockZhaoshi="1" HitAction="fb_chnj_boss_09"/>
+	<Property ID="85154" Name="火焰吐息" Photo="icon\BG_Skill\heijin_huo.PNG" HurtAction="combat" AutoStop="1" HitActionTime="6000" LockRotateTime="6000" LockZhaoshi="1" HitAction="fb_chnj_boss_10"/>
+	<Property ID="85155" Name="暗影吐息" Photo="icon\BG_Skill\skillicon_0038.png" HurtAction="combat" AutoStop="1" HitActionTime="6000" LockRotateTime="6000" LockZhaoshi="1" HitAction="fb_chnj_boss_11"/>
+	<Property ID="82346" Name="疯狂射击" Photo="icon\BG_Skill\boss_zhong.png" PrepareAction="fi_0h_stand" PrepareEffect="BG_effect_prepare_82537" LeadAction="FB_Boss0012_6h" LeadEffect="BG_effect_lead_87503"/>
+	<Property ID="823571" Name="葫芦娃喷火" HitAction="monster_Hbr_0013_1h" AutoStop="1" HitActionTime="1467" LockZhaoshi="1" HurtAction="combat" HurtEffect="func_raid_135_new" LockRotateTime="1467"/>
+	<Property ID="85025" Name="普通攻击" EffcctActive="0" HitAction="skill_fb_llqd_012_01" AutoStop="1" HitActionTime="2000" HurtEffect="tady_eff_0001_1"/>
+	<Property ID="82330" Name="急救" Photo="icon\BG_Skill\skillicon_0007.png" HitEffect="BG_effect_buff_97520"/>
+	<Property ID="82331" Name="认证" Photo="icon\BG_Skill\skillicon_0007.png"/>
+	<Property ID="85160" Name="充能井王者普通攻击" Photo="icon\BG_Skill\heijin_feng.PNG" AutoStop="1" HitAction="attackL_0h" HitActionTime="2500" LockRotateTime="2500" LockZhaoshi="1"/>
+	<Property ID="851500" Name="普通攻击" HitAction="attackL_0h" HitActionTime="2000" LockRotateTime="2000" AutoStop="1" HurtAction="combat"/>
+	<Property ID="82116" Name="地火" AutoStop="0" ActionEffect="BG_effect_action_77641" PrepareEffect="BG_effect_prepare_82544"/>
+	<Property ID="82117" Name="火墙" AutoStop="0" ActionEffect="BG_effect_action_77643"/>
+	<Property ID="82118" Name="火墙" AutoStop="0" ActionEffect="BG_effect_action_77644"/>
+	<Property ID="82119" Name="地火" AutoStop="0" ActionEffect="BG_effect_action_77642"/>
+	<Property ID="82120" Name="震慑" AutoStop="0" Photo="icon\BG_Skill\heijin_tu.PNG"/>
+	<Property ID="99623" Name="寒冰震慑" Photo="icon\BG_Skill\boss_gao.png" HitAction="FB_TNDX_BOSS_01_09" AutoStop="1" HitActionTime="3500" PrepareEffect="BG_effect_action_76256" PrepareAction="attack04" BossInfo="4008" DemoZhaoShi="FB_TNDX_BOSS_01_09"/>
+	<Property ID="99622" Name="死亡射线" Photo="icon\BG_Skill\boss_gao.png" HitAction="FB_TNDX_BOSS_01_11" AutoStop="1" HitActionTime="1200" DemoZhaoShi="FB_TNDX_BOSS_01_11"/>
+	<Property ID="91250" Name="分身" Photo="icon\BG_Skill\heijin_jineng_qishirongyan.png" PrepareAction="attack5" AutoStop="1" HitActionTime="3200" LockRotateTime="3200" LockZhaoshi="1" PrepareEffect="BG_effect_action_79975" BossInfo="4004"/>
+	<Property ID="91251" Name="连接" Photo="icon\BG_Skill\heijin_jineng_yaozhan.png" AutoStop="1" HitActionTime="2000" LockRotateTime="2000" LockZhaoshi="1" ActionEffect="BG_effect_action_79972" EffectSpeed="20"/>
+	<Property ID="91252" Name="传送" Photo="icon\BG_Skill\heijin_jineng_qishirongyan.png" HitAction="FB_YHDX_Boss_0103_20" AutoStop="1" HitActionTime="3000" LockRotateTime="3000" LockZhaoshi="1"/>
+	<Property ID="91614" Name="自爆" Photo="icon\BG_Skill\jineng_yexingsilie_tiaoci.png" HitAction="monster_Mac_0036_2h" AutoStop="1" HitActionTime="2000" LockRotateTime="2000" LockZhaoshi="1"/>
+	<Property ID="91615" Name="治疗术" Photo="icon\BG_Skill\jineng_yexingxuemai.PNG" PrepareAction="fi_0h_stand" PrepareEffect="BG_effect_prepare_82538" HitAction="combat_parry" AutoStop="1" HitActionTime="1000" LockRotateTime="1000" LockZhaoshi="1" HitEffect="BG_effect_buff_97527"/>
+	<Property ID="91616" Name="致命毒素" Photo="icon\BG_Skill\heijin_jineng_qishirongyan.png" HitAction="attackL_0h" AutoStop="1" HitActionTime="2000" LockRotateTime="2000" LockZhaoshi="1" HurtAction="combat"/>
+	<Property ID="91617" Name="绝地光环" Photo="icon\BG_Skill\skillicon_0039.png"/>
+	<Property ID="91618" Name="普通攻击" Photo="icon\BG_Skill\skillicon_0081.png" HitAction="attackR_0h" ActionEffect="BG_effect_action_79938" HurtAction="combat" HurtEffect="BG_effect_action_79937"/>
+	<Property ID="91619" Name="暗影毒林" Photo="icon\BG_Skill\skillicon_0415.png"/>
+	<Property ID="91620" Name="附身" Photo="icon\BG_Skill\skillicon_0338.png" ActionEffect="BG_effect_action_79931" EffectSpeed="10"/>
+	<Property ID="91621" Name="附体" Photo="icon\BG_Skill\skillicon_0137.png" ActionEffect="BG_effect_action_79932" EffectSpeed="10"/>
+	<Property ID="91623" Name="魔法球" Photo="icon\BG_Skill\skillicon_0089.png" HitEffect="BG_effect_action_79929"/>
+	<Property ID="91622" Name="血球" Photo="icon\BG_Skill\skillicon_0299.png" HitEffect="BG_effect_action_79930"/>
+	<Property ID="91624" Name="火箭炮" Photo="icon\BG_Skill\PVP_kxaoezq.png" EffectSpeed="30" ActionEffect="BG_effect_action_79922" HitAction="attackR_0h" IsPrepareOther="0" AutoStop="0" HurtAction="combat"/>
+	<Property ID="91625" Name="格林机枪" Photo="icon\BG_Skill\PVP_kxyingdaozq.png" EffectSpeed="30" HurtEffect="BG_effect_action_79920" ActionEffect="BG_effect_action_79923" HitAction="attackL_0h" IsPrepareOther="0" HurtAction="combat"/>
+	<Property ID="82180" Name="地雷" ActionEffect="BG_effect_action_77565"/>
+	<Property ID="82181" Name="失控" IsPrepareOther="0" Photo="icon\BG_Skill\heijin_jineng_xuligongji.png" EffcctActive="0" AutoStop="0" WarnEffect="skill_att_0438"/>
+	<Property ID="82183" Name="火焰" IsPrepareOther="0" Photo="icon\BG_Skill\heijin_jineng_xuligongji.png" EffcctActive="0" AutoStop="0"/>
+	<Property ID="82184" Name="夺命" LeadAction="attack3_2" Photo="icon\BG_Skill\jineng_shandianjian.png" AutoStop="0" IsLeadOther="0"/>
+	<Property ID="91627" Name="破洞" Photo="icon\BG_Skill\skillicon_0032.png" HitAction="FB_YHDX_Boss_0026_05" AutoStop="1" HitActionTime="4000" LockRotateTime="4000" LockZhaoshi="1"/>
+	<Property ID="82204" Name="失控" IsPrepareOther="0" Photo="icon\BG_Skill\boss_zhong.png" EffcctActive="0" AutoStop="0" LockZhaoshi="1" ActionEffect="BGskill_50730"/>
+</Object>
+
+

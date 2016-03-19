@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!--ID  ID 子编队的包号
+	Name 子编队的名称
+	OffsetX 子编队的偏移x
+	OffsetY 子编队的偏移y
+	OffsetZ 子编队的偏移z
+	Form 子编队的阵型(1.直线2.方形3.圆形4.实心的方形5.实心的圆形)
+	RotateAngle 子编队的旋转角度
+	FormScale 子编队的缩放,决定阵型的面积大小
+	NpcConfig NPC包
+	amount NPC数量-->
+<Object>
+	<Property ID="test1" OffsetZ="10" Form="1" RotateAngle="90" FormScale="1.0" NpcConfig="monster_zqm001_0001" amount="7"/>
+	<Property ID="test2" OffsetZ="20" Form="1" RotateAngle="0" FormScale="1.5" NpcConfig="monster_zqm001_0001" amount="8"/>
+	<Property ID="test3" OffsetX="15" OffsetZ="10" Form="1" RotateAngle="90" FormScale="1.0" NpcConfig="monster_zqm001_0001" amount="7"/>
+	<Property ID="test4" OffsetX="5.0" OffsetZ="15" Form="1" RotateAngle="135" FormScale="0.3" NpcConfig="monster_zqm001_0001" amount="3"/>
+	<Property ID="test5" OffsetX="10.0" OffsetZ="15" Form="1" RotateAngle="45" FormScale="0.3" NpcConfig="monster_zqm001_0001" amount="3"/>
+	<Property ID="test6" OffsetZ="10" Form="1" RotateAngle="0" FormScale="1.5" NpcConfig="monster_zqm001_0001" amount="7"/>
+	<Property ID="test7" OffsetX="3.0" OffsetZ="5" Form="1" RotateAngle="0" FormScale="1.0" NpcConfig="monster_zqm001_0001" amount="7"/>
+	<Property ID="test8" OffsetX="7.5" OffsetZ="2" Form="1" RotateAngle="90" FormScale="2.0" NpcConfig="monster_zqm001_0001" amount="13"/>
+	<Property ID="test9" OffsetX="-2.5" OffsetZ="0" Form="1" RotateAngle="0" FormScale="2.5" NpcConfig="monster_zqm001_0001" amount="9"/>
+	<Property ID="test10" OffsetX="-2.0" OffsetZ="-2" Form="1" RotateAngle="45" FormScale="0.3" NpcConfig="monster_zqm001_0001" amount="3"/>
+	<Property ID="test11" OffsetX="7" OffsetZ="-2" Form="1" RotateAngle="135" FormScale="0.3" NpcConfig="monster_zqm001_0001" amount="3"/>
+	<Property ID="test12" OffsetX="15.0" OffsetZ="-2" Form="1" RotateAngle="135" FormScale="0.3" NpcConfig="monster_zqm001_0001" amount="3"/>
+	<Property ID="test13" OffsetX="20.5" OffsetZ="-2" Form="1" RotateAngle="135" FormScale="0.3" NpcConfig="monster_zqm001_0001" amount="3"/>
+	<Property ID="yuhui01" Name="余晖洞穴" Form="2" RotateAngle="90" FormScale="1.0" NpcConfig="monster_qhm002_0048" amount="4"/>
+	<Property ID="ygzm01" Name="远古之门" Form="2" FormScale="2" NpcConfig="FB_yuanguzhimen_0007" amount="2"/>
+</Object>
+
+

@@ -1,0 +1,906 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes" ?>
+<Processor>
+    <Base type="object" version="1.0">
+        <Line Type="2" Event="4501" Name="player_bekilled">
+            <Param type="2" data="8" Index="0" />
+            <Param type="2" data="0" Index="1" />
+            <Param type="2" data="208" Index="2" />
+        </Line>
+        <Line Type="2" Event="2002" Name="player_killed" />
+        <Line Type="2" Event="2001" Name="AUTOP1" />
+        <Line Type="2" Event="3002" Name="t_resplayer">
+            <Param type="13" srctype="8" data="AUTOP1" Index="0" />
+            <Param type="6" data="t_resplayer" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP2" />
+        <Line Type="2" Event="3202" Name="AUTOP3">
+            <Param type="13" srctype="8" data="player_bekilled" Index="0" />
+            <Param type="6" data="Name" Index="1" />
+        </Line>
+        <Line Type="2" Event="3513" Name="row_bekilled">
+            <Param type="13" srctype="8" data="AUTOP2" Index="0" />
+            <Param type="6" data="dotabattlewar_scene_rec" Index="1" />
+            <Param type="2" data="1" Index="2" />
+            <Param type="13" srctype="6" data="AUTOP3" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP4" />
+        <Line Type="1" Event="3508">
+            <Param type="13" srctype="8" data="AUTOP4" Index="0" />
+            <Param type="6" data="dotabattlewar_scene_rec" Index="1" />
+            <Param type="13" srctype="2" data="row_bekilled" Index="2" />
+            <Param type="2" data="17" Index="3" />
+            <Param type="13" srctype="4" data="t_resplayer" Index="4" />
+        </Line>
+        <Line Type="2" Event="1104" Name="AUTOP6">
+            <Param type="13" srctype="8" data="player_killed" Index="0" />
+        </Line>
+        <Line Type="2" Event="1103" Name="AUTOP7">
+            <Param type="13" srctype="8" data="player_killed" Index="0" />
+            <Param type="2" data="7" Index="1" />
+            <Param type="13" srctype="8" data="player_bekilled" Index="2" />
+        </Line>
+        <Line Type="9" Name="AUTOP5">
+            <Param type="13" bool="false" srctype="1" data="AUTOP6" Index="0" />
+            <Param type="13" bool="true" srctype="1" data="AUTOP7" Index="0" />
+        </Line>
+        <Line Type="3" IncludeLines="1">
+            <Param type="13" bool="true" srctype="1" data="AUTOP5" Index="" />
+        </Line>
+        <Line Type="5" />
+        <Line Type="7" IncludeLines="0" />
+        <Line Type="2" Event="2116" Name="AUTOP9">
+            <Param type="13" srctype="8" data="player_killed" Index="0" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP8">
+            <Param type="13" srctype="4" data="AUTOP9" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="4" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="4">
+            <Param type="13" bool="true" srctype="1" data="AUTOP8" Index="0" />
+        </Line>
+        <Line Type="2" Event="3202" Name="AUTOP10">
+            <Param type="13" srctype="8" data="player_bekilled" Index="0" />
+            <Param type="6" data="Name" Index="1" />
+        </Line>
+        <Line Type="1" Event="5005">
+            <Param type="2" data="0" Index="0" />
+            <Param type="2" data="2" Index="1" />
+            <Param type="6" data="BG_167100" Index="2" />
+            <Param type="13" srctype="11" data="AUTOP10" Index="3" />
+            <Param type="6" data=" " Index="4" />
+            <Param type="6" data=" " Index="5" />
+        </Line>
+        <Line Type="2" Event="5082" Name="AUTOP11">
+            <Param type="13" srctype="8" data="player_bekilled" Index="0" />
+        </Line>
+        <Line Type="1" Event="5004">
+            <Param type="13" srctype="8" data="AUTOP11" Index="0" />
+            <Param type="6" data="snd\action\dota\OnChampionKillTurretYo.wav" Index="1" />
+        </Line>
+        <Line Type="7" IncludeLines="245" />
+        <Line Type="2" Event="2001" Name="AUTOP12" />
+        <Line Type="2" Event="3202" Name="AUTOP13">
+            <Param type="13" srctype="8" data="player_killed" Index="0" />
+            <Param type="6" data="Name" Index="1" />
+        </Line>
+        <Line Type="2" Event="3513" Name="row_killed">
+            <Param type="13" srctype="8" data="AUTOP12" Index="0" />
+            <Param type="6" data="dotabattlewar_scene_rec" Index="1" />
+            <Param type="2" data="1" Index="2" />
+            <Param type="13" srctype="6" data="AUTOP13" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP14" />
+        <Line Type="2" Event="3521" Name="dota_fightnum_bekilled">
+            <Param type="13" srctype="8" data="AUTOP14" Index="0" />
+            <Param type="6" data="dotabattlewar_scene_rec" Index="1" />
+            <Param type="13" srctype="2" data="row_bekilled" Index="2" />
+            <Param type="2" data="18" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP15" />
+        <Line Type="2" Event="3521" Name="dota_fightnum_killed">
+            <Param type="13" srctype="8" data="AUTOP15" Index="0" />
+            <Param type="6" data="dotabattlewar_scene_rec" Index="1" />
+            <Param type="13" srctype="2" data="row_killed" Index="2" />
+            <Param type="2" data="18" Index="3" />
+        </Line>
+        <Line Type="2" Event="4520" Name="AUTOP18" />
+        <Line Type="2" Event="3002" Name="AUTOP17">
+            <Param type="13" srctype="8" data="AUTOP18" Index="0" />
+            <Param type="6" data="firstblood" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP16">
+            <Param type="13" srctype="4" data="AUTOP17" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="0" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="7">
+            <Param type="13" bool="true" srctype="1" data="AUTOP16" Index="0" />
+        </Line>
+        <Line Type="2" Event="4520" Name="AUTOP19" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP19" Index="0" />
+            <Param type="6" data="firstblood" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="1" Index="3" />
+        </Line>
+        <Line Type="2" Event="5075" Name="money_base">
+            <Param type="4" data="400" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="0" Index="2" />
+        </Line>
+        <Line Type="2" Event="3202" Name="AUTOP20">
+            <Param type="13" srctype="8" data="player_bekilled" Index="0" />
+            <Param type="6" data="Name" Index="1" />
+        </Line>
+        <Line Type="1" Event="5005">
+            <Param type="2" data="0" Index="0" />
+            <Param type="2" data="2" Index="1" />
+            <Param type="6" data="BG_167105" Index="2" />
+            <Param type="13" srctype="11" data="AUTOP20" Index="3" />
+            <Param type="6" data=" " Index="4" />
+            <Param type="6" data=" " Index="5" />
+        </Line>
+        <Line Type="2" Event="5082" Name="AUTOP21">
+            <Param type="8" data=" " Index="0" />
+        </Line>
+        <Line Type="1" Event="5004">
+            <Param type="13" srctype="8" data="AUTOP21" Index="0" />
+            <Param type="6" data="snd\action\dota\OnFirstBlood_1.wav" Index="1" />
+        </Line>
+        <Line Type="7" IncludeLines="13" />
+        <Line Type="2" Event="1101" Name="AUTOP22">
+            <Param type="13" srctype="4" data="dota_fightnum_bekilled" Index="0" />
+            <Param type="2" data="5" Index="1" />
+            <Param type="4" data="0" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="6">
+            <Param type="13" bool="true" srctype="1" data="AUTOP22" Index="0" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP23">
+            <Param type="13" srctype="4" data="dota_fightnum_bekilled" Index="0" />
+            <Param type="2" data="5" Index="1" />
+            <Param type="4" data="-9" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="1">
+            <Param type="13" bool="true" srctype="1" data="AUTOP23" Index="0" />
+        </Line>
+        <Line Type="2" Event="5075" Name="money_base">
+            <Param type="4" data="15" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="0" Index="2" />
+        </Line>
+        <Line Type="7" IncludeLines="2" />
+        <Line Type="2" Event="5075" Name="AUTOP24">
+            <Param type="4" data="30" Index="0" />
+            <Param type="2" data="3" Index="1" />
+            <Param type="13" srctype="4" data="dota_fightnum_bekilled" Index="2" />
+        </Line>
+        <Line Type="2" Event="5075" Name="money_base">
+            <Param type="4" data="300" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP24" Index="2" />
+        </Line>
+        <Line Type="7" IncludeLines="4" />
+        <Line Type="2" Event="5075" Name="AUTOP27">
+            <Param type="4" data="200" Index="0" />
+            <Param type="2" data="4" Index="1" />
+            <Param type="4" data="7" Index="2" />
+        </Line>
+        <Line Type="2" Event="5075" Name="AUTOP26">
+            <Param type="13" srctype="4" data="AUTOP27" Index="0" />
+            <Param type="2" data="3" Index="1" />
+            <Param type="13" srctype="4" data="dota_fightnum_bekilled" Index="2" />
+        </Line>
+        <Line Type="2" Event="4705" Name="AUTOP25">
+            <Param type="13" srctype="4" data="AUTOP26" Index="0" />
+        </Line>
+        <Line Type="2" Event="5075" Name="money_base">
+            <Param type="4" data="300" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP25" Index="2" />
+        </Line>
+        <Line Type="2" Event="3202" Name="AUTOP29">
+            <Param type="13" srctype="8" data="player_killed" Index="0" />
+            <Param type="6" data="Coin_Dota" Index="1" />
+        </Line>
+        <Line Type="2" Event="5075" Name="AUTOP28">
+            <Param type="13" srctype="4" data="AUTOP29" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="13" srctype="4" data="money_base" Index="2" />
+        </Line>
+        <Line Type="1" Event="3203">
+            <Param type="13" srctype="8" data="player_killed" Index="0" />
+            <Param type="6" data="Coin_Dota" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP28" Index="2" />
+        </Line>
+        <Line Type="1" Event="5092">
+            <Param type="13" srctype="8" data="player_killed" Index="0" />
+            <Param type="13" srctype="4" data="money_base" Index="1" />
+        </Line>
+        <Line Type="2" Event="5075" Name="record_rows">
+            <Param type="4" data="0" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="0" Index="2" />
+        </Line>
+        <Line Type="2" Event="3503" Name="AUTOP30">
+            <Param type="13" srctype="8" data="player_bekilled" Index="0" />
+            <Param type="6" data="fight_spite_rec" Index="1" />
+        </Line>
+        <Line Type="14" IncludeLines="19">
+            <Param type="13" srctype="2" data="AUTOP30" Index="0" />
+        </Line>
+        <Line Type="2" Event="3521" Name="player_assistant">
+            <Param type="13" srctype="8" data="player_bekilled" Index="0" />
+            <Param type="6" data="fight_spite_rec" Index="1" />
+            <Param type="13" srctype="2" data="record_rows" Index="2" />
+            <Param type="2" data="0" Index="3" />
+        </Line>
+        <Line Type="2" Event="1104" Name="AUTOP31">
+            <Param type="13" srctype="8" data="player_assistant" Index="0" />
+        </Line>
+        <Line Type="3" IncludeLines="14">
+            <Param type="13" bool="true" srctype="1" data="AUTOP31" Index="0" />
+        </Line>
+        <Line Type="2" Event="2002" Name="AUTOP33" />
+        <Line Type="2" Event="1103" Name="AUTOP32">
+            <Param type="13" srctype="8" data="player_assistant" Index="0" />
+            <Param type="2" data="8" Index="1" />
+            <Param type="13" srctype="8" data="AUTOP33" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="10">
+            <Param type="13" bool="true" srctype="1" data="AUTOP32" Index="0" />
+        </Line>
+        <Line Type="2" Event="3202" Name="AUTOP35">
+            <Param type="13" srctype="8" data="player_assistant" Index="0" />
+            <Param type="6" data="Coin_Dota" Index="1" />
+        </Line>
+        <Line Type="2" Event="5075" Name="AUTOP38">
+            <Param type="13" srctype="4" data="money_base" Index="0" />
+            <Param type="2" data="3" Index="1" />
+            <Param type="4" data="5" Index="2" />
+        </Line>
+        <Line Type="2" Event="5075" Name="AUTOP37">
+            <Param type="13" srctype="4" data="AUTOP38" Index="0" />
+            <Param type="2" data="4" Index="1" />
+            <Param type="4" data="12" Index="2" />
+        </Line>
+        <Line Type="2" Event="4705" Name="AUTOP36">
+            <Param type="13" srctype="4" data="AUTOP37" Index="0" />
+        </Line>
+        <Line Type="2" Event="5075" Name="AUTOP34">
+            <Param type="13" srctype="4" data="AUTOP35" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP36" Index="2" />
+        </Line>
+        <Line Type="1" Event="3203">
+            <Param type="13" srctype="8" data="player_assistant" Index="0" />
+            <Param type="6" data="Coin_Dota" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP34" Index="2" />
+        </Line>
+        <Line Type="2" Event="5075" Name="AUTOP41">
+            <Param type="13" srctype="4" data="money_base" Index="0" />
+            <Param type="2" data="3" Index="1" />
+            <Param type="4" data="5" Index="2" />
+        </Line>
+        <Line Type="2" Event="5075" Name="AUTOP40">
+            <Param type="13" srctype="4" data="AUTOP41" Index="0" />
+            <Param type="2" data="4" Index="1" />
+            <Param type="4" data="12" Index="2" />
+        </Line>
+        <Line Type="2" Event="4705" Name="AUTOP39">
+            <Param type="13" srctype="4" data="AUTOP40" Index="0" />
+        </Line>
+        <Line Type="1" Event="5092">
+            <Param type="13" srctype="8" data="player_assistant" Index="0" />
+            <Param type="13" srctype="4" data="AUTOP39" Index="1" />
+        </Line>
+        <Line Type="7" IncludeLines="0" />
+        <Line Type="7" IncludeLines="0" />
+        <Line Type="2" Event="5075" Name="record_rows">
+            <Param type="13" srctype="4" data="record_rows" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="1" Index="2" />
+        </Line>
+        <Line Type="2" Event="4520" Name="AUTOP42" />
+        <Line Type="2" Event="3202" Name="AUTOP43">
+            <Param type="13" srctype="8" data="player_killed" Index="0" />
+            <Param type="6" data="Camp" Index="1" />
+        </Line>
+        <Line Type="2" Event="2205" Name="objects_killedcamp">
+            <Param type="13" srctype="8" data="AUTOP42" Index="0" />
+            <Param type="13" srctype="2" data="AUTOP43" Index="1" />
+            <Param type="8" data=" " Index="2" />
+        </Line>
+        <Line Type="2" Event="4520" Name="AUTOP44" />
+        <Line Type="2" Event="3202" Name="AUTOP45">
+            <Param type="13" srctype="8" data="player_bekilled" Index="0" />
+            <Param type="6" data="Camp" Index="1" />
+        </Line>
+        <Line Type="2" Event="2205" Name="objects_bekilledcamp">
+            <Param type="13" srctype="8" data="AUTOP44" Index="0" />
+            <Param type="13" srctype="2" data="AUTOP45" Index="1" />
+            <Param type="8" data=" " Index="2" />
+        </Line>
+        <Line Type="2" Event="4520" Name="AUTOP46" />
+        <Line Type="2" Event="3202" Name="AUTOP47">
+            <Param type="13" srctype="8" data="player_killed" Index="0" />
+            <Param type="6" data="Camp" Index="1" />
+        </Line>
+        <Line Type="2" Event="2205" Name="objects_killedcamp_filter">
+            <Param type="13" srctype="8" data="AUTOP46" Index="0" />
+            <Param type="13" srctype="2" data="AUTOP47" Index="1" />
+            <Param type="13" srctype="8" data="player_killed" Index="2" />
+        </Line>
+        <Line Type="2" Event="4520" Name="AUTOP48" />
+        <Line Type="2" Event="3202" Name="AUTOP49">
+            <Param type="13" srctype="8" data="player_bekilled" Index="0" />
+            <Param type="6" data="Camp" Index="1" />
+        </Line>
+        <Line Type="2" Event="2205" Name="objects_bekilledcamp_filter">
+            <Param type="13" srctype="8" data="AUTOP48" Index="0" />
+            <Param type="13" srctype="2" data="AUTOP49" Index="1" />
+            <Param type="13" srctype="8" data="player_bekilled" Index="2" />
+        </Line>
+        <Line Type="2" Event="3202" Name="AUTOP50">
+            <Param type="13" srctype="8" data="player_bekilled" Index="0" />
+            <Param type="6" data="Name" Index="1" />
+        </Line>
+        <Line Type="2" Event="2002" Name="AUTOP52" />
+        <Line Type="2" Event="3202" Name="AUTOP51">
+            <Param type="13" srctype="8" data="AUTOP52" Index="0" />
+            <Param type="6" data="Name" Index="1" />
+        </Line>
+        <Line Type="1" Event="5005">
+            <Param type="2" data="0" Index="0" />
+            <Param type="2" data="2" Index="1" />
+            <Param type="6" data="BG_167101" Index="2" />
+            <Param type="13" srctype="11" data="AUTOP50" Index="3" />
+            <Param type="13" srctype="6" data="AUTOP51" Index="4" />
+            <Param type="6" data=" " Index="5" />
+        </Line>
+        <Line Type="12" CaseNum="3" IncludeLines="5" />
+        <Line Type="13" IncludeLines="1" />
+        <Line Type="1" Event="5004">
+            <Param type="13" srctype="8" data="objects_killedcamp_filter" Index="0" />
+            <Param type="6" data="snd\action\dota\OnChampionKillHeroHero_2.wav" Index="1" />
+        </Line>
+        <Line Type="13" IncludeLines="1" />
+        <Line Type="1" Event="5004">
+            <Param type="13" srctype="8" data="objects_killedcamp_filter" Index="0" />
+            <Param type="6" data="snd\action\dota\OnChampionKillHeroHero_3.wav" Index="1" />
+        </Line>
+        <Line Type="13" IncludeLines="0" />
+        <Line Type="12" CaseNum="3" IncludeLines="5" />
+        <Line Type="13" IncludeLines="1" />
+        <Line Type="1" Event="5004">
+            <Param type="13" srctype="8" data="objects_bekilledcamp_filter" Index="0" />
+            <Param type="6" data="snd\action\dota\OnChampionKillHeroHero.wav" Index="1" />
+        </Line>
+        <Line Type="13" IncludeLines="1" />
+        <Line Type="1" Event="5004">
+            <Param type="13" srctype="8" data="objects_bekilledcamp_filter" Index="0" />
+            <Param type="6" data="snd\action\dota\OnChampionKillHeroHero_1.wav" Index="1" />
+        </Line>
+        <Line Type="13" IncludeLines="0" />
+        <Line Type="12" CaseNum="3" IncludeLines="6" />
+        <Line Type="13" IncludeLines="1" />
+        <Line Type="1" Event="5004">
+            <Param type="13" srctype="8" data="player_killed" Index="0" />
+            <Param type="6" data="snd\action\dota\OnChampionKillYouHeroY.wav" Index="1" />
+        </Line>
+        <Line Type="13" IncludeLines="1" />
+        <Line Type="1" Event="5004">
+            <Param type="13" srctype="8" data="player_killed" Index="0" />
+            <Param type="6" data="snd\action\dota\OnChampionKillYouHeroY_1.wav" Index="1" />
+        </Line>
+        <Line Type="13" IncludeLines="1" />
+        <Line Type="1" Event="5004">
+            <Param type="13" srctype="8" data="player_killed" Index="0" />
+            <Param type="6" data="snd\action\dota\OnChampionKillYouHeroY_2.wav" Index="1" />
+        </Line>
+        <Line Type="12" CaseNum="2" IncludeLines="4" />
+        <Line Type="13" IncludeLines="1" />
+        <Line Type="1" Event="5004">
+            <Param type="13" srctype="8" data="player_bekilled" Index="0" />
+            <Param type="6" data="snd\action\dota\OnChampionKillHeroYouE.wav" Index="1" />
+        </Line>
+        <Line Type="13" IncludeLines="1" />
+        <Line Type="1" Event="5004">
+            <Param type="13" srctype="8" data="player_bekilled" Index="0" />
+            <Param type="6" data="snd\action\dota\OnChampionKillHeroYouE_1.wav" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP53">
+            <Param type="13" srctype="4" data="dota_fightnum_bekilled" Index="0" />
+            <Param type="2" data="5" Index="1" />
+            <Param type="4" data="0" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="3">
+            <Param type="13" bool="true" srctype="1" data="AUTOP53" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP54" />
+        <Line Type="2" Event="5075" Name="AUTOP55">
+            <Param type="13" srctype="4" data="dota_fightnum_bekilled" Index="0" />
+            <Param type="2" data="2" Index="1" />
+            <Param type="4" data="1" Index="2" />
+        </Line>
+        <Line Type="1" Event="3508">
+            <Param type="13" srctype="8" data="AUTOP54" Index="0" />
+            <Param type="6" data="dotabattlewar_scene_rec" Index="1" />
+            <Param type="13" srctype="2" data="row_bekilled" Index="2" />
+            <Param type="2" data="18" Index="3" />
+            <Param type="13" srctype="4" data="AUTOP55" Index="4" />
+        </Line>
+        <Line Type="7" IncludeLines="2" />
+        <Line Type="2" Event="2001" Name="AUTOP56" />
+        <Line Type="1" Event="3508">
+            <Param type="13" srctype="8" data="AUTOP56" Index="0" />
+            <Param type="6" data="dotabattlewar_scene_rec" Index="1" />
+            <Param type="13" srctype="2" data="row_bekilled" Index="2" />
+            <Param type="2" data="18" Index="3" />
+            <Param type="4" data="-1" Index="4" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP57">
+            <Param type="13" srctype="4" data="dota_fightnum_killed" Index="0" />
+            <Param type="2" data="3" Index="1" />
+            <Param type="4" data="0" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="3">
+            <Param type="13" bool="true" srctype="1" data="AUTOP57" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP58" />
+        <Line Type="2" Event="5075" Name="AUTOP59">
+            <Param type="13" srctype="4" data="dota_fightnum_killed" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="1" Index="2" />
+        </Line>
+        <Line Type="1" Event="3508">
+            <Param type="13" srctype="8" data="AUTOP58" Index="0" />
+            <Param type="6" data="dotabattlewar_scene_rec" Index="1" />
+            <Param type="13" srctype="2" data="row_killed" Index="2" />
+            <Param type="2" data="18" Index="3" />
+            <Param type="13" srctype="4" data="AUTOP59" Index="4" />
+        </Line>
+        <Line Type="7" IncludeLines="2" />
+        <Line Type="2" Event="2001" Name="AUTOP60" />
+        <Line Type="1" Event="3508">
+            <Param type="13" srctype="8" data="AUTOP60" Index="0" />
+            <Param type="6" data="dotabattlewar_scene_rec" Index="1" />
+            <Param type="13" srctype="2" data="row_killed" Index="2" />
+            <Param type="2" data="18" Index="3" />
+            <Param type="4" data="1" Index="4" />
+        </Line>
+        <Line Type="2" Event="3002" Name="dota_tempkilltime">
+            <Param type="13" srctype="8" data="player_killed" Index="0" />
+            <Param type="6" data="dota_tempkilltime" Index="1" />
+        </Line>
+        <Line Type="2" Event="3002" Name="dota_tempkillnum">
+            <Param type="13" srctype="8" data="player_killed" Index="0" />
+            <Param type="6" data="dota_tempkillnum" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP62" />
+        <Line Type="2" Event="3002" Name="AUTOP61">
+            <Param type="13" srctype="8" data="AUTOP62" Index="0" />
+            <Param type="6" data="t_tempkill" Index="1" />
+        </Line>
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="player_killed" Index="0" />
+            <Param type="6" data="dota_tempkilltime" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="13" srctype="4" data="AUTOP61" Index="3" />
+        </Line>
+        <Line Type="2" Event="5075" Name="AUTOP63">
+            <Param type="13" srctype="4" data="dota_tempkillnum" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="1" Index="2" />
+        </Line>
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="player_killed" Index="0" />
+            <Param type="6" data="dota_tempkillnum" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="13" srctype="4" data="AUTOP63" Index="3" />
+        </Line>
+        <Line Type="10" CaseNum="4" IncludeLines="50">
+            <Param type="13" srctype="6" data="dota_tempkillnum" Index="0" />
+        </Line>
+        <Line Type="11" IncludeLines="14">
+            <Param type="6" data="1" Index="0" />
+        </Line>
+        <Line Type="2" Event="3202" Name="AUTOP64">
+            <Param type="13" srctype="8" data="player_killed" Index="0" />
+            <Param type="6" data="Name" Index="1" />
+        </Line>
+        <Line Type="1" Event="5005">
+            <Param type="2" data="0" Index="0" />
+            <Param type="2" data="2" Index="1" />
+            <Param type="6" data="BG_167102" Index="2" />
+            <Param type="13" srctype="6" data="AUTOP64" Index="3" />
+            <Param type="6" data=" " Index="4" />
+            <Param type="6" data=" " Index="5" />
+        </Line>
+        <Line Type="12" CaseNum="3" IncludeLines="6" />
+        <Line Type="13" IncludeLines="1" />
+        <Line Type="1" Event="5004">
+            <Param type="13" srctype="8" data="objects_killedcamp" Index="0" />
+            <Param type="6" data="snd\action\dota\OnChampionDoubleKillYo.wav" Index="1" />
+        </Line>
+        <Line Type="13" IncludeLines="1" />
+        <Line Type="1" Event="5004">
+            <Param type="13" srctype="8" data="objects_killedcamp" Index="0" />
+            <Param type="6" data="snd\action\dota\OnChampionDoubleKillYo_1.wav" Index="1" />
+        </Line>
+        <Line Type="13" IncludeLines="1" />
+        <Line Type="1" Event="5004">
+            <Param type="13" srctype="8" data="objects_killedcamp" Index="0" />
+            <Param type="6" data="snd\action\dota\OnChampionDoubleKillYo_2.wav" Index="1" />
+        </Line>
+        <Line Type="12" CaseNum="2" IncludeLines="4" />
+        <Line Type="13" IncludeLines="1" />
+        <Line Type="1" Event="5004">
+            <Param type="13" srctype="8" data="objects_bekilledcamp" Index="0" />
+            <Param type="6" data="snd\action\dota\OnChampionDoubleKillEn.wav" Index="1" />
+        </Line>
+        <Line Type="13" IncludeLines="1" />
+        <Line Type="1" Event="5004">
+            <Param type="13" srctype="8" data="objects_bekilledcamp" Index="0" />
+            <Param type="6" data="snd\action\dota\OnChampionDoubleKillEn_1.wav" Index="1" />
+        </Line>
+        <Line Type="11" IncludeLines="12">
+            <Param type="6" data="2" Index="0" />
+        </Line>
+        <Line Type="2" Event="3202" Name="AUTOP65">
+            <Param type="13" srctype="8" data="player_killed" Index="0" />
+            <Param type="6" data="Name" Index="1" />
+        </Line>
+        <Line Type="1" Event="5005">
+            <Param type="2" data="0" Index="0" />
+            <Param type="2" data="2" Index="1" />
+            <Param type="6" data="BG_167103" Index="2" />
+            <Param type="13" srctype="11" data="AUTOP65" Index="3" />
+            <Param type="6" data="3" Index="4" />
+            <Param type="6" data=" " Index="5" />
+        </Line>
+        <Line Type="12" CaseNum="2" IncludeLines="4" />
+        <Line Type="13" IncludeLines="1" />
+        <Line Type="1" Event="5004">
+            <Param type="13" srctype="8" data="objects_killedcamp" Index="0" />
+            <Param type="6" data="snd\action\dota\OnChampionTripleKillYo.wav" Index="1" />
+        </Line>
+        <Line Type="13" IncludeLines="1" />
+        <Line Type="1" Event="5004">
+            <Param type="13" srctype="8" data="objects_killedcamp" Index="0" />
+            <Param type="6" data="snd\action\dota\OnChampionTripleKillYo_1.wav" Index="1" />
+        </Line>
+        <Line Type="12" CaseNum="2" IncludeLines="4" />
+        <Line Type="13" IncludeLines="1" />
+        <Line Type="1" Event="5004">
+            <Param type="13" srctype="8" data="objects_bekilledcamp" Index="0" />
+            <Param type="6" data="snd\action\dota\OnChampionTripleKillEn.wav" Index="1" />
+        </Line>
+        <Line Type="13" IncludeLines="1" />
+        <Line Type="1" Event="5004">
+            <Param type="13" srctype="8" data="objects_bekilledcamp" Index="0" />
+            <Param type="6" data="snd\action\dota\OnChampionTripleKillEn_1.wav" Index="1" />
+        </Line>
+        <Line Type="11" IncludeLines="8">
+            <Param type="6" data="3" Index="0" />
+        </Line>
+        <Line Type="2" Event="3202" Name="AUTOP66">
+            <Param type="13" srctype="8" data="player_killed" Index="0" />
+            <Param type="6" data="Name" Index="1" />
+        </Line>
+        <Line Type="1" Event="5005">
+            <Param type="2" data="0" Index="0" />
+            <Param type="2" data="2" Index="1" />
+            <Param type="6" data="BG_167103" Index="2" />
+            <Param type="13" srctype="11" data="AUTOP66" Index="3" />
+            <Param type="6" data="4" Index="4" />
+            <Param type="6" data=" " Index="5" />
+        </Line>
+        <Line Type="12" CaseNum="2" IncludeLines="4" />
+        <Line Type="13" IncludeLines="1" />
+        <Line Type="1" Event="5004">
+            <Param type="13" srctype="8" data="objects_killedcamp" Index="0" />
+            <Param type="6" data="snd\action\dota\OnChampionQuadraKillYo.wav" Index="1" />
+        </Line>
+        <Line Type="13" IncludeLines="1" />
+        <Line Type="1" Event="5004">
+            <Param type="13" srctype="8" data="objects_killedcamp" Index="0" />
+            <Param type="6" data="snd\action\dota\OnChampionQuadraKillYo_1.wav" Index="1" />
+        </Line>
+        <Line Type="1" Event="5004">
+            <Param type="13" srctype="8" data="objects_bekilledcamp" Index="0" />
+            <Param type="6" data="snd\action\dota\OnChampionQuadraKillEn.wav" Index="1" />
+        </Line>
+        <Line Type="11" IncludeLines="12">
+            <Param type="6" data="4" Index="0" />
+        </Line>
+        <Line Type="2" Event="3202" Name="AUTOP67">
+            <Param type="13" srctype="8" data="player_killed" Index="0" />
+            <Param type="6" data="Name" Index="1" />
+        </Line>
+        <Line Type="1" Event="5005">
+            <Param type="2" data="0" Index="0" />
+            <Param type="2" data="2" Index="1" />
+            <Param type="6" data="BG_167103" Index="2" />
+            <Param type="13" srctype="11" data="AUTOP67" Index="3" />
+            <Param type="6" data="5" Index="4" />
+            <Param type="6" data=" " Index="5" />
+        </Line>
+        <Line Type="12" CaseNum="2" IncludeLines="4" />
+        <Line Type="13" IncludeLines="1" />
+        <Line Type="1" Event="5004">
+            <Param type="13" srctype="8" data="objects_killedcamp" Index="0" />
+            <Param type="6" data="snd\action\dota\OnChampionPentaKillYou.wav" Index="1" />
+        </Line>
+        <Line Type="13" IncludeLines="1" />
+        <Line Type="1" Event="5004">
+            <Param type="13" srctype="8" data="objects_killedcamp" Index="0" />
+            <Param type="6" data="snd\action\dota\OnChampionPentaKillYou_1.wav" Index="1" />
+        </Line>
+        <Line Type="12" CaseNum="2" IncludeLines="4" />
+        <Line Type="13" IncludeLines="1" />
+        <Line Type="1" Event="5004">
+            <Param type="13" srctype="8" data="objects_bekilledcamp" Index="0" />
+            <Param type="6" data="snd\action\dota\OnChampionPentaKillEne.wav" Index="1" />
+        </Line>
+        <Line Type="13" IncludeLines="1" />
+        <Line Type="1" Event="5004">
+            <Param type="13" srctype="8" data="objects_bekilledcamp" Index="0" />
+            <Param type="6" data="snd\action\dota\OnChampionPentaKillEne_1.wav" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP68">
+            <Param type="13" srctype="4" data="dota_tempkillnum" Index="0" />
+            <Param type="2" data="4" Index="1" />
+            <Param type="4" data="5" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="8">
+            <Param type="13" bool="true" srctype="1" data="AUTOP68" Index="0" />
+        </Line>
+        <Line Type="2" Event="3202" Name="AUTOP69">
+            <Param type="13" srctype="8" data="player_killed" Index="0" />
+            <Param type="6" data="Name" Index="1" />
+        </Line>
+        <Line Type="1" Event="5005">
+            <Param type="2" data="0" Index="0" />
+            <Param type="2" data="2" Index="1" />
+            <Param type="6" data="BG_167103" Index="2" />
+            <Param type="13" srctype="11" data="AUTOP69" Index="3" />
+            <Param type="6" data="5" Index="4" />
+            <Param type="6" data=" " Index="5" />
+        </Line>
+        <Line Type="12" CaseNum="2" IncludeLines="4" />
+        <Line Type="13" IncludeLines="1" />
+        <Line Type="1" Event="5004">
+            <Param type="13" srctype="8" data="objects_killedcamp" Index="0" />
+            <Param type="6" data="snd\action\dota\OnChampionUnrealKillYo.wav" Index="1" />
+        </Line>
+        <Line Type="13" IncludeLines="1" />
+        <Line Type="1" Event="5004">
+            <Param type="13" srctype="8" data="objects_killedcamp" Index="0" />
+            <Param type="6" data="snd\action\dota\OnChampionUnrealKillYo_1.wav" Index="1" />
+        </Line>
+        <Line Type="1" Event="5004">
+            <Param type="13" srctype="8" data="objects_bekilledcamp" Index="0" />
+            <Param type="6" data="snd\action\dota\OnChampionUnrealKillEn.wav" Index="1" />
+        </Line>
+        <Line Type="7" IncludeLines="0" />
+        <Line Type="10" CaseNum="5" IncludeLines="37">
+            <Param type="13" srctype="6" data="dota_fightnum_killed" Index="0" />
+        </Line>
+        <Line Type="11" IncludeLines="8">
+            <Param type="6" data="2" Index="0" />
+        </Line>
+        <Line Type="2" Event="3202" Name="AUTOP70">
+            <Param type="13" srctype="8" data="player_killed" Index="0" />
+            <Param type="6" data="Name" Index="1" />
+        </Line>
+        <Line Type="1" Event="5005">
+            <Param type="2" data="0" Index="0" />
+            <Param type="2" data="2" Index="1" />
+            <Param type="6" data="BG_167108" Index="2" />
+            <Param type="13" srctype="6" data="AUTOP70" Index="3" />
+            <Param type="6" data=" " Index="4" />
+            <Param type="6" data=" " Index="5" />
+        </Line>
+        <Line Type="1" Event="5004">
+            <Param type="13" srctype="8" data="objects_killedcamp" Index="0" />
+            <Param type="6" data="snd\action\dota\OnKillingSpreeSet1Your.wav" Index="1" />
+        </Line>
+        <Line Type="12" CaseNum="2" IncludeLines="4" />
+        <Line Type="13" IncludeLines="1" />
+        <Line Type="1" Event="5004">
+            <Param type="13" srctype="8" data="objects_bekilledcamp" Index="0" />
+            <Param type="6" data="snd\action\dota\OnKillingSpreeSet1Enem.wav" Index="1" />
+        </Line>
+        <Line Type="13" IncludeLines="1" />
+        <Line Type="1" Event="5004">
+            <Param type="13" srctype="8" data="objects_bekilledcamp" Index="0" />
+            <Param type="6" data="snd\action\dota\OnKillingSpreeSet1Enem_1.wav" Index="1" />
+        </Line>
+        <Line Type="11" IncludeLines="4">
+            <Param type="6" data="3" Index="0" />
+        </Line>
+        <Line Type="2" Event="3202" Name="AUTOP71">
+            <Param type="13" srctype="8" data="player_killed" Index="0" />
+            <Param type="6" data="Name" Index="1" />
+        </Line>
+        <Line Type="1" Event="5005">
+            <Param type="2" data="0" Index="0" />
+            <Param type="2" data="2" Index="1" />
+            <Param type="6" data="BG_167109" Index="2" />
+            <Param type="13" srctype="6" data="AUTOP71" Index="3" />
+            <Param type="6" data=" " Index="4" />
+            <Param type="6" data=" " Index="5" />
+        </Line>
+        <Line Type="1" Event="5004">
+            <Param type="13" srctype="8" data="objects_killedcamp" Index="0" />
+            <Param type="6" data="snd\action\dota\OnKillingSpreeSet2Your.wav" Index="1" />
+        </Line>
+        <Line Type="1" Event="5004">
+            <Param type="13" srctype="8" data="objects_bekilledcamp" Index="0" />
+            <Param type="6" data="snd\action\dota\OnKillingSpreeSet2Enem.wav" Index="1" />
+        </Line>
+        <Line Type="11" IncludeLines="8">
+            <Param type="6" data="4" Index="0" />
+        </Line>
+        <Line Type="2" Event="3202" Name="AUTOP72">
+            <Param type="13" srctype="8" data="player_killed" Index="0" />
+            <Param type="6" data="Name" Index="1" />
+        </Line>
+        <Line Type="1" Event="5005">
+            <Param type="2" data="0" Index="0" />
+            <Param type="2" data="2" Index="1" />
+            <Param type="6" data="BG_167110" Index="2" />
+            <Param type="13" srctype="6" data="AUTOP72" Index="3" />
+            <Param type="6" data=" " Index="4" />
+            <Param type="6" data=" " Index="5" />
+        </Line>
+        <Line Type="1" Event="5004">
+            <Param type="13" srctype="8" data="objects_killedcamp" Index="0" />
+            <Param type="6" data="snd\action\dota\OnKillingSpreeSet3Your.wav" Index="1" />
+        </Line>
+        <Line Type="12" CaseNum="2" IncludeLines="4" />
+        <Line Type="13" IncludeLines="1" />
+        <Line Type="1" Event="5004">
+            <Param type="13" srctype="8" data="objects_bekilledcamp" Index="0" />
+            <Param type="6" data="snd\action\dota\OnKillingSpreeSet3Enem.wav" Index="1" />
+        </Line>
+        <Line Type="13" IncludeLines="1" />
+        <Line Type="1" Event="5004">
+            <Param type="13" srctype="8" data="objects_bekilledcamp" Index="0" />
+            <Param type="6" data="snd\action\dota\OnKillingSpreeSet3Enem_1.wav" Index="1" />
+        </Line>
+        <Line Type="11" IncludeLines="4">
+            <Param type="6" data="5" Index="0" />
+        </Line>
+        <Line Type="2" Event="3202" Name="AUTOP73">
+            <Param type="13" srctype="8" data="player_killed" Index="0" />
+            <Param type="6" data="Name" Index="1" />
+        </Line>
+        <Line Type="1" Event="5005">
+            <Param type="2" data="0" Index="0" />
+            <Param type="2" data="2" Index="1" />
+            <Param type="6" data="BG_167111" Index="2" />
+            <Param type="13" srctype="6" data="AUTOP73" Index="3" />
+            <Param type="6" data=" " Index="4" />
+            <Param type="6" data=" " Index="5" />
+        </Line>
+        <Line Type="1" Event="5004">
+            <Param type="13" srctype="8" data="objects_killedcamp" Index="0" />
+            <Param type="6" data="snd\action\dota\OnKillingSpreeSet4Your.wav" Index="1" />
+        </Line>
+        <Line Type="1" Event="5004">
+            <Param type="13" srctype="8" data="objects_bekilledcamp" Index="0" />
+            <Param type="6" data="snd\action\dota\OnKillingSpreeSet4Enem.wav" Index="1" />
+        </Line>
+        <Line Type="11" IncludeLines="8">
+            <Param type="6" data="6" Index="0" />
+        </Line>
+        <Line Type="2" Event="3202" Name="AUTOP74">
+            <Param type="13" srctype="8" data="player_killed" Index="0" />
+            <Param type="6" data="Name" Index="1" />
+        </Line>
+        <Line Type="1" Event="5005">
+            <Param type="2" data="0" Index="0" />
+            <Param type="2" data="2" Index="1" />
+            <Param type="6" data="BG_167112" Index="2" />
+            <Param type="13" srctype="6" data="AUTOP74" Index="3" />
+            <Param type="6" data=" " Index="4" />
+            <Param type="6" data=" " Index="5" />
+        </Line>
+        <Line Type="1" Event="5004">
+            <Param type="13" srctype="8" data="objects_killedcamp" Index="0" />
+            <Param type="6" data="snd\action\dota\OnKillingSpreeSet5Your.wav" Index="1" />
+        </Line>
+        <Line Type="12" CaseNum="2" IncludeLines="4" />
+        <Line Type="13" IncludeLines="1" />
+        <Line Type="1" Event="5004">
+            <Param type="13" srctype="8" data="objects_bekilledcamp" Index="0" />
+            <Param type="6" data="snd\action\dota\OnKillingSpreeSet5Enem.wav" Index="1" />
+        </Line>
+        <Line Type="13" IncludeLines="1" />
+        <Line Type="1" Event="5004">
+            <Param type="13" srctype="8" data="objects_bekilledcamp" Index="0" />
+            <Param type="6" data="snd\action\dota\OnKillingSpreeSet5Enem_1.wav" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP75">
+            <Param type="13" srctype="4" data="dota_fightnum_killed" Index="0" />
+            <Param type="2" data="4" Index="1" />
+            <Param type="4" data="7" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="8">
+            <Param type="13" bool="true" srctype="1" data="AUTOP75" Index="0" />
+        </Line>
+        <Line Type="2" Event="3202" Name="AUTOP76">
+            <Param type="13" srctype="8" data="player_killed" Index="0" />
+            <Param type="6" data="Name" Index="1" />
+        </Line>
+        <Line Type="1" Event="5005">
+            <Param type="2" data="0" Index="0" />
+            <Param type="2" data="2" Index="1" />
+            <Param type="6" data="BG_167113" Index="2" />
+            <Param type="13" srctype="6" data="AUTOP76" Index="3" />
+            <Param type="6" data=" " Index="4" />
+            <Param type="6" data=" " Index="5" />
+        </Line>
+        <Line Type="1" Event="5004">
+            <Param type="13" srctype="8" data="objects_killedcamp" Index="0" />
+            <Param type="6" data="snd\action\dota\OnKillingSpreeSet6Your.wav" Index="1" />
+        </Line>
+        <Line Type="12" CaseNum="2" IncludeLines="4" />
+        <Line Type="13" IncludeLines="1" />
+        <Line Type="1" Event="5004">
+            <Param type="13" srctype="8" data="objects_bekilledcamp" Index="0" />
+            <Param type="6" data="snd\action\dota\OnKillingSpreeSet6Enem.wav" Index="1" />
+        </Line>
+        <Line Type="13" IncludeLines="1" />
+        <Line Type="1" Event="5004">
+            <Param type="13" srctype="8" data="objects_bekilledcamp" Index="0" />
+            <Param type="6" data="snd\action\dota\OnKillingSpreeSet6Enem_1.wav" Index="1" />
+        </Line>
+        <Line Type="7" IncludeLines="0" />
+        <Line Type="2" Event="1101" Name="AUTOP77">
+            <Param type="13" srctype="4" data="dota_fightnum_bekilled" Index="0" />
+            <Param type="2" data="4" Index="1" />
+            <Param type="4" data="3" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="10">
+            <Param type="13" bool="true" srctype="1" data="AUTOP77" Index="0" />
+        </Line>
+        <Line Type="2" Event="3202" Name="AUTOP78">
+            <Param type="13" srctype="8" data="player_killed" Index="0" />
+            <Param type="6" data="Name" Index="1" />
+        </Line>
+        <Line Type="2" Event="3202" Name="AUTOP79">
+            <Param type="13" srctype="8" data="player_bekilled" Index="0" />
+            <Param type="6" data="Name" Index="1" />
+        </Line>
+        <Line Type="1" Event="5005">
+            <Param type="2" data="0" Index="0" />
+            <Param type="2" data="2" Index="1" />
+            <Param type="6" data="BG_167104" Index="2" />
+            <Param type="13" srctype="6" data="AUTOP78" Index="3" />
+            <Param type="13" srctype="6" data="AUTOP79" Index="4" />
+            <Param type="6" data=" " Index="5" />
+        </Line>
+        <Line Type="12" CaseNum="2" IncludeLines="6" />
+        <Line Type="13" IncludeLines="2" />
+        <Line Type="2" Event="5082" Name="AUTOP80">
+            <Param type="8" data=" " Index="0" />
+        </Line>
+        <Line Type="1" Event="5004">
+            <Param type="13" srctype="8" data="AUTOP80" Index="0" />
+            <Param type="6" data="snd\action\dota\OnKilledUnitOnKillingS.wav" Index="1" />
+        </Line>
+        <Line Type="13" IncludeLines="2" />
+        <Line Type="2" Event="5082" Name="AUTOP81">
+            <Param type="8" data=" " Index="0" />
+        </Line>
+        <Line Type="1" Event="5004">
+            <Param type="13" srctype="8" data="AUTOP81" Index="0" />
+            <Param type="6" data="snd\action\dota\OnKilledUnitOnKillingS_1.wav" Index="1" />
+        </Line>
+        <Line Type="7" IncludeLines="0" />
+    </Base>
+</Processor>

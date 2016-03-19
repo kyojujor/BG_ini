@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<Object>
+	<Property ID="30001" Name="ZQ宠物" Photo="icon\BG_Skill\jineng_yexingsilie.png" EffectSpeed="0" PrepareAction="fi_10h_stand" HitAction="uarmR_attack_0h" HurtAction="combat"/>
+	<Property ID="30002" Name="QH宠物" Photo="icon\BG_Skill\jineng_yexingsilie.png" EffectSpeed="0" PrepareAction="fi_10h_stand" HitAction="uarmR_attack_0h" HurtAction="combat"/>
+	<Property ID="30046" Name="召唤机器狼" Photo="icon\BG_Skill\jineng_yexingsilie.png" PrepareAction="fi_10h_stand" PrepareEffect="func_raid_27" HitAction="attack_0h"/>
+	<Property ID="10058" Name="机体A1" Photo="icon\BG_Skill\skillicon_0087.png"/>
+	<Property ID="10059" Name="机器狗" Photo="icon\BG_Skill\skillicon_0087.png"/>
+	<Property ID="10060" Name="鸟" Photo="icon\BG_Skill\skillicon_0087.png" HurtAction="combat"/>
+	<Property ID="10061" Name="科多兽" Photo="icon\BG_Skill\skillicon_0087.png" HurtAction="combat"/>
+	<Property ID="101" Photo="icon\BG_Skill\skillicon_0337.png" ActionEffect="func_raid_127" HitAction="spell2_10h" HurtAction="combat"/>
+	<Property ID="91001" Name="炮轰形态" Photo="icon\BG_Pet\Pet_Mac_0004.png" AutoStop="1" HitAction="spell2_10h" HitEffect="BGskill_50008"/>
+	<Property ID="91002" Name="神力形态" Photo="icon\BG_Pet\Pet_Mac_0001.png" AutoStop="1" HitAction="spell2_10h" HitEffect="BGskill_50008"/>
+	<Property ID="91003" Name="陷阱形态" Photo="icon\BG_Pet\Pet_Mac_0003.png" AutoStop="1" HitAction="spell2_10h" HitEffect="BGskill_50008"/>
+	<Property ID="91004" Name="水晶形态" Photo="icon\BG_Pet\Pet_Mac_0003.png" AutoStop="1" HitAction="spell2_10h" HitEffect="BGskill_50008"/>
+	<Property ID="20655" Name="猎火战狼·测试BUFF技能" Photo="icon\BG_Skill\skillicon_0174.png" HitEffect="BGskill_20034"/>
+	<Property ID="20686" Name="星级法阵1" Photo="gui\BG_Pet\Pet_StarLV_01.png"/>
+	<Property ID="20687" Name="星级法阵2" Photo="gui\BG_Pet\Pet_StarLV_02.png"/>
+	<Property ID="20688" Name="星级法阵3" Photo="gui\BG_Pet\Pet_StarLV_03.png"/>
+	<Property ID="20689" Name="星级法阵4" Photo="gui\BG_Pet\Pet_StarLV_04.png"/>
+	<Property ID="20690" Name="星级法阵5" Photo="gui\BG_Pet\Pet_StarLV_05.png"/>
+	<Property ID="20693" Name="吸魂" Photo="icon\BG_Pet\Soul_Draw.png"/>
+	<Property ID="91005" Name="无畏" Photo="icon\BG_Skill\skillicon_0091.png" HurtAction="combat"/>
+	<Property ID="91006" Name="名利" Photo="icon\BG_Skill\skillicon_0074.png" HurtAction="combat"/>
+	<Property ID="91007" Name="野心" Photo="icon\BG_Skill\skillicon_0088.png" HurtAction="combat"/>
+	<Property ID="91008" Name="血之恩赐" Photo="icon\BG_Skill\skillicon_0214.png" HurtAction="combat"/>
+	<Property ID="91009" Name="复仇" Photo="icon\BG_Skill\skillicon_0228.png" HurtAction="combat"/>
+	<Property ID="91010" Name="血之疫病" Photo="icon\BG_Skill\skillicon_0174.png" HurtAction="combat"/>
+	<Property ID="91011" Name="制造精通" Photo="icon\BG_Skill\skillicon_0290.png" HurtAction="combat"/>
+	<Property ID="91012" Name="勤勉" Photo="icon\BG_Skill\skillicon_0292.png" HurtAction="combat"/>
+	<Property ID="91013" Name="坚韧" Photo="icon\BG_Skill\skillicon_0280.png" HurtAction="combat"/>
+	<Property ID="91014" Name="群居天性" Photo="icon\BG_Skill\skillicon_0161.png" HurtAction="combat"/>
+	<Property ID="91015" Name="自然亲近者" Photo="icon\BG_Skill\skillicon_0193.png" HurtAction="combat"/>
+	<Property ID="91016" Name="亲和体" Photo="icon\BG_Skill\skillicon_0187.png" HurtAction="combat"/>
+	<Property ID="91017" Name="野蛮体魄" Photo="icon\BG_Skill\skillicon_0431.png" HurtAction="combat"/>
+	<Property ID="91018" Name="先祖近亲" Photo="icon\BG_Skill\skillicon_0183.png" HurtAction="combat"/>
+	<Property ID="91019" Name="野性本能" Photo="icon\BG_Skill\skillicon_0275.png" HurtAction="combat"/>
+	<Property ID="91020" Name="狡黠" Photo="icon\BG_Skill\skillicon_0441.png" HurtAction="combat"/>
+	<Property ID="91021" Name="信仰" Photo="icon\BG_Skill\skillicon_0449.png" HurtAction="combat"/>
+	<Property ID="91022" Name="猫之迅捷" Photo="icon\BG_Skill\skillicon_0029.png" HurtAction="combat"/>
+	<Property ID="20708" Name="变身" Photo="icon\BG_Pet\Pet_Hme_C_0001.png"/>
+	<Property ID="50284" Name="宠物测试技能1" Photo="icon\BG_Pet\Pet_Skill\Pet_Skill_0001.png"/>
+	<Property ID="50285" Name="宠物测试技能2" Photo="icon\BG_Pet\Pet_Skill\Pet_Skill_0002.png"/>
+	<Property ID="50286" Name="宠物测试技能3" Photo="icon\BG_Pet\Pet_Skill\Pet_Skill_0003.png"/>
+	<Property ID="50287" Name="宠物测试技能4" Photo="icon\BG_Pet\Pet_Skill\Pet_Skill_0004.png"/>
+	<Property ID="50288" Name="宠物测试技能5" Photo="icon\BG_Pet\Pet_Skill\Pet_Skill_0005.png"/>
+	<Property ID="50289" Name="宠物测试技能6" Photo="icon\BG_Pet\Pet_Skill\Pet_Skill_0006.png"/>
+	<Property ID="50290" Name="宠物测试技能7" Photo="icon\BG_Pet\Pet_Skill\Pet_Skill_0007.png"/>
+	<Property ID="50291" Name="宠物测试技能8" Photo="icon\BG_Pet\Pet_Skill\Pet_Skill_0008.png"/>
+	<Property ID="50292" Name="宠物测试技能9" Photo="icon\BG_Pet\Pet_Skill\Pet_Skill_0009.png"/>
+	<Property ID="50293" Name="宠物测试技能10" Photo="icon\BG_Pet\Pet_Skill\Pet_Skill_0010.png"/>
+	<Property ID="20743" Name="狩猎者兽魂召唤" Photo="icon\BG_Pet\PetCall.png"/>
+	<Property ID="20744" Name="召唤“长耳兔”" Photo="icon\BG_Pet\Watch_0_00027.png" PrepareAction="fi_10h_ready" PrepareEffect="func_raid_51"/>
+	<Property ID="99994" Photo="icon\BG_Skill\jineng_putonggongji.png"/>
+	<Property ID="99993" Photo="icon\BG_Skill\skillicon_0024.png"/>
+	<Property ID="20818" Name="炮轰形态远程普通攻击" Photo="icon\BG_Skill\skillicon_0329.png" EffectSpeed="12" ActionEffect="BGskill_20049" HitAction="attackR_0h" HitEffect="func_raid_29"/>
+	<Property ID="20832" Photo="icon\BG_Skill\heijin_feng.png"/>
+	<Property ID="20834" Photo="icon\BG_Skill\skillicon_0002.png"/>
+	<Property ID="20835" Photo="icon\BG_Skill\skillicon_0002.png"/>
+	<Property ID="29001" Name="拾取物品技能" Photo="icon\BG_Skill\jineng_yemandaji.PNG" HitAction="pick_cast_0h"/>
+	<Property ID="29101" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG" HitAction="sitdown_0h" AutoStop="1"/>
+	<Property ID="81305" Name="减速" ActionEffect="BGskill_81308" Photo="icon\BG_Skill\heijin_huo.PNG"/>
+	<Property ID="50102" Name="测试" Photo="icon\BG_Skill\dazuo.png" AutoStop="1"/>
+	<Property ID="29002" Name="自杀" Photo="icon\BG_Skill\skillicon_0384.png"/>
+	<Property ID="80200" Name="变身" Photo="icon\buff\skillicon_0467.png"/>
+	<Property ID="29003" Name="随机传送" Photo="icon\BG_Skill\jineng_yexingxuemai.PNG"/>
+	<Property ID="29004" Name="回复活点" Photo="icon\BG_Skill\skillicon_common_0001.png" PrepareAction="fi_10h_ready" PrepareEffect="func_raid_658"/>
+	<Property ID="29005" Name="回城" Photo="icon\BG_Skill\skillicon_0041.png" PrepareAction="fi_10h_ready" PrepareEffect="func_raid_658"/>
+	<Property ID="87519" Name="妖狐" Photo="icon\BG_Skill\skillicon_0087.png"/>
+	<Property ID="87520" Name="比波" Photo="icon\BG_Skill\skillicon_0087.png"/>
+	<Property ID="87521" Name="晶化灵狼" Photo="icon\BG_Skill\skillicon_0087.png"/>
+	<Property ID="87522" Name="丘比" Photo="icon\BG_Skill\skillicon_0087.png"/>
+	<Property ID="87523" Name="波波利" Photo="icon\BG_Skill\skillicon_0087.png"/>
+	<Property ID="87524" Name="小狗" Photo="icon\BG_Skill\skillicon_0087.png"/>
+	<Property ID="87525" Name="小猪" Photo="icon\BG_Skill\skillicon_0087.png"/>
+	<Property ID="87526" Name="小猫" Photo="icon\BG_Skill\skillicon_0087.png"/>
+	<Property ID="87527" Name="小精灵" Photo="icon\BG_Skill\skillicon_0087.png"/>
+	<Property ID="87528" Name="阿罗比" Photo="icon\BG_Skill\skillicon_0087.png"/>
+	<Property ID="87529" Name="沙豹" Photo="icon\BG_Skill\skillicon_0087.png"/>
+	<Property ID="87530" Name="异化狗" Photo="icon\BG_Skill\skillicon_0087.png"/>
+	<Property ID="87531" Name="猫头鹰" Photo="icon\BG_Skill\skillicon_0087.png"/>
+	<Property ID="87532" Name="小猴子" Photo="icon\BG_Skill\skillicon_0087.png"/>
+	<Property ID="87533" Name="乌力" Photo="icon\BG_Skill\skillicon_0087.png"/>
+	<Property ID="87534" Name="千年龟" Photo="icon\BG_Skill\skillicon_0087.png"/>
+	<Property ID="87535" Name="异化鼠" Photo="icon\BG_Skill\skillicon_0087.png"/>
+	<Property ID="87536" Name="机械巡逻者" Photo="icon\BG_Skill\skillicon_0087.png"/>
+	<Property ID="87537" Name="机械守卫" Photo="icon\BG_Skill\skillicon_0087.png"/>
+	<Property ID="87538" Name="火灵兽" Photo="icon\BG_Skill\skillicon_0087.png"/>
+	<Property ID="87539" Name="异化生灵" Photo="icon\BG_Skill\skillicon_0087.png"/>
+	<Property ID="87540" Name="乌兹卡比" Photo="icon\BG_Skill\skillicon_0087.png"/>
+	<Property ID="87541" Name="乌兹利比" Photo="icon\BG_Skill\skillicon_0087.png"/>
+	<Property ID="87542" Name="机械管理者" Photo="icon\BG_Skill\skillicon_0087.png"/>
+	<Property ID="87543" Name="机械清洁者" Photo="icon\BG_Skill\skillicon_0087.png"/>
+	<Property ID="87544" Name="克莱尔" Photo="icon\BG_Skill\skillicon_0087.png"/>
+	<Property ID="87545" Name="扎克雷斯" Photo="icon\BG_Skill\skillicon_0087.png"/>
+	<Property ID="87546" Name="微型侦察者" Photo="icon\BG_Skill\skillicon_0087.png"/>
+	<Property ID="87547" Name="奇行猴" Photo="icon\BG_Skill\skillicon_0087.png"/>
+	<Property ID="87548" Name="双头鹫" Photo="icon\BG_Skill\skillicon_0087.png"/>
+	<Property ID="87549" Name="异形鸟" Photo="icon\BG_Skill\skillicon_0087.png"/>
+	<Property ID="87550" Name="小兔子" Photo="icon\BG_Skill\skillicon_0087.png"/>
+	<Property ID="87551" Name="妖狼" Photo="icon\BG_Skill\skillicon_0087.png"/>
+	<Property ID="87552" Name="机械警卫" Photo="icon\BG_Skill\skillicon_0087.png"/>
+	<Property ID="87553" Name="异化鼠" Photo="icon\BG_Skill\skillicon_0087.png"/>
+	<Property ID="87554" Name="机械侦察者" Photo="icon\BG_Skill\skillicon_0087.png"/>
+	<Property ID="87555" Name="妖兔" Photo="icon\BG_Skill\skillicon_0087.png"/>
+</Object>
+
+

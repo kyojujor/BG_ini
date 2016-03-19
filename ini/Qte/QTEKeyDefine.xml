@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+  <Property ID="QTEKey" Name="" Value="" Type="KeyValue"/>
+	<Property ID="QTEKey" Name="鼠标左键[1]" Value="1" Type="KeyValue"/>
+	<Property ID="QTEKey" Name="鼠标右键[2]" Value="2" Type="KeyValue"/>
+	<Property ID="QTEKey" Name="鼠标中键[4]" Value="4" Type="KeyValue"/>
+	<Property ID="QTEKey" Name="TAB键[9]" Value="9" Type="KeyValue"/>
+	<Property ID="QTEKey" Name="Shift键[10]" Value="10" Type="KeyValue"/>
+	
+	<Property ID="QTEKey" Name="回车键[13]" Value="13" Type="KeyValue"/>
+	<Property ID="QTEKey" Name="Ctrl键[17]" Value="17" Type="KeyValue"/>
+	<Property ID="QTEKey" Name="Esc键[27]"  Value="27" Type="KeyValue"/>
+	<Property ID="QTEKey" Name="空格键[32]" Value="32" Type="KeyValue"/>
+	
+	<Property ID="QTEKey" Name="←键[37]" Value="37" Type="KeyValue"/>
+	<Property ID="QTEKey" Name="↑键[38]" Value="38" Type="KeyValue"/>
+	<Property ID="QTEKey" Name="→键[39]" Value="39" Type="KeyValue"/>
+	<Property ID="QTEKey" Name="↓键[40]" Value="40" Type="KeyValue"/>
+	
+	<Property ID="QTEKey" Name="数字键0[48]" Value="48" Type="KeyValue"/>
+	<Property ID="QTEKey" Name="数字键1[49]" Value="49" Type="KeyValue"/>
+	<Property ID="QTEKey" Name="数字键2[50]" Value="50" Type="KeyValue"/>
+	<Property ID="QTEKey" Name="数字键3[51]" Value="51" Type="KeyValue"/>
+	<Property ID="QTEKey" Name="数字键4[52]" Value="52" Type="KeyValue"/>
+	<Property ID="QTEKey" Name="数字键5[53]" Value="53" Type="KeyValue"/>
+	<Property ID="QTEKey" Name="数字键6[54]" Value="54" Type="KeyValue"/>
+	<Property ID="QTEKey" Name="数字键7[55]" Value="55" Type="KeyValue"/>
+	<Property ID="QTEKey" Name="数字键8[56]" Value="56" Type="KeyValue"/>
+	<Property ID="QTEKey" Name="数字键9[57]" Value="57" Type="KeyValue"/>
+	<Property ID="QTEKey" Name="A键[65]" Value="65" Type="KeyValue"/>
+	<Property ID="QTEKey" Name="B键[66]" Value="66" Type="KeyValue"/>
+	<Property ID="QTEKey" Name="C键[67]" Value="67" Type="KeyValue"/>
+	<Property ID="QTEKey" Name="D键[68]" Value="68" Type="KeyValue"/>
+	<Property ID="QTEKey" Name="E键[69]" Value="69" Type="KeyValue"/>
+	<Property ID="QTEKey" Name="F键[70]" Value="70" Type="KeyValue"/>
+	<Property ID="QTEKey" Name="G键[71]" Value="71" Type="KeyValue"/>
+	<Property ID="QTEKey" Name="H键[72]" Value="72" Type="KeyValue"/>
+	<Property ID="QTEKey" Name="I键[73]" Value="73" Type="KeyValue"/>
+	<Property ID="QTEKey" Name="J键[74]" Value="74" Type="KeyValue"/>
+	<Property ID="QTEKey" Name="K键[75]" Value="75" Type="KeyValue"/>
+	<Property ID="QTEKey" Name="L键[76]" Value="76" Type="KeyValue"/>
+	<Property ID="QTEKey" Name="M键[77]" Value="77" Type="KeyValue"/>
+	<Property ID="QTEKey" Name="N键[78]" Value="78" Type="KeyValue"/>
+	<Property ID="QTEKey" Name="O键[79]" Value="79" Type="KeyValue"/>
+	<Property ID="QTEKey" Name="P键[80]" Value="80" Type="KeyValue"/>
+	<Property ID="QTEKey" Name="Q键[81]" Value="81" Type="KeyValue"/>
+	<Property ID="QTEKey" Name="R键[82]" Value="82" Type="KeyValue"/>
+	<Property ID="QTEKey" Name="S键[83]" Value="83" Type="KeyValue"/>
+	<Property ID="QTEKey" Name="T键[84]" Value="84" Type="KeyValue"/>
+	<Property ID="QTEKey" Name="U键[85]" Value="85" Type="KeyValue"/>
+	<Property ID="QTEKey" Name="V键[86]" Value="86" Type="KeyValue"/>
+	<Property ID="QTEKey" Name="W键[87]" Value="87" Type="KeyValue"/>
+	<Property ID="QTEKey" Name="X键[88]" Value="88" Type="KeyValue"/>
+	<Property ID="QTEKey" Name="Y键[89]" Value="89" Type="KeyValue"/>
+	<Property ID="QTEKey" Name="Z键[90]" Value="90" Type="KeyValue"/>
+	
+	<Property ID="QTEKey" Name="提示" Value="1" Type="IsNotify"/>
+	<Property ID="QTEKey" Name="不提示" Value="0" Type="IsNotify"/>
+	
+	<Property ID="QTEKey" Name="垂直顶部对齐，水平左对齐" Value="0" Type="RectAlignType"/>
+	<Property ID="QTEKey" Name="垂直顶部对齐，水平居中" Value="1" Type="RectAlignType"/>
+	<Property ID="QTEKey" Name="垂直顶部对齐，水平右对齐" Value="2" Type="RectAlignType"/>
+	<Property ID="QTEKey" Name="垂直居中，水平左对齐" Value="3" Type="RectAlignType"/>
+	<Property ID="QTEKey" Name="垂直居中，水平居中" Value="4" Type="RectAlignType"/>
+	<Property ID="QTEKey" Name="垂直居中，水平右对齐" Value="5" Type="RectAlignType"/>
+	<Property ID="QTEKey" Name="垂直底部对齐，水平左对齐" Value="6" Type="RectAlignType"/>
+	<Property ID="QTEKey" Name="垂直底部对齐，水平居中" Value="7" Type="RectAlignType"/>
+	<Property ID="QTEKey" Name="垂直底部对齐，水平右对齐" Value="8" Type="RectAlignType"/>
+</Object>

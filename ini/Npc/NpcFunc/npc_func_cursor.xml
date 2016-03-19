@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 顺序必须和NpcFuncDefine.h一致 -->
+<Object>
+	<Property ID="2" CursorType="Finish" Name="可提交任务"/>
+	<Property ID="3" CursorType="Wenhao" Name="任务未完成"/>
+	<Property ID="4" CursorType="Accept" Name="可接受任务"/>
+	<Property ID="5" CursorType="Talk" Name="任务可查看"/>
+	<Property ID="6" CursorType="Talk" Name="PVP护送"/>
+	<Property ID="7" CursorType="Talk" Name="触发器对话"/>
+	<Property ID="8" CursorType="Talk" Name="选项对话"/>
+	<Property ID="9" CursorType="Buy" Name="商店"/>
+	<Property ID="10" CursorType="Talk" Name="强化"/>
+	<Property ID="12" CursorType="Talk" Name="合成"/>
+	<Property ID="14" CursorType="Talk" Name="打孔"/>
+	<Property ID="17" CursorType="Buy" Name="拍卖行"/>
+	<Property ID="19" CursorType="Talk" Name="转职"/>
+	<Property ID="20" CursorType="Split" Name="仓库"/>
+	<Property ID="22" CursorType="Machine" Name="飞行点"/>
+	<Property ID="23" CursorType="Talk" Name="载具管理员"/>
+	<Property ID="24" CursorType="Talk" Name="公会"/>
+	<Property ID="27" CursorType="Talk" Name="战场"/>
+	<Property ID="29" CursorType="Talk" Name="竞技场"/>
+	<Property ID="33" CursorType="Talk" Name="Dota战场"/>
+	<Property ID="35" CursorType="Talk" Name="物品绑定"/>
+	<Property ID="100" CursorType="Talk" Name="随机对白"/>
+	<Property ID="101" CursorType="Attack" Name="可攻击"/>
+	<Property ID="102" CursorType="Pick" Name="可拾取"/>
+	<Property ID="103" CursorType="Default" Name="尸体"/>
+	<Property ID="104" CursorType="Rideup" Name="载具"/>
+</Object>

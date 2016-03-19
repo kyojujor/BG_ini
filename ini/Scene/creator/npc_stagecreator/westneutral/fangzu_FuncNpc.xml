@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes" ?>
+<!-- edited with XMLSpy v2010 (http://www.altova.com) by MESMERiZE (MiZE) -->
+<Stage>
+    <Object Guid="DEF7262427CA429EBFAB44061DA3D2AC" Desc="战场管理员巴克利" config="npc_zlm007_0028" Layer="" MaxRefreshCount="" x="2202.697998" y="29.654156" z="6536.929688" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="3.578181" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="D9E1DC26047A4CB18F26D6559C8AA9DA" Desc="公会管理员戴维斯" config="npc_zlm007_0029" Layer="" MaxRefreshCount="" x="2189.069092" y="29.654156" z="6510.246094" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="5.173182" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="8E57D9B2720243CBBEF753365E22F377" Desc="工厂管理员克拉尼察" config="npc_zlm007_0027" Layer="" MaxRefreshCount="" x="2191.821289" y="29.810156" z="6534.243652" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="0.37" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="1BFB28F27EB442F4BEF297564E1B5CB4" Desc="御风者导师特蕾西" config="npc_zlm007_0019" Layer="" MaxRefreshCount="" x="2112.371826" y="29.654156" z="6488.265137" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="1.02" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="F405730127D644B09BE85E5463328C07" Desc="大地使者导师沃尔科特" config="npc_zlm007_0020" Layer="" MaxRefreshCount="" x="2111.148926" y="29.654156" z="6499.729492" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="1.13" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="2311E733E91848AC8EEB0CE2E6BF681C" Desc="变能师导师纳尼" config="npc_zlm007_0024" Layer="" MaxRefreshCount="" x="2120.730713" y="29.654156" z="6494.104004" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="4.08318" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="8F200EC138424B968561FE299FDA19CC" Desc="医师导师纳达尔" config="npc_zlm007_0025" Layer="" MaxRefreshCount="" x="2120.563232" y="29.76713" z="6501.068848" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="4.073181" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="E43ACF2ACB2C488086FAE3280E71AC75" Desc="控火者导师佩佩" config="npc_zlm007_0018" Layer="" MaxRefreshCount="" x="2113.537354" y="29.654255" z="6474.349609" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="0.86" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="790449514FAC42B990E9E707C2585B8F" Desc="炼器师导师阿尔沙文" config="npc_zlm007_0026" Layer="" MaxRefreshCount="" x="2124.634033" y="29.654255" z="6482.240234" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="3.973184" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="CCF34FF06CFE47E0B0A6DC0C3D7977D7" Desc="惩罚者训练师萨内蒂" config="npc_zlm007_0015" Layer="" MaxRefreshCount="" x="2089.16748" y="29.654156" z="6468.798828" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="3.523184" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="54C8E2910F1F4352AC8DFA4B558430F3" Desc="执行者训练师皮尔洛" config="npc_zlm007_0016" Layer="" MaxRefreshCount="" x="2085.249756" y="29.654255" z="6475.285156" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="3.283184" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="B70736A2223A4418AA93007D58B377EB" Desc="神枪手训练师法布雷加斯" config="npc_zlm007_0017" Layer="" MaxRefreshCount="" x="2093.522705" y="29.654156" z="6461.847168" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="3.768183" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="25DE0831A6384AC8A552576C7D7F935A" Desc="器械师训练师伦农" config="npc_zlm007_0021" Layer="" MaxRefreshCount="" x="2078.703369" y="29.654156" z="6464.80957" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="0.475" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="4D20B21D713E45F68B7B29DA86751289" Desc="构造师训练师哈维" config="npc_zlm007_0022" Layer="" MaxRefreshCount="" x="2085.015137" y="29.654255" z="6454.223145" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="0.415" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="DEB8F8D9217348E3A4A4FDC7B3E2A575" Desc="异教徒训练师卡纳瓦罗" config="npc_zlm007_0023" Layer="" MaxRefreshCount="" x="2072.217529" y="29.654156" z="6475.682129" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="0" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="4A508F26DEB74F30AF0F3726AB725729" Desc="药水商人克里斯蒂_安妮" config="npc_zlm007_0002" Layer="" MaxRefreshCount="" x="2208.546875" y="35.870991" z="6385.776367" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="4.91818" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="04DDD3BAFA6649A5A33BCF1783176795" Desc="杂货商人马尔蒂尼" config="npc_zlm007_0005" Layer="" MaxRefreshCount="" x="2216.412109" y="35.770638" z="6397.996094" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="4.463182" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="2F4F77146C384A4EAD4451306903B219" Desc="仓库管理员加拉" config="npc_zlm007_0008" Layer="" MaxRefreshCount="" x="2182.941895" y="35.770638" z="6365.779297" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="0.145" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="3550347FC6514752BE1BE3B2A5019F37" Desc="装备强化导师皮萨罗" config="npc_zlm007_0009" Layer="" MaxRefreshCount="" x="2176.813721" y="35.870636" z="6405.306641" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="3.548184" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="681CFB7B578F4416A7D7DFAC70955EBB" Desc="装备合成导师维迪奇" config="npc_zlm007_0010" Layer="" MaxRefreshCount="" x="2155.396729" y="35.870991" z="6427.688477" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="0.34" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="920B115F029A4F7A89176BA1E9430443" Desc="武器商人维姬" config="npc_zlm007_0001" Layer="" MaxRefreshCount="" x="2201.871338" y="35.770638" z="6407.590332" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="0.45" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="C3164AEBFD1948F4B34255D4F87C3EE6" Desc="轻甲商人特维斯" config="npc_zlm007_0004" Layer="" MaxRefreshCount="" x="2180.358398" y="35.870991" z="6426.328613" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="5.138182" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="18EC57488A8749DE9650BBBF53CA88E2" Desc="重甲商人瓦内萨" config="npc_zlm007_0003" Layer="" MaxRefreshCount="" x="2185.063477" y="35.870712" z="6439.788086" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="2.045001" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="028AB4674C0649C7AFDF361DA4B6C088" Desc="坐骑商人西多夫" config="npc_zlm007_0006" Layer="" MaxRefreshCount="" x="2149.321045" y="35.770638" z="6387.675293" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="5.698183" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="BB19DA9F5F4E41B384FCB4AF4569CF82" Desc="黑市商人奥登" config="npc_zlm007_0030" Layer="" MaxRefreshCount="" x="2126.008301" y="35.770638" z="6388.557617" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="0.43" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="08A834A0123146D787635432731CBEDA" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="2211.56958" y="36.581001" z="6427.933594" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="3.618186" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="AA7906540D3D4574BF3372C9E14D6583" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="2209.567871" y="36.582405" z="6431.220215" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="3.498186" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="F33B15F626C54AE596DD597B2543DEBB" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="2218.848633" y="29.47308" z="6512.902832" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="5.133182" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="B8D438D26D4F4F82851A8A4B2945B6D8" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="2155.041016" y="29.654255" z="6508.054199" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="0.355" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="E4770E5D020E4C9990C19964F1912269" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="2156.814453" y="29.654255" z="6504.784668" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="0.195" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="8021A41CBAF449259295CBE7EF3CF771" Desc="荣耀卫兵队长" config="npc_zlm007_0012" Layer="" MaxRefreshCount="" x="2158.160156" y="29.654156" z="6507.700684" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="0.41" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="366B9F68967F4578846605DAD119CCB0" Desc="荣耀占卜师" config="npc_zlm007_0031" Layer="" MaxRefreshCount="" x="2155.933105" y="29.654156" z="6457.864746" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="3.568182" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="97395D4BFFFF476E99B0A878EDDE52EB" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="2099.43457" y="29.654255" z="6430.242188" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="0.245" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="D684175DD76C47378715675B99F94F5A" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="2092.983154" y="29.654156" z="6442.365723" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="0.53" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="2BF4F49B19AC493DB8A9D450A40F9C4A" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1998.685181" y="29.74297" z="6521.595215" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="3.673182" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="CCD39A146BD440D5B6DD35E0CB98F9EC" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1994.704956" y="29.742001" z="6528.774414" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="3.523178" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="63BE871BBCF14CA598E9EE81A6FEDA49" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="2008.275146" y="29.742966" z="6527.039551" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="0.395" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="91633E3C5887479F80401AE3A5A5A241" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="2004.373413" y="29.742966" z="6534.172363" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="0.47" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="EBE125F975764E68AB6B5CEF8CAFD360" Desc="荣耀骑士" config="npc_zlm007_0032" Layer="" MaxRefreshCount="" x="2177.19043" y="29.654156" z="6481.940918" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="0.9" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="5892D15065464C1089F6A76BF7BF4F8C" Desc="荣耀剑士" config="npc_zlm007_0033" Layer="" MaxRefreshCount="" x="2179.030518" y="29.654156" z="6480.478516" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="5.048179" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="EA08315E10244F5EB13A8567A961D4B0" Desc="荣耀骑士" config="npc_zlm007_0032" Layer="" MaxRefreshCount="" x="2104.923828" y="29.654156" z="6445.135254" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="5.048183" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="8D18541A979441E986B4B64C52BBB43C" Desc="荣耀剑士" config="npc_zlm007_0033" Layer="" MaxRefreshCount="" x="2108.241699" y="29.654156" z="6444.086914" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="5.033187" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="B2373FAB1EFA4FA28572A82308807BB9" Desc="荣耀神箭手" config="npc_zlm007_0034" Layer="" MaxRefreshCount="" x="2105.458984" y="29.654255" z="6441.858887" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="4.983185" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="CA84AC8E9F884C1AB91AF4562D2AF035" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="2196.98877" y="35.770638" z="6460.082031" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="3.253185" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="24AD24CE4EBD47CEB0E5EC4C2B6F65D4" Desc="荣耀占卜师" config="npc_zlm007_0031" Layer="" MaxRefreshCount="" x="2136.738525" y="35.770737" z="6384.177734" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="5.678186" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="7DE0CEE2908C4DE2BDF632BE6CD342DF" Desc="荣耀卫兵队长" config="npc_zlm007_0012" Layer="" MaxRefreshCount="" x="2138.806885" y="35.770638" z="6385.951172" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="5.713182" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="A878B9B60E374DF4BB43EFD7044CC4D2" Desc="荣耀神箭手" config="npc_zlm007_0034" Layer="" MaxRefreshCount="" x="2140.691406" y="35.770638" z="6384.564453" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="5.613181" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="795BBE41188F47A98EA13901FFEF1B65" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="2129.768799" y="35.979317" z="6397.25" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="1.98" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="8C7BBC0A7D114B7F92C671AE6A71FF31" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="2107.342285" y="35.983906" z="6396.251465" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="1.015" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="B149D252AAF64772A6038420971A8ED8" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="2108.006104" y="36.077736" z="6399.280762" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="1.62" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="D834C7C9345E463B8B01FA8062199D16" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="2169.971436" y="35.870743" z="6391.296387" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="0" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="947E481F0FB14B29A6502DD3B1970A9F" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="2200.551025" y="35.770477" z="6351.730957" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="0.08" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="22916A7890E9485B8358AEE808B0823F" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="2211.723389" y="35.77021" z="6361.071289" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="3.30318" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="6085226B2D1B4C27AD32651A2A24F9B0" Desc="飞行管理员史黛西" config="npc_zlm007_0073" Layer="" MaxRefreshCount="" x="1904.364868" y="167.957001" z="5324.505859" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="2.56" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="9C8A17E3DB664A85BEC2F07C543D9A2C" Desc="武器商人苏珊" config="npc_zlm007_0067" Layer="" MaxRefreshCount="" x="1957.799194" y="56.334003" z="5366.683105" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="3.728183" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="533023FB088C4A778A85916AD0FA47C2" Desc="药水商人斯蒂芬妮" config="npc_zlm007_0068" Layer="" MaxRefreshCount="" x="1948.199463" y="56.334003" z="5384.103516" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="3.433185" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="324C774C84234C148EC8E9434C765379" Desc="杂货商人厄齐尔" config="npc_zlm007_0071" Layer="" MaxRefreshCount="" x="1934.738403" y="56.335987" z="5395.116699" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="2.868183" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="D82327DD92F44547A60CCD83D4BE3DA3" Desc="坐骑商人海德" config="npc_zlm007_0072" Layer="" MaxRefreshCount="" x="1959.882568" y="56.335987" z="5349.398926" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="4.088181" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="4727BD756AE54E0F866A934A299B3942" Desc="重甲商人斯特拉" config="npc_zlm007_0069" Layer="" MaxRefreshCount="" x="1864.075439" y="56.335991" z="5314.723145" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="0.3" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="7846E771F4E44ECDA4285BA0F23E0E88" Desc="轻甲商人穆勒" config="npc_zlm007_0070" Layer="" MaxRefreshCount="" x="1854.019897" y="56.335991" z="5330.900879" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="0.665" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="36E5E571BF014662A86E124602F8FEA5" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1878.299438" y="56.335991" z="5301.558594" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="0" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="7BDE03D8B2F04266A7255E405914F882" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1851.550415" y="56.335991" z="5349.372559" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="1.29" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="641509E0DBE74568B80B6D603E3BD3CB" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1884.76416" y="56.335991" z="5293.68457" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="1.16" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="86F9941C8B5340B7A29B860C74F7E012" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1895.500488" y="56.335991" z="5291.035645" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="4.368182" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="994C760D4B974290AE0351B12ED99020" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1870.682617" y="56.335987" z="5391.068359" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="1.725" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="F63FE8A5CB2345869100ACD48BF35520" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1887.333984" y="56.335987" z="5400.618164" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="1.975" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="7E2831F17653450EB74928B1C9D03A17" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1850.360229" y="56.335987" z="5369.716797" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="2.61" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="35A6EAE8A83142DD85DAC25B030DCD22" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1847.70752" y="56.335991" z="5359.42041" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="0" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="16E988DFEA854537959ACE59B68B82BC" Desc="荣耀占卜师" config="npc_zlm007_0031" Layer="" MaxRefreshCount="" x="1923.641846" y="56.334003" z="5297.404785" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="5.163183" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="BB79E4450B9C453BA0AFFE24B7565AC5" Desc="荣耀剑士" config="npc_zlm007_0033" Layer="" MaxRefreshCount="" x="1940.72998" y="56.335991" z="5306.691406" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="4.978182" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="164621D7512E4FB2B3CB495E10F9B56A" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1920.787109" y="56.334003" z="5329.189941" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="4.78318" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="5DD54AEB0C66484595D1D929AB322F0B" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1915.317505" y="56.335003" z="5325.681152" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="5.318183" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="3B7223BD6A2941F781C1CF1F7857B6DE" Desc="荣耀神箭手" config="npc_zlm007_0034" Layer="" MaxRefreshCount="" x="1929.105347" y="56.335991" z="5358.172363" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="3.878184" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="30CC6251F04F40B18F91C26843F326DF" Desc="荣耀剑士" config="npc_zlm007_0033" Layer="" MaxRefreshCount="" x="1925.888672" y="56.335991" z="5364.118164" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="2.968186" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="6CF8E36644EB4A5C999C1DC566943C2C" Desc="荣耀占卜师" config="npc_zlm007_0031" Layer="" MaxRefreshCount="" x="1889.692383" y="56.335003" z="5370.984375" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="1.159999" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="BF6192E3A68140988A74B46DFACB2DFE" Desc="荣耀神箭手" config="npc_zlm007_0034" Layer="" MaxRefreshCount="" x="1896.499512" y="56.335003" z="5374.84375" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="2.574998" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="28E2B77E738D44FCB069B78A14A18B45" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1883.026855" y="56.335991" z="5332.099609" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="5.898184" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="1BF7E8C0784941FFBF0E439626CB4E4F" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1879.519531" y="56.335991" z="5337.704102" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="1" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="2888F9856CE344EEBE3C026A130CFBB2" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1893.950317" y="56.335991" z="5319.23291" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="0.545" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="3BDBABF4AF174AA7B9FE012EC95F36FA" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1900.737305" y="56.335991" z="5317.30957" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="5.403185" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="108764DDC399407E94D8F6EF77014D18" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1910.651367" y="56.335987" z="5382.875977" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="0.975" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="1B74EB702E8646B0A3A7B4699BCF5482" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1918.602539" y="56.335987" z="5380.932617" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="4.258183" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="7AD854AF2192481DA75A5602BE1E1039" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1871.239014" y="56.335991" z="5353.976074" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="5.813184" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="EF6EA41378B643C381E06C966B7979D7" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1873.385986" y="56.335991" z="5361.984863" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="2.595001" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="6943AA7FC76945A49D92D8FA372F554F" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1937.158936" y="56.334003" z="5336.21875" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="5.998182" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="C02C4C0B8B33458CA2861923DC0CF956" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1939.282471" y="56.334003" z="5343.702637" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="2.958184" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="004244993A5243D9A66E8256A87A87C6" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1965.227783" y="56.335987" z="5338.42627" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="2.743183" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="25E5FA30BAE849D9A06DB7E63A42E625" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1962.11438" y="56.334003" z="5327.753906" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="0" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="8D9CD5EE28DD4F8089968E06132B2BB8" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1927.142334" y="56.335987" z="5405.428223" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="4.133181" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="FF7F8290C8E541128364619B40E9D513" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1916.315308" y="56.335987" z="5408.699219" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="1.17" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="248447D996894BFC9DBEAB36E024AA2F" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1848.220581" y="92.943001" z="5359.225098" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="5.813183" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="914D18E28C6C4D89B56E902B83D0DDE2" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1850.851807" y="92.943001" z="5369.775879" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="2.644999" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="A1ACB77C3D44435E9DFAC1F075ADF676" Desc="荣耀卫兵队长" config="npc_zlm007_0012" Layer="" MaxRefreshCount="" x="1853.336548" y="92.943962" z="5363.088379" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="1.145" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="E44DCDADE86340DF91A769DC7E093A1D" Desc="荣耀卫兵队长" config="npc_zlm007_0012" Layer="" MaxRefreshCount="" x="1955.422485" y="92.943962" z="5335.108887" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="4.368186" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="E0D17C587A41458E9F0B092CF2B59BDF" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1961.460571" y="92.943962" z="5338.931152" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="2.733182" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="9CD898A877444CF9AB76F51C03DD7483" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1958.880127" y="92.943962" z="5328.727051" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="5.683182" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="CF77B826D67D4626ACF445E2F3913B45" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1927.486084" y="92.942001" z="5354.099121" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="3.840003" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="C8B02B103C834C65A1D9587CD31850BB" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1919.462158" y="92.943001" z="5365.28418" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="2.724999" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="8407731524B444428EFE378FCCAE60F3" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1905.491943" y="92.943001" z="5369.145508" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="2.045" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="992B115B32B04A199C34BA03301A0904" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1891.364258" y="92.943001" z="5362.638184" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="1.804999" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="8D60114EFB3741C09B735F28764C3B01" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1886.790405" y="92.943962" z="5344.578613" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="0.945" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="33292E35DFA547638D097863BDAF4143" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1894.933716" y="92.943962" z="5331.364746" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="0.205" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="AC58CF8EEA03489CA30571D75AD99B8E" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1908.944336" y="92.943962" z="5327.099121" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="5.643186" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="3755E21FE9D54D3E8AC04FE6A48F1664" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1921.783325" y="92.943962" z="5333.065918" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="4.918184" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="B1C4814F25CF49C6A9B8ACAC5862DA20" Desc="控火者导师多亚尼" config="npc_zlm007_0079" Layer="" MaxRefreshCount="" x="1893.68457" y="92.943962" z="5304.460449" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="2.795" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="2F8FBF2C744D49308105F9077638B68D" Desc="御风者导师雪莉" config="npc_zlm007_0080" Layer="" MaxRefreshCount="" x="1866.400391" y="92.943962" z="5325.700195" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="3.718183" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="919CA2B502424A95B31B628616F5CF91" Desc="大地使者导师布莱恩特" config="npc_zlm007_0081" Layer="" MaxRefreshCount="" x="1928.222046" y="92.943954" z="5305.881348" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="2.085" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="3DCA96FB05AA4A3DB41DDEDB6B76142D" Desc="器械师训练师本特纳" config="npc_zlm007_0082" Layer="" MaxRefreshCount="" x="1947.000244" y="92.943962" z="5374.120605" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="0.445" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="7F5E7312068240C790351826E7386451" Desc="构造师训练师马克莱莱" config="npc_zlm007_0083" Layer="" MaxRefreshCount="" x="1918.45105" y="92.943962" z="5394.133301" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="5.948185" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="EFA7ADD673D2446BA86A57E0EE4A8862" Desc="异教徒训练师纳斯里" config="npc_zlm007_0084" Layer="" MaxRefreshCount="" x="1883.923828" y="92.943962" z="5388.794922" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="5.133183" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="6CBFAC9FA3BC471994CD51437B81ABA9" Desc="装备强化导师霍华德" config="npc_zlm007_0075" Layer="" MaxRefreshCount="" x="1897.170654" y="131.935989" z="5317.350098" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="5.858184" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="2153825B0AF543CBAE74960179245A53" Desc="装备合成导师阿尔特塔" config="npc_zlm007_0076" Layer="" MaxRefreshCount="" x="1937.474609" y="131.935989" z="5340.057617" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="4.263185" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="941AFFAA352249E9BDE93D2458D30029" Desc="拍卖行管理员（蒸汽）德怀特" config="npc_zlm007_0077" Layer="" MaxRefreshCount="" x="1914.4729" y="131.932999" z="5380.259277" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="2.624999" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="DE46292850594ED585658CD755A3ECAE" Desc="拍卖行管理员（奇幻）西尔维亚" config="npc_zlm007_0078" Layer="" MaxRefreshCount="" x="1874.407593" y="131.935989" z="5357.576172" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="1.25" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="F894217213324891A2C6614EEA415BC6" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1894.01001" y="131.935989" z="5370.589355" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="2.044999" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="DC7AB1FBFC0B4CED8DCD4B56D72F1021" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1926.816528" y="131.935989" z="5360.506836" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="3.315" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="730821C5D7034B79B49DD767105436B1" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1917.182251" y="131.935989" z="5327.633789" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="5.108185" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="58BA17CB540240FAACEE217B48399B30" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1884.854492" y="131.935989" z="5337.616699" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="0.37" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="1548AA2694264E59B3BB7C2F7F6F84E9" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1882.962158" y="167.9599" z="5359.860352" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="4.543182" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="E9A814B773DC4577A330AA0E1A8ED6D9" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1870.068115" y="167.9599" z="5359.032227" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="1.1" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="CABDC0E1DAF3458A9DD6640DBF024BAD" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1885.160278" y="167.9599" z="5336.164551" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="3.663182" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="F5FDCBE3D30B4F9481E9681D25E6F5C0" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1873.558716" y="167.9599" z="5330.5" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="0.355" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="2AB8604AB21F4735920BDD111B2A8A8A" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1895.97229" y="167.9599" z="5313.784668" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="0" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="E3B547E455FF4F7CA7F0482690FA1182" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1923.661987" y="167.9599" z="5316.92041" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="5.438181" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="16AAAAABB70C43DA8E558901CD46D26A" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1922.5271" y="167.9599" z="5330.233398" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="1.64" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="51BE5C6854894C588BFA25261B8F1F5A" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1941.250977" y="167.9599" z="5339.27002" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="4.413182" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="78481949EF7E4331895F439F23189599" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1937.461548" y="167.9599" z="5366.814453" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="3.450001" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="68A29FE9627E4AA2845F9E838C06643E" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1929.128906" y="167.9599" z="5357.502441" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="0" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="E5DED0C6B87549D1B523D317BC086F44" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1915.88208" y="167.952957" z="5384.248047" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="2.7" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="F514165471234B1AA0C418F1B9D4F9FE" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1888.150269" y="167.9599" z="5380.574707" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="1.954999" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="50D14DA009564959B7984E2F226C2C3F" Desc="荣耀卫兵队长" config="npc_zlm007_0012" Layer="" MaxRefreshCount="" x="1901.23999" y="167.9599" z="5384.025879" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="2.18" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="F30D335D30B54D75950F95B45AB27339" Desc="仓库管理员约瑟" config="npc_zlm007_0074" Layer="" MaxRefreshCount="" x="1879.193604" y="56.335987" z="5396.138184" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="1.989999" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="838DF965E4E44C3DBE10CF46B4BAC4D1" Desc="飞行管理员特蕾西" config="npc_zlm007_0007" Layer="" MaxRefreshCount="" x="2197.296631" y="76.101341" z="5660.476563" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="5.983181" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="249FE5506E354C93B4E71292D4C9BE28" Desc="飞行管理员佩贾" config="npc_zlm007_0044" Layer="" MaxRefreshCount="" x="2144.908447" y="93.250427" z="5282.369629" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="0.32" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="6A903AFFAAE44864AEA38F9B8BA1DFFE" Desc="（城外）荣耀卫兵" config="npc_zlm007_0013" Layer="" MaxRefreshCount="" x="1886.543091" y="55.292156" z="5277.345703" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="fangzhu002" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="3.553184" PatrolMode="1" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="C1CFDEF183C641AB86F563399A353AF1" Desc="（城外）荣耀卫兵" config="npc_zlm007_0013" Layer="" MaxRefreshCount="" x="1925.991455" y="55.422241" z="5418.857422" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="fangzhu003" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="0.215" PatrolMode="1" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="A790779AB5F44D01A4BAE30C1CAC245A" Desc="（城外）荣耀卫兵" config="npc_zlm007_0013" Layer="" MaxRefreshCount="" x="2213.812988" y="33.218071" z="6347.899902" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="fangzhu004" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="2.295002" PatrolMode="1" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="346F7CDE2F8C4AB3B6FA75CD9C6FC1C3" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="2204.742676" y="29.767969" z="6566.296875" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="fangzhu005" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="5.773183" PatrolMode="1" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="D2A389A876224309874F46A427FFF74F" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="2166.340332" y="23.626001" z="6544.852539" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="fangzhu006" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="5.708179" PatrolMode="1" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="F287B83B452A437F8986149BAB953F13" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="2138.368652" y="23.626001" z="6530.665527" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="fangzhu007" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="5.798183" PatrolMode="1" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="090EC5AE9A584EBBBFA81D957A43B402" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="2034.235352" y="29.762001" z="6478.327148" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="fangzhu009" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="5.803181" PatrolMode="1" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="FB16640FEFF04249BC8617F5FA9294BE" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="2068.873535" y="23.596001" z="6509.032715" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="fangzhu008" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="5.808178" PatrolMode="1" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="577550A9D65E4A3FB86093C3BBBC6872" Desc="路牌" config="RoadSign_zlm007_001" Layer="" MaxRefreshCount="" x="2264.098633" y="35.344753" z="6229.712891" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="2.820002" PatrolMode="" RoadSignID="260">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="96451A34A4F244B3BD3D0D3B1B41286D" Desc="路牌" config="RoadSign_zlm007_002" Layer="" MaxRefreshCount="" x="1476.442139" y="91.552933" z="4984.916016" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="0.728183" PatrolMode="" RoadSignID="261">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="84EAF4DB55A44F5D8A294EED2F27F5A0" Desc="路牌" config="RoadSign_zlm007_003" Layer="" MaxRefreshCount="" x="2053.90625" y="48.06736" z="5505.759277" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="4.528192" PatrolMode="" RoadSignID="262">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="DFFDD306F9CC4CEFBCCB612D7709035F" Desc="" config="npc_zlm007_0033" Layer="" MaxRefreshCount="" x="1891.590454" y="56.335003" z="5348.264648" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="2.209999" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="9EC58F641A204664973FFE80D1250C94" Desc="" config="npc_zlm007_0031" Layer="" MaxRefreshCount="" x="1891.557617" y="56.335003" z="5346.056152" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="0" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="E0645E9B6C92409FA7D9C31E723252A2" Desc="进迷乱山洞" config="CloneDoor_0019" Layer="" MaxRefreshCount="" x="1459.310669" y="84.001259" z="5050.578125" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="0.885" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="12508A1B86B546759CB8EB18F97AB973" Desc="邮箱" config="ZL_Mail_01_001" Layer="" MaxRefreshCount="" x="2184.365967" y="35.770638" z="6364.000488" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="5.563181" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="9FB2E96914404593AC8FAD3FC34105C5" Desc="邮箱" config="ZL_Mail_01_001" Layer="" MaxRefreshCount="" x="1876.668579" y="56.335003" z="5394.609375" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="1.05" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="B6F4627ADBC44982BD3CF94548286369" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1691.034424" y="100.358162" z="4852.907227" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="0.659999" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="F7B0DBCE29774B5FACF5CBC79949AC3F" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1704.153687" y="100.359016" z="4847.880859" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="5.523185" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="F1CEF8330E144C3185727834A3E8CFCE" Desc="蛮牛人导师齐达内" config="npc_zlm007_0059" Layer="" MaxRefreshCount="" x="1680.857056" y="94.987267" z="4859.838379" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="0.290007" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="2CF5768578CB466EBCD5957BA0969670" Desc="熊人导师德罗巴" config="npc_zlm007_0058" Layer="" MaxRefreshCount="" x="1675.62439" y="94.987267" z="4861.708984" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="0.195006" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="A4728E8937884D02B101E6EE127F91F6" Desc="狼人导师韦弗" config="npc_zlm007_0060" Layer="" MaxRefreshCount="" x="1671.156982" y="94.987267" z="4863.356934" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="0.280001" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="FD6CDDF6C3F045D6BD34F2771D95335F" Desc="刀锋战士导师拉莫斯" config="npc_zlm007_0064" Layer="" MaxRefreshCount="" x="1659.885498" y="94.987267" z="4866.457031" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="0.21682" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="4B44613B74D94FECA582CF4A9984328A" Desc="狩猎者导师埃弗拉" config="npc_zlm007_0065" Layer="" MaxRefreshCount="" x="1655.939819" y="94.987267" z="4867.033203" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="0.220002" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="02E67A52685E49A8ACBE2C1CC06927AC" Desc="魔剑士导师伊涅斯塔" config="npc_zlm007_0066" Layer="" MaxRefreshCount="" x="1651.229492" y="94.987267" z="4867.775879" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="0.203181" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="E42D5D3C78654802A7CBB4035964A9FF" Desc="女巫训练师莎妮" config="npc_zlm007_0063" Layer="" MaxRefreshCount="" x="1613.134521" y="98.41909" z="4911.901855" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="3.763186" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="719D1881648B49FDB2F5900000849A20" Desc="黑暗祭祀训练师塔玛拉" config="npc_zlm007_0062" Layer="" MaxRefreshCount="" x="1609.062622" y="98.41909" z="4915.996094" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="3.695" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="89F548D35DE74017956B08C83593DE86" Desc="咒术师训练师泰丝" config="npc_zlm007_0061" Layer="" MaxRefreshCount="" x="1605.27771" y="98.41909" z="4918.547852" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="3.650002" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="B1AE1469E17C4423881C7B18EDEE3E7C" Desc="风暴骑士训练师伊瓜因" config="npc_zlm007_0056" Layer="" MaxRefreshCount="" x="1617.817383" y="98.41909" z="4908.848145" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="3.820002" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="A6EE6A145912460EB02ADF60E082D185" Desc="破碎骑士训练师帕托" config="npc_zlm007_0057" Layer="" MaxRefreshCount="" x="1621.080444" y="98.41909" z="4906.102539" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="3.890005" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="87F6E9111C284781B121EB87DA6ED7D2" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1628.116211" y="94.987267" z="4885.498047" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="1.575" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="B78040EBE74B42D7B64B0CDA0552CBF4" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1628.761719" y="94.987503" z="4897.481445" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="1.578184" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="EFDF4D89B0BD4F9BB9C887D68F3D312B" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1700.837158" y="100.342789" z="4861.555664" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="3.775004" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="735B164E6D5B4B2AA19CC6D3C5F22A24" Desc="装备强化导师贾巴尔" config="npc_zlm007_0046" Layer="" MaxRefreshCount="" x="1661.244385" y="94.987267" z="4890.417969" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="3.758178" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="D1CE64FC87A54E37A70217D2FCEF5E50" Desc="杂货商人帕克" config="npc_zlm007_0043" Layer="" MaxRefreshCount="" x="1654.776001" y="94.987267" z="4894.081055" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="3.778185" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="46C91A02C12A4D7F8264648BDDD8A008" Desc="药水商人蒂法尼" config="npc_zlm007_0040" Layer="" MaxRefreshCount="" x="1649.205078" y="94.987267" z="4897.290039" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="3.778183" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="2ECC73BCB19E4B1AA636D1BB07F7DC63" Desc="重甲商人特里莎" config="npc_zlm007_0041" Layer="" MaxRefreshCount="" x="1644.101196" y="94.987267" z="4901.427734" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="3.853184" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="B4F5EC64A91A410B9EB3527B16C0E7F0" Desc="轻甲商人武齐尼奇" config="npc_zlm007_0042" Layer="" MaxRefreshCount="" x="1639.015259" y="94.987267" z="4905.008789" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="3.618182" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="06932722740F42B5BB19F1194F33DF97" Desc="装备合成导师穆托姆博" config="npc_zlm007_0047" Layer="" MaxRefreshCount="" x="1669.80249" y="94.987267" z="4891.775879" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="3.253183" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="602B7C308A344DB9ABA6B76A2F9B41AD" Desc="武器商人蒂娜" config="npc_zlm007_0039" Layer="" MaxRefreshCount="" x="1633.44397" y="94.987267" z="4902.51416" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="2.228185" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="2DA24053042D4A17B2BE514C60BC3415" Desc="泰坦骑士训练师本泽马" config="npc_zlm007_0055" Layer="" MaxRefreshCount="" x="1596.057129" y="98.41909" z="4923.09082" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="3.365005" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="426B05A955984EB7A7C1271FC4DD5E99" Desc="（城外）荣耀卫兵" config="npc_zlm007_0013" Layer="" MaxRefreshCount="" x="1541.631592" y="98.41909" z="4883.145996" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="fangzhu001" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="0.104999" PatrolMode="1" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="7FEAE00737BA448FB41DABC7215F157F" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1546.678223" y="98.41909" z="4905.581543" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="3.363183" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="42D909D6E8474C45B7CDF342414D0287" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1553.884521" y="98.41909" z="4847.357422" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="6.283184" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="87DEF31EB35948979D38372EEC1D9AC7" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1561.932861" y="98.41909" z="4847.320313" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="0.065003" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="D71F6DBAF7504FD1B525365DBBA20B22" Desc="荣耀卫兵队长" config="npc_zlm007_0012" Layer="" MaxRefreshCount="" x="1565.949219" y="98.41909" z="4852.033691" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="3.18819" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="34735324318346929006B77CEDA9E7A3" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1569.859985" y="98.41909" z="4846.82373" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="6.263187" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="1164E8635DA3437492B892B5B8624736" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1576.737915" y="98.41909" z="4846.684082" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="6.263186" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="67D0E0B8E332427EB409A61B43839771" Desc="荣耀剑士" config="npc_zlm007_0033" Layer="" MaxRefreshCount="" x="1572.229004" y="98.41909" z="4894.057129" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="3.338182" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="37B5B4DD1D8C4AEEA8FC9DA7ADB2DC53" Desc="荣耀神箭手" config="npc_zlm007_0034" Layer="" MaxRefreshCount="" x="1570.794067" y="98.41909" z="4886.359375" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="0.205003" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="EA83EE76B6CE463BBC1C33DE163DA1BE" Desc="工厂管理员诺瓦克" config="npc_zlm007_0048" Layer="" MaxRefreshCount="" x="1685.479614" y="94.987267" z="4880.983398" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="3.550002" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="57042ABE8F8A459396BF705887214D55" Desc="仓库管理员诺西奥尼" config="npc_zlm007_0045" Layer="" MaxRefreshCount="" x="1677.02417" y="94.987267" z="4887.968262" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="3.653177" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="3E431DA207234F54A2A99C62DCED3ABE" Desc="荣耀骑士" config="npc_zlm007_0032" Layer="" MaxRefreshCount="" x="1574.472656" y="98.624008" z="4930.963867" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="3.255002" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="8B4966AE8CA4461EB175A301ED6CA7B8" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1571.324707" y="98.41909" z="4928.506836" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="1.709999" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="4AE9E24B3CAA42CEB0F376E1B2086BD9" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1576.786011" y="98.41909" z="4927.671387" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="4.853178" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="8262C4E543F2441B91DF7ACB8C6B0609" Desc="荣耀占卜师" config="npc_zlm007_0031" Layer="" MaxRefreshCount="" x="1598.100098" y="98.41909" z="4850.909668" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="0.119998" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="AAA4EB431DE14306B95AA66516BEE7E6" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1600.763062" y="98.41909" z="4851.875977" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="4.75318" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+    <Object Guid="94E6FE7CAAAD4643A7DB3FA758C8C04E" Desc="荣耀卫兵" config="npc_zlm007_0011" Layer="" MaxRefreshCount="" x="1595.44458" y="98.41909" z="4852.574707" IsY="0" Radius="0.1" UseSuicideTime="" PeaceAction="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="1" sx="" sy="" sz="" fOrg="1.659999" PatrolMode="" RoadSignID="">
+        <Task Issue="" Refer="" />
+        <OrganData IsOrgan="" Controllers="" IniState="" AutoResume="" ResumeState="" ResumeInterval="" SpringMode="" ResponseMode="" />
+    </Object>
+</Stage>

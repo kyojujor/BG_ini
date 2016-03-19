@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Stage>
+	<Scene SceneId="" Param="">
+		<Object AreaId="010401000">
+			<TriggerEvent EventId="304" Processor="kewei_shijian_qushu3"/>
+		</Object>
+		<Object AreaId="010900000">
+			<TriggerEvent EventId="301" Processor="kewei_task4012"/>
+		</Object>
+		<Object AreaId="013700000">
+			<TriggerEvent EventId="302" Processor="kewei_likaibuff"/>
+			<TriggerEvent EventId="301" Processor="kewei_xinshoufbbuff"/>
+		</Object>
+		<Object AreaId="042200000">
+			<TriggerEvent EventId="301" Processor="ytl_task_weiji"/>
+		</Object>
+		<Object AreaId="141001000">
+			<TriggerEvent EventId="304" Processor="zhaori_shijian_qushe3"/>
+		</Object>
+		<Object AreaId="402010000">
+			<TriggerEvent EventId="301" Processor="dota_area_playerenter"/>
+			<TriggerEvent EventId="302" Processor="dota_area_playerleave"/>
+			<TriggerEvent EventId="303" Processor="dota_area_npcenter"/>
+			<TriggerEvent EventId="304" Processor="dota_area_npcleave"/>
+		</Object>
+	</Scene>
+</Stage>

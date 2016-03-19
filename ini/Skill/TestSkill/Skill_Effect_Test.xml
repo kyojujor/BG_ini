@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+	<Property ID="1" Name="a" EventType="13" TargetType="0" FuncNo="853" NPCTargetPosType="2" NPCCreatePosType="0"/>
+	<Property ID="822" Name="割裂攻击" EventType="10" TargetType="2" FuncNo="504" FujModifyValue="2" FujModifyType="1" FujTargetType="0" FujIsFormula="0" FujIsAll="1"/>
+	<Property ID="10005" Name="召唤载具" EventType="6" TargetType="2" FuncNo="4" MoveTargetPosType="0" MoveCreatePosType="0" MoveType="1" MoveSpeed="15"/>
+	<Property ID="10006" Name="召唤载具" EventType="6" TargetType="2" FuncNo="24" BC_ID="drty_01"/>
+	<Property ID="10009" Name="持续加血" EventType="5" TargetType="0" FuncNo="55"/>
+	<Property ID="10010" Name="瞬间加血" EventType="6" TargetType="2" FuncNo="506"/>
+	<Property ID="10035" Name="加速" EventType="5" TargetType="0" FuncNo="1" BuffID="buf_riding_002001"/>
+	<Property ID="10012" Name="召唤NPC" EventType="6" TargetType="0" FuncNo="2" NPCConfigID="monster_qhm002_0023" NPCCreateCount="1" NPCLifeTime="50000" NPCTargetPosType="1" NPCCreatePosType="1" NPCRandomRadius="10" NPCCreatePosX="2308" NPCCreatePosZ="-299"/>
+	<Property ID="10030" Name="击退" EventType="5" TargetType="0" FuncNo="13" FendLockTime="1000" FendDistance="15" FendAction="combat" DefaultFendAction="combat" FendIsCanMove="0"/>
+	<Property ID="10031" Name="击倒" EventType="5" TargetType="0" FuncNo="14" KnockDownLockTime="5000" KnockDownAction="down" GetUpAction="downup" DownLoopAction="downloop"/>
+	<Property ID="10032" Name="击飞" EventType="5" TargetType="0" FuncNo="14" KnockDownLockTime="1000" DownLoopAction="downloop" KnockDownAction="down" GetUpAction="downup"/>
+	<Property ID="10033" Name="冲刺" EventType="4" TargetType="2" FuncNo="531" NTChargeType="0" NTStopType="0" NTIsCarry="1" NTChargeSpeed="12" NTChargeDist="10" NTAngle="0"/>
+	<Property ID="10034" Name="瞬移" EventType="5" TargetType="0" FuncNo="12"/>
+	<Property ID="10040" Name="采集技能" EventType="6" TargetType="2" FuncNo="22"/>
+	<Property ID="20107" Name="测试采集技能" EventType="6" TargetType="2" FuncNo="22"/>
+	<Property ID="241" EventType="5" TargetType="0" FuncNo="1" BuffID="test241_Buff01_01"/>
+	<Property ID="242" EventType="5" TargetType="0" FuncNo="1" BuffID="test242_Buff01_01"/>
+	<Property ID="243" EventType="5" TargetType="0" FuncNo="1" BuffID="test243_Buff01_01"/>
+	<Property ID="244" EventType="5" TargetType="0" FuncNo="1" BuffID="test244_Buff01_01"/>
+	<Property ID="245" EventType="5" TargetType="0" FuncNo="1" BuffID="test245_Buff01_01"/>
+	<Property ID="246" EventType="5" TargetType="0" FuncNo="16" KnockFlyLockTime="2000" KnockFlyDistance="15" KnockFlySpeed="7" GravityParam="-5" KnockFlyIsCanMove="0"/>
+	<Property ID="20999" EventType="6" TargetType="2" FuncNo="22"/>
+	<Property ID="20211" Name="风雨交加" EventType="5" TargetType="3" FuncNo="1" BuffID="Fight_Wm0015_Buff01_01"/>
+	<Property ID="20325" Name="BUFF测试技能" EventType="27" TargetType="2" FuncNo="1" BuffID="test260_Buff01_01"/>
+	<Property ID="20330" Name="测试小精灵" EventType="5" TargetType="0" FuncNo="1" BuffID="test261_Buff01_01"/>
+	<Property ID="20331" EventType="5" TargetType="0" FuncNo="9" ActionType="0" ActionName="combat_bang" AfferentFormulaID="10*10"/>
+	<Property ID="20439" Name="测试客户端播放特效" EventType="6" TargetType="0" FuncNo="7" EffectName="func_raid_482"/>
+	<Property ID="1999" EventType="5" TargetType="0" FuncNo="12" CoolOperateType="0" CoolSkillID="test263" CoolClearType="0"/>
+	<Property ID="10036" Name="变羊测试" EventType="6" TargetType="1" FuncNo="7"/>
+	<Property ID="10062" Name="测试Buff_Effect" EventType="6" TargetType="0" FuncNo="1" BuffID="test265_Buff01_01"/>
+	<Property ID="10063" Name="测试Effect" EventType="2" TargetType="2" FuncNo="2" NPCConfigID="monster_qhm002_0023" NPCCreateCount="1" NPCLifeTime="5000" NPCTargetPosType="0" NPCCreatePosType="1" NPCRandomRadius="5"/>
+	<Property ID="10064" Name="测试Effect" EventType="3" TargetType="2" FuncNo="2" NPCConfigID="monster_qhm002_0023" NPCCreateCount="1" NPCLifeTime="5000" NPCTargetPosType="0" NPCCreatePosType="1" NPCRandomRadius="5"/>
+	<Property ID="10065" Name="测试Effect" EventType="4" TargetType="2" FuncNo="2" NPCConfigID="monster_qhm002_0023" NPCCreateCount="1" NPCLifeTime="5000" NPCTargetPosType="0" NPCCreatePosType="1" NPCRandomRadius="5"/>
+	<Property ID="10066" Name="测试Effect" EventType="5" TargetType="2" FuncNo="6" NPCConfigID="monster_qhm002_0023" NPCCreateCount="1" NPCLifeTime="5000" NPCTargetPosType="0" NPCCreatePosType="1" NPCRandomRadius="5" IsFormula="0" Attribute="HP" Formula="10" AllowNegative="0"/>
+	<Property ID="10067" Name="测试Effect" EventType="5" TargetType="2" FuncNo="1" BuffID="test269_Buff01_01"/>
+	<Property ID="10068" Name="测试Effect" EventType="5" TargetType="2" FuncNo="18" ChargeSpeed="15"/>
+	<Property ID="10069" Name="测试Effect" EventType="5" TargetType="0" FuncNo="6"/>
+	<Property ID="20647" Name="测试多人技能" EventType="6" TargetType="0" FuncNo="23" NPCConfigID="Watch_0_00004"/>
+	<Property ID="20664" Name="测试摄像机震动" EventType="6" TargetType="2" FuncNo="50" VibrateType="test1"/>
+	<Property ID="20665" Name="测试摄像机震动2" EventType="6" TargetType="2" FuncNo="50" VibrateType="test2"/>
+	<Property ID="20666" Name="测试摄像机震动3" EventType="6" TargetType="2" FuncNo="50" VibrateType="test3"/>
+	<Property ID="20667" Name="测试被动技能" EventType="23" TargetType="2" FuncNo="1" BuffID="test_beidong_Buff01_2"/>
+	<Property ID="20668" Name="测试被动技能" EventType="24" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="test_beidong_Buff01_2"/>
+	<Property ID="20669" Name="测试清除BUFF" EventType="6" TargetType="2" FuncNo="1" BuffID="test_beidong_Buff01_2"/>
+	<Property ID="20670" Name="测试清除BUFF" EventType="6" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="test_buff_0001" BufferClearOLCount="5" StrClear="0"/>
+	<Property ID="20671" Name="测试减少消耗" EventType="6" TargetType="2" FuncNo="1" BuffID="test_buff003_Buff01_01"/>
+	<Property ID="20672" Name="打断技能" EventType="5" TargetType="0" FuncNo="31"/>
+	<Property ID="20673" Name="攻击附加吸收" EventType="12" TargetType="0" FuncNo="32" AbsorbDamageRatio="100" AbsorbType="0" IsTargetDeduction="0"/>
+	<Property ID="20674" Name="攻击附加伤害" EventType="6" TargetType="2" FuncNo="3" IsDamageFormula="0" DamageFormula="123" DamageCategory="1" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="20675" Name="攻击附加伤害" EventType="6" TargetType="2" FuncNo="1" BuffID="test_buff806_01"/>
+	<Property ID="20676" Name="攻击附加伤害" EventType="6" TargetType="2" FuncNo="1" BuffID="test_buff807_01"/>
+	<Property ID="20677" Name="攻击附加伤害" EventType="6" TargetType="2" FuncNo="1" BuffID="test_buff808_01"/>
+	<Property ID="20678" Name="攻击附加伤害" EventType="6" TargetType="2" FuncNo="1" BuffID="test_buff809_01"/>
+	<Property ID="20679" Name="攻击附加伤害" EventType="6" TargetType="2" FuncNo="1" BuffID="test_buff812_01"/>
+	<Property ID="20680" Name="伤害限制" EventType="6" TargetType="2" FuncNo="1" BuffID="test_buff813_01"/>
+	<Property ID="20681" Name="受击转换" EventType="6" TargetType="2" FuncNo="1" BuffID="test_buff815_01"/>
+	<Property ID="20682" Name="缴械功能" EventType="6" TargetType="0" FuncNo="1" BuffID="test_buff816_01"/>
+	<Property ID="20683" Name="假死" EventType="2" TargetType="2" FuncNo="1" BuffID="test_buff104_01"/>
+	<Property ID="20684" Name="拖拽" EventType="4" TargetType="0" FuncNo="508" DragSpeed="20" DragAction="down"/>
+	<Property ID="20685" Name="消耗转换成伤害" EventType="6" TargetType="1" FuncNo="509" ConsumeType="AV" Consume="5" Damage="20" DamageType="1"/>
+	<Property ID="20687" EventType="4" TargetType="0" FuncNo="531" NTChargeType="0" NTChargeSpeed="20" NTChargeDist="10" NTAngle="0"/>
+	<Property ID="20694" Name="测试强迫攻击" EventType="5" TargetType="0" FuncNo="1" BuffID="test_skill510_01"/>
+	<Property ID="20695" Name="测试强迫攻击" EventType="5" TargetType="0" FuncNo="510"/>
+	<Property ID="20696" Name="测试光环" EventType="6" TargetType="2" FuncNo="1" BuffID="test_guanghuan5_Buff01_01"/>
+	<Property ID="20697" Name="重置CD" EventType="5" TargetType="2" FuncNo="12" CoolClearType="1" CoolSkillID="Skill_Gl1240_01_1" CoolOperateType="1"/>
+	<Property ID="20698" Name="随机清除BUFF" EventType="5" TargetType="2" FuncNo="51" ClearType="2" Amount="10"/>
+	<Property ID="20699" Name="偷取HP" EventType="5" TargetType="0" FuncNo="37" StealHP="100" ResumeHP="100"/>
+	<Property ID="20700" Name="伤害转移" EventType="6" TargetType="0" FuncNo="1" BuffID="test_buff817_Buff01_01"/>
+	<Property ID="20701" Name="击杀计数" EventType="6" TargetType="2" FuncNo="1" BuffID="test_buff821_Buff01_01"/>
+	<Property ID="20702" Name="测试吸收伤害" EventType="6" TargetType="2" FuncNo="1" BuffID="test_buff819_Buff01_01"/>
+	<Property ID="20703" Name="测试增加消耗" EventType="6" TargetType="2" FuncNo="1" BuffID="test_buffxiaohao_Buff01_01"/>
+	<Property ID="20704" Name="连锁伤害" EventType="5" TargetType="0" FuncNo="507" EffectID="func_raid_28" ChainCount="5" MaxNodeDist="20" MaxSenderDist="20" EffectSpeed="10" ReduceMul="100" IsFomula="0" DamageFomula="100" LinkageType="1"/>
+	<Property ID="20705" Name="测试延迟" EventType="6" TargetType="2" FuncNo="1" BuffID="test_skilljinengyc_Buff01_01"/>
+	<Property ID="123456" EventType="5" TargetType="2" FuncNo="1" BuffID="test123456_Buff01_01"/>
+	<Property ID="56789" Name="测试多人技能" EventType="6" TargetType="2" FuncNo="26" LeadTargetModel="ZQ_Pet_10001" MultiSkillID="Fight_Wb0008_01" ResponseCount="2" LeadTime1="90000" LeadAction1="spell2_cast_10h" LeadEffect1="func_raid_55" MultiTargetShapePara="5"/>
+	<Property ID="59999" Name="治疗" EventType="6" TargetType="0" FuncNo="5" IsHealFormula="1" HealFormula="@MaxHP*0.1" HealTargetType="0"/>
+	<Property ID="55555" Name="隐身" EventType="5" TargetType="2" FuncNo="1" BuffID="test_skill0051_Buff01_01"/>
+	<Property ID="20706" Name="测试免疫治疗" EventType="6" TargetType="2" FuncNo="1" BuffID="test_skill814_Buff01_01"/>
+	<Property ID="20707" Name="测试仇恨转移" EventType="6" TargetType="0" FuncNo="1" BuffID="test_skill822_Buff01_01"/>
+	<Property ID="20710" Name="以自己为圆心"/>
+	<Property ID="20711" Name="以对象为圆心" EventType="5" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="@Str*10" DamageCategory="1" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="20712" Name="以前方扇形区域" EventType="5" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="@Dex" DamageCategory="1" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="20713" Name="以前方矩形区域" FuncNo="5"/>
+	<Property ID="20714" Name="选定地面"/>
+	<Property ID="20715" Name="给目标治疗" EventType="5" TargetType="0" FuncNo="5" IsHealFormula="1" HealFormula="$MaxHP*1" HealTargetType="0" HealSenderType="0"/>
+	<Property ID="20716" Name="播放特效" EventType="6" TargetType="1" FuncNo="7" EffectName="BGskill_40010" EffectParam="10"/>
+	<Property ID="20717" Name="播放动作" EventType="6" TargetType="2" FuncNo="9" ActionType="0" ActionName="knockback" LoopAction="0"/>
+	<Property ID="20718" Name="清除BUFF" EventType="5" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="test_buff_0001" StrClear="0" ClearOwnerBuff="1" BufferClearOLCount="1"/>
+	<Property ID="20719" Name="技能冷却" EventType="6" TargetType="2" FuncNo="12" CoolSkillID="Skill_Wm2722_01_1" CoolClearType="1"/>
+	<Property ID="20720" Name="道具生成" EventType="6" TargetType="2" FuncNo="19" ItemID="Other_001" ItemCount="2"/>
+	<Property ID="20721" Name="复活对象" EventType="6" TargetType="0" FuncNo="25" HPRatio="50"/>
+	<Property ID="20722" Name="设置目标第一仇恨" EventType="6" TargetType="0" FuncNo="100" SetTargetFirstHatred="1" SetNpcHatredListEmpty="0" SetAfferentTargetHatredEmpty="0"/>
+	<Property ID="20724" Name="获得BUFF叠加" EventType="6" TargetType="2" FuncNo="102" OverlayBufferID="test_skill0026_Buff01_01"/>
+	<Property ID="20725" Name="获取伤害" EventType="4" TargetType="2" FuncNo="1" BuffID="test_skill0021_Buff01_01" DefaultHitFormula="10*10" FirstDamageFormula="10*9" SecondDamageFormula="10*8" ThirdDamageFormula="10*7"/>
+	<Property ID="20726" Name="面向目标攻击" EventType="6" TargetType="0" FuncNo="503" TargetHurtAction="combat" CasterHitAction="attackL_1h" DamageValue="100"/>
+	<Property ID="20727" Name="传送" EventType="6" TargetType="2" FuncNo="506" LocationID="35"/>
+	<Property ID="20728" Name="持续流血" EventType="5" TargetType="0" FuncNo="1" BuffID="test_skill0019_Buff01_01"/>
+	<Property ID="20729" Name="增加移动速度" EventType="6" TargetType="2" FuncNo="1" BuffID="test_skill0020_Buff01_01"/>
+	<Property ID="20730" Name="反弹伤害" EventType="4" TargetType="2" FuncNo="1" BuffID="test_skill0021_Buff01_01"/>
+	<Property ID="20731" Name="眩晕" EventType="5" TargetType="2" FuncNo="1" BuffID="test_skill0022_Buff01_01"/>
+	<Property ID="20732" Name="沉默" EventType="6" TargetType="0" FuncNo="1" BuffID="test_skill0023_Buff01_01"/>
+	<Property ID="20733" Name="定身" EventType="5" TargetType="0" FuncNo="1" BuffID="test_skill0024_Buff01_01"/>
+	<Property ID="20734" Name="提升治疗效果" EventType="5" TargetType="2" FuncNo="1" BuffID="test_skill0025_Buff01_01"/>
+	<Property ID="20735" Name="持续治疗" EventType="6" TargetType="2" FuncNo="1" BuffID="test_skill0026_Buff01_01"/>
+	<Property ID="20736" Name="标记目标" EventType="6" TargetType="0" FuncNo="1" BuffID="test_skill0027_Buff01_01"/>
+	<Property ID="20737" Name="战斗渴望" EventType="6" TargetType="2" FuncNo="1" BuffID="Fight_Wo0012_Buff01_01"/>
+	<Property ID="20738" Name="调整技能准备时间" EventType="6" TargetType="2" FuncNo="1" BuffID="test_skill0029_buff01_01"/>
+	<Property ID="20739" Name="捕捉宠物" EventType="6" TargetType="1" FuncNo="516"/>
+	<Property ID="50320" Name="飞行浮空" EventType="2" TargetType="2" FuncNo="1" BuffID="test_50320_Buff01_01"/>
+	<Property ID="49100" Name="初级剑咒" EventType="5" TargetType="2" FuncNo="512" ResumeValue="1"/>
+	<Property ID="49101" Name="魔法指引" EventType="6" TargetType="1" FuncNo="4" MoveTargetPosType="0" MoveCreatePosType="0"/>
+	<Property ID="49102" Name="魔法指引" EventType="6" TargetType="2" FuncNo="513" Condition="491015"/>
+	<Property ID="49104" Name="魔法指引" EventType="6" TargetType="2" FuncNo="513" Condition="491013&amp;491014"/>
+	<Property ID="491102" Name="魔法明亮" EventType="6" TargetType="2" FuncNo="1" BuffID="test_buff402_Buff01_01"/>
+	<Property ID="510" Name="钩肥技能" EventType="5" TargetType="0" FuncNo="508" DragBuffID="test510_Buff01_01" DragSpeed="20" DragAction="combat"/>
+	<Property ID="20762" EventType="3" TargetType="0" FuncNo="508" DragSpeed="25"/>
+	<Property ID="20763" Name="测试后续技能" EventType="6" TargetType="0" FuncNo="18" UseSkillID="test_skill0096_01"/>
+	<Property ID="20765" EventType="6" TargetType="0" FuncNo="5" IsHealFormula="0" HealFormula="30" HealTargetType="0"/>
+	<Property ID="20784" Name="测试连招技能" EventType="3" TargetType="1" FuncNo="17" ChargeSpeed="10" ChargeAction="strike_0H"/>
+	<Property ID="20788" Name="测试效果包公式" EventType="5" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="&amp;RMaxPhyAttack*10" DamageCategory="1" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="20789" Name="增益BUFF" EventType="5" TargetType="0" FuncNo="1" BuffID="test_skill0038_Buff01_01"/>
+	<Property ID="20790" Name="减益BUFF" EventType="5" TargetType="0" FuncNo="1" BuffID="test_skill0039_Buff01_01"/>
+	<Property ID="207842" Name="测试连招技能" EventType="6" TargetType="1" FuncNo="18" UseSkillID="Fight_Ex0015_01"/>
+	<Property ID="20813" Name="测试缩放" EventType="6" TargetType="2" FuncNo="1" BuffID="test_guaiwusf_Buff01_01"/>
+	<Property ID="20814" Name="测试多次后续" EventType="6" TargetType="2" FuncNo="18" UseSkillID="test_skill0044_01"/>
+	<Property ID="20815" Name="测试多次后续" EventType="6" TargetType="2" FuncNo="18" UseSkillID="test_skill0045_01"/>
+	<Property ID="20816" Name="测试多次后续"/>
+	<Property ID="20817" Name="测试召唤NPC" EventType="5" TargetType="2" FuncNo="2" NPCConfigID="npc_qhm002_0001" NPCCreateCount="1" NPCLifeTime="10000" NPCTargetPosType="0" NPCCreatePosType="2" NPCRandomRadius="1"/>
+	<Property ID="20820" Name="测试刀锋战士消耗" EventType="5" TargetType="0" FuncNo="3" Condition="20820" IsDamageFormula="0" DamageFormula="100" DamageCategory="1" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="20821" Name="测试怒火积聚" EventType="5" TargetType="2" FuncNo="850" PunisherRFC="0"/>
+	<Property ID="20822" Name="测试怒火释放" EventType="5" TargetType="2" FuncNo="850" PunisherRFC="1"/>
+	<Property ID="20823" Name="隐身" EventType="6" TargetType="1" FuncNo="1" BuffID="test_skill0051_Buff01_01"/>
+	<Property ID="20826" EventType="4" TargetType="0" FuncNo="31" MysticNpcID="npc_mifashi_energy1"/>
+	<Property ID="20827" EventType="4" TargetType="2" FuncNo="530" MysticNpcID="npc_mifashi_energy1"/>
+	<Property ID="20829" EventType="5" TargetType="2" FuncNo="530" MysticNpcID="npc_mifashi_energy1"/>
+	<Property ID="20830" EventType="3" TargetType="0" FuncNo="530" MysticNpcID="npc_mifashi_energy2"/>
+	<Property ID="20831" EventType="3" TargetType="0" FuncNo="530" MysticNpcID="npc_mifashi_energy2"/>
+	<Property ID="20841" Name="测试替换技能" EventType="13" TargetType="2" FuncNo="53" ReplaceSkill="Fight_Fm0001_01"/>
+	<Property ID="20872" Name="测试BUFF残影" EventType="5" TargetType="2" FuncNo="1" BuffID="test_skill0060_Buff01_01"/>
+	<Property ID="20873" Name="显影" EventType="5" TargetType="2" FuncNo="1" BuffID="test_skill0061_Buff01_01"/>
+	<Property ID="20874" Name="显影（使目标可视）" EventType="5" TargetType="0" FuncNo="1" BuffID="test_skill0062_Buff01_01"/>
+	<Property ID="20899" Name="指向型技能" EventType="3" TargetType="0" FuncNo="531" NTChargeSpeed="12" NTChargeDist="8" NTAngle="0" NTChargeType="0"/>
+	<Property ID="20900" Name="测试瞬移（向前方）" EventType="5" TargetType="0" FuncNo="532" FlashType="2"/>
+	<Property ID="32799" Name="重置CD" EventType="6" TargetType="0" FuncNo="511"/>
+	<Property ID="20901" Name="测试瞬移（选择地面）" EventType="6" TargetType="2" FuncNo="532" FlashType="1" FlashDist="10" FlashAngle="0"/>
+	<Property ID="20902" Name="测试道具技能区分以及持续技能开关"/>
+	<Property ID="20903" Name="测试选择地面召唤NPC" EventType="6" TargetType="0" FuncNo="533" SPNPCConfigID="monster_qhm002_0023" SPNPCCreateCount="1" SPNPCLifeTime="50000"/>
+	<Property ID="20917" Name="测试对死亡对象使用技能" EventType="5" TargetType="1" FuncNo="2" NPCConfigID="npc_qhm002_0001" NPCCreateCount="1" NPCLifeTime="50000" NPCTargetPosType="0" NPCCreatePosType="1" NPCRandomRadius="1"/>
+	<Property ID="20918" Name="测试范围增加BUFF" EventType="5" TargetType="0" FuncNo="1" BuffID="test_skill0069_Buff01_01"/>
+	<Property ID="20920" Name="测试对宠物使用技能" EventType="5" TargetType="0" FuncNo="5" IsHealFormula="0" HealFormula="10" HealTargetType="0"/>
+	<Property ID="20923" Name="击飞功能调整测试" EventType="4" TargetType="2" FuncNo="16"/>
+	<Property ID="20924" Name="测试分身" EventType="6" TargetType="2" FuncNo="55" CloneConfigID="Fight_1_00011" NPCConfigID="Fight_1_00011" CallPetType="0" PetDistance="1" PetBuffID="test_skill0095_Buff01_01"/>
+	<Property ID="20927" Name="测试调整后召唤NPC" EventType="5" TargetType="2" FuncNo="2" NPCConfigID="Fight_1_00032" NPCCreateCount="1" NPCLifeTime="6000" NPCDistance="5" NPCAngle="90" NPCTargetPosType="0" NPCCreatePosType="4"/>
+	<Property ID="20928" Name="测试调整后召唤宠物" EventType="3" TargetType="2" FuncNo="55" NPCConfigID="Fight_21_00001" CallPetType="1" PetCount="1"/>
+	<Property ID="20929" Name="测试连锁效果" EventType="5" TargetType="0" FuncNo="507" LinkageType="1" IsFomula="1" DamageFomula="@Str*10" EffectID="func_raid_28" ChainCount="5" MaxNodeDist="10" MaxSenderDist="30" EffectSpeed="10" ReduceMul="50"/>
+	<Property ID="20931" Name="测试宠物增加BUFF" EventType="3" TargetType="0" FuncNo="40" TmpFightPetConfigID="Fight_1_00040" PetCallUPNum="1" PetCallBuffID="test_guanghuan5_Buff01_01"/>
+	<Property ID="20932" Name="测试调用触发器" EventType="5" TargetType="2" FuncNo="54" TriggerEventID="12070616220310"/>
+	<Property ID="20933" Name="测试55召唤宠物" EventType="5" TargetType="0" FuncNo="55" CallPetType="4" NPCConfigID="Fight_1_00030" PetCount="1"/>
+	<Property ID="20934" Name="测试属性" EventType="2" TargetType="2" FuncNo="531" NTChargeType="0" NTChargeSpeed="6" NTChargeDist="1"/>
+	<Property ID="20936" Name="测试对死亡对象使用" EventType="5" TargetType="0" FuncNo="853"/>
+	<Property ID="20937" Name="测试攻击带冲锋" EventType="5" TargetType="0" FuncNo="13" FendLockTime="1000" FendDistance="1" FendIsCanMove="0"/>
+	<Property ID="20938"/>
+	<Property ID="20941" EventType="5" TargetType="2" FuncNo="1" BuffID="Buff_boss_0121_04"/>
+	<Property ID="20944" Name="测试吸收伤害后释放技能" EventType="5" TargetType="0" FuncNo="1" BuffID="test_skill0085_Buff01_01" Condition="21019"/>
+	<Property ID="99003" EventType="6" TargetType="2" FuncNo="1" BuffID="Buff_BG_006"/>
+	<Property ID="15663" EventType="5" TargetType="2" FuncNo="27" MetamorBuffID="Buff_15663"/>
+	<Property ID="15664" EventType="5" TargetType="2" FuncNo="2" NPCConfigID="monster_zqm001_0061" NPCCreateCount="1" NPCLifeTime="0" NPCTargetPosType="2" NPCCreatePosType="4" NPCDistance="5" NPCAngle="0" NPCBuffID="Buff_Gl1215_03_1"/>
+	<Property ID="15665" EventType="5" TargetType="2" FuncNo="1" BuffID="Buff15665"/>
+	<Property ID="20963" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_In1003_01_1"/>
+	<Property ID="21000" Name="测试效果包传入宠物" EventType="3" TargetType="6" FuncNo="1" BuffID="test_buff_0001"/>
+	<Property ID="21001" Name="测试多次冲锋" EventType="5" TargetType="0" FuncNo="534" MulSpurtSpeed="20" MulSpurtDamageFormula="10" MulSpurtCount="5" MulSpurtDamageDecFactor="90" MulSpurtMaxDistance="30" MulSpurtExceedDistance="2" MulSpurtAction="attackL_0h"/>
+	<Property ID="21002" Name="测试修正" EventType="5" TargetType="2" FuncNo="105"/>
+	<Property ID="21003" Name="测试选定范围" EventType="5" TargetType="0" FuncNo="3" Condition="31719" IsDamageFormula="0" DamageFormula="50" DamageCategory="1" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="210032" Name="测试选定范围" EventType="5" TargetType="0" FuncNo="5" Condition="317192" IsHealFormula="0" HealFormula="30" HealTargetType="0"/>
+	<Property ID="21005" Name="测试选定点召唤NPC" EventType="3" TargetType="0" FuncNo="533" SPNPCConfigID="monster_zqm001_0001" SPNPCCreateCount="1" SPNPCLifeTime="6000"/>
+	<Property ID="21006" Name="测试添加BUFF" EventType="5" TargetType="0" FuncNo="1" BuffID="test_buff_0001" Condition="210023"/>
+	<Property ID="21007" Name="子母弹" EventType="5" TargetType="0" FuncNo="105" NPCConfigID="monster_boss_0124_s" NPCCreateCount="4" NPCLifeTime="0" NPCTargetPosType="0" NPCCreatePosType="1" NPCRandomRadius="2"/>
+	<Property ID="21008" Name="测试替换技能" EventType="13" TargetType="0" FuncNo="53" ReplaceSkill="test_skill0096_01"/>
+	<Property ID="21009" Name="测试替换技能2" EventType="6" TargetType="2" FuncNo="1" BuffID="Buff15665"/>
+	<Property ID="21010" Name="后续技能击飞" EventType="4" TargetType="0" FuncNo="16" KnockFlyLockTime="2000" KnockFlyDistance="15" KnockFlySpeed="10" GravityParam="-5" FlyDownLoopAction="kickout" FlyGetUpAction="downup" KnockFlyIsCanMove="0" FlyKnockDownAction="down" DownLandLoopAction="downloop" DownLandEffect="BGskill_20128" DownLandAction="flydown"/>
+	<Property ID="21011" Name="测试状态BUFF" EventType="5" TargetType="0" FuncNo="109" EffectType="10" EffectTime="10000"/>
+	<Property ID="21012" Name="碰撞测试" EventType="3" TargetType="2" FuncNo="2" NPCConfigID="skilleffect_0001" NPCCreateCount="1" NPCLifeTime="5000" NPCTargetPosType="0" NPCCreatePosType="4" DynamicMoveType="0" MoveAngle="0" MoveSpeed="5" NPCDistance="1" NPCAngle="0"/>
+	<Property ID="21013" Name="测试多次命中多次伤害" EventType="8" TargetType="0" FuncNo="500" FirstDamageFormula="@MaxPhyAttack*1.1+50" SecondDamageFormula="@MaxPhyAttack*1.3+80" ThirdDamageFormula="@MaxPhyAttack*1.6+100"/>
+	<Property ID="21014" Name="嘲讽" EventType="5" TargetType="0" FuncNo="510"/>
+	<Property ID="21015" Name="测试TIPS" EventType="5" TargetType="0" FuncNo="3" IsDamageFormula="1" DamageFormula="@Guard*1.5+50" DamageCategory="1" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="21016" EventType="5" TargetType="0" FuncNo="5" IsHealFormula="0" HealFormula="150" HealTargetType="0"/>
+	<Property ID="21017" EventType="6" TargetType="0" FuncNo="109" EffectType="13"/>
+	<Property ID="21018" Name="测试变身" EventType="5" TargetType="0" FuncNo="1" BuffID="test_buff_0002"/>
+	<Property ID="21020" Name="测试减速CD时间" EventType="5" TargetType="2" FuncNo="110" PropCalcType="0" PropValue="-5000" SkillID="Skill_Gl1240_01_1"/>
+	<Property ID="21021" Name="测试击杀目标" EventType="19" TargetType="2" FuncNo="5" IsHealFormula="0" HealFormula="150" HealTargetType="1"/>
+	<Property ID="21022" Name="测试砸地效果" EventType="3" TargetType="0" FuncNo="5" Condition="21017"/>
+	<Property ID="210221" Name="测试砸地效果" EventType="6" TargetType="0" FuncNo="18" UseSkillID="test_skill0096_01" Condition="21017"/>
+	<Property ID="209332" EventType="3" TargetType="0" FuncNo="55" CallPetType="0" PetDistance="5" PetAngle="270"/>
+	<Property ID="21024" Name="测试轰炸NPC" EventType="4" TargetType="2" FuncNo="58" JumpNpcConfigID="SkillNpc_0001" JumpNpcUpSpeed="0"/>
+	<Property ID="210102" Name="测试调用提示信息" EventType="3" TargetType="0" FuncNo="60" TipType="17" TipPacket="sys_role_0048" DisCondition="20759"/>
+	<Property ID="207002" Name="伤害转移关闭"/>
+	<Property ID="210062" Name="测试随机添加BUFF" EventType="5" TargetType="0" FuncNo="1" Condition="210024" BuffID="test_buff_0002"/>
+	<Property ID="210063" Name="测试随机添加BUFF" EventType="5" TargetType="0" FuncNo="1" Condition="210025" BuffID="test_buff_skill32"/>
+	<Property ID="210064" Name="测试随机添加BUFF" EventType="3" TargetType="2" FuncNo="111" SetPropName="SkillRandNum" RandRange="3"/>
+	<Property ID="210065" EventType="10" TargetType="2" FuncNo="504" FujModifyValue="1" FujModifyType="1" FujTargetType="0" FujIsFormula="0" FujIsAll="1"/>
+	<Property ID="203252" EventType="28" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="test260_Buff01_01"/>
+</Object>
+
+

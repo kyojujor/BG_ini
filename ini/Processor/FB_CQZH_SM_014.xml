@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes" ?>
+<Processor>
+    <Base type="object" version="1.0">
+        <Line Type="2" Event="2001" Name="AUTOP2" />
+        <Line Type="2" Event="5047" Name="AUTOP1">
+            <Param type="13" srctype="8" data="AUTOP2" Index="0" />
+        </Line>
+        <Line Type="10" CaseNum="1" IncludeLines="8">
+            <Param type="13" srctype="6" data="AUTOP1" Index="0" />
+        </Line>
+        <Line Type="11" IncludeLines="7">
+            <Param type="2" data="5" Index="0" />
+        </Line>
+        <Line Type="2" Event="2114" Name="AUTOP3">
+            <Param type="6" data="FB_DGPD_0014_03" Index="0" />
+        </Line>
+        <Line Type="1" Event="4509">
+            <Param type="13" srctype="8" data="AUTOP3" Index="0" />
+        </Line>
+        <Line Type="2" Event="2114" Name="AUTOP4">
+            <Param type="6" data="FB_DGPD_0017_03" Index="0" />
+        </Line>
+        <Line Type="1" Event="4509">
+            <Param type="13" srctype="8" data="AUTOP4" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP5" />
+        <Line Type="1" Event="4509">
+            <Param type="13" srctype="8" data="AUTOP5" Index="0" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="6" data="3270.239502,27.098682,6866.65918,-0.5" Index="0" />
+            <Param type="6" data="FB_DGPD_0015_03" Index="1" />
+            <Param type="6" data="Act" Index="2" />
+        </Line>
+    </Base>
+</Processor>

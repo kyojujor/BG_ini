@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes" ?>
+<Processor>
+    <Base type="object" version="1.0">
+        <Line Type="12" CaseNum="10" IncludeLines="24" />
+        <Line Type="13" IncludeLines="2" />
+        <Line Type="2" Event="2001" Name="AUTOP1" />
+        <Line Type="1" Event="4021">
+            <Param type="13" srctype="8" data="AUTOP1" Index="0" />
+            <Param type="2" data="0" Index="1" />
+            <Param type="6" data="trigger_fb_llqd_118" Index="2" />
+            <Param type="11" data="0" Index="3" />
+        </Line>
+        <Line Type="13" IncludeLines="2" />
+        <Line Type="2" Event="2001" Name="AUTOP2" />
+        <Line Type="1" Event="4021">
+            <Param type="13" srctype="8" data="AUTOP2" Index="0" />
+            <Param type="2" data="0" Index="1" />
+            <Param type="6" data="trigger_fb_llqd_118" Index="2" />
+            <Param type="11" data="0" Index="3" />
+        </Line>
+        <Line Type="13" IncludeLines="2" />
+        <Line Type="2" Event="2001" Name="AUTOP3" />
+        <Line Type="1" Event="4021">
+            <Param type="13" srctype="8" data="AUTOP3" Index="0" />
+            <Param type="2" data="0" Index="1" />
+            <Param type="6" data="trigger_fb_llqd_118" Index="2" />
+            <Param type="11" data="0" Index="3" />
+        </Line>
+        <Line Type="13" IncludeLines="2" />
+        <Line Type="2" Event="2001" Name="AUTOP4" />
+        <Line Type="1" Event="4021">
+            <Param type="13" srctype="8" data="AUTOP4" Index="0" />
+            <Param type="2" data="0" Index="1" />
+            <Param type="6" data="trigger_fb_llqd_118" Index="2" />
+            <Param type="11" data="0" Index="3" />
+        </Line>
+        <Line Type="13" IncludeLines="2" />
+        <Line Type="2" Event="2001" Name="AUTOP5" />
+        <Line Type="1" Event="4021">
+            <Param type="13" srctype="8" data="AUTOP5" Index="0" />
+            <Param type="2" data="0" Index="1" />
+            <Param type="6" data="trigger_fb_llqd_120" Index="2" />
+            <Param type="11" data="0" Index="3" />
+        </Line>
+        <Line Type="13" IncludeLines="2" />
+        <Line Type="2" Event="2001" Name="AUTOP6" />
+        <Line Type="1" Event="4021">
+            <Param type="13" srctype="8" data="AUTOP6" Index="0" />
+            <Param type="2" data="0" Index="1" />
+            <Param type="6" data="trigger_fb_llqd_121" Index="2" />
+            <Param type="11" data="0" Index="3" />
+        </Line>
+        <Line Type="13" IncludeLines="2" />
+        <Line Type="2" Event="2001" Name="AUTOP7" />
+        <Line Type="1" Event="4021">
+            <Param type="13" srctype="8" data="AUTOP7" Index="0" />
+            <Param type="2" data="0" Index="1" />
+            <Param type="6" data="trigger_fb_llqd_122" Index="2" />
+            <Param type="11" data="0" Index="3" />
+        </Line>
+        <Line Type="13" IncludeLines="0" />
+        <Line Type="13" IncludeLines="0" />
+        <Line Type="13" IncludeLines="0" />
+    </Base>
+</Processor>

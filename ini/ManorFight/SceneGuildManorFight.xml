@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+  <!-- 场景ID 区域ID 区域类型(0可占领 1阵营初始拥有不可占领) 归属阵营(1蒸汽，2奇幻) 区域信息(等级,资源产量) 产生资源ID NPC出生点 -->
+  <Property ID="1" SceneId="300" AreaType="0" AreaId="990600000" AreaCamp="1" ResourceId="DrugF_00001B" AreaEnergy="1,500"  BornPos="1732.116,38.152,-1302.072"/>
+  <Property ID="2" SceneId="300" AreaType="1" AreaId="990600001" AreaCamp="1" ResourceId="DrugF_00001B" AreaEnergy="1,500"  BornPos="1732.116,38.152,-1302.072"/>	
+</Object>

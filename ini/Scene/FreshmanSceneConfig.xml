@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- ID ：序号 -->
+<!-- SceneId ：对应的新手引导主场景ID   -->
+<!-- CopySceneID ：拷贝场景ID，多个以逗号隔开（减轻场景压力所设，对于用户来说与主场景一样效果，与主场景共用其他所有配置）	-->
+<!-- JobType ：职业类型ID   -->
+<!-- EquiArray ：进入新手引导场景后换装列表   -->
+<!-- SkillArray ：进入新手引导场景后技能替换列表   -->
+<!-- BuffArray ：进入新手引导场景后添加的buffID   -->
+<!-- OutSceneID ：角色种族、对应的传出场景ID   -->
+<!-- OutPosition ：角色种族、对应的传出坐标和朝向   -->
+<!-- LimitTime ：进入新手引导场景后，最大停留时间   -->
+<!-- OverTime ：杀死boss后，倒计时传出副本的时间   -->
+<!-- TaskID ：角色种族、对应的任务ID   -->
+<!-- Camp ：传入哪个种族到当前分组场景   -->
+<!-- RewardSSS ：SSS评价对应的奖励道具列表（可配置道具数量）   -->
+<!-- RewardSS ：SS评价对应的奖励道具列表（可配置道具数量）   -->
+<!-- RewardS ：S评价对应的奖励道具列表（可配置道具数量）   -->
+<!-- MailTitle : 背包满通关后发送奖励邮件的标题 -->
+<!-- MailContent : 通关后发奖励送邮件的内容 -->
+<!-- judge ：SSS评价受击次数上限，SSS评价时间上限； SS评价受击次数上限， SS评价时间上限    -->
+<!-- BagArray ：未使用的字段    -->
+<Object>
+	<Scene SceneId="116" CopySceneID="127" LimitTime="3600" OverTime="60" Camp="1" MailTitle="ui_freshmanprize_title_1" MailContent="ui_freshmanprize_content_1" judge="60,15;90,20;110,100">
+		<!--职业：秘法师-->
+		<Object JobType="3" EquiArray="TY_Cloth_A0001,TY_Hnad_A0001,TY_Pants_A0001,TY_Shoes_A0001,TY_Hat_A0001,TY_Wrist_A0001,TY_Belt_A0001,TY_Staff_0001" SkillArray="Skill_Sm0005_01_1" BuffArray="Buff_Xinshoufb_02" BagArray="" OutSceneID="1,1" OutPosition="1,-480.949,3.416,634.760,2.836" TaskID="1,4148" RewardSSS="Zuoqi_5l_ZQ01,1" RewardSS="Zuoqi_5l_ZQ01,1" RewardS="Zuoqi_5l_ZQ01,1"/>
+		<!--职业：咒术师-->
+		<Object JobType="27" EquiArray="TY_Cloth_A0001,TY_Hnad_A0001,TY_Pants_A0001,TY_Shoes_A0001,TY_Hat_A0001,TY_Wrist_A0001,TY_Belt_A0001,TY_Staff_0001" SkillArray="Skill_Sm0005_01_1" BuffArray="Buff_Xinshoufb_02" BagArray="" OutSceneID="1,1" OutPosition="1,-480.949,3.416,634.760,2.836" TaskID="1,4148" RewardSSS="Zuoqi_5l_ZQ01,1" RewardSS="Zuoqi_5l_ZQ01,1" RewardS="Zuoqi_5l_ZQ01,1"/>
+		<!--职业：黑暗祭祀-->
+		<Object JobType="28" EquiArray="TY_Cloth_A0001,TY_Hnad_A0001,TY_Pants_A0001,TY_Shoes_A0001,TY_Hat_A0001,TY_Wrist_A0001,TY_Belt_A0001,TY_Staff_0001" SkillArray="Skill_Sm0005_01_1" BuffArray="Buff_Xinshoufb_02" BagArray="" OutSceneID="1,1" OutPosition="1,-480.949,3.416,634.760,2.836" TaskID="1,4148" RewardSSS="Zuoqi_5l_ZQ01,1" RewardSS="Zuoqi_5l_ZQ01,1" RewardS="Zuoqi_5l_ZQ01,1"/>
+		<!--职业：女巫-->
+		<Object JobType="29" EquiArray="TY_Cloth_A0001,TY_Hnad_A0001,TY_Pants_A0001,TY_Shoes_A0001,TY_Hat_A0001,TY_Wrist_A0001,TY_Belt_A0001,TY_Staff_0001" SkillArray="Skill_Sm0005_01_1" BuffArray="Buff_Xinshoufb_02" BagArray="" OutSceneID="1,1" OutPosition="1,-480.949,3.416,634.760,2.836" TaskID="1,4148" RewardSSS="Zuoqi_5l_ZQ01,1" RewardSS="Zuoqi_5l_ZQ01,1" RewardS="Zuoqi_5l_ZQ01,1"/>
+		<!--职业：仲裁者-->
+		<Object JobType="1" EquiArray="TY_Cloth_C0001,TY_Hnad_C0001,TY_Pants_C0001,TY_Shoes_C0001,TY_Hat_C0001,TY_Wrist_C0001,TY_Belt_C0001,TY_Sword_0001" SkillArray="Skill_Ar0004_01_1" BuffArray="Buff_Xinshoufb_02" BagArray="" OutSceneID="1,1;3,7" OutPosition="1,-480.949,3.416,634.760,2.836;3,-882.507,137.783,2053.117,0.869" TaskID="1,4148;3,10079" RewardSSS="Zuoqi_5l_ZQ01,1" RewardSS="Zuoqi_5l_ZQ01,1" RewardS="Zuoqi_5l_ZQ01,1"/>
+		<!--职业：惩罚者-->
+		<Object JobType="21" EquiArray="TY_Cloth_C0001,TY_Hnad_C0001,TY_Pants_C0001,TY_Shoes_C0001,TY_Hat_C0001,TY_Wrist_C0001,TY_Belt_C0001,TY_Sword_0001" SkillArray="Skill_Ar0004_01_1" BuffArray="Buff_Xinshoufb_02" BagArray="" OutSceneID="1,1;3,7" OutPosition="1,-480.949,3.416,634.760,2.836;3,-882.507,137.783,2053.117,0.869" TaskID="1,4148;3,10079" RewardSSS="Zuoqi_5l_ZQ01,1" RewardSS="Zuoqi_5l_ZQ01,1" RewardS="Zuoqi_5l_ZQ01,1"/>
+		<!--职业：神枪手-->
+		<Object JobType="22" EquiArray="TY_Cloth_C0001,TY_Hnad_C0001,TY_Pants_C0001,TY_Shoes_C0001,TY_Hat_C0001,TY_Wrist_C0001,TY_Belt_C0001,TY_Gun_0001" SkillArray="Skill_Ar0004_01_1" BuffArray="Buff_Xinshoufb_02" BagArray="" OutSceneID="1,1;3,7" OutPosition="1,-480.949,3.416,634.760,2.836;3,-882.507,137.783,2053.117,0.869" TaskID="1,4148;3,10079" RewardSSS="Zuoqi_5l_ZQ01,1" RewardSS="Zuoqi_5l_ZQ01,1" RewardS="Zuoqi_5l_ZQ01,1"/>
+		<!--职业：执行者-->
+		<Object JobType="23" EquiArray="TY_Cloth_C0001,TY_Hnad_C0001,TY_Pants_C0001,TY_Shoes_C0001,TY_Hat_C0001,TY_Wrist_C0001,TY_Belt_C0001,TY_Dagger_0001" SkillArray="Skill_Ar0004_01_1" BuffArray="Buff_Xinshoufb_02" BagArray="" OutSceneID="1,1;3,7" OutPosition="1,-480.949,3.416,634.760,2.836;3,-882.507,137.783,2053.117,0.869" TaskID="1,4148;3,10079" RewardSSS="Zuoqi_5l_ZQ01,1" RewardSS="Zuoqi_5l_ZQ01,1" RewardS="Zuoqi_5l_ZQ01,1"/>
+	</Scene>
+	<Scene SceneId="106" CopySceneID="126" LimitTime="3600" OverTime="60" Camp="2" MailTitle="ui_freshmanprize_title" MailContent="ui_freshmanprize_content" judge="60,15;90,20;110,100">
+		<!--职业：元素法师-->
+		<Object JobType="8" EquiArray="TY_Cloth_A5001,TY_Hnad_A5001,TY_Pants_A5001,TY_Shoes_A5001,TY_Hat_A5001,TY_Wrist_A5001,TY_Belt_A5001,TY_Staff_0001" SkillArray="Skill_Mg0003_01_1" BuffArray="Buff_Xinshoufb_01" BagArray="" OutSceneID="6,2;4,3" OutPosition="6,3249.626,31.344,921.800,2.683;4,-4731.586,127.348,6473.237,-0.994" TaskID="6,92;4,10372" RewardSSS="Zuoqi_5l_QH,1" RewardSS="Zuoqi_5l_QH,1" RewardS="Zuoqi_5l_QH,1"/>
+		<!--职业：圣殿法师-->
+		<Object JobType="42" EquiArray="TY_Cloth_A5001,TY_Hnad_A5001,TY_Pants_A5001,TY_Shoes_A5001,TY_Hat_A5001,TY_Wrist_A5001,TY_Belt_A5001,TY_Staff_0001" SkillArray="Skill_Mg0003_01_1" BuffArray="Buff_Xinshoufb_01" BagArray="" OutSceneID="6,2;4,3" OutPosition="6,3249.626,31.344,921.800,2.683;4,-4731.586,127.348,6473.237,-0.994" TaskID="6,92;4,10372" RewardSSS="Zuoqi_5l_QH,1" RewardSS="Zuoqi_5l_QH,1" RewardS="Zuoqi_5l_QH,1"/>
+		<!--职业：流浪法师-->
+		<Object JobType="43" EquiArray="TY_Cloth_A5001,TY_Hnad_A5001,TY_Pants_A5001,TY_Shoes_A5001,TY_Hat_A5001,TY_Wrist_A5001,TY_Belt_A5001,TY_Staff_0001" SkillArray="Skill_Mg0003_01_1" BuffArray="Buff_Xinshoufb_01" BagArray="" OutSceneID="6,2;4,3" OutPosition="6,3249.626,31.344,921.800,2.683;4,-4731.586,127.348,6473.237,-0.994" TaskID="6,92;4,10372" RewardSSS="Zuoqi_5l_QH,1" RewardSS="Zuoqi_5l_QH,1" RewardS="Zuoqi_5l_QH,1"/>
+		<!--职业：平衡法师-->
+		<Object JobType="44" EquiArray="TY_Cloth_A5001,TY_Hnad_A5001,TY_Pants_A5001,TY_Shoes_A5001,TY_Hat_A5001,TY_Wrist_A5001,TY_Belt_A5001,TY_Staff_0001" SkillArray="Skill_Mg0003_01_1" BuffArray="Buff_Xinshoufb_01" BagArray="" OutSceneID="6,2;4,3" OutPosition="6,3249.626,31.344,921.800,2.683;4,-4731.586,127.348,6473.237,-0.994" TaskID="6,92;4,10372" RewardSSS="Zuoqi_5l_QH,1" RewardSS="Zuoqi_5l_QH,1" RewardS="Zuoqi_5l_QH,1"/>
+		<!--职业：猎魔人-->
+		<Object JobType="6" EquiArray="TY_Cloth_C5001,TY_Hnad_C5001,TY_Pants_C5001,TY_Shoes_C5001,TY_Hat_C5001,TY_Wrist_C5001,TY_Belt_C5001,TY_Sword_0001" SkillArray="Skill_Eh0003_01_1" BuffArray="Buff_Xinshoufb_01" BagArray="" OutSceneID="6,2;4,3" OutPosition="6,3249.626,31.344,921.800,2.683;4,-4731.586,127.348,6473.237,-0.994" TaskID="6,92;4,10372" RewardSSS="Zuoqi_5l_QH,1" RewardSS="Zuoqi_5l_QH,1" RewardS="Zuoqi_5l_QH,1"/>
+		<!--职业：刀锋战士-->
+		<Object JobType="36" EquiArray="TY_Cloth_C5001,TY_Hnad_C5001,TY_Pants_C5001,TY_Shoes_C5001,TY_Hat_C5001,TY_Wrist_C5001,TY_Belt_C5001,TY_Claymore_0001" SkillArray="Skill_Eh0003_01_1" BuffArray="Buff_Xinshoufb_01" BagArray="" OutSceneID="6,2;4,3" OutPosition="6,3249.626,31.344,921.800,2.683;4,-4731.586,127.348,6473.237,-0.994" TaskID="6,92;4,10372" RewardSSS="Zuoqi_5l_QH,1" RewardSS="Zuoqi_5l_QH,1" RewardS="Zuoqi_5l_QH,1"/>
+		<!--职业：狩猎者-->
+		<Object JobType="37" EquiArray="TY_Cloth_C5001,TY_Hnad_C5001,TY_Pants_C5001,TY_Shoes_C5001,TY_Hat_C5001,TY_Wrist_C5001,TY_Belt_C5001,TY_Poleaxe" SkillArray="Skill_Eh0003_01_1" BuffArray="Buff_Xinshoufb_01" BagArray="" OutSceneID="6,2;4,3" OutPosition="6,3249.626,31.344,921.800,2.683;4,-4731.586,127.348,6473.237,-0.994" TaskID="6,92;4,10372" RewardSSS="Zuoqi_5l_QH,1" RewardSS="Zuoqi_5l_QH,1" RewardS="Zuoqi_5l_QH,1"/>
+		<!--职业：魔剑士-->
+		<Object JobType="38" EquiArray="TY_Cloth_C5001,TY_Hnad_C5001,TY_Pants_C5001,TY_Shoes_C5001,TY_Hat_C5001,TY_Wrist_C5001,TY_Belt_C5001,TY_Sword_0001" SkillArray="Skill_Eh0003_01_1" BuffArray="Buff_Xinshoufb_01" BagArray="" OutSceneID="6,2;4,3" OutPosition="6,3249.626,31.344,921.800,2.683;4,-4731.586,127.348,6473.237,-0.994" TaskID="6,92;4,10372" RewardSSS="Zuoqi_5l_QH,1" RewardSS="Zuoqi_5l_QH,1" RewardS="Zuoqi_5l_QH,1"/>
+	</Scene>
+</Object>

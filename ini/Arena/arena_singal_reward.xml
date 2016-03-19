@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+	<!--WinHunter         获胜猎杀点数奖励-->
+	<!--LoseHunter        失败猎杀点数奖励-->
+	<!--MaxKillAward      击杀数量最多奖励，格式为：积分数量,荣誉数量。如果填0，则不显示-->
+	<!--MaxDamageAward    伤害量最多奖励，格式为：积分数量,荣誉数量。如果填0，则不显示-->
+	<!--MaxCureAward      治疗量最多奖励，格式为：积分数量,荣誉数量。如果填0，则不显示-->
+	<!--DrawPoint         平局扣除的积分-->
+	<Property ID="11"  WinHunter = "2" LoseHunter = "1" WinMoney="1800" LoseMoney="900" WinExp="6000" LoseExp="0" DrawPoint="20" MaxKillAward = "10,10" MaxDamageAward = "10,10" MaxCureAward = "20,20"/>
+	<Property ID="22"  WinHunter = "3" LoseHunter = "1" WinMoney="3900" LoseMoney="1900" WinExp="12500" LoseExp="0" DrawPoint="20" MaxKillAward = "10,10" MaxDamageAward = "10,10" MaxCureAward = "20,20"/>
+	<Property ID="33"  WinHunter = "5" LoseHunter = "2" WinMoney="6900" LoseMoney="3400" WinExp="19500" LoseExp="0" DrawPoint="20" MaxKillAward = "10,10" MaxDamageAward = "10,10" MaxCureAward = "20,20"/>
+	<Property ID="44"  WinHunter = "5" LoseHunter = "2" WinMoney="8000" LoseMoney="4000" WinExp="27000" LoseExp="0" DrawPoint="20" MaxKillAward = "10,10" MaxDamageAward = "10,10" MaxCureAward = "20,20"/>
+	<Property ID="55"  WinHunter = "5" LoseHunter = "2" WinMoney="8000" LoseMoney="4000" WinExp="27000" LoseExp="0" DrawPoint="20" MaxKillAward = "10,10" MaxDamageAward = "10,10" MaxCureAward = "20,20"/>
+</Object>

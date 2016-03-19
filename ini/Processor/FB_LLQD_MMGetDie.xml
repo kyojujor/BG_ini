@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes" ?>
+<Processor>
+    <Base type="object" version="1.0">
+        <Line Type="2" Event="2001" Name="AUTOP1" />
+        <Line Type="2" Event="2115" Name="AUTOP4" />
+        <Line Type="2" Event="3002" Name="AUTOP3">
+            <Param type="13" srctype="8" data="AUTOP4" Index="0" />
+            <Param type="6" data="nMobTurn" Index="1" />
+        </Line>
+        <Line Type="2" Event="5075" Name="AUTOP2">
+            <Param type="4" data="50" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP3" Index="2" />
+        </Line>
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP1" Index="0" />
+            <Param type="6" data="pDropProb" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="13" srctype="4" data="AUTOP2" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP5" />
+        <Line Type="1" Event="3004">
+            <Param type="13" srctype="8" data="AUTOP5" Index="0" />
+            <Param type="6" data="pHealProb" Index="1" />
+            <Param type="2" data="25" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP6" />
+        <Line Type="1" Event="3004">
+            <Param type="13" srctype="8" data="AUTOP6" Index="0" />
+            <Param type="6" data="pMagProb" Index="1" />
+            <Param type="2" data="20" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP7" />
+        <Line Type="1" Event="3004">
+            <Param type="13" srctype="8" data="AUTOP7" Index="0" />
+            <Param type="6" data="pAttProb" Index="1" />
+            <Param type="2" data="15" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP8" />
+        <Line Type="1" Event="3004">
+            <Param type="13" srctype="8" data="AUTOP8" Index="0" />
+            <Param type="6" data="pMAttProb" Index="1" />
+            <Param type="2" data="15" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP9" />
+        <Line Type="1" Event="3004">
+            <Param type="13" srctype="8" data="AUTOP9" Index="0" />
+            <Param type="6" data="pDefProb" Index="1" />
+            <Param type="2" data="15" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP10" />
+        <Line Type="1" Event="3004">
+            <Param type="13" srctype="8" data="AUTOP10" Index="0" />
+            <Param type="6" data="pPointProb" Index="1" />
+            <Param type="2" data="10" Index="2" />
+        </Line>
+        <Line Type="2" Event="2002" Name="AUTOP13" />
+        <Line Type="2" Event="2116" Name="AUTOP12">
+            <Param type="13" srctype="8" data="AUTOP13" Index="0" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP11">
+            <Param type="13" srctype="4" data="AUTOP12" Index="0" />
+            <Param type="2" data="2" Index="1" />
+            <Param type="4" data="4" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="9">
+            <Param type="13" bool="true" srctype="1" data="AUTOP11" Index="0" />
+        </Line>
+        <Line Type="2" Event="2002" Name="AUTOP14" />
+        <Line Type="2" Event="2002" Name="AUTOP17" />
+        <Line Type="2" Event="3202" Name="AUTOP16">
+            <Param type="13" srctype="8" data="AUTOP17" Index="0" />
+            <Param type="6" data="Coin_LLQD" Index="1" />
+        </Line>
+        <Line Type="2" Event="5075" Name="AUTOP15">
+            <Param type="13" srctype="4" data="AUTOP16" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="20" Index="2" />
+        </Line>
+        <Line Type="1" Event="3203">
+            <Param type="13" srctype="8" data="AUTOP14" Index="0" />
+            <Param type="6" data="Coin_LLQD" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP15" Index="2" />
+        </Line>
+        <Line Type="2" Event="2002" Name="AUTOP18" />
+        <Line Type="1" Event="4530">
+            <Param type="13" srctype="8" data="AUTOP18" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="6" data="trigger_fb_llqd_116" Index="2" />
+            <Param type="11" data="0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2002" Name="AUTOP19" />
+        <Line Type="1" Event="4517">
+            <Param type="13" srctype="8" data="AUTOP19" Index="0" />
+            <Param type="6" data="skill_fb_tady_0016" Index="1" />
+        </Line>
+        <Line Type="7" IncludeLines="4" />
+        <Line Type="2" Event="5082" Name="AUTOP20">
+            <Param type="8" data=" " Index="0" />
+        </Line>
+        <Line Type="1" Event="3019">
+            <Param type="13" srctype="8" data="AUTOP20" Index="0" />
+            <Param type="6" data="Coin_LLQD" Index="1" />
+            <Param type="2" data="20" Index="2" />
+        </Line>
+        <Line Type="2" Event="5082" Name="AUTOP21">
+            <Param type="8" data=" " Index="0" />
+        </Line>
+        <Line Type="1" Event="4530">
+            <Param type="13" srctype="8" data="AUTOP21" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="6" data="trigger_fb_llqd_116" Index="2" />
+            <Param type="11" data="0" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP22" />
+        <Line Type="2" Event="2001" Name="AUTOP24" />
+        <Line Type="2" Event="3002" Name="AUTOP23">
+            <Param type="13" srctype="8" data="AUTOP24" Index="0" />
+            <Param type="6" data="pDropProb" Index="1" />
+        </Line>
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP22" Index="0" />
+            <Param type="6" data="pTempProb" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="13" srctype="4" data="AUTOP23" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP25" />
+        <Line Type="2" Event="4701" Name="AUTOP27">
+            <Param type="2" data="100" Index="0" />
+        </Line>
+        <Line Type="2" Event="5075" Name="AUTOP26">
+            <Param type="13" srctype="4" data="AUTOP27" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="1" Index="2" />
+        </Line>
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP25" Index="0" />
+            <Param type="6" data="nTempNum" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="13" srctype="4" data="AUTOP26" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP30" />
+        <Line Type="2" Event="3002" Name="AUTOP29">
+            <Param type="13" srctype="8" data="AUTOP30" Index="0" />
+            <Param type="6" data="pTempProb" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP32" />
+        <Line Type="2" Event="3002" Name="AUTOP31">
+            <Param type="13" srctype="8" data="AUTOP32" Index="0" />
+            <Param type="6" data="nTempNum" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP28">
+            <Param type="13" srctype="4" data="AUTOP29" Index="0" />
+            <Param type="2" data="4" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP31" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="112">
+            <Param type="13" bool="true" srctype="1" data="AUTOP28" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP33" />
+        <Line Type="2" Event="2001" Name="AUTOP36" />
+        <Line Type="2" Event="3002" Name="AUTOP35">
+            <Param type="13" srctype="8" data="AUTOP36" Index="0" />
+            <Param type="6" data="pHealProb" Index="1" />
+        </Line>
+        <Line Type="2" Event="4701" Name="AUTOP34">
+            <Param type="13" srctype="2" data="AUTOP35" Index="0" />
+        </Line>
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP33" Index="0" />
+            <Param type="6" data="tHealProb" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="13" srctype="4" data="AUTOP34" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP37" />
+        <Line Type="2" Event="2001" Name="AUTOP40" />
+        <Line Type="2" Event="3002" Name="AUTOP39">
+            <Param type="13" srctype="8" data="AUTOP40" Index="0" />
+            <Param type="6" data="pMagProb" Index="1" />
+        </Line>
+        <Line Type="2" Event="4701" Name="AUTOP38">
+            <Param type="13" srctype="2" data="AUTOP39" Index="0" />
+        </Line>
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP37" Index="0" />
+            <Param type="6" data="tMagProb" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="13" srctype="4" data="AUTOP38" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP41" />
+        <Line Type="2" Event="2001" Name="AUTOP44" />
+        <Line Type="2" Event="3002" Name="AUTOP43">
+            <Param type="13" srctype="8" data="AUTOP44" Index="0" />
+            <Param type="6" data="pAttProb" Index="1" />
+        </Line>
+        <Line Type="2" Event="4701" Name="AUTOP42">
+            <Param type="13" srctype="2" data="AUTOP43" Index="0" />
+        </Line>
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP41" Index="0" />
+            <Param type="6" data="tAttProb" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="13" srctype="4" data="AUTOP42" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP45" />
+        <Line Type="2" Event="2001" Name="AUTOP48" />
+        <Line Type="2" Event="3002" Name="AUTOP47">
+            <Param type="13" srctype="8" data="AUTOP48" Index="0" />
+            <Param type="6" data="pMAttProb" Index="1" />
+        </Line>
+        <Line Type="2" Event="4701" Name="AUTOP46">
+            <Param type="13" srctype="2" data="AUTOP47" Index="0" />
+        </Line>
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP45" Index="0" />
+            <Param type="6" data="tMAttProb" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="13" srctype="4" data="AUTOP46" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP49" />
+        <Line Type="2" Event="2001" Name="AUTOP52" />
+        <Line Type="2" Event="3002" Name="AUTOP51">
+            <Param type="13" srctype="8" data="AUTOP52" Index="0" />
+            <Param type="6" data="pDefProb" Index="1" />
+        </Line>
+        <Line Type="2" Event="4701" Name="AUTOP50">
+            <Param type="13" srctype="2" data="AUTOP51" Index="0" />
+        </Line>
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP49" Index="0" />
+            <Param type="6" data="tDefProb" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="13" srctype="4" data="AUTOP50" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP53" />
+        <Line Type="2" Event="2001" Name="AUTOP56" />
+        <Line Type="2" Event="3002" Name="AUTOP55">
+            <Param type="13" srctype="8" data="AUTOP56" Index="0" />
+            <Param type="6" data="pPointProb" Index="1" />
+        </Line>
+        <Line Type="2" Event="4701" Name="AUTOP54">
+            <Param type="13" srctype="2" data="AUTOP55" Index="0" />
+        </Line>
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP53" Index="0" />
+            <Param type="6" data="tPointProb" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="13" srctype="4" data="AUTOP54" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP59" />
+        <Line Type="2" Event="3002" Name="AUTOP58">
+            <Param type="13" srctype="8" data="AUTOP59" Index="0" />
+            <Param type="6" data="tHealProb" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP61" />
+        <Line Type="2" Event="3002" Name="AUTOP60">
+            <Param type="13" srctype="8" data="AUTOP61" Index="0" />
+            <Param type="6" data="tMagProb" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP57">
+            <Param type="13" srctype="4" data="AUTOP58" Index="0" />
+            <Param type="2" data="4" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP60" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="2">
+            <Param type="13" bool="true" srctype="1" data="AUTOP57" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP62" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP62" Index="0" />
+            <Param type="6" data="sDropName" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="6" data="tHealProb" Index="3" />
+        </Line>
+        <Line Type="7" IncludeLines="2" />
+        <Line Type="2" Event="2001" Name="AUTOP63" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP63" Index="0" />
+            <Param type="6" data="sDropName" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="6" data="tMagProb" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP66" />
+        <Line Type="2" Event="2001" Name="AUTOP68" />
+        <Line Type="2" Event="3002" Name="AUTOP67">
+            <Param type="13" srctype="8" data="AUTOP68" Index="0" />
+            <Param type="6" data="sDropName" Index="1" />
+        </Line>
+        <Line Type="2" Event="3002" Name="AUTOP65">
+            <Param type="13" srctype="8" data="AUTOP66" Index="0" />
+            <Param type="13" srctype="6" data="AUTOP67" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP70" />
+        <Line Type="2" Event="3002" Name="AUTOP69">
+            <Param type="13" srctype="8" data="AUTOP70" Index="0" />
+            <Param type="6" data="tAttProb" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP64">
+            <Param type="13" srctype="4" data="AUTOP65" Index="0" />
+            <Param type="2" data="4" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP69" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="0">
+            <Param type="13" bool="true" srctype="1" data="AUTOP64" Index="0" />
+        </Line>
+        <Line Type="7" IncludeLines="2" />
+        <Line Type="2" Event="2001" Name="AUTOP71" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP71" Index="0" />
+            <Param type="6" data="sDropName" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="6" data="tAttProb" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP74" />
+        <Line Type="2" Event="2001" Name="AUTOP76" />
+        <Line Type="2" Event="3002" Name="AUTOP75">
+            <Param type="13" srctype="8" data="AUTOP76" Index="0" />
+            <Param type="6" data="sDropName" Index="1" />
+        </Line>
+        <Line Type="2" Event="3002" Name="AUTOP73">
+            <Param type="13" srctype="8" data="AUTOP74" Index="0" />
+            <Param type="13" srctype="6" data="AUTOP75" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP78" />
+        <Line Type="2" Event="3002" Name="AUTOP77">
+            <Param type="13" srctype="8" data="AUTOP78" Index="0" />
+            <Param type="6" data="tMAttProb" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP72">
+            <Param type="13" srctype="4" data="AUTOP73" Index="0" />
+            <Param type="2" data="4" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP77" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="0">
+            <Param type="13" bool="true" srctype="1" data="AUTOP72" Index="0" />
+        </Line>
+        <Line Type="7" IncludeLines="2" />
+        <Line Type="2" Event="2001" Name="AUTOP79" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP79" Index="0" />
+            <Param type="6" data="sDropName" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="6" data="tMAttProb" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP82" />
+        <Line Type="2" Event="2001" Name="AUTOP84" />
+        <Line Type="2" Event="3002" Name="AUTOP83">
+            <Param type="13" srctype="8" data="AUTOP84" Index="0" />
+            <Param type="6" data="sDropName" Index="1" />
+        </Line>
+        <Line Type="2" Event="3002" Name="AUTOP81">
+            <Param type="13" srctype="8" data="AUTOP82" Index="0" />
+            <Param type="13" srctype="6" data="AUTOP83" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP86" />
+        <Line Type="2" Event="3002" Name="AUTOP85">
+            <Param type="13" srctype="8" data="AUTOP86" Index="0" />
+            <Param type="6" data="tDefProb" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP80">
+            <Param type="13" srctype="4" data="AUTOP81" Index="0" />
+            <Param type="2" data="4" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP85" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="0">
+            <Param type="13" bool="true" srctype="1" data="AUTOP80" Index="0" />
+        </Line>
+        <Line Type="7" IncludeLines="2" />
+        <Line Type="2" Event="2001" Name="AUTOP87" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP87" Index="0" />
+            <Param type="6" data="sDropName" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="6" data="tDefProb" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP90" />
+        <Line Type="2" Event="2001" Name="AUTOP92" />
+        <Line Type="2" Event="3002" Name="AUTOP91">
+            <Param type="13" srctype="8" data="AUTOP92" Index="0" />
+            <Param type="6" data="sDropName" Index="1" />
+        </Line>
+        <Line Type="2" Event="3002" Name="AUTOP89">
+            <Param type="13" srctype="8" data="AUTOP90" Index="0" />
+            <Param type="13" srctype="6" data="AUTOP91" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP94" />
+        <Line Type="2" Event="3002" Name="AUTOP93">
+            <Param type="13" srctype="8" data="AUTOP94" Index="0" />
+            <Param type="6" data="tPointProb" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP88">
+            <Param type="13" srctype="4" data="AUTOP89" Index="0" />
+            <Param type="2" data="4" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP93" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="0">
+            <Param type="13" bool="true" srctype="1" data="AUTOP88" Index="0" />
+        </Line>
+        <Line Type="7" IncludeLines="2" />
+        <Line Type="2" Event="2001" Name="AUTOP95" />
+        <Line Type="1" Event="3000">
+            <Param type="13" srctype="8" data="AUTOP95" Index="0" />
+            <Param type="6" data="sDropName" Index="1" />
+            <Param type="2" data="6" Index="2" />
+            <Param type="6" data="tPointProb" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP97" />
+        <Line Type="2" Event="3002" Name="AUTOP96">
+            <Param type="13" srctype="8" data="AUTOP97" Index="0" />
+            <Param type="6" data="sDropName" Index="1" />
+        </Line>
+        <Line Type="10" CaseNum="6" IncludeLines="24">
+            <Param type="13" srctype="6" data="AUTOP96" Index="0" />
+        </Line>
+        <Line Type="11" IncludeLines="3">
+            <Param type="6" data="tHealProb" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP99" />
+        <Line Type="2" Event="4732" Name="AUTOP98">
+            <Param type="13" srctype="8" data="AUTOP99" Index="0" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP98" Index="0" />
+            <Param type="6" data="FB_llqd_0002" Index="1" />
+            <Param type="6" data="HealDrop" Index="2" />
+        </Line>
+        <Line Type="11" IncludeLines="3">
+            <Param type="6" data="tMagProb" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP101" />
+        <Line Type="2" Event="4732" Name="AUTOP100">
+            <Param type="13" srctype="8" data="AUTOP101" Index="0" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP100" Index="0" />
+            <Param type="6" data="FB_llqd_0001" Index="1" />
+            <Param type="6" data="MagDrop" Index="2" />
+        </Line>
+        <Line Type="11" IncludeLines="3">
+            <Param type="6" data="tAttProb" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP103" />
+        <Line Type="2" Event="4732" Name="AUTOP102">
+            <Param type="13" srctype="8" data="AUTOP103" Index="0" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP102" Index="0" />
+            <Param type="6" data="FB_llqd_0003" Index="1" />
+            <Param type="6" data="AttDrop" Index="2" />
+        </Line>
+        <Line Type="11" IncludeLines="3">
+            <Param type="6" data="tMAttProb" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP105" />
+        <Line Type="2" Event="4732" Name="AUTOP104">
+            <Param type="13" srctype="8" data="AUTOP105" Index="0" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP104" Index="0" />
+            <Param type="6" data="FB_llqd_0005" Index="1" />
+            <Param type="6" data="MAttDrop" Index="2" />
+        </Line>
+        <Line Type="11" IncludeLines="3">
+            <Param type="6" data="tDefProb" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP107" />
+        <Line Type="2" Event="4732" Name="AUTOP106">
+            <Param type="13" srctype="8" data="AUTOP107" Index="0" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP106" Index="0" />
+            <Param type="6" data="FB_llqd_0006" Index="1" />
+            <Param type="6" data="DefDrop" Index="2" />
+        </Line>
+        <Line Type="11" IncludeLines="3">
+            <Param type="6" data="tPointProb" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP109" />
+        <Line Type="2" Event="4732" Name="AUTOP108">
+            <Param type="13" srctype="8" data="AUTOP109" Index="0" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP108" Index="0" />
+            <Param type="6" data="FB_llqd_0004" Index="1" />
+            <Param type="6" data="PointDrop" Index="2" />
+        </Line>
+        <Line Type="7" IncludeLines="0" />
+        <Line Type="2" Event="2001" Name="AUTOP111" />
+        <Line Type="2" Event="2201" Name="AUTOP110">
+            <Param type="13" srctype="8" data="AUTOP111" Index="0" />
+            <Param type="6" data="PointDrop" Index="1" />
+        </Line>
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP110" Index="0" />
+            <Param type="6" data="PointNum" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="20" Index="3" />
+        </Line>
+    </Base>
+</Processor>

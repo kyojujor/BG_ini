@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<Object>
+	<Property ID="923" GirdX="1" GirdY="2" ChildTask="924" IsHide="1"/>
+	<Property ID="924" GirdX="2" GirdY="2" FatherTask="923" ChildTask="925" IsHide="1"/>
+	<Property ID="925" GirdX="3" GirdY="2" FatherTask="924" ChildTask="926" IsHide="1"/>
+	<Property ID="926" GirdX="4" GirdY="2" FatherTask="925" ChildTask="4660" IsHide="1"/>
+	<Property ID="4660" GirdX="5" GirdY="2" FatherTask="926" ChildTask="4665" IsHide="1"/>
+	<Property ID="4665" GirdX="6" GirdY="2" FatherTask="4660" ChildTask="4666" IsHide="1"/>
+	<Property ID="4666" GirdX="7" GirdY="2" FatherTask="4665" ChildTask="4667" IsHide="1"/>
+	<Property ID="4667" GirdX="8" GirdY="2" FatherTask="4666" ChildTask="4668" IsHide="1"/>
+	<Property ID="4668" GirdX="9" GirdY="2" FatherTask="4667" ChildTask="4670" IsHide="1"/>
+	<Property ID="4670" GirdX="10" GirdY="2" FatherTask="4668" ChildTask="4673" IsHide="1"/>
+	<Property ID="4673" GirdX="11" GirdY="2" FatherTask="4670" ChildTask="4674" IsHide="1"/>
+	<Property ID="4674" GirdX="12" GirdY="2" FatherTask="4673" ChildTask="4675" IsHide="1"/>
+	<Property ID="4675" GirdX="13" GirdY="2" FatherTask="4674" ChildTask="4678" IsHide="1"/>
+	<Property ID="4678" GirdX="14" GirdY="2" FatherTask="4675" ChildTask="4679" IsHide="1"/>
+	<Property ID="4679" GirdX="15" GirdY="2" FatherTask="4678" ChildTask="4680" IsHide="1"/>
+	<Property ID="4680" GirdX="16" GirdY="2" FatherTask="4679" ChildTask="4681" IsHide="1"/>
+	<Property ID="4681" GirdX="17" GirdY="2" FatherTask="4680" ChildTask="4682" IsHide="1"/>
+	<Property ID="4682" GirdX="18" GirdY="2" FatherTask="4681" ChildTask="927" IsHide="1"/>
+	<Property ID="927" GirdX="19" GirdY="2" FatherTask="4682" ChildTask="928" IsHide="1"/>
+	<Property ID="928" GirdX="20" GirdY="2" FatherTask="927" IsHide="1" LastTask="1"/>
+</Object>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2010 (http://www.altova.com) by MESMERiZE (MiZE) -->
+<!--
+	CanShowSkillName :  0显示，1不显示，技能名称开关：是否显示技能名称，显示的是技能自己的名字
+	SkillPic:			技能图标：技能配置路径图标,不配不显示
+	SkillInfo:			提示信息： 根据场景，boss名，技能 确定，不配不显示
+	BackImage:			背景框： 不配不显示，配了显示
+	ShowTimes:			显示的持续时间: 不填默认3s
+	ShowSound:			音效，不配不播
+	Skillseat:      控制技能名称字体位置 如10,10
+	Txtseat:        控制提示信息字体位置 如10,10
+	Skillcolour:    控制技能名显示颜色 如255,255,0
+	Format:         控制中文提示信息和技能名字体格式 0默认,1粗体
+-->
+<Object>
+	<Property ID="1" CanShowSkillName="1" SkillPic="icon\BG_Skill\heijin_jineng_fengkuangsaoshe.png" SkillInfo="boss" BackImage="gui\ZQ\common_new\tips_bg.png" ShowTimes="3" ShowSound="snd\action\ZC\ZC_ALSKJD_010.wav"/>
+	<Property ID="2" CanShowSkillName="1" SkillPic="icon\BG_Skill\jineng_putonggongji.png" BackImage="gui\ZQ\common_new\tips_bg.png"/>
+	<Property ID="4000" CanShowSkillName="0" SkillPic="" SkillInfo="" BackImage="gui\ZQ\qte\skill_BOSS_bg.png" ShowTimes="3" ShowSound="snd\action\ZC\ZC_ALSKJD_010.wav" Skillseat="100,0" Txtseat="100,0" Skillcolour="255,255,0" Format="0"/>
+	<Property ID="4001" CanShowSkillName="0" SkillPic="" SkillInfo="" BackImage="gui\ZQ\qte\skill_BOSS_bg.png" ShowTimes="3" ShowSound="snd\action\ZC\ZC_ALSKJD_010.wav" Skillseat="100,0" Txtseat="100,0" Skillcolour="255,255,0" Format="0"/>
+	<Property ID="4002" CanShowSkillName="0" SkillPic="" SkillInfo="" BackImage="gui\ZQ\qte\skill_BOSS_bg.png" ShowTimes="2" ShowSound="snd\action\ZC\ZC_ALSKJD_010.wav" Skillseat="100,0" Txtseat="100,0" Skillcolour="255,255,0" Format="0"/>
+	<Property ID="4003" CanShowSkillName="0" SkillPic="" SkillInfo="" BackImage="gui\ZQ\qte\skill_BOSS_bg.png" ShowTimes="2" ShowSound="snd\action\ZC\ZC_ALSKJD_010.wav" Skillseat="100,0" Txtseat="100,0" Skillcolour="255,255,0" Format="0"/>
+	<Property ID="4004" CanShowSkillName="0" SkillPic="" SkillInfo="" BackImage="gui\ZQ\qte\skill_BOSS_bg.png" ShowTimes="3" ShowSound="snd\action\ZC\ZC_ALSKJD_010.wav" Skillseat="100,0" Txtseat="100,0" Skillcolour="255,255,0" Format="0"/>
+	<Property ID="4005" CanShowSkillName="0" SkillPic="" SkillInfo="" BackImage="gui\ZQ\qte\skill_BOSS_bg.png" ShowTimes="3.5" ShowSound="snd\action\ZC\ZC_ALSKJD_010.wav" Skillseat="100,0" Txtseat="100,0" Skillcolour="255,255,0" Format="0"/>
+	<Property ID="4006" CanShowSkillName="0" SkillPic="" SkillInfo="" BackImage="gui\ZQ\qte\skill_BOSS_bg.png" ShowTimes="5" ShowSound="snd\action\ZC\ZC_ALSKJD_010.wav" Skillseat="100,0" Txtseat="100,0" Skillcolour="255,255,0" Format="0"/>
+	<Property ID="4007" CanShowSkillName="0" SkillPic="" SkillInfo="" BackImage="gui\ZQ\qte\skill_BOSS_bg.png" ShowTimes="4" ShowSound="snd\action\ZC\ZC_ALSKJD_010.wav" Skillseat="100,0" Txtseat="100,0" Skillcolour="255,255,0" Format="0"/>
+	<Property ID="4008" CanShowSkillName="0" SkillPic="" SkillInfo="" BackImage="gui\ZQ\qte\skill_BOSS_bg.png" ShowTimes="3" ShowSound="snd\action\ZC\ZC_ALSKJD_010.wav" Skillseat="100,0" Txtseat="100,0" Skillcolour="255,255,0" Format="0"/>
+	<Property ID="4009" CanShowSkillName="0" SkillPic="" SkillInfo="" BackImage="gui\ZQ\qte\skill_BOSS_bg.png" ShowTimes="1.5" ShowSound="snd\action\ZC\ZC_ALSKJD_010.wav" Skillseat="100,0" Txtseat="100,0" Skillcolour="255,255,0" Format="0"/>
+	<Property ID="4010" CanShowSkillName="0" SkillPic="" SkillInfo="" BackImage="gui\ZQ\qte\skill_BOSS_bg.png" ShowTimes="1.5" ShowSound="snd\action\ZC\ZC_ALSKJD_010.wav" Skillseat="100,0" Txtseat="100,0" Skillcolour="255,255,0" Format="0"/>
+	<Property ID="4011" CanShowSkillName="0" SkillPic="" SkillInfo="" BackImage="gui\ZQ\qte\skill_BOSS_bg.png" ShowTimes="2" ShowSound="snd\action\ZC\ZC_ALSKJD_010.wav" Skillseat="100,0" Txtseat="100,0" Skillcolour="255,255,0" Format="0"/>
+	<Property ID="4012" CanShowSkillName="0" SkillPic="" SkillInfo="" BackImage="gui\ZQ\qte\skill_BOSS_bg.png" ShowTimes="2" ShowSound="snd\action\ZC\ZC_ALSKJD_010.wav" Skillseat="100,0" Txtseat="100,0" Skillcolour="255,255,0" Format="0"/>
+	<Property ID="4013" CanShowSkillName="0" SkillPic="" SkillInfo="" BackImage="gui\ZQ\qte\skill_BOSS_bg.png" ShowTimes="2" ShowSound="snd\action\ZC\ZC_ALSKJD_010.wav" Skillseat="100,0" Txtseat="100,0" Skillcolour="255,255,0" Format="0"/>
+	<Property ID="4014" CanShowSkillName="0" SkillPic="" SkillInfo="" BackImage="gui\ZQ\qte\skill_BOSS_bg.png" ShowTimes="2" ShowSound="snd\action\ZC\ZC_ALSKJD_010.wav" Skillseat="100,0" Txtseat="100,0" Skillcolour="255,255,0" Format="0"/>
+	<Property ID="4015" CanShowSkillName="0" SkillPic="" SkillInfo="" BackImage="gui\ZQ\qte\skill_BOSS_bg.png" ShowTimes="2.5" ShowSound="snd\action\ZC\ZC_ALSKJD_010.wav" Skillseat="100,0" Txtseat="100,0" Skillcolour="255,255,0" Format="0"/>
+	<Property ID="4016" CanShowSkillName="0" SkillPic="" SkillInfo="" BackImage="gui\ZQ\qte\skill_BOSS_bg.png" ShowTimes="3" ShowSound="snd\action\ZC\ZC_ALSKJD_010.wav" Skillseat="100,0" Txtseat="100,0" Skillcolour="255,255,0" Format="0"/>
+</Object>

@@ -1,0 +1,905 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes" ?>
+<Processor>
+    <Base type="object" version="1.0">
+        <Line Type="2" Event="2001" Name="AUTOP3" />
+        <Line Type="2" Event="3002" Name="AUTOP2">
+            <Param type="13" srctype="8" data="AUTOP3" Index="0" />
+            <Param type="6" data="nEWave01Left01" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP1">
+            <Param type="13" srctype="4" data="AUTOP2" Index="0" />
+            <Param type="2" data="3" Index="1" />
+            <Param type="4" data="0" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="27">
+            <Param type="13" bool="true" srctype="1" data="AUTOP1" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP5" />
+        <Line Type="2" Event="3002" Name="AUTOP4">
+            <Param type="13" srctype="8" data="AUTOP5" Index="0" />
+            <Param type="6" data="nEWave01Left01" Index="1" />
+        </Line>
+        <Line Type="14" IncludeLines="8">
+            <Param type="13" srctype="2" data="AUTOP4" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP7" />
+        <Line Type="2" Event="3002" Name="AUTOP6">
+            <Param type="13" srctype="8" data="AUTOP7" Index="0" />
+            <Param type="6" data="zuobiao1" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP9" />
+        <Line Type="2" Event="3002" Name="AUTOP8">
+            <Param type="13" srctype="8" data="AUTOP9" Index="0" />
+            <Param type="6" data="iDEWave01Left01" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP6" Index="0" />
+            <Param type="13" srctype="6" data="AUTOP8" Index="1" />
+            <Param type="6" data="EMonster01" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP11" />
+        <Line Type="2" Event="3002" Name="AUTOP10">
+            <Param type="13" srctype="8" data="AUTOP11" Index="0" />
+            <Param type="6" data="EMonster01" Index="1" />
+        </Line>
+        <Line Type="1" Event="4205">
+            <Param type="13" srctype="8" data="AUTOP10" Index="0" />
+            <Param type="6" data="guaiwu01" Index="1" />
+        </Line>
+        <Line Type="2" Event="5082" Name="AUTOP12">
+            <Param type="8" data=" " Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP15" />
+        <Line Type="2" Event="2201" Name="AUTOP14">
+            <Param type="13" srctype="8" data="AUTOP15" Index="0" />
+            <Param type="6" data="EMonster01" Index="1" />
+        </Line>
+        <Line Type="2" Event="4736" Name="AUTOP13">
+            <Param type="13" srctype="8" data="AUTOP14" Index="0" />
+            <Param type="2" data="0" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP18" />
+        <Line Type="2" Event="2201" Name="AUTOP17">
+            <Param type="13" srctype="8" data="AUTOP18" Index="0" />
+            <Param type="6" data="EMonster01" Index="1" />
+        </Line>
+        <Line Type="2" Event="4736" Name="AUTOP16">
+            <Param type="13" srctype="8" data="AUTOP17" Index="0" />
+            <Param type="2" data="2" Index="1" />
+        </Line>
+        <Line Type="1" Event="4575">
+            <Param type="13" srctype="8" data="AUTOP12" Index="0" />
+            <Param type="6" data="itemnpc_sn_0042_t1" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP13" Index="2" />
+            <Param type="13" srctype="4" data="AUTOP16" Index="3" />
+        </Line>
+        <Line Type="2" Event="5082" Name="AUTOP19">
+            <Param type="8" data=" " Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP22" />
+        <Line Type="2" Event="2201" Name="AUTOP21">
+            <Param type="13" srctype="8" data="AUTOP22" Index="0" />
+            <Param type="6" data="EMonster01" Index="1" />
+        </Line>
+        <Line Type="2" Event="4736" Name="AUTOP20">
+            <Param type="13" srctype="8" data="AUTOP21" Index="0" />
+            <Param type="2" data="0" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP25" />
+        <Line Type="2" Event="2201" Name="AUTOP24">
+            <Param type="13" srctype="8" data="AUTOP25" Index="0" />
+            <Param type="6" data="EMonster01" Index="1" />
+        </Line>
+        <Line Type="2" Event="4736" Name="AUTOP23">
+            <Param type="13" srctype="8" data="AUTOP24" Index="0" />
+            <Param type="2" data="2" Index="1" />
+        </Line>
+        <Line Type="1" Event="4575">
+            <Param type="13" srctype="8" data="AUTOP19" Index="0" />
+            <Param type="6" data="light_circ_32" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP20" Index="2" />
+            <Param type="13" srctype="4" data="AUTOP23" Index="3" />
+        </Line>
+        <Line Type="7" IncludeLines="0" />
+        <Line Type="2" Event="2001" Name="AUTOP28" />
+        <Line Type="2" Event="3002" Name="AUTOP27">
+            <Param type="13" srctype="8" data="AUTOP28" Index="0" />
+            <Param type="6" data="nEWave01Left02" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP26">
+            <Param type="13" srctype="4" data="AUTOP27" Index="0" />
+            <Param type="2" data="3" Index="1" />
+            <Param type="4" data="0" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="27">
+            <Param type="13" bool="true" srctype="1" data="AUTOP26" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP30" />
+        <Line Type="2" Event="3002" Name="AUTOP29">
+            <Param type="13" srctype="8" data="AUTOP30" Index="0" />
+            <Param type="6" data="nEWave01Left02" Index="1" />
+        </Line>
+        <Line Type="14" IncludeLines="8">
+            <Param type="13" srctype="2" data="AUTOP29" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP32" />
+        <Line Type="2" Event="3002" Name="AUTOP31">
+            <Param type="13" srctype="8" data="AUTOP32" Index="0" />
+            <Param type="6" data="zuobiao1" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP34" />
+        <Line Type="2" Event="3002" Name="AUTOP33">
+            <Param type="13" srctype="8" data="AUTOP34" Index="0" />
+            <Param type="6" data="iDEWave01Left02" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP31" Index="0" />
+            <Param type="13" srctype="6" data="AUTOP33" Index="1" />
+            <Param type="6" data="EMonster02" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP36" />
+        <Line Type="2" Event="3002" Name="AUTOP35">
+            <Param type="13" srctype="8" data="AUTOP36" Index="0" />
+            <Param type="6" data="EMonster02" Index="1" />
+        </Line>
+        <Line Type="1" Event="4205">
+            <Param type="13" srctype="8" data="AUTOP35" Index="0" />
+            <Param type="6" data="guaiwu0101" Index="1" />
+        </Line>
+        <Line Type="2" Event="5082" Name="AUTOP37">
+            <Param type="8" data=" " Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP40" />
+        <Line Type="2" Event="2201" Name="AUTOP39">
+            <Param type="13" srctype="8" data="AUTOP40" Index="0" />
+            <Param type="6" data="EMonster02" Index="1" />
+        </Line>
+        <Line Type="2" Event="4736" Name="AUTOP38">
+            <Param type="13" srctype="8" data="AUTOP39" Index="0" />
+            <Param type="2" data="0" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP43" />
+        <Line Type="2" Event="2201" Name="AUTOP42">
+            <Param type="13" srctype="8" data="AUTOP43" Index="0" />
+            <Param type="6" data="EMonster02" Index="1" />
+        </Line>
+        <Line Type="2" Event="4736" Name="AUTOP41">
+            <Param type="13" srctype="8" data="AUTOP42" Index="0" />
+            <Param type="2" data="2" Index="1" />
+        </Line>
+        <Line Type="1" Event="4575">
+            <Param type="13" srctype="8" data="AUTOP37" Index="0" />
+            <Param type="6" data="itemnpc_sn_0042_t1" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP38" Index="2" />
+            <Param type="13" srctype="4" data="AUTOP41" Index="3" />
+        </Line>
+        <Line Type="2" Event="5082" Name="AUTOP44">
+            <Param type="8" data=" " Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP47" />
+        <Line Type="2" Event="2201" Name="AUTOP46">
+            <Param type="13" srctype="8" data="AUTOP47" Index="0" />
+            <Param type="6" data="EMonster02" Index="1" />
+        </Line>
+        <Line Type="2" Event="4736" Name="AUTOP45">
+            <Param type="13" srctype="8" data="AUTOP46" Index="0" />
+            <Param type="2" data="0" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP50" />
+        <Line Type="2" Event="2201" Name="AUTOP49">
+            <Param type="13" srctype="8" data="AUTOP50" Index="0" />
+            <Param type="6" data="EMonster02" Index="1" />
+        </Line>
+        <Line Type="2" Event="4736" Name="AUTOP48">
+            <Param type="13" srctype="8" data="AUTOP49" Index="0" />
+            <Param type="2" data="2" Index="1" />
+        </Line>
+        <Line Type="1" Event="4575">
+            <Param type="13" srctype="8" data="AUTOP44" Index="0" />
+            <Param type="6" data="light_circ_32" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP45" Index="2" />
+            <Param type="13" srctype="4" data="AUTOP48" Index="3" />
+        </Line>
+        <Line Type="7" IncludeLines="0" />
+        <Line Type="2" Event="2001" Name="AUTOP53" />
+        <Line Type="2" Event="3002" Name="AUTOP52">
+            <Param type="13" srctype="8" data="AUTOP53" Index="0" />
+            <Param type="6" data="nEWave01Left03" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP51">
+            <Param type="13" srctype="4" data="AUTOP52" Index="0" />
+            <Param type="2" data="3" Index="1" />
+            <Param type="4" data="0" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="27">
+            <Param type="13" bool="true" srctype="1" data="AUTOP51" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP55" />
+        <Line Type="2" Event="3002" Name="AUTOP54">
+            <Param type="13" srctype="8" data="AUTOP55" Index="0" />
+            <Param type="6" data="nEWave01Left03" Index="1" />
+        </Line>
+        <Line Type="14" IncludeLines="8">
+            <Param type="13" srctype="2" data="AUTOP54" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP57" />
+        <Line Type="2" Event="3002" Name="AUTOP56">
+            <Param type="13" srctype="8" data="AUTOP57" Index="0" />
+            <Param type="6" data="zuobiao1" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP59" />
+        <Line Type="2" Event="3002" Name="AUTOP58">
+            <Param type="13" srctype="8" data="AUTOP59" Index="0" />
+            <Param type="6" data="iDEWave01Left03" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP56" Index="0" />
+            <Param type="13" srctype="6" data="AUTOP58" Index="1" />
+            <Param type="6" data="EMonster03" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP61" />
+        <Line Type="2" Event="3002" Name="AUTOP60">
+            <Param type="13" srctype="8" data="AUTOP61" Index="0" />
+            <Param type="6" data="EMonster03" Index="1" />
+        </Line>
+        <Line Type="1" Event="4205">
+            <Param type="13" srctype="8" data="AUTOP60" Index="0" />
+            <Param type="6" data="guaiwu0102" Index="1" />
+        </Line>
+        <Line Type="2" Event="5082" Name="AUTOP62">
+            <Param type="8" data=" " Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP65" />
+        <Line Type="2" Event="2201" Name="AUTOP64">
+            <Param type="13" srctype="8" data="AUTOP65" Index="0" />
+            <Param type="6" data="EMonster03" Index="1" />
+        </Line>
+        <Line Type="2" Event="4736" Name="AUTOP63">
+            <Param type="13" srctype="8" data="AUTOP64" Index="0" />
+            <Param type="2" data="0" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP68" />
+        <Line Type="2" Event="2201" Name="AUTOP67">
+            <Param type="13" srctype="8" data="AUTOP68" Index="0" />
+            <Param type="6" data="EMonster03" Index="1" />
+        </Line>
+        <Line Type="2" Event="4736" Name="AUTOP66">
+            <Param type="13" srctype="8" data="AUTOP67" Index="0" />
+            <Param type="2" data="2" Index="1" />
+        </Line>
+        <Line Type="1" Event="4575">
+            <Param type="13" srctype="8" data="AUTOP62" Index="0" />
+            <Param type="6" data="itemnpc_sn_0042_t1" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP63" Index="2" />
+            <Param type="13" srctype="4" data="AUTOP66" Index="3" />
+        </Line>
+        <Line Type="2" Event="5082" Name="AUTOP69">
+            <Param type="8" data=" " Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP72" />
+        <Line Type="2" Event="2201" Name="AUTOP71">
+            <Param type="13" srctype="8" data="AUTOP72" Index="0" />
+            <Param type="6" data="EMonster03" Index="1" />
+        </Line>
+        <Line Type="2" Event="4736" Name="AUTOP70">
+            <Param type="13" srctype="8" data="AUTOP71" Index="0" />
+            <Param type="2" data="0" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP75" />
+        <Line Type="2" Event="2201" Name="AUTOP74">
+            <Param type="13" srctype="8" data="AUTOP75" Index="0" />
+            <Param type="6" data="EMonster03" Index="1" />
+        </Line>
+        <Line Type="2" Event="4736" Name="AUTOP73">
+            <Param type="13" srctype="8" data="AUTOP74" Index="0" />
+            <Param type="2" data="2" Index="1" />
+        </Line>
+        <Line Type="1" Event="4575">
+            <Param type="13" srctype="8" data="AUTOP69" Index="0" />
+            <Param type="6" data="light_circ_32" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP70" Index="2" />
+            <Param type="13" srctype="4" data="AUTOP73" Index="3" />
+        </Line>
+        <Line Type="7" IncludeLines="0" />
+        <Line Type="2" Event="2001" Name="AUTOP78" />
+        <Line Type="2" Event="3002" Name="AUTOP77">
+            <Param type="13" srctype="8" data="AUTOP78" Index="0" />
+            <Param type="6" data="nEWave01Mid01" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP76">
+            <Param type="13" srctype="4" data="AUTOP77" Index="0" />
+            <Param type="2" data="3" Index="1" />
+            <Param type="4" data="0" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="27">
+            <Param type="13" bool="true" srctype="1" data="AUTOP76" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP80" />
+        <Line Type="2" Event="3002" Name="AUTOP79">
+            <Param type="13" srctype="8" data="AUTOP80" Index="0" />
+            <Param type="6" data="nEWave01Mid01" Index="1" />
+        </Line>
+        <Line Type="14" IncludeLines="8">
+            <Param type="13" srctype="2" data="AUTOP79" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP82" />
+        <Line Type="2" Event="3002" Name="AUTOP81">
+            <Param type="13" srctype="8" data="AUTOP82" Index="0" />
+            <Param type="6" data="zuobiao2" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP84" />
+        <Line Type="2" Event="3002" Name="AUTOP83">
+            <Param type="13" srctype="8" data="AUTOP84" Index="0" />
+            <Param type="6" data="iDEWave01Mid01" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP81" Index="0" />
+            <Param type="13" srctype="6" data="AUTOP83" Index="1" />
+            <Param type="6" data="EMonster04" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP86" />
+        <Line Type="2" Event="3002" Name="AUTOP85">
+            <Param type="13" srctype="8" data="AUTOP86" Index="0" />
+            <Param type="6" data="EMonster04" Index="1" />
+        </Line>
+        <Line Type="1" Event="4205">
+            <Param type="13" srctype="8" data="AUTOP85" Index="0" />
+            <Param type="6" data="guaiwu02" Index="1" />
+        </Line>
+        <Line Type="2" Event="5082" Name="AUTOP87">
+            <Param type="8" data=" " Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP90" />
+        <Line Type="2" Event="2201" Name="AUTOP89">
+            <Param type="13" srctype="8" data="AUTOP90" Index="0" />
+            <Param type="6" data="EMonster04" Index="1" />
+        </Line>
+        <Line Type="2" Event="4736" Name="AUTOP88">
+            <Param type="13" srctype="8" data="AUTOP89" Index="0" />
+            <Param type="2" data="0" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP93" />
+        <Line Type="2" Event="2201" Name="AUTOP92">
+            <Param type="13" srctype="8" data="AUTOP93" Index="0" />
+            <Param type="6" data="EMonster04" Index="1" />
+        </Line>
+        <Line Type="2" Event="4736" Name="AUTOP91">
+            <Param type="13" srctype="8" data="AUTOP92" Index="0" />
+            <Param type="2" data="2" Index="1" />
+        </Line>
+        <Line Type="1" Event="4575">
+            <Param type="13" srctype="8" data="AUTOP87" Index="0" />
+            <Param type="6" data="itemnpc_sn_0042_t1" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP88" Index="2" />
+            <Param type="13" srctype="4" data="AUTOP91" Index="3" />
+        </Line>
+        <Line Type="2" Event="5082" Name="AUTOP94">
+            <Param type="8" data=" " Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP97" />
+        <Line Type="2" Event="2201" Name="AUTOP96">
+            <Param type="13" srctype="8" data="AUTOP97" Index="0" />
+            <Param type="6" data="EMonster04" Index="1" />
+        </Line>
+        <Line Type="2" Event="4736" Name="AUTOP95">
+            <Param type="13" srctype="8" data="AUTOP96" Index="0" />
+            <Param type="2" data="0" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP100" />
+        <Line Type="2" Event="2201" Name="AUTOP99">
+            <Param type="13" srctype="8" data="AUTOP100" Index="0" />
+            <Param type="6" data="EMonster04" Index="1" />
+        </Line>
+        <Line Type="2" Event="4736" Name="AUTOP98">
+            <Param type="13" srctype="8" data="AUTOP99" Index="0" />
+            <Param type="2" data="2" Index="1" />
+        </Line>
+        <Line Type="1" Event="4575">
+            <Param type="13" srctype="8" data="AUTOP94" Index="0" />
+            <Param type="6" data="light_circ_32" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP95" Index="2" />
+            <Param type="13" srctype="4" data="AUTOP98" Index="3" />
+        </Line>
+        <Line Type="7" IncludeLines="0" />
+        <Line Type="2" Event="2001" Name="AUTOP103" />
+        <Line Type="2" Event="3002" Name="AUTOP102">
+            <Param type="13" srctype="8" data="AUTOP103" Index="0" />
+            <Param type="6" data="nEWave01Mid02" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP101">
+            <Param type="13" srctype="4" data="AUTOP102" Index="0" />
+            <Param type="2" data="3" Index="1" />
+            <Param type="4" data="0" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="27">
+            <Param type="13" bool="true" srctype="1" data="AUTOP101" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP105" />
+        <Line Type="2" Event="3002" Name="AUTOP104">
+            <Param type="13" srctype="8" data="AUTOP105" Index="0" />
+            <Param type="6" data="nEWave01Mid02" Index="1" />
+        </Line>
+        <Line Type="14" IncludeLines="8">
+            <Param type="13" srctype="2" data="AUTOP104" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP107" />
+        <Line Type="2" Event="3002" Name="AUTOP106">
+            <Param type="13" srctype="8" data="AUTOP107" Index="0" />
+            <Param type="6" data="zuobiao2" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP109" />
+        <Line Type="2" Event="3002" Name="AUTOP108">
+            <Param type="13" srctype="8" data="AUTOP109" Index="0" />
+            <Param type="6" data="iDEWave01Mid02" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP106" Index="0" />
+            <Param type="13" srctype="6" data="AUTOP108" Index="1" />
+            <Param type="6" data="EMonster05" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP111" />
+        <Line Type="2" Event="3002" Name="AUTOP110">
+            <Param type="13" srctype="8" data="AUTOP111" Index="0" />
+            <Param type="6" data="EMonster05" Index="1" />
+        </Line>
+        <Line Type="1" Event="4205">
+            <Param type="13" srctype="8" data="AUTOP110" Index="0" />
+            <Param type="6" data="guaiwu0201" Index="1" />
+        </Line>
+        <Line Type="2" Event="5082" Name="AUTOP112">
+            <Param type="8" data=" " Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP115" />
+        <Line Type="2" Event="2201" Name="AUTOP114">
+            <Param type="13" srctype="8" data="AUTOP115" Index="0" />
+            <Param type="6" data="EMonster05" Index="1" />
+        </Line>
+        <Line Type="2" Event="4736" Name="AUTOP113">
+            <Param type="13" srctype="8" data="AUTOP114" Index="0" />
+            <Param type="2" data="0" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP118" />
+        <Line Type="2" Event="2201" Name="AUTOP117">
+            <Param type="13" srctype="8" data="AUTOP118" Index="0" />
+            <Param type="6" data="EMonster05" Index="1" />
+        </Line>
+        <Line Type="2" Event="4736" Name="AUTOP116">
+            <Param type="13" srctype="8" data="AUTOP117" Index="0" />
+            <Param type="2" data="2" Index="1" />
+        </Line>
+        <Line Type="1" Event="4575">
+            <Param type="13" srctype="8" data="AUTOP112" Index="0" />
+            <Param type="6" data="itemnpc_sn_0042_t1" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP113" Index="2" />
+            <Param type="13" srctype="4" data="AUTOP116" Index="3" />
+        </Line>
+        <Line Type="2" Event="5082" Name="AUTOP119">
+            <Param type="8" data=" " Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP122" />
+        <Line Type="2" Event="2201" Name="AUTOP121">
+            <Param type="13" srctype="8" data="AUTOP122" Index="0" />
+            <Param type="6" data="EMonster05" Index="1" />
+        </Line>
+        <Line Type="2" Event="4736" Name="AUTOP120">
+            <Param type="13" srctype="8" data="AUTOP121" Index="0" />
+            <Param type="2" data="0" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP125" />
+        <Line Type="2" Event="2201" Name="AUTOP124">
+            <Param type="13" srctype="8" data="AUTOP125" Index="0" />
+            <Param type="6" data="EMonster05" Index="1" />
+        </Line>
+        <Line Type="2" Event="4736" Name="AUTOP123">
+            <Param type="13" srctype="8" data="AUTOP124" Index="0" />
+            <Param type="2" data="2" Index="1" />
+        </Line>
+        <Line Type="1" Event="4575">
+            <Param type="13" srctype="8" data="AUTOP119" Index="0" />
+            <Param type="6" data="light_circ_32" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP120" Index="2" />
+            <Param type="13" srctype="4" data="AUTOP123" Index="3" />
+        </Line>
+        <Line Type="7" IncludeLines="0" />
+        <Line Type="2" Event="2001" Name="AUTOP128" />
+        <Line Type="2" Event="3002" Name="AUTOP127">
+            <Param type="13" srctype="8" data="AUTOP128" Index="0" />
+            <Param type="6" data="nEWave01Mid03" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP126">
+            <Param type="13" srctype="4" data="AUTOP127" Index="0" />
+            <Param type="2" data="3" Index="1" />
+            <Param type="4" data="0" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="27">
+            <Param type="13" bool="true" srctype="1" data="AUTOP126" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP130" />
+        <Line Type="2" Event="3002" Name="AUTOP129">
+            <Param type="13" srctype="8" data="AUTOP130" Index="0" />
+            <Param type="6" data="nEWave01Mid03" Index="1" />
+        </Line>
+        <Line Type="14" IncludeLines="8">
+            <Param type="13" srctype="2" data="AUTOP129" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP132" />
+        <Line Type="2" Event="3002" Name="AUTOP131">
+            <Param type="13" srctype="8" data="AUTOP132" Index="0" />
+            <Param type="6" data="zuobiao2" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP134" />
+        <Line Type="2" Event="3002" Name="AUTOP133">
+            <Param type="13" srctype="8" data="AUTOP134" Index="0" />
+            <Param type="6" data="iDEWave01Mid03" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP131" Index="0" />
+            <Param type="13" srctype="6" data="AUTOP133" Index="1" />
+            <Param type="6" data="EMonster06" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP136" />
+        <Line Type="2" Event="3002" Name="AUTOP135">
+            <Param type="13" srctype="8" data="AUTOP136" Index="0" />
+            <Param type="6" data="EMonster06" Index="1" />
+        </Line>
+        <Line Type="1" Event="4205">
+            <Param type="13" srctype="8" data="AUTOP135" Index="0" />
+            <Param type="6" data="guaiwu0202" Index="1" />
+        </Line>
+        <Line Type="2" Event="5082" Name="AUTOP137">
+            <Param type="8" data=" " Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP140" />
+        <Line Type="2" Event="2201" Name="AUTOP139">
+            <Param type="13" srctype="8" data="AUTOP140" Index="0" />
+            <Param type="6" data="EMonster06" Index="1" />
+        </Line>
+        <Line Type="2" Event="4736" Name="AUTOP138">
+            <Param type="13" srctype="8" data="AUTOP139" Index="0" />
+            <Param type="2" data="0" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP143" />
+        <Line Type="2" Event="2201" Name="AUTOP142">
+            <Param type="13" srctype="8" data="AUTOP143" Index="0" />
+            <Param type="6" data="EMonster06" Index="1" />
+        </Line>
+        <Line Type="2" Event="4736" Name="AUTOP141">
+            <Param type="13" srctype="8" data="AUTOP142" Index="0" />
+            <Param type="2" data="2" Index="1" />
+        </Line>
+        <Line Type="1" Event="4575">
+            <Param type="13" srctype="8" data="AUTOP137" Index="0" />
+            <Param type="6" data="itemnpc_sn_0042_t1" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP138" Index="2" />
+            <Param type="13" srctype="4" data="AUTOP141" Index="3" />
+        </Line>
+        <Line Type="2" Event="5082" Name="AUTOP144">
+            <Param type="8" data=" " Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP147" />
+        <Line Type="2" Event="2201" Name="AUTOP146">
+            <Param type="13" srctype="8" data="AUTOP147" Index="0" />
+            <Param type="6" data="EMonster06" Index="1" />
+        </Line>
+        <Line Type="2" Event="4736" Name="AUTOP145">
+            <Param type="13" srctype="8" data="AUTOP146" Index="0" />
+            <Param type="2" data="0" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP150" />
+        <Line Type="2" Event="2201" Name="AUTOP149">
+            <Param type="13" srctype="8" data="AUTOP150" Index="0" />
+            <Param type="6" data="EMonster06" Index="1" />
+        </Line>
+        <Line Type="2" Event="4736" Name="AUTOP148">
+            <Param type="13" srctype="8" data="AUTOP149" Index="0" />
+            <Param type="2" data="2" Index="1" />
+        </Line>
+        <Line Type="1" Event="4575">
+            <Param type="13" srctype="8" data="AUTOP144" Index="0" />
+            <Param type="6" data="light_circ_32" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP145" Index="2" />
+            <Param type="13" srctype="4" data="AUTOP148" Index="3" />
+        </Line>
+        <Line Type="7" IncludeLines="0" />
+        <Line Type="2" Event="2001" Name="AUTOP153" />
+        <Line Type="2" Event="3002" Name="AUTOP152">
+            <Param type="13" srctype="8" data="AUTOP153" Index="0" />
+            <Param type="6" data="nEWave01Right01" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP151">
+            <Param type="13" srctype="4" data="AUTOP152" Index="0" />
+            <Param type="2" data="3" Index="1" />
+            <Param type="4" data="0" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="27">
+            <Param type="13" bool="true" srctype="1" data="AUTOP151" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP155" />
+        <Line Type="2" Event="3002" Name="AUTOP154">
+            <Param type="13" srctype="8" data="AUTOP155" Index="0" />
+            <Param type="6" data="nEWave01Right01" Index="1" />
+        </Line>
+        <Line Type="14" IncludeLines="8">
+            <Param type="13" srctype="2" data="AUTOP154" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP157" />
+        <Line Type="2" Event="3002" Name="AUTOP156">
+            <Param type="13" srctype="8" data="AUTOP157" Index="0" />
+            <Param type="6" data="zuobiao3" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP159" />
+        <Line Type="2" Event="3002" Name="AUTOP158">
+            <Param type="13" srctype="8" data="AUTOP159" Index="0" />
+            <Param type="6" data="iDEWave01Right01" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP156" Index="0" />
+            <Param type="13" srctype="6" data="AUTOP158" Index="1" />
+            <Param type="6" data="EMonster07" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP161" />
+        <Line Type="2" Event="3002" Name="AUTOP160">
+            <Param type="13" srctype="8" data="AUTOP161" Index="0" />
+            <Param type="6" data="EMonster07" Index="1" />
+        </Line>
+        <Line Type="1" Event="4205">
+            <Param type="13" srctype="8" data="AUTOP160" Index="0" />
+            <Param type="6" data="guaiwu03" Index="1" />
+        </Line>
+        <Line Type="2" Event="5082" Name="AUTOP162">
+            <Param type="8" data=" " Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP165" />
+        <Line Type="2" Event="2201" Name="AUTOP164">
+            <Param type="13" srctype="8" data="AUTOP165" Index="0" />
+            <Param type="6" data="EMonster07" Index="1" />
+        </Line>
+        <Line Type="2" Event="4736" Name="AUTOP163">
+            <Param type="13" srctype="8" data="AUTOP164" Index="0" />
+            <Param type="2" data="0" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP168" />
+        <Line Type="2" Event="2201" Name="AUTOP167">
+            <Param type="13" srctype="8" data="AUTOP168" Index="0" />
+            <Param type="6" data="EMonster07" Index="1" />
+        </Line>
+        <Line Type="2" Event="4736" Name="AUTOP166">
+            <Param type="13" srctype="8" data="AUTOP167" Index="0" />
+            <Param type="2" data="2" Index="1" />
+        </Line>
+        <Line Type="1" Event="4575">
+            <Param type="13" srctype="8" data="AUTOP162" Index="0" />
+            <Param type="6" data="itemnpc_sn_0042_t1" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP163" Index="2" />
+            <Param type="13" srctype="4" data="AUTOP166" Index="3" />
+        </Line>
+        <Line Type="2" Event="5082" Name="AUTOP169">
+            <Param type="8" data=" " Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP172" />
+        <Line Type="2" Event="2201" Name="AUTOP171">
+            <Param type="13" srctype="8" data="AUTOP172" Index="0" />
+            <Param type="6" data="EMonster07" Index="1" />
+        </Line>
+        <Line Type="2" Event="4736" Name="AUTOP170">
+            <Param type="13" srctype="8" data="AUTOP171" Index="0" />
+            <Param type="2" data="0" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP175" />
+        <Line Type="2" Event="2201" Name="AUTOP174">
+            <Param type="13" srctype="8" data="AUTOP175" Index="0" />
+            <Param type="6" data="EMonster07" Index="1" />
+        </Line>
+        <Line Type="2" Event="4736" Name="AUTOP173">
+            <Param type="13" srctype="8" data="AUTOP174" Index="0" />
+            <Param type="2" data="2" Index="1" />
+        </Line>
+        <Line Type="1" Event="4575">
+            <Param type="13" srctype="8" data="AUTOP169" Index="0" />
+            <Param type="6" data="light_circ_32" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP170" Index="2" />
+            <Param type="13" srctype="4" data="AUTOP173" Index="3" />
+        </Line>
+        <Line Type="7" IncludeLines="0" />
+        <Line Type="2" Event="2001" Name="AUTOP178" />
+        <Line Type="2" Event="3002" Name="AUTOP177">
+            <Param type="13" srctype="8" data="AUTOP178" Index="0" />
+            <Param type="6" data="nEWave01Right02" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP176">
+            <Param type="13" srctype="4" data="AUTOP177" Index="0" />
+            <Param type="2" data="3" Index="1" />
+            <Param type="4" data="0" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="27">
+            <Param type="13" bool="true" srctype="1" data="AUTOP176" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP180" />
+        <Line Type="2" Event="3002" Name="AUTOP179">
+            <Param type="13" srctype="8" data="AUTOP180" Index="0" />
+            <Param type="6" data="nEWave01Right02" Index="1" />
+        </Line>
+        <Line Type="14" IncludeLines="8">
+            <Param type="13" srctype="2" data="AUTOP179" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP182" />
+        <Line Type="2" Event="3002" Name="AUTOP181">
+            <Param type="13" srctype="8" data="AUTOP182" Index="0" />
+            <Param type="6" data="zuobiao3" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP184" />
+        <Line Type="2" Event="3002" Name="AUTOP183">
+            <Param type="13" srctype="8" data="AUTOP184" Index="0" />
+            <Param type="6" data="iDEWave01Right02" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP181" Index="0" />
+            <Param type="13" srctype="6" data="AUTOP183" Index="1" />
+            <Param type="6" data="EMonster08" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP186" />
+        <Line Type="2" Event="3002" Name="AUTOP185">
+            <Param type="13" srctype="8" data="AUTOP186" Index="0" />
+            <Param type="6" data="EMonster08" Index="1" />
+        </Line>
+        <Line Type="1" Event="4205">
+            <Param type="13" srctype="8" data="AUTOP185" Index="0" />
+            <Param type="6" data="guaiwu0301" Index="1" />
+        </Line>
+        <Line Type="2" Event="5082" Name="AUTOP187">
+            <Param type="8" data=" " Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP190" />
+        <Line Type="2" Event="2201" Name="AUTOP189">
+            <Param type="13" srctype="8" data="AUTOP190" Index="0" />
+            <Param type="6" data="EMonster08" Index="1" />
+        </Line>
+        <Line Type="2" Event="4736" Name="AUTOP188">
+            <Param type="13" srctype="8" data="AUTOP189" Index="0" />
+            <Param type="2" data="0" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP193" />
+        <Line Type="2" Event="2201" Name="AUTOP192">
+            <Param type="13" srctype="8" data="AUTOP193" Index="0" />
+            <Param type="6" data="EMonster08" Index="1" />
+        </Line>
+        <Line Type="2" Event="4736" Name="AUTOP191">
+            <Param type="13" srctype="8" data="AUTOP192" Index="0" />
+            <Param type="2" data="2" Index="1" />
+        </Line>
+        <Line Type="1" Event="4575">
+            <Param type="13" srctype="8" data="AUTOP187" Index="0" />
+            <Param type="6" data="itemnpc_sn_0042_t1" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP188" Index="2" />
+            <Param type="13" srctype="4" data="AUTOP191" Index="3" />
+        </Line>
+        <Line Type="2" Event="5082" Name="AUTOP194">
+            <Param type="8" data=" " Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP197" />
+        <Line Type="2" Event="2201" Name="AUTOP196">
+            <Param type="13" srctype="8" data="AUTOP197" Index="0" />
+            <Param type="6" data="EMonster08" Index="1" />
+        </Line>
+        <Line Type="2" Event="4736" Name="AUTOP195">
+            <Param type="13" srctype="8" data="AUTOP196" Index="0" />
+            <Param type="2" data="0" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP200" />
+        <Line Type="2" Event="2201" Name="AUTOP199">
+            <Param type="13" srctype="8" data="AUTOP200" Index="0" />
+            <Param type="6" data="EMonster08" Index="1" />
+        </Line>
+        <Line Type="2" Event="4736" Name="AUTOP198">
+            <Param type="13" srctype="8" data="AUTOP199" Index="0" />
+            <Param type="2" data="2" Index="1" />
+        </Line>
+        <Line Type="1" Event="4575">
+            <Param type="13" srctype="8" data="AUTOP194" Index="0" />
+            <Param type="6" data="light_circ_32" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP195" Index="2" />
+            <Param type="13" srctype="4" data="AUTOP198" Index="3" />
+        </Line>
+        <Line Type="7" IncludeLines="0" />
+        <Line Type="2" Event="2001" Name="AUTOP203" />
+        <Line Type="2" Event="3002" Name="AUTOP202">
+            <Param type="13" srctype="8" data="AUTOP203" Index="0" />
+            <Param type="6" data="nEWave01Right03" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP201">
+            <Param type="13" srctype="4" data="AUTOP202" Index="0" />
+            <Param type="2" data="3" Index="1" />
+            <Param type="4" data="0" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="27">
+            <Param type="13" bool="true" srctype="1" data="AUTOP201" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP205" />
+        <Line Type="2" Event="3002" Name="AUTOP204">
+            <Param type="13" srctype="8" data="AUTOP205" Index="0" />
+            <Param type="6" data="nEWave01Right03" Index="1" />
+        </Line>
+        <Line Type="14" IncludeLines="8">
+            <Param type="13" srctype="2" data="AUTOP204" Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP207" />
+        <Line Type="2" Event="3002" Name="AUTOP206">
+            <Param type="13" srctype="8" data="AUTOP207" Index="0" />
+            <Param type="6" data="zuobiao3" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP209" />
+        <Line Type="2" Event="3002" Name="AUTOP208">
+            <Param type="13" srctype="8" data="AUTOP209" Index="0" />
+            <Param type="6" data="iDEWave01Right03" Index="1" />
+        </Line>
+        <Line Type="1" Event="5018">
+            <Param type="13" srctype="6" data="AUTOP206" Index="0" />
+            <Param type="13" srctype="6" data="AUTOP208" Index="1" />
+            <Param type="6" data="EMonster09" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP211" />
+        <Line Type="2" Event="3002" Name="AUTOP210">
+            <Param type="13" srctype="8" data="AUTOP211" Index="0" />
+            <Param type="6" data="EMonster09" Index="1" />
+        </Line>
+        <Line Type="1" Event="4205">
+            <Param type="13" srctype="8" data="AUTOP210" Index="0" />
+            <Param type="6" data="guaiwu0302" Index="1" />
+        </Line>
+        <Line Type="2" Event="5082" Name="AUTOP212">
+            <Param type="8" data=" " Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP215" />
+        <Line Type="2" Event="2201" Name="AUTOP214">
+            <Param type="13" srctype="8" data="AUTOP215" Index="0" />
+            <Param type="6" data="EMonster09" Index="1" />
+        </Line>
+        <Line Type="2" Event="4736" Name="AUTOP213">
+            <Param type="13" srctype="8" data="AUTOP214" Index="0" />
+            <Param type="2" data="0" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP218" />
+        <Line Type="2" Event="2201" Name="AUTOP217">
+            <Param type="13" srctype="8" data="AUTOP218" Index="0" />
+            <Param type="6" data="EMonster09" Index="1" />
+        </Line>
+        <Line Type="2" Event="4736" Name="AUTOP216">
+            <Param type="13" srctype="8" data="AUTOP217" Index="0" />
+            <Param type="2" data="2" Index="1" />
+        </Line>
+        <Line Type="1" Event="4575">
+            <Param type="13" srctype="8" data="AUTOP212" Index="0" />
+            <Param type="6" data="itemnpc_sn_0042_t1" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP213" Index="2" />
+            <Param type="13" srctype="4" data="AUTOP216" Index="3" />
+        </Line>
+        <Line Type="2" Event="5082" Name="AUTOP219">
+            <Param type="8" data=" " Index="0" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP222" />
+        <Line Type="2" Event="2201" Name="AUTOP221">
+            <Param type="13" srctype="8" data="AUTOP222" Index="0" />
+            <Param type="6" data="EMonster09" Index="1" />
+        </Line>
+        <Line Type="2" Event="4736" Name="AUTOP220">
+            <Param type="13" srctype="8" data="AUTOP221" Index="0" />
+            <Param type="2" data="0" Index="1" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP225" />
+        <Line Type="2" Event="2201" Name="AUTOP224">
+            <Param type="13" srctype="8" data="AUTOP225" Index="0" />
+            <Param type="6" data="EMonster09" Index="1" />
+        </Line>
+        <Line Type="2" Event="4736" Name="AUTOP223">
+            <Param type="13" srctype="8" data="AUTOP224" Index="0" />
+            <Param type="2" data="2" Index="1" />
+        </Line>
+        <Line Type="1" Event="4575">
+            <Param type="13" srctype="8" data="AUTOP219" Index="0" />
+            <Param type="6" data="light_circ_32" Index="1" />
+            <Param type="13" srctype="4" data="AUTOP220" Index="2" />
+            <Param type="13" srctype="4" data="AUTOP223" Index="3" />
+        </Line>
+        <Line Type="7" IncludeLines="0" />
+    </Base>
+</Processor>

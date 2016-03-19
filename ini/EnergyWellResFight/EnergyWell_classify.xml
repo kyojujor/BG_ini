@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 被2011 rel. 2 sp1 (TeaM DJiNN) 使用XMLSpy vTeaM DJiNN编辑的 (http://www.altova.com) by -->
+<!-- ID：能量井ID -->
+<!-- Name：能量井名称 -->
+<!-- EnergyPhoto：能量井图标，分为大、中、小-->
+<!-- InitCamp：初始阵营 -->
+<!-- 能量井区块地图所属阵营：Camp_1表示蒸汽阵营 Camp_2表示奇幻阵营 Camp_3表示中立阵营-->
+<!-- Area：能量井所处区块 -->
+<Object>
+	<Property ID="10001" Name="Energywell_Name_1" Des="Energywell_Des_1" EnergyPhoto="gui\\" InitCamp="1" Camp_1 ="gui\\" Camp_2 ="gui\\" Camp_4 ="gui\\" Area="010000000" />
+</Object>

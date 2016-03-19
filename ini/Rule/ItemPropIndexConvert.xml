@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--ITEM大数据属性名和索引的转换-->
+<!--此表只有程序可以修改，索引一旦固定，不可修改，否则造成数据紊乱-->
+<!--如要修改，请相应修改ItemPropIndexClassify.xml-->
+<Object>
+	<Property ID="StrAdd" index="0" />
+	<Property ID="DexAdd" index="1" />
+	<Property ID="IngAdd" index="2" />
+	<Property ID="SpiAdd" index="3" />
+	<Property ID="StaAdd" index="4" />
+	<Property ID="EsthAdd" index="5" />
+	<Property ID="IntensityPhyAttackAdd" index="6" />
+	<Property ID="CritHurtAdd" index="7" />
+	<Property ID="CritLevelAdd" index="8" />
+	<Property ID="CritMulLevelAdd" index="9" />
+	<Property ID="PenetrateLevelAdd" index="10" />
+	<Property ID="AccurateLevelAdd" index="11" />
+	<Property ID="IntensityMagicAttackAdd" index="12" />
+	<Property ID="MagCritLevelAdd" index="13" />
+	<Property ID="MagPrecLevelAdd" index="14" />
+	<Property ID="GuardAdd" index="15" />
+	<Property ID="DodgeLevelAdd" index="16" />
+	<Property ID="MagdodgeLevelAdd" index="17" />
+	<Property ID="DefenseLevelAdd" index="18" />
+	<Property ID="WeakdefValAdd" index="19" />
+	<Property ID="SteamAttackAdd" index="20" />
+	<Property ID="NatureAttackAdd" index="21" />
+	<Property ID="WindAttackAdd" index="22" />
+	<Property ID="FireAttackAdd" index="23" />
+	<Property ID="EarthAttackAdd" index="24" />
+	<Property ID="DarkAttackAdd" index="25" />
+	<Property ID="WaterAttackAdd" index="26" />
+	<Property ID="LightningAttackAdd" index="27" />
+	<Property ID="SteamAdd" index="28" />
+	<Property ID="NatureAdd" index="29" />
+	<Property ID="WindAdd" index="30" />
+	<Property ID="FireAdd" index="31" />
+	<Property ID="EarthAdd" index="32" />
+	<Property ID="DarkAdd" index="33" />
+	<Property ID="WaterAdd" index="34" />
+	<Property ID="LightningAdd" index="35" />
+	<Property ID="AllResistAdd" index="36" />
+	<Property ID="MaxHPAdd" index="37" />
+	<Property ID="MaxMPAdd" index="38" />
+	<Property ID="MaxRCAdd" index="39" />
+	<Property ID="MaxAVAdd" index="40" />
+	<Property ID="MaxEYAdd" index="41" />
+	<Property ID="MaxFSAdd" index="42" />
+	<Property ID="MinPhyAttackAdd" index="43" />
+	<Property ID="MaxPhyAttackAdd" index="44" />
+	<Property ID="MinMagicAttackAdd" index="45" />
+	<Property ID="MaxMagicAttackAdd" index="46" />
+	<Property ID="HPUpSpeedAdd" index="47" />
+	<Property ID="MPUpSpeedAdd" index="48" />
+	<Property ID="ElementResistLevelAdd" index="49" />
+	<Property ID="ElementDeepenLevelAdd" index="50" />
+	<Property ID="ElementDeepenProbAdd" index="51" />
+	<Property ID="FortunateValueAdd" index="52" />
+</Object>

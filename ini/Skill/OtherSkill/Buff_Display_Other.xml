@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<Object>
+	<Property ID="1035" Name="冲锋" Photo="icon\buff\skillicon_0455.png"/>
+	<Property ID="1036" Name="末日庇护" Photo="icon\buff\skillicon_0455.png"/>
+	<Property ID="1037" Name="定身" Photo="icon\buff\skillicon_0455.png"/>
+	<Property ID="1038" Name="先祖赐福" Photo="icon\buff\skillicon_0455.png"/>
+	<Property ID="1039" Name="野蛮人勇士" Photo="icon\buff\skillicon_0455.png"/>
+	<Property ID="1040" Name="潜入" Photo="icon\buff\skillicon_0455.png"/>
+	<Property ID="1042" Name="大酋长的投掷" Photo="icon\buff\skillicon_0455.png"/>
+	<Property ID="1043" Name="列阵" Photo="icon\buff\skillicon_0455.png"/>
+	<Property ID="1044" Name="集中攻击" Photo="icon\buff\skillicon_0455.png"/>
+	<Property ID="1045" Name="包扎" Photo="icon\buff\skillicon_0455.png"/>
+	<Property ID="1048" Name="末日伪装" Photo="icon\buff\skillicon_0455.png"/>
+	<Property ID="20227" Name="变装" Photo="icon\buff\skillicon_0455.png"/>
+	<Property ID="20232" Name="增强抵抗力" Photo="icon\buff\skillicon_0455.png"/>
+	<Property ID="30003" Name="攻击红瓶" Photo="icon\buff\skillicon_0455.png"/>
+	<Property ID="30004" Name="攻击红瓶" Photo="icon\buff\skillicon_0455.png"/>
+	<Property ID="30005" Name="攻击红瓶" Photo="icon\buff\skillicon_0455.png"/>
+	<Property ID="30006" Name="攻击红瓶" Photo="icon\buff\skillicon_0455.png"/>
+	<Property ID="30007" Name="攻击红瓶" Photo="icon\buff\skillicon_0455.png"/>
+	<Property ID="30008" Name="攻击红瓶" Photo="icon\buff\skillicon_0455.png"/>
+	<Property ID="20312" Name="振奋" Photo="icon\buff\skillicon_0455.png"/>
+	<Property ID="20313" Name="圣洁之力" Photo="icon\buff\skillicon_0455.png"/>
+	<Property ID="20329" Name="誓约之刃" Photo="icon\buff\skillicon_0455.png"/>
+	<Property ID="20337" Name="V500型加速" Photo="icon\buff\skillicon_0469.png"/>
+	<Property ID="30017" Name="毒箭" Photo="icon\buff\skillicon_0469.png"/>
+	<Property ID="30019" Name="火石" Photo="icon\buff\skillicon_0469.png"/>
+	<Property ID="30022" Name="捕兽器" Photo="icon\buff\skillicon_0469.png"/>
+	<Property ID="30028" Name="誓约之刃" Photo="icon\buff\skillicon_0469.png"/>
+	<Property ID="30031" Name="伪装物" Photo="icon\buff\skillicon_0469.png"/>
+	<Property ID="30034" Name="奥瑞克士兵服" Photo="icon\buff\skillicon_0469.png"/>
+	<Property ID="30043" Name="达戈菲尔军装" Photo="icon\buff\skillicon_0469.png"/>
+	<Property ID="60003" Name="血量提升" Photo="icon\buff\skillicon_0455.png" effect="func_raid_162"/>
+	<Property ID="60004" Name="血量提升" Photo="icon\buff\skillicon_0455.png" effect="func_raid_162"/>
+	<Property ID="60005" Name="血量提升" Photo="icon\buff\skillicon_0455.png" effect="func_raid_162"/>
+	<Property ID="60006" Name="血量提升" Photo="icon\buff\skillicon_0455.png" effect="func_raid_162"/>
+	<Property ID="60007" Name="血量提升" Photo="icon\buff\skillicon_0455.png" effect="func_raid_162"/>
+	<Property ID="60008" Name="血量提升" Photo="icon\buff\skillicon_0455.png" effect="func_raid_162"/>
+	<Property ID="60009" Name="血量提升" Photo="icon\buff\skillicon_0455.png" effect="func_raid_162"/>
+	<Property ID="60010" Name="血量提升" Photo="icon\buff\skillicon_0455.png" effect="func_raid_162"/>
+	<Property ID="60011" Name="血量提升" Photo="icon\buff\skillicon_0455.png" effect="func_raid_162"/>
+	<Property ID="60012" Name="血量提升" Photo="icon\buff\skillicon_0455.png" effect="func_raid_162"/>
+	<Property ID="60013" Name="血量提升" Photo="icon\buff\skillicon_0455.png" effect="func_raid_162"/>
+	<Property ID="60014" Name="血量提升" Photo="icon\buff\skillicon_0455.png" effect="func_raid_162"/>
+	<Property ID="60015" Name="血量提升" Photo="icon\buff\skillicon_0455.png" effect="func_raid_162"/>
+	<Property ID="60016" Name="血量提升" Photo="icon\buff\skillicon_0455.png" effect="func_raid_162"/>
+	<Property ID="60017" Name="血量提升" Photo="icon\buff\skillicon_0455.png" effect="func_raid_162"/>
+	<Property ID="60018" Name="血量提升" Photo="icon\buff\skillicon_0455.png" effect="func_raid_162"/>
+	<Property ID="60019" Name="血量提升" Photo="icon\buff\skillicon_0455.png" effect="func_raid_162"/>
+	<Property ID="60020" Name="血量提升" Photo="icon\buff\skillicon_0455.png" effect="func_raid_162"/>
+	<Property ID="60021" Name="血量提升" Photo="icon\buff\skillicon_0455.png" effect="func_raid_162"/>
+	<Property ID="60022" Name="血量提升" Photo="icon\buff\skillicon_0455.png" effect="func_raid_162"/>
+	<Property ID="60023" Name="血量提升" Photo="icon\buff\skillicon_0455.png" effect="func_raid_162"/>
+	<Property ID="60024" Name="血量提升" Photo="icon\buff\skillicon_0455.png" effect="func_raid_162"/>
+	<Property ID="60025" Name="血量提升" Photo="icon\buff\skillicon_0455.png" effect="func_raid_162"/>
+	<Property ID="60026" Name="血量提升" Photo="icon\buff\skillicon_0455.png" effect="func_raid_162"/>
+	<Property ID="60027" Name="法力提升" Photo="icon\buff\skillicon_0455.png" effect="func_raid_162"/>
+	<Property ID="60028" Name="法力提升" Photo="icon\buff\skillicon_0455.png" effect="func_raid_162"/>
+	<Property ID="60029" Name="法力提升" Photo="icon\buff\skillicon_0455.png" effect="func_raid_162"/>
+	<Property ID="60030" Name="法力提升" Photo="icon\buff\skillicon_0455.png" effect="func_raid_162"/>
+	<Property ID="60031" Name="法力提升" Photo="icon\buff\skillicon_0455.png" effect="func_raid_162"/>
+	<Property ID="60032" Name="法力提升" Photo="icon\buff\skillicon_0455.png" effect="func_raid_162"/>
+	<Property ID="60033" Name="法力提升" Photo="icon\buff\skillicon_0455.png" effect="func_raid_162"/>
+	<Property ID="60034" Name="法力提升" Photo="icon\buff\skillicon_0455.png" effect="func_raid_162"/>
+	<Property ID="60035" Name="法力提升" Photo="icon\buff\skillicon_0455.png" effect="func_raid_162"/>
+	<Property ID="60036" Name="法力提升" Photo="icon\buff\skillicon_0455.png" effect="func_raid_162"/>
+	<Property ID="60037" Name="法力提升" Photo="icon\buff\skillicon_0455.png" effect="func_raid_162"/>
+	<Property ID="60038" Name="法力提升" Photo="icon\buff\skillicon_0455.png" effect="func_raid_162"/>
+	<Property ID="60039" Name="法力提升" Photo="icon\buff\skillicon_0455.png" effect="func_raid_162"/>
+	<Property ID="60040" Name="法力提升" Photo="icon\buff\skillicon_0455.png" effect="func_raid_162"/>
+	<Property ID="60041" Name="法力提升" Photo="icon\buff\skillicon_0455.png" effect="func_raid_162"/>
+	<Property ID="60042" Name="法力提升" Photo="icon\buff\skillicon_0455.png" effect="func_raid_162"/>
+	<Property ID="60043" Name="法力提升" Photo="icon\buff\skillicon_0455.png" effect="func_raid_162"/>
+	<Property ID="60044" Name="法力提升" Photo="icon\buff\skillicon_0455.png" effect="func_raid_162"/>
+	<Property ID="60045" Name="法力提升" Photo="icon\buff\skillicon_0455.png" effect="func_raid_162"/>
+	<Property ID="60046" Name="法力提升" Photo="icon\buff\skillicon_0455.png" effect="func_raid_162"/>
+	<Property ID="60047" Name="法力提升" Photo="icon\buff\skillicon_0455.png" effect="func_raid_162"/>
+	<Property ID="60048" Name="法力提升" Photo="icon\buff\skillicon_0455.png" effect="func_raid_162"/>
+	<Property ID="60049" Name="法力提升" Photo="icon\buff\skillicon_0455.png" effect="func_raid_162"/>
+	<Property ID="60050" Name="法力提升" Photo="icon\buff\skillicon_0455.png" effect="func_raid_162"/>
+	<Property ID="60051" Name="力量提升" Photo="icon\buff\skillicon_0455.png" effect="func_raid_162"/>
+	<Property ID="60052" Name="敏捷提升" Photo="icon\buff\skillicon_0455.png" effect="func_raid_162"/>
+	<Property ID="60053" Name="体质提升" Photo="icon\buff\skillicon_0455.png" effect="func_raid_162"/>
+	<Property ID="60054" Name="智力提升" Photo="icon\buff\skillicon_0455.png" effect="func_raid_162"/>
+	<Property ID="60055" Name="精神提升" Photo="icon\buff\skillicon_0455.png" effect="func_raid_162"/>
+	<Property ID="60056" Name="感知提升" Photo="icon\buff\skillicon_0455.png" effect="func_raid_162"/>
+	<Property ID="60057" Name="法力恢复速度提升" Photo="icon\buff\skillicon_0455.png" effect="func_raid_162"/>
+	<Property ID="60058" Name="物理攻击强度提升" Photo="icon\buff\skillicon_0455.png" effect="func_raid_162"/>
+	<Property ID="60059" Name="远程攻击强度提升" Photo="icon\buff\skillicon_0455.png" effect="func_raid_162"/>
+	<Property ID="60060" Name="生命恢复速度提升" Photo="icon\buff\skillicon_0455.png" effect="func_raid_162"/>
+	<Property ID="49001" Name="力量+2" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49002" Name="敏捷+2" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49003" Name="耐力+2" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49004" Name="智力+2" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49005" Name="感知+2" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49006" Name="精神+2" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49007" Name="力量+5" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49008" Name="敏捷+5" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49009" Name="耐力+5" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49010" Name="智力+5" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49011" Name="感知+5" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49012" Name="精神+5" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49013" Name="力量+10" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49014" Name="敏捷+10" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49015" Name="耐力+10" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49016" Name="智力+10" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49017" Name="感知+10" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49018" Name="精神+10" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49019" Name="力量+20" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49020" Name="敏捷+20" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49021" Name="耐力+20" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49022" Name="智力+20" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49023" Name="感知+20" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49024" Name="精神+20" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49025" Name="力量+30" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49026" Name="敏捷+30" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49027" Name="耐力+30" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49028" Name="智力+30" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49029" Name="感知+30" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49030" Name="精神+30" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49031" Name="力量+40" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49032" Name="敏捷+40" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49033" Name="耐力+40" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49034" Name="智力+40" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49035" Name="感知+40" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49036" Name="精神+40" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49037" Name="暴击等级+5" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49038" Name="暴击等级+10" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49039" Name="暴击等级+15" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49040" Name="暴击等级+20" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49041" Name="命中等级+5" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49042" Name="命中等级+10" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49043" Name="命中等级+15" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49044" Name="命中等级+20" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49045" Name="急速等级+5" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49046" Name="急速等级+10" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49047" Name="急速等级+15" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49048" Name="急速等级+20" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49049" Name="法术命中+5" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49050" Name="法术命中+10" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49051" Name="法术命中+15" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49052" Name="法术命中+20" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49053" Name="法术暴击+5" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49054" Name="法术暴击+10" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49055" Name="法术暴击+15" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49056" Name="法术暴击+20" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49057" Name="闪避等级+5" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49058" Name="闪避等级+10" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49059" Name="闪避等级+15" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49061" Name="招架等级+5" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49062" Name="招架等级+10" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49063" Name="招架等级+15" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="49064" Name="招架等级+20" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="50040" Name="普通胶水" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="50041" Name="强力胶水" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="50044" Name="梦幻药水" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="50046" Name="闪避药剂" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="50047" Name="暴击之油" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="50048" Name="恶魔胶水" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="50051" Name="奥法药剂" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="50052" Name="强力奥法药剂" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="50053" Name="物理攻击药剂" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="50054" Name="精准药剂" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="50056" Name="致命药剂" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="50067" Name="中级烟雾发射器"/>
+	<Property ID="50068" Name="初级烟雾发射器"/>
+	<Property ID="50069" Name="初级石英观瞄装置"/>
+	<Property ID="50071" Name="中级石英观瞄装置"/>
+	<Property ID="20659" Name="突进" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="50215" Photo="icon\BG_Skill\skillicon_0066.png"/>
+	<Property ID="50220" Name="穿刺" Photo="icon\BG_Skill\skillicon_0069.png"/>
+	<Property ID="50222" Name="扎刺" Photo="icon\BG_Skill\skillicon_0071.png"/>
+	<Property ID="50236" Name="长撩之势" Photo="icon\BG_Skill\skillicon_0085.png"/>
+	<Property ID="50239" Name="伤刻徽记" Photo="icon\BG_Skill\skillicon_0088.png"/>
+	<Property ID="50242" Name="割裂" Photo="icon\BG_Skill\skillicon_0091.png"/>
+	<Property ID="50243" Name="封印" Photo="icon\BG_Skill\skillicon_0092.png"/>
+	<Property ID="50244" Name="魔印" Photo="icon\BG_Skill\skillicon_0093.png"/>
+	<Property ID="50248" Name="时间利刃" Photo="icon\BG_Skill\skillicon_0097.png"/>
+	<Property ID="50257" Name="逝去的荣誉" Photo="icon\BG_Skill\skillicon_0106.png"/>
+	<Property ID="50282" Name="穿梭" Photo="icon\BG_Skill\skillicon_0065.png"/>
+	<Property ID="20751" Name="冰霜之矢" Photo="icon\BG_Skill\heijin_shui.png"/>
+	<Property ID="20754" Name="怒震之石" Photo="icon\BG_Skill\heijin_shui.png"/>
+	<Property ID="20762" Name="高效能机油" Photo="icon\BG_Skill\heijin_shui.png"/>
+	<Property ID="20767" Name="蒸汽爆破" Photo="icon\buff\skillicon_0467.png"/>
+	<Property ID="20768" Name="蒸汽废渣" Photo="icon\buff\skillicon_0467.png"/>
+	<Property ID="20769" Name="蒸汽充能" Photo="icon\buff\skillicon_0467.png"/>
+	<Property ID="20770"/>
+	<Property ID="20771" Name="穿梭" Photo="icon\BG_Skill\skillicon_0024.png"/>
+	<Property ID="20773" Name="冷冻弹" Photo="icon\BG_Skill\skillicon_0024.png"/>
+	<Property ID="20792" Name="达戈菲尔军装" Photo="icon\buff\skillicon_0484.png"/>
+	<Property ID="20930" Name="冰冻" Photo="icon\buff\skillicon_1128.png" action="stun" effect="BGskill_20074"/>
+	<Property ID="50522" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="10101" Name="召唤黑色披甲熊" Photo="icon\Carry\64\qh_bru_mount_0001.png" effect="buff_heal001"/>
+	<Property ID="101012" Name="雪域迅猎熊" Photo="icon\Carry\64\qh_bru_mount_0001_1.png" effect="buff_heal001"/>
+	<Property ID="101013" Name="虎纹兽王熊" Photo="icon\Carry\64\qh_bru_mount_0001_2.png" effect="buff_heal001"/>
+	<Property ID="101014" Name="极地赤焰熊" Photo="icon\Carry\64\qh_bru_mount_0001_3.png" effect="buff_heal001"/>
+	<Property ID="10102" Name="召唤人形代步器" Photo="icon\Carry\64\zq_hum_mount_0001.png" effect="buff_heal001"/>
+	<Property ID="10103" Name="召唤独角蜘蛛" Photo="icon\Carry\64\qh_con_mount_0002.png" effect="buff_heal001"/>
+	<Property ID="101032" Name="召唤千毒蛛" Photo="icon\Carry\64\qh_con_mount_0002_1.png" effect="buff_heal001"/>
+	<Property ID="101033" Name="召唤火纹蛛" Photo="icon\Carry\64\qh_con_mount_0002_2.png" effect="buff_heal001"/>
+	<Property ID="101034" Name="召唤黑寡妇" Photo="icon\Carry\64\qh_con_mount_0002_3.png" effect="buff_heal001"/>
+	<Property ID="10104" Name="召唤白色陆行鸟" Photo="icon\Carry\64\qh_kosh_mount_0001.png" effect="buff_heal001"/>
+	<Property ID="101042" Name="火凤陆行鸟" Photo="icon\Carry\64\qh_kosh_mount_0001_1.png" effect="buff_heal001"/>
+	<Property ID="101043" Name="青羽陆行鸟" Photo="icon\Carry\64\qh_kosh_mount_0001_2.png" effect="buff_heal001"/>
+	<Property ID="101044" Name="金甲陆行鸟" Photo="icon\Carry\64\qh_kosh_mount_0001_3.png" effect="buff_heal001"/>
+	<Property ID="10105" Name="召唤深蓝石肤马" Photo="icon\Carry\64\qh_hum_mount_0001.png" effect="buff_heal001"/>
+	<Property ID="101052" Name="石化白马" Photo="icon\Carry\64\qh_hum_mount_0001_1.png" effect="buff_heal001"/>
+	<Property ID="101053" Name="赤炎炼狱马" Photo="icon\Carry\64\qh_hum_mount_0001_2.png" effect="buff_heal001"/>
+	<Property ID="101054" Name="魔纹斑马" Photo="icon\Carry\64\qh_hum_mount_0001_3.png" effect="buff_heal001"/>
+	<Property ID="10106" Name="召唤蒸汽三轮车" Photo="icon\Carry\64\zq_con_mount_0002.png" effect="buff_heal001"/>
+	<Property ID="10107" Name="召唤巨牙野猪" Photo="icon\Carry\64\zl_con_mount_0009.png" effect="buff_heal001"/>
+	<Property ID="10108" Name="召唤花豹" Photo="icon\Carry\64\zl_con_mount_0003.png" effect="buff_heal001"/>
+	<Property ID="101082" Name="白玉猎豹" Photo="icon\Carry\64\zl_con_mount_0003_1.png" effect="buff_heal001"/>
+	<Property ID="101083" Name="圣灵幽豹" Photo="icon\Carry\64\zl_con_mount_0003_2.png" effect="buff_heal001"/>
+	<Property ID="101084" Name="月夜魔豹" Photo="icon\Carry\64\zl_con_mount_0003_3.png" effect="buff_heal001"/>
+	<Property ID="10109" Name="召唤驼铃" Photo="icon\Carry\64\zl_con_mount_0004.png" effect="buff_heal001"/>
+	<Property ID="101092" Name="黑灰驼羚" Photo="icon\Carry\64\zl_con_mount_0004_1.png" effect="buff_heal001"/>
+	<Property ID="101093" Name="棕玛瑙驼羚" Photo="icon\Carry\64\zl_con_mount_0004_2.png" effect="buff_heal001"/>
+	<Property ID="101094" Name="圣驼羚" Photo="icon\Carry\64\zl_con_mount_0004_3.png" effect="buff_heal001"/>
+	<Property ID="10110" Name="召唤受折磨的大象" Photo="icon\Carry\64\qh_con_mount_0001.png" effect="buff_heal001"/>
+	<Property ID="10111" Name="召唤军用吉普" Photo="icon\Carry\64\zl_con_mount_0010.png" effect="buff_heal001"/>
+	<Property ID="101113" Name="召唤奔雷C1" Photo="icon\Carry\64\zl_con_mount_0010_1.png" effect="buff_heal001"/>
+	<Property ID="101114" Name="召唤奔雷X2" Photo="icon\Carry\64\zl_con_mount_0010_2.png" effect="buff_heal001"/>
+	<Property ID="101115" Name="召唤奔雷V3" Photo="icon\Carry\64\zl_con_mount_0010_3.png" effect="buff_heal001"/>
+	<Property ID="10112" Name="召唤单人摩托车" Photo="icon\Carry\64\zl_con_mount_0001.png" effect="buff_heal001"/>
+	<Property ID="101122" Name="召唤刀锋C1" Photo="icon\Carry\64\zl_con_mount_0001_1.png" effect="buff_heal001"/>
+	<Property ID="101123" Name="召唤刀锋X2" Photo="icon\Carry\64\zl_con_mount_0001_2.png" effect="buff_heal001"/>
+	<Property ID="101124" Name="召唤刀锋V3" Photo="icon\Carry\64\zl_con_mount_0001_3.png" effect="buff_heal001"/>
+	<Property ID="10113" Name="召唤胎轮车" Photo="icon\Carry\64\zl_con_mount_0002.png" effect="buff_heal001"/>
+	<Property ID="10114" Name="召唤机械狼" Photo="icon\Carry\64\zq_vap_mount_0001.png" effect="buff_heal001"/>
+	<Property ID="10115" Name="召唤越野摩托" Photo="icon\Carry\64\zq_dwa_mount_0001.png" effect="buff_heal001"/>
+	<Property ID="101152" Name="烈风V1" Photo="icon\Carry\64\zq_dwa_mount_0001_3.png" effect="buff_heal001"/>
+	<Property ID="101153" Name="烈风V2" Photo="icon\Carry\64\zq_dwa_mount_0001_1.png" effect="buff_heal001"/>
+	<Property ID="101154" Name="烈风V3" Photo="icon\Carry\64\zq_dwa_mount_0001_2.png" effect="buff_heal001"/>
+	<Property ID="10116" Name="召唤双人摩托" Photo="icon\Carry\64\zq_con_mount_0001.png" effect="buff_heal001"/>
+	<Property ID="23001" Name="燃烧" Photo="icon\buff\skillicon_0521.png"/>
+	<Property ID="23003" Photo="icon\buff\skillicon_1425.png"/>
+	<Property ID="23004" Photo="icon\buff\skillicon_1425.png"/>
+	<Property ID="23005" Photo="icon\buff\skillicon_1425.png"/>
+	<Property ID="23006" Photo="icon\buff\skillicon_1425.png"/>
+	<Property ID="23007" Photo="icon\buff\skillicon_1425.png"/>
+	<Property ID="23008" Photo="icon\buff\skillicon_1425.png"/>
+	<Property ID="23009" Photo="icon\buff\skillicon_0534.png"/>
+	<Property ID="23010" Photo="icon\buff\skillicon_0534.png"/>
+	<Property ID="23011" Photo="icon\buff\skillicon_0534.png"/>
+	<Property ID="23012" Photo="icon\buff\skillicon_0534.png"/>
+	<Property ID="23013" Photo="icon\buff\skillicon_0534.png"/>
+	<Property ID="23014" Photo="icon\buff\skillicon_0534.png"/>
+	<Property ID="23015" Photo="icon\buff\skillicon_1418.png"/>
+	<Property ID="23016" Photo="icon\buff\skillicon_1418.png"/>
+	<Property ID="23017" Photo="icon\buff\skillicon_1418.png"/>
+	<Property ID="23018" Photo="icon\buff\skillicon_1418.png"/>
+	<Property ID="23019" Photo="icon\buff\skillicon_1418.png"/>
+	<Property ID="23020" Photo="icon\buff\skillicon_1418.png"/>
+	<Property ID="23021" Photo="icon\buff\skillicon_1130.png"/>
+	<Property ID="23022" Photo="icon\buff\skillicon_1130.png"/>
+	<Property ID="23023" Photo="icon\buff\skillicon_1130.png"/>
+	<Property ID="23024" Photo="icon\buff\skillicon_1130.png"/>
+	<Property ID="23025" Photo="icon\buff\skillicon_1130.png"/>
+	<Property ID="23026" Photo="icon\buff\skillicon_1130.png"/>
+	<Property ID="23027" Photo="icon\buff\skillicon_1420.png"/>
+	<Property ID="23028" Photo="icon\buff\skillicon_1420.png"/>
+	<Property ID="23029" Photo="icon\buff\skillicon_1420.png"/>
+	<Property ID="23030" Photo="icon\buff\skillicon_1420.png"/>
+	<Property ID="23031" Photo="icon\buff\skillicon_1420.png"/>
+	<Property ID="23032" Photo="icon\buff\skillicon_1420.png"/>
+	<Property ID="23033" Photo="icon\buff\skillicon_1424.png"/>
+	<Property ID="23034" Photo="icon\buff\skillicon_1424.png"/>
+	<Property ID="23035" Photo="icon\buff\skillicon_1424.png"/>
+	<Property ID="23036" Photo="icon\buff\skillicon_0473.png"/>
+	<Property ID="23037" Photo="icon\buff\skillicon_1128.png"/>
+	<Property ID="23038" Photo="icon\buff\skillicon_0454.png"/>
+	<Property ID="23039" Photo="icon\buff\skillicon_0457.png"/>
+	<Property ID="23040" Photo="icon\buff\skillicon_0488.png"/>
+	<Property ID="23041" Photo="icon\buff\skillicon_0527.png"/>
+	<Property ID="23042" Photo="icon\buff\skillicon_0518.png"/>
+	<Property ID="23043" Photo="icon\buff\skillicon_0473.png"/>
+	<Property ID="23044" Photo="icon\buff\skillicon_1128.png"/>
+	<Property ID="23045" Photo="icon\buff\skillicon_0454.png"/>
+	<Property ID="23046" Photo="icon\buff\skillicon_0457.png"/>
+	<Property ID="23047" Photo="icon\buff\skillicon_0488.png"/>
+	<Property ID="23048" Photo="icon\buff\skillicon_0527.png"/>
+	<Property ID="23049" Photo="icon\buff\skillicon_0518.png"/>
+	<Property ID="23050" Photo="icon\buff\skillicon_0473.png"/>
+	<Property ID="23051" Photo="icon\buff\skillicon_1128.png"/>
+	<Property ID="23052" Photo="icon\buff\skillicon_0454.png"/>
+	<Property ID="23053" Photo="icon\buff\skillicon_0497.png"/>
+	<Property ID="23054" Photo="icon\BG_Skill\skillicon_1444.png"/>
+	<Property ID="23055" Photo="icon\buff\skillicon_0487.png"/>
+	<Property ID="23056" Photo="icon\BG_Skill\skillicon_0544.png"/>
+	<Property ID="23057" Photo="icon\BG_Skill\skillicon_1111.png"/>
+	<Property ID="23058" Photo="icon\BG_Skill\skillicon_1113.png"/>
+	<Property ID="23059" Photo="icon\buff\skillicon_0457.png"/>
+	<Property ID="23060" Photo="icon\buff\skillicon_0488.png"/>
+	<Property ID="23061" Photo="icon\buff\skillicon_0473.png"/>
+	<Property ID="23062" Photo="icon\buff\skillicon_1128.png"/>
+	<Property ID="23063" Photo="icon\buff\skillicon_0454.png"/>
+	<Property ID="23064" Photo="icon\buff\skillicon_0497.png"/>
+	<Property ID="23065" Photo="icon\BG_Skill\skillicon_1444.png"/>
+	<Property ID="23066" Photo="icon\buff\skillicon_0487.png"/>
+	<Property ID="23067" Photo="icon\BG_Skill\skillicon_0544.png"/>
+	<Property ID="23068" Photo="icon\BG_Skill\skillicon_1111.png"/>
+	<Property ID="23069" Photo="icon\BG_Skill\skillicon_1113.png"/>
+	<Property ID="23070" Photo="icon\buff\skillicon_0457.png"/>
+	<Property ID="23071" Photo="icon\buff\skillicon_0488.png"/>
+	<Property ID="23072" Photo="icon\buff\skillicon_0454.png"/>
+	<Property ID="23073" Photo="icon\BG_Skill\skillicon_1145.png"/>
+	<Property ID="23074" Photo="icon\BG_Skill\skillicon_1150.png"/>
+	<Property ID="23075" Photo="icon\BG_Skill\skillicon_0415.png"/>
+	<Property ID="23076" Photo="icon\buff\liuxue.png"/>
+	<Property ID="23077" Photo="icon\buff\skillicon_0473.png"/>
+	<Property ID="23078" Photo="icon\buff\skillicon_1128.png"/>
+	<Property ID="23079" Photo="icon\buff\skillicon_0454.png"/>
+	<Property ID="23080" Photo="icon\buff\skillicon_0497.png"/>
+	<Property ID="23081" Photo="icon\BG_Skill\skillicon_1444.png"/>
+	<Property ID="23082" Photo="icon\buff\skillicon_0487.png"/>
+	<Property ID="23083" Photo="icon\BG_Skill\skillicon_0544.png"/>
+	<Property ID="23084" Photo="icon\BG_Skill\skillicon_1111.png"/>
+	<Property ID="23085" Photo="icon\BG_Skill\skillicon_1113.png"/>
+	<Property ID="23086" Photo="icon\buff\skillicon_0457.png"/>
+	<Property ID="23087" Photo="icon\buff\skillicon_0488.png"/>
+	<Property ID="23088" Photo="icon\buff\skillicon_0454.png"/>
+	<Property ID="23089" Photo="icon\BG_Skill\skillicon_1145.png"/>
+	<Property ID="23090" Photo="icon\BG_Skill\skillicon_1150.png"/>
+	<Property ID="23091" Photo="icon\BG_Skill\skillicon_0415.png"/>
+	<Property ID="23092" Photo="icon\buff\liuxue.png"/>
+	<Property ID="23093" Photo="icon\buff\skillicon_0457.png"/>
+	<Property ID="23094" Photo="icon\buff\skillicon_0488.png"/>
+	<Property ID="23095" Photo="icon\buff\skillicon_0497.png"/>
+	<Property ID="23096" Photo="icon\buff\skillicon_0473.png"/>
+	<Property ID="23097" Photo="icon\buff\skillicon_1128.png"/>
+	<Property ID="23098" Photo="icon\BG_Skill\skillicon_1444.png"/>
+	<Property ID="23099" Photo="icon\buff\skillicon_0487.png"/>
+	<Property ID="23100" Photo="icon\BG_Skill\skillicon_0544.png"/>
+	<Property ID="23101" Photo="icon\buff\skillicon_0473.png"/>
+	<Property ID="23102" Photo="icon\buff\skillicon_1128.png"/>
+	<Property ID="23103" Photo="icon\buff\skillicon_0454.png"/>
+	<Property ID="23104" Photo="icon\buff\skillicon_0497.png"/>
+	<Property ID="23105" Photo="icon\BG_Skill\skillicon_1444.png"/>
+	<Property ID="23106" Photo="icon\buff\skillicon_0487.png"/>
+	<Property ID="23107" Photo="icon\BG_Skill\skillicon_0544.png"/>
+	<Property ID="23108" Photo="icon\BG_Skill\skillicon_1111.png"/>
+	<Property ID="23109" Photo="icon\BG_Skill\skillicon_1113.png"/>
+	<Property ID="23110" Photo="icon\buff\skillicon_0457.png"/>
+	<Property ID="23111" Photo="icon\buff\skillicon_0488.png"/>
+	<Property ID="23112" Photo="icon\buff\skillicon_0454.png"/>
+	<Property ID="23113" Photo="icon\BG_Skill\skillicon_1145.png"/>
+	<Property ID="23114" Photo="icon\BG_Skill\skillicon_1150.png"/>
+	<Property ID="23115" Photo="icon\BG_Skill\skillicon_0415.png"/>
+	<Property ID="23116" Photo="icon\buff\liuxue.png"/>
+	<Property ID="23117" Photo="icon\buff\skillicon_0457.png"/>
+	<Property ID="23118" Photo="icon\buff\skillicon_0488.png"/>
+	<Property ID="23119" Photo="icon\buff\skillicon_0497.png"/>
+	<Property ID="23120" Photo="icon\buff\skillicon_0473.png"/>
+	<Property ID="23121" Photo="icon\buff\skillicon_1128.png"/>
+	<Property ID="23122" Photo="icon\BG_Skill\skillicon_1444.png"/>
+	<Property ID="23123" Photo="icon\buff\skillicon_0487.png"/>
+	<Property ID="23124" Photo="icon\BG_Skill\skillicon_0544.png"/>
+	<Property ID="23140" Name="被网住"/>
+	<Property ID="23145" Name="闪光" Photo="icon\buff\skillicon_0488.png" effect="BG_effect_buff_95003"/>
+	<Property ID="81294" Name="加速" Photo="icon\buff\qh_bru_mount_0001.png"/>
+	<Property ID="81295" Name="减速" Photo="icon\buff\jiaoshang.png"/>
+	<Property ID="23152" Name="初级两倍经验丹" Photo="icon\buff\chanhui.png"/>
+	<Property ID="23153" Name="初级三倍经验丹" Photo="icon\buff\chanhui.png"/>
+	<Property ID="23154" Name="中级两倍经验丹" Photo="icon\buff\chanhui.png"/>
+	<Property ID="23155" Name="中级三倍经验丹" Photo="icon\buff\chanhui.png"/>
+	<Property ID="23156" Name="高级两倍经验丹" Photo="icon\buff\chanhui.png"/>
+	<Property ID="23157" Name="高级三倍经验丹" Photo="icon\buff\chanhui.png"/>
+	<Property ID="23161" Name="竞技场的礼物" Photo="icon\buff\skillicon_0464.png"/>
+	<Property ID="23160" Photo="icon\BG_Skill\heijin_feng.PNG" Name="双足蜥蜴宝珠"/>
+	<Property ID="23162" Name="猫人奴隶的饭团" Photo="icon\buff\skillicon_0492.png"/>
+	<Property ID="80088" Photo="icon\buff\mumang.png" effect="BG_effect_buff_97503" Name="脱发的诅咒"/>
+	<Property ID="81344" Name="朱离" Photo="icon\buff\skillicon_1419.png" effect="BGskill_81274"/>
+	<Property ID="81345" Name="幻化" Photo="icon\buff\skillicon_0503.png"/>
+	<Property ID="81346" Name="树灵" Photo="icon\buff\skillicon_0532.png" effect="BGskill_81354"/>
+	<Property ID="81347" Name="冰火两重天" Photo="icon\BG_Skill\skillicon_0038.png" color="255,128,245,255" effect="BGskill_81274"/>
+	<Property ID="81348" Name="龟甲" Photo="icon\buff\skillicon_0454.png" effect="BG_effect_buff_95020"/>
+	<Property ID="230431" Name="减速" Photo="icon\BG_Skill\skillicon_0037.png"/>
+	<Property ID="230471" Name="提高攻击力" Photo="icon\BG_Skill\jineng_yexingxuemai.PNG"/>
+	<Property ID="230531" Name="冰冻" Photo="icon\BG_Skill\skillicon_0028.png"/>
+	<Property ID="230551" Name="加速" Photo="icon\BG_Skill\skillicon_0062.png"/>
+	<Property ID="230511" Name="护盾" Photo="icon\BG_Skill\skillicon_0213.png"/>
+	<Property ID="230011" Name="加速5%" Photo="icon\buff\qh_bru_mount_0001.png"/>
+	<Property ID="230021" Name="加速10%" Photo="icon\buff\qh_bru_mount_0001.png"/>
+	<Property ID="230131" Photo="icon\buff\qh_bru_mount_0001.png"/>
+	<Property ID="230392" Photo="icon\buff\skillicon_0467.png" effect="BGskill_61222"/>
+	<Property ID="230412" Photo="icon\buff\skillicon_0461.png" effect="BGskill_61223" TimeEffect="BGskill_61223"/>
+	<Property ID="81351" Name="减速" Photo="icon\buff\jiaoshang.png" color="255,128,245,255"/>
+	<Property ID="230231"/>
+	<Property ID="230241"/>
+	<Property ID="230251"/>
+	<Property ID="230261"/>
+	<Property ID="230271"/>
+	<Property ID="230281"/>
+	<Property ID="230291"/>
+	<Property ID="230301"/>
+	<Property ID="230311"/>
+	<Property ID="230321"/>
+	<Property ID="230331"/>
+	<Property ID="230341"/>
+	<Property ID="230351"/>
+	<Property ID="230361"/>
+	<Property ID="82545" Name="能量护盾" Photo="icon\BG_Skill\PVP_kxfangyuzq.png" effect="BG_effect_buff_95015"/>
+	<Property ID="82546" Name="涅槃守护" Photo="icon\BG_Skill\PVP_kxfangyuqh.png" effect="BG_effect_buff_95017"/>
+	<Property ID="82547" Name="急速喷射" Photo="icon\BG_Skill\PVP_kxjiasuzq.png" effect="BG_effect_buff_95016"/>
+	<Property ID="82548" Name="急速冲刺" Photo="icon\BG_Skill\PVP_kxjiasuqh.png" effect="BG_effect_action_75063" action="attack11"/>
+	<Property ID="20779" Name="驱蛇药"/>
+	<Property ID="82555" Name="变身" Photo="icon\buff\skillicon_0473.png"/>
+	<Property ID="82556" Name="变身" Photo="icon\buff\skillicon_0473.png"/>
+	<Property ID="230031" Name="水下呼吸10%" Photo="icon\buff\qh_bru_mount_0001.png"/>
+	<Property ID="230041" Name="水下呼吸20%" Photo="icon\buff\qh_bru_mount_0001.png"/>
+	<Property ID="230051" Name="跳跃高度3%" Photo="icon\buff\qh_bru_mount_0001.png"/>
+	<Property ID="230061" Name="跳跃高度5%" Photo="icon\buff\qh_bru_mount_0001.png"/>
+	<Property ID="230071" Name="摔落减伤10%" Photo="icon\buff\qh_bru_mount_0001.png"/>
+	<Property ID="230081" Name="摔落减伤20%" Photo="icon\buff\qh_bru_mount_0001.png"/>
+	<Property ID="230091" Name="装备耐久上限5%" Photo="icon\buff\qh_bru_mount_0001.png"/>
+	<Property ID="230101" Name="装备耐久上限6%" Photo="icon\buff\qh_bru_mount_0001.png"/>
+	<Property ID="230111" Name="装备强度10%" Photo="icon\buff\qh_bru_mount_0001.png"/>
+	<Property ID="230121" Name="装备强度12%" Photo="icon\buff\qh_bru_mount_0001.png"/>
+	<Property ID="230371" Name="减少CD5%" Photo="icon\buff\qh_bru_mount_0001.png"/>
+	<Property ID="230381" Name="减少CD10%" Photo="icon\buff\qh_bru_mount_0001.png"/>
+	<Property ID="82557" Name="加速" Photo="icon\buff\skillicon_0506.png"/>
+	<Property ID="82564" Name="初级顽强合剂" Photo="icon\buff\chanhui.png"/>
+	<Property ID="82565" Name="初级物理攻击合剂" Photo="icon\buff\chanhui.png"/>
+	<Property ID="82566" Name="初级法术攻击合剂" Photo="icon\buff\chanhui.png"/>
+	<Property ID="82567" Name="高级顽强合剂" Photo="icon\buff\chanhui.png"/>
+	<Property ID="82568" Name="高级物理攻击合剂" Photo="icon\buff\chanhui.png"/>
+	<Property ID="82569" Name="高级法术攻击合剂" Photo="icon\buff\chanhui.png"/>
+	<Property ID="82570" Name="初级属性合剂" Photo="icon\buff\chanhui.png"/>
+	<Property ID="82571" Name="初级强攻合剂" Photo="icon\buff\chanhui.png"/>
+	<Property ID="82572" Name="初级法能合剂" Photo="icon\buff\chanhui.png"/>
+	<Property ID="82573" Name="中级属性合剂" Photo="icon\buff\chanhui.png"/>
+	<Property ID="82574" Name="中级强攻合剂" Photo="icon\buff\chanhui.png"/>
+	<Property ID="82575" Name="中级法能合剂" Photo="icon\buff\chanhui.png"/>
+	<Property ID="82576" Name="高级属性合剂" Photo="icon\buff\chanhui.png"/>
+	<Property ID="82577" Name="高级强攻合剂" Photo="icon\buff\chanhui.png"/>
+	<Property ID="82578" Name="高级法能合剂" Photo="icon\buff\chanhui.png"/>
+	<Property ID="82579" Name="初级群体全能合剂" Photo="icon\buff\chanhui.png"/>
+	<Property ID="26002" Name="飞龙" Photo="icon\Carry\64\qh_trans_flyF_001.png" effect="buff_heal001"/>
+	<Property ID="26003" Name="飞马" Photo="icon\Carry\64\zq_con_mount_0001.png" effect="buff_heal001"/>
+	<Property ID="82681" Name="奋勇" Photo="icon\BG_Skill\PVP_yonggan.png"/>
+	<Property ID="82682" Name="挫败" Photo="icon\BG_Skill\PVP_cuobai.png"/>
+	<Property ID="82543" Name="防守不力" Photo="icon\BG_Skill\PVP_fycuihui.png"/>
+	<Property ID="82544" Name="坠机的飞行员" Photo="icon\BG_Skill\PVP_zqfxcuihui.png"/>
+	<Property ID="81359" Name="坠机的飞行员" Photo="icon\BG_Skill\PVP_qhfxcuihui.png"/>
+	<Property ID="82685" Name="1小时5倍经验" Photo="icon\buff\chanhui.png"/>
+	<Property ID="82686" Name="1.5小时5倍经验" Photo="icon\buff\chanhui.png"/>
+	<Property ID="82687" Name="2小时5倍经验" Photo="icon\buff\chanhui.png"/>
+	<Property ID="82706" Photo="icon\buff\skillicon_0454.png"/>
+	<Property ID="82709" Name="减速" Photo="icon\buff\jiaoshang.png"/>
+	<Property ID="82713" Name="变身" Photo="icon\buff\skillicon_0473.png"/>
+	<Property ID="82716" Name="坚硬护盾" Photo="icon\BG_Skill\zq_nlj_hudun.png" effect="BG_self_010"/>
+	<Property ID="82718" Name="高跳" Photo="icon\BG_Skill\zq_nlj_gaotiao.png"/>
+	<Property ID="82723" Name="活动逃离" Photo="icon\buff\skillicon_0455.png"/>
+	<Property ID="82725" Name="无敌" Photo="icon\buff\skillicon_1463.png" effect="BG_effect_action_75084"/>
+	<Property ID="50545" Name="燃烧" effect="BGskill_81217"/>
+	<Property ID="82748" Name="无敌" Photo="icon\buff\skillicon_1463.png"/>
+	<Property ID="82757" Name="无敌" Photo="icon\buff\skillicon_1463.png" effect="BG_effect_action_75098"/>
+	<Property ID="82719" Name="俯冲" Photo="icon\buff\skillicon_1463.png"/>
+	<Property ID="82759" Name="虚弱" Photo="icon\BG_Skill\PVP_xuruo.png"/>
+	<Property ID="82760" Name="加速" Photo="icon\buff\skillicon_1123.png"/>
+	<Property ID="82761" Name="加速" Photo="icon\buff\skillicon_1123.png"/>
+	<Property ID="82763" Name="武装" Photo="icon\BG_Skill\skillicon_1467.png" color="255,255,200,0"/>
+	<Property ID="82767" Name="高空轰炸" Photo="icon\buff\skillicon_1463.png"/>
+	<Property ID="82768" Name="火焰爆蛋" Photo="icon\buff\skillicon_1463.png"/>
+	<Property ID="82774" Name="驱鼠药" Photo="icon\buff\skillicon_1463.png" effect="BG_effect_buff_95018"/>
+	<Property ID="82769" Name="坚硬护盾" Photo="icon\BG_Skill\qh_nlj_hudun.png" effect="BG_effect_action_75101"/>
+	<Property ID="82776" Name="减速" Photo="icon\buff\jiaoshang.png"/>
+	<Property ID="82792" Name="减速" Photo="icon\buff\jiaoshang.png"/>
+	<Property ID="82793" Name="闪光" Photo="icon\buff\skillicon_0488.png" effect="BG_effect_buff_95019"/>
+	<Property ID="82812" Name="加速" Photo="icon\buff\skillicon_1123.png"/>
+	<Property ID="81431" Name="探测" Photo="icon\buff\skillicon_1462.png" effect="BGskill_81398"/>
+	<Property ID="82813" Name="机械之心" Photo="icon\buff\skillicon_1462.png" effect="BG_effect_buff_95021"/>
+	<Property ID="81439" Name="坚硬护盾" Photo="icon\buff\chanhui.png" effect="BGskill_81407"/>
+	<Property ID="82831" Name="你被淋湿了" Photo="icon\BG_Skill\heijin_lei.PNG"/>
+	<Property ID="82821" Name="流血" Photo="icon\buff\liuxue.png" TimeAction="combat" TimeEffect="BGskill_20028"/>
+	<Property ID="82816" Name="冲天炮_灼烧" Photo="icon\BG_Skill\heijin_huo.PNG" effect="BGskill_81414"/>
+	<Property ID="230571" Name="狂暴" Photo="icon\buff\chanhui.png"/>
+	<Property ID="230572" Name="狂暴" Photo="icon\buff\chanhui.png"/>
+	<Property ID="230581" Name="狂暴" Photo="icon\buff\chanhui.png"/>
+	<Property ID="230582" Name="狂暴" Photo="icon\buff\chanhui.png"/>
+	<Property ID="29201" Name="被驯服的鹿" Photo="icon\Carry\64\qh_con_mount_0004.png" effect="buff_heal001"/>
+	<Property ID="82841" Name="狂暴" Photo="icon\buff\chanhui.png"/>
+	<Property ID="82842" Name="变身" Photo="icon\buff\chanhui.png"/>
+	<Property ID="82846" Name="普通隐身" Photo="icon\buff\skillicon_0476.png"/>
+	<Property ID="82847" Photo="icon\BG_Skill\skillicon_1003.png"/>
+	<Property ID="81415" Name="反隐" Photo="icon\buff\mumang.png" effect="BGskill_81229"/>
+	<Property ID="81416" Photo="icon\buff\qh_bru_mount_0001.png" effect="BGskill_81417"/>
+	<Property ID="81417" Photo="icon\buff\qh_bru_mount_0001.png" effect="BGskill_81418"/>
+	<Property ID="81418" Photo="icon\buff\qh_bru_mount_0001.png" effect="BGskill_81419"/>
+	<Property ID="814152" Name="反隐" Photo="icon\buff\mumang.png"/>
+	<Property ID="82858" Name="虚弱" Photo="icon\buff\chanhui.png"/>
+	<Property ID="81447" Name="爆裂" Photo="icon\BG_Skill\heijin_jineng_dianshe.png" effect="BG_effect_hit_70007"/>
+	<Property ID="29204" Name="蒸汽蜘蛛" Photo="icon\Carry\64\zq_con_mount_0003.png" effect="buff_heal001"/>
+	<Property ID="29205" Name="摩托车" Photo="icon\Carry\64\zl_con_mount_0005.png" effect="buff_heal001"/>
+	<Property ID="29206" Name="独角兽" Photo="icon\Carry\64\qh_con_mount_0003.png" effect="buff_heal001"/>
+	<Property ID="29207" Name="雷芒" Photo="icon\Carry\64\zl_con_mount_0006.png" effect="buff_heal001"/>
+	<Property ID="82866" Name="变身" Photo="icon\buff\chanhui.png"/>
+	<Property ID="81448" Name="剧毒" Photo="icon\buff\skillicon_0452.png"/>
+	<Property ID="310001" Photo="icon\buff\skillicon_0453.png" Name="能量加持：力量"/>
+	<Property ID="310002" Photo="icon\buff\skillicon_0453.png" Name="能量加持：力量"/>
+	<Property ID="310003" Photo="icon\buff\skillicon_0453.png" Name="能量加持：体质"/>
+	<Property ID="310004" Photo="icon\buff\skillicon_0453.png" Name="能量加持：感知"/>
+	<Property ID="310005" Photo="icon\buff\skillicon_0453.png" Name="能量加持：精神"/>
+	<Property ID="310006" Photo="icon\buff\skillicon_0453.png" Name="能量加持：生命"/>
+	<Property ID="310007" Photo="icon\buff\skillicon_0453.png" Name="能量加持：敏捷"/>
+	<Property ID="310008" Photo="icon\buff\skillicon_0453.png" Name="能量加持：敏捷"/>
+	<Property ID="310009" Photo="icon\buff\skillicon_0453.png" Name="能量加持：敏捷"/>
+	<Property ID="81452" Name="流血" Photo="icon\buff\liuxue.png"/>
+	<Property ID="43211" Name="撞击" Photo="icon\buff\skillicon_0455.png" effect="BG_effect_buff_95015"/>
+	<Property ID="43212" Name="光环" Photo="icon\buff\skillicon_0470.png" effect="BG_effect_buff_95003"/>
+	<Property ID="814522" Name="减少百分之50血量" Photo="icon\buff\skillicon_1424.png"/>
+	<Property ID="814523" Name="减少50%攻防" Photo="icon\BG_Skill\skillicon_0057.png"/>
+	<Property ID="46110" Photo="icon\buff\skillicon_0520.png" effect="BG_fpssh_001"/>
+	<Property ID="46111" Photo="icon\buff\skillicon_0520.png" effect="BG_fpssh_002"/>
+	<Property ID="46112" Photo="icon\buff\skillicon_0520.png" effect="BG_fpssh_003"/>
+	<Property ID="46113" Photo="icon\buff\skillicon_0520.png" effect="BG_fpssh_004"/>
+	<Property ID="46114" Name="射线枪" Photo="icon\BG_Skill\qh_nlj_huopao.png"/>
+	<Property ID="46001" Name="加速" Photo="icon\buff\skillicon_1123.png" effect="BGpvp001_11"/>
+	<Property ID="46002" Name="免疫光环" Photo="icon\buff\skillicon_0454.png" effect="skill_buff_0085"/>
+	<Property ID="468122" Name="减少50%血量" Photo="icon\buff\skillicon_1424.png"/>
+	<Property ID="46201" Name="能量喷射" Photo="icon\BG_Skill\skillicon_1326.PNG" effect="BGskill_46201"/>
+	<Property ID="81479" Name="电磁护盾" Photo="icon\buff\chanhui.png" effect="BGskill_81445"/>
+	<Property ID="81491" Photo="icon\BG_Skill\heijin_jineng_dianshe.png"/>
+	<Property ID="81492" Photo="icon\BG_Skill\heijin_jineng_dianshe.png"/>
+	<Property ID="41009" Name="进入隐身" Photo="icon\buff\skillicon_1462.png"/>
+	<Property ID="87515" Name="虚弱" Photo="icon\BG_Skill\PVP_xuruo.png"/>
+	<Property ID="87516" Name="虚弱" Photo="icon\BG_Skill\PVP_xuruo.png"/>
+	<Property ID="87517" Name="虚弱" Photo="icon\BG_Skill\PVP_xuruo.png"/>
+	<Property ID="87518" Name="虚弱" Photo="icon\BG_Skill\PVP_xuruo.png"/>
+	<Property ID="81477" Name="感电" Photo="icon\buff\skillicon_0530.png" effect="BGskill_81457"/>
+	<Property ID="41021" Name="无敌" Photo="icon\buff\skillicon_0458.png"/>
+	<Property ID="46003" Name="定身" Photo="icon\buff\skillicon_1126.png" effect="func_raid_338_1_new"/>
+	<Property ID="46004" Name="弹跳增强" Photo="icon\BG_Skill\qh_nlj_gaotiao.png" effect="skill_drop_0020_1"/>
+	<Property ID="46005" Name="减速80%" Photo="icon\BG_Skill\skillicon_0037.png" effect="BGskill_40055_new"/>
+	<Property ID="46006" Name="减速15%" Photo="icon\BG_Skill\skillicon_0037.png" effect="BGskill_40074_new"/>
+	<Property ID="81508" Photo="icon\BG_Skill\boss_di.png"/>
+	<Property ID="81513" Photo="icon\buff\skillicon_0520.png"/>
+	<Property ID="81514" Photo="icon\buff\skillicon_0509.png"/>
+	<Property ID="81515" Photo="icon\buff\skillicon_0518.png"/>
+	<Property ID="81516" Photo="icon\buff\skillicon_0495.png"/>
+	<Property ID="81517" Photo="icon\buff\skillicon_0521.png"/>
+	<Property ID="81518" Photo="icon\buff\skillicon_0514.png"/>
+	<Property ID="81519" Photo="icon\buff\skillicon_0515.png"/>
+	<Property ID="81520" Photo="icon\buff\skillicon_0507.png"/>
+	<Property ID="82549" Name="能量护盾" Photo="icon\BG_Skill\PVP_kxfangyuqh.png" effect="BG_effect_buff_95015"/>
+	<Property ID="81450" Name="破甲" Photo="icon\buff\skillicon_0495.png"/>
+	<Property ID="82817" Name="减速30%" Photo="icon\buff\jiaoshang.png"/>
+	<Property ID="46226" Name="破甲" Photo="icon\buff\skillicon_0495.png"/>
+	<Property ID="87559" Name="2小时5倍经验" Photo="icon\buff\chanhui.png"/>
+	<Property ID="87560" Name="2小时5倍经验" Photo="icon\buff\chanhui.png"/>
+	<Property ID="87561" Name="2小时5倍经验" Photo="icon\buff\chanhui.png"/>
+	<Property ID="87562" Name="2小时5倍经验" Photo="icon\buff\chanhui.png"/>
+	<Property ID="87563" Name="2小时5倍经验" Photo="icon\buff\chanhui.png"/>
+	<Property ID="87564" Name="2小时5倍经验" Photo="icon\buff\chanhui.png"/>
+	<Property ID="46227" Name="厚羽" Photo="icon\buff\jiaoshang.png"/>
+</Object>
+
+

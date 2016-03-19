@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+	<!--ArenaQueueCD           排队CD，从上一次进入战场开始计时，单位为秒-->
+	<!--SingleScoreMatch     	 个人积分匹配范围-->
+	<!--TeamScoreMatch     	   战队积分匹配范围-->
+	<!--TeamScoreBase          战队基础积分 -->
+	<!--ContinuousWinLimit     连胜场次限制，用于匹配战队优先序列(即当队伍连胜次数达到5次时和连胜次数多的队伍进行匹配)-->
+	<!--GoldLimit              创建战队的金钱消耗 -->
+	<!--ItemLimit    			报名消耗道具名称和数量 -->
+	<!--TeamMemberLimit        战队成员上限-->
+	<!--KillMsgTime            击杀信息保留时间上限，单位为秒(在客户端建一个文件) -->
+	<!--RaceSeason				竞技场赛季 -->
+	<!--BagTime            		 礼包未发送至邮箱时，在服务器保留的时间, 单位为天 -->
+	<Property ID="121" ArenaQueueCD = "600" SingleScoreMatch = "100" TeamScoreMatch = "200" TeamScoreBase = "1000" ContinuousWinLimit = "5" GoldLimit = "10000" ItemLimit = "TaskUse_00016B,1" TeamMemberLimit = "15" KillMsgTime = "10" RaceSeason = "2013.5.1-2013.8.1" BagTime = "7" LeaveTime = "10"/>
+</Object>

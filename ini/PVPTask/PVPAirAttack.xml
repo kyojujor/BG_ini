@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 被2011 rel. 2 sp1 (jiangyingxi) 使用XMLSpy vsnail编辑的 (http://www.altova.com) by -->
+<!-- Technology_PVP_0004 Technology_PVP_0010 押解员；Technology_PVP_0005 军需专员；Technology_PVP_0006 Technology_PVP_0011 矿车；Technology_PVP_0007 冒险者；Technology_PVP_0008 冒险者；Technology_PVP_0009 冒险者 -->
+<Object>
+	<Property ID="0" NpcBag="1" Name="ACE斗机一号" Show="0" CantRide="1" CarrierDefBuff="" CarrierAttBuff="Buff_pvpskill_002" NpcConfig="PVP_kongxi001" NpcXYZ="-1024.369,69.927,3026.098,0" count="1"/>
+	<Property ID="1" NpcBag="2" Name="火鹰一号" Show="0" CantRide="1" CarrierDefBuff="" CarrierAttBuff="Buff_pvpskill_003" NpcConfig="PVP_kongxi002" NpcXYZ="-975.224,100.259,2492.474,0" count="1"/>
+	<Property ID="2" NpcBag="3" Name="大杀器" Show="1" CantRide="0" CarrierDefBuff="Buff_pvpskill_001" CarrierAttBuff="Buff_pvpskill_002" NpcConfig="PVP_kongxi003" NpcXYZ="-1033.436,70,3065.172,1.670/-1065.066,75.65,3065.404,1.517/-1045.049,75.6,3045.876,-0.183/-1067.899,69.85,3092.942,2.293/-1010.026,70.4,3026.448,2.841" LeaveNotRefresh="1" InvisibleNpcID="PVP_kongxihide001" count="5"/>
+	<Property ID="3" NpcBag="4" Name="圣灵魔弩" Show="1" CantRide="0" CarrierDefBuff="Buff_pvpskill_001" CarrierAttBuff="Buff_pvpskill_002" NpcConfig="PVP_kongxi004" NpcXYZ="-956.062,101.513,2462.993,0/-978.290,101.435,2469.654,-0.313/-919.525,106.693,2472.416,-1.959/-962.293,107.872,2388.484,1.839/-1066.466,100.821,2430.935,0.159" LeaveNotRefresh="1" InvisibleNpcID="PVP_kongxihide001" count="5"/>
+	<Property ID="4" NpcBag="5" Name="蒸汽守卫" Show="1" CantRide="0" CarrierDefBuff="Buff_pvpskill_001" CarrierAttBuff="Buff_pvpskill_002" NpcConfig="npc_zlm010_0132" NpcXYZ="-1026.333,69.786,3060.080,0/-1048.065,75.498,3044.254,1.385/-1057.201,75.498,3060.370,0.477/-1069.560,75.498,3055.884,1.099/-1065.108,75.498,3069.534,1.740/-1064.929,69.883,3084.166,0.979/-1053.208,70.012,3076.248,0.773/-1045.947,69.937,3070.329,1.043/-1026.422,69.888,3041.119,0.982/-1021.773,69.931,3031.421,1.185/-1017.144,69.935,3019.079,0.128/-1053.275,75.498,3039.681,0.753" count="12"/>
+	<Property ID="5" NpcBag="6" Name="奇幻守卫" Show="1" CantRide="0" CarrierDefBuff="Buff_pvpskill_001" CarrierAttBuff="Buff_pvpskill_002" NpcConfig="npc_zlm010_0131" NpcXYZ="-980.805,101.434,2474.374,-0.593/-967.927,101.645,2485.625,-0.433/-958.479,103.326,2488.772,-0.433/-947.300,103.336,2481.617,0.586/-945.958,103.449,2454.717,0.853/-951.129,101.251,2431.105,1.090/-961.489,108.258,2407.710,2.011/-1006.696,97.152,2465.834,-1.837/-1059.349,100.639,2434.226,0.836/-966.372,107.310,2400.000,-0.036" count="10"/>
+	<Property ID="6" NpcBag="7" Name="奇幻巡逻守卫" Show="1" CantRide="0" NpcConfig="Technology_PVP_0002" NpcXYZ="-985.700,95.333,2615.629,-2.072" count="1"/>
+	<Property ID="7" NpcBag="8" Name="战斗大师" Show="1" CantRide="0" NpcConfig="npc_qhpvp002_0001" NpcXYZ="-959.917,101.435,2467.383,0.158" count="1"/>
+	<Property ID="8" NpcBag="9" Name="战斗大使" Show="1" CantRide="0" NpcConfig="npc_zqpvp002_0001" NpcXYZ="-1045.903,75.498,3052.014,0.898" count="1"/>
+	<Property ID="9" NpcBag="10" Name="蒸汽" Show="1" CantRide="0" NpcConfig="Technology_PVP_0001" NpcXYZ="-1009.135,70.308,3068.896,2.268" count="1"/>
+	<Property ID="10" NpcBag="11" Name="空袭指挥官" Show="1" CantRide="0" NpcConfig="npc_zqpvp002_0002" NpcXYZ="-1025.910,69.923,3022.449,0" count="1"/>
+	<Property ID="11" NpcBag="12" Name="空袭指挥员" Show="1" CantRide="0" NpcConfig="npc_qhpvp002_0002" NpcXYZ="-973.355,101.432,2477.608,-0.046" count="1"/>
+	<Property ID="12" NpcBag="13" Name="护送NPC路线一" Show="1" CantRide="0" NpcConfig="npc_qhpvp001_0001" NpcXYZ="-956.127,103.539,2485.287,-0.081" count="1"/>
+	<Property ID="13" NpcBag="14" Name="护送NPC路线二" Show="1" CantRide="0" NpcConfig="npc_zqpvp001_0002" NpcXYZ="-1013.176,70.019,3022.859,0.229" count="1"/>
+	<Property ID="14" NpcBag="15" Name="护送NPC路线三" Show="1" CantRide="0" NpcConfig="npc_qhpvp001_0002" NpcXYZ="-1503.901,130.473,3136.678,-3.051"/>
+	<Property ID="15" NpcBag="16" Name="护路NPC路线四" Show="1" CantRide="0" NpcConfig="npc_zqpvp001_0003" NpcXYZ="-1303.621,158.771,2960.892,-2.941"/>
+	<Property ID="16" NpcBag="17" Name="炮台底座" Show="1" CantRide="0" CarrierDefBuff="Buff_pvpskill_001" CarrierAttBuff="Buff_pvpskill_002" NpcConfig="Organ_zlm010_001" NpcXYZ="-1033.436,69.786,3065.172,1.670/-1065.066,75.498,3065.404,1.517/-1045.049,75.498,3045.876,-0.183/-1067.899,69.786,3092.942,2.293/-1010.026,70.044,3026.448,2.841" count="5"/>
+	<Property ID="20" NpcBag="21" Name="ACE斗机二号" Show="0" CantRide="1" CarrierDefBuff="Buff_pvpskill_004" CarrierAttBuff="Buff_pvpskill_002" NpcConfig="PVP_kongxi007" NpcXYZ="-1024.292,69.931,3019.261,0" count="1"/>
+	<Property ID="21" NpcBag="22" Name="ACE斗机三号" Show="0" CantRide="1" CarrierDefBuff="Buff_pvpskill_004" CarrierAttBuff="Buff_pvpskill_002" NpcConfig="PVP_kongxi009" NpcXYZ="-1024.358,70.011,3011.999,0" count="1"/>
+	<Property ID="22" NpcBag="23" Name="火鹰二号" Show="0" CantRide="1" CarrierDefBuff="Buff_pvpskill_004" CarrierAttBuff="Buff_pvpskill_003" NpcConfig="PVP_kongxi008" NpcXYZ="-975.226,100.897,2481.713,0" count="1"/>
+	<Property ID="23" NpcBag="24" Name="火鹰三号" Show="0" CantRide="1" CarrierDefBuff="Buff_pvpskill_004" CarrierAttBuff="Buff_pvpskill_003" NpcConfig="PVP_kongxi010" NpcXYZ="-975.179,101.435,2472.641,0" count="1"/>
+	<Property ID="24" NpcBag="25" Name="蒸汽巡逻守卫" Show="1" CantRide="0" NpcConfig="Technology_PVP_0003" NpcXYZ="-1020.310,70.113,3084.013,-0.505" count="1"/>
+	<Property ID="25" NpcBag="26" Name="ACE模型" Show="1" CantRide="0" NpcConfig="Organ_changjing_0012" NpcXYZ="-1026.486,69.951,3016.436,0" count="1"/>
+	<Property ID="26" NpcBag="27" Name="火鹰模型" Show="1" CantRide="0" NpcConfig="Organ_changjing_0013" NpcXYZ="-974.699,103.435,2474.753,0" count="1"/>
+	<Property ID="27" NpcBag="28" Name="维帝" Show="1" CantRide="0" NpcConfig="Technology_PVP_0004" NpcXYZ="-1440.628,88.572,2349.630,-0.443" count="1"/>
+	<Property ID="28" NpcBag="29" Name="讨维" Show="1" CantRide="0" NpcConfig="Technology_PVP_0005" NpcXYZ="-998.649,75.117,3110.579,2.434" count="1"/>
+	<Property ID="29" NpcBag="30" Name="维蒂" Show="1" CantRide="0" NpcConfig="Technology_PVP_0006" NpcXYZ="-1446.369,88.637,2359.839,0.247" count="1"/>
+	<Property ID="30" NpcBag="31" Name="帝贸" Show="1" CantRide="0" NpcConfig="Technology_PVP_0007" NpcXYZ="-1627.729,180.168,3211.348,2.091" count="1"/>
+	<Property ID="31" NpcBag="32" Name="帝乱" Show="1" CantRide="0" NpcConfig="Technology_PVP_0008" NpcXYZ="-1613.774,175.116,3203.340,2.118" count="1"/>
+	<Property ID="32" NpcBag="33" Name="讨维" Show="1" CantRide="0" NpcConfig="Technology_PVP_0009" NpcXYZ="-997.043,80.504,3092.091,0.122" count="1"/>
+	<Property ID="33" NpcBag="34" Name="贸维" Show="1" CantRide="0" NpcConfig="Technology_PVP_0010" NpcXYZ="-984.807,92.142,2687.825,2.557" count="1"/>
+	<Property ID="34" NpcBag="35" Name="贸维" Show="1" CantRide="0" NpcConfig="Technology_PVP_0011" NpcXYZ="-978.498,92.560,2681.417,2.372" count="1"/>
+	<Property ID="35" NpcBag="36" Name="奇幻守卫" Show="1" CantRide="0" NpcConfig="Technology_PVP_0002" NpcXYZ="-986.039,95.320,2622.589,-1.937" count="1"/>
+	<Property ID="36" NpcBag="37" Name="蒸汽巡逻守卫" Show="1" CantRide="0" NpcConfig="Technology_PVP_0001" NpcXYZ="-1013.894,70.230,3076.312,2.598" count="1"/>
+	<Property ID="37" NpcBag="38" Name="贸帝" Show="1" CantRide="0" NpcConfig="Technology_PVP_0012" NpcXYZ="-982.436,92.851,2679.401,2.378" count="1"/>
+	<Property ID="38" NpcBag="39" Name="贸维" Show="1" CantRide="0" NpcConfig="Technology_PVP_0013" NpcXYZ="-984.807,92.142,2687.825,2.557" count="1"/>
+	<Property ID="39" NpcBag="40" Name="帝贸" Show="1" CantRide="0" NpcConfig="Technology_PVP_0014" NpcXYZ="-1575.497,154.843,3186.035,2.015" count="1"/>
+	<Property ID="40" NpcBag="41" Name="帝贸" Show="1" CantRide="0" NpcConfig="Technology_PVP_0015" NpcXYZ="-1568.679,151.110,3182.732,2.046" count="1"/>
+	<Property ID="41" NpcBag="42" Name="寒暖" Show="1" CantRide="0" NpcConfig="Technology_PVP_0016" NpcXYZ="-1038.935,97.564,2448.575,0.574" count="1"/>
+	<Property ID="42" NpcBag="43" Name="蒸汽守卫" Show="1" CantRide="0" NpcConfig="npc_zlm010_0049" NpcXYZ="-1306.851,158.770,2962.815,2.951" count="1"/>
+	<Property ID="43" NpcBag="44" Name="雾月丛林道具" Show="1" CantRide="0" NpcConfig="npc_zlpvp001_0033" NpcXYZ="-5071.116,49.555,4117.966,2.011/-5074.602,49.371,4106.098,1.900/-5078.166,49.015,4092.401,1.770/-4984.721,52.692,4064.123,-3.138/-4898.966,59.131,3960.572,2.668/-4905.132,57.353,3893.514,-1.917/-4940.012,60.391,3853.695,-2.622/-4971.391,65.442,3476.536,-2.366/-5185.168,30.859,3578.845,-0.619/-5230.218,61.017,3915.442,0.108/-5275.320,49.602,4081.065,-0.305/-5266.155,49.076,4083.945,-0.268/-5252.745,48.674,4086.776,0.282/-5238.780,58.769,3868.126,0.253/-5230.723,58.740,3866.049,0.253" count="16"/>
+	<Property ID="44" NpcBag="45" Name="赛马地刺道具" Show="1" CantRide="0" NpcConfig="npc_zlpvp001_0032" NpcXYZ="-5007.538,75.201,3716.791,-2.959/-5016.498,73.504,3697.067,2.810/-5012.585,73.139,3682.337,2.789/-5001.335,72.975,3675.295,2.992" count="5"/>
+	<Property ID="45" NpcBag="46" Name="赛马加速道具" Show="1" CantRide="0" NpcConfig="npc_zlpvp001_0025" NpcXYZ="-5014.430,73.993,3702.788,3.024/-5021.610,68.763,3594.600,2.258/-5216.676,61.068,3914.031,0.080/-5015.229,73.487,3691.045,2.885/-5003.243,73.248,3682.087,2.805" count="5"/>
+	<Property ID="46" NpcBag="47" Name="赛马沼泽道具" Show="1" CantRide="0" NpcConfig="npc_zlpvp001_0031" NpcXYZ="-5010.378,71.783,3650.763,-2.498/-5011.744,70.693,3626.320,2.718/-4991.536,68.431,3598.071,2.097/-4987.115,66.195,3534.808,-3.005/-5039.331,68.499,3569.314,2.251" count="5"/>
+	<Property ID="47" NpcBag="48" Name="雾月旗帜" Show="1" CantRide="0" NpcConfig="Pvp_AndvenRace_02" NpcXYZ="-5136.787,48.797,4135.688,-2.525/-5141.048,49.358,4113.859,-0.515/-5173.395,49.003,4144.469,-0.260/-5179.020,48.816,4126.995,0.730" count="4"/>
+	<Property ID="48" NpcBag="49" Name="雾月起点马赛克" Show="1" CantRide="0" NpcConfig="Pvp_AndvenRace_01" NpcXYZ="-5138.743,48.507,4124.850,-1.365" count="1"/>
+	<Property ID="49" NpcBag="50" Name="卡拉福德旗帜" Show="1" CantRide="0" NpcConfig="Pvp_AndvenRace_04" NpcXYZ="3095.223,78.709,2716.559,0/3087.696,78.209,2744.157,0" count="2"/>
+	<Property ID="50" NpcBag="51" Name="卡拉起点马赛克" Show="1" CantRide="0" NpcConfig="Pvp_AndvenRace_03" NpcXYZ="3090.336,78.308,2729.140,1.300" count="1"/>
+	<Property ID="51" NpcBag="52" Name="卡拉福随机道具" Show="1" CantRide="0" NpcConfig="npc_zlpvp001_0033" NpcXYZ="3029.560,82.511,2701.981,-1.879/3024.941,78.778,2713.281,-1.588/3020.719,78.222,2724.201,-1.669/2924.599,81.327,2710.969,-1.765/2852.007,79.770,2671.711,-1.881/2852.587,78.854,2682.004,-1.498/2852.646,78.079,2696.604,-1.269/2720.696,76.643,2776.106,-0.598/2726.462,74.059,2783.319,-0.601/2735.770,73.758,2789.705,-0.717/2795.329,51.885,3143.742,1.145/2806.038,49.983,3133.009,1.117/2813.633,49.960,3120.405,1.214/3072.000,59.217,3195.444,1.607/3071.357,60.843,3186.723,1.906/3264.742,69.521,2829.398,3.044/3255.741,69.635,2828.521,3.044/3246.220,69.560,2827.591,3.044" count="21"/>
+	<Property ID="52" NpcBag="53" Name="卡拉福加速道具" Show="1" CantRide="0" NpcConfig="npc_zlpvp001_0024" NpcXYZ="2793.071,81.305,2735.716,-1.278/2712.005,74.246,2849.665,-0.105/2732.068,68.760,3024.399,0.289/3165.896,78.663,3074.753,2.553" count="4"/>
+	<Property ID="53" NpcBag="54" Name="雾月起点大门" Show="1" CantRide="0" NpcConfig="Pvp_AndvenRace_05" NpcXYZ="-5138.743,48.507,4124.850,-1.365" count="1"/>
+	<Property ID="54" NpcBag="55" Name="卡拉起点大门" Show="1" CantRide="0" NpcConfig="Pvp_AndvenRace_06" NpcXYZ="3090.336,78.308,2729.140,1.300" count="1"/>
+	<Property ID="55" NpcBag="56" Name="卡拉福随机道具2" Show="1" CantRide="0" NpcConfig="npc_zlpvp001_0029" NpcXYZ="3149.827,74.429,2744.880,-1.831/3154.004,74.882,2733.990,-1.937/2693.293,65.515,3014.651,0.340
+/2700.192,64.067,3010.924,0.372
+/2713.006,62.933,3010.573,0.372/3222.341,76.082,2957.110,2.807/3212.042,77.116,2955.410,2.905/3200.777,78.173,2954.380,3.117" count="8"/>
+	<Property ID="56" NpcBag="57" Name="卡拉福空中加速道具" Show="1" CantRide="0" NpcConfig="npc_zlpvp001_0024" NpcXYZ="2929.325,89.170,2685.243,-1.495
+/2929.466,89.002,2690.606,-1.791
+/2928.200,89.002,2698.569,-1.714
+/2808.985,85.767,2677.344,-0.542
+/2695.896,74.888,3017.630,0.519
+/2703.807,73.146,3014.220,0.224
+/2715.228,73.165,3011.297,0.307
+/2880.268,63.087,3167.886,0.868
+/2891.104,62.939,3157.118,1.041
+/2894.985,63.459,3147.440,1.065
+/3111.802,71.619,3159.164,2.414" count="11"/>
+	<Property ID="57" NpcBag="58" Name="卡拉福跳跃道具" Show="1" CantRide="0" NpcConfig="npc_zlpvp001_0030" NpcXYZ="2975.041,82.364,2686.929,-1.595/2974.168,80.362,2694.145,-1.993/2968.918,78.210,2705.833,-1.907/2856.518,52.295,3162.482,0.873/2863.690,52.863,3149.273,1.030/2869.820,53.471,3138.401,1.077/2683.180,68.397,2989.878,0.340/2693.144,64.971,2988.954,0.340/2706.193,65.057,2986.412,0.340" count="9"/>
+	<Property ID="58" NpcBag="59" Name="雾月丛林道具2" Show="1" CantRide="0" NpcConfig="npc_zlpvp001_0029" NpcXYZ="-4975.066,52.951,4072.595,3.034
+/-4975.160,53.403,4051.692,2.728
+/-4983.263,53.312,4037.927,2.928
+/-4976.374,66.096,3466.375,-2.534
+/-4984.070,65.314,3471.639,-2.292
+/-5160.198,33.927,3521.367,-0.077
+/-5150.956,34.750,3522.466,-0.195
+/-5194.493,31.005,3572.279,-0.659" count="8"/>
+	<Property ID="59" NpcBag="60" Name="雾月丛林跳跃道具" Show="1" CantRide="0" NpcConfig="npc_zlpvp001_0030" NpcXYZ="-5206.231,32.694,3604.494,-1.096
+/-5201.309,33.265,3610.990,-0.902
+/-5196.380,33.844,3617.223,-0.666
+/-5274.231,43.629,3734.866,-0.087
+/-5265.538,44.463,3737.910,-0.295
+/-5257.205,46.098,3740.544,-0.060
+/-5274.549,51.272,4067.624,-0.043
+/-5264.982,51.017,4070.358,-0.092
+/-5254.711,50.949,4071.484,0.093" count="9"/>
+	<Property ID="60" NpcBag="61" Name="五月丛林空中加速道具" Show="1" CantRide="0" NpcConfig="npc_zlpvp001_0024" NpcXYZ="-5221.399,45.682,3621.309,-0.309
+/-5214.860,46.283,3626.168,-0.625
+/-5207.856,47.150,3630.719,-0.604
+/-5271.892,55.494,3789.039,0.266
+/-5263.572,56.172,3786.645,0.396
+/-5255.168,57.244,3783.831,0.514
+/-5275.299,58.453,4090.439,-0.006
+/-5266.226,57.986,4091.894,-0.072
+/-5254.948,57.693,4093.105,0.095" count="9"/>
+</Object>

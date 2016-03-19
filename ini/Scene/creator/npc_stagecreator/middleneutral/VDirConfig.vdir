@@ -1,0 +1,23 @@
+<root version="1.0">
+    <node type="0" name="艾利斯卡加北山脉" desc="艾利斯卡加北山脉">
+        <node type="1" name="northailisi_ItemNpc.xml" path="northailisi_ItemNpc.xml" desc="艾利斯卡加北山脉发器类,物件类Npc" />
+        <node type="1" name="northailisi_monsterNpc.xml" path="northailisi_monsterNpc.xml" desc="艾利斯卡加北山脉怪物Npc" />
+        <node type="1" name="northailisi_FuncNpc.xml" path="northailisi_FuncNpc.xml" desc="艾利斯卡加北山脉功能Npc" />
+        <node type="1" name="northailisi_TriggerNpc.xml" path="northailisi_TriggerNpc.xml" desc="艾利斯卡加北山脉触发器" />
+        <node type="1" name="northailisi_TaskNpc.xml" path="northailisi_TaskNpc.xml" desc="艾利斯卡加北山脉任务Npc" />
+    </node>
+    <node type="0" name="艾利斯卡加南山脉" desc="艾利斯卡加南山脉">
+        <node type="1" name="southailisi_ItemNpc.xml" path="southailisi_ItemNpc.xml" desc="艾利斯卡加南山脉触发器类,物件类Npc" />
+        <node type="1" name="southailisi_monsterNpc.xml" path="southailisi_monsterNpc.xml" desc="艾利斯卡加南山脉怪物Npc" />
+        <node type="1" name="southailisi_FuncNpc.xml" path="southailisi_FuncNpc.xml" desc="艾利斯卡加南山脉功能Npc" />
+        <node type="1" name="southailisi_TriggerNpc.xml" path="southailisi_TriggerNpc.xml" desc="艾利斯卡加南山脉触发器" />
+        <node type="1" name="southailisi_TaskNpc.xml" path="southailisi_TaskNpc.xml" desc="艾利斯卡加南山脉任务Npc" />
+    </node>
+    <node type="0" name="达贡盆地" desc="达贡盆地">
+        <node type="1" name="dagong_ItemNpc.xml" path="dagong_ItemNpc.xml" desc="达贡盆地触发器类,物件类Npc" />
+        <node type="1" name="dagong_monsterNpc.xml" path="dagong_monsterNpc.xml" desc="达贡盆地怪物Npc" />
+        <node type="1" name="dagong_FuncNpc.xml" path="dagong_FuncNpc.xml" desc="达贡盆地功能Npc" />
+        <node type="1" name="dagong_TriggerNpc.xml" path="dagong_TriggerNpc.xml" desc="达贡盆地触发器" />
+        <node type="1" name="dagong_TaskNpc.xml" path="dagong_TaskNpc.xml" desc="达贡盆地任务Npc" />
+    </node>
+</root>

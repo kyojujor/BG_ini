@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+	<!--TeamExpend2V2  	创建2V2战队需要花费的金钱-->
+	<!--TeamExpend3V3  	创建3V3战队需要花费的金钱-->
+	<!--TeamExpend5V5  	创建5V5战队需要花费的金钱-->
+	<!--JoinLevel	   	竞技场排队需要达到的等级及加入战队需要达到的等级-->
+	<!--ItemIDLimit	   	竞技场排队需要消耗的道具-->
+	<!--ItemNumLimit   	消耗道具的数量-->
+	<!--OpenLimit 	   	竞技场开放是否有时间限制（0：无限制 1：有限制)-->
+	<!--ArenaLevelBase      起始竞技等级-->
+	<!--ArenaLevelLimit	匹配上下限-->
+	<!--ComboTimeLimit 	连胜次数限制（多少次以上优先匹配-->
+	<!--WinGlory		胜利获得荣耀值-->
+	<!--LoseGlory		失败获得荣耀值-->
+	<!--BeginDate		赛季开始日期(赛季推算基础值)-->
+	<!--ArenaCycle		赛季周期(以周为单位)-->
+	<!--BeginTime    战斗开启时间限制-->
+	<!--EndTime	 战斗结束后离场时间限制-->
+	<!--OverTime	 战斗时间限制-->
+	<Property ID="1" TeamExpend2V2="20" TeamExpend3V3="30" TeamExpend5V5="100" JoinLevel ="30" ItemIDLimit="TaskUse_00016B" ItemNumLimit="0" OpenLimit="0" ArenaLevelBase = "0" ArenaLevelLimit="200" ComboTimeLimit="5" WinGlory="100" LoseGlory="20" BeginDate="2012-10-09" ArenaCycle="4" BeginTime="45" EndTime="180" OverTime="600"/>
+</Object>

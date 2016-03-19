@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+	<Property ID="59012" Name="采集资源" Kind="59" Count="1" IsDropOne="1" IsDeleteSave="1" ItemId="Task_00036B" TrackInfo="collect_59011"/>
+	<Property ID="59013" Name="采集资源" Kind="59" Count="1" IsDropOne="1" IsDeleteSave="1" ItemId="Task_00036B" TrackInfo="collect_59012"/>
+	<Property ID="15001" Name="夺回黑金" Kind="15" Count="5" Droprate="0.8" IsDropOne="0" ItemId="Task_00067A" NpcId="monster_qhm003_0005" SecneId="2" TrackInfo="collect_15001"/>
+	<Property ID="15002" Name="嘴馋的村长" Kind="15" Count="5" Droprate="0.8" IsDropOne="1" ItemId="Task_00074A" NpcId="monster_qhm003_0032" SecneId="2" TrackInfo="collect_15002"/>
+	<Property ID="15003" Name="御寒 石炭" Kind="15" Count="6" Droprate="0.8" IsDropOne="0" ItemId="Task_00070A" NpcId="monster_qhm003_0020" SecneId="2" TrackInfo="collect_15003"/>
+	<Property ID="15004" Name="御寒 毛皮" Kind="15" Count="6" Droprate="0.8" IsDropOne="0" ItemId="Task_00071A" NpcId="monster_qhm003_0021,monster_qhm003_0022" SecneId="2" TrackInfo="collect_15004"/>
+	<Property ID="15005" Name="御寒 粮食" Kind="15" Count="6" Droprate="0.8" IsDropOne="0" ItemId="Task_00072A" NpcId="monster_qhm003_0025" SecneId="2" TrackInfo="collect_15005"/>
+	<Property ID="15006" Name="锋利的兵刃" Kind="15" Count="10" Droprate="1" IsDropOne="0" ItemId="Task_00073A" NpcId="Giving_qhm003_001" SecneId="2" TrackInfo="collect_15006"/>
+	<Property ID="2000" Name="仪式取血" Kind="2" Count="6" Droprate="1" IsDropOne="0" ItemId="Task_00075A" NpcId="monster_zqm002_0001,monster_zqm002_0002" SecneId="2" TrackInfo="collect_2000"/>
+	<Property ID="2001" Name="采摘植物" Kind="2" Count="6" Droprate="1" IsDropOne="0" ItemId="Task_00076A" NpcId="Giving_zqm002_001" SecneId="2" TrackInfo="collect_2001"/>
+	<Property ID="2002" Name="沙砾里的珍珠" Kind="2" Count="6" Droprate="1" IsDropOne="0" ItemId="Task_00077A" NpcId="Giving_zqm002_004" SecneId="2" TrackInfo="collect_2002"/>
+	<Property ID="2003" Name="调查情况" Kind="2" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00078A" NpcId="Giving_zqm002_005" SecneId="2" TrackInfo="collect_2003"/>
+	<Property ID="2005" Name="无悯会的阴谋1" Kind="2" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00080A" NpcId="Giving_zqm002_006" SecneId="1" TrackInfo="collect_2005"/>
+	<Property ID="2006" Name="无悯会的阴谋2" Kind="2" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00081A" NpcId="Giving_zqm002_007" SecneId="1" TrackInfo="collect_2006"/>
+	<Property ID="2007" Name="粉碎计划" Kind="2" Count="7" Droprate="1" IsDropOne="0" ItemId="Task_00082A" NpcId="Giving_zqm002_008" SecneId="2" TrackInfo="collect_2007"/>
+	<Property ID="2010" Name="搬运能源" Kind="2" Count="5" Droprate="1" IsDropOne="0" ItemId="Task_00084A" NpcId="Giving_zqm002_002" SecneId="2" TrackInfo="collect_2010"/>
+	<Property ID="2011" Name="失踪的卫兵" Kind="2" Count="2" Droprate="1" IsDropOne="0" ItemId="TaskUse_00043A" NpcId="Giving_zqm002_003" SecneId="2" TrackInfo="collect_2011"/>
+	<Property ID="2044" Name="废物利用" Kind="2" Count="6" Droprate="1" IsDropOne="0" ItemId="Task_00087A" NpcId="Giving_zqm002_013" SecneId="2" TrackInfo="collect_2044"/>
+	<Property ID="2046" Name="猎食野味" Kind="2" Count="6" Droprate="1" IsDropOne="0" IsNeedCreator="0" ItemId="Task_00088A" NpcId="monster_zqm002_0015" SecneId="2" TrackInfo="collect_2046"/>
+	<Property ID="2047" Name="铸造武器" Kind="2" Count="10" Droprate="1" IsDropOne="0" ItemId="Task_00089A" NpcId="monster_zqm002_0025" SecneId="2" TrackInfo="collect_2047"/>
+	<Property ID="2048" Name="酿造美酒一" Kind="2" Count="6" Droprate="1" IsDropOne="0" IsNeedCreator="0" ItemId="Task_00090A" NpcId="monster_zqm002_0026" SecneId="2" TrackInfo="collect_2048"/>
+	<Property ID="2049" Name="酿造美酒二" Kind="2" Count="8" Droprate="1" IsDropOne="0" ItemId="Task_00091A" NpcId="Giving_zqm002_012" SecneId="2" TrackInfo="collect_2049"/>
+	<Property ID="2050" Name="士兵的护身符" Kind="2" Count="5" Droprate="0.3" IsDropOne="0" ItemId="Task_00092A" NpcId="monster_zqm002_0007" SecneId="2" TrackInfo="collect_2050"/>
+	<Property ID="2008" Name="获取实验品" Kind="2" Count="6" Droprate="0.2" IsDropOne="0" ItemId="Task_00085A" NpcId="monster_zqm002_0005,monster_zqm002_0006" SecneId="2" TrackInfo="collect_2008"/>
+	<Property ID="2990" Name="第二次变异" Kind="2" Count="5" Droprate="0.1" IsDropOne="0" IsDeleteSave="0" ItemId="Task_00093A" NpcId="monster_zqm002_0006,monster_zqm002_0005" SecneId="2" TrackInfo="collect_2990"/>
+	<Property ID="2987" Name="士兵的衣物" Kind="2" Count="5" Droprate="1" IsDropOne="0" ItemId="Task_00096A" NpcId="monster_zqm002_0007" TrackInfo="collect_2988"/>
+	<Property ID="2986" Name="士兵的武器" Kind="2" Count="5" Droprate="1" IsDropOne="0" ItemId="Task_00095A" NpcId="Giving_zqm002_011" SecneId="2" TrackInfo="collect_2986"/>
+	<Property ID="2004" Name="探清虚实" Kind="2" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00079A" NpcId="monster_zqm002_0003" SecneId="2" TrackInfo="collect_2004"/>
+	<Property ID="2994" Name="收集被盗走的书籍（事件）" Kind="2" Count="3" Droprate="1" IsDropOne="0" ItemId="Task_00094A" NpcId="Giving_zqm002_010" SecneId="2" TrackInfo="collect_2994"/>
+	<Property ID="2012" Name="平息愤恨" Kind="2" Count="1" Droprate="1" IsDropOne="0" IsDeleteSave="1" ItemId="Task_00077A" NpcId="monster_zqm002_0009" SecneId="2" TrackInfo="collect_2012"/>
+	<Property ID="3002" Name="蒸汽机需要能源" Kind="3" Count="6" Droprate="1" IsDropOne="0" IsDeleteSave="0" ItemId="Task_00105A" NpcId="Giving_zqm003_001" SecneId="1" TrackInfo="collect_3002"/>
+	<Property ID="3016" Name="毁灭之锤" Kind="3" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00097A" NpcId="monster_zqm003_0003" SecneId="1" TrackInfo="collect_3016"/>
+	<Property ID="3022" Name="追查线索" Kind="3" Count="1" Droprate="0" IsDropOne="0" ItemId="Task_00098A" NpcId="npc_zqm003_0011" SecneId="1" TrackInfo="collect_3022"/>
+	<Property ID="3048" Name="采集样本" Kind="3" Count="6" Droprate="1" IsDropOne="0" ItemId="Task_00102A" NpcId="Giving_zqm003_004" SecneId="1" TrackInfo="collect_3048"/>
+	<Property ID="3031" Name="仗义相助" Kind="3" Count="8" Droprate="1" IsDropOne="0" IsDeleteSave="0" ItemId="Task_00099A" NpcId="Giving_zqm003_002" SecneId="1" TrackInfo="collect_3031"/>
+	<Property ID="3033" Name="跟恶霸没有道理可讲" Kind="3" Count="1" Droprate="0" IsDropOne="0" ItemId="Task_00100A" SecneId="1" TrackInfo="collect_3033"/>
+	<Property ID="3037" Name="采集草药" Kind="3" Count="6" Droprate="1" IsDropOne="0" ItemId="Task_00101A" NpcId="Giving_zqm003_003" SecneId="1" TrackInfo="collect_3037"/>
+	<Property ID="3055" Name="革新还是变异" Kind="3" Count="7" Droprate="1" IsDropOne="0" IsDeleteSave="0" ItemId="Task_00104A" NpcId="monster_zqm003_0010" SecneId="1" TrackInfo="collect_3055"/>
+	<Property ID="17001" Name="战备补给" Kind="17" Count="5" Droprate="0.8" IsDropOne="1" ItemId="Task_00124A" NpcId="monster_qhm004_0013" SecneId="2" TrackInfo="collect_17001"/>
+	<Property ID="17002" Name="失窃的宝物" Kind="17" Count="6" Droprate="0.8" IsDropOne="1" IsDeleteSave="1" ItemId="Task_00125A" NpcId="monster_qhm004_0020" SecneId="2" TrackInfo="collect_17002"/>
+	<Property ID="17003" Name="海神祭品" Kind="17" Count="5" Droprate="1" IsDropOne="1" ItemId="Task_00126A" NpcId="Giving_qhm004_001" SecneId="2" TrackInfo="collect_17003"/>
+	<Property ID="17004" Name="海神祭品" Kind="17" Count="5" Droprate="1" IsDropOne="1" ItemId="Task_00127A" NpcId="Giving_qhm004_002" SecneId="2" TrackInfo="collect_17004"/>
+	<Property ID="17005" Name="珍珠" Kind="17" Count="5" Droprate="0.8" IsDropOne="1" ItemId="Task_00128A" NpcId="monster_qhm004_0022" SecneId="2" TrackInfo="collect_17005"/>
+	<Property ID="4001" Name="奇怪的箱子" Kind="4" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00106A" NpcId="monster_zqm004_0003" SecneId="1" TrackInfo="collect_4001"/>
+	<Property ID="4002" Name="翻个底朝天！" Kind="4" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00107A" NpcId="monster_zqm004_0005" SecneId="1" TrackInfo="collect_4002"/>
+	<Property ID="4003" Name="缴获作案工具" Kind="4" Count="5" Droprate="0.8" IsDropOne="0" ItemId="Task_00108A" NpcId="monster_zqm004_0008,monster_zqm004_0009" SecneId="1" TrackInfo="collect_4003"/>
+	<Property ID="4004" Name="收集药材" Kind="4" Count="5" Droprate="1" IsDropOne="0" ItemId="Task_00109A" NpcId="Giving_zqm004_001" SecneId="1" TrackInfo="collect_4004"/>
+	<Property ID="4005" Name="翻个天朝底！" Kind="4" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00111A" NpcId="monster_zqm004_0014" SecneId="1" TrackInfo="collect_4005"/>
+	<Property ID="4008" Name="散落的木头" Kind="4" Count="6" Droprate="1" IsDropOne="0" ItemId="Task_00113A" NpcId="Giving_zqm004_002" SecneId="1" TrackInfo="collect_4008"/>
+	<Property ID="4009" Name="可恶的督察者" Kind="4" Count="1" Droprate="1" IsDropOne="0" ItemId="TaskUse_00047A" NpcId="monster_zqm004_0028" SecneId="1" TrackInfo="collect_4009"/>
+	<Property ID="4010" Name="确认情报" Kind="4" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00114A" NpcId="monster_zqm004_0031" SecneId="1" TrackInfo="collect_4010"/>
+	<Property ID="4011" Name="事有蹊跷" Kind="4" Count="5" Droprate="0.2" IsDropOne="0" ItemId="Task_00115A" NpcId="monster_zqm004_0033" SecneId="1" TrackInfo="collect_4011"/>
+	<Property ID="4012" Name="调查取证" Kind="4" Count="6" Droprate="1" IsDropOne="0" ItemId="Task_00116A" NpcId="Giving_zqm004_003" SecneId="1" TrackInfo="collect_4012"/>
+	<Property ID="4058" Name="拿回物资" Kind="4" Count="8" Droprate="1" IsDropOne="0" ItemId="Task_00118A" NpcId="Giving_zqm004_004" SecneId="1" TrackInfo="collect_4058"/>
+	<Property ID="4060" Name="没有枪没有炮，敌人给我们送" Kind="4" Count="10" Droprate="0.4" IsDropOne="0" IsDeleteSave="0" ItemId="Task_00119A" NpcId="monster_zqm004_0026,monster_zqm004_0027" SecneId="1" TrackInfo="collect_4060"/>
+	<Property ID="4061" Name="牛之尾" Kind="4" Count="5" Droprate="0.6" IsDropOne="0" ItemId="Task_00120A" NpcId="monster_zqm004_0029" SecneId="1" TrackInfo="collect_4061"/>
+	<Property ID="4062" Name="狐之皮" Kind="4" Count="5" Droprate="0.6" IsDropOne="0" ItemId="Task_00121A" NpcId="monster_zqm004_0030" SecneId="1" TrackInfo="collect_4062"/>
+	<Property ID="4996" Name="抢夺资源" Kind="4" Count="5" Droprate="0.1" IsDropOne="0" ItemId="Task_00122A" NpcId="Giving_zqm004_005" SecneId="2" TrackInfo="collect_4996"/>
+	<Property ID="4993" Name="机械零件" Kind="4" Count="5" Droprate="0.1" IsDropOne="0" ItemId="Task_00123A" NpcId="Giving_zqm004_006" SecneId="1" TrackInfo="collect_4993"/>
+	<Property ID="4006" Name="寻踪觅迹" Kind="4" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00112A" NpcId="monster_zqm004_0011" SecneId="1" TrackInfo="collect_4006"/>
+	<Property ID="9004" Name="敌方情报" Kind="9" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00130A" NpcId="monster_zqm005_0003,monster_zqm005_0006" SecneId="1" TrackInfo="collect_9004"/>
+	<Property ID="9011" Name="代价" Kind="9" Count="6" Droprate="1" IsDropOne="0" ItemId="Task_00131A" NpcId="monster_zqm005_0007" SecneId="1" TrackInfo="collect_9011"/>
+	<Property ID="9013" Name="医疗物品" Kind="9" Count="6" Droprate="1" IsDropOne="0" ItemId="Task_00132A" NpcId="monster_zqm005_0008" SecneId="1" TrackInfo="collect_9013"/>
+	<Property ID="9015" Name="代替品" Kind="9" Count="6" Droprate="1" IsDropOne="0" ItemId="Task_00133A" NpcId="monster_zqm005_0010" SecneId="1" TrackInfo="collect_9015"/>
+	<Property ID="9021" Name="这就是我们的食物" Kind="9" Count="6" Droprate="1" IsDropOne="0" ItemId="Task_00134A" NpcId="monster_zqm005_0016" SecneId="1" TrackInfo="collect_9021"/>
+	<Property ID="9027" Name="异象" Kind="9" Count="6" Droprate="1" IsDropOne="0" ItemId="Task_00135A" NpcId="monster_zqm005_0021" SecneId="1" TrackInfo="collect_9027"/>
+	<Property ID="9029" Name="夺取符文晶石" Kind="9" Count="6" Droprate="1" IsDropOne="0" ItemId="Task_00136A" NpcId="monster_zqm005_0024" SecneId="1" TrackInfo="collect_9029"/>
+	<Property ID="9031" Name="清理战场" Kind="9" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00137A" SecneId="1" TrackInfo="collect_9031"/>
+	<Property ID="9044" Name="研究实验设备" Kind="9" Count="6" Droprate="1" IsDropOne="0" ItemId="Task_00138A" NpcId="Giving_zqm005_005" SecneId="1" TrackInfo="collect_9044"/>
+	<Property ID="9048" Name="调查舌岛" Kind="9" Count="6" Droprate="1" IsDropOne="0" ItemId="Task_00139A" NpcId="Giving_zqm005_002" SecneId="1" TrackInfo="collect_9048"/>
+	<Property ID="9051" Name="林海阴谋" Kind="9" Count="6" Droprate="1" IsDropOne="0" ItemId="Task_00140A" NpcId="Giving_zqm005_003" SecneId="1" TrackInfo="collect_9051"/>
+	<Property ID="9058" Name="压制瘟疫" Kind="9" Count="6" Droprate="1" IsDropOne="0" ItemId="Task_00141A" NpcId="Giving_zqm005_004" SecneId="1" TrackInfo="collect_9058"/>
+	<Property ID="18001" Name="这玩意儿太重了" Kind="18" Count="6" Droprate="1" IsDropOne="1" ItemId="Task_00142A" NpcId="Giving_qhm005_001" SecneId="2" TrackInfo="collect_18001"/>
+	<Property ID="18002" Name="安卡巴斯的礼物" Kind="18" Count="8" Droprate="0.8" IsDropOne="1" ItemId="Task_00143A" NpcId="monster_qhm005_0007" SecneId="2" TrackInfo="collect_18002"/>
+	<Property ID="18003" Name="提升战力" Kind="18" Count="5" Droprate="0.8" IsDropOne="1" ItemId="Task_00144A" NpcId="monster_qhm005_0009" SecneId="2" TrackInfo="collect_18003"/>
+	<Property ID="18004" Name="伤病" Kind="18" Count="5" Droprate="1" IsDropOne="1" ItemId="Task_00145A" NpcId="Giving_qhm005_002" SecneId="2" TrackInfo="collect_18004"/>
+	<Property ID="18005" Name="迷迭香" Kind="18" Count="5" Droprate="0.8" IsDropOne="1" ItemId="Task_00146A" NpcId="monster_qhm005_0029" SecneId="2" TrackInfo="collect_18005"/>
+	<Property ID="18006" Name="卡丽安娜之菊" Kind="18" Count="5" Droprate="1" IsDropOne="1" ItemId="Task_00147A" NpcId="Giving_qhm005_003" SecneId="2" TrackInfo="collect_18006"/>
+	<Property ID="18007" Name="卡丽安娜之菊" Kind="18" Count="5" Droprate="1" IsDropOne="1" ItemId="Task_00148A" NpcId="Giving_qhm005_004" SecneId="2" TrackInfo="collect_18007"/>
+	<Property ID="18008" Name="被抢走的钥匙" Kind="18" Count="1" Droprate="0.5" IsDropOne="1" ItemId="Task_00149A" NpcId="monster_qhm005_0004" SecneId="2" TrackInfo="collect_18008"/>
+	<Property ID="18009" Name="真的钥匙" Kind="18" Count="1" Droprate="1" IsDropOne="1" ItemId="Task_00150A" NpcId="monster_qhm005_0005" SecneId="2" TrackInfo="collect_18009"/>
+	<Property ID="18010" Name="哪里都有好机油" Kind="18" Count="5" Droprate="1" IsDropOne="1" ItemId="Task_00151A" NpcId="Giving_qhm005_005" SecneId="2" TrackInfo="collect_18010"/>
+	<Property ID="18011" Name="漂亮的卷毛" Kind="18" Count="5" Droprate="0.8" IsDropOne="1" ItemId="Task_00152A" NpcId="monster_qhm005_0031" SecneId="2" TrackInfo="collect_18011"/>
+	<Property ID="5001" Name="新鲜的牛排" Kind="5" Count="10" Droprate="0.5" IsDropOne="0" ItemId="Task_00171A" NpcId="monster_zlm001_0008" SecneId="3" TrackInfo="collect_5001"/>
+	<Property ID="5002" Name="制服猛兽" Kind="5" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00172A" NpcId="monster_zlm001_0016" SecneId="3" TrackInfo="collect_5002"/>
+	<Property ID="5003" Name="制服猛兽" Kind="5" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00173A" NpcId="monster_zlm001_0021" SecneId="3" TrackInfo="collect_5003"/>
+	<Property ID="5004" Name="尝鲜美味" Kind="5" Count="8" Droprate="0.5" IsDropOne="0" ItemId="Task_00174A" NpcId="monster_zlm001_0017" SecneId="3" TrackInfo="collect_5004"/>
+	<Property ID="5005" Name="古老的石板" Kind="5" Count="10" Droprate="1" IsDropOne="0" ItemId="Task_00175A" NpcId="Giving_zlm001_001" SecneId="3" TrackInfo="collect_5005"/>
+	<Property ID="5006" Name="更多的线索" Kind="5" Count="10" Droprate="1" IsDropOne="0" ItemId="Task_00176A" NpcId="Giving_zlm001_002" SecneId="3" TrackInfo="collect_5006"/>
+	<Property ID="5007" Name="是时候收网了" Kind="5" Count="8" Droprate="1" IsDropOne="0" ItemId="Task_00177A" NpcId="Giving_zlm001_003" SecneId="3" TrackInfo="collect_5007"/>
+	<Property ID="5008" Name="久违的野味" Kind="5" Count="8" Droprate="0.5" IsDropOne="0" ItemId="Task_00178A" NpcId="monster_zlm001_0014" SecneId="3" TrackInfo="collect_5008"/>
+	<Property ID="5009" Name="净化悲伤" Kind="5" Count="3" Droprate="0.4" IsDropOne="0" ItemId="Task_00179A" NpcId="monster_zlm001_0026" SecneId="3" TrackInfo="collect_5009"/>
+	<Property ID="5010" Name="直接上阵" Kind="5" Count="5" Droprate="0.4" IsDropOne="0" ItemId="Task_00180A" NpcId="monster_zlm001_0032" SecneId="3" TrackInfo="collect_5010"/>
+	<Property ID="5011" Name="破坏魔法塔" Kind="5" Count="3" Droprate="1" IsDropOne="0" ItemId="Task_00164A" NpcId="Giving_zlm001_004" SecneId="3" TrackInfo="collect_5011"/>
+	<Property ID="5012" Name="酒是水手最好的伙伴" Kind="5" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00166A" SecneId="3" TrackInfo="collect_5012"/>
+	<Property ID="5022" Name="让他们安息" Kind="5" Count="3" Droprate="0.7" IsDropOne="0" IsDeleteSave="0" ItemId="Task_00154A" NpcId="monster_zlm001_0026" SecneId="3" TrackInfo="collect_5011"/>
+	<Property ID="5023" Name="亡语湖泊" Kind="5" Count="5" Droprate="0.7" IsDropOne="0" ItemId="Task_00155A" NpcId="monster_zlm001_0031" SecneId="3" TrackInfo="collect_5012"/>
+	<Property ID="5013" Name="嫉妒剑灵" Kind="5" Count="5" Droprate="0.7" IsDropOne="0" IsDeleteSave="1" ItemId="Task_00156A" NpcId="monster_zlm001_0040" SecneId="3" TrackInfo="collect_5013"/>
+	<Property ID="5014" Name="憎恶剑灵" Kind="5" Count="5" Droprate="0.7" IsDropOne="0" IsDeleteSave="1" ItemId="Task_00157A" NpcId="monster_zlm001_0041" SecneId="3" TrackInfo="collect_5014"/>
+	<Property ID="5015" Name="破坏剑灵" Kind="5" Count="5" Droprate="0.7" IsDropOne="0" IsDeleteSave="1" ItemId="Task_00158A" NpcId="monster_zlm001_0042" SecneId="3" TrackInfo="collect_5015"/>
+	<Property ID="5016" Name="吝啬剑灵" Kind="5" Count="5" Droprate="0.7" IsDropOne="0" IsDeleteSave="1" ItemId="Task_00159A" NpcId="monster_zlm001_0043" SecneId="3" TrackInfo="collect_5016"/>
+	<Property ID="5017" Name="恐惧剑灵" Kind="5" Count="5" Droprate="0.7" IsDropOne="0" IsDeleteSave="1" ItemId="Task_00160A" NpcId="monster_zlm001_0044" SecneId="3" TrackInfo="collect_5017"/>
+	<Property ID="5018" Name="懒惰剑灵" Kind="5" Count="5" Droprate="0.7" IsDropOne="0" IsDeleteSave="1" ItemId="Task_00161A" NpcId="monster_zlm001_0045" SecneId="3" TrackInfo="collect_5018"/>
+	<Property ID="5019" Name="灾难剑灵" Kind="5" Count="5" Droprate="0.7" IsDropOne="0" IsDeleteSave="1" ItemId="Task_00162A" NpcId="monster_zlm001_0046" SecneId="3" TrackInfo="collect_5019"/>
+	<Property ID="5021" Name="新的开始" Kind="5" Count="3" Droprate="1" IsDropOne="0" ItemId="Task_00164A" NpcId="Giving_zlm001_004" SecneId="3" TrackInfo="collect_5021"/>
+	<Property ID="5101" Name="鳄鱼的进步" Kind="5" Count="5" Droprate="0.7" IsDropOne="0" ItemId="Task_00181A" NpcId="monster_zlm001_0011" SecneId="3" TrackInfo="collect_5101"/>
+	<Property ID="5102" Name="花心的点心" Kind="5" Count="5" Droprate="0.7" IsDropOne="0" ItemId="Task_00182A" NpcId="monster_zlm001_0009" SecneId="3" TrackInfo="collect_5102"/>
+	<Property ID="5103" Name="飞蛾的浪漫" Kind="5" Count="5" Droprate="0.7" IsDropOne="0" ItemId="Task_00183A" NpcId="monster_zlm001_0010" SecneId="3" TrackInfo="collect_5103"/>
+	<Property ID="5104" Name="甲虫的仰望" Kind="5" Count="5" Droprate="0.7" IsDropOne="0" ItemId="Task_00184A" NpcId="monster_zlm001_0012" SecneId="3" TrackInfo="collect_5104"/>
+	<Property ID="5105" Name="残缺的身体" Kind="5" Count="2" Droprate="0.5" IsDropOne="0" ItemId="Task_00185A" NpcId="monster_zlm001_0011" SecneId="3" TrackInfo="collect_5105"/>
+	<Property ID="5106" Name="完整的心灵" Kind="5" Count="1" Droprate="0.3" IsDropOne="0" ItemId="Task_00186A" NpcId="monster_zlm001_0009" SecneId="3" TrackInfo="collect_5106"/>
+	<Property ID="5110" Name="补充补给" Kind="5" Count="5" Droprate="0.6" IsDropOne="0" ItemId="Task_00187A" NpcId="monster_zlm001_0023" SecneId="3" TrackInfo="collect_5110"/>
+	<Property ID="5111" Name="烛光晚餐" Kind="5" Count="5" Droprate="0.6" IsDropOne="0" ItemId="Task_00188A" NpcId="monster_zlm001_0001" SecneId="3" TrackInfo="collect_5111"/>
+	<Property ID="19003" Name="龙舌草" Kind="19" Count="7" Droprate="1" IsDropOne="0" IsDeleteSave="0" ItemId="Task_00209A" NpcId="Giving_zlm002_001" SecneId="3" TrackInfo="collect_19003"/>
+	<Property ID="19009" Name="战后的村落" Kind="19" Count="7" Droprate="1" IsDropOne="0" IsDeleteSave="0" ItemId="Task_00210A" NpcId="Giving_zlm002_002" SecneId="3" TrackInfo="collect_19009"/>
+	<Property ID="19014" Name="疗伤用品" Kind="19" Count="7" Droprate="1" IsDropOne="0" ItemId="Task_00212A" NpcId="monster_zlm002_0037" SecneId="3" TrackInfo="collect_19014"/>
+	<Property ID="19017" Name="采集月辉草" Kind="19" Count="7" Droprate="1" IsDropOne="0" ItemId="Task_00213A" NpcId="Giving_zlm002_003" SecneId="3" TrackInfo="collect_19017"/>
+	<Property ID="19018" Name="作战计划" Kind="19" Count="7" Droprate="1" IsDropOne="0" ItemId="Task_00214A" NpcId="monster_zlm002_0040" SecneId="3" TrackInfo="collect_19018"/>
+	<Property ID="19026" Name="取得诱饵" Kind="19" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00215A" NpcId="monster_zlm002_0045" SecneId="3" TrackInfo="collect_19026"/>
+	<Property ID="19029" Name="意外搜获的情报" Kind="19" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00216A" NpcId="monster_zlm002_0046" SecneId="3" TrackInfo="collect_19029"/>
+	<Property ID="19031" Name="夺取黑金" Kind="19" Count="6" Droprate="1" IsDropOne="0" ItemId="Task_00217A" NpcId="monster_zlm002_0048" SecneId="3" TrackInfo="collect_19030"/>
+	<Property ID="19032" Name="一点都不要浪费" Kind="19" Count="6" Droprate="1" IsDropOne="0" ItemId="Task_00218A" NpcId="Giving_zlm002_004" SecneId="3" TrackInfo="collect_19031"/>
+	<Property ID="19037" Name="虾仁大餐" Kind="19" Count="7" Droprate="1" IsDropOne="0" ItemId="Task_00219A" NpcId="monster_zlm002_0051" SecneId="3" TrackInfo="collect_19037"/>
+	<Property ID="19042" Name="研究残骸" Kind="19" Count="6" Droprate="1" IsDropOne="0" ItemId="Task_00220A" NpcId="Giving_zlm002_005" SecneId="3" TrackInfo="collect_19042"/>
+	<Property ID="19047" Name="残忍的激将法" Kind="19" Count="6" Droprate="1" IsDropOne="0" ItemId="Task_00221A" NpcId="monster_zlm002_0055" SecneId="3" TrackInfo="collect_19047"/>
+	<Property ID="19050" Name="抚慰英灵" Kind="19" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00222A" NpcId="Giving_zlm002_013" SecneId="3" TrackInfo="collect_19050"/>
+	<Property ID="19052" Name="红梦魇" Kind="19" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00223A" NpcId="monster_zlm002_0058" SecneId="3" TrackInfo="collect_19052"/>
+	<Property ID="19061" Name="收集样本" Kind="19" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00205A" NpcId="monster_zlm002_0028" SecneId="3" TrackInfo="collect_19061"/>
+	<Property ID="19062" Name="收集样本" Kind="19" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00206A" NpcId="monster_zlm002_0029" SecneId="3" TrackInfo="collect_19062"/>
+	<Property ID="19063" Name="变异的植物" Kind="19" Count="6" Droprate="1" IsDropOne="0" ItemId="Task_00208A" NpcId="monster_zlm002_0030" SecneId="3" TrackInfo="collect_19063"/>
+	<Property ID="19065" Name="号角的好材料" Kind="19" Count="6" Droprate="1" IsDropOne="0" ItemId="Task_00224A" NpcId="monster_zlm002_0032" SecneId="3" TrackInfo="collect_19065"/>
+	<Property ID="19068" Name="蜘蛛的毒液" Kind="19" Count="6" Droprate="1" IsDropOne="0" ItemId="Task_00225A" NpcId="monster_zlm002_0029" SecneId="3" TrackInfo="collect_19068"/>
+	<Property ID="19071" Name="受伤的侍从" Kind="19" Count="7" Droprate="1" IsDropOne="0" ItemId="Task_00189A" NpcId="Giving_zlm002_006" SecneId="3" TrackInfo="collect_19071"/>
+	<Property ID="19078" Name="暗月刺客" Kind="19" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00191A" NpcId="monster_zlm002_0001" SecneId="3" TrackInfo="collect_19078"/>
+	<Property ID="19079" Name="稀奇的木材" Kind="19" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00192A" NpcId="Giving_zlm002_008" SecneId="3" TrackInfo="collect_19079"/>
+	<Property ID="19083" Name="采集夜月花" Kind="19" Count="6" Droprate="1" IsDropOne="0" ItemId="Task_00193A" NpcId="Giving_zlm002_009" SecneId="3" TrackInfo="collect_19083"/>
+	<Property ID="19085" Name="调查暗月狼人" Kind="19" Count="6" Droprate="1" IsDropOne="0" ItemId="Task_00194A" NpcId="monster_zlm002_0001" SecneId="3" TrackInfo="collect_19085"/>
+	<Property ID="19099" Name="皮质战甲" Kind="19" Count="7" Droprate="1" IsDropOne="0" ItemId="Task_00196A" NpcId="monster_zlm002_0012" SecneId="3" TrackInfo="collect_19099"/>
+	<Property ID="19100" Name="制造弓箭" Kind="19" Count="7" Droprate="1" IsDropOne="0" ItemId="Task_00197A" NpcId="Giving_zlm002_010" SecneId="3" TrackInfo="collect_19100"/>
+	<Property ID="19107" Name="受伤的士兵" Kind="19" Count="7" Droprate="1" IsDropOne="0" ItemId="Task_00199A" NpcId="Giving_zlm002_011" SecneId="3" TrackInfo="collect_19107"/>
+	<Property ID="19112" Name="护法坠饰" Kind="19" Count="6" Droprate="1" IsDropOne="0" ItemId="Task_00200A" NpcId="monster_zlm002_0018" SecneId="3" TrackInfo="collect_19112"/>
+	<Property ID="19115" Name="以防后患" Kind="19" Count="6" Droprate="1" IsDropOne="0" ItemId="Task_00226A" NpcId="monster_zlm002_0019" SecneId="3" TrackInfo="collect_19115"/>
+	<Property ID="19118" Name="防护饰品" Kind="19" Count="6" Droprate="1" IsDropOne="0" ItemId="Task_00201A" NpcId="monster_zlm002_0013" SecneId="3" TrackInfo="collect_19118"/>
+	<Property ID="19120" Name="法术研究" Kind="19" Count="6" Droprate="1" IsDropOne="0" IsDeleteSave="0" ItemId="Task_00202A" NpcId="monster_zlm002_0021" SecneId="3" TrackInfo="collect_19121"/>
+	<Property ID="19122" Name="绝对防御" Kind="19" Count="6" Droprate="1" IsDropOne="0" ItemId="Task_00203A" NpcId="monster_zlm002_0022" SecneId="3" TrackInfo="collect_19122"/>
+	<Property ID="19129" Name="珍贵的资源" Kind="19" Count="6" Droprate="1" IsDropOne="0" ItemId="Task_00204A" NpcId="Giving_zlm002_012" SecneId="3" TrackInfo="collect_19129"/>
+	<Property ID="19134" Name="收集样本" Kind="19" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00205A" NpcId="monster_zlm002_0028" SecneId="3" TrackInfo="collect_19134"/>
+	<Property ID="19135" Name="收集样本" Kind="19" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00206A" NpcId="monster_zlm002_0029" SecneId="3" TrackInfo="collect_19135"/>
+	<Property ID="19136" Name="变异的植物" Kind="19" Count="6" Droprate="1" IsDropOne="0" ItemId="Task_00208A" NpcId="monster_zlm002_0030" SecneId="3" TrackInfo="collect_19136"/>
+	<Property ID="8001" Name="缺少的材料" Kind="8" Count="5" Droprate="1" IsDropOne="0" ItemId="Task_00303A" NpcId="monster_zlm008_0001" SecneId="5" TrackInfo="collect_8001"/>
+	<Property ID="8002" Name="探险队的物资" Kind="8" Count="6" Droprate="1" IsDropOne="0" ItemId="Task_00313A" NpcId="Giving_zlm008_001" SecneId="5" TrackInfo="collect_8002"/>
+	<Property ID="8003" Name="堕落的血卫军" Kind="8" Count="20" Droprate="1" IsDropOne="0" ItemId="Task_00304A" NpcId="monster_zlm008_0009,monster_zlm008_0010" SecneId="5" TrackInfo="collect_8003"/>
+	<Property ID="8004" Name="带血的钥匙" Kind="8" Count="1" Droprate="0.2" IsDropOne="0" ItemId="TaskUse_00070A" NpcId="monster_zlm008_0008" SecneId="5" TrackInfo="collect_8004"/>
+	<Property ID="8005" Name="魔法材料" Kind="8" Count="5" Droprate="1" IsDropOne="0" ItemId="Task_00305A" NpcId="monster_zlm008_0011" SecneId="5" TrackInfo="collect_8005"/>
+	<Property ID="8006" Name="魔法材料" Kind="8" Count="1" Droprate="0.2" IsDropOne="0" ItemId="Task_00306A" NpcId="monster_zlm008_0011" SecneId="5" TrackInfo="collect_8006"/>
+	<Property ID="8007" Name="破坏研究" Kind="8" Count="5" Droprate="1" IsDropOne="0" ItemId="Task_00307A" NpcId="monster_zlm008_0015" SecneId="5" TrackInfo="collect_8007"/>
+	<Property ID="8008" Name="驱动的核心" Kind="8" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00308A" NpcId="monster_zlm008_0003" SecneId="5" TrackInfo="collect_8008"/>
+	<Property ID="8009" Name="驱动的核心" Kind="8" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00309A" NpcId="monster_zlm008_0002" SecneId="5" TrackInfo="collect_8009"/>
+	<Property ID="8010" Name="驱动的缺少" Kind="8" Count="10" Droprate="1" IsDropOne="0" ItemId="Task_00308A" NpcId="monster_zlm008_0003" SecneId="5" TrackInfo="collect_8010"/>
+	<Property ID="8011" Name="驱动的缺少" Kind="8" Count="10" Droprate="1" IsDropOne="0" ItemId="Task_00309A" NpcId="monster_zlm008_0002" SecneId="5" TrackInfo="collect_8011"/>
+	<Property ID="8012" Name="研究的核心" Kind="8" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00310A" NpcId="monster_zlm008_0017" SecneId="5" TrackInfo="collect_8012"/>
+	<Property ID="8013" Name="荒原之子" Kind="8" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00311A" NpcId="monster_zlm008_0019" SecneId="5" TrackInfo="collect_8013"/>
+	<Property ID="8014" Name="精神枷锁" Kind="8" Count="1" Droprate="0.3" IsDropOne="0" ItemId="TaskUse_00071A" NpcId="monster_zlm008_0020" SecneId="5" TrackInfo="collect_8014"/>
+	<Property ID="8015" Name="力量枷锁" Kind="8" Count="1" Droprate="0.3" IsDropOne="0" ItemId="TaskUse_00072A" NpcId="monster_zlm008_0021" SecneId="5" TrackInfo="collect_8015"/>
+	<Property ID="8016" Name="缺少的材料" Kind="8" Count="5" Droprate="1" IsDropOne="0" ItemId="Task_00303A" NpcId="monster_zlm008_0001" SecneId="5" TrackInfo="collect_8016"/>
+	<Property ID="8017" Name="探险队的物资" Kind="8" Count="6" Droprate="1" IsDropOne="0" ItemId="Task_00313A" NpcId="Giving_zlm008_002" SecneId="5" TrackInfo="collect_8017"/>
+	<Property ID="8018" Name="堕落的血卫军" Kind="8" Count="20" Droprate="1" IsDropOne="0" ItemId="Task_00304A" NpcId="monster_zlm008_0009,monster_zlm008_0010" SecneId="5" TrackInfo="collect_8018"/>
+	<Property ID="8019" Name="带血的钥匙" Kind="8" Count="1" Droprate="1" IsDropOne="0" ItemId="TaskUse_00070A" NpcId="monster_zlm008_0008" SecneId="5" TrackInfo="collect_8019"/>
+	<Property ID="8020" Name="魔法材料" Kind="8" Count="5" Droprate="1" IsDropOne="0" ItemId="Task_00305A" NpcId="monster_zlm008_0011" SecneId="5" TrackInfo="collect_8020"/>
+	<Property ID="8021" Name="魔法材料" Kind="8" Count="1" Droprate="0.2" IsDropOne="0" ItemId="Task_00306A" NpcId="monster_zlm008_0011" SecneId="5" TrackInfo="collect_8021"/>
+	<Property ID="8022" Name="破坏研究" Kind="8" Count="5" Droprate="1" IsDropOne="0" ItemId="Task_00307A" NpcId="monster_zlm008_0015" SecneId="5" TrackInfo="collect_8022"/>
+	<Property ID="8023" Name="驱动的核心" Kind="8" Count="1" Droprate="0.3" IsDropOne="0" ItemId="Task_00308A" NpcId="monster_zlm008_0003" SecneId="5" TrackInfo="collect_8023"/>
+	<Property ID="8024" Name="驱动的核心" Kind="8" Count="1" Droprate="0.3" IsDropOne="0" ItemId="Task_00309A" NpcId="monster_zlm008_0002" SecneId="5" TrackInfo="collect_8024"/>
+	<Property ID="8025" Name="驱动的缺少" Kind="8" Count="10" Droprate="1" IsDropOne="0" ItemId="Task_00308A" NpcId="monster_zlm008_0003" SecneId="5" TrackInfo="collect_8025"/>
+	<Property ID="8026" Name="驱动的缺少" Kind="8" Count="10" Droprate="1" IsDropOne="0" ItemId="Task_00309A" NpcId="monster_zlm008_0002" SecneId="5" TrackInfo="collect_8026"/>
+	<Property ID="8027" Name="研究的核心" Kind="8" Count="1" Droprate="0.3" IsDropOne="0" ItemId="Task_00310A" NpcId="monster_zlm008_0017" SecneId="5" TrackInfo="collect_8027"/>
+	<Property ID="8028" Name="荒原之子" Kind="8" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00311A" NpcId="monster_zlm008_0019" SecneId="5" TrackInfo="collect_8028"/>
+	<Property ID="8029" Name="精神枷锁" Kind="8" Count="1" Droprate="0.3" IsDropOne="0" ItemId="TaskUse_00071A" NpcId="monster_zlm008_0020" SecneId="5" TrackInfo="collect_8029"/>
+	<Property ID="8030" Name="力量枷锁" Kind="8" Count="1" Droprate="0.3" IsDropOne="0" ItemId="TaskUse_00072A" NpcId="monster_zlm008_0021" SecneId="5" TrackInfo="collect_8030"/>
+	<Property ID="8031" Name="杀手小头领" Kind="8" Count="3" Droprate="1" IsDropOne="0" ItemId="TaskUse_00073A" NpcId="monster_zlm008_0032" SecneId="5" TrackInfo="collect_8031"/>
+	<Property ID="8032" Name="找回遗失物品" Kind="8" Count="6" Droprate="1" IsDropOne="0" ItemId="Task_00314A" NpcId="Giving_zlm008_003" SecneId="5" TrackInfo="collect_8032"/>
+	<Property ID="8033" Name="真正变异生物" Kind="8" Count="10" Droprate="1" IsDropOne="0" ItemId="Task_00312A" NpcId="monster_zlm008_0006" SecneId="5" TrackInfo="collect_8033"/>
+	<Property ID="8999" Name="古老的手稿" Kind="8" Count="30" Droprate="1" IsDropOne="0" IsDeleteSave="1" ItemId="Task_00315A" NpcId="monster_zlm008_0017,monster_zlm008_0016,monster_zlm008_0015" SecneId="5" TrackInfo="collect_8999"/>
+	<Property ID="8998" Name="血之召唤" Kind="8" Count="6" Droprate="1" IsDropOne="0" ItemId="Task_00316A" NpcId="Event_zlm008_0003" SecneId="5" TrackInfo="collect_8998"/>
+	<Property ID="8997" Name="杀手的契约" Kind="8" Count="4" Droprate="1" IsDropOne="0" ItemId="Task_00317A" NpcId="monster_zlm008_0037,monster_zlm008_0036,monster_zlm008_0031" SecneId="5" TrackInfo="collect_8997"/>
+	<Property ID="8978" Name="宝藏守护者" Kind="8" Count="6" Droprate="1" IsDropOne="0" ItemId="Task_00318A" NpcId="Event_zlm008_0008" SecneId="5" TrackInfo="collect_8978"/>
+	<Property ID="23001" Name="救治阿瓦莉" Kind="23" Count="5" Droprate="1" IsDropOne="0" ItemId="Task_00319A" NpcId="Giving_zlm003_001" SecneId="3" TrackInfo="collect_23013"/>
+	<Property ID="23002" Name="以毒攻毒" Kind="23" Count="5" Droprate="0.8" IsDropOne="0" ItemId="Task_00320A" NpcId="monster_zlm003_0007" SecneId="3" TrackInfo="collect_23014"/>
+	<Property ID="23003" Name="救回物资" Kind="23" Count="5" Droprate="0.8" IsDropOne="0" ItemId="Task_00321A" NpcId="monster_zlm003_0001" SecneId="3" TrackInfo="collect_23003"/>
+	<Property ID="23004" Name="博格的研究工具" Kind="23" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00322A" NpcId="Giving_zlm003_002" SecneId="3" TrackInfo="collect_23004"/>
+	<Property ID="23005" Name="火水晶饰品" Kind="23" Count="6" Droprate="0.8" IsDropOne="0" ItemId="Task_00323A" NpcId="monster_zlm003_0015,monster_zlm003_0016" SecneId="3" TrackInfo="collect_23005"/>
+	<Property ID="23006" Name="达戈菲尔军徽" Kind="23" Count="6" Droprate="0.8" IsDropOne="0" ItemId="Task_00324A" NpcId="monster_zlm003_0025" SecneId="3" TrackInfo="collect_23006"/>
+	<Property ID="23007" Name="根除隐患" Kind="23" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00325A" NpcId="monster_zlm003_0027" SecneId="3" TrackInfo="collect_23007"/>
+	<Property ID="23008" Name="寻回失物" Kind="23" Count="5" Droprate="0.8" IsDropOne="0" ItemId="Task_00326A" NpcId="monster_zlm003_0028" SecneId="3" TrackInfo="collect_23008"/>
+	<Property ID="23009" Name="绽放的小菊花" Kind="23" Count="5" Droprate="1" IsDropOne="0" ItemId="Task_00327A" NpcId="Giving_zlm003_003" SecneId="3" TrackInfo="collect_23009"/>
+	<Property ID="23010" Name="神奇的话筒" Kind="23" Count="5" Droprate="0.8" IsDropOne="0" ItemId="Task_00328A" NpcId="monster_zlm003_0029" SecneId="3" TrackInfo="collect_23010"/>
+	<Property ID="23011" Name="拔毛" Kind="23" Count="5" Droprate="0.8" IsDropOne="0" ItemId="Task_00329A" NpcId="monster_zlm003_0030" SecneId="3" TrackInfo="collect_23011"/>
+	<Property ID="23012" Name="不堪一击" Kind="23" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00330A" NpcId="monster_zlm003_0033" SecneId="3" TrackInfo="collect_23012"/>
+	<Property ID="23013" Name="穿越火线" Kind="23" Count="5" Droprate="1" IsDropOne="0" ItemId="Task_00331A" NpcId="Giving_zlm003_004" SecneId="3" TrackInfo="collect_23013"/>
+	<Property ID="23014" Name="夺回研究标本" Kind="23" Count="5" Droprate="0.8" IsDropOne="0" ItemId="Task_00332A" NpcId="monster_zlm003_0037" SecneId="3" TrackInfo="collect_23014"/>
+	<Property ID="23015" Name="夺回研究标本" Kind="23" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00333A" NpcId="monster_zlm003_0038" SecneId="3" TrackInfo="collect_23015"/>
+	<Property ID="23016" Name="熔岩之心" Kind="23" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00334A" NpcId="Giving_zlm003_005" SecneId="3" TrackInfo="collect_23016"/>
+	<Property ID="23017" Name="炎蛇之乱" Kind="23" Count="10" Droprate="0.8" IsDropOne="0" ItemId="Task_00336A" NpcId="Event_zlm003_0001" SecneId="3" TrackInfo="collect_23017"/>
+	<Property ID="10001" Name="变异的生物" Kind="10" Count="3" Droprate="0.8" IsDropOne="0" IsDeleteSave="0" ItemId="Task_00272A" NpcId="monster_zlm007_0001" SecneId="5" TrackInfo="collect_10001"/>
+	<Property ID="10002" Name="采集植物" Kind="10" Count="5" Droprate="1" IsDropOne="0" ItemId="Task_00273A" NpcId="Giving_zlm007_001" SecneId="5" TrackInfo="collect_10002"/>
+	<Property ID="10003" Name="获取毛皮" Kind="10" Count="5" Droprate="0.8" IsDropOne="0" ItemId="Task_00274A" NpcId="monster_zlm007_0003" SecneId="5" TrackInfo="collect_10003"/>
+	<Property ID="10004" Name="收集能量" Kind="10" Count="5" Droprate="0.8" IsDropOne="0" ItemId="Task_00275A" NpcId="monster_zlm007_0002" SecneId="5" TrackInfo="collect_10004"/>
+	<Property ID="10005" Name="消灭末日教信徒" Kind="10" Count="5" Droprate="0.8" IsDropOne="0" ItemId="Task_00277A" NpcId="monster_zlm007_0019" SecneId="5" TrackInfo="collect_10005"/>
+	<Property ID="10006" Name="调查革新会" Kind="10" Count="3" Droprate="1" IsDropOne="0" ItemId="Task_00278A" NpcId="Giving_zlm007_002" SecneId="5" TrackInfo="collect_10006"/>
+	<Property ID="10007" Name="强化的装备" Kind="10" Count="5" Droprate="0.8" IsDropOne="0" ItemId="Task_00279A" NpcId="monster_zlm007_0034" SecneId="5" TrackInfo="collect_10007"/>
+	<Property ID="10008" Name="研究手册" Kind="10" Count="3" Droprate="0.8" IsDropOne="0" ItemId="Task_00280A" NpcId="monster_zlm007_0035" SecneId="5" TrackInfo="collect_10008"/>
+	<Property ID="10009" Name="收集资料" Kind="10" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00281A" NpcId="Giving_zlm007_003" SecneId="5" TrackInfo="collect_10009"/>
+	<Property ID="10010" Name="末日教教义" Kind="10" Count="5" Droprate="0.8" IsDropOne="0" ItemId="Task_00282A" NpcId="monster_zlm007_0021" SecneId="5" TrackInfo="collect_10010"/>
+	<Property ID="10011" Name="督察者之证" Kind="10" Count="3" Droprate="0.8" IsDropOne="0" ItemId="Task_00283A" NpcId="monster_zlm007_0040" SecneId="5" TrackInfo="collect_10011"/>
+	<Property ID="10012" Name="带回战利品" Kind="10" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00284A" NpcId="Giving_zlm007_004" SecneId="5" TrackInfo="collect_10012"/>
+	<Property ID="10013" Name="奇怪的文件" Kind="10" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00285A" NpcId="Giving_zlm007_005" SecneId="5" TrackInfo="collect_10013"/>
+	<Property ID="10014" Name="摧毁日轮派的集会" Kind="10" Count="5" Droprate="1" IsDropOne="0" ItemId="Task_00286A" NpcId="Giving_zlm007_006" SecneId="5" TrackInfo="collect_10014"/>
+	<Property ID="10015" Name="剿灭日轮派的据点" Kind="10" Count="5" Droprate="1" IsDropOne="0" ItemId="Task_00287A" NpcId="Giving_zlm007_007" SecneId="5" TrackInfo="collect_10015"/>
+	<Property ID="10016" Name="剿灭日轮派的据点" Kind="10" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00288A" NpcId="Giving_zlm007_008" SecneId="5" TrackInfo="collect_10016"/>
+	<Property ID="10101" Name="风元素精华" Kind="10" Count="5" Droprate="0.8" IsDropOne="0" ItemId="Task_00275A" NpcId="monster_zlm007_0002" SecneId="5" TrackInfo="collect_10101"/>
+	<Property ID="10102" Name="青狼肉" Kind="10" Count="5" Droprate="0.8" IsDropOne="0" ItemId="Task_00290A" NpcId="monster_zlm007_0003" SecneId="5" TrackInfo="collect_10102"/>
+	<Property ID="10103" Name="变异狐狸研究" Kind="10" Count="5" Droprate="0.8" IsDropOne="0" ItemId="Task_00291A" NpcId="monster_zlm007_0007" SecneId="5" TrackInfo="collect_10103"/>
+	<Property ID="10104" Name="变异杀虫研究" Kind="10" Count="5" Droprate="0.8" IsDropOne="0" ItemId="Task_00292A" NpcId="monster_zlm007_0008" SecneId="5" TrackInfo="collect_10104"/>
+	<Property ID="10105" Name="变异大角牛研究" Kind="10" Count="5" Droprate="0.8" IsDropOne="0" ItemId="Task_00293A" NpcId="monster_zlm007_0009" SecneId="5" TrackInfo="collect_10105"/>
+	<Property ID="10106" Name="变异卷毛血狼研究" Kind="10" Count="5" Droprate="0.8" IsDropOne="0" ItemId="Task_00294A" NpcId="monster_zlm007_0010" SecneId="5" TrackInfo="collect_10106"/>
+	<Property ID="10107" Name="变异巨爪兽研究" Kind="10" Count="5" Droprate="0.8" IsDropOne="0" ItemId="Task_00295A" NpcId="monster_zlm007_0011" SecneId="5" TrackInfo="collect_10107"/>
+	<Property ID="10108" Name="三臂巨怪之王" Kind="10" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00296A" NpcId="monster_zlm007_0012" SecneId="5" TrackInfo="collect_10108"/>
+	<Property ID="10109" Name="收集废弃材料" Kind="10" Count="5" Droprate="1" IsDropOne="0" ItemId="Task_00297A" NpcId="Giving_zlm007_010" SecneId="5" TrackInfo="collect_10109"/>
+	<Property ID="10110" Name="采药智慧崖" Kind="10" Count="5" Droprate="1" IsDropOne="0" ItemId="Task_00298A" NpcId="Giving_zlm007_011" SecneId="5" TrackInfo="collect_10110"/>
+	<Property ID="10111" Name="上好的盾牌" Kind="10" Count="5" Droprate="0.8" IsDropOne="0" ItemId="Task_00299A" NpcId="monster_zlm007_0022" SecneId="5" TrackInfo="collect_10111"/>
+	<Property ID="10112" Name="收集机械零件" Kind="10" Count="5" Droprate="1" IsDropOne="0" ItemId="Task_00300A" NpcId="Giving_zlm007_012" SecneId="5" TrackInfo="collect_10112"/>
+	<Property ID="10901" Name="血之号角1" Kind="10" Count="6" Droprate="0.8" IsDropOne="0" ItemId="Task_00301A" NpcId="monster_zlm007_0010" SecneId="5" TrackInfo="collect_10901"/>
+	<Property ID="10902" Name="血之号角2" Kind="10" Count="6" Droprate="0.8" IsDropOne="0" ItemId="Task_00302A" NpcId="monster_zlm007_0009" RefreshMonster="5" TrackInfo="collect_10902"/>
+	<Property ID="10903" Name="神奇的植物" Kind="10" Count="6" Droprate="1" IsDropOne="0" ItemId="Task_00289A" NpcId="Giving_zlm007_009" SecneId="5" TrackInfo="collect_10903"/>
+	<Property ID="20001" Name="绊马索" Kind="20" Count="5" Droprate="1" IsDropOne="0" ItemId="Task_00270A" NpcId="Giving_zlm004_009" SecneId="3" TrackInfo="collect_20001"/>
+	<Property ID="20002" Name="近卫军的日志" Kind="20" Count="5" Droprate="1" IsDropOne="0" ItemId="Task_00271A" NpcId="monster_zlm004_0021" SecneId="3" TrackInfo="collect_20002"/>
+	<Property ID="20003" Name="俘虏的请求" Kind="20" Count="1" Droprate="0.8" IsDropOne="0" ItemId="Task_00258A" NpcId="monster_zlm004_0013" SecneId="3" TrackInfo="collect_20003"/>
+	<Property ID="20004" Name="神秘的仪式" Kind="20" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00259A" NpcId="Giving_zlm004_001" SecneId="3" TrackInfo="collect_20004"/>
+	<Property ID="20005" Name="耶能的研究" Kind="20" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00260A" NpcId="Giving_zlm004_002" SecneId="3" TrackInfo="collect_20005"/>
+	<Property ID="20006" Name="耶能的新研究" Kind="20" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00261A" NpcId="Giving_zlm004_003" SecneId="3" TrackInfo="collect_20006"/>
+	<Property ID="20007" Name="耶能的新研究" Kind="20" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00262A" NpcId="Giving_zlm004_004" SecneId="3" TrackInfo="collect_20007"/>
+	<Property ID="20008" Name="耶能的新研究" Kind="20" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00263A" NpcId="Giving_zlm004_005" SecneId="3" TrackInfo="collect_20008"/>
+	<Property ID="20009" Name="元素核心" Kind="20" Count="6" Droprate="0.8" IsDropOne="0" ItemId="Task_00264A" NpcId="monster_zlm004_0040" SecneId="3" TrackInfo="collect_20009"/>
+	<Property ID="20010" Name="变异的元素核心" Kind="20" Count="6" Droprate="0.8" IsDropOne="0" ItemId="Task_00265A" NpcId="monster_zlm004_0041" SecneId="3" TrackInfo="collect_20010"/>
+	<Property ID="20011" Name="受伤的守备军" Kind="20" Count="6" Droprate="1" IsDropOne="0" ItemId="Task_00266A" NpcId="Giving_zlm004_006" SecneId="3" TrackInfo="collect_20011"/>
+	<Property ID="20012" Name="计划书一" Kind="20" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00267A" NpcId="Giving_zlm004_007" SecneId="3" TrackInfo="collect_20012"/>
+	<Property ID="20013" Name="计划书二" Kind="20" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00268A" NpcId="Giving_zlm004_008" SecneId="3" TrackInfo="collect_20013"/>
+	<Property ID="20014" Name="计划书三" Kind="20" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00269A" NpcId="monster_zlm004_0044" SecneId="3" TrackInfo="collect_20014"/>
+	<Property ID="6033" Name="补给军备" Kind="6" Count="7" Droprate="1" IsDropOne="0" ItemId="Task_00227A" NpcId="Giving_zlm005_001" SecneId="4" TrackInfo="collect_6032"/>
+	<Property ID="6045" Name="这叫商业战争" Kind="6" Count="7" Droprate="1" IsDropOne="0" ItemId="Task_00228A" NpcId="monster_zlm005_0019" SecneId="4" TrackInfo="collect_6045"/>
+	<Property ID="6061" Name="这叫商业战争" Kind="6" Count="7" Droprate="1" IsDropOne="0" ItemId="Task_00228A" NpcId="monster_zlm005_0050" SecneId="4" TrackInfo="collect_6061"/>
+	<Property ID="16002" Name="末日教情报" Kind="16" Count="1" Droprate="0.8" IsDropOne="0" ItemId="Task_00233A" NpcId="monster_zlm006_0010" SecneId="4" TrackInfo="collect_16002"/>
+	<Property ID="16005" Name="末日教的踪迹" Kind="16" Count="1" Droprate="0.8" IsDropOne="0" ItemId="Task_00249A" NpcId="monster_zlm006_0040" SecneId="4" TrackInfo="collect_16005"/>
+	<Property ID="16006" Name="曙光法师" Kind="16" Count="6" Droprate="0.8" IsDropOne="0" IsDeleteSave="0" ItemId="Task_00250A" NpcId="monster_zlm006_0041" SecneId="4" TrackInfo="collect_16006"/>
+	<Property ID="16008" Name="特效药的原料" Kind="16" Count="7" Droprate="1" IsDropOne="0" ItemId="Task_00251A" NpcId="Giving_zlm006_009" SecneId="4" TrackInfo="collect_16008"/>
+	<Property ID="16012" Name="研究报告" Kind="16" Count="6" Droprate="1" IsDropOne="0" ItemId="Task_00234A" NpcId="monster_zlm006_0014" SecneId="4" TrackInfo="collect_16012"/>
+	<Property ID="16014" Name="最终研究报告" Kind="16" Count="6" Droprate="1" IsDropOne="0" ItemId="Task_00235A" NpcId="monster_zlm006_0015" SecneId="4" TrackInfo="collect_16014"/>
+	<Property ID="16015" Name="秘法精华" Kind="16" Count="6" Droprate="1" IsDropOne="0" ItemId="Task_00244A" NpcId="monster_zlm006_0027" SecneId="4" TrackInfo="collect_16015"/>
+	<Property ID="16020" Name="调查原因" Kind="16" Count="6" Droprate="0.8" IsDropOne="0" ItemId="Task_00252A" NpcId="monster_zlm006_0044" SecneId="4" TrackInfo="collect_16020"/>
+	<Property ID="16035" Name="王国军情报" Kind="16" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00229A" NpcId="monster_zlm006_0017" SecneId="4" TrackInfo="collect_16035"/>
+	<Property ID="16037" Name="骚扰" Kind="16" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00230A" NpcId="monster_zlm006_0019" SecneId="4" TrackInfo="collect_16037"/>
+	<Property ID="16040" Name="龙舌草" Kind="16" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00231A" NpcId="Giving_zlm006_001" SecneId="4" TrackInfo="collect_16040"/>
+	<Property ID="16042" Name="战斗的痕迹" Kind="16" Count="6" Droprate="1" IsDropOne="0" ItemId="Task_00240A" NpcId="Giving_zlm006_002" SecneId="4" TrackInfo="collect_16042"/>
+	<Property ID="16043" Name="战备资源之棕熊毛皮" Kind="16" Count="6" Droprate="1" IsDropOne="0" ItemId="Task_00241A" NpcId="monster_zlm006_0022" SecneId="4" TrackInfo="collect_16043"/>
+	<Property ID="16044" Name="战备资源之疗伤药材" Kind="16" Count="6" Droprate="1" IsDropOne="0" ItemId="Task_00242A" NpcId="Giving_zlm006_003" SecneId="4" TrackInfo="collect_16044"/>
+	<Property ID="16045" Name="战备资源之破碎武器" Kind="16" Count="6" Droprate="1" IsDropOne="0" ItemId="Task_00243A" NpcId="Giving_zlm006_004" SecneId="4" TrackInfo="collect_16045"/>
+	<Property ID="16052" Name="巴克的耻辱" Kind="16" Count="6" Droprate="1" IsDropOne="0" ItemId="Task_00246A" NpcId="monster_zlm006_0038" SecneId="4" TrackInfo="collect_16052"/>
+	<Property ID="16053" Name="洼地的特产" Kind="16" Count="7" Droprate="1" IsDropOne="0" ItemId="Task_00247A" NpcId="Giving_zlm006_008" SecneId="4" TrackInfo="collect_16053"/>
+	<Property ID="16055" Name="刺客的利刃" Kind="16" Count="6" Droprate="1" IsDropOne="0" ItemId="Task_00248A" NpcId="monster_zlm006_0039" SecneId="4" TrackInfo="collect_16055"/>
+	<Property ID="16065" Name="法力残渣" Kind="16" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00255A" NpcId="Giving_zlm006_012" SecneId="4" TrackInfo="collect_16065"/>
+	<Property ID="16067" Name="法力之环" Kind="16" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00256A" NpcId="monster_zlm006_0062" SecneId="4" TrackInfo="collect_16067"/>
+	<Property ID="16074" Name="古国的历史" Kind="16" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00253A" NpcId="Giving_zlm006_010" SecneId="4" TrackInfo="collect_16074"/>
+	<Property ID="16084" Name="采集冬草" Kind="16" Count="8" Droprate="1" IsDropOne="0" ItemId="Task_00254A" NpcId="Giving_zlm006_011" SecneId="4" TrackInfo="collect_16084"/>
+	<Property ID="16088" Name="闪光符文碎片" Kind="16" Count="7" Droprate="1" IsDropOne="0" ItemId="Task_00236A" NpcId="Giving_zlm006_006" SecneId="4" TrackInfo="collect_16088"/>
+	<Property ID="16091" Name="被夺去的碎片" Kind="16" Count="7" Droprate="1" IsDropOne="0" ItemId="Task_00237A" NpcId="monster_zlm006_0007" SecneId="4" TrackInfo="collect_16091"/>
+	<Property ID="16092" Name="魔法尘" Kind="16" Count="7" Droprate="1" IsDropOne="0" ItemId="Task_00238A" NpcId="Giving_zlm006_007" SecneId="4" TrackInfo="collect_16092"/>
+	<Property ID="16093" Name="被夺去的魔法尘" Kind="16" Count="7" Droprate="1" IsDropOne="0" ItemId="Task_00239A" NpcId="monster_zlm006_0008" SecneId="4" TrackInfo="collect_16093"/>
+	<Property ID="16097" Name="封印魔法设施" Kind="16" Count="6" Droprate="1" IsDropOne="0" ItemId="Task_00236A" NpcId="Giving_zlm006_005" SecneId="4" TrackInfo="collect_16097"/>
+	<Property ID="16100" Name="秘法钥匙" Kind="16" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00245A" NpcId="monster_zlm006_0036" SecneId="4" TrackInfo="collect_16100"/>
+	<Property ID="7001" Name="防具准备" Kind="7" Count="8" Droprate="0.5" IsDropOne="0" ItemId="Task_00350A" NpcId="monster_zlm011_0001" SecneId="5" TrackInfo="collect_7001"/>
+	<Property ID="7002" Name="武器准备" Kind="7" Count="8" Droprate="0.5" IsDropOne="0" ItemId="Task_00351A" NpcId="monster_zlm011_0002" SecneId="5" TrackInfo="collect_7002"/>
+	<Property ID="7003" Name="食物准备" Kind="7" Count="6" Droprate="0.5" IsDropOne="0" ItemId="Task_00352A" NpcId="monster_zlm011_0003" SecneId="5" TrackInfo="collect_7003"/>
+	<Property ID="7004" Name="药品准备" Kind="7" Count="8" Droprate="1" IsDropOne="0" ItemId="Task_00353A" NpcId="Giving_zlm011_001" SecneId="5" TrackInfo="collect_7004"/>
+	<Property ID="7005" Name="找银鳞“借”点物资" Kind="7" Count="5" Droprate="1" IsDropOne="0" ItemId="TaskUse_00092A" NpcId="Giving_zlm011_003" SecneId="5" TrackInfo="collect_7005"/>
+	<Property ID="7006" Name="防具准备" Kind="7" Count="8" Droprate="0.5" IsDropOne="0" ItemId="TaskUse_00091A" NpcId="monster_zlm011_0001" SecneId="5" TrackInfo="collect_7006"/>
+	<Property ID="7007" Name="武器准备" Kind="7" Count="8" Droprate="0.5" IsDropOne="0" ItemId="Task_00351A" NpcId="monster_zlm011_0002" SecneId="5" TrackInfo="collect_7007"/>
+	<Property ID="7008" Name="食物准备" Kind="7" Count="6" Droprate="0.5" IsDropOne="0" ItemId="Task_00352A" NpcId="monster_zlm011_0003" SecneId="5" TrackInfo="collect_7008"/>
+	<Property ID="7009" Name="药品准备" Kind="7" Count="8" Droprate="1" IsDropOne="0" ItemId="Task_00353A" NpcId="Giving_zlm011_002" SecneId="5" TrackInfo="collect_7009"/>
+	<Property ID="7010" Name="找金鳞“借”点物资" Kind="7" Count="5" Droprate="1" IsDropOne="0" ItemId="TaskUse_00092A" NpcId="Giving_zlm011_004" SecneId="5" TrackInfo="collect_7010"/>
+	<Property ID="7011" Name="收集遗迹古物" Kind="7" Count="5" Droprate="1" IsDropOne="0" ItemId="Task_00354A" NpcId="Giving_zlm011_005" SecneId="5" TrackInfo="collect_7011"/>
+	<Property ID="7095" Name="找银鳞“借”点物资" Kind="7" Count="20" Droprate="1" IsDropOne="0" ItemId="Task_00365A" NpcId="Giving_zlm011_007" SecneId="5" TrackInfo="collect_7095"/>
+	<Property ID="7097" Name="找金鳞“借”点物资" Kind="7" Count="20" Droprate="1" IsDropOne="0" ItemId="Task_00366A" NpcId="Giving_zlm011_008" SecneId="5" TrackInfo="collect_7097"/>
+	<Property ID="7968" Name="研究员的私心" Kind="7" Count="6" Droprate="1" IsDropOne="0" ItemId="Task_00357A" NpcId="Giving_zlm011_006" SecneId="5" TrackInfo="collect_7968"/>
+	<Property ID="11001" Name="以国王的名义" Kind="11" Count="6" Droprate="1" IsDropOne="1" ItemId="Task_00358A" NpcId="Giving_zlm013_001" SecneId="6" TrackInfo="collect_11001"/>
+	<Property ID="11002" Name="提防陷阱" Kind="11" Count="6" Droprate="1" IsDropOne="1" ItemId="Task_00359A" NpcId="Giving_zlm013_002" SecneId="6" TrackInfo="collect_11002"/>
+	<Property ID="11003" Name="尸骨未寒" Kind="11" Count="6" Droprate="1" IsDropOne="1" ItemId="Task_00360A" NpcId="Giving_zlm013_003" SecneId="6" TrackInfo="collect_11003"/>
+	<Property ID="11004" Name="雪剑霜刀" Kind="11" Count="1" Droprate="1" IsDropOne="1" ItemId="S_Task_00362A" NpcId="Event_zlm013_0015" SecneId="6" TrackInfo="collect_11004"/>
+	<Property ID="11005" Name="雪剑霜刀" Kind="11" Count="1" Droprate="1" IsDropOne="1" ItemId="S_Task_00363A" NpcId="Event_zlm013_0016" SecneId="6" TrackInfo="collect_11005"/>
+	<Property ID="11006" Name="螳螂捕蝉" Kind="11" Count="25" Droprate="1" IsDropOne="1" ItemId="S_Task_00364A" NpcId="Giving_zlm013_004" SecneId="6" TrackInfo="collect_11006"/>
+	<Property ID="22001" Name="补给！补给！" Kind="22" Count="3" Droprate="0.8" IsDropOne="1" ItemId="Task_00342A" NpcId="monster_zlm010_0001,monster_zlm010_0002" SecneId="3" TrackInfo="collect_22001"/>
+	<Property ID="22002" Name="补给！补给！" Kind="22" Count="3" Droprate="0.8" IsDropOne="1" ItemId="Task_00341A" NpcId="monster_zlm010_0001,monster_zlm010_0002" SecneId="3" TrackInfo="collect_22002"/>
+	<Property ID="22003" Name="灼火之子" Kind="22" Count="1" Droprate="1" IsDropOne="1" ItemId="Task_00349A" NpcId="monster_zlm010_0010" SecneId="3" TrackInfo="collect_22003"/>
+	<Property ID="22004" Name="枪火与弹药" Kind="22" Count="5" Droprate="0.8" IsDropOne="1" ItemId="Task_00343A" NpcId="monster_zlm010_0011,monster_zlm010_0012" SecneId="3" TrackInfo="collect_22004"/>
+	<Property ID="22005" Name="物资仓库与钥匙" Kind="22" Count="1" Droprate="0.8" IsDropOne="1" ItemId="Task_00344A" NpcId="monster_zlm010_0013" SecneId="3" TrackInfo="collect_22005"/>
+	<Property ID="22006" Name="一些冰块" Kind="22" Count="5" Droprate="1" IsDropOne="1" ItemId="Task_00345A" NpcId="Giving_zlm010_001" SecneId="3" TrackInfo="collect_22006"/>
+	<Property ID="22007" Name="一些树枝" Kind="22" Count="5" Droprate="1" IsDropOne="1" ItemId="Task_00346A" NpcId="Giving_zlm010_002" SecneId="3" TrackInfo="collect_22007"/>
+	<Property ID="22008" Name="寒冷精华" Kind="22" Count="1" Droprate="0.2" IsDropOne="1" ItemId="Task_00347A" NpcId="monster_zlm010_0034,monster_zlm010_0035,monster_zlm010_0036" SecneId="3" TrackInfo="collect_22008"/>
+	<Property ID="22009" Name="凛风雪脉" Kind="22" Count="1" Droprate="0.5" IsDropOne="1" ItemId="Task_00348A" NpcId="monster_zlm010_0037,monster_zlm010_0038,monster_zlm010_0039" SecneId="3" TrackInfo="collect_22009"/>
+	<Property ID="26102" Name="筹备物资" Kind="26" Count="5" Droprate="1" IsDropOne="1" ItemId="Task_00370A" NpcId="Giving_zlm015_001" SecneId="3" TrackInfo="collect_26102"/>
+	<Property ID="26103" Name="收集物资" Kind="26" Count="5" Droprate="1" IsDropOne="1" ItemId="Task_00371A" NpcId="Giving_zlm015_002" SecneId="3" TrackInfo="collect_26103"/>
+	<Property ID="26104" Name="保障补给" Kind="26" Count="5" Droprate="1" IsDropOne="1" ItemId="Task_00372A" NpcId="Giving_zlm015_003" SecneId="3" TrackInfo="collect_26104"/>
+	<Property ID="26001" Name="驱动燃料" Kind="26" Count="10" Droprate="0.8" IsDropOne="0" ItemId="Task_00367A" NpcId="monster_zlm015_0008" SecneId="3" TrackInfo="collect_26001"/>
+	<Property ID="26002" Name="增加补给" Kind="26" Count="8" Droprate="0.8" IsDropOne="0" ItemId="Task_00368A" NpcId="monster_zlm015_0001" SecneId="3" TrackInfo="collect_26002"/>
+	<Property ID="26003" Name="拯救研究员万彬" Kind="26" Count="1" Droprate="0.8" IsDropOne="0" ItemId="Task_00369A" NpcId="monster_zlm015_0011" SecneId="3" TrackInfo="collect_26003"/>
+	<Property ID="24021" Name="恶魔咒文" Kind="24" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00338A" NpcId="monster_zlm009_0042" SecneId="4" TrackInfo="collect_24021"/>
+	<Property ID="24022" Name="恶魔咒文2" Kind="24" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00339A" NpcId="monster_zlm009_0043" SecneId="4" TrackInfo="collect_24022"/>
+	<Property ID="24023" Name="恶魔咒文3" Kind="24" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00340A" NpcId="monster_zlm009_0044" SecneId="4" TrackInfo="collect_24023"/>
+	<Property ID="24052" Name="门神" Kind="24" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00337A" NpcId="monster_zlm009_0010" SecneId="4" TrackInfo="collect_24052"/>
+	<Property ID="12014" Name="抢夺物资" Kind="12" Count="7" Droprate="1" IsDropOne="0" ItemId="Task_00361A" NpcId="Giving_zlm014_001" SecneId="6" TrackInfo="collect_12014"/>
+	<Property ID="12034" Name="抢夺物资" Kind="12" Count="7" Droprate="1" IsDropOne="0" IsDeleteSave="0" ItemId="Task_00361A" NpcId="Giving_zlm014_001" SecneId="6" TrackInfo="collect_12034"/>
+	<Property ID="27001" Name="救赎之路二" Kind="27" Count="6" Droprate="0.8" IsDropOne="1" ItemId="Task_00374A" NpcId="monster_zlm012_0017" SecneId="6" TrackInfo="collect_27001"/>
+	<Property ID="2056" Name="修补武器" Kind="2" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00381A" SecneId="1" TrackInfo="collect_2056"/>
+	<Property ID="2057" Name="趁手的武器" Kind="2" Count="1" Droprate="1" IsDropOne="1" ItemId="Task_00382A" SecneId="1" TrackInfo="collect_2057"/>
+	<Property ID="2058" Name="与卫兵贝肯交谈" Kind="2" Count="1" Droprate="1" IsDropOne="1" ItemId="Task_00383A" SecneId="1" TrackInfo="collect_2058"/>
+	<Property ID="2059" Name="兄弟情深" Kind="2" Count="1" Droprate="1" IsDropOne="1" ItemId="Task_00384A" SecneId="1" TrackInfo="collect_2059"/>
+	<Property ID="2060" Name="弟兄情谊" Kind="2" Count="1" Droprate="1" IsDropOne="0" ItemId="Task_00385A" NpcId="Giving_zqm002_0014" SecneId="1" TrackInfo="collect_2060"/>
+	<Property ID="15007" Name="猎杀青牛" Kind="15" Count="5" Droprate="1" IsDropOne="0" ItemId="Task_00390A" NpcId="monster_qhm003_0032" SecneId="2" TrackInfo="collect_15007"/>
+	<Property ID="15008" Name="杂货商的杂货" Kind="15" Count="5" Droprate="1" IsDropOne="0" ItemId="Task_00392A" NpcId="monster_qhm003_0001" SecneId="2" TrackInfo="collect_15008"/>
+	<Property ID="15009" Name="采摘草药" Kind="15" Count="5" Droprate="1" IsDropOne="0" ItemId="Task_00393A" NpcId="Giving_qhm003_002" SecneId="2" TrackInfo="collect_15009"/>
+	<Property ID="15010" Name="游荡与失踪" Kind="15" Count="5" Droprate="1" IsDropOne="0" ItemId="Task_00394A" NpcId="monster_qhm003_0002" SecneId="2" TrackInfo="collect_15010"/>
+	<Property ID="15011" Name="物归原主" Kind="15" Count="5" Droprate="1" IsDropOne="0" ItemId="Task_00395A" NpcId="monster_qhm003_0033" SecneId="2" TrackInfo="collect_15011"/>
+	<Property ID="15012" Name="丢失的武器" Kind="15" Count="5" Droprate="1" IsDropOne="0" ItemId="Task_00396A" NpcId="monster_qhm003_0003" SecneId="2" TrackInfo="collect_15012"/>
+	<Property ID="15013" Name="黑金牛肉，高贵享受" Kind="15" Count="5" Droprate="1" IsDropOne="0" ItemId="Task_00397A" NpcId="monster_qhm003_0035" SecneId="2" TrackInfo="collect_15013"/>
+	<Property ID="15014" Name="花海甲虫" Kind="15" Count="5" Droprate="1" IsDropOne="0" ItemId="Task_00398A" NpcId="monster_qhm003_0011" SecneId="2" TrackInfo="collect_15014"/>
+	<Property ID="15015" Name="花海蛇" Kind="15" Count="5" Droprate="1" IsDropOne="0" ItemId="Task_00399A" NpcId="monster_qhm003_0012" SecneId="2" TrackInfo="collect_15015"/>
+	<Property ID="15016" Name="花海飞蛾" Kind="15" Count="5" Droprate="1" IsDropOne="0" ItemId="Task_00400A" NpcId="monster_qhm003_0013" SecneId="2" TrackInfo="collect_15016"/>
+	<Property ID="8034" Name="缺少的材料（日常）" Kind="8" Count="10" Droprate="0.8" IsDropOne="0" ItemId="Task_00303A" NpcId="monster_zlm008_0001" SecneId="5" TrackInfo="collect_8034"/>
+	<Property ID="58157" Name="燃料补给" Kind="58" Count="5" Droprate="1" IsDropOne="0" IsDeleteSave="0" ItemId="TaskUse_00104A" NpcId="Giving_jxb001_0001" SecneId="302" TrackInfo="collect_58157"/>
+	<Property ID="58166" Name="采集药品" Kind="58" Count="2" Droprate="100" IsDropOne="1" ItemId="Task_00401A" NpcId="Giving_xsyd001_0001" SecneId="303" TrackInfo="collect_58166"/>
+	<Property ID="58178" Name="准备战争" Kind="58" Count="2" Droprate="1" IsDropOne="1" ItemId="TaskUse_00104A" NpcId="Giving_jxb001_0001" SecneId="303" TrackInfo="collect_58178"/>
+	<Property ID="58162" Name="全副武装" Kind="58" Count="1" Droprate="1" IsDropOne="1" IsDeleteSave="0" ItemId="Task_00406A" NpcId="Giving_xsyd001_0005" SecneId="303" TrackInfo="collect_58162"/>
+	<Property ID="1562" Name="采集机械零件" Kind="1" Count="99" Droprate="1" IsDropOne="0" ItemId="Task_00404A" NpcId="Giving_zqm001_0015,Giving_zqm001_0016" SecneId="1" TrackInfo="collect_1562"/>
+	<Property ID="58194" Name="全副武装" Kind="58" Count="1" Droprate="1" IsDropOne="1" IsDeleteSave="0" ItemId="Task_00407A" NpcId="Giving_xsyd001_0006" SecneId="303" TrackInfo="collect_58194"/>
+	<Property ID="14201" Name="收集黑色晶石" Kind="14" Count="25" Droprate="1" IsDropOne="1" ItemId="Task_00405A" NpcId="Giving_qhm002_0011" SecneId="2" TrackInfo="collect_14201"/>
+</Object>
+
+

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="gb2312"?>
+
+<!--    副本门召唤队友消耗配置   -->
+
+<!--
+        字段                值                             描述
+USE：              |      -1/0/1/2      | 消耗类型-1[不消耗任何东西] 0[游戏币] 1[血脉] 2[物品] 
+USEcash_troops_x： |         10         | 填数字时为普通队伍扣除费用“游戏币”，不填为不消耗
+USEcash_team_x：   |		 10         | 填数字时为团队扣除费用“游戏币”，不填为不消耗
+USEblood_troops_x：|		 10         | 填数字时为普通队伍扣除费用“黑金”，不填为不消耗
+USEblood_team_x：  |		 10         | 填数字时为团队扣除费用“黑金”，不填为不消耗
+USEitem_troops_x： | 物品ID,N; 物品ID,N | 队伍下消耗物品：‘，”号后为物品个数，多个物品用“；”分开
+USEitem_team_x：   | 物品ID,N; 物品ID,N | 团队下消耗物品：“，”号后为物品个数，多个物品用“；”分开
+_x: 队伍中的人数
+游戏币：以铜为单位 1金=100银=10000铜
+-->
+
+<Object>
+<Property ID="0"    USE = "0"   USEcash_troops_1 = "500"
+								USEcash_troops_2 = "500"
+								USEcash_troops_3 = "500"
+								USEcash_troops_4 = "500"
+								USEcash_troops_5 = "500"
+
+								USEcash_team_1 = "2000"
+								USEcash_team_2 = "2000"
+								USEcash_team_3 = "2000"
+								USEcash_team_4 = "2000"
+								USEcash_team_5 = "2000"
+								USEcash_team_6 = "2000"
+								USEcash_team_7 = "2000"
+								USEcash_team_8 = "2000"
+								USEcash_team_9 = "2000"
+								USEcash_team_10 = "2000"
+								USEcash_team_11 = "2000"
+								USEcash_team_12 = "2000"
+								USEcash_team_13 = "2000"
+								USEcash_team_14 = "2000"
+								USEcash_team_15 = "2000"
+								USEcash_team_16 = "2000"
+								USEcash_team_17 = "2000"
+								USEcash_team_18 = "2000"
+								USEcash_team_19 = "2000"
+								USEcash_team_20 = "2000"
+								USEcash_team_21 = "2000"
+								USEcash_team_22 = "2000"
+								USEcash_team_23 = "2000"
+								USEcash_team_24 = "2000"
+								USEcash_team_25 = "2000"
+
+
+							    USEblood_troops_1 = "10"
+								USEblood_troops_2 = "10"
+								USEblood_troops_3 = "10"
+								USEblood_troops_4 = "10"
+								USEblood_troops_5 = "10"
+
+
+								USEblood_team_1 = "10"
+								USEblood_team_2 = "10"
+								USEblood_team_3 = "10"
+								USEblood_team_4 = "10"
+								USEblood_team_5 = "10"
+								USEblood_team_6 = "10"
+								USEblood_team_7 = "10"
+								USEblood_team_8 = "10"
+								USEblood_team_9 = "10"
+								USEblood_team_10 = "10"
+								USEblood_team_11 = "10"
+								USEblood_team_12 = "10"
+								USEblood_team_13 = "10"
+								USEblood_team_14 = "10"
+								USEblood_team_15 = "10"
+								USEblood_team_16 = "10"
+								USEblood_team_17 = "10"
+								USEblood_team_18 = "10"
+								USEblood_team_19 = "10"
+								USEblood_team_20 = "10"
+								USEblood_team_21 = "10"
+								USEblood_team_22 = "10"
+								USEblood_team_23 = "10"
+								USEblood_team_24 = "10"
+								USEblood_team_25 = "10"
+							   
+							   
+							   
+							   USEitem_troops_1 = "tianyan_01,5;tianyan_01,5" 
+							   USEitem_troops_2 = "tianyan_01,5;tianyan_01,5" 
+							   USEitem_troops_3 = "tianyan_01,5;tianyan_01,5" 
+							   USEitem_troops_4 = "tianyan_01,5;tianyan_01,5" 
+							   USEitem_troops_5 = "tianyan_01,5;tianyan_01,5" 
+							   							   
+							   USEitem_team_1 = "tianyan_01,5;tianyan_01,5"
+							   USEitem_team_2 = "tianyan_01,5;tianyan_01,5"
+							   USEitem_team_3 = "tianyan_01,5;tianyan_01,5"
+							   USEitem_team_4 = "tianyan_01,5;tianyan_01,5"
+							   USEitem_team_5 = "tianyan_01,5;tianyan_01,5"
+							   USEitem_team_6 = "tianyan_01,5;tianyan_01,5"
+							   USEitem_team_7 = "tianyan_01,5;tianyan_01,5"
+							   USEitem_team_8 = "tianyan_01,5;tianyan_01,5"
+							   USEitem_team_9 = "tianyan_01,5;tianyan_01,5"
+							   USEitem_team_10 = "tianyan_01,5;tianyan_01,5"
+							   USEitem_team_11 = "tianyan_01,5;tianyan_01,5"
+							   USEitem_team_12 = "tianyan_01,5;tianyan_01,5"
+							   USEitem_team_13 = "tianyan_01,5;tianyan_01,5"
+							   USEitem_team_14 = "tianyan_01,5;tianyan_01,5"
+							   USEitem_team_15 = "tianyan_01,5;tianyan_01,5"
+							   USEitem_team_16 = "tianyan_01,5;tianyan_01,5"
+							   USEitem_team_17 = "tianyan_01,5;tianyan_01,5"
+							   USEitem_team_18 = "tianyan_01,5;tianyan_01,5"
+							   USEitem_team_19 = "tianyan_01,5;tianyan_01,5"
+							   USEitem_team_20 = "tianyan_01,5;tianyan_01,5"
+							   USEitem_team_21 = "tianyan_01,5;tianyan_01,5"
+							   USEitem_team_22 = "tianyan_01,5;tianyan_01,5"
+							   USEitem_team_23 = "tianyan_01,5;tianyan_01,5"
+							   USEitem_team_24 = "tianyan_01,5;tianyan_01,5"
+							   USEitem_team_25 = "tianyan_01,5;tianyan_01,5"/>
+</Object>
+

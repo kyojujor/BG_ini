@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes" ?>
+<Processor>
+    <Base type="object" version="1.0">
+        <Line Type="2" Event="2114" Name="AUTOP1">
+            <Param type="6" data="fb_chnj_npc_02" Index="0" />
+        </Line>
+        <Line Type="1" Event="4509">
+            <Param type="13" srctype="8" data="AUTOP1" Index="0" />
+        </Line>
+        <Line Type="2" Event="2114" Name="AUTOP2">
+            <Param type="6" data="fb_chnj_npc_03" Index="0" />
+        </Line>
+        <Line Type="1" Event="4509">
+            <Param type="13" srctype="8" data="AUTOP2" Index="0" />
+        </Line>
+        <Line Type="2" Event="2114" Name="AUTOP3">
+            <Param type="6" data="fb_chnj_npc_04" Index="0" />
+        </Line>
+        <Line Type="1" Event="4509">
+            <Param type="13" srctype="8" data="AUTOP3" Index="0" />
+        </Line>
+        <Line Type="2" Event="2114" Name="AUTOP4">
+            <Param type="6" data="fb_chnj_npc_05" Index="0" />
+        </Line>
+        <Line Type="1" Event="4509">
+            <Param type="13" srctype="8" data="AUTOP4" Index="0" />
+        </Line>
+        <Line Type="2" Event="2114" Name="AUTOP5">
+            <Param type="6" data="fb_chnj_npc_06" Index="0" />
+        </Line>
+        <Line Type="1" Event="4509">
+            <Param type="13" srctype="8" data="AUTOP5" Index="0" />
+        </Line>
+        <Line Type="2" Event="2114" Name="AUTOP6">
+            <Param type="6" data="fb_chnj_npc_07" Index="0" />
+        </Line>
+        <Line Type="1" Event="4509">
+            <Param type="13" srctype="8" data="AUTOP6" Index="0" />
+        </Line>
+    </Base>
+</Processor>

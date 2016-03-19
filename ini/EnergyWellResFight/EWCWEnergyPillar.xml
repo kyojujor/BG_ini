@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 能量柱加载包 -->
+<Object>
+<!--
+pillar_id:		中立能量柱 ID,x,y,z,o(刚开始争夺的时候是中立模式)
+break_pillar_id:   npcid-breaknpcid ; npcid-breaknpcid   (一个能量柱被刷爆后，在原位置刷出一个能量柱:蒸汽能量柱npc,奇幻蒸汽能量柱)
+-->
+	<Property ID="1" pillar_id="npc_ZLEW000_0003,1040.561,28.230,2853.668,1.244;npc_ZLEW000_0003_1,2201.133,20.839,2411.524,-0.926;npc_ZLEW000_0003_2,2168.526,13.472,3320.254,-2.143" break_pillar_id="npc_ZLEW000_0003-npc_ZQEW000_0003,npc_QHEW000_0003;npc_QHEW000_0003-npc_ZQEW000_0003,npc_QHEW000_0003;npc_ZQEW000_0003-npc_ZQEW000_0003,npc_QHEW000_0003;npc_ZLEW000_0003_1-npc_ZQEW000_0003_1,npc_QHEW000_0003_1;npc_QHEW000_0003_1-npc_ZQEW000_0003_1,npc_QHEW000_0003_1;npc_ZQEW000_0003_1-npc_ZQEW000_0003_1,npc_QHEW000_0003_1;npc_ZLEW000_0003_2-npc_ZQEW000_0003_2,npc_QHEW000_0003_2;npc_QHEW000_0003_2-npc_ZQEW000_0003_1,npc_QHEW000_0003_2;npc_ZQEW000_0003_2-npc_ZQEW000_0003_2,npc_QHEW000_0003_2
+" desc=""/>
+</Object>

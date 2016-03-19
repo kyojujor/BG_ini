@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes"?>
+<Stage>
+	<Scene>
+		<Object SceneId="121">
+				<TriggerEvent EventId="206" Processor="SLZD_101"/>
+				<TriggerEvent EventId="209" Processor="SLZD_005"/>
+		</Object>
+		<Object SceneId="123">
+				<TriggerEvent EventId="206" Processor="SLZD_001"/>
+				<TriggerEvent EventId="209" Processor="SLZD_005"/>
+		</Object>
+	</Scene>
+</Stage>

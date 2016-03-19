@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 被2011 rel. 2 sp1 (yeneng) 使用XMLSpy vsnail编辑的 (http://www.altova.com) by -->
+<Object>
+	<Property ID="29" GirdX="1" GirdY="2" ChildTask="30" IsHide="1"/>
+	<Property ID="30" GirdX="2" GirdY="2" FatherTask="29" ChildTask="31" IsHide="1"/>
+	<Property ID="31" GirdX="3" GirdY="2" FatherTask="30" ChildTask="706" IsHide="1"/>
+	<Property ID="706" GirdX="4" GirdY="2" FatherTask="31" ChildTask="707" IsHide="1"/>
+	<Property ID="707" GirdX="5" GirdY="2" FatherTask="706" ChildTask="91" IsHide="1"/>
+	<Property ID="91" GirdX="6" GirdY="2" FatherTask="707" ChildTask="32" IsHide="1"/>
+	<Property ID="32" GirdX="7" GirdY="2" FatherTask="91" ChildTask="33" IsHide="1"/>
+	<Property ID="33" GirdX="8" GirdY="2" FatherTask="32" ChildTask="37" IsHide="1"/>
+	<Property ID="37" GirdX="9" GirdY="2" FatherTask="33" ChildTask="38" IsHide="1"/>
+	<Property ID="38" GirdX="10" GirdY="2" FatherTask="37" ChildTask="39" IsHide="1"/>
+	<Property ID="39" GirdX="11" GirdY="2" FatherTask="38" ChildTask="40" IsHide="1"/>
+	<Property ID="40" GirdX="12" GirdY="2" FatherTask="39" ChildTask="41" IsHide="1"/>
+	<Property ID="41" GirdX="13" GirdY="2" FatherTask="40" ChildTask="42" IsHide="1"/>
+	<Property ID="42" GirdX="14" GirdY="2" FatherTask="41" ChildTask="43" IsHide="1"/>
+	<Property ID="43" GirdX="15" GirdY="2" FatherTask="42" ChildTask="44" IsHide="1"/>
+	<Property ID="44" GirdX="16" GirdY="2" FatherTask="43" ChildTask="45" IsHide="1"/>
+	<Property ID="45" GirdX="17" GirdY="2" FatherTask="44" ChildTask="49" IsHide="1"/>
+	<Property ID="49" GirdX="18" GirdY="2" FatherTask="45" ChildTask="50" IsHide="1"/>
+	<Property ID="50" GirdX="19" GirdY="2" FatherTask="49" ChildTask="51" IsHide="1"/>
+	<Property ID="51" GirdX="20" GirdY="2" FatherTask="50" ChildTask="52" IsHide="1"/>
+	<Property ID="52" GirdX="21" GirdY="2" FatherTask="51" ChildTask="71" IsHide="1"/>
+	<Property ID="71" GirdX="22" GirdY="2" FatherTask="52" IsHide="1" LastTask="1"/>
+</Object>

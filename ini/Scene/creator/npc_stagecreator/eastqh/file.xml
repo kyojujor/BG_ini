@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes"?>
+<!-- edited with XMLSpy v2010 (http://www.altova.com) by MESMERiZE (MiZE) -->
+<!-- 被2011 rel. 2 sp1 (yeneng) 使用XMLSpy vsnail编辑的 (http://www.altova.com) by -->
+<Object>
+	<Property ID="1" File="chaori_FuncNpc.xml" SeniorID="140000000"/>
+	<Property ID="2" File="chaori_ItemNpc.xml" SeniorID="140000000"/>
+	<Property ID="3" File="chaori_monsterNpc.xml" SeniorID="140000000"/>
+	<Property ID="4" File="chaori_TaskNpc.xml" SeniorID="140000000"/>
+	<Property ID="5" File="chaori_TriggerNpc.xml" SeniorID="140000000" Default="1"/>
+	<Property ID="6" File="chaori_TranNpc.xml" SeniorID="140000000"/>
+	<Property ID="31" File="chaori_EnergyWell.xml" SeniorID="140000000"/>
+	<!--
+	<Property ID="7" File="anzhuola_FuncNpc.xml" SeniorID="200000000"/>
+	<Property ID="8" File="anzhuola_ItemNpc.xml" SeniorID="200000000"/>
+	<Property ID="9" File="anzhuola_monsterNpc.xml" SeniorID="200000000"/>
+	<Property ID="10" File="anzhuola_TaskNpc.xml" SeniorID="200000000"/>
+	<Property ID="11" File="anzhuola_TriggerNpc.xml" SeniorID="200000000"/>
+	<Property ID="12" File="anzhuola_TranNpc.xml" SeniorID="200000000"/>
+	-->
+	<Property ID="13" File="dijia_FuncNpc.xml" SeniorID="170000000"/>
+	<Property ID="14" File="dijia_ItemNpc.xml" SeniorID="170000000"/>
+	<Property ID="15" File="dijia_monsterNpc.xml" SeniorID="170000000"/>
+	<Property ID="16" File="dijia_TaskNpc.xml" SeniorID="170000000"/>
+	<Property ID="17" File="dijia_TriggerNpc.xml" SeniorID="170000000"/>
+	<Property ID="18" File="dijia_TranNpc.xml" SeniorID="170000000"/>
+	<Property ID="32" File="dijia_EnergyWell.xml" SeniorID="170000000"/>
+	<!--
+	<Property ID="19" File="fengyu_FuncNpc.xml" SeniorID="130000000"/>
+	<Property ID="20" File="fengyu_ItemNpc.xml" SeniorID="130000000"/>
+	<Property ID="21" File="fengyu_monsterNpc.xml" SeniorID="130000000"/>
+	<Property ID="22" File="fengyu_TaskNpc.xml" SeniorID="130000000"/>
+	<Property ID="23" File="fengyu_TriggerNpc.xml" SeniorID="130000000"/>
+	<Property ID="24" File="fengyu_TranNpc.xml" SeniorID="130000000"/>
+	-->
+	<Property ID="25" File="jushu_FuncNpc.xml" SeniorID="180000000"/>
+	<Property ID="26" File="jushu_ItemNpc.xml" SeniorID="180000000"/>
+	<Property ID="27" File="jushu_monsterNpc.xml" SeniorID="180000000"/>
+	<Property ID="28" File="jushu_TaskNpc.xml" SeniorID="180000000"/>
+	<Property ID="29" File="jushu_TriggerNpc.xml" SeniorID="180000000"/>
+	<Property ID="30" File="jushu_TranNpc.xml" SeniorID="180000000"/>
+	<Property ID="33" File="jushu_EnergyWell.xml" SeniorID="180000000"/>
+</Object>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+	<!-- 资源基本信息，资源ID，初始价格，最小价格，最大数量 类型!-->
+
+	<!-- 1 矿产类 2木材类 3食材类 4药材类 5 皮革类 6 能源类!-->
+  <Property ResID="MineralF_00002A" Type="1" Name="生矿" InitPrice="120" MinPrice="20" MaxSum="1000000"/>
+  <Property ResID="MineralF_00003B" Type="1" Name="黑铁" InitPrice="130" MinPrice="30" MaxSum="1000000"/>
+  <Property ResID="MineralF_00004B" Type="1" Name="硅石" InitPrice="140" MinPrice="40" MaxSum="1000000"/>
+  <Property ResID="MineralF_00005B" Type="1" Name="晶矿" InitPrice="140" MinPrice="40" MaxSum="1000000"/>
+
+  <Property ResID="PlantF_00001A" Type="2" Name="生木" InitPrice="120" MinPrice="20" MaxSum="1000000"/>
+  <Property ResID="PlantF_00002A" Type="2" Name="香木" InitPrice="130" MinPrice="30" MaxSum="1000000"/>
+  <Property ResID="PlantF_00003A" Type="2" Name="楠木" InitPrice="140" MinPrice="40" MaxSum="1000000"/>
+  <Property ResID="PlantF_00004A" Type="2" Name="原木" InitPrice="140" MinPrice="40" MaxSum="1000000"/>
+
+  <Property ResID="FoodF_00001A" Type="3" Name="肉类" InitPrice="120" MinPrice="20" MaxSum="1000000"/>
+  <Property ResID="FoodF_00002A" Type="3" Name="果实" InitPrice="130" MinPrice="30" MaxSum="1000000"/>
+  <Property ResID="FoodF_00003A" Type="3" Name="种子" InitPrice="140" MinPrice="40" MaxSum="1000000"/>
+  <Property ResID="FoodF_00004B" Type="3" Name="茎块" InitPrice="140" MinPrice="40" MaxSum="1000000"/>
+
+  <Property ResID="DrugF_00001B" Type="4" Name="花草类" InitPrice="120" MinPrice="20" MaxSum="1000000"/>
+  <Property ResID="DrugF_00002C" Type="4" Name="根叶类" InitPrice="130" MinPrice="30" MaxSum="1000000"/>
+  <Property ResID="DrugF_00003C" Type="4" Name="香料" InitPrice="140" MinPrice="40" MaxSum="1000000"/>
+  <Property ResID="DrugF_00004C" Type="4" Name="自然精华" InitPrice="140" MinPrice="40" MaxSum="1000000"/>
+
+  <Property ResID="LeatherF_00001A" Type="5" Name="轻皮" InitPrice="120" MinPrice="20" MaxSum="1000000"/>
+  <Property ResID="LeatherF_00002A" Type="5" Name="皮革" InitPrice="130" MinPrice="30" MaxSum="1000000"/>
+  <Property ResID="LeatherF_00003A" Type="5" Name="厚鳞" InitPrice="140" MinPrice="40" MaxSum="1000000"/>
+  <Property ResID="LeatherF_00004B" Type="5" Name="兽骨" InitPrice="140" MinPrice="40" MaxSum="1000000"/>
+
+  <Property ResID="EnergyF_zq_00002C" Type="6" Name="石炭" InitPrice="130" MinPrice="30" MaxSum="1000000"/>
+  <Property ResID="EnergyF_00003C" Type="6" Name="黑金" InitPrice="140" MinPrice="40" MaxSum="1000000"/>
+  <Property ResID="EnergyF_qh_00005D" Type="6" Name="魔法石" InitPrice="140" MinPrice="40" MaxSum="1000000"/>
+</Object>

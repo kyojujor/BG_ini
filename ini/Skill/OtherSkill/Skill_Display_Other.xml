@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<Object>
+	<Property ID="26001" Name="召唤坐骑" Photo="icon\BG_Skill\jineng_yexingsilie.png" EffectSpeed="0" PrepareAction="fi_10h_ready" PrepareEffect="func_raid_51" PrepareSnd="ZHzuoqi_01"/>
+	<Property ID="20085" Name="敌方轰炸" Photo="icon\BG_Skill\heijin_jineng_fengkuangsaoshe.png" HitAction="uarmR_attack_0h" HurtAction="combat"/>
+	<Property ID="20086" Name="末日审判" Photo="icon\BG_Skill\heijin_jineng_fengkuangsaoshe.png" HitAction="uarmR_attack_0h" HurtAction="combat"/>
+	<Property ID="20087" Name="射击" Photo="icon\BG_Skill\heijin_jineng_fengkuangsaoshe.png" HitAction="uarmR_attack_0h" HurtAction="combat"/>
+	<Property ID="20088" Name="棒喝" Photo="icon\BG_Skill\heijin_jineng_fengkuangsaoshe.png" HitAction="uarmR_attack_0h" HurtAction="combat"/>
+	<Property ID="20089" Name="火烧" Photo="icon\BG_Skill\heijin_jineng_fengkuangsaoshe.png" HitAction="uarmR_attack_0h" HurtAction="combat"/>
+	<Property ID="20090" Name="挥砍" Photo="icon\BG_Skill\heijin_jineng_fengkuangsaoshe.png" HitAction="uarmR_attack_0h" HurtAction="combat"/>
+	<Property ID="20091" Name="冲锋" Photo="icon\BG_Skill\heijin_jineng_fengkuangsaoshe.png" ActionEffect="func_raid_18" HitAction="uarmR_attack_0h" HurtAction="combat"/>
+	<Property ID="20092" Name="列阵" Photo="icon\BG_Skill\heijin_jineng_fengkuangsaoshe.png" ActionEffect="func_raid_18" HitAction="uarmR_attack_0h" HurtAction="combat"/>
+	<Property ID="20093" Name="随意攻击" Photo="icon\BG_Skill\heijin_jineng_fengkuangsaoshe.png" HitAction="uarmR_attack_0h" HurtAction="combat"/>
+	<Property ID="20094" Name="集中攻击" Photo="icon\BG_Skill\heijin_jineng_fengkuangsaoshe.png" ActionEffect="func_raid_18" HitAction="uarmR_attack_0h" HurtAction="combat"/>
+	<Property ID="20095" Name="投石机轰炸" Photo="icon\BG_Skill\heijin_jineng_fengkuangsaoshe.png" HitAction="uarmR_attack_0h" HurtAction="combat"/>
+	<Property ID="20096" Name="包扎" Photo="icon\BG_Skill\heijin_jineng_fengkuangsaoshe.png" HurtAction="combat" HitActionSnd="bs"/>
+	<Property ID="20097" Name="布雷" Photo="icon\BG_Skill\heijin_jineng_fengkuangsaoshe.png" HurtAction="combat"/>
+	<Property ID="20098" Name="潜入" Photo="icon\BG_Skill\heijin_jineng_fengkuangsaoshe.png" HurtAction="combat"/>
+	<Property ID="20099" Name="末日庇护" Photo="icon\BG_Skill\heijin_jineng_fengkuangsaoshe.png" HurtAction="combat"/>
+	<Property ID="20100" Name="野蛮人勇士" Photo="icon\BG_Skill\heijin_jineng_fengkuangsaoshe.png" HurtAction="combat"/>
+	<Property ID="20101" Name="先祖赐福" Photo="icon\BG_Skill\heijin_jineng_fengkuangsaoshe.png" HurtAction="combat"/>
+	<Property ID="20102" Name="定身" Photo="icon\BG_Skill\heijin_jineng_fengkuangsaoshe.png" HurtAction="combat"/>
+	<Property ID="20103" Name="末日伪装" Photo="icon\BG_Skill\heijin_jineng_fengkuangsaoshe.png" HurtAction="combat"/>
+	<Property ID="20104" Name="大酋长的投掷" Photo="icon\BG_Skill\heijin_jineng_fengkuangsaoshe.png" HurtAction="combat"/>
+	<Property ID="20105" Name="投掷炸药" Photo="icon\BG_Skill\heijin_jineng_fengkuangsaoshe.png" ActionEffect="func_raid_18" HurtAction="combat"/>
+	<Property ID="20227" Name="变装" Photo="icon\BG_Skill\jineng_putonggongji.png" PrepareAction="fi_10h_stand_half" ActionEffect="func_raid_66" HurtAction="combat"/>
+	<Property ID="20228" Name="炮击" Photo="icon\BG_Skill\jineng_putonggongji.png" ActionEffect="work_task022" HurtAction="combat"/>
+	<Property ID="20229" Name="弹幕轰炸" Photo="icon\BG_Skill\jineng_putonggongji.png" ActionEffect="work_task023" HurtAction="combat"/>
+	<Property ID="20230" Name="修理" Photo="icon\BG_Skill\jineng_putonggongji.png" PrepareAction="fi_10h_stand_half" ActionEffect="func_raid_127" HurtAction="combat" PrepareSnd="lsy"/>
+	<Property ID="20231" Name="纵火" Photo="icon\BG_Skill\jineng_putonggongji.png" PrepareAction="fi_10h_stand_half" ActionEffect="func_raid_172" HurtAction="combat" PrepareSnd="lsy"/>
+	<Property ID="20232" Name="增强抵抗力" Photo="icon\BG_Skill\jineng_putonggongji.png" PrepareAction="fi_10h_stand_half" ActionEffect="func_raid_127" HurtAction="combat" PrepareSnd="lsy"/>
+	<Property ID="20233" Name="捕获" Photo="icon\BG_Skill\jineng_putonggongji.png" LeadAction="attack1_10h_half" LeadEffect="func_raid_150" HurtAction="combat" PrepareSnd="lsy"/>
+	<Property ID="20234" Name="魔法火焰" Photo="icon\BG_Skill\jineng_putonggongji.png" PrepareAction="fi_10h_stand_half" ActionEffect="func_raid_172" HurtAction="combat"/>
+	<Property ID="20235" Name="魔法炸弹" Photo="icon\BG_Skill\jineng_putonggongji.png" ActionEffect="work_task022" HurtAction="combat"/>
+	<Property ID="10042" Name="狂轰乱炸" Photo="icon\BG_Skill\jineng_putonggongji.png" LeadEffect="func_raid_45" HurtAction="combat"/>
+	<Property ID="10043" Name="月神炮" Photo="icon\BG_Skill\jineng_putonggongji.png" EffectSpeed="12" PrepareEffect="func_raid_27" HitAction="test11" HurtAction="combat" HurtEffect="abdomen_qj_2"/>
+	<Property ID="10044" Name="人间大炮" Photo="icon\BG_Skill\jineng_putonggongji.png" ActionEffect="work_task022" HurtAction="combat"/>
+	<Property ID="30003" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" EffectSpeed="0" HitAction="attack_10h_half" HurtAction="combat"/>
+	<Property ID="30004" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" EffectSpeed="0" HitAction="attack_10h_half" HurtAction="combat"/>
+	<Property ID="30005" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" EffectSpeed="0" HitAction="attack_10h_half" HurtAction="combat"/>
+	<Property ID="30006" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" EffectSpeed="0" HitAction="attack_10h_half" HurtAction="combat"/>
+	<Property ID="30007" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" EffectSpeed="0" HitAction="attack_10h_half" HurtAction="combat"/>
+	<Property ID="30008" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" EffectSpeed="0" HitAction="attack_10h_half" HurtAction="combat"/>
+	<Property ID="30009" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" EffectSpeed="0" HitAction="attack_10h_half" HurtAction="combat"/>
+	<Property ID="30010" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" EffectSpeed="0" HitAction="attack_10h_half" HurtAction="combat"/>
+	<Property ID="30011" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" EffectSpeed="0" HitAction="attack_10h_half" HurtAction="combat"/>
+	<Property ID="30012" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" EffectSpeed="0" HitAction="attack_10h_half" HurtAction="combat"/>
+	<Property ID="30013" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" EffectSpeed="0" HitAction="attack_10h_half" HurtAction="combat"/>
+	<Property ID="30014" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" EffectSpeed="0" HitAction="attack_10h_half" HurtAction="combat"/>
+	<Property ID="20311" Name="恢复" Photo="icon\BG_Skill\jineng_putonggongji.png" HurtAction="combat"/>
+	<Property ID="20312" Name="振奋" Photo="icon\BG_Skill\jineng_putonggongji.png" HurtAction="combat"/>
+	<Property ID="20313" Name="圣洁之力" Photo="icon\BG_Skill\jineng_putonggongji.png" HurtAction="combat"/>
+	<Property ID="20314" Name="皮鞭" Photo="icon\BG_Skill\jineng_putonggongji.png" HurtAction="combat"/>
+	<Property ID="20315" Name="套锁" Photo="icon\BG_Skill\jineng_putonggongji.png" HurtAction="combat"/>
+	<Property ID="20316" Name="愈合药剂" Photo="icon\BG_Skill\jineng_putonggongji.png" HurtAction="combat"/>
+	<Property ID="20326" Name="蜗牛套餐" Photo="icon\BG_Skill\heijin_jineng_yaozhan.png" HurtAction="combat"/>
+	<Property ID="20327" Name="烈焰红唇" Photo="icon\BG_Skill\heijin_jineng_yaozhan.png" HitAction="Ani6_fengyu_lieyan_attack_0h_bang" HurtAction="combat"/>
+	<Property ID="20328" Name="射击" Photo="icon\BG_Skill\heijin_jineng_yaozhan.png" HurtAction="combat" HurtEffect="Attack0_3"/>
+	<Property ID="10045" Name="抛射炮" Photo="icon\BG_Skill\heijin_jineng_yaozhan.png" EffectSpeed="30" ActionEffect="BGskill_20011" HitAction="attackR_0h" HurtAction="combat"/>
+	<Property ID="30015" Name="死者复苏" Photo="icon\BG_Skill\skillicon_0378.png" HurtAction="combat"/>
+	<Property ID="20329" Name="誓约之刃" Photo="icon\BG_Skill\heijin_jineng_yaozhan.png" HurtAction="combat"/>
+	<Property ID="20332" Name="冲锋" Photo="icon\BG_Skill\heijin_jineng_yaozhan.png" HitAction="run_0h" HitEffect="func_raid_87" HurtAction="combat"/>
+	<Property ID="20333" Name="射击" Photo="icon\BG_Skill\heijin_jineng_yaozhan.png" ActionEffect="func_raid_227" HitAction="jump_0h" HitEffect="func_raid_228" HurtAction="combat"/>
+	<Property ID="20334" Name="践踏" Photo="icon\BG_Skill\heijin_jineng_yaozhan.png" ActionEffect="func_raid_44" HitAction="jump_0h" HurtAction="combat"/>
+	<Property ID="20335" Name="炮击S1" Photo="icon\BG_Skill\heijin_jineng_yaozhan.png" ActionEffect="func_raid_321" HurtAction="combat"/>
+	<Property ID="20336" Name="炮击V5" Photo="icon\BG_Skill\heijin_jineng_yaozhan.png" ActionEffect="func_raid_321" HurtAction="combat"/>
+	<Property ID="20337" Name="加速" Photo="icon\BG_Skill\heijin_jineng_yaozhan.png" HitAction="run_0h" HurtAction="combat"/>
+	<Property ID="20338" Name="冲撞" Photo="icon\BG_Skill\heijin_jineng_yaozhan.png" HitAction="run_0h" HitEffect="func_raid_87" HurtAction="combat"/>
+	<Property ID="30016" Name="太阳神祭品" Photo="icon\BG_Skill\heijin_jineng_yaozhan.png" ActionEffect="func_raid_181" HitAction="attack_0h" HurtAction="combat"/>
+	<Property ID="30017" Name="毒箭" Photo="icon\BG_Skill\heijin_jineng_yaozhan.png" ActionEffect="func_raid_181" HitAction="attack_0h" HurtAction="combat"/>
+	<Property ID="30018" Name="钥匙" Photo="icon\BG_Skill\heijin_jineng_yaozhan.png" ActionEffect="func_raid_181" HitAction="attack_0h" HurtAction="combat"/>
+	<Property ID="30019" Name="火石" Photo="icon\BG_Skill\heijin_jineng_yaozhan.png" ActionEffect="func_raid_181" HitAction="attack_0h" HurtAction="combat" HitActionSnd="hz"/>
+	<Property ID="30020" Name="蜗牛套餐" Photo="icon\BG_Skill\heijin_jineng_yaozhan.png" ActionEffect="func_raid_181" HitAction="attack_0h" HurtAction="combat"/>
+	<Property ID="30021" Name="魔法炸弹" Photo="icon\BG_Skill\heijin_jineng_yaozhan.png" HitAction="attack_0h" HurtAction="combat"/>
+	<Property ID="30022" Name="捕兽器" Photo="icon\BG_Skill\heijin_jineng_yaozhan.png" ActionEffect="func_raid_181" HitAction="attack_0h" HurtAction="combat"/>
+	<Property ID="30023" Name="侦测魔法装置" Photo="icon\BG_Skill\heijin_jineng_yaozhan.png" ActionEffect="func_raid_181" HitAction="attack_0h" HurtAction="combat"/>
+	<Property ID="30024" Name="受过祝福的动物尸体" Photo="icon\BG_Skill\heijin_jineng_yaozhan.png" ActionEffect="func_raid_181" HitAction="attack_0h" HurtAction="combat"/>
+	<Property ID="30025" Name="绳索" Photo="icon\BG_Skill\heijin_jineng_yaozhan.png" ActionEffect="func_raid_181" HitAction="attack_0h" HurtAction="combat"/>
+	<Property ID="30026" Name="鞭子" Photo="icon\BG_Skill\heijin_jineng_yaozhan.png" ActionEffect="func_raid_181" HitAction="attack_0h" HurtAction="combat"/>
+	<Property ID="30028" Name="誓约之刃" Photo="icon\BG_Skill\heijin_jineng_yaozhan.png" ActionEffect="func_raid_181" HitAction="attack_0h" HurtAction="combat"/>
+	<Property ID="30029" Name="皮鞭" Photo="icon\BG_Skill\heijin_jineng_yaozhan.png" ActionEffect="func_raid_181" HitAction="attack_0h" HurtAction="combat"/>
+	<Property ID="30030" Name="青木药剂" Photo="icon\BG_Skill\heijin_jineng_yaozhan.png" ActionEffect="func_raid_181" HitAction="attack_0h" HurtAction="combat"/>
+	<Property ID="30031" Name="伪装物" Photo="icon\BG_Skill\heijin_jineng_yaozhan.png" ActionEffect="func_raid_181" HitAction="attack_0h" HurtAction="combat"/>
+	<Property ID="30032" Name="反魔法咒文" Photo="icon\BG_Skill\heijin_jineng_yaozhan.png" ActionEffect="func_raid_181" HitAction="attack_0h" HurtAction="combat"/>
+	<Property ID="30033" Name="扳手" Photo="icon\BG_Skill\heijin_jineng_yaozhan.png" ActionEffect="func_raid_181" HitAction="attack_0h" HurtAction="combat"/>
+	<Property ID="30034" Name="奥瑞克士兵服" Photo="icon\BG_Skill\heijin_jineng_yaozhan.png" ActionEffect="func_raid_181" HitAction="attack_0h" HurtAction="combat"/>
+	<Property ID="30035" Name="血清" Photo="icon\BG_Skill\heijin_jineng_yaozhan.png" ActionEffect="func_raid_181" HitAction="attack_0h" HurtAction="combat"/>
+	<Property ID="30036" Name="洁净的容器" Photo="icon\BG_Skill\heijin_jineng_yaozhan.png" ActionEffect="func_raid_181" HitAction="attack_0h" HurtAction="combat"/>
+	<Property ID="30037" Name="弗里德的审判书" Photo="icon\BG_Skill\heijin_jineng_yaozhan.png" LeadAction="attack1_10h_half" LeadEffect="func_raid_102" HurtAction="combat"/>
+	<Property ID="30038" Name="真言药水" Photo="icon\BG_Skill\heijin_jineng_yaozhan.png" ActionEffect="func_raid_181" HitAction="attack_0h" HurtAction="combat"/>
+	<Property ID="30039" Name="皮鞭" Photo="icon\BG_Skill\heijin_jineng_yaozhan.png" ActionEffect="func_raid_181" HitAction="attack_0h" HurtAction="combat"/>
+	<Property ID="30040" Name="抗毒药水" Photo="icon\BG_Skill\heijin_jineng_yaozhan.png" ActionEffect="func_raid_181" HitAction="attack_0h" HurtAction="combat"/>
+	<Property ID="30041" Name="空试管" Photo="icon\BG_Skill\heijin_jineng_yaozhan.png" ActionEffect="func_raid_181" HitAction="attack_0h" HurtAction="combat"/>
+	<Property ID="30042" Name="英勇之剑" Photo="icon\BG_Skill\heijin_jineng_yaozhan.png" ActionEffect="func_raid_181" HitAction="attack_0h" HurtAction="combat"/>
+	<Property ID="30043" Name="达戈菲尔军装" Photo="icon\BG_Skill\heijin_jineng_yaozhan.png" ActionEffect="func_raid_181" HitAction="attack_0h" HurtAction="combat"/>
+	<Property ID="30044" Name="Q2型烈性炸药" Photo="icon\BG_Skill\heijin_jineng_yaozhan.png" ActionEffect="func_raid_46" HitAction="attack_0h" HurtAction="combat"/>
+	<Property ID="30045" Name="药水" Photo="icon\BG_Skill\heijin_jineng_yaozhan.png" ActionEffect="func_raid_181" HitAction="attack_0h" HurtAction="combat"/>
+	<Property ID="10046" Name="独角蜘蛛" Photo="icon\Carry\qh_con_mount_0002.png" EffectSpeed="0" PrepareAction="fi_10h_ready" PrepareEffect="func_raid_51" PrepareSnd="ZHzuoqi_01"/>
+	<Property ID="10047" Name="白色陆行鸟" Photo="iocn\Carry\64\qh_kosh_mount_0001.png" EffectSpeed="0" PrepareAction="fi_10h_ready" PrepareEffect="func_raid_51" PrepareSnd="ZHzuoqi_01"/>
+	<Property ID="10048" Name="深蓝石肤马" Photo="iocn\Carry\64\qh_hum_mount_0001.png" EffectSpeed="0" PrepareAction="fi_10h_ready" PrepareEffect="func_raid_51" PrepareSnd="ZHzuoqi_01"/>
+	<Property ID="10049" Name="蒸汽三轮车" Photo="iocn\Carry\64\zq_con_mount_0002.png" EffectSpeed="0" PrepareAction="fi_10h_ready" PrepareEffect="func_raid_51" PrepareSnd="ZHzuoqi_01"/>
+	<Property ID="20376" Name="巴洛斯的信号弹" Photo="icon\BG_Skill\skillicon_0135.png" ActionEffect="func_raid_181" HitAction="attack_0h" HurtAction="combat"/>
+	<Property ID="20377" Name="温度计" Photo="icon\BG_Skill\heijin_jineng_yaozhan.png" ActionEffect="func_raid_181" HitAction="attack_0h" HurtAction="combat"/>
+	<Property ID="20378" Name="卡尺" Photo="icon\BG_Skill\heijin_jineng_yaozhan.png" ActionEffect="func_raid_181" HitAction="attack_0h" HurtAction="combat"/>
+	<Property ID="20379" Name="药膏" Photo="icon\BG_Skill\heijin_jineng_yaozhan.png" ActionEffect="func_raid_181" HitAction="attack_0h" HurtAction="combat"/>
+	<Property ID="20380" Name="秘法容器" Photo="icon\BG_Skill\skillicon_0393.png" ActionEffect="func_raid_181" HitAction="attack_0h" HurtAction="combat"/>
+	<Property ID="20381" Name="魔能" Photo="icon\BG_Skill\heijin_jineng_dianshe.png" ActionEffect="func_raid_181" HitAction="attack_0h" HurtAction="combat"/>
+	<Property ID="20382" Name="咒语书" Photo="icon\BG_Skill\heijin_jineng_dianshe.png" ActionEffect="func_raid_181" HitAction="attack_0h" HurtAction="combat"/>
+	<Property ID="20383" Name="医疗剂" Photo="icon\BG_Skill\heijin_jineng_dianshe.png" ActionEffect="func_raid_181" HitAction="attack_0h" HurtAction="combat"/>
+	<Property ID="20397" Name="火柴" Photo="icon\BG_Skill\heijin_jineng_dianshe.png" HurtAction="combat"/>
+	<Property ID="20400" Name="失踪卫兵的骸骨" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HurtAction="combat"/>
+	<Property ID="10051" Name="召唤巨牙野猪" Photo="iocn\Carry\64\zl_con_mount_0009.png" PrepareAction="fi_10h_ready" PrepareEffect="func_raid_51" PrepareSnd="ZHzuoqi_01"/>
+	<Property ID="10052" Name="召唤花豹" Photo="iocn\Carry\64\zl_con_mount_0003.png" PrepareAction="fi_10h_ready" PrepareEffect="func_raid_51" PrepareSnd="ZHzuoqi_01"/>
+	<Property ID="10053" Name="召唤驼铃" Photo="iocn\Carry\64\zl_con_mount_0004.png" PrepareAction="fi_10h_ready" PrepareEffect="func_raid_51" PrepareSnd="ZHzuoqi_01"/>
+	<Property ID="20421" Name="火把" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HurtAction="combat"/>
+	<Property ID="20422" Name="净化尘" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HurtAction="combat"/>
+	<Property ID="20423" Name="蒸汽炸弹N52" Photo="icon\BG_Skill\fengnu.png" HurtAction="combat"/>
+	<Property ID="20424" Name="镣铐的钥匙" Photo="icon\BG_Skill\fengnu.png" HurtAction="combat"/>
+	<Property ID="20425" Name="火把" Photo="icon\BG_Skill\fengnu.png" HurtAction="combat"/>
+	<Property ID="20426" Name="枪林弹雨" Photo="icon\BG_Skill\fengnu.png" LeadAction="attackR_1h" LeadEffect="func_raid_356" HurtAction="combat"/>
+	<Property ID="10054" Name="召唤受折磨的大象" Photo="icon\BG_Skill\fengnu.png" PrepareAction="fi_10h_ready" PrepareEffect="func_raid_51" PrepareSnd="ZHzuoqi_01"/>
+	<Property ID="10055" Name="召唤军用吉普" Photo="icon\BG_Skill\fengnu.png" PrepareAction="fi_10h_ready" PrepareEffect="func_raid_51" PrepareSnd="ZHzuoqi_01"/>
+	<Property ID="10056" Name="召唤单人摩托车" Photo="icon\BG_Skill\fengnu.png" PrepareAction="fi_10h_ready" PrepareEffect="func_raid_51" PrepareSnd="ZHzuoqi_01"/>
+	<Property ID="10057" Name="召唤外轮车" Photo="icon\BG_Skill\fengnu.png" PrepareAction="fi_10h_ready" PrepareEffect="func_raid_51" PrepareSnd="ZHzuoqi_01"/>
+	<Property ID="20449" Name="审判之剑" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HurtAction="combat"/>
+	<Property ID="20450" Name="BOOM炸弹" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HurtAction="combat"/>
+	<Property ID="20451" Name="魔瓶" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HurtAction="combat"/>
+	<Property ID="20452" Name="魔纹符布" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HurtAction="combat"/>
+	<Property ID="20453" Name="生物检测仪" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HurtAction="combat"/>
+	<Property ID="20454" Name="抗体疫苗" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HurtAction="combat"/>
+	<Property ID="20455" Name="召唤怪物" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" PrepareAction="fi_10h_stand" PrepareEffect="func_raid_51" HitAction="uarmR_attack_0h" HurtAction="combat"/>
+	<Property ID="20456" Name="致命打击" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HitEffect="func_raid_500" HurtAction="combat"/>
+	<Property ID="20457" Name="大地撕裂" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HitEffect="func_raid_500" HurtAction="combat"/>
+	<Property ID="20459" Name="新月会伤兵" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HurtAction="combat"/>
+	<Property ID="20460" Name="太阳之子集会所广场" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HurtAction="combat"/>
+	<Property ID="20461" Name="魔法阵" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HurtAction="combat"/>
+	<Property ID="50016" Name="恢复" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HitAction="attack_10h_half" HurtAction="combat"/>
+	<Property ID="49001" Name="力量+2" Photo="icon\BG_Skill\skillicon_0021.png" HurtAction="combat"/>
+	<Property ID="49002" Name="敏捷+2" Photo="icon\BG_Skill\skillicon_0022.png" HurtAction="combat"/>
+	<Property ID="49003" Name="耐力+2" Photo="icon\BG_Skill\skillicon_0023.png" HurtAction="combat"/>
+	<Property ID="49004" Name="智力+2" Photo="icon\BG_Skill\skillicon_0024.png" HurtAction="combat"/>
+	<Property ID="49005" Name="感知+2" Photo="icon\BG_Skill\skillicon_0025.png" HurtAction="combat"/>
+	<Property ID="49006" Name="精神+2" Photo="icon\BG_Skill\skillicon_0026.png" HurtAction="combat"/>
+	<Property ID="49007" Name="力量+5" Photo="icon\BG_Skill\skillicon_0021.png" HurtAction="combat"/>
+	<Property ID="49008" Name="敏捷+5" Photo="icon\BG_Skill\skillicon_0022.png" HurtAction="combat"/>
+	<Property ID="49009" Name="耐力+5" Photo="icon\BG_Skill\skillicon_0023.png" HurtAction="combat"/>
+	<Property ID="49010" Name="智力+5" Photo="icon\BG_Skill\skillicon_0024.png" HurtAction="combat"/>
+	<Property ID="49011" Name="感知+5" Photo="icon\BG_Skill\skillicon_0025.png" HurtAction="combat"/>
+	<Property ID="49012" Name="精神+5" Photo="icon\BG_Skill\skillicon_0026.png" HurtAction="combat"/>
+	<Property ID="49013" Name="力量+10" Photo="icon\BG_Skill\skillicon_0021.png" HurtAction="combat"/>
+	<Property ID="49014" Name="敏捷+10" Photo="icon\BG_Skill\skillicon_0022.png" HurtAction="combat"/>
+	<Property ID="49015" Name="耐力+10" Photo="icon\BG_Skill\skillicon_0023.png" HurtAction="combat"/>
+	<Property ID="49016" Name="智力+10" Photo="icon\BG_Skill\skillicon_0024.png" HurtAction="combat"/>
+	<Property ID="49017" Name="感知+10" Photo="icon\BG_Skill\skillicon_0025.png" HurtAction="combat"/>
+	<Property ID="49018" Name="精神+10" Photo="icon\BG_Skill\skillicon_0026.png" HurtAction="combat"/>
+	<Property ID="49019" Name="力量+20" Photo="icon\BG_Skill\skillicon_0021.png" HurtAction="combat"/>
+	<Property ID="49020" Name="敏捷+20" Photo="icon\BG_Skill\skillicon_0022.png" HurtAction="combat"/>
+	<Property ID="49021" Name="耐力+20" Photo="icon\BG_Skill\skillicon_0023.png" HurtAction="combat"/>
+	<Property ID="49022" Name="智力+20" Photo="icon\BG_Skill\skillicon_0024.png" HurtAction="combat"/>
+	<Property ID="49023" Name="感知+20" Photo="icon\BG_Skill\skillicon_0025.png" HurtAction="combat"/>
+	<Property ID="49024" Name="精神+20" Photo="icon\BG_Skill\skillicon_0026.png" HurtAction="combat"/>
+	<Property ID="49025" Name="力量+30" Photo="icon\BG_Skill\skillicon_0021.png" HurtAction="combat"/>
+	<Property ID="49026" Name="敏捷+30" Photo="icon\BG_Skill\skillicon_0022.png" HurtAction="combat"/>
+	<Property ID="49027" Name="耐力+30" Photo="icon\BG_Skill\skillicon_0023.png" HurtAction="combat"/>
+	<Property ID="49028" Name="智力+30" Photo="icon\BG_Skill\skillicon_0024.png" HurtAction="combat"/>
+	<Property ID="49029" Name="感知+30" Photo="icon\BG_Skill\skillicon_0025.png" HurtAction="combat"/>
+	<Property ID="49030" Name="精神+30" Photo="icon\BG_Skill\skillicon_0026.png" HurtAction="combat"/>
+	<Property ID="49031" Name="力量+40" Photo="icon\BG_Skill\skillicon_0021.png" HurtAction="combat"/>
+	<Property ID="49032" Name="敏捷+40" Photo="icon\BG_Skill\skillicon_0022.png" HurtAction="combat"/>
+	<Property ID="49033" Name="耐力+40" Photo="icon\BG_Skill\skillicon_0023.png" HurtAction="combat"/>
+	<Property ID="49034" Name="智力+40" Photo="icon\BG_Skill\skillicon_0024.png" HurtAction="combat"/>
+	<Property ID="49035" Name="感知+40" Photo="icon\BG_Skill\skillicon_0025.png" HurtAction="combat"/>
+	<Property ID="49036" Name="精神+40" Photo="icon\BG_Skill\skillicon_0026.png" HurtAction="combat"/>
+	<Property ID="49037" Name="暴击等级+5" Photo="icon\BG_Skill\skillicon_0027.png" HurtAction="combat"/>
+	<Property ID="49038" Name="暴击等级+10" Photo="icon\BG_Skill\skillicon_0027.png" HurtAction="combat"/>
+	<Property ID="49039" Name="暴击等级+15" Photo="icon\BG_Skill\skillicon_0027.png" HurtAction="combat"/>
+	<Property ID="49040" Name="暴击等级+20" Photo="icon\BG_Skill\skillicon_0027.png" HurtAction="combat"/>
+	<Property ID="49041" Name="命中等级+5" Photo="icon\BG_Skill\skillicon_0028.png" HurtAction="combat"/>
+	<Property ID="49042" Name="命中等级+10" Photo="icon\BG_Skill\skillicon_0028.png" HurtAction="combat"/>
+	<Property ID="49043" Name="命中等级+15" Photo="icon\BG_Skill\skillicon_0028.png" HurtAction="combat"/>
+	<Property ID="49044" Name="命中等级+20" Photo="icon\BG_Skill\skillicon_0028.png" HurtAction="combat"/>
+	<Property ID="49045" Name="急速等级+5" Photo="icon\BG_Skill\skillicon_0029.png" HurtAction="combat"/>
+	<Property ID="49046" Name="急速等级+10" Photo="icon\BG_Skill\skillicon_0029.png" HurtAction="combat"/>
+	<Property ID="49047" Name="急速等级+15" Photo="icon\BG_Skill\skillicon_0029.png" HurtAction="combat"/>
+	<Property ID="49048" Name="急速等级+20" Photo="icon\BG_Skill\skillicon_0029.png" HurtAction="combat"/>
+	<Property ID="49049" Name="法术命中+5" Photo="icon\BG_Skill\skillicon_0030.png" HurtAction="combat"/>
+	<Property ID="49050" Name="法术命中+10" Photo="icon\BG_Skill\skillicon_0030.png" HurtAction="combat"/>
+	<Property ID="49051" Name="法术命中+15" Photo="icon\BG_Skill\skillicon_0030.png" HurtAction="combat"/>
+	<Property ID="49052" Name="法术命中+20" Photo="icon\BG_Skill\skillicon_0030.png" HurtAction="combat"/>
+	<Property ID="49053" Name="法术暴击+5" Photo="icon\BG_Skill\skillicon_0031.png" HurtAction="combat"/>
+	<Property ID="49054" Name="法术暴击+10" Photo="icon\BG_Skill\skillicon_0031.png" HurtAction="combat"/>
+	<Property ID="49055" Name="法术暴击+15" Photo="icon\BG_Skill\skillicon_0031.png" HurtAction="combat"/>
+	<Property ID="49056" Name="法术暴击+20" Photo="icon\BG_Skill\skillicon_0031.png" HurtAction="combat"/>
+	<Property ID="49057" Name="闪避等级+5" Photo="icon\BG_Skill\skillicon_0032.png" HurtAction="combat"/>
+	<Property ID="49058" Name="闪避等级+10" Photo="icon\BG_Skill\skillicon_0032.png" HurtAction="combat"/>
+	<Property ID="49059" Name="闪避等级+15" Photo="icon\BG_Skill\skillicon_0032.png" HurtAction="combat"/>
+	<Property ID="49060" Name="闪避等级+20" Photo="icon\BG_Skill\skillicon_0032.png" HurtAction="combat"/>
+	<Property ID="49061" Name="招架等级+5" Photo="icon\BG_Skill\skillicon_0033.png" HurtAction="combat"/>
+	<Property ID="49062" Name="招架等级+10" Photo="icon\BG_Skill\skillicon_0033.png" HurtAction="combat"/>
+	<Property ID="49063" Name="招架等级+15" Photo="icon\BG_Skill\skillicon_0033.png" HurtAction="combat"/>
+	<Property ID="49064" Name="招架等级+20" Photo="icon\BG_Skill\skillicon_0033.png" HurtAction="combat"/>
+	<Property ID="50017" Name="恢复" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HitAction="attack_10h_half" HurtAction="combat"/>
+	<Property ID="50018" Name="恢复" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HitAction="attack_10h_half" HurtAction="combat"/>
+	<Property ID="50019" Name="恢复" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HitAction="attack_10h_half" HurtAction="combat"/>
+	<Property ID="50020" Name="恢复" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HitAction="attack_10h_half" HurtAction="combat"/>
+	<Property ID="50021" Name="恢复" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HitAction="attack_10h_half" HurtAction="combat"/>
+	<Property ID="50022" Name="恢复" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HitAction="attack_10h_half" HurtAction="combat"/>
+	<Property ID="50023" Name="恢复" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HitAction="attack_10h_half" HurtAction="combat"/>
+	<Property ID="50024" Name="恢复" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HitAction="attack_10h_half" HurtAction="combat"/>
+	<Property ID="50025" Name="恢复" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HitAction="attack_10h_half" HurtAction="combat"/>
+	<Property ID="50026" Name="恢复" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HitAction="attack_10h_half" HurtAction="combat"/>
+	<Property ID="50027" Name="恢复" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HitAction="attack_10h_half" HurtAction="combat"/>
+	<Property ID="50028" Name="恢复" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HitAction="attack_10h_half" HurtAction="combat"/>
+	<Property ID="50029" Name="恢复" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HitAction="attack_10h_half" HurtAction="combat"/>
+	<Property ID="50030" Name="恢复" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HitAction="attack_10h_half" HurtAction="combat"/>
+	<Property ID="50031" Name="恢复" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HitAction="attack_10h_half" HurtAction="combat"/>
+	<Property ID="50032" Name="恢复" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HitAction="attack_10h_half" HurtAction="combat"/>
+	<Property ID="50033" Name="恢复" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HitAction="attack_10h_half" HurtAction="combat"/>
+	<Property ID="50034" Name="恢复" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HitAction="attack_10h_half" HurtAction="combat"/>
+	<Property ID="50035" Name="恢复" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HitAction="attack_10h_half" HurtAction="combat"/>
+	<Property ID="50036" Name="恢复" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HitAction="attack_10h_half" HurtAction="combat"/>
+	<Property ID="50037" Name="恢复" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HitAction="attack_10h_half" HurtAction="combat"/>
+	<Property ID="50038" Name="恢复" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HitAction="attack_10h_half" HurtAction="combat"/>
+	<Property ID="50039" Name="恢复" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HitAction="attack_10h_half" HurtAction="combat"/>
+	<Property ID="20483" Name="召唤机械狼" Photo="icon\BG_Skill\skillicon_0174.png" PrepareAction="fi_10h_ready" PrepareEffect="func_raid_51" PrepareSnd="ZHzuoqi_01"/>
+	<Property ID="20484" Name="召唤越野摩托" Photo="icon\Carry\64\zq_dwa_mount_0001.png" PrepareAction="fi_10h_ready" PrepareEffect="func_raid_51" PrepareSnd="ZHzuoqi_01"/>
+	<Property ID="20485" Name="药品" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HurtAction="combat"/>
+	<Property ID="20486" Name="魔法杖" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HurtAction="combat"/>
+	<Property ID="20487" Name="脚镣的钥匙" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HurtAction="combat"/>
+	<Property ID="20488" Name="精神恢复药剂" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HurtAction="combat"/>
+	<Property ID="20489" Name="力量恢复药剂" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HurtAction="combat"/>
+	<Property ID="20490" Name="紫水晶" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HurtAction="combat"/>
+	<Property ID="20491" Name="BTD炸弹" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HurtAction="combat"/>
+	<Property ID="20492" Name="动力系统" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HurtAction="combat"/>
+	<Property ID="20493" Name="驱动芯片" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HurtAction="combat"/>
+	<Property ID="20494" Name="平衡系统" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HurtAction="combat"/>
+	<Property ID="20495" Name="战斗系统" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HurtAction="combat"/>
+	<Property ID="20496" Name="伪装系统" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HurtAction="combat"/>
+	<Property ID="20497" Name="TNT炸药" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HurtAction="combat"/>
+	<Property ID="20498" Name="信号灯" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HurtAction="combat"/>
+	<Property ID="20499" Name="魔法炸弹" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HurtAction="combat"/>
+	<Property ID="20500" Name="锋利的匕首" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HurtAction="combat"/>
+	<Property ID="40061" Name="巨炮轰击" Photo="icon\BG_Skill\skillicon_0061.png" HitEffect="work_task022" HurtAction="combat" HitSnd="hz"/>
+	<Property ID="50040" Name="普通胶水" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HitAction="attack_10h_half" HurtAction="combat"/>
+	<Property ID="50041" Name="强力胶水" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HitAction="attack_10h_half" HurtAction="combat"/>
+	<Property ID="50044" Name="梦幻药水" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HitAction="attack_10h_half" HurtAction="combat"/>
+	<Property ID="50046" Name="闪避药剂" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HitAction="attack_10h_half" HurtAction="combat"/>
+	<Property ID="50047" Name="暴击之油" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HitAction="attack_10h_half" HurtAction="combat"/>
+	<Property ID="50048" Name="恶魔胶水" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HitAction="attack_10h_half" HurtAction="combat"/>
+	<Property ID="50051" Name="奥法药剂" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HitAction="attack_10h_half" HurtAction="combat"/>
+	<Property ID="50052" Name="强力奥法药剂" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HitAction="attack_10h_half" HurtAction="combat"/>
+	<Property ID="50053" Name="物理攻击药剂" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HitAction="attack_10h_half" HurtAction="combat"/>
+	<Property ID="50054" Name="精准药剂" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HitAction="attack_10h_half" HurtAction="combat"/>
+	<Property ID="50056" Name="致命药剂" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HitAction="attack_10h_half" HurtAction="combat"/>
+	<Property ID="50067" Name="中级烟雾发射器" HurtAction="combat"/>
+	<Property ID="50068" Name="初级烟雾发射器" HurtAction="combat"/>
+	<Property ID="50069" Name="初级石英观瞄装置" HurtAction="combat"/>
+	<Property ID="60096" Name="初级蒸汽喷射背包" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HurtAction="combat"/>
+	<Property ID="60097" Name="中级蒸汽喷射背包" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HurtAction="combat"/>
+	<Property ID="20516" Name="远程炮击" Photo="icon\BG_Skill\skillicon_0311.png" EffectSpeed="30" ActionEffect="BGskill_20013" HitAction="attackR_0h" HurtAction="combat"/>
+	<Property ID="20517" Name="投石" Photo="icon\BG_Skill\skillicon_0311.png" EffectSpeed="30" ActionEffect="BGskill_20013" HitAction="attackR_0h" HurtAction="combat"/>
+	<Property ID="50071" Name="中级石英观瞄装置" HurtAction="combat"/>
+	<Property ID="50073" Name="初级缓冲内衬" HurtAction="combat"/>
+	<Property ID="50074" Name="中级缓冲内衬" HurtAction="combat"/>
+	<Property ID="20547" Name="UK01追踪弹" Photo="icon\BG_Skill\skillicon_0017.png" EffectSpeed="30" ActionEffect="BGskill_20011" HitAction="attackR_0h" HurtAction="combat"/>
+	<Property ID="20548" Name="CK01追踪弹" Photo="icon\BG_Skill\skillicon_0017.png" ActionEffect="BGskill_20011" HitAction="attackR_0h" HurtAction="combat"/>
+	<Property ID="20549" Name="炮轰" Photo="icon\BG_Skill\skillicon_0017.png" ActionEffect="BGskill_20011" HitAction="attackR_0h" HurtAction="combat"/>
+	<Property ID="20550" Name="投弹" Photo="icon\BG_Skill\skillicon_0017.png" ActionEffect="BGskill_20011" HitAction="attackR_0h" HurtAction="combat"/>
+	<Property ID="20551" Name="医疗剂" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HurtAction="combat"/>
+	<Property ID="20552" Name="物资" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HurtAction="combat"/>
+	<Property ID="20553" Name="医疗剂" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HurtAction="combat"/>
+	<Property ID="20554" Name="炸弹" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HurtAction="combat"/>
+	<Property ID="20555" Name="炸弹" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HurtAction="combat"/>
+	<Property ID="20556" Name="被祝福的宝石" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HurtAction="combat"/>
+	<Property ID="20557" Name="祭品" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HurtAction="combat"/>
+	<Property ID="20558" Name="陷阱" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HurtAction="combat"/>
+	<Property ID="20559" Name="源机构勋章" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HurtAction="combat"/>
+	<Property ID="20560" Name="提莫" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HurtAction="combat"/>
+	<Property ID="20561" Name="数据测量仪" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HurtAction="combat"/>
+	<Property ID="20562" Name="绷带" Photo="icon\BG_Skill\skillicon_0024.png" HurtAction="combat"/>
+	<Property ID="20639" Name="快速射击" Photo="icon\BG_Skill\skillicon_0144.png" EffectSpeed="25" ActionEffect="BGskill_20048" HitEffect="func_raid_359" HurtAction="combat"/>
+	<Property ID="20640" Name="V2飞弹" Photo="icon\BG_Skill\skillicon_0083.png" EffectSpeed="25" ActionEffect="BGskill_20049" HitEffect="func_raid_29" HurtAction="combat"/>
+	<Property ID="20641" Name="普通炸弹" Photo="icon\BG_Skill\skillicon_0100.png" EffectSpeed="30" ActionEffect="BGskill_20011" HurtAction="combat"/>
+	<Property ID="20642" Name="贫油弹" Photo="icon\BG_Skill\skillicon_0182.png" EffectSpeed="30" ActionEffect="BGskill_20050" HurtAction="combat"/>
+	<Property ID="20643" Name="魔法飞弹" Photo="icon\BG_Skill\skillicon_0270.png" EffectSpeed="25" ActionEffect="BGskill_20048" HitEffect="func_raid_359" HurtAction="combat"/>
+	<Property ID="20644" Name="魔法水弹" Photo="icon\BG_Skill\skillicon_0008.png" EffectSpeed="25" ActionEffect="BGskill_20051" HitEffect="func_raid_149" HurtAction="combat"/>
+	<Property ID="20645" Name="裂地球" Photo="icon\BG_Skill\skillicon_0174.png" EffectSpeed="30" ActionEffect="BGskill_20052" HurtAction="combat"/>
+	<Property ID="20646" Name="高压水弹" Photo="icon\BG_Skill\skillicon_0202.png" EffectSpeed="30" ActionEffect="BGskill_20052" HurtAction="combat"/>
+	<Property ID="20656" Name="烈性炸药" Photo="icon\BG_Skill\skillicon_0174.png" EffectSpeed="30" ActionEffect="BGskill_20061" HurtAction="combat"/>
+	<Property ID="20657" Name="特质蒸汽爆弹" Photo="icon\BG_Skill\skillicon_0174.png" EffectSpeed="30" ActionEffect="BGskill_20060" HurtAction="combat"/>
+	<Property ID="20658" Name="蒸汽外泄" Photo="icon\BG_Skill\skillicon_0174.png" ActionEffect="func_raid_159" HurtAction="combat"/>
+	<Property ID="20659" Name="突进" Photo="icon\BG_Skill\skillicon_0174.png"/>
+	<Property ID="50215" Name="仲裁" Photo="icon\BG_Skill\skillicon_0064.png" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="attackR_1h" HitEffect="func_raid_29" HurtAction="combat"/>
+	<Property ID="50216" Name="穿梭" Photo="icon\BG_Skill\skillicon_0065.png" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="pierceR_1h" HitEffect="func_raid_29" HurtAction="combat"/>
+	<Property ID="50217" Name="倾泻" Photo="icon\BG_Skill\skillicon_0066.png" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="attackR_1h" HitEffect="func_raid_29" HurtAction="combat"/>
+	<Property ID="50218" Name="威吓" Photo="icon\BG_Skill\skillicon_0067.png" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="attackR_1h" HitEffect="func_raid_29" HurtAction="combat"/>
+	<Property ID="50219" Name="劈斩" Photo="icon\BG_Skill\skillicon_0068.png" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="attack_2h" HitEffect="func_raid_29" HurtAction="combat"/>
+	<Property ID="50220" Name="穿刺" Photo="icon\BG_Skill\skillicon_0069.png" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="attack_3h" HitEffect="func_raid_29" HurtAction="combat"/>
+	<Property ID="50221" Name="力掷" Photo="icon\BG_Skill\skillicon_0070.png" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="attack_8h" HitEffect="func_raid_29" HurtAction="combat"/>
+	<Property ID="50222" Name="扎刺" Photo="icon\BG_Skill\skillicon_0071.png" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="pierceR_1h" HitEffect="func_raid_29" HurtAction="combat"/>
+	<Property ID="50223" Name="辅助射击" Photo="icon\BG_Skill\skillicon_0072.png" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="attackR_4h" HitEffect="func_raid_29" HurtAction="combat"/>
+	<Property ID="50224" Name="敲击" Photo="icon\BG_Skill\skillicon_0073.png" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="attackR_1h" HitEffect="func_raid_29" HurtAction="combat"/>
+	<Property ID="50225" Name="瞄准射击" Photo="icon\BG_Skill\skillicon_0074.png" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="attack_6h" HitEffect="func_raid_29" HurtAction="combat"/>
+	<Property ID="50226" Name="机械治疗" Photo="icon\BG_Skill\skillicon_0075.png" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="spell2_10h" HitEffect="func_raid_29" HurtAction="combat"/>
+	<Property ID="50227" Name="精准投掷" Photo="icon\BG_Skill\skillicon_0076.png" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="attack_8h" HitEffect="func_raid_29" HurtAction="combat"/>
+	<Property ID="50228" Name="基础修理" Photo="icon\BG_Skill\skillicon_0077.png" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="spell2_10h" HitEffect="func_raid_29" HurtAction="combat"/>
+	<Property ID="50229" Name="秘法武器" Photo="icon\BG_Skill\skillicon_0078.png" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="spell2_10h" HitEffect="func_raid_29" HurtAction="combat"/>
+	<Property ID="50230" Name="秘法射击" Photo="icon\BG_Skill\skillicon_0079.png" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="attackR_4h" HitEffect="func_raid_29" HurtAction="combat"/>
+	<Property ID="50231" Name="秘术爆炸" Photo="icon\BG_Skill\skillicon_0080.png" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="spell1_10h" HitEffect="func_raid_29" HurtAction="combat"/>
+	<Property ID="50232" Name="野蛮挥砍" Photo="icon\BG_Skill\skillicon_0081.png" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="attackR_1h" HitEffect="func_raid_29" HurtAction="combat"/>
+	<Property ID="50233" Name="撕裂" Photo="icon\BG_Skill\skillicon_0082.png" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="attackR_1h" HitEffect="func_raid_29" HurtAction="combat"/>
+	<Property ID="50234" Name="钝击" Photo="icon\BG_Skill\skillicon_0083.png" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="attackR_1h" HitEffect="func_raid_29" HurtAction="combat"/>
+	<Property ID="50235" Name="重劈" Photo="icon\BG_Skill\skillicon_0084.png" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="attack_2h" HitEffect="func_raid_29" HurtAction="combat"/>
+	<Property ID="50236" Name="长撩之势" Photo="icon\BG_Skill\skillicon_0085.png" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="spell2_10h" HitEffect="func_raid_29" HurtAction="combat"/>
+	<Property ID="50237" Name="蓄力攻击" Photo="icon\BG_Skill\skillicon_0086.png" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="attackR_1h" HitEffect="func_raid_29" HurtAction="combat"/>
+	<Property ID="50238" Name="快速打击" Photo="icon\BG_Skill\skillicon_0087.png" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="attackR_1h" HitEffect="func_raid_29" HurtAction="combat"/>
+	<Property ID="50239" Name="伤刻徽记" Photo="icon\BG_Skill\skillicon_0088.png" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="attack_6h" HitEffect="func_raid_29" HurtAction="combat"/>
+	<Property ID="50240" Name="练习劈砍" Photo="icon\BG_Skill\skillicon_0089.png" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="attack_2h" HitEffect="func_raid_29" HurtAction="combat"/>
+	<Property ID="50241" Name="风驰" Photo="icon\BG_Skill\skillicon_0090.png" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="attackR_1h" HitEffect="func_raid_29" HurtAction="combat"/>
+	<Property ID="50242" Name="割裂" Photo="icon\BG_Skill\skillicon_0091.png" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="attackR_1h" HitEffect="func_raid_29" HurtAction="combat"/>
+	<Property ID="50243" Name="封印" Photo="icon\BG_Skill\skillicon_0092.png" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="spell1_10h" HitEffect="func_raid_29" HurtAction="combat"/>
+	<Property ID="50244" Name="魔印" Photo="icon\BG_Skill\skillicon_0093.png" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="spell1_10h" HitEffect="func_raid_29" HurtAction="combat"/>
+	<Property ID="50245" Name="旋风" Photo="icon\BG_Skill\skillicon_0094.png" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="attack_3h" HitEffect="func_raid_29" HurtAction="combat"/>
+	<Property ID="50246" Name="蛮力投掷" Photo="icon\BG_Skill\skillicon_0095.png" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="attack_8h" HitEffect="func_raid_29" HurtAction="combat"/>
+	<Property ID="50247" Name="猎魔标枪" Photo="icon\BG_Skill\skillicon_0096.png" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="attack_8h" HitEffect="func_raid_29" HurtAction="combat"/>
+	<Property ID="50248" Name="时间利刃" Photo="icon\BG_Skill\skillicon_0097.png" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="attackR_1h" HitEffect="func_raid_29" HurtAction="combat"/>
+	<Property ID="50249" Name="熔炼" Photo="icon\BG_Skill\skillicon_0098.png" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="spell1_10h" HitEffect="func_raid_29" HurtAction="combat"/>
+	<Property ID="50250" Name="点金" Photo="icon\BG_Skill\skillicon_0099.png" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="spell1_10h" HitEffect="func_raid_29" HurtAction="combat"/>
+	<Property ID="50251" Name="元素利刃" Photo="icon\BG_Skill\skillicon_0100.png" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="spell1_10h" HitEffect="func_raid_29" HurtAction="combat"/>
+	<Property ID="50252" Name="魔法飞弹" Photo="icon\BG_Skill\skillicon_0101.png" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="spell1_10h" HitEffect="func_raid_29" HurtAction="combat"/>
+	<Property ID="50253" Name="元素触摸" Photo="icon\BG_Skill\skillicon_0102.png" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="spell1_cast_10h" HitEffect="func_raid_29" HurtAction="combat"/>
+	<Property ID="50254" Name="仲裁之链" Photo="icon\BG_Skill\skillicon_0103.png" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="attackR_1h" HitEffect="func_raid_29" HurtAction="combat"/>
+	<Property ID="50255" Name="机械智慧" Photo="icon\BG_Skill\skillicon_0104.png" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="spell1_10h" HitEffect="func_raid_29" HurtAction="combat"/>
+	<Property ID="50256" Name="秘术祷言" Photo="icon\BG_Skill\skillicon_0105.png" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="spell2_10h" HitEffect="func_raid_29" HurtAction="combat"/>
+	<Property ID="50257" Name="逝去的荣誉" Photo="icon\BG_Skill\skillicon_0106.png" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="spell2_10h" HitEffect="func_raid_29" HurtAction="combat"/>
+	<Property ID="50258" Name="灵魂审度" Photo="icon\BG_Skill\skillicon_0107.png" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="spell2_10h" HitEffect="func_raid_29" HurtAction="combat"/>
+	<Property ID="50259" Name="猎魔法则" Photo="icon\BG_Skill\skillicon_0108.png" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="spell2_10h" HitEffect="func_raid_29" HurtAction="combat"/>
+	<Property ID="50260" Name="炼金法阵" Photo="icon\BG_Skill\skillicon_0109.png" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="spell2_10h" HitEffect="func_raid_29" HurtAction="combat"/>
+	<Property ID="50261" Name="元素起源" Photo="icon\BG_Skill\skillicon_0110.png" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="spell1_10h" HitEffect="func_raid_29" HurtAction="combat"/>
+	<Property ID="50262" Name="火系瞬发法术" Photo="icon\BG_Skill\skillicon_0163.png" AutoStop="1" EffectSpeed="10" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="spell1_10h" HurtAction="combat" HurtEffect="func_raid_29"/>
+	<Property ID="50263" Name="火系吟唱法术" Photo="icon\BG_Skill\skillicon_0163.png" EffectSpeed="10" PrepareAction="fi_10h_ready" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="spell1_10h" HurtAction="combat" HurtEffect="func_raid_29"/>
+	<Property ID="50264" Name="风系瞬发法术" Photo="icon\BG_Skill\skillicon_0164.png" AutoStop="1" EffectSpeed="10" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="spell1_10h" HurtAction="combat" HurtEffect="func_raid_29"/>
+	<Property ID="50265" Name="风系吟唱法术" Photo="icon\BG_Skill\skillicon_0164.png" EffectSpeed="10" PrepareAction="fi_10h_ready" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="spell1_10h" HurtAction="combat" HurtEffect="func_raid_29"/>
+	<Property ID="50266" Name="雷系瞬发法术" Photo="icon\BG_Skill\skillicon_0165.png" AutoStop="1" EffectSpeed="10" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="spell1_10h" HurtAction="combat" HurtEffect="func_raid_29"/>
+	<Property ID="50267" Name="雷系吟唱法术" Photo="icon\BG_Skill\skillicon_0165.png" EffectSpeed="10" PrepareAction="fi_10h_ready" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="spell1_10h" HurtAction="combat" HurtEffect="func_raid_29"/>
+	<Property ID="50268" Name="水系瞬发法术" Photo="icon\BG_Skill\skillicon_0166.png" AutoStop="1" EffectSpeed="10" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="spell1_10h" HurtAction="combat" HurtEffect="func_raid_29"/>
+	<Property ID="50269" Name="水系吟唱法术" Photo="icon\BG_Skill\skillicon_0166.png" EffectSpeed="10" PrepareAction="fi_10h_ready" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="spell1_10h" HurtAction="combat" HurtEffect="func_raid_29"/>
+	<Property ID="91023" Name="朝日圣地主城传送轴" Photo="icon\BG_Skill\skillicon_0024.png" ActionEffect="func_raid_490" HitAction="spell2_10h" HurtAction="combat"/>
+	<Property ID="91024" Name="风语平原主城传送轴" Photo="icon\BG_Skill\skillicon_0024.png" ActionEffect="func_raid_490" HitAction="spell2_10h" HurtAction="combat"/>
+	<Property ID="91025" Name="晨曦丘陵主城传送轴" Photo="icon\BG_Skill\skillicon_0024.png" ActionEffect="func_raid_490" HitAction="spell2_10h" HurtAction="combat"/>
+	<Property ID="91026" Name="克威尔郡主城传送轴" Photo="icon\BG_Skill\skillicon_0024.png" ActionEffect="func_raid_490" HitAction="spell2_10h" HurtAction="combat"/>
+	<Property ID="91027" Name="裂痕丘陵主城传送轴" Photo="icon\BG_Skill\skillicon_0024.png" ActionEffect="func_raid_490" HitAction="spell2_10h" HurtAction="combat"/>
+	<Property ID="91028" Name="卡地亚主城传送轴" Photo="icon\BG_Skill\skillicon_0024.png" ActionEffect="func_raid_490" HitAction="spell2_10h" HurtAction="combat"/>
+	<Property ID="50270" Name="土系瞬发法术" Photo="icon\BG_Skill\skillicon_0167.png" AutoStop="1" EffectSpeed="10" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="spell1_10h" HurtAction="combat" HurtEffect="func_raid_29"/>
+	<Property ID="50271" Name="土系吟唱法术" Photo="icon\BG_Skill\skillicon_0167.png" EffectSpeed="10" PrepareAction="fi_10h_ready" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="spell1_10h" HurtAction="combat" HurtEffect="func_raid_29"/>
+	<Property ID="50272" Name="蒸汽系瞬发法术" Photo="icon\BG_Skill\skillicon_0168.png" AutoStop="1" EffectSpeed="10" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="spell1_10h" HurtAction="combat" HurtEffect="func_raid_29"/>
+	<Property ID="50273" Name="蒸汽系吟唱法术" Photo="icon\BG_Skill\skillicon_0168.png" EffectSpeed="10" PrepareAction="fi_10h_ready" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="spell1_10h" HurtAction="combat" HurtEffect="func_raid_29"/>
+	<Property ID="50274" Name="暗系瞬发法术" Photo="icon\BG_Skill\skillicon_0169.png" AutoStop="1" EffectSpeed="10" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="spell1_10h" HurtAction="combat" HurtEffect="func_raid_29"/>
+	<Property ID="50275" Name="暗系吟唱法术" Photo="icon\BG_Skill\skillicon_0169.png" EffectSpeed="10" PrepareAction="fi_10h_ready" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="spell1_10h" HurtAction="combat" HurtEffect="func_raid_29"/>
+	<Property ID="50276" Name="自然系瞬发法术" Photo="icon\BG_Skill\skillicon_0170.png" AutoStop="1" EffectSpeed="10" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="spell1_10h" HurtAction="combat" HurtEffect="func_raid_29"/>
+	<Property ID="50277" Name="自然系吟唱法术" Photo="icon\BG_Skill\skillicon_0170.png" EffectSpeed="10" PrepareAction="fi_10h_ready" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="spell1_10h" HurtAction="combat" HurtEffect="func_raid_29"/>
+	<Property ID="50283" Name="秘术飞弹" Photo="icon\BG_Skill\skillicon_0110.png" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitAction="spell1_10h" HitEffect="func_raid_29" HurtAction="combat"/>
+	<Property ID="91029" Photo="icon\BG_Skill\skillicon_0153.png" LeadAction="spell1_cast_10h" LeadEffect="func_raid_102"/>
+	<Property ID="20745" Name="蒸汽弹" Photo="icon\BG_Skill\heijin_jineng_fengkuangsaoshe.png" ActionEffect="BGskill_20050" HitAction="combat"/>
+	<Property ID="20746" Name="狼牙石" Photo="icon\BG_Skill\skillicon_0024.png" ActionEffect="BGskill_20050" HitAction="combat"/>
+	<Property ID="20751" Name="弩箭" Photo="icon\BG_Skill\skillicon_0024.png" ActionEffect="BGskill_20050"/>
+	<Property ID="20752" Name="冰霜之矢" Photo="icon\BG_Skill\skillicon_0024.png" ActionEffect="BGskill_20050"/>
+	<Property ID="20753" Name="轰击" Photo="icon\BG_Skill\skillicon_0024.png" ActionEffect="BGskill_20050"/>
+	<Property ID="20754" Name="怒震之石" Photo="icon\BG_Skill\skillicon_0024.png" ActionEffect="BGskill_20050"/>
+	<Property ID="20755" Name="突刺" Photo="icon\BG_Skill\skillicon_0024.png" ActionEffect="BGskill_20050"/>
+	<Property ID="20756" Name="噬龙之刺" Photo="icon\BG_Skill\skillicon_0024.png" ActionEffect="BGskill_20050"/>
+	<Property ID="20757" Name="践踏" Photo="icon\BG_Skill\skillicon_0024.png" PrepareAction="fi_10h_ready" PrepareEffect="BGskill_40039" ActionEffect="func_raid_44" HurtAction="combat"/>
+	<Property ID="20758" Name="践踏AOE" Photo="icon\BG_Skill\skillicon_0024.png" PrepareAction="fi_10h_ready" PrepareEffect="BGskill_40039" ActionEffect="func_raid_44" HurtAction="combat"/>
+	<Property ID="20759" Name="炽火胶" Photo="icon\BG_Skill\skillicon_0024.png" PrepareAction="fi_10h_ready" PrepareEffect="BGskill_40039" HitEffect="BGskill_61025" PrepareSnd="lsy"/>
+	<Property ID="20760" Name="暴雷石" Photo="icon\BG_Skill\skillicon_0024.png" PrepareAction="fi_10h_ready" PrepareEffect="BGskill_40039" HitEffect="func_raid_120"/>
+	<Property ID="20761" Name="药" Photo="icon\BG_Skill\skillicon_0024.png" HitEffect="BGskill_400512"/>
+	<Property ID="20762" Name="高效能机油" Photo="icon\BG_Skill\skillicon_0024.png" HitAction="spell2_10h" HitEffect="BGskill_20034"/>
+	<Property ID="20767" Name="蒸汽爆破" Photo="icon\BG_Skill\skillicon_0024.png" HitEffect="BGskill_20009"/>
+	<Property ID="20768" Name="蒸汽废渣" Photo="icon\BG_Skill\skillicon_0024.png" ActionEffect="func_raid_115"/>
+	<Property ID="20769" Name="蒸汽充能" Photo="icon\BG_Skill\skillicon_0024.png" ActionEffect="BGskill_40053"/>
+	<Property ID="20770" Name="蒸汽庇护" Photo="icon\BG_Skill\skillicon_0024.png" HitEffect="func_raid_350"/>
+	<Property ID="20771" Name="穿梭" Photo="icon\BG_Skill\skillicon_0024.png" HitEffect="func_raid_419"/>
+	<Property ID="20772" Name="燃烧弹" Photo="icon\BG_Skill\skillicon_0024.png" HitEffect="BGskill_20060"/>
+	<Property ID="20773" Name="冷冻弹" Photo="icon\BG_Skill\skillicon_0024.png" HitEffect="BGskill_40015"/>
+	<Property ID="20774" Name="迁跃炸弹" Photo="icon\BG_Skill\skillicon_0024.png" EffectSpeed="30" ActionEffect="func_raid_500" HurtAction="combat"/>
+	<Property ID="20775" Name="烈焰扫射" Photo="icon\BG_Skill\skillicon_0024.png" ActionEffect="BGskill_51004"/>
+	<Property ID="20776" Name="蒸汽榴弹" Photo="icon\BG_Skill\skillicon_0024.png" EffectSpeed="30" ActionEffect="func_raid_500" HurtAction="combat"/>
+	<Property ID="20777" Name="蒸汽爆弹" Photo="icon\BG_Skill\skillicon_0024.png" ActionEffect="func_raid_500" HurtAction="combat"/>
+	<Property ID="20778" Name="疯狂机枪" Photo="icon\BG_Skill\skillicon_0024.png" HitEffect="BGskill_20007"/>
+	<Property ID="20779" Name="驱蛇药" Photo="icon\BG_Skill\skillicon_0024.png" PrepareAction="fi_10h_ready" PrepareEffect="BGskill_81352" ActionEffect="BGskill_81351"/>
+	<Property ID="20780" Name="秘仪黑金" Photo="icon\BG_Skill\skillicon_0024.png" PrepareAction="fi_10h_ready" PrepareEffect="BGskill_20066" HitEffect="BGskill_40086"/>
+	<Property ID="20781" Name="疗伤药物" Photo="icon\BG_Skill\skillicon_0024.png" PrepareAction="fi_10h_ready" PrepareEffect="BGskill_20066" HitEffect="func_raid_128" IsPrepareOther="0" AutoStop="0"/>
+	<Property ID="20782" Name="铁树种子" Photo="icon\BG_Skill\skillicon_0024.png" PrepareAction="fi_10h_ready" PrepareEffect="BGskill_20066"/>
+	<Property ID="20791" Name="散落的研究资料" Photo="icon\BG_Skill\skillicon_0167.png"/>
+	<Property ID="20792" Name="达戈菲尔军装" Photo="icon\BG_Skill\skillicon_0007.png" HitEffect="BGskill_20027"/>
+	<Property ID="20793" Name="芭蕉" Photo="icon\BG_Skill\Fight_Wm0019_01.png"/>
+	<Property ID="20799" Name="邮递员瓦力" Photo="icon\BG_Skill\skillicon_0171.png" PrepareEffect="func_youjian_01" PrepareAction="fi_10h_ready"/>
+	<Property ID="20800" Name="风信子温蒂" Photo="icon\BG_Skill\skillicon_0165.png" PrepareEffect="func_youjian_02" PrepareAction="fi_10h_ready"/>
+	<Property ID="20808" Name="点射" Photo="icon\BG_Skill\skillicon_0010.png" ActionEffect="BG_skill_ds" HurtAction="combat" EffectSpeed="30" AutoStop="1" HitActionTime="1600" LockZhaoshi="1" HitActionSnd="zj_dianshe_01" HurtSnd="gl_tongysj_01" HurtEffect="func_raid_313_new" HitAction="attackL_0h"/>
+	<Property ID="20810" Name="布雷" Photo="icon\BG_Skill\skillicon_0306.png"/>
+	<Property ID="20811" Name="军服" Photo="icon\BG_Skill\skillicon_0162.png"/>
+	<Property ID="20812" Name="军服" Photo="icon\BG_Skill\skillicon_0162.png"/>
+	<Property ID="20833" Name="布雷" Photo="icon\BG_Skill\skillicon_0306.png"/>
+	<Property ID="20843" Name="燃烧的火把" Photo="icon\BG_Skill\Fight_Tr0031_01 .png" HitEffect="BGskill_20045" PrepareAction="spell1_cast_10h"/>
+	<Property ID="20844" Name="火把" Photo="icon\BG_Skill\Fight_Tr0031_01 .png" EffcctActive="0" HitAction="pick_cast_0h" ActionEffect="BG_task_140"/>
+	<Property ID="20845" Name="研究设施的钥匙" Photo="icon\BG_Skill\Fight_Tr0031_01 .png" PrepareAction="spell1_cast_10h"/>
+	<Property ID="20846" Name="“巨锤”高温炸弹" Photo="icon\BG_Skill\Fight_Tr0031_01 .png" HitEffect="BGskill_20060" PrepareAction="spell1_cast_10h"/>
+	<Property ID="20847" Name="污染测量仪" Photo="icon\BG_Skill\Fight_Tr0031_01 .png" PrepareAction="spell1_cast_10h"/>
+	<Property ID="20848" Name="净化尘" Photo="icon\BG_Skill\Fight_Tr0031_01 .png" HitAction="skill4001_0h" ActionEffect="BG_task_144"/>
+	<Property ID="20849" Name="营养液" Photo="icon\BG_Skill\Fight_Tr0031_01 .png" PrepareAction="spell1_cast_10h"/>
+	<Property ID="20850" Name="解药" Photo="icon\BG_Skill\Fight_Tr0031_01 .png" PrepareAction="spell1_cast_10h"/>
+	<Property ID="20851" Name="无味药剂" Photo="icon\BG_Skill\Fight_Tr0031_01 .png" PrepareAction="spell1_cast_10h"/>
+	<Property ID="20852" Name="蒸汽炸弹N52" Photo="icon\BG_Skill\Fight_Tr0031_01 .png" PrepareAction="spell1_cast_10h" ActionEffect="BG_zhadan_148"/>
+	<Property ID="50500" Name="奇怪的罐子" Type="奇怪的罐子" Photo="icon\BG_Skill\skillicon_0001.png" ActivePhotoID="icon\BG_Skill\skillicon_0008.png"/>
+	<Property ID="50501" Name=" 巫医的药罐" Photo="icon\BG_Skill\jineng_yemandaji.PNG" ActivePhotoID="icon\BG_Skill\heijin_jineng_qishe.png"/>
+	<Property ID="50502" Name="麻醉枪" Photo="icon\BG_Skill\heijin_jineng_qishirongyan.png" ActivePhotoID="icon\BG_Skill\skillicon_0007.png"/>
+	<Property ID="50503" Name="解毒血清" Photo="icon\BG_Skill\skillicon_0005.png" ActivePhotoID="icon\BG_Skill\heijin_jineng_qishe.png"/>
+	<Property ID="50504" Name="秘法净化能量" Photo="icon\BG_Skill\skillicon_0005.png" ActivePhotoID="icon\BG_Skill\skillicon_0003.png"/>
+	<Property ID="50505" Name="猎兽器" Photo="icon\BG_Skill\jineng_yemandaji.PNG"/>
+	<Property ID="50506" Name="仪式小刀" Photo="icon\BG_Skill\Skill_Wm2707_01_1.png" ActivePhotoID="icon\BG_Skill\heijin_jineng_qishe.png"/>
+	<Property ID="50507" Name="太阳之子使徒服" Photo="icon\BG_Skill\Skill_Wm2706_01_1.png" ActivePhotoID="icon\BG_Skill\heijin_jineng_qishe.png"/>
+	<Property ID="50518" Photo="icon\BG_Skill\skillicon_0018.png"/>
+	<Property ID="20904" Name="机甲火炮" Photo="icon\BG_Skill\skillicon_0104.png" ActionEffect="BGskill_61003" HitAction="attackL_0h" EffectSpeed="25"/>
+	<Property ID="20905" Name="疯狂射击" Photo="icon\BG_Skill\skillicon_0144.png" ActionEffect="BGskill_61005" HitAction="attackR_0h" HurtEffect="BGskill_61006"/>
+	<Property ID="20906" Name="追踪飞弹" Photo="icon\BG_Skill\skillicon_0567.png" ActionEffect="BGskill_61007" HitAction="attackL_0h" HitEffect="BGskill_61008"/>
+	<Property ID="20930" Name="急速冷却仪" Photo="icon\BG_Skill\skillicon_0154.png" PrepareAction="fi_10h_ready"/>
+	<Property ID="20989" Photo="icon\BG_Skill\heijin_huo.PNG"/>
+	<Property ID="23002" Name="爆炸" Photo="icon\BG_Skill\heijin_huo.PNG" ActionEffect="BG_effect_action_75003"/>
+	<Property ID="23003" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG" PrepareAction="fi_10h_ready"/>
+	<Property ID="23004" Name="回魔" Photo="icon\BG_Skill\skillicon_1059.png" PrepareAction="fi_10h_ready"/>
+	<Property ID="23005" Name="回蒸汽能量" Photo="icon\BG_Skill\skillicon_1455.png" PrepareAction="fi_10h_ready"/>
+	<Property ID="23006" Name="回怒气" Photo="icon\BG_Skill\skillicon_1443.png" PrepareAction="fi_10h_ready"/>
+	<Property ID="23007" Name="回精神能量" Photo="icon\BG_Skill\skillicon_1444.png" PrepareAction="fi_10h_ready"/>
+	<Property ID="23008" Name="群体回血" Photo="icon\BG_Skill\skillicon_1306.png" PrepareAction="fi_10h_ready"/>
+	<Property ID="23009" Name="提升生命上限19" Photo="icon\BG_Skill\skillicon_1432.png"/>
+	<Property ID="23010" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23011" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23012" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23013" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23014" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23015" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23016" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23017" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23018" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23019" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23020" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23021" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23022" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23023" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23024" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23025" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23026" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23027" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23028" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23029" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23030" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23031" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23032" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23033" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG" PrepareAction="fi_10h_ready"/>
+	<Property ID="23034" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG" PrepareAction="fi_10h_ready"/>
+	<Property ID="23035" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG" PrepareAction="fi_10h_ready"/>
+	<Property ID="23036" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23037" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23038" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23039" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23040" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23041" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23042" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23043" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23044" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23045" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23046" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23047" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23048" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23049" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23050" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23051" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23052" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23053" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23054" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23055" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23056" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23057" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23058" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23059" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23060" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23061" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23062" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23063" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23064" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23065" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23066" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23067" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23068" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23069" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23070" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23071" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23072" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23073" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23074" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23075" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23076" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23077" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23078" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23079" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23080" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23081" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23082" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23083" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23084" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23085" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23086" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23087" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23088" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23089" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23090" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23091" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23092" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23093" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23094" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23095" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23096" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23097" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23098" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23099" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23100" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23101" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23102" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23103" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23104" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23105" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23106" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23107" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23108" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23109" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23110" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23111" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23112" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23113" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23114" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23115" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23116" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23117" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23118" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23119" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23120" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23121" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23122" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23123" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23124" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23125" Name="回魔和精神能量" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23126" Name="回魔，蒸汽能量和怒气" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23127" Name="回魔，蒸汽能量和怒气" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG" PrepareAction="fi_10h_ready"/>
+	<Property ID="23128" Name="回魔，蒸汽能量和怒气" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG" PrepareAction="fi_10h_ready"/>
+	<Property ID="23129" Name="回魔，蒸汽能量和怒气" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG" PrepareAction="fi_10h_ready"/>
+	<Property ID="23130" Name="回魔，蒸汽能量和怒气" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG" PrepareAction="fi_10h_ready"/>
+	<Property ID="23131" Name="回魔，蒸汽能量和怒气" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG" PrepareAction="fi_10h_ready"/>
+	<Property ID="23132" Name="回魔，蒸汽能量和怒气" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG" PrepareAction="fi_10h_ready"/>
+	<Property ID="23133" Name="回魔和精神能量" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG" PrepareAction="fi_10h_ready"/>
+	<Property ID="23134" Name="回魔和精神能量" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG" PrepareAction="fi_10h_ready"/>
+	<Property ID="23135" Name="回魔和精神能量" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG" PrepareAction="fi_10h_ready"/>
+	<Property ID="23136" Name="回魔和精神能量" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG" PrepareAction="fi_10h_ready"/>
+	<Property ID="23137" Name="回魔和精神能量" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG" PrepareAction="fi_10h_ready"/>
+	<Property ID="23138" Name="回魔和精神能量" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG" PrepareAction="fi_10h_ready"/>
+	<Property ID="23139" Name="道具技能" Photo="icon\BG_Skill\heijin_ronghe.PNG" ForceStroageOther="1"/>
+	<Property ID="23140" Name="撒网" Photo="icon\BG_Skill\heijin_ronghe.PNG" ActionEffect="BG_effect_action_75026"/>
+	<Property ID="23141" Name="绳索" Photo="icon\BG_Skill\heijin_ronghe.PNG" ActionEffect="BG_effect_action_75026"/>
+	<Property ID="23142" Name="道具技能" Photo="icon\BG_Skill\heijin_ronghe.PNG"/>
+	<Property ID="23143" Name="道具技能" Photo="icon\BG_Skill\heijin_ronghe.PNG"/>
+	<Property ID="23144" Name="道具技能" Photo="icon\BG_Skill\heijin_ronghe.PNG"/>
+	<Property ID="23145" Name="施肥" Photo="icon\BG_Skill\heijin_ronghe.PNG" PrepareAction="fi_10h_ready" PrepareSnd="lsy"/>
+	<Property ID="23146" Name="施肥" Photo="icon\BG_Skill\heijin_ronghe.PNG"/>
+	<Property ID="81274" Name="信标" PrepareAction="fi_10h_ready"/>
+	<Property ID="81275" Name="冰霜秘法咒文" PrepareAction="fi_10h_ready" ActionEffect="BGskill_81281"/>
+	<Property ID="81277" Name="引爆器" PrepareAction="collect_cast_0h" ActionEffect="BGskill_81283"/>
+	<Property ID="81278" Name="烈焰喷射器" PrepareAction="fi_10h_ready" LeadAction="shot3_4h" LeadEffect="BGskill_81282"/>
+	<Property ID="23150" Name="道具读条" Photo="icon\BG_Skill\heijin_tu.PNG" PrepareAction="fi_10h_ready" PrepareSnd="lsy"/>
+	<Property ID="23151" Name="道具技能" Photo="icon\BG_Skill\heijin_ronghe.PNG"/>
+	<Property ID="81294" Name="加速" Photo="icon\BG_Skill\skillicon_0003.png"/>
+	<Property ID="81295" ActionEffect="BGskill_81297" Photo="icon\BG_Skill\skillicon_05.png"/>
+	<Property ID="25001" Name="炮轰" Photo="icon\BG_Skill\heijin_jineng_dianshe.png" ActionEffect="BGskill_20011" EffectSpeed="30"/>
+	<Property ID="25002" Name="扫射" Photo="icon\BG_Skill\heijin_jineng_dianshe.png" HitAction="BGskill_61002"/>
+	<Property ID="25003" Name="魔法炮" Photo="icon\BG_Skill\heijin_jineng_dianshe.png" ActionEffect="BGskill_20011" EffectSpeed="30"/>
+	<Property ID="25004" Name="飞弹" Photo="icon\BG_Skill\heijin_jineng_dianshe.png" ActionEffect="BGskill_61002"/>
+	<Property ID="25005" Name="导弹" Photo="icon\BG_Skill\heijin_jineng_dianshe.png" ActionEffect="BGskill_0001" EffectSpeed="10"/>
+	<Property ID="25006" Name="投石" Photo="icon\BG_Skill\heijin_jineng_dianshe.png" HitEffect="BGskill_0002" ActionEffect="BGskill_20011" EffectSpeed="30"/>
+	<Property ID="25007" Name="普通攻击" Photo="icon\BG_Skill\heijin_jineng_dianshe.png" ActionEffect="BGskill_0001" EffectSpeed="10"/>
+	<Property ID="25008" Name="普通攻击" Photo="icon\BG_Skill\heijin_jineng_dianshe.png" ActionEffect="BGskill_0001" EffectSpeed="10"/>
+	<Property ID="23152" Name="初级两倍经验丹" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23153" Name="初级三倍经验丹" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23154" Name="中级两倍经验丹" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23155" Name="中级三倍经验丹" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23156" Name="高级两倍经验丹" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23157" Name="高级三倍经验丹" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="23158" Name="鱼人宝珠" Photo="icon\buff\jiaoshang.png" AutoStop="0" ActionEffect="skill_Item_FB_LLQD_001"/>
+	<Property ID="23159" Name="竞技场号角" Photo="icon\buff\skillicon_0452.png" HitActionSnd="Item_FB_TNDX_001_1" AutoStop="0" IsPrepareOther="1" ActionEffect="skill_Item_FB_TADY_001"/>
+	<Property ID="23160" Name="双足蜥蜴宝珠" Photo="icon\BG_Skill\heijin_feng.PNG" HitEffect="FB_pet_0003_1" HitAction="attack1_8h"/>
+	<Property ID="23161" Name="竞技场的礼物" Photo="icon\BG_Skill\heijin_huo.PNG"/>
+	<Property ID="23162" Name="猫人奴隶的饭团" Photo="icon\BG_Skill\skillicon_1326.png" ActionEffect="skill_Item_FB_TNDX_001" HitAction="skill2504_6h" HitActionSnd="Item_FB_TNDX_001_01"/>
+	<Property ID="80099" Name="击飞" Photo="icon\BG_Skill\heijin_jineng_zhongjia.png"/>
+	<Property ID="80077" Name="月神的“琴弦”" Photo="icon\BG_Skill\heijin_jineng_xuligongji.png"/>
+	<Property ID="80076" Name="月神的发丝" Photo="icon\BG_Skill\skillicon_0002.png"/>
+	<Property ID="23163" Name="体力恢复药剂" Photo="icon\BG_Skill\heijin_jineng_qishirongyan.png"/>
+	<Property ID="81344" Name="朱离_吟唱" PrepareAction="fi_10h_ready"/>
+	<Property ID="81345" Name="幻化" PrepareAction="fi_10h_ready"/>
+	<Property ID="81346" Name="珠树果" PrepareAction="fi_10h_ready"/>
+	<Property ID="81347" Name="冰火陷阱" ActionEffect="BGskill_81344" HurtEffect="BGskill_81343"/>
+	<Property ID="81348" Name="王八汤" PrepareAction="fi_10h_ready"/>
+	<Property ID="230431" Name="减速" Photo="icon\BG_Skill\skillicon_0037.png"/>
+	<Property ID="230451" Name="眩晕" Photo="icon\BG_Skill\skillicon_0042.png"/>
+	<Property ID="230471" Name="提高攻击力" Photo="icon\BG_Skill\jineng_yexingxuemai.PNG"/>
+	<Property ID="230531" Name="冰冻" Photo="icon\BG_Skill\skillicon_0028.png"/>
+	<Property ID="230551" Name="加速" Photo="icon\BG_Skill\skillicon_0062.png"/>
+	<Property ID="230511" Name="护盾" Photo="icon\BG_Skill\skillicon_0025.png"/>
+	<Property ID="230011" Name="加速" Photo="icon\BG_Skill\heijin_feng.PNG"/>
+	<Property ID="230021" Name="加速" Photo="icon\BG_Skill\heijin_feng.PNG"/>
+	<Property ID="230131" Photo="icon\BG_Skill\heijin_jineng_dianshe.png"/>
+	<Property ID="81350" Name="火箭飞弹" Photo="icon\BG_Skill\PVP_kxsuodingzq.png" EffectSpeed="30" HurtEffect="BG_effect_hit_70007" ActionEffect="BG_effect_action_75057"/>
+	<Property ID="81351" Name="电磁脉冲" Photo="icon\BG_Skill\PVP_kxyingdaozq.png" ActionEffect="BG_effect_action_75055" EffectSpeed="60" HurtEffect="BG_effect_hit_70005" HitActionSnd="pvp_skill_09"/>
+	<Property ID="81352" Name="大寒冰术" Photo="icon\BG_Skill\PVP_kxhongzhaqh.png" EffectSpeed="20" HurtAction="combat" ActionEffect="BG_effect_action_75060" HurtEffect="BG_effect_hit_70008"/>
+	<Property ID="81353" Name="魔法飞弹" Photo="icon\BG_Skill\PVP_kxsuodingqh.png" EffectSpeed="30" HurtAction="combat" ActionEffect="BG_effect_action_75056" HurtEffect="BG_effect_hit_70004"/>
+	<Property ID="81354" Name="雷动四方" Photo="icon\BG_Skill\PVP_kxyingdaoqh.png" EffectSpeed="60" HurtEffect="BG_effect_hit_70006" LeadEffect="BG_effect_action_75054"/>
+	<Property ID="81355" Name="火箭齐射" Photo="icon\BG_Skill\PVP_kxaoezq.png" EffectSpeed="30" HurtAction="combat" HurtEffect="BG_effect_hit_70003" ActionEffect="BG_effect_action_75053"/>
+	<Property ID="82545" Name="能量护盾" Photo="icon\BG_Skill\PVP_kxfangyuzq.png" ActionEffect="BG_effect_action_75052" HitActionSnd="pvp_skill_01"/>
+	<Property ID="82546" Name="涅槃守护" Photo="icon\BG_Skill\PVP_hyfangyu.png" ActionEffect="BG_effect_action_75065" HitActionSnd="pvp_skill_02"/>
+	<Property ID="82547" Name="急速喷射" Photo="icon\BG_Skill\PVP_kxjiasuzq.png" ActionEffect="BG_effect_action_75059" HitActionSnd="pvp_skill_03"/>
+	<Property ID="82548" Name="急速冲刺" Photo="icon\BG_Skill\PVP_hyjiasu.png" ActionEffect="BG_effect_action_75066" HitActionSnd="pvp_skill_04"/>
+	<Property ID="82549" Name="爆裂炸弹" Photo="icon\BG_Skill\PVP_kxhongzhazq.png" ActionEffect="BG_effect_action_75067" EffectSpeed="30"/>
+	<Property ID="82550" Name="火之利羽" Photo="icon\BG_Skill\PVP_hyzhaodan.png" ActionEffect="BG_effect_action_75061" EffectSpeed="30" HitActionSnd="pvp_skill_05"/>
+	<Property ID="82551" Name="火箭弹幕" Photo="icon\BG_Skill\PVP_kxaoezq.png" ActionEffect="BG_effect_action_75062"/>
+	<Property ID="82552" Name="烈焰喷吐" Photo="icon\BG_Skill\PVP_kxaoeqh.png" HitActionSnd="pvp_skill_06" ActionEffect="BG_effect_action_75058"/>
+	<Property ID="82553" Name="跟踪导弹" Photo="icon\BG_Skill\PVP_kxsuodingzq.png" ActionEffect="BG_effect_fly_90031" EffectSpeed="30" HurtEffect="BG_effect_hit_70002"/>
+	<Property ID="82554" Name="燃烧火弹" Photo="icon\BG_Skill\PVP_hyrandan.png" EffectSpeed="30" HurtEffect="BG_effect_hit_70009" HitActionSnd="pvp_skill_07" ActionEffect="BG_effect_action_75064"/>
+	<Property ID="230031" Name="水下呼吸10%" Photo="icon\BG_Skill\heijin_feng.PNG"/>
+	<Property ID="230041" Name="水下呼吸20%" Photo="icon\BG_Skill\heijin_feng.PNG"/>
+	<Property ID="230051" Name="跳跃高度3%" Photo="icon\BG_Skill\heijin_feng.PNG"/>
+	<Property ID="230061" Name="跳跃高度5%" Photo="icon\BG_Skill\heijin_feng.PNG"/>
+	<Property ID="230071" Name="摔落减少伤害10%" Photo="icon\BG_Skill\heijin_feng.PNG"/>
+	<Property ID="230081" Name="摔落减少伤害20%" Photo="icon\BG_Skill\heijin_feng.PNG"/>
+	<Property ID="230091" Name="增加装备耐久上限5%" Photo="icon\BG_Skill\heijin_feng.PNG"/>
+	<Property ID="230101" Name="增加装备耐久上限6%" Photo="icon\BG_Skill\heijin_feng.PNG"/>
+	<Property ID="230111" Name="增加装备强度10%" Photo="icon\BG_Skill\heijin_feng.PNG"/>
+	<Property ID="230121" Name="增加装备强度" Photo="icon\BG_Skill\heijin_feng.PNG"/>
+	<Property ID="230371" Name="减少技能CD5%" Photo="icon\BG_Skill\heijin_feng.PNG"/>
+	<Property ID="230381" Name="减少技能CD10%" Photo="icon\BG_Skill\heijin_feng.PNG"/>
+	<Property ID="230361"/>
+	<Property ID="82555" Name="蒸汽变身道具" Photo="icon\BG_Skill\heijin_ronghe.PNG"/>
+	<Property ID="82556" Name="奇幻变身道具" Photo="icon\BG_Skill\heijin_ronghe.PNG"/>
+	<Property ID="230231"/>
+	<Property ID="230241"/>
+	<Property ID="230251"/>
+	<Property ID="230261"/>
+	<Property ID="230271"/>
+	<Property ID="230281"/>
+	<Property ID="230291"/>
+	<Property ID="230301"/>
+	<Property ID="230311"/>
+	<Property ID="230321"/>
+	<Property ID="230331"/>
+	<Property ID="230341"/>
+	<Property ID="230351"/>
+	<Property ID="80097" Name="高空炸弹" Photo="icon\buff\skillicon_0465.png" ActionEffect="BGskill_20011" EffectSpeed="30" HurtAction="combat"/>
+	<Property ID="80096" Name="燃烧弹" Photo="icon\buff\skillicon_0468.png" ActionEffect="BG_effect_action_79989" EffectSpeed="30" HurtAction="combat"/>
+	<Property ID="81356" Photo="icon\BG_Skill\PVP_huoshihongzha.png" ActionEffect="BGskill_81353" HitVibrateType="BG_zd009" HurtAction="combat" HitSnd="hz"/>
+	<Property ID="82557" Name="加速" Photo="icon\BG_Skill\skillicon_1397.png"/>
+	<Property ID="82561" Name="燃烧弹" Photo="icon\buff\skillicon_0468.png" ActionEffect="BG_effect_action_75076" EffectSpeed="30"/>
+	<Property ID="82562" Name="扫射" Photo="icon\BG_Skill\heijin_jineng_fengkuangsaoshe.png" ActionEffect="BG_effect_action_75048"/>
+	<Property ID="82563" Name="火焰喷射" Photo="icon\BG_Skill\heijin_huo.PNG" ActionEffect="BG_effect_action_75049"/>
+	<Property ID="26002" Name="召唤飞龙" Photo="icon\BG_Skill\skillicon_0174.png" PrepareAction="fi_10h_ready" PrepareEffect="func_raid_51" PrepareSnd="ZHzuoqi_01"/>
+	<Property ID="813470" Name="冰火陷阱" PrepareAction="collect_cast_0h" Photo="icon\BG_Skill\heijin_feng.PNG"/>
+	<Property ID="82564" Name="初级顽强合剂" Photo="icon\BG_Skill\heijin_ronghe.PNG"/>
+	<Property ID="82565" Name="初级物理攻击合剂" Photo="icon\BG_Skill\heijing_jijie.PNG"/>
+	<Property ID="82566" Name="初级法术攻击合剂" Photo="icon\BG_Skill\heijin_ronghe.PNG"/>
+	<Property ID="82567" Name="高级顽强合剂" Photo="icon\BG_Skill\heijin_ronghe.PNG"/>
+	<Property ID="82568" Name="高级物理攻击合剂" Photo="icon\BG_Skill\heijin_ronghe.PNG"/>
+	<Property ID="82569" Name="高级法术攻击合剂" Photo="icon\BG_Skill\heijin_ronghe.PNG"/>
+	<Property ID="82570" Name="初级属性合剂" Photo="icon\BG_Skill\heijin_ronghe.PNG"/>
+	<Property ID="82571" Name="初级强攻合剂" Photo="icon\BG_Skill\heijin_ronghe.PNG"/>
+	<Property ID="82572" Name="初级法能合剂" Photo="icon\BG_Skill\heijin_ronghe.PNG"/>
+	<Property ID="82573" Name="中级属性合剂" Photo="icon\BG_Skill\heijin_ronghe.PNG"/>
+	<Property ID="82574" Name="中级强攻合剂" Photo="icon\BG_Skill\heijin_ronghe.PNG"/>
+	<Property ID="82575" Name="中级法能合剂" Photo="icon\BG_Skill\heijin_ronghe.PNG"/>
+	<Property ID="82576" Name="高级属性合剂" Photo="icon\BG_Skill\heijin_ronghe.PNG"/>
+	<Property ID="82577" Name="高级强攻合剂" Photo="icon\BG_Skill\heijin_ronghe.PNG"/>
+	<Property ID="82578" Name="高级法能合剂" Photo="icon\BG_Skill\heijin_ronghe.PNG"/>
+	<Property ID="82579" Name="初级群体全能合剂" Photo="icon\BG_Skill\heijin_ronghe.PNG"/>
+	<Property ID="26003" Name="召唤飞马" Photo="icon\BG_Skill\skillicon_0174.png" PrepareAction="fi_10h_ready" PrepareEffect="func_raid_51" PrepareSnd="ZHzuoqi_01"/>
+	<Property ID="82680" Name="炮轰" Photo="icon\BG_Skill\heijin_jineng_dianshe.png" ActionEffect="BG_effect_fly_90032" EffectSpeed="30" HitActionSnd="zj_paohong_01" HitAction="attackR_0h"/>
+	<Property ID="81358" Name="飞石" HitAction="attackR_0h" AutoStop="1" HitActionTime="2000" LockRotateTime="1800" LockZhaoshi="1" EffectSpeed="30" HurtAction="combat" Photo="icon\BG_Skill\heijin_tu.PNG" ActionEffect="BGskill_81359"/>
+	<Property ID="82685" Name="1小时5倍经验丹" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="82686" Name="1.5小时5倍经验丹" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="82687" Name="2小时5倍经验丹" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="82558" Name="高空炸弹" Photo="icon\buff\skillicon_0465.png" ActionEffect="BG_effect_action_75071" EffectSpeed="30" HurtAction="combat"/>
+	<Property ID="82703" Name="火箭弹幕" Photo="icon\BG_Skill\PVP_kxaoezq.png" EffectSpeed="30" ActionEffect="BG_effect_action_75067"/>
+	<Property ID="82704" Name="烈焰喷吐" Photo="icon\BG_Skill\PVP_kxaoeqh.png" EffectSpeed="30" ActionEffect="BG_effect_action_75061"/>
+	<Property ID="81378" Name="绑架" PrepareAction="fi_10h_ready" ActionEffect="BGskill_81369" PrepareSnd="lsy" LeadSud="lsy"/>
+	<Property ID="81379" Name="旗帜" PrepareAction="fi_10h_ready" PrepareSnd="lsy"/>
+	<Property ID="81380" Name="疗伤" PrepareAction="fi_10h_ready" PrepareSnd="lsy"/>
+	<Property ID="82705" Name="道具读条" Photo="icon\BG_Skill\heijin_feng.PNG" PrepareAction="collect_cast_0h"/>
+	<Property ID="82684" Name="燃烧弹" Photo="icon\buff\skillicon_0468.png" ActionEffect="BG_effect_action_75047" EffectSpeed="30"/>
+	<Property ID="82706" Name="回血" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="82707" Name="召唤战斗机甲" Photo="icon\BG_Skill\heijin_ronghe.PNG" PrepareAction="fi_10h_ready" PrepareEffect="func_raid_51"/>
+	<Property ID="82708" Name="召唤魔能石像" Photo="icon\BG_Skill\heijin_ronghe.PNG" PrepareAction="fi_10h_ready" PrepareEffect="func_raid_51"/>
+	<Property ID="82709" Name="寒冰石箭" Photo="icon\BG_Skill\jineng_shandianjian.png" HitAction="Vehicle_0093_01" EffectSpeed="30"/>
+	<Property ID="82710" Name="大水弹" Photo="icon\BG_Skill\heijin_shui.PNG" EffectSpeed="30" ActionEffect="BG_effect_action_75078" HitAction="attackR_0h"/>
+	<Property ID="82711" Name="寒气激射" Photo="icon\BG_Skill\skillicon_0028.png" ActionEffect="BG_effect_action_75079"/>
+	<Property ID="82712" Name="召唤迅捷战车" Photo="icon\BG_Skill\heijin_ronghe.PNG" PrepareAction="fi_10h_ready" PrepareEffect="func_raid_51"/>
+	<Property ID="82713" Name="变身" Photo="icon\BG_Skill\heijin_ronghe.PNG" PrepareAction="spell1_cast_10h"/>
+	<Property ID="82714" Name="钻头冲撞" Photo="icon\BG_Skill\zq_nlj_zuantou.png" HitAction="Vehicle_0096_01" EffcctActive="0"/>
+	<Property ID="82715" Name="火炮轰击" Photo="icon\BG_Skill\zq_nlj_huopao.png" ActionEffect="BG_self_008" HitAction="attackL_0h" HitActionSnd="hz"/>
+	<Property ID="82716" Name="坚硬护盾" Photo="icon\BG_Skill\zq_nlj_hudun.png" HitAction="attackL_0h"/>
+	<Property ID="82717" Name="机枪扫射" Photo="icon\BG_Skill\zq_nlj_jiqiang.png" ActionEffect="BG_self_017" HitAction="attackR_0h" HurtEffect="BG_effect_hit_70010" HurtAction="combat"/>
+	<Property ID="82718" Name="高跳" Photo="icon\BG_Skill\zq_nlj_gaotiao.png"/>
+	<Property ID="82719" Name="俯冲" Photo="icon\BG_Skill\zq_nlj_fuchong.png" HitAction="attack3"/>
+	<Property ID="82720" Name="冲刺" Photo="icon\BG_Skill\zq_nlj_chongci.png" AutoStop="0"/>
+	<Property ID="82721" Name="召唤水晶石像" Photo="icon\BG_Skill\heijin_ronghe.PNG" PrepareAction="fi_10h_ready" PrepareEffect="func_raid_51"/>
+	<Property ID="82722" Name="火箭弹幕" Photo="icon\BG_Skill\PVP_kxaoezq.png"/>
+	<Property ID="82724" Name="召唤咯吱的机械鸟" Photo="icon\BG_Skill\skillicon_0174.png" PrepareAction="fi_10h_ready" PrepareEffect="func_raid_51" PrepareSnd="ZHzuoqi_01"/>
+	<Property ID="82725" Name="无敌" Photo="icon\BG_Skill\jineng_yexingxuemai.PNG" PrepareAction="spell2_cast_10h" PrepareEffect="BG_effect_action_75085"/>
+	<Property ID="82726" Name="爆炸" Photo="icon\BG_Skill\heijin_huo.PNG" ActionEffect="BG_effect_action_75089"/>
+	<Property ID="82728" Name="烈焰喷吐" Photo="icon\BG_Skill\PVP_hybaodan.png"/>
+	<Property ID="82729" Name="爆炸" Photo="icon\BG_Skill\heijin_huo.PNG" ActionEffect="BG_effect_action_75090"/>
+	<Property ID="82730" Name="小瓶急救药剂" Photo="icon\BG_Skill\heijin_ronghe.PNG"/>
+	<Property ID="82731" Name="小瓶急救药剂" Photo="icon\BG_Skill\heijin_ronghe.PNG"/>
+	<Property ID="82732" Name="小瓶急救药剂" Photo="icon\BG_Skill\heijin_ronghe.PNG"/>
+	<Property ID="82733" Name="小瓶急救药剂" Photo="icon\BG_Skill\heijin_ronghe.PNG"/>
+	<Property ID="82734" Name="小瓶急救药剂" Photo="icon\BG_Skill\heijin_ronghe.PNG"/>
+	<Property ID="82735" Name="小瓶急救药剂" Photo="icon\BG_Skill\heijin_ronghe.PNG"/>
+	<Property ID="82736" Name="小瓶急救药剂" Photo="icon\BG_Skill\heijin_ronghe.PNG"/>
+	<Property ID="82737" Name="小瓶急救药剂" Photo="icon\BG_Skill\heijin_ronghe.PNG"/>
+	<Property ID="82738" Name="小瓶急救药剂" Photo="icon\BG_Skill\heijin_ronghe.PNG"/>
+	<Property ID="82739" Name="小瓶急救药剂" Photo="icon\BG_Skill\heijin_ronghe.PNG"/>
+	<Property ID="82740" Name="小瓶急救药剂" Photo="icon\BG_Skill\heijin_ronghe.PNG"/>
+	<Property ID="82741" Name="小瓶急救药剂" Photo="icon\BG_Skill\heijin_ronghe.PNG"/>
+	<Property ID="82742" Name="小瓶急救药剂" Photo="icon\BG_Skill\heijin_ronghe.PNG"/>
+	<Property ID="82743" Name="小瓶急救药剂" Photo="icon\BG_Skill\heijin_ronghe.PNG"/>
+	<Property ID="82744" Name="小瓶急救药剂" Photo="icon\BG_Skill\heijin_ronghe.PNG"/>
+	<Property ID="82745" Name="小瓶急救药剂" Photo="icon\BG_Skill\heijin_ronghe.PNG"/>
+	<Property ID="82746" Name="小瓶急救药剂" Photo="icon\BG_Skill\heijin_ronghe.PNG"/>
+	<Property ID="82747" Name="小瓶急救药剂" Photo="icon\BG_Skill\heijin_ronghe.PNG"/>
+	<Property ID="82757" Name="道具读条" Photo="icon\BG_Skill\heijin_tu.PNG" PrepareAction="collect_cast_0h"/>
+	<Property ID="82758" Name="爆炸" Photo="icon\BG_Skill\heijin_huo.PNG" ActionEffect="BG_effect_action_75089"/>
+	<Property ID="81405" Name="挖宝" PrepareAction="collect_cast_0h"/>
+	<Property ID="82761" Name="加速" Photo="icon\BG_Skill\PvP_qhhsjs.png"/>
+	<Property ID="82762" Name="加速" Photo="icon\BG_Skill\PvP_zqhsjs.png"/>
+	<Property ID="82763" Name="武装" Photo="icon\BG_Skill\PVP_kxfangyuzq.png"/>
+	<Property ID="82764" Name="武装" Photo="icon\BG_Skill\PVP_kxfangyuzq.png"/>
+	<Property ID="82765" Name="增援" Photo="icon\BG_Skill\PvP_zqhszy.png"/>
+	<Property ID="82766" Name="增援" Photo="icon\BG_Skill\PvP_qhhszy.png"/>
+	<Property ID="82767" Name="钻头冲撞" Photo="icon\BG_Skill\qh_nlj_zuantou.png" HitAction="Vehicle_0105_01" EffcctActive="0"/>
+	<Property ID="82768" Name="火炮轰击" Photo="icon\BG_Skill\qh_nlj_huopao.png" ActionEffect="BG_effect_action_75100" HitAction="attackL_0h"/>
+	<Property ID="82769" Name="坚硬护盾" Photo="icon\BG_Skill\qh_nlj_hudun.png" HitAction="attackL_0h"/>
+	<Property ID="82770" Name="魔法炮" Photo="icon\BG_Skill\qh_nlj_mofapao.png" HitAction="Vehicle_0108_01" HurtEffect="BG_effect_hit_70011" HurtAction="combat" EffectSpeed="20"/>
+	<Property ID="82771" Name="高跳" Photo="icon\BG_Skill\qh_nlj_gaotiao.png"/>
+	<Property ID="82772" Name="俯冲" Photo="icon\BG_Skill\qh_nlj_fuchong.png" HitAction="attack3"/>
+	<Property ID="82773" Name="冲刺" Photo="icon\BG_Skill\qh_nlj_chongci.png"/>
+	<Property ID="82774" Name="驱鼠药" Photo="icon\BG_Skill\heijin_tu.PNG" PrepareAction="fi_10h_ready" PrepareSnd="lsy"/>
+	<Property ID="82777" Name="爆炸" Photo="icon\BG_Skill\heijin_huo.PNG" ActionEffect="BG_effect_action_75106"/>
+	<Property ID="82787" Name="召唤" Photo="icon\BG_Skill\skillicon_0541.png"/>
+	<Property ID="82788" Name="召唤" Photo="icon\BG_Skill\skillicon_0541.png"/>
+	<Property ID="81411" Name="钉刺" PrepareAction="collect_cast_0h" PrepareSnd="lsy"/>
+	<Property ID="81412" Name="炸弹" PrepareAction="collect_cast_0h"/>
+	<Property ID="82792" Name="减速" Photo="icon\BG_Skill\skillicon_0062.png" ActionEffect="BG_effect_action_75107"/>
+	<Property ID="82793" Name="保护" Photo="icon\BG_Skill\skillicon_0062.png"/>
+	<Property ID="82794" Name="眩晕" Photo="icon\BG_Skill\skillicon_0062.png"/>
+	<Property ID="81420" Name="祭拜" HitAction="kneel_0001" AutoStop="1" HitActionTime="4500" LockRotateTime="4500" LockZhaoshi="1" Photo="icon\BG_Skill\dazuo.png"/>
+	<Property ID="82901" Name="道具读条" Photo="icon\BG_Skill\heijin_tu.PNG" PrepareAction="fi_10h_ready"/>
+	<Property ID="81431" Name="探测"/>
+	<Property ID="82813" Name="机械之心" Photo="icon\BG_Skill\heijin_tu.PNG" PrepareAction="fi_10h_ready"/>
+	<Property ID="82814" Name="能量之源" Photo="icon\BG_Skill\heijin_tu.PNG" PrepareAction="fi_10h_ready" PrepareEffect="BG_effect_action_75108" PrepareSnd="lsy"/>
+	<Property ID="82815" Name="机枪" Photo="icon\BG_Skill\skillicon_mount_0017.PNG" ActionEffect="BG_effect_action_75109" EffectSpeed="70" HitAction="attackL_0h" HurtAction="combat" HurtEffect="BGskill_81406"/>
+	<Property ID="82816" Name="榴弹炮" Photo="icon\BG_Skill\skillicon_mount_0018.PNG" HitAction="zq_bc_004_02" EffectSpeed="70" ActionEffect="BGskill_81436" AutoStop="1" HurtEffect="BG_effect_hit_70013" ActionEffectDelay="1000" HitActionTime="1500" LockRotateTime="1500"/>
+	<Property ID="82817" Name="寒冰飞弹" Photo="icon\BG_Skill\PVP_kxsuodingqh.PNG" ActionEffect="BG_effect_action_75117" HurtEffect="BGpvp001_4" HurtAction="combat" EffectSpeed="50" HitAction="attack1"/>
+	<Property ID="82818" Name="冰天雪地" Photo="icon\BG_Skill\PVP_kxaoeqh.PNG" ActionEffect="BGpvp001_5" HitAction="attackR_0h" HurtEffect="BGpvp001_6" HurtAction="combat" AutoStop="1" LockZhaoshi="1" HitActionTime="3000"/>
+	<Property ID="82819" Name="左右轮转" Photo="icon\BG_Skill\heijin_tu.PNG" ActionEffect="BG_effect_action_75113" EffectSpeed="50" HitAction="attack6" HurtAction="combat" HurtEffect="BG_effect_hit_70012"/>
+	<Property ID="82820" Name="闪耀冲刺" Photo="icon\BG_Skill\skillicon_0083.png" ActionEffect="BG_effect_action_75119"/>
+	<Property ID="82821" Name="燃烧弹" Photo="icon\BG_Skill\skillicon_mount_0013.png" ActionEffect="BG_effect_action_75115" HurtEffect="BGskill_81406" HurtAction="combat" HitAction="attack1" EffectSpeed="80" AutoStop="0" HitVibrateType="Vehicle_009"/>
+	<Property ID="82822" Name="布雷之道" Photo="icon\BG_Skill\skillicon_0083.png" HitAction="attack2"/>
+	<Property ID="82823" Name="绿光之波" Photo="icon\BG_Skill\skillicon_0083.png" ActionEffect="BG_effect_action_75116" HitAction="attackR_0h"/>
+	<Property ID="82824" Name="魔灵弹跳" Photo="icon\BG_Skill\skillicon_0083.png"/>
+	<Property ID="82825" Name="双刺突击" Photo="icon\BG_Skill\skillicon_0083.png" ActionEffect="BG_effect_action_75118" HurtAction="combat" HurtEffect="BG_effect_hit_70014" HitAction="attackR_0h"/>
+	<Property ID="82826" Name="水晶之恋" Photo="icon\BG_Skill\skillicon_0083.png" HitAction="attackL_0h"/>
+	<Property ID="82827" Name="左右轮转" Photo="icon\BG_Skill\heijin_tu.PNG" ActionEffect="BG_effect_action_75114" EffectSpeed="50" HitAction="attack6" HurtAction="combat"/>
+	<Property ID="81436" Name="爆炸" ActionEffect="BGskill_81403" HurtAction="combat"/>
+	<Property ID="81439" Name="坚硬护盾" Photo="icon\BG_Skill\skillicon_mount_0014.png"/>
+	<Property ID="81437" Name="爆炸" ActionEffect="BGskill_81404" HurtAction="combat"/>
+	<Property ID="81438" Name="爆炸" ActionEffect="BGskill_81405" HurtAction="combat"/>
+	<Property ID="81440" Name="格林机枪" Photo="icon\BG_Skill\PVP_kxyingdaozq.png" EffectSpeed="70" HurtEffect="BGskill_81406" ActionEffect="BGskill_81408" HitAction="attackL_0h" IsPrepareOther="0"/>
+	<Property ID="81441" Name="火箭炮" Photo="icon\BG_Skill\PVP_kxaoezq.png" EffectSpeed="50" HurtEffect="BG_effect_hit_70013" ActionEffect="BGskill_81409" HitAction="attackR_0h" IsPrepareOther="0" AutoStop="0"/>
+	<Property ID="82828" Name="齿轮" Photo="icon\BG_Skill\heijin_ronghe.PNG" PrepareAction="fi_10h_ready" PrepareSnd="hlj"/>
+	<Property ID="82829" Name="齿轮" Photo="icon\BG_Skill\heijin_ronghe.PNG" PrepareAction="fi_10h_ready" PrepareSnd="hlj"/>
+	<Property ID="82830" Name="齿轮" Photo="icon\BG_Skill\heijin_ronghe.PNG" PrepareAction="fi_10h_ready" PrepareSnd="ps" IsLeadOther="0"/>
+	<Property ID="82831" Name="齿轮" Photo="icon\BG_Skill\heijin_ronghe.PNG" PrepareAction="fi_10h_ready" ActionEffect="BG_effect_action_75125"/>
+	<Property ID="82832" Name="齿轮" Photo="icon\BG_Skill\heijin_ronghe.PNG" PrepareAction="fi_10h_ready"/>
+	<Property ID="82833" Name="齿轮" Photo="icon\BG_Skill\heijin_ronghe.PNG" PrepareAction="fi_10h_ready"/>
+	<Property ID="82834" Name="齿轮" Photo="icon\BG_Skill\heijin_ronghe.PNG" PrepareAction="fi_10h_ready"/>
+	<Property ID="82835" Name="齿轮" Photo="icon\BG_Skill\heijin_ronghe.PNG" PrepareAction="fi_10h_ready"/>
+	<Property ID="43004" Name="炸弹" Photo="icon\BG_Skill\PVP_kxaoezq.png"/>
+	<Property ID="43005" Name="电磁冲击" Photo="icon\BG_Skill\jineng_shandianjian.png"/>
+	<Property ID="43007" Name="炸弹" Photo="icon\buff\skillicon_0490.png"/>
+	<Property ID="43006" Name="射击" Photo="icon\BG_Skill\PVP_kxjiasuqh.png"/>
+	<Property ID="82836" Name="齿轮" Photo="icon\BG_Skill\heijin_ronghe.PNG" PrepareAction="fi_10h_ready" PrepareSnd="lsy"/>
+	<Property ID="82837" Name="齿轮" Photo="icon\BG_Skill\heijin_ronghe.PNG" PrepareAction="fi_10h_ready" PrepareEffect="lsy"/>
+	<Property ID="82838" Name="齿轮" Photo="icon\BG_Skill\heijin_ronghe.PNG" PrepareAction="fi_10h_ready" PrepareSnd="zbd"/>
+	<Property ID="82839" Name="齿轮" Photo="icon\BG_Skill\heijin_ronghe.PNG" PrepareAction="fi_10h_ready" PrepareSnd="lsy" HitSnd="bs"/>
+	<Property ID="82840" Name="齿轮" Photo="icon\BG_Skill\heijin_ronghe.PNG" PrepareAction="fi_10h_ready" PrepareEffect="BG_effect_action_75123" PrepareSnd="lsy"/>
+	<Property ID="230571" Name="狂暴" Photo="icon\BG_Skill\skillicon_0062.png"/>
+	<Property ID="230581" Name="狂暴" Photo="icon\BG_Skill\skillicon_0062.png"/>
+	<Property ID="80305" Name="魔法飞弹" Photo="icon\BG_Skill\skillicon_0104.png" HitActionSnd="pvp_skill_08" AutoStop="0" ActionEffect="BG_effect_action_79925" HurtAction="combat" HurtEffect="BG_effect_hit_70006" EffectSpeed="15"/>
+	<Property ID="29201" Name="被驯服的鹿" Photo="icon\BG_Skill\skillicon_0174.png" PrepareAction="fi_10h_ready" PrepareEffect="func_raid_51" PrepareSnd="ZHzuoqi_01"/>
+	<Property ID="82842" Name="齿轮" Photo="icon\BG_Skill\heijin_ronghe.PNG" PrepareAction="fi_10h_ready" PrepareEffect="BG_effect_action_75123"/>
+	<Property ID="82843" Name="齿轮" Photo="icon\BG_Skill\heijin_ronghe.PNG" PrepareAction="fi_10h_ready" PrepareEffect="BG_effect_action_75123" PrepareSnd="lsy"/>
+	<Property ID="82844" Name="火把" Photo="icon\BG_Skill\Fight_Tr0031_01 .png" HitEffect="BGskill_20045" PrepareAction="fi_10h_ready" EffcctActive="0" PrepareEffect="BG_effect_action_75123" HitSnd="bs" PrepareSnd="lsy"/>
+	<Property ID="82845" Name="齿轮" Photo="icon\BG_Skill\heijin_ronghe.PNG" PrepareAction="fi_10h_ready" PrepareEffect="BG_effect_action_75123"/>
+	<Property ID="82846" Name="普通隐身" Photo="icon\BG_Skill\skillicon_1131.png" HitActionSnd="ex_ex1101_01"/>
+	<Property ID="82847" Name="变羊水" Photo="icon\BG_Skill\heijin_ronghe.PNG" PrepareAction="fi_10h_ready" PrepareEffect="BG_effect_action_75123" PrepareSnd="lsy"/>
+	<Property ID="81445" Name="反隐" Photo="icon\buff\erlong.png"/>
+	<Property ID="82848" Name="审讯电枪" Photo="icon\BG_Skill\heijin_ronghe.PNG" HurtEffect="BG_effect_action_75124"/>
+	<Property ID="82849" Name="齿轮" Photo="icon\BG_Skill\heijin_ronghe.PNG" PrepareAction="fi_10h_ready" PrepareEffect="BG_effect_action_75123" PrepareSnd="lsy"/>
+	<Property ID="82850" Name="齿轮" Photo="icon\BG_Skill\heijin_ronghe.PNG" PrepareAction="fi_10h_ready" PrepareEffect="BG_effect_action_75123"/>
+	<Property ID="82851" Name="齿轮" Photo="icon\BG_Skill\heijin_ronghe.PNG" PrepareAction="fi_10h_ready" PrepareEffect="BG_effect_action_75123" PrepareSnd="lsy"/>
+	<Property ID="82907" Name="道具读条" Photo="icon\BG_Skill\heijin_tu.PNG" PrepareAction="collect_cast_0h"/>
+	<Property ID="91626" Name="雷动四方" Photo="icon\BG_Skill\PVP_kxyingdaoqh.png" EffectSpeed="60" HurtEffect="BG_effect_hit_70006" LeadEffect="BG_effect_action_79921"/>
+	<Property ID="82852" Name="齿轮" Photo="icon\BG_Skill\heijin_ronghe.PNG" PrepareAction="fi_10h_ready" PrepareEffect="BG_effect_action_75123" PrepareSnd="lsy"/>
+	<Property ID="81446" Name="速射炮" HitAction="attack01" ActionEffect="BGskill_81421" EffectSpeed="80" HurtAction="combat" HurtEffect="BGskill_81406" Photo="icon\BG_Skill\skillicon_mount_0009.png"/>
+	<Property ID="81447" Name="爆裂炮" Photo="icon\BG_Skill\skillicon_mount_0010.png" ActionEffect="BGskill_81422" HitAction="attack02" EffectSpeed="50" HurtAction="combat" HurtEffect="BG_effect_hit_70013" ActionEffectDelay="350" AutoStop="1" HitActionTime="1000" LockRotateTime="1000" LockJumpTime="1000"/>
+	<Property ID="81448" Name="毒箭" ActionEffect="BGskill_81425" EffectSpeed="50" HurtAction="combat" HitAction="ride_seat0011_half" Photo="icon\BG_Skill\skillicon_mount_0003.PNG" ActionEffectDelay="550" HurtEffect="BGskill_81435" CRCarrierWhoPlayEffect="1"/>
+	<Property ID="81449" Name="声波" HurtAction="combat" Photo="icon\BG_Skill\skillicon_mount_0021.PNG" ActionEffectDelay="500" ActionEffect="BGskill_81428" HitAction="attack01" HurtEffect="BGskill_81432" AutoStop="1" LockZhaoshi="1" HitActionTime="4000"/>
+	<Property ID="81450" ActionEffect="BGskill_81424" HurtAction="combat" EffectSpeed="80" HitAction="ride_seat0011_half" Photo="icon\BG_Skill\skillicon_mount_0035.PNG" ActionEffectDelay="300" HurtEffect="BGskill_81435" CRCarrierWhoPlayEffect="1"/>
+	<Property ID="81451" HitAction="qh_bc_016_02" ActionEffect="BGskill_81423" EffectSpeed="30" HurtAction="combat" Photo="icon\BG_Skill\skillicon_mount_0006.PNG" HurtEffect="BGskill_81433" Name="毒液" AutoStop="1" LockZhaoshi="1" HitActionTime="1500" LockRotateTime="1500" LockJumpTime="1500"/>
+	<Property ID="81452" ActionEffect="BGskill_81426" HurtAction="combat" EffectSpeed="40" Photo="icon\BG_Skill\skillicon_mount_0007.PNG" HitAction="qh_bc_017_01" ActionEffectDelay="200" HurtEffect="BGskill_81435" CRCarrierWhoPlayEffect="1"/>
+	<Property ID="81453" HitAction="attack01" HurtAction="combat" Photo="icon\BG_Skill\skillicon_mount_0024.PNG" ActionEffect="BGskill_81427" ActionEffectDelay="500" HurtEffect="BGskill_81434" Name="力顶" AutoStop="1" LockZhaoshi="1" HitActionTime="2000" LockRotateTime="2000"/>
+	<Property ID="43300" Name="自动连射" Photo="icon\BG_Skill\skillicon_0010.png" ActionEffect="BG_effect_fly_90027" HitAction="attackR_0h" HurtAction="combat" EffectSpeed="70" AutoStop="1" HitActionTime="1600" LockZhaoshi="1" HitActionSnd="zj_dianshe_01" HurtSnd="gl_tongysj_01"/>
+	<Property ID="82853" Name="齿轮" Photo="icon\BG_Skill\heijin_ronghe.PNG" PrepareAction="fi_10h_ready" PrepareEffect="BG_effect_action_75123" PrepareSnd="lsy"/>
+	<Property ID="82854" Name="燃烧弹" Photo="icon\buff\skillicon_0468.png" ActionEffect="BG_effect_action_75126" EffectSpeed="30"/>
+	<Property ID="82855" Name="齿轮" Photo="icon\BG_Skill\heijin_ronghe.PNG" PrepareAction="fi_10h_ready" PrepareEffect="BG_effect_action_75123" PrepareSnd="lsy"/>
+	<Property ID="82856" Name="齿轮" Photo="icon\BG_Skill\heijin_ronghe.PNG" PrepareAction="fi_10h_ready" PrepareEffect="BG_effect_action_75123"/>
+	<Property ID="82857" Name="齿轮" Photo="icon\BG_Skill\heijin_ronghe.PNG" PrepareAction="fi_10h_ready" PrepareEffect="BG_effect_action_75123"/>
+	<Property ID="82859" Name="齿轮" Photo="icon\BG_Skill\heijin_ronghe.PNG" PrepareAction="fi_10h_ready" PrepareEffect="BG_effect_action_75123" PrepareSnd="lsy"/>
+	<Property ID="82860" Name="齿轮" Photo="icon\BG_Skill\heijin_ronghe.PNG" PrepareAction="fi_10h_ready" PrepareEffect="BG_effect_action_75123" PrepareSnd="lsy"/>
+	<Property ID="82861" Name="齿轮" Photo="icon\BG_Skill\heijin_ronghe.PNG" PrepareAction="fi_10h_ready" PrepareEffect="BG_effect_action_75123" PrepareSnd="lsy"/>
+	<Property ID="82862" Name="齿轮" Photo="icon\BG_Skill\heijin_ronghe.PNG" PrepareAction="fi_10h_ready" PrepareEffect="BG_effect_action_75123" PrepareSnd="lsy"/>
+	<Property ID="82863" Name="齿轮" Photo="icon\BG_Skill\heijin_ronghe.PNG" PrepareAction="fi_10h_ready" PrepareEffect="BG_effect_action_75123" PrepareSnd="lsy"/>
+	<Property ID="82864" Name="齿轮" Photo="icon\BG_Skill\heijin_ronghe.PNG" HitAction="skill2107_1h" HitActionSnd="bs_01"/>
+	<Property ID="82865" Name="齿轮" Photo="icon\BG_Skill\heijin_ronghe.PNG" PrepareAction="fi_10h_ready" PrepareEffect="BG_effect_action_75123"/>
+	<Property ID="82866" Name="齿轮" Photo="icon\BG_Skill\heijin_ronghe.PNG" PrepareAction="fi_10h_ready" PrepareEffect="BG_effect_action_75123" PrepareSnd="lsy"/>
+	<Property ID="82867" Name="齿轮" Photo="icon\BG_Skill\heijin_ronghe.PNG" PrepareAction="fi_10h_ready" PrepareEffect="BG_effect_action_75123" PrepareSnd="lsy"/>
+	<Property ID="82868" Name="吸灵球吸收" Photo="icon\BG_Skill\skillicon_0328.png" EffcctActive="0" LeadAction="spell1_cast_10h" LeadEffect="BG_xl_action" LeadSud="sqyy"/>
+	<Property ID="82869" Name="黑枪" Photo="icon\BG_Skill\skillicon_ch_0013.png" HitActionSnd="skillsound_Wt_01" ActionEffect="skill_att_0337_1x" EffectSpeed="30" HurtAction="combat" HurtEffect="BGskill_ch161612" HurtSnd="skillsound_Wt_03"/>
+	<Property ID="82870" Name="插上挑衅战旗" Photo="icon\BG_Skill\skillicon_1505.png" PrepareAction="spell1_cast_10h" PrepareSnd="lsy"/>
+	<Property ID="83871" Name="修复载具" Photo="icon\BG_Skill\PVP_hyrandan.png" LeadAction="spell1_cast_10h" LeadEffect="BG_xl_action" HurtEffect="BGskill_Magic_01" LeadSud="lsy"/>
+	<Property ID="83872" Name="瞬回药" Photo="icon\BG_Skill\skillicon_0060.png"/>
+	<Property ID="82871" Name="齿轮" Photo="icon\BG_Skill\heijin_ronghe.PNG" PrepareAction="fi_10h_ready" PrepareEffect="BG_effect_action_75123" PrepareSnd="lsy"/>
+	<Property ID="82881" Photo="icon\BG_Skill\PVP_kxaoeqh.png" HitAction="S_water" ActionEffect="BG_other_153" PrepareAction="fi_10h_ready"/>
+	<Property ID="82891" Photo="icon\BG_Skill\skillicon_0007.png" PrepareAction="fi_10h_ready" PrepareEffect="BG_effect_buff_97519"/>
+	<Property ID="82892" Name="斩首" Photo="icon\BG_Skill\skillicon_0065.png" HitAction="skill2107_1h" HitActionSnd="bs"/>
+	<Property ID="82893" Name="号角"/>
+	<Property ID="82894" Name="虚弱药" Photo="icon\BG_Skill\heijin_tu.PNG" ActivePhotoID="icon\BG_Skill\heijin_tu.PNG" EffcctActive="0" HitAction="attackR_0h"/>
+	<Property ID="82895" Name="湖水清洁" Photo="icon\BG_Skill\skillicon_0172.png" PrepareAction="fi_10h_ready"/>
+	<Property ID="82896" Name="迷乱药" Photo="icon\BG_Skill\skillicon_0023.png" HitAction="attackR_0h"/>
+	<Property ID="82897" Name="瞬发" Photo="icon\BG_Skill\heijin_jineng_qishe.png" HitActionSnd="ps_02"/>
+	<Property ID="82987" Name="鸵鸟出现" Photo="icon\BG_Skill\skillicon_0062.png" PrepareAction="fi_10h_ready" PrepareEffect="func_raid_51" PrepareSnd="ZHzuoqi_01"/>
+	<Property ID="81469" Name="机枪" Photo="icon\BG_Skill\PVP_kxyingdaozq.PNG" ActionEffect="BGskill_81440" EffectSpeed="70" HitAction="attackR_0h" HurtAction="combat" HurtEffect="BGskill_81406"/>
+	<Property ID="81470" Name="清扫" Photo="icon\BG_Skill\PVP_kxyingdaozq.PNG" ActionEffect="BGskill_81440" EffectSpeed="70" HitAction="attackR_0h" HurtAction="combat" HurtEffect="BGskill_81406"/>
+	<Property ID="81471" Name="火焰器" Photo="icon\BG_Skill\heijin_huo.PNG" ActionEffect="BGskill_81441" HurtAction="combat" HurtEffect="BGskill_81274"/>
+	<Property ID="81472" Name="机油喷射" Photo="icon\BG_Skill\PVP_kxyingdaozq.PNG" ActionEffect="BGskill_81440" EffectSpeed="70" HitAction="attackR_0h" HurtAction="combat" HurtEffect="BGskill_81406"/>
+	<Property ID="81476" Name="机枪" Photo="icon\BG_Skill\skillicon_mount_0019.PNG" ActionEffect="BGskill_81451" EffectSpeed="70" HitAction="attackL_0h" HurtAction="combat" HurtEffect="BGskill_81406"/>
+	<Property ID="81477" Name="光电炮" Photo="icon\BG_Skill\skillicon_mount_0020.PNG" HitAction="zq_bc_004_04" EffectSpeed="70" ActionEffect="BGskill_81453" AutoStop="1" HurtEffect="BGskill_81447" ActionEffectDelay="1000" HitActionTime="1500" LockRotateTime="1500" ForceStroageOther="0"/>
+	<Property ID="81478" Name="燃烧穿甲弹" Photo="icon\BG_Skill\skillicon_mount_0015.png" ActionEffect="BG_effect_action_75115" HurtEffect="BGskill_81406" HurtAction="combat" HitAction="attack1" EffectSpeed="80" AutoStop="0" HitVibrateType="Vehicle_009"/>
+	<Property ID="81479" Name="电磁护盾" Photo="icon\BG_Skill\skillicon_mount_0016.png"/>
+	<Property ID="81480" Name="速射炮" HitAction="attack01" ActionEffect="BGskill_81443" EffectSpeed="80" HurtAction="combat" HurtEffect="BGskill_81444" Photo="icon\BG_Skill\skillicon_mount_0011.png"/>
+	<Property ID="81481" Name="电磁炮" Photo="icon\BG_Skill\skillicon_mount_0012.png" ActionEffect="BGskill_81446" HitAction="attack02" EffectSpeed="50" HurtAction="combat" HurtEffect="BGskill_81447" ActionEffectDelay="350" AutoStop="1" HitActionTime="1000" LockRotateTime="1000" LockJumpTime="1000"/>
+	<Property ID="81484" Name="机枪" Photo="icon\BG_Skill\skillicon_mount_0017.PNG" ActionEffect="BG_effect_action_75109" EffectSpeed="70" HitAction="attackL_0h" HurtAction="combat" HurtEffect="BGskill_81406"/>
+	<Property ID="81485" Name="榴弹炮" Photo="icon\BG_Skill\skillicon_mount_0018.PNG" HitAction="zq_bc_004_02" EffectSpeed="70" ActionEffect="BGskill_81436" AutoStop="1" HurtEffect="BG_effect_hit_70013" ActionEffectDelay="1000" HitActionTime="1500" LockRotateTime="1500"/>
+	<Property ID="81486" Name="燃烧穿甲弹" Photo="icon\BG_Skill\skillicon_mount_0015.png" ActionEffect="BG_effect_action_75115" HurtEffect="BGskill_81406" HurtAction="combat" HitAction="attack1" EffectSpeed="80" AutoStop="0" HitVibrateType="Vehicle_009"/>
+	<Property ID="81487" Name="杀戮跃击" Photo="icon\BG_Skill\skillicon_mount_0010.png" HitAction="attack2" AutoStop="1" HurtAction="combat" HurtEffect="BGskill_81435" ActionEffect="BGskill_81475" ActionEffectDelay="900"/>
+	<Property ID="81488" Name="速射炮" HitAction="attack01" ActionEffect="BGskill_81421" EffectSpeed="80" HurtAction="combat" HurtEffect="BGskill_81406" Photo="icon\BG_Skill\skillicon_mount_0009.png"/>
+	<Property ID="81489" Name="眩晕炮" Photo="icon\BG_Skill\skillicon_mount_0010.png" ActionEffect="BGskill_81422" HitAction="attack02" EffectSpeed="50" HurtAction="combat" HurtEffect="BG_effect_hit_70013" ActionEffectDelay="350" AutoStop="1" HitActionTime="1000" LockRotateTime="1000" LockJumpTime="1000"/>
+	<Property ID="81482" Name="加速铁拳" Photo="icon\BG_Skill\PVP_zqfxcuihui.png" HitAction="attackR_0h" IsPrepareOther="1" HitActionSnd="bs"/>
+	<Property ID="46200" Name="能量弹" Photo="icon\BG_Skill\skillicon_mount_0037.PNG" IsPrepareOther="0" HitAction="attack01" ActionEffect="BGskill_46200" HurtAction="combat" HurtEffect="BGskill_81406" EffectSpeed="50"/>
+	<Property ID="81483" Name="特制秘药" Photo="icon\BG_Skill\PVP_hyrandan.png" HitAction="attackL_1h" ActionEffect="BG_task_332"/>
+	<Property ID="87514" Name="道具读条" Photo="icon\BG_Skill\heijin_tu.PNG" PrepareAction="dig_0001"/>
+	<Property ID="47001" Name="水灵球" HitAction="attackR_1h" ActionEffect="BG_shuiqiu_001"/>
+	<Property ID="46212" Name="高爆炮" Photo="icon\BG_Skill\heijin_jineng_qishe.png" HitAction="attack01" ActionEffect="BGskill_46212" EffectSpeed="60" HurtEffect="BGskill_81406" HurtAction="combat"/>
+	<Property ID="46213" Name="电磁炮" Photo="icon\BG_Skill\heijin_jineng_fengkuangsaoshe.png" HitAction="zl_bc_005_02" ActionEffect="BGskill_46213" EffectSpeed="50" ActionEffectDelay="1500" AutoStop="1" HitActionTime="2000" LockRotateTime="2000" LockJumpTime="1" HurtEffect="BG_effect_hit_70013" HurtAction="combat"/>
+	<Property ID="46209" Name="声波" HurtAction="combat" Photo="icon\BG_Skill\skillicon_mount_0004.PNG" ActionEffectDelay="500" ActionEffect="BGskill_46209" HitAction="attack01" HurtEffect="BGskill_46224" ForceStroageOther="1" AutoStop="1" LockZhaoshi="1" HitActionTime="4000"/>
+	<Property ID="46206" Name="毒箭" ActionEffect="BGskill_46206" EffectSpeed="50" HurtAction="combat" HitAction="ride_seat0011_half" Photo="icon\BG_Skill\skillicon_mount_0022.PNG" ActionEffectDelay="550" HurtEffect="BGskill_81435" CRCarrierWhoPlayEffect="1"/>
+	<Property ID="46219" Name="声波" HurtAction="combat" Photo="icon\BG_Skill\skillicon_mount_0021.PNG" ActionEffectDelay="500" ActionEffect="BGskill_46219" HitAction="attack01" HurtEffect="BGskill_81432" AutoStop="1" LockZhaoshi="1" HitActionTime="4000"/>
+	<Property ID="46216" Name="毒箭" ActionEffect="BGskill_46216" EffectSpeed="50" HurtAction="combat" HitAction="ride_seat0011_half" Photo="icon\BG_Skill\skillicon_mount_0003.PNG" ActionEffectDelay="550" HurtEffect="BGskill_81435" ForceStroageOther="0" CRCarrierWhoPlayEffect="1"/>
+	<Property ID="46204" HitAction="qh_bc_016_02" ActionEffect="BGskill_46204" EffectSpeed="30" HurtAction="combat" Photo="icon\BG_Skill\skillicon_mount_0023.PNG" HurtEffect="BGskill_81433" Name="雷芒" AutoStop="1" LockZhaoshi="1" HitActionTime="1500" LockRotateTime="1500" LockJumpTime="1500"/>
+	<Property ID="46205" ActionEffect="BGskill_46205" HurtAction="combat" EffectSpeed="50" HitAction="ride_seat0011_half" Photo="icon\BG_Skill\skillicon_mount_0036.PNG" ActionEffectDelay="300" HurtEffect="BGskill_81435" Name="三连箭" CRCarrierWhoPlayEffect="1"/>
+	<Property ID="46214" HitAction="qh_bc_016_02" ActionEffect="BGskill_46214" EffectSpeed="30" HurtAction="combat" Photo="icon\BG_Skill\skillicon_mount_0006.PNG" HurtEffect="BGskill_81433" Name="毒液" AutoStop="1" LockZhaoshi="1" HitActionTime="1500" LockRotateTime="1500" LockJumpTime="1500"/>
+	<Property ID="46215" ActionEffect="BGskill_46215" HurtAction="combat" EffectSpeed="80" HitAction="ride_seat0011_half" Photo="icon\BG_Skill\skillicon_mount_0035.PNG" ActionEffectDelay="300" HurtEffect="BGskill_81435" Name="三连箭" CRCarrierWhoPlayEffect="1"/>
+	<Property ID="46208" HitAction="attack01" HurtAction="combat" Photo="icon\BG_Skill\skillicon_mount_0024.PNG" ActionEffect="BGskill_46208" ActionEffectDelay="500" HurtEffect="BGskill_81434" Name="力顶" AutoStop="1" LockZhaoshi="1" HitActionTime="2000" LockRotateTime="2000"/>
+	<Property ID="46207" ActionEffect="BGskill_46207" HurtAction="combat" EffectSpeed="40" Photo="icon\BG_Skill\skillicon_mount_0025.PNG" HitAction="qh_bc_017_01" ActionEffectDelay="200" HurtEffect="BGskill_81435" Name="飞斧" CRCarrierWhoPlayEffect="1"/>
+	<Property ID="46218" HitAction="attack01" HurtAction="combat" Photo="icon\BG_Skill\skillicon_mount_0024.PNG" ActionEffect="BGskill_46218" ActionEffectDelay="500" HurtEffect="BGskill_81434" Name="力顶" AutoStop="1" LockZhaoshi="1" HitActionTime="2000" LockRotateTime="2000"/>
+	<Property ID="46217" ActionEffect="BGskill_46217" HurtAction="combat" EffectSpeed="40" Photo="icon\BG_Skill\skillicon_mount_0007.PNG" HitAction="qh_bc_017_01" ActionEffectDelay="200" HurtEffect="BGskill_81435" Name="飞斧" CRCarrierWhoPlayEffect="1"/>
+	<Property ID="41009" Name="盆地轰炸" Photo="icon\BG_Skill\heijin_jineng_fengkuangsaoshe.png" ActionEffect="BGskill_81353"/>
+	<Property ID="41010" Name="隐身面具" Photo="icon\BG_Skill\skillicon_0086.png"/>
+	<Property ID="81493" HitAction="attack02" ActionEffect="BGskill_81450" ActionEffectDelay="200" AutoStop="0" Photo="icon\BG_Skill\skillicon_mount_0026.PNG" HurtEffect="BGskill_81274" HurtAction="combat" EffectSpeed="40"/>
+	<Property ID="81494" HitAction="attack03" AutoStop="1" LockJumpTime="1" HitActionTime="3000" LockRotateTime="3000" Photo="icon\BG_Skill\skillicon_mount_0027.PNG" ActionEffect="BGskill_81455" HurtEffect="BGskill_81274" HurtAction="combat"/>
+	<Property ID="81495" ActionEffect="BGskill_81448" HitAction="attack01" Photo="icon\BG_Skill\skillicon_0081.PNG" EffectSpeed="50" HurtAction="combat"/>
+	<Property ID="81496" HitAction="attack01" AutoStop="0" Photo="icon\BG_Skill\skillicon_0217.PNG" ActionEffect="BGskill_81470" EffectSpeed="40" HurtAction="combat"/>
+	<Property ID="87515" Name="道具读条" Photo="icon\BG_Skill\heijin_tu.PNG" PrepareAction="fi_10h_ready"/>
+	<Property ID="87516" Name="道具读条" Photo="icon\BG_Skill\heijin_tu.PNG" PrepareAction="fi_10h_ready"/>
+	<Property ID="87517" Name="道具读条" Photo="icon\BG_Skill\heijin_tu.PNG" PrepareAction="fi_10h_ready"/>
+	<Property ID="87518" Name="道具读条" Photo="icon\BG_Skill\heijin_tu.PNG" PrepareAction="fi_10h_ready"/>
+	<Property ID="46201" Name="能量喷射" Photo="icon\BG_Skill\skillicon_1326.PNG"/>
+	<Property ID="81497" HitAction="attack02" ActionEffect="BGskill_81458" ActionEffectDelay="600" Photo="icon\BG_Skill\skillicon_mount_0028.PNG" HurtAction="combat" HurtEffect="BGskill_81444" EffectSpeed="40"/>
+	<Property ID="81498" HitAction="attack03" Photo="icon\BG_Skill\skillicon_mount_0029.png" ActionEffect="BGskill_81456" HurtEffect="BGskill_81278" HurtAction="combat" AutoStop="1" HitActionTime="3000" LockRotateTime="3000" LockJumpTime="1"/>
+	<Property ID="46223" Name="能量弹" Photo="icon\BG_Skill\skillicon_mount_0038.PNG" IsPrepareOther="0" HitAction="attack01" ActionEffect="BGskill_46223" HurtAction="combat" HurtEffect="BGskill_81406" EffectSpeed="50"/>
+	<Property ID="43215" Name="凝血草" Photo="icon\BG_Use\TaskUse_00186A.png" PrepareAction="fi_10h_ready" PrepareEffect="BG_effect_action_75123"/>
+	<Property ID="41110" Name="肉块" PrepareAction="fi_10h_ready"/>
+	<Property ID="41111" Name="利剑" PrepareAction="fi_10h_ready"/>
+	<Property ID="81501" Photo="icon\BG_Skill\zq_nlj_gaotiao.png"/>
+	<Property ID="81502" Photo="icon\BG_Skill\zq_nlj_gaotiao.png"/>
+	<Property ID="81503" Photo="icon\BG_Skill\zq_nlj_gaotiao.png" HitAction="attack02" HurtAction="combat" ActionEffect="BGskill_81460" EffectSpeed="50" HurtEffect="BGpvp001_4"/>
+	<Property ID="81504" Photo="icon\BG_Skill\zq_nlj_gaotiao.png" HitAction="attack01" HurtAction="combat" ActionEffect="BGskill_81461" EffectSpeed="70" HurtEffect="BG_effect_hit_70013"/>
+	<Property ID="81505" Photo="icon\BG_Skill\skillicon_mount_0037.png" ActionEffect="BGskill_81462" EffectSpeed="70" HurtAction="combat" HurtEffect="BGskill_81465" HitAction="attack01"/>
+	<Property ID="81506" Photo="icon\BG_Skill\skillicon_mount_0042.png" HitAction="attack02" HurtEffect="BGskill_81466" ActionEffect="BGskill_81463" EffectSpeed="40" HitActionTime="1000" HurtAction="combat"/>
+	<Property ID="41112" Name="燃烧弹" Photo="icon\buff\skillicon_0468.png" ActionEffect="BG_dapao_zq" HurtAction="combat"/>
+	<Property ID="41013" Name="草药读条" PrepareAction="fi_10h_ready" PrepareEffect="BG_caoyao"/>
+	<Property ID="41014" Name="号角读条" PrepareAction="fi_10h_ready" PrepareEffect="BG_haojiao"/>
+	<Property ID="29202" Name="召唤坐骑" Photo="icon\BG_Skill\jineng_yexingsilie.png" EffectSpeed="0" PrepareAction="fi_10h_ready" PrepareEffect="func_raid_51" PrepareSnd="ZHzuoqi_01"/>
+	<Property ID="46227" Name="气流冲击" Photo="icon\BG_Skill\skillicon_1461.PNG" HitAction="attack01"/>
+	<Property ID="46225" Name="践踏" Photo="icon\BG_Skill\skillicon_mount_0032.png" HitAction="attack01" ActionEffect="BGskill_46225" AutoStop="1" LockZhaoshi="1" HitActionTime="2000" LockRotateTime="2000" HurtAction="combat" HurtEffect="BGskill_46304"/>
+	<Property ID="81507" Photo="icon\BG_Skill\skillicon_mount_0039.PNG" HurtAction="combat" HurtEffect="BGskill_81274" IsLeadOther="1" LeadEffect="BGskill_81469" LeadFrontAction="attack02_1" LeadAction="attack02_2" LeadEndAction="attack02_3" LeadFrontTime="766" LeadEndTime="566"/>
+	<Property ID="81508" Photo="icon\BG_Skill\skillicon_mount_0040.png" HitAction="attack01" AutoStop="1" HitActionTime="600" LockRotateTime="600" LockJumpTime="600" ActionEffect="BGskill_81483" HurtAction="combat" HurtEffect="BGskill_81466" EffectSpeed="50" ActionEffectDelay="170"/>
+	<Property ID="46226" Name="飞矛" Photo="icon\BG_Skill\skillicon_mount_0033.png" HitAction="ride_seat0031_half" ActionEffect="BGskill_46226" HurtAction="combat" ActionEffectDelay="200" EffectSpeed="50" HurtEffect="BGskill_81435" CRCarrierWhoPlayEffect="1"/>
+	<Property ID="46303" Name="水浪" Photo="icon\BG_Skill\heijin_feng.PNG" HitAction="attack01" AutoStop="1" HitActionTime="2000" LockRotateTime="2000" LockZhaoshi="1" ActionEffect="BGskill_46303" HurtAction="combat" HurtEffect="BGskill_46309"/>
+	<Property ID="46305" Name="标枪" Photo="icon\BG_Skill\skillicon_mount_0031.png" HitAction="ride_seat0031_half" ActionEffect="BGskill_46305" HurtAction="combat" ActionEffectDelay="200" EffectSpeed="50" HurtEffect="BGskill_81435" CRCarrierWhoPlayEffect="1"/>
+	<Property ID="46228" Name="连弩" Photo="icon\BG_Skill\skillicon_mount_0034.png" HitAction="ride_seat0029_half" EffectSpeed="40" HurtAction="combat" ActionEffect="BGskill_46228" IsPrepareOther="1" HurtEffect="BGskill_81435" CRCarrierWhoPlayEffect="1"/>
+	<Property ID="46306" Name="气流冲击" Photo="icon\BG_Skill\skillicon_1461.PNG" HitAction="attack02" ActionEffect="BGskill_46306"/>
+	<Property ID="81509" Photo="icon\BG_Skill\skillicon_mount_0041.png" HitAction="attack02" AutoStop="0" ActionEffect="BGskill_81471" HurtAction="combat" HurtEffect="BGskill_81466" EffectSpeed="80" ActionEffectDelay="500"/>
+	<Property ID="81510" Photo="icon\BG_Skill\skillicon_mount_0040.png" HitAction="attack01" AutoStop="0" HitActionTime="600" LockRotateTime="600" LockJumpTime="600" ActionEffect="BGskill_81472" HurtAction="combat" HurtEffect="BGskill_81466" EffectSpeed="50"/>
+	<Property ID="46310" Name="水球" Photo="icon\BG_Skill\skillicon_1461.PNG" HitAction="qh_bc_026_01" ActionEffect="BGskill_46310" HurtAction="combat" HurtEffect="BGskill_46311" EffectSpeed="30" ActionEffectDelay="1000"/>
+	<Property ID="87556" Name="初级两倍经验丹" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="87557" Name="初级两倍经验丹" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="87558" Name="初级两倍经验丹" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="81511" Photo="icon\BG_Skill\skillicon_mount_0038.png" ActionEffect="BGskill_81477" EffectSpeed="70" HurtAction="combat" HurtEffect="BGskill_81478" HitAction="attack01" Name="机枪"/>
+	<Property ID="81512" Photo="icon\BG_Skill\skillicon_mount_0042.png" HitAction="attack02" HurtEffect="BGskill_81480" ActionEffect="BGskill_81479" EffectSpeed="40" HitActionTime="1000" HurtAction="combat"/>
+	<Property ID="45000" Name="能量读条" Photo="icon\BG_Skill\skillicon_0028.png" PrepareAction="fi_10h_ready"/>
+	<Property ID="81522" ActionEffect="BGskill_81476" HitAction="attack01" Photo="icon\BG_Skill\skillicon_0081.PNG" EffectSpeed="50" HurtAction="combat"/>
+	<Property ID="87559" Name="初级两倍经验丹" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="87560" Name="初级两倍经验丹" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="87561" Name="初级两倍经验丹" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="87562" Name="初级两倍经验丹" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="87563" Name="初级两倍经验丹" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="87564" Name="初级两倍经验丹" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="81523" Photo="icon\BG_Skill\skillicon_mount_0037.png" ActionEffect="BGskill_81481" EffectSpeed="70" HurtAction="combat" HurtEffect="BGskill_81465" HitAction="attack01" Name="轻机枪"/>
+	<Property ID="81524" Name="蓄力炮" Photo="icon\BG_Skill\skillicon_mount_0018.png" ActionEffect="BGskill_81482" HitAction="attack02" EffectSpeed="50" HurtAction="combat" HurtEffect="BG_effect_hit_70013" AutoStop="1" HitActionTime="1000" LockRotateTime="1000" LockJumpTime="1000"/>
+	<Property ID="81525" Name="能量喷射" Photo="icon\BG_Skill\skillicon_1326.PNG"/>
+	<Property ID="46315" Name="弩箭-中立" Photo="icon\BG_Skill\skillicon_mount_0022.PNG" HitAction="ride_seat0029_half" ActionEffect="BGskill_46315" HurtAction="combat" EffectSpeed="40" HurtEffect="BGskill_81435" CRCarrierWhoPlayEffect="1"/>
+	<Property ID="46317" Name="咆哮" Photo="icon\BG_Skill\skillicon_mount_0004.png" HitAction="attack01" HurtAction="combat" HitEffect="BGskill_46318" ActionEffect="BGskill_46317" AutoStop="1" LockZhaoshi="1" HitActionTime="2000" LockRotateTime="2000" LockJumpTime="2000"/>
+	<Property ID="46318" Name="狂斧三式1" Photo="icon\BG_Skill\skillicon_mount_0025.png" HitAction="ride_seat0033_half" CRCarrierWhoPlayEffect="1" HurtAction="combat" HurtEffect="BGskill_81435"/>
+	<Property ID="46319" Name="狂斧三式2" Photo="icon\BG_Skill\boss_zhaohuan.png" HitAction="ride_seat0034_half" CRCarrierWhoPlayEffect="1" HurtAction="combat" HurtEffect="BGskill_81435"/>
+	<Property ID="46320" Name="狂斧三式3" Photo="icon\BG_Skill\boss_zhaohuan.png" HitAction="ride_seat0035_half" CRCarrierWhoPlayEffect="1" HurtAction="combat" HurtEffect="BGskill_81435" ActionEffect="BGskill_46320" ActionEffectDelay="1000"/>
+	<Property ID="43231" Name="军阶战场修载具（奇幻）A" Photo="icon\BG_Skill\heijin_ronghe.PNG" PrepareAction="fi_10h_ready" PrepareSnd="sqyy"/>
+	<Property ID="43232" Name="军阶战场修载具（奇幻）B" Photo="icon\BG_Skill\heijin_ronghe.PNG" PrepareAction="fi_10h_ready" PrepareSnd="xl100"/>
+	<Property ID="43233" Name="军阶战场修载具（奇幻）C" Photo="icon\BG_Skill\heijin_ronghe.PNG" PrepareAction="fi_10h_ready" PrepareSnd="ls0"/>
+	<Property ID="43234" Name="军阶战场修载具（奇幻）D" Photo="icon\BG_Skill\heijin_ronghe.PNG" PrepareAction="fi_10h_ready" PrepareEffect="lscg"/>
+	<Property ID="82930" Name="维修" Photo="icon\BG_Skill\heijin_tu.PNG" PrepareAction="fi_10h_ready"/>
+	<Property ID="41998" Name="追踪弹" PrepareAction="fi_10h_ready" ActionEffect="BG_zc_zzd"/>
+</Object>
+
+

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Stage>
+	<Object Guid="EBB73F5000384B419AB58CF83D47F946" Desc="菲尔_沉星" config="npc_qhm002_0009" x="3613.887207" y="22.988232" z="954.082214" IsY="1" Radius="0.1" amount="1" RefreshTime="90" fOrg="0" NeedRotate="1" IsPersistent="0"/>
+	<Object Guid="206BEC6F74254DDAA02D08D35D63E2F9" Desc="夏普_星语" config="npc_qhm002_0113" x="3642.553223" y="33.513" z="1190.828125" IsY="1" Radius="0.1" amount="1" RefreshTime="90" fOrg="-2.820001" NeedRotate="1"/>
+	<Object Guid="DDCEEC4762204BA1935CC9E63F96CE5A" Desc="尤莉亚_逆水" config="npc_qhm002_0013" x="3518.14209" y="66.816872" z="831.527161" IsY="1" Radius="0.1" amount="1" RefreshTime="90" fOrg="0" IsPersistent="0" PeaceAction="pe_0h_stand1"/>
+	<Object Guid="0A70A0E460504E19ACEB43562FA7CBA4" Desc="朵丽儿_沉星" config="npc_qhm002_0014" x="4194.339844" y="67.525543" z="806.22876" IsY="1" Radius="0.1" amount="1" RefreshTime="90" fOrg="0.734996" NeedRotate="1"/>
+	<Object Guid="4E451FB9C35F4D78B5E28910BE607C3A" Desc="肖恩_沉星" config="npc_qhm002_0031" x="2976" y="71.6" z="796" IsY="1" Radius="0.1" amount="1" RefreshTime="90" fOrg="2.2" NeedRotate="1"/>
+	<Object Guid="D39C52FB43F140C2B0466CD5A46183BC" Desc="提莉亚_余晖" config="npc_qhm002_0032" x="3022.087158" y="57.635681" z="677.952698" IsY="1" Radius="0.1" amount="1" RefreshTime="90" fOrg="-2.195001" NeedRotate="1"/>
+	<Object Guid="F50AA4C351CE4E459D66BBD1FE5A1877" Desc="英格玛" config="npc_qhm002_0023" x="3988.474365" y="54.828434" z="-58.855198" IsY="0" Radius="0.1" amount="1" RefreshTime="90" fOrg="1.400006" IsPersistent="0" PeaceAction="diedownloop"/>
+	<Object Guid="FDB6E9A6D09A421BA26C36C99CE24451" Desc="穆拉蒂_日炎" config="npc_qhm002_0011" x="3653.725342" y="33.379963" z="1201.893555" IsY="1" Radius="0.1" amount="1" RefreshTime="90" fOrg="2.093176" IsPersistent="0" NeedRotate="1"/>
+	<Object Guid="D97A81D44B214717862C240F52A22520" Desc="朱莉尔_控魔" config="npc_qhm002_0010" x="3634.401855" y="22.889347" z="962.781006" IsY="0" Radius="0.1" amount="1" RefreshTime="90" fOrg="0.795006" IsPersistent="0" NeedRotate="0" PeaceAction="pe_0h_talk4"/>
+	<Object Guid="2E4574D967164FEBA4024CDC7960A489" Desc="埃尔曼_逐风" config="npc_qhm002_0007" x="3611.260498" y="22.884821" z="984.346558" IsY="1" Radius="0.1" amount="1" RefreshTime="90" fOrg="0.380014" IsPersistent="0" NeedRotate="1">
+		<Event EventId="23" Processor="12041716492408"/>
+	</Object>
+	<Object Guid="5E8BBAAAFE394E478BC13BD713C93DE0" Desc="亚撒_控魔" config="npc_qhm002_0008" x="3636.679443" y="22.890226" z="963.980713" IsY="0" Radius="0.1" amount="1" RefreshTime="90" fOrg="-1.460009" IsPersistent="0" NeedRotate="0" PeaceAction="pe_0h_talk2"/>
+	<Object Guid="753CE90AC962452FBE6B9521F30F5394" Desc="维维安_逐风" config="npc_qhm002_0029" x="3147.732666" y="80.701904" z="-52.474892" IsY="0" Radius="0.1" amount="1" RefreshTime="90" fOrg="-2.850003" NeedRotate="1"/>
+	<Object Guid="64910853F313435294FAA1EB57FD7D8B" Desc="锡德_尘风" config="npc_qhm002_0027" x="3167.310547" y="80.655365" z="-46.925102" IsY="0" Radius="0.1" amount="1" RefreshTime="90" fOrg="-2.788181" NeedRotate="1"/>
+	<Object Guid="1A36768A107C44748D79F7426D0E5369" Desc="阿木木" config="npc_qhm002_0028" x="3112.152588" y="69.43293" z="-98.175499" IsY="0" Radius="0.1" amount="1" RefreshTime="60" fOrg="-1.348189" NeedRotate="1" IsPersistent="0"/>
+	<Object Guid="053A761B919D42A9B4692BC2F3DC3322" Desc="霍里斯_逐风" config="npc_qhm002_0016" x="4230.245117" y="52.439911" z="289.657318" IsY="0" Radius="0.1" amount="1" RefreshTime="90" fOrg="-0.01999" NeedRotate="0" IsPersistent="0"/>
+	<Object Guid="EBE63C72B44B419DABF46C417B474AF8" Desc="莫蒂尼_焚炎" config="npc_qhm002_0020" x="4232.458008" y="52.439522" z="289.315247" IsY="1" Radius="0.1" amount="1" RefreshTime="90" fOrg="-0.078187" NeedRotate="0" IsPersistent="0" PeaceAction="pe_0h_stand27"/>
+	<Object Guid="38CFD9278312471FAE2456F7A5345696" Desc="艾富里_尘风" config="npc_qhm002_0038" x="3586.714844" y="22.8888" z="965.062988" IsY="1" Radius="0.1" amount="1" RefreshTime="30" fOrg="0.974994" NeedRotate="1" IsPersistent="0"/>
+	<Object Guid="A47B53A334454FF2A4D9C30E414D7782" Desc="斐瑞_日炎" config="npc_qhm002_0089" x="4112.339355" y="57.420208" z="327.88916" IsY="1" Radius="0.1" amount="1" RefreshTime="30" fOrg="3.038185" NeedRotate="1" IsPersistent="0"/>
+	<Object Guid="A8C041BC48C54EAD85E7B90A667321BB" Desc="维德_星语" config="npc_qhm002_0075" x="3638.938965" y="22.889423" z="980.483887" IsY="0" Radius="0.1" amount="1" RefreshTime="60" fOrg="-1.675006" IsPersistent="0" PeaceAction="pe_0h_stand" NeedRotate="1"/>
+	<Object Guid="F0A323E7653E4EA09FAD8C48CA128A8B" Desc="英格玛_逐风" config="npc_qhm002_0025" x="3700.642578" y="79.282837" z="-46.092655" IsY="0" Radius="0.1" amount="1" RefreshTime="90" fOrg="-2.235005" NeedRotate="0" IsPersistent="0" PeaceAction="pe_0h_stand2"/>
+	<Object Guid="AA75A5173B6C497D83052D193AEE6F43" Desc="安格拉姆_逆水" config="npc_qhm002_0026" x="3699.076904" y="79.282837" z="-46.179417" IsY="0" Radius="0.1" amount="1" RefreshTime="30" fOrg="1.975004" NeedRotate="0" IsPersistent="0" PeaceAction="pe_0h_talk7"/>
+	<Object Guid="7BB151FCE17144159B041FC9B2A74647" Desc="特瑞西_曙光" config="npc_qhm002_0076" x="3687.220947" y="80.188194" z="-39.887589" IsY="0" Radius="0.1" amount="1" RefreshTime="30" fOrg="-2.120003" NeedRotate="0" IsPersistent="0" PeaceAction="pe_0h_stand2"/>
+	<Object Guid="D15BF2CC066F4EBEA00FBD02C1A9CEFA" Desc="奥格斯格_沉星" config="npc_qhm002_0003" x="3305.561035" y="50.542675" z="1177.120728" IsY="0" Radius="0" amount="1" RefreshTime="30" fOrg="1.266821" NeedRotate="0" IsPersistent="0" PeaceAction="talk2">
+		<Event EventId="23" Processor="zhaori_sgc02"/>
+		<Event EventId="601" Processor="zhaori_sgc16"/>
+	</Object>
+	<Object Guid="0C26CDC014DC4D66AFD365BB7EBB851F" Desc="亚述_尘风" config="npc_qhm002_0006" x="3331.281982" y="35.699921" z="1062.240967" IsY="1" Radius="0.1" amount="1" RefreshTime="30" fOrg="0.445007" PeaceAction="pe_0h_stand27" IsPersistent="0">
+		<Event EventId="601" Processor="zhaori_sgc23"/>
+		<Event EventId="23" Processor="zhaori_sgc22"/>
+	</Object>
+	<Object Guid="AB3FFEE70BD248FEB4D293398B0FF43B" Desc="博雷斯科特_逆水" config="npc_qhm002_0019" x="4188.972656" y="49.676998" z="247.638016" IsY="1" Radius="0.1" amount="1" RefreshTime="90" fOrg="-0.068183" IsPersistent="0" PeaceAction="pe_0h_stand27">
+		<Event EventId="23" Processor="12041717245295"/>
+	</Object>
+	<Object Guid="CBB44861E3BC45C6AB4EA7B16EA775C9" Desc="纳恩_沉星" config="npc_qhm002_0018" x="3993.783936" y="29.041153" z="272.142242" IsY="1" Radius="0.1" amount="1" RefreshTime="90" fOrg="0" PeaceAction="diedownloop"/>
+	<Object Guid="D5E2D067C6AE493B851C12D1DE903864" Desc="摩里斯_逆水" config="npc_qhm002_0004" x="3345.941895" y="35.699146" z="1082.429932" IsY="1" Radius="0.1" amount="1" RefreshTime="30" fOrg="3.083189" IsPersistent="0">
+		<Event EventId="23" Processor="chaori_npc_xianliao016"/>
+	</Object>
+	<Object Guid="3867A0430AE14E36B036B23D8854B1C9" Desc="伦纳德_灼日" config="npc_qhm002_0005" x="3322.930176" y="50.304405" z="1146.167969" IsY="0" Radius="0.1" amount="1" RefreshTime="90" fOrg="-0.140003" IsPersistent="0" NeedRotate="0" PeaceAction="pe_0h_stand73">
+		<Event EventId="23" Processor="chaori_shuguang_1"/>
+	</Object>
+	<Object Guid="9BBC4B4547304841BBFD482B55C0A830" Desc="奥德维德_星语" config="npc_qhm002_0017" x="4162.693848" y="47.960316" z="286.021362" IsY="1" Radius="0.1" amount="1" RefreshTime="90" fOrg="-1.62501" NeedRotate="1" IsPersistent="0"/>
+	<Object Guid="37B9C2EB259A4CBBA248461DFBCF5ABC" Desc="亚特伍德_焚炎" config="npc_qhm002_0002" x="3316.2771" y="50.304405" z="1156.828735" IsY="0" Radius="0.1" amount="1" RefreshTime="30" fOrg="0.838176" IsPersistent="0" NeedRotate="0" PeaceAction="pe_0h_stand3"/>
+	<Object Guid="EF94F0E658F245B09274A38712FF7FF8" Desc="哲罗姆_逆水" config="npc_qhm002_0022" x="3838.47583" y="56.394379" z="-57.737278" IsY="1" Radius="0.1" amount="1" RefreshTime="90" fOrg="1.335" NeedRotate="1"/>
+	<Object Guid="7A0C5C250FDD40F0BF75B0DC49FBAE3B" Desc="阿奇伯德_尘风" config="npc_qhm002_0001" x="3317.827637" y="50.304405" z="1197.60083" IsY="0" Radius="0.1" amount="1" RefreshTime="30" fOrg="2.880007" IsPersistent="0" NeedRotate="1">
+		<Event EventId="23" Processor="chaori_quest_501"/>
+	</Object>
+	<Object Guid="1FD1D144060B45D2B4F878649F5AB826" Desc="莫多威尔_控魔" config="npc_qhm002_0021" x="3533.785645" y="153.497757" z="460.783783" IsY="1" Radius="0.1" amount="1" RefreshTime="90" fOrg="-1.548184" IsPersistent="0" NeedRotate="0"/>
+	<Object Guid="02F6172CA14D4AD2B5BE88A906A1308B" Desc="阿普顿_克里斯丁" config="npc_qhm002_0110" x="3026.427002" y="57.636665" z="669.566528" IsY="1" Radius="0.1" amount="1" RefreshTime="30" fOrg="-2.493183" NeedRotate="1"/>
+	<Object Guid="B093DF9D8D81458388E32722D6B34AA5" Desc="史宾杜_日炎" config="npc_qhm002_0077" x="3956.309082" y="35.145191" z="815.822144" IsY="1" Radius="0.1" amount="1" RefreshTime="30" fOrg="2.881817" NeedRotate="1" IsPersistent="0" PeaceAction="pe_0h_stand27"/>
+	<Object Guid="278360448EA041EA8D6A079AF6CB8A56" Desc="安格拉姆" config="npc_qhm002_0024" x="3988.225342" y="54.501038" z="-57.315941" IsY="1" Radius="0.1" amount="1" RefreshTime="90" fOrg="2.625015" IsPersistent="0" NeedRotate="1"/>
+	<Object Guid="2E34BBC51861468F93306E1822459C03" Desc="耶奈尔_晨蔷" config="npc_qhm002_0033" x="2656.033203" y="31.473082" z="459.859802" IsY="1" Radius="0.1" amount="1" RefreshTime="90" fOrg="-2.390001" NeedRotate="0" IsPersistent="0" PeaceAction="pe_0h_stand6"/>
+	<Object Guid="BAF93CE6A6394D2DBB58C26BA3D12084" Desc="西斯廷_控魔" config="npc_qhm002_0030" x="2630.874023" y="27.270897" z="453.396881" IsY="1" Radius="0.1" amount="1" RefreshTime="90" fOrg="2.425006" NeedRotate="1"/>
+	<Object Guid="18DFC5D3F17F48B99661E32D35819A83" Desc="罗德_逐风" config="npc_qhm002_0155" x="4086.537354" y="34.076191" z="706.564209" IsY="0" Radius="0" amount="1" RefreshTime="30" fOrg="1.570009" NeedRotate="1" IsPersistent="0" PeaceAction="pe_0h_talk8"/>
+	<Object Guid="32C37B8F7E1644E888F9D1F6DE43EFDD" Desc="罗伊_逐风" config="npc_qhm002_0015" x="4088.087891" y="34.288193" z="707.647339" IsY="0" Radius="0.1" amount="1" RefreshTime="90" fOrg="2.799997" IsPersistent="0" NeedRotate="1" PeaceAction="pe_0h_stand24">
+		<Event EventId="23" Processor="chaori_goutouren_2"/>
+	</Object>
+	<Object Guid="4BA15C6E28AA40C5B889E85ED4B45868" Desc="希图亚" config="npc_qhm002_0160" x="3069.790283" y="55.978184" z="-464.613647" IsY="0" Radius="0" amount="1" RefreshTime="60" fOrg="0.985004" IsPersistent="0" NeedRotate="1"/>
+	<Object Guid="9D17013C5E1C4049A40D9A6846E3F085" Desc="达科_狼牙" config="npc_qhm002_0196" x="3850.025146" y="70.530212" z="793.530823" amount="1" fOrg="1.660001" IsPersistent="0"/>
+	<Object Guid="D1FA30E5BD6844EDA34AD93A0971F85B" Desc="隐形门" config="Organ_qhm002_0001" x="3283.35498" y="50.145016" z="1020.0271" IsY="0" Radius="0" PatrolRange="0" amount="1" RefreshTime="1" fOrg="0" IsPersistent="0">
+		<Event EventId="23" Processor="chaori_quest_502"/>
+	</Object>
+	<Object Guid="A05EE8B8FF0A4527B413E24DFD563440" Desc="安卓玛·逐风" config="npc_qhm002_0223" x="3539.63916" y="23.664513" z="1004.082153" amount="1" fOrg="2.080007" IsPersistent="0"/>
+</Stage>
+
+

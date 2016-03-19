@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes" ?>
+<Processor>
+    <Base type="object" version="1.0">
+        <Line Type="2" Event="2001" Name="AUTOP1" />
+        <Line Type="1" Event="4509">
+            <Param type="13" srctype="8" data="AUTOP1" Index="0" />
+        </Line>
+        <Line Type="2" Event="5082" Name="AUTOP2" />
+        <Line Type="1" Event="4834">
+            <Param type="13" srctype="8" data="AUTOP2" Index="0" />
+            <Param type="2" data="521" Index="1" />
+            <Param type="2" data="1" Index="2" />
+        </Line>
+        <Line Type="1" Event="4544">
+            <Param type="4" data="109.491" Index="0" />
+            <Param type="4" data="-31.100" Index="1" />
+            <Param type="4" data="-341.552" Index="2" />
+            <Param type="4" data="-2.297" Index="3" />
+            <Param type="6" data="FB_tiannudongxue_0029" Index="4" />
+            <Param type="2" data="1" Index="5" />
+            <Param type="2" data="0" Index="6" />
+            <Param type="4" data="0" Index="7" />
+            <Param type="2" data="0" Index="8" />
+            <Param type="6" data="mafm-514-01" Index="9" />
+        </Line>
+        <Line Type="1" Event="4544">
+            <Param type="4" data="67.293" Index="0" />
+            <Param type="4" data="15.14" Index="1" />
+            <Param type="4" data="-371.061" Index="2" />
+            <Param type="4" data="1.415" Index="3" />
+            <Param type="6" data="FB_tiannudongxue_0001" Index="4" />
+            <Param type="2" data="1" Index="5" />
+            <Param type="2" data="0" Index="6" />
+            <Param type="4" data="0" Index="7" />
+            <Param type="2" data="0" Index="8" />
+            <Param type="6" data="mafm-514-02" Index="9" />
+        </Line>
+        <Line Type="1" Event="4544">
+            <Param type="4" data="65.253" Index="0" />
+            <Param type="4" data="18.656" Index="1" />
+            <Param type="4" data="-390.826" Index="2" />
+            <Param type="4" data="0.703" Index="3" />
+            <Param type="6" data="FB_tiannudongxue_0001" Index="4" />
+            <Param type="2" data="1" Index="5" />
+            <Param type="2" data="0" Index="6" />
+            <Param type="4" data="0" Index="7" />
+            <Param type="2" data="0" Index="8" />
+            <Param type="6" data="mafm-514-03" Index="9" />
+        </Line>
+        <Line Type="1" Event="4544">
+            <Param type="4" data="-35.669" Index="0" />
+            <Param type="4" data="10.093" Index="1" />
+            <Param type="4" data="-286.163" Index="2" />
+            <Param type="4" data="1.38" Index="3" />
+            <Param type="6" data="FB_tiannudongxue_0001" Index="4" />
+            <Param type="2" data="1" Index="5" />
+            <Param type="2" data="0" Index="6" />
+            <Param type="4" data="0" Index="7" />
+            <Param type="2" data="0" Index="8" />
+            <Param type="6" data="mafm-514-04" Index="9" />
+        </Line>
+        <Line Type="1" Event="4544">
+            <Param type="4" data="-36.546" Index="0" />
+            <Param type="4" data="9.674" Index="1" />
+            <Param type="4" data="-294.556" Index="2" />
+            <Param type="4" data="2.149" Index="3" />
+            <Param type="6" data="FB_tiannudongxue_0001" Index="4" />
+            <Param type="2" data="1" Index="5" />
+            <Param type="2" data="0" Index="6" />
+            <Param type="4" data="0" Index="7" />
+            <Param type="2" data="0" Index="8" />
+            <Param type="6" data="mafm-514-05" Index="9" />
+        </Line>
+        <Line Type="1" Event="4544">
+            <Param type="4" data="-38.097" Index="0" />
+            <Param type="4" data="9.673" Index="1" />
+            <Param type="4" data="-296.169" Index="2" />
+            <Param type="4" data="2.262" Index="3" />
+            <Param type="6" data="FB_tiannudongxue_0001" Index="4" />
+            <Param type="2" data="1" Index="5" />
+            <Param type="2" data="0" Index="6" />
+            <Param type="4" data="0" Index="7" />
+            <Param type="2" data="0" Index="8" />
+            <Param type="6" data="mafm-514-06" Index="9" />
+        </Line>
+        <Line Type="1" Event="4544">
+            <Param type="4" data="-48.249" Index="0" />
+            <Param type="4" data="9.667" Index="1" />
+            <Param type="4" data="-297.77" Index="2" />
+            <Param type="4" data="-3.137" Index="3" />
+            <Param type="6" data="FB_tiannudongxue_0001" Index="4" />
+            <Param type="2" data="1" Index="5" />
+            <Param type="2" data="0" Index="6" />
+            <Param type="4" data="0" Index="7" />
+            <Param type="2" data="0" Index="8" />
+            <Param type="6" data="mafm-514-07" Index="9" />
+        </Line>
+        <Line Type="1" Event="4544">
+            <Param type="4" data="-63.318" Index="0" />
+            <Param type="4" data="-2.972" Index="1" />
+            <Param type="4" data="-332.001" Index="2" />
+            <Param type="4" data="0.865" Index="3" />
+            <Param type="6" data="FB_tiannudongxue_0001" Index="4" />
+            <Param type="2" data="1" Index="5" />
+            <Param type="2" data="0" Index="6" />
+            <Param type="4" data="0" Index="7" />
+            <Param type="2" data="0" Index="8" />
+            <Param type="6" data="mafm-514-08" Index="9" />
+        </Line>
+        <Line Type="1" Event="4544">
+            <Param type="4" data="-51.271" Index="0" />
+            <Param type="4" data="-1.507" Index="1" />
+            <Param type="4" data="-341.035" Index="2" />
+            <Param type="4" data="0.656" Index="3" />
+            <Param type="6" data="FB_tiannudongxue_0001" Index="4" />
+            <Param type="2" data="1" Index="5" />
+            <Param type="2" data="0" Index="6" />
+            <Param type="4" data="0" Index="7" />
+            <Param type="2" data="0" Index="8" />
+            <Param type="6" data="mafm-514-09" Index="9" />
+        </Line>
+        <Line Type="1" Event="4544">
+            <Param type="4" data="13.481" Index="0" />
+            <Param type="4" data="11.301" Index="1" />
+            <Param type="4" data="-247.157" Index="2" />
+            <Param type="4" data="-2.408" Index="3" />
+            <Param type="6" data="FB_tiannudongxue_0001" Index="4" />
+            <Param type="2" data="1" Index="5" />
+            <Param type="2" data="0" Index="6" />
+            <Param type="4" data="0" Index="7" />
+            <Param type="2" data="0" Index="8" />
+            <Param type="6" data="mafm-514-10" Index="9" />
+        </Line>
+        <Line Type="1" Event="4544">
+            <Param type="4" data="15.523" Index="0" />
+            <Param type="4" data="11.236" Index="1" />
+            <Param type="4" data="-248.735" Index="2" />
+            <Param type="4" data="-2.491" Index="3" />
+            <Param type="6" data="FB_tiannudongxue_0001" Index="4" />
+            <Param type="2" data="1" Index="5" />
+            <Param type="2" data="0" Index="6" />
+            <Param type="4" data="0" Index="7" />
+            <Param type="2" data="0" Index="8" />
+            <Param type="6" data="mafm-514-11" Index="9" />
+        </Line>
+        <Line Type="1" Event="4544">
+            <Param type="4" data="17.35" Index="0" />
+            <Param type="4" data="11.09" Index="1" />
+            <Param type="4" data="-250.634" Index="2" />
+            <Param type="4" data="-2.498" Index="3" />
+            <Param type="6" data="FB_tiannudongxue_0001" Index="4" />
+            <Param type="2" data="1" Index="5" />
+            <Param type="2" data="0" Index="6" />
+            <Param type="4" data="0" Index="7" />
+            <Param type="2" data="0" Index="8" />
+            <Param type="6" data="mafm-514-12" Index="9" />
+        </Line>
+        <Line Type="1" Event="4544">
+            <Param type="4" data="19.091" Index="0" />
+            <Param type="4" data="10.884" Index="1" />
+            <Param type="4" data="-252.249" Index="2" />
+            <Param type="4" data="-2.498" Index="3" />
+            <Param type="6" data="FB_tiannudongxue_0001" Index="4" />
+            <Param type="2" data="1" Index="5" />
+            <Param type="2" data="0" Index="6" />
+            <Param type="4" data="0" Index="7" />
+            <Param type="2" data="0" Index="8" />
+            <Param type="6" data="mafm-514-13" Index="9" />
+        </Line>
+        <Line Type="1" Event="4544">
+            <Param type="4" data="28.324" Index="0" />
+            <Param type="4" data="12.637" Index="1" />
+            <Param type="4" data="-268.211" Index="2" />
+            <Param type="4" data="-1.537" Index="3" />
+            <Param type="6" data="FB_tiannudongxue_0001" Index="4" />
+            <Param type="2" data="1" Index="5" />
+            <Param type="2" data="0" Index="6" />
+            <Param type="4" data="0" Index="7" />
+            <Param type="2" data="0" Index="8" />
+            <Param type="6" data="mafm-514-14" Index="9" />
+        </Line>
+        <Line Type="1" Event="4544">
+            <Param type="4" data="27.587" Index="0" />
+            <Param type="4" data="13.539" Index="1" />
+            <Param type="4" data="-270.84" Index="2" />
+            <Param type="4" data="-1.183" Index="3" />
+            <Param type="6" data="FB_tiannudongxue_0001" Index="4" />
+            <Param type="2" data="1" Index="5" />
+            <Param type="2" data="0" Index="6" />
+            <Param type="4" data="0" Index="7" />
+            <Param type="2" data="0" Index="8" />
+            <Param type="6" data="mafm-514-15" Index="9" />
+        </Line>
+        <Line Type="1" Event="4544">
+            <Param type="4" data="25.54" Index="0" />
+            <Param type="4" data="14.026" Index="1" />
+            <Param type="4" data="-272.796" Index="2" />
+            <Param type="4" data="-0.755" Index="3" />
+            <Param type="6" data="FB_tiannudongxue_0001" Index="4" />
+            <Param type="2" data="1" Index="5" />
+            <Param type="2" data="0" Index="6" />
+            <Param type="4" data="0" Index="7" />
+            <Param type="2" data="0" Index="8" />
+            <Param type="6" data="mafm-514-16" Index="9" />
+        </Line>
+        <Line Type="1" Event="4544">
+            <Param type="4" data="22.827" Index="0" />
+            <Param type="4" data="14.118" Index="1" />
+            <Param type="4" data="-273.469" Index="2" />
+            <Param type="4" data="-0.711" Index="3" />
+            <Param type="6" data="FB_tiannudongxue_0001" Index="4" />
+            <Param type="2" data="1" Index="5" />
+            <Param type="2" data="0" Index="6" />
+            <Param type="4" data="0" Index="7" />
+            <Param type="2" data="0" Index="8" />
+            <Param type="6" data="mafm-514-17" Index="9" />
+        </Line>
+        <Line Type="1" Event="4544">
+            <Param type="4" data="8.628" Index="0" />
+            <Param type="4" data="14.117" Index="1" />
+            <Param type="4" data="-272.764" Index="2" />
+            <Param type="4" data="-0.298" Index="3" />
+            <Param type="6" data="FB_tiannudongxue_0001" Index="4" />
+            <Param type="2" data="1" Index="5" />
+            <Param type="2" data="0" Index="6" />
+            <Param type="4" data="0" Index="7" />
+            <Param type="2" data="0" Index="8" />
+            <Param type="6" data="mafm-514-18" Index="9" />
+        </Line>
+        <Line Type="1" Event="4544">
+            <Param type="4" data="5.9" Index="0" />
+            <Param type="4" data="14.116" Index="1" />
+            <Param type="4" data="-275.677" Index="2" />
+            <Param type="4" data="-1.182" Index="3" />
+            <Param type="6" data="FB_tiannudongxue_0001" Index="4" />
+            <Param type="2" data="1" Index="5" />
+            <Param type="2" data="0" Index="6" />
+            <Param type="4" data="0" Index="7" />
+            <Param type="2" data="0" Index="8" />
+            <Param type="6" data="mafm-514-19" Index="9" />
+        </Line>
+        <Line Type="1" Event="4544">
+            <Param type="4" data="-31.305" Index="0" />
+            <Param type="4" data="5.694" Index="1" />
+            <Param type="4" data="-337.022" Index="2" />
+            <Param type="4" data="-1.111" Index="3" />
+            <Param type="6" data="FB_tiannudongxue_0001" Index="4" />
+            <Param type="2" data="1" Index="5" />
+            <Param type="2" data="0" Index="6" />
+            <Param type="4" data="0" Index="7" />
+            <Param type="2" data="0" Index="8" />
+            <Param type="6" data="mafm-514-20" Index="9" />
+        </Line>
+        <Line Type="1" Event="4544">
+            <Param type="4" data="-30" Index="0" />
+            <Param type="4" data="5.965" Index="1" />
+            <Param type="4" data="-334.804" Index="2" />
+            <Param type="4" data="-0.802" Index="3" />
+            <Param type="6" data="FB_tiannudongxue_0001" Index="4" />
+            <Param type="2" data="1" Index="5" />
+            <Param type="2" data="0" Index="6" />
+            <Param type="4" data="0" Index="7" />
+            <Param type="2" data="0" Index="8" />
+            <Param type="6" data="mafm-514-21" Index="9" />
+        </Line>
+        <Line Type="1" Event="4544">
+            <Param type="4" data="-27.411" Index="0" />
+            <Param type="4" data="5.959" Index="1" />
+            <Param type="4" data="-333.1" Index="2" />
+            <Param type="4" data="-0.51" Index="3" />
+            <Param type="6" data="FB_tiannudongxue_0001" Index="4" />
+            <Param type="2" data="1" Index="5" />
+            <Param type="2" data="0" Index="6" />
+            <Param type="4" data="0" Index="7" />
+            <Param type="2" data="0" Index="8" />
+            <Param type="6" data="mafm-514-22" Index="9" />
+        </Line>
+        <Line Type="1" Event="4544">
+            <Param type="4" data="-24.85" Index="0" />
+            <Param type="4" data="5.861" Index="1" />
+            <Param type="4" data="-333.015" Index="2" />
+            <Param type="4" data="0.16" Index="3" />
+            <Param type="6" data="FB_tiannudongxue_0001" Index="4" />
+            <Param type="2" data="1" Index="5" />
+            <Param type="2" data="0" Index="6" />
+            <Param type="4" data="0" Index="7" />
+            <Param type="2" data="0" Index="8" />
+            <Param type="6" data="mafm-514-23" Index="9" />
+        </Line>
+        <Line Type="1" Event="4544">
+            <Param type="4" data="-54.958" Index="0" />
+            <Param type="4" data="-4.49" Index="1" />
+            <Param type="4" data="-410.468" Index="2" />
+            <Param type="4" data="0.83" Index="3" />
+            <Param type="6" data="FB_tiannudongxue_0001" Index="4" />
+            <Param type="2" data="1" Index="5" />
+            <Param type="2" data="0" Index="6" />
+            <Param type="4" data="0" Index="7" />
+            <Param type="2" data="0" Index="8" />
+            <Param type="6" data="mafm-514-24" Index="9" />
+        </Line>
+        <Line Type="1" Event="4544">
+            <Param type="4" data="-58.339" Index="0" />
+            <Param type="4" data="-5.281" Index="1" />
+            <Param type="4" data="-410.468" Index="2" />
+            <Param type="4" data="0.582" Index="3" />
+            <Param type="6" data="FB_tiannudongxue_0001" Index="4" />
+            <Param type="2" data="1" Index="5" />
+            <Param type="2" data="0" Index="6" />
+            <Param type="4" data="0" Index="7" />
+            <Param type="2" data="0" Index="8" />
+            <Param type="6" data="mafm-514-25" Index="9" />
+        </Line>
+        <Line Type="1" Event="4544">
+            <Param type="4" data="-60.684" Index="0" />
+            <Param type="4" data="-5.792" Index="1" />
+            <Param type="4" data="-407.292" Index="2" />
+            <Param type="4" data="0.64" Index="3" />
+            <Param type="6" data="FB_tiannudongxue_0001" Index="4" />
+            <Param type="2" data="1" Index="5" />
+            <Param type="2" data="0" Index="6" />
+            <Param type="4" data="0" Index="7" />
+            <Param type="2" data="0" Index="8" />
+            <Param type="6" data="mafm-514-26" Index="9" />
+        </Line>
+        <Line Type="1" Event="4544">
+            <Param type="4" data="-65.377" Index="0" />
+            <Param type="4" data="-7.148" Index="1" />
+            <Param type="4" data="-399.318" Index="2" />
+            <Param type="4" data="1.263" Index="3" />
+            <Param type="6" data="FB_tiannudongxue_0001" Index="4" />
+            <Param type="2" data="1" Index="5" />
+            <Param type="2" data="0" Index="6" />
+            <Param type="4" data="0" Index="7" />
+            <Param type="2" data="0" Index="8" />
+            <Param type="6" data="mafm-514-27" Index="9" />
+        </Line>
+        <Line Type="1" Event="4544">
+            <Param type="4" data="-65.131" Index="0" />
+            <Param type="4" data="-7.751" Index="1" />
+            <Param type="4" data="-395.392" Index="2" />
+            <Param type="4" data="1.4" Index="3" />
+            <Param type="6" data="FB_tiannudongxue_0001" Index="4" />
+            <Param type="2" data="1" Index="5" />
+            <Param type="2" data="0" Index="6" />
+            <Param type="4" data="0" Index="7" />
+            <Param type="2" data="0" Index="8" />
+            <Param type="6" data="mafm-514-28" Index="9" />
+        </Line>
+        <Line Type="1" Event="4544">
+            <Param type="4" data="-64.886" Index="0" />
+            <Param type="4" data="-8.245" Index="1" />
+            <Param type="4" data="-392.234" Index="2" />
+            <Param type="4" data="1.448" Index="3" />
+            <Param type="6" data="FB_tiannudongxue_0001" Index="4" />
+            <Param type="2" data="1" Index="5" />
+            <Param type="2" data="0" Index="6" />
+            <Param type="4" data="0" Index="7" />
+            <Param type="2" data="0" Index="8" />
+            <Param type="6" data="mafm-514-29" Index="9" />
+        </Line>
+        <Line Type="1" Event="4544">
+            <Param type="4" data="-64.906" Index="0" />
+            <Param type="4" data="-8.516" Index="1" />
+            <Param type="4" data="-390.143" Index="2" />
+            <Param type="4" data="1.612" Index="3" />
+            <Param type="6" data="FB_tiannudongxue_0001" Index="4" />
+            <Param type="2" data="1" Index="5" />
+            <Param type="2" data="0" Index="6" />
+            <Param type="4" data="0" Index="7" />
+            <Param type="2" data="0" Index="8" />
+            <Param type="6" data="mafm-514-30" Index="9" />
+        </Line>
+        <Line Type="1" Event="4544">
+            <Param type="4" data="-64.921" Index="0" />
+            <Param type="4" data="-8.623" Index="1" />
+            <Param type="4" data="-387.862" Index="2" />
+            <Param type="4" data="1.541" Index="3" />
+            <Param type="6" data="FB_tiannudongxue_0001" Index="4" />
+            <Param type="2" data="1" Index="5" />
+            <Param type="2" data="0" Index="6" />
+            <Param type="4" data="0" Index="7" />
+            <Param type="2" data="0" Index="8" />
+            <Param type="6" data="mafm-514-31" Index="9" />
+        </Line>
+    </Base>
+</Processor>

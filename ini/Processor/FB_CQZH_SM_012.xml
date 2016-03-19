@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes" ?>
+<Processor>
+    <Base type="object" version="1.0">
+        <Line Type="2" Event="2001" Name="AUTOP1" />
+        <Line Type="1" Event="3205">
+            <Param type="13" srctype="8" data="AUTOP1" Index="0" />
+            <Param type="6" data="BeatBackType" Index="1" />
+            <Param type="4" data="0" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP2" />
+        <Line Type="1" Event="3205">
+            <Param type="13" srctype="8" data="AUTOP2" Index="0" />
+            <Param type="6" data="WarnType" Index="1" />
+            <Param type="4" data="1" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP3" />
+        <Line Type="1" Event="3205">
+            <Param type="13" srctype="8" data="AUTOP3" Index="0" />
+            <Param type="6" data="SpringRange" Index="1" />
+            <Param type="4" data="100" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP4" />
+        <Line Type="1" Event="3205">
+            <Param type="13" srctype="8" data="AUTOP4" Index="0" />
+            <Param type="6" data="SphereRadius" Index="1" />
+            <Param type="4" data="100" Index="2" />
+        </Line>
+        <Line Type="1" Event="5019">
+            <Param type="4" data="3281.068" Index="0" />
+            <Param type="4" data="0" Index="1" />
+            <Param type="4" data="6859.508" Index="2" />
+            <Param type="6" data="FB_DGPD_0017_03" Index="3" />
+            <Param type="6" data="Act" Index="4" />
+        </Line>
+        <Line Type="1" Event="5019">
+            <Param type="4" data="3280.726" Index="0" />
+            <Param type="4" data="0" Index="1" />
+            <Param type="4" data="6856.931" Index="2" />
+            <Param type="6" data="FB_DGPD_0017_03" Index="3" />
+            <Param type="6" data="Act" Index="4" />
+        </Line>
+        <Line Type="1" Event="5019">
+            <Param type="4" data="3279.878" Index="0" />
+            <Param type="4" data="0" Index="1" />
+            <Param type="4" data="6855.970" Index="2" />
+            <Param type="6" data="FB_DGPD_0017_03" Index="3" />
+            <Param type="6" data="Act" Index="4" />
+        </Line>
+        <Line Type="1" Event="5019">
+            <Param type="4" data="3278.045" Index="0" />
+            <Param type="4" data="0" Index="1" />
+            <Param type="4" data="6854.920" Index="2" />
+            <Param type="6" data="FB_DGPD_0014_03" Index="3" />
+            <Param type="6" data="Act" Index="4" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP5" />
+        <Line Type="1" Event="4021">
+            <Param type="13" srctype="8" data="AUTOP5" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="6" data="talk_special_CQZH-SM_002_1" Index="2" />
+            <Param type="11" data=" " Index="3" />
+        </Line>
+        <Line Type="2" Event="2115" Name="AUTOP6" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP6" Index="0" />
+            <Param type="6" data="Kill" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="3" Index="3" />
+        </Line>
+    </Base>
+</Processor>

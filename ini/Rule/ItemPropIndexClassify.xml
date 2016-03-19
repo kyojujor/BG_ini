@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--ITEM属性索引分类-->
+<!--ITEM属性索引见ItemPropIndexConvert.xml-->
+<Object>
+    <Property ID="9999" FatherIndex="9999" TextID=""  Desc="全部"/>
+    <Property ID="-1" FatherIndex="9999" TextID="item_prop_none"  Desc="无"/>
+    <Property ID="1000" FatherIndex="9999" TextID="item_prop_base"  Desc="基础属性"/>
+            <Property ID="0"    FatherIndex="1000"  TextID="item_prop_Str"     Desc="力量"/>
+            <Property ID="1"    FatherIndex="1000"  TextID="item_prop_Dex"     Desc="敏捷"/>
+            <Property ID="2"    FatherIndex="1000"  TextID="item_prop_Ing"     Desc="智力"/>
+            <Property ID="3"    FatherIndex="1000"  TextID="item_prop_Spi"     Desc="精神"/>
+            <Property ID="4"    FatherIndex="1000"  TextID="item_prop_Sta"     Desc="体质"/>
+            <Property ID="5"    FatherIndex="1000"  TextID="item_prop_Esth"    Desc="感知"/>
+    <Property ID="2000" FatherIndex="9999" TextID="item_prop_physical"  Desc="物理攻击"/>
+        <Property ID="6"    FatherIndex="2000"  TextID="item_prop_IntensityPhyAttack"   Desc="物理攻击强度"/>
+        <Property ID="8"    FatherIndex="2000"  TextID="item_prop_CritLevel"            Desc="物理暴击等级"/>    
+        <Property ID="11"   FatherIndex="2000"  TextID="item_prop_AccurateLevel"        Desc="精准等级"/>
+        <Property ID="10"   FatherIndex="2000"  TextID="item_prop_PenetrateLevel"       Desc="护甲穿透等级"/>
+        <Property ID="44"   FatherIndex="2000"  TextID="item_prop_MaxphyAttack"         Desc="最大物理攻击力"/>
+    <Property ID="3000" FatherIndex="9999" TextID="item_prop_magic"     Desc="法术攻击"/>
+        <Property ID="12"   FatherIndex="3000"  TextID="item_prop_IntensityMagicAttack" Desc="法术攻击强度"/>
+        <Property ID="13"   FatherIndex="3000"  TextID="item_prop_MagCritLevel"         Desc="法术暴击等级"/>
+        <Property ID="14"   FatherIndex="3000"  TextID="item_prop_MagPrecLevel"         Desc="法术精准等级"/>
+        <Property ID="46"   FatherIndex="3000"  TextID="item_prop_MaxMagicAttack"       Desc="最大法术攻击力"/>
+    <Property ID="4000" FatherIndex="9999" TextID="item_prop_defence_recover" Desc="防御/回复"/>
+        <Property ID="4100" FatherIndex="4000" TextID="item_prop_defence" Desc="防御"/>
+            <Property ID="15"   FatherIndex="4100"  TextID="item_prop_Guard"            Desc="护甲值"/>
+            <Property ID="18"   FatherIndex="4100"  TextID="item_prop_DefenseLevel"     Desc="防御等级"/>
+            <Property ID="16"   FatherIndex="4100"  TextID="item_prop_DodgeLevel"       Desc="闪避等级"/>
+            <Property ID="17"   FatherIndex="4100"  TextID="item_prop_MagdodgeLevel"    Desc="法术闪避等级"/>
+            <Property ID="19"   FatherIndex="4100"  TextID="item_prop_WeakdefVal"       Desc="伤害抵御值"/>
+            <Property ID="36"   FatherIndex="4100"  TextID="item_prop_AllResist"        Desc="全系抗性"/>
+        <Property ID="4200" FatherIndex="4000" TextID="item_prop_recover" Desc="回复"/>
+            <Property ID="47"   FatherIndex="4200"  TextID="item_prop_HPUpSpeed"        Desc="生命回复"/>
+            <Property ID="48"   FatherIndex="4200"  TextID="item_prop_MPUpSpeed"        Desc="法力回复"/>
+    <Property ID="5000" FatherIndex="9999" TextID="item_prop_element" Desc="元素"/>
+        <Property ID="5100"   FatherIndex="5000"  TextID="item_prop_element_attack"     Desc="元素攻击"/>
+            <Property ID="22"   FatherIndex="5100"  TextID="item_prop_WindAttack"           Desc="风系攻击"/>
+            <Property ID="23"   FatherIndex="5100"  TextID="item_prop_FireAttack"           Desc="火系攻击"/>
+            <Property ID="24"   FatherIndex="5100"  TextID="item_prop_EarthAttack"          Desc="土系攻击"/>
+            <Property ID="25"   FatherIndex="5100"  TextID="item_prop_DarkAttack"           Desc="暗系攻击"/>
+            <Property ID="26"   FatherIndex="5100"  TextID="item_prop_WaterAttack"          Desc="水系攻击"/>
+            <Property ID="27"   FatherIndex="5100"  TextID="item_prop_LightningAttack"      Desc="雷系攻击"/>
+            <Property ID="50"   FatherIndex="5100"  TextID="item_prop_ElementDeepenLevel"   Desc="元素加深等级"/>
+        <Property ID="5200"   FatherIndex="5000"  TextID="item_prop_element_defence"    Desc="元素防御"/>
+            <Property ID="30"   FatherIndex="5200"  TextID="item_prop_Wind"                 Desc="风系抗性"/>
+            <Property ID="31"   FatherIndex="5200"  TextID="item_prop_Fire"                 Desc="火系抗性"/>
+            <Property ID="32"   FatherIndex="5200"  TextID="item_prop_Earth"                Desc="土系抗性"/>
+            <Property ID="33"   FatherIndex="5200"  TextID="item_prop_Dark"                 Desc="暗系抗性"/>
+            <Property ID="34"   FatherIndex="5200"  TextID="item_prop_Water"                Desc="水系抗性"/>
+            <Property ID="35"   FatherIndex="5200"  TextID="item_prop_Lightning"            Desc="雷系抗性"/>
+            <Property ID="49"   FatherIndex="5200"  TextID="item_prop_ElementResistLevel"   Desc="元素减免等级"/>
+    <Property ID="6000" FatherIndex="9999" TextID="item_prop_other"     Desc="其它"/>
+        <Property ID="7"    FatherIndex="6000"  TextID="item_prop_CritHurt"         Desc="暴击伤害"/>
+        <Property ID="9"    FatherIndex="6000"  TextID="item_prop_CritMulLevel"         Desc="暴击倍率等级"/>
+        <Property ID="37"   FatherIndex="6000"  TextID="item_prop_MaxHP"   Desc="最大生命值"/>
+        <Property ID="38"   FatherIndex="6000"  TextID="item_prop_MaxMP"   Desc="最大法力值"/>
+</Object>

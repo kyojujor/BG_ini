@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 商店配置 -->
+<!-- NumPerPage               商店主界面一页显示的物品数量                int     -->
+<!-- ReclaimNumLimit          回购栏一页显示的物品数量                    int     -->
+<!-- ReclaimKeepTime          回购栏物品保留时间          小时数,分钟数   string  -->
+<!-- HardinessRecoeverFeeCoe  最大耐久恢复费系数                          float   -->
+<!-- NormalRepairFeeCoe       普通修理费系数                              float   -->
+<!-- FineRepairFeeCoe         精修修理费系数                              float   -->
+<Object>
+<Property ID = "config" NumPerPage = "14" ReclaimNumLimit = "14" ReclaimKeepTime = "24,0" HardinessRecoeverFeeCoe = "5" 
+      NormalRepairFeeCoe = "0.7" FineRepairFeeCoe = "1.0" />
+</Object>

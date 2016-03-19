@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes" ?>
+<Processor>
+    <Base type="object" version="1.0">
+        <Line Type="2" Event="2114" Name="AUTOP1">
+            <Param type="6" data="item_zhanchang_07" Index="0" />
+        </Line>
+        <Line Type="1" Event="4509">
+            <Param type="13" srctype="8" data="AUTOP1" Index="0" />
+        </Line>
+        <Line Type="2" Event="5082" Name="AUTOP2">
+            <Param type="8" data=" " Index="0" />
+        </Line>
+        <Line Type="1" Event="4575">
+            <Param type="13" srctype="8" data="AUTOP2" Index="0" />
+            <Param type="6" data="item_zhanchang_15" Index="1" />
+            <Param type="4" data="-5835.586914" Index="2" />
+            <Param type="4" data="4971.927246" Index="3" />
+        </Line>
+        <Line Type="1" Event="5019">
+            <Param type="4" data="-5835.685" Index="0" />
+            <Param type="4" data="20.839" Index="1" />
+            <Param type="4" data="4971.754" Index="2" />
+            <Param type="6" data="item_zhanchang_09" Index="3" />
+            <Param type="6" data="Act" Index="4" />
+        </Line>
+    </Base>
+</Processor>

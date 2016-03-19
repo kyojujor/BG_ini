@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 被2011 rel. 2 sp1 (TeaM DJiNN) 使用XMLSpy vTeaM DJiNN编辑的 (http://www.altova.com) by -->
+<!--拍卖行物品类型-->
+<!--ID        物品类型枚举值                                 -->
+<!--BigType   物品大类         0无 1武器 2防具 3消耗品 4其他 -->
+<!--TextID    物品中文包                                     -->
+<!--Father    父类型                                         -->
+<Object>
+	<Property ID="55555" Name="全部" BigType="0" TextID="ui_auction_search_itemtype_all" Father = "0"/>
+
+		<Property ID="10000" Name="武器" BigType="1" TextID="ui_auction_search_itemtype_weapon" Father="55555"/>
+			<Property ID="101" Name="剑"     BigType="1" TextID="ui_auction_search_itemtype_weapon_sword"   Father="10000"/>
+			<Property ID="102" Name="匕首"   BigType="1" TextID="ui_auction_search_itemtype_weapon_dagger"  Father="10000"/>
+			<Property ID="104" Name="双手斧" BigType="1" TextID="ui_auction_search_itemtype_weapon_axe"     Father="10000"/>
+			<Property ID="107" Name="盾牌"   BigType="1" TextID="ui_auction_search_itemtype_weapon_shield"  Father="10000"/>
+			<Property ID="108" Name="魔棒"   BigType="1" TextID="ui_auction_search_itemtype_weapon_wand"    Father="10000"/>
+			<Property ID="115" Name="双手枪" BigType="1" TextID="ui_auction_search_itemtype_weapon_gun"     Father="10000"/>
+			<Property ID="118" Name="法杖"   BigType="1" TextID="ui_auction_search_itemtype_weapon_staff"   Father="10000"/>
+			<Property ID="124" Name="魔瓶"   BigType="1" TextID="ui_auction_search_itemtype_weapon_bottle"  Father="10000"/>
+
+		<Property ID="11000" Name="防具" BigType="2" TextID="ui_auction_search_itemtype_equip" Father="55555"/>
+            <Property ID="11100" Name="布甲" BigType="2" TextID="ui_auction_search_itemtype_equip_1"  Father="11000"/>
+                <Property ID="11139" Name="腰带（布甲）" BigType="2" TextID="ui_auction_search_itemtype_equip_belt_1"  Father="11100"/>
+                <Property ID="11140" Name="头部（布甲）" BigType="2" TextID="ui_auction_search_itemtype_equip_hat_1"   Father="11100"/>
+                <Property ID="11141" Name="上衣（布甲）" BigType="2" TextID="ui_auction_search_itemtype_equip_cloth_1" Father="11100"/>
+                <Property ID="11142" Name="裤子（布甲）" BigType="2" TextID="ui_auction_search_itemtype_equip_pants_1" Father="11100"/>
+                <Property ID="11143" Name="鞋子（布甲）" BigType="2" TextID="ui_auction_search_itemtype_equip_shoes_1" Father="11100"/>
+                <Property ID="11145" Name="护腕（布甲）" BigType="2" TextID="ui_auction_search_itemtype_equip_wrist_1" Father="11100"/>
+                <Property ID="11146" Name="手套（布甲）" BigType="2" TextID="ui_auction_search_itemtype_equip_hand_1"  Father="11100"/>
+			<Property ID="11200" Name="皮甲" BigType="2" TextID="ui_auction_search_itemtype_equip_2"  Father="11000"/>
+                <Property ID="11239" Name="腰带（皮甲）" BigType="2" TextID="ui_auction_search_itemtype_equip_belt_2"  Father="11200"/>
+                <Property ID="11240" Name="头部（皮甲）" BigType="2" TextID="ui_auction_search_itemtype_equip_hat_2"   Father="11200"/>
+                <Property ID="11241" Name="上衣（皮甲）" BigType="2" TextID="ui_auction_search_itemtype_equip_cloth_2" Father="11200"/>
+                <Property ID="11242" Name="裤子（皮甲）" BigType="2" TextID="ui_auction_search_itemtype_equip_pants_2" Father="11200"/>
+                <Property ID="11243" Name="鞋子（皮甲）" BigType="2" TextID="ui_auction_search_itemtype_equip_shoes_2" Father="11200"/>
+                <Property ID="11245" Name="护腕（皮甲）" BigType="2" TextID="ui_auction_search_itemtype_equip_wrist_2" Father="11200"/>
+                <Property ID="11246" Name="手套（皮甲）" BigType="2" TextID="ui_auction_search_itemtype_equip_hand_2"  Father="11200"/>
+			<Property ID="11300" Name="中甲" BigType="2" TextID="ui_auction_search_itemtype_equip_3"  Father="11000"/>
+                <Property ID="11339" Name="腰带（中甲）" BigType="2" TextID="ui_auction_search_itemtype_equip_belt_3"  Father="11300"/>
+                <Property ID="11340" Name="头部（中甲）" BigType="2" TextID="ui_auction_search_itemtype_equip_hat_3"   Father="11300"/>
+                <Property ID="11341" Name="上衣（中甲）" BigType="2" TextID="ui_auction_search_itemtype_equip_cloth_3" Father="11300"/>
+                <Property ID="11342" Name="裤子（中甲）" BigType="2" TextID="ui_auction_search_itemtype_equip_pants_3" Father="11300"/>
+                <Property ID="11343" Name="鞋子（中甲）" BigType="2" TextID="ui_auction_search_itemtype_equip_shoes_3" Father="11300"/>
+                <Property ID="11345" Name="护腕（中甲）" BigType="2" TextID="ui_auction_search_itemtype_equip_wrist_3" Father="11300"/>
+                <Property ID="11346" Name="手套（中甲）" BigType="2" TextID="ui_auction_search_itemtype_equip_hand_3"  Father="11300"/>
+			<Property ID="11400" Name="重甲" BigType="2" TextID="ui_auction_search_itemtype_equip_4"  Father="11000"/>
+                <Property ID="11439" Name="腰带（重甲）" BigType="2" TextID="ui_auction_search_itemtype_equip_belt_4"  Father="11400"/>
+                <Property ID="11440" Name="头部（重甲）" BigType="2" TextID="ui_auction_search_itemtype_equip_hat_4"   Father="11400"/>
+                <Property ID="11441" Name="上衣（重甲）" BigType="2" TextID="ui_auction_search_itemtype_equip_cloth_4" Father="11400"/>
+                <Property ID="11442" Name="裤子（重甲）" BigType="2" TextID="ui_auction_search_itemtype_equip_pants_4" Father="11400"/>
+                <Property ID="11443" Name="鞋子（重甲）" BigType="2" TextID="ui_auction_search_itemtype_equip_shoes_4" Father="11400"/>
+                <Property ID="11445" Name="护腕（重甲）" BigType="2" TextID="ui_auction_search_itemtype_equip_wrist_4" Father="11400"/>
+                <Property ID="11446" Name="手套（重甲）" BigType="2" TextID="ui_auction_search_itemtype_equip_hand_4"  Father="11400"/>
+
+		<Property ID="12000" Name="饰物" BigType="4" TextID="ui_auction_search_itemtype_decoration" Father="55555"/>
+			<Property ID="147" Name="项链"   BigType="4" TextID="ui_auction_search_itemtype_decoration_necklace"      Father="12000"/>
+			<Property ID="148" Name="披风"   BigType="4" TextID="ui_auction_search_itemtype_decoration_mantle"        Father="12000"/>
+			<Property ID="149" Name="戒指"   BigType="4" TextID="ui_auction_search_itemtype_decoration_ring"          Father="12000"/>
+			<Property ID="150" Name="饰品"   BigType="4" TextID="ui_auction_search_itemtype_decoration_jewelry"       Father="12000"/>
+			<Property ID="171" Name="能量盾" BigType="4" TextID="ui_auction_search_itemtype_decoration_energy_shield" Father="12000"/>
+
+		<Property ID="13000" Name="骑乘宠物" BigType="4" TextID="ui_auction_search_itemtype_ride" Father="55555"/>
+			<Property ID="89"  Name="载具" BigType="4" TextID="ui_auction_search_itemtype_ride_carrier" Father="13000"/>
+			<Property ID="90"  Name="坐骑" BigType="4" TextID="ui_auction_search_itemtype_ride_mount"   Father="13000"/>
+			<Property ID="202" Name="宠物" BigType="4" TextID="ui_auction_search_itemtype_ride_partner" Father="13000"/>
+
+		<Property ID="14000" Name="镶嵌" BigType="3" TextID="ui_auction_search_itemtype_inlay" Father="55555"/>
+			<Property ID="75" Name="蓝宝石" BigType="3" TextID="ui_auction_search_itemtype_inlay_blue"   Father="14000"/>
+			<Property ID="76" Name="绿宝石" BigType="3" TextID="ui_auction_search_itemtype_inlay_green"  Father="14000"/>
+			<Property ID="77" Name="黄宝石" BigType="3" TextID="ui_auction_search_itemtype_inlay_yellow" Father="14000"/>
+			<Property ID="78" Name="红宝石" BigType="3" TextID="ui_auction_search_itemtype_inlay_red"    Father="14000"/>
+			<Property ID="79" Name="紫宝石" BigType="3" TextID="ui_auction_search_itemtype_inlay_purple" Father="14000"/>
+
+		<Property ID="15000" Name="容器" BigType="4" TextID="ui_auction_search_itemtype_container" Father="55555"/>
+			<Property ID="31" Name="背包" BigType="4" TextID="ui_auction_search_itemtype_container_addbag" Father="15000"/>
+
+		<Property ID="16000" Name="消耗品" BigType="3" TextID="ui_auction_search_itemtype_consumable" Father="55555"/>
+			<Property ID="258" Name="能量晶体" BigType="3" TextID="ui_auction_search_itemtype_consumable_energy_crystal" Father="16000"/>
+			<Property ID="36"  Name="宝箱"     BigType="3" TextID="ui_auction_search_itemtype_consumable_box"            Father="16000"/>
+			<Property ID="1"   Name="回复药剂" BigType="3" TextID="ui_auction_search_itemtype_potion_addhp"              Father="16000"/>
+			<Property ID="15"  Name="传送卷轴" BigType="3" TextID="ui_auction_search_itemtype_potion_addmp"              Father="16000"/>
+
+		<Property ID="17000" Name="副职配方" BigType="3" TextID="ui_auction_search_itemtype_formula" Father="55555"/>
+			<Property ID="34" Name="随机产出配方" BigType="3" TextID="ui_auction_search_itemtype_formula1" Father="17000"/>
+			<Property ID="35" Name="固定产出配方" BigType="3" TextID="ui_auction_search_itemtype_formula2" Father="17000"/>
+
+		<Property ID="18000" Name="材料" BigType="4" TextID="ui_auction_search_itemtype_material" Father="55555"/>
+			<Property ID="500"  Name="矿石"     BigType="4" TextID="ui_auction_search_itemtype_formula_mineral"         Father="18000"/>
+			<Property ID="501"  Name="金属"     BigType="4" TextID="ui_auction_search_itemtype_formula_metal"           Father="18000"/>
+			<Property ID="502"  Name="草药"     BigType="4" TextID="ui_auction_search_itemtype_formula_herb"            Father="18000"/>
+			<Property ID="503"  Name="布料"     BigType="4" TextID="ui_auction_search_itemtype_formula_cloth"           Father="18000"/>
+			<Property ID="504"  Name="珠宝原石" BigType="4" TextID="ui_auction_search_itemtype_formula_ori_jewel"       Father="18000"/>
+			<Property ID="505"  Name="能源"     BigType="4" TextID="ui_auction_search_itemtype_consumable_energy"       Father="18000"/>
+			<Property ID="506"  Name="晶体"     BigType="4" TextID="ui_auction_search_itemtype_consumable_crystal"      Father="18000"/>
+			<Property ID="1409" Name="特殊材料" BigType="4" TextID="ui_auction_search_itemtype_other_special_material"  Father="18000"/>
+			<Property ID="2022" Name="功能材料" BigType="4" TextID="ui_auction_search_itemtype_other_material"          Father="18000"/>
+
+		<Property ID="49000" Name="其它" BigType="4" TextID="ui_auction_search_itemtype_other" Father="55555"/>
+</Object>

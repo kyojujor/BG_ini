@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 被2011 rel. 2 sp1 (TeaM DJiNN) 使用XMLSpy vTeaM DJiNN编辑的 (http://www.altova.com) by -->
+<Object>
+	<!-- 	
+EQScore=装备品质分数
+STRScore=强化分数
+STOScore=宝石分数
+SHScore=打孔分数
+HRScore=军阶分数
+ESScore=能量盾系数
+	-->
+	<Property ID="EQScore" LV1="50" LV2="100" LV3="200" LV4="400" LV5="600"/>
+	<Property ID="STRScore" LV1="100" LV2="150" LV3="230" LV4="300" LV5="350" LV6="400" LV7="450" LV8="500" LV9="550" LV10="600"/>
+	<Property ID="STOScore" LV1="50" LV2="75" LV3="115" LV4="150" LV5="175" LV6="200" LV7="225" LV8="250" LV9="275" LV10="300"/>
+	<Property ID="SHScore" LV1="150" LV2="260" LV3="500"/>
+	<Property ID="HRScore" LV1="20" LV2="320" LV3="460" LV4="600" LV5="700" LV6="800" LV7="900" LV8="1000" LV9="1100" LV10="1200"/>
+	<Property ID="ESScore" LV1="0.8" LV2="0.9" LV3="1" LV4="1.13" LV5="1.25"/>
+</Object>

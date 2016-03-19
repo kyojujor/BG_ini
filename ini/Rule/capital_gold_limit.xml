@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) 
+	金币每日消耗上限规则
+    每日消耗点券时 根据当日消耗点券数 计算 可开通的每日金币获得 上限限额 持续时间(天数) 
+    金币单位：铜 
+    L0 必须配置 而且 DayMaxGold 和 capital.xml 里金币每日获得上限一致
+    必须按照从低级到高级的顺序配置
+-->
+<Object>
+    <Property ID="L0"  Ticket="0"    DayMaxGold = "100000000" Days = "0"/>
+	<Property ID="L1"  Ticket="10"   DayMaxGold = "200000000" Days = "3"/>
+	<Property ID="L2"  Ticket="100"  DayMaxGold = "300000000" Days = "5"/>
+	<Property ID="L3"  Ticket="1000" DayMaxGold = "400000000" Days = "7"/>
+</Object>

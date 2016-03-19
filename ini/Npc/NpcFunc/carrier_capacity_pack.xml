@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 被2011 rel. 2 sp1 (TeaM DJiNN) 使用XMLSpy vTeaM DJiNN编辑的 (http://www.altova.com) by -->
+<Object>
+	<!--ID能量消耗包-->
+	<!--capacityvalue 能量消耗的值 启动消耗,移动消耗-->
+	<!--capacitybuff  当消耗到一定程度所要添加的buff属性-->
+	<!--capacitycof   消耗百分比-->
+	<Property ID="zq_s" capacityvalue="3,15" capacitycof="10" capacitybuffid="Buff_CarrierCap_zq01"/>
+	<Property ID="zq_m" capacityvalue="4,20" capacitycof="10" capacitybuffid="Buff_CarrierCap_zq01"/>
+	<Property ID="zq_l" capacityvalue="6,25" capacitycof="10" capacitybuffid="Buff_CarrierCap_zq01"/>
+	<Property ID="zq_x" capacityvalue="8,30" capacitycof="10" capacitybuffid="Buff_CarrierCap_zq01"/>
+	<Property ID="qh_s" capacityvalue="3,15" capacitycof="10" capacitybuffid="Buff_CarrierCap_qh01"/>
+	<Property ID="qh_m" capacityvalue="4,20" capacitycof="10" capacitybuffid="Buff_CarrierCap_qh01"/>
+	<Property ID="qh_l" capacityvalue="6,25" capacitycof="10" capacitybuffid="Buff_CarrierCap_qh01"/>
+	<Property ID="qh_x" capacityvalue="8,30" capacitycof="10" capacitybuffid="Buff_CarrierCap_qh01"/>
+</Object>

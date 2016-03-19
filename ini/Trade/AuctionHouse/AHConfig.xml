@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- ID																			-->
+<!-- ConsignLimit			寄售限量					    				    -->
+<!-- KeepingFeeCoe			保管费系数					时间,系数|时间,系数|... -->
+<!-- KeepingFeeMin			最低保管费					单位：铜                -->
+<!-- TransactFeeCoe			交易手续费系数				                        -->
+<!-- SearchReNumPerPage		搜索结果一页显示多少个						        -->
+<!-- MyConsignNumPerPage	我的寄售一页显示多少个								-->
+<!-- MyBidNumPerPage		我的竞拍一页显示多少个								-->
+<Object>
+	<Property ID="0" ConsignLimit="10" KeepingFeeCoe="12,0.1|24,0.2|48,0.4" KeepingFeeMin="1" TransactFeeCoe="0.15" SearchReNumPerPage="20" MyConsignNumPerPage="20" MyBidNumPerPage="20"/>
+</Object>

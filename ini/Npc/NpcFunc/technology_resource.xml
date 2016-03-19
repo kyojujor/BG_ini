@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!--ID 流水号 
+    PackageID 资源包ID 
+    Name 资源包名称 
+    ResourceID 资源ID 
+    TotalNum 资源总数 
+    Throughput 生产能力 
+    Cycle 生产周期(s)-->
+<Object>
+<!--示例-->
+	<Property ID="A_1" PackageID="Resource001" Name="资源包001" ResourceID="Wood01" TotalNum="100000" Throughput="20" Cycle="8"/>
+	<Property ID="A_2" PackageID="Resource001" Name="资源包001" ResourceID="Wood02" TotalNum="50000" Throughput="30" Cycle="8"/>
+	<Property ID="A_3" PackageID="Resource002" Name="资源包002" ResourceID="Wood03" TotalNum="100000" Throughput="20" Cycle="8"/>
+	<Property ID="A_4" PackageID="Resource002" Name="资源包002" ResourceID="Wood04" TotalNum="50000" Throughput="30" Cycle="8"/>
+<!--正是资源-->
+</Object>

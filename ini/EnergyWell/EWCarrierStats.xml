@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 被2011 rel. 2 sp1 (jiangyingxi) 使用XMLSpy vsnail编辑的 (http://www.altova.com) by -->
+<!-- 载具显示数值包 -->
+<!-- ID					载具显示数值包ID						int	-->
+<!-- OverAll			载具综合实力（星级）	范围[1,10]		int	-->
+<!-- Defence			防御能力				范围[1,1000]	int	-->
+<!-- Siege				攻城能力				范围[1,1000]	int	-->
+<!-- AntiCarrier		对载具伤害的能力		范围[1,1000]	int	-->
+<!-- AntiPlayer			对人伤害的能力			范围[1,1000]	int	-->
+<!-- Speed				机动力					范围[1,1000]	int -->
+<Object>
+	<Property ID="1" OverAll="6" Defence="700" Siege="825" AntiCarrier="220" AntiPlayer="400" Speed="100"/>
+	<Property ID="2" OverAll="1" Defence="500" Siege="165" AntiCarrier="160" AntiPlayer="200" Speed="1000"/>
+	<Property ID="3" OverAll="3" Defence="500" Siege="335" AntiCarrier="330" AntiPlayer="500" Speed="700"/>
+	<Property ID="4" OverAll="5" Defence="700" Siege="750" AntiCarrier="200" AntiPlayer="400" Speed="100"/>
+	<Property ID="5" OverAll="6" Defence="700" Siege="825" AntiCarrier="220" AntiPlayer="300" Speed="100"/>
+	<Property ID="6" OverAll="1" Defence="500" Siege="165" AntiCarrier="160" AntiPlayer="200" Speed="1000"/>
+	<Property ID="7" OverAll="3" Defence="500" Siege="335" AntiCarrier="330" AntiPlayer="600" Speed="700"/>
+	<Property ID="8" OverAll="5" Defence="700" Siege="750" AntiCarrier="200" AntiPlayer="300" Speed="100"/>
+	<Property ID="9" OverAll="7" Defence="700" Siege="900" AntiCarrier="240" AntiPlayer="400" Speed="100"/>
+	<Property ID="10" OverAll="2" Defence="500" Siege="185" AntiCarrier="180" AntiPlayer="200" Speed="1000"/>
+	<Property ID="11" OverAll="4" Defence="600" Siege="370" AntiCarrier="370" AntiPlayer="500" Speed="700"/>
+	<Property ID="12" OverAll="7" Defence="700" Siege="900" AntiCarrier="240" AntiPlayer="400" Speed="100"/>
+	<Property ID="13" OverAll="2" Defence="500" Siege="185" AntiCarrier="180" AntiPlayer="200" Speed="1000"/>
+	<Property ID="14" OverAll="4" Defence="600" Siege="370" AntiCarrier="370" AntiPlayer="600" Speed="700"/>
+</Object>

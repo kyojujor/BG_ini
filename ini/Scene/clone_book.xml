@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 
+
+ID  副本ID
+
+Name  副本名称（中文包ID）
+
+以下字段读取clone_bossinfo.xml表中数据，配置bossID；
+
+EasyMode    简单模式
+ 
+HardMode    困难模式
+
+HeroMode    英雄模式
+
+HeroicMode  史诗模式
+ -->
+<Object>
+	<!--流浪群岛-->
+	<Property ID="101" Name="desc_map_101" EasyMode="fb_llqd_009,fb_llqd_008,boss_0014" LevelOpenEasy="23" OpenDesEasy="clone_0003" HardMode="fb_llqd_008_L2,fb_llqd_009_L2,boss_0014_L2" LevelOpenHard="38" OpenDesHard="clone_2003"/>
+	<!--余晖洞穴-->
+	<Property ID="102" Name="desc_map_102" EasyMode="monster_qhm002_0051,monster_qhm002_0052" LevelOpenEasy="15" OpenDesEasy="clone_0001" HardMode="FB_yuhuidongxue_0059,FB_yuhuidongxue_0060,FB_yuhuidongxue_0061" LevelOpenHard="34" OpenDesHard="clone_2001"/>
+	<!--地下干线-->
+	<Property ID="103" Name="desc_map_103" EasyMode="monster_zqm005_0070,monster_zqm005_0071" LevelOpenEasy="15" OpenDesEasy="clone_0002" HardMode="FB_103KN_0024,FB_103KN_0023,FB_103KN_0022" LevelOpenHard="34" OpenDesHard="clone_2002"/>
+	<!--远古之门-->
+	<Property ID="105" Name="desc_map_105" EasyMode="FB_yuanguzhimen_0017_huo,FB_yuanguzhimen_0017_bing,FB_yuanguzhimen_0024,FB_yuanguzhimen_0019" LevelOpenEasy="34" OpenDesEasy="clone_0005" HardMode="FB_105KN_0048,FB_105KN_0024,FB_105KN_0019,FB_105KN_0018,FB_105KN_0020" LevelOpenHard="40" OpenDesHard="clone_2005"/>
+	<!--充能井-->
+	<Property ID="107" Name="desc_map_107" EasyMode="fb_chnj_boss_01,fb_chnj_boss_02" LevelOpenEasy="30" OpenDesEasy="clone_0004"/>
+	<!--天怒教堂-->
+	<Property ID="114" Name="desc_map_104" EasyMode="FB_TNJT_BOSS_01,FB_TNJT_BOSS_02,FB_TNJT_BOSS_03,FB_TNJT_BOSS_04" LevelOpenEasy="30" OpenDesEasy="clone_0006" HardMode="FB_TNB_BOSS_001,FB_TNB_BOSS_002,FB_TNB_BOSS_003,FB_TNB_BOSS_004,FB_TNB_BOSS_005,FB_TNB_BOSS_006,FB_TNB_BOSS_007" LevelOpenHard="40" OpenDesHard="clone_2006"/>
+	<!--提奥迪亚-->
+	<Property ID="115" Name="desc_map_115" EasyMode="FB_tiaodiya_0021,FB_tiaodiya_0024,FB_tiaodiya_0025" LevelOpenEasy="38" OpenDesEasy="clone_0008" HardMode="FB_tiaodiya_0021_L2,FB_tiaodiya_0024_L2,FB_tiaodiya_0025_L2" LevelOpenHard="40" OpenDesHard="clone_2008"/>
+	<!--天怒洞穴-->
+	<Property ID="120" Name="desc_map_120" EasyMode="FB_TNDX_BOSS_03,FB_TNDX_BOSS_01,FB_TNDX_BOSS_05" LevelOpenEasy="27" OpenDesEasy="clone_0007" HardMode="FB_TNB_BOSS_001,FB_TNB_BOSS_002,FB_TNB_BOSS_003,FB_TNB_BOSS_004,FB_TNB_BOSS_005,FB_TNB_BOSS_006,FB_TNB_BOSS_007" LevelOpenHard="40" OpenDesHard="clone_2007"/>
+	<!--天怒堡-->
+	<Property ID="122" Name="desc_map_122" EasyMode="FB_TNB_BOSS_001,FB_TNB_BOSS_002,FB_TNB_BOSS_003,FB_TNB_BOSS_004,FB_TNB_BOSS_005,FB_TNB_BOSS_006,FB_TNB_BOSS_007" LevelOpenHard="40" OpenDesHard="clone_2008" Father="114"/>
+	<!--苍穹之喉-->
+	<Property ID="118" Name="desc_map_118" EasyMode="FB_DGPD_0005_1,FB_DGPD_0044_1,FB_DGPD_0013,FB_DGPD_0020,FB_DGPD_0027,FB_DGPD_0033,FB_DGPD_0053_01" LevelOpenEasy="40" OpenDesEasy="clone_0009"/>
+</Object>

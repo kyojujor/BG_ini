@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes" ?>
+<Processor>
+    <Base type="object" version="1.0">
+        <Line Type="2" Event="2001" Name="AUTOP1" />
+        <Line Type="1" Event="3205">
+            <Param type="13" srctype="8" data="AUTOP1" Index="0" />
+            <Param type="6" data="WarnType" Index="1" />
+            <Param type="4" data="4" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP2" />
+        <Line Type="1" Event="3205">
+            <Param type="13" srctype="8" data="AUTOP2" Index="0" />
+            <Param type="6" data="CantUseSkill" Index="1" />
+            <Param type="4" data="0" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP4" />
+        <Line Type="2" Event="2105" Name="AUTOP3">
+            <Param type="13" srctype="8" data="AUTOP4" Index="0" />
+            <Param type="4" data="8" Index="1" />
+            <Param type="2" data="1" Index="2" />
+            <Param type="1" data="true" Index="3" />
+        </Line>
+        <Line Type="1" Event="3205">
+            <Param type="13" srctype="8" data="AUTOP3" Index="0" />
+            <Param type="6" data="SphereRadius" Index="1" />
+            <Param type="4" data="50" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP6" />
+        <Line Type="2" Event="2105" Name="AUTOP5">
+            <Param type="13" srctype="8" data="AUTOP6" Index="0" />
+            <Param type="4" data="8" Index="1" />
+            <Param type="2" data="1" Index="2" />
+            <Param type="1" data="true" Index="3" />
+        </Line>
+        <Line Type="1" Event="3205">
+            <Param type="13" srctype="8" data="AUTOP5" Index="0" />
+            <Param type="6" data="SpringRange" Index="1" />
+            <Param type="4" data="50" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP7" />
+        <Line Type="1" Event="3205">
+            <Param type="13" srctype="8" data="AUTOP7" Index="0" />
+            <Param type="6" data="SpringRange" Index="1" />
+            <Param type="4" data="50" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP8" />
+        <Line Type="1" Event="3205">
+            <Param type="13" srctype="8" data="AUTOP8" Index="0" />
+            <Param type="6" data="SphereRadius" Index="1" />
+            <Param type="4" data="50" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP9" />
+        <Line Type="2" Event="2001" Name="AUTOP12" />
+        <Line Type="2" Event="2106" Name="AUTOP11">
+            <Param type="13" srctype="8" data="AUTOP12" Index="0" />
+            <Param type="4" data="50" Index="1" />
+            <Param type="2" data="1" Index="2" />
+            <Param type="2" data="2" Index="3" />
+            <Param type="1" data="false" Index="4" />
+        </Line>
+        <Line Type="2" Event="4731" Name="AUTOP10">
+            <Param type="13" srctype="8" data="AUTOP11" Index="0" />
+        </Line>
+        <Line Type="1" Event="6108">
+            <Param type="13" srctype="8" data="AUTOP9" Index="0" />
+            <Param type="13" srctype="6" data="AUTOP10" Index="1" />
+            <Param type="2" data="0" Index="2" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP14" />
+        <Line Type="2" Event="2105" Name="AUTOP13">
+            <Param type="13" srctype="8" data="AUTOP14" Index="0" />
+            <Param type="4" data="8" Index="1" />
+            <Param type="2" data="1" Index="2" />
+            <Param type="1" data="true" Index="3" />
+        </Line>
+        <Line Type="2" Event="2001" Name="AUTOP17" />
+        <Line Type="2" Event="2106" Name="AUTOP16">
+            <Param type="13" srctype="8" data="AUTOP17" Index="0" />
+            <Param type="4" data="50" Index="1" />
+            <Param type="2" data="1" Index="2" />
+            <Param type="2" data="2" Index="3" />
+            <Param type="1" data="false" Index="4" />
+        </Line>
+        <Line Type="2" Event="4731" Name="AUTOP15">
+            <Param type="13" srctype="8" data="AUTOP16" Index="0" />
+        </Line>
+        <Line Type="1" Event="6108">
+            <Param type="13" srctype="8" data="AUTOP13" Index="0" />
+            <Param type="13" srctype="6" data="AUTOP15" Index="1" />
+            <Param type="2" data="0" Index="2" />
+        </Line>
+    </Base>
+</Processor>

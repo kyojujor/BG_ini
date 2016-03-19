@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2010 (http://www.altova.com) by MESMERiZE (MiZE) -->
+<Object>
+	<!-- 资源的采集速度单位是分钟及当前资源在资源据点最大数量!-->
+	<Property ResID="MineralF_00002A" Name="生矿" MaxSpeed="3" MaxSum="1500"/>
+	<Property ResID="MineralF_00003B" Name="黑铁" MaxSpeed="4" MaxSum="1500"/>
+	<Property ResID="MineralF_00004B" Name="硅石" MaxSpeed="4" MaxSum="1500"/>
+	<Property ResID="MineralF_00005B" Name="晶矿" MaxSpeed="4" MaxSum="1500"/>
+	<Property ResID="PlantF_00001A" Name="生木" MaxSpeed="4" MaxSum="1500"/>
+	<Property ResID="PlantF_00002A" Name="香木" MaxSpeed="4" MaxSum="1500"/>
+	<Property ResID="PlantF_00003A" Name="楠木" MaxSpeed="4" MaxSum="1500"/>
+	<Property ResID="PlantF_00004A" Name="原木精华" MaxSpeed="4" MaxSum="1500"/>
+	<Property ResID="FoodF_00001A" Name="肉类" MaxSpeed="4" MaxSum="1500"/>
+	<Property ResID="FoodF_00002A" Name="果实" MaxSpeed="4" MaxSum="1500"/>
+	<Property ResID="FoodF_00003A" Name="种子" MaxSpeed="4" MaxSum="1500"/>
+	<Property ResID="FoodF_00004B" Name="茎块" MaxSpeed="4" MaxSum="1500"/>
+	<Property ResID="DrugF_00001B" Name="花草类" MaxSpeed="4" MaxSum="1500"/>
+	<Property ResID="DrugF_00002C" Name="根叶类" MaxSpeed="4" MaxSum="1500"/>
+	<Property ResID="DrugF_00003C" Name="香料" MaxSpeed="4" MaxSum="1500"/>
+	<Property ResID="DrugF_00004C" Name="自然精华" MaxSpeed="4" MaxSum="1500"/>
+	<Property ResID="LeatherF_00001A" Name="轻毛" MaxSpeed="4" MaxSum="1500"/>
+	<Property ResID="LeatherF_00002A" Name="皮革" MaxSpeed="4" MaxSum="1500"/>
+	<Property ResID="LeatherF_00003A" Name="厚鳞" MaxSpeed="4" MaxSum="1500"/>
+	<Property ResID="LeatherF_00004B" Name="兽骨" MaxSpeed="4" MaxSum="1500"/>
+	<Property ResID="EnergyF_zq_00002C" Name="石炭" MaxSpeed="4" MaxSum="1500"/>
+	<Property ResID="EnergyF_00003C" Name="黑金" MaxSpeed="4" MaxSum="1500"/>
+	<Property ResID="EnergyF_qh_00005D" Name="魔法石" MaxSpeed="4" MaxSum="1500"/>
+</Object>

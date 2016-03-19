@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 能量井开启后npc刷新包 -->
+<Object>
+<!--
+qh_npc_path:    奇幻npc  ID,x,y,z,o
+zq_npc_path:		蒸汽npc  ID,x,y,z,o
+zl_npc_path:		中立npc  ID,x,y,z,o
+-->
+	<Property ID="1" qh_npc_path="Ceshi_qh_016,1626.167236,85.265213,2951.640381,-2.963179" zq_npc_path="Ceshi_zq_002,1621.131,85.265,2928.602,2.728" zl_npc_path="npc_zlm010_0107,1626.167236,85.265213,2951.640381,-2.963179" Desc=""/>
+</Object>

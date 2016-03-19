@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 被2011 rel. 2 sp1 (TeaM DJiNN) 使用XMLSpy vTeaM DJiNN编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2010 (http://www.altova.com) by hahah (memem) -->
+<!--装备合成
+ID="" goldratio="金币系数"  bgoldratio="黑金系数"  rbackratio="返还金钱系数" gcolor_ratio="金币合成品质系数" bcolor_ratio="黑金合成品质系数"  rcolor_ratio="返还金钱品质系数" equipratio="装备部位系数" combine="相同ID才能合成,1开启,0关闭" samelevel="相同等级才能合成1开启,0关闭" samecolor="相同品阶才能合成1开启,0关闭"   
+-->
+<Object>
+	<Property ID="-1" goldratio="0" bgoldratio="1" rbackratio="2" gcolor_ratio="3" bcolor_ratio="4" rcolor_ratio="5" equipratio="6" combine="7" samelevel="8" samecolor="9"/>
+	<Property ID="0"  goldratio="6" bgoldratio="6" rbackratio="6" gcolor_ratio="6" bcolor_ratio="6" rcolor_ratio="6" equipratio="6" combine="2" samelevel="2" samecolor="2"/>
+	<Property ID="1" goldratio="212,114,100000" bgoldratio="25,10" rbackratio="30,26,0" gcolor_ratio="0.6,0.8,1,2,4" bcolor_ratio="1,2,3,4,5,6" rcolor_ratio="0.6,0.8,1,2,4" equipratio="1,0.3" combine="1" samelevel="1" samecolor="0"/>
+</Object>

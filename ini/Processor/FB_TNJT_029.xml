@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes" ?>
+<Processor>
+    <Base type="object" version="1.0">
+        <Line Type="2" Event="2115" Name="AUTOP3" />
+        <Line Type="2" Event="3002" Name="AUTOP2">
+            <Param type="13" srctype="8" data="AUTOP3" Index="0" />
+            <Param type="6" data="TalkLimit03" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP1">
+            <Param type="13" srctype="4" data="AUTOP2" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="0" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="11">
+            <Param type="13" bool="true" srctype="1" data="AUTOP1" Index="0" />
+        </Line>
+        <Line Type="1" Event="5005">
+            <Param type="2" data="0" Index="0" />
+            <Param type="2" data="2" Index="1" />
+            <Param type="6" data="event_fb_tnjt_003" Index="2" />
+            <Param type="6" data="0" Index="3" />
+            <Param type="6" data=" " Index="4" />
+            <Param type="6" data=" " Index="5" />
+        </Line>
+        <Line Type="2" Event="2114" Name="AUTOP4">
+            <Param type="6" data="FB_TNJT_NPC_08" Index="0" />
+        </Line>
+        <Line Type="1" Event="4517">
+            <Param type="13" srctype="8" data="AUTOP4" Index="0" />
+            <Param type="6" data="func_raid_91_new" Index="1" />
+        </Line>
+        <Line Type="2" Event="2115" Name="AUTOP5" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP5" Index="0" />
+            <Param type="6" data="BeDelete03" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="1" Index="3" />
+        </Line>
+        <Line Type="2" Event="2115" Name="AUTOP6" />
+        <Line Type="1" Event="5202">
+            <Param type="13" srctype="8" data="AUTOP6" Index="0" />
+            <Param type="6" data="TalkLimit03" Index="1" />
+            <Param type="2" data="4" Index="2" />
+            <Param type="4" data="1" Index="3" />
+        </Line>
+        <Line Type="2" Event="5082" Name="AUTOP7">
+            <Param type="8" data=" " Index="0" />
+        </Line>
+        <Line Type="1" Event="5067">
+            <Param type="13" srctype="8" data="AUTOP7" Index="0" />
+            <Param type="6" data="FB_TNJT_BUFF_02" Index="1" />
+        </Line>
+        <Line Type="2" Event="5082" Name="AUTOP8">
+            <Param type="8" data=" " Index="0" />
+        </Line>
+        <Line Type="1" Event="5067">
+            <Param type="13" srctype="8" data="AUTOP8" Index="0" />
+            <Param type="6" data="FB_TNJT_BUFF_03" Index="1" />
+        </Line>
+        <Line Type="7" IncludeLines="14" />
+        <Line Type="2" Event="2115" Name="AUTOP11" />
+        <Line Type="2" Event="3002" Name="AUTOP10">
+            <Param type="13" srctype="8" data="AUTOP11" Index="0" />
+            <Param type="6" data="NpcRefresh02" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP9">
+            <Param type="13" srctype="4" data="AUTOP10" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="0" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="9">
+            <Param type="13" bool="true" srctype="1" data="AUTOP9" Index="0" />
+        </Line>
+        <Line Type="2" Event="2002" Name="AUTOP14" />
+        <Line Type="2" Event="5086" Name="AUTOP13">
+            <Param type="13" srctype="8" data="AUTOP14" Index="0" />
+            <Param type="6" data="FB_TNJT_BUFF_02" Index="1" />
+        </Line>
+        <Line Type="2" Event="1101" Name="AUTOP12">
+            <Param type="13" srctype="4" data="AUTOP13" Index="0" />
+            <Param type="2" data="1" Index="1" />
+            <Param type="4" data="1" Index="2" />
+        </Line>
+        <Line Type="3" IncludeLines="0">
+            <Param type="13" bool="true" srctype="1" data="AUTOP12" Index="0" />
+        </Line>
+        <Line Type="7" IncludeLines="4" />
+        <Line Type="2" Event="2002" Name="AUTOP15" />
+        <Line Type="1" Event="5067">
+            <Param type="13" srctype="8" data="AUTOP15" Index="0" />
+            <Param type="6" data="FB_TNJT_BUFF_02" Index="1" />
+        </Line>
+        <Line Type="2" Event="2002" Name="AUTOP16" />
+        <Line Type="1" Event="5067">
+            <Param type="13" srctype="8" data="AUTOP16" Index="0" />
+            <Param type="6" data="FB_TNJT_BUFF_03" Index="1" />
+        </Line>
+        <Line Type="7" IncludeLines="0" />
+    </Base>
+</Processor>

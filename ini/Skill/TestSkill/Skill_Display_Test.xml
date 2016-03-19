@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<Object>
+	<Property ID="1" Name="a" Photo="icon\BG_Skill\skillicon_0167.png" HitAction="uarmR" HurtAction="combat" BossInfo="1"/>
+	<Property ID="17" Name="自爆" Photo="icon\BG_Skill\jineng_putonggongji.png" EffectSpeed="0" HitAction="uarmR_attack_0h" HitEffect="func_raid_87" HurtAction="combat" ForceStroageOther="0"/>
+	<Property ID="10003" Name="割裂攻击" Photo="icon\BG_Skill\heijin_shui.PNG" EffectSpeed="0" HitAction="attack_10h" HurtAction="combat"/>
+	<Property ID="10004" Name="割裂攻击" Photo="icon\BG_Skill\heijin_shui.PNG"/>
+	<Property ID="10013" Name="怪物吟唱调试" Photo="icon\BG_Skill\jineng_yexingsilie.png" EffectSpeed="0" PrepareAction="fi_1h_stand" PrepareEffect="func_raid_24" HitAction="uarmR_attack_0h" HurtAction="combat"/>
+	<Property ID="10090" Name="引导攻击测试技能" Photo="icon\BG_Skill\jineng_yexingsilie.png" EffectSpeed="0" LeadAction="fi_1h_stand" LeadEffect="light_move_106" HurtAction="combat" ActivePhotoID="icon\BG_Skill\heijin_jineng_qishe.png"/>
+	<Property ID="10009" Name="持续加血" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" EffectSpeed="0" HitAction="spell2_10h" HurtAction="combat"/>
+	<Property ID="10010" Name="瞬间加血" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" EffectSpeed="0" HitAction="spell2_10h" HurtAction="combat"/>
+	<Property ID="10035" Name="加速" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" EffectSpeed="0" HitAction="uarmR_attack_0h" HurtAction="combat"/>
+	<Property ID="10011" Name="秒杀" Photo="icon\BG_Skill\jineng_yexingsilie.png" EffectSpeed="0" HitAction="uarmR_attack_0h" HurtAction="combat"/>
+	<Property ID="10030" Name="击退" Photo="icon\BG_Skill\heijin_jineng_fengkuangsaoshe.png" EffectSpeed="0"/>
+	<Property ID="10031" Name="击倒" Photo="icon\BG_Skill\heijin_jineng_fengkuangsaoshe.png" EffectSpeed="0" HitAction="uarmR_attack_0h"/>
+	<Property ID="10032" Name="击飞" Photo="icon\BG_Skill\heijin_jineng_fengkuangsaoshe.png" EffectSpeed="0" HitAction="uarmR_attack_0h" HurtAction="combat"/>
+	<Property ID="10033" Name="冲刺" Photo="icon\BG_Skill\heijin_jineng_fengkuangsaoshe.png" EffectSpeed="0" ActionEffect="BGskill_65051"/>
+	<Property ID="10034" Name="瞬移" Photo="icon\BG_Skill\heijin_jineng_fengkuangsaoshe.png" EffectSpeed="0" HitAction="uarmR_attack_0h" HurtAction="combat"/>
+	<Property ID="10036" Name="怪物测试技能1" Photo="icon\BG_Skill\jineng_yexingsilie.png" EffectSpeed="0" HitAction="spell2_10h" HurtAction="combat"/>
+	<Property ID="10037" Name="怪物测试技能2" Photo="icon\BG_Skill\jineng_yexingsilie.png" EffectSpeed="0" HitAction="Hum21_uarmR_attack_0h" HurtAction="combat"/>
+	<Property ID="10038" Name="怪物测试技能3" Photo="icon\BG_Skill\jineng_yexingsilie.png" EffectSpeed="0" HitAction="Hum21_uarmL_attack_0h" HurtAction="combat"/>
+	<Property ID="10039" Name="单体技能" Photo="icon\BG_Skill\heijin_jineng_xuligongji.png" EffectSpeed="0" LeadAction="pick_cast_0h" LeadSud="cj" HitSnd="bs_01"/>
+	<Property ID="10040" Name="采集技能" Photo="icon\BG_Skill\heijin_jineng_yaozhan.png" EffectSpeed="0"/>
+	<Property ID="10117" Name="采集技能2" Photo="icon\BG_Skill\heijin_jineng_yaozhan.png" EffectSpeed="0" LeadAction="collect_cast_0h" HitEffect="BGskill_20056"/>
+	<Property ID="20050" Name="火雨术" Photo="icon\BG_Skill\heijin_huo.PNG" PrepareEffect="func_raid_31" LeadAction="spell2_cast_10h" ActionEffect="func_raid_46" HitEffect="func_raid_18" HurtAction="combat"/>
+	<Property ID="20106" Name="引导范围技能" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HurtAction="combat"/>
+	<Property ID="20107" Name="测试采集技能" Photo="icon\BG_Skill\jineng_yexingsilie.png" LeadAction="fi_1h_stand" LeadEffect="light_move_106" HurtAction="combat"/>
+	<Property ID="10041" Name="冰冻陷井" Photo="icon\BG_Skill\skillicon_0151.png" HitAction="uarmR_attack_0h" HurtAction="combat"/>
+	<Property ID="241" Photo="icon\BG_Skill\skillicon_0151.png" PrepareAction="fi_1h_stand" PrepareEffect="func_raid_30" HitEffect="func_raid_32" HurtAction="combat"/>
+	<Property ID="242" Photo="icon\BG_Skill\skillicon_0151.png" PrepareAction="fi_1h_stand" PrepareEffect="func_raid_30" HitEffect="func_raid_32" HurtAction="combat"/>
+	<Property ID="243" Photo="icon\BG_Skill\skillicon_0151.png" PrepareAction="fi_1h_stand" PrepareEffect="func_raid_30" HitEffect="func_raid_32" HurtAction="combat"/>
+	<Property ID="244" Photo="icon\BG_Skill\jineng_yexingxuemai.png" PrepareAction="fi_1h_stand" PrepareEffect="func_raid_27" HitEffect="func_raid_29" HurtAction="combat"/>
+	<Property ID="245" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" PrepareAction="fi_1h_stand" PrepareEffect="func_raid_21" HitEffect="func_raid_43" HurtAction="combat"/>
+	<Property ID="246" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HitEffect="func_raid_88" HurtAction="combat"/>
+	<Property ID="20999" Photo="icon\BG_Skill\jineng_yexingsilie.png" PrepareAction="attackL_4h" PrepareEffect="charge_l_03" HitEffect="heal_std_cast_1" HurtAction="combat"/>
+	<Property ID="20317" Name="角度测试" Photo="icon\BG_Skill\jineng_putonggongji.png" HurtAction="combat"/>
+	<Property ID="20325" Name="BUFF测试技能" Photo="icon\BG_Skill\heijin_jineng_qiangji.png" HurtAction="combat"/>
+	<Property ID="20330" Name="测试小精灵" Photo="icon\BG_Skill\jineng_putonggongji.png" HurtAction="combat"/>
+	<Property ID="20331" HurtAction="combat"/>
+	<Property ID="20442" Name="动脉割裂" Photo="icon\BG_Skill\skillicon_0011.png" HitAction="Fight_In0008_01"/>
+	<Property ID="1999" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HurtAction="combat"/>
+	<Property ID="10062" Name="测试Buff_Effect" Photo="icon\BG_Skill\heijing_jijie.png" HurtAction="combat"/>
+	<Property ID="10063" Name="测试Buff_Effect" Photo="icon\BG_Skill\heijing_jijie.png" HurtAction="combat"/>
+	<Property ID="10064" Name="测试Buff_Effect" Photo="icon\BG_Skill\heijing_jijie.png" HurtAction="combat"/>
+	<Property ID="10065" Name="测试Buff_Effect" Photo="icon\BG_Skill\heijing_jijie.png" HurtAction="combat"/>
+	<Property ID="10066" Name="测试Buff_Effect" Photo="icon\BG_Skill\heijing_jijie.png" HurtAction="combat"/>
+	<Property ID="10067" Name="测试Buff_Effect" Photo="icon\BG_Skill\heijing_jijie.png" HurtAction="combat"/>
+	<Property ID="10068" Name="测试Buff_Effect" Photo="icon\BG_Skill\heijing_jijie.png" HurtAction="combat"/>
+	<Property ID="10069" Name="测试Buff_Effect" Photo="icon\BG_Skill\heijing_jijie.png" HurtAction="combat"/>
+	<Property ID="10070" Name="测试Buff_Effect" Photo="icon\BG_Skill\heijing_jijie.png" HurtAction="combat"/>
+	<Property ID="10071" Name="测试Buff_Effect" Photo="icon\BG_Skill\heijing_jijie.png" HurtAction="combat"/>
+	<Property ID="10072" Name="测试Buff_Effect" Photo="icon\BG_Skill\heijing_jijie.png" HurtAction="combat"/>
+	<Property ID="10073" Photo="icon\BG_Skill\heijin_jineng_qishe.png" HurtAction="combat"/>
+	<Property ID="20647" Name="测试多人技能" Photo="icon\BG_Skill\skillicon_0202.png" HitAction="test2001" HurtAction="combat"/>
+	<Property ID="20664" Name="测试摄像机震动" Photo="icon\BG_Skill\skillicon_0174.png" HurtAction="combat"/>
+	<Property ID="20667" Name="测试被动技能" Photo="icon\BG_Skill\skillicon_0174.png" HurtAction="combat"/>
+	<Property ID="20669" Name="测试清除BUFF" Photo="icon\BG_Skill\skillicon_0174.png" HurtAction="combat"/>
+	<Property ID="20672" Name="打断技能" Photo="icon\BG_Skill\skillicon_0174.png" HitAction="spell2_10h" HitEffect="func_raid_121" HurtAction="combat"/>
+	<Property ID="20673" Name="攻击附加吸收" Photo="icon\BG_Skill\skillicon_0174.png" HitAction="attackR_0h" HitEffect="BGskill_20036" HurtAction="combat"/>
+	<Property ID="20674" Name="攻击附加伤害" Photo="icon\BG_Skill\skillicon_0174.png" HitAction="attackR_0h" HitEffect="BGskill_20027" HurtAction="combat"/>
+	<Property ID="20675" Name="受击附加伤害" Photo="icon\BG_Skill\skillicon_0174.png" HitAction="spell2_10h" HitEffect="BGskill_20027" HurtAction="combat"/>
+	<Property ID="20676" Name="受击回复" Photo="icon\BG_Skill\skillicon_0174.png" HitAction="spell2_10h" HitEffect="BGskill_20027" HurtAction="combat" EffcctActive="1"/>
+	<Property ID="20677" Name="受击免疫" Photo="icon\BG_Skill\skillicon_0174.png" HitAction="spell2_10h" HitEffect="BGskill_20027" HurtAction="combat"/>
+	<Property ID="20678" Name="受击吸收" Photo="icon\BG_Skill\skillicon_0174.png" HitAction="spell2_10h" HitEffect="BGskill_20027" HurtAction="combat"/>
+	<Property ID="20679" Name="分担伤害" Photo="icon\BG_Skill\skillicon_0174.png" HitAction="spell2_10h" HitEffect="BGskill_20027" HurtAction="combat"/>
+	<Property ID="20680" Name="伤害限制" Photo="icon\BG_Skill\skillicon_0174.png" HitAction="spell2_10h" HitEffect="BGskill_20027" HurtAction="combat"/>
+	<Property ID="20681" Name="受击转换" Photo="icon\BG_Skill\skillicon_0174.png" HitAction="spell2_10h" HitEffect="BGskill_20027" HurtAction="combat"/>
+	<Property ID="20682" Name="缴械功能" Photo="icon\BG_Skill\skillicon_0174.png" HitAction="spell2_10h" HitEffect="BGskill_20034" HurtAction="combat"/>
+	<Property ID="20683" Name="假死" Photo="icon\BG_Skill\skillicon_0174.png" HurtAction="combat"/>
+	<Property ID="20684" Name="拖拽" Photo="icon\BG_Skill\skillicon_0174.png"/>
+	<Property ID="20685" Name="消耗转换成伤害" Photo="icon\BG_Skill\skillicon_0174.png" HitEffect="BGskill_20034"/>
+	<Property ID="20694" Name="测试强迫攻击" Photo="icon\BG_Skill\skillicon_0173.png" HurtAction="combat"/>
+	<Property ID="20695" Name="测试光环" Photo="icon\BG_Skill\skillicon_0173.png" HitEffect="BGskill_20034"/>
+	<Property ID="20697" Name="重置CD" Photo="icon\BG_Skill\skillicon_0173.png" HitEffect="BGskill_20034" ActivePhotoID="icon\BG_Skill\heijin_huo.PNG" EffcctActive="0"/>
+	<Property ID="20699" Name="偷取HP" Photo="icon\BG_Skill\skillicon_0173.png" HitAction="combat" HitEffect="BGskill_20028"/>
+	<Property ID="20700" Name="伤害转移" Photo="icon\BG_Skill\skillicon_0173.png" HitEffect="BGskill_20034"/>
+	<Property ID="20701" Name="击杀计数" Photo="icon\BG_Skill\skillicon_0173.png" HitEffect="BGskill_20034"/>
+	<Property ID="20702" Name="测试吸收伤害" Photo="icon\BG_Skill\skillicon_0173.png" HitEffect="BGskill_20034"/>
+	<Property ID="20704" Name="连锁伤害" Photo="icon\BG_Skill\skillicon_0173.png" HurtAction="combat"/>
+	<Property ID="20705" Name="测试延迟" Photo="icon\BG_Skill\skillicon_0173.png" HurtAction="combat"/>
+	<Property ID="123456" Photo="icon\BG_Skill\skillicon_0024.png" HurtAction="combat"/>
+	<Property ID="56789" Name="测试多人技能" Photo="icon\BG_Skill\skillicon_0024.png" HurtAction="combat"/>
+	<Property ID="7788" Photo="icon\BG_Skill\skillicon_0024.png" HurtAction="combat"/>
+	<Property ID="59999" Name="治疗" Photo="icon\BG_Skill\skillicon_0006.png" PrepareAction="fi_10h_ready" ActionEffect="func_raid_128"/>
+	<Property ID="54321" Name="循环技能" Photo="icon\BG_Skill\skillicon_0199.png" PrepareAction="fi_10h_ready" PrepareEffect="func_raid_27" ActionEffect="func_raid_28" HitEffect="func_raid_29"/>
+	<Property ID="55555" Name="隐身" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HitAction="spell2_10h" HitEffect="BGskill_20034"/>
+	<Property ID="20706" Name="测试免疫治疗" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HitEffect="func_raid_126"/>
+	<Property ID="20707" Name="测试仇恨转移" Photo="icon\BG_Skill\jineng_zaishengaomiao.png" HitEffect="func_raid_126"/>
+	<Property ID="20710" Name="以自己为圆心" Photo="icon\BG_Skill\skillicon_0001.png" ActionEffect="BGskill_20024" HitAction="attackR_0h" HitEffect="BGskill_20036"/>
+	<Property ID="20711" Name="以对象为圆心" Photo="icon\BG_Skill\skillicon_0002.png" HitAction="attackR_0h" HitEffect="BGskill_20060"/>
+	<Property ID="20712" Name="以前方扇形区域" Photo="icon\BG_Skill\skillicon_0003.png" ActionEffect="func_raid_494" HitAction="attackR_0h" HitEffect="BGskill_20036"/>
+	<Property ID="20713" Name="以前方矩形区域" Photo="icon\BG_Skill\skillicon_0004.png" HitAction="attackR_0h" HitEffect="BGskill_20040"/>
+	<Property ID="20715" Name="给目标治疗" Photo="icon\BG_Skill\skillicon_0006.png" HitEffect="func_raid_126"/>
+	<Property ID="20716" Name="播放特效" Photo="icon\BG_Skill\skillicon_0007.png"/>
+	<Property ID="20717" Name="播放动作" Photo="icon\BG_Skill\skillicon_0008.png"/>
+	<Property ID="20718" Name="清除BUFF" Photo="icon\BG_Skill\skillicon_0009.png" HitEffect="func_raid_126"/>
+	<Property ID="20719" Name="技能冷却" Photo="icon\BG_Skill\skillicon_0010.png" HitEffect="func_raid_126"/>
+	<Property ID="20720" Name="道具生成" Photo="icon\BG_Skill\skillicon_0011.png" HitEffect="func_raid_126"/>
+	<Property ID="20721" Name="复活对象" Photo="icon\BG_Skill\skillicon_0012.png" PrepareAction="fi_10h_ready" HitAction="spell2_10h" HitEffect="func_raid_126"/>
+	<Property ID="20722" Name="设置目标第一仇恨" Photo="icon\BG_Skill\skillicon_0013.png" HitEffect="func_raid_126"/>
+	<Property ID="20724" Name="获得BUFF叠加" Photo="icon\BG_Skill\skillicon_0014.png" HitEffect="func_raid_126"/>
+	<Property ID="20725" Name="获取伤害" Photo="icon\BG_Skill\skillicon_0015.png" HitEffect="BGskill_20040"/>
+	<Property ID="20726" Name="面向目标攻击" Photo="icon\BG_Skill\skillicon_0016.png" HitEffect="BGskill_20040"/>
+	<Property ID="20727" Name="传送" Photo="icon\BG_Skill\skillicon_0017.png"/>
+	<Property ID="20728" Name="持续流血" Photo="icon\BG_Skill\skillicon_0018.png" HitAction="spell2_10h" HitEffect="BGskill_20040"/>
+	<Property ID="20729" Name="增加移动速度" Photo="icon\BG_Skill\skillicon_0019.png" HitAction="spell2_10h" HitEffect="func_raid_126"/>
+	<Property ID="20730" Name="反弹伤害" Photo="icon\BG_Skill\skillicon_0020.png" HitAction="spell2_10h" HitEffect="BGskill_20027"/>
+	<Property ID="20731" Name="眩晕" Photo="icon\BG_Skill\skillicon_0021.png" HitAction="attackR_0h" HitEffect="BGskill_20019"/>
+	<Property ID="20732" Name="沉默" Photo="icon\BG_Skill\skillicon_0022.png" HitAction="attackR_0h" HitEffect="func_raid_356"/>
+	<Property ID="20733" Name="定身" Photo="icon\BG_Skill\skillicon_0023.png" HitEffect="BGskill_20019" HurtAction="attackR_0h"/>
+	<Property ID="20734" Name="提升治疗效果" Photo="icon\BG_Skill\skillicon_0024.png" HitAction="spell2_10h" HitEffect="func_raid_126"/>
+	<Property ID="20735" Name="持续治疗" Photo="icon\BG_Skill\skillicon_0025.png" HitAction="spell2_10h" HitEffect="func_raid_126"/>
+	<Property ID="20736" Name="标记目标" Photo="icon\BG_Skill\skillicon_0025.png"/>
+	<Property ID="20737" Photo="icon\BG_Skill\skillicon_0411.png"/>
+	<Property ID="20738" Name="调整技能准备时间" Photo="icon\BG_Skill\skillicon_0025.png"/>
+	<Property ID="20739" Name="捕捉宠物" Photo="icon\BG_Skill\skillicon_0025.png"/>
+	<Property ID="20740" Name="测试终止位移" Photo="icon\BG_Pet\Pet_Hme_C_0001.png" AutoStop="1" HitAction="attackR_0h" HurtAction="combat"/>
+	<Property ID="50320" Name="飞行浮空" Photo="icon\BG_Skill\skillicon_0410.png"/>
+	<Property ID="50325" Name="点对点引导" Photo="icon\BG_Skill\Fight_He0019_01.png" LeadAction="spell1_cast_10h" LeadEffect="func_raid_102"/>
+	<Property ID="50326" Name="道具测试技能" Photo="icon\BG_Skill\Fight_Tr0031_01 .png"/>
+	<Property ID="49100" Name="初级剑咒" Photo="icon\BG_Skill\skillicon_0006.png"/>
+	<Property ID="49101" Photo="icon\BG_Skill\skillicon_0314.png"/>
+	<Property ID="49110" Name="魔法明亮" Photo="icon\BG_Skill\jineng_shandianjian.png"/>
+	<Property ID="58000" Name="多炮口载具" Photo="icon\BG_Skill\heijin_huo.png" ActionEffect="func_raid_334"/>
+	<Property ID="20741" Name="测试招式" Photo="icon\BG_Skill\heijin_huo.png" HitAction="test_zs01_0h/test_zs01_1h/test_zs01_2h/test_zs01_3h"/>
+	<Property ID="20742" Name="测试圆形攻击" Photo="icon\BG_Skill\heijin_huo.png" ActionEffect="BGskill_20050" HitEffect="BGskill_20050"/>
+	<Property ID="510" Name="test510_01" Photo="icon\BG_Skill\jineng_yexingsilie_tiaoci.png" HitAction="spell1_10h"/>
+	<Property ID="20763" Name="测试后续技能" Photo="icon\BG_Skill\skillicon_0024.png"/>
+	<Property ID="20764" Name="测试作用对象" Photo="icon\BG_Skill\skillicon_0024.png"/>
+	<Property ID="20765" Name="NPC测试用" Photo="icon\BG_Skill\skillicon_0024.png" HitAction="Fight_Ar0001_01"/>
+	<Property ID="20766" Name="NPC测试用" Photo="icon\BG_Skill\skillicon_0024.png" HitEffect="BGskill_20009"/>
+	<Property ID="20783" Name="反射" Photo="icon\BG_Skill\skillicon_0561.png" HitAction="spell2_10h" HitEffect="BGskill_20027"/>
+	<Property ID="20784" Name="测试连招技能" Photo="icon\BG_Skill\skillicon_0573.png"/>
+	<Property ID="20788" Name="测试效果包公式" Photo="icon\BG_Skill\skillicon_0199.png" HitAction="test_skill0036_2h"/>
+	<Property ID="20789" Name="增益BUFF" Photo="icon\BG_Skill\skillicon_0127.png"/>
+	<Property ID="20790" Name="减益BUFF" Photo="icon\BG_Skill\skillicon_0389.png"/>
+	<Property ID="99996" Name="火球术" Photo="icon\BG_Skill\heijin_jineng_yaozhan.png" EffectSpeed="10" HitAction="Fight_Wm0011_10h" HitEffect="func_raid_29" HurtAction="combat"/>
+	<Property ID="20813" Name="测试缩放" Photo="icon\BG_Skill\skillicon_0229.png"/>
+	<Property ID="20814" Name="测试多次后续" Photo="icon\BG_Skill\skillicon_0573.png" HitAction="test_skill0034_2h" HitEffect="BGskill_61025"/>
+	<Property ID="20815" Name="测试多次后续" Photo="icon\BG_Skill\skillicon_0152.png" HitAction="test_skill0035_2h" HitEffect="BGskill_61025"/>
+	<Property ID="20816" Name="测试多次后续" Photo="icon\BG_Skill\skillicon_0151.png" HitAction="test_skill0036_2h" HitEffect="BGskill_61025"/>
+	<Property ID="20817" Name="测试召唤NPC" Photo="icon\BG_Skill\skillicon_0263.png"/>
+	<Property ID="20819" Name="测试刀锋战士消耗" Photo="icon\BG_Skill\skillicon_0005.png"/>
+	<Property ID="20820" Name="测试刀锋战士消耗" Photo="icon\BG_Skill\jineng_yexingsilie_tiaoci.png"/>
+	<Property ID="20821" Name="测试怒火积聚" Photo="icon\BG_Skill\skillicon_0008.png"/>
+	<Property ID="20822" Name="测试怒火释放" Photo="icon\BG_Skill\skillicon_0009.png"/>
+	<Property ID="20823" Name="隐身" Photo="icon\BG_Skill\skillicon_0009.png" HitAction="spell2_10h" HitEffect="BGskill_20034"/>
+	<Property ID="20826" Photo="icon\BG_Skill\skillicon_0399.png"/>
+	<Property ID="20827" Photo="icon\BG_Skill\skillicon_0341.png"/>
+	<Property ID="20841" Name="测试替换技能" Photo="icon\BG_Skill\skillicon_0006.png"/>
+	<Property ID="20872" Name="测试BUFF残影" Photo="icon\BG_Skill\skillicon_0019.png"/>
+	<Property ID="20874" Name="显影（使目标可视）" Photo="icon\BG_Skill\jineng_shandianjian.png"/>
+	<Property ID="20899" Name="指向型技能" Photo="icon\BG_Skill\jineng_yexingxuemai.PNG" AutoStop="1"/>
+	<Property ID="20900" Name="测试瞬移（向前方）" Photo="icon\BG_Skill\skillicon_0061.png"/>
+	<Property ID="99991" Photo="icon\BG_Skill\heijin_jineng_yaozhan.png" ActionEffect="func_raid_494" HitAction="attackR_4h" HitEffect="BGskill_20036"/>
+	<Property ID="33401" Name="落石术的表现" Photo="icon\BG_Skill\skillicon_0023.png" EffectSpeed="20" PrepareAction="spell2_cast_10h" PrepareEffect="skill_cast_0057" ActionEffect="skill_fly_0040_1" HitAction="spell2_10h" HurtEffect="skill_hurt_0073_53" PrepareEndEffect="skill_hurt_0083"/>
+	<Property ID="33403" Name="反隐身的表现" Photo="icon\BG_Skill\skillicon_1026.png" ActionEffect="skill_hurt_0083_1" HitAction="spell2_10h"/>
+	<Property ID="20901" Name="测试瞬移（选择地面）" Photo="icon\BG_Skill\skillicon_0010.png"/>
+	<Property ID="20902" Name="测试道具技能区分以及持续技能开关" Photo="icon\BG_Skill\skillicon_0043.png" ActivePhotoID="icon\BG_Skill\jineng_yexingsilie_tiaoci.png"/>
+	<Property ID="20903" Name="测试选择地面召唤NPC" Photo="icon\BG_Skill\skillicon_0032.png"/>
+	<Property ID="20917" Name="测试对死亡对象使用技能" Photo="icon\BG_Skill\skillicon_0120.png" HitEffect="BGskill_20034"/>
+	<Property ID="20918" Name="测试范围增加BUFF" Photo="icon\BG_Skill\skillicon_0010.png" HitEffect="BGskill_20034"/>
+	<Property ID="20920" Name="测试对宠物使用技能" Photo="icon\BG_Skill\skillicon_0002.png" HitEffect="BGskill_20034"/>
+	<Property ID="20923" Name="击飞功能调整测试" Photo="icon\BG_Skill\skillicon_0001.png"/>
+	<Property ID="20924" Name="测试分身" Photo="icon\BG_Skill\skillicon_0009.png"/>
+	<Property ID="20927" Name="测试调整后召唤NPC" Photo="icon\BG_Skill\jineng_yexingxuemai.PNG"/>
+	<Property ID="20928" Name="测试调整后召唤宠物" Photo="icon\BG_Skill\skillicon_0007.png"/>
+	<Property ID="20929" Name="测试连锁效果" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="20931" Name="测试宠物增加BUFF" Photo="icon\BG_Skill\skillicon_0010.png"/>
+	<Property ID="20932" Name="测试调用触发器" Photo="icon\BG_Skill\jineng_yexingxuemai.PNG" HitEffect="func_raid_302"/>
+	<Property ID="20933" Name="测试55召唤宠物" Photo="icon\BG_Skill\skillicon_0008.png" ActionEffect="BGskill_50607"/>
+	<Property ID="20934" Photo="icon\BG_Skill\jineng_yexingxuemai.PNG" HitAction="attackR_1h"/>
+	<Property ID="20936" Name="测试对死亡对象使用" Photo="icon\BG_Skill\skillicon_0006.png"/>
+	<Property ID="20937" Photo="icon\BG_Skill\skillicon_0006.png"/>
+	<Property ID="20938" Photo="icon\BG_Skill\skillicon_0006.png"/>
+	<Property ID="20941" Name="测试随机范围" Photo="icon\BG_Skill\jineng_yexingxuemai.PNG" ActionEffect="func_raid_46xx"/>
+	<Property ID="20944" Photo="icon\BG_Skill\heijin_jineng_qiangji.png"/>
+	<Property ID="15663" Photo="icon\BG_Skill\skillicon_0016.png"/>
+	<Property ID="15664" Photo="icon\BG_Skill\skillicon_0117.png"/>
+	<Property ID="32799" Name="急速冷却的表现" Photo="icon\BG_Skill\skillicon_1026.png" ActionEffect="skill_hurt_0083_1" HitAction="spell2_10h"/>
+	<Property ID="15665" Photo="icon\BG_Skill\skillicon_0039.png"/>
+	<Property ID="20963" Photo="icon\BG_Skill\heijin_jineng_xuligongji.png"/>
+	<Property ID="21000" Name="测试效果包传入宠物" Photo="icon\BG_Skill\skillicon_0032.png"/>
+	<Property ID="21001" Name="测试多次冲锋" Photo="icon\BG_Skill\heijin_tu.PNG"/>
+	<Property ID="21002" Name="测试BUFF开关" Photo="icon\buff\skillicon_0452.png"/>
+	<Property ID="21003" Name="测试选定范围" Photo="icon\buff\skillicon_0454.png" HitEffect="BGskill_49007"/>
+	<Property ID="21004" Name="测试飞行特效" Photo="icon\buff\mumang.png" ActionEffect="BGskill_20049"/>
+	<Property ID="312021" Name="瞄准" Photo="icon\BG_Skill\skillicon_1100.png" AutoStop="1" PrepareAction="attack1_6h" PrepareEffect="skill_att_0221_3" HitAction="attack1_6h" HitEffect="skill_att_0222" HurtAction="combat" EffcctActive="0" ActionEffect="BGskill_61003_test_1" EffectSpeed="50"/>
+	<Property ID="312081" Name="燃烧弹" Photo="icon\BG_Skill\skillicon_1105.png" EffectSpeed="30" ActionEffect="skill_fly_0035" HitAction="attack1_6h" HitEffect="skill_att_0236_2" HurtAction="combat"/>
+	<Property ID="21005" Name="测试选定点召唤NPC" Photo="icon\buff\qh_bru_mount_0001.png"/>
+	<Property ID="21006" Photo="icon\buff\skillicon_0452.png" EffcctActive="0"/>
+	<Property ID="21007" Name="子母弹" HitAction="test1010" AutoStop="1" HitActionTime="2000" LockZhaoshi="1" ActionEffect="test056" Photo="icon\BG_Skill\skillicon_0016.png"/>
+	<Property ID="21008" Name="测试替换技能" Photo="icon\BG_Skill\heijin_lei.PNG" LeadAction="spell1_cast_10h"/>
+	<Property ID="21009" Name="测试替换技能2" Photo="icon\BG_Skill\heijin_ronghe.PNG"/>
+	<Property ID="21010" Name="后续技能击飞" Photo="icon\BG_Skill\heijin_jineng_qishe.png" HitAction="skill4401_10h" ActionEffect="BGskill_Em_32601" HitActionSnd="em_feishashu_01"/>
+	<Property ID="21011" Name="测试状态BUFF" Photo="icon\BG_Skill\heijin_tu.PNG"/>
+	<Property ID="21012" Name="测试碰撞" Photo="icon\BG_Skill\heijin_jineng_xuligongji.png"/>
+	<Property ID="21013" Name="测试多次命中多次伤害" Photo="icon\BG_Skill\heijin_jineng_qishe.png"/>
+	<Property ID="50101" Name="测试" Photo="icon\BG_Skill\heijin_jineng_qishirongyan.png" HitAction="sitdown_0h" AutoStop="1"/>
+	<Property ID="21015" Name="测试TIPS" Photo="icon\BG_Skill\heijin_huo.PNG"/>
+	<Property ID="21016" Name="测试宠物限制" Photo="icon\BG_Skill\heijin_jineng_qishirongyan.png"/>
+	<Property ID="21017" Name="测试限制包BUFF层数" Photo="icon\BG_Skill\skillicon_0084.png"/>
+	<Property ID="21018" Name="测试变身" Photo="icon\BG_Skill\heijin_feng.PNG"/>
+	<Property ID="21019" Name="测试不同类型NPC播放特效" Photo="icon\BG_Skill\heijin_jineng_qiangji.png" HitEffect="BGskill_20009"/>
+	<Property ID="21020" Name="测试减速CD时间" Photo="icon\BG_Skill\heijin_huo.PNG"/>
+	<Property ID="21021" Name="测试击杀目标" Photo="icon\BG_Skill\jineng_zaishengaomiao.PNG"/>
+	<Property ID="21022" Name="测试砸地效果" Photo="icon\BG_Skill\heijin_jineng_qishe.png" HitAction="skill2111_1h"/>
+	<Property ID="21023" Name="测试仇恨" Photo="icon\BG_Skill\heijing_jijie.PNG" HitEffect="func_raid_625"/>
+	<Property ID="21024" Name="测试轰炸NPC" Photo="icon\BG_Skill\heijin_huo.PNG"/>
+	<Property ID="21025" Name="测试蓄力" Photo="icon\BG_Skill\PVP_hyfangyu.png" ForceStroageAction="fi_10h_ready" ForceStroageEffect="func_raid_658" HitAction="skill3609_1h" ActionEffect="BGskill_40111" ForceStroageHoldAction="fi_10h_skill3701_ready" ForceStroageHoldEffect="BGskill_61269" ForceStorageSnd="em_feishashu_03" HitActionSnd="em_feishashu_01"/>
+</Object>
+
+

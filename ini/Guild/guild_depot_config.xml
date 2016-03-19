@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+  <!--仓库的等级 配置 -->
+  <!--Capacity: 容量 -->
+  <!--Limit：取物品的权限 -->
+  <!--Times：整理、刷新物品的时间间隔 单位：秒 -->
+  <!--Money：资金上限 -->
+  <!--NotesNum:  -->
+  <Property ID="1" Capacity="60" Limit="3" Times="10" Money="9990000" NotesNum="100" />
+</Object>

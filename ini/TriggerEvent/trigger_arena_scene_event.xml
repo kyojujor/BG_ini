@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes"?>
+<Stage>
+	<Scene>
+		<Object SceneId="203">
+			<TriggerEvent EventId="206" Processor="jjm002_1"/>
+			<TriggerEvent EventId="601" Processor="jjm002_2"/>
+			<TriggerEvent EventId="201" Processor="jjm002_3"/>
+			<TriggerEvent EventId="201" Processor="jjm001_1"/>
+		</Object>
+		<Object SceneId="207">
+			<TriggerEvent EventId="201" Processor="202_zc_beijingyinyue"/>
+			<TriggerEvent EventId="206" Processor="201_damen01"/>
+			<TriggerEvent EventId="601" Processor="201_damen02"/>
+			<TriggerEvent EventId="208" Processor="202_fuhuodian"/>
+		</Object>
+		<Object SceneId="208">
+			<TriggerEvent EventId="201" Processor="zqnljzc_yinyue"/>
+		</Object>
+		<Object SceneId="209">
+			<TriggerEvent EventId="201" Processor="qhnljzc_yinyue"/>
+		</Object>
+	</Scene>
+</Stage>
+
+

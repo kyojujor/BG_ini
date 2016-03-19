@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- edited with XMLSpy v2010 (http://www.altova.com) by MESMERiZE (MiZE) -->
+<!--
+	type    类型号
+		1.奖励积分
+		2.奖励荣誉
+	value   具体数值填写(玩法类型号type(具体和battlewarmodle的type定义一致)，configid,value)
+-->
+<Object>	
+	<Property ID="1" Type="1"  Value="4,1"/>
+	<Property ID="2" Type="1"  Value="2,BannerNpc_zc01_0001,3;2,BannerNpc_zc01_0002,3;2,BannerNpc_zc01_0003,3"/>
+	<Property ID="3" Type="1"  Value="1,BannerNpc_zc01_0001,1;1,BannerNpc_zc01_0002,1;1,BannerNpc_zc06_0003,1"/>
+	<Property ID="4" Type="1"  Value="4,40"/>
+	<Property ID="5" Type="1"  Value="5,npc2,30"/>
+	<Property ID="6" Type="1"  Value="6,40"/>
+	<Property ID="7" Type="1"  Value="7,40"/>
+	<Property ID="8" Type="1"  Value="10,5"/>
+	<Property ID="1000" Type="2"  Value="1,npc2,30"/>
+	<Property ID="1001" Type="2"  Value="2,npc3,30"/>
+	<Property ID="1002" Type="2"  Value="3,npc4,30"/>
+	<Property ID="1003" Type="2"  Value="4,40"/>
+	<Property ID="1004" Type="2"  Value="5,npc2,30"/>
+	<Property ID="1005" Type="2"  Value="6,40"/>
+	<Property ID="1006" Type="2"  Value="7,40"/>
+
+	
+</Object>

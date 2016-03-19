@@ -1,0 +1,1913 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 被2011 rel. 2 sp1 (TeaM DJiNN) 使用XMLSpy vTeaM DJiNN编辑的 (http://www.altova.com) by -->
+<!-- edited with XMLSpy v2010 (http://www.altova.com) by MESMERiZE (MiZE) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<Object>
+	<Property ID="301" Name="探索朝日圣地（风景点）" Kind="14" Exp="3686" Money="228" DefaultItemList="Mount_00004,1"/>
+	<Property ID="302" Name="探索晨曦丘陵（风景点）" Kind="15" Exp="3686" Money="228" DefaultItemList="Mount_00005,1"/>
+	<Property ID="303" Name="探索蒂迦海岸（风景点）" Kind="17" Exp="3686" Money="228"/>
+	<Property ID="304" Name="探索巨树沼泽（风景点）" Kind="18" Exp="3686" Money="228"/>
+	<Property ID="305" Name="探索提奥迪亚（风景点）" Kind="22" Exp="3686" Money="228"/>
+	<Property ID="306" Name="骑术训练" Kind="14" Exp="4567" Money="108"/>
+	<Property ID="308" Name="大轰炸" Kind="15" Exp="443" Money="124" SelectItemList="Rw_Pants_A5001A,1;Rw_Pants_D5001A,1"/>
+	<Property ID="309" Name="锻造训练" Kind="14" Exp="5572" Money="372" Phys="38"/>
+	<Property ID="310" Name="锻造训练" Kind="14" Exp="7786" Money="605" Phys="50"/>
+	<Property ID="311" Name="锻造训练" Kind="14" Exp="13265" Money="1041" Phys="63"/>
+	<Property ID="312" Name="锻造训练" Kind="14" Exp="25426" Money="1056" Phys="74"/>
+	<Property ID="313" Name="锻造训练" Kind="14" Exp="32837" Money="1071" Phys="86"/>
+	<Property ID="23" Name="曼德拉草" Kind="14" Exp="3920" Money="243"/>
+	<Property ID="29" Name="岌岌可危的枢纽" Kind="14" Exp="2370" Money="359"/>
+	<Property ID="30" Name="圣日卡口的鏖战" Kind="14" Exp="2996" Money="896"/>
+	<Property ID="31" Name="拯救大兵纳恩" Kind="14" Exp="2731" Money="100"/>
+	<Property ID="32" Name="异齿" Kind="14" Exp="3291" Money="1004"/>
+	<Property ID="33" Name="染血的凯旋" Kind="14" Exp="3347" Money="401"/>
+	<Property ID="34" Name="奇怪木屑" Kind="14" Exp="8309" Money="677"/>
+	<Property ID="35" Name="分析陨石" Kind="14" Exp="9286" Money="1004"/>
+	<Property ID="36" Name="治疗伤员" Kind="14" Exp="8309" Money="602"/>
+	<Property ID="37" Name="启动法阵" Kind="14" Exp="3347" Money="677" SelectItemList="Rw_Pants_A5002A,1;Rw_Pants_B5002A,1;Rw_Pants_C5002A,1;Rw_Pants_D5002A,1"/>
+	<Property ID="38" Name="示警卡萨罗" Kind="14" Exp="3258" Money="1128"/>
+	<Property ID="39" Name="莫多威尔" Kind="14" Exp="3460" Money="677"/>
+	<Property ID="40" Name="圣地阴影" Kind="14" Exp="3489" Money="677" SelectItemList="Baoshi_0001A1,1;Baoshi_0001B1,1;Baoshi_0001C1,1;Baoshi_0001D1,1"/>
+	<Property ID="41" Name="昔日胜境" Kind="14" Exp="3630" Money="602"/>
+	<Property ID="42" Name="遗迹隐修士" Kind="14" Exp="3988" Money="677" SelectItemList="Rw_Cloth_A5002A,1;Rw_Cloth_B5002A,1;Rw_Cloth_C5002A,1;Rw_Cloth_D5002A,1"/>
+	<Property ID="43" Name="遗迹的阴影" Kind="14" Exp="3833" Money="677" SelectItemList="Rw_Shield_0001A,1;Rw_Magicbottle_0001A,1"/>
+	<Property ID="44" Name="往昔的辉煌" Kind="14" Exp="3402" Money="752"/>
+	<Property ID="45" Name="门徒英格玛" Kind="14" Exp="3902" Money="752"/>
+	<Property ID="46" Name="安格拉姆的疑惑" Kind="14" Exp="16510" Money="835"/>
+	<Property ID="47" Name="安抚木灵" Kind="14" Exp="16510" Money="752"/>
+	<Property ID="48" Name="英格玛的决断" Kind="14" Exp="16510" Money="835"/>
+	<Property ID="49" Name="哲罗姆的嘱托" Kind="14" Exp="4485" Money="557"/>
+	<Property ID="50" Name="伦纳德的疯狂" Kind="14" Exp="4485" Money="835"/>
+	<Property ID="51" Name="大厦将倾独木支" Kind="14" Exp="5140" Money="835"/>
+	<Property ID="52" Name="飞报卡萨罗" Kind="14" Exp="4706" Money="835"/>
+	<Property ID="53" Name="营地的日常" Kind="14" Exp="13695" Money="840"/>
+	<Property ID="54" Name="营地的麻烦" Kind="14" Exp="13695" Money="840"/>
+	<Property ID="55" Name="木灵的痛楚" Kind="14" Exp="13707" Money="840"/>
+	<Property ID="56" Name="啮木蚁的巢穴" Kind="14" Exp="13707" Money="840"/>
+	<Property ID="57" Name="贪食的巨熊" Kind="14" Exp="13707" Money="976"/>
+	<Property ID="58" Name="游荡的逃兵" Kind="14" Exp="13707" Money="976"/>
+	<Property ID="59" Name="贪食的巨熊" Kind="14" Exp="13707" Money="840"/>
+	<Property ID="60" Name="卡口防务" Kind="14" Exp="5690" Money="840"/>
+	<Property ID="61" Name="斥候肖恩" Kind="14" Exp="5803" Money="840"/>
+	<Property ID="62" Name="以战止戈" Kind="14" Exp="6390" Money="1422"/>
+	<Property ID="63" Name="避难者" Kind="14" Exp="5803" Money="840"/>
+	<Property ID="64" Name="冲破拦截" Kind="14" Exp="5833" Money="1422"/>
+	<Property ID="65" Name="传信落日" Kind="14" Exp="6169" Money="840"/>
+	<Property ID="66" Name="余晖救援" Kind="14" Exp="6169" Money="1422"/>
+	<Property ID="67" Name="一举两得" Kind="14" Exp="13707" Money="976"/>
+	<Property ID="68" Name="神秘信使" Kind="14" Exp="6711" Money="1422"/>
+	<Property ID="69" Name="意外收获" Kind="14" Exp="6931" Money="1422"/>
+	<Property ID="70" Name="维泰格之殇" Kind="14" Exp="15927" Money="598"/>
+	<Property ID="71" Name="哨兵的日常" Kind="14" Exp="4706" Money="840" SelectItemList="Rw_Hat_A5002A,1;Rw_Hat_B5002A,1;Rw_Hat_C5002A,1;Rw_Hat_D5002A,1"/>
+	<Property ID="73" Name="不老传说" Kind="14" Exp="2940" Money="182"/>
+	<Property ID="74" Name="血色结晶" Kind="14" Exp="4900" Money="304"/>
+	<Property ID="72" Name="失踪的冒险者" Kind="14" Exp="4900" Money="304" DefaultItemList="Crystal_A00001A,10;EnergySheild_04,1"/>
+	<Property ID="75" Name="独一无二的生物" Kind="14" Exp="4900" Money="304"/>
+	<Property ID="76" Name="巨兽猎杀者" Kind="14" Exp="8309" Money="1004"/>
+	<Property ID="77" Name="不靠谱的猜测" Kind="14" Exp="13695" Money="840"/>
+	<Property ID="78" Name="血色的黑金" Kind="14" Exp="16510" Money="835" DefaultItemList="Tsdj_Jewelry_0002A,1"/>
+	<Property ID="89" Name="莫多威尔的笔记" Kind="14" Exp="12309" Money="552"/>
+	<Property ID="90" Name="林地中的龙吼" Kind="14" Exp="5759" Money="110"/>
+	<Property ID="101" Name="树荫下的哨兵" Kind="18" Exp="7156" Money="1552" SelectItemList="Rw_Shoes_A5002A,1;Rw_Shoes_B5002A,1;Rw_Shoes_C5002A,1;Rw_Shoes_D5002A,1"/>
+	<Property ID="102" Name="探险家的乐园" Kind="18" Exp="8945" Money="1552" SelectItemList="Rw_Shield_0001A_01,1;Rw_Magicbottle_0001A_01,1"/>
+	<Property ID="103" Name="阔苏剪径者" Kind="18" Exp="35357" Money="2587"/>
+	<Property ID="104" Name="兽皮上的信息" Kind="18" Exp="23088" Money="2587"/>
+	<Property ID="105" Name="树荫深处的哨兵" Kind="18" Exp="3848" Money="1552"/>
+	<Property ID="106" Name="古迹挖掘者" Kind="18" Exp="26936" Money="2587"/>
+	<Property ID="107" Name="尘归尘土归土" Kind="18" Exp="12387" Money="2587"/>
+	<Property ID="108" Name="沼泽前站" Kind="18" Exp="8258" Money="2587"/>
+	<Property ID="109" Name="古神的遗迹" Kind="18" Exp="4129" Money="2587"/>
+	<Property ID="110" Name="厄运之源" Kind="18" Exp="10322" Money="2587"/>
+	<Property ID="111" Name="特殊材质" Kind="18" Exp="35365" Money="2594"/>
+	<Property ID="112" Name="打扫战场" Kind="18" Exp="6193" Money="2594"/>
+	<Property ID="113" Name="蛮锤之力" Kind="18" Exp="43354" Money="2594"/>
+	<Property ID="114" Name="遗迹圣物" Kind="18" Exp="35365" Money="2594"/>
+	<Property ID="115" Name="往日废墟" Kind="18" Exp="8258" Money="1557"/>
+	<Property ID="116" Name="知己知彼" Kind="18" Exp="6193" Money="1038"/>
+	<Property ID="117" Name="剪除羽翼" Kind="18" Exp="26838" Money="2594"/>
+	<Property ID="118" Name="废物利用" Kind="18" Exp="35365" Money="2594"/>
+	<Property ID="119" Name="一网打尽" Kind="18" Exp="44200" Money="2594"/>
+	<Property ID="120" Name="传信守护者" Kind="18" Exp="6630" Money="1557" DefaultItemList="RW_hp_0001A,5"/>
+	<Property ID="121" Name="寻找统帅" Kind="18" Exp="22103" Money="1557"/>
+	<Property ID="122" Name="抢救树苗" Kind="18" Exp="11050" Money="2594"/>
+	<Property ID="123" Name="驱赶野兽" Kind="18" Exp="28730" Money="2594"/>
+	<Property ID="124" Name="保护树种" Kind="18" Exp="6630" Money="2594"/>
+	<Property ID="125" Name="守护者之地" Kind="18" Exp="4420" Money="1038"/>
+	<Property ID="126" Name="阔苏侵略者" Kind="18" Exp="30940" Money="2602"/>
+	<Property ID="127" Name="阔叶的复仇" Kind="18" Exp="35365" Money="2602"/>
+	<Property ID="128" Name="雕纹石板" Kind="18" Exp="57473" Money="2602"/>
+	<Property ID="129" Name="维东尼_裂颅" Kind="18" Exp="35365" Money="2602"/>
+	<Property ID="130" Name="落叶归根" Kind="18" Exp="13263" Money="2602"/>
+	<Property ID="131" Name="安卡巴斯的躯干" Kind="18" Exp="4421" Money="1561"/>
+	<Property ID="132" Name="先祖的遗产" Kind="18" Exp="6631" Money="2602"/>
+	<Property ID="133" Name="安卡巴斯的果实" Kind="18" Exp="6631" Money="2602"/>
+	<Property ID="134" Name="第二枚石板" Kind="18" Exp="37578" Money="2602"/>
+	<Property ID="135" Name="祸乱之源" Kind="18" Exp="35365" Money="2602"/>
+	<Property ID="136" Name="地狱之门的守护者" Kind="18" Exp="4422" Money="1561"/>
+	<Property ID="137" Name="统帅去向" Kind="18" Exp="13263" Money="1561"/>
+	<Property ID="138" Name="武器保养" Kind="18" Exp="35365" Money="2602"/>
+	<Property ID="139" Name="重腥醒酒" Kind="18" Exp="35365" Money="2602"/>
+	<Property ID="140" Name="繁花似锦" Kind="18" Exp="22108" Money="1561"/>
+	<Property ID="141" Name="狩猎的季节" Kind="18" Exp="6631" Money="1565"/>
+	<Property ID="142" Name="下位猎人" Kind="18" Exp="22105" Money="2609"/>
+	<Property ID="143" Name="星级猎物" Kind="18" Exp="11052" Money="2609"/>
+	<Property ID="144" Name="猎人厨房" Kind="18" Exp="35381" Money="2609"/>
+	<Property ID="145" Name="水文考察" Kind="18" Exp="35381" Money="2609"/>
+	<Property ID="146" Name="狩猎达人" Kind="18" Exp="44220" Money="583"/>
+	<Property ID="147" Name="达蒙_卡萨" Kind="18" Exp="26536" Money="1565"/>
+	<Property ID="148" Name="曙光之傲" Kind="18" Exp="4422" Money="1565"/>
+	<Property ID="149" Name="利刃死士" Kind="18" Exp="35381" Money="2609"/>
+	<Property ID="150" Name="沼泽异怪" Kind="18" Exp="35381" Money="2609"/>
+	<Property ID="151" Name="北境之虎" Kind="18" Exp="35737" Money="2617"/>
+	<Property ID="152" Name="北境之牙" Kind="18" Exp="35737" Money="2617"/>
+	<Property ID="153" Name="安卡巴斯的馈赠" Kind="18" Exp="8844" Money="2617"/>
+	<Property ID="154" Name="遗迹中的鬼影" Kind="18" Exp="15477" Money="1570"/>
+	<Property ID="155" Name="被掩藏的秘辛" Kind="18" Exp="4422" Money="1570"/>
+	<Property ID="156" Name="统帅的决定" Kind="18" Exp="26532" Money="2617"/>
+	<Property ID="157" Name="战前的准备" Kind="18" Exp="22110" Money="2617"/>
+	<Property ID="158" Name="安卡巴斯的遗物" Kind="18" Exp="28414" Money="1575"/>
+	<Property ID="159" Name="地狱之门" Kind="18" Exp="13266" Money="1570" DefaultItemList="Crystal_A00001A,10;EnergySheild_12,1"/>
+	<Property ID="160" Name="太阳之子" Kind="18" Exp="30961" Money="2617" DefaultItemList="S_Drug_zq_004,3;S_Drug_qh_004,3"/>
+	<Property ID="161" Name="散落的石板" Kind="18" Exp="35737" Money="2617"/>
+	<Property ID="162" Name="巨树守护者" Kind="18" Exp="13269" Money="1050" SelectItemList="Baoshi_0003A1,1;Baoshi_0003B1,1;Baoshi_0003C1,1;Baoshi_0003D1,1"/>
+	<Property ID="163" Name="遗迹入侵者" Kind="18" Exp="22336" Money="1050"/>
+	<Property ID="164" Name="喀什尼之子" Kind="18" Exp="4423" Money="1575"/>
+	<Property ID="165" Name="擒贼擒王" Kind="18" Exp="28414" Money="1575"/>
+	<Property ID="166" Name="最后的石板" Kind="18" Exp="4423" Money="2624"/>
+	<Property ID="167" Name="遗忘之城" Kind="18" Exp="11057" Money="1050"/>
+	<Property ID="168" Name="夺回石板" Kind="18" Exp="6634" Money="1575"/>
+	<Property ID="169" Name="当机立断" Kind="18" Exp="19903" Money="1575"/>
+	<Property ID="170" Name="空中探查" Kind="18" Exp="6634" Money="1575"/>
+	<Property ID="171" Name="一击必杀" Kind="18" Exp="35384" Money="2624"/>
+	<Property ID="172" Name="回报统帅" Kind="18" Exp="13269" Money="1050"/>
+	<Property ID="173" Name="前线！前线！" Kind="18" Exp="22336" Money="2624" SelectItemList="Rw_Shield_0001A_02,1;Rw_Magicbottle_0002A,1"/>
+	<Property ID="174" Name="考古学者" Kind="18" Exp="22336" Money="1575"/>
+	<Property ID="175" Name="古迹破坏者" Kind="18" Exp="28414" Money="1575"/>
+	<Property ID="176" Name="华美的石板" Kind="18" Exp="37885" Money="2624"/>
+	<Property ID="177" Name="虚空来客" Kind="18" Exp="28414" Money="1575"/>
+	<Property ID="178" Name="消逝的文明" Kind="18" Exp="22336" Money="1575"/>
+	<Property ID="179" Name="拯救安卡巴斯" Kind="18" Exp="21591" Money="583"/>
+	<Property ID="180" Name="安卡巴斯的愤怒" Kind="18" Exp="18500" Money="1050"/>
+	<Property ID="181" Name="安卡巴斯的救赎" Kind="18" Exp="18500" Money="1050"/>
+	<Property ID="182" Name="源机构" Kind="18" Exp="21591" Money="389"/>
+	<Property ID="4001" Name="小镇风光" Kind="1" Exp="420" Money="20"/>
+	<Property ID="4002" Name="田间鼠患" Kind="1" Exp="492" Money="30"/>
+	<Property ID="4004" Name="向镇长报道" Kind="1" Exp="425" Money="22"/>
+	<Property ID="4005" Name="队长菲尔逊" Kind="1" Exp="517" Money="27"/>
+	<Property ID="4006" Name="小试身手" Kind="1" Exp="1033" Money="41"/>
+	<Property ID="4007" Name="商队求助" Kind="1" Exp="775" Money="55"/>
+	<Property ID="4010" Name="潜入的敌人" Kind="1" Exp="1252" Money="71"/>
+	<Property ID="4011" Name="肖尔" Kind="1" Exp="1707" Money="86"/>
+	<Property ID="4012" Name="突破阻拦" Kind="1" Exp="1130" Money="64"/>
+	<Property ID="4014" Name="突破阻挡" Kind="1" Exp="1633" Money="104"/>
+	<Property ID="4015" Name="终止调查" Kind="1" Exp="1225" Money="78" DefaultItemList="Rw_Necklace_0001A,1"/>
+	<Property ID="4016" Name="被困的军官" Kind="1" Exp="1225" Money="78"/>
+	<Property ID="4017" Name="前往莱尔镇" Kind="1" Exp="1225" Money="78" SelectItemList="Rw_Ring_0001A,1;Rw_Ring_0002A,1"/>
+	<Property ID="4020" Name="肖尔的爪牙" Kind="1" Exp="1330" Money="64"/>
+	<Property ID="4023" Name="达戈菲尔的秘密" Kind="1" Exp="1633" Money="104"/>
+	<Property ID="4028" Name="镇长的委托" Kind="1" Exp="1427" Money="80"/>
+	<Property ID="4029" Name="队长的担忧" Kind="1" Exp="1527" Money="80"/>
+	<Property ID="4030" Name="复仇者卡斯" Kind="1" Exp="5644" Money="328"/>
+	<Property ID="4032" Name="前往克尔平原" Kind="1" Exp="3073" Money="188"/>
+	<Property ID="4033" Name="初上战场" Kind="1" Exp="4609" Money="283"/>
+	<Property ID="4034" Name="特殊情况" Kind="1" Exp="5291" Money="328"/>
+	<Property ID="4040" Name="潜入的前奏" Kind="1" Exp="6220" Money="374"/>
+	<Property ID="4046" Name="侦测谍报" Kind="1" Exp="3527" Money="219"/>
+	<Property ID="4048" Name="背后的秘密" Kind="1" Exp="4147" Money="250"/>
+	<Property ID="4049" Name="卑劣的无悯会" Kind="1" Exp="6220" Money="374"/>
+	<Property ID="4050" Name="没有线索的线索" Kind="1" Exp="8984" Money="499"/>
+	<Property ID="4051" Name="达戈菲尔的计划" Kind="1" Exp="10648" Money="709"/>
+	<Property ID="4052" Name="粉碎阴谋" Kind="1" Exp="7986" Money="532" SelectItemList="Rw_Magicbottle_0001A,1;Rw_Shield_0001A,1;"/>
+	<Property ID="4054" Name="安全部署" Kind="1" Exp="5324" Money="355" SelectItemList="Baoshi_0001A1,1;Baoshi_0001B1,1;Baoshi_0001C1,1;Baoshi_0001D1,1"/>
+	<Property ID="4056" Name="失败的作战计划" Kind="1" Exp="18956" Money="993"/>
+	<Property ID="4058" Name="迟迟未到的补给" Kind="1" Exp="13372" Money="893" SelectItemList="Rw_Hat_A0002A,1;Rw_Hat_B0002A,1;Rw_Hat_C0002A,1;Rw_Hat_D0002A,1"/>
+	<Property ID="4059" Name="非正式冲突" Kind="1" Exp="16715" Money="1116"/>
+	<Property ID="4060" Name="阴险的操纵者" Kind="1" Exp="16715" Money="1116"/>
+	<Property ID="4061" Name="再次和谈" Kind="1" Exp="13372" Money="893"/>
+	<Property ID="4062" Name="复国会密谋" Kind="1" Exp="14859" Money="992"/>
+	<Property ID="4063" Name="消灭达戈菲尔哨兵" Kind="1" Exp="18573" Money="1239"/>
+	<Property ID="4064" Name="领取炸药" Kind="1" Exp="14859" Money="992"/>
+	<Property ID="4065" Name="爆破灰烬壁垒碉堡" Kind="1" Exp="18573" Money="1239"/>
+	<Property ID="4069" Name="首领瑞亚·菲尔德" Kind="1" Exp="18573" Money="1239" SelectItemList="Rw_Sword_0003A,1;Rw_Dagger_0003A,1;Rw_Staff_0003A,1;Rw_Gun_0003A,1;"/>
+	<Property ID="4071" Name="阿克里特口中的实情" Kind="1" Exp="16434" Money="1101"/>
+	<Property ID="4073" Name="审问结果" Kind="1" Exp="12326" Money="826"/>
+	<Property ID="4074" Name="丧尸踪迹" Kind="1" Exp="16434" Money="1101"/>
+	<Property ID="4075" Name="消灭丧尸" Kind="1" Exp="20543" Money="1376"/>
+	<Property ID="4076" Name="勘察队长的情况" Kind="1" Exp="20661" Money="1385"/>
+	<Property ID="4077" Name="隐匿的复国会" Kind="1" Exp="20661" Money="1385"/>
+	<Property ID="4078" Name="修理反叛者" Kind="1" Exp="20661" Money="1385"/>
+	<Property ID="4079" Name="消灭统领" Kind="1" Exp="20661" Money="1385"/>
+	<Property ID="4080" Name="破坏污染源" Kind="1" Exp="20661" Money="1385"/>
+	<Property ID="4081" Name="胜利的消息" Kind="1" Exp="20661" Money="1385"/>
+	<Property ID="4082" Name="美味的南瓜" Kind="1" Exp="328" Money="15"/>
+	<Property ID="4083" Name="南瓜运送" Kind="1" Exp="637" Money="34"/>
+	<Property ID="4084" Name="孙女的礼物" Kind="1" Exp="319" Money="25"/>
+	<Property ID="4089" Name="药品供给" Kind="1" Exp="1427" Money="80"/>
+	<Property ID="4090" Name="污染的药瓶" Kind="1" Exp="1527" Money="80"/>
+	<Property ID="4091" Name="成功研制" Kind="1" Exp="1937" Money="106"/>
+	<Property ID="4092" Name="治疗伤员" Kind="1" Exp="4609" Money="283"/>
+	<Property ID="4093" Name="伤员的讯息" Kind="1" Exp="4609" Money="283"/>
+	<Property ID="4094" Name="学徒的图纸" Kind="1" Exp="3980" Money="246"/>
+	<Property ID="4095" Name="学徒的梦想" Kind="1" Exp="3980" Money="246"/>
+	<Property ID="4096" Name="水下珍珠" Kind="1" Exp="3980" Money="246"/>
+	<Property ID="4098" Name="突然袭击" Kind="1" Exp="5291" Money="328"/>
+	<Property ID="4099" Name="狙击补给" Kind="1" Exp="7055" Money="438"/>
+	<Property ID="4100" Name="你的就是我的" Kind="1" Exp="5291" Money="328"/>
+	<Property ID="4104" Name="销毁残骸" Kind="1" Exp="5324" Money="355"/>
+	<Property ID="4105" Name="机器人紊乱之谜" Kind="1" Exp="6220" Money="374"/>
+	<Property ID="4108" Name="问题严重" Kind="1" Exp="5324" Money="355"/>
+	<Property ID="4109" Name="粗心的学徒" Kind="1" Exp="10648" Money="709"/>
+	<Property ID="4110" Name="你们的事情我知道了" Kind="1" Exp="15965" Money="794"/>
+	<Property ID="4111" Name="另辟蹊径" Kind="1" Exp="14939" Money="794"/>
+	<Property ID="4112" Name="黑暗中的觅食" Kind="1" Exp="18715" Money="1116"/>
+	<Property ID="4113" Name="港口的损失" Kind="1" Exp="14859" Money="992"/>
+	<Property ID="4115" Name="达戈菲尔的凝视" Kind="1" Exp="13372" Money="893"/>
+	<Property ID="4117" Name="削弱灰烬壁垒" Kind="1" Exp="20543" Money="1376"/>
+	<Property ID="4118" Name="歼灭达戈菲尔机械力量" Kind="1" Exp="18573" Money="1239"/>
+	<Property ID="4120" Name="科学家的研究" Kind="1" Exp="20543" Money="1376"/>
+	<Property ID="4122" Name="奇怪的日记" Kind="1" Exp="20543" Money="1376"/>
+	<Property ID="4123" Name="消灭丧尸头领" Kind="1" Exp="20543" Money="1376"/>
+	<Property ID="4124" Name="击杀复国会守卫一" Kind="1" Exp="20661" Money="1385"/>
+	<Property ID="4125" Name="击杀复国会守卫二" Kind="1" Exp="20661" Money="1385"/>
+	<Property ID="4127" Name="狼患" Kind="1" Exp="1252" Money="71"/>
+	<Property ID="4128" Name="野狼皮毛" Kind="1" Exp="939" Money="53"/>
+	<Property ID="4132" Name="送往鲁尔勒的快报" Kind="1" Exp="3527" Money="220"/>
+	<Property ID="4136" Name="屠夫" Kind="1" Exp="5307" Money="80" SelectItemList="RW_Mantle_0001A,1;RW_Mantle_5001A,1"/>
+	<Property ID="30011" Name="击杀激怒的变异工人" Kind="1" Exp="55" Money="50"/>
+	<Property ID="30012" Name="击杀变异工人首领" Kind="1" Exp="55" Money="50"/>
+	<Property ID="4200" Name="向族长报道" Kind="2" Exp="9" Money="1"/>
+	<Property ID="4201" Name="族长的教诲" Kind="2" Exp="15" Money="2"/>
+	<Property ID="4202" Name="仪式采血" Kind="2" Exp="58" Money="3" SelectItemList="Hand_A00001A,1;Hand_B00064A,1;Hand_C00153A,1;Hand_D00216A,1"/>
+	<Property ID="4203" Name="采摘植物" Kind="2" Exp="51" Money="2"/>
+	<Property ID="4204" Name="秘法容器" Kind="2" Exp="29" Money="2"/>
+	<Property ID="4205" Name="抑血珍珠" Kind="2" Exp="17" Money="1"/>
+	<Property ID="4206" Name="秘银海岸" Kind="2" Exp="14" Money="1"/>
+	<Property ID="4207" Name="旧血族之恨" Kind="2" Exp="95" Money="3"/>
+	<Property ID="4208" Name="平息愤恨" Kind="2" Exp="114" Money="3" SelectItemList="Pants_A00001A,1;Pants_B00060A,1;Pants_C00140A,1;Pants_D00199A,1"/>
+	<Property ID="4209" Name="血之仪式" Kind="2" Exp="24" Money="1"/>
+	<Property ID="4210" Name="薄雾堡" Kind="2" Exp="14" Money="1"/>
+	<Property ID="4211" Name="安息之路" Kind="2" Exp="79" Money="3"/>
+	<Property ID="4212" Name="达戈菲尔" Kind="2" Exp="130" Money="2"/>
+	<Property ID="4213" Name="更糟的消息" Kind="2" Exp="33" Money="2"/>
+	<Property ID="4214" Name="临危受命" Kind="2" Exp="33" Money="1"/>
+	<Property ID="4215" Name="搬运能源" Kind="2" Exp="65" Money="2"/>
+	<Property ID="4216" Name="机甲充能" Kind="2" Exp="65" Money="2"/>
+	<Property ID="4217" Name="急援" Kind="2" Exp="33" Money="1"/>
+	<Property ID="4218" Name="你们终于来了" Kind="2" Exp="418" Money="5"/>
+	<Property ID="4219" Name="他们想干什么" Kind="2" Exp="502" Money="7" SelectItemList="Shoes_A00001A,1;Shoes_B00061A,1;Shoes_C00146A,1;Shoes_D00206A,1"/>
+	<Property ID="4220" Name="保护好书籍" Kind="2" Exp="105" Money="3"/>
+	<Property ID="4221" Name="调查内鬼" Kind="2" Exp="105" Money="3"/>
+	<Property ID="4222" Name="消灭达戈菲尔" Kind="2" Exp="308" Money="5" SelectItemList="Hat_A00004B,1;Hat_B00073B,1;Hat_C00169B,1;Hat_D00237B,1"/>
+	<Property ID="4223" Name="解除危机" Kind="2" Exp="105" Money="3"/>
+	<Property ID="4224" Name="裂痕十字" Kind="2" Exp="14" Money="1"/>
+	<Property ID="4225" Name="调查情况" Kind="2" Exp="79" Money="3"/>
+	<Property ID="4226" Name="探清虚实" Kind="2" Exp="157" Money="3"/>
+	<Property ID="4227" Name="阻止无悯会" Kind="2" Exp="157" Money="3"/>
+	<Property ID="4228" Name="无悯会的阴谋" Kind="2" Exp="79" Money="3" SelectItemList="Shoes_A00001A,1;Shoes_B00061A,1;Shoes_C00146A,1;Shoes_D00206A,1"/>
+	<Property ID="4229" Name="紧急时刻" Kind="2" Exp="39" Money="2"/>
+	<Property ID="4230" Name="粉碎计划" Kind="2" Exp="79" Money="3" SelectItemList="Sword_00004B,1;Staff_00004B,1"/>
+	<Property ID="4231" Name="失踪的卫兵" Kind="2" Exp="247" Money="3"/>
+	<Property ID="4232" Name="获取试验品" Kind="2" Exp="495" Money="4"/>
+	<Property ID="4233" Name="实验报告" Kind="2" Exp="124" Money="2"/>
+	<Property ID="4234" Name="与血族有染" Kind="2" Exp="124" Money="2"/>
+	<Property ID="4235" Name="前往荣耀墓地" Kind="2" Exp="124" Money="2"/>
+	<Property ID="4236" Name="这里有鬼" Kind="2" Exp="192" Money="3"/>
+	<Property ID="4237" Name="调查灵异事件" Kind="2" Exp="383" Money="4" SelectItemList="Wrist_A00001A,1;Wrist_B00064A,1;Wrist_C00153A,1;Wrist_D00216A,1"/>
+	<Property ID="4238" Name="不能让他们得逞" Kind="2" Exp="383" Money="4"/>
+	<Property ID="4239" Name="剿灭" Kind="2" Exp="383" Money="7"/>
+	<Property ID="4240" Name="不死之身？" Kind="2" Exp="383" Money="4"/>
+	<Property ID="4241" Name="安息吧勇士" Kind="2" Exp="192" Money="3"/>
+	<Property ID="4242" Name="向伯爵复命" Kind="2" Exp="96" Money="2"/>
+	<Property ID="4243" Name="纹刺岩龟" Kind="2" Exp="95" Money="3"/>
+	<Property ID="4244" Name="被蛊惑的银鳞居民" Kind="2" Exp="114" Money="3"/>
+	<Property ID="4245" Name="造谣的银鳞萨满" Kind="2" Exp="114" Money="3"/>
+	<Property ID="4246" Name="海风元素" Kind="2" Exp="95" Money="3"/>
+	<Property ID="4247" Name="捣乱者" Kind="2" Exp="114" Money="3"/>
+	<Property ID="4248" Name="帮忙教训一" Kind="2" Exp="130" Money="2"/>
+	<Property ID="4249" Name="帮忙教训二" Kind="2" Exp="130" Money="2"/>
+	<Property ID="4250" Name="教训的原因" Kind="2" Exp="174" Money="6" DefaultItemList="Chaos_00002B,1"/>
+	<Property ID="4251" Name="夜色学院一" Kind="2" Exp="157" Money="5"/>
+	<Property ID="4252" Name="夜色学院（二）" Kind="2" Exp="157" Money="5"/>
+	<Property ID="4253" Name="检察官迪拉" Kind="2" Exp="267" Money="9" DefaultItemList="Meditation_00002A,1"/>
+	<Property ID="4254" Name="破坏阴谋（一）" Kind="2" Exp="267" Money="9"/>
+	<Property ID="4255" Name="破坏阴谋（二）" Kind="2" Exp="157" Money="3"/>
+	<Property ID="4256" Name="最后的破坏" Kind="2" Exp="267" Money="9" DefaultItemList="Spinz_W_C_G_15,1"/>
+	<Property ID="4257" Name="减少威胁" Kind="2" Exp="157" Money="3"/>
+	<Property ID="4258" Name="破坏复活" Kind="2" Exp="157" Money="3"/>
+	<Property ID="4259" Name="协助剿灭" Kind="2" Exp="383" Money="7"/>
+	<Property ID="4260" Name="莱恩·伍德曼" Kind="2" Exp="267" Money="9" DefaultItemList="Mantle_00002B,1"/>
+	<Property ID="4261" Name="真正的我" Kind="2" Exp="267" Money="9" DefaultItemList="Mantle_00005B,1"/>
+	<Property ID="4262" Name="血之荣誉" Kind="2" Exp="96" Money="8"/>
+	<Property ID="4263" Name="清剿旧血族" Kind="2" Exp="120" Money="8"/>
+	<Property ID="4264" Name="破话环境的生物" Kind="2" Exp="120" Money="8"/>
+	<Property ID="4265" Name="帮助路易·威登" Kind="2" Exp="51" Money="3"/>
+	<Property ID="4266" Name="黑血珠" Kind="2" Exp="51" Money="2"/>
+	<Property ID="4267" Name="血狼皮" Kind="2" Exp="51" Money="3"/>
+	<Property ID="4268" Name="灵语祭台" Kind="2" Exp="29" Money="2"/>
+	<Property ID="4269" Name="达戈菲尔入侵" Kind="2" Exp="24" Money="1"/>
+	<Property ID="10001" Name="洛格玛人" Kind="3" Exp="270" Money="20"/>
+	<Property ID="10002" Name="岩之坚毅" Kind="3" Exp="337" Money="50"/>
+	<Property ID="10003" Name="水之理智" Kind="3" Exp="311" Money="53"/>
+	<Property ID="10004" Name="风之率性" Kind="3" Exp="301" Money="33" DefaultItemList="add_depot3,1"/>
+	<Property ID="10005" Name="火之热情" Kind="3" Exp="387" Money="74"/>
+	<Property ID="10006" Name="铁之严谨" Kind="3" Exp="1415" Money="89"/>
+	<Property ID="10007" Name="战争使者" Kind="3" Exp="440" Money="71" SelectItemList="Rw_Pants_A0001A,1;Rw_Pants_B0001A,1;Rw_Pants_C0001A,1;Rw_Pants_D0001A,1"/>
+	<Property ID="10008" Name="图兰德_亮银" Kind="3" Exp="476" Money="125" SelectItemList="Rw_Cloth_A0001A,1;Rw_Cloth_B0001A,1;Rw_Cloth_C0001A,1;Rw_Cloth_D0001A,1"/>
+	<Property ID="10009" Name="锤柄林地" Kind="3" Exp="440" Money="64" DefaultItemList="Rw_Necklace_0001A,1"/>
+	<Property ID="10010" Name="刺探者" Kind="3" Exp="3892" Money="173"/>
+	<Property ID="10011" Name="特殊徽记" Kind="3" Exp="445" Money="173" SelectItemList="Rw_Hat_A0001A,1;Rw_Hat_B0001A,1;Rw_Hat_C0001A,1;Rw_Hat_D0001A,1"/>
+	<Property ID="10012" Name="达戈菲尔" Kind="3" Exp="742" Money="173" SelectItemList="Rw_Wrist_A00001A,1;Rw_Wrist_B00001A,1;Rw_Wrist_C00001A,1;Rw_Wrist_D00001A,1"/>
+	<Property ID="10013" Name="伐木场" Kind="3" Exp="974" Money="91" SelectItemList="Rw_Ring_0001A,1;Rw_Ring_0002A,1"/>
+	<Property ID="10014" Name="保护机器" Kind="3" Exp="974" Money="182" SelectItemList="Rw_Shoes_A0001A,1;Rw_Shoes_B0001A,1;Rw_Shoes_C0001A,1;Rw_Shoes_D0001A,1"/>
+	<Property ID="10015" Name="搜寻零件" Kind="3" Exp="1408" Money="192"/>
+	<Property ID="10016" Name="达戈尔之子" Kind="3" Exp="4423" Money="228"/>
+	<Property ID="10017" Name="布鲁姆_兰多" Kind="3" Exp="1301" Money="456"/>
+	<Property ID="10018" Name="落叶生花" Kind="3" Exp="1940" Money="209"/>
+	<Property ID="10019" Name="另有隐情" Kind="3" Exp="1940" Money="209"/>
+	<Property ID="10020" Name="整饬军备" Kind="3" Exp="5879" Money="312"/>
+	<Property ID="10021" Name="揪出间谍" Kind="3" Exp="3829" Money="347"/>
+	<Property ID="10022" Name="盟军动向" Kind="3" Exp="1152" Money="347"/>
+	<Property ID="10023" Name="先锋营地" Kind="3" Exp="1728" Money="416" SelectItemList="Rw_Sword_0002A_01,1;Rw_Dagger_0002A,1;Rw_Gun_0002A,1"/>
+	<Property ID="10024" Name="桥下的猛兽" Kind="3" Exp="3456" Money="512"/>
+	<Property ID="10025" Name="机械构装" Kind="3" Exp="8293" Money="493"/>
+	<Property ID="10026" Name="机械兽王" Kind="3" Exp="11831" Money="985" SelectItemList="Rw_Pants_A0002A,1;Rw_Pants_B0002A,1;Rw_Pants_C0002A,1;Rw_Pants_D0002A,1"/>
+	<Property ID="10027" Name="疯狂革新会" Kind="3" Exp="1728" Money="662"/>
+	<Property ID="10028" Name="矿车补给" Kind="3" Exp="1739" Money="662"/>
+	<Property ID="10029" Name="复仇之火" Kind="3" Exp="9214" Money="662"/>
+	<Property ID="10030" Name="达戈尔监工" Kind="3" Exp="9445" Money="585"/>
+	<Property ID="10031" Name="机械核心" Kind="3" Exp="2958" Money="690"/>
+	<Property ID="10032" Name="达戈尔护卫" Kind="3" Exp="10136" Money="772"/>
+	<Property ID="10033" Name="科里森_菲尔" Kind="3" Exp="1739" Money="1103" SelectItemList="Rw_Cloth_A0002A,1;Rw_Cloth_B5002A,1;Rw_Cloth_C5002A,1;Rw_Cloth_D5002A,1"/>
+	<Property ID="10034" Name="潜入方砧工厂" Kind="3" Exp="1739" Money="441"/>
+	<Property ID="10035" Name="机甲守卫" Kind="3" Exp="3324" Money="868"/>
+	<Property ID="10036" Name="解救工人" Kind="3" Exp="1739" Money="868"/>
+	<Property ID="10037" Name="摧毁试验品" Kind="3" Exp="2239" Money="868"/>
+	<Property ID="10038" Name="助纣为虐" Kind="3" Exp="11831" Money="930"/>
+	<Property ID="10039" Name="机械猛兽" Kind="3" Exp="13627" Money="930"/>
+	<Property ID="10040" Name="钢骨" Kind="3" Exp="3324" Money="1364" SelectItemList="RW_Mantle_0001A,1;RW_Mantle_5001A,1"/>
+	<Property ID="10041" Name="铁牙" Kind="3" Exp="16618" Money="1364"/>
+	<Property ID="10042" Name="博恩_达隆斯" Kind="3" Exp="3858" Money="1488" SelectItemList="Baoshi_0001A1,1;Baoshi_0001B1,1;Baoshi_0001C1,1;Baoshi_0001D1,1"/>
+	<Property ID="10043" Name="传信哨兵岭" Kind="3" Exp="2839" Money="689"/>
+	<Property ID="10044" Name="哨兵岭日常" Kind="3" Exp="13372" Money="964"/>
+	<Property ID="10045" Name="美味烤狼腿" Kind="3" Exp="13372" Money="1102"/>
+	<Property ID="10046" Name="诡影" Kind="3" Exp="3239" Money="1115" DefaultItemList="Tsdj_Jewelry_0002A,1"/>
+	<Property ID="10047" Name="警告" Kind="3" Exp="15229" Money="1129"/>
+	<Property ID="10048" Name="驱逐" Kind="3" Exp="15786" Money="1515"/>
+	<Property ID="10049" Name="调查" Kind="3" Exp="4558" Money="964"/>
+	<Property ID="10050" Name="突袭" Kind="3" Exp="4558" Money="1102"/>
+	<Property ID="10051" Name="摧毁" Kind="3" Exp="2839" Money="964"/>
+	<Property ID="10052" Name="擒贼擒王" Kind="3" Exp="18572" Money="1515" SelectItemList="Rw_Cloth_D0002A,1;Rw_Cloth_A0002A,1;Rw_Cloth_B0002A,1;Rw_Cloth_C0002A,1"/>
+	<Property ID="10053" Name="追迹" Kind="3" Exp="3269" Money="459" SelectItemList="Rw_Hat_B0002A,1;Rw_Hat_A0002A,1;Rw_Hat_C0002A,1;Rw_Hat_D0002A,1"/>
+	<Property ID="10054" Name="夺取木材" Kind="3" Exp="3767" Money="228"/>
+	<Property ID="10055" Name="达戈菲尔信使" Kind="3" Exp="6278" Money="319"/>
+	<Property ID="10056" Name="伐木场之谜" Kind="3" Exp="1256" Money="137"/>
+	<Property ID="2001" Name="厄运的踪迹" Kind="9" Exp="3269" Money="770"/>
+	<Property ID="2002" Name="鼓舞士气" Kind="9" Exp="3269" Money="923"/>
+	<Property ID="2003" Name="主动出击" Kind="9" Exp="4558" Money="1539"/>
+	<Property ID="2004" Name="先攻" Kind="9" Exp="4897" Money="1539"/>
+	<Property ID="2005" Name="敌军动向" Kind="9" Exp="13701" Money="1539"/>
+	<Property ID="2006" Name="侦查行动" Kind="9" Exp="22835" Money="1570"/>
+	<Property ID="2007" Name="以绝后患" Kind="9" Exp="4558" Money="1693"/>
+	<Property ID="2008" Name="劫杀信使" Kind="9" Exp="20552" Money="1693"/>
+	<Property ID="2009" Name="突袭" Kind="9" Exp="18268" Money="1693"/>
+	<Property ID="2010" Name="评估的依据" Kind="9" Exp="17126" Money="1693"/>
+	<Property ID="2011" Name="燃烧吧！斯达克" Kind="9" Exp="18276" Money="1508"/>
+	<Property ID="2012" Name="强抢豪夺" Kind="9" Exp="19410" Money="1693" DefaultItemList="RW_hp_0001A,10"/>
+	<Property ID="2013" Name="盟友" Kind="9" Exp="3269" Money="923"/>
+	<Property ID="2014" Name="交易" Kind="9" Exp="3269" Money="1739"/>
+	<Property ID="2015" Name="复仇" Kind="9" Exp="4897" Money="1739"/>
+	<Property ID="2016" Name="飓风营救" Kind="9" Exp="22845" Money="1777"/>
+	<Property ID="2017" Name="达坎的孤独坟墓" Kind="9" Exp="4558" Money="2309"/>
+	<Property ID="2018" Name="替代品" Kind="9" Exp="19418" Money="1539"/>
+	<Property ID="2019" Name="千里追凶" Kind="9" Exp="4558" Money="1453"/>
+	<Property ID="2020" Name="代价1" Kind="9" Exp="12565" Money="1416"/>
+	<Property ID="2021" Name="代价2" Kind="9" Exp="14849" Money="1407"/>
+	<Property ID="2022" Name="代价3" Kind="9" Exp="15992" Money="1407"/>
+	<Property ID="2023" Name="无处可藏" Kind="9" Exp="5597" Money="1453"/>
+	<Property ID="2024" Name="彻底决裂" Kind="9" Exp="5597" Money="1453"/>
+	<Property ID="2025" Name="飓风行动" Kind="9" Exp="13713" Money="1407"/>
+	<Property ID="2026" Name="阿坎萨的救赎" Kind="9" Exp="4958" Money="782" DefaultItemList="Rw_Necklace_00015D1,1;QHDJ_002,1"/>
+	<Property ID="2027" Name="不速之客" Kind="9" Exp="4958" Money="1563"/>
+	<Property ID="2028" Name="线人" Kind="9" Exp="5889" Money="1563"/>
+	<Property ID="2029" Name="迪菲斯很生气" Kind="9" Exp="23924" Money="1563"/>
+	<Property ID="2030" Name="汇报" Kind="9" Exp="4226" Money="1250"/>
+	<Property ID="2031" Name="先下手为强" Kind="9" Exp="5597" Money="1563"/>
+	<Property ID="2032" Name="双管齐下" Kind="9" Exp="19139" Money="1707"/>
+	<Property ID="2033" Name="毫不浪费" Kind="9" Exp="19139" Money="1707"/>
+	<Property ID="2034" Name="矮人是个严谨的种族" Kind="9" Exp="4958" Money="1707"/>
+	<Property ID="2035" Name="来自远古的科技" Kind="9" Exp="4958" Money="1195"/>
+	<Property ID="2036" Name="失落的文明" Kind="9" Exp="14354" Money="1366"/>
+	<Property ID="2037" Name="恍若隔世" Kind="9" Exp="16747" Money="1366"/>
+	<Property ID="2038" Name="湮没在历史中的绝代风华" Kind="9" Exp="16747" Money="1536"/>
+	<Property ID="2039" Name="异像" Kind="9" Exp="19139" Money="1878"/>
+	<Property ID="2040" Name="我已经等不及了" Kind="9" Exp="15551" Money="1195"/>
+	<Property ID="2041" Name="夺取符文晶石" Kind="9" Exp="23924" Money="1878"/>
+	<Property ID="2042" Name="共生兄妹的宏愿" Kind="9" Exp="19139" Money="1366"/>
+	<Property ID="2043" Name="寻找线索" Kind="9" Exp="4958" Money="1707"/>
+	<Property ID="2044" Name="驰援远征港" Kind="9" Exp="5101" Money="1117"/>
+	<Property ID="2045" Name="港口现状" Kind="9" Exp="4958" Money="1303"/>
+	<Property ID="2046" Name="调查煽动者" Kind="9" Exp="15572" Money="1303"/>
+	<Property ID="2047" Name="铲除内奸" Kind="9" Exp="23359" Money="2233"/>
+	<Property ID="2048" Name="三方会谈（1）" Kind="9" Exp="5078" Money="1117"/>
+	<Property ID="2050" Name="三方会谈（2）" Kind="9" Exp="5078" Money="1303"/>
+	<Property ID="2051" Name="万众一心" Kind="9" Exp="5078" Money="1489"/>
+	<Property ID="2052" Name="敌踪又现" Kind="9" Exp="5101" Money="1675" DefaultItemList="RW_hp_0001A,5"/>
+	<Property ID="2053" Name="瘟疫入侵" Kind="9" Exp="22457" Money="1489"/>
+	<Property ID="2054" Name="以毒攻毒" Kind="9" Exp="23860" Money="2419"/>
+	<Property ID="2055" Name="始料未及" Kind="9" Exp="26668" Money="2792"/>
+	<Property ID="2056" Name="将门虎女" Kind="9" Exp="13565" Money="1861"/>
+	<Property ID="2057" Name="遏制供给" Kind="9" Exp="23359" Money="2018"/>
+	<Property ID="2058" Name="切断能源" Kind="9" Exp="4570" Money="1917"/>
+	<Property ID="2059" Name="扼杀在摇篮中" Kind="9" Exp="24656" Money="2187"/>
+	<Property ID="2060" Name="一鼓作气" Kind="9" Exp="7997" Money="2406"/>
+	<Property ID="2061" Name="寻找钥匙" Kind="9" Exp="28071" Money="2187"/>
+	<Property ID="2062" Name="关闭研究设施" Kind="9" Exp="22457" Money="1750"/>
+	<Property ID="2063" Name="擒贼擒王" Kind="9" Exp="7997" Money="3281" SelectItemList="Rw_Sword_0004A_01,1;Rw_Dagger_0004A,1;Rw_Gun_0004A,1"/>
+	<Property ID="2064" Name="寻找麦林" Kind="9" Exp="8287" Money="1312"/>
+	<Property ID="2065" Name="霍卡的背影" Kind="9" Exp="25264" Money="2187"/>
+	<Property ID="2066" Name="厄运之源的阴谋" Kind="9" Exp="6358" Money="2187"/>
+	<Property ID="2067" Name="破碎法阵" Kind="9" Exp="7001" Money="2406"/>
+	<Property ID="2068" Name="向北前行" Kind="9" Exp="4572" Money="1531"/>
+	<Property ID="2069" Name="厄运之殇" Kind="9" Exp="30411" Money="2784"/>
+	<Property ID="2070" Name="畏惧者因信仰强大" Kind="9" Exp="28622" Money="2784"/>
+	<Property ID="2072" Name="浮生" Kind="9" Exp="3429" Money="2506"/>
+	<Property ID="2073" Name="污染" Kind="9" Exp="25045" Money="2506"/>
+	<Property ID="2074" Name="清除" Kind="9" Exp="28622" Money="2506"/>
+	<Property ID="2075" Name="关键时刻少人手" Kind="9" Exp="21467" Money="1949"/>
+	<Property ID="2076" Name="肃清污染" Kind="9" Exp="6358" Money="2784"/>
+	<Property ID="2077" Name="剿灭帮凶" Kind="9" Exp="34634" Money="2784"/>
+	<Property ID="2078" Name="祸首" Kind="9" Exp="8568" Money="4176"/>
+	<Property ID="2079" Name="余孽" Kind="9" Exp="7176" Money="2784"/>
+	<Property ID="2080" Name="净化污染" Kind="9" Exp="2392" Money="2506"/>
+	<Property ID="2081" Name="通报托瓦克" Kind="9" Exp="9764" Money="1670" SelectItemList="Baoshi_0002A1,1;Baoshi_0002B1,1;Baoshi_0002C1,1;Baoshi_0002D1,1"/>
+	<Property ID="2082" Name="采集土壤" Kind="9" Exp="28862" Money="2227"/>
+	<Property ID="2083" Name="被污染的生物" Kind="9" Exp="28901" Money="2506"/>
+	<Property ID="2084" Name="瘟疫的来源" Kind="9" Exp="3588" Money="1801"/>
+	<Property ID="2085" Name="拯救士兵" Kind="9" Exp="32200" Money="2401"/>
+	<Property ID="2086" Name="抢回设备" Kind="9" Exp="25045" Money="2573"/>
+	<Property ID="2087" Name="找到厨师" Kind="9" Exp="21467" Money="1801"/>
+	<Property ID="2088" Name="武力试探" Kind="9" Exp="5980" Money="3001"/>
+	<Property ID="2089" Name="格杀勿论" Kind="9" Exp="16057" Money="3301" SelectItemList="Rw_Belt_A500A,1;Rw_Belt_B500A,1;Rw_Belt_C500A,1;Rw_Belt_D500A,1"/>
+	<Property ID="2090" Name="魔藤" Kind="9" Exp="10380" Money="4502" SelectItemList="Rw_Shield_0001A_01,1;Rw_Magicbottle_0001A_01,1"/>
+	<Property ID="2091" Name="压制瘟疫" Kind="9" Exp="3892" Money="3001"/>
+	<Property ID="2092" Name="遗忘之城" Kind="9" Exp="7785" Money="3001"/>
+	<Property ID="2093" Name="疑云渐散" Kind="9" Exp="2595" Money="1930"/>
+	<Property ID="2094" Name="谁说毒物与食物不能共存" Kind="9" Exp="24772" Money="2251"/>
+	<Property ID="2095" Name="调试可食用度" Kind="9" Exp="26837" Money="2573"/>
+	<Property ID="2096" Name="食物中毒难不倒厨师" Kind="9" Exp="28901" Money="2894"/>
+	<Property ID="2097" Name="神秘人" Kind="9" Exp="22098" Money="1608"/>
+	<Property ID="2098" Name="拯救族人一" Kind="9" Exp="30944" Money="2894"/>
+	<Property ID="2099" Name="拯救族人二" Kind="9" Exp="33147" Money="3055"/>
+	<Property ID="2100" Name="狼心不死" Kind="9" Exp="30944" Money="3216"/>
+	<Property ID="2101" Name="抹除厄运" Kind="9" Exp="35365" Money="3216"/>
+	<Property ID="2102" Name="扫清障碍" Kind="9" Exp="11649" Money="3449"/>
+	<Property ID="2103" Name="杀入重围" Kind="9" Exp="30937" Money="3449"/>
+	<Property ID="2104" Name="毁灭的判决" Kind="9" Exp="35357" Money="3459"/>
+	<Property ID="2105" Name="恶魔的仆从" Kind="9" Exp="35357" Money="3459"/>
+	<Property ID="2106" Name="恶魔代言人" Kind="9" Exp="8228" Money="5189"/>
+	<Property ID="2107" Name="毁灭混沌" Kind="9" Exp="7517" Money="3459"/>
+	<Property ID="2108" Name="前往东征指挥中心" Kind="9" Exp="7114" Money="1730"/>
+	<Property ID="3952" Name="隐情" Kind="9" Exp="30944" Money="2767"/>
+	<Property ID="3953" Name="通报敌情" Kind="9" Exp="26524" Money="2767"/>
+	<Property ID="3954" Name="湮灭厄运" Kind="9" Exp="35365" Money="2421"/>
+	<Property ID="2301" Name="神圣黎明" Kind="22" Exp="8943" Money="706"/>
+	<Property ID="2302" Name="雪山下的威胁" Kind="22" Exp="35772" Money="1059"/>
+	<Property ID="2303" Name="雪山下的威胁2" Kind="22" Exp="44716" Money="1059"/>
+	<Property ID="2304" Name="狼王凛风" Kind="22" Exp="26829" Money="1059"/>
+	<Property ID="2305" Name="白鹰战团" Kind="22" Exp="8943" Money="706"/>
+	<Property ID="2306" Name="封锁凛风谷" Kind="22" Exp="44715" Money="1059"/>
+	<Property ID="2307" Name="探清虚实" Kind="22" Exp="28275" Money="1765"/>
+	<Property ID="2308" Name="杀入重围" Kind="22" Exp="28275" Money="1765"/>
+	<Property ID="2309" Name="亡羊补牢" Kind="22" Exp="28275" Money="1765"/>
+	<Property ID="2310" Name="意料之外" Kind="22" Exp="18850" Money="706"/>
+	<Property ID="2311" Name="敌军评估" Kind="22" Exp="44716" Money="1059"/>
+	<Property ID="2312" Name="安全区域" Kind="22" Exp="44716" Money="1059"/>
+	<Property ID="2313" Name="心中疑虑" Kind="22" Exp="44716" Money="1059"/>
+	<Property ID="2314" Name="蛛丝马迹" Kind="22" Exp="44716" Money="1059"/>
+	<Property ID="2315" Name="黑色剑士" Kind="22" Exp="44716" Money="1059"/>
+	<Property ID="2317" Name="狂暴的火灵" Kind="22" Exp="28700" Money="1062"/>
+	<Property ID="2318" Name="火灵氏族" Kind="22" Exp="28275" Money="1770"/>
+	<Property ID="2319" Name="交涉问题" Kind="22" Exp="28275" Money="1062"/>
+	<Property ID="2320" Name="返回寒落山脚" Kind="22" Exp="9425" Money="708"/>
+	<Property ID="2321" Name="前往北寒落山脉" Kind="22" Exp="28275" Money="708"/>
+	<Property ID="2322" Name="消除隐患" Kind="22" Exp="47125" Money="1062"/>
+	<Property ID="2323" Name="秘法咒文" Kind="22" Exp="54569" Money="1770"/>
+	<Property ID="2324" Name="宿敌的踪迹" Kind="22" Exp="9425" Money="708"/>
+	<Property ID="2325" Name="螳螂捕蝉黄雀在后" Kind="22" Exp="9425" Money="1062"/>
+	<Property ID="2326" Name="蚀日秘典残卷" Kind="22" Exp="28700" Money="1062" SelectItemList="Rw_Shield_0001A_02,1;Rw_Magicbottle_0002A,1"/>
+	<Property ID="2327" Name="障眼法" Kind="22" Exp="28275" Money="708"/>
+	<Property ID="2328" Name="前往蒂兰达" Kind="22" Exp="28275" Money="1062"/>
+	<Property ID="2329" Name="圣日教的耻辱" Kind="22" Exp="54569" Money="1770"/>
+	<Property ID="2330" Name="历史的仇怨" Kind="22" Exp="54569" Money="1770"/>
+	<Property ID="2331" Name="猎手的凭证" Kind="22" Exp="54569" Money="1770"/>
+	<Property ID="2332" Name="高空巡视" Kind="22" Exp="28275" Money="1065"/>
+	<Property ID="2333" Name="火灵之变" Kind="22" Exp="47125" Money="1775"/>
+	<Property ID="2334" Name="失踪的观测员" Kind="22" Exp="37700" Money="1775"/>
+	<Property ID="2335" Name="元素成份" Kind="22" Exp="75399" Money="1775"/>
+	<Property ID="2336" Name="警戒线" Kind="22" Exp="9426" Money="1775"/>
+	<Property ID="2337" Name="恢复镇静" Kind="22" Exp="28275" Money="1775"/>
+	<Property ID="2338" Name="强风氏族" Kind="22" Exp="18850" Money="1775"/>
+	<Property ID="2339" Name="怒风之子" Kind="22" Exp="28275" Money="1775"/>
+	<Property ID="2340" Name="怒风统领" Kind="22" Exp="18850" Money="1775"/>
+	<Property ID="2341" Name="未完成的遗愿" Kind="22" Exp="28278" Money="1775"/>
+	<Property ID="2342" Name="责任的代价" Kind="22" Exp="28278" Money="1775"/>
+	<Property ID="2343" Name="湖中漫步者" Kind="22" Exp="47130" Money="1775"/>
+	<Property ID="2344" Name="致命的风" Kind="22" Exp="75399" Money="1775"/>
+	<Property ID="2345" Name="致命的风2" Kind="22" Exp="75399" Money="1775"/>
+	<Property ID="2346" Name="致命的风3" Kind="22" Exp="75399" Money="1775"/>
+	<Property ID="2347" Name="前往灼火回廊" Kind="22" Exp="37704" Money="712"/>
+	<Property ID="2348" Name="开路先锋" Kind="22" Exp="28278" Money="1068"/>
+	<Property ID="2349" Name="大开杀戒" Kind="22" Exp="47130" Money="1780"/>
+	<Property ID="2350" Name="火灵统领" Kind="22" Exp="18852" Money="1780"/>
+	<Property ID="2351" Name="返回蒂兰达" Kind="22" Exp="65982" Money="712" SelectItemList="Rw_Sword_0005A,1;Rw_Claymore_00004A,1;Rw_Staff_0005A,1;Rw_Poleaxe_00004A,1"/>
+	<Property ID="2352" Name="火灵精华" Kind="22" Exp="62554" Money="1068"/>
+	<Property ID="2353" Name="又失踪了" Kind="22" Exp="62554" Money="1068"/>
+	<Property ID="2354" Name="一路前行" Kind="22" Exp="62554" Money="1068"/>
+	<Property ID="2355" Name="现状" Kind="22" Exp="17886" Money="706"/>
+	<Property ID="2356" Name="前往贸易站" Kind="22" Exp="17886" Money="1059"/>
+	<Property ID="2357" Name="道路安全" Kind="22" Exp="44716" Money="1059"/>
+	<Property ID="2358" Name="重点打击" Kind="22" Exp="44716" Money="1059"/>
+	<Property ID="2359" Name="弹药补给" Kind="22" Exp="37700" Money="706"/>
+	<Property ID="2360" Name="物资仓库" Kind="22" Exp="37700" Money="1059"/>
+	<Property ID="2361" Name="返回营地" Kind="22" Exp="18850" Money="1765"/>
+	<Property ID="2362" Name="前往康斯坦丁" Kind="22" Exp="9425" Money="1765"/>
+	<Property ID="2363" Name="夺回贸易站" Kind="22" Exp="53659" Money="1765"/>
+	<Property ID="2364" Name="夺回贸易站2" Kind="22" Exp="26830" Money="706"/>
+	<Property ID="2365" Name="敌军概况" Kind="22" Exp="9425" Money="1059"/>
+	<Property ID="2366" Name="趁虚而入" Kind="22" Exp="94250" Money="1059"/>
+	<Property ID="2367" Name="正面进攻" Kind="22" Exp="47125" Money="1059"/>
+	<Property ID="2368" Name="重拳行动" Kind="22" Exp="37700" Money="1059"/>
+	<Property ID="2369" Name="斩首行动" Kind="22" Exp="47125" Money="1059"/>
+	<Property ID="2370" Name="惊变" Kind="22" Exp="28275" Money="1062"/>
+	<Property ID="2371" Name="破坏工厂" Kind="22" Exp="54569" Money="1770"/>
+	<Property ID="2372" Name="营救老师" Kind="22" Exp="54569" Money="1062"/>
+	<Property ID="2373" Name="不可思议的科学家" Kind="22" Exp="28175" Money="708"/>
+	<Property ID="2374" Name="燃烧吧康斯坦丁" Kind="22" Exp="47125" Money="708"/>
+	<Property ID="2375" Name="多多益善" Kind="22" Exp="47125" Money="1062"/>
+	<Property ID="2376" Name="拜占庭式的力量游戏" Kind="22" Exp="54569" Money="1770"/>
+	<Property ID="2377" Name="以一当十" Kind="22" Exp="28175" Money="708"/>
+	<Property ID="2378" Name="用怒火浇灭激情" Kind="22" Exp="47125" Money="1062"/>
+	<Property ID="2379" Name="收藏品" Kind="22" Exp="54569" Money="1062"/>
+	<Property ID="2380" Name="战争的天平" Kind="22" Exp="28175" Money="708"/>
+	<Property ID="2381" Name="高空巡视" Kind="22" Exp="9425" Money="1062"/>
+	<Property ID="2382" Name="火灵之变" Kind="22" Exp="94250" Money="1770" SelectItemList="Baoshi_0004A1,1;Baoshi_0004C1,1;Baoshi_0004B1,1;Baoshi_0004D1,1"/>
+	<Property ID="2383" Name="失踪的观测员" Kind="22" Exp="47125" Money="1770"/>
+	<Property ID="2384" Name="元素成份" Kind="22" Exp="54569" Money="1770"/>
+	<Property ID="2385" Name="警戒线" Kind="22" Exp="47130" Money="1065"/>
+	<Property ID="2386" Name="追寻踪迹" Kind="22" Exp="9425" Money="1775"/>
+	<Property ID="2387" Name="交易" Kind="22" Exp="18850" Money="1775"/>
+	<Property ID="2388" Name="当务之急" Kind="22" Exp="28275" Money="1775"/>
+	<Property ID="2389" Name="前往乱风石林" Kind="22" Exp="28275" Money="1775"/>
+	<Property ID="2390" Name="分析地质" Kind="22" Exp="28275" Money="1775"/>
+	<Property ID="2391" Name="清扫障碍" Kind="22" Exp="47125" Money="1775"/>
+	<Property ID="2392" Name="清扫障碍2" Kind="22" Exp="37704" Money="1775"/>
+	<Property ID="2393" Name="安置设备" Kind="22" Exp="57130" Money="1775"/>
+	<Property ID="2394" Name="静水湖之乱" Kind="22" Exp="28852" Money="1775"/>
+	<Property ID="2395" Name="寒冷精华" Kind="22" Exp="56555" Money="1775"/>
+	<Property ID="2396" Name="偏爱机油的老师" Kind="22" Exp="18852" Money="1775"/>
+	<Property ID="2397" Name="没有机油的生活之一" Kind="22" Exp="75399" Money="1775"/>
+	<Property ID="2398" Name="没有机油的生活之二" Kind="22" Exp="75399" Money="1775"/>
+	<Property ID="2399" Name="狩猎雪狮子" Kind="22" Exp="62554" Money="1068"/>
+	<Property ID="2400" Name="凛风雪脉" Kind="22" Exp="62554" Money="1068"/>
+	<Property ID="2401" Name="飓风之灵" Kind="22" Exp="37704" Money="1068"/>
+	<Property ID="2402" Name="霜冻之灵" Kind="22" Exp="38278" Money="581"/>
+	<Property ID="2403" Name="风暴领主" Kind="22" Exp="47130" Money="1780"/>
+	<Property ID="2404" Name="风灵之灾" Kind="22" Exp="48278" Money="1780" SelectItemList="Rw_Sword_0005A_01,1;Rw_Dagger_0005A,1;Rw_Staff_0005A,1;Rw_Gun_0005A,1"/>
+	<Property ID="2405" Name="前往灼火之痕" Kind="22" Exp="28278" Money="712"/>
+	<Property ID="2406" Name="灼火之路" Kind="22" Exp="18852" Money="1068"/>
+	<Property ID="2407" Name="火灵晶石" Kind="22" Exp="47130" Money="1068"/>
+	<Property ID="2408" Name="灰烬之路" Kind="22" Exp="65982" Money="1068"/>
+	<Property ID="2409" Name="最后一战" Kind="22" Exp="28278" Money="1780"/>
+	<Property ID="2410" Name="向源机构汇报" Kind="22" Exp="54834" Money="712"/>
+	<Property ID="2411" Name="前往南寒落山脉" Kind="22" Exp="47130" Money="712"/>
+	<Property ID="2412" Name="回收零件" Kind="22" Exp="62554" Money="1068"/>
+	<Property ID="2413" Name="确保胜算" Kind="22" Exp="62554" Money="1068"/>
+	<Property ID="2414" Name="消灭残党" Kind="22" Exp="18852" Money="1068"/>
+	<Property ID="2415" Name="道路安全" Kind="22" Exp="28278" Money="1068"/>
+	<Property ID="2416" Name="南寒落之风" Kind="22" Exp="28278" Money="1780"/>
+	<Property ID="2417" Name="汇报任务" Kind="22" Exp="62556" Money="712"/>
+	<Property ID="2418" Name="前往皮罗高地" Kind="22" Exp="31277" Money="712"/>
+	<Property ID="2419" Name="前往灼火之痕" Kind="22" Exp="32837" Money="714"/>
+	<Property ID="2420" Name="残党的踪迹" Kind="22" Exp="65674" Money="1071"/>
+	<Property ID="2421" Name="寻找安东尼" Kind="22" Exp="32837" Money="714"/>
+	<Property ID="2422" Name="进入敌营" Kind="22" Exp="65674" Money="1071"/>
+	<Property ID="2423" Name="收集线索" Kind="22" Exp="65674" Money="1071"/>
+	<Property ID="2424" Name="突破重围" Kind="22" Exp="65674" Money="1071"/>
+	<Property ID="2425" Name="剥洋葱" Kind="22" Exp="87565" Money="1785"/>
+	<Property ID="2426" Name="表达谢意" Kind="22" Exp="32837" Money="714"/>
+	<Property ID="2427" Name="打个招呼" Kind="22" Exp="65674" Money="1071"/>
+	<Property ID="2428" Name="大使的宠物" Kind="22" Exp="32837" Money="714"/>
+	<Property ID="2429" Name="多加关照" Kind="22" Exp="32837" Money="714"/>
+	<Property ID="2430" Name="邮递员" Kind="22" Exp="32837" Money="714"/>
+	<Property ID="2431" Name="订制武器" Kind="22" Exp="32837" Money="714"/>
+	<Property ID="2432" Name="实力的证明" Kind="22" Exp="65674" Money="1071"/>
+	<Property ID="2441" Name="灼火之主" Kind="22" Exp="87565" Money="1785"/>
+	<Property ID="2442" Name="火山熔岩" Kind="22" Exp="31277" Money="712"/>
+	<Property ID="2443" Name="雪山冰晶" Kind="22" Exp="31277" Money="712"/>
+	<Property ID="11112" Name="雷鸣侵袭" Kind="26" Exp="77" Money="1"/>
+	<Property ID="11113" Name="守卫岗哨" Kind="26" Exp="110" Money="1"/>
+	<Property ID="6039" Name="新兵报到" Kind="58" Exp="1" Money="1"/>
+	<Property ID="6040" Name="要多少有多少" Kind="58" Exp="400" Money="1"/>
+	<Property ID="6041" Name="全副武装" Kind="58" Exp="1" Money="1" SelectItemList="Lead_Sword_02,1;Lead_Mace_01,1;Lead_Staff_02,1;Claymore_00018G,1"/>
+	<Property ID="6042" Name="进阶之路" Kind="58" Exp="1" Money="1"/>
+	<Property ID="6043" Name="生存之道" Kind="58" Exp="1" Money="1"/>
+	<Property ID="6044" Name="小试身手" Kind="58" Exp="1" Money="1"/>
+	<Property ID="6045" Name="蒸汽重炮" Kind="58" Exp="1" Money="1"/>
+	<Property ID="6046" Name="制造泰坦" Kind="58" Exp="1" Money="1"/>
+	<Property ID="6047" Name="寻找前锋部队" Kind="58" Exp="1" Money="1"/>
+	<Property ID="6048" Name="最后一战" Kind="58" Exp="1" Money="1"/>
+	<Property ID="6049" Name="真正的考验" Kind="58" Exp="1" Money="1"/>
+	<Property ID="6050" Name="飞升啦" Kind="58" Exp="400" Money="1"/>
+	<Property ID="6051" Name="全副武装" Kind="58" Exp="1" Money="1" SelectItemList="Lead_Sword_01,1;Lead_Axe_01,1;Lead_Staff_01,1;Lead_Runewand_01,1"/>
+	<Property ID="6052" Name="技能学习" Kind="58" Exp="1" Money="1"/>
+	<Property ID="6053" Name="生存之道" Kind="58" Exp="1" Money="1"/>
+	<Property ID="6054" Name="小试身手" Kind="58" Exp="1" Money="1"/>
+	<Property ID="6055" Name="重型武器" Kind="58" Exp="1" Money="1"/>
+	<Property ID="6056" Name="巨树之灵" Kind="58" Exp="1" Money="1"/>
+	<Property ID="6057" Name="寻找先锋部队" Kind="58" Exp="1" Money="1"/>
+	<Property ID="6058" Name="最后一战" Kind="58" Exp="1" Money="1"/>
+	<Property ID="6059" Name="新兵报到" Kind="58" Exp="1" Money="1"/>
+	<Property ID="6060" Name="真正的考验" Kind="58" Exp="1" Money="1"/>
+	<Property ID="50000" Name="称号50000投放" Exp="0" Money="0" TitleID="50000"/>
+	<Property ID="50001" Name="称号50001投放" Exp="0" Money="0" TitleID="50001"/>
+	<Property ID="50002" Name="称号50002投放" Exp="0" Money="0" TitleID="50002"/>
+	<Property ID="50003" Name="称号50003投放" Exp="0" Money="0" TitleID="50003"/>
+	<Property ID="50004" Name="称号50004投放" Exp="0" Money="0" TitleID="50004"/>
+	<Property ID="50005" Name="称号50005投放" Exp="0" Money="0" TitleID="50005"/>
+	<Property ID="50006" Name="称号50006投放" Exp="0" Money="0" TitleID="50006"/>
+	<Property ID="50007" Name="称号50007投放" Exp="0" Money="0" TitleID="50007"/>
+	<Property ID="50008" Name="称号50008投放" Exp="0" Money="0" TitleID="50008"/>
+	<Property ID="4140" Name="遗留的货物" Kind="1" Exp="8984" Money="499" DefaultItemList="Tsdj_Jewelry_0002A,1"/>
+	<Property ID="4141" Name="充满记忆的水晶贝壳" Kind="1" Exp="3527" Money="219"/>
+	<Property ID="4142" Name="艾利的礼物" Kind="1" Exp="6220" Money="374"/>
+	<Property ID="401" Name="按图索骥" Kind="17" Exp="5833" Money="938" DefaultItemList="S_Drug_003C,3;S_Drug_qh_003,3"/>
+	<Property ID="402" Name="遗迹侦查" Kind="17" Exp="7233" Money="1563"/>
+	<Property ID="403" Name="哨岗防务" Kind="17" Exp="7469" Money="1707"/>
+	<Property ID="404" Name="遗失军备" Kind="17" Exp="18284" Money="1707"/>
+	<Property ID="405" Name="军备更换" Kind="17" Exp="18284" Money="1707"/>
+	<Property ID="406" Name="缝制皮甲" Kind="17" Exp="11423" Money="1563"/>
+	<Property ID="407" Name="奥瑞克的疑惑" Kind="17" Exp="7008" Money="938" DefaultItemList="Rw_Necklace_00015D1,1"/>
+	<Property ID="408" Name="祭司祈文" Kind="17" Exp="7759" Money="1861"/>
+	<Property ID="409" Name="未知的余烬" Kind="17" Exp="7112" Money="1117"/>
+	<Property ID="410" Name="严惩·护卫" Kind="17" Exp="14354" Money="1117"/>
+	<Property ID="411" Name="严惩·狂热者" Kind="17" Exp="14354" Money="1117"/>
+	<Property ID="412" Name="阴谋者" Kind="17" Exp="6855" Money="1861"/>
+	<Property ID="413" Name="狼牙吊坠" Kind="17" Exp="15572" Money="1211"/>
+	<Property ID="414" Name="破敌·门徒" Kind="17" Exp="20763" Money="2018"/>
+	<Property ID="415" Name="破敌·圣徒" Kind="17" Exp="20763" Money="2018"/>
+	<Property ID="416" Name="破敌·骑士" Kind="17" Exp="20763" Money="2018"/>
+	<Property ID="417" Name="阔苏入侵" Kind="17" Exp="16002" Money="1211"/>
+	<Property ID="418" Name="救援" Kind="17" Exp="8001" Money="2018"/>
+	<Property ID="419" Name="神殿预警" Kind="17" Exp="2392" Money="1211"/>
+	<Property ID="420" Name="守备哨岗" Kind="17" Exp="16843" Money="1312"/>
+	<Property ID="421" Name="防守反击" Kind="17" Exp="16843" Money="1312"/>
+	<Property ID="422" Name="制造混乱" Kind="17" Exp="22457" Money="1312"/>
+	<Property ID="423" Name="消除隐患" Kind="17" Exp="21467" Money="1670"/>
+	<Property ID="424" Name="海神殿的烦恼" Kind="17" Exp="2392" Money="1670"/>
+	<Property ID="425" Name="真相是这样的" Kind="17" Exp="11960" Money="2784"/>
+	<Property ID="426" Name="不堪骚扰" Kind="17" Exp="21467" Money="1670"/>
+	<Property ID="427" Name="失窃的宝物" Kind="17" Exp="28622" Money="1670"/>
+	<Property ID="428" Name="海神祭品" Kind="17" Exp="28622" Money="1670"/>
+	<Property ID="429" Name="珍珠" Kind="17" Exp="5614" Money="1670"/>
+	<Property ID="430" Name="祭司的疑惑" Kind="17" Exp="5190" Money="1801"/>
+	<Property ID="431" Name="往昔今日" Kind="17" Exp="2595" Money="1801"/>
+	<Property ID="432" Name="背后的温柔" Kind="17" Exp="2595" Money="1801"/>
+	<Property ID="433" Name="绝望之爱" Kind="17" Exp="5614" Money="1801"/>
+	<Property ID="434" Name="告之卡塞尔" Kind="17" Exp="8421" Money="1930"/>
+	<Property ID="435" Name="无奈的战斗" Kind="17" Exp="18165" Money="1801"/>
+	<Property ID="436" Name="虚无之花" Kind="17" Exp="7785" Money="1801"/>
+	<Property ID="437" Name="卡塞尔的震怒" Kind="17" Exp="28624" Money="3216" SelectItemList="Rw_Belt_A500A,1;Rw_Belt_B500A,1;Rw_Belt_C500A,1;Rw_Belt_D500A,1"/>
+	<Property ID="438" Name="巨树之危" Kind="17" Exp="17890" Money="1286" SelectItemList="Baoshi_0002A1,1;Baoshi_0002C1,1;Baoshi_0002B1,1;Baoshi_0002D1,1"/>
+	<Property ID="439" Name="卡塞尔的疑虑" Kind="17" Exp="19649" Money="1930"/>
+	<Property ID="440" Name="友善的提醒" Kind="17" Exp="24772" Money="1930"/>
+	<Property ID="441" Name="匮乏的药草" Kind="17" Exp="24772" Money="1930"/>
+	<Property ID="442" Name="打扫后院" Kind="17" Exp="24772" Money="1930"/>
+	<Property ID="443" Name="霍克必须死" Kind="17" Exp="33030" Money="3216"/>
+	<Property ID="444" Name="丛林狼王" Kind="17" Exp="11423" Money="1563"/>
+	<Property ID="445" Name="野味" Kind="17" Exp="11423" Money="1563"/>
+	<Property ID="446" Name="遗迹晶石" Kind="17" Exp="7578" Money="1861"/>
+	<Property ID="447" Name="奇怪的叫声" Kind="17" Exp="10354" Money="217"/>
+	<Property ID="448" Name="走散的队友" Kind="17" Exp="16843" Money="1312"/>
+	<Property ID="449" Name="贩卖·犀牛皮" Kind="17" Exp="21467" Money="1670"/>
+	<Property ID="450" Name="贩卖·犀牛角" Kind="17" Exp="11423" Money="156"/>
+	<Property ID="451" Name="凯森的痴迷" Kind="17" Exp="16843" Money="1312"/>
+	<Property ID="452" Name="晶蓝守护者" Kind="17" Exp="11423" Money="156"/>
+	<Property ID="453" Name="晶蓝石" Kind="17" Exp="11423" Money="156"/>
+	<Property ID="454" Name="自由的向往" Kind="17" Exp="45778" Money="5568"/>
+	<Property ID="455" Name="心诚则灵" Kind="17" Exp="30786" Money="1801"/>
+	<Property ID="456" Name="大道亦难行" Kind="17" Exp="30786" Money="1801"/>
+	<Property ID="457" Name="落难的商旅" Kind="17" Exp="18284" Money="1707"/>
+	<Property ID="458" Name="海盗侵袭" Kind="17" Exp="41178" Money="3001"/>
+	<Property ID="4144" Name="更多的威胁" Kind="1" Exp="7986" Money="532"/>
+	<Property ID="10060" Name="能源短缺" Kind="3" Exp="296" Money="15"/>
+	<Property ID="10064" Name="入侵" Kind="3" Exp="2609" Money="173"/>
+	<Property ID="10065" Name="暗杀疑云" Kind="3" Exp="5160" Money="228"/>
+	<Property ID="10066" Name="清理叛军" Kind="3" Exp="3456" Money="262"/>
+	<Property ID="10067" Name="救治伤兵" Kind="3" Exp="5759" Money="662"/>
+	<Property ID="10068" Name="不小的威胁" Kind="3" Exp="8063" Money="591"/>
+	<Property ID="10069" Name="清剿革新会" Kind="3" Exp="3324" Money="772"/>
+	<Property ID="201" Name="风起平湖" Kind="15" Exp="325" Money="25"/>
+	<Property ID="253" Name="缘由" Kind="15" Exp="389" Money="25"/>
+	<Property ID="254" Name="消失的家畜" Kind="15" Exp="337" Money="75"/>
+	<Property ID="255" Name="新的食物" Kind="15" Exp="371" Money="75"/>
+	<Property ID="221" Name="湖畔的清洁" Kind="15" Exp="361" Money="75" DefaultItemList="add_depot3,1"/>
+	<Property ID="202" Name="黑王作祟" Kind="15" Exp="390" Money="132" SelectItemList="Rw_Sword_0001A_01,1;Rw_Staff_0001A,1;"/>
+	<Property ID="222" Name="农场的货物" Kind="15" Exp="312" Money="198" SelectItemList="Rw_Cloth_A5001A,1;Rw_Cloth_D5001A,1"/>
+	<Property ID="203" Name="溪谷求援" Kind="15" Exp="491" Money="132"/>
+	<Property ID="204" Name="国之骄子" Kind="15" Exp="613" Money="159" SelectItemList="Rw_Wrist_A50001A,1;Rw_Wrist_D50001A,1"/>
+	<Property ID="223" Name="南瓜抢收" Kind="15" Exp="589" Money="239" DefaultItemList="Rw_Necklace_0001A,1"/>
+	<Property ID="224" Name="驱赶野猪" Kind="15" Exp="675" Money="194" SelectItemList="Rw_Ring_0001A,1;Rw_Ring_0002A,1"/>
+	<Property ID="225" Name="流窜的劫匪" Kind="15" Exp="853" Money="198" SelectItemList="Rw_Hat_A5001A,1;Rw_Hat_D5001A,1"/>
+	<Property ID="226" Name="收割牧草" Kind="15" Exp="312" Money="198"/>
+	<Property ID="205" Name="风波乍起" Kind="15" Exp="675" Money="297" SelectItemList="Rw_Shoes_A5001A,1;Rw_Shoes_D5001A,1"/>
+	<Property ID="227" Name="脱困" Kind="15" Exp="647" Money="204" SelectItemList="RW_Mantle_0001A,1;RW_Mantle_5001A,1"/>
+	<Property ID="228" Name="解药" Kind="15" Exp="613" Money="297"/>
+	<Property ID="256" Name="孤独的哭泣" Kind="15" Exp="1540" Money="204"/>
+	<Property ID="257" Name="无奈的叹息" Kind="15" Exp="2058" Money="234"/>
+	<Property ID="10101" Name="新鲜的鱼群" Kind="15" Exp="4350" Money="297"/>
+	<Property ID="206" Name="扬帆金鳍" Kind="15" Exp="1908" Money="234"/>
+	<Property ID="258" Name="好人的馈赠" Kind="15" Exp="1540" Money="234"/>
+	<Property ID="207" Name="风吼军阵" Kind="15" Exp="1908" Money="272"/>
+	<Property ID="10102" Name="和平共处" Kind="15" Exp="2050" Money="272"/>
+	<Property ID="10103" Name="美味的蚌肉" Kind="15" Exp="6271" Money="297"/>
+	<Property ID="229" Name="细鳞叛军" Kind="15" Exp="2050" Money="297"/>
+	<Property ID="230" Name="细鳞萨满" Kind="15" Exp="1803" Money="297"/>
+	<Property ID="231" Name="天然龟甲" Kind="15" Exp="6271" Money="297"/>
+	<Property ID="232" Name="大岩龟" Kind="15" Exp="8846" Money="681" SelectItemList="Rw_Sword_0002A,1;Rw_Claymore_00001A,1;Rw_Staff_0002A,1;Rw_Poleaxe_00001A,1"/>
+	<Property ID="208" Name="峡谷之争" Kind="15" Exp="2751" Money="776"/>
+	<Property ID="233" Name="清除岗哨" Kind="15" Exp="2151" Money="310"/>
+	<Property ID="234" Name="使徒伏诛" Kind="15" Exp="2751" Money="310"/>
+	<Property ID="10104" Name="清扫道路" Kind="15" Exp="8846" Money="310"/>
+	<Property ID="10105" Name="回收武器" Kind="15" Exp="2600" Money="681"/>
+	<Property ID="209" Name="圣临军团" Kind="15" Exp="2551" Money="310" SelectItemList="Rw_Pants_A5002A,1;Rw_Pants_B5002A,1;Rw_Pants_C5002A,1;Rw_Pants_D5002A,1"/>
+	<Property ID="210" Name="令不可违" Kind="15" Exp="2870" Money="310"/>
+	<Property ID="235" Name="扰民清静" Kind="15" Exp="3210" Money="441"/>
+	<Property ID="211" Name="觐见统帅" Kind="15" Exp="9283" Money="441"/>
+	<Property ID="236" Name="海产丰富" Kind="15" Exp="5759" Money="110"/>
+	<Property ID="10121" Name="宠物粮食" Kind="15" Exp="6563" Money="441"/>
+	<Property ID="10122" Name="回收利用" Kind="15" Exp="9465" Money="441"/>
+	<Property ID="10123" Name="餐具紧缺" Kind="15" Exp="7200" Money="441"/>
+	<Property ID="212" Name="传信圣临" Kind="15" Exp="2551" Money="441"/>
+	<Property ID="247" Name="丢失的饲料" Kind="15" Exp="6563" Money="556"/>
+	<Property ID="248" Name="夺回饲料" Kind="15" Exp="7413" Money="833"/>
+	<Property ID="249" Name="杜兰草" Kind="15" Exp="11886" Money="833"/>
+	<Property ID="252" Name="又是神徒惹的祸" Kind="15" Exp="11886" Money="833"/>
+	<Property ID="10128" Name="我饿了" Kind="15" Exp="11886" Money="833"/>
+	<Property ID="10129" Name="漂亮的衣服" Kind="15" Exp="11886" Money="833"/>
+	<Property ID="250" Name="鲁尼的求助" Kind="15" Exp="6563" Money="556"/>
+	<Property ID="251" Name="鲁尼的怒气" Kind="15" Exp="7230" Money="833"/>
+	<Property ID="213" Name="诡异军令" Kind="15" Exp="2551" Money="617" SelectItemList="Rw_Cloth_A5002A,1;Rw_Cloth_B5002A,1;Rw_Cloth_C5002A,1;Rw_Cloth_D5002A,1"/>
+	<Property ID="214" Name="黑王末日" Kind="15" Exp="4550" Money="925" SelectItemList="Rw_Shield_0001A,1;Rw_Magicbottle_0001A,1"/>
+	<Property ID="238" Name="黑王子残党" Kind="15" Exp="3250" Money="925"/>
+	<Property ID="237" Name="保卫圣像" Kind="15" Exp="2870" Money="925"/>
+	<Property ID="10106" Name="美丽的鲜花" Kind="15" Exp="7128" Money="110"/>
+	<Property ID="10127" Name="令人厌恶的虫子" Kind="15" Exp="7925" Money="110"/>
+	<Property ID="215" Name="湖畔驰援" Kind="15" Exp="3806" Money="617"/>
+	<Property ID="239" Name="死生契阔" Kind="15" Exp="13208" Money="1422"/>
+	<Property ID="10107" Name="投毒者" Kind="15" Exp="4882" Money="925"/>
+	<Property ID="10118" Name="掠夺者" Kind="15" Exp="7230" Money="925"/>
+	<Property ID="10119" Name="跟踪者" Kind="15" Exp="7128" Money="925"/>
+	<Property ID="10120" Name="祭祀者" Kind="15" Exp="6563" Money="1027" DefaultItemList="Tsdj_Jewelry_0002A,1"/>
+	<Property ID="259" Name="最后的渴望" Kind="15" Exp="4570" Money="1027"/>
+	<Property ID="216" Name="黎明之路" Kind="15" Exp="4350" Money="617" SelectItemList="Baoshi_0001A1,1;Baoshi_0001B1,1;Baoshi_0001C1,1;Baoshi_0001D1,1"/>
+	<Property ID="217" Name="蚀日秘典" Kind="15" Exp="6138" Money="1027"/>
+	<Property ID="242" Name="复仇" Kind="15" Exp="8813" Money="1422"/>
+	<Property ID="240" Name="狼患" Kind="15" Exp="6283" Money="1034"/>
+	<Property ID="10124" Name="太阳之子祭司" Kind="15" Exp="7430" Money="1034"/>
+	<Property ID="10125" Name="太阳之子圣物" Kind="15" Exp="7200" Money="1034"/>
+	<Property ID="218" Name="古代遗迹" Kind="15" Exp="4350" Money="1034"/>
+	<Property ID="241" Name="狼王" Kind="15" Exp="5350" Money="1422"/>
+	<Property ID="243" Name="维泰格斥候" Kind="15" Exp="5513" Money="1027"/>
+	<Property ID="10126" Name="主教的救赎" Kind="15" Exp="7200" Money="1027"/>
+	<Property ID="245" Name="维泰格长矛" Kind="15" Exp="5839" Money="1027"/>
+	<Property ID="246" Name="维泰格祭司" Kind="15" Exp="7839" Money="1422"/>
+	<Property ID="244" Name="马革裹尸" Kind="15" Exp="5622" Money="1422"/>
+	<Property ID="219" Name="曲终人散" Kind="15" Exp="7839" Money="1034"/>
+	<Property ID="220" Name="征尘再起" Kind="15" Exp="9283" Money="1034" SelectItemList="Rw_Hat_A5002A,1;Rw_Hat_B5002A,1;Rw_Hat_C5002A,1;Rw_Hat_D5002A,1"/>
+	<Property ID="6001" Name="营救达文西" Kind="58" Exp="14789" Money="0"/>
+	<Property ID="10071" Name="候选人" Kind="3" Exp="412" Money="107"/>
+	<Property ID="10072" Name="从流言入手" Kind="3" Exp="412" Money="107"/>
+	<Property ID="10073" Name="历史的宿怨" Kind="3" Exp="412" Money="142"/>
+	<Property ID="4400" Name="瘟疫农场" Kind="4" Exp="8356" Money="844" DefaultItemList="S_Drug_003C,3;S_Drug_zq_003,3"/>
+	<Property ID="4401" Name="农场救援" Kind="4" Exp="1857" Money="563"/>
+	<Property ID="4402" Name="蔓延的疾病" Kind="4" Exp="12336" Money="844"/>
+	<Property ID="4403" Name="抑制扩散" Kind="4" Exp="2785" Money="844"/>
+	<Property ID="4404" Name="农场的哭声" Kind="4" Exp="4128" Money="844"/>
+	<Property ID="4405" Name="疯狂的猎犬" Kind="4" Exp="16448" Money="1125"/>
+	<Property ID="4406" Name="逃离危险" Kind="4" Exp="6192" Money="1125" DefaultItemList="Rw_Necklace_00015D1,1"/>
+	<Property ID="4407" Name="农场迷失者" Kind="4" Exp="12336" Money="844"/>
+	<Property ID="4408" Name="被遗弃的罐子" Kind="4" Exp="12336" Money="844"/>
+	<Property ID="4409" Name="危险快递" Kind="4" Exp="8193" Money="132"/>
+	<Property ID="4410" Name="生日礼物" Kind="4" Exp="9899" Money="271"/>
+	<Property ID="4411" Name="悲惨的夜晚" Kind="4" Exp="9899" Money="271"/>
+	<Property ID="4412" Name="米莉亚的哀伤" Kind="4" Exp="9899" Money="271"/>
+	<Property ID="4413" Name="蛛丝马迹" Kind="4" Exp="8224" Money="563"/>
+	<Property ID="4414" Name="革新会踪迹" Kind="4" Exp="13416" Money="1329"/>
+	<Property ID="4415" Name="询问伤情" Kind="4" Exp="13242" Money="1022"/>
+	<Property ID="4416" Name="深入调查" Kind="4" Exp="15981" Money="1022"/>
+	<Property ID="4418" Name="制作炸药" Kind="4" Exp="3424" Money="1022"/>
+	<Property ID="4419" Name="摧毁实验室" Kind="4" Exp="13698" Money="1329"/>
+	<Property ID="4420" Name="向提亚堡垒报道" Kind="4" Exp="4566" Money="615"/>
+	<Property ID="4421" Name="布满血迹的信" Kind="4" Exp="11565" Money="407"/>
+	<Property ID="4422" Name="救援行动" Kind="4" Exp="11565" Money="407"/>
+	<Property ID="4423" Name="最后一份心意" Kind="4" Exp="11565" Money="407"/>
+	<Property ID="4424" Name="研究笔记" Kind="4" Exp="11565" Money="407"/>
+	<Property ID="4425" Name="饱餐一顿" Kind="4" Exp="13242" Money="922"/>
+	<Property ID="4426" Name="情书" Kind="4" Exp="13242" Money="922"/>
+	<Property ID="4428" Name="明亮的珍珠" Kind="4" Exp="13242" Money="922"/>
+	<Property ID="4429" Name="优质鹿皮" Kind="4" Exp="13242" Money="922"/>
+	<Property ID="4430" Name="西部的据点" Kind="4" Exp="12919" Money="1005"/>
+	<Property ID="4431" Name="阴魂不散的无悯会" Kind="4" Exp="9136" Money="1340"/>
+	<Property ID="4432" Name="城内危机" Kind="4" Exp="4566" Money="1005"/>
+	<Property ID="4433" Name="传达命令" Kind="4" Exp="2283" Money="1005"/>
+	<Property ID="4434" Name="削减实力" Kind="4" Exp="12919" Money="1005"/>
+	<Property ID="4435" Name="捣毁据点" Kind="4" Exp="9136" Money="1340"/>
+	<Property ID="4436" Name="北部营地" Kind="4" Exp="4784" Money="670"/>
+	<Property ID="4437" Name="诅咒之林的动静" Kind="4" Exp="4784" Money="670"/>
+	<Property ID="4438" Name="模糊的字迹" Kind="4" Exp="10765" Money="335"/>
+	<Property ID="4439" Name="失踪的妻子" Kind="4" Exp="10765" Money="335"/>
+	<Property ID="4440" Name="搜救" Kind="4" Exp="10765" Money="335"/>
+	<Property ID="4441" Name="伤人的蜘蛛" Kind="4" Exp="13704" Money="1005"/>
+	<Property ID="4443" Name="美味的卵" Kind="4" Exp="12919" Money="1005"/>
+	<Property ID="4444" Name="助人为乐" Kind="4" Exp="12919" Money="1005"/>
+	<Property ID="4445" Name="暴躁的生物" Kind="4" Exp="9138" Money="1453"/>
+	<Property ID="4446" Name="不安的源头" Kind="4" Exp="9140" Money="1453"/>
+	<Property ID="4447" Name="生物的动向" Kind="4" Exp="1142" Money="1090"/>
+	<Property ID="4448" Name="革新会的新宠物" Kind="4" Exp="9140" Money="1090"/>
+	<Property ID="4449" Name="研究所重要情报" Kind="4" Exp="14710" Money="1453"/>
+	<Property ID="4450" Name="伐木场的威胁" Kind="4" Exp="2286" Money="787" SelectItemList="Rw_Belt_A000A,1;Rw_Belt_B000A,1;Rw_Belt_C000A,1;Rw_Belt_D000A,1"/>
+	<Property ID="4453" Name="哈利斯草种子" Kind="4" Exp="14015" Money="1090"/>
+	<Property ID="4454" Name="中毒的居民" Kind="4" Exp="9343" Money="727"/>
+	<Property ID="4455" Name="解毒必备" Kind="4" Exp="14015" Money="1090"/>
+	<Property ID="4456" Name="以毒攻毒" Kind="4" Exp="14015" Money="1090"/>
+	<Property ID="4457" Name="救命之恩" Kind="4" Exp="15158" Money="1181"/>
+	<Property ID="4458" Name="遗失的包裹" Kind="4" Exp="15158" Money="1181"/>
+	<Property ID="4459" Name="生物研究" Kind="4" Exp="9343" Money="727"/>
+	<Property ID="4461" Name="狂暴的猎食者" Kind="4" Exp="14015" Money="1090"/>
+	<Property ID="4462" Name="烟尘弥漫的工厂" Kind="4" Exp="11430" Money="1575"/>
+	<Property ID="4463" Name="危机的开端" Kind="4" Exp="8001" Money="1181"/>
+	<Property ID="4464" Name="类似的情况" Kind="4" Exp="15158" Money="1181"/>
+	<Property ID="4465" Name="达戈菲尔的阴谋" Kind="4" Exp="6858" Money="1968"/>
+	<Property ID="4466" Name="赛利的不安" Kind="4" Exp="3429" Money="1181"/>
+	<Property ID="4467" Name="糟糕的情况" Kind="4" Exp="2286" Money="1575"/>
+	<Property ID="4468" Name="阻止进攻" Kind="4" Exp="10568" Money="1575"/>
+	<Property ID="4469" Name="十字路口的消息" Kind="4" Exp="3588" Money="1002" SelectItemList="Baoshi_0002A1,1;Baoshi_0002C1,1;Baoshi_0002B1,1;Baoshi_0002D1,1"/>
+	<Property ID="4470" Name="南方的营地" Kind="4" Exp="3588" Money="1503" SelectItemList="Rw_Shield_0001A_01,1;Rw_Magicbottle_0001A_01,1"/>
+	<Property ID="4471" Name="神秘的身影" Kind="4" Exp="13960" Money="1621"/>
+	<Property ID="4472" Name="全面守卫" Kind="4" Exp="5190" Money="1621" SelectItemList="Rw_Shoes_A0002A,1;Rw_Shoes_B0002A,1;Rw_Shoes_C0002A,1;Rw_Shoes_D0002A,1"/>
+	<Property ID="4473" Name="喧嚣的机械声" Kind="4" Exp="19320" Money="1503"/>
+	<Property ID="4474" Name="尖端歼灭机" Kind="4" Exp="32200" Money="2506"/>
+	<Property ID="4477" Name="柯尔勒的研究" Kind="4" Exp="19320" Money="1503"/>
+	<Property ID="4478" Name="改造后的成果" Kind="4" Exp="25760" Money="2005"/>
+	<Property ID="4479" Name="战斗的热情" Kind="4" Exp="25760" Money="2005"/>
+	<Property ID="4480" Name="损坏的机械" Kind="4" Exp="19320" Money="1503"/>
+	<Property ID="4481" Name="受伤的同伴" Kind="4" Exp="19320" Money="1503"/>
+	<Property ID="4482" Name="废物利用" Kind="4" Exp="20211" Money="1575"/>
+	<Property ID="4483" Name="援助伐木工" Kind="4" Exp="15158" Money="1181"/>
+	<Property ID="4484" Name="银鳞的求助" Kind="4" Exp="1300" Money="1080"/>
+	<Property ID="4485" Name="氏族危机" Kind="4" Exp="1300" Money="1621"/>
+	<Property ID="4487" Name="收复银鳞海难" Kind="4" Exp="5190" Money="1621"/>
+	<Property ID="4488" Name="敌人后方的助力" Kind="4" Exp="5190" Money="2161"/>
+	<Property ID="4489" Name="击溃帕洛·欧迪尔" Kind="4" Exp="5190" Money="2701"/>
+	<Property ID="4490" Name="追击！十字路口" Kind="4" Exp="5190" Money="2161"/>
+	<Property ID="4491" Name="游荡在北方的身影" Kind="4" Exp="27707" Money="2161"/>
+	<Property ID="4493" Name="西部的联络者" Kind="4" Exp="5190" Money="1864"/>
+	<Property ID="4494" Name="风暴研究" Kind="4" Exp="17317" Money="540"/>
+	<Property ID="4495" Name="老木斯的牙齿" Kind="4" Exp="17317" Money="540"/>
+	<Property ID="4497" Name="美味的野果" Kind="4" Exp="17317" Money="540"/>
+	<Property ID="4498" Name="不平静的沙滩" Kind="4" Exp="17317" Money="540"/>
+	<Property ID="4499" Name="晚餐来点肉吧！" Kind="4" Exp="17317" Money="540"/>
+	<Property ID="4501" Name="殃及池鱼" Kind="4" Exp="20081" Money="1621"/>
+	<Property ID="4502" Name="海陆防卫" Kind="4" Exp="27707" Money="2161"/>
+	<Property ID="4503" Name="物资收集" Kind="4" Exp="27707" Money="2161"/>
+	<Property ID="4505" Name="清除残留部队" Kind="4" Exp="20081" Money="1864"/>
+	<Property ID="4506" Name="银鳞先遣队" Kind="4" Exp="2595" Money="1864"/>
+	<Property ID="4507" Name="残兵败将" Kind="4" Exp="3892" Money="1864"/>
+	<Property ID="4508" Name="负隅顽抗的金鳞氏族" Kind="4" Exp="9824" Money="1864"/>
+	<Property ID="4509" Name="后方的治愈师" Kind="4" Exp="5614" Money="1864"/>
+	<Property ID="4510" Name="彻底驱逐" Kind="4" Exp="7071" Money="1864"/>
+	<Property ID="4511" Name="胜利的消息" Kind="4" Exp="2807" Money="1864"/>
+	<Property ID="4512" Name="氏族的英雄" Kind="4" Exp="2807" Money="1864"/>
+	<Property ID="4513" Name="对王国军的谢意" Kind="4" Exp="8421" Money="1864"/>
+	<Property ID="4514" Name="泛滥的角鹰" Kind="4" Exp="20081" Money="1864"/>
+	<Property ID="4515" Name="御寒物资" Kind="4" Exp="20081" Money="1864"/>
+	<Property ID="4519" Name="血腥的气息" Kind="4" Exp="20081" Money="1864"/>
+	<Property ID="4520" Name="抑制杀戮" Kind="4" Exp="20081" Money="1864"/>
+	<Property ID="4521" Name="山脚的惊叫" Kind="4" Exp="25760" Money="2005"/>
+	<Property ID="4522" Name="救救我！" Kind="4" Exp="20081" Money="1864"/>
+	<Property ID="4523" Name="中断祭祀" Kind="4" Exp="20081" Money="1864"/>
+	<Property ID="4524" Name="向海神祈祷" Kind="4" Exp="20081" Money="1864"/>
+	<Property ID="4525" Name="嘶吼的丧尸" Kind="4" Exp="12336" Money="844"/>
+	<Property ID="4526" Name="砸烂那些破机器" Kind="4" Exp="25760" Money="2005"/>
+	<Property ID="4137" Name="职业进阶" Kind="1" Exp="84" Money="23"/>
+	<Property ID="10070" Name="浸血的线索" Kind="3" Exp="6804" Money="575" DefaultItemList="Rw_Necklace_0001A,1"/>
+	<Property ID="10057" Name="发愁的新兵" Kind="3" Exp="1660" Money="262"/>
+	<Property ID="10058" Name="赤铁与坚铜" Kind="3" Exp="5759" Money="262"/>
+	<Property ID="10059" Name="汇报要塞" Kind="3" Exp="1677" Money="209"/>
+	<Property ID="4146" Name="一劳永逸" Kind="1" Exp="500" Money="30" SelectItemList="Rw_Sword_0001A,1;Rw_Staff_0001A,1"/>
+	<Property ID="10130" Name="余晖洞穴的麻烦" Kind="30" Exp="540" Money="23" DefaultItemList="Crystal_A00001A,10;EnergySheild_04,1"/>
+	<Property ID="4147" Name="全面战争" Kind="1" Exp="16956" Money="993" DefaultItemList="Crystal_A00001A,10;EnergySheild_04,1"/>
+	<Property ID="10076" Name="远古恶魔" Kind="3" Exp="440" Money="160"/>
+	<Property ID="10077" Name="阻断援军" Kind="3" Exp="11518" Money="772" SelectItemList="Rw_Ring_0001A,1;Rw_Ring_0002A,1"/>
+	<Property ID="10078" Name="科威尔郡" Kind="1" Exp="1100" Money="275" DefaultItemList="Crystal_A00001A,10;EnergySheild_04,1"/>
+	<Property ID="10201" Name="会见指挥官" Kind="26" Exp="17868" Money="1249" DefaultItemList="Crystal_A00001A,10;EnergySheild_12,1"/>
+	<Property ID="10202" Name="采集药材" Kind="26" Exp="22108" Money="1873" SelectItemList="Baoshi_0003A1,1;Baoshi_0003C1,1;Baoshi_0003B1,1;Baoshi_0003D1,1"/>
+	<Property ID="10203" Name="侦查半月湖" Kind="26" Exp="26802" Money="2498"/>
+	<Property ID="10204" Name="风的力量" Kind="26" Exp="31836" Money="2498"/>
+	<Property ID="10205" Name="风之核心" Kind="26" Exp="39794" Money="3122"/>
+	<Property ID="10206" Name="指挥官的鼓舞" Kind="26" Exp="4467" Money="1873"/>
+	<Property ID="10207" Name="食物供应" Kind="26" Exp="17868" Money="2498"/>
+	<Property ID="10208" Name="重伤的士兵" Kind="26" Exp="15918" Money="1249"/>
+	<Property ID="10209" Name="血牙柯里克" Kind="26" Exp="39794" Money="3122"/>
+	<Property ID="10210" Name="作战准备" Kind="26" Exp="4467" Money="1873" DefaultItemList="RW_hp_0001A,5"/>
+	<Property ID="10211" Name="岗哨支援" Kind="26" Exp="8934" Money="1873"/>
+	<Property ID="10212" Name="扩大战线" Kind="26" Exp="44670" Money="2498"/>
+	<Property ID="10213" Name="屠戮者扎维达" Kind="26" Exp="39803" Money="3131"/>
+	<Property ID="10214" Name="防御措施" Kind="26" Exp="31843" Money="2505"/>
+	<Property ID="10215" Name="点燃烽火" Kind="26" Exp="22113" Money="1879"/>
+	<Property ID="10216" Name="解脱" Kind="26" Exp="22108" Money="1873"/>
+	<Property ID="10217" Name="发动进攻" Kind="26" Exp="22113" Money="1879"/>
+	<Property ID="10218" Name="侦查暗月哨岗" Kind="26" Exp="18944" Money="1879" DefaultItemList="add_depot1,1"/>
+	<Property ID="10219" Name="支援斥候" Kind="26" Exp="15921" Money="1252"/>
+	<Property ID="10220" Name="流窜的巨兽" Kind="26" Exp="31843" Money="2505"/>
+	<Property ID="10221" Name="击杀副官" Kind="26" Exp="39803" Money="3131"/>
+	<Property ID="10222" Name="装备材料" Kind="26" Exp="31843" Money="2505"/>
+	<Property ID="10223" Name="暗月狼人祭司" Kind="26" Exp="31843" Money="2505"/>
+	<Property ID="10224" Name="扰乱军心" Kind="26" Exp="18944" Money="1879"/>
+	<Property ID="10225" Name="暗月狼人护符" Kind="26" Exp="33152" Money="2505" DefaultItemList="S_Drug_qh_001,5"/>
+	<Property ID="10226" Name="魔蜥岭的骚动" Kind="26" Exp="22113" Money="1879"/>
+	<Property ID="10227" Name="孤堡危机" Kind="26" Exp="14208" Money="1256"/>
+	<Property ID="10228" Name="克里斯堡" Kind="26" Exp="9472" Money="1256"/>
+	<Property ID="10229" Name="暗恋" Kind="26" Exp="22336" Money="1884"/>
+	<Property ID="10230" Name="坚韧的材料" Kind="26" Exp="28416" Money="2512"/>
+	<Property ID="10231" Name="采集数据" Kind="26" Exp="23680" Money="2512"/>
+	<Property ID="10232" Name="狩猎" Kind="26" Exp="32163" Money="2512"/>
+	<Property ID="10233" Name="顽皮的女儿" Kind="26" Exp="22336" Money="1884"/>
+	<Property ID="10234" Name="迷路的小女孩" Kind="26" Exp="40204" Money="3140"/>
+	<Property ID="10235" Name="会见大使" Kind="26" Exp="22336" Money="1884"/>
+	<Property ID="10236" Name="不死者佐德" Kind="26" Exp="40204" Money="3140"/>
+	<Property ID="10237" Name="大使的烦恼" Kind="26" Exp="9472" Money="1884" DefaultItemList="RW_hp_0001A,5"/>
+	<Property ID="10238" Name="首领的指示" Kind="26" Exp="9472" Money="1884"/>
+	<Property ID="10239" Name="狼人往事" Kind="26" Exp="22336" Money="1884"/>
+	<Property ID="10240" Name="不可饶恕" Kind="26" Exp="32163" Money="2512"/>
+	<Property ID="10241" Name="营地解围" Kind="26" Exp="50130" Money="1889"/>
+	<Property ID="10242" Name="武器短缺" Kind="26" Exp="25065" Money="2519"/>
+	<Property ID="10243" Name="回报大使" Kind="26" Exp="10026" Money="1260"/>
+	<Property ID="10244" Name="醇香葡萄酒" Kind="26" Exp="34096" Money="2519"/>
+	<Property ID="10245" Name="助人为乐" Kind="26" Exp="34096" Money="2519"/>
+	<Property ID="10246" Name="暴躁的生物" Kind="26" Exp="23678" Money="1889"/>
+	<Property ID="10247" Name="斩草又除根" Kind="26" Exp="23678" Money="1889"/>
+	<Property ID="10248" Name="主动出击" Kind="26" Exp="10026" Money="1889"/>
+	<Property ID="10249" Name="杀开血路" Kind="26" Exp="20052" Money="1889"/>
+	<Property ID="10250" Name="直捣黄龙" Kind="26" Exp="35091" Money="3149" DefaultItemList="RW_mp_0001A,5"/>
+	<Property ID="10251" Name="截取情报" Kind="26" Exp="34096" Money="2519"/>
+	<Property ID="10252" Name="情报内容" Kind="26" Exp="34096" Money="2519"/>
+	<Property ID="10253" Name="驱散阴影" Kind="26" Exp="42620" Money="3149"/>
+	<Property ID="10254" Name="观察站" Kind="26" Exp="15039" Money="2519" DefaultItemList="add_depot1,1"/>
+	<Property ID="10255" Name="眼不见为净" Kind="26" Exp="50130" Money="2526"/>
+	<Property ID="10256" Name="阵亡的兄弟" Kind="26" Exp="18045" Money="1263"/>
+	<Property ID="10257" Name="主人的意志" Kind="26" Exp="36090" Money="2526"/>
+	<Property ID="10258" Name="节哀顺变" Kind="26" Exp="18045" Money="1263"/>
+	<Property ID="10259" Name="传递坏消息" Kind="26" Exp="25063" Money="1895"/>
+	<Property ID="10260" Name="生物研究" Kind="26" Exp="45113" Money="3155"/>
+	<Property ID="10261" Name="了解研究成果" Kind="26" Exp="36090" Money="2526"/>
+	<Property ID="10262" Name="扫除干扰" Kind="26" Exp="36090" Money="2526"/>
+	<Property ID="10263" Name="死难同胞" Kind="26" Exp="36090" Money="2526"/>
+	<Property ID="10264" Name="痛击" Kind="26" Exp="36090" Money="2526"/>
+	<Property ID="10265" Name="炎舌谷的呼唤" Kind="26" Exp="8475" Money="1895" DefaultItemList="RW_hp_0001A,10"/>
+	<Property ID="10266" Name="毒系土灵" Kind="26" Exp="25063" Money="1895"/>
+	<Property ID="10267" Name="火系土灵" Kind="26" Exp="25063" Money="1895"/>
+	<Property ID="10268" Name="暗系土灵" Kind="26" Exp="25063" Money="1895"/>
+	<Property ID="10269" Name="龟甲的用处" Kind="26" Exp="45113" Money="3155"/>
+	<Property ID="10270" Name="净化湖水" Kind="26" Exp="42376" Money="1900"/>
+	<Property ID="10271" Name="消灭安迪拉" Kind="26" Exp="42375" Money="3167"/>
+	<Property ID="10272" Name="前往伊莉莎之巢" Kind="26" Exp="59325" Money="1267"/>
+	<Property ID="10273" Name="火源结晶" Kind="26" Exp="61021" Money="2534"/>
+	<Property ID="10274" Name="巢穴侦查" Kind="26" Exp="33900" Money="1900"/>
+	<Property ID="10275" Name="坚韧守护者" Kind="26" Exp="61021" Money="2534"/>
+	<Property ID="10276" Name="消灭炎舌首领" Kind="26" Exp="84750" Money="3167"/>
+	<Property ID="10277" Name="回传捷报" Kind="26" Exp="44715" Money="1900"/>
+	<Property ID="10278" Name="研究石头" Kind="26" Exp="61021" Money="2534"/>
+	<Property ID="10279" Name="岩火之心" Kind="26" Exp="61021" Money="2534"/>
+	<Property ID="10280" Name="替人消灾" Kind="26" Exp="42376" Money="1900"/>
+	<Property ID="10281" Name="前往提奥迪亚" Kind="26" Exp="71544" Money="1267" SelectItemList="Rw_Shield_0001A_02,1;Rw_Magicbottle_0002A,1"/>
+	<Property ID="4601" Name="远征王国军" Kind="7" Exp="5614" Money="2483"/>
+	<Property ID="4602" Name="冤案" Kind="7" Exp="1403" Money="1242"/>
+	<Property ID="4603" Name="不速之客" Kind="7" Exp="14312" Money="2483"/>
+	<Property ID="4604" Name="粮食危机" Kind="7" Exp="7156" Money="1242"/>
+	<Property ID="4605" Name="复仇" Kind="7" Exp="3578" Money="1862"/>
+	<Property ID="4606" Name="出走的罗丝塔" Kind="7" Exp="22624" Money="1862" DefaultItemList=""/>
+	<Property ID="4607" Name="糟糕的决定" Kind="7" Exp="7696" Money="1862"/>
+	<Property ID="4608" Name="蠢蠢欲动的血族" Kind="7" Exp="19240" Money="1862"/>
+	<Property ID="4609" Name="女儿的礼物" Kind="7" Exp="23866" Money="1862"/>
+	<Property ID="4610" Name="海滩的古代遗迹" Kind="7" Exp="23866" Money="1862"/>
+	<Property ID="4611" Name="复仇" Kind="7" Exp="23866" Money="1862"/>
+	<Property ID="4612" Name="水的突变" Kind="7" Exp="23866" Money="1862"/>
+	<Property ID="4613" Name="被抢的私人物品" Kind="7" Exp="39776" Money="3104"/>
+	<Property ID="4614" Name="不捕鱼？那螃蟹吧！" Kind="7" Exp="23866" Money="1862"/>
+	<Property ID="4615" Name="神秘的柯达" Kind="7" Exp="3848" Money="1242"/>
+	<Property ID="4616" Name="看不懂的信件" Kind="7" Exp="23871" Money="1868"/>
+	<Property ID="4617" Name="村长的命令" Kind="7" Exp="23871" Money="1868"/>
+	<Property ID="4618" Name="萨耐斯村的象征" Kind="7" Exp="39785" Money="3113"/>
+	<Property ID="4619" Name="敌人的盟友" Kind="7" Exp="31828" Money="2483"/>
+	<Property ID="4620" Name="鱼人信件" Kind="7" Exp="23866" Money="1242"/>
+	<Property ID="4621" Name="萨耐斯村的营救" Kind="7" Exp="23866" Money="1242"/>
+	<Property ID="4622" Name="棘手的巡逻兵" Kind="7" Exp="23866" Money="1242"/>
+	<Property ID="4623" Name="行动阻碍" Kind="7" Exp="31828" Money="2490"/>
+	<Property ID="4624" Name="夺回神石" Kind="7" Exp="31828" Money="2490"/>
+	<Property ID="4626" Name="王国的远征军" Kind="7" Exp="23871" Money="1868"/>
+	<Property ID="4627" Name="牛角买卖" Kind="7" Exp="31632" Money="1245"/>
+	<Property ID="4628" Name="为了仙蒂花" Kind="7" Exp="11544" Money="1868"/>
+	<Property ID="4629" Name="回报柯达" Kind="7" Exp="4129" Money="1868"/>
+	<Property ID="4630" Name="援助先锋哨站" Kind="7" Exp="28903" Money="1245"/>
+	<Property ID="4631" Name="逃过一劫" Kind="7" Exp="23871" Money="1868"/>
+	<Property ID="4632" Name="美味的斑点蘑菇" Kind="7" Exp="31828" Money="2490"/>
+	<Property ID="4633" Name="一丝血迹" Kind="7" Exp="23871" Money="1245"/>
+	<Property ID="4634" Name="紧缺的远征物资" Kind="7" Exp="31828" Money="2490"/>
+	<Property ID="4635" Name="被迫中止的旅程" Kind="7" Exp="23871" Money="1868"/>
+	<Property ID="4636" Name="物美价廉的商品" Kind="7" Exp="31828" Money="2490"/>
+	<Property ID="4637" Name="突来的血族" Kind="7" Exp="28903" Money="1862"/>
+	<Property ID="4638" Name="攘外必先安内" Kind="7" Exp="6129" Money="1245"/>
+	<Property ID="4639" Name="梅菲尔的指令" Kind="7" Exp="12387" Money="1249" DefaultItemList="S_Drug_004D,3;S_Drug_zq_004,3"/>
+	<Property ID="4640" Name="策反的联络使" Kind="7" Exp="4129" Money="2498"/>
+	<Property ID="4641" Name="堕落的王子" Kind="7" Exp="12387" Money="1873"/>
+	<Property ID="4642" Name="北部的旅者" Kind="7" Exp="15918" Money="1249"/>
+	<Property ID="4643" Name="与自然结合的防御" Kind="7" Exp="23871" Money="1868"/>
+	<Property ID="4644" Name="完美的壳" Kind="7" Exp="23871" Money="1245"/>
+	<Property ID="4645" Name="让人着迷的毒" Kind="7" Exp="31836" Money="2498"/>
+	<Property ID="4646" Name="隐秘的捕猎者" Kind="7" Exp="23877" Money="1873"/>
+	<Property ID="4647" Name="羽毛收集癖" Kind="7" Exp="23877" Money="1873"/>
+	<Property ID="4648" Name="凶猛的飞禽" Kind="7" Exp="39794" Money="3122"/>
+	<Property ID="4649" Name="巨人峡湾的棕熊" Kind="7" Exp="23877" Money="1873"/>
+	<Property ID="4650" Name="勇士的标志" Kind="7" Exp="23877" Money="1873"/>
+	<Property ID="4651" Name="士兵的需求" Kind="7" Exp="23871" Money="1868"/>
+	<Property ID="4652" Name="可疑的货物" Kind="7" Exp="31836" Money="2498"/>
+	<Property ID="4653" Name="食物紧缺" Kind="7" Exp="31836" Money="2498" SelectItemList="Baoshi_0003A1,1;Baoshi_0003C1,1;Baoshi_0003B1,1;Baoshi_0003D1,1"/>
+	<Property ID="4654" Name="来自荒原的商队" Kind="7" Exp="23877" Money="1873"/>
+	<Property ID="4655" Name="丢失的首饰" Kind="7" Exp="23877" Money="1873"/>
+	<Property ID="4656" Name="失踪的摩萨特" Kind="7" Exp="31843" Money="2505"/>
+	<Property ID="4657" Name="固执的摩萨特" Kind="7" Exp="15921" Money="1252"/>
+	<Property ID="4658" Name="最佳药品" Kind="7" Exp="31843" Money="2505"/>
+	<Property ID="4659" Name="回归商队" Kind="7" Exp="15921" Money="1252"/>
+	<Property ID="4660" Name="启程：洛克兰德村" Kind="7" Exp="22105" Money="1879"/>
+	<Property ID="4661" Name="有用？没用？" Kind="7" Exp="23882" Money="1879"/>
+	<Property ID="4662" Name="不休止的骚扰" Kind="7" Exp="23882" Money="1879"/>
+	<Property ID="4663" Name="绿色化妆品" Kind="7" Exp="23882" Money="1879"/>
+	<Property ID="4664" Name="堪比钻石的坚硬" Kind="7" Exp="31843" Money="2505"/>
+	<Property ID="4665" Name="古老的试炼" Kind="7" Exp="4421" Money="2505"/>
+	<Property ID="4666" Name="先祖之地的异动" Kind="7" Exp="8842" Money="1879"/>
+	<Property ID="4667" Name="外来的入侵者" Kind="7" Exp="19894" Money="1879"/>
+	<Property ID="4668" Name="阻止邪教徒" Kind="7" Exp="19894" Money="3131"/>
+	<Property ID="4669" Name="让灵魂安息" Kind="7" Exp="32163" Money="2512"/>
+	<Property ID="4670" Name="后方的指挥者" Kind="7" Exp="24315" Money="3140"/>
+	<Property ID="4671" Name="粉碎遗骸" Kind="7" Exp="31843" Money="2505"/>
+	<Property ID="4672" Name="消除殆尽" Kind="7" Exp="24122" Money="1884"/>
+	<Property ID="4673" Name="深入调查的祭司" Kind="7" Exp="13263" Money="1256"/>
+	<Property ID="4674" Name="被破坏的信仰" Kind="7" Exp="13263" Money="2512"/>
+	<Property ID="4675" Name="根源归于大地" Kind="7" Exp="30578" Money="2512"/>
+	<Property ID="4676" Name="安抚大地之灵" Kind="7" Exp="20102" Money="628"/>
+	<Property ID="4677" Name="未完的祭祀" Kind="7" Exp="24122" Money="1884"/>
+	<Property ID="4678" Name="报告洛克兰德" Kind="7" Exp="13266" Money="1256"/>
+	<Property ID="4679" Name="紧急情报" Kind="7" Exp="5422" Money="1256"/>
+	<Property ID="4680" Name="被邪化的魔山人" Kind="7" Exp="30954" Money="1884"/>
+	<Property ID="4681" Name="堕落的爪牙" Kind="7" Exp="22110" Money="1884"/>
+	<Property ID="4682" Name="闹剧该收场了" Kind="7" Exp="39789" Money="2512"/>
+	<Property ID="4683" Name="那些疯狂的法师" Kind="7" Exp="24122" Money="1884"/>
+	<Property ID="4684" Name="请敢死鬼回家" Kind="7" Exp="20102" Money="628"/>
+	<Property ID="4685" Name="解救未被感染的人" Kind="7" Exp="24122" Money="1884"/>
+	<Property ID="4686" Name="氏族的器具" Kind="7" Exp="32163" Money="2512"/>
+	<Property ID="4687" Name="卡拉福德荒原" Kind="7" Exp="16082" Money="1256"/>
+	<Property ID="4528" Name="巨人峡湾" Kind="4" Exp="13770" Money="208"/>
+	<Property ID="4527" Name="流浪群岛" Kind="4" Exp="26834" Money="835"/>
+	<Property ID="2700" Name="叛军的踪迹" Kind="8" Exp="6422" Money="2081"/>
+	<Property ID="2701" Name="调查阴谋" Kind="8" Exp="30951" Money="3122"/>
+	<Property ID="2702" Name="阻止入侵" Kind="8" Exp="25961" Money="3469"/>
+	<Property ID="2703" Name="荒原遗迹" Kind="8" Exp="8846" Money="5204"/>
+	<Property ID="2704" Name="阿祖拉祭坛" Kind="8" Exp="22115" Money="2428"/>
+	<Property ID="2705" Name="举手之劳" Kind="8" Exp="17692" Money="3469"/>
+	<Property ID="2706" Name="新的敌人" Kind="8" Exp="37584" Money="3469"/>
+	<Property ID="2708" Name="彻底的亵渎" Kind="8" Exp="22115" Money="3469"/>
+	<Property ID="2709" Name="奴役灵魂" Kind="8" Exp="13401" Money="3469"/>
+	<Property ID="2710" Name="罪恶之首" Kind="8" Exp="13401" Money="4510" SelectItemList="Baoshi_0003A1,1;Baoshi_0003B1,1;Baoshi_0003C1,1;Baoshi_0003D1,1"/>
+	<Property ID="2711" Name="汇报消息" Kind="8" Exp="13401" Money="2081"/>
+	<Property ID="2712" Name="失落的文明" Kind="8" Exp="4467" Money="3469"/>
+	<Property ID="2713" Name="力量之源" Kind="8" Exp="37584" Money="3469"/>
+	<Property ID="2714" Name="报仇雪恨" Kind="8" Exp="37584" Money="3469"/>
+	<Property ID="2715" Name="破除防御系统" Kind="8" Exp="17868" Money="3122"/>
+	<Property ID="2716" Name="远古遗产" Kind="8" Exp="20101" Money="3122"/>
+	<Property ID="2717" Name="追踪" Kind="8" Exp="9472" Money="2081"/>
+	<Property ID="2718" Name="拯救梅诺" Kind="8" Exp="4736" Money="3469"/>
+	<Property ID="2719" Name="穿越封锁线" Kind="8" Exp="14208" Money="3122"/>
+	<Property ID="2720" Name="不论生死" Kind="8" Exp="18944" Money="3122"/>
+	<Property ID="2721" Name="追击" Kind="8" Exp="9472" Money="1750"/>
+	<Property ID="2722" Name="警戒范围" Kind="8" Exp="17868" Money="3469"/>
+	<Property ID="2723" Name="阻截者" Kind="8" Exp="29073" Money="3469"/>
+	<Property ID="2724" Name="挖掘作业" Kind="8" Exp="32581" Money="3122"/>
+	<Property ID="2725" Name="打击士气" Kind="8" Exp="30576" Money="2799"/>
+	<Property ID="2726" Name="禁止开采" Kind="8" Exp="18944" Money="2449"/>
+	<Property ID="2727" Name="真实目的" Kind="8" Exp="14208" Money="2799"/>
+	<Property ID="2728" Name="破坏者" Kind="8" Exp="15039" Money="4199"/>
+	<Property ID="2729" Name="前往埋骨之地" Kind="8" Exp="10026" Money="1750"/>
+	<Property ID="2730" Name="回收" Kind="8" Exp="31078" Money="2799"/>
+	<Property ID="2731" Name="切断联络" Kind="8" Exp="30075" Money="2799"/>
+	<Property ID="2732" Name="漠中花" Kind="8" Exp="25063" Money="2799"/>
+	<Property ID="2733" Name="离开挖掘场" Kind="8" Exp="25063" Money="2099"/>
+	<Property ID="2734" Name="荒原圣物" Kind="8" Exp="25065" Money="2799"/>
+	<Property ID="2735" Name="阿祖拉之骨" Kind="8" Exp="20052" Money="4199"/>
+	<Property ID="2736" Name="进军血色哨站" Kind="8" Exp="15039" Money="2099" SelectItemList="Rw_Shield_0002A,1;Rw_Magicbottle_0002A,1"/>
+	<Property ID="2737" Name="不朽之树" Kind="8" Exp="30075" Money="2799"/>
+	<Property ID="2738" Name="荒原的呼喊" Kind="8" Exp="32581" Money="3149"/>
+	<Property ID="2739" Name="狭路相逢" Kind="8" Exp="25063" Money="2799"/>
+	<Property ID="2740" Name="穷追猛打" Kind="8" Exp="25063" Money="2799"/>
+	<Property ID="2741" Name="决不饶恕" Kind="8" Exp="25063" Money="2799"/>
+	<Property ID="2742" Name="燃眉之急" Kind="8" Exp="5013" Money="1755"/>
+	<Property ID="2743" Name="流沙之塔" Kind="8" Exp="20052" Money="3509"/>
+	<Property ID="2744" Name="甘露之塔" Kind="8" Exp="25065" Money="3469"/>
+	<Property ID="2745" Name="进攻血色哨站" Kind="8" Exp="42375" Money="3158"/>
+	<Property ID="2746" Name="前往荒原绿洲" Kind="8" Exp="16950" Money="1755"/>
+	<Property ID="2747" Name="唤魔者" Kind="8" Exp="10026" Money="4562"/>
+	<Property ID="2748" Name="献祭者" Kind="8" Exp="50851" Money="4562"/>
+	<Property ID="2749" Name="祝福之力" Kind="8" Exp="33900" Money="2807"/>
+	<Property ID="2750" Name="永恒之心" Kind="8" Exp="16950" Money="2807"/>
+	<Property ID="2751" Name="卡拉福德港" Kind="8" Exp="16950" Money="2105"/>
+	<Property ID="2752" Name="削弱敌人" Kind="8" Exp="42376" Money="2807"/>
+	<Property ID="2753" Name="无所畏惧" Kind="8" Exp="33901" Money="2807"/>
+	<Property ID="2754" Name="寻找项链" Kind="8" Exp="28816" Money="2456"/>
+	<Property ID="2755" Name="永燃灯塔" Kind="8" Exp="26829" Money="2105" SelectItemList="Baoshi_0002A1,1;Baoshi_0002B1,1;Baoshi_0002C1,1;Baoshi_0002D1,1"/>
+	<Property ID="2756" Name="阿祖拉之塔" Kind="8" Exp="35772" Money="2807"/>
+	<Property ID="2757" Name="前往水晶谷" Kind="8" Exp="44715" Money="1755"/>
+	<Property ID="2758" Name="海龟汤" Kind="8" Exp="25426" Money="2456"/>
+	<Property ID="2759" Name="鱼人海盗" Kind="8" Exp="25426" Money="2807"/>
+	<Property ID="2760" Name="夺回物资" Kind="8" Exp="25426" Money="2807"/>
+	<Property ID="2761" Name="悬赏" Kind="8" Exp="33901" Money="4211"/>
+	<Property ID="2762" Name="远古敌人" Kind="8" Exp="35772" Money="2807"/>
+	<Property ID="2763" Name="背叛者马卡诺斯" Kind="8" Exp="35772" Money="4562"/>
+	<Property ID="2764" Name="研究材料" Kind="8" Exp="25426" Money="2807"/>
+	<Property ID="10302" Name="收集作战储备" Kind="19" Exp="8998" Money="183"/>
+	<Property ID="10303" Name="输送储备" Kind="19" Exp="9140" Money="183"/>
+	<Property ID="10304" Name="帮助副官" Kind="19" Exp="18284" Money="183"/>
+	<Property ID="10305" Name="保持清静" Kind="19" Exp="22855" Money="183"/>
+	<Property ID="10306" Name="消灭狼患" Kind="19" Exp="8713" Money="183"/>
+	<Property ID="10307" Name="致命的毒液" Kind="19" Exp="8855" Money="183"/>
+	<Property ID="10308" Name="摧毁祭坛" Kind="19" Exp="13716" Money="200" DefaultItemList="Rw_Necklace_00015D1,1"/>
+	<Property ID="10309" Name="扫除后患" Kind="19" Exp="11430" Money="200"/>
+	<Property ID="10310" Name="寻找谢尔盖" Kind="19" Exp="14354" Money="200"/>
+	<Property ID="10311" Name="制作拐棍" Kind="19" Exp="19139" Money="200"/>
+	<Property ID="10312" Name="拯救谢尔盖" Kind="19" Exp="16268" Money="200"/>
+	<Property ID="10313" Name="破门而入" Kind="19" Exp="16747" Money="200"/>
+	<Property ID="10314" Name="隐匿者" Kind="19" Exp="16747" Money="200"/>
+	<Property ID="10315" Name="邪恶的巫术" Kind="19" Exp="23924" Money="200"/>
+	<Property ID="10316" Name="散落的法器" Kind="19" Exp="6570" Money="204"/>
+	<Property ID="10317" Name="太阳集会所" Kind="19" Exp="7715" Money="204"/>
+	<Property ID="10318" Name="传递情报" Kind="19" Exp="20763" Money="204" SelectItemList="Rw_Belt_A500A,1;Rw_Belt_B500A,1;Rw_Belt_C500A,1;Rw_Belt_D500A,1"/>
+	<Property ID="10319" Name="狂热的信徒" Kind="19" Exp="9430" Money="204"/>
+	<Property ID="10320" Name="消灭缚法者" Kind="19" Exp="31145" Money="204"/>
+	<Property ID="10321" Name="诡异的乌鸦" Kind="19" Exp="20763" Money="204"/>
+	<Property ID="10322" Name="太阳之子主教" Kind="19" Exp="10282" Money="204"/>
+	<Property ID="10323" Name="月光湖新影" Kind="19" Exp="5285" Money="223"/>
+	<Property ID="10324" Name="狼人的脚趾" Kind="19" Exp="6570" Money="223"/>
+	<Property ID="10325" Name="先行一步" Kind="19" Exp="5427" Money="223"/>
+	<Property ID="10326" Name="亚伦的麻烦" Kind="19" Exp="23860" Money="223"/>
+	<Property ID="10327" Name="消除隐患" Kind="19" Exp="29475" Money="223"/>
+	<Property ID="10328" Name="毛皮研究" Kind="19" Exp="32282" Money="223"/>
+	<Property ID="10329" Name="消除威胁" Kind="19" Exp="33685" Money="223"/>
+	<Property ID="10330" Name="暗月刺探者" Kind="19" Exp="11960" Money="223"/>
+	<Property ID="10331" Name="渡口告急" Kind="19" Exp="6487" Money="253" SelectItemList="Rw_Shield_0001A_01,1;Rw_Magicbottle_0001A_01,1"/>
+	<Property ID="10332" Name="其他麻烦" Kind="19" Exp="3297" Money="253"/>
+	<Property ID="10333" Name="突然的袭击" Kind="19" Exp="2595" Money="253"/>
+	<Property ID="10334" Name="苦恼的狩猎者" Kind="19" Exp="33989" Money="253"/>
+	<Property ID="10335" Name="猥琐的观察者" Kind="19" Exp="35062" Money="253"/>
+	<Property ID="10336" Name="寻根问底" Kind="19" Exp="36494" Money="253"/>
+	<Property ID="10337" Name="禁止偷渡" Kind="19" Exp="9975" Money="253"/>
+	<Property ID="10338" Name="开始计划" Kind="19" Exp="30786" Money="315"/>
+	<Property ID="10339" Name="拖延进度" Kind="19" Exp="46178" Money="315"/>
+	<Property ID="10340" Name="引起骚乱" Kind="19" Exp="45409" Money="315"/>
+	<Property ID="10341" Name="强硬措施" Kind="19" Exp="50027" Money="315"/>
+	<Property ID="10342" Name="矿场危机" Kind="19" Exp="5595" Money="315"/>
+	<Property ID="10343" Name="鲜美的龟肉" Kind="19" Exp="43485" Money="315"/>
+	<Property ID="10344" Name="美丽的珍珠" Kind="19" Exp="42330" Money="315"/>
+	<Property ID="10345" Name="夺回黑金" Kind="19" Exp="8677" Money="346"/>
+	<Property ID="10346" Name="源源不断" Kind="19" Exp="28622" Money="346"/>
+	<Property ID="10347" Name="趁火打劫" Kind="19" Exp="43351" Money="346"/>
+	<Property ID="10348" Name="消灭工头" Kind="19" Exp="53673" Money="346"/>
+	<Property ID="10349" Name="带回情报" Kind="19" Exp="11272" Money="346"/>
+	<Property ID="10350" Name="清剿侦查兵" Kind="19" Exp="11035" Money="346" SelectItemList="Rw_Shoes_A5002A,1;Rw_Shoes_B5002A,1;Rw_Shoes_C5002A,1;Rw_Shoes_D5002A,1"/>
+	<Property ID="10351" Name="传递好效果" Kind="19" Exp="37984" Money="346"/>
+	<Property ID="10352" Name="忍无可忍" Kind="19" Exp="45416" Money="346"/>
+	<Property ID="10353" Name="筹备物资" Kind="19" Exp="47732" Money="360"/>
+	<Property ID="10354" Name="愤怒的土灵" Kind="19" Exp="48616" Money="360"/>
+	<Property ID="10355" Name="月灼南营" Kind="19" Exp="8421" Money="360"/>
+	<Property ID="10356" Name="大开杀戒" Kind="19" Exp="46406" Money="360"/>
+	<Property ID="10357" Name="拯救伤兵" Kind="19" Exp="6807" Money="360"/>
+	<Property ID="10358" Name="一探究竟" Kind="19" Exp="11228" Money="360"/>
+	<Property ID="10359" Name="暗月隐匿处" Kind="19" Exp="13649" Money="360"/>
+	<Property ID="10360" Name="雾月之辉" Kind="19" Exp="16421" Money="360"/>
+	<Property ID="10361" Name="导火线" Kind="19" Exp="38009" Money="360"/>
+	<Property ID="10362" Name="反击掠夺者" Kind="19" Exp="45532" Money="384"/>
+	<Property ID="10363" Name="击杀萨克" Kind="19" Exp="68519" Money="384"/>
+	<Property ID="10364" Name="高地上的怪物" Kind="19" Exp="35365" Money="384"/>
+	<Property ID="10365" Name="月灼林潜伏者" Kind="19" Exp="52605" Money="384"/>
+	<Property ID="10366" Name="调查民情" Kind="19" Exp="17312" Money="384"/>
+	<Property ID="10367" Name="暴躁的黑猩猩" Kind="19" Exp="50837" Money="384"/>
+	<Property ID="10368" Name="消灭掠食者" Kind="19" Exp="49511" Money="384"/>
+	<Property ID="10369" Name="收集木材" Kind="19" Exp="18312" Money="384"/>
+	<Property ID="10370" Name="测试利剑" Kind="19" Exp="17890" Money="384"/>
+	<Property ID="10371" Name="前往皮罗高地" Kind="19" Exp="26624" Money="384" SelectItemList="Rw_Sword_0004A,1;Rw_Claymore_00003A,1;Rw_Staff_0004A,1;Rw_Poleaxe_00003A,1"/>
+	<Property ID="4148" Name="虚空裂痕" Kind="1" Exp="849" Money="45" DefaultItemList="Tsdj_Jewelry_0001A,1"/>
+	<Property ID="10079" Name="失踪的工人" Kind="3" Exp="351" Money="56" DefaultItemList="Tsdj_Jewelry_0001A,1"/>
+	<Property ID="2765" Name="提奥迪亚之行" Kind="8" Exp="35772" Money="273" SelectItemList="Rw_Sword_0005A_01,1;Rw_Dagger_0005A,1;Rw_Gun_0005A,1;Rw_Staff_0005A,1"/>
+	<Property ID="2766" Name="前往巨人峡湾" Kind="8" Exp="13265" Money="230"/>
+	<Property ID="10080" Name="清剿叛军" Kind="3" Exp="4500" Money="105"/>
+	<Property ID="10081" Name="摧毁矿车" Kind="3" Exp="5000" Money="441"/>
+	<Property ID="10082" Name="不时之需" Kind="3" Exp="5800" Money="441"/>
+	<Property ID="2850" Name="清理峡谷" Kind="8" Exp="13000" Money="130"/>
+	<Property ID="2851" Name="清剿强盗" Kind="8" Exp="15000" Money="150"/>
+	<Property ID="2852" Name="清道夫" Kind="8" Exp="17000" Money="170"/>
+	<Property ID="2853" Name="匪首" Kind="8" Exp="19000" Money="200"/>
+	<Property ID="2109" Name="肃清周边" Kind="9" Exp="10000" Money="52"/>
+	<Property ID="2111" Name="破盾之势" Kind="9" Exp="10000" Money="52"/>
+	<Property ID="2112" Name="扑灭狂热" Kind="9" Exp="10000" Money="52"/>
+	<Property ID="2113" Name="占卜厄运" Kind="9" Exp="14000" Money="100"/>
+	<Property ID="10372" Name="祸乱前兆" Kind="15" Exp="396" Money="124" DefaultItemList="Tsdj_Jewelry_0001A,1"/>
+	<Property ID="10083" Name="黑金残渣" Kind="3" Exp="1000" Money="30" DefaultItemList="TY_0002,5"/>
+	<Property ID="3000" Name="飓风营救（一）" Kind="9" Exp="17340" Money="1538"/>
+	<Property ID="3001" Name="交易（一）" Kind="9" Exp="3269" Money="1531"/>
+	<Property ID="10084" Name="卡地亚地理杂志" Kind="3" Exp="6000" Money="120" DefaultItemList="Mount_00014,1"/>
+	<Property ID="4150" Name="野狼皮毛" Kind="1" Exp="518" Money="10"/>
+	<Property ID="4151" Name="小镇防卫" Kind="1" Exp="1280" Money="17"/>
+	<Property ID="4152" Name="销毁残骸" Kind="1" Exp="1479" Money="33"/>
+	<Property ID="4153" Name="削弱灰烬壁垒" Kind="1" Exp="8582" Money="203"/>
+	<Property ID="4154" Name="探索克威尔郡（风景点）" Kind="1" Exp="6000" Money="60" DefaultItemList="Mount_00012,1"/>
+	<Property ID="4529" Name="探索亚提伦（风景点）" Kind="4" Exp="6000" Money="60" SelectItemList="Baoshi_0001A1,1;Baoshi_0001B1,1;Baoshi_0001C1,1;Baoshi_0001D1,1"/>
+	<Property ID="4688" Name="探索巨人峡湾（风景点）" Kind="7" Exp="6000" Money="60" SelectItemList="Baoshi_0002A1,1;Baoshi_0002B1,1;Baoshi_0002C1,1;Baoshi_0002D1,1"/>
+	<Property ID="10282" Name="探索皮罗高地（风景点）" Kind="26" Exp="6000" Money="60" SelectItemList="Baoshi_0003A1,1;Baoshi_0003B1,1;Baoshi_0003C1,1;Baoshi_0003D1,1"/>
+	<Property ID="3002" Name="废墟研究者" Kind="9" Exp="15000" Money="200" SelectItemList="Baoshi_0001A1,1;Baoshi_0001B1,1;Baoshi_0001C1,1;Baoshi_0001D1,1"/>
+	<Property ID="2854" Name="荒原研究者" Kind="8" Exp="25000" Money="500" SelectItemList="Baoshi_0002A1,1;Baoshi_0002B1,1;Baoshi_0002C1,1;Baoshi_0002D1,1"/>
+	<Property ID="10174" Name="雾月研究者" Kind="19" Exp="16000" Money="250" SelectItemList="Baoshi_0001A1,1;Baoshi_0001B1,1;Baoshi_0001C1,1;Baoshi_0001D1,1"/>
+	<Property ID="4530" Name="嘶吼的丧尸" Kind="4" Exp="8024" Money="402"/>
+	<Property ID="4531" Name="优质鹿皮" Kind="4" Exp="8226" Money="450"/>
+	<Property ID="10085" Name="前往水之厅" Kind="3" Exp="343" Money="10"/>
+	<Property ID="10086" Name="前往风之厅" Kind="3" Exp="301" Money="15"/>
+	<Property ID="10087" Name="前往炎之厅" Kind="3" Exp="351" Money="18"/>
+	<Property ID="10088" Name="最后的试炼" Kind="3" Exp="351" Money="21"/>
+	<Property ID="4003" Name="照顾农田" Kind="1" Exp="390" Money="20" DefaultItemList="add_depot3,1"/>
+	<Property ID="10089" Name="十锤城防务" Kind="3" Exp="600" Money="25"/>
+	<Property ID="10090" Name="曾经的辉煌" Kind="3" Exp="500" Money="25"/>
+	<Property ID="4155" Name="空袭灰烬壁垒" Kind="1" Exp="14850" Money="502"/>
+	<Property ID="4156" Name="大师之路·十五" Kind="1" Exp="5572" Money="372" Phys="38"/>
+	<Property ID="4157" Name="大师之路·二十二" Kind="1" Exp="7786" Money="605" Phys="50"/>
+	<Property ID="4158" Name="大师之路" Kind="1" Exp="13265" Money="1041" Phys="63"/>
+	<Property ID="4159" Name="大师之路" Kind="1" Exp="25426" Money="1056" Phys="74"/>
+	<Property ID="4160" Name="大师之路" Kind="1" Exp="32837" Money="1071" Phys="86"/>
+	<Property ID="4176" Name="清剿余孽" Kind="1" Exp="1050" Money="50"/>
+	<Property ID="7020" Name="兑换点数" Kind="58" Exp="0" Money="0" HeroicPoint="1"/>
+	<Property ID="10091" Name="前往岩之厅" Kind="3" Exp="298" Money="30"/>
+	<Property ID="10092" Name="伊利的请求" Kind="3" Exp="349" Money="42"/>
+	<Property ID="10093" Name="回见试炼官" Kind="3" Exp="312" Money="43"/>
+	<Property ID="10094" Name="结束也是开始" Kind="3" Exp="412" Money="48" DefaultItemList="Rw_Sword_0001A,1"/>
+	<Property ID="10095" Name="法尔考·坚铜" Kind="3" Exp="382" Money="56"/>
+	<Property ID="10096" Name="繁华的十锤城" Kind="3" Exp="451" Money="51"/>
+	<Property ID="10061" Name="汇报消息" Kind="3" Exp="412" Money="30"/>
+	<Property ID="10097" Name="寻找管事" Kind="3" Exp="1182" Money="169"/>
+	<Property ID="10098" Name="离开伐木场" Kind="3" Exp="1645" Money="262"/>
+	<Property ID="10099" Name="破坏者" Kind="3" Exp="3966" Money="256"/>
+	<Property ID="3005" Name="寻找幸存者" Kind="3" Exp="1739" Money="533"/>
+	<Property ID="3006" Name="凯旋归来" Kind="3" Exp="1739" Money="573"/>
+	<Property ID="10283" Name="援助岗哨" Kind="26" Exp="21590" Money="389"/>
+	<Property ID="3007" Name="夺回工厂" Kind="3" Exp="2239" Money="467"/>
+	<Property ID="3008" Name="回报哨站" Kind="3" Exp="3269" Money="689"/>
+	<Property ID="3009" Name="厄运试炼场" Kind="3" Exp="3169" Money="588"/>
+	<Property ID="4177" Name="全面战争" Kind="1" Exp="26956" Money="993"/>
+	<Property ID="501" Name="新兵训话" Kind="14" Exp="230" Money="11"/>
+	<Property ID="502" Name="试炼之始" Kind="14" Exp="238" Money="22"/>
+	<Property ID="503" Name="实力考验" Kind="14" Exp="820" Money="50" DefaultItemList="add_depot3,1"/>
+	<Property ID="504" Name="解救村民" Kind="14" Exp="242" Money="33" DefaultItemList="add_depot3,1"/>
+	<Property ID="505" Name="解药" Kind="14" Exp="250" Money="33"/>
+	<Property ID="506" Name="疗伤" Kind="14" Exp="262" Money="17"/>
+	<Property ID="507" Name="驱逐" Kind="14" Exp="258" Money="56"/>
+	<Property ID="508" Name="追根溯源" Kind="14" Exp="270" Money="37" SelectItemList="Rw_Sword_0001A_01,1;Rw_Staff_0001A,1"/>
+	<Property ID="509" Name="封印松动" Kind="14" Exp="309" Money="68" DefaultItemList="Tsdj_Jewelry_0001A,1"/>
+	<Property ID="510" Name="暴风突袭" Kind="14" Exp="359" Money="68" SelectItemList="Rw_Cloth_A5001A,1;Rw_Cloth_D5001A,1"/>
+	<Property ID="511" Name="踏上征程" Kind="14" Exp="340" Money="59"/>
+	<Property ID="512" Name="圣城卡萨罗" Kind="14" Exp="630" Money="36"/>
+	<Property ID="513" Name="辗转兵驿" Kind="14" Exp="1260" Money="71"/>
+	<Property ID="514" Name="兵驿现状" Kind="14" Exp="340" Money="43"/>
+	<Property ID="515" Name="送信日炎" Kind="14" Exp="359" Money="86" SelectItemList="Rw_Pants_A5001A,1;Rw_Pants_D5001A,1"/>
+	<Property ID="516" Name="日炎异变" Kind="14" Exp="354" Money="43"/>
+	<Property ID="517" Name="为了真相" Kind="14" Exp="1360" Money="88"/>
+	<Property ID="518" Name="挑衅的代价" Kind="14" Exp="431" Money="221" SelectItemList="Rw_Hat_A5001A,1;Rw_Hat_D5001A,1"/>
+	<Property ID="519" Name="挑衅的回敬" Kind="14" Exp="679" Money="221" SelectItemList="Rw_Hat_A5001A,1;Rw_Hat_D5001A,1"/>
+	<Property ID="520" Name="震慑" Kind="14" Exp="469" Money="88" SelectItemList="Rw_Wrist_A50001A,1;Rw_Wrist_D50001A,1"/>
+	<Property ID="521" Name="清剿煽动者" Kind="14" Exp="421" Money="228" SelectItemList="Rw_Ring_0001A,1;Rw_Ring_0002A,1"/>
+	<Property ID="522" Name="罪魁祸首" Kind="14" Exp="469" Money="228" SelectItemList="Rw_Shoes_A5001A,1;Rw_Shoes_D5001A,1"/>
+	<Property ID="523" Name="再踏圣城" Kind="14" Exp="404" Money="46"/>
+	<Property ID="524" Name="拜访将军" Kind="14" Exp="413" Money="46"/>
+	<Property ID="525" Name="试炼之末" Kind="14" Exp="413" Money="228" SelectItemList="RW_Mantle_0001A,1;RW_Mantle_5001A,1"/>
+	<Property ID="526" Name="战友" Kind="14" Exp="2610" Money="148"/>
+	<Property ID="527" Name="药材匮乏" Kind="14" Exp="1880" Money="107"/>
+	<Property ID="528" Name="姐弟情深" Kind="14" Exp="431" Money="216" DefaultItemList="Rw_Necklace_0001A,1"/>
+	<Property ID="529" Name="卡口支援" Kind="14" Exp="1522" Money="157"/>
+	<Property ID="530" Name="补给线" Kind="14" Exp="1290" Money="157"/>
+	<Property ID="531" Name="疯狂的犬人" Kind="14" Exp="1770" Money="243"/>
+	<Property ID="532" Name="犬人酋长" Kind="14" Exp="2292" Money="304"/>
+	<Property ID="533" Name="送粮" Kind="14" Exp="1842" Money="182"/>
+	<Property ID="534" Name="背后黑手" Kind="14" Exp="1970" Money="304"/>
+	<Property ID="535" Name="送还物质" Kind="14" Exp="1970" Money="304" SelectItemList="Rw_Sword_0002A,1;Rw_Claymore_00001A,1;Rw_Staff_0002A,1;Rw_Poleaxe_00001A,1"/>
+	<Property ID="536" Name="商人的怒火一" Kind="14" Exp="1279" Money="262"/>
+	<Property ID="537" Name="商人的怒火二" Kind="14" Exp="1279" Money="262"/>
+	<Property ID="538" Name="犬人遗骨" Kind="14" Exp="1970" Money="304"/>
+	<Property ID="3010" Name="解除疑惑" Kind="3" Exp="1728" Money="662"/>
+	<Property ID="4178" Name="阿克里特的故事" Kind="1" Exp="517" Money="27"/>
+	<Property ID="6100" Name="职业进阶" Kind="58" Exp="683" Money="80"/>
+	<Property ID="6101" Name="试炼之地" Kind="58" Exp="689" Money="56"/>
+	<Property ID="6103" Name="试炼" Kind="58" Exp="756" Money="81"/>
+	<Property ID="6105" Name="忠告" Kind="58" Exp="703" Money="56"/>
+	<Property ID="6107" Name="进行转职" Kind="58" Exp="703" Money="80"/>
+	<Property ID="6200" Name="职业进阶" Kind="58" Exp="789" Money="80"/>
+	<Property ID="6201" Name="试炼之地" Kind="58" Exp="866" Money="56"/>
+	<Property ID="6203" Name="试炼" Kind="58" Exp="866" Money="81"/>
+	<Property ID="6205" Name="忠告" Kind="58" Exp="853" Money="56"/>
+	<Property ID="6207" Name="进行转职" Kind="58" Exp="853" Money="80"/>
+	<Property ID="6300" Name="职业进阶" Kind="58" Exp="683" Money="80"/>
+	<Property ID="6301" Name="试炼之地" Kind="58" Exp="689" Money="56"/>
+	<Property ID="6303" Name="试炼" Kind="58" Exp="756" Money="81"/>
+	<Property ID="6305" Name="忠告" Kind="58" Exp="703" Money="56"/>
+	<Property ID="6307" Name="进行转职" Kind="58" Exp="703" Money="80"/>
+	<Property ID="6400" Name="职业进阶" Kind="58" Exp="1007" Money="80"/>
+	<Property ID="6401" Name="试炼之地" Kind="58" Exp="938" Money="56"/>
+	<Property ID="6403" Name="试炼" Kind="58" Exp="1007" Money="81"/>
+	<Property ID="6405" Name="忠告" Kind="58" Exp="938" Money="56"/>
+	<Property ID="6407" Name="职业进阶" Kind="58" Exp="1079" Money="80"/>
+	<Property ID="6500" Name="职业进阶" Kind="58" Exp="1001" Money="80"/>
+	<Property ID="6501" Name="试炼之地" Kind="58" Exp="973" Money="56"/>
+	<Property ID="6503" Name="试炼" Kind="58" Exp="1032" Money="81"/>
+	<Property ID="6505" Name="忠告" Kind="58" Exp="981" Money="56"/>
+	<Property ID="6507" Name="职业进阶" Kind="58" Exp="983" Money="80"/>
+	<Property ID="6600" Name="职业进阶" Kind="58" Exp="1427" Money="80"/>
+	<Property ID="6601" Name="试炼之地" Kind="58" Exp="1035" Money="56"/>
+	<Property ID="6603" Name="试炼" Kind="58" Exp="1727" Money="81"/>
+	<Property ID="6605" Name="忠告" Kind="58" Exp="1035" Money="56"/>
+	<Property ID="6607" Name="职业进阶" Kind="58" Exp="1527" Money="80"/>
+	<Property ID="6700" Name="职业进阶" Kind="58" Exp="1427" Money="80"/>
+	<Property ID="6701" Name="试炼之地" Kind="58" Exp="1035" Money="56"/>
+	<Property ID="6703" Name="试炼" Kind="58" Exp="1727" Money="81"/>
+	<Property ID="6705" Name="忠告" Kind="58" Exp="1035" Money="56"/>
+	<Property ID="6707" Name="职业进阶" Kind="58" Exp="1527" Money="80"/>
+	<Property ID="8001" Name="破坏黑暗祭祀" Kind="58" Exp="22184" Money="0"/>
+	<Property ID="4179" Name="脱困" Kind="1" Exp="8955" Money="652"/>
+	<Property ID="4180" Name="护卫" Kind="1" Exp="0" Money="0"/>
+	<Property ID="4181" Name="偷袭" Kind="1" Exp="0" Money="0"/>
+	<Property ID="4182" Name="追击" Kind="1" Exp="0" Money="0"/>
+	<Property ID="4183" Name="终末" Kind="1" Exp="0" Money="0"/>
+	<Property ID="4184" Name="肃清" Kind="1" Exp="8300" Money="0"/>
+	<Property ID="6804" Name="末日帮凶" Kind="26" Exp="14000" Money="2000"/>
+	<Property ID="6801" Name="飓风营救" Kind="26" Exp="14000" Money="2000"/>
+	<Property ID="6802" Name="寻找母亲" Kind="26" Exp="2000" Money="0"/>
+	<Property ID="6803" Name="摧毁祭品" Kind="26" Exp="14000" Money="2000"/>
+	<Property ID="316" Name="战场指引" Kind="14" Exp="6000" Money="50" DefaultItemList="DKDJ_001,7"/>
+	<Property ID="317" Name="战场指引" Kind="15" Exp="6000" Money="50" DefaultItemList="DKDJ_001,7"/>
+	<Property ID="4185" Name="战场指引" Kind="1" Exp="6000" Money="50" DefaultItemList="DKDJ_001,7"/>
+	<Property ID="7500" Name="复仇者的希望" Kind="58" Exp="26291" Money="2598"/>
+	<Property ID="7501" Name="复仇者的希望" Kind="58" Exp="27765" Money="2598"/>
+	<Property ID="7502" Name="倒霉的复仇者" Kind="58" Exp="28765" Money="5198"/>
+	<Property ID="91" Name="帮助大兵纳恩" Kind="14" Exp="3670" Money="1004"/>
+	<Property ID="4999" Name="死亡狙击" Kind="1" Exp="18570" Money="1240" RenownList="10001,250" DefaultItemList="mjd_001,2"/>
+	<Property ID="4998" Name="防范匪人" Kind="1" Exp="18570" Money="1240" RenownList="10001,250" DefaultItemList="mjd_001,1"/>
+	<Property ID="4997" Name="隐患" Kind="1" Exp="18570" Money="1240" RenownList="10001,250" DefaultItemList="mjd_002,2"/>
+	<Property ID="7000" Name="蒸汽之渊" Kind="1" Exp="2000" Money="50" RenownList="10001,2"/>
+	<Property ID="7100" Name="蒸汽之渊" Kind="3" Exp="2000" Money="50" RenownList="10009,2"/>
+	<Property ID="601" Name="科鲁镇的混乱" Kind="1" Exp="270" Money="20" DefaultItemList="HP_shunhui_01,10"/>
+	<Property ID="602" Name="远来的达戈菲尔" Kind="1" Exp="296" Money="30" DefaultItemList="S_Drug_zq_001,20"/>
+	<Property ID="603" Name="拯救科鲁镇" Kind="1" Exp="298" Money="20" DefaultItemList="add_depot3,1"/>
+	<Property ID="604" Name="灭火" Kind="1" Exp="337" Money="22" DefaultItemList="Tsdj_Jewelry_0001A,1"/>
+	<Property ID="605" Name="更换齿轮" Kind="1" Exp="339" Money="30"/>
+	<Property ID="606" Name="杰姆的能源" Kind="1" Exp="343" Money="40"/>
+	<Property ID="607" Name="紧急情报" Kind="1" Exp="349" Money="50"/>
+	<Property ID="608" Name="进入蒸汽人仓库" Kind="1" Exp="351" Money="50"/>
+	<Property ID="609" Name="被控制的休斯" Kind="1" Exp="1000" Money="50"/>
+	<Property ID="610" Name="失踪的阿克里特" Kind="1" Exp="451" Money="60"/>
+	<Property ID="611" Name="探测" Kind="1" Exp="456" Money="600"/>
+	<Property ID="612" Name="阿克里特的日记" Kind="1" Exp="412" Money="60" SelectItemList="Rw_Pants_A0001A,1;Rw_Pants_D0001A,1"/>
+	<Property ID="613" Name="梅丽尔的心伤" Kind="1" Exp="440" Money="60"/>
+	<Property ID="614" Name="安息吧，我的父亲" Kind="1" Exp="440" Money="46" SelectItemList="Rw_Hat_A0001A,1;Rw_Hat_D0001A,1"/>
+	<Property ID="615" Name="达戈菲尔事件" Kind="1" Exp="382" Money="67" DefaultItemList="Rw_Necklace_0001A,1"/>
+	<Property ID="616" Name="王国之殇" Kind="1" Exp="476" Money="78"/>
+	<Property ID="617" Name="莱尔危机" Kind="1" Exp="476" Money="66" SelectItemList="Rw_Wrist_A00001A,1;Rw_Wrist_D00001A,1"/>
+	<Property ID="618" Name="保卫莱尔" Kind="1" Exp="515" Money="589"/>
+	<Property ID="619" Name="莱尔镇中的密探" Kind="1" Exp="526" Money="555" SelectItemList="Rw_Ring_0001A,1;Rw_Ring_0002A,1"/>
+	<Property ID="620" Name="革新会的阴谋" Kind="1" Exp="703" Money="444" SelectItemList="Rw_Shoes_A0001A,1;Rw_Shoes_D0001A,1"/>
+	<Property ID="7101" Name="初识蒸汽之渊" Kind="1" Exp="2000" Money="50" RenownList="10001,5"/>
+	<Property ID="6900" Name="营救同伴" Kind="58" Exp="47765" Money="2598"/>
+	<Property ID="6901" Name="被俘的高手" Kind="58" Exp="47765" Money="2598"/>
+	<Property ID="6902" Name="迷途的村长" Kind="58" Exp="47765" Money="2598"/>
+	<Property ID="6903" Name="村长的醒悟" Kind="58" Exp="47765" Money="2598"/>
+	<Property ID="621" Name="革新会的阴谋" Kind="1" Exp="732" Money="328"/>
+	<Property ID="622" Name="操纵者瑞斯" Kind="1" Exp="1108" Money="188"/>
+	<Property ID="623" Name="解救镇民" Kind="1" Exp="1108" Money="283"/>
+	<Property ID="624" Name="真正的勇士" Kind="1" Exp="1108" Money="328"/>
+	<Property ID="625" Name="克里夫的难题" Kind="1" Exp="1301" Money="374"/>
+	<Property ID="626" Name="侦察情报" Kind="1" Exp="893" Money="219"/>
+	<Property ID="627" Name="贪婪的福斯特" Kind="1" Exp="893" Money="250" SelectItemList="Rw_Sword_0002A_01,1;Rw_Dagger_0002A,1;Rw_Gun_0002A,1;Rw_Staff_0002A,1"/>
+	<Property ID="628" Name="欠揍的乔伊" Kind="1" Exp="6220" Money="374"/>
+	<Property ID="629" Name="顽固的杜尔" Kind="1" Exp="8984" Money="499"/>
+	<Property ID="630" Name="危机来袭" Kind="1" Exp="980" Money="709" SelectItemList="Rw_Pants_A0002A,1;Rw_Pants_B0002A,1;Rw_Pants_C0002A,1;Rw_Pants_D0002A,1"/>
+	<Property ID="631" Name="神秘刺客" Kind="1" Exp="2940" Money="532" SelectItemList="Rw_Magicbottle_0001A,1;Rw_Shield_0001A,1;"/>
+	<Property ID="632" Name="笛卡尔之危" Kind="1" Exp="3920" Money="355" SelectItemList="Baoshi_0001A1,1;Baoshi_0001B1,1;Baoshi_0001C1,1;Baoshi_0001D1,1"/>
+	<Property ID="633" Name="营救" Kind="1" Exp="1960" Money="596"/>
+	<Property ID="634" Name="另一个危机" Kind="1" Exp="1470" Money="993"/>
+	<Property ID="635" Name="水落石出" Kind="1" Exp="1152" Money="893" SelectItemList="Rw_Hat_A0002A,1;Rw_Hat_B0002A,1;Rw_Hat_C0002A,1;Rw_Hat_D0002A,1"/>
+	<Property ID="636" Name="真正的叛徒" Kind="1" Exp="1728" Money="1116" DefaultItemList="Tsdj_Jewelry_0002A,1" SelectItemList="Rw_Cloth_A0002A,1;Rw_Cloth_B0002A,1;Rw_Cloth_C0002A,1;Rw_Cloth_D0002A,1    "/>
+	<Property ID="637" Name="被占领的机场" Kind="1" Exp="1728" Money="1116"/>
+	<Property ID="638" Name="机场的硝烟" Kind="1" Exp="2880" Money="893"/>
+	<Property ID="639" Name="达戈菲尔精英" Kind="1" Exp="3456" Money="992"/>
+	<Property ID="640" Name="重要情报" Kind="1" Exp="1152" Money="1239"/>
+	<Property ID="641" Name="机师格鲁" Kind="1" Exp="1152" Money="992"/>
+	<Property ID="642" Name="飞往绿茵海岸" Kind="1" Exp="2304" Money="1239"/>
+	<Property ID="643" Name="银鳞一族" Kind="1" Exp="739" Money="1239"/>
+	<Property ID="644" Name="必要的材料" Kind="1" Exp="2958" Money="1101"/>
+	<Property ID="645" Name="被困的格里斯" Kind="1" Exp="739" Money="826"/>
+	<Property ID="646" Name="族长复位" Kind="1" Exp="2958" Money="1101"/>
+	<Property ID="647" Name="步步深入" Kind="1" Exp="2958" Money="1376"/>
+	<Property ID="648" Name="爆破堡垒" Kind="1" Exp="2958" Money="1385"/>
+	<Property ID="649" Name="首领瑞亚_菲尔德" Kind="1" Exp="4437" Money="1385"/>
+	<Property ID="650" Name="阿克里特的出现" Kind="1" Exp="5817" Money="1385"/>
+	<Property ID="651" Name="苦衷" Kind="1" Exp="3324" Money="1385"/>
+	<Property ID="652" Name="残忍的革新会" Kind="1" Exp="2493" Money="1385"/>
+	<Property ID="653" Name="疯狂者" Kind="1" Exp="3324" Money="1385"/>
+	<Property ID="654" Name="追根溯源" Kind="1" Exp="881" Money="1385"/>
+	<Property ID="655" Name="疯狂者的头颅" Kind="1" Exp="6479" Money="1385" SelectItemList="Rw_Sword_0003A,1;Rw_Dagger_0003A,1;Rw_Gun_0003A,1;Rw_Staff_0003A,1"/>
+	<Property ID="656" Name="真凶" Kind="1" Exp="6499" Money="1385"/>
+	<Property ID="657" Name="斩草除根" Kind="1" Exp="20661" Money="1385"/>
+	<Property ID="658" Name="归来" Kind="1" Exp="2785" Money="1385" DefaultItemList="Rw_Necklace_00015D1,1"/>
+	<Property ID="702" Name="新兵报到" Kind="14" Exp="230" Money="11"/>
+	<Property ID="5000" Name="event_Item" Kind="1" Exp="0" Money="0" DefaultItemList="TaskUse_00230A,1"/>
+	<Property ID="4532" Name="亚提伦之变" Kind="4" Exp="5571" Money="844"/>
+	<Property ID="4533" Name="狂暴的亲人" Kind="4" Exp="13416" Money="563"/>
+	<Property ID="4534" Name="神秘身影" Kind="4" Exp="4784" Money="1621"/>
+	<Property ID="4535" Name="巨人峡湾之行" Kind="4" Exp="2807" Money="1864" SelectItemList="Rw_Sword_0004A_01,1;Rw_Dagger_0004A,1;Rw_Staff_0004A,1;Rw_Gun_0004A,1;"/>
+	<Property ID="2460" Name="宁神" Kind="22" Exp="9425" Money="1775"/>
+	<Property ID="2461" Name="悲伤的消息" Kind="22" Exp="18852" Money="1335"/>
+	<Property ID="659" Name="援助托克医生" Kind="1" Exp="16715" Money="1116"/>
+	<Property ID="660" Name="采集蛇麻草" Kind="1" Exp="16715" Money="1116"/>
+	<Property ID="661" Name="治疗伤员" Kind="1" Exp="16715" Money="1116"/>
+	<Property ID="662" Name="治本之策" Kind="1" Exp="16715" Money="1116"/>
+	<Property ID="663" Name="罗恩的求救" Kind="1" Exp="16715" Money="1116"/>
+	<Property ID="664" Name="达戈菲尔抢夺者" Kind="1" Exp="16715" Money="1116"/>
+	<Property ID="665" Name="找回货物" Kind="1" Exp="16715" Money="1116"/>
+	<Property ID="666" Name="黑珍珠项链" Kind="1" Exp="16715" Money="1116"/>
+	<Property ID="667" Name="找寻项链" Kind="1" Exp="16715" Money="1116"/>
+	<Property ID="668" Name="水源危机" Kind="1" Exp="16715" Money="1116"/>
+	<Property ID="669" Name="被控制的水源" Kind="1" Exp="16715" Money="1116"/>
+	<Property ID="670" Name="解药" Kind="1" Exp="16715" Money="1116"/>
+	<Property ID="671" Name="唐金的麻烦" Kind="1" Exp="16715" Money="1116"/>
+	<Property ID="672" Name="遗失的日记" Kind="1" Exp="16715" Money="1116"/>
+	<Property ID="673" Name="疯狂者的疯狂" Kind="1" Exp="16715" Money="1116"/>
+	<Property ID="674" Name="奎因草" Kind="1" Exp="16715" Money="1116"/>
+	<Property ID="675" Name="试验的开始" Kind="1" Exp="16715" Money="1116"/>
+	<Property ID="676" Name="失败的实验" Kind="1" Exp="16715" Money="1116"/>
+	<Property ID="677" Name="收集武器" Kind="1" Exp="16715" Money="1116"/>
+	<Property ID="678" Name="烦人的垃圾" Kind="1" Exp="16715" Money="1116"/>
+	<Property ID="679" Name="运货工的麻烦" Kind="1" Exp="16715" Money="1116"/>
+	<Property ID="680" Name="博肯家的事（一）" Kind="1" Exp="16715" Money="1116"/>
+	<Property ID="681" Name="博肯家的事（二）" Kind="1" Exp="16715" Money="1116"/>
+	<Property ID="905" Name="情报分析" Kind="7" Exp="4129" Money="1862"/>
+	<Property ID="9005" Name="情报分析" Kind="7" Exp="6000" Money="60"/>
+	<Property ID="913" Name="后续行动" Kind="7" Exp="5420" Money="1245"/>
+	<Property ID="914" Name="飞越海峡" Kind="7" Exp="5420" Money="1245"/>
+	<Property ID="915" Name="血卫队长的嚣张" Kind="7" Exp="15470" Money="1873"/>
+	<Property ID="916" Name="贸易之路的畅通" Kind="7" Exp="15470" Money="1873"/>
+	<Property ID="917" Name="约翰的伤" Kind="7" Exp="13260" Money="1873"/>
+	<Property ID="918" Name="给摩萨特的口信" Kind="7" Exp="6420" Money="1245"/>
+	<Property ID="919" Name="游行商队的货物" Kind="7" Exp="15260" Money="1873"/>
+	<Property ID="920" Name="守卫营地" Kind="7" Exp="8840" Money="1245"/>
+	<Property ID="921" Name="不安之邻" Kind="7" Exp="17680" Money="1873"/>
+	<Property ID="922" Name="前行之路" Kind="7" Exp="8840" Money="1245"/>
+	<Property ID="923" Name="勇敢的人" Kind="7" Exp="15470" Money="1873"/>
+	<Property ID="924" Name="不息的亡灵" Kind="7" Exp="15473" Money="1873"/>
+	<Property ID="925" Name="巨人遗迹" Kind="7" Exp="11052" Money="1245"/>
+	<Property ID="926" Name="巨人的传说" Kind="7" Exp="4421" Money="1245"/>
+	<Property ID="927" Name="遗忘之路" Kind="7" Exp="8844" Money="1256"/>
+	<Property ID="928" Name="卡拉福德之行" Kind="7" Exp="13266" Money="1256"/>
+	<Property ID="2462" Name="收集晶石" Kind="22" Exp="28278" Money="1775"/>
+	<Property ID="2768" Name="前往奥柏古国遗迹" Kind="8" Exp="8934" Money="3469"/>
+	<Property ID="2769" Name="协助海曼" Kind="8" Exp="5013" Money="3509"/>
+	<Property ID="2463" Name="示威" Kind="22" Exp="44715" Money="1059"/>
+	<Property ID="2464" Name="猎取毛皮" Kind="22" Exp="35772" Money="1059"/>
+	<Property ID="2465" Name="遗物" Kind="22" Exp="37704" Money="1994"/>
+	<Property ID="2770" Name="伪装材料" Kind="8" Exp="16576" Money="3469"/>
+	<Property ID="2771" Name="荒原枯骨" Kind="8" Exp="22108" Money="3468"/>
+	<Property ID="2772" Name="失踪的查理斯" Kind="8" Exp="22108" Money="3567"/>
+	<Property ID="2773" Name="我们需要补给" Kind="8" Exp="22108" Money="4950"/>
+	<Property ID="2466" Name="祭奠英灵" Kind="22" Exp="18852" Money="1994"/>
+	<Property ID="318" Name="吉安妮妮的眼镜" Kind="1" Exp="16715" Money="1116" DefaultItemList="PF_YM_J_001,1;PF_YS_J_001,1"/>
+	<Property ID="319" Name="缪西娅的交易" Kind="4" Exp="9343" Money="7265" DefaultItemList="PF_YM_L_001,1;PF_YS_L_001,1"/>
+	<Property ID="320" Name="大师之路" Kind="22" Exp="18852" Money="1775" DefaultItemList="PF_YM_M_001,1;PF_YS_M_001,1"/>
+	<Property ID="321" Name="保尔的铁锤" Kind="1" Exp="16715" Money="1116" DefaultItemList="PF_WX_J_001,1;PF_YS_J_003,1"/>
+	<Property ID="322" Name="阿尔焦姆的交易" Kind="4" Exp="9343" Money="7265" DefaultItemList="PF_WX_L_001,1;PF_YS_L_003,1"/>
+	<Property ID="323" Name="大师之路" Kind="22" Exp="18852" Money="1775" DefaultItemList="PF_WX_M_001,1;PF_YS_M_003,1"/>
+	<Property ID="324" Name="塔尔博特的护手" Kind="1" Exp="16715" Money="1116" DefaultItemList="PF_DL_J_001,1;PF_YS_J_005,1"/>
+	<Property ID="325" Name="莱茵哈特的交易" Kind="4" Exp="9343" Money="7265" DefaultItemList="PF_DL_L_001,1;PF_YS_L_005,1"/>
+	<Property ID="326" Name="大师之路" Kind="22" Exp="18852" Money="1775" DefaultItemList="PF_DL_M_001,1;PF_YS_M_005,1"/>
+	<Property ID="327" Name="宝格丽的放大镜" Kind="1" Exp="16715" Money="1116" DefaultItemList="PF_NL_J_001,1;PF_YS_J_007,1"/>
+	<Property ID="328" Name="佐卡伊的交易" Kind="4" Exp="9343" Money="7265" DefaultItemList="PF_NL_L_001,1;PF_YS_L_007,1"/>
+	<Property ID="329" Name="大师之路" Kind="22" Exp="18852" Money="1775" DefaultItemList="PF_NL_M_001,1;PF_YS_M_007,1"/>
+	<Property ID="330" Name="卡尔的棍子" Kind="1" Exp="16715" Money="1116" DefaultItemList="PF_MN_J_001,1;PF_YS_J_009,1"/>
+	<Property ID="331" Name="汉斯特的交易" Kind="4" Exp="9343" Money="7265" DefaultItemList="PF_MN_L_001,1;PF_YS_L_009,1"/>
+	<Property ID="332" Name="大师之路" Kind="22" Exp="18852" Money="1775" DefaultItemList="PF_MN_M_001,1;PF_YS_M_009,1"/>
+	<Property ID="333" Name="罗斯的要求" Kind="14" Exp="16715" Money="1116" DefaultItemList="PF_YM_J_001,1;PF_YS_J_001,1"/>
+	<Property ID="334" Name="阿德拉的交易" Kind="17" Exp="9343" Money="7265" DefaultItemList="PF_YM_L_001,1;PF_YS_L_001,1"/>
+	<Property ID="335" Name="大师之路" Kind="22" Exp="18852" Money="1775" DefaultItemList="PF_YM_M_001,1;PF_YS_M_001,1"/>
+	<Property ID="336" Name="达雅的要求" Kind="14" Exp="16715" Money="1116" DefaultItemList="PF_WX_J_001,1;PF_YS_J_003,1"/>
+	<Property ID="337" Name="尼古拉的交易" Kind="17" Exp="9343" Money="7265" DefaultItemList="PF_WX_L_001,1;PF_YS_L_003,1"/>
+	<Property ID="338" Name="大师之路" Kind="22" Exp="18852" Money="1775" DefaultItemList="PF_WX_M_001,1;PF_YS_M_003,1"/>
+	<Property ID="339" Name="利卫的要求" Kind="14" Exp="16715" Money="1116" DefaultItemList="PF_DL_J_001,1;PF_YS_J_005,1"/>
+	<Property ID="340" Name="西琳妮纱的交易" Kind="17" Exp="9343" Money="7265" DefaultItemList="PF_DL_L_001,1;PF_YS_L_005,1"/>
+	<Property ID="341" Name="大师之路" Kind="22" Exp="18852" Money="1775" DefaultItemList="PF_DL_M_001,1;PF_YS_M_005,1"/>
+	<Property ID="342" Name="劳伦斯的要求" Kind="14" Exp="16715" Money="1116" DefaultItemList="PF_NL_J_001,1;PF_YS_J_007,1"/>
+	<Property ID="343" Name="卡纱丽的交易" Kind="17" Exp="9343" Money="7265" DefaultItemList="PF_NL_L_001,1;PF_YS_L_007,1"/>
+	<Property ID="344" Name="大师之路" Kind="22" Exp="18852" Money="1775" DefaultItemList="PF_NL_M_001,1;PF_YS_M_007,1"/>
+	<Property ID="345" Name="伊雷娜的要求" Kind="14" Exp="16715" Money="1116" DefaultItemList="PF_MN_J_001,1;PF_YS_J_009,1"/>
+	<Property ID="346" Name="妲尔蕾依的交易" Kind="17" Exp="9343" Money="7265" DefaultItemList="PF_MN_L_001,1;PF_YS_L_009,1"/>
+	<Property ID="347" Name="大师之路" Kind="22" Exp="18852" Money="1775" DefaultItemList="PF_MN_M_001,1;PF_YS_M_009,1"/>
+	<Property ID="682" Name="钢铁之心" Kind="1" Exp="301" Money="50" SelectItemList="Rw_Sword_0001A,1;Rw_Staff_0001A,1"/>
+	<Property ID="683" Name="猖狂的达戈菲尔" Kind="1" Exp="301" Money="30"/>
+	<Property ID="684" Name="损坏的站台" Kind="1" Exp="311" Money="60" SelectItemList="Rw_Cloth_A0001A,1;Rw_Cloth_D0001A,1"/>
+	<Property ID="685" Name="消灭拦截者" Kind="1" Exp="477" Money="60"/>
+	<Property ID="686" Name="事件引导" Kind="1" Exp="100" Money="60" HuntPoint="20"/>
+	<Property ID="687" Name="事件引导（二）" Kind="1" Exp="100" Money="60" DefaultItemList="PS_Drug_Zq_002,1"/>
+	<Property ID="705" Name="摄取药引" Kind="14" Exp="252" Money="33"/>
+	<Property ID="706" Name="搜集能量晶体" Kind="14" Exp="2670" Money="900"/>
+	<Property ID="707" Name="充能探索号" Kind="14" Exp="2731" Money="900"/>
+	<Property ID="7102" Name="能量井令牌" Kind="1" Exp="2000" Money="50" DefaultItemList="ZJ_ZQ_0003,1;ZJ_ZQ_0004,1;ZJ_ALL_0002,1" RenownList="10001,5"/>
+	<Property ID="7103" Name="第一次捐献" Kind="1" Exp="2000" Money="50" DefaultItemList="CS_ZQ_0001,5" RenownList="10001,5"/>
+	<Property ID="7104" Name="神谕之地" Kind="14" Exp="2000" Money="50" RenownList="10002,2"/>
+	<Property ID="7105" Name="神谕之地" Kind="15" Exp="2000" Money="50" RenownList="10008,2"/>
+	<Property ID="7106" Name="初识神谕之地" Kind="14" Exp="2000" Money="50" RenownList="10002,5"/>
+	<Property ID="7107" Name="能量井令牌" Kind="14" Exp="2000" Money="50" DefaultItemList="ZJ_QH_0003,1;ZJ_QH_0004,1;ZJ_ALL_0002,1" RenownList="10002,5"/>
+	<Property ID="7108" Name="第一次捐献" Kind="14" Exp="2000" Money="50" DefaultItemList="CS_001A,5" RenownList="10002,5"/>
+	<Property ID="752" Name="冒险军需官" Kind="14" Exp="0" Money="0" HuntPoint="20"/>
+	<Property ID="7109" Name="阵营的仇敌" Kind="1" Exp="26800" Money="1116" DefaultItemList="ZJ_ALL_0002,5" RenownList="10001,375"/>
+	<Property ID="7110" Name="清剿" Kind="1" Exp="26800" Money="250" DefaultItemList="ZJ_ALL_0002,4" RenownList="10001,325"/>
+	<Property ID="7111" Name="治疗伤员" Kind="1" Exp="18000" Money="200" DefaultItemList="ZJ_ZQ_0004,5" RenownList="10001,142"/>
+	<Property ID="691" Name="突破阻碍" Kind="1" Exp="511" Money="78"/>
+	<Property ID="692" Name="回来莱尔小镇" Kind="1" Exp="505" Money="78"/>
+	<Property ID="7112" Name="消灭木灵" Kind="14" Exp="10000" Money="116" DefaultItemList="ZJ_QH_0003,4" RenownList="10002,47"/>
+	<Property ID="7113" Name="红衣祭祀" Kind="14" Exp="18000" Money="200" DefaultItemList="ZJ_QH_0003,5" RenownList="10002,119"/>
+	<Property ID="7114" Name="空袭" Kind="14" Exp="26800" Money="250" DefaultItemList="ZJ_ALL_0002,4" RenownList="10002,325"/>
+	<Property ID="7115" Name="阵营的仇敌" Kind="14" Exp="26800" Money="1116" DefaultItemList="ZJ_ALL_0002,5" RenownList="10002,375"/>
+	<Property ID="708" Name="曙光的骄傲" Kind="14" Exp="297" Money="33"/>
+	<Property ID="901" Name="宿敌" Kind="7" Exp="7071" Money="1862"/>
+	<Property ID="902" Name="真相" Kind="7" Exp="10734" Money="1862"/>
+	<Property ID="903" Name="安慰的话语" Kind="7" Exp="3578" Money="1242"/>
+	<Property ID="904" Name="先锋哨站的异动" Kind="7" Exp="8285" Money="1862"/>
+	<Property ID="906" Name="银鳞祭司" Kind="7" Exp="6129" Money="1245"/>
+	<Property ID="907" Name="脱困" Kind="7" Exp="6129" Money="1873"/>
+	<Property ID="908" Name="骄傲的先锋队长" Kind="7" Exp="6193" Money="1873"/>
+	<Property ID="909" Name="被困的波默" Kind="7" Exp="4129" Money="1245"/>
+	<Property ID="999" Name="确保安全" Kind="7" Exp="6129" Money="1873"/>
+	<Property ID="910" Name="回援" Kind="7" Exp="8285" Money="1245" DefaultItemList="Crystal_A00001A,10;EnergySheild_12,1"/>
+	<Property ID="911" Name="帕克的悔悟" Kind="7" Exp="15470" Money="1873"/>
+	<Property ID="912" Name="卡尔的发现" Kind="7" Exp="15260" Money="2498"/>
+	<Property ID="4535_1" Name="巨人峡湾之行" Kind="4" Exp="20081" Money="1864"/>
+	<Property ID="693" Name="重要的情报" Kind="1" Exp="893" Money="1495"/>
+	<Property ID="690" Name="破译密信" Kind="1" Exp="100" Money="60"/>
+	<Property ID="10376" Name="前方情报" Kind="19" Exp="8286" Money="20"/>
+	<Property ID="262" Name="制作解药" Kind="15" Exp="396" Money="132"/>
+	<Property ID="263" Name="化解危机" Kind="15" Exp="301" Money="137"/>
+	<Property ID="270" Name="举手之劳" Kind="15" Exp="3250" Money="925"/>
+	<Property ID="264" Name="坐骑引导" Kind="15" Exp="422" Money="137"/>
+	<Property ID="271" Name="驱毒" Kind="15" Exp="3806" Money="925"/>
+	<Property ID="10286" Name="请求指示" Kind="26" Exp="5013" Money="2519"/>
+	<Property ID="10287" Name="前线支援" Kind="26" Exp="16950" Money="2719"/>
+	<Property ID="10288" Name="取得联系" Kind="26" Exp="16950" Money="2919"/>
+	<Property ID="10289" Name="救援伤患" Kind="26" Exp="8475" Money="2919"/>
+	<Property ID="10285" Name="前线主力军" Kind="26" Exp="9472" Money="2541"/>
+	<Property ID="10400" Name="慢腾腾的波比" Kind="3" Exp="339" Money="50"/>
+	<Property ID="10401" Name="修理" Kind="3" Exp="1182" Money="190"/>
+	<Property ID="10402" Name="回家" Kind="3" Exp="1301" Money="200"/>
+	<Property ID="10403" Name="切断补给" Kind="3" Exp="4437" Money="675"/>
+	<Property ID="10404" Name="回收补给" Kind="3" Exp="2958" Money="705"/>
+	<Property ID="10450" Name="坐骑引导" Kind="3" Exp="351" Money="69"/>
+	<Property ID="348" Name="生活职业入门（蒸汽 人类）" Kind="1" Exp="18573" Money="1239"/>
+	<Property ID="349" Name="小试身手（裁缝） " Kind="1" Exp="18573" Money="1239"/>
+	<Property ID="350" Name="小试身手（铸甲  ）" Kind="1" Exp="18573" Money="1239"/>
+	<Property ID="351" Name="小试身手（锻造）" Kind="1" Exp="18573" Money="1239"/>
+	<Property ID="352" Name="小试身手（珠宝）" Kind="1" Exp="18573" Money="1239"/>
+	<Property ID="353" Name="小试身手（炼金）" Kind="1" Exp="18573" Money="1239"/>
+	<Property ID="354" Name="生活职业入门（蒸汽矮人）" Kind="3" Exp="18573" Money="1239"/>
+	<Property ID="355" Name="小试身手（裁缝） " Kind="3" Exp="18573" Money="1239"/>
+	<Property ID="356" Name="小试身手（铸甲  ）" Kind="3" Exp="18573" Money="1239"/>
+	<Property ID="357" Name="小试身手（锻造）" Kind="3" Exp="18573" Money="1239"/>
+	<Property ID="358" Name="小试身手（珠宝）" Kind="3" Exp="18573" Money="1239"/>
+	<Property ID="359" Name="小试身手（炼金）" Kind="3" Exp="18573" Money="1239"/>
+	<Property ID="360" Name="生活职业入门（奇幻猫人）" Kind="14" Exp="18573" Money="1239"/>
+	<Property ID="361" Name="小试身手（裁缝） " Kind="14" Exp="18573" Money="1239"/>
+	<Property ID="362" Name="小试身手（铸甲  ）" Kind="14" Exp="18573" Money="1239"/>
+	<Property ID="363" Name="小试身手（锻造）" Kind="14" Exp="18573" Money="1239"/>
+	<Property ID="364" Name="小试身手（珠宝）" Kind="14" Exp="18573" Money="1239"/>
+	<Property ID="365" Name="小试身手（炼金）" Kind="14" Exp="18573" Money="1239"/>
+	<Property ID="366" Name="生活职业入门（奇幻人类）" Kind="15" Exp="18573" Money="1239"/>
+	<Property ID="367" Name="小试身手（裁缝）" Kind="15" Exp="18573" Money="1239"/>
+	<Property ID="368" Name="小试身手（铸甲  ）" Kind="15" Exp="18573" Money="1239"/>
+	<Property ID="369" Name="小试身手（锻造）" Kind="15" Exp="18573" Money="1239"/>
+	<Property ID="370" Name="小试身手（珠宝）" Kind="15" Exp="18573" Money="1239"/>
+	<Property ID="376" Name="小试身手（炼金）" Kind="15" Exp="18573" Money="1239"/>
+	<Property ID="2551" Name="冶炼厂之乱" Kind="27" Exp="52130" Money="1071"/>
+	<Property ID="2552" Name="深入调查" Kind="27" Exp="52130" Money="892"/>
+	<Property ID="2553" Name="试剂急缺" Kind="27" Exp="20852" Money="714"/>
+	<Property ID="2554" Name="结论" Kind="27" Exp="10426" Money="178"/>
+	<Property ID="2555" Name="雪地迷踪" Kind="27" Exp="20852" Money="714"/>
+	<Property ID="2556" Name="不祥阴影" Kind="27" Exp="10426" Money="178"/>
+	<Property ID="2557" Name="小径卫队长" Kind="27" Exp="42556" Money="1249"/>
+	<Property ID="2558" Name="命令传达" Kind="27" Exp="31278" Money="714"/>
+	<Property ID="2567" Name="密信之一" Kind="27" Exp="31278" Money="714"/>
+	<Property ID="2568" Name="潜入" Kind="27" Exp="42556" Money="2856"/>
+	<Property ID="2569" Name="轰炸计划" Kind="27" Exp="20852" Money="535"/>
+	<Property ID="2570" Name="回报格林奇" Kind="27" Exp="31278" Money="714" SelectItemList="Baoshi_0004A1,1;Baoshi_0004B1,1;Baoshi_0004C1,1;Baoshi_0004D1,1"/>
+	<Property ID="2571" Name="艾森赫特的威胁" Kind="27" Exp="31278" Money="714"/>
+	<Property ID="2572" Name="荒野的危机" Kind="27" Exp="42556" Money="714"/>
+	<Property ID="2573" Name="毒药紧缺" Kind="27" Exp="20426" Money="1785"/>
+	<Property ID="2574" Name="探查" Kind="27" Exp="42130" Money="714"/>
+	<Property ID="6967" Name="能量井日常" Exp="12000" Money="1000" RenownList="10007,250" DefaultItemList="mjd_004,1"/>
+	<Property ID="6968" Name="能量井日常" Exp="44220" Money="3470" RenownList="10007,250" DefaultItemList="mjd_005,1"/>
+	<Property ID="6969" Name="能量井日常" Exp="44220" Money="3470" RenownList="10007,1100" DefaultItemList="mjd_006,4"/>
+	<Property ID="6970" Name="能量井日常" Exp="44220" Money="3470" RenownList="10007,1100" DefaultItemList="mjd_005,1"/>
+	<Property ID="6971" Name="能量井日常" Exp="35780" Money="278" RenownList="10007,1100" DefaultItemList="mjd_005,1"/>
+	<Property ID="6972" Name="能量井日常" Exp="35780" Money="2780" RenownList="10007,1100" DefaultItemList="mjd_005,1"/>
+	<Property ID="6973" Name="能量井日常" Exp="109460" Money="3570" RenownList="10003,2200" DefaultItemList="mjd_001,1"/>
+	<Property ID="6974" Name="能量井日常" Exp="109460" Money="3570" RenownList="10003,2200" DefaultItemList="mjd_006,1"/>
+	<Property ID="6975" Name="能量井日常" Exp="10946" Money="3570" RenownList="10003,2200" DefaultItemList="mjd_003,1"/>
+	<Property ID="6976" Name="能量井日常" Exp="84750" Money="3520" RenownList="10003,2200" DefaultItemList="mjd_002,1"/>
+	<Property ID="6977" Name="能量井日常" Exp="84750" Money="3520" RenownList="10003,2200" DefaultItemList="mjd_002,1"/>
+	<Property ID="6978" Name="能量井日常" Exp="84750" Money="352" RenownList="10003,1100" DefaultItemList="mjd_002,1"/>
+	<Property ID="6979" Name="能量井日常" Exp="10000" Money="116" RenownList="10006,250" DefaultItemList="ZJ_ALL_0002,5"/>
+	<Property ID="6980" Name="能量井日常" Exp="44220" Money="3470" RenownList="10006,1100" DefaultItemList="mjd_006,1"/>
+	<Property ID="6981" Name="能量井日常" Exp="44220" Money="3470" RenownList="10006,1100" DefaultItemList="mjd_006,1"/>
+	<Property ID="6982" Name="能量井日常" Exp="35780" Money="2780" RenownList="10006,1100" DefaultItemList="mjd_005,1"/>
+	<Property ID="6983" Name="能量井日常" Exp="35780" Money="2780" RenownList="10006,1100" DefaultItemList="mjd_005,1"/>
+	<Property ID="6984" Name="能量井日常" Exp="35780" Money="278" RenownList="10006,1100" DefaultItemList="mjd_005,1"/>
+	<Property ID="6985" Name="能量井日常" Exp="44220" Money="3470" RenownList="10005,1100" DefaultItemList="mjd_001,1"/>
+	<Property ID="6986" Name="能量井日常" Exp="44220" Money="3470" RenownList="10005,1100" DefaultItemList="mjd_003,1"/>
+	<Property ID="6987" Name="能量井日常" Exp="44220" Money="3470" RenownList="10005,1100" DefaultItemList="mjd_003,1"/>
+	<Property ID="6988" Name="能量井日常" Exp="35780" Money="2780" RenownList="10005,1100" DefaultItemList="mjd_002,1"/>
+	<Property ID="6989" Name="能量井日常" Exp="35780" Money="2780" RenownList="10005,1100" DefaultItemList="mjd_002,1"/>
+	<Property ID="6990" Name="能量井日常" Exp="35780" Money="2780" RenownList="10005,1100" DefaultItemList="mjd_002,1"/>
+	<Property ID="6991" Name="能量井日常" Exp="44220" Money="3470" RenownList="10004,1100" DefaultItemList="mjd_001,1"/>
+	<Property ID="6992" Name="能量井日常" Exp="44220" Money="3470" RenownList="10004,1100" DefaultItemList="mjd_003,1"/>
+	<Property ID="6993" Name="能量井日常" Exp="44220" Money="3470" RenownList="10004,1100" DefaultItemList="mjd_003,1"/>
+	<Property ID="6994" Name="能量井日常" Exp="35780" Money="2780" RenownList="10004,1100" DefaultItemList="mjd_002,1"/>
+	<Property ID="6995" Name="能量井日常" Exp="35780" Money="2780" RenownList="10004,1100" DefaultItemList="mjd_002,1"/>
+	<Property ID="6996" Name="能量井日常" Exp="35780" Money="2780" RenownList="10004,1100" DefaultItemList="mjd_002,1"/>
+	<Property ID="6805" Name="流浪群岛" Kind="21" Exp="500" Money="30"/>
+	<Property ID="2559" Name="物资运输" Kind="27" Exp="20852" Money="714"/>
+	<Property ID="2560" Name="雪熊" Kind="27" Exp="20426" Money="1785"/>
+	<Property ID="2561" Name="安抚狼灵" Kind="27" Exp="42556" Money="1606"/>
+	<Property ID="2562" Name="恶意踏着风雪而来" Kind="27" Exp="52982" Money="2856"/>
+	<Property ID="2563" Name="克里兹·戴维尔" Kind="27" Exp="42556" Money="1249"/>
+	<Property ID="2564" Name="末日教徒" Kind="27" Exp="20426" Money="1785"/>
+	<Property ID="2565" Name="头疼的格林奇" Kind="27" Exp="10426" Money="178"/>
+	<Property ID="2566" Name="末日教奸细" Kind="27" Exp="52130" Money="1428"/>
+	<Property ID="2500" Name="冶炼厂之乱" Kind="27" Exp="31278" Money="773"/>
+	<Property ID="2502" Name="试剂急缺" Kind="27" Exp="20852" Money="624"/>
+	<Property ID="2503" Name="结论" Kind="27" Exp="10426" Money="178"/>
+	<Property ID="2504" Name="雪地迷踪" Kind="27" Exp="31278" Money="833"/>
+	<Property ID="2505" Name="不祥阴影" Kind="27" Exp="10426" Money="178"/>
+	<Property ID="2506" Name="晨风卫队长" Kind="27" Exp="41704" Money="1368"/>
+	<Property ID="2507" Name="命令传达" Kind="27" Exp="31278" Money="803"/>
+	<Property ID="2508" Name="物资运输" Kind="27" Exp="41704" Money="1309"/>
+	<Property ID="2509" Name="安抚狼灵" Kind="27" Exp="52130" Money="1594"/>
+	<Property ID="2511" Name="染血的密信" Kind="27" Exp="41704" Money="1231"/>
+	<Property ID="2512" Name="克里兹·戴维尔" Kind="27" Exp="10426" Money="178"/>
+	<Property ID="2513" Name="铁手" Kind="27" Exp="31278" Money="1053"/>
+	<Property ID="2514" Name="末日教奸细" Kind="27" Exp="20852" Money="333"/>
+	<Property ID="2515" Name="西部炮火" Kind="27" Exp="20852" Money="142"/>
+	<Property ID="2516" Name="潜入" Kind="27" Exp="52130" Money="1761"/>
+	<Property ID="2517" Name="轰炸计划" Kind="27" Exp="20852" Money="345" SelectItemList="Baoshi_0004A1,1;Baoshi_0004B1,1;Baoshi_0004C1,1;Baoshi_0004D1,1"/>
+	<Property ID="2518" Name="回报博尔赫" Kind="27" Exp="20852" Money="136"/>
+	<Property ID="2519" Name="格兰蒂尔的威胁" Kind="27" Exp="20852" Money="547"/>
+	<Property ID="2520" Name="荒野的危机" Kind="27" Exp="88621" Money="3034"/>
+	<Property ID="2521" Name="探查" Kind="27" Exp="20852" Money="523"/>
+	<Property ID="2522" Name="格兰蒂尔的动静" Kind="27" Exp="31278" Money="1071"/>
+	<Property ID="2523" Name="里应外合" Kind="27" Exp="31278" Money="1844"/>
+	<Property ID="2524" Name="血色双旗" Kind="27" Exp="88621" Money="3201"/>
+	<Property ID="2525" Name="回报博尔赫" Kind="27" Exp="43784" Money="1463"/>
+	<Property ID="2526" Name="南之坚壁" Kind="27" Exp="32838" Money="1071"/>
+	<Property ID="2527" Name="背誓者之影" Kind="27" Exp="10946" Money="309"/>
+	<Property ID="2528" Name="克里兹的真面目" Kind="27" Exp="10946" Money="1785"/>
+	<Property ID="2529" Name="合伙人" Kind="27" Exp="54730" Money="1785"/>
+	<Property ID="2530" Name="阿鲁卡的请求" Kind="27" Exp="10946" Money="178"/>
+	<Property ID="2531" Name="寻求合作" Kind="27" Exp="32838" Money="880"/>
+	<Property ID="2532" Name="前进，毁灭之痕。" Kind="27" Exp="21892" Money="404"/>
+	<Property ID="2533" Name="卡蕾莎的呼唤" Kind="27" Exp="21892" Money="458"/>
+	<Property ID="2534" Name="停战协定" Kind="27" Exp="10946" Money="178"/>
+	<Property ID="2535" Name="军神与南之坚壁" Kind="27" Exp="32838" Money="1071"/>
+	<Property ID="2536" Name="苍白的善意" Kind="27" Exp="10946" Money="178"/>
+	<Property ID="2537" Name="冬熊" Kind="27" Exp="20426" Money="1785"/>
+	<Property ID="2538" Name="末日教徒" Kind="27" Exp="20426" Money="1785"/>
+	<Property ID="2539" Name="毒药紧缺" Kind="27" Exp="20426" Money="1785"/>
+	<Property ID="265" Name="收养多动小浣熊" Kind="15" Exp="2040" Money="137" DefaultItemList="Pet_0016"/>
+	<Property ID="266" Name="收养碎语小浣熊" Kind="15" Exp="2040" Money="137" DefaultItemList="Pet_0015"/>
+	<Property ID="2583" Name="黑袍大主教" Kind="27" Exp="21892" Money="357"/>
+	<Property ID="2584" Name="寻求合作" Kind="27" Exp="32838" Money="714"/>
+	<Property ID="2585" Name="前进，毁灭之痕" Kind="27" Exp="10946" Money="357"/>
+	<Property ID="2586" Name="卡蕾莎的呼唤" Kind="27" Exp="21892" Money="535"/>
+	<Property ID="2587" Name="救赎与毁灭" Kind="27" Exp="10946" Money="178"/>
+	<Property ID="2588" Name="停战协议" Kind="27" Exp="21892" Money="535"/>
+	<Property ID="2589" Name="军神与南之坚壁" Kind="27" Exp="98514" Money="1071"/>
+	<Property ID="2590" Name="愤怒的斯坦德隆" Kind="27" Exp="21892" Money="178"/>
+	<Property ID="2575" Name="艾森赫特的动静" Kind="27" Exp="63408" Money="1785"/>
+	<Property ID="2576" Name="里应外合" Kind="27" Exp="52556" Money="1071"/>
+	<Property ID="2577" Name="赶尽杀绝" Kind="27" Exp="20852" Money="714"/>
+	<Property ID="2578" Name="回报格林奇" Kind="27" Exp="32838" Money="714"/>
+	<Property ID="2579" Name="阻止刺杀行动" Kind="27" Exp="87568" Money="1249"/>
+	<Property ID="2580" Name="背誓者之影" Kind="27" Exp="10946" Money="178"/>
+	<Property ID="2581" Name="克里兹的真面目" Kind="27" Exp="10946" Money="178"/>
+	<Property ID="2582" Name="合伙人" Kind="27" Exp="43784" Money="1785"/>
+	<Property ID="1054" Name="冒险军需官" Kind="15" Exp="0" Money="0" HuntPoint="20"/>
+	<Property ID="2780" Name="探清敌情" Kind="8" Exp="17692" Money="3469"/>
+	<Property ID="2781" Name="实力" Kind="8" Exp="30384" Money="3469"/>
+	<Property ID="2782" Name="断绝力量" Kind="8" Exp="13401" Money="3469"/>
+	<Property ID="2783" Name="寻找苏觅" Kind="8" Exp="8934" Money="3469"/>
+	<Property ID="2784" Name="漏网之鱼" Kind="8" Exp="23802" Money="3469"/>
+	<Property ID="2785" Name="难缠的人" Kind="8" Exp="9472" Money="3469"/>
+	<Property ID="2786" Name="清理" Kind="8" Exp="18944" Money="3469"/>
+	<Property ID="2787" Name="碍事的家伙" Kind="8" Exp="33152" Money="3469" DefaultItemList="Crystal_A00001A,10;EnergySheild_12,1"/>
+	<Property ID="6806" Name="精灵王的仆从" Kind="58" Exp="25000" Money="1750"/>
+	<Property ID="6807" Name="疯狂守护者" Kind="58" Exp="25000" Money="1750"/>
+	<Property ID="2821" Name="远古的召唤" Kind="8" Exp="25000" Money="1750"/>
+	<Property ID="199" Name="远古的召唤" Kind="18" Exp="33150" Money="1750"/>
+	<Property ID="2788" Name="开采矿石" Kind="8" Exp="9472" Money="2456"/>
+	<Property ID="2789" Name="再次行动" Kind="8" Exp="25065" Money="2456"/>
+	<Property ID="2790" Name="解决麻烦" Kind="8" Exp="35091" Money="2456"/>
+	<Property ID="2791" Name="窥探之心" Kind="8" Exp="33900" Money="2456"/>
+	<Property ID="2792" Name="密谋" Kind="8" Exp="42375" Money="2456"/>
+	<Property ID="2793" Name="强盗之患" Kind="8" Exp="59325" Money="2456"/>
+	<Property ID="2794" Name="快速抵达" Kind="8" Exp="17886" Money="2456"/>
+	<Property ID="2795" Name="乘胜追击" Kind="8" Exp="62601" Money="2456"/>
+	<Property ID="2796" Name="试探马卡诺斯" Kind="8" Exp="17886" Money="2456"/>
+	<Property ID="2448" Name="解密咒文" Kind="22" Exp="9425" Money="712" SelectItemList="Baoshi_0004A1,1;Baoshi_0004C1,1;Baoshi_0004B1,1;Baoshi_0004D1,1"/>
+	<Property ID="460" Name="救治伤员" Kind="17" Exp="7008" Money="1707"/>
+	<Property ID="461" Name="末日阴谋" Kind="17" Exp="10282" Money="2018"/>
+	<Property ID="462" Name="进军全能" Kind="17" Exp="2285" Money="2018"/>
+	<Property ID="463" Name="除去首脑" Kind="17" Exp="15995" Money="2018"/>
+	<Property ID="464" Name="鼓舞斗志" Kind="17" Exp="2286" Money="2018"/>
+	<Property ID="465" Name="绑票传闻" Kind="17" Exp="6858" Money="2018"/>
+	<Property ID="466" Name="金鳍族的感激" Kind="17" Exp="5980" Money="2018"/>
+	<Property ID="467" Name="莫萨的谋划" Kind="17" Exp="5980" Money="2018"/>
+	<Property ID="3003" Name="刺客的身份" Kind="9" Exp="4226" Money="1075"/>
+	<Property ID="3004" Name="卡拉福德荒原" Kind="9" Exp="9535" Money="1730" SelectItemList="Rw_Shoes_A5002A,1;Rw_Shoes_B5002A,1;Rw_Shoes_C5002A,1;Rw_Shoes_D5002A,1"/>
+	<Property ID="468" Name="打探情报" Kind="17" Exp="2392" Money="1211"/>
+	<Property ID="469" Name="寻找痕迹" Kind="17" Exp="4784" Money="1670"/>
+	<Property ID="470" Name="可靠的情报" Kind="17" Exp="9568" Money="1670"/>
+	<Property ID="471" Name="请求援助" Kind="17" Exp="3892" Money="1801"/>
+	<Property ID="472" Name="劝说" Kind="17" Exp="2595" Money="1801"/>
+	<Property ID="475" Name="宽恕" Kind="17" Exp="8421" Money="1801"/>
+	<Property ID="477" Name="真相浮现" Kind="17" Exp="5614" Money="1801"/>
+	<Property ID="200" Name="远古的召唤" Kind="18" Exp="23088" Money="10000"/>
+	<Property ID="2822" Name="远古的召唤" Kind="8" Exp="80000" Money="10000"/>
+	<Property ID="2447" Name="安放节流器" Kind="22" Exp="37704" Money="1780"/>
+	<Property ID="2451" Name="取风之精华" Kind="22" Exp="37125" Money="1775"/>
+	<Property ID="2467" Name="征战达贡" Kind="22" Exp="52130" Money="712"/>
+	<Property ID="459" Name="拷问" Kind="17" Exp="2286" Money="2018" SelectItemList="Rw_Sword_0003A_01,1;Rw_Claymore_00002A,1;Rw_Staff_0003A,1;Rw_Poleaxe_00002A,1"/>
+	<Property ID="6808" Name="精灵王的仆从" Kind="58" Exp="80000" Money="1750"/>
+	<Property ID="6809" Name="疯狂守护者" Kind="58" Exp="80000" Money="1750"/>
+	<Property ID="7116" Name="初识能源矿脉" Kind="4" Exp="2000" Money="50" RenownList="10009,5"/>
+	<Property ID="7117" Name="能量井令牌" Kind="3" Exp="2000" Money="50" DefaultItemList="ZJ_ZQ_0003,1;ZJ_ZQ_0004,1;ZJ_ALL_0002,1" RenownList="10009,5"/>
+	<Property ID="7118" Name="第一次捐献" Kind="3" Exp="2000" Money="50" DefaultItemList="CS_007A,5" RenownList="10009,5"/>
+	<Property ID="7119" Name="初识圣临群岛" Kind="15" Exp="2000" Money="50" RenownList="10008,5"/>
+	<Property ID="7120" Name="能量井令牌" Kind="15" Exp="2000" Money="50" DefaultItemList="ZJ_QH_0003,1;ZJ_QH_0004,1;ZJ_ALL_0002,1" RenownList="10008,5"/>
+	<Property ID="7121" Name="第一次捐献" Kind="15" Exp="2000" Money="50" DefaultItemList="CS_008A,5" RenownList="10008,5"/>
+	<Property ID="6966" Name="能量井日常" Kind="3" Exp="18570" Money="1240" RenownList="10009,250" DefaultItemList="mjd_002,1"/>
+	<Property ID="6965" Name="能量井日常" Kind="3" RenownList="10009,250" DefaultItemList="mjd_002,1" Money="1100" Exp="18570"/>
+	<Property ID="6964" Name="能量井日常" Kind="3" Money="1560" Exp="22850" RenownList="10009,250" DefaultItemList="mjd_002,1"/>
+	<Property ID="6963" Name="能量井日常" Kind="3" RenownList="10009,250" DefaultItemList="mjd_002,1" Money="1560" Exp="22850"/>
+	<Property ID="6962" Name="能量井日常" Kind="3" Exp="35780" Money="2780" DefaultItemList="mjd_002,1" RenownList="10009,1100"/>
+	<Property ID="6961" Name="能量井日常" Kind="3" RenownList="10009,1100" Exp="35780" Money="2780" DefaultItemList="mjd_002,1"/>
+	<Property ID="6960" Name="能量井日常" Kind="15" Exp="18570" Money="1240" RenownList="10008,250" DefaultItemList="mjd_005,1"/>
+	<Property ID="6959" Name="能量井日常" Kind="15" RenownList="10008,250" DefaultItemList="mjd_005,1" Money="1240" Exp="18570"/>
+	<Property ID="6958" Name="能量井日常" Kind="15" Money="1560" Exp="22850" RenownList="10008,250" DefaultItemList="mjd_005,1"/>
+	<Property ID="6957" Name="能量井日常" Kind="15" RenownList="10008,1100" DefaultItemList="mjd_005,1" Money="1560" Exp="22850"/>
+	<Property ID="6956" Name="能量井日常" Kind="15" Exp="35780" Money="2780" DefaultItemList="mjd_005,1" RenownList="10008,1100"/>
+	<Property ID="6955" Name="能量井日常" Kind="15" RenownList="10008,1100" Exp="35780" Money="2780" DefaultItemList="mjd_005,1"/>
+	<Property ID="185" Name="前往皮罗高地" Kind="18" Exp="31269" Money="2624"/>
+	<Property ID="6954" Name="能量井日常" Exp="84750" Money="3520" RenownList="10003,2200" DefaultItemList="mjd_005,1"/>
+	<Property ID="6953" Name="能量井日常" Exp="84750" Money="3520" RenownList="10003,2200" DefaultItemList="mjd_005,1"/>
+	<Property ID="6952" Name="能量井日常" Exp="84750" Money="3520" RenownList="10003,2200" DefaultItemList="mjd_005,1"/>
+	<Property ID="6951" Name="能量井日常" Exp="109460" Money="3570" RenownList="10003,2200" DefaultItemList="mjd_006,1"/>
+	<Property ID="6950" Name="能量井日常" Exp="109460" Money="3570" RenownList="10003,2200" DefaultItemList="mjd_006,1"/>
+	<Property ID="6949" Name="能量井日常" Exp="109460" Money="3570" RenownList="10003,2200" DefaultItemList="mjd_004,1"/>
+	<Property ID="703" Name="神秘水晶" Kind="14" Exp="297" Money="33"/>
+	<Property ID="704" Name="坐骑引导" Kind="14" Exp="359" Money="34"/>
+	<Property ID="700" Name="质问日炎" Kind="14" Exp="398" Money="43"/>
+	<Property ID="750" Name="激活界碑" Kind="14" Exp="404" Money="46"/>
+	<Property ID="751" Name="游览卡萨罗" Kind="14" Exp="430" Money="46"/>
+	<Property ID="761" Name="护林人营地" Kind="14" Exp="6133" Money="840"/>
+	<Property ID="762" Name="维泰格之祸" Kind="14" Exp="6412" Money="840"/>
+	<Property ID="763" Name="解决维泰格" Kind="14" Exp="7309" Money="960"/>
+	<Property ID="9050" Name="铲除实验室" Kind="4" Exp="3990" Money="1092"/>
+	<Property ID="9051" Name="无悯会的恐慌" Kind="4" Exp="4000" Money="1197"/>
+	<Property ID="9052" Name="掠食者的异常" Kind="4" Exp="4179" Money="1295"/>
+	<Property ID="9053" Name="袭击工厂" Kind="4" Exp="5187" Money="1616"/>
+	<Property ID="9054" Name="减少阻力" Kind="4" Exp="5604" Money="1752"/>
+	<Property ID="9055" Name="收复领地" Kind="4" Exp="5364" Money="1668"/>
+	<Property ID="9056" Name="追杀金鳞残兵" Kind="4" Exp="6730" Money="2100"/>
+	<Property ID="9057" Name="除掉峡湾裂角牛" Kind="7" Exp="7740" Money="2415"/>
+	<Property ID="9058" Name="收拾血卫护卫官" Kind="7" Exp="7728" Money="2415"/>
+	<Property ID="9059" Name="解救洛克兰德村" Kind="7" Exp="7728" Money="2422"/>
+	<Property ID="9060" Name="给予帮助" Kind="7" Exp="7185" Money="2255"/>
+	<Property ID="9065" Name="驱除裂岩者" Kind="22" Exp="13837" Money="2464"/>
+	<Property ID="9066" Name="阻止风灵的入侵" Kind="22" Exp="17731" Money="3000"/>
+	<Property ID="9067" Name="清除火灵" Kind="22" Exp="19080" Money="3186"/>
+	<Property ID="9068" Name="达戈菲尔营地的破坏" Kind="22" Exp="17595" Money="2840"/>
+	<Property ID="9012" Name="消灭阔苏" Kind="18" Exp="6730" Money="2100"/>
+	<Property ID="9013" Name="各个击破" Kind="18" Exp="7740" Money="2415"/>
+	<Property ID="9014" Name="乘胜追击" Kind="18" Exp="7728" Money="2415"/>
+	<Property ID="9015" Name="猎狩季" Kind="18" Exp="7728" Money="2422"/>
+	<Property ID="9016" Name="帮助" Kind="18" Exp="7185" Money="2255"/>
+	<Property ID="9017" Name="消灭守卫" Kind="26" Exp="8291" Money="2436"/>
+	<Property ID="9018" Name="疯狂的熊人" Kind="26" Exp="8370" Money="2617"/>
+	<Property ID="9019" Name="教训阔苏" Kind="26" Exp="7692" Money="2275"/>
+	<Property ID="9020" Name="消灭冻原" Kind="22" Exp="8767" Money="2457"/>
+	<Property ID="9021" Name="狂暴的火灵" Kind="22" Exp="13837" Money="2464"/>
+	<Property ID="9022" Name="强风氏族（一）" Kind="22" Exp="17731" Money="3000"/>
+	<Property ID="9023" Name="强风氏族（二）" Kind="22" Exp="19080" Money="3186"/>
+	<Property ID="9024" Name="确保" Kind="22" Exp="17595" Money="2840"/>
+	<Property ID="9025" Name="邻居“雪狼”" Kind="27" Exp="13405" Money="2492"/>
+	<Property ID="9026" Name="无处不在" Kind="27" Exp="17875" Money="2499"/>
+	<Property ID="2444" Name="轰炸退路" Kind="22" Exp="9425" Money="1765"/>
+	<Property ID="2445" Name="逃离线索" Kind="22" Exp="9425" Money="1765"/>
+	<Property ID="2446" Name="明悟者之语" Kind="22" Exp="9425" Money="1765"/>
+	<Property ID="2449" Name="护送明悟者" Kind="22" Exp="9425" Money="1765"/>
+	<Property ID="2450" Name="一无所获" Kind="22" Exp="28700" Money="1905"/>
+	<Property ID="9071" Name="讨回公道" Kind="9" Exp="3990" Money="1092"/>
+	<Property ID="9072" Name="拦截进攻" Kind="9" Exp="4000" Money="1197"/>
+	<Property ID="9073" Name="保卫远征港" Kind="9" Exp="4179" Money="1295"/>
+	<Property ID="9074" Name="净化行动" Kind="9" Exp="5187" Money="1616"/>
+	<Property ID="9075" Name="警告" Kind="9" Exp="5604" Money="1752"/>
+	<Property ID="9076" Name="清理道路" Kind="9" Exp="5364" Money="1668"/>
+	<Property ID="9077" Name="生态秩序" Kind="9" Exp="6730" Money="2100"/>
+	<Property ID="9061" Name="揭穿阴谋" Kind="8" Exp="8291" Money="2436"/>
+	<Property ID="9062" Name="前进" Kind="8" Exp="8370" Money="2617"/>
+	<Property ID="9063" Name="揭穿阴谋(二)" Kind="8" Exp="7692" Money="2275"/>
+	<Property ID="9064" Name="悲剧的仪式" Kind="8" Exp="8767" Money="2457"/>
+	<Property ID="9069" Name="雪狼隐患" Kind="27" Exp="13405" Money="2492"/>
+	<Property ID="9070" Name="清理残余" Kind="27" Exp="17875" Money="2499"/>
+	<Property ID="9000" Name="末日清理" Kind="17" Exp="3990" Money="1092"/>
+	<Property ID="9001" Name="教训阔苏" Kind="17" Exp="4000" Money="1197"/>
+	<Property ID="9002" Name="知难而退" Kind="17" Exp="4179" Money="1295"/>
+	<Property ID="9003" Name="消灭迪多拉" Kind="17" Exp="5187" Money="1616"/>
+	<Property ID="9004" Name="再次消灭" Kind="17" Exp="5604" Money="1752"/>
+	<Property ID="9078" Name="镇压" Kind="17" Exp="5364" Money="1668"/>
+	<Property ID="9006" Name="解决祭司" Kind="19" Exp="3990" Money="1092"/>
+	<Property ID="9007" Name="终结狂热者" Kind="19" Exp="4000" Money="1197"/>
+	<Property ID="9008" Name="烦人的东西" Kind="19" Exp="4179" Money="1295"/>
+	<Property ID="9009" Name="增强实力" Kind="19" Exp="5187" Money="1616"/>
+	<Property ID="9010" Name="收复渡口" Kind="19" Exp="5604" Money="1752"/>
+	<Property ID="9011" Name="阻止" Kind="19" Exp="5364" Money="1668"/>
+	<Property ID="5021" Name="战场报道" Kind="58" Exp="340" Money="21"/>
+	<Property ID="5022" Name="飞艇事故" Kind="58" Exp="3400" Money="215"/>
+	<Property ID="5023" Name="我是个修理工" Kind="58" Exp="680" Money="43"/>
+	<Property ID="5024" Name="来吧！战斗！" Kind="58" Exp="1020" Money="64"/>
+	<Property ID="5025" Name="战争载具" Kind="58" Exp="1152" Money="69"/>
+	<Property ID="5026" Name="出发吧！" Kind="58" Exp="3456" Money="207"/>
+	<Property ID="5027" Name="开始吧！" Kind="58" Exp="5760" Money="345"/>
+	<Property ID="5028" Name="凯旋而归" Kind="58" Exp="4608" Money="276"/>
+	<Property ID="5029" Name="载具改造师" Kind="58" Exp="2283" Money="153"/>
+	<Property ID="5030" Name="载具改造" Kind="58" Exp="2283" Money="153"/>
+	<Property ID="5031" Name="火线前行" Kind="58" Exp="9132" Money="612"/>
+	<Property ID="5032" Name="狙击" Kind="58" Exp="11415" Money="765"/>
+	<Property ID="5033" Name="山崖报道" Kind="58" Exp="7785" Money="606"/>
+	<Property ID="5034" Name="飞行体验" Kind="58" Exp="2595" Money="202"/>
+	<Property ID="5035" Name="侦察敌情" Kind="58" Exp="10380" Money="808"/>
+	<Property ID="5036" Name="焰火" Kind="58" Exp="10380" Money="808"/>
+	<Property ID="5037" Name="启程" Kind="58" Exp="13260" Money="1035"/>
+	<Property ID="5038" Name="占领血牙山" Kind="58" Exp="22100" Money="1725"/>
+	<Property ID="5039" Name="最后的改造" Kind="58" Exp="4420" Money="345"/>
+	<Property ID="5040" Name="授勋" Kind="58" Exp="2210" Money="172"/>
+	<Property ID="5001" Name="战场报道" Kind="58" Exp="340" Money="21"/>
+	<Property ID="5002" Name="飞艇事故" Kind="58" Exp="3400" Money="215"/>
+	<Property ID="5003" Name="我是个修理工" Kind="58" Exp="680" Money="43"/>
+	<Property ID="5004" Name="来吧！战斗！" Kind="58" Exp="1020" Money="64"/>
+	<Property ID="5005" Name="战争载具" Kind="58" Exp="1152" Money="69"/>
+	<Property ID="5006" Name="出发吧！" Kind="58" Exp="3456" Money="207"/>
+	<Property ID="5007" Name="开始吧！" Kind="58" Exp="5760" Money="345"/>
+	<Property ID="5008" Name="凯旋而归" Kind="58" Exp="4608" Money="276"/>
+	<Property ID="5009" Name="载具改造师" Kind="58" Exp="2283" Money="153"/>
+	<Property ID="5010" Name="载具改造" Kind="58" Exp="2283" Money="153"/>
+	<Property ID="5011" Name="火线前行" Kind="58" Exp="9132" Money="612"/>
+	<Property ID="5012" Name="狙击" Kind="58" Exp="11415" Money="765"/>
+	<Property ID="5013" Name="山崖报道" Kind="58" Exp="7785" Money="606"/>
+	<Property ID="5014" Name="飞行体验" Kind="58" Exp="2595" Money="202"/>
+	<Property ID="5015" Name="侦察敌情" Kind="58" Exp="10308" Money="808"/>
+	<Property ID="5016" Name="焰火" Kind="58" Exp="10308" Money="808"/>
+	<Property ID="5017" Name="启程" Kind="58" Exp="13260" Money="1035"/>
+	<Property ID="5018" Name="占领血牙山" Kind="58" Exp="22100" Money="1725"/>
+	<Property ID="5019" Name="最后的改造" Kind="58" Exp="4420" Money="345"/>
+	<Property ID="5020" Name="授勋" Kind="58" Exp="2210" Money="172"/>
+	<Property ID="689" Name="坐骑引导" Kind="1" Exp="368" Money="60"/>
+	<Property ID="2499" Name="征战达贡" Kind="22" Exp="62556" Money="712"/>
+	<Property ID="10375" Name="汇报指挥官" Kind="19" Exp="6143" Money="183"/>
+</Object>
+
+

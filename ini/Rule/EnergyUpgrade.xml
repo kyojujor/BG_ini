@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes"?>
+<!-- edited with XMLSpy v2010 (http://www.altova.com) by wangshuai (MiZE) -->
+<!-- 被2011 rel. 2 sp1 (TeaM DJiNN) 使用XMLSpy vTeaM DJiNN编辑的 (http://www.altova.com) by -->
+<Object>
+	<!--	ID	经验等级（1-100）
+				UpgradeExp	当前等级的经验值上限
+				proAdd	属性增长百分比
+				Cost	普通改造消耗金钱
+				Exp	普通改造的基础经验值A
+				Crit	普通改造爆击率a
+				CritMul	普通改造爆击倍率R1
+				PerfectCost	完美改造消耗金钱
+				PerfectExp	完美改造的基础经验值B
+				PerfectCrit	完美改造爆击率b
+				PerfectCritMul	完美改造爆击倍率R2
+				SpecialCrit	完美改造直接提升等级的几率C
+	-->
+	<Property ID="0" EnergyMaxLevel="50"/>
+	<Property ID="1" UpgradeExp="112" proAdd="0.01" Cost="50000" Exp="56" Crit="0.02" CritMul="2" PerfectCost="25" PerfectExp="100" PerfectCrit="0.5" PerfectCritMul="2" SpecialCrit="0.02" Item="NYFJ_001" ItemNum="5" PerfectItem="NYFJ_001" PerfectItemNum="5"/>
+	<Property ID="2" UpgradeExp="224" proAdd="0.01" Cost="50000" Exp="56" Crit="0.02" CritMul="2" PerfectCost="25" PerfectExp="100" PerfectCrit="0.5" PerfectCritMul="2" SpecialCrit="0.02" Item="NYFJ_001" ItemNum="5" PerfectItem="NYFJ_001" PerfectItemNum="5"/>
+	<Property ID="3" UpgradeExp="336" proAdd="0.01" Cost="50000" Exp="56" Crit="0.02" CritMul="2" PerfectCost="25" PerfectExp="100" PerfectCrit="0.5" PerfectCritMul="2" SpecialCrit="0.02" Item="NYFJ_001" ItemNum="5" PerfectItem="NYFJ_001" PerfectItemNum="5"/>
+	<Property ID="4" UpgradeExp="448" proAdd="0.01" Cost="50000" Exp="56" Crit="0.02" CritMul="2" PerfectCost="25" PerfectExp="100" PerfectCrit="0.5" PerfectCritMul="2" SpecialCrit="0.02" Item="NYFJ_001" ItemNum="5" PerfectItem="NYFJ_001" PerfectItemNum="5"/>
+	<Property ID="5" UpgradeExp="560" proAdd="0.01" Cost="50000" Exp="56" Crit="0.02" CritMul="2" PerfectCost="25" PerfectExp="100" PerfectCrit="0.5" PerfectCritMul="2" SpecialCrit="0.02" Item="NYFJ_001" ItemNum="5" PerfectItem="NYFJ_001" PerfectItemNum="5"/>
+	<Property ID="6" UpgradeExp="672" proAdd="0.01" Cost="50000" Exp="56" Crit="0.02" CritMul="2" PerfectCost="25" PerfectExp="100" PerfectCrit="0.5" PerfectCritMul="2" SpecialCrit="0.02" Item="NYFJ_001" ItemNum="5" PerfectItem="NYFJ_001" PerfectItemNum="5"/>
+	<Property ID="7" UpgradeExp="784" proAdd="0.01" Cost="50000" Exp="56" Crit="0.02" CritMul="2" PerfectCost="25" PerfectExp="100" PerfectCrit="0.5" PerfectCritMul="2" SpecialCrit="0.02" Item="NYFJ_001" ItemNum="5" PerfectItem="NYFJ_001" PerfectItemNum="5"/>
+	<Property ID="8" UpgradeExp="896" proAdd="0.01" Cost="50000" Exp="56" Crit="0.02" CritMul="2" PerfectCost="25" PerfectExp="100" PerfectCrit="0.5" PerfectCritMul="2" SpecialCrit="0.02" Item="NYFJ_001" ItemNum="5" PerfectItem="NYFJ_001" PerfectItemNum="5"/>
+	<Property ID="9" UpgradeExp="1008" proAdd="0.01" Cost="50000" Exp="56" Crit="0.02" CritMul="2" PerfectCost="25" PerfectExp="100" PerfectCrit="0.5" PerfectCritMul="2" SpecialCrit="0.02" Item="NYFJ_001" ItemNum="5" PerfectItem="NYFJ_001" PerfectItemNum="5"/>
+	<Property ID="10" UpgradeExp="1120" proAdd="0.01" Cost="50000" Exp="56" Crit="0.02" CritMul="2" PerfectCost="25" PerfectExp="100" PerfectCrit="0.5" PerfectCritMul="2" SpecialCrit="0.02" Item="NYFJ_001" ItemNum="5" PerfectItem="NYFJ_001" PerfectItemNum="5"/>
+	<Property ID="11" UpgradeExp="1568" proAdd="0.015" Cost="50000" Exp="56" Crit="0.02" CritMul="2" PerfectCost="25" PerfectExp="100" PerfectCrit="0.5" PerfectCritMul="2" SpecialCrit="0.02" Item="NYFJ_001" ItemNum="20" PerfectItem="NYFJ_001" PerfectItemNum="20"/>
+	<Property ID="12" UpgradeExp="2016" proAdd="0.015" Cost="50000" Exp="56" Crit="0.02" CritMul="2" PerfectCost="25" PerfectExp="100" PerfectCrit="0.5" PerfectCritMul="2" SpecialCrit="0.02" Item="NYFJ_001" ItemNum="20" PerfectItem="NYFJ_001" PerfectItemNum="20"/>
+	<Property ID="13" UpgradeExp="2464" proAdd="0.015" Cost="50000" Exp="56" Crit="0.02" CritMul="2" PerfectCost="25" PerfectExp="100" PerfectCrit="0.5" PerfectCritMul="2" SpecialCrit="0.02" Item="NYFJ_001" ItemNum="20" PerfectItem="NYFJ_001" PerfectItemNum="20"/>
+	<Property ID="14" UpgradeExp="2912" proAdd="0.015" Cost="50000" Exp="56" Crit="0.02" CritMul="2" PerfectCost="25" PerfectExp="100" PerfectCrit="0.5" PerfectCritMul="2" SpecialCrit="0.02" Item="NYFJ_001" ItemNum="20" PerfectItem="NYFJ_001" PerfectItemNum="20"/>
+	<Property ID="15" UpgradeExp="3360" proAdd="0.015" Cost="50000" Exp="56" Crit="0.02" CritMul="2" PerfectCost="25" PerfectExp="100" PerfectCrit="0.5" PerfectCritMul="2" SpecialCrit="0.02" Item="NYFJ_001" ItemNum="20" PerfectItem="NYFJ_001" PerfectItemNum="20"/>
+	<Property ID="16" UpgradeExp="3808" proAdd="0.015" Cost="50000" Exp="56" Crit="0.02" CritMul="2" PerfectCost="25" PerfectExp="100" PerfectCrit="0.5" PerfectCritMul="2" SpecialCrit="0.02" Item="NYFJ_001" ItemNum="20" PerfectItem="NYFJ_001" PerfectItemNum="20"/>
+	<Property ID="17" UpgradeExp="4256" proAdd="0.015" Cost="50000" Exp="56" Crit="0.02" CritMul="2" PerfectCost="25" PerfectExp="100" PerfectCrit="0.5" PerfectCritMul="2" SpecialCrit="0.02" Item="NYFJ_001" ItemNum="20" PerfectItem="NYFJ_001" PerfectItemNum="20"/>
+	<Property ID="18" UpgradeExp="4704" proAdd="0.015" Cost="50000" Exp="56" Crit="0.02" CritMul="2" PerfectCost="25" PerfectExp="100" PerfectCrit="0.5" PerfectCritMul="2" SpecialCrit="0.02" Item="NYFJ_001" ItemNum="20" PerfectItem="NYFJ_001" PerfectItemNum="20"/>
+	<Property ID="19" UpgradeExp="5152" proAdd="0.015" Cost="50000" Exp="56" Crit="0.02" CritMul="2" PerfectCost="25" PerfectExp="100" PerfectCrit="0.5" PerfectCritMul="2" SpecialCrit="0.02" Item="NYFJ_001" ItemNum="20" PerfectItem="NYFJ_001" PerfectItemNum="20"/>
+	<Property ID="20" UpgradeExp="5600" proAdd="0.015" Cost="50000" Exp="56" Crit="0.02" CritMul="2" PerfectCost="25" PerfectExp="100" PerfectCrit="0.5" PerfectCritMul="2" SpecialCrit="0.02" Item="NYFJ_001" ItemNum="20" PerfectItem="NYFJ_001" PerfectItemNum="20"/>
+	<Property ID="21" UpgradeExp="6944" proAdd="0.02" Cost="50000" Exp="56" Crit="0.02" CritMul="2" PerfectCost="25" PerfectExp="100" PerfectCrit="0.5" PerfectCritMul="2" SpecialCrit="0.02" Item="NYFJ_001" ItemNum="45" PerfectItem="NYFJ_001" PerfectItemNum="45"/>
+	<Property ID="22" UpgradeExp="8288" proAdd="0.02" Cost="50000" Exp="56" Crit="0.02" CritMul="2" PerfectCost="25" PerfectExp="100" PerfectCrit="0.5" PerfectCritMul="2" SpecialCrit="0.02" Item="NYFJ_001" ItemNum="45" PerfectItem="NYFJ_001" PerfectItemNum="45"/>
+	<Property ID="23" UpgradeExp="9632" proAdd="0.02" Cost="50000" Exp="56" Crit="0.02" CritMul="2" PerfectCost="25" PerfectExp="100" PerfectCrit="0.5" PerfectCritMul="2" SpecialCrit="0.02" Item="NYFJ_001" ItemNum="45" PerfectItem="NYFJ_001" PerfectItemNum="45"/>
+	<Property ID="24" UpgradeExp="10976" proAdd="0.02" Cost="50000" Exp="56" Crit="0.02" CritMul="2" PerfectCost="25" PerfectExp="100" PerfectCrit="0.5" PerfectCritMul="2" SpecialCrit="0.02" Item="NYFJ_001" ItemNum="45" PerfectItem="NYFJ_001" PerfectItemNum="45"/>
+	<Property ID="25" UpgradeExp="12320" proAdd="0.02" Cost="50000" Exp="56" Crit="0.02" CritMul="2" PerfectCost="25" PerfectExp="100" PerfectCrit="0.5" PerfectCritMul="2" SpecialCrit="0.02" Item="NYFJ_001" ItemNum="45" PerfectItem="NYFJ_001" PerfectItemNum="45"/>
+	<Property ID="26" UpgradeExp="13664" proAdd="0.02" Cost="50000" Exp="56" Crit="0.02" CritMul="2" PerfectCost="25" PerfectExp="100" PerfectCrit="0.5" PerfectCritMul="2" SpecialCrit="0.02" Item="NYFJ_001" ItemNum="45" PerfectItem="NYFJ_001" PerfectItemNum="45"/>
+	<Property ID="27" UpgradeExp="15008" proAdd="0.02" Cost="50000" Exp="56" Crit="0.02" CritMul="2" PerfectCost="25" PerfectExp="100" PerfectCrit="0.5" PerfectCritMul="2" SpecialCrit="0.02" Item="NYFJ_001" ItemNum="45" PerfectItem="NYFJ_001" PerfectItemNum="45"/>
+	<Property ID="28" UpgradeExp="16352" proAdd="0.02" Cost="50000" Exp="56" Crit="0.02" CritMul="2" PerfectCost="25" PerfectExp="100" PerfectCrit="0.5" PerfectCritMul="2" SpecialCrit="0.02" Item="NYFJ_001" ItemNum="45" PerfectItem="NYFJ_001" PerfectItemNum="45"/>
+	<Property ID="29" UpgradeExp="17696" proAdd="0.02" Cost="50000" Exp="56" Crit="0.02" CritMul="2" PerfectCost="25" PerfectExp="100" PerfectCrit="0.5" PerfectCritMul="2" SpecialCrit="0.02" Item="NYFJ_001" ItemNum="45" PerfectItem="NYFJ_001" PerfectItemNum="45"/>
+	<Property ID="30" UpgradeExp="19040" proAdd="0.02" Cost="50000" Exp="56" Crit="0.02" CritMul="2" PerfectCost="25" PerfectExp="100" PerfectCrit="0.5" PerfectCritMul="2" SpecialCrit="0.02" Item="NYFJ_001" ItemNum="45" PerfectItem="NYFJ_001" PerfectItemNum="45"/>
+	<Property ID="31" UpgradeExp="21560" proAdd="0.03" Cost="50000" Exp="56" Crit="0.02" CritMul="2" PerfectCost="25" PerfectExp="100" PerfectCrit="0.5" PerfectCritMul="2" SpecialCrit="0.02" Item="NYFJ_001" ItemNum="80" PerfectItem="NYFJ_001" PerfectItemNum="80"/>
+	<Property ID="32" UpgradeExp="24080" proAdd="0.03" Cost="50000" Exp="56" Crit="0.02" CritMul="2" PerfectCost="25" PerfectExp="100" PerfectCrit="0.5" PerfectCritMul="2" SpecialCrit="0.02" Item="NYFJ_001" ItemNum="80" PerfectItem="NYFJ_001" PerfectItemNum="80"/>
+	<Property ID="33" UpgradeExp="26600" proAdd="0.03" Cost="50000" Exp="56" Crit="0.02" CritMul="2" PerfectCost="25" PerfectExp="100" PerfectCrit="0.5" PerfectCritMul="2" SpecialCrit="0.02" Item="NYFJ_001" ItemNum="80" PerfectItem="NYFJ_001" PerfectItemNum="80"/>
+	<Property ID="34" UpgradeExp="29120" proAdd="0.03" Cost="50000" Exp="56" Crit="0.02" CritMul="2" PerfectCost="25" PerfectExp="100" PerfectCrit="0.5" PerfectCritMul="2" SpecialCrit="0.02" Item="NYFJ_001" ItemNum="80" PerfectItem="NYFJ_001" PerfectItemNum="80"/>
+	<Property ID="35" UpgradeExp="31640" proAdd="0.03" Cost="50000" Exp="56" Crit="0.02" CritMul="2" PerfectCost="25" PerfectExp="100" PerfectCrit="0.5" PerfectCritMul="2" SpecialCrit="0.02" Item="NYFJ_001" ItemNum="80" PerfectItem="NYFJ_001" PerfectItemNum="80"/>
+	<Property ID="36" UpgradeExp="34160" proAdd="0.03" Cost="50000" Exp="56" Crit="0.02" CritMul="2" PerfectCost="25" PerfectExp="100" PerfectCrit="0.5" PerfectCritMul="2" SpecialCrit="0.02" Item="NYFJ_001" ItemNum="80" PerfectItem="NYFJ_001" PerfectItemNum="80"/>
+	<Property ID="37" UpgradeExp="36680" proAdd="0.03" Cost="50000" Exp="56" Crit="0.02" CritMul="2" PerfectCost="25" PerfectExp="100" PerfectCrit="0.5" PerfectCritMul="2" SpecialCrit="0.02" Item="NYFJ_001" ItemNum="80" PerfectItem="NYFJ_001" PerfectItemNum="80"/>
+	<Property ID="38" UpgradeExp="39200" proAdd="0.03" Cost="50000" Exp="56" Crit="0.02" CritMul="2" PerfectCost="25" PerfectExp="100" PerfectCrit="0.5" PerfectCritMul="2" SpecialCrit="0.02" Item="NYFJ_001" ItemNum="80" PerfectItem="NYFJ_001" PerfectItemNum="80"/>
+	<Property ID="39" UpgradeExp="41720" proAdd="0.03" Cost="50000" Exp="56" Crit="0.02" CritMul="2" PerfectCost="25" PerfectExp="100" PerfectCrit="0.5" PerfectCritMul="2" SpecialCrit="0.02" Item="NYFJ_001" ItemNum="80" PerfectItem="NYFJ_001" PerfectItemNum="80"/>
+	<Property ID="40" UpgradeExp="44240" proAdd="0.03" Cost="50000" Exp="56" Crit="0.02" CritMul="2" PerfectCost="25" PerfectExp="100" PerfectCrit="0.5" PerfectCritMul="2" SpecialCrit="0.02" Item="NYFJ_001" ItemNum="80" PerfectItem="NYFJ_001" PerfectItemNum="80"/>
+	<Property ID="41" UpgradeExp="48440" proAdd="0.04" Cost="50000" Exp="56" Crit="0.02" CritMul="2" PerfectCost="25" PerfectExp="100" PerfectCrit="0.5" PerfectCritMul="2" SpecialCrit="0.02" Item="NYFJ_001" ItemNum="125" PerfectItem="NYFJ_001" PerfectItemNum="125"/>
+	<Property ID="42" UpgradeExp="52640" proAdd="0.04" Cost="50000" Exp="56" Crit="0.02" CritMul="2" PerfectCost="25" PerfectExp="100" PerfectCrit="0.5" PerfectCritMul="2" SpecialCrit="0.02" Item="NYFJ_001" ItemNum="125" PerfectItem="NYFJ_001" PerfectItemNum="125"/>
+	<Property ID="43" UpgradeExp="56840" proAdd="0.04" Cost="50000" Exp="56" Crit="0.02" CritMul="2" PerfectCost="25" PerfectExp="100" PerfectCrit="0.5" PerfectCritMul="2" SpecialCrit="0.02" Item="NYFJ_001" ItemNum="125" PerfectItem="NYFJ_001" PerfectItemNum="125"/>
+	<Property ID="44" UpgradeExp="61040" proAdd="0.04" Cost="50000" Exp="56" Crit="0.02" CritMul="2" PerfectCost="25" PerfectExp="100" PerfectCrit="0.5" PerfectCritMul="2" SpecialCrit="0.02" Item="NYFJ_001" ItemNum="125" PerfectItem="NYFJ_001" PerfectItemNum="125"/>
+	<Property ID="45" UpgradeExp="65240" proAdd="0.04" Cost="50000" Exp="56" Crit="0.02" CritMul="2" PerfectCost="25" PerfectExp="100" PerfectCrit="0.5" PerfectCritMul="2" SpecialCrit="0.02" Item="NYFJ_001" ItemNum="125" PerfectItem="NYFJ_001" PerfectItemNum="125"/>
+	<Property ID="46" UpgradeExp="69440" proAdd="0.04" Cost="50000" Exp="56" Crit="0.02" CritMul="2" PerfectCost="25" PerfectExp="100" PerfectCrit="0.5" PerfectCritMul="2" SpecialCrit="0.02" Item="NYFJ_001" ItemNum="125" PerfectItem="NYFJ_001" PerfectItemNum="125"/>
+	<Property ID="47" UpgradeExp="73640" proAdd="0.04" Cost="50000" Exp="56" Crit="0.02" CritMul="2" PerfectCost="25" PerfectExp="100" PerfectCrit="0.5" PerfectCritMul="2" SpecialCrit="0.02" Item="NYFJ_001" ItemNum="125" PerfectItem="NYFJ_001" PerfectItemNum="125"/>
+	<Property ID="48" UpgradeExp="77840" proAdd="0.04" Cost="50000" Exp="56" Crit="0.02" CritMul="2" PerfectCost="25" PerfectExp="100" PerfectCrit="0.5" PerfectCritMul="2" SpecialCrit="0.02" Item="NYFJ_001" ItemNum="125" PerfectItem="NYFJ_001" PerfectItemNum="125"/>
+	<Property ID="49" UpgradeExp="82040" proAdd="0.04" Cost="50000" Exp="56" Crit="0.02" CritMul="2" PerfectCost="25" PerfectExp="100" PerfectCrit="0.5" PerfectCritMul="2" SpecialCrit="0.02" Item="NYFJ_001" ItemNum="125" PerfectItem="NYFJ_001" PerfectItemNum="125"/>
+	<Property ID="50" UpgradeExp="86240" proAdd="0.04" Cost="50000" Exp="56" Crit="0.02" CritMul="2" PerfectCost="25" PerfectExp="100" PerfectCrit="0.5" PerfectCritMul="2" SpecialCrit="0.02" Item="NYFJ_001" ItemNum="125" PerfectItem="NYFJ_001" PerfectItemNum="125"/>
+</Object>

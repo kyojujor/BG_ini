@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+	<!--ArenaType      竞技场类型,(1-1vs1,2-2vs2,...)-->
+	<!--ArenaSize      竞技场模式,(1-个人模式,2-战队模式)-->
+	<!--ArenaName      竞技场名称-->
+	<!--SceneID      竞技场场景原型号-->
+	<!--ATeamPos     A队起始位置(x,y,z坐标及面向)-->
+	<!--BTeamPos     B队起始位置(x,y,z坐标及面向)-->
+	<!--BeginTime    竞技场开放开始时间 -->
+	<!--EndTime      竞技场开放结束时间 -->
+	<!--BeginCountDown      开始倒计时 -->
+	<!--EndCountDown        结束倒计时 -->
+	<!--WaitTime        进入竞技场后安全等待时间，单位为秒 -->
+	<!--ReliveTime        复活后的无敌时间，单位为秒 -->
+	<!--TimeLimit        竞技场战斗时间限制，单位为秒 -->
+	<!--JoinLevel        竞技场开放所需的玩家等级 -->
+	<!--RewardID				 竞技场奖励id-->
+	<Property ID="0" ArenaName = "desc_arena_name" ArenaType = "1" ArenaSize="1" SceneID="203"  ATeamPos="1152.636,10.921,1982.775,-0.049" BTeamPos ="1152.244,10.921,2116.913,3.114" BeginTime = "00:00" EndTime = "24:00"  BeginCountDown = "10" EndCountDown = "30" WaitTime = "45" ReliveTime = "5" TimeLimit = "1200" JoinLevel = "20-40" RewardID = "11" PicPath = "gui\\ZQ\\war\\1_1v1.png"/>
+	<Property ID="1" ArenaName = "desc_arena_name2" ArenaType = "3" ArenaSize="1,2" SceneID="203"  ATeamPos="1152.636,10.921,1982.775,-0.049" BTeamPos ="1152.244,10.921,2116.913,3.114" BeginTime = "00:00" EndTime = "24:00"  BeginCountDown = "10" EndCountDown = "30" WaitTime = "45" ReliveTime = "5" TimeLimit = "1200" JoinLevel = "20-40" RewardID = "22" PicPath = "gui\\ZQ\\war\\1_3v3.png"/>
+</Object>

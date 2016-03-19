@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="gb2312"?>
+
+<!--ID：参数的ID -->
+<!--NOTIFYTYPE:  通告类型 
+-- 0 是屏幕中间与左侧均显示 
+-- 1 只是左侧显示 
+-- 5 为只在屏幕中间显示 
+-- 6 播放特效使用
+-- 7 通告子类型（在聊天框和屏幕中央显示）
+-- 8 通告子类型（在左侧通告栏和屏幕中央显示）
+-->
+<!--FLICK: 闪烁 0 不闪烁 1 闪烁 -->
+<!--ROLLNUM: 滚动次数 1-4 -->
+<!--ROLLSPEED：滚动速度 1-3 -->
+<Object>
+<Property ID = "1"  NOTIFYTYPE = "7"  FLICK = "0" ROLLNUM = "1" ROLLSPEED = "2"  />
+<Property ID = "2"  NOTIFYTYPE = "7"  FLICK = "0" ROLLNUM = "2" ROLLSPEED = "2"  />
+<Property ID = "3"  NOTIFYTYPE = "7"  FLICK = "0" ROLLNUM = "3" ROLLSPEED = "2"  />
+<Property ID = "4"  NOTIFYTYPE = "7"  FLICK = "0" ROLLNUM = "1" ROLLSPEED = "2"  />
+<Property ID = "5"  NOTIFYTYPE = "7"  FLICK = "1" ROLLNUM = "2" ROLLSPEED = "2"  />
+<Property ID = "6"  NOTIFYTYPE = "7"  FLICK = "1" ROLLNUM = "3" ROLLSPEED = "2"  />
+<Property ID = "7"  NOTIFYTYPE = "7"  FLICK = "0" ROLLNUM = "1" ROLLSPEED = "2"  />
+<Property ID = "8"  NOTIFYTYPE = "7"  FLICK = "0" ROLLNUM = "0" ROLLSPEED = "0"  />
+<Property ID = "9"  NOTIFYTYPE = "7"  FLICK = "0" ROLLNUM = "0" ROLLSPEED = "0"  />
+<Property ID = "10"  NOTIFYTYPE = "23"  FLICK = "0" ROLLNUM = "0" ROLLSPEED = "0" NPCINI = "npc\\job_3022" />
+<Property ID = "11"  NOTIFYTYPE = "23"  FLICK = "0" ROLLNUM = "0" ROLLSPEED = "0" NPCINI = "npc\\npc_PeoF_040504XX" />
+<Property ID = "12"  NOTIFYTYPE = "7"  FLICK = "0" ROLLNUM = "1" ROLLSPEED = "2"  />
+<Property ID = "13"  NOTIFYTYPE = "7"  FLICK = "0" ROLLNUM = "0" ROLLSPEED = "2"  />
+<Property ID = "14"  NOTIFYTYPE = "7"  FLICK = "0" ROLLNUM = "1" ROLLSPEED = "2"  />
+<Property ID = "15"  NOTIFYTYPE = "8"  FLICK = "0" ROLLNUM = "1" ROLLSPEED = "2"  />
+<Property ID = "16"  NOTIFYTYPE = "0"  FLICK = "0" ROLLNUM = "1" ROLLSPEED = "2"  />
+<Property ID = "17"  NOTIFYTYPE = "1"  FLICK = "0" ROLLNUM = "1" ROLLSPEED = "2"  />
+</Object>

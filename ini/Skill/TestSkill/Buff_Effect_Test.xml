@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+	<Property ID="10062" Name="测试Buff_Effect" TargetType="0" FuncNo="6" NPCCreateCount="1" NPCLifeTime="500000" NPCTargetPosType="0" NPCCreatePosType="1" NPCRandomRadius="5"/>
+	<Property ID="10066" Name="测试Buff_Effect" EventType="8" TargetType="0" FuncNo="18" UseSkillID="test270_Buff01_01"/>
+	<Property ID="20667" EventType="1" TargetType="2" FuncNo="842" Condition="20667"/>
+	<Property ID="20674" Name="攻击附加伤害" EventType="19" TargetType="1" FuncNo="1" BuffID="Buffer_testfire"/>
+	<Property ID="20675" Name="受击附加伤害" EventType="18" TargetType="3" FuncNo="806" BeAttackDamageRatio="50" BeAttackDamageType="1"/>
+	<Property ID="20676" Name="受击回复" EventType="1" TargetType="2" FuncNo="842" ResumeRatio="50" ResumeType="0"/>
+	<Property ID="20677" Name="受击免疫" EventType="1" TargetType="2" FuncNo="844" ImmunityDamageType="1" ImmunityValue="50" IsPercent="1"/>
+	<Property ID="20678" Name="受击吸收" EventType="1" TargetType="2" FuncNo="828" AbsorbDamageType="1" AbsorbValue="20" CountType="1"/>
+	<Property ID="20679" Name="分担伤害" EventType="18" TargetType="2" FuncNo="3"/>
+	<Property ID="20680" Name="伤害限制" EventType="18" TargetType="2" FuncNo="32"/>
+	<Property ID="20681" Name="受击转换" EventType="18" TargetType="2" FuncNo="815" PropType="1" ShiftRatio="100"/>
+	<Property ID="20682" Name="缴械功能" EventType="1" TargetType="0" FuncNo="816" EquipPos="7"/>
+	<Property ID="20683" Name="假死" EventType="1" TargetType="2" FuncNo="35"/>
+	<Property ID="20694" Name="测试强迫攻击" EventType="1" TargetType="0" FuncNo="30" SetFormula="1" SetAttribute="AttackForcedType" SetTargetFirstHatred="1"/>
+	<Property ID="20695" Name="测试强迫攻击" EventType="2" TargetType="0" FuncNo="30" SetFormula="0" SetAttribute="AttackForcedType"/>
+	<Property ID="20700" Name="伤害转移" EventType="1" TargetType="0" FuncNo="817" TransDamageType="1" TransRate="50"/>
+	<Property ID="20701" Name="击杀计数" EventType="5" TargetType="2" FuncNo="821" TriggerCount="3" BufferID="buf_riding_002001"/>
+	<Property ID="20702" Name="测试吸收伤害" EventType="10" TargetType="2" FuncNo="819" SaveDamageType="1" SaveCount="3" SaveRate="100"/>
+	<Property ID="123456" EventType="10" TargetType="2" FuncNo="5" IsHealFormula="0" HealFormula="30" HealTargetType="1"/>
+	<Property ID="12345" EventType="10" TargetType="2" FuncNo="802" BuffFrequencyAdd="1"/>
+	<Property ID="206835" Name="假死" EventType="12" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="test_buff104_01"/>
+	<Property ID="20706" Name="测试免疫治疗" EventType="1" TargetType="0" FuncNo="814"/>
+	<Property ID="20707" Name="测试仇恨转移" EventType="1" TargetType="2" FuncNo="822" Rate="100"/>
+	<Property ID="207072" Name="测试仇恨转移2" EventType="2" TargetType="2" FuncNo="823"/>
+	<Property ID="206782" Name="受击吸收2" EventType="2" TargetType="2" FuncNo="843"/>
+	<Property ID="20730" Name="反弹伤害" EventType="10" TargetType="3" FuncNo="803" PRebound="100" ReboundDamageType="1"/>
+	<Property ID="50320" Name="进入漂浮状态" EventType="1" TargetType="2" FuncNo="840" FloatHeight="5" UpSpeed="10" FloatAction="spell1_cast_10h"/>
+	<Property ID="50321" Name="落地静止" EventType="2" TargetType="2" FuncNo="841"/>
+	<Property ID="491102" Name="魔法明亮" EventType="1" TargetType="2" FuncNo="808" ImmunityDamageType="5" ImmunityValue="100" IsPercent="1" SaveCount="1" SaveRate="0"/>
+	<Property ID="20736" Name="标记目标" EventType="1" TargetType="0" FuncNo="832" NoteRate="50"/>
+	<Property ID="20737" Name="标记目标" EventType="2" TargetType="0" FuncNo="833"/>
+	<Property ID="20823" Name="隐身" EventType="1" TargetType="1" FuncNo="30" SetFormula="1" SetAttribute="RoleHide"/>
+	<Property ID="208232" Name="隐身" EventType="2" TargetType="1" FuncNo="30" SetFormula="0" SetAttribute="RoleHide"/>
+	<Property ID="15665" EventType="3" TargetType="2" FuncNo="1" BuffID="Buff_15665"/>
+	<Property ID="20944" Name="测试吸收伤害后释放技能" EventType="1" TargetType="2" FuncNo="828" AbsorbDamageType="1" CountType="0" AbsorbValue="10" NextSkillID="Skill_Mk0002_01"/>
+	<Property ID="21007" Name="测试关闭BUFF" EventType="3" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="Buff15665" Condition="21020"/>
+	<Property ID="21008" Name="测试心跳扣血" EventType="1" TargetType="2" FuncNo="30" SetFormula="1" SetAttribute="PauseAction"/>
+	<Property ID="21009" EventType="2" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="PauseAction"/>
+	<Property ID="21010" Name="测试变身" EventType="1" TargetType="2" FuncNo="20" ChangeModelPath="clone"/>
+	<Property ID="21011" Name="还原变身" EventType="2" TargetType="2" FuncNo="20"/>
+	<Property ID="21012" EventType="2" TargetType="2" FuncNo="1" BuffID="Buff_Em2603_01_1"/>
+	<Property ID="501011" Name="测试打坐技能1" EventType="2" TargetType="2" FuncNo="9" ActionName="standup_0h" LoopAction="0"/>
+	<Property ID="501012" Name="测试打坐技能2" EventType="10" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="test_skill0101_Buff01_01"/>
+	<Property ID="501013" EventType="2" TargetType="2" FuncNo="11" BufferClearType="3" BufferClearValue="test_skill0101_Buff01_01"/>
+	<Property ID="501014" Name="测试打坐技能3" EventType="2" TargetType="2" FuncNo="1" BuffID="test_skill0101_Buff01_03"/>
+	<Property ID="21018" Name="测试变身" EventType="1" TargetType="2" FuncNo="20" ChangeModelPath="npc\boss_0024"/>
+	<Property ID="210182" Name="测试变身" EventType="2" TargetType="2" FuncNo="20"/>
+	<Property ID="21021" Name="测试BUFF击杀目标事件" EventType="3" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="70" DamageCategory="1" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="210212" Name="测试BUFF击杀目标事件" EventType="5" TargetType="2" FuncNo="5" IsHealFormula="0" HealFormula="60" HealTargetType="1"/>
+	<Property ID="206772" EventType="2" TargetType="2" FuncNo="843"/>
+	<Property ID="21026" Name="测试新变身" EventType="1" TargetType="2" FuncNo="30" SetFormula="1" SetAttribute="ChangeIndex"/>
+	<Property ID="210262" Name="测试新变身" EventType="2" TargetType="2" FuncNo="30" SetFormula="0" SetAttribute="ChangeIndex"/>
+	<Property ID="20673" Name="攻击吸收" EventType="17" TargetType="0" FuncNo="32" AbsorbDamageRatio="100" AbsorbType="0" IsTargetDeduction="0"/>
+	<Property ID="20684" Name="测试公式" EventType="3" TargetType="0" FuncNo="5" IsHealFormula="1" HealFormula="$MaxHP*1" HealTargetType="0" HealSenderType="2"/>
+	<Property ID="20873" Name="反隐" EventType="1" TargetType="0" FuncNo="30" SetFormula="20" SetAttribute="JumpSpeed"/>
+	<Property ID="208732" Name="反隐" EventType="2" TargetType="0" FuncNo="30" SetFormula="1" SetAttribute="JumpSpeed"/>
+	<Property ID="21029"/>
+	<Property ID="21030" Name="测试110" EventType="1" TargetType="2" FuncNo="110" SkillID="Skill_Gl1235_01_1" PropCalcType="0" PropValue="-3000"/>
+</Object>
+
+

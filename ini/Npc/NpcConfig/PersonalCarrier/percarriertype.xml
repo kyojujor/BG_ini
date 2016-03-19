@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 载具类型 -->
+<!-- ID					载具类型号		0=小/1=中/2=大/3=多人		int	 -->
+<!-- Population			占用人口									int  -->
+
+<Object>
+	<Property ID="1" Population="1"/>
+	<Property ID="2" Population="2"/>
+	<Property ID="3" Population="4"/>
+	<Property ID="4" Population="8"/>
+</Object>

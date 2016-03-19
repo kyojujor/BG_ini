@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Object>
+	<Property ID="60400" Name="强力冲锋" EventType="5" TargetType="0" FuncNo="1" BuffID="Monster_FbNpc0006_Buff01_01"/>
+	<Property ID="60798" Name="带电攻击" EventType="5" TargetType="0" FuncNo="1" BuffID="Monster_FbNpc0007_Buff01_01"/>
+	<Property ID="60792" Name="给目标治疗" EventType="5" TargetType="0" FuncNo="5" IsHealFormula="0" HealFormula="800" HealTargetType="0"/>
+	<Property ID="60793" Name="跳向地面" EventType="4" TargetType="0" FuncNo="17" ChargeSpeed="6" ChargeAction="attack2"/>
+	<Property ID="60795" Name="野蛮冲撞" EventType="3" TargetType="0" FuncNo="531" NTChargeType="0" NTChargeSpeed="15" NTChargeDist="10" NTAngle="0" NTChargeAction="fi_0h_run"/>
+	<Property ID="60786" Name="跳跃振地" EventType="3" TargetType="0" FuncNo="17" MoveTargetPosType="0" MoveCreatePosType="2" MoveRandomRadius="0.5" MoveType="1" MoveSpeed="15" ChargeSpeed="10" ChargeAction="attack1"/>
+	<Property ID="60429"/>
+	<Property ID="60430"/>
+	<Property ID="60431"/>
+	<Property ID="60432"/>
+	<Property ID="60433" Name="显隐" EventType="3" TargetType="0" FuncNo="1" BuffID="Buff_dotaitem0015"/>
+	<Property ID="60437" Name="破法水晶" EventType="3" TargetType="2" FuncNo="1" BuffID="Buff_dotaitem0019"/>
+	<Property ID="60438" Name="反弹刚盾" EventType="3" TargetType="2" FuncNo="1" BuffID="Buff_dotaitem0020"/>
+	<Property ID="60439" EventType="3" TargetType="2" FuncNo="1" BuffID="Buff_dotaitem0021"/>
+	<Property ID="60440" EventType="3" TargetType="2" FuncNo="1" BuffID="Buff_dotaitem0022"/>
+	<Property ID="60441" EventType="3" TargetType="2" FuncNo="1" BuffID="Buff_dotaitem0023"/>
+	<Property ID="20921" Name="红药" EventType="5" TargetType="2" FuncNo="5" IsHealFormula="0" HealFormula="200" HealTargetType="1"/>
+	<Property ID="20922" Name="蓝药" EventType="5" TargetType="2" FuncNo="1" BuffID="Dota_Skill_Buff01_13"/>
+	<Property ID="330201" Name="冲锋-眩晕" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_Bm3020_01_1"/>
+	<Property ID="99100" Name="回城术" EventType="6" TargetType="2" FuncNo="54" TriggerEventID="12061116484753"/>
+	<Property ID="99101" Name="闪现" EventType="2" TargetType="2" FuncNo="532" FlashType="0" FlashDist="8" FlashAngle="0"/>
+	<Property ID="99102" Name="疾跑" EventType="5" TargetType="0" FuncNo="1" BuffID="Dota_Skill_Buff_004_01"/>
+	<Property ID="99105" EventType="3" TargetType="2" FuncNo="531" NTChargeType="0" NTChargeSpeed="20" NTChargeDist="25" NTAngle="0" NTChargeAction="attack4_cast_3"/>
+	<Property ID="99106" Name="套索" EventType="2" TargetType="1" FuncNo="1" BuffID="Dota_Skill_Buff_008_01"/>
+	<Property ID="99107" Name="净化" EventType="2" TargetType="2" FuncNo="1" BuffID="Dota_Skill_Buff_009_01"/>
+	<Property ID="99108" Name="震撼弹" EventType="6" TargetType="1" FuncNo="1" BuffID="Dota_Skill_Buff_010_01"/>
+	<Property ID="99110" Name="蒸汽能量罩" EventType="2" TargetType="2" FuncNo="1" BuffID="Dota_Skill_Buff_012_01"/>
+	<Property ID="60787"/>
+	<Property ID="60788"/>
+	<Property ID="60789"/>
+	<Property ID="60794"/>
+	<Property ID="60797"/>
+	<Property ID="60799"/>
+	<Property ID="60800" Name="给目标治疗" EventType="5" TargetType="0" FuncNo="5" IsHealFormula="0" HealFormula="4000" HealTargetType="0"/>
+	<Property ID="60801" Name="给目标加法力" EventType="5" TargetType="0" FuncNo="6" IsFormula="0" Formula="600" Attribute="MP"/>
+	<Property ID="60802" Name="给目标加电抗" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_fb_tady_0017"/>
+	<Property ID="60803" Name="给目标加物抗" EventType="5" TargetType="0" FuncNo="5" IsHealFormula="0" HealFormula="800" HealTargetType="0"/>
+	<Property ID="60804" Name="给目标加火抗" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_fb_tady_0019"/>
+	<Property ID="60805"/>
+	<Property ID="60806"/>
+	<Property ID="60807"/>
+	<Property ID="99602" Name="普通攻击" Type="普通攻击" EventType="6" TargetType="2" FuncNo="54" TriggerEventID="12072713422808"/>
+	<Property ID="99604" Name="普通攻击" Type="普通攻击" EventType="5" TargetType="0"/>
+	<Property ID="99606" Name="普通攻击" Type="普通攻击" EventType="5" TargetType="0" FuncNo="3"/>
+	<Property ID="99608" Name="普通攻击" Type="普通攻击" EventType="5" TargetType="0" FuncNo="3"/>
+	<Property ID="99610" Name="普通攻击" Type="普通攻击" EventType="5" TargetType="0"/>
+	<Property ID="99611" Name="投掷标枪" EventType="5" TargetType="0"/>
+	<Property ID="99615" Name="普通攻击" Type="普通攻击" EventType="5" TargetType="0"/>
+	<Property ID="99607" Name="三连击" EventType="5" TargetType="0"/>
+	<Property ID="996030" Name="群疗术" EventType="5" TargetType="0" FuncNo="5" IsHealFormula="0" HealFormula="800" HealTargetType="0"/>
+	<Property ID="99612" Name="普通攻击" EventType="5" TargetType="0" FuncNo="3"/>
+	<Property ID="99605" Name="直刺穿击" EventType="5" TargetType="0"/>
+	<Property ID="99613" Name="普通攻击" EventType="5" TargetType="0"/>
+	<Property ID="99614" Name="狂热" EventType="6" TargetType="2"/>
+	<Property ID="99616" Name="头顶" EventType="6" TargetType="1" FuncNo="13" FendDistance="4" FendLockTime="300" FendIsCanMove="0" FendAction="combat"/>
+	<Property ID="99618" Name="普通攻击" EventType="5" TargetType="0"/>
+	<Property ID="99619" Name="吸血攻击" EventType="5" TargetType="0" FuncNo="32" AbsorbDamageRatio="50" AbsorbType="0" IsTargetDeduction="0"/>
+	<Property ID="996200" Name="召唤NPC" EventType="5" TargetType="2" FuncNo="54" NPCDistance="5" NPCAngle="30" NPCCreateCount="2" NPCTargetPosType="0" NPCCreatePosType="1" NPCRandomRadius="6" TriggerEventID="FB_TNDX_003"/>
+	<Property ID="996240" Name="风属性打击" EventType="5" TargetType="0" FuncNo="54"/>
+	<Property ID="99626" Name="落雷" EventType="5" TargetType="0" FuncNo="109" EffectType="3" EffectTime="2000"/>
+	<Property ID="29998" Name="变身" EventType="6" TargetType="2" FuncNo="20" ChangeModelPath="npc\FB_YHDXBoss_0001"/>
+	<Property ID="29999" Name="变回自己" EventType="6" TargetType="2" FuncNo="20"/>
+	<Property ID="996241" Name="风属性击倒" EventType="5" TargetType="0" FuncNo="14" KnockDownLockTime="1000"/>
+	<Property ID="99636" Name="普通攻击" EventType="5" TargetType="0"/>
+	<Property ID="99637" Name="裁决" EventType="5" TargetType="0" FuncNo="54" TriggerEventID="FB_TNDX_SkillTemp"/>
+	<Property ID="99629" Name="普通攻击" EventType="5" TargetType="0"/>
+	<Property ID="99630" Name="狂暴" EventType="5" TargetType="2"/>
+	<Property ID="99631" Name="普通攻击" EventType="5" TargetType="0"/>
+	<Property ID="99632" Name="普通攻击" EventType="5" TargetType="0"/>
+	<Property ID="99633" Name="致残" EventType="5" TargetType="0" FuncNo="1" BuffID="FB_TNDX_MS_BUFF_14_02"/>
+	<Property ID="99634" Name="普通攻击" EventType="5" TargetType="0"/>
+	<Property ID="99635" Name="疯狂连击" EventType="5" TargetType="0"/>
+	<Property ID="99642" Name="普通攻击" EventType="6" TargetType="0"/>
+	<Property ID="996450" Name="三连斩" EventType="8" TargetType="0" FuncNo="500" FirstDamageFormula="@MaxPhyAttack*1.2" SecondDamageFormula="@MaxPhyAttack*1.5" ThirdDamageFormula="@MaxPhyAttack*1.8"/>
+	<Property ID="99646" Name="断头台" EventType="3" TargetType="1" FuncNo="17" ChargeSpeed="10" ChargeAction="FB_TNDX_BOSS_03_03"/>
+	<Property ID="99656" Name="蓄力震地" EventType="5" TargetType="0" FuncNo="1" BuffID="buff_boss_0017_021"/>
+	<Property ID="99657" Name="拖拽" EventType="5" TargetType="0" FuncNo="508" DragSpeed="20" DragAction="combat"/>
+	<Property ID="99655" Name="震地" EventType="5" TargetType="0" FuncNo="14" KnockDownLockTime="1000" KnockDownLockBuffer="FB_TNDX_BOSS_BUFF_01_05" KnockDownAction="flydown" GetUpAction="downup" DownLoopAction="downloop"/>
+	<Property ID="99658" Name="横扫" EventType="5" TargetType="0" FuncNo="13" FendLockTime="500" FendDistance="5" FendLockBuffer="FB_TNDX_BOSS_BUFF_05_05" FendIsCanMove="0"/>
+	<Property ID="20950" Name="尸卫集结" EventType="6" TargetType="2" FuncNo="2" NPCConfigID="FB_tiao_diya_0030" NPCCreateCount="5" NPCLifeTime="120000" NPCTargetPosType="2" NPCCreatePosType="2" NPCRandomRadius="10"/>
+	<Property ID="60811" EventType="5" TargetType="0" FuncNo="1" BuffID="tady_new_buff_001"/>
+	<Property ID="60813" EventType="5" TargetType="0" FuncNo="508" DragSpeed="8" DragAction="knockback" DragBuffID="Buff_CantMove"/>
+	<Property ID="82397" Name="机械践踏" EventType="5" TargetType="0" FuncNo="109" EffectType="1" EffectTime="2000"/>
+	<Property ID="82393" Name="蒸汽喷射" EventType="5" TargetType="0" FuncNo="1"/>
+	<Property ID="80601" EventType="6" TargetType="0"/>
+	<Property ID="80611" EventType="5" TargetType="0" FuncNo="1" BuffID="buff_monster_Sav_0001_021" Name="烈焰"/>
+	<Property ID="80604" EventType="3" TargetType="1" Name="召唤飓风" FuncNo="2" NPCCreateCount="1" NPCTargetPosType="2" NPCCreatePosType="1" NPCRandomRadius="1" NPCConfigID="FB_TNDX_0100"/>
+	<Property ID="80605" EventType="6" TargetType="0"/>
+	<Property ID="1000021" EventType="6" TargetType="2" FuncNo="54" TriggerEventID="FB_TADY_SelfExplode"/>
+	<Property ID="82394" Name="钢管掉落" EventType="5" TargetType="0" FuncNo="16" KnockFlyLockTime="1000" KnockFlyDistance="3" KnockFlySpeed="3" GravityParam="-10" FlyKnockDownAction="down" FlyDownLoopAction="kickout" DownLandAction="flydown" DownLandLoopAction="downloop" FlyGetUpAction="downup" KnockFlyIsCanMove="0"/>
+	<Property ID="82392" Name="石块掉落" EventType="5" TargetType="0" FuncNo="16" KnockFlyLockTime="1000" KnockFlyDistance="3" KnockFlySpeed="3" GravityParam="-10" FlyKnockDownAction="down" FlyDownLoopAction="kickout" DownLandAction="flydown" DownLandLoopAction="downloop" FlyGetUpAction="downup" KnockFlyIsCanMove="0"/>
+	<Property ID="99641" Name="巫毒" EventType="5" TargetType="0" FuncNo="1"/>
+	<Property ID="82400" Name="击飞" EventType="5" TargetType="0" FuncNo="16" KnockFlyLockTime="1000" KnockFlyDistance="3" KnockFlySpeed="3" GravityParam="-9.8" FlyKnockDownAction="down" FlyDownLoopAction="kickout" FlyGetUpAction="downup" KnockFlyIsCanMove="0" DownLandLoopAction="downloop" DownLandAction="flydown"/>
+	<Property ID="82399" Name="击退" EventType="5" TargetType="1" FuncNo="13" FendLockTime="1000" FendDistance="5" FendAction="knockback" DefaultFendAction="knockback" FendIsCanMove="0"/>
+	<Property ID="82395" Name="机械电能" EventType="5" TargetType="0" FuncNo="16" KnockFlyLockTime="1000" KnockFlyDistance="4" KnockFlySpeed="4" GravityParam="-10" FlyKnockDownAction="down" FlyDownLoopAction="kickout" DownLandAction="flydown" DownLandLoopAction="downloop" FlyGetUpAction="downup" KnockFlyIsCanMove="0"/>
+	<Property ID="82396" Name="失控" EventType="5" TargetType="2" FuncNo="2" NPCConfigID="FB_103KN_0028" NPCCreateCount="7" NPCTargetPosType="2" NPCCreatePosType="1" NPCRandomRadius="20" AttackBySummoner="1"/>
+	<Property ID="85016" Name="鱼人领队给目标治疗" EventType="5" TargetType="0" FuncNo="5" IsHealFormula="0" HealFormula="500" HealTargetType="0"/>
+	<Property ID="85019" Name="冲撞" EventType="6" TargetType="0" FuncNo="17"/>
+	<Property ID="850190" Name="冲撞" EventType="5" TargetType="0" FuncNo="1" BuffID="Monster_FbNpc0006_Buff01_01"/>
+	<Property ID="85020" Name="示威怒吼" EventType="5" TargetType="0" FuncNo="109" EffectType="1" EffectTime="2000"/>
+	<Property ID="85021" Name="狂暴" EventType="6" TargetType="2" FuncNo="1" BuffID="FB_LLQD_BUFF_013" FloorCount="1"/>
+	<Property ID="82398" Name="击退" EventType="5" TargetType="0" FuncNo="16" KnockFlyLockBuffer="Buff_FB_DXGX_boss0012_1" KnockFlyLockTime="1000" KnockFlyDistance="3" KnockFlySpeed="3" GravityParam="-10" FlyKnockDownAction="down" FlyDownLoopAction="kickout" DownLandAction="flydown" DownLandLoopAction="downloop" FlyGetUpAction="downup" KnockFlyIsCanMove="0"/>
+	<Property ID="82386" Name="瞬移" EventType="3" TargetType="2" FuncNo="532" FlashType="0" FlashDist="5" FlashAngle="0" FlashAction="attackR_0h"/>
+	<Property ID="82354" Name="神之炼灵" EventType="5" TargetType="2" FuncNo="5" IsHealFormula="1" HealFormula="$MaxHP*0.10" HealTargetType="1"/>
+	<Property ID="823522" Name="黑洞" EventType="5" TargetType="0" FuncNo="508" DragSpeed="2" DragAction="combat"/>
+	<Property ID="82353" Name="光影破碎" EventType="5" TargetType="0" FuncNo="109" EffectType="1" EffectTime="3000"/>
+	<Property ID="82352" Name="黑洞" EventType="2" TargetType="2" FuncNo="2" NPCCreateCount="1" NPCLifeTime="3000" NPCTargetPosType="0" NPCCreatePosType="4" NPCDistance="10" NPCAngle="0" NPCConfigID="FB_yuanguzhimen_0028"/>
+	<Property ID="90001" Name="击倒" EventType="5" TargetType="0" FuncNo="1" BuffID="buff_NY_BOSS_001"/>
+	<Property ID="90002" Name="眩晕" EventType="5" TargetType="0" FuncNo="1" BuffID="buff_NY_BOSS_002"/>
+	<Property ID="90003" Name="咆哮持续伤害" EventType="5" TargetType="0" FuncNo="1" BuffID="buff_NY_BOSS_003"/>
+	<Property ID="90000" Name="萨德瓦伊普通攻击" EventType="5" TargetType="3" FuncNo="50"/>
+	<Property ID="90005" Name="减速" EventType="5" TargetType="0" FuncNo="1" BuffID="buff_NY_BOSS_004"/>
+	<Property ID="90006" Name="流血" EventType="5" TargetType="0" FuncNo="1" BuffID="buff_NY_BOSS_005"/>
+	<Property ID="90007" Name="野蛮冲刺" EventType="3" TargetType="0" FuncNo="531" NTChargeType="0" NTChargeSpeed="10" NTChargeDist="20" NTAngle="0"/>
+	<Property ID="90008" Name="石柱眩晕" EventType="6" TargetType="2" FuncNo="1" BuffID="buff_NY_BOSS_002"/>
+	<Property ID="90009" Name="战争践踏麻痹" EventType="5" TargetType="0" FuncNo="1" BuffID="buff_NY_BOSS_006"/>
+	<Property ID="90010" Name="战争践踏触电" EventType="5" TargetType="1" FuncNo="1" BuffID="buff_BY_BOSS_007,buff_NY_BOSS_002"/>
+	<Property ID="90011" Name="战争践踏拖拽" EventType="5" TargetType="0" FuncNo="508" DragSpeed="20"/>
+	<Property ID="90012" Name="减速流血" EventType="5" TargetType="0" FuncNo="1" BuffID="buff_NY_BOSS_009,buff_NY_BOSS_010"/>
+	<Property ID="90013" Name="减速流血" EventType="5" TargetType="0" FuncNo="1" BuffID="buff_NY_BOSS_012"/>
+	<Property ID="90014" Name="普通攻击雷电版" EventType="5" TargetType="0" FuncNo="507" LinkageType="1" IsFomula="0" DamageFomula="-50" EffectID="skill_fly_0043" ChainCount="3" MaxNodeDist="10" MaxSenderDist="30" EffectSpeed="10"/>
+	<Property ID="90015" Name="野蛮冲刺雷电版" EventType="2" TargetType="2" FuncNo="2"/>
+	<Property ID="100002" Name="旱地震击击倒" EventType="5" TargetType="0" FuncNo="1" BuffID="buff_NY_BOSS_001"/>
+	<Property ID="100003" Name="咆哮持续伤害" EventType="5" TargetType="0" FuncNo="1" BuffID="buff_NY_BOSS_103"/>
+	<Property ID="100004" Name="咆哮定身" EventType="5" TargetType="0" FuncNo="1" BuffID="buff_NY_BOSS_104"/>
+	<Property ID="82359" Name="群体恐惧" EventType="5" TargetType="0" FuncNo="109" EffectType="2" EffectTime="4000"/>
+	<Property ID="82360" Name="镭射带" EventType="5" TargetType="0" FuncNo="13" FendLockTime="1000" FendDistance="4" FendAction="knockback" DefaultFendAction="knockback" FendIsCanMove="0"/>
+	<Property ID="82358" Name="边翼激光" EventType="3" TargetType="2" FuncNo="1" BuffID="Buff_FB_YGZM_Hbr0013_2"/>
+	<Property ID="82350" Name="爆炎" EventType="5" TargetType="0" FuncNo="13" FendLockTime="500" FendDistance="3" FendAction="knockback" DefaultFendAction="knockback" FendIsCanMove="0"/>
+	<Property ID="82363" Name="减速" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_skill_fb_baihu"/>
+	<Property ID="823562" Name="神炫" EventType="6" TargetType="2" FuncNo="57"/>
+	<Property ID="850890" Name="末日牵引" EventType="5" TargetType="0" FuncNo="508" DragSpeed="20"/>
+	<Property ID="850891" Name="末日牵引隐藏" EventType="6" TargetType="2" FuncNo="1" BuffID="buff_FB_TNJT_BOSS_04_06_01"/>
+	<Property ID="850900" Name="死亡领域" EventType="2" TargetType="2" FuncNo="1" BuffID="buff_FB_TNJT_BOSS_04_07_01"/>
+	<Property ID="850901" Name="死亡领域爆炸" EventType="5" TargetType="0" FuncNo="3" IsDamageFormula="0" DamageFormula="5000" DamageCategory="1" DamageTargetType="0" DamageCaster="1"/>
+	<Property ID="100006" Name="状态2加入" EventType="6" TargetType="2" FuncNo="1" BuffID="buffState_NY_BOSS_002"/>
+	<Property ID="100007" Name="调用触发器1" EventType="2" TargetType="2" FuncNo="54" TriggerEventID="BOSS_SDWY_01" NPCConfigID="BOSS_SDWY_01"/>
+	<Property ID="100008" Name="面向目标攻击" EventType="2" TargetType="1" FuncNo="503"/>
+	<Property ID="100009" Name="调用触发器2" EventType="2" TargetType="2" FuncNo="54" TriggerEventID="BOSS_SDWY_02" NPCConfigID="BOSS_SDWY_02"/>
+	<Property ID="100010" Name="状态3加入" EventType="6" TargetType="2" FuncNo="1" BuffID="buffState_NY_BOSS_003"/>
+	<Property ID="100011" Name="状态3转换冲锋2" EventType="6" TargetType="2" FuncNo="1" BuffID="buffState_NY_BOSS_006"/>
+	<Property ID="100012" Name="冲锋2转换冲锋3" EventType="6" TargetType="2" FuncNo="1" BuffID="buffState_NY_BOSS_007"/>
+	<Property ID="100013" Name="冲锋3转换状态3" EventType="6" TargetType="2" FuncNo="1" BuffID="buffState_NY_BOSS_003"/>
+	<Property ID="100014" Name="调用触发器3" EventType="2" TargetType="2" FuncNo="54" TriggerEventID="BOSS_SDWY_03" NPCConfigID="BOSS_SDWY_03"/>
+	<Property ID="100015" Name="状态4加入" EventType="6" TargetType="2" FuncNo="1" BuffID="buffState_NY_BOSS_004"/>
+	<Property ID="100016" Name="萨德瓦伊充能状态" EventType="2" TargetType="2" FuncNo="1" BuffID="buffState_NY_BOSS_008"/>
+	<Property ID="100017" Name="调用触发器4" EventType="2" TargetType="2" FuncNo="54" TriggerEventID="BOSS_SDWY_08"/>
+	<Property ID="100018" Name="状态5加入" EventType="6" TargetType="2" FuncNo="1" BuffID="buffState_NY_BOSS_005"/>
+	<Property ID="100019" Name="调用触发器5" EventType="2" TargetType="2" FuncNo="54" TriggerEventID="BOSS_SDWY_05"/>
+	<Property ID="100020" Name="萨德瓦伊普通攻击连锁闪电" EventType="5" TargetType="0" FuncNo="507" LinkageType="1" IsFomula="0" DamageFomula="1000" EffectID="func_raid_104" ChainCount="3" MaxNodeDist="20" MaxSenderDist="30" ReduceMul="50"/>
+	<Property ID="82349" Name="冰门" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_FB_YGZM_jiguan3"/>
+	<Property ID="82348" Name="火门" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_FB_YGZM_jiguan4"/>
+	<Property ID="82347" Name="陨石" EventType="5" TargetType="0" FuncNo="16" KnockFlyLockTime="1000" KnockFlyDistance="3" KnockFlySpeed="3" GravityParam="-10" FlyKnockDownAction="down" FlyDownLoopAction="kickout" DownLandAction="flydown" DownLandLoopAction="downloop" FlyGetUpAction="downup" KnockFlyIsCanMove="0"/>
+	<Property ID="823523" Name="黑洞" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_FB_YGZM_boss0018_32"/>
+	<Property ID="82355" Name="神罚" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_FB_YGZM_boss0018_6"/>
+	<Property ID="823501" Name="火焰之怒" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_YGZM_boss0018_8"/>
+	<Property ID="823502" Name="火焰之怒" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_YGZM_boss0018_9" Condition="82350"/>
+	<Property ID="82030" Name="恢复" EventType="5" TargetType="0" FuncNo="5" IsHealFormula="0" HealFormula="600" HealTargetType="0"/>
+	<Property ID="82031" Name="回魔" EventType="5" TargetType="0" FuncNo="6" IsFormula="0" Attribute="MP" Formula="600"/>
+	<Property ID="82380" Name="辉耀斩" EventType="5" TargetType="0" FuncNo="109" EffectType="1" EffectTime="1000" Condition="82380"/>
+	<Property ID="23159" EventType="6" TargetType="2" FuncNo="1" Name="竞技场号角" BuffID="Item_FB_TADY_001_2"/>
+	<Property ID="82356" Name="旋转" EventType="3" TargetType="2" FuncNo="1" BuffID="Buff_FB_YGZM_boss0018_7"/>
+	<Property ID="82362" Name="激光" EventType="5" TargetType="0" FuncNo="13" FendLockTime="500" FendDistance="2" FendAction="knockback" DefaultFendAction="knockback" FendIsCanMove="0"/>
+	<Property ID="85152" Name="飞跃重踏" EventType="4" TargetType="0" FuncNo="17" ChargeSpeed="25"/>
+	<Property ID="851520" Name="飞跃重踏BUFF" EventType="6" FuncNo="1" TargetType="2" BuffID="buff_fb_chnj_boss_01_03_01"/>
+	<Property ID="85151" Name="能量过载" EventType="5" TargetType="0" FuncNo="31"/>
+	<Property ID="85157" Name="清理" EventType="5" TargetType="0" FuncNo="13" FendLockTime="500" FendDistance="3" FendAction="knockback" DefaultFendAction="knockback" FendIsCanMove="0"/>
+	<Property ID="85153" Name="冰霜吐息" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_fb_chnj_boss_01_04"/>
+	<Property ID="85154" Name="清除BUFF" EventType="5" TargetType="0" FuncNo="1" BuffID="buff_fb_chnj_boss_01_05_01"/>
+	<Property ID="85159" Name="压制" EventType="5" TargetType="0" FuncNo="109" EffectType="3" EffectTime="3000"/>
+	<Property ID="85155" Name="暗影吐息" EventType="12" TargetType="0" FuncNo="32" AbsorbDamageRatio="20" AbsorbType="0" IsTargetDeduction="0"/>
+	<Property ID="823503" Name="爆炎" EventType="2" TargetType="2" FuncNo="54" TriggerEventID="FB_YGZM_045"/>
+	<Property ID="823521" Name="黑洞" EventType="2" TargetType="2" FuncNo="54" NPCCreateCount="1" NPCLifeTime="3000" NPCTargetPosType="0" NPCCreatePosType="4" NPCDistance="10" NPCAngle="0" NPCConfigID="FB_yuanguzhimen_0028" TriggerEventID="FB_YGZM_047"/>
+	<Property ID="82351" Name="曝光天际" EventType="2" TargetType="2" FuncNo="54" TriggerEventID="FB_YGZM_046"/>
+	<Property ID="823561" Name="旋转" EventType="2" TargetType="2" FuncNo="54" TriggerEventID="FB_YGZM_044"/>
+	<Property ID="82391" Name="移动" EventType="3" TargetType="2" FuncNo="1" BuffID="Buff_FB_DXGX_boss0012_4"/>
+	<Property ID="82357" Name="冰焰" EventType="5" TargetType="0" FuncNo="1" BuffID="Buff_FB_YGZM_Hbr0013_1"/>
+	<Property ID="82364" Name="毁灭1" EventType="3" TargetType="2" FuncNo="54" TriggerEventID="FB_YGZM_119"/>
+	<Property ID="82365" Name="毁灭2" EventType="3" TargetType="2" FuncNo="54" TriggerEventID="FB_YGZM_116"/>
+	<Property ID="82366" Name="毁灭3" EventType="3" TargetType="2" FuncNo="54" TriggerEventID="FB_YGZM_114"/>
+	<Property ID="82330" Name="急救" EventType="5" TargetType="0" FuncNo="5" IsHealFormula="0" HealFormula="2000" HealTargetType="0"/>
+	<Property ID="82331" Name="认证" EventType="6" TargetType="1" FuncNo="1" BuffID="Buff_skill_fb_renzheng"/>
+	<Property ID="85158" Name="能量喷泉" EventType="5" TargetType="0" FuncNo="16" KnockFlyLockTime="1000" KnockFlyDistance="3" KnockFlySpeed="3" GravityParam="-10" FlyDownLoopAction="kickout" DownLandAction="flydown" DownLandLoopAction="downloop" FlyGetUpAction="downup" KnockFlyIsCanMove="0" FlyKnockDownAction="down"/>
+	<Property ID="851570" Name="清理流血" EventType="5" TargetType="0" FuncNo="1" BuffID="buff_fb_chnj_boss_02_02_p2"/>
+	<Property ID="851590" Name="电流涌动" EventType="5" TargetType="0" FuncNo="1" BuffID="buff_fb_chnj_boss_02_04_p2"/>
+	<Property ID="823971" Name="机械践踏" EventType="4" TargetType="0" FuncNo="54" TriggerEventID="all_skill_tongyong_zp"/>
+	<Property ID="823961" Name="失控" EventType="3" TargetType="2" FuncNo="54" TriggerEventID="all_skill_boss0012_zp1"/>
+	<Property ID="82117" Name="琉璃火" EventType="2" TargetType="2" FuncNo="1" BuffID="Buff_FB_YGZM_boss0018_9"/>
+	<Property ID="82118" Name="琉璃火" EventType="2" TargetType="2" FuncNo="1" BuffID="Buff_FB_YGZM_boss0018_10"/>
+	<Property ID="82120" Name="震慑" EventType="5" TargetType="0" FuncNo="16" KnockFlyLockTime="1000" KnockFlyDistance="3" KnockFlySpeed="3" GravityParam="-9.8" KnockFlyIsCanMove="0" FlyKnockDownAction="down" FlyDownLoopAction="kickout" DownLandAction="flydown" DownLandLoopAction="downloop" FlyGetUpAction="downup"/>
+	<Property ID="99623" Name="寒冰震慑" EventType="5" TargetType="0" FuncNo="16" KnockFlyLockTime="1000" KnockFlyDistance="3" KnockFlySpeed="3" GravityParam="-10" DownLandAction="flydown" KnockFlyIsCanMove="0" FlyGetUpAction="downup" DownLandLoopAction="downloop" FlyDownLoopAction="kickout" FlyKnockDownAction="down"/>
+	<Property ID="85001" EventType="2" TargetType="1" FuncNo="109" EffectType="9" EffectTime="2500" Name="禁锢"/>
+	<Property ID="851551" Name="暗影吐息" EventType="5" TargetType="0" FuncNo="1" BuffID="buff_fb_chnj_boss_01_06"/>
+	<Property ID="851521" Name="飞跃重踏BUFF" EventType="5" FuncNo="1" TargetType="0" BuffID="Buff_fb_chnj_boss_01_03"/>
+	<Property ID="851511" Name="能量过载" EventType="5" TargetType="0" FuncNo="109" EffectType="9" EffectTime="2000"/>
+	<Property ID="851581" Name="能量喷泉" EventType="6" TargetType="2" FuncNo="54" TriggerEventID="FB_CHNJ_014"/>
+	<Property ID="823801" Name="辉耀斩" EventType="6" TargetType="2" FuncNo="1" BuffID="Buff_FB_DXGX_boss0053_1" Condition="823801"/>
+	<Property ID="96251" Name="无敌" EventType="6" TargetType="2" FuncNo="54" TriggerEventID="FB_YHDX_110"/>
+	<Property ID="996461" Name="断头台buff" EventType="5" TargetType="0" FuncNo="1" BuffID="BUFF_FB_TNDX_BOSS_01_08_03"/>
+	<Property ID="91350" Name="分身" EventType="6" TargetType="2" FuncNo="2" NPCConfigID="FB_yuhuidongxue_0081" NPCCreateCount="1" NPCTargetPosType="2" NPCCreatePosType="4" NPCDistance="5" NPCAngle="270"/>
+	<Property ID="91351" Name="分身" EventType="6" TargetType="2" FuncNo="2" NPCConfigID="FB_yuhuidongxue_0082" NPCCreateCount="1" NPCTargetPosType="2" NPCCreatePosType="4" NPCDistance="5" NPCAngle="90"/>
+	<Property ID="996561" Name="蓄力震地" EventType="5" TargetType="0" FuncNo="14" KnockDownLockTime="500" KnockDownLockBuffer="FB_TNDX_BOSS_BUFF_01_05" KnockDownAction="flydown" GetUpAction="downup" DownLoopAction="downloop" Condition="996562"/>
+	<Property ID="91352" Name="免伤" EventType="6" TargetType="2" FuncNo="1" BuffID="buff_fb_yudx_yinxing_01"/>
+	<Property ID="91353" Name="虚化" EventType="2" TargetType="2" FuncNo="54" TriggerEventID="FB_YHDX_118"/>
+	<Property ID="91354" Name="传送" EventType="5" TargetType="0" FuncNo="4" MoveSpeed="30" MoveTargetPosType="2" MoveCreatePosType="1" MoveRandomRadius="0" MoveType="0"/>
+	<Property ID="91355" Name="触发器" EventType="6" TargetType="2" FuncNo="54" TriggerEventID="FB_YHDX_110"/>
+	<Property ID="86258" Name="治疗术" EventType="5" TargetType="0" FuncNo="5" IsHealFormula="1" HealFormula="$MaxHP*0.8" HealTargetType="0" HealSenderType="0" Condition="862581"/>
+	<Property ID="86259" Name="自爆" EventType="6" TargetType="2" FuncNo="54" TriggerEventID="all_skill_Boss_0124_2h_2_xiaohui"/>
+	<Property ID="86260" Name="毒素" EventType="5" TargetType="0" FuncNo="2" NPCConfigID="npc_yuhuidongxue_0016" NPCCreateCount="1" NPCLifeTime="8000" NPCTargetPosType="2" NPCCreatePosType="0"/>
+	<Property ID="86261" Name="绝地光环" EventType="6" TargetType="2" FuncNo="1" BuffID="buff_FB_yuhuidongxue_0016_02"/>
+	<Property ID="86262" Name="暗影毒林" EventType="6" TargetType="2" FuncNo="1" BuffID="buff_FB_yuhuidongxue_0016"/>
+	<Property ID="80300" Name="触发器" EventType="2" TargetType="2" FuncNo="54" TriggerEventID="FB_YHDX_144"/>
+	<Property ID="80400" Name="回血" EventType="5" TargetType="0" FuncNo="5" IsHealFormula="0" HealFormula="100000"/>
+	<Property ID="80401" Name="回魔法" EventType="5" TargetType="0" FuncNo="6" IsFormula="0" Attribute="MP" Formula="100000" Condition="23103"/>
+	<Property ID="80402" Name="分身" EventType="6" TargetType="2" FuncNo="54" TriggerEventID="FB_YHDX_155"/>
+	<Property ID="823962" Name="失控" EventType="5" TargetType="2" FuncNo="2" NPCConfigID="FB_103KN_0026" NPCCreatePosType="1" NPCCreateCount="2" NPCRandomRadius="30" NPCTargetPosType="2"/>
+	<Property ID="82180" Name="地雷" EventType="5" TargetType="0" FuncNo="16" KnockFlyLockTime="1000" KnockFlyDistance="3" KnockFlySpeed="3" GravityParam="-10" FlyKnockDownAction="down" FlyDownLoopAction="kickout" DownLandAction="flydown" DownLandLoopAction="downloop" FlyGetUpAction="downup" KnockFlyIsCanMove="0"/>
+	<Property ID="821801" Name="地火创建" EventType="3" TargetType="2" FuncNo="2" NPCConfigID="FB_103KN_0027" NPCCreateCount="1" NPCTargetPosType="2" NPCCreatePosType="1" NPCRandomRadius="0.1"/>
+	<Property ID="82184" Name="夺命" EventType="3" TargetType="1" FuncNo="532" FlashType="2"/>
+	<Property ID="821842" Name="夺命" EventType="5" TargetType="1" FuncNo="1" BuffID="Buff_FB_DXGX_boss0053_41"/>
+	<Property ID="80405" EventType="3" TargetType="2" FuncNo="2" NPCConfigID="npc_yuhuidongxue_0015" NPCCreateCount="1" NPCDistance="4" NPCAngle="270" NPCTargetPosType="2" NPCCreatePosType="4"/>
+	<Property ID="46090" Name="试炼回血1" EventType="5" TargetType="0" FuncNo="5" IsHealFormula="0" HealFormula="1000"/>
+	<Property ID="46091" Name="试炼回血2" EventType="5" TargetType="0" FuncNo="5" IsHealFormula="0" HealFormula="2000"/>
+	<Property ID="46092" Name="试炼回血3" EventType="5" TargetType="0" FuncNo="5" IsHealFormula="0" HealFormula="3000"/>
+	<Property ID="46093" Name="试炼回血4" EventType="5" TargetType="0" FuncNo="5" IsHealFormula="0" HealFormula="5000"/>
+	<Property ID="80420" Name="灌铅子弹" EventType="5" TargetType="0" FuncNo="1" BuffID="FB_LLQD_BUFF_012" FloorCount="1"/>
+	<Property ID="80404" Name="回精神能量" EventType="5" TargetType="0" FuncNo="6" Condition="23104" IsFormula="0" Attribute="AV" Formula="100"/>
+	<Property ID="80412" Name="回魔法" EventType="5" TargetType="0" FuncNo="6" IsFormula="0" Attribute="MP" Formula="100000" Condition="23106"/>
+	<Property ID="80414" Name="回魔法" EventType="5" TargetType="0" FuncNo="6" IsFormula="0" Attribute="MP" Formula="100000" Condition="23115"/>
+	<Property ID="80413" Name="回魔法" EventType="5" TargetType="0" FuncNo="6" IsFormula="0" Attribute="MP" Formula="100000" Condition="23114"/>
+	<Property ID="80415" Name="回魔法" EventType="5" TargetType="0" FuncNo="6" IsFormula="0" Attribute="MP" Formula="100000" Condition="23113"/>
+	<Property ID="80416" Name="回魔法" EventType="5" TargetType="0" FuncNo="6" IsFormula="0" Attribute="MP" Formula="100000" Condition="23123"/>
+	<Property ID="80417" Name="回魔法" EventType="5" TargetType="0" FuncNo="6" IsFormula="0" Attribute="MP" Formula="100000" Condition="23122"/>
+	<Property ID="80418" Name="回魔法" EventType="5" TargetType="0" FuncNo="6" IsFormula="0" Attribute="MP" Formula="100000" Condition="23124"/>
+	<Property ID="80419" Name="回精神能量" EventType="5" TargetType="0" FuncNo="6" Condition="23117" IsFormula="0" Attribute="AV" Formula="100"/>
+	<Property ID="80421" Name="回精神能量" EventType="5" TargetType="0" FuncNo="6" Condition="23116" IsFormula="0" Attribute="AV" Formula="100"/>
+	<Property ID="80422" Name="回精神能量" EventType="5" TargetType="0" FuncNo="6" Condition="23118" IsFormula="0" Attribute="AV" Formula="100"/>
+	<Property ID="80423" Name="回怒气" EventType="5" TargetType="0" FuncNo="6" Condition="23101" IsFormula="0" Attribute="RC" Formula="100"/>
+	<Property ID="80424" Name="回怒气" EventType="5" TargetType="0" FuncNo="6" Condition="23108" IsFormula="0" Attribute="RC" Formula="100"/>
+	<Property ID="80425" Name="回怒气" EventType="5" TargetType="0" FuncNo="6" Condition="23109" IsFormula="0" Attribute="RC" Formula="100"/>
+	<Property ID="80426" Name="回怒气" EventType="5" TargetType="0" FuncNo="6" Condition="23107" IsFormula="0" Attribute="RC" Formula="100"/>
+	<Property ID="80629" Name="横扫击飞" EventType="5" TargetType="0" FuncNo="16" KnockFlyLockTime="1000" KnockFlyDistance="3" KnockFlySpeed="3" GravityParam="-10" DownLandAction="flydown" KnockFlyIsCanMove="0" FlyGetUpAction="downup" DownLandLoopAction="downloop" FlyDownLoopAction="kickout" FlyKnockDownAction="down"/>
+	<Property ID="80639" Name="毁灭之光" EventType="5" TargetType="2" FuncNo="2" NPCConfigID="FB_DGPD_0065_1" NPCCreateCount="15" NPCLifeTime="5000" NPCTargetPosType="2" NPCCreatePosType="1" NPCRandomRadius="30"/>
+	<Property ID="80101" Name="眩晕" EventType="5" TargetType="0" FuncNo="109" EffectType="1" EffectTime="3000"/>
+	<Property ID="823963" Name="失控" EventType="5" TargetType="2" FuncNo="2" NPCConfigID="FB_103KN_0026" NPCCreateCount="4" NPCTargetPosType="2" NPCCreatePosType="1" NPCRandomRadius="30" AttackBySummoner="1"/>
+	<Property ID="862581" Name="治疗术" EventType="5" TargetType="0" FuncNo="5" IsHealFormula="1" HealFormula="$MaxHP*0.8" HealTargetType="0" HealSenderType="0" Condition="86258"/>
+	<Property ID="82403" Name="暗雷击" EventType="5" TargetType="2" FuncNo="1" BuffID="Buff_FB_YHDX_001"/>
+	<Property ID="824031" Name="暗雷击" EventType="5" TargetType="2" FuncNo="2" Condition="82403" NPCConfigID="FB_TNJT_0026" NPCCreateCount="1" NPCLifeTime="6000" NPCTargetPosType="2" NPCCreatePosType="4" NPCDistance="3" NPCAngle="0"/>
+	<Property ID="824032" Name="暗雷击" EventType="5" TargetType="2" FuncNo="2" Condition="824032" NPCConfigID="FB_TNJT_0026" NPCCreateCount="1" NPCLifeTime="6000" NPCTargetPosType="2" NPCCreatePosType="4" NPCDistance="9" NPCAngle="0"/>
+	<Property ID="824033" Name="暗雷击" EventType="5" TargetType="2" FuncNo="2" Condition="824034" NPCConfigID="FB_TNJT_0026" NPCCreateCount="1" NPCLifeTime="6000" NPCTargetPosType="0" NPCCreatePosType="4" NPCDistance="15" NPCAngle="0"/>
+	<Property ID="824034" Name="暗雷击" EventType="5" TargetType="2" FuncNo="2" Condition="82403" NPCConfigID="FB_TNJT_0026" NPCCreateCount="1" NPCLifeTime="6000" NPCTargetPosType="0" NPCCreatePosType="4" NPCDistance="3" NPCAngle="180"/>
+	<Property ID="824035" Name="暗雷击" EventType="5" TargetType="2" FuncNo="2" Condition="824032" NPCConfigID="FB_TNJT_0026" NPCCreateCount="1" NPCLifeTime="6000" NPCTargetPosType="2" NPCCreatePosType="4" NPCDistance="9" NPCAngle="180"/>
+	<Property ID="824036" Name="暗雷击" EventType="5" TargetType="2" FuncNo="2" Condition="824034" NPCConfigID="FB_TNJT_0026" NPCCreateCount="1" NPCLifeTime="6000" NPCTargetPosType="2" NPCCreatePosType="4" NPCDistance="15" NPCAngle="180"/>
+	<Property ID="824037" Name="暗雷击" EventType="5" TargetType="2" FuncNo="2" Condition="824031" NPCConfigID="FB_TNJT_0026" NPCCreateCount="1" NPCLifeTime="6000" NPCTargetPosType="2" NPCCreatePosType="4" NPCDistance="3" NPCAngle="90"/>
+	<Property ID="824038" Name="暗雷击" EventType="5" TargetType="2" FuncNo="2" Condition="824033" NPCConfigID="FB_TNJT_0026" NPCCreateCount="1" NPCLifeTime="6000" NPCTargetPosType="2" NPCCreatePosType="4" NPCDistance="9" NPCAngle="90"/>
+	<Property ID="824039" Name="暗雷击" EventType="5" TargetType="2" FuncNo="2" Condition="824035" NPCConfigID="FB_TNJT_0026" NPCCreateCount="1" NPCLifeTime="6000" NPCTargetPosType="2" NPCCreatePosType="4" NPCDistance="15" NPCAngle="90"/>
+	<Property ID="8240310" Name="暗雷击" EventType="5" TargetType="2" FuncNo="2" Condition="824031" NPCConfigID="FB_TNJT_0026" NPCCreateCount="1" NPCLifeTime="6000" NPCTargetPosType="0" NPCCreatePosType="4" NPCDistance="3" NPCAngle="270"/>
+	<Property ID="8240311" Name="暗雷击" EventType="5" TargetType="2" FuncNo="2" Condition="824033" NPCConfigID="FB_TNJT_0026" NPCCreateCount="1" NPCLifeTime="6000" NPCTargetPosType="0" NPCCreatePosType="4" NPCDistance="9" NPCAngle="270"/>
+	<Property ID="8240312" Name="暗雷击" EventType="5" TargetType="2" FuncNo="2" Condition="824035" NPCConfigID="FB_TNJT_0026" NPCCreateCount="1" NPCLifeTime="6000" NPCTargetPosType="2" NPCCreatePosType="4" NPCDistance="15" NPCAngle="270"/>
+	<Property ID="8240313" Name="暗雷击" EventType="5" TargetType="2" FuncNo="2" Condition="824036" NPCConfigID="FB_TNJT_0026" NPCCreateCount="1" NPCLifeTime="6000" NPCTargetPosType="2" NPCCreatePosType="4" NPCDistance="9" NPCAngle="45"/>
+	<Property ID="8240314" Name="暗雷击" EventType="5" TargetType="2" FuncNo="2" Condition="824036" NPCConfigID="FB_TNJT_0026" NPCCreateCount="1" NPCLifeTime="6000" NPCTargetPosType="2" NPCCreatePosType="4" NPCDistance="9" NPCAngle="315"/>
+	<Property ID="8240315" Name="暗雷击" EventType="5" TargetType="2" FuncNo="2" Condition="824036" NPCConfigID="FB_TNJT_0026" NPCCreateCount="1" NPCLifeTime="6000" NPCTargetPosType="2" NPCCreatePosType="4" NPCDistance="9" NPCAngle="135"/>
+	<Property ID="8240316" Name="暗雷击" EventType="5" TargetType="2" FuncNo="2" Condition="824036" NPCConfigID="FB_TNJT_0026" NPCCreateCount="1" NPCLifeTime="6000" NPCTargetPosType="2" NPCCreatePosType="4" NPCDistance="9" NPCAngle="225"/>
+</Object>
+
+

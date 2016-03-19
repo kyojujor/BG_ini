@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) 
+	活动开关
+    ID 唯一
+    CurValue 只能是 1开启  0关闭
+    Desc 活动说明
+-->
+<Object>
+    <Property ID="1"   CurValue="1"  Desc="拍卖行出售"/>
+	<Property ID="2"   CurValue="1"  Desc="拍卖行购买"/>
+	<Property ID="3"   CurValue="1"  Desc="出售物品给NPC (得到金币)"/>
+	<Property ID="4"   CurValue="1"  Desc="从NPC购买 (用金币)"/>
+	<Property ID="5"   CurValue="1"  Desc="装备强化"/>
+	<Property ID="6"   CurValue="1"  Desc="装备打孔"/>
+	<Property ID="7"   CurValue="1"  Desc="装备镶嵌"/>
+	<Property ID="8"   CurValue="1"  Desc="装备洗炼"/>
+	<Property ID="9"   CurValue="1"  Desc="装备保值继承"/>
+	<Property ID="10"  CurValue="1"  Desc="生活职业制作"/>
+	<Property ID="11"  CurValue="1"  Desc="从NPC购买 (用猎杀点数)"/>
+	<Property ID="12"  CurValue="1"  Desc="从NPC购买 (用英勇点数)"/>
+	<Property ID="13"  CurValue="1"  Desc="从NPC购买 (用斩首荣誉勋章)"/>
+	<Property ID="14"  CurValue="1"  Desc="使用黑金"/>
+	<Property ID="15"  CurValue="1"  Desc="使用点券"/>
+	<Property ID="16"  CurValue="1"  Desc="宝石合成"/>
+	<Property ID="17"  CurValue="1"  Desc="装备合成"/>
+	<Property ID="18"  CurValue="1"  Desc="线下交易开关"/>
+	<Property ID="19"  CurValue="1"  Desc="角色交易的开关"/>
+	<Property ID="20"  CurValue="1"  Desc="线下交易平台日志"/>
+	<Property ID="21"  CurValue="1"  Desc="关闭GPK"/>
+    <Property ID="22"  CurValue="1"  Desc="加速处罚功能开关"/>
+    <Property ID="23"  CurValue="1"  Desc="玩家间直接交易"/>
+</Object>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 能量井开启后npc刷新包 -->
+<Object>
+<!--
+attack_guild_task:    攻防公会任务（任务需配置在NPC身上，个人接取）
+attack_camp_task:		奇幻阵营任务（主动推送）
+attack_person_task:		中立npc  ID,x,y,z,o
+attack_area_task
+defend_guild_task
+defend_camp_task
+defend_person_task
+defend_area_task
+-->
+	<Property ID="1" attack_guild_task="2005" attack_camp_task="2004" attack_person_task="2003" attack_area_task="" defend_guild_task="2007" defend_camp_task="2008" defend_person_task="2009" defend_area_task="" event_id="27001" desc=""/>
+</Object>

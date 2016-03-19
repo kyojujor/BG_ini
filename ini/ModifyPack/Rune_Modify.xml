@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--
+	"ModifyType", //修正类型1,2,3,4,5分别为修正 buff，装备，属性，技能，任务
+	//Buff修正
+	"BuffID", //修正的buffID
+	"BuffPropName", //修正的buff属性名字
+	"BuffPropValue", //修正的buff属性的值,支持配置表达式(@[属性名]，P[第几个参数]，R[X]与R[min,max])格式
+	"BuffCalType", //计算类型0增加值，1增加百分比
+	//装备修正
+	"EquipPos", //装备位置
+	"EquipItemType", //装备类型
+	"EquipID", //装备ID
+	"EquipProName", //属性名字
+	"EquipProValue", //属性值
+	"EquipCalType", //计算类型0增加值，1增加百分比
+	//属性修正
+	"PropPropName", //属性名字
+	"PropPropValue", //属性值
+	"PropCalType", //计算类型0增加值，1增加百分比
+	//技能修正
+	"SkillID", //技能ID
+	"SkillPropName", //属性名字
+	"SkillPropValue", //属性值
+	"SKillCalType", //计算类型0增加值，1增加百分比
+	//任务修正
+	"TaskID", //任务//技能ID
+	"TaskPropName", //属性名字
+	"TaskPropValue", //属性值
+	"TaskCalType", //计算类型0增加值，1增加百分比
+-->
+
+<Object>
+	<Property ID="45" ModifyName="增加护甲值" ModifyType="3" PropPropName="GuardAdd" PropPropValue="10" PropCalType="0" PropTargetType="1"/>
+	<Property ID="46" ModifyName="增加护甲值" ModifyType="3" PropPropName="GuardAdd" PropPropValue="100" PropCalType="0" PropTargetType="1"/>
+	<Property ID="47" ModifyName="增加护甲值" ModifyType="3" PropPropName="GuardAdd" PropPropValue="100" PropCalType="1" PropTargetType="1"/>
+	<Property ID="48" ModifyName="增加护甲值" ModifyType="3" PropPropName="GuardAdd" PropPropValue="50" PropCalType="1" PropTargetType="1"/>
+</Object>

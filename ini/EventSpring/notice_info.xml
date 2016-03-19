@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSpy v2010 (http://www.altova.com) by MESMERiZE (MiZE) -->
+<!-- 事件触发系统: 通告信息包 -->
+<!-- ID: 通告信息id(1~10留给程序测试用) -->
+<!-- NoticeType: 通告类型(0 事件通告; 1 行为通告; 2 子模版通告) -->
+<!-- TypeParam: 类型参数(事件id或子模版id) -->
+<!-- NoticeChannel: 通告频道(0 全服; 1 场景; 2 区域;) -->
+<!-- ChannelParam: 频道参数(场景id集合或区域id集合) -->
+<!-- Camp: 阵营(0 全部阵营; 1 蒸汽; 2 奇幻;) -->
+<!-- TimeDiff(单位: s): 与触发开始的时间差(为负表示触发开始前； 如果与主配置文件中的Duration相等, 则表示是结束时的通告。结束通告分别为未达成通告跟达成通告，例如TextId="notice_1005001，notice_1005002"其中notice_1005001是未达成通告，notice_1005002达成通告。) -->
+<!-- NoticePropId: 通告属性id -->
+<!-- TextId: 中文包id -->
+<!-- TextParam_[n]: 中文包的第n个参数的类别 -->
+<!-- TextParam_[n]=1: 事件名 -->
+<!-- TextParam_[n]=2: 距离事件开启时间 -->
+<!-- TextParam_[n]=3: 距离事件结束时间 -->
+<!-- TextParam_[n]=4: 场景名 -->
+<!-- TextParam_[n]=5: 区域名 -->
+<!-- TextParam_[n]=6: 蒸汽阵营名 -->
+<!-- TextParam_[n]=7: 奇幻阵营名 -->
+<Object>
+	<Property ID="1" NoticeType="0" TypeParam="0" NoticeChannel="0" ChannelParam="0" Camp="0" TimeDiff="-20" NoticePropId="14" TextId="notice_1" TextParam_1="1" TextParam_2="2"/>
+	<Property ID="2" NoticeType="0" TypeParam="0" NoticeChannel="0" ChannelParam="0" Camp="0" TimeDiff="0" NoticePropId="14" TextId="notice_2" TextParam_1="1"/>
+	<Property ID="3" NoticeType="0" TypeParam="0" NoticeChannel="0" ChannelParam="0" Camp="0" TimeDiff="20" NoticePropId="14" TextId="notice_3" TextParam_1="1" TextParam_2="3"/>
+	<Property ID="1002001" NoticeType="0" TypeParam="0" NoticeChannel="0" ChannelParam="0" Camp="0" TimeDiff="20" NoticePropId="14" TextId="notice_1002001" TextParam_1="1" TextParam_2="3"/>
+	<Property ID="1003001" NoticeType="0" TypeParam="0" NoticeChannel="0" ChannelParam="0" Camp="0" TimeDiff="20" NoticePropId="14" TextId="notice_1003001" TextParam_1="1" TextParam_2="3"/>
+	<Property ID="1004001" NoticeType="0" TypeParam="0" NoticeChannel="0" ChannelParam="0" Camp="0" TimeDiff="20" NoticePropId="14" TextId="notice_1004001" TextParam_1="1" TextParam_2="3"/>
+	<Property ID="1005001" NoticeType="0" TypeParam="0" NoticeChannel="0" ChannelParam="0" Camp="0" TimeDiff="20" NoticePropId="14" TextId="notice_1005001" TextParam_1="1" TextParam_2="3"/>
+	<Property ID="1001010" NoticeType="0" TypeParam="6006" NoticeChannel="0" ChannelParam="0" Camp="0" TimeDiff="-60" NoticePropId="14" TextId="notice_1001004" TextParam_1="5" TextParam_2="2"/>
+	<Property ID="1001011" NoticeType="0" TypeParam="6006" NoticeChannel="0" ChannelParam="0" Camp="0" TimeDiff="-30" NoticePropId="14" TextId="notice_1001005" TextParam_1="5" TextParam_2="2"/>
+	<Property ID="1001013" NoticeType="0" TypeParam="6006" NoticeChannel="0" ChannelParam="0" Camp="0" TimeDiff="540" NoticePropId="14" TextId="notice_1001007" TextParam_1="3"/>
+	<Property ID="1001014" NoticeType="0" TypeParam="6006" NoticeChannel="0" ChannelParam="0" Camp="0" TimeDiff="570" NoticePropId="14" TextId="notice_1001008" TextParam_1="3"/>
+	<Property ID="1001015" NoticeType="0" TypeParam="6006" NoticeChannel="0" ChannelParam="0" Camp="0" TimeDiff="599" NoticePropId="14" TextId="notice_1001009" TextParam_1="5"/>
+	<Property ID="1001016" NoticeType="0" TypeParam="6006" NoticeChannel="0" ChannelParam="0" Camp="0" TimeDiff="0" NoticePropId="14" TextId="notice_1001016" TextParam_1="5"/>
+	<Property ID="1001017" NoticeType="0" TypeParam="6006" NoticeChannel="0" ChannelParam="0" Camp="0" TimeDiff="600" NoticePropId="14" TextId="notice_1001017" TextParam_1="5"/>
+	<Property ID="10011" NoticeType="0" TypeParam="1001" NoticeChannel="2" ChannelParam="010300000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_kysj10" TextParam_1="1"/>
+	<Property ID="10012" NoticeType="0" TypeParam="1001" NoticeChannel="2" ChannelParam="010300000" Camp="1" TimeDiff="300" NoticePropId="14" TextId="notice_kysj11" TextParam_1="1"/>
+	<Property ID="100301" NoticeType="0" TypeParam="1003" NoticeChannel="2" ChannelParam="011101000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_kysj13" TextParam_1="1"/>
+	<Property ID="100302" NoticeType="0" TypeParam="1003" NoticeChannel="2" ChannelParam="011101000" Camp="1" TimeDiff="600" NoticePropId="14" TextId="notice_kysj13_1" TextParam_1="1"/>
+	<Property ID="100303" NoticeType="0" TypeParam="1003" NoticeChannel="2" ChannelParam="011101000" Camp="1" TimeDiff="900" NoticePropId="14" TextId="notice_kysj13_2" TextParam_1="1"/>
+	<Property ID="100501" NoticeType="0" TypeParam="1005" NoticeChannel="2" ChannelParam="011101000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_kysj14" TextParam_1="1"/>
+	<Property ID="100502" NoticeType="0" TypeParam="1005" NoticeChannel="2" ChannelParam="011101000" Camp="1" TimeDiff="300" NoticePropId="14" TextId="notice_kysj14_1" TextParam_1="1"/>
+	<Property ID="1009" NoticeType="0" TypeParam="1009" NoticeChannel="2" ChannelParam="010900000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_30011" TextParam_1="1"/>
+	<Property ID="1010" NoticeType="0" TypeParam="1010" NoticeChannel="2" ChannelParam="010900000" Camp="1" TimeDiff="300" NoticePropId="14" TextId="notice_30012" TextParam_1="1"/>
+	<Property ID="1011" NoticeType="0" TypeParam="1011" NoticeChannel="2" ChannelParam="010601000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_30019" TextParam_1="1"/>
+	<Property ID="1012" NoticeType="0" TypeParam="1012" NoticeChannel="2" ChannelParam="012301000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_30021" TextParam_1="1"/>
+	<Property ID="100701" NoticeType="0" TypeParam="1007" NoticeChannel="2" ChannelParam="012001000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_kysj17" TextParam_1="1"/>
+	<Property ID="100702" NoticeType="0" TypeParam="1007" NoticeChannel="2" ChannelParam="012001000" Camp="1" TimeDiff="1800" NoticePropId="14" TextId="notice_kysj18" TextParam_1="1"/>
+	<Property ID="1008" NoticeType="0" TypeParam="1008" NoticeChannel="2" ChannelParam="011300000,011400000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_kysj19" TextParam_1="1"/>
+	<Property ID="1016001" NoticeType="0" TypeParam="0" NoticeChannel="0" ChannelParam="0" Camp="0" TimeDiff="-40" NoticePropId="14" TextId="notice_1016001" TextParam_1="1" TextParam_2="2"/>
+	<Property ID="1016002" NoticeType="0" TypeParam="0" NoticeChannel="0" ChannelParam="0" Camp="0" TimeDiff="0" NoticePropId="14" TextId="notice_1016002" TextParam_1="1" TextParam_2="3"/>
+	<Property ID="1500101" NoticeType="0" TypeParam="1025" NoticeChannel="1" ChannelParam="150400000" Camp="2" TimeDiff="-60" NoticePropId="14" TextId="notice_1025001" TextParam_1="1" TextParam_2="2"/>
+	<Property ID="1500102" NoticeType="0" TypeParam="1025" NoticeChannel="1" ChannelParam="150400000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_1025002" TextParam_1="1"/>
+	<Property ID="1500201" NoticeType="0" TypeParam="15002" NoticeChannel="2" ChannelParam="150502000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_1500201" TextParam_1="1"/>
+	<Property ID="1500202" NoticeType="0" TypeParam="15002" NoticeChannel="2" ChannelParam="150502000" Camp="2" TimeDiff="10" NoticePropId="14" TextId="notice_1500202" TextParam_1="1"/>
+	<Property ID="1500203" NoticeType="0" TypeParam="15002" NoticeChannel="2" ChannelParam="150502000" Camp="2" TimeDiff="40" NoticePropId="14" TextId="notice_1500203" TextParam_1="1"/>
+	<Property ID="1500204" NoticeType="0" TypeParam="15002" NoticeChannel="2" ChannelParam="150502000" Camp="2" TimeDiff="1200" NoticePropId="14" TextId="notice_1500204" TextParam_1="1"/>
+	<Property ID="300201" NoticeType="0" TypeParam="3002" NoticeChannel="2" ChannelParam="030602000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_310001" TextParam_1="1"/>
+	<Property ID="300202" NoticeType="0" TypeParam="3002" NoticeChannel="2" ChannelParam="030602000" Camp="1" TimeDiff="600" NoticePropId="14" TextId="notice_310002" TextParam_1="1"/>
+	<Property ID="300301" NoticeType="0" TypeParam="3003" NoticeChannel="2" ChannelParam="031001000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_310011" TextParam_1="1"/>
+	<Property ID="300302" NoticeType="0" TypeParam="3003" NoticeChannel="2" ChannelParam="031001000" Camp="1" TimeDiff="1200" NoticePropId="14" TextId="notice_310012" TextParam_1="1"/>
+	<Property ID="300401" NoticeType="0" TypeParam="3004" NoticeChannel="2" ChannelParam="030401000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_310021" TextParam_1="1"/>
+	<Property ID="300402" NoticeType="0" TypeParam="3004" NoticeChannel="2" ChannelParam="030401000" Camp="1" TimeDiff="1200" NoticePropId="14" TextId="notice_310022" TextParam_1="1"/>
+	<Property ID="300501" NoticeType="0" TypeParam="3005" NoticeChannel="2" ChannelParam="031100000,031200000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_310031" TextParam_1="1"/>
+	<Property ID="300502" NoticeType="0" TypeParam="3005" NoticeChannel="2" ChannelParam="031100000,031200000" Camp="1" TimeDiff="1200" NoticePropId="14" TextId="notice_310032" TextParam_1="1"/>
+	<Property ID="300601" NoticeType="0" TypeParam="3006" NoticeChannel="2" ChannelParam="030600000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_310041" TextParam_1="1"/>
+	<Property ID="300602" NoticeType="0" TypeParam="3006" NoticeChannel="2" ChannelParam="030600000" Camp="1" TimeDiff="1200" NoticePropId="14" TextId="notice_310042" TextParam_1="1"/>
+	<Property ID="300701" NoticeType="0" TypeParam="3007" NoticeChannel="2" ChannelParam="030400000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_310051" TextParam_1="1"/>
+	<Property ID="300702" NoticeType="0" TypeParam="3007" NoticeChannel="2" ChannelParam="030400000" Camp="1" TimeDiff="1200" NoticePropId="14" TextId="notice_310052" TextParam_1="1"/>
+	<Property ID="300801" NoticeType="0" TypeParam="3008" NoticeChannel="2" ChannelParam="030501000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_310061" TextParam_1="1"/>
+	<Property ID="300802" NoticeType="0" TypeParam="3008" NoticeChannel="2" ChannelParam="030501000" Camp="1" TimeDiff="1200" NoticePropId="14" TextId="notice_310062" TextParam_1="1"/>
+	<Property ID="300901" NoticeType="0" TypeParam="3009" NoticeChannel="2" ChannelParam="031300000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_310071" TextParam_1="1"/>
+	<Property ID="300902" NoticeType="0" TypeParam="3009" NoticeChannel="2" ChannelParam="031300000" Camp="1" TimeDiff="1200" NoticePropId="14" TextId="notice_310072" TextParam_1="1"/>
+	<Property ID="301001" NoticeType="0" TypeParam="3010" NoticeChannel="2" ChannelParam="031000000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_310081" TextParam_1="1"/>
+	<Property ID="301002" NoticeType="0" TypeParam="3010" NoticeChannel="2" ChannelParam="031000000" Camp="1" TimeDiff="1200" NoticePropId="14" TextId="notice_310082" TextParam_1="1"/>
+	<Property ID="400101" NoticeType="0" TypeParam="4001" NoticeChannel="2" ChannelParam="040101000" Camp="1" TimeDiff="10" NoticePropId="14" TextId="notice_400101" TextParam_1="1"/>
+	<Property ID="400102" NoticeType="0" TypeParam="4001" NoticeChannel="2" ChannelParam="040101000" Camp="1" TimeDiff="1200" NoticePropId="14" TextId="notice_400102" TextParam_1="1"/>
+	<Property ID="400103" NoticeType="0" TypeParam="4001" NoticeChannel="2" ChannelParam="040101000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_400103" TextParam_1="1"/>
+	<Property ID="400201" NoticeType="0" TypeParam="4002" NoticeChannel="2" ChannelParam="040201000,040801000" Camp="1" TimeDiff="10" NoticePropId="14" TextId="notice_400201" TextParam_1="1"/>
+	<Property ID="400202" NoticeType="0" TypeParam="4010" NoticeChannel="2" ChannelParam="040201000,040801000" Camp="1" TimeDiff="900" NoticePropId="14" TextId="notice_400202" TextParam_1="1"/>
+	<Property ID="400203" NoticeType="0" TypeParam="4002" NoticeChannel="2" ChannelParam="040201000,040801000" Camp="1" NoticePropId="14" TextId="notice_400203" TextParam_1="1"/>
+	<Property ID="400301" NoticeType="0" TypeParam="4003" NoticeChannel="2" ChannelParam="041701000" Camp="1" TimeDiff="10" NoticePropId="14" TextId="notice_400301" TextParam_1="1"/>
+	<Property ID="400302" NoticeType="0" TypeParam="4003" NoticeChannel="2" ChannelParam="041701000" Camp="1" TimeDiff="1200" NoticePropId="14" TextId="notice_400302" TextParam_1="1"/>
+	<Property ID="400303" NoticeType="0" TypeParam="4003" NoticeChannel="2" ChannelParam="041701000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_400303" TextParam_1="1"/>
+	<Property ID="400401" NoticeType="0" TypeParam="4011" NoticeChannel="2" ChannelParam="040601000" Camp="1" TimeDiff="10" NoticePropId="14" TextId="notice_400401" TextParam_1="1"/>
+	<Property ID="400402" NoticeType="0" TypeParam="4011" NoticeChannel="2" ChannelParam="040601000" Camp="1" TimeDiff="1800" NoticePropId="14" TextId="notice_400402" TextParam_1="1"/>
+	<Property ID="400403" NoticeType="0" TypeParam="4004" NoticeChannel="2" ChannelParam="040601000" Camp="1" TimeDiff="10" NoticePropId="14" TextId="notice_400403" TextParam_1="1"/>
+	<Property ID="400404" NoticeType="0" TypeParam="4004" NoticeChannel="2" ChannelParam="040601000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_400404" TextParam_1="1"/>
+	<Property ID="400405" NoticeType="0" TypeParam="4004" NoticeChannel="2" ChannelParam="040601000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_400405" TextParam_1="1"/>
+	<Property ID="400501" NoticeType="0" TypeParam="4005" NoticeChannel="2" ChannelParam="041101000" Camp="1" TimeDiff="10" NoticePropId="14" TextId="notice_400501" TextParam_1="1"/>
+	<Property ID="400502" NoticeType="0" TypeParam="4005" NoticeChannel="2" ChannelParam="041101000" Camp="1" TimeDiff="900" NoticePropId="14" TextId="notice_400502" TextParam_1="1"/>
+	<Property ID="400503" NoticeType="0" TypeParam="4005" NoticeChannel="2" ChannelParam="041101000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_400503" TextParam_1="1"/>
+	<Property ID="400601" NoticeType="0" TypeParam="4006" NoticeChannel="2" ChannelParam="041401000,040501000" Camp="1" TimeDiff="10" NoticePropId="14" TextId="notice_400601" TextParam_1="1"/>
+	<Property ID="400602" NoticeType="0" TypeParam="4006" NoticeChannel="2" ChannelParam="041401000,040501000" Camp="1" TimeDiff="900" NoticePropId="14" TextId="notice_400602" TextParam_1="1"/>
+	<Property ID="400603" NoticeType="0" TypeParam="4006" NoticeChannel="2" ChannelParam="041401000,040501000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_400603" TextParam_1="1"/>
+	<Property ID="400701" NoticeType="0" TypeParam="4007" NoticeChannel="2" ChannelParam="040401000" Camp="1" TimeDiff="10" NoticePropId="14" TextId="notice_400701" TextParam_1="1"/>
+	<Property ID="400702" NoticeType="0" TypeParam="4007" NoticeChannel="2" ChannelParam="040401000" Camp="1" TimeDiff="900" NoticePropId="14" TextId="notice_400702" TextParam_1="1"/>
+	<Property ID="400703" NoticeType="0" TypeParam="4007" NoticeChannel="2" ChannelParam="040401000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_400703" TextParam_1="1"/>
+	<Property ID="400801" NoticeType="0" TypeParam="4008" NoticeChannel="2" ChannelParam="041501000" Camp="1" TimeDiff="10" NoticePropId="14" TextId="notice_400801" TextParam_1="1"/>
+	<Property ID="400802" NoticeType="0" TypeParam="4008" NoticeChannel="2" ChannelParam="041501000" Camp="1" TimeDiff="1200" NoticePropId="14" TextId="notice_400802" TextParam_1="1"/>
+	<Property ID="400803" NoticeType="0" TypeParam="4008" NoticeChannel="2" ChannelParam="041501000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_400803" TextParam_1="1"/>
+	<Property ID="400901" NoticeType="0" TypeParam="4009" NoticeChannel="2" ChannelParam="040602000" Camp="1" TimeDiff="10" NoticePropId="14" TextId="notice_400901" TextParam_1="1"/>
+	<Property ID="400902" NoticeType="0" TypeParam="4009" NoticeChannel="2" ChannelParam="040602000" Camp="1" TimeDiff="1200" NoticePropId="14" TextId="notice_400902" TextParam_1="1"/>
+	<Property ID="400903" NoticeType="0" TypeParam="4009" NoticeChannel="2" ChannelParam="040602000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_400903" TextParam_1="1"/>
+	<Property ID="401003" NoticeType="0" TypeParam="4010" NoticeChannel="2" ChannelParam="040201000,040801000" Camp="1" NoticePropId="14" TextId="notice_401003" TextParam_1="1"/>
+	<Property ID="401201" NoticeType="0" TypeParam="4012" NoticeChannel="2" ChannelParam="042101000" Camp="1" TimeDiff="10" NoticePropId="14" TextId="notice_401201" TextParam_1="1"/>
+	<Property ID="401202" NoticeType="0" TypeParam="4012" NoticeChannel="2" ChannelParam="042101000" Camp="1" TimeDiff="1200" NoticePropId="14" TextId="notice_401202" TextParam_1="1"/>
+	<Property ID="401203" NoticeType="0" TypeParam="4012" NoticeChannel="2" ChannelParam="042101000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_401203" TextParam_1="1"/>
+	<Property ID="401301" NoticeType="0" TypeParam="4013" NoticeChannel="2" ChannelParam="040600000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_401301" TextParam_1="1"/>
+	<Property ID="401302" NoticeType="0" TypeParam="4013" NoticeChannel="2" ChannelParam="040600000" Camp="1" TimeDiff="1200" NoticePropId="14" TextId="notice_401302" TextParam_1="1"/>
+	<Property ID="2600101" NoticeType="0" TypeParam="26001" NoticeChannel="2" ChannelParam="261201000" Camp="2" NoticePropId="14" TextId="notice_26001" TextParam_1="1" TextParam_2="2"/>
+	<Property ID="2600102" NoticeType="0" TypeParam="26001" NoticeChannel="2" ChannelParam="261201000" Camp="2" TimeDiff="1800" NoticePropId="14" TextId="notice_26011" TextParam_1="1" TextParam_2="2"/>
+	<Property ID="2600201" NoticeType="0" TypeParam="26002" NoticeChannel="2" ChannelParam="260401000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_26004"/>
+	<Property ID="2600202" NoticeType="0" TypeParam="26002" NoticeChannel="2" ChannelParam="260401000" Camp="2" TimeDiff="3600" NoticePropId="14" TextId="notice_260004"/>
+	<Property ID="2600301" NoticeType="0" TypeParam="26003" NoticeChannel="2" ChannelParam="261101000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_26002" TextParam_1="1"/>
+	<Property ID="2600302" NoticeType="0" TypeParam="26003" NoticeChannel="2" ChannelParam="261101000" Camp="2" TimeDiff="1200" NoticePropId="14" TextId="notice_260002" TextParam_1="1"/>
+	<Property ID="2600501" NoticeType="0" TypeParam="26005" NoticeChannel="2" ChannelParam="260401000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_26005" TextParam_1="1"/>
+	<Property ID="2600502" NoticeType="0" TypeParam="26005" NoticeChannel="2" ChannelParam="260401000" Camp="2" TimeDiff="900" NoticePropId="14" TextId="notice_260005" TextParam_1="1"/>
+	<Property ID="2600701" NoticeType="0" TypeParam="26007" NoticeChannel="2" ChannelParam="260901000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_26007" TextParam_1="1"/>
+	<Property ID="2600702" NoticeType="0" TypeParam="26007" NoticeChannel="2" ChannelParam="260901000" Camp="2" TimeDiff="1800" NoticePropId="14" TextId="notice_260007" TextParam_1="1"/>
+	<Property ID="2600801" NoticeType="0" TypeParam="26008" NoticeChannel="2" ChannelParam="260601000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_26008" TextParam_1="1"/>
+	<Property ID="2600802" NoticeType="0" TypeParam="26008" NoticeChannel="2" ChannelParam="260601000" Camp="2" TimeDiff="1800" NoticePropId="14" TextId="notice_260008" TextParam_1="1"/>
+	<Property ID="2600901" NoticeType="0" TypeParam="26009" NoticeChannel="2" ChannelParam="261301000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_26009" TextParam_1="1"/>
+	<Property ID="2600902" NoticeType="0" TypeParam="26009" NoticeChannel="2" ChannelParam="261301000" Camp="2" TimeDiff="1800" NoticePropId="14" TextId="notice_260009" TextParam_1="1"/>
+	<Property ID="2601001" NoticeType="0" TypeParam="26010" NoticeChannel="2" ChannelParam="261302000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_26010" TextParam_1="1"/>
+	<Property ID="2601002" NoticeType="0" TypeParam="26010" NoticeChannel="2" ChannelParam="261302000" Camp="2" TimeDiff="1800" NoticePropId="14" TextId="notice_260010" TextParam_1="1"/>
+	<Property ID="2601101" NoticeType="0" TypeParam="26011" NoticeChannel="2" ChannelParam="260301000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_2601101" TextParam_1="1"/>
+	<Property ID="2601102" NoticeType="0" TypeParam="26011" NoticeChannel="2" ChannelParam="260301000" Camp="2" TimeDiff="900" NoticePropId="14" TextId="notice_2601102" TextParam_1="1"/>
+	<Property ID="2601201" NoticeType="0" TypeParam="26012" NoticeChannel="2" ChannelParam="261202000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_2601201" TextParam_1="1"/>
+	<Property ID="2601202" NoticeType="0" TypeParam="26012" NoticeChannel="2" ChannelParam="261202000" Camp="2" TimeDiff="900" NoticePropId="14" TextId="notice_2601202" TextParam_1="1"/>
+	<Property ID="2601301" NoticeType="0" TypeParam="26013" NoticeChannel="2" ChannelParam="261001000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_2601301" TextParam_1="1"/>
+	<Property ID="2601302" NoticeType="0" TypeParam="26013" NoticeChannel="2" ChannelParam="261001000" Camp="2" TimeDiff="900" NoticePropId="14" TextId="notice_2601302" TextParam_1="1"/>
+	<Property ID="2601401" NoticeType="0" TypeParam="26014" NoticeChannel="2" ChannelParam="261401000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_2601401"/>
+	<Property ID="2601402" NoticeType="0" TypeParam="26014" NoticeChannel="2" ChannelParam="261401000" Camp="2" TimeDiff="3600" NoticePropId="14" TextId="notice_2601402"/>
+	<Property ID="2601901" NoticeType="0" TypeParam="26019" NoticeChannel="2" ChannelParam="261002000" Camp="0" TimeDiff="0" NoticePropId="14" TextId="notice_2601901" TextParam_1="1"/>
+	<Property ID="2601902" NoticeType="0" TypeParam="26019" NoticeChannel="2" ChannelParam="261002000" Camp="0" TimeDiff="900" NoticePropId="14" TextId="notice_2601902" TextParam_1="1"/>
+	<Property ID="102001" NoticeType="0" TypeParam="0" NoticeChannel="2" ChannelParam="010000000" Camp="0" TimeDiff="-20" NoticePropId="14" TextId="notice_102001" TextParam_1="1" TextParam_2="2"/>
+	<Property ID="102002" NoticeType="0" TypeParam="0" NoticeChannel="2" ChannelParam="010000000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_102002" TextParam_1="1"/>
+	<Property ID="401402" NoticeType="0" TypeParam="0" NoticeChannel="2" ChannelParam="040000000" Camp="0" TimeDiff="0" NoticePropId="14" TextId="notice_401402" TextParam_1="1"/>
+	<Property ID="701202" NoticeType="0" TypeParam="0" NoticeChannel="2" ChannelParam="070000000" Camp="0" TimeDiff="0" NoticePropId="14" TextId="notice_701202" TextParam_1="1"/>
+	<Property ID="2601602" NoticeType="0" TypeParam="0" NoticeChannel="2" ChannelParam="260000000" Camp="0" TimeDiff="0" NoticePropId="14" TextId="notice_2601602" TextParam_1="1"/>
+	<Property ID="1402301" NoticeType="0" TypeParam="14023" NoticeChannel="2" ChannelParam="140200000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_1402301" TextParam_1="1"/>
+	<Property ID="1402302" NoticeType="0" TypeParam="14023" NoticeChannel="2" ChannelParam="140200000" Camp="2" TimeDiff="3600" NoticePropId="14" TextId="notice_1402301" TextParam_1="1"/>
+	<Property ID="1501001" NoticeType="0" TypeParam="15010" NoticeChannel="2" ChannelParam="151001000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_1501001"/>
+	<Property ID="1501002" NoticeType="0" TypeParam="15010" NoticeChannel="2" ChannelParam="151001000" Camp="2" TimeDiff="10" NoticePropId="14" TextId="notice_1501002"/>
+	<Property ID="1501003" NoticeType="0" TypeParam="15010" NoticeChannel="2" ChannelParam="151001000" Camp="2" TimeDiff="40" NoticePropId="14" TextId="notice_1501003"/>
+	<Property ID="1501004" NoticeType="0" TypeParam="15010" NoticeChannel="2" ChannelParam="151001000" Camp="2" TimeDiff="1200" NoticePropId="14" TextId="notice_1501004"/>
+	<Property ID="1700101" NoticeType="0" TypeParam="17001" NoticeChannel="2" ChannelParam="170201000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_17001" TextParam_1="1"/>
+	<Property ID="1700102" NoticeType="0" TypeParam="17001" NoticeChannel="2" ChannelParam="170201000" Camp="2" TimeDiff="600" NoticePropId="14" TextId="notice_1700101" TextParam_1="1"/>
+	<Property ID="1700201" NoticeType="0" TypeParam="17002" NoticeChannel="2" ChannelParam="170301000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_17002" TextParam_1="1"/>
+	<Property ID="1700202" NoticeType="0" TypeParam="17002" NoticeChannel="2" ChannelParam="170301000" Camp="2" TimeDiff="600" NoticePropId="14" TextId="notice_1700201" TextParam_1="1"/>
+	<Property ID="1700301" NoticeType="0" TypeParam="17003" NoticeChannel="2" ChannelParam="171100000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_17003" TextParam_1="1"/>
+	<Property ID="1700302" NoticeType="0" TypeParam="17003" NoticeChannel="2" ChannelParam="171100000" Camp="2" TimeDiff="600" NoticePropId="14" TextId="notice_1700301" TextParam_1="1"/>
+	<Property ID="1700303" NoticeType="0" TypeParam="17003" NoticeChannel="2" ChannelParam="171100000" Camp="2" TimeDiff="50" NoticePropId="14" TextId="notice_1700302" TextParam_1="1"/>
+	<Property ID="1700304" NoticeType="0" TypeParam="17003" NoticeChannel="2" ChannelParam="171100000" Camp="2" TimeDiff="200" NoticePropId="14" TextId="notice_1700303" TextParam_1="1"/>
+	<Property ID="1700305" NoticeType="0" TypeParam="17003" NoticeChannel="2" ChannelParam="171100000" Camp="2" TimeDiff="400" NoticePropId="14" TextId="notice_1700304" TextParam_1="1"/>
+	<Property ID="1700401" NoticeType="0" TypeParam="17004" NoticeChannel="2" ChannelParam="170701000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_17004" TextParam_1="1"/>
+	<Property ID="1700402" NoticeType="0" TypeParam="17004" NoticeChannel="2" ChannelParam="170701000" Camp="2" TimeDiff="1200" NoticePropId="14" TextId="notice_1700401" TextParam_1="1"/>
+	<Property ID="1700501" NoticeType="0" TypeParam="17005" NoticeChannel="2" ChannelParam="171401000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_17005" TextParam_1="1"/>
+	<Property ID="1700502" NoticeType="0" TypeParam="17005" NoticeChannel="2" ChannelParam="171401000" Camp="2" TimeDiff="1200" NoticePropId="14" TextId="notice_1700501" TextParam_1="1"/>
+	<Property ID="1700601" NoticeType="0" TypeParam="17006" NoticeChannel="2" ChannelParam="170501000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_17006" TextParam_1="1"/>
+	<Property ID="1700602" NoticeType="0" TypeParam="17006" NoticeChannel="2" ChannelParam="170501000" Camp="2" TimeDiff="600" NoticePropId="14" TextId="notice_1700601" TextParam_1="1"/>
+	<Property ID="1700701" NoticeType="0" TypeParam="17007" NoticeChannel="2" ChannelParam="170900000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_17007" TextParam_1="1"/>
+	<Property ID="1700702" NoticeType="0" TypeParam="17007" NoticeChannel="2" ChannelParam="170900000" Camp="2" TimeDiff="1200" NoticePropId="14" TextId="notice_1700701" TextParam_1="1"/>
+	<Property ID="1700703" NoticeType="0" TypeParam="17007" NoticeChannel="2" ChannelParam="170900000" Camp="2" TimeDiff="100" NoticePropId="14" TextId="notice_1700702" TextParam_1="1"/>
+	<Property ID="1700704" NoticeType="0" TypeParam="17007" NoticeChannel="2" ChannelParam="170900000" Camp="2" TimeDiff="300" NoticePropId="14" TextId="notice_1700703" TextParam_1="1"/>
+	<Property ID="1700705" NoticeType="0" TypeParam="17007" NoticeChannel="2" ChannelParam="170900000" Camp="2" TimeDiff="700" NoticePropId="14" TextId="notice_1700704" TextParam_1="1"/>
+	<Property ID="1700706" NoticeType="0" TypeParam="17007" NoticeChannel="2" ChannelParam="170900000" Camp="2" TimeDiff="1000" NoticePropId="14" TextId="notice_1700705" TextParam_1="1"/>
+	<Property ID="1700801" NoticeType="0" TypeParam="17008" NoticeChannel="2" ChannelParam="171501000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_17008" TextParam_1="1"/>
+	<Property ID="1700802" NoticeType="0" TypeParam="17008" NoticeChannel="2" ChannelParam="171501000" Camp="2" TimeDiff="1500" NoticePropId="14" TextId="notice_1700801" TextParam_1="1"/>
+	<Property ID="1700901" NoticeType="0" TypeParam="17009" NoticeChannel="2" ChannelParam="171201000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_17009" TextParam_1="1"/>
+	<Property ID="1700902" NoticeType="0" TypeParam="17009" NoticeChannel="2" ChannelParam="171201000" Camp="2" TimeDiff="1800" NoticePropId="14" TextId="notice_1700901" TextParam_1="1"/>
+	<Property ID="1701001" NoticeType="0" TypeParam="17010" NoticeChannel="2" ChannelParam="171600000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_17010" TextParam_1="1"/>
+	<Property ID="1701002" NoticeType="0" TypeParam="17010" NoticeChannel="2" ChannelParam="171600000" Camp="2" TimeDiff="3600" NoticePropId="14" TextId="notice_1701001" TextParam_1="1"/>
+	<Property ID="1701101" NoticeType="0" TypeParam="17011" NoticeChannel="2" ChannelParam="171300000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_17011" TextParam_1="1"/>
+	<Property ID="1701102" NoticeType="0" TypeParam="17011" NoticeChannel="2" ChannelParam="171300000" Camp="2" TimeDiff="3600" NoticePropId="14" TextId="notice_1701101" TextParam_1="1"/>
+	<Property ID="1403402" NoticeType="0" TypeParam="14034" NoticeChannel="2" ChannelParam="141302000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_1403402" TextParam_1="1"/>
+	<Property ID="1403101" NoticeType="0" TypeParam="14031" NoticeChannel="2" ChannelParam="141500000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_14031" TextParam_1="1"/>
+	<Property ID="1403102" NoticeType="0" TypeParam="14031" NoticeChannel="2" ChannelParam="141500000" Camp="2" TimeDiff="600" NoticePropId="14" TextId="notice_1403101" TextParam_1="1"/>
+	<Property ID="1403501" NoticeType="0" TypeParam="14035" NoticeChannel="2" ChannelParam="141201000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_1403501"/>
+	<Property ID="1403002" NoticeType="0" TypeParam="14030" NoticeChannel="2" ChannelParam="141301000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_1403001" TextParam_1="1"/>
+	<Property ID="1403003" NoticeType="0" TypeParam="14030" NoticeChannel="2" ChannelParam="141301000" Camp="2" TimeDiff="1800" NoticePropId="14" TextId="notice_1403002" TextParam_1="1"/>
+	<Property ID="1403201" NoticeType="0" TypeParam="14032" NoticeChannel="2" ChannelParam="141800000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_1403201" TextParam_1="1"/>
+	<Property ID="1403202" NoticeType="0" TypeParam="14032" NoticeChannel="2" ChannelParam="141800000" Camp="2" TimeDiff="600" NoticePropId="14" TextId="notice_1403202" TextParam_1="1"/>
+	<Property ID="101601" NoticeType="0" TypeParam="1016" NoticeChannel="2" ChannelParam="010500000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_101601" TextParam_1="1"/>
+	<Property ID="101602" NoticeType="0" TypeParam="1016" NoticeChannel="2" ChannelParam="010500000" Camp="1" TimeDiff="600" NoticePropId="14" TextId="notice_101602" TextParam_1="1"/>
+	<Property ID="101701" NoticeType="0" TypeParam="1017" NoticeChannel="2" ChannelParam="011700000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_101701" TextParam_1="1"/>
+	<Property ID="101702" NoticeType="0" TypeParam="1017" NoticeChannel="2" ChannelParam="011700000" Camp="1" TimeDiff="600" NoticePropId="14" TextId="notice_101702" TextParam_1="1"/>
+	<Property ID="101501" NoticeType="0" TypeParam="1015" NoticeChannel="2" ChannelParam="012900000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_101501" TextParam_1="1"/>
+	<Property ID="101502" NoticeType="0" TypeParam="1015" NoticeChannel="2" ChannelParam="012900000" Camp="1" TimeDiff="600" NoticePropId="14" TextId="notice_101502" TextParam_1="1"/>
+	<Property ID="101801" NoticeType="0" TypeParam="1018" NoticeChannel="2" ChannelParam="011901000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_101801" TextParam_1="1"/>
+	<Property ID="101802" NoticeType="0" TypeParam="1018" NoticeChannel="2" ChannelParam="011901000" Camp="1" TimeDiff="600" NoticePropId="14" TextId="notice_101802" TextParam_1="1"/>
+	<Property ID="1800101" NoticeType="0" TypeParam="18001" NoticeChannel="2" ChannelParam="180500000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_18001" TextParam_1="1"/>
+	<Property ID="1800102" NoticeType="0" TypeParam="18001" NoticeChannel="2" ChannelParam="180500000" Camp="2" TimeDiff="1800" NoticePropId="14" TextId="notice_1800101" TextParam_1="1"/>
+	<Property ID="1800401" NoticeType="0" TypeParam="18004" NoticeChannel="2" ChannelParam="181101000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_18004" TextParam_1="1"/>
+	<Property ID="1800402" NoticeType="0" TypeParam="18004" NoticeChannel="2" ChannelParam="181101000" Camp="2" TimeDiff="1200" NoticePropId="14" TextId="notice_1800401" TextParam_1="1"/>
+	<Property ID="1800501" NoticeType="0" TypeParam="18005" NoticeChannel="2" ChannelParam="181001000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_18005" TextParam_1="1"/>
+	<Property ID="1800502" NoticeType="0" TypeParam="18005" NoticeChannel="2" ChannelParam="181001000" Camp="2" TimeDiff="600" NoticePropId="14" TextId="notice_1800501" TextParam_1="1"/>
+	<Property ID="1800601" NoticeType="0" TypeParam="18006" NoticeChannel="2" ChannelParam="181201000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_18006" TextParam_1="1"/>
+	<Property ID="1800602" NoticeType="0" TypeParam="18006" NoticeChannel="2" ChannelParam="181201000" Camp="2" TimeDiff="600" NoticePropId="14" TextId="notice_1800601" TextParam_1="1"/>
+	<Property ID="1800701" NoticeType="0" TypeParam="18007" NoticeChannel="2" ChannelParam="180601000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_18007" TextParam_1="1"/>
+	<Property ID="1800702" NoticeType="0" TypeParam="18007" NoticeChannel="2" ChannelParam="180601000" Camp="2" TimeDiff="1200" NoticePropId="14" TextId="notice_1800701" TextParam_1="1"/>
+	<Property ID="1800801" NoticeType="0" TypeParam="18008" NoticeChannel="2" ChannelParam="180202000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_18008" TextParam_1="1"/>
+	<Property ID="1800802" NoticeType="0" TypeParam="18008" NoticeChannel="2" ChannelParam="180202000" Camp="2" TimeDiff="600" NoticePropId="14" TextId="notice_1800801" TextParam_1="1"/>
+	<Property ID="1800901" NoticeType="0" TypeParam="18009" NoticeChannel="2" ChannelParam="180401000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_18009" TextParam_1="1"/>
+	<Property ID="1800902" NoticeType="0" TypeParam="18009" NoticeChannel="2" ChannelParam="180401000" Camp="2" TimeDiff="1200" NoticePropId="14" TextId="notice_1800901" TextParam_1="1"/>
+	<Property ID="1801001" NoticeType="0" TypeParam="18010" NoticeChannel="2" ChannelParam="180402000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_18010" TextParam_1="1"/>
+	<Property ID="1801002" NoticeType="0" TypeParam="18010" NoticeChannel="2" ChannelParam="180402000" Camp="2" TimeDiff="1200" NoticePropId="14" TextId="notice_1801001" TextParam_1="1"/>
+	<Property ID="1801101" NoticeType="0" TypeParam="18011" NoticeChannel="2" ChannelParam="181301000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_18011" TextParam_1="1"/>
+	<Property ID="1801102" NoticeType="0" TypeParam="18011" NoticeChannel="2" ChannelParam="181301000" Camp="2" TimeDiff="600" NoticePropId="14" TextId="notice_1801101" TextParam_1="1"/>
+	<Property ID="1801201" NoticeType="0" TypeParam="18012" NoticeChannel="2" ChannelParam="181302000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_18012" TextParam_1="1"/>
+	<Property ID="1801202" NoticeType="0" TypeParam="18012" NoticeChannel="2" ChannelParam="181302000" Camp="2" TimeDiff="600" NoticePropId="14" TextId="notice_1801201" TextParam_1="1"/>
+	<Property ID="700101" NoticeType="0" TypeParam="7001" NoticeChannel="2" ChannelParam="070101000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_700101" TextParam_1="1"/>
+	<Property ID="700102" NoticeType="0" TypeParam="7001" NoticeChannel="2" ChannelParam="070101000" Camp="1" TimeDiff="900" NoticePropId="14" TextId="notice_700102" TextParam_1="1"/>
+	<Property ID="700201" NoticeType="0" TypeParam="7002" NoticeChannel="2" ChannelParam="070201000,071401000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_700201" TextParam_1="1"/>
+	<Property ID="700202" NoticeType="0" TypeParam="7002" NoticeChannel="2" ChannelParam="070201000,071401000" Camp="1" TimeDiff="900" NoticePropId="14" TextId="notice_700202" TextParam_1="1"/>
+	<Property ID="700301" NoticeType="0" TypeParam="7003" NoticeChannel="2" ChannelParam="070300000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_700301" TextParam_1="1"/>
+	<Property ID="700302" NoticeType="0" TypeParam="7003" NoticeChannel="2" ChannelParam="070300000" Camp="1" TimeDiff="900" NoticePropId="14" TextId="notice_700302" TextParam_1="1"/>
+	<Property ID="700401" NoticeType="0" TypeParam="7004" NoticeChannel="2" ChannelParam="070301000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_700401" TextParam_1="1"/>
+	<Property ID="700402" NoticeType="0" TypeParam="7004" NoticeChannel="2" ChannelParam="070301000" Camp="1" TimeDiff="900" NoticePropId="14" TextId="notice_700402" TextParam_1="1"/>
+	<Property ID="700601" NoticeType="0" TypeParam="7006" NoticeChannel="2" ChannelParam="070601000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_700601" TextParam_1="1"/>
+	<Property ID="700602" NoticeType="0" TypeParam="7006" NoticeChannel="2" ChannelParam="070601000" Camp="1" TimeDiff="900" NoticePropId="14" TextId="notice_700602" TextParam_1="1"/>
+	<Property ID="700701" NoticeType="0" TypeParam="7007" NoticeChannel="2" ChannelParam="070501000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_700701" TextParam_1="1"/>
+	<Property ID="700702" NoticeType="0" TypeParam="7007" NoticeChannel="2" ChannelParam="070501000" Camp="1" TimeDiff="900" NoticePropId="14" TextId="notice_700702" TextParam_1="1"/>
+	<Property ID="701001" NoticeType="0" TypeParam="7010" NoticeChannel="2" ChannelParam="071701000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_701001" TextParam_1="1"/>
+	<Property ID="701002" NoticeType="0" TypeParam="7010" NoticeChannel="2" ChannelParam="071701000" Camp="1" TimeDiff="3600" NoticePropId="14" TextId="notice_701002" TextParam_1="1"/>
+	<Property ID="700801" NoticeType="0" TypeParam="7008" NoticeChannel="2" ChannelParam="070701000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_700801" TextParam_1="1"/>
+	<Property ID="700802" NoticeType="0" TypeParam="7008" NoticeChannel="2" ChannelParam="070701000" Camp="1" TimeDiff="900" NoticePropId="14" TextId="notice_700802" TextParam_1="1"/>
+	<Property ID="700901" NoticeType="0" TypeParam="7009" NoticeChannel="2" ChannelParam="070702000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_700901" TextParam_1="1"/>
+	<Property ID="700902" NoticeType="0" TypeParam="7009" NoticeChannel="2" ChannelParam="070702000" Camp="1" TimeDiff="900" NoticePropId="14" TextId="notice_700902" TextParam_1="1"/>
+	<Property ID="701101" NoticeType="0" TypeParam="7011" NoticeChannel="2" ChannelParam="071003000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_701101" TextParam_1="1"/>
+	<Property ID="701102" NoticeType="0" TypeParam="7011" NoticeChannel="2" ChannelParam="071003000" Camp="1" TimeDiff="900" NoticePropId="14" TextId="notice_701102" TextParam_1="1"/>
+	<Property ID="1800201" NoticeType="0" TypeParam="18002" NoticeChannel="2" ChannelParam="180200000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_18002" TextParam_1="1"/>
+	<Property ID="1800202" NoticeType="0" TypeParam="18002" NoticeChannel="2" ChannelParam="180200000" Camp="2" TimeDiff="3600" NoticePropId="14" TextId="notice_1800201" TextParam_1="1"/>
+	<Property ID="301201" NoticeType="0" TypeParam="3012" NoticeChannel="2" ChannelParam="031400000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_301201" TextParam_1="1"/>
+	<Property ID="301202" NoticeType="0" TypeParam="3012" NoticeChannel="2" ChannelParam="031400000" Camp="1" TimeDiff="600" NoticePropId="14" TextId="notice_301202" TextParam_1="1"/>
+	<Property ID="301301" NoticeType="0" TypeParam="0" NoticeChannel="2" ChannelParam="030000000" Camp="0" TimeDiff="0" NoticePropId="14" TextId="notice_301301" TextParam_1="1"/>
+	<Property ID="1402501" NoticeType="0" TypeParam="0" NoticeChannel="2" ChannelParam="140000000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_1402501" TextParam_1="1"/>
+	<Property ID="1402502" NoticeType="0" TypeParam="0" NoticeChannel="2" ChannelParam="140000000" Camp="0" TimeDiff="400" NoticePropId="14" TextId="notice_1402502" TextParam_1="1"/>
+	<Property ID="1501501" NoticeType="0" TypeParam="0" NoticeChannel="2" ChannelParam="150000000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_1501501" TextParam_1="1"/>
+	<Property ID="1501502" NoticeType="0" TypeParam="0" NoticeChannel="2" ChannelParam="150000000" Camp="2" TimeDiff="400" NoticePropId="14" TextId="notice_1501502" TextParam_1="1"/>
+	<Property ID="1701201" NoticeType="0" TypeParam="0" NoticeChannel="2" ChannelParam="170000000" Camp="0" TimeDiff="0" NoticePropId="14" TextId="notice_1701201" TextParam_1="1"/>
+	<Property ID="1701202" NoticeType="0" TypeParam="0" NoticeChannel="2" ChannelParam="170000000" Camp="0" TimeDiff="400" NoticePropId="14" TextId="notice_1701202" TextParam_1="1"/>
+	<Property ID="1801301" NoticeType="0" TypeParam="0" NoticeChannel="2" ChannelParam="180000000" Camp="0" TimeDiff="0" NoticePropId="14" TextId="notice_1801301" TextParam_1="1"/>
+	<Property ID="1801302" NoticeType="0" TypeParam="0" NoticeChannel="2" ChannelParam="180000000" Camp="0" TimeDiff="400" NoticePropId="14" TextId="notice_1801302" TextParam_1="1"/>
+	<Property ID="2201101" NoticeType="0" TypeParam="0" NoticeChannel="2" ChannelParam="220000000" Camp="0" TimeDiff="0" NoticePropId="14" TextId="notice_2201101" TextParam_1="1"/>
+	<Property ID="2201102" NoticeType="0" TypeParam="0" NoticeChannel="2" ChannelParam="220000000" Camp="0" TimeDiff="400" NoticePropId="14" TextId="notice_2201102" TextParam_1="1"/>
+	<Property ID="902201" NoticeType="0" TypeParam="9022" NoticeChannel="2" ChannelParam="090000000" Camp="0" NoticePropId="14" TextId="notice_902201"/>
+	<Property ID="800801" NoticeType="0" TypeParam="8008" NoticeChannel="2" ChannelParam="080000000" Camp="0" NoticePropId="14" TextId="notice_800801"/>
+	<Property ID="1901101" NoticeType="0" TypeParam="19011" NoticeChannel="2" ChannelParam="190000000" Camp="0" NoticePropId="14" TextId="notice_1901101"/>
+	<Property ID="102101" NoticeType="0" TypeParam="0" NoticeChannel="2" ChannelParam="010000000" Camp="0" TimeDiff="0" NoticePropId="14" TextId="notice_102101" TextParam_1="1" TextParam_2="2"/>
+	<Property ID="102102" NoticeType="0" TypeParam="1021" NoticeChannel="2" ChannelParam="010000000" Camp="0" TimeDiff="-300" NoticePropId="14" TextId="notice_102102" TextParam_1="2"/>
+	<Property ID="1400101" NoticeType="0" TypeParam="14001" NoticeChannel="2" ChannelParam="141000000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_1400101" TextParam_1="1"/>
+	<Property ID="1400201" NoticeType="0" TypeParam="14002" NoticeChannel="2" ChannelParam="140702000,141601000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_1400201" TextParam_1="1"/>
+	<Property ID="301701" NoticeType="0" TypeParam="3017" NoticeChannel="2" ChannelParam="030201000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_301701" TextParam_1="1"/>
+	<Property ID="301702" NoticeType="0" TypeParam="3017" NoticeChannel="2" ChannelParam="030201000" Camp="1" TimeDiff="1800" NoticePropId="14" TextId="notice_301702" TextParam_1="1"/>
+	<Property ID="1019001" NoticeType="0" TypeParam="1019" NoticeChannel="2" ChannelParam="010000000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_1019001" TextParam_1="1"/>
+	<Property ID="1403601" NoticeType="0" TypeParam="14036" NoticeChannel="2" ChannelParam="140000000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_1403601" TextParam_1="1"/>
+	<Property ID="1501901" NoticeType="0" TypeParam="15019" NoticeChannel="2" ChannelParam="150702000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_1501901" TextParam_1="1"/>
+	<Property ID="1501902" NoticeType="0" TypeParam="15019" NoticeChannel="2" ChannelParam="150702000" Camp="2" TimeDiff="300" NoticePropId="14" TextId="notice_1501902" TextParam_1="1"/>
+	<Property ID="3015" NoticeType="0" TypeParam="3015" NoticeChannel="2" ChannelParam="031101000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_3015"/>
+	<Property ID="30161" NoticeType="1" TypeParam="30161" NoticeChannel="2" ChannelParam="031401000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_30161"/>
+	<Property ID="1403801" NoticeType="0" TypeParam="14038" NoticeChannel="2" ChannelParam="140100000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_1403801" TextParam_1="1"/>
+	<Property ID="1403802" NoticeType="0" TypeParam="14038" NoticeChannel="2" ChannelParam="140100000" Camp="2" TimeDiff="1200" NoticePropId="14" TextId="notice_1403802" TextParam_1="1"/>
+	<Property ID="1500401" NoticeType="0" TypeParam="15004" NoticeChannel="2" ChannelParam="150503000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_1500401" TextParam_1="1"/>
+	<Property ID="1500402" NoticeType="0" TypeParam="15004" NoticeChannel="2" ChannelParam="150503000" Camp="2" TimeDiff="10" NoticePropId="14" TextId="notice_1500402" TextParam_1="1"/>
+	<Property ID="1500403" NoticeType="0" TypeParam="15004" NoticeChannel="2" ChannelParam="150503000" Camp="2" TimeDiff="30" NoticePropId="14" TextId="notice_1500403" TextParam_1="1"/>
+	<Property ID="1500404" NoticeType="0" TypeParam="15004" NoticeChannel="2" ChannelParam="150503000" Camp="2" TimeDiff="1200" NoticePropId="14" TextId="notice_1500404" TextParam_1="1"/>
+	<Property ID="1500701" NoticeType="0" TypeParam="15007" NoticeChannel="2" ChannelParam="151501000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_1500701" TextParam_1="1"/>
+	<Property ID="1500702" NoticeType="0" TypeParam="15007" NoticeChannel="2" ChannelParam="151501000" Camp="2" TimeDiff="10" NoticePropId="14" TextId="notice_1500702" TextParam_1="1"/>
+	<Property ID="1500703" NoticeType="0" TypeParam="15007" NoticeChannel="2" ChannelParam="151501000" Camp="2" TimeDiff="30" NoticePropId="14" TextId="notice_1500703" TextParam_1="1"/>
+	<Property ID="1500704" NoticeType="0" TypeParam="15007" NoticeChannel="2" ChannelParam="151501000" Camp="2" TimeDiff="3600" NoticePropId="14" TextId="notice_1500704" TextParam_1="1"/>
+	<Property ID="1500801" NoticeType="0" TypeParam="15008" NoticeChannel="2" ChannelParam="150801000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_1500801" TextParam_1="1"/>
+	<Property ID="1500802" NoticeType="0" TypeParam="15008" NoticeChannel="2" ChannelParam="150801000" Camp="2" TimeDiff="10" NoticePropId="14" TextId="notice_1500802" TextParam_1="1"/>
+	<Property ID="1500803" NoticeType="0" TypeParam="15008" NoticeChannel="2" ChannelParam="150801000" Camp="2" TimeDiff="90" NoticePropId="14" TextId="notice_1500803" TextParam_1="1"/>
+	<Property ID="1501201" NoticeType="0" TypeParam="15012" NoticeChannel="2" ChannelParam="150401000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_1501201" TextParam_1="1"/>
+	<Property ID="1501202" NoticeType="0" TypeParam="15012" NoticeChannel="2" ChannelParam="150401000" Camp="2" TimeDiff="10" NoticePropId="14" TextId="notice_1501202" TextParam_1="1"/>
+	<Property ID="1501203" NoticeType="0" TypeParam="15012" NoticeChannel="2" ChannelParam="150401000" Camp="2" TimeDiff="180" NoticePropId="14" TextId="notice_1501203" TextParam_1="1"/>
+	<Property ID="1501204" NoticeType="0" TypeParam="15012" NoticeChannel="2" ChannelParam="150401000" Camp="2" TimeDiff="900" NoticePropId="14" TextId="notice_1501204" TextParam_1="1"/>
+	<Property ID="1501401" NoticeType="0" TypeParam="15014" NoticeChannel="2" ChannelParam="150501000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_1501401" TextParam_1="1"/>
+	<Property ID="1501402" NoticeType="0" TypeParam="15014" NoticeChannel="2" ChannelParam="150501000" Camp="2" TimeDiff="10" NoticePropId="14" TextId="notice_1501402" TextParam_1="1"/>
+	<Property ID="1501403" NoticeType="0" TypeParam="15014" NoticeChannel="2" ChannelParam="150501000" Camp="2" TimeDiff="3600" NoticePropId="14" TextId="notice_1501403" TextParam_1="1"/>
+	<Property ID="1500601" NoticeType="0" TypeParam="15006" NoticeChannel="2" ChannelParam="151201000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_1500601" TextParam_1="1"/>
+	<Property ID="1500602" NoticeType="0" TypeParam="15006" NoticeChannel="2" ChannelParam="151201000" Camp="2" TimeDiff="10" NoticePropId="14" TextId="notice_1500602" TextParam_1="1"/>
+	<Property ID="1500603" NoticeType="0" TypeParam="15006" NoticeChannel="2" ChannelParam="151201000" Camp="2" TimeDiff="1200" NoticePropId="14" TextId="notice_1500603" TextParam_1="1"/>
+	<Property ID="1501601" NoticeType="0" TypeParam="15016" NoticeChannel="2" ChannelParam="150901000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_1501601" TextParam_1="1"/>
+	<Property ID="1501602" NoticeType="0" TypeParam="15016" NoticeChannel="2" ChannelParam="151101000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_1501602" TextParam_1="1"/>
+	<Property ID="1501603" NoticeType="0" TypeParam="15016" NoticeChannel="2" ChannelParam="151101000" Camp="2" TimeDiff="10" NoticePropId="14" TextId="notice_1501603" TextParam_1="1"/>
+	<Property ID="1501604" NoticeType="0" TypeParam="15016" NoticeChannel="2" ChannelParam="151101000" Camp="2" TimeDiff="300" NoticePropId="14" TextId="notice_1501604" TextParam_1="1"/>
+	<Property ID="1900101" NoticeType="0" TypeParam="19001" NoticeChannel="2" ChannelParam="190101000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_1900101" TextParam_1="1"/>
+	<Property ID="1900102" NoticeType="0" TypeParam="19001" NoticeChannel="2" ChannelParam="190101000" Camp="2" TimeDiff="1200" NoticePropId="14" TextId="notice_1900102" TextParam_1="1"/>
+	<Property ID="1900201" NoticeType="0" TypeParam="19002" NoticeChannel="2" ChannelParam="190401000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_1900201" TextParam_1="1"/>
+	<Property ID="1900202" NoticeType="0" TypeParam="19002" NoticeChannel="2" ChannelParam="190401000" Camp="2" TimeDiff="1200" NoticePropId="14" TextId="notice_1900202" TextParam_1="1"/>
+	<Property ID="1900301" NoticeType="0" TypeParam="19003" NoticeChannel="2" ChannelParam="190402000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_1900301" TextParam_1="1"/>
+	<Property ID="1900302" NoticeType="0" TypeParam="19003" NoticeChannel="2" ChannelParam="190402000" Camp="2" TimeDiff="3600" NoticePropId="14" TextId="notice_1900302" TextParam_1="1"/>
+	<Property ID="1900401" NoticeType="0" TypeParam="19004" NoticeChannel="2" ChannelParam="190901000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_1900401" TextParam_1="1"/>
+	<Property ID="1900402" NoticeType="0" TypeParam="19004" NoticeChannel="2" ChannelParam="190901000" Camp="2" TimeDiff="1500" NoticePropId="14" TextId="notice_1900402" TextParam_1="1"/>
+	<Property ID="1900501" NoticeType="0" TypeParam="19005" NoticeChannel="2" ChannelParam="190701000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_1900501" TextParam_1="1"/>
+	<Property ID="1900502" NoticeType="0" TypeParam="19005" NoticeChannel="2" ChannelParam="190701000" Camp="2" TimeDiff="1200" NoticePropId="14" TextId="notice_1900502" TextParam_1="1"/>
+	<Property ID="1900601" NoticeType="0" TypeParam="19006" NoticeChannel="2" ChannelParam="190701000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_1900601" TextParam_1="1"/>
+	<Property ID="1900602" NoticeType="0" TypeParam="19006" NoticeChannel="2" ChannelParam="190701000" Camp="2" TimeDiff="3600" NoticePropId="14" TextId="notice_1900602" TextParam_1="1"/>
+	<Property ID="1900701" NoticeType="0" TypeParam="19007" NoticeChannel="2" ChannelParam="190801000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_1900701" TextParam_1="1"/>
+	<Property ID="1900702" NoticeType="0" TypeParam="19007" NoticeChannel="2" ChannelParam="190801000" Camp="2" TimeDiff="1800" NoticePropId="14" TextId="notice_1900702" TextParam_1="1"/>
+	<Property ID="1900901" NoticeType="0" TypeParam="19009" NoticeChannel="2" ChannelParam="191401000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_1900901" TextParam_1="1"/>
+	<Property ID="1900902" NoticeType="0" TypeParam="19009" NoticeChannel="2" ChannelParam="191401000" Camp="2" TimeDiff="1200" NoticePropId="14" TextId="notice_1900902" TextParam_1="1"/>
+	<Property ID="800101" NoticeType="0" TypeParam="8001" NoticeChannel="2" ChannelParam="081201000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_800101" TextParam_1="1"/>
+	<Property ID="800102" NoticeType="0" TypeParam="8001" NoticeChannel="2" ChannelParam="081201000" Camp="1" TimeDiff="3600" NoticePropId="14" TextId="notice_800102" TextParam_1="1"/>
+	<Property ID="800201" NoticeType="0" TypeParam="8002" NoticeChannel="2" ChannelParam="080901000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_800201" TextParam_1="1"/>
+	<Property ID="800202" NoticeType="0" TypeParam="8002" NoticeChannel="2" ChannelParam="080901000" Camp="1" TimeDiff="3600" NoticePropId="14" TextId="notice_800202" TextParam_1="1"/>
+	<Property ID="800301" NoticeType="0" TypeParam="8003" NoticeChannel="2" ChannelParam="080101000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_800301" TextParam_1="1"/>
+	<Property ID="800302" NoticeType="0" TypeParam="8003" NoticeChannel="2" ChannelParam="080101000" Camp="1" TimeDiff="900" NoticePropId="14" TextId="notice_800302" TextParam_1="1"/>
+	<Property ID="800401" NoticeType="0" TypeParam="8004" NoticeChannel="2" ChannelParam="080401000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_800401" TextParam_1="1"/>
+	<Property ID="800402" NoticeType="0" TypeParam="8004" NoticeChannel="2" ChannelParam="080401000" Camp="1" TimeDiff="600" NoticePropId="14" TextId="notice_800402" TextParam_1="1"/>
+	<Property ID="800501" NoticeType="0" TypeParam="8005" NoticeChannel="2" ChannelParam="080502000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_800501" TextParam_1="1"/>
+	<Property ID="800502" NoticeType="0" TypeParam="8005" NoticeChannel="2" ChannelParam="080502000" Camp="1" TimeDiff="600" NoticePropId="14" TextId="notice_800502" TextParam_1="1"/>
+	<Property ID="800601" NoticeType="0" TypeParam="8006" NoticeChannel="2" ChannelParam="080300000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_800601" TextParam_1="1"/>
+	<Property ID="800602" NoticeType="0" TypeParam="8006" NoticeChannel="2" ChannelParam="080300000" Camp="1" TimeDiff="600" NoticePropId="14" TextId="notice_800602" TextParam_1="1"/>
+	<Property ID="800701" NoticeType="0" TypeParam="8007" NoticeChannel="2" ChannelParam="080701000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_800701" TextParam_1="1"/>
+	<Property ID="800702" NoticeType="0" TypeParam="8007" NoticeChannel="2" ChannelParam="080701000" Camp="1" TimeDiff="600" NoticePropId="14" TextId="notice_800702" TextParam_1="1"/>
+	<Property ID="2200101" NoticeType="0" TypeParam="22001" NoticeChannel="2" ChannelParam="220801000" Camp="0" TimeDiff="0" NoticePropId="14" TextId="notice_2200101" TextParam_1="1"/>
+	<Property ID="2200102" NoticeType="0" TypeParam="22001" NoticeChannel="2" ChannelParam="220801000" Camp="0" TimeDiff="1800" NoticePropId="14" TextId="notice_2200102" TextParam_1="1"/>
+	<Property ID="2200201" NoticeType="0" TypeParam="22002" NoticeChannel="2" ChannelParam="221401000" Camp="0" TimeDiff="0" NoticePropId="14" TextId="notice_2200201" TextParam_1="1"/>
+	<Property ID="2200202" NoticeType="0" TypeParam="22002" NoticeChannel="2" ChannelParam="221401000" Camp="0" TimeDiff="1200" NoticePropId="14" TextId="notice_2200202" TextParam_1="1"/>
+	<Property ID="2200301" NoticeType="0" TypeParam="22003" NoticeChannel="2" ChannelParam="221301000" Camp="0" TimeDiff="0" NoticePropId="14" TextId="notice_2200301" TextParam_1="1"/>
+	<Property ID="2200302" NoticeType="0" TypeParam="22003" NoticeChannel="2" ChannelParam="221301000" Camp="0" TimeDiff="1200" NoticePropId="14" TextId="notice_2200302" TextParam_1="1"/>
+	<Property ID="2200401" NoticeType="0" TypeParam="22004" NoticeChannel="2" ChannelParam="221601000" Camp="0" TimeDiff="0" NoticePropId="14" TextId="notice_2200401" TextParam_1="1"/>
+	<Property ID="2200402" NoticeType="0" TypeParam="22004" NoticeChannel="2" ChannelParam="221601000" Camp="0" TimeDiff="1200" NoticePropId="14" TextId="notice_2200402" TextParam_1="1"/>
+	<Property ID="2200501" NoticeType="0" TypeParam="22005" NoticeChannel="2" ChannelParam="220501000" Camp="0" TimeDiff="0" NoticePropId="14" TextId="notice_2200501" TextParam_1="1"/>
+	<Property ID="2200502" NoticeType="0" TypeParam="22005" NoticeChannel="2" ChannelParam="220501000" Camp="0" TimeDiff="1200" NoticePropId="14" TextId="notice_2200502" TextParam_1="1"/>
+	<Property ID="2200601" NoticeType="0" TypeParam="22006" NoticeChannel="2" ChannelParam="221001000" Camp="0" TimeDiff="0" NoticePropId="14" TextId="notice_2200601" TextParam_1="1"/>
+	<Property ID="2200602" NoticeType="0" TypeParam="22006" NoticeChannel="2" ChannelParam="221001000" Camp="0" TimeDiff="1200" NoticePropId="14" TextId="notice_2200602" TextParam_1="1"/>
+	<Property ID="2200701" NoticeType="0" TypeParam="22007" NoticeChannel="2" ChannelParam="220401000" Camp="0" TimeDiff="0" NoticePropId="14" TextId="notice_2200701" TextParam_1="1"/>
+	<Property ID="2200702" NoticeType="0" TypeParam="22007" NoticeChannel="2" ChannelParam="220401000" Camp="0" TimeDiff="1200" NoticePropId="14" TextId="notice_2200702" TextParam_1="1"/>
+	<Property ID="2200801" NoticeType="0" TypeParam="22008" NoticeChannel="2" ChannelParam="220000000" Camp="0" TimeDiff="0" NoticePropId="14" TextId="notice_2200801" TextParam_1="1"/>
+	<Property ID="2200802" NoticeType="0" TypeParam="22008" NoticeChannel="2" ChannelParam="220000000" Camp="0" TimeDiff="3600" NoticePropId="14" TextId="notice_2200802" TextParam_1="1"/>
+	<Property ID="2201001" NoticeType="0" TypeParam="22010" NoticeChannel="2" ChannelParam="220302000" Camp="0" TimeDiff="0" NoticePropId="14" TextId="notice_2201001" TextParam_1="1"/>
+	<Property ID="2201002" NoticeType="0" TypeParam="22010" NoticeChannel="2" ChannelParam="220302000" Camp="0" TimeDiff="1800" NoticePropId="14" TextId="notice_2201002" TextParam_1="1"/>
+	<Property ID="1023007" NoticeType="0" TypeParam="1003" NoticeChannel="2" ChannelParam="013800000,010000000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_1023007"/>
+	<Property ID="1023008" NoticeType="1" TypeParam="1003" NoticeChannel="2" ChannelParam="013800000,010000000" Camp="1" TimeDiff="900" NoticePropId="14" TextId="notice_1023008"/>
+	<Property ID="2601801" NoticeType="0" TypeParam="26018" NoticeChannel="2" ChannelParam="260600000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_26018" TextParam_1="1"/>
+	<Property ID="2601802" NoticeType="0" TypeParam="26018" NoticeChannel="2" ChannelParam="260600000" Camp="2" TimeDiff="1200" NoticePropId="14" TextId="notice_2601802" TextParam_1="1"/>
+	<Property ID="2200901" NoticeType="0" TypeParam="22008" NoticeChannel="2" ChannelParam="220000000" Camp="0" TimeDiff="0" NoticePropId="14" TextId="notice_2200901" TextParam_1="1"/>
+	<Property ID="2200902" NoticeType="0" TypeParam="22008" NoticeChannel="2" ChannelParam="220000000" Camp="0" TimeDiff="0" NoticePropId="14" TextId="notice_2200902" TextParam_1="1"/>
+	<Property ID="2201201" NoticeType="0" TypeParam="22008" NoticeChannel="2" ChannelParam="220000000" Camp="0" TimeDiff="0" NoticePropId="14" TextId="notice_2200902" TextParam_1="1"/>
+	<Property ID="2201202" NoticeType="0" TypeParam="22008" NoticeChannel="2" ChannelParam="220000000" Camp="0" TimeDiff="0" NoticePropId="14" TextId="notice_2200902" TextParam_1="1"/>
+	<Property ID="2201301" NoticeType="0" TypeParam="22013" NoticeChannel="2" ChannelParam="221002000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_2201301" TextParam_1="1"/>
+	<Property ID="2201302" NoticeType="0" TypeParam="22013" NoticeChannel="2" ChannelParam="221002000" Camp="2" TimeDiff="1200" NoticePropId="14" TextId="notice_2201302" TextParam_1="1"/>
+	<Property ID="2201401" NoticeType="0" TypeParam="22014" NoticeChannel="2" ChannelParam="221501000" Camp="0" TimeDiff="0" NoticePropId="14" TextId="notice_2201401" TextParam_1="1"/>
+	<Property ID="2201402" NoticeType="0" TypeParam="22014" NoticeChannel="2" ChannelParam="221501000" Camp="0" TimeDiff="1200" NoticePropId="14" TextId="notice_2201402" TextParam_1="1"/>
+	<Property ID="2201501" NoticeType="0" TypeParam="22015" NoticeChannel="2" ChannelParam="220701000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_2201501" TextParam_1="1"/>
+	<Property ID="2201502" NoticeType="0" TypeParam="22015" NoticeChannel="2" ChannelParam="220701000" Camp="1" TimeDiff="1200" NoticePropId="14" TextId="notice_2201502" TextParam_1="1"/>
+	<Property ID="14005001" NoticeType="0" TypeParam="14005" NoticeChannel="2" ChannelParam="140601000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_14005001"/>
+	<Property ID="14012001" NoticeType="0" TypeParam="14012" NoticeChannel="2" ChannelParam="140501000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_14012001"/>
+	<Property ID="14017001" NoticeType="0" TypeParam="14017" NoticeChannel="2" ChannelParam="140202000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_14017001"/>
+	<Property ID="14019001" NoticeType="0" TypeParam="14019" NoticeChannel="2" ChannelParam="141401000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_14019001"/>
+	<Property ID="14013001" NoticeType="0" TypeParam="14013" NoticeChannel="2" ChannelParam="140000000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_14013001"/>
+	<Property ID="2201601" NoticeType="0" TypeParam="22016" NoticeChannel="2" ChannelParam="220000000" Camp="0" TimeDiff="0" NoticePropId="14" TextId="notice_2201601" TextParam_1="1"/>
+	<Property ID="2201602" NoticeType="0" TypeParam="22016" NoticeChannel="2" ChannelParam="220000000" Camp="0" TimeDiff="1800" NoticePropId="14" TextId="notice_2201602" TextParam_1="1"/>
+	<Property ID="2201701" NoticeType="0" TypeParam="22017" NoticeChannel="2" ChannelParam="220000000" Camp="0" TimeDiff="0" NoticePropId="14" TextId="notice_2201701" TextParam_1="1"/>
+	<Property ID="2201702" NoticeType="0" TypeParam="22017" NoticeChannel="2" ChannelParam="220000000" Camp="0" TimeDiff="1800" NoticePropId="14" TextId="notice_2201702" TextParam_1="1"/>
+	<Property ID="2201801" NoticeType="0" TypeParam="22018" NoticeChannel="2" ChannelParam="220000000" Camp="0" TimeDiff="0" NoticePropId="14" TextId="notice_2201801" TextParam_1="1"/>
+	<Property ID="2201802" NoticeType="0" TypeParam="22018" NoticeChannel="2" ChannelParam="220000000" Camp="0" TimeDiff="1800" NoticePropId="14" TextId="notice_2201802" TextParam_1="1"/>
+	<Property ID="2700101" NoticeType="0" TypeParam="27001" NoticeChannel="2" ChannelParam="270501000" Camp="0" TimeDiff="0" NoticePropId="14" TextId="notice_2700101" TextParam_1="1"/>
+	<Property ID="2700102" NoticeType="0" TypeParam="27001" NoticeChannel="2" ChannelParam="270501000" Camp="0" TimeDiff="1800" NoticePropId="14" TextId="notice_2700102" TextParam_1="1"/>
+	<Property ID="2700201" NoticeType="0" TypeParam="27002" NoticeChannel="2" ChannelParam="270801000" Camp="0" TimeDiff="0" NoticePropId="14" TextId="notice_2700201" TextParam_1="1"/>
+	<Property ID="2700202" NoticeType="0" TypeParam="27002" NoticeChannel="2" ChannelParam="270801000" Camp="0" TimeDiff="1800" NoticePropId="14" TextId="notice_2700202" TextParam_1="1"/>
+	<Property ID="2700301" NoticeType="0" TypeParam="27003" NoticeChannel="2" ChannelParam="270401000" Camp="0" TimeDiff="0" NoticePropId="14" TextId="notice_2700301" TextParam_1="1"/>
+	<Property ID="2700302" NoticeType="0" TypeParam="27003" NoticeChannel="2" ChannelParam="270401000" Camp="0" TimeDiff="1800" NoticePropId="14" TextId="notice_2700302" TextParam_1="1"/>
+	<Property ID="2700401" NoticeType="0" TypeParam="27004" NoticeChannel="2" ChannelParam="270601000" Camp="0" TimeDiff="0" NoticePropId="14" TextId="notice_2700401" TextParam_1="1"/>
+	<Property ID="2700402" NoticeType="0" TypeParam="27004" NoticeChannel="2" ChannelParam="270601000" Camp="0" TimeDiff="1800" NoticePropId="14" TextId="notice_2700402" TextParam_1="1"/>
+	<Property ID="2700501" NoticeType="0" TypeParam="27005" NoticeChannel="2" ChannelParam="270802000" Camp="0" TimeDiff="0" NoticePropId="14" TextId="notice_2700501" TextParam_1="1"/>
+	<Property ID="2700502" NoticeType="0" TypeParam="27005" NoticeChannel="2" ChannelParam="270802000" Camp="0" TimeDiff="1800" NoticePropId="14" TextId="notice_2700502" TextParam_1="1"/>
+	<Property ID="7014" NoticeChannel="2" TypeParam="0" ChannelParam="071002000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_7014" NoticeType="0"/>
+	<Property ID="1024" NoticeType="0" TypeParam="1024" NoticeChannel="2" ChannelParam="010900000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_1024"/>
+	<Property ID="4016" NoticeType="0" TypeParam="0" NoticeChannel="2" ChannelParam="041200000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_4016"/>
+	<Property ID="17015" NoticeType="0" TypeParam="0" NoticeChannel="2" ChannelParam="171000000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_17015"/>
+	<Property ID="18015" NoticeType="0" TypeParam="0" NoticeChannel="2" ChannelParam="181300000" Camp="0" TimeDiff="0" NoticePropId="14" TextId="notice_18015"/>
+	<Property ID="19012" NoticeType="0" TypeParam="19012" NoticeChannel="2" ChannelParam="190400000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_19012"/>
+	<Property ID="190120" NoticeType="0" TypeParam="19012" NoticeChannel="2" ChannelParam="190400000" Camp="2" TimeDiff="5" NoticePropId="14" TextId="notice_190120"/>
+	<Property ID="1502001" NoticeType="0" TypeParam="15020" NoticeChannel="2" ChannelParam="150403000" Camp="2" TimeDiff="0" NoticePropId="14" TextId="notice_1502001"/>
+	<Property ID="1502002" NoticeType="0" TypeParam="15020" NoticeChannel="2" ChannelParam="150403000" Camp="2" TimeDiff="1080" NoticePropId="14" TextId="notice_1502002"/>
+	<Property ID="901001" NoticeType="0" TypeParam="9010" NoticeChannel="2" ChannelParam="090300000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_901001" TextParam_1="1"/>
+	<Property ID="901002" NoticeType="0" TypeParam="9010" NoticeChannel="2" ChannelParam="090300000" Camp="1" TimeDiff="1800" NoticePropId="14" TextId="notice_901002" TextParam_1="1"/>
+	<Property ID="901101" NoticeType="0" TypeParam="9011" NoticeChannel="2" ChannelParam="090300000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_901101" TextParam_1="1"/>
+	<Property ID="901102" NoticeType="0" TypeParam="9011" NoticeChannel="2" ChannelParam="090300000" Camp="1" TimeDiff="1800" NoticePropId="14" TextId="notice_901102" TextParam_1="1"/>
+	<Property ID="901201" NoticeType="0" TypeParam="9012" NoticeChannel="2" ChannelParam="090300000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_901201" TextParam_1="1"/>
+	<Property ID="901202" NoticeType="0" TypeParam="9012" NoticeChannel="2" ChannelParam="090300000" Camp="1" TimeDiff="1800" NoticePropId="14" TextId="notice_901202" TextParam_1="1"/>
+	<Property ID="901301" NoticeType="0" TypeParam="9013" NoticeChannel="2" ChannelParam="090300000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_901301" TextParam_1="1"/>
+	<Property ID="901302" NoticeType="0" TypeParam="9013" NoticeChannel="2" ChannelParam="090300000" Camp="1" TimeDiff="1800" NoticePropId="14" TextId="notice_901302" TextParam_1="1"/>
+	<Property ID="901401" NoticeType="0" TypeParam="9014" NoticeChannel="2" ChannelParam="090201000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_901401" TextParam_1="1"/>
+	<Property ID="901402" NoticeType="0" TypeParam="9014" NoticeChannel="2" ChannelParam="090201000" Camp="1" TimeDiff="600" NoticePropId="14" TextId="notice_901402" TextParam_1="1"/>
+	<Property ID="901501" NoticeType="0" TypeParam="9015" NoticeChannel="2" ChannelParam="090701000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_901501" TextParam_1="1"/>
+	<Property ID="901502" NoticeType="0" TypeParam="9015" NoticeChannel="2" ChannelParam="090701000" Camp="1" TimeDiff="600" NoticePropId="14" TextId="notice_901502" TextParam_1="1"/>
+	<Property ID="901601" NoticeType="0" TypeParam="9016" NoticeChannel="2" ChannelParam="090701000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_901601" TextParam_1="1"/>
+	<Property ID="901602" NoticeType="0" TypeParam="9016" NoticeChannel="2" ChannelParam="090701000" Camp="1" TimeDiff="600" NoticePropId="14" TextId="notice_901602" TextParam_1="1"/>
+	<Property ID="901701" NoticeType="0" TypeParam="9017" NoticeChannel="2" ChannelParam="091001000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_901701" TextParam_1="1"/>
+	<Property ID="901702" NoticeType="0" TypeParam="9017" NoticeChannel="2" ChannelParam="091001000" Camp="1" TimeDiff="3600" NoticePropId="14" TextId="notice_901702" TextParam_1="1"/>
+	<Property ID="901801" NoticeType="0" TypeParam="9018" NoticeChannel="2" ChannelParam="091601000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_901801" TextParam_1="1"/>
+	<Property ID="901802" NoticeType="0" TypeParam="9018" NoticeChannel="2" ChannelParam="091601000" Camp="1" TimeDiff="600" NoticePropId="14" TextId="notice_901802" TextParam_1="1"/>
+	<Property ID="901901" NoticeType="0" TypeParam="9019" NoticeChannel="2" ChannelParam="091401000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_901901" TextParam_1="1"/>
+	<Property ID="901902" NoticeType="0" TypeParam="9019" NoticeChannel="2" ChannelParam="091401000" Camp="1" TimeDiff="600" NoticePropId="14" TextId="notice_901902" TextParam_1="1"/>
+	<Property ID="902101" NoticeType="0" TypeParam="9021" NoticeChannel="2" ChannelParam="090901000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_902101" TextParam_1="1"/>
+	<Property ID="902102" NoticeType="0" TypeParam="9021" NoticeChannel="2" ChannelParam="090901000" Camp="1" TimeDiff="3600" NoticePropId="14" TextId="notice_902102" TextParam_1="1"/>
+	<Property ID="701501" NoticeType="0" TypeParam="7015" NoticeChannel="2" Camp="1" NoticePropId="14" TextId="notice_701501" ChannelParam="070500000"/>
+	<Property ID="701502" NoticeType="0" TypeParam="7015" NoticeChannel="2" Camp="1" NoticePropId="14" TextId="notice_701502" ChannelParam="070500000" TimeDiff="1200"/>
+	<Property ID="401701" NoticeType="0" TypeParam="4017" NoticeChannel="2" ChannelParam="040600000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_401701" TextParam_1="1"/>
+	<Property ID="401702" NoticeType="0" TypeParam="4017" NoticeChannel="2" ChannelParam="040600000" Camp="1" TimeDiff="1800" NoticePropId="14" TextId="notice_401702" TextParam_1="1"/>
+	<Property ID="19013" NoticeType="0" TypeParam="19013" NoticeChannel="1" ChannelParam="190700000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_19013"/>
+	<Property ID="902501" NoticeType="0" TypeParam="902501" NoticeChannel="2" ChannelParam="090900000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_902501" TextParam_1="1"/>
+	<Property ID="902601" NoticeType="0" TypeParam="902601" NoticeChannel="2" ChannelParam="091500000" Camp="1" TimeDiff="0" NoticePropId="14" TextId="notice_902601" TextParam_1="1"/>
+</Object>
+
+
