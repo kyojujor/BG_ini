@@ -306,7 +306,7 @@
 	<Property ID="4267" Name="血狼皮" Kind="2" Exp="51" Money="3"/>
 	<Property ID="4268" Name="灵语祭台" Kind="2" Exp="29" Money="2"/>
 	<Property ID="4269" Name="达戈菲尔入侵" Kind="2" Exp="24" Money="1"/>
-	<Property ID="10001" Name="洛格玛人" Kind="3" Exp="270" Money="20"/>
+	<Property ID="10001" Name="洛格玛人" Kind="3" Exp="270" Money="20" SelectItemList="TY_ZS_001A,1;TY_FS_001A,1"/>
 	<Property ID="10002" Name="岩之坚毅" Kind="3" Exp="337" Money="50"/>
 	<Property ID="10003" Name="水之理智" Kind="3" Exp="311" Money="53"/>
 	<Property ID="10004" Name="风之率性" Kind="3" Exp="301" Money="33" DefaultItemList="add_depot3,1"/>
@@ -707,7 +707,7 @@
 	<Property ID="10067" Name="救治伤兵" Kind="3" Exp="5759" Money="662"/>
 	<Property ID="10068" Name="不小的威胁" Kind="3" Exp="8063" Money="591"/>
 	<Property ID="10069" Name="清剿革新会" Kind="3" Exp="3324" Money="772"/>
-	<Property ID="201" Name="风起平湖" Kind="15" Exp="325" Money="25"/>
+	<Property ID="201" Name="风起平湖" Kind="15" Exp="325" Money="25" SelectItemList="TY_ZS_001A,1;TY_FS_001A,1"/>
 	<Property ID="253" Name="缘由" Kind="15" Exp="389" Money="25"/>
 	<Property ID="254" Name="消失的家畜" Kind="15" Exp="337" Money="75"/>
 	<Property ID="255" Name="新的食物" Kind="15" Exp="371" Money="75"/>
@@ -1279,7 +1279,7 @@
 	<Property ID="3008" Name="回报哨站" Kind="3" Exp="3269" Money="689"/>
 	<Property ID="3009" Name="厄运试炼场" Kind="3" Exp="3169" Money="588"/>
 	<Property ID="4177" Name="全面战争" Kind="1" Exp="26956" Money="993"/>
-	<Property ID="501" Name="新兵训话" Kind="14" Exp="230" Money="11"/>
+	<Property ID="501" Name="新兵训话" Kind="14" Exp="230" Money="11" SelectItemList="TY_ZS_001A,1;TY_FS_001A,1"/>
 	<Property ID="502" Name="试炼之始" Kind="14" Exp="238" Money="22"/>
 	<Property ID="503" Name="实力考验" Kind="14" Exp="820" Money="50" DefaultItemList="add_depot3,1"/>
 	<Property ID="504" Name="解救村民" Kind="14" Exp="242" Money="33" DefaultItemList="add_depot3,1"/>
@@ -1377,7 +1377,7 @@
 	<Property ID="4997" Name="隐患" Kind="1" Exp="18570" Money="1240" RenownList="10001,250" DefaultItemList="mjd_002,2"/>
 	<Property ID="7000" Name="蒸汽之渊" Kind="1" Exp="2000" Money="50" RenownList="10001,2"/>
 	<Property ID="7100" Name="蒸汽之渊" Kind="3" Exp="2000" Money="50" RenownList="10009,2"/>
-	<Property ID="601" Name="科鲁镇的混乱" Kind="1" Exp="270" Money="20" DefaultItemList="HP_shunhui_01,10"/>
+	<Property ID="601" Name="科鲁镇的混乱" Kind="1" Exp="270" Money="20" SelectItemList="TY_ZS_001A,1;TY_FS_001A,1"/>
 	<Property ID="602" Name="远来的达戈菲尔" Kind="1" Exp="296" Money="30" DefaultItemList="S_Drug_zq_001,20"/>
 	<Property ID="603" Name="拯救科鲁镇" Kind="1" Exp="298" Money="20" DefaultItemList="add_depot3,1"/>
 	<Property ID="604" Name="灭火" Kind="1" Exp="337" Money="22" DefaultItemList="Tsdj_Jewelry_0001A,1"/>
