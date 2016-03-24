@@ -117,7 +117,7 @@
 	<Property ID="BX_YS_003A" Name="奇幻恢复药剂宝箱" ItemID="BX_YS_003A" Maxamount="20" CurrencyType="1" BuyPrice="-1" isbind="0" SellNum="-1" CoolTime="-1" Condition="0"/>
 	<Property ID="BX_YS_004A" Name="BUFF药剂宝箱" ItemID="BX_YS_004A" Maxamount="20" CurrencyType="1" BuyPrice="-1" isbind="0" SellNum="-1" CoolTime="-1" Condition="0"/>
 	<Property ID="BX_YS_005A" Name="BUFF药剂宝箱" ItemID="BX_YS_005A" Maxamount="20" CurrencyType="1" BuyPrice="-1" isbind="0" SellNum="-1" CoolTime="-1" Condition="0"/>
-	<Property ID="BX_YS_006A" Name="BUFF药剂宝箱" ItemID="BX_YS_006A" Maxamount="20" CurrencyType="1" BuyPrice="-1" isbind="0" SellNum="-1" CoolTime="-1" Condition="0"/>
+	<Property ID="BX_YS_005A" Name="BUFF药剂宝箱" ItemID="BX_YS_005A" Maxamount="20" CurrencyType="1" BuyPrice="-1" isbind="0" SellNum="-1" CoolTime="-1" Condition="0"/>
 	<Property ID="BX_BB_001A" Name="背包宝箱" ItemID="BX_BB_001A" Maxamount="20" CurrencyType="1" BuyPrice="-1" isbind="0" SellNum="-1" CoolTime="-1" Condition="0"/>
 	<Property ID="BX_GN_001A" Name="功能道具宝箱" ItemID="BX_GN_001A" Maxamount="20" CurrencyType="1" BuyPrice="-1" isbind="0" SellNum="-1" CoolTime="-1" Condition="0"/>
 	<Property ID="BX_CW_001A" Name="蒸汽宠物宝箱" ItemID="BX_CW_001A" Maxamount="20" CurrencyType="1" BuyPrice="-1" isbind="0" SellNum="-1" CoolTime="-1" Condition="0"/>
@@ -1706,12 +1706,12 @@
 	<Property ID="EnergySheild_14_002" ItemID="EnergySheild_11" Maxamount="20" CurrencyType="8" BuyPrice="320" isbind="0" SellNum="-1" CoolTime="-1" Condition="1302"/>
 	<Property ID="EnergySheild_17_002" ItemID="EnergySheild_17" Maxamount="20" CurrencyType="8" BuyPrice="800" isbind="0" SellNum="-1" CoolTime="-1" Condition="1302"/>
 	<Property ID="EnergySheild_18_002" ItemID="EnergySheild_18" Maxamount="20" CurrencyType="8" BuyPrice="2100" isbind="0" SellNum="-1" CoolTime="-1" Condition="1302"/>
-	<Property ID="Crystal_A00001A" ItemID="Crystal_A00001A_001" Maxamount="20" CurrencyType="8" BuyPrice="2" isbind="0" SellNum="-1" CoolTime="-1" Condition="1102"/>
-	<Property ID="Crystal_A00003A" ItemID="Crystal_A00003A_001" Maxamount="20" CurrencyType="8" BuyPrice="5" isbind="0" SellNum="-1" CoolTime="-1" Condition="1102"/>
-	<Property ID="Crystal_A00001A_001" ItemID="Crystal_A00001A_001" Maxamount="20" CurrencyType="8" BuyPrice="2" isbind="0" SellNum="-1" CoolTime="-1" Condition="1202"/>
-	<Property ID="Crystal_A00003A_001" ItemID="Crystal_A00003A_001" Maxamount="20" CurrencyType="8" BuyPrice="5" isbind="0" SellNum="-1" CoolTime="-1" Condition="1202"/>
-	<Property ID="Crystal_A00001A_002" ItemID="Crystal_A00001A_001" Maxamount="20" CurrencyType="8" BuyPrice="2" isbind="0" SellNum="-1" CoolTime="-1" Condition="1302"/>
-	<Property ID="Crystal_A00003A_002" ItemID="Crystal_A00003A_001" Maxamount="20" CurrencyType="8" BuyPrice="5" isbind="0" SellNum="-1" CoolTime="-1" Condition="1302"/>
+	<Property ID="Crystal_A00001A" ItemID="BX_YS_004A" Maxamount="20" CurrencyType="8" BuyPrice="2" isbind="0" SellNum="-1" CoolTime="-1" Condition="1102"/>
+	<Property ID="Crystal_A00003A" ItemID="BX_YS_005A" Maxamount="20" CurrencyType="8" BuyPrice="5" isbind="0" SellNum="-1" CoolTime="-1" Condition="1102"/>
+	<Property ID="Crystal_A00001A_001" ItemID="BX_YS_004A" Maxamount="20" CurrencyType="8" BuyPrice="2" isbind="0" SellNum="-1" CoolTime="-1" Condition="1202"/>
+	<Property ID="Crystal_A00003A_001" ItemID="BX_YS_005A" Maxamount="20" CurrencyType="8" BuyPrice="5" isbind="0" SellNum="-1" CoolTime="-1" Condition="1202"/>
+	<Property ID="Crystal_A00001A_002" ItemID="BX_YS_004A" Maxamount="20" CurrencyType="8" BuyPrice="2" isbind="0" SellNum="-1" CoolTime="-1" Condition="1302"/>
+	<Property ID="Crystal_A00003A_002" ItemID="BX_YS_005A" Maxamount="20" CurrencyType="8" BuyPrice="5" isbind="0" SellNum="-1" CoolTime="-1" Condition="1302"/>
 	<Property ID="Mount_00001_001" ItemID="Mount_00001_001" Maxamount="20" CurrencyType="8" BuyPrice="1200" isbind="0" SellNum="-1" CoolTime="-1" Condition="0"/>
 	<Property ID="Mount_00004_002" ItemID="Mount_00004_002" Maxamount="20" CurrencyType="8" BuyPrice="2000" isbind="0" SellNum="-1" CoolTime="-1" Condition="0"/>
 	<Property ID="Mount_00004_001" ItemID="Mount_00004_001" Maxamount="20" CurrencyType="8" BuyPrice="3200" isbind="0" SellNum="-1" CoolTime="-1" Condition="0"/>
@@ -2158,8 +2158,8 @@
 	<Property ID="EnergySheild_08_003" Name="神秘的驭风能量盾" ItemID="EnergySheild_08" Maxamount="20" CurrencyType="8" BuyPrice="200" isbind="0" SellNum="-1" CoolTime="-1" Condition="1402"/>
 	<Property ID="EnergySheild_14_003" Name="坚定意志速敏能量盾" ItemID="EnergySheild_14" Maxamount="20" CurrencyType="8" BuyPrice="320" isbind="0" SellNum="-1" CoolTime="-1" Condition="1402"/>
 	<Property ID="EnergySheild_17_003" Name="暗影之放逐速敏能量盾" ItemID="EnergySheild_17" Maxamount="20" CurrencyType="8" BuyPrice="800" isbind="0" SellNum="-1" CoolTime="-1" Condition="1402"/>
-	<Property ID="Crystal_A00001A_003" Name="低级能量晶体" ItemID="Crystal_A00001A_001" Maxamount="20" CurrencyType="8" BuyPrice="2" isbind="0" SellNum="-1" CoolTime="-1" Condition="1402"/>
-	<Property ID="Crystal_A00003A_003" Name="高级能量晶体" ItemID="Crystal_A00003A_001" Maxamount="20" CurrencyType="8" BuyPrice="5" isbind="0" SellNum="-1" CoolTime="-1" Condition="1402"/>
+	<Property ID="Crystal_A00001A_003" Name="低级能量晶体" ItemID="BX_YS_004A" Maxamount="20" CurrencyType="8" BuyPrice="2" isbind="0" SellNum="-1" CoolTime="-1" Condition="1402"/>
+	<Property ID="Crystal_A00003A_003" Name="高级能量晶体" ItemID="BX_YS_005A" Maxamount="20" CurrencyType="8" BuyPrice="5" isbind="0" SellNum="-1" CoolTime="-1" Condition="1402"/>
 	<Property ID="ZQ_DS_0001_003" Name="骑士之卡" ItemID="ZQ_DS_0001" Maxamount="20" CurrencyType="8" BuyPrice="800" isbind="0" SellNum="-1" CoolTime="-1" Condition="1402"/>
 	<Property ID="ZJ_NL_0007_003" Name="怨恨结晶" ItemID="ZJ_NL_0007" Maxamount="20" CurrencyType="8" BuyPrice="21" isbind="0" SellNum="-1" CoolTime="-1" Condition="1402"/>
 	<Property ID="ZJ_NL_0008_003" Name="愤怒结晶" ItemID="ZJ_NL_0008" Maxamount="20" CurrencyType="8" BuyPrice="21" isbind="0" SellNum="-1" CoolTime="-1" Condition="1402"/>
@@ -2174,8 +2174,8 @@
 	<Property ID="EnergySheild_08_004" Name="神秘的驭风能量盾" ItemID="EnergySheild_08" Maxamount="20" CurrencyType="8" BuyPrice="200" isbind="0" SellNum="-1" CoolTime="-1" Condition="1502"/>
 	<Property ID="EnergySheild_14_004" Name="坚定意志速敏能量盾" ItemID="EnergySheild_14" Maxamount="20" CurrencyType="8" BuyPrice="320" isbind="0" SellNum="-1" CoolTime="-1" Condition="1502"/>
 	<Property ID="EnergySheild_17_004" Name="暗影之放逐速敏能量盾" ItemID="EnergySheild_17" Maxamount="20" CurrencyType="8" BuyPrice="800" isbind="0" SellNum="-1" CoolTime="-1" Condition="1502"/>
-	<Property ID="Crystal_A00001A_004" Name="低级能量晶体" ItemID="Crystal_A00001A_001" Maxamount="20" CurrencyType="8" BuyPrice="2" isbind="0" SellNum="-1" CoolTime="-1" Condition="1502"/>
-	<Property ID="Crystal_A00003A_004" Name="高级能量晶体" ItemID="Crystal_A00003A_001" Maxamount="20" CurrencyType="8" BuyPrice="5" isbind="0" SellNum="-1" CoolTime="-1" Condition="1502"/>
+	<Property ID="Crystal_A00001A_004" Name="低级能量晶体" ItemID="BX_YS_004A" Maxamount="20" CurrencyType="8" BuyPrice="2" isbind="0" SellNum="-1" CoolTime="-1" Condition="1502"/>
+	<Property ID="Crystal_A00003A_004" Name="高级能量晶体" ItemID="BX_YS_005A" Maxamount="20" CurrencyType="8" BuyPrice="5" isbind="0" SellNum="-1" CoolTime="-1" Condition="1502"/>
 	<Property ID="ZQ_DS_0001_004" Name="骑士之卡" ItemID="ZQ_DS_0001" Maxamount="20" CurrencyType="8" BuyPrice="800" isbind="0" SellNum="-1" CoolTime="-1" Condition="1502"/>
 	<Property ID="ZJ_NL_0007_004" Name="怨恨结晶" ItemID="ZJ_NL_0007" Maxamount="20" CurrencyType="8" BuyPrice="21" isbind="0" SellNum="-1" CoolTime="-1" Condition="1502"/>
 	<Property ID="ZJ_NL_0008_004" Name="愤怒结晶" ItemID="ZJ_NL_0008" Maxamount="20" CurrencyType="8" BuyPrice="21" isbind="0" SellNum="-1" CoolTime="-1" Condition="1502"/>
@@ -2190,8 +2190,8 @@
 	<Property ID="EnergySheild_08_005" Name="神秘的驭风能量盾" ItemID="EnergySheild_08" Maxamount="20" CurrencyType="8" BuyPrice="200" isbind="0" SellNum="-1" CoolTime="-1" Condition="1602"/>
 	<Property ID="EnergySheild_14_005" Name="坚定意志速敏能量盾" ItemID="EnergySheild_14" Maxamount="20" CurrencyType="8" BuyPrice="320" isbind="0" SellNum="-1" CoolTime="-1" Condition="1602"/>
 	<Property ID="EnergySheild_17_005" Name="暗影之放逐速敏能量盾" ItemID="EnergySheild_17" Maxamount="20" CurrencyType="8" BuyPrice="800" isbind="0" SellNum="-1" CoolTime="-1" Condition="1602"/>
-	<Property ID="Crystal_A00001A_005" Name="低级能量晶体" ItemID="Crystal_A00001A_001" Maxamount="20" CurrencyType="8" BuyPrice="2" isbind="0" SellNum="-1" CoolTime="-1" Condition="1602"/>
-	<Property ID="Crystal_A00003A_005" Name="高级能量晶体" ItemID="Crystal_A00003A_001" Maxamount="20" CurrencyType="8" BuyPrice="5" isbind="0" SellNum="-1" CoolTime="-1" Condition="1602"/>
+	<Property ID="Crystal_A00001A_005" Name="低级能量晶体" ItemID="BX_YS_004A" Maxamount="20" CurrencyType="8" BuyPrice="2" isbind="0" SellNum="-1" CoolTime="-1" Condition="1602"/>
+	<Property ID="Crystal_A00003A_005" Name="高级能量晶体" ItemID="BX_YS_005A" Maxamount="20" CurrencyType="8" BuyPrice="5" isbind="0" SellNum="-1" CoolTime="-1" Condition="1602"/>
 	<Property ID="ZQ_DS_0001_005" Name="骑士之卡" ItemID="ZQ_DS_0001" Maxamount="20" CurrencyType="8" BuyPrice="800" isbind="0" SellNum="-1" CoolTime="-1" Condition="1602"/>
 	<Property ID="ZJ_NL_0007_005" Name="怨恨结晶" ItemID="ZJ_NL_0007" Maxamount="20" CurrencyType="8" BuyPrice="21" isbind="0" SellNum="-1" CoolTime="-1" Condition="1602"/>
 	<Property ID="ZJ_NL_0008_005" Name="愤怒结晶" ItemID="ZJ_NL_0008" Maxamount="20" CurrencyType="8" BuyPrice="21" isbind="0" SellNum="-1" CoolTime="-1" Condition="1602"/>
@@ -2206,8 +2206,8 @@
 	<Property ID="EnergySheild_08_006" Name="神秘的驭风能量盾" ItemID="EnergySheild_08" Maxamount="20" CurrencyType="8" BuyPrice="200" isbind="0" SellNum="-1" CoolTime="-1" Condition="1702"/>
 	<Property ID="EnergySheild_14_006" Name="坚定意志速敏能量盾" ItemID="EnergySheild_14" Maxamount="20" CurrencyType="8" BuyPrice="320" isbind="0" SellNum="-1" CoolTime="-1" Condition="1702"/>
 	<Property ID="EnergySheild_17_006" Name="暗影之放逐速敏能量盾" ItemID="EnergySheild_17" Maxamount="20" CurrencyType="8" BuyPrice="800" isbind="0" SellNum="-1" CoolTime="-1" Condition="1702"/>
-	<Property ID="Crystal_A00001A_006" Name="低级能量晶体" ItemID="Crystal_A00001A_001" Maxamount="20" CurrencyType="8" BuyPrice="2" isbind="0" SellNum="-1" CoolTime="-1" Condition="1702"/>
-	<Property ID="Crystal_A00003A_006" Name="高级能量晶体" ItemID="Crystal_A00003A_001" Maxamount="20" CurrencyType="8" BuyPrice="5" isbind="0" SellNum="-1" CoolTime="-1" Condition="1702"/>
+	<Property ID="Crystal_A00001A_006" Name="低级能量晶体" ItemID="BX_YS_004A" Maxamount="20" CurrencyType="8" BuyPrice="2" isbind="0" SellNum="-1" CoolTime="-1" Condition="1702"/>
+	<Property ID="Crystal_A00003A_006" Name="高级能量晶体" ItemID="BX_YS_005A" Maxamount="20" CurrencyType="8" BuyPrice="5" isbind="0" SellNum="-1" CoolTime="-1" Condition="1702"/>
 	<Property ID="ZQ_DS_0001_006" Name="骑士之卡" ItemID="ZQ_DS_0001" Maxamount="20" CurrencyType="8" BuyPrice="800" isbind="0" SellNum="-1" CoolTime="-1" Condition="1702"/>
 	<Property ID="ZJ_NL_0007_006" Name="怨恨结晶" ItemID="ZJ_NL_0007" Maxamount="20" CurrencyType="8" BuyPrice="21" isbind="0" SellNum="-1" CoolTime="-1" Condition="1702"/>
 	<Property ID="ZJ_NL_0008_006" Name="愤怒结晶" ItemID="ZJ_NL_0008" Maxamount="20" CurrencyType="8" BuyPrice="21" isbind="0" SellNum="-1" CoolTime="-1" Condition="1702"/>
@@ -2233,7 +2233,7 @@
 	<Property ID="ZQ_DS_0003_004" Name="骑士之卡(200点）" ItemID="ZQ_DS_0003" Maxamount="20" CurrencyType="8" BuyPrice="180" isbind="0" SellNum="-1" CoolTime="-1" Condition="1502"/>
 	<Property ID="ZQ_DS_0003_005" Name="骑士之卡(200点）" ItemID="ZQ_DS_0003" Maxamount="20" CurrencyType="8" BuyPrice="180" isbind="0" SellNum="-1" CoolTime="-1" Condition="1602"/>
 	<Property ID="ZQ_DS_0003_006" Name="骑士之卡(200点）" ItemID="ZQ_DS_0003" Maxamount="20" CurrencyType="8" BuyPrice="180" isbind="0" SellNum="-1" CoolTime="-1" Condition="1702"/>
-	<Property ID="Crystal_A00001A_007" Name="低级能量晶体" ItemID="Crystal_A00001A_001" Maxamount="20" CurrencyType="8" BuyPrice="2" isbind="0" SellNum="-1" CoolTime="-1" Condition="1802"/>
+	<Property ID="Crystal_A00001A_007" Name="低级能量晶体" ItemID="BX_YS_004A" Maxamount="20" CurrencyType="8" BuyPrice="2" isbind="0" SellNum="-1" CoolTime="-1" Condition="1802"/>
 	<Property ID="ZQ_DS_0003_007" Name="骑士之卡（200点）" ItemID="ZQ_DS_0003" Maxamount="20" CurrencyType="8" BuyPrice="180" isbind="0" SellNum="-1" CoolTime="-1" Condition="1802"/>
 	<Property ID="NLJ_GXD_0001_007" Name="黯淡能量微粒" ItemID="NLJ_GXD_0001" Maxamount="20" CurrencyType="8" BuyPrice="3" isbind="0" SellNum="-1" CoolTime="-1" Condition="1802"/>
 	<Property ID="NLJ_GXD_0002_007" Name="明亮能量微粒" ItemID="NLJ_GXD_0002" Maxamount="20" CurrencyType="8" BuyPrice="7" isbind="0" SellNum="-1" CoolTime="-1" Condition="1802"/>
@@ -2245,7 +2245,7 @@
 	<Property ID="EnergySheild_14_007" Name="坚定意志速敏能量盾" ItemID="EnergySheild_14" Maxamount="20" CurrencyType="8" BuyPrice="320" isbind="0" SellNum="-1" CoolTime="-1" Condition="1802"/>
 	<Property ID="EnergySheild_17_007" Name="暗影之放逐速敏能量盾" ItemID="EnergySheild_17" Maxamount="20" CurrencyType="8" BuyPrice="800" isbind="0" SellNum="-1" CoolTime="-1" Condition="1802"/>
 	<Property ID="CS_008A_007" Name="圣临群岛传送卷轴" ItemID="CS_008A" Maxamount="20" CurrencyType="8" BuyPrice="2" isbind="0" SellNum="-1" CoolTime="-1" Condition="0"/>
-	<Property ID="Crystal_A00001A_008" Name="低级能量晶体" ItemID="Crystal_A00001A_001" Maxamount="20" CurrencyType="8" BuyPrice="2" isbind="0" SellNum="-1" CoolTime="-1" Condition="1902"/>
+	<Property ID="Crystal_A00001A_008" Name="低级能量晶体" ItemID="BX_YS_004A" Maxamount="20" CurrencyType="8" BuyPrice="2" isbind="0" SellNum="-1" CoolTime="-1" Condition="1902"/>
 	<Property ID="ZQ_DS_0003_008" Name="骑士之卡（200点）" ItemID="ZQ_DS_0003" Maxamount="20" CurrencyType="8" BuyPrice="180" isbind="0" SellNum="-1" CoolTime="-1" Condition="1902"/>
 	<Property ID="NLJ_GXD_0001_008" Name="黯淡能量微粒" ItemID="NLJ_GXD_0001" Maxamount="20" CurrencyType="8" BuyPrice="3" isbind="0" SellNum="-1" CoolTime="-1" Condition="1902"/>
 	<Property ID="NLJ_GXD_0002_008" Name="明亮能量微粒" ItemID="NLJ_GXD_0002" Maxamount="20" CurrencyType="8" BuyPrice="7" isbind="0" SellNum="-1" CoolTime="-1" Condition="1902"/>
