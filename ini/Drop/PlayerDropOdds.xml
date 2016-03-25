@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="gb2312"?>
 <!-- edited with XMLSpy v2010 (http://www.altova.com) by MESMERiZE (MiZE) -->
 <Object>
-	<Property ID="1" DeadType="ARREST1" EngDropOdds="20" EngDropRate="50" EngRewards="1:Crystal_A00001A:50;2:Crystal_A00002A:50;3:Crystal_A00003A:50" ArmorDura="5"/>
-  <Property ID="2" DeadType="ARREST2" EngDropOdds="20" EngDropRate="50" EngRewards="1:Crystal_A00001A:50;2:Crystal_A00002A:50;3:Crystal_A00003A:50" ArmorDura="7"/>
-  <Property ID="3" DeadType="ARREST3" EngDropOdds="20" EngDropRate="50" EngRewards="1:Crystal_A00001A:50;2:Crystal_A00002A:50;3:Crystal_A00003A:50" ArmorDura="10"/>
-  <Property ID="4" DeadType="ARREST4" EngDropOdds="20" EngDropRate="50" EngRewards="1:Crystal_A00001A:50;2:Crystal_A00002A:50;3:Crystal_A00003A:50" ArmorDura="12"/>
+	<Property ID="1" DeadType="ARREST1" EngDropOdds="20" EngDropRate="50" EngRewards="1:NYFJ_001:50;2:NYFJ_001:50;3:NYFJ_001:50" ArmorDura="5"/>
+  <Property ID="2" DeadType="ARREST2" EngDropOdds="20" EngDropRate="50" EngRewards="1:NYFJ_001:50;2:NYFJ_001:50;3:NYFJ_001:50" ArmorDura="7"/>
+  <Property ID="3" DeadType="ARREST3" EngDropOdds="20" EngDropRate="50" EngRewards="1:NYFJ_001:50;2:NYFJ_001:50;3:NYFJ_001:50" ArmorDura="10"/>
+  <Property ID="4" DeadType="ARREST4" EngDropOdds="20" EngDropRate="50" EngRewards="1:NYFJ_001:50;2:NYFJ_001:50;3:NYFJ_001:50" ArmorDura="12"/>
   <Property ID="5" DeadType="TEMPARREST" EngDropOdds="0" EngDropRate="50" EngRewards="" ArmorDura="5"/>
   <Property ID="6" DeadType="SPECIAL" EngDropOdds="0" EngDropRate="50" EngRewards="" ArmorDura="0"/>
   <Property ID="7" DeadType="PVE" EngDropOdds="0" EngDropRate="50" EngRewards="" ArmorDura="5"/>
-  <Property ID="8" DeadType="PVPHOSTILITY" EngDropOdds="20" EngDropRate="50" EngRewards="1:Crystal_A00001A:50;2:Crystal_A00002A:50;3:Crystal_A00003A:50" ArmorDura="1"/>
+  <Property ID="8" DeadType="PVPHOSTILITY" EngDropOdds="20" EngDropRate="50" EngRewards="1:NYFJ_001:50;2:NYFJ_001:50;3:NYFJ_001:50" ArmorDura="1"/>
   <Property ID="9" DeadType="PVPFRIEND" EngDropOdds="0" EngDropRate="50" EngRewards="" ArmorDura="1"/>
 </Object>
