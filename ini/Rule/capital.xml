@@ -12,5 +12,5 @@ SysTaxPost 邮件交易税率 (10 表示 10%)
 除了金币以外，其他类型货币配置数额不能超过 21亿
 -->
 <Object>
-	<Property ID="CapitalType" TypeCount="9" C0="CapitalType0,999999999,999999999,0,100000,0,1,icon" C1="CapitalType1,100000000,100000000,10000000,0,50000,0,icon" C2="CapitalType2,999999,999999,0,0,0,0,icon" C3="CapitalType3,1000000000,1000000000,10000000,0,10,0,icon" C4="CapitalType4,5000,5000,1000,0,10,0,icon" C5="CapitalType5,2000,2000,200,0,10,0,icon" C6="CapitalType6,2000,2000,400,0,10,0,icon" C7="CapitalType7,1000000,1000000,1000000,0,10,0,icon" C8="CapitalType8,5000,5000,500,0,10,0,icon" BGRate="10" GoldRate="10000" SysTaxDirect="10" SysTaxPost="10"/>
+	<Property ID="CapitalType" TypeCount="9" C0="CapitalType0,999999999,999999999,0,999999999,0,1,icon" C1="CapitalType1,100000000,100000000,10000000,0,50000,0,icon" C2="CapitalType2,999999,999999,0,0,0,0,icon" C3="CapitalType3,1000000000,1000000000,10000000,0,10,0,icon" C4="CapitalType4,5000,5000,1000,0,10,0,icon" C5="CapitalType5,2000,2000,200,0,10,0,icon" C6="CapitalType6,2000,2000,400,0,10,0,icon" C7="CapitalType7,1000000,1000000,1000000,0,10,0,icon" C8="CapitalType8,5000,5000,500,0,10,0,icon" BGRate="10" GoldRate="10000" SysTaxDirect="10" SysTaxPost="10"/>
 </Object>

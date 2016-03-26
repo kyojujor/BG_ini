@@ -3,6 +3,6 @@
 	<!-- 生活职业属性基本信息，VipID，初始体力，最大体力，最大回复，系统回复时间!-->
 
 	<!-- 1 Vip等级 2系统回复时间 3最大体力回复比率 4固定回复时间 5固定体力回复数值 6生活职业等级系数 7角色等级系数 8初始体力值!-->
-  <Property VipID="0" SysTime="06|00|00" SysPercent="45" FixTime="10" FixPercent="2" LifeJobLev="22.0" RoleLev="3.0" BasePhysical="55"/>
-  <Property VipID="1" SysTime="06|00|00" SysPercent="60" FixTime="10" FixPercent="2" LifeJobLev="22.0" RoleLev="3.0" BasePhysical="55"/>
+  <Property VipID="0" SysTime="06|00|00" SysPercent="45" FixTime="10" FixPercent="5" LifeJobLev="22.0" RoleLev="3.0" BasePhysical="55"/>
+  <Property VipID="1" SysTime="06|00|00" SysPercent="60" FixTime="10" FixPercent="5" LifeJobLev="22.0" RoleLev="3.0" BasePhysical="55"/>
 </Object>

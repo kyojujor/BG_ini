@@ -1,9 +1,9 @@
 <!--装备宝箱-->
 	
 	<!-- 屠夫 --><!--毁灭壁垒-->
-	<Property ID="8000" ItemTeamID="GR_ZQ_TL_L10_ZB" TeamName="黑金野外掉落16级蒸汽boss绿色装备宝箱" ItemID="BX_XQ_0010A,1;BX_XQ_0011A,1;BX_XQ_0012A,1;BX_XQ_0013A,1"/>
+	<Property ID="8000" ItemTeamID="GR_ZQ_TL_L10_ZB" TeamName="黑金野外掉落16级蒸汽boss绿色装备宝箱" ItemID="BX_XQ_001,1;0A,1;BX_XQ_001,1;1A,1;BX_XQ_001,1;2A,1;BX_XQ_001,1;3A,1"/>
 	<!--大块头装备宝箱--><!--斯特洛尔装备宝箱--><!--斯卡丽装备宝箱-->
-	<Property ID="8001" ItemTeamID="BL_ZQ_TL_L20_ZB" TeamName="黑金野外掉落23级蒸汽boss蓝色装备宝箱" ItemID="BX_XQ_0022A,1;BX_XQ_0023A,1;BX_XQ_0024A,1;BX_XQ_0025A,1"/>
+	<Property ID="8001,1;" ItemTeamID="BL_ZQ_TL_L20_ZB" TeamName="黑金野外掉落23级蒸汽boss蓝色装备宝箱" ItemID="BX_XQ_0022A,1;BX_XQ_0023A,1;BX_XQ_0024A,1;BX_XQ_0025A,1"/>
 	<!--达戈菲尔歼灭I型装备宝箱--><!--诅咒狼魂装备宝箱--><!--卡萨贝丶金鳍装备宝箱-->
 	<Property ID="8002" ItemTeamID="BL_ZQ_TL_L30_ZB" TeamName="黑金野外掉落30级蒸汽boss蓝色装备宝箱" ItemID="BX_XQ_0027A,1;BX_XQ_0028A,1;BX_XQ_0029A,1;BX_XQ_0030A,1"/>
 	<!--沙罗装备宝箱-->
@@ -14,7 +14,7 @@
 	<!--武器宝箱-->
 
 	<!-- 屠夫 --><!--毁灭壁垒-->
-	<Property ID="8004" ItemTeamID="GR_TY_TL_L16_WQ" TeamName="黑金野外掉落16级boss绿色武器宝箱" ItemID="BX_XQ_0018A,2"/>
+	<Property ID="8004" ItemTeamID="GR_TY_TL_L16_WQ" TeamName="黑金野外掉落16级boss绿色武器宝箱" ItemID="BX_XQ_001,1;8A,2"/>
 	<!--大块头武器宝箱--><!--斯特洛尔武器宝箱--><!--斯卡丽武器宝箱--><!--卢迦-->
 	<Property ID="8005" ItemTeamID="GR_TY_TL_L23_WQ" TeamName="黑金野外掉落23级boss蓝色武器宝箱" ItemID="BX_XQ_0026E,2"/>
 	<!--达戈菲尔歼灭I型武器宝箱--><!--诅咒狼魂武器宝箱--><!--卡萨贝丶金鳍武器宝箱-->
@@ -26,11 +26,11 @@
 
 	<!--qzy 职业宝箱>
 	<!--斯卡丽职业宝箱--><!--卢迦职业宝箱--><!--达戈菲尔歼灭I型职业宝箱--><!--诅咒狼魂职业宝箱30--><!--卡萨贝丶金鳍职业宝箱30--><!--沙罗30-->
-	<Property ID="8008" ItemTeamID="QZY_ZQ_TL_L30_BX" TeamName="黑金蒸汽野外掉落30级boss职业宝箱" ItemID="BX_CF_3001,1;BX_QS_3001,1;BX_ZX_3001,1;BX_ZS_3001,1;BX_JS_3001,1;BX_NW_3001,1"/>
+	<Property ID="8008" ItemTeamID="QZY_ZQ_TL_L30_BX" TeamName="黑金蒸汽野外掉落30级boss职业宝箱" ItemID="BX_CF_3001,1;,1;BX_QS_3001,1;,1;BX_ZX_3001,1;,1;BX_ZS_3001,1;,1;BX_JS_3001,1;,1;BX_NW_3001,1;,1"/>
 	<!--诅咒狼魂职业宝箱35--><!--卡萨贝丶金鳍职业宝箱35--><!--沙罗--><!--法尔佩拉职业宝箱35--><!--织网者35-->
 	<Property ID="8009" ItemTeamID="QZY_ZQ_TL_L35_BX" TeamName="黑金蒸汽野外掉落35级boss职业宝箱" ItemID="BX_CF_3501,1;BX_QS_3501,1;BX_ZX_3501,1;BX_ZS_3501,1;BX_JS_3501,1;BX_NW_3501,1"/>
 	<!--法尔佩拉职业宝箱40--><!--织网者-->
-	<Property ID="8010" ItemTeamID="QZY_ZQ_TL_L40_BX" TeamName="黑金蒸汽野外掉落40级boss职业宝箱" ItemID="BX_CF_4001,1;BX_QS_4001,1;BX_ZX_4001,1;BX_ZS_4001,1;BX_JS_4001,1;BX_NW_4001,1"/>
+	<Property ID="8010" ItemTeamID="QZY_ZQ_TL_L40_BX" TeamName="黑金蒸汽野外掉落40级boss职业宝箱" ItemID="BX_CF_4001,1;,1;BX_QS_4001,1;,1;BX_ZX_4001,1;,1;BX_ZS_4001,1;,1;BX_JS_4001,1;,1;BX_NW_4001,1;,1"/>
 
 	<!--图纸坐骑-->
 	<!--大块头图纸--><!--头盔：灿烂精神     头盔：灿烂体质--><!--迪魔高根-->
@@ -56,9 +56,9 @@
 
 	<!--炼石-->
 	<!--屠夫-->
-	<Property ID="8021" ItemTeamID="YW_TY_TL_LS10" TeamName="黑金野外掉落蒸汽boss炼化之石10" ItemID="DKDJ_001,10"/>
+	<Property ID="8021" ItemTeamID="YW_TY_TL_LS10" TeamName="黑金野外掉落蒸汽boss炼化之石10" ItemID="DKDJ_001,1;,10"/>
 	<!--毁灭壁垒--><!--大块头炼石--><!--斯特洛尔炼石--><!--斯卡丽炼石-->
-	<Property ID="8022" ItemTeamID="YW_TY_TL_LS20" TeamName="黑金野外掉落蒸汽boss炼化之石20" ItemID="DKDJ_001,20"/>
+	<Property ID="8022" ItemTeamID="YW_TY_TL_LS20" TeamName="黑金野外掉落蒸汽boss炼化之石20" ItemID="DKDJ_001,1;,20"/>
 	<!--卢迦炼石-->
 	<Property ID="8024" ItemTeamID="YW_TY_TL_LHZS5" TeamName="黑金野外掉落蒸汽boss炼魂之石5" ItemID="DKDJ_002,5"/>
 	<!--达戈菲尔歼灭I型炼石-->
@@ -96,9 +96,9 @@
 	
 	<!--坐骑-->
 	<!--法尔佩拉坐骑-->
-	<Property ID="8039" ItemTeamID="BL_ZQ_TL_JS1" TeamName="黑金野外掉落蒸汽boss坐骑1" ItemID="Mount_00013,1"/>
+	<Property ID="8039" ItemTeamID="BL_ZQ_TL_JS1" TeamName="黑金野外掉落蒸汽boss坐骑1" ItemID="Mount_0001,1;1;3,1"/>
 	<!--织网者坐骑-->
-	<Property ID="8040" ItemTeamID="BL_ZQ_TL_JS2" TeamName="黑金野外掉落蒸汽boss坐骑2" ItemID="Mount_00017,1"/>
+	<Property ID="8040" ItemTeamID="BL_ZQ_TL_JS2" TeamName="黑金野外掉落蒸汽boss坐骑2" ItemID="Mount_0001,1;1;7,1"/>
 
 	抢夺者
 	补给队员
@@ -108,3 +108,40 @@
 铁拳战士--晶蓝领主 W_T_YW_10BO_QH_24
 机械炮手--沃拉克8 W_T_YW_5BO_QH_25
 机械维修工--卡蒙多纳德8 W_T_YW_5BO_QH_32
+
+
+达戈菲尔机械兵---织网者  W_T_YW_10BO_ZQ_30
+达戈菲尔补给队员--雷鸣战鹰 W_YW_BOSS_25
+铁拳战士---玛古纳  W_T_YW_20BO_TY_40
+机械炮手--沃拉克8 W_T_YW_5BO_QH_25
+机械维修工--卡蒙多纳德8 W_T_YW_5BO_QH_32
+
+机械兵--- 纳伦 W_T_YW_20BO_QH_36
+补给----狂躁的泰伦 W_T_YW_10BO_QH_33
+铁拳战士---玛古纳  W_T_YW_20BO_TY_40
+
+	<Property ID="BG_BX_50_1" Name="BG_BX_50_1" TextureType="27" Desc="黑金宝箱" Description="tips_itemtype_36" Photo="icon\Material\Task_00060B.png" BindStatus="1" WealthPack="8002" LeadTime="3000" FuncPack="1" script="ToolItem" ItemType="36" ColorLevel="1" Level="1" CantDelete="0" CantDepot="0" CantSell="0" Task="0" Amount="1" MaxAmount="1" UseNumber="1" Disappear="1" SellPrice1="20" BuyPrice1="20" LogicPack="1" CanAskToBuy="0"/>
+	<Property ID="BG_BX_150_2" Name="BG_BX_150_2" TextureType="27" Desc="黑金宝箱" Description="tips_itemtype_36" Photo="icon\Material\Task_00060B.png" BindStatus="1" WealthPack="8003" LeadTime="3000" FuncPack="1" script="ToolItem" ItemType="36" ColorLevel="1" Level="1" CantDelete="0" CantDepot="0" CantSell="0" Task="0" Amount="1" MaxAmount="1" UseNumber="1" Disappear="1" SellPrice1="20" BuyPrice1="20" LogicPack="1" CanAskToBuy="0"/>
+	<Property ID="BG_BX_250_3" Name="BG_BX_250_3" TextureType="27" Desc="黑金宝箱" Description="tips_itemtype_36" Photo="icon\Material\Task_00060B.png" BindStatus="1" WealthPack="8004" LeadTime="3000" FuncPack="1" script="ToolItem" ItemType="36" ColorLevel="1" Level="1" CantDelete="0" CantDepot="0" CantSell="0" Task="0" Amount="1" MaxAmount="1" UseNumber="1" Disappear="1" SellPrice1="20" BuyPrice1="20" LogicPack="1" CanAskToBuy="0"/>
+	<Property ID="BG_BX_350_4" Name="BG_BX_350_4" TextureType="27" Desc="黑金宝箱" Description="tips_itemtype_36" Photo="icon\Material\Task_00060B.png" BindStatus="1" WealthPack="8005" LeadTime="3000" FuncPack="1" script="ToolItem" ItemType="36" ColorLevel="1" Level="1" CantDelete="0" CantDepot="0" CantSell="0" Task="0" Amount="1" MaxAmount="1" UseNumber="1" Disappear="1" SellPrice1="20" BuyPrice1="20" LogicPack="1" CanAskToBuy="0"/>
+	
+	<Property ID="BX_YW_TY_TL_LS10" Name="BX_YW_TY_TL_LS10" TextureType="27" Desc="炼石宝箱" Description="zx_djtype_36" Photo="icon\Material\Task_00060B.png" BindStatus="1" WealthPack="8006" LeadTime="3000" FuncPack="1" script="ToolItem" ItemType="36" ColorLevel="1" Level="1" CantDelete="0" CantDepot="0" CantSell="0" Task="0" Amount="1" MaxAmount="1" UseNumber="1" Disappear="1" SellPrice1="20" BuyPrice1="20" LogicPack="1" CanAskToBuy="0"/>
+	<Property ID="BX_YW_TY_TL_LS20" Name="BX_YW_TY_TL_LS20" TextureType="27" Desc="炼石宝箱" Description="zx_djtype_36" Photo="icon\Material\Task_00060B.png" BindStatus="1" WealthPack="8007" LeadTime="3000" FuncPack="1" script="ToolItem" ItemType="36" ColorLevel="1" Level="1" CantDelete="0" CantDepot="0" CantSell="0" Task="0" Amount="1" MaxAmount="1" UseNumber="1" Disappear="1" SellPrice1="20" BuyPrice1="20" LogicPack="1" CanAskToBuy="0"/>
+	<Property ID="BX_YW_TY_TL_LHZS5" Name="BX_YW_TY_TL_LHZS5" TextureType="27" Desc="炼石宝箱" Description="zx_djtype_36" Photo="icon\Material\Task_00060B.png" BindStatus="1" WealthPack="8008" LeadTime="3000" FuncPack="1" script="ToolItem" ItemType="36" ColorLevel="1" Level="1" CantDelete="0" CantDepot="0" CantSell="0" Task="0" Amount="1" MaxAmount="1" UseNumber="1" Disappear="1" SellPrice1="20" BuyPrice1="20" LogicPack="1" CanAskToBuy="0"/>
+	<Property ID="BX_YW_TY_TL_LHZS10" Name="BX_YW_TY_TL_LHZS10" TextureType="27" Desc="炼石宝箱" Description="zx_djtype_36" Photo="icon\Material\Task_00060B.png" BindStatus="1" WealthPack="8009" LeadTime="3000" FuncPack="1" script="ToolItem" ItemType="36" ColorLevel="1" Level="1" CantDelete="0" CantDepot="0" CantSell="0" Task="0" Amount="1" MaxAmount="1" UseNumber="1" Disappear="1" SellPrice1="20" BuyPrice1="20" LogicPack="1" CanAskToBuy="0"/>
+	<Property ID="BX_YW_TY_TL_LHZS20" Name="BX_YW_TY_TL_LHZS20" TextureType="27" Desc="炼石宝箱" Description="zx_djtype_36" Photo="icon\Material\Task_00060B.png" BindStatus="1" WealthPack="8001,1;0" LeadTime="3000" FuncPack="1" script="ToolItem" ItemType="36" ColorLevel="1" Level="1" CantDelete="0" CantDepot="0" CantSell="0" Task="0" Amount="1" MaxAmount="1" UseNumber="1" Disappear="1" SellPrice1="20" BuyPrice1="20" LogicPack="1" CanAskToBuy="0"/>
+	<Property ID="BX_YW_TY_TL_LHZS30" Name="BX_YW_TY_TL_LHZS30" TextureType="27" Desc="炼石宝箱" Description="zx_djtype_36" Photo="icon\Material\Task_00060B.png" BindStatus="1" WealthPack="8011" LeadTime="3000" FuncPack="1" script="ToolItem" ItemType="36" ColorLevel="1" Level="1" CantDelete="0" CantDepot="0" CantSell="0" Task="0" Amount="1" MaxAmount="1" UseNumber="1" Disappear="1" SellPrice1="20" BuyPrice1="20" LogicPack="1" CanAskToBuy="0"/>
+	<Property ID="BX_YW_TY_TL_WHZS5" Name="BX_YW_TY_TL_WHZS5" TextureType="27" Desc="炼石宝箱" Description="zx_djtype_36" Photo="icon\Material\Task_00060B.png" BindStatus="1" WealthPack="8012" LeadTime="3000" FuncPack="1" script="ToolItem" ItemType="36" ColorLevel="1" Level="1" CantDelete="0" CantDepot="0" CantSell="0" Task="0" Amount="1" MaxAmount="1" UseNumber="1" Disappear="1" SellPrice1="20" BuyPrice1="20" LogicPack="1" CanAskToBuy="0"/>
+	
+	<Property ID="BG_BX_150_1" Name="BG_BX_150_1" TextureType="27" Desc="尋寶者宝箱" Description="tips_itemtype_36" Photo="icon\Material\Task_00060B.png" BindStatus="1" WealthPack="8002" LeadTime="3000" FuncPack="1" script="ToolItem" ItemType="36" ColorLevel="1" Level="1" CantDelete="0" CantDepot="0" CantSell="0" Task="0" Amount="1" MaxAmount="1" UseNumber="1" Disappear="1" SellPrice1="20" BuyPrice1="20" LogicPack="1" CanAskToBuy="0"/>
+	<Property ID="BG_BX_250_2" Name="BG_BX_250_2" TextureType="27" Desc="尋寶者宝箱" Description="tips_itemtype_36" Photo="icon\Material\Task_00060B.png" BindStatus="1" WealthPack="8003" LeadTime="3000" FuncPack="1" script="ToolItem" ItemType="36" ColorLevel="1" Level="1" CantDelete="0" CantDepot="0" CantSell="0" Task="0" Amount="1" MaxAmount="1" UseNumber="1" Disappear="1" SellPrice1="20" BuyPrice1="20" LogicPack="1" CanAskToBuy="0"/>
+	<Property ID="BG_BX_350_3" Name="BG_BX_350_3" TextureType="27" Desc="尋寶者宝箱" Description="tips_itemtype_36" Photo="icon\Material\Task_00060B.png" BindStatus="1" WealthPack="8004" LeadTime="3000" FuncPack="1" script="ToolItem" ItemType="36" ColorLevel="1" Level="1" CantDelete="0" CantDepot="0" CantSell="0" Task="0" Amount="1" MaxAmount="1" UseNumber="1" Disappear="1" SellPrice1="20" BuyPrice1="20" LogicPack="1" CanAskToBuy="0"/>
+	<Property ID="BG_BX_450_4" Name="BG_BX_450_4" TextureType="27" Desc="尋寶者宝箱" Description="tips_itemtype_36" Photo="icon\Material\Task_00060B.png" BindStatus="1" WealthPack="8005" LeadTime="3000" FuncPack="1" script="ToolItem" ItemType="36" ColorLevel="1" Level="1" CantDelete="0" CantDepot="0" CantSell="0" Task="0" Amount="1" MaxAmount="1" UseNumber="1" Disappear="1" SellPrice1="20" BuyPrice1="20" LogicPack="1" CanAskToBuy="0"/>
+
+
+
+TY_Cloth_A0001,1;TY_Hnad_A0001,1;TY_Pants_A0001,1;TY_Shoes_A0001,1;TY_Hat_A0001,1;TY_Wrist_A0001,1;TY_Belt_A0001,1;TY_Cloth_B0001,1;TY_Hnad_B0001,1;TY_Pants_B0001,1;TY_Shoes_B0001,1;TY_Hat_B0001,1;TY_Wrist_B0001,1;TY_Belt_B0001,1;TY_Cloth_B5001,1;TY_Hnad_B5001,1;TY_Pants_B5001,1;TY_Shoes_B5001,1;TY_Hat_B5001,1;TY_Wrist_B5001,1;TY_Belt_B5001,1;TY_Cloth_C5001,1;TY_Hnad_C5001,1;TY_Pants_C5001,1;TY_Shoes_C5001,1;TY_Hat_C5001,1;TY_Wrist_C5001,1;TY_Belt_C5001,1;TY_Cloth_D5001,1;TY_Hnad_D5001,1;TY_Pants_D5001,1;TY_Shoes_D5001,1;TY_Hat_D5001,1;TY_Wrist_D5001,1;TY_Belt_D5001,1
+
+TY_Sword_0001,1;TY_Axe_0001,1;TY_Mace_0001,1;TY_Dagger_0001,1;TY_Gun_0001,1;TY_Claymore_0001,1;TY_Poleaxe,1
+
+

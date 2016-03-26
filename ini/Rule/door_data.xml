@@ -86,7 +86,7 @@
 	<Property ID="6000" Name="进战争机械测试场" TargetOrient="2.430" TargetSceneID="303" TargetX="-5.423" TargetY="21.187" TargetZ="-22.191"/>
 	<Property ID="1111" Name="试练开始" TargetSceneID="6" TargetX="-1767.223" TargetY="196.654" TargetZ="3302.240" TargetOrient="0.290"/>
 	<Property ID="1112" Name="试练进入" TargetSceneID="123" TargetX="-42.723" TargetY="12.663" TargetZ="992.037" TargetOrient="1.508"/>
-	<Property ID="106" MoveTargetX="-1002.147" MoveTargetY="279.203" MoveTargetZ="522.069" Name="传送到奇幻新手副本" TargetOrient="-2.371" TargetSceneID="106" TargetX="-1002.147" TargetY="279.203" TargetZ="522.069"/>
+	<Property ID="106" Name="传送到奇幻新手副本" TargetSceneID="106" TargetX="-1002.147" TargetY="279.203" TargetZ="522.069" TargetOrient="-2.371"/>
 	<Property ID="116" MoveTargetX="2386.217" MoveTargetY="10" MoveTargetZ="2504.327" Name="传送到蒸汽新手副本" TargetOrient="-1.533" TargetSceneID="116" TargetX="2386.217" TargetY="10" TargetZ="2504.327"/>
 	<Property ID="36" Name="雾月赛点" TargetSceneID="3" TargetX="-5154.887" TargetY="49.359" TargetZ="4126.710" TargetOrient="1.792"/>
 	<Property ID="37" Name="卡拉赛点" TargetSceneID="5" TargetX="3098.313" TargetY="78.207" TargetZ="2729.531" TargetOrient="-1.717"/>
@@ -114,8 +114,6 @@
 	<Property ID="3041" Name="返回_晨曦丘陵" TargetSceneID="3" TargetX="-6156.551" TargetY="7.482" TargetZ="6795.912" TargetOrient="-1.722"/>
 	<Property ID="3042" Name="返回_能源矿脉" TargetSceneID="7" TargetX="-1527.923" TargetY="195.276" TargetZ="637.989" TargetOrient="-2.321"/>
 	<Property ID="1145" Name="天怒教堂离开门" TargetOrient="2.850" TargetSceneID="7" TargetX="-3870.356" TargetY="127.779" TargetZ="1113.556"/>
-	<Property ID="9999" Name="E3展示传送门（奇幻）" TargetOrient="2.549" TargetSceneID="215" TargetX="-71.040" TargetY="47.382" TargetZ="138.898"/>
-	<Property ID="9998" Name="E3展示传送门（蒸汽）" TargetOrient="-0.345" TargetSceneID="215" TargetX="63.842" TargetY="56.294" TargetZ="-160.860"/>
 	<Property ID="9997" Name="BOSS返回传送门（蒸汽）" TargetOrient="3.19" TargetSceneID="1" TargetX="-507.54" TargetY="7.82" TargetZ="845.28"/>
 	<Property ID="9996" Name="BOSS返回传送门（奇幻）" TargetOrient="2.89" TargetSceneID="2" TargetX="3317.10" TargetY="50.30" TargetZ="1190.55"/>
 	<Property ID="9995" Name="BOSS返回传送门（蒸汽）" TargetOrient="2.69" TargetSceneID="7" TargetX="-1036.54" TargetY="104.82" TargetZ="2416.28"/>
