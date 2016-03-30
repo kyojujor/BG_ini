@@ -1,0 +1,249 @@
+﻿
+Task2=虎口拔牙
+pvp_task_name_2=虎口拔牙
+pvp_task_des_2=前线传来情报，圣日卡口有一个敌方的情报联络处，许多的重要情报都会从那里转送出去。战士，去找到那些联络员，把他们手中的情报在转送出去之前拦截下来！
+des_6=击杀{@npc}
+des_7=击杀{@npc}
+des_8=击杀{@npc}
+Task3=虎口拔牙
+pvp_task_name_3=虎口拔牙
+pvp_task_des_3=前线传来情报，莱尔小镇有一个敌方的情报联络处，许多的重要情报都会从那里转送出去。勇士，去找到那些联络员，把他们手中的情报在转送出去之前拦截下来！
+des_15=击杀{@npc}
+des_16=击杀{@npc}
+des_17=击杀{@npc}
+pvp_task_air_attack_fail=载具已被击毁，此次空袭失败！
+pvp_task_air_attack_over=天隼强袭/火鹰怒吼活动结束!
+pvp_task_air_attack_begin=天隼强袭/火鹰怒吼活动现在开启，速度赶至提奥迪亚参与战斗吧!
+pvp_task_tra_attack_begin=提奥迪亚的生命之线已经开启，请大家前去协助我方物资的运输。
+pvp_task_tra_attack_over=生命之线活动结束。
+pvp_task_getoff_bc_tips=现在离开载具将无法完成活动附加条件，并且该次活动无法再上攻击载具，是否离开?
+Task4=天隼强袭
+pvp_task_name_4=天隼强袭
+pvp_task_des_4=王国的荣耀不容亵渎，新一批的Ace战斗机已经降落，是时候让对方感受我们的愤怒了！战士们！登上战机，去把他们的营地夷为平地！
+des_4=击杀{@npc}
+des_31=击毁{@npc}
+des_34=<font color="#FAFA76">飞行载具技能只对冒险目标有效</font>
+Task5=火鹰怒吼
+pvp_task_name_5=火鹰怒吼
+pvp_task_des_5=守护我们的联盟，强大的火鹰已经抵达营地，我们的怒火终于可以尽情的发泄了！勇士们！骑上火鹰，去把对面的渣滓们都烧成焦炭！
+des_3=击杀{@npc}
+des_32=击毁{@npc}
+des_118=休息10秒
+Task8=幽灵行动
+pvp_task_name_8=幽灵行动
+pvp_task_des_8=为了支援前线局势，王国需要收集更多详实的军事情报，战士，相信你的实力！潜入联盟领地，找到可疑的人，接收到他们的情报。注意！隐藏好自己的身份，王国不想损失一位勇士，只要收集齐他们内部的通行令牌，你必将凯旋。
+des_18=收集联盟通行令牌
+des_19=收集联盟军事情报
+Task9=幽灵行动
+pvp_task_name_9=幽灵行动
+pvp_task_des_9=为了支援前线局势，联盟需要收集更多详实的军事情报，勇士，相信你的能力！潜入王国领地，找到可疑的人，骗取到他们的情报。小心！保护好你自己，联盟希望你安全归来，只要收集齐他们内部的通行令牌，你就能顺利的回来。
+des_20=收集王国通行令牌
+des_21=收集王国军事情报
+Task20=虎口拔牙
+Task21=虎口拔牙
+Task22=天隼强袭
+Task24=火鹰怒吼
+Task25=幽灵行动
+Task26=幽灵行动
+Task6=生命之线
+Task7=截断后勤
+Task10=生命之线
+Task11=截断后勤
+pvp_task_name_6=生命之线
+pvp_task_des_6=<s>战场前线的物资严重不足，希望你能够帮助联盟把一些紧急物资护送到前线去！
+pvp_task_trackinfo_5=前往寒落山脚,帮助{@npc}护送物资
+pvp_task_trackinfo_6=前往叛逆者营地,帮助{@npc}护送物资
+pvp_task_trackinfo_7=前往南寒落山脉,帮助{@npc}护送物资
+pvp_task_trackinfo_8=前往蒂兰达,帮助{@npc}护送物资
+pvp_task_trackinfo_90=前往暖水湖,帮助{@npc}护送物资
+pvp_task_trackinfo_10=前往南寒落山脉,帮助{@npc}护送物资
+pvp_task_name_7=截断后勤
+pvp_task_des_7=<s>前哨站传来消息，在山脉观察站附近发现敌方的一支后勤补给队伍，大家赶快前去把它们消灭！
+pvp_task_trackinfo_9=在山脉观察站附近消灭敌方的后勤补给队伍。
+pvp_task_des_10=战场前线的物资严重不足，希望你能够帮助王国把一些紧急物资护送到前线去！
+pvp_task_des_11=前哨站传来消息，在山脉观察站附近发现敌方的一支后勤补给队伍，大家赶快前去把它们消灭！
+pvp_subtask_convoy_notify =前哨站传来消息，在[{@0:区域}]附近发现敌方的一支后勤补给队伍，大家赶快前去把它们消灭！
+pvp_task_confirm_accept_task=是否交付[{@0:押金}]作为押金接受此任务?
+pvp_task_att_1=我这儿没有你要接受的任务！
+pvp_task_giveup_confirm=确定要放弃任务吗?
+pvp_task_trans_confirm_param0=是否进行传送?
+pvp_task_trans_confirm_param1=是否消耗[{@0:道具}]进行传送?
+pvp_task_protect_scapegoat_confirm=你的影子正遭受攻击，是否传送过去保护?
+pvp_task_kill_scapegoat_confirm=你的好友[{@0:player}]正在攻击敌方影子，是否传送过去帮忙?请在帮助好友期间暂时不要进行其他活动！
+pvp_task_protect_no_trans_confirm=你的影子被攻击，是否退出所有当前参与的活动前往保护?
+pvp_task_response_kill_scapegoat=你的好友[{@0:player}]正在攻击敌方影子，是否过去帮忙?请在帮助好友期间暂时不要进行其他活动！
+pvp_task_response_protect_scapegoat=你的好友[{@0:player}]呼唤你前去帮助保护他的影子，是否前往?请在帮助好友期间暂时不要进行其他活动！
+pvp_task_prompt=你已被一种神秘的法术锁定并且生成了你的影子，20分钟内请不要进行其他pvp任务！
+pvp_task_shame=[{@0:player}]的影子被[{@1:player}]消灭了,能力消弱！
+pvp_task_kill_sg_failed=[{@0:player}]成功保护了自己的影子,能力加强！
+pvp_task_ask_kill_confirm=是否向好友求助
+pvp_task_ask_help_confirm=是否向好友求助
+Task31=月光之影
+Task32=月光之影
+pvp_task_name_11=月光之影
+
+pvp_task_des_31=机械工匠协会的工匠们利用发现的残缺手稿制造出一种机器，可以用月光之力创造出敌人的影子，通过消灭影子可以消弱敌人的实力，战士，接受挑战吧！
+pvp_task_des_32=魔法研究院的魔法师们利用发现的残缺手稿研究出一个魔法，可以用月光之力创造出敌人的影子，通过消灭影子可以消弱敌人的实力，勇士，接受使命吧！
+des_100=找到[{@npc}]并杀死它
+des_101=找到[{@npc}]并杀死它
+des_200=在规定时间内消灭[{@npc}]
+des_201=在规定时间内消灭[{@npc}]
+pvp_money={@money}
+pvp_time={@time}
+pvp_task_ui_des=开启时间:<br/>{@0:时间}限制等级:<br/>{@1:等级}<br/>每日次数:<br/>{@2:次数}
+pvp_task_ui_week_des=开启时间:<br/>{@0:时间}限制等级:<br/>{@1:等级}<br/>每周次数:<br/>{@2:次数}
+des_102=保护[{@npc}]不被击杀
+des_103=保护[{@npc}]不被击杀
+sub_des_self_scapegoat=自己的影子
+sub_des_target_scapegoat=对方的影子
+Task33=月光之影
+Task34=月光之影
+pvp_task_trackinfo_11=前往叛逆者营地,找到{@npc}
+pvp_task_trackinfo_12=把物资护送到{@npc}
+pvp_task_trackinfo_13=护送失败
+pvp_task_trackinfo_14=前往寒落山脚,找到{@npc}
+pvp_task_trackinfo_15=把物资护送到{@npc}
+pvp_task_trackinfo_16=护送失败
+pvp_task_trackinfo_17=前往讨逆军营地,去找{@npc}乘坐战斗机
+pvp_task_trackinfo_18=前往寒落山脚营地,找到{@npc}骑乘火鹰
+
+pvp_task_trackinfo_19=前往蒂兰达,找到{@npc}
+pvp_task_trackinfo_20=把物资护送到{@npc}
+pvp_task_trackinfo_21=护送失败
+pvp_task_trackinfo_22=前往南寒落山脉,找到{@npc}
+pvp_task_trackinfo_23=把物资护送到{@npc}
+pvp_task_trackinfo_24=护送失败
+
+
+pvp_task_zq_sl_info=当前艾森赫特的PVP活动收益提高{@0:ratio}%
+pvp_task_qh_sl_info=当前格兰蒂尔的PVP活动收益提高{@0:ratio}%
+pvp_task_zq_info=明日艾森赫特{@0:taskname}增加{@1:count}次
+pvp_task_qh_info=明日格兰蒂尔{@0:taskname}增加{@1:count}次
+
+pvp_task_open=活动进行中
+pvp_task_close=活动未开启
+
+pvp_task_tranport_back=即将被传离当前区域，还剩{@0:time}秒
+
+pvp_task_open_day=全天开放
+pvp_task_close_day=今天未开放
+pvp_task_npc_bedamage={@0:name}{@1:pos}你们已经激怒我了，你们将死无葬身之地
+pvp_task_trackinfo_36=找到{@npc}，参加试练
+pvp_task_trackinfo_37=直接传送进入勇者试炼场
+des_36=休息时间，稍后开始下一场战斗
+pvp_task_trackinfo_npc_36=试炼开始，消灭所有的敌人！
+pvp_task_trackinfo_wait=进入试炼之地光环内开始战斗！
+des_35=进入试炼之地，奋勇战斗直到最后一刻！
+
+pvp_task_trackinfo_section_1=<font color="#39FF39">第1波(匹配15~24级)</font>
+pvp_task_trackinfo_section_2=<font color="#39FF39">第2波</font>
+pvp_task_trackinfo_section_3=<font color="#39FF39">第3波</font>
+pvp_task_trackinfo_section_4=<font color="#39FF39">第4波</font>
+pvp_task_trackinfo_section_5=<font color="#39FF39">第5波</font>
+pvp_task_trackinfo_section_6=<font color="#FAFA76">第6波——BOSS</font>
+pvp_task_trackinfo_section_7=<font color="#39FF39">第7波(匹配25~29级)</font>
+pvp_task_trackinfo_section_8=<font color="#39FF39">第8波</font>
+pvp_task_trackinfo_section_9=<font color="#39FF39">第9波</font>
+pvp_task_trackinfo_section_10=<font color="#39FF39">第10波</font>
+pvp_task_trackinfo_section_11=<font color="#39FF39">第11波</font>
+pvp_task_trackinfo_section_12=<font color="#FAFA76">第12波——BOSS</font>
+pvp_task_trackinfo_section_13=<font color="#39FF39">第13波(匹配30~34级)</font>
+pvp_task_trackinfo_section_14=<font color="#39FF39">第14波</font>
+pvp_task_trackinfo_section_15=<font color="#39FF39">第15波</font>
+pvp_task_trackinfo_section_16=<font color="#39FF39">第16波</font>
+pvp_task_trackinfo_section_17=<font color="#39FF39">第17波</font>
+pvp_task_trackinfo_section_18=<font color="#FAFA76">第18波——BOSS</font>
+pvp_task_trackinfo_section_19=<font color="#39FF39">第19波(匹配35~39级)</font>
+pvp_task_trackinfo_section_20=<font color="#39FF39">第20波</font>
+pvp_task_trackinfo_section_21=<font color="#39FF39">第21波</font>
+pvp_task_trackinfo_section_22=<font color="#39FF39">第22波</font>
+pvp_task_trackinfo_section_23=<font color="#39FF39">第23波</font>
+pvp_task_trackinfo_section_24=<font color="#FAFA76">第24波——BOSS</font>
+pvp_task_trackinfo_section_25=<font color="#39FF39">第25波(匹配40级以上)</font>
+pvp_task_trackinfo_section_26=<font color="#39FF39">第26波</font>
+pvp_task_trackinfo_section_27=<font color="#39FF39">第27波</font>
+pvp_task_trackinfo_section_28=<font color="#39FF39">第28波</font>
+pvp_task_trackinfo_section_29=<font color="#39FF39">第29波</font>
+pvp_task_trackinfo_section_30=<font color="#FAFA76">第30波——BOSS</font>
+pvp_task_trackinfo_section_31=<font color="#39FF39">第31波</font>
+pvp_task_trackinfo_section_32=<font color="#39FF39">第32波</font>
+pvp_task_trackinfo_section_33=<font color="#39FF39">第33波</font>
+pvp_task_trackinfo_section_34=<font color="#39FF39">第34波</font>
+pvp_task_trackinfo_section_35=<font color="#39FF39">第35波</font>
+pvp_task_trackinfo_section_36=<font color="#FAFA76">第36波——BOSS</font>
+pvp_task_trackinfo_section_37=<font color="#39FF39">第37波</font>
+pvp_task_trackinfo_section_38=<font color="#39FF39">第38波</font>
+pvp_task_trackinfo_section_39=<font color="#39FF39">第39波</font>
+pvp_task_trackinfo_section_40=<font color="#FAFA76">第40波——BOSS</font>
+pvp_task_trackinfo_section_41=<font color="#39FF39">第41波</font>
+pvp_task_trackinfo_section_42=<font color="#39FF39">第42波</font>
+pvp_task_trackinfo_section_43=<font color="#39FF39">第43波</font>
+pvp_task_trackinfo_section_44=<font color="#FAFA76">第44波——BOSS</font>
+pvp_task_trackinfo_section_45=<font color="#39FF39">第45波</font>
+pvp_task_trackinfo_section_46=<font color="#39FF39">第46波</font>
+pvp_task_trackinfo_section_47=<font color="#39FF39">第47波</font>
+pvp_task_trackinfo_section_48=<font color="#FAFA76">第48波——BOSS</font>
+pvp_task_trackinfo_section_49=<font color="#FAFA76">第49波——BOSS</font>
+pvp_task_trackinfo_section_50=<font color="#FAFA76">第50波——BOSS</font>
+pvp_task_trackinfo_section_51=<font color="#FAFA76">第51波——BOSS</font>
+
+
+Task35=死神试炼
+Task36=死神试炼
+Task37=勇者试炼
+Task38=勇者试炼
+pvp_task_name_35=死神试炼
+pvp_task_name_36=死神试炼
+pvp_task_name_37=勇者试炼
+pvp_task_name_38=勇者试炼
+pvp_task_des_12=“亡者引路人”突然现身，邀请冒险家们组成小队前往试炼之地参加“死神的试炼”。小队每通过一阶段试炼都将累积大量奖励，完成试炼后即可领取奖励，但中途离队或放弃算作失败。
+pvp_task_des_13=“亡者引路人”突然现身，邀请冒险家们组成小队前往试炼之地参加“死神的试炼”。小队每通过一阶段试炼都将累积大量奖励，完成试炼后即可领取奖励，但中途离队或放弃算做失败。
+pvp_task_des_14=战争不仅是对战士能力的磨练，更是对其心理的考验！不知何人创造了试炼场，王国军用科技复制了一个用来训练战士，只要完成一定阶段就能得到丰厚的奖品，谱写勇者的赞歌。
+pvp_task_des_15=战争不仅是对勇士能力的磨练，更是对其心理的考验！不知何人创造了试炼场，联盟军用魔法复制了一个用来训练勇士，只要完成一定阶段就能得到丰厚的奖品，谱写勇者的赞歌。
+pvp_task_trackinfo_section=当前处于第{@0:阶段}阶段
+pvp_task_trackinfo_rest_time=战斗准备时间{@0:time}秒
+pvp_task_trackinfo_fight_time=战斗剩余时间{@0:time}秒
+
+Task500=疾风之旅
+Task501=疾风之旅
+pvp_task_name_500=疾风之旅
+pvp_task_des_500=活动开启后，开启时间前五分钟为报名时间，在报名时间内玩家接取该活动并传送至比赛场地。若在此时间内未传送至比赛场地，将无法参加此次比赛。比赛过程中玩家只有在坐骑上才会触发活动场景中的道具。
+pvp_task_des_501=活动开启后，开启时间前五分钟为报名时间，在报名时间内玩家接取该活动并传送至比赛场地。若在此时间内未传送至比赛场地，将无法参加此次比赛。比赛过程中玩家只有在坐骑上才会触发活动场景中的道具。
+Task500_500=完成比赛
+Task500_501=完成比赛
+pvp_task_racetitle=请选择比赛场地
+Task500_500_1=雾月赛区
+Task500_501_1=卡拉福德赛区
+Task500_502_1=月光高地赛区
+Task500_503_1=巨人峡谷赛区
+remain_race=剩余圈数{@0:r}
+horse_race_ready=比赛即将开始，请耐心等侯...
+horse_race_success=您已完成本次比赛,您的排名为No.{@0:count}
+horse_race_fail=很遗憾您未能完成比赛，期待您的下次表现
+cant_relive_practice=金钱不够，不能复活
+race_qh_1=雾月丛林
+race_zq_1=卡拉福德
+race_qh_2=月光高地
+race_zq_2=巨人峡谷
+horse_race_notice_one={@0:task}{@1:subtask}的比赛结束了,祝贺玩家{@2:winner}在比赛中表现神勇，力克其他选手，获得第一名。
+horse_race_notice_two={@0:task}{@1:subtask}的比赛结束了,祝贺玩家{@2:winner}、{@3:winner}在比赛中表现神勇，力克其他选手，分别获得第一名、第二名。
+horse_race_notice_three={@0:task}{@1:subtask}的比赛结束了,玩家{@2:winner}在比赛中表现神勇，力克其他选手，获得第一名，{@3:winner}{@4:winner}则包揽了第二、三名。
+horse_race_notice_begin=大家期待已久的疾风之旅活动已经开启，大家可以在接下来的五分钟内在“冒险”界面报名参与活动。
+
+pvp_task_name_800=载具塔防
+pvp_task_name_801=载具塔防
+Task800_800_1=报名成功，匹配成功后快速传送进载具防守战场
+Task801_801_1=报名成功，匹配成功后快速传送进载具防守战场
+des_800_1=报名成功，匹配成功后快速传送进载具防守战场
+des_800_2=骑乘载具[大杀器]，做好战斗准备
+des_800_3=守护结界石，消灭所有来犯敌人
+des_800_4=冒险结束
+des_801_1=报名成功，匹配成功后快速传送进载具防守战场
+des_801_2=骑乘载具[大杀器]，做好战斗准备
+des_801_3=守护结界石，消灭所有来犯敌人
+des_801_4=冒险结束
+pvp_tower_surrender=对方申请投降，是否接受？
+pvp_hr_quan=圈数:{@0:quan}
+pvp_hr_left_time=时间:{@0:time}
+pvp_complate_tip=恭喜你完成试炼
+pvp_fail_tip=很遗憾你没有完成试炼

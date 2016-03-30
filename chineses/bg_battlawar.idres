@@ -1,0 +1,156 @@
+﻿
+desc_buffer_test=中毒 
+desc_battlawar_name1 = 艾利斯卡加山脉
+desc_battlawar_name2 = 信仰之地
+desc_battlawar_name3 = 克威尔码头
+desc_battlawar_name4 = 圣兽星空
+desc_battlawar_desc0 = 随机选择一个适合的战场
+desc_battlawar_desc1 = <s>艾利斯卡加山脉，宁静与神秘的所在，亘古不化的冰雪，覆盖了这里每一寸土地。随着古代遗迹的发现，这里的宁静终被打破！现在，艾森赫特王国与格兰蒂尔联盟围绕古代遗迹的战略部署已经展开，战争，一触即发！<br><s>以荣耀固吾之血肉，以信仰锐吾之兵甲，吾必万夫莫敌！<br>                                ------尤利西斯·鹰啸
+desc_battlawar_desc2 = <s>在一处不为人知的神秘峡谷，为了争夺为数不多的黑金，艾森赫特与格兰蒂尔又一次建立起各自的营地，随之建立的，还有各自阵营荣耀的象征——国王马尔托尼•布冯特与太阳神艾尔的雕像。战争难以避免，要么赢得黑金，要么尸骨无存。<br><s>比杀死敌人更可怕的，是摧毁他们的信仰！<br>                  ------南之坚壁，安娜•塔西娅
+desc_battlawar_desc3 = <s>蒸汽之渊——门托儿最接近星空的地方，它的神秘吸引了各方势力纷沓而至。现在，艾森赫特与格兰蒂尔都进驻了这里，战争迫在眉睫！<br><s>陨落的不止繁星，还有名将！<br>                                                                                                                           ------南之坚壁，安娜•塔西娅
+desc_battlawar_sand = 随机战场
+jion_battlawar_name = <center>你现在可以进入{@0:bwname}了，请选择:</center> 
+first_available = 优先可用战场
+battlewar_jion = 已排队
+battlewar_uplevel = 级以上
+
+BW_00000 = 公共消息
+//强制关闭战场信息
+BW_00001 = 由于双方人数差距过大，本战场将在{@0:time}s后关闭
+BW_00002 = 双方人数差距缩小，战斗继续
+BW_00005=战场结束，将在{@0:time}秒后关闭		
+// 战场死亡提示
+BW_00003 = 您在战场中阵亡，请等待{@0:time}s进行复活
+BW_00004 = 本战场将在{@0:time}s后开启
+BW_00105 = {@0:name}已经大开杀戒！
+BW_00106 = {@0:name}已经大杀特杀！
+BW_00107 = {@0:name}已经无人能挡！
+BW_00108 = {@0:name}已经主宰战场！
+BW_00109 = {@0:name}已经万夫莫敌！
+BW_001010 = {@0:name}终结了{@1:name}的大开杀戒！
+BW_001011 = {@0:name}终结了{@1:name}的大杀特杀！
+BW_001012 = {@0:name}终结了{@1:name}的无人能挡！
+BW_001013 = {@0:name}终结了{@1:name}的主宰战场！
+BW_001014 = {@0:name}终结了{@1:name}的万夫莫敌！
+BW_001015 = {@0:name}完成了一次双杀！
+BW_001016 = {@0:name}完成了一次三杀！
+BW_001017 = {@0:name}完成了一次四杀！
+BW_001018 = {@0:name}完成了一次五杀！
+BW_001019 = {@0:name}完成了一次疯狂杀戮！
+BW_001020 = {@0:name}达成10人斩！
+BW_001021 = {@0:name}达成30人斩！
+BW_001022 = {@0:name}达成50人斩！
+BW_001023 = {@0:name}达成100人斩！
+BW_001024 = {@0:name}已经暴走！
+BW_001025 = {@0:name}拿到第一滴血！
+BW_001030 = 占领{@0:name}据点
+BW_001031 = ({@0:number}/1)
+BW_001032 = 胜利目标积分({@0:name}/{@1:name1})
+BW_001033 = 带领你的队伍，占领并守住三<br>个资源点，夺取最终的胜利！
+BW_001034 = 带领你的队伍，炸毁敌方营地<br>的雕像，夺取最终的胜利！
+BW_001035 = 带领你的队伍，摧毁敌方营地<br>的能量柱，夺取最终的胜利
+BW_001036 = 炸毁敌方雕像({@0:name}/{@1:name1})
+BW_001037 = 艾森赫特雕像血量
+BW_001038 = 格兰蒂尔雕像血量
+BW_001039 = 艾森赫特王国胜利
+BW_001040 = 格兰蒂尔联盟胜利
+BW_001051 = 艾森赫特王国当前积分{@0:name}
+BW_001052 = 格兰蒂尔联盟当前积分{@0:name}
+BW_001053 = {@0:name}已被{@1:camp}占领
+BW_001054 = 中立  {@0:name}
+BW_001055 = 艾森赫特王国
+BW_001056 = 格兰蒂尔联盟
+BW_001057 = 艾森赫特王国正朝着胜利目标迈进
+BW_001058 = 艾森赫特王国已经接近胜利。
+BW_001059 = {@0:name}据点被艾森赫特王国占领
+BW_001060 = 格兰蒂尔联盟正朝着胜利目标迈进
+BW_001061 = 格兰蒂尔联盟已经接近胜利。
+BW_001062 = {@0:name}据点被格兰蒂尔联盟占领
+BW_001063 = {@0:name}被安装了炸弹
+BW_001064 = {@0:name}有些破损了
+BW_001065 = {@0:name}破损严重
+BW_001066 = {@0:name}被摧毁了
+BW_001067 = {@0:name}炸弹已被拆除
+BW_001068 = {@0:name}已刷新
+BW_001069 = 带领你的队伍，击杀对方的载<br>具，夺取最终的胜利！
+
+
+//以下为军阶相关中文内容
+
+// 战役名称
+Campaign_zq_2 = 飞艇坠落
+Campaign_zq_3 = 登陆日
+Campaign_zq_4 = 斩首计划
+Campaign_zq_5 = 鏖战长空
+Campaign_zq_6 = 目标血牙山
+Campaign_qh_2 = 飞艇坠落
+Campaign_qh_3 = 登陆日
+Campaign_qh_4 = 斩首计划
+Campaign_qh_5 = 鏖战长空
+Campaign_qh_6 = 目标血牙山
+
+
+// 战役子目标名称
+CampaignQuestTrackInfo_101 = 战场报道
+CampaignQuestTrackInfo_102 = 飞艇事故
+CampaignQuestTrackInfo_103 = 我是个修理工
+CampaignQuestTrackInfo_104 = 来吧！战斗！
+CampaignQuestTrackInfo_201 = 战争载具
+CampaignQuestTrackInfo_202 = 出发吧！
+CampaignQuestTrackInfo_203 = 开始吧！
+CampaignQuestTrackInfo_204 = 凯旋而归
+CampaignQuestTrackInfo_301 = 载具改造师
+CampaignQuestTrackInfo_302 = 载具改造
+CampaignQuestTrackInfo_303 = 火线前行
+CampaignQuestTrackInfo_304 = 狙击
+CampaignQuestTrackInfo_401 = 山崖报道
+CampaignQuestTrackInfo_402 = 飞行体验
+CampaignQuestTrackInfo_403 = 侦察敌情
+CampaignQuestTrackInfo_404 = 焰火
+CampaignQuestTrackInfo_501 = 启程
+CampaignQuestTrackInfo_502 = 占领血牙山
+CampaignQuestTrackInfo_503 = 最后的改造
+CampaignQuestTrackInfo_504 = 授勋
+CampaignQuestTrackInfo_10101 = 战场报道
+CampaignQuestTrackInfo_10102 = 飞艇事故
+CampaignQuestTrackInfo_10103 = 我是个修理工
+CampaignQuestTrackInfo_10104 = 来吧！战斗！
+CampaignQuestTrackInfo_10201 = 战争载具
+CampaignQuestTrackInfo_10202 = 出发吧！
+CampaignQuestTrackInfo_10203 = 开始吧！
+CampaignQuestTrackInfo_10204 = 凯旋而归
+CampaignQuestTrackInfo_10301 = 载具改造师
+CampaignQuestTrackInfo_10302 = 载具改造
+CampaignQuestTrackInfo_10303 = 火线前行
+CampaignQuestTrackInfo_10304 = 狙击
+CampaignQuestTrackInfo_10401 = 山崖报道
+CampaignQuestTrackInfo_10402 = 飞行体验
+CampaignQuestTrackInfo_10403 = 侦察敌情
+CampaignQuestTrackInfo_10404 = 焰火
+CampaignQuestTrackInfo_10501 = 启程
+CampaignQuestTrackInfo_10502 = 占领血牙山
+CampaignQuestTrackInfo_10503 = 最后的改造
+CampaignQuestTrackInfo_10504 = 授勋
+
+//军阶名称
+Military_zq_1 = 列兵
+Military_zq_2 = 高阶步兵
+Military_zq_3 = 士官长
+Military_zq_4 = 少尉
+Military_zq_5 = 上尉
+Military_zq_6 = 少校
+Military_zq_7 = 上校
+Military_zq_8 = 少将
+Military_zq_9 = 上将
+Military_zq_10 = 大元帅
+
+Military_qh_1 = 侦察兵
+Military_qh_2 = 高阶步兵
+Military_qh_3 = 军士长
+Military_qh_4 = 军团卫士
+Military_qh_5 = 一等卫士长
+Military_qh_6 = 皇家骑士
+Military_qh_7 = 骑士队长
+Military_qh_8 = 将军
+Military_qh_9 = 高阶督军
+Military_qh_10 = 执政官
