@@ -306,7 +306,7 @@
 	<Property ID="4267" Name="血狼皮" Kind="2" Exp="51" Money="3"/>
 	<Property ID="4268" Name="灵语祭台" Kind="2" Exp="29" Money="2"/>
 	<Property ID="4269" Name="达戈菲尔入侵" Kind="2" Exp="24" Money="1"/>
-	<Property ID="10001" Name="洛格玛人" Kind="3" Exp="270" Money="20" SelectItemList="BG_NEW_QH_ZS,1;BG_NEW_QH_FS,1"/>
+	<Property ID="10001" Name="洛格玛人" Kind="3" Exp="270" Money="20" SelectItemList="BG_NEW_ZQ_ZS,1;BG_NEW_ZQ_FS,1"/>
 	<Property ID="10002" Name="岩之坚毅" Kind="3" Exp="337" Money="50"/>
 	<Property ID="10003" Name="水之理智" Kind="3" Exp="311" Money="53"/>
 	<Property ID="10004" Name="风之率性" Kind="3" Exp="301" Money="33" DefaultItemList="add_depot3,1"/>
@@ -1279,7 +1279,7 @@
 	<Property ID="3008" Name="回报哨站" Kind="3" Exp="3269" Money="689"/>
 	<Property ID="3009" Name="厄运试炼场" Kind="3" Exp="3169" Money="588"/>
 	<Property ID="4177" Name="全面战争" Kind="1" Exp="26956" Money="993"/>
-	<Property ID="501" Name="新兵训话" Kind="14" Exp="230" Money="11" SelectItemList="BG_NEW_ZQ_ZS,1;BG_NEW_ZQ_FS,1"/>
+	<Property ID="501" Name="新兵训话" Kind="14" Exp="230" Money="11" SelectItemList="BG_NEW_QH_ZS,1;BG_NEW_QH_FS,1"/>
 	<Property ID="502" Name="试炼之始" Kind="14" Exp="238" Money="22"/>
 	<Property ID="503" Name="实力考验" Kind="14" Exp="820" Money="50" DefaultItemList="add_depot3,1"/>
 	<Property ID="504" Name="解救村民" Kind="14" Exp="242" Money="33" DefaultItemList="add_depot3,1"/>
