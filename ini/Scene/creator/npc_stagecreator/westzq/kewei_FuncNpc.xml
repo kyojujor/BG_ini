@@ -976,16 +976,16 @@
 	<Object Guid="62810263843C4484B14824702F0E3BAE" Desc="居民" config="npc_zqm001_0122" x="69.580963" y="10.372001" z="35.673756" IsY="0" Radius="0" PeaceAction="talk" amount="1" PatrolMode="1" RefreshTime="30" fOrg="2.505002" IsPersistent="1">
 		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
 	</Object>
-	<Object Guid="EC672A2AC8A64C2196CA25479A847A51" Desc="小女孩" NeedRotate="1" config="npc_zqm001_0126" x="-21.417458" y="2.283" z="13.894114" IsY="0" Radius="0" amount="1" PatrolMode="0" PatrolRange="1" RefreshTime="30" fOrg="0" IsPersistent="1">
+	<Object Guid="EC672A2AC8A64C2196CA25479A847A51" Desc="小女孩" NeedRotate="1" config="npc_GRZJ_0002" x="-21.417458" y="2.283" z="13.894114" IsY="0" Radius="0" amount="1" PatrolMode="0" PatrolRange="1" RefreshTime="30" fOrg="0" IsPersistent="1">
 		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
 	</Object>
-	<Object Guid="5EF515EBD63242908A6DF96952A3A70E" Desc="小女孩" NeedRotate="1" config="npc_zqm001_0126" x="58.424072" y="9.23127" z="62.337078" IsY="0" Radius="0" amount="1" PatrolMode="0" RefreshTime="30" fOrg="-0.283185" IsPersistent="1" PatrolRange="1">
+	<Object Guid="5EF515EBD63242908A6DF96952A3A70E" Desc="小女孩" NeedRotate="1" config="npc_GRZJ_0003" x="58.424072" y="9.23127" z="62.337078" IsY="0" Radius="0" amount="1" PatrolMode="0" RefreshTime="30" fOrg="-0.283185" IsPersistent="1" PatrolRange="1">
 		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
 	</Object>
 	<Object Guid="60A11B0077D64D1D9E1490C1B06EF4D2" Desc="居民" NeedRotate="1" config="npc_zqm001_0123" x="51.811348" y="9.23127" z="64.543526" IsY="0" Radius="0" amount="1" PatrolMode="1" RefreshTime="30" fOrg="0" IsPersistent="1">
 		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
 	</Object>
-	<Object Guid="57A12AFFB83D419687FFD63D6B954B92" Desc="小女孩" NeedRotate="1" config="npc_zqm001_0126" x="56.718555" y="9.23127" z="63.307068" IsY="0" Radius="0" amount="1" PatrolMode="1" RefreshTime="30" fOrg="2.180005" IsPersistent="1">
+	<Object Guid="57A12AFFB83D419687FFD63D6B954B92" Desc="小女孩" NeedRotate="1" config="npc_GRZJ_0008" x="56.718555" y="9.23127" z="63.307068" IsY="0" Radius="0" amount="1" PatrolMode="1" RefreshTime="30" fOrg="2.180005" IsPersistent="1">
 		<OrganData IsOrgan="" Controllers="" IniState="0" AutoResume="0" ResumeState="0" ResumeInterval="10" SpringMode="" ResponseMode="0"/>
 	</Object>
 	<Object Guid="9274420AD1E043DAAB76D781E4502392" Desc="居民" config="npc_zqm001_0123" x="30.435001" y="2.175592" z="13.254333" IsY="0" Radius="0" PeaceAction="pe_0h_talk" amount="1" PatrolMode="1" RefreshTime="30" fOrg="0" IsPersistent="1">
@@ -1188,7 +1188,7 @@
 	<Object Guid="3D4362C2CF43497A91374F4DD9ED8E20" Desc="肯_塔尔博特" NeedRotate="1" config="npc_zqm001_0185" x="84.228416" y="9.23127" z="69.782753" IsY="0" Radius="0" PatrolMode="1" amount="1" RefreshTime="30" fOrg="-1.283185" IsPersistent="0"/>
 	<Object Guid="4481372B3E3E4B93A447ED77F78F5218" Desc="宝格丽" NeedRotate="1" config="npc_zqm001_0186" x="47.986668" y="9.23127" z="64.679054" IsY="0" Radius="0" PatrolMode="1" amount="1" RefreshTime="30" fOrg="-0.283185" IsPersistent="0"/>
 	<Object Guid="DE0A7E26DB53444A87086EF52142B353" Desc="吉安妮妮" NeedRotate="1" config="npc_zqm001_0187" x="50.639668" y="9.23127" z="91.496407" IsY="0" Radius="0" PatrolMode="1" amount="1" RefreshTime="30" fOrg="3" IsPersistent="0"/>
-	<Object Guid="164A823151D54598A0A78CFF320A838B" Desc="卡尔_鲍林" NeedRotate="1" config="npc_zqm001_0188" x="74.291809" y="9.23127" z="88.995667" IsY="0" Radius="0" PatrolMode="" amount="1" RefreshTime="30" fOrg="-3.138" IsPersistent="0"/>
+	<Object Guid="164A823151D54598A0A78CFF320A838B" Desc="卡尔_鲍林" NeedRotate="1" config="npc_zqm003_0131" x="74.291809" y="9.23127" z="88.995667" IsY="0" Radius="0" PatrolMode="" amount="1" RefreshTime="30" fOrg="-3.138" IsPersistent="0"/>
 	<Object Guid="2B5F09691F694A85AD6F9A98167227A8" Desc="风景点" config="Organ_fjd_0001" x="-904.878296" y="-9.546489" z="-76.061859" IsY="0" Radius="0" amount="1" RefreshTime="30" fOrg="3.018181" IsPersistent="0">
 		<Event EventId="3" Processor="keweierjunfengjingdian1"/>
 	</Object>
@@ -1274,7 +1274,8 @@
 	<Object Guid="FDBD3EBB4281415188E6FD8BC71938C3" Desc="雷克斯·萨隆" config="monster_zqm001_0200" Layer="" MaxRefreshCount="" x="-252.562363" y="1.505039" z="-67.948425" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="6" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
 	<Object Guid="1BF84288316C42A9BDF4EBD94346A585" Desc="凯斯·费拉尔" config="npc_zqm001_357" Layer="" MaxRefreshCount="" x="-743.045959" y="3.701" z="3.6411" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID=" " LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
 	<Object Guid="654D83C0DEB148F99FC6E2EBF76C7654" Desc="双人吉普车" config="npc_zqm001_305" Layer="" MaxRefreshCount="" x="60.623486" y="2.173355" z="13.089026" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
-	<Object Guid="B0DBCD3F7D1A4AC4890C45B555C4E92D" Desc="小女孩" config="npc_zqm001_0126" Layer="" MaxRefreshCount="" x="81.353661" y="9.23127" z="77.489288" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="0" PatrolMode="0" PatrolRange="1" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="30" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="1"/>
+	<Object Guid="B0DBCD3F7D1A4AC4890C45B555C4E92D" Desc="小女孩sss" config="npc_zlm011_0135" Layer="" MaxRefreshCount="" x="81.353661" y="9.23127" z="77.489288" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="0" PatrolMode="0" PatrolRange="1" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="30" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="1"/>
+
 	<Object Guid="B40FBE3112A74F94B7C055CE5B4FF10D" Desc="居民" config="npc_zqm001_0122" Layer="" MaxRefreshCount="" x="-0.293405" y="2.173355" z="-104.903755" IsY="0" Radius="0" UseSuicideTime="" PeaceAction="" NeedRotate="1" PatrolMode="0" PatrolRange="4" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="30" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="1"/>
 	<Object Guid="2062B47697FE40048F9F543D787A93F4" Desc="莱茵哈特·德鲁斯" config="npc_zqm001_358" Layer="" MaxRefreshCount="" x="-471.200958" y="13.938338" z="715.217712" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>
 	<Object Guid="5AF1A07129204CB3B23AC5FD29D9DE6E" Desc="凯尔·司特" config="npc_zqm001_359" Layer="" MaxRefreshCount="" x="-451.280548" y="14.109939" z="736.70282" IsY="" Radius="" UseSuicideTime="" PeaceAction="" NeedRotate="" PatrolMode="0" PatrolRange="4" PathID="" amount="1" RefreshMode="" RefreshPointSet="" RefreshTime="" sx="" sy="" sz="" fOrg="0" RoadSignID="" LeaderNpcNo="" StartIndexNo="" IsPersistent="0"/>

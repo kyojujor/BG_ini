@@ -11,76 +11,76 @@
 -->
 <Object>
 	<Property ID="Level" LevelLimit="15"/>
-	<Property ID="CompoundEnchase_001" JewelDate="Baoshi_0001A,Baoshi_0001A1" JewelProb="1" JewelGrow="Baoshi_0002A" JewelNeed="3" JewelReturn="1" BlackGold="10"/>
-	<Property ID="CompoundEnchase_002" JewelDate="Baoshi_0002A,Baoshi_0002A1" JewelProb="0.91" JewelGrow="Baoshi_0003A" JewelNeed="3" JewelReturn="1" BlackGold="20"/>
-	<Property ID="CompoundEnchase_003" JewelDate="Baoshi_0003A,Baoshi_0003A1" JewelProb="0.8" JewelGrow="Baoshi_0004A" JewelNeed="3" JewelReturn="1" BlackGold="40"/>
-	<Property ID="CompoundEnchase_004" JewelDate="Baoshi_0004A,Baoshi_0004A1" JewelProb="0.7" JewelGrow="Baoshi_0005A" JewelNeed="3" JewelReturn="1" BlackGold="80"/>
-	<Property ID="CompoundEnchase_005" JewelDate="Baoshi_0005A,Baoshi_0005A1" JewelProb="0.55" JewelGrow="Baoshi_0006A" JewelNeed="3" JewelReturn="1" BlackGold="160"/>
-	<Property ID="CompoundEnchase_101" JewelDate="Baoshi_0006A,Baoshi_0006A1" JewelProb="0.3" JewelGrow="Baoshi_0007A" JewelNeed="3" JewelReturn="1" BlackGold="320"/>
-	<Property ID="CompoundEnchase_102" JewelDate="Baoshi_0007A,Baoshi_0007A1" JewelProb="0.2" JewelGrow="Baoshi_0008A" JewelNeed="3" JewelReturn="1" BlackGold="640"/>
+	<Property ID="CompoundEnchase_001" JewelDate="Baoshi_0001A,Baoshi_0001A1" JewelProb="1" JewelGrow="Baoshi_0002A" JewelNeed="3" JewelReturn="2" BlackGold="10"/>
+	<Property ID="CompoundEnchase_002" JewelDate="Baoshi_0002A,Baoshi_0002A1" JewelProb="0.91" JewelGrow="Baoshi_0003A" JewelNeed="3" JewelReturn="2" BlackGold="20"/>
+	<Property ID="CompoundEnchase_003" JewelDate="Baoshi_0003A,Baoshi_0003A1" JewelProb="0.8" JewelGrow="Baoshi_0004A" JewelNeed="3" JewelReturn="2" BlackGold="40"/>
+	<Property ID="CompoundEnchase_004" JewelDate="Baoshi_0004A,Baoshi_0004A1" JewelProb="0.7" JewelGrow="Baoshi_0005A" JewelNeed="3" JewelReturn="2" BlackGold="80"/>
+	<Property ID="CompoundEnchase_005" JewelDate="Baoshi_0005A,Baoshi_0005A1" JewelProb="0.55" JewelGrow="Baoshi_0006A" JewelNeed="3" JewelReturn="2" BlackGold="160"/>
+	<Property ID="CompoundEnchase_101" JewelDate="Baoshi_0006A,Baoshi_0006A1" JewelProb="0.3" JewelGrow="Baoshi_0007A" JewelNeed="3" JewelReturn="2" BlackGold="320"/>
+	<Property ID="CompoundEnchase_102" JewelDate="Baoshi_0007A,Baoshi_0007A1" JewelProb="0.2" JewelGrow="Baoshi_0008A" JewelNeed="3" JewelReturn="2" BlackGold="640"/>
 	
-	<Property ID="CompoundEnchase_008" JewelDate="Baoshi_0001B,Baoshi_0001B1" JewelProb="1" JewelGrow="Baoshi_0002B" JewelNeed="3" JewelReturn="1" BlackGold="10"/>
-	<Property ID="CompoundEnchase_009" JewelDate="Baoshi_0002B,Baoshi_0002B1" JewelProb="0.91" JewelGrow="Baoshi_0003B" JewelNeed="3" JewelReturn="1" BlackGold="20"/>
-	<Property ID="CompoundEnchase_010" JewelDate="Baoshi_0003B,Baoshi_0003B1" JewelProb="0.8" JewelGrow="Baoshi_0004B" JewelNeed="3" JewelReturn="1" BlackGold="40"/>
-	<Property ID="CompoundEnchase_011" JewelDate="Baoshi_0004B,Baoshi_0004B1" JewelProb="0.7" JewelGrow="Baoshi_0005B" JewelNeed="3" JewelReturn="1" BlackGold="80"/>
-	<Property ID="CompoundEnchase_012" JewelDate="Baoshi_0005B,Baoshi_0005B1" JewelProb="0.55" JewelGrow="Baoshi_0006B" JewelNeed="3" JewelReturn="1" BlackGold="160"/>
-	<Property ID="CompoundEnchase_103" JewelDate="Baoshi_0006B,Baoshi_0006B1" JewelProb="0.3" JewelGrow="Baoshi_0007B" JewelNeed="3" JewelReturn="1" BlackGold="320"/>
-	<Property ID="CompoundEnchase_104" JewelDate="Baoshi_0007B,Baoshi_0007B1" JewelProb="0.2" JewelGrow="Baoshi_0008B" JewelNeed="3" JewelReturn="1" BlackGold="640"/>
+	<Property ID="CompoundEnchase_008" JewelDate="Baoshi_0001B,Baoshi_0001B1" JewelProb="1" JewelGrow="Baoshi_0002B" JewelNeed="3" JewelReturn="2" BlackGold="10"/>
+	<Property ID="CompoundEnchase_009" JewelDate="Baoshi_0002B,Baoshi_0002B1" JewelProb="0.91" JewelGrow="Baoshi_0003B" JewelNeed="3" JewelReturn="2" BlackGold="20"/>
+	<Property ID="CompoundEnchase_010" JewelDate="Baoshi_0003B,Baoshi_0003B1" JewelProb="0.8" JewelGrow="Baoshi_0004B" JewelNeed="3" JewelReturn="2" BlackGold="40"/>
+	<Property ID="CompoundEnchase_011" JewelDate="Baoshi_0004B,Baoshi_0004B1" JewelProb="0.7" JewelGrow="Baoshi_0005B" JewelNeed="3" JewelReturn="2" BlackGold="80"/>
+	<Property ID="CompoundEnchase_012" JewelDate="Baoshi_0005B,Baoshi_0005B1" JewelProb="0.55" JewelGrow="Baoshi_0006B" JewelNeed="3" JewelReturn="2" BlackGold="160"/>
+	<Property ID="CompoundEnchase_103" JewelDate="Baoshi_0006B,Baoshi_0006B1" JewelProb="0.3" JewelGrow="Baoshi_0007B" JewelNeed="3" JewelReturn="2" BlackGold="320"/>
+	<Property ID="CompoundEnchase_104" JewelDate="Baoshi_0007B,Baoshi_0007B1" JewelProb="0.2" JewelGrow="Baoshi_0008B" JewelNeed="3" JewelReturn="2" BlackGold="640"/>
 	
 	
-	<Property ID="CompoundEnchase_015" JewelDate="Baoshi_0001C,Baoshi_0001C1" JewelProb="1" JewelGrow="Baoshi_0002C" JewelNeed="3" JewelReturn="1" BlackGold="10"/>
-	<Property ID="CompoundEnchase_016" JewelDate="Baoshi_0002C,Baoshi_0002C1" JewelProb="0.91" JewelGrow="Baoshi_0003C" JewelNeed="3" JewelReturn="1" BlackGold="20"/>
-	<Property ID="CompoundEnchase_017" JewelDate="Baoshi_0003C,Baoshi_0003C1" JewelProb="0.8" JewelGrow="Baoshi_0004C" JewelNeed="3" JewelReturn="1" BlackGold="40"/>
-	<Property ID="CompoundEnchase_018" JewelDate="Baoshi_0004C,Baoshi_0004C1" JewelProb="0.7" JewelGrow="Baoshi_0005C" JewelNeed="3" JewelReturn="1" BlackGold="80"/>
-	<Property ID="CompoundEnchase_019" JewelDate="Baoshi_0005C,Baoshi_0005C1" JewelProb="0.55" JewelGrow="Baoshi_0006C" JewelNeed="3" JewelReturn="1" BlackGold="160"/>
-	<Property ID="CompoundEnchase_105" JewelDate="Baoshi_0006C,Baoshi_0006C1" JewelProb="0.3" JewelGrow="Baoshi_0007C" JewelNeed="3" JewelReturn="1" BlackGold="320"/>
-	<Property ID="CompoundEnchase_106" JewelDate="Baoshi_0007C,Baoshi_0007C1" JewelProb="0.2" JewelGrow="Baoshi_0008C" JewelNeed="3" JewelReturn="1" BlackGold="640"/>
+	<Property ID="CompoundEnchase_015" JewelDate="Baoshi_0001C,Baoshi_0001C1" JewelProb="1" JewelGrow="Baoshi_0002C" JewelNeed="3" JewelReturn="2" BlackGold="10"/>
+	<Property ID="CompoundEnchase_016" JewelDate="Baoshi_0002C,Baoshi_0002C1" JewelProb="0.91" JewelGrow="Baoshi_0003C" JewelNeed="3" JewelReturn="2" BlackGold="20"/>
+	<Property ID="CompoundEnchase_017" JewelDate="Baoshi_0003C,Baoshi_0003C1" JewelProb="0.8" JewelGrow="Baoshi_0004C" JewelNeed="3" JewelReturn="2" BlackGold="40"/>
+	<Property ID="CompoundEnchase_018" JewelDate="Baoshi_0004C,Baoshi_0004C1" JewelProb="0.7" JewelGrow="Baoshi_0005C" JewelNeed="3" JewelReturn="2" BlackGold="80"/>
+	<Property ID="CompoundEnchase_019" JewelDate="Baoshi_0005C,Baoshi_0005C1" JewelProb="0.55" JewelGrow="Baoshi_0006C" JewelNeed="3" JewelReturn="2" BlackGold="160"/>
+	<Property ID="CompoundEnchase_105" JewelDate="Baoshi_0006C,Baoshi_0006C1" JewelProb="0.3" JewelGrow="Baoshi_0007C" JewelNeed="3" JewelReturn="2" BlackGold="320"/>
+	<Property ID="CompoundEnchase_106" JewelDate="Baoshi_0007C,Baoshi_0007C1" JewelProb="0.2" JewelGrow="Baoshi_0008C" JewelNeed="3" JewelReturn="2" BlackGold="640"/>
 	
-	<Property ID="CompoundEnchase_022" JewelDate="Baoshi_0001D,Baoshi_0001D1" JewelProb="1" JewelGrow="Baoshi_0002D" JewelNeed="3" JewelReturn="1" BlackGold="10"/>
-	<Property ID="CompoundEnchase_023" JewelDate="Baoshi_0002D,Baoshi_0002D1" JewelProb="0.91" JewelGrow="Baoshi_0003D" JewelNeed="3" JewelReturn="1" BlackGold="20"/>
-	<Property ID="CompoundEnchase_024" JewelDate="Baoshi_0003D,Baoshi_0003D1" JewelProb="0.8" JewelGrow="Baoshi_0004D" JewelNeed="3" JewelReturn="1" BlackGold="40"/>
-	<Property ID="CompoundEnchase_025" JewelDate="Baoshi_0004D,Baoshi_0004D1" JewelProb="0.7" JewelGrow="Baoshi_0005D" JewelNeed="3" JewelReturn="1" BlackGold="80"/>
-	<Property ID="CompoundEnchase_026" JewelDate="Baoshi_0005D,Baoshi_0005D1" JewelProb="0.55" JewelGrow="Baoshi_0006D" JewelNeed="3" JewelReturn="1" BlackGold="160"/>
-	<Property ID="CompoundEnchase_107" JewelDate="Baoshi_0006D,Baoshi_0006D1" JewelProb="0.3" JewelGrow="Baoshi_0007D" JewelNeed="3" JewelReturn="1" BlackGold="320"/>
-	<Property ID="CompoundEnchase_108" JewelDate="Baoshi_0007D,Baoshi_0007D1" JewelProb="0.2" JewelGrow="Baoshi_0008D" JewelNeed="3" JewelReturn="1" BlackGold="640"/>
+	<Property ID="CompoundEnchase_022" JewelDate="Baoshi_0001D,Baoshi_0001D1" JewelProb="1" JewelGrow="Baoshi_0002D" JewelNeed="3" JewelReturn="2" BlackGold="10"/>
+	<Property ID="CompoundEnchase_023" JewelDate="Baoshi_0002D,Baoshi_0002D1" JewelProb="0.91" JewelGrow="Baoshi_0003D" JewelNeed="3" JewelReturn="2" BlackGold="20"/>
+	<Property ID="CompoundEnchase_024" JewelDate="Baoshi_0003D,Baoshi_0003D1" JewelProb="0.8" JewelGrow="Baoshi_0004D" JewelNeed="3" JewelReturn="2" BlackGold="40"/>
+	<Property ID="CompoundEnchase_025" JewelDate="Baoshi_0004D,Baoshi_0004D1" JewelProb="0.7" JewelGrow="Baoshi_0005D" JewelNeed="3" JewelReturn="2" BlackGold="80"/>
+	<Property ID="CompoundEnchase_026" JewelDate="Baoshi_0005D,Baoshi_0005D1" JewelProb="0.55" JewelGrow="Baoshi_0006D" JewelNeed="3" JewelReturn="2" BlackGold="160"/>
+	<Property ID="CompoundEnchase_107" JewelDate="Baoshi_0006D,Baoshi_0006D1" JewelProb="0.3" JewelGrow="Baoshi_0007D" JewelNeed="3" JewelReturn="2" BlackGold="320"/>
+	<Property ID="CompoundEnchase_108" JewelDate="Baoshi_0007D,Baoshi_0007D1" JewelProb="0.2" JewelGrow="Baoshi_0008D" JewelNeed="3" JewelReturn="2" BlackGold="640"/>
 	
-	<Property ID="CompoundEnchase_029" JewelDate="Baoshi_0001A1" JewelProb="1" JewelGrow="Baoshi_0002A" JewelNeed="3" JewelReturn="1" BlackGold="10"/>
-	<Property ID="CompoundEnchase_030" JewelDate="Baoshi_0002A1" JewelProb="0.91" JewelGrow="Baoshi_0003A" JewelNeed="3" JewelReturn="1" BlackGold="20"/>
-	<Property ID="CompoundEnchase_031" JewelDate="Baoshi_0003A1" JewelProb="0.8" JewelGrow="Baoshi_0004A" JewelNeed="3" JewelReturn="1" BlackGold="40"/>
-	<Property ID="CompoundEnchase_032" JewelDate="Baoshi_0004A1" JewelProb="0.7" JewelGrow="Baoshi_0005A" JewelNeed="3" JewelReturn="1" BlackGold="80"/>
-	<Property ID="CompoundEnchase_033" JewelDate="Baoshi_0005A1" JewelProb="0.55" JewelGrow="Baoshi_0006A" JewelNeed="3" JewelReturn="1" BlackGold="160"/>
-	<Property ID="CompoundEnchase_109" JewelDate="Baoshi_0006A1" JewelProb="0.3" JewelGrow="Baoshi_0007A" JewelNeed="3" JewelReturn="1" BlackGold="320"/>
-	<Property ID="CompoundEnchase_110" JewelDate="Baoshi_0007A1" JewelProb="0.2" JewelGrow="Baoshi_0008A" JewelNeed="3" JewelReturn="1" BlackGold="640"/>
+	<Property ID="CompoundEnchase_029" JewelDate="Baoshi_0001A1" JewelProb="1" JewelGrow="Baoshi_0002A" JewelNeed="3" JewelReturn="2" BlackGold="10"/>
+	<Property ID="CompoundEnchase_030" JewelDate="Baoshi_0002A1" JewelProb="0.91" JewelGrow="Baoshi_0003A" JewelNeed="3" JewelReturn="2" BlackGold="20"/>
+	<Property ID="CompoundEnchase_031" JewelDate="Baoshi_0003A1" JewelProb="0.8" JewelGrow="Baoshi_0004A" JewelNeed="3" JewelReturn="2" BlackGold="40"/>
+	<Property ID="CompoundEnchase_032" JewelDate="Baoshi_0004A1" JewelProb="0.7" JewelGrow="Baoshi_0005A" JewelNeed="3" JewelReturn="2" BlackGold="80"/>
+	<Property ID="CompoundEnchase_033" JewelDate="Baoshi_0005A1" JewelProb="0.55" JewelGrow="Baoshi_0006A" JewelNeed="3" JewelReturn="2" BlackGold="160"/>
+	<Property ID="CompoundEnchase_109" JewelDate="Baoshi_0006A1" JewelProb="0.3" JewelGrow="Baoshi_0007A" JewelNeed="3" JewelReturn="2" BlackGold="320"/>
+	<Property ID="CompoundEnchase_110" JewelDate="Baoshi_0007A1" JewelProb="0.2" JewelGrow="Baoshi_0008A" JewelNeed="3" JewelReturn="2" BlackGold="640"/>
 	
-	<Property ID="CompoundEnchase_036" JewelDate="Baoshi_0001B1" JewelProb="1" JewelGrow="Baoshi_0002B" JewelNeed="3" JewelReturn="1" BlackGold="10"/>
-	<Property ID="CompoundEnchase_037" JewelDate="Baoshi_0002B1" JewelProb="0.91" JewelGrow="Baoshi_0003B" JewelNeed="3" JewelReturn="1" BlackGold="20"/>
-	<Property ID="CompoundEnchase_038" JewelDate="Baoshi_0003B1" JewelProb="0.8" JewelGrow="Baoshi_0004B" JewelNeed="3" JewelReturn="1" BlackGold="40"/>
-	<Property ID="CompoundEnchase_039" JewelDate="Baoshi_0004B1" JewelProb="0.7" JewelGrow="Baoshi_0005B" JewelNeed="3" JewelReturn="1" BlackGold="80"/>
-	<Property ID="CompoundEnchase_040" JewelDate="Baoshi_0005B1" JewelProb="0.55" JewelGrow="Baoshi_0006B" JewelNeed="3" JewelReturn="1" BlackGold="160"/>
-	<Property ID="CompoundEnchase_111" JewelDate="Baoshi_0006B1" JewelProb="0.3" JewelGrow="Baoshi_0007B" JewelNeed="3" JewelReturn="1" BlackGold="320"/>
-	<Property ID="CompoundEnchase_112" JewelDate="Baoshi_0007B1" JewelProb="0.2" JewelGrow="Baoshi_0008B" JewelNeed="3" JewelReturn="1" BlackGold="640"/>
+	<Property ID="CompoundEnchase_036" JewelDate="Baoshi_0001B1" JewelProb="1" JewelGrow="Baoshi_0002B" JewelNeed="3" JewelReturn="2" BlackGold="10"/>
+	<Property ID="CompoundEnchase_037" JewelDate="Baoshi_0002B1" JewelProb="0.91" JewelGrow="Baoshi_0003B" JewelNeed="3" JewelReturn="2" BlackGold="20"/>
+	<Property ID="CompoundEnchase_038" JewelDate="Baoshi_0003B1" JewelProb="0.8" JewelGrow="Baoshi_0004B" JewelNeed="3" JewelReturn="2" BlackGold="40"/>
+	<Property ID="CompoundEnchase_039" JewelDate="Baoshi_0004B1" JewelProb="0.7" JewelGrow="Baoshi_0005B" JewelNeed="3" JewelReturn="2" BlackGold="80"/>
+	<Property ID="CompoundEnchase_040" JewelDate="Baoshi_0005B1" JewelProb="0.55" JewelGrow="Baoshi_0006B" JewelNeed="3" JewelReturn="2" BlackGold="160"/>
+	<Property ID="CompoundEnchase_111" JewelDate="Baoshi_0006B1" JewelProb="0.3" JewelGrow="Baoshi_0007B" JewelNeed="3" JewelReturn="2" BlackGold="320"/>
+	<Property ID="CompoundEnchase_112" JewelDate="Baoshi_0007B1" JewelProb="0.2" JewelGrow="Baoshi_0008B" JewelNeed="3" JewelReturn="2" BlackGold="640"/>
 	
-	<Property ID="CompoundEnchase_043" JewelDate="Baoshi_0001C1" JewelProb="1" JewelGrow="Baoshi_0002C" JewelNeed="3" JewelReturn="1" BlackGold="10"/>
-	<Property ID="CompoundEnchase_044" JewelDate="Baoshi_0002C1" JewelProb="0.91" JewelGrow="Baoshi_0003C" JewelNeed="3" JewelReturn="1" BlackGold="20"/>
-	<Property ID="CompoundEnchase_045" JewelDate="Baoshi_0003C1" JewelProb="0.8" JewelGrow="Baoshi_0004C" JewelNeed="3" JewelReturn="1" BlackGold="40"/>
-	<Property ID="CompoundEnchase_046" JewelDate="Baoshi_0004C1" JewelProb="0.7" JewelGrow="Baoshi_0005C" JewelNeed="3" JewelReturn="1" BlackGold="80"/>
-	<Property ID="CompoundEnchase_047" JewelDate="Baoshi_0005C1" JewelProb="0.55" JewelGrow="Baoshi_0006C" JewelNeed="3" JewelReturn="1" BlackGold="160"/>
-	<Property ID="CompoundEnchase_113" JewelDate="Baoshi_0006C1" JewelProb="0.3" JewelGrow="Baoshi_0007C" JewelNeed="3" JewelReturn="1" BlackGold="320"/>
-	<Property ID="CompoundEnchase_114" JewelDate="Baoshi_0007C1" JewelProb="0.2" JewelGrow="Baoshi_0008C" JewelNeed="3" JewelReturn="1" BlackGold="640"/>
+	<Property ID="CompoundEnchase_043" JewelDate="Baoshi_0001C1" JewelProb="1" JewelGrow="Baoshi_0002C" JewelNeed="3" JewelReturn="2" BlackGold="10"/>
+	<Property ID="CompoundEnchase_044" JewelDate="Baoshi_0002C1" JewelProb="0.91" JewelGrow="Baoshi_0003C" JewelNeed="3" JewelReturn="2" BlackGold="20"/>
+	<Property ID="CompoundEnchase_045" JewelDate="Baoshi_0003C1" JewelProb="0.8" JewelGrow="Baoshi_0004C" JewelNeed="3" JewelReturn="2" BlackGold="40"/>
+	<Property ID="CompoundEnchase_046" JewelDate="Baoshi_0004C1" JewelProb="0.7" JewelGrow="Baoshi_0005C" JewelNeed="3" JewelReturn="2" BlackGold="80"/>
+	<Property ID="CompoundEnchase_047" JewelDate="Baoshi_0005C1" JewelProb="0.55" JewelGrow="Baoshi_0006C" JewelNeed="3" JewelReturn="2" BlackGold="160"/>
+	<Property ID="CompoundEnchase_113" JewelDate="Baoshi_0006C1" JewelProb="0.3" JewelGrow="Baoshi_0007C" JewelNeed="3" JewelReturn="2" BlackGold="320"/>
+	<Property ID="CompoundEnchase_114" JewelDate="Baoshi_0007C1" JewelProb="0.2" JewelGrow="Baoshi_0008C" JewelNeed="3" JewelReturn="2" BlackGold="640"/>
 	
-	<Property ID="CompoundEnchase_050" JewelDate="Baoshi_0001D1" JewelProb="1" JewelGrow="Baoshi_0002D" JewelNeed="3" JewelReturn="1" BlackGold="10"/>
-	<Property ID="CompoundEnchase_051" JewelDate="Baoshi_0002D1" JewelProb="0.91" JewelGrow="Baoshi_0003D" JewelNeed="3" JewelReturn="1" BlackGold="20"/>
-	<Property ID="CompoundEnchase_052" JewelDate="Baoshi_0003D1" JewelProb="0.8" JewelGrow="Baoshi_0004D" JewelNeed="3" JewelReturn="1" BlackGold="40"/>
-	<Property ID="CompoundEnchase_053" JewelDate="Baoshi_0004D1" JewelProb="0.7" JewelGrow="Baoshi_0005D" JewelNeed="3" JewelReturn="1" BlackGold="80"/>
-	<Property ID="CompoundEnchase_054" JewelDate="Baoshi_0005D1" JewelProb="0.55" JewelGrow="Baoshi_0006D" JewelNeed="3" JewelReturn="1" BlackGold="160"/>
-	<Property ID="CompoundEnchase_115" JewelDate="Baoshi_0006D1" JewelProb="0.3" JewelGrow="Baoshi_0007D" JewelNeed="3" JewelReturn="1" BlackGold="320"/>
-	<Property ID="CompoundEnchase_116" JewelDate="Baoshi_0007D1" JewelProb="0.2" JewelGrow="Baoshi_0008D" JewelNeed="3" JewelReturn="1" BlackGold="640"/>
+	<Property ID="CompoundEnchase_050" JewelDate="Baoshi_0001D1" JewelProb="1" JewelGrow="Baoshi_0002D" JewelNeed="3" JewelReturn="2" BlackGold="10"/>
+	<Property ID="CompoundEnchase_051" JewelDate="Baoshi_0002D1" JewelProb="0.91" JewelGrow="Baoshi_0003D" JewelNeed="3" JewelReturn="2" BlackGold="20"/>
+	<Property ID="CompoundEnchase_052" JewelDate="Baoshi_0003D1" JewelProb="0.8" JewelGrow="Baoshi_0004D" JewelNeed="3" JewelReturn="2" BlackGold="40"/>
+	<Property ID="CompoundEnchase_053" JewelDate="Baoshi_0004D1" JewelProb="0.7" JewelGrow="Baoshi_0005D" JewelNeed="3" JewelReturn="2" BlackGold="80"/>
+	<Property ID="CompoundEnchase_054" JewelDate="Baoshi_0005D1" JewelProb="0.55" JewelGrow="Baoshi_0006D" JewelNeed="3" JewelReturn="2" BlackGold="160"/>
+	<Property ID="CompoundEnchase_115" JewelDate="Baoshi_0006D1" JewelProb="0.3" JewelGrow="Baoshi_0007D" JewelNeed="3" JewelReturn="2" BlackGold="320"/>
+	<Property ID="CompoundEnchase_116" JewelDate="Baoshi_0007D1" JewelProb="0.2" JewelGrow="Baoshi_0008D" JewelNeed="3" JewelReturn="2" BlackGold="640"/>
 	
-	<Property ID="CompoundEnchase_057" JewelDate="Baoshi_0001E" JewelProb="1" JewelGrow="Baoshi_0002E" JewelNeed="3" JewelReturn="1" BlackGold="10"/>
-	<Property ID="CompoundEnchase_058" JewelDate="Baoshi_0002E" JewelProb="0.91" JewelGrow="Baoshi_0003E" JewelNeed="3" JewelReturn="1" BlackGold="20"/>
-	<Property ID="CompoundEnchase_059" JewelDate="Baoshi_0003E" JewelProb="0.8" JewelGrow="Baoshi_0004E" JewelNeed="3" JewelReturn="1" BlackGold="40"/>
-	<Property ID="CompoundEnchase_060" JewelDate="Baoshi_0004E" JewelProb="0.7" JewelGrow="Baoshi_0005E" JewelNeed="3" JewelReturn="1" BlackGold="80"/>
-	<Property ID="CompoundEnchase_061" JewelDate="Baoshi_0005E" JewelProb="0.55" JewelGrow="Baoshi_0006E" JewelNeed="3" JewelReturn="1" BlackGold="160"/>
-	<Property ID="CompoundEnchase_117" JewelDate="Baoshi_0006E" JewelProb="0.3" JewelGrow="Baoshi_0007E" JewelNeed="3" JewelReturn="1" BlackGold="320"/>
-	<Property ID="CompoundEnchase_118" JewelDate="Baoshi_0007E" JewelProb="0.2" JewelGrow="Baoshi_0008E" JewelNeed="3" JewelReturn="1" BlackGold="640"/>
+	<Property ID="CompoundEnchase_057" JewelDate="Baoshi_0001E" JewelProb="1" JewelGrow="Baoshi_0002E" JewelNeed="3" JewelReturn="2" BlackGold="10"/>
+	<Property ID="CompoundEnchase_058" JewelDate="Baoshi_0002E" JewelProb="0.91" JewelGrow="Baoshi_0003E" JewelNeed="3" JewelReturn="2" BlackGold="20"/>
+	<Property ID="CompoundEnchase_059" JewelDate="Baoshi_0003E" JewelProb="0.8" JewelGrow="Baoshi_0004E" JewelNeed="3" JewelReturn="2" BlackGold="40"/>
+	<Property ID="CompoundEnchase_060" JewelDate="Baoshi_0004E" JewelProb="0.7" JewelGrow="Baoshi_0005E" JewelNeed="3" JewelReturn="2" BlackGold="80"/>
+	<Property ID="CompoundEnchase_061" JewelDate="Baoshi_0005E" JewelProb="0.55" JewelGrow="Baoshi_0006E" JewelNeed="3" JewelReturn="2" BlackGold="160"/>
+	<Property ID="CompoundEnchase_117" JewelDate="Baoshi_0006E" JewelProb="0.3" JewelGrow="Baoshi_0007E" JewelNeed="3" JewelReturn="2" BlackGold="320"/>
+	<Property ID="CompoundEnchase_118" JewelDate="Baoshi_0007E" JewelProb="0.2" JewelGrow="Baoshi_0008E" JewelNeed="3" JewelReturn="2" BlackGold="640"/>
 </Object>

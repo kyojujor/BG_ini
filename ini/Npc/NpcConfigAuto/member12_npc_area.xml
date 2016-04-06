@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312"?>
+<Object>
+	<Property ID="area_npc_001" NpcType="125" Resource="npc\jt_lupai01_01" Fixed="1" script="AreaNpc" CollideShape="1" CollideHeight="1.0" InVisible="0" CollideRadius="1.0" NoCollide="2"/>
+	<Property ID="area_npc_002" NpcType="125" Resource="npc\jt_lupai01_01" Fixed="1" script="AreaNpc" CollideShape="1" CollideHeight="1.0" InVisible="1" CollideRadius="1.0" NoCollide="2"/>
+	<Property ID="Organ_ceshi_001" NpcType="163" Name="Organ_zlm002_0013" Resource="Npc\Trigger_Npc_0045" InVisible="1" CantShowHeadInfo="1" SpringType="3" SpringRange="20" CantBeAttack="1" script="HiddenNpc" BeatBackType="1"/>
+</Object>
+
