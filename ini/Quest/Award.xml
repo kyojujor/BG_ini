@@ -906,8 +906,8 @@
 	<Property ID="10058" Name="赤铁与坚铜" Kind="3" Exp="15759" Money="262"/>
 	<Property ID="10059" Name="汇报要塞" Kind="3" Exp="11677" Money="209"/>
 	<Property ID="4146" Name="一劳永逸" Kind="1" Exp="1500" Money="30" SelectItemList="Rw_Sword_0001A,1;Rw_Staff_0001A,1"/>
-	<Property ID="10130" Name="余晖洞穴的麻烦" Kind="30" Exp="540" Money="23" DefaultItemList="Crystal_A00001A,10;EnergySheild_04,1"/>
-	<Property ID="4147" Name="全面战争" Kind="1" Exp="116956" Money="993" DefaultItemList="Crystal_A00001A,10;EnergySheild_04,1"/>
+	<Property ID="10130" Name="余晖洞穴的麻烦" Kind="30" Exp="1000000" Money="50000" DefaultItemList="EnergySheild_09,1" SelectItemList="XINBIN_1,1;XINBIN_2,1;XINBIN_3,1;XINBIN_4,1;XINBIN_5,1;XINBIN_6,1;XINBIN_7,1"/>
+	<Property ID="4147" Name="全面战争" Kind="1" Exp="1000000" Money="50000" DefaultItemList="EnergySheild_09,1" SelectItemList="XINBIN_1,1;XINBIN_2,1;XINBIN_3,1;XINBIN_4,1;XINBIN_5,1;XINBIN_6,1;XINBIN_7,1"/>
 	<Property ID="10076" Name="远古恶魔" Kind="3" Exp="1440" Money="160"/>
 	<Property ID="10077" Name="阻断援军" Kind="3" Exp="111518" Money="772" SelectItemList="Rw_Ring_0001A,1;Rw_Ring_0002A,1"/>
 	<Property ID="10078" Name="科威尔郡" Kind="1" Exp="11100" Money="275" DefaultItemList="Crystal_A00001A,10;EnergySheild_04,1"/>
@@ -1278,7 +1278,7 @@
 	<Property ID="3007" Name="夺回工厂" Kind="3" Exp="12239" Money="467"/>
 	<Property ID="3008" Name="回报哨站" Kind="3" Exp="13269" Money="689"/>
 	<Property ID="3009" Name="厄运试炼场" Kind="3" Exp="13169" Money="588"/>
-	<Property ID="4177" Name="全面战争" Kind="1" Exp="126956" Money="993"/>
+	<Property ID="4177" Name="全面战争" Kind="1" Exp="1000000" Money="50000" DefaultItemList="EnergySheild_09,1" SelectItemList="XINBIN_1,1;XINBIN_2,1;XINBIN_3,1;XINBIN_4,1;XINBIN_5,1;XINBIN_6,1;XINBIN_7,1"/>
 	<Property ID="501" Name="新兵训话" Kind="14" Exp="1230" Money="11" SelectItemList="BG_NEW_QH_ZS,1;BG_NEW_QH_FS,1"/>
 	<Property ID="502" Name="试炼之始" Kind="14" Exp="1238" Money="22"/>
 	<Property ID="503" Name="实力考验" Kind="14" Exp="1820" Money="50" DefaultItemList="add_depot3,1"/>
@@ -1360,7 +1360,7 @@
 	<Property ID="4181" Name="偷袭" Kind="1" Exp="10" Money="0"/>
 	<Property ID="4182" Name="追击" Kind="1" Exp="10" Money="0"/>
 	<Property ID="4183" Name="终末" Kind="1" Exp="10" Money="0"/>
-	<Property ID="4184" Name="肃清" Kind="1" Exp="18300" Money="0"/>
+	<Property ID="4184" Name="肃清" Kind="1" Exp="1000000" Money="50000" SelectItemList="FZ1_Sword_00030D,1;FZ1_Claymore_00030D,1;FZ1_Dagger_00030D,1;FZ1_Shield_00030D,1;FZ1_Runewand_00030D,1;FZ1_Staff_00030D,1;FZ1_Poleaxe_00030D,1;FZ1_Gun_00030D,1;FZ1_Magicbottle_00030D,1"/>
 	<Property ID="6804" Name="末日帮凶" Kind="26" Exp="14000" Money="2000"/>
 	<Property ID="6801" Name="飓风营救" Kind="26" Exp="14000" Money="2000"/>
 	<Property ID="6802" Name="寻找母亲" Kind="26" Exp="2000" Money="0"/>
@@ -1368,9 +1368,9 @@
 	<Property ID="316" Name="战场指引" Kind="14" Exp="16000" Money="50" DefaultItemList="DKDJ_001,7"/>
 	<Property ID="317" Name="战场指引" Kind="15" Exp="16000" Money="50" DefaultItemList="DKDJ_001,7"/>
 	<Property ID="4185" Name="战场指引" Kind="1" Exp="16000" Money="50" DefaultItemList="DKDJ_001,7"/>
-	<Property ID="7500" Name="复仇者的希望" Kind="58" Exp="26291" Money="2598"/>
+	<Property ID="7500" Name="复仇者的希望" Kind="58" Exp="1200000" Money="100000"/>
 	<Property ID="7501" Name="复仇者的希望" Kind="58" Exp="27765" Money="2598"/>
-	<Property ID="7502" Name="倒霉的复仇者" Kind="58" Exp="28765" Money="5198"/>
+	<Property ID="7502" Name="倒霉的复仇者" Kind="58" Exp="1200000" Money="100000"/>
 	<Property ID="91" Name="帮助大兵纳恩" Kind="14" Exp="13670" Money="1004"/>
 	<Property ID="4999" Name="死亡狙击" Kind="1" Exp="118570" Money="1240" RenownList="10001,250" DefaultItemList="mjd_001,2"/>
 	<Property ID="4998" Name="防范匪人" Kind="1" Exp="118570" Money="1240" RenownList="10001,250" DefaultItemList="mjd_001,1"/>
@@ -1558,7 +1558,7 @@
 	<Property ID="7115" Name="阵营的仇敌" Kind="14" Exp="126800" Money="1116" DefaultItemList="ZJ_ALL_0002,5" RenownList="10002,375"/>
 	<Property ID="708" Name="曙光的骄傲" Kind="14" Exp="1297" Money="33"/>
 	<Property ID="901" Name="宿敌" Kind="7" Exp="7071" Money="1862"/>
-	<Property ID="902" Name="真相" Kind="7" Exp="10734" Money="1862"/>
+	<Property ID="902" Name="真相" Kind="7" Exp="1000000" Money="50000" SelectItemList="FZ1_Sword_00030D,1;FZ1_Claymore_00030D,1;FZ1_Dagger_00030D,1;FZ1_Shield_00030D,1;FZ1_Runewand_00030D,1;FZ1_Staff_00030D,1;FZ1_Poleaxe_00030D,1;FZ1_Gun_00030D,1;FZ1_Magicbottle_00030D,1"/>
 	<Property ID="903" Name="安慰的话语" Kind="7" Exp="3578" Money="1242"/>
 	<Property ID="904" Name="先锋哨站的异动" Kind="7" Exp="8285" Money="1862"/>
 	<Property ID="906" Name="银鳞祭司" Kind="7" Exp="6129" Money="1245"/>
